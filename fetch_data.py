@@ -1,0 +1,216 @@
+import json
+import requests
+import datetime
+import os
+import gzip
+
+from constants import Constants as C
+
+def add_if_exists(original: dict, filtered: dict, field: str, default=None):
+    val = original.get(field)
+    if val is not None:
+        filtered[field] = val
+    elif default is not None:
+        filtered[field] = default
+
+def get_and_decompress(link):
+    headers = {"User-Agent": "MTG Query 0.1"}
+
+    # Fetch download link, then download the actual data
+    r = requests.get(link, headers=headers)
+    r = requests.get(r.json()["jsonl_download_uri"], headers=headers)
+
+    # Decompress and decode
+    content = gzip.decompress(r.content).decode()
+
+    # Convert from JSON Lines to List of JSON
+    return [json.loads(line) for line in content.split("\n")[:-1]]
+
+def clean_card_db(original_db):
+    clean_db = []
+    for card in original_db:
+        # Ignore digital-only cards
+        if "paper" not in card["games"]:
+            continue
+    
+        # Ignore card objects that do not go into your deck
+        layout = card["layout"]
+        if layout in ["planar", "scheme", "vanguard", "token", "double_faced_token", "emblem", "art_series"]:
+            continue
+    
+        # Ignore playtest cards
+        promo_types = card.get("promo_types")
+        if promo_types is not None and "playtest" in promo_types:
+            continue
+    
+        # Ignore unset cards
+        if card["set_type"] == "funny":
+            continue
+    
+        # Ignore helper card objects for specific events/cards
+        # (e.g dungeons, Theros Hero's Path)
+        if card["set_type"] == "memorabilia":
+            continue
+   
+        # Attributes present in every card
+        d = {
+            "name": card["name"],
+            "layout": card["layout"],
+            "cmc": card["cmc"],
+            "color_identity": card["color_identity"],
+            "keywords": card["keywords"],
+            "rarity": card["rarity"],
+            "type_line": card["type_line"].lower(),
+            "oracle_tags": card["oracle_tags"]
+        }
+    
+        # Add price attribute. Prefer EUR values over USD
+        if card["prices"]["eur"] is not None:
+            d["price"] = float(card["prices"]["eur"])
+        elif card["prices"]["usd"] is not None:
+            d["price"] = float(card["prices"]["usd"])
+        elif card["prices"]["eur_foil"] is not None:
+            d["price"] = float(card["prices"]["eur_foil"])
+        elif card["prices"]["usd_foil"] is not None:
+            d["price"] = float(card["prices"]["usd_foil"])
+        else:
+            d["price"] = 0.0
+        
+        # Attributes that may not exist depending
+        # (e.g only creatures have power/toughness)
+        for field in [
+            "colors",
+            "oracle_text",
+            "mana_cost",
+            "power",
+            "toughness",
+            "loyalty",
+            "produced_mana",
+        ]:
+            add_if_exists(card, d, field)
+    
+        # EDHREC Rank is used to sort results, so I want the field to always be present
+        add_if_exists(card, d, "edhrec_rank", 99999)
+    
+        # Add card faces
+        card_faces = card.get("card_faces")
+        if card_faces is not None:
+            d["card_faces"] = []
+            for cf in card_faces:
+                cur_face = {
+                    "name": cf["name"],
+                    "mana_cost": cf["mana_cost"],
+                    "oracle_text": cf["oracle_text"]
+                }
+                add_if_exists(cf, cur_face, "power")
+                add_if_exists(cf, cur_face, "toughness")
+                add_if_exists(cf, cur_face, "color")
+    
+                d["card_faces"].append(cur_face)
+        
+        clean_db.append(d)
+    return clean_db
+
+def clean_tags_dict(d: dict) -> dict:
+    """
+    Given the 'oracle-tag': 'description' dictionary, remove three types of keys:
+    a) tags not needed for the physical game (seek, conjure)
+    b) tags unlikely to be searched ('cycles' of cards in each set which account for close to ~30% of the otags in scryfall,
+    tags about creatures that have type errata)
+    c) tags which which will be handled in different dicts (typal, tutor)
+    """
+
+    return {k: d[k] for k in filter(lambda x: "seek" not in x \
+                                    and "conjure" not in x \
+                                    and "cycle" not in x \
+                                    and "type errata" not in x \
+                                    and "typal" not in x \
+                                    and "tutor" not in x, d)}
+def get_prefix_tags(d: dict, prefix: str) -> dict:
+    """
+    Given a dictionary, return a dictionary with only the keys that contain prefix
+    """
+    return {k: d[k] for k in filter(lambda x: prefix in x, d)}
+
+def fetch_data():
+    os.makedirs(C.DATA_DIR, exist_ok=True)
+   
+    try:
+        with open(C.FILES["DL_TIMESTAMP"], "r") as f:
+            timestamp = f.read().strip()
+            last_dl_date = datetime.datetime.strptime(timestamp, "%Y%m%d%H%M%S")
+            now = datetime.datetime.today()
+            dif = now - last_dl_date
+            must_download = dif.days >= 1
+    except FileNotFoundError:
+        must_download = True
+
+    if must_download:
+        print("Downloading new card data... ")
+        cards = get_and_decompress(C.LINKS["CARDS"])
+        with open(C.ORACLE["CARDS"], "w") as f:
+            json.dump(cards, f)    
+
+        # Add empty list attribute for oracle tags; will fill later
+        for card in cards:
+            card["oracle_tags"] = []
+
+        # Create a dictionary that maps card names to scryfall links
+        card_links = {card["name"]: card["scryfall_uri"] for card in cards}
+        with open(C.FILES["LINKS"], "w") as f:
+            json.dump(card_links, f)
+        
+
+        tags = get_and_decompress(C.LINKS["TAGS"])
+        with open(C.ORACLE["TAGS"], "w") as f:
+            json.dump(tags, f)
+        
+        tag_descriptions = {}
+        tagged_cards = {}
+        
+        for tag in tags:
+            desc = tag["description"]
+            tag_descriptions[tag["label"]] = desc.lower() if desc is not None else None
+            for tagging in tag["taggings"]:
+                o_id = tagging["oracle_id"]
+                if tagged_cards.get(o_id) is None:
+                    tagged_cards[o_id] = [tag["label"]]
+                else:
+                    tagged_cards[o_id].append(tag["label"])
+        
+        for card in cards:
+            o_tags = tagged_cards.get(card["oracle_id"])
+            if o_tags is not None:
+                card["oracle_tags"] = o_tags
+
+        clean_db = clean_card_db(cards)
+
+        with open(C.FILES["TAGS_ALL"], "w") as f:
+            json.dump(tag_descriptions, f)
+
+        tags_filtered = clean_tags_dict(tag_descriptions)
+        with open(C.FILES["TAGS"], "w") as f:
+            json.dump(tags_filtered, f)
+
+        tags_typal = get_prefix_tags(tag_descriptions, "typal")
+        with open(C.FILES["TAGS_TYPAL"], "w") as f:
+            json.dump(tags_typal, f)  
+        
+        tags_tutor = get_prefix_tags(tag_descriptions, "tutor")
+        with open(C.FILES["TAGS_TUTOR"], "w") as f:
+            json.dump(tags_tutor, f)
+
+        with open(C.FILES["CARDS"], "w") as f:
+            json.dump(clean_db, f)
+        
+        with open(C.FILES["DL_TIMESTAMP"], "w") as f:
+            cur_date = datetime.datetime.today().strftime("%Y%m%d%H%M%S")
+            f.write(cur_date)
+       
+        print("Done!")
+    else:
+        print("Up-to-date card data exists.")
+
+
+if __name__ == "__main__":
+    fetch_data()
