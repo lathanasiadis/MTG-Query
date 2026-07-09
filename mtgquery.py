@@ -1,11 +1,10 @@
-from dotenv import load_dotenv
-
 import json
 from enum import Enum
 from operator import itemgetter
 from typing import Union, Literal, List
 
 import Levenshtein
+from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from langchain_openrouter import ChatOpenRouter
 from langchain_deepseek import ChatDeepSeek
@@ -14,7 +13,6 @@ from langchain.agents.structured_output import ToolStrategy
 from langchain.agents.middleware.tool_call_limit import ToolCallLimitMiddleware
 from langchain.messages import HumanMessage
 from langchain.tools import tool
-
 from rich.console import Console
 from rich.markdown import Markdown
 
@@ -44,7 +42,7 @@ class RarityFilter(BaseModel):
 
 class TagFilter(BaseModel):
     field: Literal["oracle_tags"]
-    op: Literal["contains", "has-one-of"]
+    op: Literal["contains"]
     value: List[str]
 
 class TypeFilter(BaseModel):
@@ -95,8 +93,7 @@ OP_DICT = {
     "<": lambda x,y: x < y,
     "<=": lambda x,y: x <= y,
     "contains": lambda x,y: set(y).issubset(x),
-    "in": lambda x,y: y in x,
-    "has-one-of": has_one_of_op
+    "in": lambda x,y: y in x
 }
 
 COLOR_OP_DICT = {
