@@ -225,6 +225,7 @@ if __name__ == "__main__":
     fetch_data()
 
     DB = load_json_file(C.FILES["CARDS"])
+
     # Right now, using the tag names without their descriptions.
     # They seem to not be essential, and this way the agent requires less tokens.
     TAGS = load_json_file(C.FILES["TAGS"]).keys()
@@ -266,7 +267,9 @@ if __name__ == "__main__":
         ]
     )
 
-    search_question = HumanMessage(content="I'm looking for white mythic cards that cost less than 3$")
+    prompt = input(">>> Prompt: ")
+
+    search_question = HumanMessage(content=prompt)
     search_response = search_agent.invoke(
         {"messages": [search_question]}
     )
