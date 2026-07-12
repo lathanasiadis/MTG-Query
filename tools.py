@@ -2,6 +2,8 @@ from operator import itemgetter
 from typing import Union, Literal, List
 from pydantic import BaseModel, Field
 from langchain.tools import tool
+import Levenshtein
+
 import data
 
 class ArithmeticFilter(BaseModel):
