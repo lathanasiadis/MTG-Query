@@ -1,4 +1,5 @@
 import json
+import time
 from enum import Enum
 
 from dotenv import load_dotenv
@@ -8,6 +9,7 @@ from langchain.agents import create_agent
 from langchain.agents.structured_output import ToolStrategy
 from langchain.agents.middleware.tool_call_limit import ToolCallLimitMiddleware
 from langchain.messages import HumanMessage
+from langgraph.checkpoint.memory import InMemorySaver 
 from langchain.tools import tool
 from rich.console import Console
 from rich.markdown import Markdown
@@ -42,6 +44,8 @@ if __name__ == "__main__":
         
         Do NOT try to guess tag names! Use the get_tags tool!
 
+        If a user mentions an ambiguous card name, you should ask for clarification by presenting the possible card names.
+
         Do NOT use search_name with cards you know from your training data! Only use it to search for cards the user mentions.
 
         If any tool gets call limited, don't try calling it again during the same run.
@@ -49,7 +53,8 @@ if __name__ == "__main__":
         middleware = [
             ToolCallLimitMiddleware(tool_name="query_json", run_limit=5),
             ToolCallLimitMiddleware(tool_name="search_name", run_limit=5)
-        ]
+        ],
+        checkpointer=InMemorySaver()
     )
 
     link_agent = create_agent(
@@ -67,19 +72,37 @@ if __name__ == "__main__":
         ]
     )
 
-    prompt = input(">>> Prompt: ")
+    config = {"configurable": {"thread_id": str(int(time.time()))}}
+    
+    last_response = None
+    while True:
+        prompt = input("\n>>> Prompt: ")
 
-    search_question = HumanMessage(content=prompt)
-    search_response = search_agent.invoke(
-        {"messages": [search_question]}
-    )
-    link_question = HumanMessage(content=search_response["messages"][-1].content)
-    link_response = link_agent.invoke(
-        {"messages": [link_question]}
-    )
+        prompt_lower = prompt.lower()
+        if prompt_lower == "save":
+            if last_response is None:
+                print("Previous model reply not found!")
+            else:
+                with open("results.md", "w") as f:
+                    f.write(last_response)
+                print("Conversation saved!")
+        elif prompt_lower == "exit":
+            break
+        else:
+            search_question = HumanMessage(content=prompt)
+            search_response = search_agent.invoke(
+                {"messages": [search_question]},
+                config
+            )
+            link_question = HumanMessage(content=search_response["messages"][-1].content)
+            link_response = link_agent.invoke(
+                {"messages": [link_question]}
+            )
 
-    console = Console()
-    markdown = Markdown(link_response["messages"][-1].content)
-    console.print(markdown)
+            last_response = link_response["messages"][-1].content
+
+            console = Console()
+            markdown = Markdown(last_response)
+            console.print(markdown)
 
 
