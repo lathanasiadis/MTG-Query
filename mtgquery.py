@@ -1,5 +1,6 @@
 import json
 import time
+import os
 from enum import Enum
 
 from dotenv import load_dotenv
@@ -24,6 +25,13 @@ import data
 def load_json_file(filename):
     with open(filename, "r") as f:
         return json.load(f)
+
+def conv_filename():
+    conv_files = list(filter(lambda x: "conversation" in x, os.listdir(".")))
+    # No previous conversation file found
+    if len(conv_files) == 0:
+        return "conversation.md"
+    return f"conversation{len(conv_files) + 1}.md"
 
 if __name__ == "__main__":
     load_dotenv()
@@ -85,9 +93,10 @@ if __name__ == "__main__":
             if current_convo == "":
                 print("Current conversation is empty!")
             else:
-                with open("conversation.md", "w") as f:
+                filename = conv_filename()
+                with open(filename, "w") as f:
                     f.write(current_convo)
-                print("Conversation saved!")
+                print(f"Conversation saved to {filename}!")
         elif prompt_lower == "new":
             search_agent.invoke(
                 {"messages": [RemoveMessage(id=REMOVE_ALL_MESSAGES)]},
