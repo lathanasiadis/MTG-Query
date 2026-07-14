@@ -157,9 +157,16 @@ def fetch_data():
 
         # Create a dictionary that maps card names to scryfall links
         card_links = {card["name"]: card["scryfall_uri"] for card in cards}
+        # Add entries for each face of double-faced cards
+        double_faced = filter(lambda x: " // " in x["name"], cards)
+        for card in double_faced:
+            card_name = card["name"]
+            parts = card_name.split(" // ")
+            card_links[parts[0]] = card_links[card_name]
+            card_links[parts[1]] = card_links[card_name]
+
         with open(C.FILES["LINKS"], "w") as f:
             json.dump(card_links, f)
-        
 
         tags = get_and_decompress(C.LINKS["TAGS"])
         with open(C.ORACLE["TAGS"], "w") as f:
