@@ -9,6 +9,8 @@ from langchain.agents import create_agent
 from langchain.agents.structured_output import ToolStrategy
 from langchain.agents.middleware.tool_call_limit import ToolCallLimitMiddleware
 from langchain.messages import HumanMessage
+from langchain.messages import RemoveMessage
+from langgraph.graph.message import REMOVE_ALL_MESSAGES
 from langgraph.checkpoint.memory import InMemorySaver 
 from langchain.tools import tool
 from rich.console import Console
@@ -74,18 +76,25 @@ if __name__ == "__main__":
 
     config = {"configurable": {"thread_id": str(int(time.time()))}}
     
-    last_response = None
+    current_convo = ""
     while True:
         prompt = input("\n>>> Prompt: ")
 
         prompt_lower = prompt.lower()
         if prompt_lower == "save":
-            if last_response is None:
-                print("Previous model reply not found!")
+            if current_convo == "":
+                print("Current conversation is empty!")
             else:
-                with open("results.md", "w") as f:
-                    f.write(last_response)
+                with open("conversation.md", "w") as f:
+                    f.write(current_convo)
                 print("Conversation saved!")
+        elif prompt_lower == "new":
+            search_agent.invoke(
+                {"messages": [RemoveMessage(id=REMOVE_ALL_MESSAGES)]},
+                config
+            )
+            current_convo = ""
+            print("Message history cleared!")
         elif prompt_lower == "exit":
             break
         else:
@@ -100,6 +109,7 @@ if __name__ == "__main__":
             )
 
             last_response = link_response["messages"][-1].content
+            current_convo += f"> {prompt}\n{last_response}\n"
 
             console = Console()
             markdown = Markdown(last_response)
