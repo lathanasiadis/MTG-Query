@@ -109,7 +109,7 @@ if __name__ == "__main__":
             )
 
             last_response = link_response["messages"][-1].content
-            current_convo += f"> {prompt}\n{last_response}\n"
+            current_convo += f"> {prompt}\n\n{last_response}\n"
 
             console = Console()
             markdown = Markdown(last_response)
