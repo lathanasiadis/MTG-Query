@@ -33,6 +33,17 @@ def conv_filename():
         return "conversation.md"
     return f"conversation{len(conv_files) + 1}.md"
 
+def print_help():
+    print("Besides prompting, you can use these commands:\n")
+    print("- save")
+    print("Saves the current conversation to conversation.md, for later viewing.\n")
+    print("- new")
+    print("Wipes the agent's memory. Useful when you want to ask an unrelated question afterwards.\n")
+    print("- exit")
+    print("Exits the application gracefully.\n")
+    print("- help")
+    print("Display this message.\n")
+
 if __name__ == "__main__":
     load_dotenv()
     fetch_data()
@@ -104,6 +115,8 @@ if __name__ == "__main__":
             )
             current_convo = ""
             print("Message history cleared!")
+        elif prompt_lower == "help":
+            print_help()
         elif prompt_lower == "exit":
             break
         else:
