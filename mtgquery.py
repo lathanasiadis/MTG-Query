@@ -18,13 +18,10 @@ from rich.console import Console
 from rich.markdown import Markdown
 
 from constants import Constants as C
-from fetch_data import fetch_data
+from fetch_data import fetch_data, load_data
 from tools import search_name, get_tags, get_typal_tags, get_tutor_tags, query_json, get_links
 import data
 
-def load_json_file(filename):
-    with open(filename, "r") as f:
-        return json.load(f)
 
 def conv_filename():
     conv_files = list(filter(lambda x: "conversation" in x, os.listdir(".")))
@@ -47,15 +44,7 @@ def print_help():
 if __name__ == "__main__":
     load_dotenv()
     fetch_data()
-
-    data.DB = load_json_file(C.FILES["CARDS"])
-    # Right now, using the tag names without their descriptions.
-    # They seem to not be essential, and this way the agent requires less tokens.
-    data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
-    data.TAGS_TUTOR = load_json_file(C.FILES["TAGS_TUTOR"]).keys()
-    data.TAGS_TYPAL = load_json_file(C.FILES["TAGS_TYPAL"]).keys()
-
-    data.CARD_LINKS = load_json_file(C.FILES["LINKS"])
+    load_data()
 
     search_agent = create_agent(
         model="deepseek-chat",

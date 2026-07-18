@@ -5,6 +5,11 @@ import os
 import gzip
 
 from constants import Constants as C
+import data
+
+def load_json_file(filename):
+    with open(filename, "r") as f:
+        return json.load(f)
 
 def add_if_exists(original: dict, filtered: dict, field: str, default=None):
     val = original.get(field)
@@ -218,6 +223,15 @@ def fetch_data():
     else:
         print("Up-to-date card data exists.")
 
+def load_data():
+    data.DB = load_json_file(C.FILES["CARDS"])
+    # Right now, using the tag names without their descriptions.
+    # They seem to not be essential, and this way the agent requires less tokens.
+    data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
+    data.TAGS_TUTOR = load_json_file(C.FILES["TAGS_TUTOR"]).keys()
+    data.TAGS_TYPAL = load_json_file(C.FILES["TAGS_TYPAL"]).keys()
+
+    data.CARD_LINKS = load_json_file(C.FILES["LINKS"])
 
 if __name__ == "__main__":
     fetch_data()
