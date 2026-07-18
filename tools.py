@@ -61,14 +61,6 @@ class NameSearchInput(BaseModel):
 class LinkFetchInput(BaseModel):
     card_names: List[str]
 
-def has_one_of_op(x: List[str], y: List[str]) -> bool:
-    found = False
-    for x_item in x:
-        if x_item in y:
-            found = True
-            break
-    return found
-
 OP_DICT = {
     "=": lambda x,y: x == y,
     ">": lambda x,y: x > y,
