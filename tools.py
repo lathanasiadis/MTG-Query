@@ -127,10 +127,20 @@ def evaluate_filter(card, fltr):
 @tool(args_schema=QueryInput)
 def query_json(filters, limit=15):
     """
-    Find an MTG card based on a set of filters.
+    Execute a query on the JSON Lines card database.
 
-    This tool is NOT paginated; calling it with the same filters
-    will return the same results.
+    IMPORTANT:
+    - This tool supports complex boolean expressions.
+    - Always send the complete query tree in a single call.
+    - Do NOT split AND/OR expressions into multiple calls.
+    - For example, blue cards with tag A or B must be searched with
+    AndFilter([
+        ColorFilter(value=["U"], op="="),
+        OrFilter([TagFilter(value=A), TagFilter(value=B)])
+    ])
+    and sent as one query.
+    - This tool is stateless. Do NOT call it with the same filters;
+    the returned results will be identical to the previous ones.
     """
     ret = []
 
@@ -234,7 +244,7 @@ if __name__ == "__main__":
 
     q = QueryInput(filters=AndFilter(value=[
         ColorFilter(op="=", value=["W"]),
-        TagFilter(value="mill-opponent")
+        TagFilter(value="protection")
         ]))
 
     from pprint import pprint

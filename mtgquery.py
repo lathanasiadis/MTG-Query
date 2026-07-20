@@ -18,6 +18,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 
 from constants import Constants as C
+from constants import Prompts
 from fetch_data import fetch_data, load_data
 from tools import search_name, get_tags, get_typal_tags, get_tutor_tags, query_json, get_links
 import data
@@ -49,17 +50,7 @@ if __name__ == "__main__":
     search_agent = create_agent(
         model="deepseek-chat",
         tools=[search_name, get_tags, get_typal_tags, get_tutor_tags, query_json],
-        system_prompt="""
-        You are a Magic: the Gathering card query system. You retrieve cards based on the user's input.
-        
-        Do NOT try to guess tag names! Use the get_tags tool!
-
-        If a user mentions an ambiguous card name, you should ask for clarification by presenting the possible card names.
-
-        Do NOT use search_name with cards you know from your training data! Only use it to search for cards the user mentions.
-
-        If any tool gets call limited, don't try calling it again during the same run.
-        """,
+        system_prompt=Prompts.query,
         middleware = [
             ToolCallLimitMiddleware(tool_name="query_json", run_limit=5),
             ToolCallLimitMiddleware(tool_name="search_name", run_limit=5)
@@ -70,13 +61,7 @@ if __name__ == "__main__":
     link_agent = create_agent(
         model="deepseek-chat",
         tools=[get_links],
-        system_prompt="""
-        You are a Magic: the Gathering link injector.
-        You will receive a markdown text describing MtG cards and you will edit it so that each card is linked to its scryfall page.
-        Use the get_links tool.
-        Do not alter the text in any other way!
-        If the input does not contain any card names (e.g an error message), return it as-is.
-        """,
+        system_prompt=Prompts.link,
         middleware = [
             ToolCallLimitMiddleware(tool_name="get_links", run_limit=3)
         ]
