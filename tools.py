@@ -1,9 +1,12 @@
 from operator import itemgetter
 from typing import Union, Literal, List
+from functools import reduce
+
 from pydantic import BaseModel, Field
 from langchain.tools import tool
 import Levenshtein
 
+from fetch_data import load_data
 import data
 
 class ArithmeticFilter(BaseModel):
@@ -25,8 +28,14 @@ class RarityFilter(BaseModel):
 
 class TagFilter(BaseModel):
     field: Literal["oracle_tags"]
-    op: Literal["contains"]
     value: List[str]
+    connector: Literal["and", "or"] = Field(
+        description = """
+        Using 'and' will return cards that contain every tag present in value.
+        Using 'or' will return cards that contain at least one tag present in value.
+        Remember to use 'or' with multiple values to search for multiple tags!
+        """
+    )
 
 class TypeFilter(BaseModel):
     field: Literal["type_line"]
@@ -48,7 +57,7 @@ Filter = Union[
     TypeFilter,
     NameFilter
 ]
-    
+
 class QueryInput(BaseModel):
     filters: list[Filter]
 
@@ -76,7 +85,8 @@ OP_DICT = {
     "<": lambda x,y: x < y,
     "<=": lambda x,y: x <= y,
     "contains": lambda x,y: set(y).issubset(x),
-    "in": lambda x,y: y in x
+    "in": lambda x,y: y in x,
+    "has_one_of_op": has_one_of_op
 }
 
 COLOR_OP_DICT = {
@@ -86,7 +96,7 @@ COLOR_OP_DICT = {
 }
 
 @tool(args_schema=QueryInput)
-def query_json(filters, limit=10):
+def query_json(filters, limit=30):
     """
     Find an MTG card based on a set of filters.
 
@@ -103,9 +113,13 @@ def query_json(filters, limit=10):
                 all_filters_passed = False
                 break
 
+            if type(fltr) == TagFilter:
+                op = "contains" if fltr.connector == "and" else "has_one_of_op"
+            else:
+                op = fltr.op
             op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
-            
-            if not op_dict[fltr.op](card_val, fltr.value):
+
+            if not op_dict[op](card_val, fltr.value):
                 all_filters_passed = False
                 break
         
@@ -203,3 +217,12 @@ def get_links(card_names):
     """
     return [data.CARD_LINKS.get(name) for name in card_names]
 
+if __name__ == "__main__":
+    load_data()
+
+    q = QueryInput(filters=[
+        TagFilter(field="oracle_tags", connector="or", value=["mill-opponent", "draw matters"])
+    ])
+
+    r = query_json.invoke(q.model_dump())
+    print(r)
