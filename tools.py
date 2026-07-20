@@ -1,5 +1,6 @@
+from __future__ import annotations
 from operator import itemgetter
-from typing import Union, Literal, List
+from typing import Annotated, Union, Literal, List
 from functools import reduce
 
 from pydantic import BaseModel, Field
@@ -10,6 +11,7 @@ from fetch_data import load_data
 import data
 
 class ArithmeticFilter(BaseModel):
+    kind: Literal["arithmetic"] = "arithmetic"
     field: Literal["cmc", "price"]
     op: Literal["<", "<=", "=", ">=", ">"]
     value: int | float = Field(
@@ -17,49 +19,59 @@ class ArithmeticFilter(BaseModel):
     )
 
 class ColorFilter(BaseModel):
-    field: Literal["color_identity"]
+    kind: Literal["color_identity"] = "color_identity"
     op: Literal["<=", "=", ">="]
     value: List[Literal["W", "U", "B", "R", "G"]]
 
 class RarityFilter(BaseModel):
-    field: Literal["rarity"]
+    kind: Literal["rarity"] = "rarity"
     op: Literal["="]
     value: Literal["common", "uncommon", "rare", "mythic"]
 
 class TagFilter(BaseModel):
-    field: Literal["oracle_tags"]
-    value: List[str]
-    connector: Literal["and", "or"] = Field(
-        description = """
-        Using 'and' will return cards that contain every tag present in value.
-        Using 'or' will return cards that contain at least one tag present in value.
-        Remember to use 'or' with multiple values to search for multiple tags!
-        """
-    )
+    kind: Literal["oracle_tags"] = "oracle_tags"
+    value: str
+    op: Literal["in"] = "in"
 
 class TypeFilter(BaseModel):
-    field: Literal["type_line"]
+    kind: Literal["type_line"] = "type_line"
     op: Literal["in"]
     value: str = Field(
         description="Value that is contained in the card's type line. Should be lowercase only."
     )
 
 class NameFilter(BaseModel):
-    field: Literal["name"]
+    kind: Literal["name"] = "name"
     op: Literal["="]
     value: str
 
-Filter = Union[
-    ArithmeticFilter,
-    ColorFilter,
-    RarityFilter,
-    TagFilter,
-    TypeFilter,
-    NameFilter
+class AndFilter(BaseModel):
+    kind: Literal["and"] = "and"
+    value: List[Filter]
+
+class OrFilter(BaseModel):
+    kind: Literal["or"] = "or"
+    value: List[Filter]
+
+Filter = Annotated[
+    ArithmeticFilter
+    | ColorFilter
+    | RarityFilter
+    | TagFilter
+    | TypeFilter
+    | NameFilter
+    | AndFilter
+    | OrFilter,
+    Field(discriminator="kind")
 ]
 
+AndFilter.model_rebuild()
+OrFilter.model_rebuild()
+
 class QueryInput(BaseModel):
-    filters: list[Filter]
+    filters: AndFilter | OrFilter = Field(
+            description="Use AndFilter to chain together filters with a logical AND, and OrFilter for the logical OR, respectively. You can nest them!"
+    )
 
 class TagSearchInput(BaseModel):
     keywords: List[str]
@@ -95,8 +107,25 @@ COLOR_OP_DICT = {
     ">=": lambda x,y: set(y).issuperset(set(x))
 }
 
+def evaluate_filter(card, fltr):
+    if type(fltr) == bool:
+        return fltr
+    if type(fltr) == AndFilter:
+        return reduce(lambda x,y: evaluate_filter(card, x) and evaluate_filter(card, y), fltr.value, True)
+    if type(fltr) == OrFilter:
+        return reduce(lambda x,y: evaluate_filter(card, x) or evaluate_filter(card, y), fltr.value, False)
+
+    op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
+    field = fltr.field if type(fltr) == ArithmeticFilter else fltr.kind
+    # Card may not contain the field we're searching for
+    # E.g not all cards contain the power and toughness fields
+    card_val = card.get(field) 
+    if card_val is None:
+        return False
+    return op_dict[fltr.op](card_val, fltr.value)
+
 @tool(args_schema=QueryInput)
-def query_json(filters, limit=30):
+def query_json(filters, limit=15):
     """
     Find an MTG card based on a set of filters.
 
@@ -104,26 +133,9 @@ def query_json(filters, limit=30):
     will return the same results.
     """
     ret = []
+
     for card in data.DB:
-        all_filters_passed = True
-        
-        for fltr in filters:
-            card_val = card.get(fltr.field)
-            if card_val is None:
-                all_filters_passed = False
-                break
-
-            if type(fltr) == TagFilter:
-                op = "contains" if fltr.connector == "and" else "has_one_of_op"
-            else:
-                op = fltr.op
-            op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
-
-            if not op_dict[op](card_val, fltr.value):
-                all_filters_passed = False
-                break
-        
-        if all_filters_passed:
+        if evaluate_filter(card, filters):
             ret.append(card)
 
     ret = sorted(ret, key=itemgetter("edhrec_rank"))
@@ -220,9 +232,11 @@ def get_links(card_names):
 if __name__ == "__main__":
     load_data()
 
-    q = QueryInput(filters=[
-        TagFilter(field="oracle_tags", connector="or", value=["mill-opponent", "draw matters"])
-    ])
+    q = QueryInput(filters=AndFilter(value=[
+        ColorFilter(op="=", value=["W"]),
+        TagFilter(value="mill-opponent")
+        ]))
 
-    r = query_json.invoke(q.model_dump())
-    print(r)
+    from pprint import pprint
+    pprint(query_json.invoke(q.model_dump(polymorphic_serialization=True)))
+
