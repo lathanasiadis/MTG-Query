@@ -34,11 +34,39 @@ class TagFilter(BaseModel):
     op: Literal["in"] = "in"
 
 class TypeFilter(BaseModel):
-    kind: Literal["type_line"] = "type_line"
+    """
+    This filter allows you to search for cards matching a specific type.
+    A card may have multiple types.
+    Supertypes are also included in this filter.
+    To search for a card that matches two types at the same, use AndFilter.
+    For example, AndFilter(value=[TypeFilter(value="World"), TypeFilter(value="Enchantment")])
+    will find World Enchantments.
+    """
+
+    kind: Literal["type"] = "type"
     op: Literal["in"]
-    value: str = Field(
-        description="Value that is contained in the card's type line. Should be lowercase only."
-    )
+    value: Literal[
+        # Supertypes
+        "Basic",
+        "Legendary",
+        "Snow",
+        "World",
+        # Types
+        "Land",
+        "Creature",
+        "Artifact",
+        "Enchantment",
+        "Planeswalker",
+        "Battle",
+        "Instant",
+        "Sorcery",
+        "Kindred"
+    ]
+
+class SubtypeFilter(BaseModel):
+    kind: Literal["subtype"] = "subtype"
+    op: Literal["in"]
+    value: str
 
 class NameFilter(BaseModel):
     kind: Literal["name"] = "name"
@@ -59,6 +87,7 @@ Filter = Annotated[
     | RarityFilter
     | TagFilter
     | TypeFilter
+    | SubtypeFilter
     | NameFilter
     | AndFilter
     | OrFilter,

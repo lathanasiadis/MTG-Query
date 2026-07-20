@@ -65,9 +65,12 @@ def clean_card_db(original_db):
             "color_identity": card["color_identity"],
             "keywords": card["keywords"],
             "rarity": card["rarity"],
-            "type_line": card["type_line"].lower(),
             "oracle_tags": card["oracle_tags"]
         }
+        # Split type line to types and subtypes
+        typeline_parts = card["type_line"].split(" — ")
+        d["type"] = typeline_parts[0].split(" ")
+        d["subtype"] = typeline_parts[1].split(" ") if len(typeline_parts) > 1 else []
     
         # Add price attribute. Prefer EUR values over USD
         if card["prices"]["eur"] is not None:
@@ -115,6 +118,28 @@ def clean_card_db(original_db):
         
         clean_db.append(d)
     return clean_db
+
+def label_descendants(label, descendant_tag, tag_id_lookup):
+    parent_labels = descendant_tag.get("parent_labels")
+    if parent_labels is None:
+        descendant_tag["parent_labels"] = [label]
+        #print(f'Addint parent labels to {descendant_tag["label"]}')
+    else:
+        parent_labels.append(label)
+
+    for child_id in descendant_tag["child_ids"]:
+        child_tag = tag_id_lookup[child_id]
+        label_descendants(label, child_tag, tag_id_lookup)
+
+
+def flatten_tag_hierarchy(tags):
+    tag_id_lookup = {t["id"]: t for t in tags}
+    for tag in tags:
+        for child_id in tag["child_ids"]:
+            child_tag = tag_id_lookup[child_id]
+            label_descendants(tag["label"], child_tag, tag_id_lookup)
+            #print(f'after label desc: {child_tag["parent_labels"]}') 
+
 
 def clean_tags_dict(d: dict) -> dict:
     """
@@ -174,9 +199,10 @@ def fetch_data():
             json.dump(card_links, f)
 
         tags = get_and_decompress(C.LINKS["TAGS"])
+        flatten_tag_hierarchy(tags)
         with open(C.ORACLE["TAGS"], "w") as f:
             json.dump(tags, f)
-        
+
         tag_descriptions = {}
         tagged_cards = {}
         
@@ -185,15 +211,20 @@ def fetch_data():
             tag_descriptions[tag["label"]] = desc.lower() if desc is not None else None
             for tagging in tag["taggings"]:
                 o_id = tagging["oracle_id"]
+
                 if tagged_cards.get(o_id) is None:
-                    tagged_cards[o_id] = [tag["label"]]
+                    tagged_cards[o_id] = {tag["label"]}
                 else:
-                    tagged_cards[o_id].append(tag["label"])
-        
+                    tagged_cards[o_id].update([tag["label"]])
+                
+                parent_labels = tag.get("parent_labels")
+                if parent_labels is not None:
+                    tagged_cards[o_id].update(parent_labels)
+
         for card in cards:
             o_tags = tagged_cards.get(card["oracle_id"])
             if o_tags is not None:
-                card["oracle_tags"] = o_tags
+                card["oracle_tags"] = list(o_tags)
 
         clean_db = clean_card_db(cards)
 
