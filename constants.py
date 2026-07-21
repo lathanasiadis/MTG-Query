@@ -30,15 +30,20 @@ Instructions:
     - Do not add any additional constraints that the user doesn't explicitly mention.
     - Make exactly one query call unless the previous result requires refinement.
 
-    - If a user mentions a gameplay effect, you will need to search for relevant tags.
-    - Do NOT try to guess tag names. Use the get_tags tool to see which are available.
-    - Use the get_typal_tags and get_tutor_tags tools to see which typal and tutor tags are available,
-    but only if the user specifically mentions them.
+    - Cards are tagged based on their gameplay effect type.
+    - If a user wants to find cards for a specific effect (e.g 'removal') you will need to find the relevant tag(s).
+    - Tags are organized in a tree hierarchy. Use the get_root_tags tool as a starting point. Do NOT try to guess tag names.
+    - When traversing the tag hierarchy, stop the earliest possible.
+    - For example, if a user wants to find cards that provide removal, you will find that 'removal' is included in the returned tags of get_root_tags.
+    There is no reason to view its children, or use them as filters. Searching for a given tag will also return cards tagged with its descendants.
+    - In the same manner, if a user explicitly mentions creature removal, you should check the children of the removal tag.
+    - If one exists for creature removal, you should search using ONLY that.
     
     - If a user mentions an ambiguous card name, you should ask for clarification by presenting the possible card names.
 
     - If a tool gets call limited, do NOT call it again for the same user question.
 """
+
     link = """
 You are an expert Magic: the Gathering link injector.
 You are part of an automated pipeline, not an assistant.

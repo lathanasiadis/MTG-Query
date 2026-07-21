@@ -20,7 +20,7 @@ from rich.markdown import Markdown
 from constants import Constants as C
 from constants import Prompts
 from fetch_data import fetch_data, load_data
-from tools import search_name, get_tags, get_typal_tags, get_tutor_tags, query_json, get_links
+from tools import search_name, get_root_tags, get_tag_children, query_json, get_links
 import data
 
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     search_agent = create_agent(
         model="deepseek-chat",
-        tools=[search_name, get_tags, get_typal_tags, get_tutor_tags, query_json],
+        tools=[search_name, get_root_tags, get_tag_children, query_json],
         system_prompt=Prompts.query,
         middleware = [
             ToolCallLimitMiddleware(tool_name="query_json", run_limit=5),

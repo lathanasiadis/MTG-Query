@@ -136,51 +136,6 @@ COLOR_OP_DICT = {
     ">=": lambda x,y: set(y).issuperset(set(x))
 }
 
-def evaluate_filter(card, fltr):
-    if type(fltr) == bool:
-        return fltr
-    if type(fltr) == AndFilter:
-        return reduce(lambda x,y: evaluate_filter(card, x) and evaluate_filter(card, y), fltr.value, True)
-    if type(fltr) == OrFilter:
-        return reduce(lambda x,y: evaluate_filter(card, x) or evaluate_filter(card, y), fltr.value, False)
-
-    op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
-    field = fltr.field if type(fltr) == ArithmeticFilter else fltr.kind
-    # Card may not contain the field we're searching for
-    # E.g not all cards contain the power and toughness fields
-    card_val = card.get(field) 
-    if card_val is None:
-        return False
-    return op_dict[fltr.op](card_val, fltr.value)
-
-@tool(args_schema=QueryInput)
-def query_json(filters, limit=15):
-    """
-    Execute a query on the JSON Lines card database.
-
-    IMPORTANT:
-    - This tool supports complex boolean expressions.
-    - Always send the complete query tree in a single call.
-    - Do NOT split AND/OR expressions into multiple calls.
-    - For example, blue cards with tag A or B must be searched with
-    AndFilter([
-        ColorFilter(value=["U"], op="="),
-        OrFilter([TagFilter(value=A), TagFilter(value=B)])
-    ])
-    and sent as one query.
-    - This tool is stateless. Do NOT call it with the same filters;
-    the returned results will be identical to the previous ones.
-    """
-    ret = []
-
-    for card in data.DB:
-        if evaluate_filter(card, filters):
-            ret.append(card)
-
-    ret = sorted(ret, key=itemgetter("edhrec_rank"))
-
-    return ret[:limit]
-
 @tool
 def get_tags():
     """
@@ -204,6 +159,33 @@ def get_tutor_tags():
     Use this ONLY to find tags for searching for specific cards.
     """
     return data.TAGS_TUTOR
+
+@tool
+def get_root_tags():
+    """
+    Returns a list of every root tag, i.e a tag without parents.
+    """
+    return [n.label for n in data.TAG_TREE.root_nodes]
+
+@tool
+def get_tag_children(tag: str):
+    """
+    Returns a list of children tags for a given tag.
+    Children tags are specialized versions of the parent effect.
+    For example, the tag 'removal' has the children 'removal-creature' and 'removal-artifact', besides others.
+    """
+    tag_id = data.TAG_TREE.name_to_id[tag]
+    return [n.label for n in data.TAG_TREE.id_to_node[tag_id].children]
+
+def get_tag_descendants(tag: str):
+    tag_id = data.TAG_TREE.name_to_id[tag]
+    descendants = []
+
+    for child in data.TAG_TREE.id_to_node[tag_id].children:
+        descendants.append(child.label)
+        descendants += get_tag_descendants(child.label)
+
+    return descendants
 
 @tool(args_schema=TagSearchInput)
 def search_tags(keywords):
@@ -260,6 +242,58 @@ def search_name(name: str):
 
     return [x[0] for x in sorted(ratios, key=lambda x: x[1], reverse=True)[:5]]
 
+def evaluate_filter(card, fltr, eval_tag_children=True):
+    if type(fltr) == bool: #reduce initialization edge case
+        return fltr
+    if type(fltr) == AndFilter:
+        return reduce(lambda x,y: evaluate_filter(card, x, eval_tag_children) and evaluate_filter(card, y, eval_tag_children), fltr.value, True)
+    if type(fltr) == OrFilter:
+        return reduce(lambda x,y: evaluate_filter(card, x, eval_tag_children) or evaluate_filter(card, y, eval_tag_children), fltr.value, False)
+    
+    if type(fltr) == TagFilter and eval_tag_children:
+        tag = fltr.value
+        tags = get_tag_descendants(tag) + [tag]
+        tag_filters = [TagFilter(value=t) for t in tags]
+        return evaluate_filter(card, OrFilter(value=tag_filters), False)
+
+    op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
+    field = fltr.field if type(fltr) == ArithmeticFilter else fltr.kind
+    # Card may not contain the field we're searching for
+    # E.g not all cards contain the power and toughness fields
+    card_val = card.get(field) 
+    if card_val is None:
+        return False
+    return op_dict[fltr.op](card_val, fltr.value)
+
+@tool(args_schema=QueryInput)
+def query_json(filters, limit=15):
+    """
+    Execute a query on the JSON Lines card database.
+
+    IMPORTANT:
+    - This tool supports complex boolean expressions.
+    - Always send the complete query tree in a single call.
+    - Do NOT split AND/OR expressions into multiple calls.
+    - For example, blue cards with tag A or B must be searched with
+    AndFilter([
+        ColorFilter(value=["U"], op="="),
+        OrFilter([TagFilter(value=A), TagFilter(value=B)])
+    ])
+    and sent as one query.
+    - This tool is stateless. Do NOT call it with the same filters;
+    the returned results will be identical to the previous ones.
+    """
+    ret = []
+
+    for card in data.DB:
+        if evaluate_filter(card, filters):
+            ret.append(card)
+
+    ret = sorted(ret, key=itemgetter("edhrec_rank"))
+
+    return ret[:limit]
+
+
 @tool(args_schema=LinkFetchInput)
 def get_links(card_names):
     """
@@ -274,8 +308,14 @@ if __name__ == "__main__":
     q = QueryInput(filters=AndFilter(value=[
         ColorFilter(op="=", value=["W"]),
         TagFilter(value="protection")
-        ]))
+    ]))
 
     from pprint import pprint
-    pprint(query_json.invoke(q.model_dump(polymorphic_serialization=True)))
+    
+    print("Protection descendants:")
+    pprint(get_tag_descendants("protection"))
 
+    pprint(query_json.invoke(q.model_dump()))
+
+    #pprint(get_tag_children.invoke({"tag": "protection"}))
+    #pprint(get_tag_descendants("burn"))

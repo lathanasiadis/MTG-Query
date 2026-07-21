@@ -162,6 +162,30 @@ def get_prefix_tags(d: dict, prefix: str) -> dict:
     """
     return {k: d[k] for k in filter(lambda x: prefix in x, d)}
 
+class TreeNode:
+    def __init__(self, label):
+        self.label = label
+        self.children = []
+
+class TagTree:
+    def __init__(self, otags):
+        self.root_nodes = []
+        self.name_to_id = {t["label"]: t["id"] for t in otags}
+        # First pass: create a TreeNode for every tag        
+        self.id_to_node = {t["id"]: TreeNode(t["label"]) for t in otags}
+
+        # Second pass: add each tag's children to its TreeNode as TreeNodes themselves
+        # Also, create a list of every parentless node (root nodes)
+        for tag in otags:
+            tag_node = self.id_to_node[tag["id"]]
+            tag_node.children = [self.id_to_node[child_id] for child_id in tag["child_ids"]]
+            if tag["parent_ids"] == []:
+                self.root_nodes.append(tag_node)
+
+    def get_children(self, label):
+        child_id = self.name_to_id[label]
+        return [c.label for c in self.id_to_node[child_id].children]
+
 def fetch_data():
     os.makedirs(C.DATA_DIR, exist_ok=True)
    
@@ -199,7 +223,7 @@ def fetch_data():
             json.dump(card_links, f)
 
         tags = get_and_decompress(C.LINKS["TAGS"])
-        flatten_tag_hierarchy(tags)
+        #flatten_tag_hierarchy(tags)
         with open(C.ORACLE["TAGS"], "w") as f:
             json.dump(tags, f)
 
@@ -217,9 +241,9 @@ def fetch_data():
                 else:
                     tagged_cards[o_id].update([tag["label"]])
                 
-                parent_labels = tag.get("parent_labels")
-                if parent_labels is not None:
-                    tagged_cards[o_id].update(parent_labels)
+                #parent_labels = tag.get("parent_labels")
+                #if parent_labels is not None:
+                    #tagged_cards[o_id].update(parent_labels)
 
         for card in cards:
             o_tags = tagged_cards.get(card["oracle_id"])
@@ -259,6 +283,7 @@ def load_data():
     # Right now, using the tag names without their descriptions.
     # They seem to not be essential, and this way the agent requires less tokens.
     data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
+    data.TAG_TREE = TagTree(load_json_file(C.ORACLE["TAGS"]))
     data.TAGS_TUTOR = load_json_file(C.FILES["TAGS_TUTOR"]).keys()
     data.TAGS_TYPAL = load_json_file(C.FILES["TAGS_TYPAL"]).keys()
 
