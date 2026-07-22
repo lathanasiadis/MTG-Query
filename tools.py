@@ -291,6 +291,9 @@ def query_json(filters, limit=15):
 
     ret = sorted(ret, key=itemgetter("edhrec_rank"))
 
+    for item in ret:
+        item.pop("oracle_tags")
+
     return ret[:limit]
 
 
