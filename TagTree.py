@@ -5,7 +5,9 @@ def get_example_cards(tag, id_to_card, N=5):
     examples = ""
     i = 0
     for tagging in tag["taggings"]:
-        tagged_card = id_to_card[tagging["oracle_id"]]
+        tagged_card = id_to_card.get(tagging["oracle_id"])
+        if tagged_card is None:
+            continue
         oracle_text = tagged_card.get("oracle_text")
         if oracle_text is not None:
             # better separation between each example
