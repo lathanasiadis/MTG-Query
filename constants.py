@@ -17,6 +17,12 @@ class Constants:
         "TAGS_TUTOR": "downloaded_data/tags-tutor.json",
         "DL_TIMESTAMP": "downloaded_data/.timestamp"
     }
+    TAGS_REMOVE = [
+        "cycle",
+        "type errata"
+        "digital-only mechanics",
+        "un-design"
+    ]
 
 class Prompts:
     query = """

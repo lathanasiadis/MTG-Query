@@ -1,62 +1,59 @@
 import json
-import requests
 import datetime
 import os
-import gzip
 
 from constants import Constants as C
+from TagTree import TagTree
+from utils import get_and_decompress, load_json_file, save_json_file
 import data
 
-def load_json_file(filename):
-    with open(filename, "r") as f:
-        return json.load(f)
+
+def filter_non_cards(oracle_cards):
+    # Ignore digital-only cards
+    filtered = filter(lambda card: "paper" in card["games"], oracle_cards)
+
+    # Ignore card objects that do not go into your deck
+    filtered = filter(
+        lambda card: card["layout"] not in [
+            "planar",
+            "scheme",
+            "vanguard",
+            "token",
+            "double_faced_token",
+            "emblem",
+            "art_series"
+        ],
+        filtered)
+
+    # Ignore playtest cards
+    filtered = filter(lambda card: "playtest" not in [] if card.get("promo_types") is None else card.get("promo_types"), filtered)
+
+    # Ignore unset cards
+    filtered = filter(lambda card: card["set_type"] != "funny", filtered)
+
+    # Ignore helper card objects for specific events/cards
+    # (e.g dungeons, Theros Hero's Path)
+    filtered = filter(lambda card: card["set_type"] != "memorabilia", filtered)
+
+    return list(filtered)
+
 
 def add_if_exists(original: dict, filtered: dict, field: str, default=None):
+    """
+    If field exists in the original dict, add its value to the filtered dict.
+    If field does not exist and default is set, add the default value to the filtered dict.
+    """
     val = original.get(field)
     if val is not None:
         filtered[field] = val
     elif default is not None:
         filtered[field] = default
 
-def get_and_decompress(link):
-    headers = {"User-Agent": "MTG Query 0.1"}
-
-    # Fetch download link, then download the actual data
-    r = requests.get(link, headers=headers)
-    r = requests.get(r.json()["jsonl_download_uri"], headers=headers)
-
-    # Decompress and decode
-    content = gzip.decompress(r.content).decode()
-
-    # Convert from JSON Lines to List of JSON
-    return [json.loads(line) for line in content.split("\n")[:-1]]
 
 def clean_card_db(original_db):
     clean_db = []
     for card in original_db:
-        # Ignore digital-only cards
-        if "paper" not in card["games"]:
-            continue
-    
-        # Ignore card objects that do not go into your deck
-        layout = card["layout"]
-        if layout in ["planar", "scheme", "vanguard", "token", "double_faced_token", "emblem", "art_series"]:
-            continue
-    
-        # Ignore playtest cards
-        promo_types = card.get("promo_types")
-        if promo_types is not None and "playtest" in promo_types:
-            continue
-    
-        # Ignore unset cards
-        if card["set_type"] == "funny":
-            continue
-    
-        # Ignore helper card objects for specific events/cards
-        # (e.g dungeons, Theros Hero's Path)
-        if card["set_type"] == "memorabilia":
-            continue
-   
+        
         # Attributes present in every card
         d = {
             "name": card["name"],
@@ -97,7 +94,7 @@ def clean_card_db(original_db):
         ]:
             add_if_exists(card, d, field)
     
-        # EDHREC Rank is used to sort results, so I want the field to always be present
+        # EDHREC Rank can be used to sort results, so I want the field to always be present
         add_if_exists(card, d, "edhrec_rank", 99999)
     
         # Add card faces
@@ -118,27 +115,6 @@ def clean_card_db(original_db):
         
         clean_db.append(d)
     return clean_db
-
-def label_descendants(label, descendant_tag, tag_id_lookup):
-    parent_labels = descendant_tag.get("parent_labels")
-    if parent_labels is None:
-        descendant_tag["parent_labels"] = [label]
-        #print(f'Addint parent labels to {descendant_tag["label"]}')
-    else:
-        parent_labels.append(label)
-
-    for child_id in descendant_tag["child_ids"]:
-        child_tag = tag_id_lookup[child_id]
-        label_descendants(label, child_tag, tag_id_lookup)
-
-
-def flatten_tag_hierarchy(tags):
-    tag_id_lookup = {t["id"]: t for t in tags}
-    for tag in tags:
-        for child_id in tag["child_ids"]:
-            child_tag = tag_id_lookup[child_id]
-            label_descendants(tag["label"], child_tag, tag_id_lookup)
-            #print(f'after label desc: {child_tag["parent_labels"]}') 
 
 
 def clean_tags_dict(d: dict) -> dict:
@@ -162,29 +138,29 @@ def get_prefix_tags(d: dict, prefix: str) -> dict:
     """
     return {k: d[k] for k in filter(lambda x: prefix in x, d)}
 
-class TreeNode:
-    def __init__(self, label):
-        self.label = label
-        self.children = []
 
-class TagTree:
-    def __init__(self, otags):
-        self.root_nodes = []
-        self.name_to_id = {t["label"]: t["id"] for t in otags}
-        # First pass: create a TreeNode for every tag        
-        self.id_to_node = {t["id"]: TreeNode(t["label"]) for t in otags}
+def create_links_dict(cards):
+    """
+    Create a dictionary that maps card names to scryfall links
+    cards should not include tokens that have the same name as cards
+    (e.g Ajani's Pridemate) because they can overwrite the link entry
+    for the actual card
+    
+    Double-faced and split cards are added 3 times in the dict:
+    one with their full name (X // Y) and one with X and Y both,
+    allowing for easy searching.
+    """
+    card_links = {card["name"]: card["scryfall_uri"] for card in cards}
+    # Add entries for each face of double-faced cards
+    double_faced = filter(lambda x: " // " in x["name"], cards)
+    for card in double_faced:
+        card_name = card["name"]
+        parts = card_name.split(" // ")
+        card_links[parts[0]] = card_links[card_name]
+        card_links[parts[1]] = card_links[card_name]
 
-        # Second pass: add each tag's children to its TreeNode as TreeNodes themselves
-        # Also, create a list of every parentless node (root nodes)
-        for tag in otags:
-            tag_node = self.id_to_node[tag["id"]]
-            tag_node.children = [self.id_to_node[child_id] for child_id in tag["child_ids"]]
-            if tag["parent_ids"] == []:
-                self.root_nodes.append(tag_node)
+    save_json_file(card_links, C.FILES["LINKS"])
 
-    def get_children(self, label):
-        child_id = self.name_to_id[label]
-        return [c.label for c in self.id_to_node[child_id].children]
 
 def fetch_data():
     os.makedirs(C.DATA_DIR, exist_ok=True)
@@ -202,78 +178,41 @@ def fetch_data():
     if must_download:
         print("Downloading new card data... ")
         cards = get_and_decompress(C.LINKS["CARDS"])
-        with open(C.ORACLE["CARDS"], "w") as f:
-            json.dump(cards, f)    
+        cards = filter_non_cards(cards)
+        save_json_file(cards, C.ORACLE["CARDS"])
+        create_links_dict(cards)
 
         # Add empty list attribute for oracle tags; will fill later
         for card in cards:
             card["oracle_tags"] = []
 
-        # Create a dictionary that maps card names to scryfall links
-        card_links = {card["name"]: card["scryfall_uri"] for card in cards}
-        # Add entries for each face of double-faced cards
-        double_faced = filter(lambda x: " // " in x["name"], cards)
-        for card in double_faced:
-            card_name = card["name"]
-            parts = card_name.split(" // ")
-            card_links[parts[0]] = card_links[card_name]
-            card_links[parts[1]] = card_links[card_name]
-
-        with open(C.FILES["LINKS"], "w") as f:
-            json.dump(card_links, f)
+        card_is_funny = {card["oracle_id"]: card["set_type"] == "funny" for card in cards}
 
         tags = get_and_decompress(C.LINKS["TAGS"])
-        #flatten_tag_hierarchy(tags)
-        with open(C.ORACLE["TAGS"], "w") as f:
-            json.dump(tags, f)
-
-        tag_descriptions = {}
-        tagged_cards = {}
-        
         for tag in tags:
-            desc = tag["description"]
-            tag_descriptions[tag["label"]] = desc.lower() if desc is not None else None
+            # Remove un-set cards from taggings
+            # (don't want them to show up in example cards for each tag later on)
+            tag["taggings"] = list(filter(lambda t: not card_is_funny.get(t["oracle_id"]), tag["taggings"]))
+        save_json_file(tags, C.ORACLE["TAGS"])
+
+        # Add every card's tags to its dict
+        id_to_card = {card["oracle_id"]: card for card in cards}
+        for tag in tags:
             for tagging in tag["taggings"]:
-                o_id = tagging["oracle_id"]
+                tagged_card = id_to_card.get(tagging["oracle_id"])
+                # un-set, playtest, digital-only etc cards have been removed at this point
+                # and will not exist in the id_to_card dict
+                if tagged_card is not None:
+                    tagged_card["oracle_tags"].append(tag["label"])
 
-                if tagged_cards.get(o_id) is None:
-                    tagged_cards[o_id] = {tag["label"]}
-                else:
-                    tagged_cards[o_id].update([tag["label"]])
-                
-                #parent_labels = tag.get("parent_labels")
-                #if parent_labels is not None:
-                    #tagged_cards[o_id].update(parent_labels)
-
-        for card in cards:
-            o_tags = tagged_cards.get(card["oracle_id"])
-            if o_tags is not None:
-                card["oracle_tags"] = list(o_tags)
-
+        # Remove k-v pairs I don't need from the card db and save it
         clean_db = clean_card_db(cards)
-
-        with open(C.FILES["TAGS_ALL"], "w") as f:
-            json.dump(tag_descriptions, f)
-
-        tags_filtered = clean_tags_dict(tag_descriptions)
-        with open(C.FILES["TAGS"], "w") as f:
-            json.dump(tags_filtered, f)
-
-        tags_typal = get_prefix_tags(tag_descriptions, "typal")
-        with open(C.FILES["TAGS_TYPAL"], "w") as f:
-            json.dump(tags_typal, f)  
-        
-        tags_tutor = get_prefix_tags(tag_descriptions, "tutor")
-        with open(C.FILES["TAGS_TUTOR"], "w") as f:
-            json.dump(tags_tutor, f)
-
-        with open(C.FILES["CARDS"], "w") as f:
-            json.dump(clean_db, f)
+        save_json_file(clean_db, C.FILES["CARDS"])
         
         with open(C.FILES["DL_TIMESTAMP"], "w") as f:
             cur_date = datetime.datetime.today().strftime("%Y%m%d%H%M%S")
             f.write(cur_date)
-       
+
         print("Done!")
     else:
         print("Up-to-date card data exists.")
@@ -283,11 +222,10 @@ def load_data():
     # Right now, using the tag names without their descriptions.
     # They seem to not be essential, and this way the agent requires less tokens.
     data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
-    data.TAG_TREE = TagTree(load_json_file(C.ORACLE["TAGS"]))
-    data.TAGS_TUTOR = load_json_file(C.FILES["TAGS_TUTOR"]).keys()
-    data.TAGS_TYPAL = load_json_file(C.FILES["TAGS_TYPAL"]).keys()
-
     data.CARD_LINKS = load_json_file(C.FILES["LINKS"])
+
+    data.TAG_TREE = TagTree(C.ORACLE["TAGS"])
+
 
 if __name__ == "__main__":
     fetch_data()
