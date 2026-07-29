@@ -15,11 +15,12 @@ class Constants:
         "TAGS": "downloaded_data/tags-filtered.json",
         "TAGS_TYPAL": "downloaded_data/tags-typal.json",
         "TAGS_TUTOR": "downloaded_data/tags-tutor.json",
-        "DL_TIMESTAMP": "downloaded_data/.timestamp"
+        "DL_TIMESTAMP": "downloaded_data/.timestamp",
+        "REMOVED_TAGS": "downloaded_data/.removed-tags.json"
     }
-    TAGS_REMOVE = [
+    TAGS_TO_REMOVE = [
         "cycle",
-        "type errata"
+        "type errata",
         "digital-only mechanics",
         "un-design"
     ]
