@@ -11,19 +11,23 @@ class Constants:
     FILES = {
         "CARDS": "downloaded_data/cards.json",
         "LINKS": "downloaded_data/card-links.json",
-        "TAGS_ALL": "downloaded_data/tags-small.json",
-        "TAGS": "downloaded_data/tags-filtered.json",
-        "TAGS_TYPAL": "downloaded_data/tags-typal.json",
-        "TAGS_TUTOR": "downloaded_data/tags-tutor.json",
         "DL_TIMESTAMP": "downloaded_data/.timestamp",
-        "REMOVED_TAGS": "downloaded_data/.removed-tags.json"
+        "REMOVED_TAGS": "downloaded_data/.removed-tags.txt",
+        "TAG_LLM_DESCRIPTIONS": "downloaded_data/llm-descriptions.json"
     }
     TAGS_TO_REMOVE = [
         "cycle",
         "type errata",
         "digital-only mechanics",
-        "un-design"
+        "un-design",
+        "alt-commander"
     ]
+    KAGGLE = {
+        "CARDS": "/kaggle/input/datasets/lathanassiadis/oracle-cards/oracle-cards.json",
+        "REMOVED_TAGS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/.removed-tags.txt",
+        "TAG_LLM_DESCRIPTIONS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/llm-descriptions.json",
+        "TAGS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/oracle-tags.json"
+    }
 
 class Prompts:
     query = """

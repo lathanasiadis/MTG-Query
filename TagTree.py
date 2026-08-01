@@ -21,11 +21,12 @@ def get_example_cards(tag, id_to_card, N=5):
     return examples
 
 class TreeNode:
-    def __init__(self, tag, example_cards=""):
+    def __init__(self, tag, example_cards="", llm_description=""):
         self.tag = tag
         self.children = []
         self.parents = []
         self.example_cards = example_cards
+        self.llm_description = llm_description
 
     def get_label(self):
         return self.tag["label"]
@@ -57,7 +58,7 @@ class TreeNode:
             ret.append(parent.get_ancestries(new_path))
         return flatten_list(ret)
 
-    def describe(self):
+    def describe(self, example_cards=True):
         text = f"Tag:\n{self.get_label()}\n"
         
         if self.parents != []:
@@ -73,17 +74,21 @@ class TreeNode:
         if self.tag["description"] is not None:
             text += f"\nDescription:\n{self.tag['description']}\n"
 
-        if self.example_cards != "":
+        if self.llm_description != "":
+            text += "\n" + self.llm_description + "\n"
+
+        if example_cards and self.example_cards != "":
             text += f"\nExample cards:\n{self.example_cards}"
             
         return text
 
 class TagTree:
-    def __init__(self, otags_file, filter_tags=True):
+    def __init__(self, otags_file, filter_tags=True, llm_descriptions=None, kaggle=False):
         otags = load_json_file(otags_file)
 
         if filter_tags:
-            with open(C.FILES["REMOVED_TAGS"], "r") as f:
+            removed_tags = C.KAGGLE["REMOVED_TAGS"] if kaggle else C.FILES["REMOVED_TAGS"]  
+            with open(removed_tags, "r") as f:
                 removed_tags = f.read().split("\n")
 
             otags = filter(lambda tag: tag["label"] not in removed_tags, otags)
@@ -91,7 +96,7 @@ class TagTree:
             # hotfix:
             otags = list(filter(lambda tag: not tag["label"].startswith("cycle"), otags))
 
-        ocards = load_json_file(C.ORACLE["CARDS"])
+        ocards = load_json_file(C.KAGGLE["CARDS"]) if kaggle else load_json_file(C.ORACLE["CARDS"])
         id_to_card = {card["oracle_id"]: card for card in ocards}
 
         self.root_nodes = []
@@ -99,8 +104,18 @@ class TagTree:
         
         self.name_to_id = {t["label"]: t["id"] for t in otags}
 
-        # First pass: create a TreeNode for every tag        
-        self.id_to_node = {t["id"]: TreeNode(t, get_example_cards(t, id_to_card)) for t in otags}
+        # First pass: create a TreeNode for every tag
+        if llm_descriptions is not None:
+            self.id_to_node = {t["id"]: TreeNode(
+                t,
+                get_example_cards(t, id_to_card),
+                "" if llm_descriptions.get(t["label"]) is None else llm_descriptions.get(t["label"])
+                ) for t in otags}
+        else:
+            self.id_to_node = {t["id"]: TreeNode(
+                t,
+                get_example_cards(t, id_to_card)
+                ) for t in otags}
 
         # Second pass: add each tag's children to its TreeNode as TreeNodes themselves
         # Also, create a list of every parentless node (root nodes)
