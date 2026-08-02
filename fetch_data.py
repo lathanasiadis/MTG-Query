@@ -162,18 +162,21 @@ def create_links_dict(cards):
     save_json_file(card_links, C.FILES["LINKS"])
 
 
-def fetch_data():
-    os.makedirs(C.DATA_DIR, exist_ok=True)
+def fetch_data(check_for_new=True):
    
-    try:
-        with open(C.FILES["DL_TIMESTAMP"], "r") as f:
-            timestamp = f.read().strip()
-            last_dl_date = datetime.datetime.strptime(timestamp, "%Y%m%d%H%M%S")
-            now = datetime.datetime.today()
-            dif = now - last_dl_date
-            must_download = dif.days >= 1
-    except FileNotFoundError:
-        must_download = True
+    if check_for_new:
+        os.makedirs(C.DATA_DIR, exist_ok=True)
+        try:
+            with open(C.FILES["DL_TIMESTAMP"], "r") as f:
+                timestamp = f.read().strip()
+                last_dl_date = datetime.datetime.strptime(timestamp, "%Y%m%d%H%M%S")
+                now = datetime.datetime.today()
+                dif = now - last_dl_date
+                must_download = dif.days >= 1
+        except FileNotFoundError:
+            must_download = True
+    else:
+        must_download = False
 
     if must_download:
         print("Downloading new card data... ")
@@ -221,7 +224,7 @@ def load_data():
     data.DB = load_json_file(C.FILES["CARDS"])
     # Right now, using the tag names without their descriptions.
     # They seem to not be essential, and this way the agent requires less tokens.
-    data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
+    # data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
     data.CARD_LINKS = load_json_file(C.FILES["LINKS"])
 
     data.TAG_TREE = TagTree(C.ORACLE["TAGS"])
