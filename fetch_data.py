@@ -1,11 +1,8 @@
-import json
 import datetime
 import os
 
 from constants import Constants as C
-from TagTree import TagTree
-from utils import get_and_decompress, load_json_file, save_json_file
-import data
+from utils import get_and_decompress, save_json_file
 
 def filter_non_cards(oracle_cards):
     # Ignore digital-only cards
