@@ -7,7 +7,6 @@ from TagTree import TagTree
 from utils import get_and_decompress, load_json_file, save_json_file
 import data
 
-
 def filter_non_cards(oracle_cards):
     # Ignore digital-only cards
     filtered = filter(lambda card: "paper" in card["games"], oracle_cards)
@@ -67,7 +66,8 @@ def clean_card_db(original_db):
             "color_identity": card["color_identity"],
             "keywords": card["keywords"],
             "rarity": card["rarity"],
-            "oracle_tags": card["oracle_tags"]
+            "oracle_tags": card["oracle_tags"],
+            "type_line": card["type_line"]
         }
         # Split type line to types and subtypes
         typeline_parts = card["type_line"].split(" — ")
@@ -137,6 +137,8 @@ def clean_tags_dict(d: dict) -> dict:
                                     and "type errata" not in x \
                                     and "typal" not in x \
                                     and "tutor" not in x, d)}
+
+
 def get_prefix_tags(d: dict, prefix: str) -> dict:
     """
     Given a dictionary, return a dictionary with only the keys that contain prefix
@@ -224,6 +226,7 @@ def fetch_data(check_for_new=True):
         print("Done!")
     else:
         print("Up-to-date card data exists.")
+
 
 def load_data():
     data.DB = load_json_file(C.FILES["CARDS"])
