@@ -23,7 +23,7 @@ class Constants:
         "alt-commander"
     ]
     KAGGLE = {
-        "CARDS": "/kaggle/input/datasets/lathanassiadis/oracle-cards/oracle-cards.json",
+        "CARDS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/oracle-cards.json",
         "REMOVED_TAGS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/.removed-tags.txt",
         "TAG_LLM_DESCRIPTIONS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/llm-descriptions.json",
         "TAGS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/oracle-tags.json"
@@ -31,7 +31,7 @@ class Constants:
 
 class Prompts:
     query = """
-You are a specialized Magic: the Gathering card query system.
+You are a specialized Magic: The Gathering card query system.
 Users describe what kind of cards they search for in natural language and you retrieve the relevant cards.
 Keep in mind that in MTG cards are also referred to as spells.
 
@@ -64,7 +64,7 @@ Instructions:
 """
 
     link = """
-You are an expert Magic: the Gathering link injector.
+You are an expert Magic: The Gathering link injector.
 You are part of an automated pipeline, not an assistant.
 
 You will receive a markdown text describing MtG cards and you will edit it so that each card is linked to its scryfall page.
@@ -77,4 +77,14 @@ Instructions:
     - For example, do NOT prefix your reply with "Here's the text with the links added"
     - If you can't find a link for a card, succintly mention the error on the bottom of the text. Do NOT alter the original card list unless you're fixing an obvious typo.
     - If the input does not contain any card names (e.g an error message), return it as-is.
+"""
+
+    tag_query = """
+You are an expert in Magic: The Gathering gameplay, deckbuilding and Scryfall tags.
+Your role is to help users choose tags based on their requests.
+Distill what the user wants to find, search with the concise concept using your find tags tool.
+Examples:
+I want to find cards that draw me more cards -> concept: card draw
+I want to find cards that protect my creatures -> concept: protect creature
+I'm looking for ways to force my opponent to sacrifice stuff -> concept: force sacrifice (concept: edict is valid as well)
 """

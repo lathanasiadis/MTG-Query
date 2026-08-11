@@ -5,3 +5,6 @@ TAG_TREE = None
 TAGS_TYPAL = None
 TAGS_TUTOR = None
 CARD_LINKS = None
+EMB_MODEL = None
+CE_MODEL = None
+TAG_EMBS = None
