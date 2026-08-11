@@ -2,6 +2,9 @@ import requests
 import gzip
 import json
 
+from data import State
+
+
 def get_and_decompress(link):
     headers = {"User-Agent": "MTG Query 0.1"}
 
@@ -15,13 +18,16 @@ def get_and_decompress(link):
     # Convert from JSON Lines to List of JSON
     return [json.loads(line) for line in content.split("\n")[:-1]]
 
+
 def load_json_file(filename):
     with open(filename, "r") as f:
         return json.load(f)
 
+
 def save_json_file(obj, filename):
     with open(filename, "w") as f:
         json.dump(obj, f)
+
 
 def flatten_list(x):
     found_list = True
@@ -36,3 +42,12 @@ def flatten_list(x):
                 flat.append(item)
         x = flat
     return x
+
+
+def load_vector_stores():
+    """
+    Simple workaround to force the lazy evaluation,
+    so that the agent doesn't try to do it in parallel.
+    """
+    _ = State.rules_store
+    _ = State.qa_store

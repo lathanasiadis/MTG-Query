@@ -1,12 +1,11 @@
 from __future__ import annotations
 from operator import itemgetter
-from typing import Annotated, Union, Literal, List
+from typing import Annotated, Literal, List, Optional
 from functools import reduce
-
 from pydantic import BaseModel, Field
 from langchain.tools import tool
 import Levenshtein
-
+from card import Card
 from data import State
 
 class ArithmeticFilter(BaseModel):
@@ -246,6 +245,55 @@ def search_name(name: str):
 
     return [x[0] for x in sorted(ratios, key=lambda x: x[1], reverse=True)[:5]]
 
+
+@tool
+def find_card(name: str) -> Optional[Card]:
+    """
+    Returns details on the Magic card named name
+    """
+    for card in State.cards:
+        if card.name == name:
+            return card
+    return None
+
+
+@tool
+def search_rules(query: str) -> list[str]:
+    """
+    Search the Magic The Gathering comprehensive rules.
+
+    Args:
+        query: natural language query.
+        - Keep it as simple as possible.
+        - Use MTG keywords and terminology
+        - Do not add specifics to the query:
+          If you want to learn about mechanic X at instance Y, it's better to search fo X than "X at Y"
+        - Search for one term at a time
+        - You can also search for rule numbers
+
+    Returns:
+        List of the retrieved rules.
+    """
+    query = "Represent this sentence for searching relevant passages: " + query
+    results = State.rules_store.similarity_search(query, k=3)
+    return [res.page_content for res in results]
+
+@tool
+def search_qa(query: str) -> list[str]:
+    """
+    Search popular Q and A's about Magic The Gathering
+
+    Args:
+        query: natural language query.
+
+    Returns:
+        List of the retrieved items.
+    """
+    query = "Represent this sentence for searching relevant passages: " + query
+    results = State.qa_store.similarity_search(query, k=3)
+    return [res.page_content for res in results]
+    
+
 def evaluate_filter(card, fltr, eval_tag_children=True):
     if type(fltr) == bool: #reduce initialization edge case
         return fltr
@@ -317,12 +365,15 @@ if __name__ == "__main__":
         TagFilter(value="protection")
     ]))
 
-    
-    print("Protection descendants:")
-    pprint(get_tag_descendants("protection"))
+    c = find_card.invoke({"name": "Bloomvine Regent // Claim Territory"})
+    pprint(c)
 
-    print("Removal children:")
-    pprint(get_tag_children.invoke({"tag": "removal"}))
+    
+    # print("Protection descendants:")
+    # pprint(get_tag_descendants("protection"))
+
+    # print("Removal children:")
+    # pprint(get_tag_children.invoke({"tag": "removal"}))
 
     # pprint(query_json.invoke(q.model_dump()))
 

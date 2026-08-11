@@ -1,23 +1,32 @@
 from dataclasses import dataclass
+from typing import Optional
+import chromadb
+from chromadb.api import ClientAPI
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
 from TagTree import TagTree
 from constants import Constants as C
 from utils import load_json_file
+from card import Card, load_cards
+
 
 @dataclass
 class _State:
     # Global objects that need to be accessed by the agent's tools, lazily initialized
-    _cards = None
+    _cards: Optional[list[Card]] = None
     _tags = None
     _tag_tree = None
     _card_links = None
-    _emb_model = None
+    _emb_model: Optional[HuggingFaceEmbeddings] = None
+    _chroma_client: Optional[ClientAPI] = None
+    _qa_store: Optional[Chroma] = None
+    _rules_store: Optional[Chroma] = None
 
     # Cards
     @property
     def cards(self):
         if self._cards is None:
-            self._cards = load_json_file(C.FILES["CARDS"])
+            self._cards = load_cards()
         return self._cards
 
     @cards.setter
@@ -49,5 +58,47 @@ class _State:
     def emb_model(self, emb_model):
         self._emb_model = emb_model
 
+    # Vector Stores
+    @property
+    def rules_store(self):
+        if self._chroma_client is None:
+            self._chroma_client = chromadb.PersistentClient(path=C.CHROMA_DB)
+        if self._emb_model is None:
+            self._emb_model = HuggingFaceEmbeddings(
+                model_name="BAAI/bge-small-en-v1.5",
+                encode_kwargs={"batch_size": 64, "normalize_embeddings": True},
+            )
+        if self._rules_store is None:
+            self._rules_store = Chroma(
+                client=self._chroma_client,
+                collection_name=C.CHROMA_COLLECTIONS["RULES"],
+                embedding_function=self._emb_model
+            )
+        return self._rules_store
+
+    @rules_store.setter
+    def rules_store(self, rules_store):
+        self._rules_store = rules_store
+
+    @property
+    def qa_store(self):
+        if self._chroma_client is None:
+            self._chroma_client = chromadb.PersistentClient(path=C.CHROMA_DB)
+        if self._emb_model is None:
+            self._emb_model = HuggingFaceEmbeddings(
+                model_name="BAAI/bge-small-en-v1.5",
+                encode_kwargs={"batch_size": 64, "normalize_embeddings": True},
+            )
+        if self._qa_store is None:
+            self._qa_store = Chroma(
+                client=self._chroma_client,
+                collection_name=C.CHROMA_COLLECTIONS["STACKEX"],
+                embedding_function=self._emb_model
+            )
+        return self._qa_store
+
+    @qa_store.setter
+    def qa_store(self, qa_store):
+        self._qa_store = qa_store
     
 State = _State()
