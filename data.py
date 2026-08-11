@@ -100,5 +100,13 @@ class _State:
     @qa_store.setter
     def qa_store(self, qa_store):
         self._qa_store = qa_store
-    
+
 State = _State()
+
+def load_vector_stores():
+    """
+    Simple workaround to force the lazy evaluation,
+    so that the agent doesn't try to do it in parallel.
+    """
+    _ = State.rules_store
+    _ = State.qa_store
