@@ -69,10 +69,6 @@ def clean_card_db(original_db):
             "oracle_tags": card["oracle_tags"],
             "type_line": card["type_line"]
         }
-        # Split type line to types and subtypes
-        typeline_parts = card["type_line"].split(" — ")
-        d["type"] = typeline_parts[0].split(" ")
-        d["subtype"] = typeline_parts[1].split(" ") if len(typeline_parts) > 1 else []
     
         # Add price attribute. Prefer EUR values over USD
         if card["prices"]["eur"] is not None:
@@ -110,6 +106,7 @@ def clean_card_db(original_db):
                 cur_face = {
                     "name": cf["name"],
                     "mana_cost": cf["mana_cost"],
+                    "type_line": cf["type_line"],
                     "oracle_text": cf["oracle_text"]
                 }
                 add_if_exists(cf, cur_face, "power")
@@ -170,7 +167,6 @@ def create_links_dict(cards):
 
 
 def fetch_data(check_for_new=True):
-   
     if check_for_new:
         os.makedirs(C.DATA_DIR, exist_ok=True)
         try:
