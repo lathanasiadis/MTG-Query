@@ -7,8 +7,7 @@ from pydantic import BaseModel, Field
 from langchain.tools import tool
 import Levenshtein
 
-from fetch_data import load_data
-import data
+from data import State
 
 class ArithmeticFilter(BaseModel):
     kind: Literal["arithmetic"] = "arithmetic"
@@ -44,6 +43,7 @@ class TypeFilter(BaseModel):
     """
 
     kind: Literal["type"] = "type"
+    field: Literal["type_line"] = "type_line"
     op: Literal["in"]
     value: Literal[
         # Supertypes
@@ -65,6 +65,7 @@ class TypeFilter(BaseModel):
 
 class SubtypeFilter(BaseModel):
     kind: Literal["subtype"] = "subtype"
+    field: Literal["type_line"] = "type_line"
     op: Literal["in"]
     value: str
 
@@ -136,36 +137,38 @@ COLOR_OP_DICT = {
     ">=": lambda x,y: set(y).issuperset(set(x))
 }
 
-@tool
-def get_tags():
-    """
-    Returns a list containing every generic tag
-    """
-    return data.TAGS
+# @tool
+# def get_tags():
+#     """
+#     Returns a list containing every generic tag
+#     """
+#     return data.TAGS
 
-@tool
-def get_typal_tags():
-    """
-    Returns a list containing every oracle tag referencing typals.
-    Use this ONLY to find tags for typal/tribal/kindred synergies (i.e synergies with specific creature types)
-    or for their hate versions (i.e negative effects to specific creature types).
-    """
-    return data.TAGS_TYPAL
+# @tool
+# def get_typal_tags():
+#     """
+#     Returns a list containing every oracle tag referencing typals.
+#     Use this ONLY to find tags for typal/tribal/kindred synergies (i.e synergies with specific creature types)
+#     or for their hate versions (i.e negative effects to specific creature types).
+#     """
+#     return data.TAGS_TYPAL
 
-@tool
-def get_tutor_tags():
-    """
-    Returns a list containing every oracle tag referencing tutors (i.e cards that search for other cards).
-    Use this ONLY to find tags for searching for specific cards.
-    """
-    return data.TAGS_TUTOR
+# @tool
+# def get_tutor_tags():
+#     """
+#     Returns a list containing every oracle tag referencing tutors (i.e cards that search for other cards).
+#     Use this ONLY to find tags for searching for specific cards.
+#     """
+#     return data.TAGS_TUTOR
+
 
 @tool
 def get_root_tags():
     """
     Returns a list of every root tag, i.e a tag without parents.
     """
-    return [n.label for n in data.TAG_TREE.root_nodes]
+    return [n.label for n in State.tag_tree.root_nodes]
+
 
 @tool
 def get_tag_children(tag: str):
@@ -174,49 +177,50 @@ def get_tag_children(tag: str):
     Children tags are specialized versions of the parent effect.
     For example, the tag 'removal' has the children 'removal-creature' and 'removal-artifact', besides others.
     """
-    tag_id = data.TAG_TREE.name_to_id[tag]
-    return [n.label for n in data.TAG_TREE.id_to_node[tag_id].children]
+    tag_node = State.tag_tree.node_from_label(tag)
+    return tag_node.get_children()
+
 
 def get_tag_descendants(tag: str):
-    tag_id = data.TAG_TREE.name_to_id[tag]
+    tag_node = State.tag_tree.node_from_label(tag)
     descendants = []
 
-    for child in data.TAG_TREE.id_to_node[tag_id].children:
-        descendants.append(child.label)
-        descendants += get_tag_descendants(child.label)
+    for child in tag_node.children:
+        descendants.append(child.get_label())
+        descendants += get_tag_descendants(child.get_label())
 
     return descendants
 
-@tool(args_schema=TagSearchInput)
-def search_tags(keywords):
-    """
-    Returns the tag names that contain a set of keywords.
-    Tag descriptions are also searched, for tags that contain one.
-    """
-    ret = set()
+# @tool(args_schema=TagSearchInput)
+# def search_tags(keywords):
+#     """
+#     Returns the tag names that contain a set of keywords.
+#     Tag descriptions are also searched, for tags that contain one.
+#     """
+#     ret = set()
 
-    for k,v in data.TAGS.items():
-        key_matched = False
-        for keyword in keywords:
-            if keyword in k:
-                key_matched = True
-                break
+#     for k,v in data.TAGS.items():
+#         key_matched = False
+#         for keyword in keywords:
+#             if keyword in k:
+#                 key_matched = True
+#                 break
 
-        if key_matched:
-            ret.add(k)
+#         if key_matched:
+#             ret.add(k)
 
-        if v is None:
-            continue
+#         if v is None:
+#             continue
 
-        val_matched = False
-        for keyword in keywords:
-            if keyword in v:
-                val_matched = True
-                break
-        if val_matched:
-            ret.add(k)
+#         val_matched = False
+#         for keyword in keywords:
+#             if keyword in v:
+#                 val_matched = True
+#                 break
+#         if val_matched:
+#             ret.add(k)
 
-    return ret
+#     return ret
 
 @tool(args_schema=NameSearchInput)
 def search_name(name: str):
@@ -231,7 +235,7 @@ def search_name(name: str):
     contained_in = []
     name = name.lower()
     
-    for card in data.DB:
+    for card in State.cards:
         card_name = card["name"]
         if name in card_name.lower():
             contained_in.append(card["name"])
@@ -257,7 +261,7 @@ def evaluate_filter(card, fltr, eval_tag_children=True):
         return evaluate_filter(card, OrFilter(value=tag_filters), False)
 
     op_dict = COLOR_OP_DICT if type(fltr) == ColorFilter else OP_DICT
-    field = fltr.field if type(fltr) == ArithmeticFilter else fltr.kind
+    field = fltr.field if (type(fltr) == ArithmeticFilter or type(fltr) == TypeFilter or type(fltr) == SubtypeFilter) else fltr.kind
     # Card may not contain the field we're searching for
     # E.g not all cards contain the power and toughness fields
     card_val = card.get(field) 
@@ -285,7 +289,7 @@ def query_json(filters, limit=15):
     """
     ret = []
 
-    for card in data.DB:
+    for card in State.cards:
         if evaluate_filter(card, filters):
             ret.append(card)
 
@@ -297,28 +301,30 @@ def query_json(filters, limit=15):
     return ret[:limit]
 
 
-@tool(args_schema=LinkFetchInput)
-def get_links(card_names):
-    """
-    Receives a list of card names and returns a list of links to each card's page on scryfall.
-    Order is preserved.
-    """
-    return [data.CARD_LINKS.get(name) for name in card_names]
+# @tool(args_schema=LinkFetchInput)
+# def get_links(card_names):
+#     """
+#     Receives a list of card names and returns a list of links to each card's page on scryfall.
+#     Order is preserved.
+#     """
+#     return [data.CARD_LINKS.get(name) for name in card_names]
 
 if __name__ == "__main__":
-    load_data()
+    from pprint import pprint
 
     q = QueryInput(filters=AndFilter(value=[
         ColorFilter(op="=", value=["W"]),
         TagFilter(value="protection")
     ]))
 
-    from pprint import pprint
     
     print("Protection descendants:")
     pprint(get_tag_descendants("protection"))
 
-    pprint(query_json.invoke(q.model_dump()))
+    print("Removal children:")
+    pprint(get_tag_children.invoke({"tag": "removal"}))
+
+    # pprint(query_json.invoke(q.model_dump()))
 
     #pprint(get_tag_children.invoke({"tag": "protection"}))
     #pprint(get_tag_descendants("burn"))

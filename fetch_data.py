@@ -224,15 +224,5 @@ def fetch_data(check_for_new=True):
         print("Up-to-date card data exists.")
 
 
-def load_data():
-    data.DB = load_json_file(C.FILES["CARDS"])
-    # Right now, using the tag names without their descriptions.
-    # They seem to not be essential, and this way the agent requires less tokens.
-    # data.TAGS = load_json_file(C.FILES["TAGS"]).keys()
-    data.CARD_LINKS = load_json_file(C.FILES["LINKS"])
-
-    data.TAG_TREE = TagTree(C.ORACLE["TAGS"])
-
-
 if __name__ == "__main__":
     fetch_data()

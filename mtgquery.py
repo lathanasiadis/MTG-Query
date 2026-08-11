@@ -14,9 +14,8 @@ from rich.markdown import Markdown
 
 from constants import Constants as C
 from constants import Prompts
-from fetch_data import fetch_data, load_data
-from tools import search_name, get_root_tags, get_tag_children, query_json, get_links
-import data
+from fetch_data import fetch_data
+from tools import search_name, get_root_tags, get_tag_children, query_json
 
 
 def conv_filename():
@@ -40,7 +39,6 @@ def print_help():
 if __name__ == "__main__":
     load_dotenv()
     fetch_data()
-    load_data()
 
     search_agent = create_agent(
         model="deepseek-chat",
@@ -53,14 +51,14 @@ if __name__ == "__main__":
         checkpointer=InMemorySaver()
     )
 
-    link_agent = create_agent(
-        model="deepseek-chat",
-        tools=[get_links],
-        system_prompt=Prompts.link,
-        middleware = [
-            ToolCallLimitMiddleware(tool_name="get_links", run_limit=3)
-        ]
-    )
+    # link_agent = create_agent(
+    #     model="deepseek-chat",
+    #     tools=[get_links],
+    #     system_prompt=Prompts.link,
+    #     middleware = [
+    #         ToolCallLimitMiddleware(tool_name="get_links", run_limit=3)
+    #     ]
+    # )
 
     config = {"configurable": {"thread_id": str(int(time.time()))}}
     
@@ -94,12 +92,12 @@ if __name__ == "__main__":
                 {"messages": [search_question]},
                 config
             )
-            link_question = HumanMessage(content=search_response["messages"][-1].content)
-            link_response = link_agent.invoke(
-                {"messages": [link_question]}
-            )
+            # link_question = HumanMessage(content=search_response["messages"][-1].content)
+            # link_response = link_agent.invoke(
+            #     {"messages": [link_question]}
+            # )
 
-            last_response = link_response["messages"][-1].content
+            last_response = search_response["messages"][-1].content
             current_convo += f"> {prompt}\n\n{last_response}\n"
 
             console = Console()
