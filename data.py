@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-
+from langchain_huggingface import HuggingFaceEmbeddings
 from TagTree import TagTree
 from constants import Constants as C
 from utils import load_json_file
@@ -34,6 +34,20 @@ class _State:
     @tag_tree.setter
     def tag_tree(self, tag_tree):
         self._tag_tree = tag_tree
+
+    # Embedding Model
+    @property
+    def emb_model(self):
+        if self._emb_model is None:
+            self._emb_model = HuggingFaceEmbeddings(
+                model_name="BAAI/bge-small-en-v1.5",
+                encode_kwargs={"batch_size": 64, "normalize_embeddings": True},
+            )
+        return self._emb_model
+
+    @emb_model.setter
+    def emb_model(self, emb_model):
+        self._emb_model = emb_model
 
     
 State = _State()

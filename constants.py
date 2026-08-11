@@ -22,6 +22,14 @@ class Constants:
         "un-design",
         "alt-commander"
     ]
+    COMP_RULES = "downloaded_data/magic_cr.txt"
+    RULES_DIR = "downloaded_data/rules"
+    STACKEX_DIR = "downloaded_data/stackex"
+    CHROMA_DB = ".chroma_db"
+    CHROMA_COLLECTIONS = {
+        "RULES": "rules_collection",
+        "STACKEX": "qa_collection"
+    }
     KAGGLE = {
         "CARDS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/oracle-cards.json",
         "REMOVED_TAGS": "/kaggle/input/datasets/lathanassiadis/oracle-tags/.removed-tags.txt",
