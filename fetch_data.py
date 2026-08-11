@@ -24,6 +24,11 @@ def filter_non_cards(oracle_cards):
             "art_series"
         ],
         filtered)
+    # some tokens have a different layout, so we need set_type to filter them out.
+    filtered = filter(
+        lambda card: card["set_type"] != "token",
+        filtered
+    )
 
     # Ignore playtest cards
     filtered = filter(lambda card: "playtest" not in [] if card.get("promo_types") is None else card.get("promo_types"), filtered)
