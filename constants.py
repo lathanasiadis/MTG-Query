@@ -5,6 +5,7 @@ class Constants:
         "TAGS": "https://api.scryfall.com/bulk-data/oracle-tags"
     }
     ORACLE = {
+        "CARDS_ALL": "downloaded_data/oracle-cards-all.json",
         "CARDS": "downloaded_data/oracle-cards.json",
         "TAGS": "downloaded_data/oracle-tags.json"
     }

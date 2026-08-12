@@ -5,8 +5,11 @@ from constants import Constants as C
 from utils import get_and_decompress, save_json_file
 
 def filter_non_cards(oracle_cards):
-    # Ignore digital-only cards
-    filtered = filter(lambda card: "paper" in card["games"], oracle_cards)
+    # Ignore MTG Arena cards
+    # Since I'm using scryfall's "one definitive printing" data,
+    # some old cards are represented by their printings in mtgo-only remaster sets like Tempest Remastered
+    # So, we also need to consider mtgo here. Its fun stuff like vanguards are filtered down the line.
+    filtered = filter(lambda card: "paper" in card["games"] or "mtgo" in card["games"], oracle_cards)
 
     # Ignore card objects that do not go into your deck
     filtered = filter(
@@ -181,6 +184,7 @@ def fetch_data(check_for_new=True):
     if must_download:
         print("Downloading new card data... ")
         cards = get_and_decompress(C.LINKS["CARDS"])
+        save_json_file(cards, C.ORACLE["CARDS_ALL"])
         cards = filter_non_cards(cards)
         save_json_file(cards, C.ORACLE["CARDS"])
         create_links_dict(cards)
