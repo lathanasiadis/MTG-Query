@@ -258,7 +258,7 @@ def find_card(name: str) -> Optional[Card]:
 
 
 @tool
-def search_rules(query: str) -> list[str]:
+def search_rules(query: str) -> list[dict]:
     """
     Search the Magic The Gathering comprehensive rules.
 
@@ -276,10 +276,10 @@ def search_rules(query: str) -> list[str]:
     """
     query = "Represent this sentence for searching relevant passages: " + query
     results = State.rules_store.similarity_search(query, k=3)
-    return [res.page_content for res in results]
+    return [{"source": res.metadata["source"], "content": res.page_content} for res in results]
 
 @tool
-def search_qa(query: str) -> list[str]:
+def search_qa(query: str) -> list[dict]:
     """
     Search popular Q and A's about Magic The Gathering
 
@@ -291,7 +291,8 @@ def search_qa(query: str) -> list[str]:
     """
     query = "Represent this sentence for searching relevant passages: " + query
     results = State.qa_store.similarity_search(query, k=3)
-    return [res.page_content for res in results]
+    return [{"source": res.metadata["source"], "content": res.page_content} for res in results]
+
     
 
 def evaluate_filter(card, fltr, eval_tag_children=True):

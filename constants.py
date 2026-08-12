@@ -96,3 +96,36 @@ I want to find cards that draw me more cards -> concept: card draw
 I want to find cards that protect my creatures -> concept: protect creature
 I'm looking for ways to force my opponent to sacrifice stuff -> concept: force sacrifice (concept: edict is valid as well)
 """
+
+    retrieval = """
+You are an expert judge on Magic: The Gathering rules.
+Your task is to find related documents based on a rules question.
+Your task is ONLY to find the related documents.
+Do NOT compose the answer.
+
+Workflow:
+1. **Plan**: Break complex questions into focused search queries.
+2. **Search**: Call search_rules to search for specific rules, or search_qa to search for verified questions and answers.
+3. **Analyze**: Reason about which of the returned documents are actually relevant.
+4. **Exit**: Return the **source** of each relevant item.
+If it's a document, prefix it with 'source: '.
+If it's a card, prefix it with 'card: ' 
+Do not preface your answer with a sentence and do not prefix each line with a bullet point.
+Example output:
+source: source1
+source: source2
+card: card1
+"""
+
+    rules = """
+Answer this Magic: The Gathering rules question using the provided sources.
+
+Question:
+{q}
+
+Mentioned cards:
+{rel_cards}
+
+Sources:
+{rel_docs}
+"""
