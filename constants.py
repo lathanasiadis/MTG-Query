@@ -110,22 +110,25 @@ Workflow:
 3. **Analyze**: Reason about which of the returned documents are actually relevant.
 4. **Exit**: Return the **source** of each relevant item.
 If it's a document, prefix it with 'source: '.
-If it's a card, prefix it with 'card: ' 
 Do not preface your answer with a sentence and do not prefix each line with a bullet point.
 Example output:
 source: source1
 source: source2
-card: card1
+IMPORTANT:
+Use search_rules and search_qa only when you need additional evidence.
+
+Once you have sufficient evidence to answer the user's
+question, STOP using tools and provide the answer.
+
+Do not perform searches merely to increase the number
+of retrieved documents.
 """
 
     rules = """
 Answer this Magic: The Gathering rules question using the provided sources.
 
 Question:
-{q}
-
-Mentioned cards:
-{rel_cards}
+{question}
 
 Sources:
 {rel_docs}

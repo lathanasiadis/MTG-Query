@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from TagTree import TagTree
 from constants import Constants as C
 from utils import load_json_file
-from card import Card, load_cards
+from card import Card, load_cards, create_automaton
 
 
 @dataclass
@@ -21,6 +21,7 @@ class _State:
     _chroma_client: Optional[ClientAPI] = None
     _qa_store: Optional[Chroma] = None
     _rules_store: Optional[Chroma] = None
+    _automaton = None
 
     # Cards
     @property
@@ -101,12 +102,25 @@ class _State:
     def qa_store(self, qa_store):
         self._qa_store = qa_store
 
+    @property
+    def automaton(self):
+        if self._automaton is None:
+            self._automaton = create_automaton()
+        return self._automaton
+
+    @automaton.setter
+    def automaton(self, automaton):
+        self._automaton = automaton
+
 State = _State()
 
-def load_vector_stores():
+def load_tool_dependencies():
     """
     Simple workaround to force the lazy evaluation,
     so that the agent doesn't try to do it in parallel.
     """
+    _ = State.cards
+    _ = State.automaton
+    # vector stores will also load chroma db and emb model
     _ = State.rules_store
     _ = State.qa_store

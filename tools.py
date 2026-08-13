@@ -246,7 +246,6 @@ def search_name(name: str):
     return [x[0] for x in sorted(ratios, key=lambda x: x[1], reverse=True)[:5]]
 
 
-@tool
 def find_card(name: str) -> Optional[Card]:
     """
     Returns details on the Magic card named name
@@ -273,6 +272,11 @@ def search_rules(query: str) -> list[dict]:
 
     Returns:
         List of the retrieved rules.
+
+    IMPORTANT:
+    After obtaining sufficient evidence, stop searching
+    and answer the user's question. Do not call this
+    tool again merely to obtain additional documents.
     """
     query = "Represent this sentence for searching relevant passages: " + query
     results = State.rules_store.similarity_search(query, k=3)
@@ -288,6 +292,11 @@ def search_qa(query: str) -> list[dict]:
 
     Returns:
         List of the retrieved items.
+
+    IMPORTANT:
+    After obtaining sufficient evidence, stop searching
+    and answer the user's question. Do not call this
+    tool again merely to obtain additional documents.
     """
     query = "Represent this sentence for searching relevant passages: " + query
     results = State.qa_store.similarity_search(query, k=3)
