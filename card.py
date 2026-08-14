@@ -1,9 +1,5 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 from typing import Optional, Literal
-from collections import defaultdict
-from functools import reduce
-
-import ahocorasick
 
 from utils import load_json_file
 from constants import Constants as C
@@ -40,6 +36,26 @@ class Card:
     loyalty: Optional[str] = None
     produced_mana: Optional[list[Literal["W", "U", "B", "R", "G"]]] = None
 
+    def for_rules_prompt(self):
+        data = asdict(self)
+        
+        prompt_fields = [
+            "name",
+            "mana_cost",
+            "type_line",
+            "oracle_text",
+            "power",
+            "toughness",
+            "loyalty"
+        ]
+
+        filtered_dict = {k: v for k,v in data.items() if k in prompt_fields and (v is not None and v != [])}
+
+        if self.card_faces != []:
+            filtered_dict["card_faces"] = [{k: v for k, v in asdict(card_face).items() if v is not None} for card_face in self.card_faces]
+
+        return filtered_dict
+
 
 def load_cards() -> list[Card]:
     cards = load_json_file(C.FILES["CARDS"])
@@ -53,62 +69,6 @@ def load_cards() -> list[Card]:
     return ret
 
 
-def create_automaton():
-    """
-    Creates an Aho-Corasick automaton that finds card names in a given text
-    """
-    cards = load_cards()
-
-    # stuff we want to be able to search for
-    # key: normalized value (just lowercase for now)
-    # value: original value
-    needles = defaultdict(list)
-
-    for c in cards:
-        needles[c.name.lower()].append(c.name)
-
-    normal_cards = filter(lambda x: x.card_faces == [], cards)
-    normal_cards = [c.name for c in normal_cards]
-
-    # We're looking for cards named "X, Y" (e.g Jetmir, Nexus of Revels)
-    # This templating is usually found in legendary creatures, hence the variable name
-    # We're mapping X to the full card name, so that the user can refer to it in a more natural way
-    # Some legendaries have multiple versions of themselves.
-    # In this case, the list of possible full names is kept, so that it can be shown to the user for
-    # disambiguation.
-    for card in normal_cards:
-        if "," in card:
-            name = card.split(",")[0]
-            needles[name.lower()].append(card)
-
-    # Map face names of cards with multiple faces to the full, official card name
-    # e.g For the card "Fire // Ice", "Fire" and "Ice" are mapped to "Fire // Ice"
-    split_cards = list(filter(lambda x: x.card_faces != [], cards))
-    for card in split_cards:
-        needles[card.card_faces[0].name.lower()].append(card.name)
-        needles[card.card_faces[1].name.lower()].append(card.name)
-
-    # Finally, we go over every split card part and find which ones are templated like legendaries
-    # We want them to be retrievable from the legend name of both parts
-    # E.g for a card A, B // C, D we want it to be retrievable by A or C
-    split_cards = [[c.card_faces[0].name, c.card_faces[1].name] for c in split_cards]
-    split_cards = reduce(lambda x, y: x + y, split_cards, initial=[])
-
-    for card in split_cards:
-        if "," in card:
-            name = card.split(",")[0]
-            needles[name].append(card)
-    
-    automaton = ahocorasick.Automaton()
-    for k,v in needles.items():
-        key = k.lower()
-        val = v[0] if len(v) == 1 else v
-        automaton.add_word(key, (len(key), val))
-    automaton.make_automaton()
-
-    return automaton
-
-
 if __name__ == "__main__":
-    load_cards()
+    cards = load_cards()
 

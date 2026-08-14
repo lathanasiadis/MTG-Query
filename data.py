@@ -7,8 +7,8 @@ from langchain_chroma import Chroma
 from TagTree import TagTree
 from constants import Constants as C
 from utils import load_json_file
-from card import Card, load_cards, create_automaton
-
+from card import Card, load_cards
+from automaton import Automaton
 
 @dataclass
 class _State:
@@ -21,7 +21,7 @@ class _State:
     _chroma_client: Optional[ClientAPI] = None
     _qa_store: Optional[Chroma] = None
     _rules_store: Optional[Chroma] = None
-    _automaton = None
+    _automaton: Optional[Automaton] = None
 
     # Cards
     @property
@@ -104,8 +104,10 @@ class _State:
 
     @property
     def automaton(self):
+        if self._cards is None:
+            self._cards = load_cards()
         if self._automaton is None:
-            self._automaton = create_automaton()
+            self._automaton = Automaton(self._cards)
         return self._automaton
 
     @automaton.setter

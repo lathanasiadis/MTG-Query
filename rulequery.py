@@ -20,16 +20,10 @@ if __name__ == "__main__":
 
     prompt = "Question:\n" + input(">>> Enter your rules question: ") + "\n"
 
-    found = set()
-    for end_idx, (key_len, orig) in State.automaton.iter(prompt.lower()):
-        start_idx = end_idx - key_len + 1
-        start_ok = start_idx == 0 or not prompt[start_idx-1].isalnum()
-        end_ok = end_idx == len(prompt) - 1 or not prompt[end_idx+1].isalnum()
-        if start_ok and end_ok:
-            found.add(orig)
+    cards_detected = State.automaton.detect(prompt)
 
-    if len(found) != 0:
-        prompt += f"\nRelated Cards:\n{"\n".join([str(find_card(c)) for c in found])}"
+    if len(cards_detected) != 0:
+        prompt += f"\nRelated Cards:\n{"\n".join([str(find_card(c).for_rules_prompt()) for c in cards_detected])}"
 
     response = agent.invoke(
         {"messages": [{"role": "user", "content": prompt}]}
