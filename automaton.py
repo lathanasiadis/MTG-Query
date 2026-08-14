@@ -10,8 +10,6 @@ class Automaton:
         """
 
         # stuff we want to be able to search for
-        # key: normalized value (just lowercase for now)
-        # value: original value
         needles = defaultdict(list)
 
         for c in cards:
