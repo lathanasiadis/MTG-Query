@@ -40,6 +40,8 @@ You need to rename `example.env` to `.env` and fill in your API key.
 
 - Dependencies are managed with `uv`. After installing it, run `uv sync` to download the dependencies and create the virtual environment.
 
+- run `uv run parse_rules.py` to split MTG's comprehensive rulebook (located in `downloaded_data/magic_cr.txt`) into chapter-sized chunks.
+
 - You will need to create the embeddings for the MTG rulebook and the stackexchange Q&As.
 Run `uv run embed.py` which will create a Chroma vector store in `.chroma_db`.
 The stack exchange data has been downloaded using [stackexchange-dataset](https://github.com/EleutherAI/stackexchange-dataset/tree/master) frm EleutherAI and adding a filter for MTG tags.
