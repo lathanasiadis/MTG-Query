@@ -256,6 +256,13 @@ def find_card(name: str) -> Optional[Card]:
     return None
 
 
+def retrieve(query: str, corpus: Literal["rules", "qa"], k: int = 3):
+    query = "Represent this sentence for searching relevant passages: " + query
+    store = State.rules_store if corpus == "rules" else State.qa_store
+    results = store.similarity_search(query, k=k)
+    return [res.metadata["source"] for res in results]
+
+
 @tool
 def search_rules(query: str) -> list[dict]:
     """
@@ -281,6 +288,7 @@ def search_rules(query: str) -> list[dict]:
     query = "Represent this sentence for searching relevant passages: " + query
     results = State.rules_store.similarity_search(query, k=3)
     return [{"source": res.metadata["source"], "content": res.page_content} for res in results]
+
 
 @tool
 def search_qa(query: str) -> list[dict]:
