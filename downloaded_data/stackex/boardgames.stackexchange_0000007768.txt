@@ -1,0 +1,14 @@
+Q:
+
+Goldnight Redeemer and Angel's Tomb
+
+I was playing a casual game with a friend the other day testing out a new angels deck I built and came accross this situation....
+I had an Angel's Tomb, which has this artifact may become a 3/3 flying white artifact angel  until end of turn whenever a creature enters the battlefield under your control, on the field as well as 2 other creatures and I then summoned Goldnight Redeemer, which has WETB gain 2 life for each other creature you control.  
+The question is does the Angel's Tomb effect trigger before or after Goldnight Redeemer since both are activated by Goldnight Redeemer entering the battle?
+
+A:
+
+To expand on user1873's answer ever so slightly - they're both your abilities, so you can put them on the stack whichever way you want.  You want to put the Goldnight Redeemer's ability on the stack first, and then Angel's Tomb's ability on the stack after that.  
+The abilities then resolve in a Last In, First Out style: at the top of the stack, the Tomb becomes a creature.  Then we move on to the Redeemer ability and gain 2 life for each other creature - which now includes the Tomb-Angel.
+Stacking triggered abilities correctly can be a bit difficult to visualise at first, so I thought it would be useful to provide a little walkthrough...
+

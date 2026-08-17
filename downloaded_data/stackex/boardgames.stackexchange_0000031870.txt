@@ -1,0 +1,21 @@
+Q:
+
+Full written card lists for sets MTG
+
+Is there anywhere where I can get a full card list just names for sets without all the mana costing and text or pictures. for example in the form:
+
+Card one
+  card two
+  card three
+
+and so forth.
+
+A:
+
+There are multiple places to obtain set checklists that approximately match your description:
+
+Gatherer Advanced Search allows you to search by expansion. If you choose the output format "Checklist", the results page will be a list of cards with Collector's Number, Name, Artist, Color, Rarity, and Expansion Set for each.
+Scryfall allows you to search by expansion with the search text set:[set code] or by using the advanced search. This output can be formatted as a checklist, which shows a variety of information about each card. This page also lists all of the sets in reverse chronological order, to easily find the one you want.
+The Wizards Play Network has deck checklists for each set, which appear to be intended for use in limited events, but you could print them out and use them however you want. For each card, it lists just the Name, with box or two next to it. However, these lists appear to only go back to Urza's Saga, so if you need the earliest sets, you'll need to look elsewhere.
+PucaTrade has a list of every Magic expansion set, and each of those links goes to a page that lists the name of each card along with the expansion symbol colored to indicate rarity.
+

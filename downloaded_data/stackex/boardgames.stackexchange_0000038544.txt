@@ -1,0 +1,22 @@
+Q:
+
+Does the effect of an instant supersede first strike damage from a creature?
+
+My opponent had no available blockers and I attacked my opponent with a 2/2 creature with first strike. They played an instant that would wipe out the attacking creature. Does my creature still deal 2 damage before it goes to the graveyard or does the instant destroy it before it is able to deal first strike damage?
+
+A:
+
+Your opponent is able to destroy your creature before it deals damage. I wouldn't say the effects of the instant "supersede" the first strike damage, though; it's merely that your opponent can cast the instant (and it will resolve) before damage has a chance to be dealt.
+The steps of the combat phase, when a creature with first strike (or double strike) is present are:
+
+beginning of combat step
+declare attackers step
+declare blockers step
+first combat damage step
+second combat damage step (Skipped if no attacking or blocking creature had first strike or double strike at the start of the first CDS.)
+end of combat step
+
+In each of these steps, each player gets priority, i.e. gets a chance to cast spells and activate abilities.
+In order to stop a creature from dealing damage, all your opponent has to do is destroy it before you reach the combat damage step.
+They could choose to cast their instant in any of those first three steps: in the beginning of combat step before you even attack (though they won't know what's going to attack yet, and you can then decide with the knowledge that your creature is gone), during the declare attackers step after you've attacked but before blockers are declared, or during the declare blockers step after blockers are declared (or lack thereof - this step happens whether or not there are actually any blockers to declare). Note that this works whether or not first strike (or double strike) is involved. These steps are before combat damage of any sort.
+

@@ -1,0 +1,38 @@
+Q:
+
+Can I save a creature from dying by exileing then returning it
+
+If I have a Dire Fleet Hoarder on the field that takes a point of damage can I cast Siren's Ruse to save it from dying?
+
+A:
+
+Yes you can save your creature, if you cast your spell at the right time.
+When you exile a creature and return it to the battlefield it becomes a new object (except in special cases) as per the comprehensive rules:
+
+400.7: An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:...
+
+However in order to save your creature, you must cast exile and return the creature before damage has been done to it.
+For example if your creature is targeted by a removal spell:
+
+You have a Dire Fleet Hoarder and your opponent casts Shock targeting it. 
+If you respond to the Shock with Siren's Ruse, your opponent has no responses.
+Once the stack starts to resolve, the Shock will lose track of your Dire Fleet Hoarder and fizzle (since it no longer has any legal targets).
+Your pirate has survived and is free to pillage another day!
+
+An example of your creature about to die in combat (see: Combat Phase for more info):
+
+You have a Dire Fleet Hoarder that is attacking and your opponent has a 
+2/2 Forest Bear blocking it.
+Before the Damage Step you cast Siren's Ruse targeting your Dire Fleet Hoarder, your opponent has no responses.
+When Siren's Ruse resolves your Dire Fleet Hoarder is removed from combat. It will no longer be dealt any damage by the Bear, and it will no longer deal any damage to the Bear.
+
+If however the damage has already been marked on the Dire Fleet Hoarder, for instance you let the the Shock spell resolve without responding or you let combat damage be dealt, it is too late to save it. This is because it will have already died due to state-based actions as per the comprehensive rules:
+
+704.1.: State-based actions are game actions that happen automatically whenever certain conditions (listed below) are met. State-based actions don’t use the stack.
+
+and
+
+704.5g: If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+Since the creature is killed as a result of a state based action, it doesn't use the stack. Since it doesn't use the stack, you can not respond to it and can not save your creature.
+

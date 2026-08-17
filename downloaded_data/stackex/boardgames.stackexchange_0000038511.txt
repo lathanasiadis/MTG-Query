@@ -1,0 +1,14 @@
+Q:
+
+Interactions with Razaketh and Black Sun's Zenith
+
+I was wondering about the interactions between Razaketh, the Foulblooded and Black Sun's Zenith. If I cast Black Sun's Zenith, choosing at least 8 for X, can I use Razaketh's ability to tutor for Black Sun before he dies?
+
+A:
+
+No.
+The State-Based Action that would put Razaketh into the graveyard happens the next time a player would get priority after Razaketh gets the -1/-1 counters, so it happens before you get priority to activate Razaketh's activated ability.
+The last chance you have to activate Razaketh's activated ability occurs before Black Sun's Zenith starts resolving, and Black Sun's Zenith isn't in your library at that point.
+
+If Black Sun's Zenith was an instant (or gained flash), then you could make it work. You'd start by activating Razaketh's activated ability, then cast Black Sun's Zenith in response. Black Sun's Zenith would resolve first, then Razaketh would die, then Razaketh's activated ability would resolve.
+

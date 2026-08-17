@@ -1,0 +1,15 @@
+Q:
+
+How can we interrupt the Witherbloom Apprentice and Chain of Smog combo?
+
+A friend of mine was discussing the Witherbloom Apprentice and Chain of Smog combo (pictured below).
+I was wondering if it would be easy to interrupt the combo easily, since Chain of Smog is a sorcery.
+For example, if my opponent had Witherbloom Apprentice on the battlefield, and then cast Chain of Smog... me casting an instant spell like Pongify on Witherbloom Apprentice should negate the combo, correct?  Because Chain of Smog is a sorcery, my opponent wouldn't be able to put a copy of it on the stack while my removal spell was also on the stack.  Is that correct?
+Also let's say I played a card with Split Second such as Krosan Grip, targeting a random artifact on the board that has nothing to do with the combo.  Since Split Second prevents any spells from being put on the stack, would this prevent my opponent's Chain of Smog from going on the stack?  Or would this not work, since the spell is being copied, and not being cast?
+
+A:
+
+You can interrupt this combo with any instant or ability that removes the Witherbloom Apprentice or counters the Chain of Smog.
+The most important thing to see here is that the copy of Chain of Smog is created as part of the resolution of the spell. The player it's targeting can't create the copy whenever they want, while the spell is on the stack. The fact that it's a sorcery is irrelevant. So, Pongify will work, because its an instant that removes the Witherbloom Apprentice.
+On the other hand, Split Second on Krosan Grip is irrelevant here. Sure, while it's on the stack, the opponent won't be able to do anything else, but after it resolves, the Chain of Smog is still on the stack, and the combo still works.
+

@@ -1,0 +1,21 @@
+Q:
+
+Sacrifice inferno fist after creature died
+
+If my oponent attacks me with a 5/5 creature and I block it with a 2/2 creature with a inferno fist attached to it, can I sacrifice the Inferno Fist after damage has resolved, so I can kill the 5/5?
+
+A:
+
+No, you can't.
+Any time a player would get priority and the chance to do anything (in your case at the end of the combat damage step after combat damage has been dealt), so-called state-based actions are checked. These are a series of automatic effects during which no player can do anything. One of those effects cause enchantments to become unattached (they fall off) off dead creatures. Another effect is that unattached auras go to their owner's graveyard. By the time you can take any action, Inferno Fist is already in a graveyard and can no longer be sacrificed.
+Combat damage step:
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+Before a player actually gets priority and can do things, state-based actions are checked first:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated;
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+704.5n If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+

@@ -1,0 +1,14 @@
+Q:
+
+How does double strike work?
+
+If I have a creature with 4/4 double strike, does it kill each blocking creature with toughness 4 or less due to first strike?
+
+A:
+
+Creatures always deal damage equal to their power. Creatures with double strike do this twice.
+Specifically, a creature with double strike deals damage equal to its power once during the first strike damage step, and once during the regular combat damage step. Creatures with first strike deal damage just once during the first strike damage step, and regular creatures deal damage just once during the regular combat damage step.
+When your attacking creature is blocked by multiple creatures, you pick an order to assign damage. Your creature deals lethal damage to the first, then if there's still damage left over, goes on to the second, and so on. It never gets to deal more damage than its power, though - it's just a question of how it's spread across the blocking creatures.
+So for example, if your 4/4 with double strike is blocked by two 4/4s (without first strike or double strike), during the first strike damage step your 4/4 would deal 4 damage to of your opponent's 4/4s (killing it before it has a chance to deal damage), then during regular combat damage your 4/4 and your opponent's remaining 4/4 would deal 4 damage to each other (killing each other). End result: you traded your 4/4 double strike for two regular 4/4s.
+Similarly, if your 4/4 were blocked by three 3/3s, during first strike damage it'd deal 3 damage to the first (killing it) and deal one damage to the next one, then during regular combat damage it'd deal two damage to that one (finishing it off) and two damage to the last one, taking 6 damage in return (killing it). End result: you traded your 4/4 double strike for two regular 3/3s.
+

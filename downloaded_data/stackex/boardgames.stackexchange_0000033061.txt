@@ -1,0 +1,24 @@
+Q:
+
+What are the uses of holding priority?
+
+I've recently learned about holding the priority after playing a spell or ability.
+I understand this can be used for beneficial effects affecting your own spells, for instance copying your own instant/sorcery with Twincast or Reverberate.
+But since the stack resolves it's content 1 by 1, I don't see how playing two spells back to back without passing priority would differ from playing one, let it resolve, then play another.
+Apart from spell copying/redirecting/etc... effects, what would holding the priority allow a player to achieve ?
+
+A:
+
+You hold priority when you need to take additional actions before a previous action resolves, and those additional actions depend on the previous actions.
+That is the general answer to your question. The list of specific examples would be endless, and so I'll only provide one example that falls outside of the "spell copying/redirect" category.
+Example:
+You have four cards in your graveyard.  
+
+Activate Jace, Vryn's Prodigy and hold priority.
+Activate and resolve Minamo, School at Water's Edge to untap Jace.
+Activate Jace.
+
+If you had not held priority after activating Jace's ability, then Jace would have transformed before you had a chance to activate him a second time. By holding priority, you got a "bonus" activation out of Jace.
+Note that in order for any spell or ability to resolve, both players must pass priority without taking any other actions. At Competitive and Professional REL, when a spell or ability is added to the stack, its controller is assumed to have passed priority unless they explicitly state otherwise. That explicit statement is what most players call "holding priority".
+This answer to another question goes into far more detail about not only why holding priority matters, but why priority in general matters.
+

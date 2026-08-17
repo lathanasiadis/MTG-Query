@@ -1,0 +1,20 @@
+Q:
+
+Can you change a target of a spell to an illegal target with misdirection?
+
+Can you change a target of a spell to an illegal target with misdirection? One ruling for Misdirection says that
+
+This does not check if the current target is legal. It just checks if the spell has a single target.
+
+Would changing target of a spell to an illegal target work as a counterspell?
+
+A:
+
+No, this is forbidden by comp rule 115.7, which covers changing targets. (Emphasis mine.)
+
+115.7a If an effect allows a player to “change the target(s)” of a spell or ability, each target can be changed only to another legal target. If a target can’t be changed to another legal target, the original target is unchanged, even if the original target is itself illegal by then. If all the targets aren’t changed to other legal targets, none of them are changed.
+
+The ruling you quoted is referring to the restriction that the spell Misdirection targets must itself have only one target (legal or otherwise).
+Example: You have two creatures. I cast Lightning Bolt on one of them. In response, you give that creature hexproof. Lightning Bolt is now targeting an illegal target, and on resolution it will fizzle. However, it still has exactly one target and I can cast Misdirection on it.
+On the other hand, if I cast Arc Lightning and you give one of your creatures hexproof, even though Arc Lightning now has only one legal target, it still has two targets and I can't cast Misdirection on it.
+

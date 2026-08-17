@@ -1,0 +1,17 @@
+Q:
+
+Victory conditions with the "Limited Range of Influence" option
+
+In a ten player Grand Melee, Anthony controls a Darksteel Reactor with 20 counters on it.
+Anthony has satisfied the trigger condition for Darksteel Reactor. The trigger resolves, and he wins the game. However, with the limited range of influence option, only the person to Anthony's left and right will lose the game. There is now a void on Anthony's left and right, and his range of influence is not reevaluated until the beginning of his next turn. But Anthony never gets another turn because the Reactor will trigger again and again forever.
+What happens to Anthony now? Can other turn markers bring opponents into Anthony's range of influence so that they will lose to him? In other words, can the void on his left and right ever be collapsed? If not, has he fallen victim to an infinite loop, forcing a draw by his own victory condition?
+
+A:
+
+Anthony would force himself to draw that game.
+
+801.16. If the game somehow enters a "loop" of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw for each player who controls an object that's involved in that loop, as well as for each player within the range of influence of any of those players. They leave the game. All remaining players continue to play the game.
+
+Grand Melee is set up so that no matter who the Active Player is any given player is inside only one AP's range of influence[807.4d]. This is so that you can't have weird things happen like being within the range of influence of 2 different players at 2 different parts of their turn, because Magic doesn't really support, for example, being in both an upkeep and combat step at the same time.
+Since there is no way for Anthony to progress any farther in the current turn than the Cleanup Step, the current turn can't end for him. If somehow someones range of influence were allowed to move into him that would then mean he was currently part of 2 separate turns and that just doesn't make sense in Magic.
+

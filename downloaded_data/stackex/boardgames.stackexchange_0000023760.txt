@@ -1,0 +1,15 @@
+Q:
+
+Can I respond to Elesh Norn's ability?
+
+I have yet another timing question:
+Elesh Norn, Grand Cenobite enters the battlefield under my opponent's control. I have Teysa, Orzhov Scion on the field with three other white 1/1 creatures.
+Normally, the three white ones would die due to Elesh Norn's ability (-2/-2).
+BUT can I first sacrifice them with Teysa's first ability in order to remove Elesh Norn from the game?
+I am not sure about the timing. Elesh enters the battlefield and his ability resolves. Can I react to that with creatures that would be affected by this ability (-2/-2)?
+
+A:
+
+No, you cannot do that.
+You cannot target Elesh Norn with Teysa before Elesh is on the battlefield. However, as soon as Elesh is on the battlefield, its static -2/-2 ability is in effect, and your tokens will die as a state-based effect, before anyone gets priority and the opportunity to use regular spells or abilities. Note that Elesh's ability does not resolve, because it does not go on the stack. As long as Elesh is on the battlefield, the ability is permanently active.
+

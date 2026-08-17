@@ -1,0 +1,31 @@
+Q:
+
+MTG Rhonas the Indomitable + Saving Grace
+
+What happens if I cast Saving Grace on Rhonas the Indomitable after attackers are declared?
+Does Rhonas block all damage even if the conditions are NOT met aka : don't have another creature of power 4?
+Rhonas's deathtouch/indestructable combo seems perfect for blocking any creature dmg
+
+A:
+
+Rhonas the Indomitable doesn't block anything, and won't deal damage, but the damage does get redirected to Rhonas.
+Usually the flow goes like this:
+
+Your opponent declares attackers. (Then both of you can cast spells, activate abilities, etc.)
+You declare blockers. (Then both of you can cast spells again, activate abilities again, etc.
+
+Rhonas can't be assigned as a blocker during this step, but that's OK for your plan.
+
+Attackers, and the creatures blocking them, deal damage to each other simultaneously.
+
+You'll be modifying this slightly with Saving Grace's ability:
+
+When Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.
+
+That "instead" makes this a replacement effect which, this turn only, changes how damage would be dealt to you and permanents you control. Rhonas still can't block, but this changes step 3 to the following:
+
+All attackers that would deal damage to you or permanents you control instead deal that damage to Rhonas. Simultaneously with that, all of your blockers deal damage to the attackers they're blocking.
+
+Rhonas is still indestructible and won't be destroyed by what is almost certainly lethal damage.
+Rhonas is not however involved in combat. Rhonas wasn't declared as a blocker, isn't considered to be one, and isn't blocking any creatures at all. It's just taking a bunch of damage. Rhonas will deal no damage in this step. This also means it won't deal lethal damage via deathtouch to anything.
+

@@ -1,0 +1,16 @@
+Q:
+
+Can you shoot Terror of the Peaks when it enters with a bunch of dragons, to avoid the damage?
+
+On a recent edh game a player was returning all the dragons from his graveyard to play. One of those dragons was Terror of the Peaks, so other dragons would trigger him. All of them enter at the same time, but the active player chooses to have Terror of the Peaks enter first. Is it possible to instant kill Terror of the Peaks and avoid the damage? Some other players were arguing, that the damage is already on the stack, and it does not matter if the dragon is killed. I do not think so.
+
+A:
+
+but the active player chooses to have Terror of the Peaks enter first
+
+That's not possible, if an effect returns all dragons from a graveyard to the battlefield, they all enter at the same time. But Terror of the Peaks' ability still triggers for each other dragon; see for example Cards entering the battlefield simultaneously and "Enter the Battlefield" effects.
+
+Is it possible to instant kill Terror of the Peaks and avoid the damage?
+
+No. It does not matter that the source of the damage is no longer around by the time it resolves. Mogg Fanatic would be a rather stupid card if that was the case. See Does an ability resolve if the source of the ability leaves the battlefield? for more information.
+

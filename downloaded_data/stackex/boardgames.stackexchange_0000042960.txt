@@ -1,0 +1,28 @@
+Q:
+
+Can I attach Batterskull to a creature of my choice when I put it on the battlefield with Quest for the Holy Relic?
+
+Assume my board state is as follows: Quest for the Holy Relic with 5 quest counters on it, any creature (call it Bob for now), any rest. I activate the Quest's ability, allowing me to find an equipment in my deck, put it on the battlefield, and attach it to a creature I control. For this, I pick Batterskull, an equipment with Living weapon:  
+
+When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it. 
+
+Now my question is: Does the Germ enter the battlefield before or after I need to attach the Batterskull to a creature as by the ability of the Quest?
+As depending on that, two scenarios may occur:
+
+If the germ is spawned first, then I can attach the weapon to any of the two I like.
+If not, the weapon is first attached to Bob, then the Germ will spawn and Batterskull will be attached to the Germ (as by the effect of Living weapon) (please also state if I am wrong on this one). 
+
+A:
+
+Your creature will briefly have Batterskull attached to it, but you will end up with the Batterskull equipped to the 0/0 token. 
+The effect of Quest has 3 relevant steps:
+
+Search your library for an Equipment card, 
+put it onto the battlefield,
+attach it to a creature you control. 
+
+After step 2, Batterskull's Living Weapon triggers and is waiting to go on the stack. You finish resolving the Quest ability, and Batterskull is now attached to Bob.
+Once the Quest ability has resolved, Living Weapon goes on the stack. When it resolves, you follow its instructions normally - you create a 0/0 token, unattach Batterskull from Bob, and attach it to the token.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated.
+

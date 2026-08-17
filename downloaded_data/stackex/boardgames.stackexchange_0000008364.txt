@@ -1,0 +1,26 @@
+Q:
+
+Does Epic Experiment let me pull creatures out of the graveyard that were exiled during its casting?
+
+My brother showed me Epic Experiment today.
+Now he says you can use it to put creatures in the graveyard and then fish them out with the free spells you get, because the free spells get put on the stack before the original card resolves, whereas I think that the spells will go on the stack at the same time as the creatures go into the graveyard when Epic Experiment resolves.
+
+A:
+
+I think it's instructive to go through both of your reasonings, since you're both partially right in a way but came to the wrong conclusion.
+
+the free spells get put on the stack before the original card resolves
+
+Your friend is actually right here. BUT — don't forget the rules of casting spells. In order to put a spell on the stack (even if free) he must first choose any modes, targets, or additional optional costs for the spell. (See section 601 of the comprehensive rules.) Like he said, Epic Experiment hasn't resolved until after his spells are put on the stack, so it hasn't put the cards that haven't been cast in the graveyard yet and they can't be targeted.
+Even the amazing Pull from Eternity can't help him — yes, a creature in exile can be targeted and the spell put on the stack, but Epic Experiment has to finish resolving. When Pull from Eternity resolves, it will no longer find the creature card in the Exile zone and will fizzle.
+
+I think that the spells will go on the stack at the same time as the creatures go into the graveyard when Epic Experiment resolves.
+
+The spells actually go on the stack as the Epic Experiment is resolving, but the creatures and spells not spells go in the graveyard after the cast spells are put on the stack. Epic Experiment has three linked abilities:
+
+(a) Exile some cards
+(b) Cast some of (a)
+(c) Then put rest of (a) in graveyard
+
+So the trick is to use spells with graveyard shenanigans that don't target and do their magic when they resolve, or use cards like Gravecrawler or cards with Graveyard keywords like Flashback or the new Scavenge. Remember, the “may cast” means you could choose not to cast Unburial Rights as part of the resolution of Epic Experiment, and cast it for the Flashback cost after.
+

@@ -1,0 +1,18 @@
+Q:
+
+What color is a crewed vehicle?
+
+In Magic the Gathering, most vehicles in the Kaladesh set appear to be colorless. If you crew with a green creature does the vehicle become green?
+This would affect cards that target color. 
+
+A:
+
+No, vehicles don't gain a color, they stay colorless. I suppose that'd make some sense thematically, but in terms of the rules, Crew is just an ability that turns a noncreature vehicle into a creature, and that's really all it does. You shouldn't really think of vehicles as having creature(s) inside them; they stay separate. It's more like the creature(s) cranking the engine starter.
+You can see this from the full rules definition of crew (rule 702.121), which is conveniently quoted in the Kaladesh Release Notes:
+
+702.121a Crew is an activated ability of Vehicle cards. “Crew N” means “Tap any number of untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn.”
+
+Nothing in there about color!
+The release notes also include rulings for a bunch of common (and less common) scenarios, the same ones that are reproduced in the Gatherer rulings for each vehicle - see for example Fleetwheel Cruiser.
+(And it's not just most - all vehicles are colorless artifacts.)
+

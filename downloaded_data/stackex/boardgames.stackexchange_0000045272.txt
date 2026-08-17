@@ -1,0 +1,29 @@
+Q:
+
+Do cards not on the battlefield have their "conditional abilities"?
+
+How do conditional abilities of creatures cards not on the battlefield work?  In particular, which abilities do those creature cards have and which do they not have, for the purposes of cards that copy abilities from creatures not on the battlefield (such as Necrotic Ooze, Cairn Wanderer, or Skill Borrower)?
+Here are some examples of conditional abilities:
+
+Guul Draz Assassin
+Student of Warfare
+Auriok Edgewright
+Battlewise Aven
+Fledgling Dragon
+Belligerent Whiptail
+
+A:
+
+In general, conditional abilities are not copy-able if the creature is not on the battlefield because they are actually the result of granting abilities on those creatures, and these granting abilities don't work off the battlefield:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield.
+
+Most of the examples given have either static or triggered granting abilities.  Triggered granting abilities are ones that read "when/whenever ..., [CARD NAME] gains ...".  Static granting abilities are ones that read "as long as ... [CARD NAME] has ..." or " [CARD NAME] has ... as long as ...".  Note that higher level abilities on a card with level up are shorthand for this text:
+
+710.2a "{LEVEL N1-N2} [Abilities] [P/T]" means "As long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, it has base power and toughness [P/T] and has [abilities]."
+
+For lack of a granting ability that says it works from a different zone, these granting abilities only work while the creature is on the battlefield.  Thus, a creature not on the battlefield won't have a conditional ability even if the condition for the granting ability is true or has been met.
+For example, Necrotic Ooze will copy the ability to add level counters from any creature in a graveyard (since that's not conditional) but will not gain any of that creature's higher level abilities, even if the Ooze has an appropriate number of level counters.
+Exception 1: if the condition is part of the activated ability (such as text like "activate this ability only if...") as opposed to a condition on the creature having the activated ability, then the creature has the ability in all zones.  For example, Vedalken Certarch's ability will be copied by Necrotic Ooze because the condition is part of the ability.
+Exception 2: a creature that copies everything from a card not on the battlefield (such as Body Double) can gain conditional abilities, but that is because it copies the granting abilities (among other things).
+

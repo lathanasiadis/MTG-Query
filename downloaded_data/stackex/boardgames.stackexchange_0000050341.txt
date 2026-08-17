@@ -1,0 +1,26 @@
+Q:
+
+Can I use creature tokens to win with Mortal Combat?
+
+I have 20 1/1 Saproling tokens in play and Mortal Combat triggers at the beginning of my upkeep. Can I play Echoing Ruin to win the game? 
+I.e., will the Saproling tokens exist in my graveyard until Mortal Combat resolves? 
+
+A:
+
+This does not work for several reasons.
+
+In the sequence you describe, Mortal Combat would not actually trigger at the beginning of your upkeep. This is because a triggered ability that says “At [trigger event], if [condition], [effect].” does not actually trigger when the trigger event happens unless the condition is true at that time.
+
+Saproling tokens are not artifacts so Echoing Ruin cannot destroy them.
+
+Even if Mortal Combat did trigger as you described and then the Saprolings did die from Echoing Ruin, they would immediately vanish. (Tokens can enter the graveyard, but they cease to exist 'immediately' afterward, i.e. when state-based actions are checked which happens very frequently, including at least once between the resolution of any two things on the stack.) So by the time Mortal Combat's ability resolves they are not there.
+
+Also, Mortal Combat counts creature cards in your graveyard, and tokens are never considered cards (even if you are using the 'official' tokens that look like cards).
+
+The text of some relevant rules:
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions... 704.5d. If a token is in a zone other than the battlefield, it ceases to exist.
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+108.2b Tokens aren’t considered cards—even a card-sized game supplement that represents a token isn’t considered a card for rules purposes.
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule. (The word “if” has only its normal English meaning anywhere else in the text of a card; this rule only applies to an “if” that immediately follows a trigger condition.)
+

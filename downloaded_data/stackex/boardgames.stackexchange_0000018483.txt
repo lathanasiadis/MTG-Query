@@ -1,0 +1,25 @@
+Q:
+
+In MTG, when sacrificing another player's creature, who performs the discard into the graveyard?
+
+Dovetailing off this question...
+Can I sacrifice a creature that is only temporarily under my control?
+...where the answer is, yes, you definitely can.  'Who' discards it?
+I'm specifically looking at including Waste Not in a sacrifice-themed deck.
+But if I sacrifice another player's creature, does it trigger 'Whenever an opponent discards a creature card...'?  Or would I be discarding it into their graveyard?
+
+A:
+
+Nobody discards it. It gets sacrificed.
+Sacrificing doesn't involve discarding. Discarding specifically refers to an instruction to move a card from your hand to your own graveyard:
+
+701.7a To discard a card, move it from its owner's hand to that player's graveyard.
+
+Sacrificing on the other hand is an instruction to move a card from the battlefield to the owner's graveyard.
+
+701.14a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner's graveyard.
+
+Since the sacrificed creature doesn't go straight from someone's hand to their own graveyard, it doesn't count as discarding. The sacrificed creature also dies, which is the term for the event where a creature moves from the battlefield to the graveyard.
+Waste Not's triggers don't care about sacrificing. You need cards like Mind Rot or Ashiok's Adept, which actually say 'discard'. Tormented Thoughts could be relevant to you - not because of the sacrifice, but because the sacrifice leads to your opponent doing some discarding.
+For the record though: when a creature's sacrificed, it's whoever's controlling the creature that does the sacrificing, regardless of who actually owns that card/creature. Regardless of who actually does the sacrificing, it lands back in the original owner's graveyard.
+

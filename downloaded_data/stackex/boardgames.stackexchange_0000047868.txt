@@ -1,0 +1,14 @@
+Q:
+
+If cards exiled by Karn, Scion of Urza enter the graveyard/battlefield, do they still have the silver counter?
+
+Let's say I have a Karn, Scion of Urza. I tick up, and one card gets exiled with a silver counter. Later, that card is processed by Wasteland Strangler, reanimated by Reanimate, and then re-exiled by Swords to Plowshares.
+Can I now tick down Karn to add that card to my hand? That is, after all these interactions, does that card still have a silver counter? If not, at what point does the card lose the silver counter?
+What if the card that's exiled is Eternal Scourge, and I choose to cast it from exile - does the Eternal Scourge enter the battlefield with a silver counter?
+
+A:
+
+No, the counter does not stay on the card in situations like those. Rule 122.2 says
+
+Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+

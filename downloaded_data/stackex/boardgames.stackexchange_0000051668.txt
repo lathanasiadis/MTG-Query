@@ -1,0 +1,28 @@
+Q:
+
+Who gets the Commander if it dies or is exiled with a coin counter from Athreos, Shroud-Veiled?
+
+In a game of Commander, I control Athreos, Shroud-Veiled and put a coin counter on another player's Commander.
+If the Commander dies or is exiled, its controller gets to choose to put it back in the command zone, and the trigger says it should return to the battlefield under my control.
+So who gets the Commander?
+As a side note, this game took place before the Commander "dies trigger" rules change.
+
+A:
+
+The commander's owner always gets to choose whether the commander remains in the graveyard to get returned, or whether it goes to (and remains in) the command zone. The only difference between the old and current rules is that under the old rules, Athreos didn't even trigger if the commander's owner choose to move it to the command zone.
+Previously, moving a commander to the command zone was handled exclusively as a replacement effect. A commander that left the battlefield for any reason wouldn't even hit the zone it was going to, but straight to the command zone, if its owner chose to. In that case, Athreos wouldn't even trigger, let alone return the commander under your control.
+
+903.9. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event.
+
+614.6. If an event is replaced, it never happens. [..]
+
+Under the current rules, a commander moving to the hand/library from anywhere is still handled with a replacement effect:
+
+903.9b If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. [..]
+
+However, a commander can now move to the graveyard or exile from anywhere and thus trigger all applicable triggers. In that case, its owner gets a choice to move it to the command zone, before anthing on the stack can resolve, as a state-based action:
+
+903.9a If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+That means that under the current rules, Athreos would trigger on the commander's death, but if its owner chooses to move it to the command zone, Athreos' ability will not do anything on resolution because the card it referenced is no longer in the appropriate zone.
+

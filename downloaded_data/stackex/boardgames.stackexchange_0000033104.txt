@@ -1,0 +1,27 @@
+Q:
+
+What happens with two Pledges of Loyalty attached to the same creature?
+
+This is a similar question, but a slightly different situation, so no duplicate: What happens if I have two Pledges of Loyalty attached to a creature?
+Now to my scenario:
+Let's say I have two Grizzly Bears with one Pledge of Loyalty attached to each of them. Now my opponent casts e.g. Back to Nature, killing both of my Pledges. I would like to keep my Bears protected, so I cast Second Sunrise during the end step. Note that no other cards were put into any graveyard this turn, so it would revive only the two Pledges. While it is on the stack, my opponent decides to bounce one of my Grizzly Bears with a blue instant of your choice.
+Now, the Sunrise resolves, I have to put my Pledges back and since the remaining Grizzlies are the only creature, both have to enchant it as per rule 303.4f. Now, I would think that they would enter the battlefield simultaneously, so no Pledge will be there "first" and prevent the other from attaching.
+Is that correct so far?
+What will happen afterwards? Will both Pledges be put into my graveyard again? Will one of them, or even both, survive?
+
+A:
+
+For completeness' sake:
+
+303.4f. If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+All cards returned by Second Sunrise are returned at the same time, so you can choose the Bears as the creature to attach them to for both Auras.
+Right after it resolves, you will have a Grizzly Bears enchanted with both Pledges, two instances of Protection from White (and Green) that each don't remove the Aura that grants it.
+Now, State-Based Actions are checked - simultaneously for each card, as per the following rule:
+
+704.3. (...) the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. (...)
+
+Since both Auras are illegal at this time, they will both be put in your graveyard as a State-Based Action, even though a single one of them could remain on the creature (which SBAs don't check for).
+
+704.5n. If an Aura is attached to an illegal object or player (...), that Aura is put into its owner’s graveyard.
+

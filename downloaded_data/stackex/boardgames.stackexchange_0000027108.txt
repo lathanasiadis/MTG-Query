@@ -1,0 +1,30 @@
+Q:
+
+Multiple blockers and trample
+
+I just thought about the fact that you can deal as much damage to one creature when multiple blocked
+So lets say I have an 8/8 with trample
+I attack with it
+Im blocked by a 1/1 a 2/2 and a 3/3
+(Maybe they wanted to stop 6 of the 8 damage but don't have the creatures to kill my 8/8 or maybe they have a card to play or something, thats not really important but maybe thats why they multi blocked without enough to kill the 8/8)
+Could I assign 8 damage to the 1/1 and 0 to the 2/2 and 3/3?
+If so, would the trample damage go to the player?
+
+A:
+
+You have to assign lethal combat damage to all blocking creatures before you can assign any to the player.  From the rules (emphasis mine):
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking
+  creatures are assigned lethal damage, any remaining damage is assigned
+  as its controller chooses among those blocking creatures and the
+  player or planeswalker the creature is attacking. When checking for
+  assigned lethal damage, take into account damage already marked on the
+  creature and damage from other creatures that’s being assigned during
+  the same combat damage step, but not any abilities or effects that
+  might change the amount of damage that’s actually dealt. The attacking
+  creature’s controller need not assign lethal damage to all those
+  blocking creatures but in that case can’t assign any damage to the
+  player or planeswalker it’s attacking.
+
+Short answer: no, you can't assign 0 to the 2/2 and the 3/3 and still hit the defending player.  You have to assign enough damage to all the blockers to otherwise kill them before you can assign any leftover damage to the player.
+

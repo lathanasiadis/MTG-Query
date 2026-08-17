@@ -1,0 +1,18 @@
+Q:
+
+Do Commanders' abilities work from the command zone?
+
+I have a milling deck that uses Phenax, God of Deception. One of his abilities is:
+
+Creatures you control have "{T}: Target player puts the top X cards of their library into their graveyard, where X is this creature's toughness."
+
+Since that ability will effect all my creatures, does Phenax have to be played on the field or could he remain in the command zone and I still use that ability on my creatures?
+
+A:
+
+Unless otherwise stated, abilities on permanents are only in effect when the permanent is on the battlefield. It does not have any effect if Phenax is in your command zone. See the comprehensive rules:
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+
+This ability isn't among the exceptions listed in 112.6, which are too long to be listed here; I agree with @Arthur's comment that the general rule is 'if it makes sense on the battlefield, it only functions on the battlefield'. 
+

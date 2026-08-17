@@ -1,0 +1,31 @@
+Q:
+
+Cast copy of exiled card + kicker
+
+I want to cast a copy of a card with Kicker from the third mode of Founding the Third Path:
+
+Exile target instant or sorcery card from your graveyard. Copy it. You may cast the copy.
+
+This weekend at a competitive tournament the Head Judge made an in-game ruling that I wasn't allowed to do this. Were they right, and which exact rules let me do it or prevent me from doing it?
+
+A:
+
+The judges were wrong, but it isn't possible to point to a specific rule which demonstrates this as it's a case of "it's not disallowed".
+In general, Kicker is an additional cost (CR 702.33a):
+
+Kicker is a static ability that functions while the spell with kicker is on the stack. “Kicker [cost]” means “You may pay an additional [cost] as you cast this spell.” Paying a spell’s kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+CR 601.2 gives the precise details of when the decision to pay an additional cost is made (601.2b) and paying that cost (601.2f-h); the details are not too relevant here as everyone agrees additional costs can in general be paid.
+There is now nothing in the rules which prevents paying an additional cost if casting a copy of a card, so this remains an allowable choice for you to make. I'd very much say the burden of proof should have been on the judges to point to the precise rule which prevented this, but it's too late to worry about that now.
+As of September 2022, there are no Gatherer rulings on Founding the Third Path we can't refer directly to those but we can look for rulings on similarly worded cards. The best example here is probably Wizard's Spellbook which allows you to cast a copy of an exiled card while paying its mana cost if your d20 roll is 1-9:
+
+Exile target instant or sorcery card from a graveyard. Roll a d20. Activate only as a sorcery.
+1–9 | Copy that card. You may cast the copy.
+[...]
+
+and the ruling itself (my emphasis):
+
+If your result is 1–9, you must still pay all costs to cast the copy. You may pay any additional or alternative costs the spell has. If it has any mandatory additional costs, those must be paid.
+
+That seems pretty definitive to me.
+

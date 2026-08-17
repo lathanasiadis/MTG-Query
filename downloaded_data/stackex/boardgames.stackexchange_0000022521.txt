@@ -1,0 +1,22 @@
+Q:
+
+Is Flesh Allergy combined with Grave Pact counterproductive?
+
+I need a little help again.
+Imagine the following situation: I have Grave Pact, Bloodthrone Vampire and 9 other creatures on the battlefield. The opponent has only one creature on the battlefield but can prevent all combat damage - no chance to deal damage at the moment.
+Then I draw Flesh Allergy. Great since the opponent has 11 life left over! I want to cast Flesh Allergy, sacrifice 10 creatures (using Bloodthrone Vampire for the remaining 9 creatures, one is sacked through Flesh Allergy itself) and deal 11 damage to my opponent (my 10 creatures including his 1 equals 11 damage).
+~ Question 1: Does my Grave Pact make it impossible to "destroy target creature" (Flesh Allergy) since my opponent would have sacrificed his creatures?
+~ Question 2: What if I first cast Flesh Allergy and after the spell has resolved I (as an interrupt so to speak) sacrifice 10 creatures to deal maximum damage? Then the second ability would resolve?
+An educated answer would be much appreciated.
+Cheers!
+
+A:
+
+Question 1: Does my Grave Pact make it impossible to "destroy target creature" (Flesh Allergy) since my opponent would have sacrificed his creatures?
+
+You can cast the Flesh Allergy targeting their creature, but the spell will fizzle when it goes to resolve since the creature will have already been sacrificed due to Grave Pact's trigger.
+
+Question 2: What if I first cast Flesh Allergy and after the spell has resolved I (as an interrupt so to speak) sacrifice 10 creatures to deal maximum damage? Then the second ability would resolve?
+
+There is no opportunity to cast spells or activate abilities during a spell's resolution. Flesh Allergy checks to see how many creatures have died this turn when it goes to resolve, and creatures that die later in the turn will have no effect.
+

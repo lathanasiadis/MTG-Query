@@ -1,0 +1,25 @@
+Q:
+
+What's the difference between "exile" and "destroy"?
+
+There is different terminology on MTG cards: "exile" and "destroy"? I do not quite understand the difference. When a card (like Angelic Purge) states: 
+
+Exile target artifact, creature or enchantment
+
+Does this mean that that card is going to the graveyard, or it goes to the "exile zone", i.e. can not be played this round anymore and any circumstances?
+
+A:
+
+Exile and the Graveyard are two different zones in magic. "Destroy" puts a card into the graveyard, and "Exile" puts it in the exile zone.
+Why does the distinction matter? Well...
+
+Some cards can retrieve things from your graveyard, like Eternal Witness. The cards that can get them from exile are far fewer, but Pull from Eternity comes to mind.
+Cards in your graveyard are used as a resource by certain spells or abilities, most commonly spells with "Delve", like Treasure Cruise. 
+Many cards have abilities that only work when they are in the graveyard. These are primarily used to recur themselves from the graveyard, like Scrapheap Scrounger.
+Eldrazi "Processors" from Battle for Zendikar block have bonus effects if you move an opponent's card from exile to their graveyard, so getting their cards to exile in the first place is valuable. For example, see Wasteland Strangler.
+"Regenerate" creates a shield that protects a permanent from destruction, but not from being exiled.
+"Destroy" will not be able to destroy a permanent with "indestructible" (e.g. Athreos, God of Passage), but "exile" will work. 
+Abilities that trigger off a creature/permanent "dying" (like on Blood Artist) only trigger if it goes to the graveyard from the battlefield. Permanents being exiled from the battlefield won't trigger the ability.
+
+(It is of course worth noting that there are far more cards in magic that let you interact with the graveyard than those that let you interact with the exile zone. This is why effects that exile are generally considered more powerful than effects that merely destroy)
+

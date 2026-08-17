@@ -1,0 +1,17 @@
+Q:
+
+Does activating Priest of the Forgotten Gods ability trigger Korvold's last ability twice?
+
+If I use Priest of Forgotten Gods' ability to sacrifice two creatures, does it proc Korvold, Fae-Cursed King's ability twice? My doubt stems from the fact that the sacrifice of the creatures occurs simultaneously.
+I think it should proc twice since I believe to have seen Mayhem Devil's ability proccing twice under similar circumstances, but I'd appreciate some explicit reference to relevant rules if possible.
+
+A:
+
+Yes, activating Priest of the Forgotten Gods' ability and sacrificing two creatures simultaneously triggers Korvold's last ability twice.
+Rule 603.2c says this:
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.
+Example: A permanent has an ability whose trigger condition reads, “Whenever a land is put into a graveyard from the battlefield, . . . .” If someone casts a spell that destroys all lands, the ability will trigger once for each land put into the graveyard during the spell’s resolution.
+
+In this case, the single event of activating Priest of the Forgotten Gods contains two occurrences of sacrificing a creature, so Korvold's ability that triggers "Whenever you sacrifice a permanent" triggers twice.
+

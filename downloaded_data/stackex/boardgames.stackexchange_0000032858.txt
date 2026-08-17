@@ -1,0 +1,32 @@
+Q:
+
+Delayed effects after player's loss
+
+I would like to know what happens to delayed abilities, or abilities like "until your next turn" when the controller of that spell/ability loses and leaves the game.
+For instance, suppose you cast Cruel Entertainment, and then the first controlled player kills you, the second player still will get controled by the first one?
+Also the first ability from Liliana, the last hope, which says "+1: Up to one target creature gets -2/-1 until your next turn", will the affected creature restore its power/thoughtness immediatelly after the Liliana controller dies?
+Also note this excerpt from this answer:
+
+A delayed triggered ability (DTA) follows the same rules. A DTA is a
+  triggered ability that creates instances of itself on the stack that
+  are also called "triggered abilities".
+
+Is the effect from Cruel Entertainment a delayed ability, or is it just a effect whose effect spans more than the current turn?
+
+A:
+
+Cruel Entertainmet's effect will still work in full as long as the two targeted players are in the game, whether or not the player who cast the spell is still in the game. And Liliana's ability will last until her controller's next turn would have started.
+The following rules about Multiplayer games are relevant:
+
+800.4a When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game.
+
+800.4b If an object would change to the control of a player who has left the game, it doesn’t. If a token would be created under the control of a player who has left the game, no token is created. If an object would be put onto the battlefield or onto the stack under the control of a player who has left the game, that object remains in its current zone. If a player would be controlled by a player who has left the game, he or she isn’t.
+
+800.4j When a player leaves the game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+
+"Objects" in 800.4a refers specifically to the things defined in rule 109.1:
+
+An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+Importantly, this does not include effects that were created by spells or abilities, and rule 800.4j explicitly points out that effects created by a player stick around after that player leaves the game. So if a player casts Cruel Entertainment and then leaves the game, the effect will still exist in the game.
+

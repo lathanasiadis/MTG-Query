@@ -1,0 +1,30 @@
+Q:
+
+Can an ability be used after my opponent uses an instant?
+
+Can I use an ability after an opponent uses an instant?
+Example: Opponent casts Victim of Night on my creature. It reads:
+
+Destroy target non-Vampire, non-Werewolf, non-Zombie creature.
+
+Can I use Bubbling Cauldron's ability to sacrifice the creature he just attempted to kill?
+
+1, Tap, Sacrifice a creature: You gain 4 life.
+
+A:
+
+Yes, you can do that. In Magic: the Gathering, most creature abilities are used like instants.
+You should read the Basic Rules (PDF), page 10, if you're not familiar with the Stack and how spell casting works.
+The situation you describe would work like this:
+
+Opponent casts Victim of the Night, choosing your creature for the target. It goes on the stack and doesn't resolve yet.
+Opponent chooses to cast nothing else yet and passes priority to you.
+You use Bubbling Cauldron's ability. That too goes on the stack and doesn't resolve yet. You pay the cost immediately, including sacrificing the creature targeted by Victim of the Night.
+You choose to pass priority so your opponent can respond. They choose to do nothing.
+
+Now the top object on the stack resolves.
+
+Bubbling Cauldron's ability resolves first. You gain 4 life.
+Again there is an opportunity for your opponent or you to respond in turn, if neither of you do, the top object of the stack resolves.
+Victim of the Night resolves. Its target is gone, so it can't do anything. A new target can't be chosen. Victim of the Night goes to the graveyard.
+

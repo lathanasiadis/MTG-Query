@@ -1,0 +1,101 @@
+Q:
+
+What is "summoning sickness" and how does it affect my creatures?
+
+Note: this is intended to be a canonical question about summoning sickness.
+"Summoning sickness", broadly, is the rule that stops you from attacking or paying {T} costs with a creature that you just played. But how exactly does it work? How does it interact with other rules and effects?
+For example, if I'm trying to figure out how a creature is affected:
+
+Does the status matter (tapped/untapped, face down/face up, etc.)?
+What if it came into play, but I didn't cast it?
+What if it's a token?
+What if it was on the battlefield when my turn started, but it wasn't a creature?
+What if it stops being a creature?
+What if it's a creature and also another card type?
+What if it's a double-faced card that just transformed?
+What if it changes control?
+What if it's a copy of another creature?
+Which of the creature's activated abilities can I use?
+Are any of its other abilities affected?
+Can I tap the creature to pay a cost that is not a {T} cost?
+
+(These examples are primarily taken from questions about summoning sickness that have already been asked on the site)
+
+A:
+
+Summoning Sickness
+"Summoning Sickness" is simply the name for rule 302.6:
+
+A creature's activated ability with the tap symbol [{T}] or the untap symbol [{Q}] in its activation cost can't be activated unless the creature has been under its controller's control continuously since his or her most recent turn began. A creature can't attack unless it has been under its controller's control continuously since his or her most recent turn began. This rule is informally called the "summoning sickness" rule.
+
+It is not a status or effect on a creature. It is simply a rule that restricts how you can use a creature that just entered play.
+In other words
+Which creatures are affected?
+Rule 302.6 only checks for two things:
+
+The permanent is a creature
+It doesn't matter how the creature entered the battlefield or whether it's represented by a card or a token. It also doesn't matter when it became a creature; it's still the same permanent when it changes types.
+
+It was not under your control continuously since the beginning of your most recent turn.
+This just means that if, at any time since the beginning of your most recent turn, you did not control the creature, then it has summoning sickness. If it is currently your turn, the current turn is your most recent turn.
+
+Example: During your turn, you cast a Grizzly Bears. Once it is on the battlefield, it is affected by summoning sickness until the beginning of your next turn
+Example: You control a Quicksilver Amulet, an artifact with the ability "{4}, {T}: You may put a creature card from your hand onto the battlefield." You activate it and put a Grizzly Bears onto the battlefield. That Grizzly Bears is affected by summoning sickness until the beginning of your next turn
+Example: You cast Krenko's Command, which has the text "Create two 1/1 red Goblin creature tokens." Those goblin tokens are affected by summoning sickness until the beginning of your next turn
+Example: You cast Entrancing Melody targeting an opponent's Grizzly Bears. After Entrancing Melody resolves and you control the Grizzly Bears, it is affected by summoning sickness until the beginning of your next turn
+Example: You cast Sky Skiff, and later in the same turn, you activate its Crew ability. After the Crew ability resolves, the Sky Skiff is affected by summoning sickness
+Example: You control a Sky Skiff at the beginning of your turn. During that turn you activate its Crew ability. After the crew ability resolves, the Sky Skiff is not affected by summoning sickness
+How are those creatures affected?
+Rule 302.6 only prevents the creatures it affects from doing 3 things:
+
+Attacking
+Specifically, the creature cannot be declared as an attacker during your combat phase. It can still block, fight, or be put onto the battlefield attacking.
+
+Activating their own abilities with the tap symbol {T} in the cost
+
+Activating their own abilities with the untap symbol {Q} in the cost
+
+Summoning sickness does not prevent you from paying other costs, even if they involve tapping the creature. It also does not prevent you from activating abilities without {T} or {Q} in the cost. And it has no effect on other kinds of abilities, like static or triggered abilities.
+Example: You control Loam Dryad, a creature with the ability "{T}, Tap an untapped creature you control: Add one mana of any color." You can only activate this ability if Loam Dryad is unaffected by summoning sickness, but you can tap any other creature you control to pay for the ability, even if the other creature is affected by summoning sickness
+Example: You control Heritage Druid, an elf creature with the ability "Tap three untapped Elves you control: Add {G}{G}{G}". You can tap any three elves you control, including Heritage Druid itself, to activate the ability, whether or not any of them are affected by summoning sickness
+Haste
+There is a single exception to this rule: Haste. The rules for Haste say the following:
+
+702.10a Haste is a static ability.
+702.10b If a creature has haste, it can attack even if it hasn’t been controlled by its controller continuously since his or her most recent turn began. (See rule 302.6.)
+702.10c If a creature has haste, its controller can activate its activated abilities whose cost includes the tap symbol or the untap symbol even if that creature hasn’t been controlled by that player continuously since his or her most recent turn began. (See rule 302.6.)
+702.10d Multiple instances of haste on the same creature are redundant.
+
+In short, if a creature has haste, it can ignore rule 302.6.
+Note that Suspend, Unearth, Dash, Awaken, and Riot can grant Haste. At the time of this writing, no other keyword abilities do. In particular, Flash does not grant Haste.
+
+Specific Cases
+Does status matter?
+For reference, the rule describing status is rule 110.6:
+
+A permanent's status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+
+A creature's status is independent of summoning sickness. In other words, if a creature enters the battlefield tapped or face down, it is still affected by summoning sickness like normal. And if the status changes, it's still the same creature, so you still just have to check whether you controlled the creature since your turn started to determine whether it's affected.
+Conversely, summoning sickness does not affect a creature's status. Being summoning sick does not change whether a creature is tapped vs. untapped or face up vs. face down.
+What if it's a creature with another card type?
+Then it is affected by summoning sickness, just like any other creature. The summoning sickness rule only checks whether the permanent is a creature. It doesn't check that it is not any other type.
+A special mention should be made for Dryad Arbor. Because it is a Forest, it has an intrinsic ability (see rule 305.6) that says
+
+"{T}: Add {G} to your mana pool"
+
+Since that ability has {T} in the cost, you cannot activate it as long as Dryad Arbor is affected by summoning sickness.
+What if it's a double-faced card that just transformed?
+Rule 711 describes how double-faced cards work, and 711.7 says
+
+When a double-faced permanent transforms, it doesn't become a new object. Any effects that applied to that permanent will continue to apply to it after it transforms.
+
+For the purposes of this question, that means that when a creature transforms, it is only affected by summoning sickness if it was affected before it transformed.
+What if it's a copy of another creature?
+If creature A enters the battlefield as a copy of creature B, then creature A is affected by summoning sickness, like any other creature that just entered the battlefield. (This is true even if it's a token.)
+If creature A becomes a copy of creature B, then it is only affected by summoning sickness if it would have been affected before it became a copy. It doesn't matter whether creature B was affected by summoning sickness. This is analogous to the "transform" case: the creature's characteristics change, but it's still the same object that it was before it changed.
+Rule 706.2 says, in part
+
+The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and "as . . . is turned face up" abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Importantly, summoning sickness is not mentioned here, and neither is anything that rule 302.6 checks for except type. If the copy isn't a creature, it is not affected by summoning sickness.
+

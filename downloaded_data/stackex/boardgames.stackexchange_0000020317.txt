@@ -1,0 +1,14 @@
+Q:
+
+Does Hardened Scales trigger when +1/+1 counter are moved from one permanent to another?
+
+If a +1/+1 counter get's moved from one creature to another does Hardened Scales double the amount of counters that the second creature gets?
+
+A:
+
+Yes, Hardened Scales triggers off moving +1/+1 counters. From the official rules:
+
+121.5. If an effect says to “move” a counter, it means to take that counter from the object it’s currently on and put it onto a second object. If the first and second objects are the same object, nothing happens. If the first object has no counters, nothing happens; the second object doesn’t get a counter put on it. If the second object (or any possible second objects) is no longer in the correct zone when the effect would move the counter, nothing happens; a counter isn’t removed from the first object.
+
+Note that Hardened Scales only triggers once per batch of counters moved, so if several counters are moved at once, it will not double the amount, but only add 1.
+

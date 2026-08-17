@@ -1,0 +1,41 @@
+Q:
+
+Magic The Gathering: probability of casting a 3 drop on turn 3
+
+So, I have a probability related question.
+In MTG, which is the probability of landing a 3-drop on turn 3, but using the correct combination. For example, I want to cast a Geist of Saint Traft on turn 3 (assuming I started), what is the probability (given the assumption that I drop 1 land per turn) of having, by turn 3, one island, one plain and one other land and having the card in my hand ready for casting.
+I know that as this is drawing without replacement, so some form of Multivariate Hypergeometric Distribution is needed, but I am a little lost.
+Let say I have a 60 cards deck: 10 islands, 10 plains, 4 other lands (none of them giving either blue or white mana), 4 Geist of Saint Traft and 32 other cards.
+Now, by turn 3 I would have drawn (assuming 1 draw per turn) 9 cards out of the 60 and for dropping the Geist of Saint Traft I would need at least 1 island, at least 1 plain, at least 1 other land (of the other 22 lands) and at least 1 Geist, so in that case would it be the same to calculate the probability of having by turn 3 none of those and subtract that from one? However, I am not sure how to deal with the case of the third land card I should pick it from 22 (the number of lands less the 2 already picked) or from 24 (the total)?
+
+A:
+
+There is a legit mathematical answer to this question, but it's a bit outside my ability. What I can offer you, however, is an example of how Magic players of various levels of mathematical knowledge have attempted to tackle the question.
+This article by Frank Karsten is a good start. Doing it mathematically, you get stuff like this:
+
+Eventually, Karsten just gives up and decides to simulate it. A sample of his conclusions for 60-card decks:
+
+To have a good (90%) chance of casting a one-drop (e.g. Duress) on turn 1: 14 sources of its color.
+To have a good chance of casting a three-drop with one colored mana symbol (e.g. Thirst for Knowledge) on turn 3: 12 sources.
+To have a good chance of casting a three-drop with two of the same colored mana symbol (e.g. Liliana of the Veil) on turn 3: 19 sources.
+
+Unfortunately, this particular analysis doesn't focus too much on multi-color non-land cards (more on multi-color lands, which are invaluable for building competitively powerful decks).
+He also recommends looking at preexisting competitive decks as a guide, since players tend to build for consistency.
+A 2012-season Delver deck is probably a good guidepost, since it's a deck that played Geist on-curve and as one of its most color-demanding cards.
+How many white sources is it packing?
+lands – 22:
+
+9 Island
+2 Plains
+4 Glacial Fortress
+3 Moorland Haunt
+4 Seachrome Coast
+
+card-filtering — 9 cards (plus the Snapcasters):
+
+2 Thought Scour
+3 Gitaxian Probe
+4 Ponder
+
+So that's 10 white mana sources, plus 4 card-filtering cards that dig deep (the Ponders). Pretty close to the 12 that Karsten said you want to get a 90% chance of casting a single-color three-drop on turn 3.
+

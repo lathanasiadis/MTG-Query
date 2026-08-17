@@ -1,0 +1,19 @@
+Q:
+
+Using Cavern of Souls to cast a colorless creature of the chosen type, is it counterable?
+
+With a Cavern of Souls in play and Eldrazi chosen, I cast Thought-Knot Seer expecting it to be uncounterable.
+It has been suggested this is not true if colorless mana is required. What rules prevent the creature form being uncounterable due to the mana used?
+
+A:
+
+If you cast Thought-Knot Seer using mana created by Cavern of Souls' second ability, that spell cannot be countered.
+Thought-Knot Seer has a mana cost that includes both colorless and generic components. Cavern of Souls' first ability creates colorless mana, but does not make spells uncounterable. Its second ability produces only colored mana, and can make spells uncounterable. That colored mana can be spent to pay the generic component of Thought-Knot Seer's mana cost, and doing so will make it uncounterable.
+Regarding the linked ruling that says the following:
+
+If a player uses Cavern of Souls to cast a creature of the chosen type, it’s assumed they use the “can’t be countered” ability unless they explicitly state otherwise.
+The only exception is if they require the colorless mana to cast the spell.
+
+Many rules and rulings for tournament play do not directly concern the comprehensive rules, but rather describe default shortcuts and assumptions that should be applied when players communicate in a way that would be ambiguous according to a strict reading of the comprehensive rules.
+This particular ruling means that if a player taps lands including Cavern of Souls to cast a creature of the chosen type, it is assumed by default that the player is activating Cavern of Souls' second ability. However, if the cost requires colorless mana and the Cavern's first ability is needed to generate enough colorless mana, the player is assumed to be activating the first ability instead.
+

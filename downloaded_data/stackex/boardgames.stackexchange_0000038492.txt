@@ -1,0 +1,12 @@
+Q:
+
+MTG Doomsday card, cast at 1 life
+
+Doomsday reduces your life total by half, rounded up. If you're at 1 life and play this card, would that not deal 1 damage and kill you?
+
+A:
+
+First of all, Doomsday doesn't deal damage (so it won't be stopped by effects that prevent damage). It causes life loss.
+Secondly, the amount of life you have when you cast Doomsday is of no relevance; it's the amount of life you have when you are instructed to lose life when it resolves that matters. 
+Half of one rounded up is one, so you drop to zero life if you have one life when the spell resolves. If you still have non-positive life the next time a player would get priority (probably right after the spell resolves), you will lose then.
+

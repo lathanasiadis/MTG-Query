@@ -1,0 +1,20 @@
+Q:
+
+In MTG, is there a collective name for cards that cost 1 mana and grant 3 of something?
+
+I'm aware of the boons, which are a cycle of instants that cost 1 coloured mana and grant 3 of something: cards, mana, damage, +1/+1, or healing.
+However, it seems that there are a number of other cards that also cost 1 mana and grant 3 of something. For example:
+
+Holy Strength and Unholy Strength each grant a combined power/toughness boost of +3.
+Several 1-cost creatures are 1/1, with one keyword ability: Benalish Hero, Mountain Goat, Tundra Wolves.
+Savannah Lions and Wall of Wood have a combined power/toughness of 3.
+
+Is there an established term for these cards, or for the design principle of paying 1 mana for 3 resources?
+
+A:
+
+I think the simple answer to his question is actually "no".  I've been playing and reading about Magic for over 15 years now, and I've never heard of a collective term for these cards, beyond the "boons".
+It's obviously true to say that three is a bit of a magic number (excuse the pun) in Magic, and that there are symmetries and cycles everywhere in the cards.  Holy Strength and Unholy Strength are obvious symmetrical designs.  Likewise the 1/1 for 1 with some special ability is a longstanding Magic tradition.  Nowadays, what with power creep, a 1/1 for 1 mana rarely cuts the mustard: now the design principle you want to watch out for is the 1cc creature that has some way of attacking for 2 on turn 2.  (Innistrad even has a werewolf that can attack for 3 on turn 2, on a good day!)
+Whether or not there was initially a design decision to give out three of something for one mana, I think, basically, they were quick to realise that it was a bad design principle.  Obviously they spotted that Ancestral Recall was about a million times better than Healing Salve in time to make one rare and one common; likewise, a Wall of Wood is a vastly worse card than Savannah Lions, and again, the bad card was common and the good card was rare (though a 2/1 for 1 wouldn't be rare any more).  Lightning Bolt may or may not have been too good, at 1 mana for 3 damage; and that's why, quite often, we have formats where only the fixed version, Shock, giving 2 damage for 1 mana, is legal.  
+I think players would no longer accept cards that are terrible just because they are symmetric.  Look at the "new" Holy and Unholy Strengths in Magic 2012, Divine and Dark Favor.  Because +3/+1 is considerably better most of the time than +1/+3, Dark Favour comes at a life cost compared with Divine Favor's life gain.  That's a much better design decision than just saying "2 mana = 4 resources, job done".  Without a shadow of a doubt!
+

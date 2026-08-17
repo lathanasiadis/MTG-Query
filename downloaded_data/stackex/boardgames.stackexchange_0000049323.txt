@@ -1,0 +1,15 @@
+Q:
+
+How does Wall of Roots interact with +1/+1 counters?
+
+Wall of Roots puts a "-0/-1" counter on itself to use its ability. How does this interact with a +1/+1 counter? Do they cancel out to make a +1/+0 counter? Does they cancel out the same as a +1/+1 and -1/-1 counter and both counters cease to exist? Or do they both ignore each other completely?
+
+A:
+
+They ignore each other completely, so the Wall of Roots will have both a -0/-1 counter and a +1/+1 counter (which has the net effect of having +1/+0).
+The only reason +1/+1 and -1/-1 counters interact with each other is because of this state-based action:
+
+704.5q If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it, where N is the smaller of the number of +1/+1 and -1/-1 counters on it.
+
+There is no similar rule for -0/-1 counters.
+

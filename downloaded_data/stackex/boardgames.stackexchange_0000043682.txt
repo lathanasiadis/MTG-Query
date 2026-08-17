@@ -1,0 +1,28 @@
+Q:
+
+If a creature takes lethal damage and would also get a +1/+1 counter, does it die?
+
+I have an attacking 4/4 creature blocked by an Ajani's Pridemate and a Bishop's Soldier.
+
+Is the attacking order relevant? I.e., does it make a difference to the outcome of the fight whether I attack the Pridemate first or not?
+Will the Pridemate die, or will the lifelink of the Bishop grant it a +1/+1 counter, ensuring it survives the turn?
+
+A:
+
+The order in which you assign damage does not matter here, and the Pridemate will die before it gets the counter from the Bishops Soldier lifegain.
+Note that you do not attack individual creatures - you attack players and planeswalkers only. You probably meant the right thing though, namely that you can determine the order in which your attacking creature assigns damage to the blocking creatures. Just remember not to confuse the two things, as it may confuse others also.
+
+508.1b If the defending player controls any planeswalkers, or the game allows the active player to attack multiple other players, the active player announces which player or planeswalker each of the chosen creatures is attacking.
+
+Unless first strike or double strike is involved, all combat damage is dealt simultaneously, so if the attacking creature has enough power to deal lethal damage to all blockers, the order of blockers does not matter,
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+As for your second question: You gain life from Bishop's Soldier as soon as it deals damage, but Pridemate's ability is a triggered ability, so it does not immediately take effect. It only goes on the stack the next time a player would gain priority, i.e. the right to cast spells and activate abilities:
+
+510.3. Third, the active player gets priority. (See rule 116, “Timing and Priority.”)
+510.3a Any abilities that triggered on damage being dealt or while state-based actions are performed afterward are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+Only when Pridemate's ability would come to resolve would it get the +1/+1 counter. However, by that time it's already moved to the graveyard because it received lethal damage.
+

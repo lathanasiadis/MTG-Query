@@ -1,0 +1,27 @@
+Q:
+
+Countering an uncounterable spell, triggers, and state-based actions
+
+So I just played a game in Arena where my opponent was at 4 life, I had 1 card left in my deck (after drawing my card for the turn), and they had two copies of Drowned Secrets on the battlefield. I played Inescapable Blaze targeting them, and they played Thought Collapse, targeting my Inescapable Blaze on the stack, in response. Arena noted two triggerings of Drowned Secrets.
+I then won the game, according to Arena. I am not clear on exactly what happened. I think Arena showed me milling my last card, but I since I won the game apparently having to mill more cards than just the 1 I had remaining did not cause me to lose. I see three basic possibilities:
+
+Thought Collapse fizzled, since it had nothing it could actually counter, and thus Drowned Secrets fizzled and/or didn’t trigger to begin with—I’m kind of surprised that Arena allowed this action and then showed Drowned Secrets triggering if this is the case. And like I said, I think Arena showed my last card getting milled.
+Thought Collapse fizzled, but Drowned Secrets still triggered, so I did mill my last card. But then how did I win? State-based actions are determined mid-stack and Inescapable Blaze wouldn’t have resolved yet, right?
+Thought Collapse didn’t fizzle, so I actually had to mill three cards for that in addition to four cards for the two instances of Drowned Secrets. The same questions above apply equally-well here.
+
+So what happened?
+
+A:
+
+You lose when you have to draw a card and can't, not when you have no cards left in your library
+Your third bullet point is mostly correct.
+All instances of Drowned Secret's triggered ability resolved, then Thought Collapse failed to counter Inescapable Blaze, but still did as many effects as it could, so you milled some cards. Then Inescapable Blaze resolved, and your opponent lost the next time State Based Actions were checked due to having 0 life.
+In fact, even if you hadn't won the game at that point, you wouldn't have lost for having no cards in your library. A loss only occurs when a player attempts to draw a card and cannot because their library is empty. 
+
+104.3c If a player is required to draw more cards than are left in their library, they draw the remaining cards and then lose the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+Emphasis mine.
+Drowned Secrets simply 'puts' cards from a library into the graveyard. This isn't drawing cards, and if there are not enough cards in the library that the ability attempts to put into a graveyard, the ability simply does as many cards at it can. (It can do this to 0 cards) In this case, the first Drowned Secrets milled 1 card (as many as it could find), then the second Drowned Secrets milled 0 cards (because there were none remaining), then Thought Collapse tried to counter a spell (it failed) and milled 0 cards.
+
+Also note that this sort of interaction is true for any kind of action that causes you to remove (but not draw) cards from your library. For instance, with Omen Machine in play, players will never lose because of rule 104.3c. They may lose through other means (damage, poison counters, etc) but they will not draw cards. Theoretically if an Omen Machine were on the field and players could not destroy it or meaningfully impact each other, play will continue until - and beyond - when players have no cards left in their libraries. (Though in that case, the game will probably end in a draw in a few turns, when the game's state hasn't changed and no player chooses to change the game's state.)
+

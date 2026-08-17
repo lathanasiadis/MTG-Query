@@ -1,0 +1,18 @@
+Q:
+
+Myrkul, Lord of Bones and Kaya the Inexorable - legendary rule across card types
+
+So with Myrkul, Lord of Bones, I can exile my non-token creatures when they die, creating token enchantments that are a copy of them with no other card types.
+Kaya the Inexorable's <-7> ability gives me an emblem with "At the beginning of your upkeep, you may cast a legendary spell from your hand, from your graveyard, or from among cards you own in exile without paying it's mana cost."
+I'm pretty sure if Myrkul's token enchantment of a legendary creature is also legendary, the legendary rule would apply and I would have to pick one when I play my creature from exile. But since it would be "an enchantment and loses all other card types" is there any chance it loses "legendary"?
+
+A:
+
+You would have to pick one. It doesn't matter that one is a creature and the other is an enchantment, all that matters is that they have the legendary supertype and the same name. This is covered in the comprehensive rules for state based actions:
+
+704.5j If two or more legendary permanents with the same name are controlled by the same player, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+You are also correct that the tokens made by Myrkul are legendary. While his ability removes all card types (and losing card types removes the relevant subtypes for that card type) the supertypes on the card aren't affected. Any legendary creature made into a token by Myrkul would be a legendary enchantment. This is covered in the comprehensive rules for supertypes here:
+
+205.4b An object’s supertype is independent of its card type and subtype, even though some supertypes are closely identified with specific card types. Changing an object’s card types or subtypes won’t change its supertypes. Changing an object’s supertypes won’t change its card types or subtypes. When an object gains or loses a supertype, it retains any other supertypes it had.
+

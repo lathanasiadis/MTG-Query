@@ -1,0 +1,23 @@
+Q:
+
+Can you target a creature with my creatures enter the battlefield ability if they both enter the battlefield at the same time?
+
+I have a single copy of Meteor Golem in my sideboard to go against Show and Tell decks, but I am wondering if my opponent show and tells their Emrakul, the Aeons Torn, can I show my Meteor Golem, target it and destroy their Emrakul?
+
+A:
+
+Yes, you can do this.
+All creatures will enter the battlefield at the same time; but even if they didn't that wouldn't matter here. Meteor Golem's triggered ability is only put on the stack after the Show and Tell is finished fully resolving.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+and
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+So you do not need to choose targets for Meteor Golem's ability until Show and Tell is done resolving; and all chosen permanents are on the battlefield.
+However, as pointed out by @John in a comment; all choices will be revealed simultaneously, so you cannot "respond" to your opponent's choice of Emrakul by choosing Meteor Golem. You would have already had to make your choice before you know your opponent's choice.
+From the Gatherer rulings on Show and Tell:
+
+The current player chooses first, then each other player chooses in turn order. A player does not have to reveal the chosen card, so long as it is clear which card was chosen. After all choices are made, the cards are put onto the battlefield simultaneously.
+

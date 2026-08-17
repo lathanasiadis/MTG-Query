@@ -1,0 +1,18 @@
+Q:
+
+Question about Untapping Creatures with Abilities
+
+I’m pretty new to magic and whenever I think I know what’s going on I usually don’t. Here is the situation thanks in advance!
+Assuming a card like Jokulmorder comes into play and has the text: “comes into play tapped” and “Doesn’t untap during your untap step” and “whenever you play an island, you may untap” to paraphrase.
+My question is can you use a creature ability to untap a card like that without meeting the conditions?
+
+A:
+
+The answer is yes - abilities which specifically let you untap a target are ways to get around some of those restrictions. In particular:
+
+"Comes into play tapped" means exactly what it says - when it comes into play, it is tapped. Nothing stops you from targeting it with an effect that untaps it.
+
+"Does not untap during its controller's next untap step" puts into place an effect that gets checked at a specific point, i.e. in your next untap step, when you would normally untap it, you don't. So if you untap it with another effect, this does nothing - but if it then gets tapped again, it will still not untap next turn.
+
+Having an effect that lets you untap it doesn't stop other effects also untapping it, you just have an additional way of doing it.
+

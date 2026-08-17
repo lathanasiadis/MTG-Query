@@ -1,0 +1,17 @@
+Q:
+
+Can I cast Quarantine Field with Brisela in play for my opponent?
+
+Can I cast Quarantine Field with Brisela, Voice of Nightmares in play for my opponent?
+I just tried, Magic Online wouldn't let me.
+But with X as 2 Quarantine Field has a CMC of 6.
+Is this right?
+
+A:
+
+The Gatherer page for Brisela has this ruling:
+
+For spells with {X} in their mana costs, use the value chosen for X to determine if the spell’s converted mana cost is 3 or less. For example, your opponent could cast Burn from Within (a spell with mana cost {X}{R}) with X equal to 3, but not with X equal to 2.
+
+You should have been able to cast the spell, so you should report this as a bug.
+

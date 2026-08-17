@@ -1,0 +1,28 @@
+Q:
+
+Kukemssa Pirates combo
+
+I have Kukemssa Pirates and several copies of Ashnod's Transmogrant.  (Plus Cloak of Mists and similar cards.)
+If I attack with my pirates and they aren't blocked, can I use my transmogrant before triggering the pirates' ability?
+In other words:
+
+Attack
+Not blocked
+Use transmogrant to beef up opponent's creature, and turn it into an artifact creature
+Use pirates' ability to take control of the creature I just transformed.
+
+(I believe this is a fairly basic rules question, but I never learned much about the order in which spells and abilities resolve or how fast are "fast effects" in various cases.)
+
+A:
+
+No, whatever you want to target with Kukemssa Pirates already has to be an artifact by the time the Pirates trigger.
+Kukemssa Pirates' ability is a targeted, triggered ability. That means that its desired target must be legal by the time the ability enters the stack, and you do not get priority after the ability triggered and before it enters the stack. That means that once the Pirates have triggered, you can't activate any ability, like Ashnod's Transmogrant's, or cast any spell to make the desired target legal. That has to happen before the trigger.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires. [..]
+
+Note that if the Pirates' ability was not targeted, but let you choose the artifact only at resolution, you could react to the ability with the Transmogrant. For an example of such wording, see Boreas Charger - if your opponent has more lands than you when the Charger leaves the battlefield, you could react to the ability by sacrificing enough land to make your opponent a legal choice for the Charger.
+

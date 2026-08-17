@@ -1,0 +1,23 @@
+Q:
+
+Can activated abilities be used multiple times on a single target?
+
+If I have one creature card in my graveyard and my opponent gains control of my turn using Cruel Entertainment, could my opponent activate my Phyrexian Reclamation multiple times by targeting the same creature in the graveyard? 
+For instance, I have ten life and ten black mana open. Could my opponent activate the ability on my Phyrexian Reclamation 5 times and win the game even though there is only one creature card in my graveyard?
+
+A:
+
+Activated abilities can be activated as many times as a player can pay for it, assuming it can legally be activated.
+In this case, the ability requires to pay 2 life, two mana, and target a creature card in their graveyard.
+
+117.3. A player can’t pay a cost unless he or she has the necessary resources to pay it fully. For example, a player with only 1 life can’t pay a cost of 2 life, (...)
+602.2b. The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+601.2c. The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. (...) The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they’ll wait to be put on the stack until the spell has finished being cast.)
+
+Your opponent still has priority after activating and putting one ability on the stack, to activate another in response before the first one resolves. That way, even if there's only one creature in the graveyard, since it's still a legal target until one of the abilities resolves and removes it from the graveyard.
+
+116.3c. If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+
+note that in tournament scenarios, you have to explicitly mention that you intend to retain priority
+In other words, they couldn't return the same card five times to your hand, but nothing keeps them from trying. Once they activate the ability the fifth time and pay the costs, state-based actions see you at 0 life, and you lose the game.
+

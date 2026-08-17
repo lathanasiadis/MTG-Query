@@ -1,0 +1,39 @@
+Q:
+
+What happens if a double-faced card that is copying a different double-faced card transforms, without exile?
+
+We already have a similar question about double faced cards transforming, however there are two different ways a double face card transforms, exiling and returning transformed is covered by the similar question. Most often this exile transform happens for creatures that become planeswalkers, so they get the ETB loyalty counters, but many more creatures transform into other creatures without leaving the battlefield, like werewolves.
+What would happen if:
+
+A creature that would transform without exile, say Reckless Waif, enchanted with Metamorphic Alteration and copying something like Huntmaster of the Fells would transform without being exiled? (Bonus: What would happen due to Huntmaster/Ravager having an effect triggered by transforming)
+A creature that would normally exile and transform into a planeswalker, say Jace, Vryn's Prodigy, enchanted with Metamorphic Alteration and copying something like Docent of Perfection would transform without being exiled?
+A creature that would normally form part of a meld, say Graf Rats, enchanted with Metamorphic Alteration and copying something like Bloodline Keeper would transform without being exiled?
+
+A:
+
+In the first 2 cases, you end up still having a copy of the same creature you were already copying.
+You are able to follow the instruction to transform it normally:
+
+701.27a To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced cards can transform.
+
+With Meld cards, you would never actually perform the transform:
+
+711.1d Meld cards have a Magic card face on one side and half of an oversized Magic card face on the other. These aren’t double-faced cards and are subject to their own set of rules. See rule 712, “Meld Cards.”
+
+So these are subject to 701.27c:
+
+701.27c If a spell or ability instructs a player to transform a permanent that isn’t represented by a double-faced card, nothing happens.
+
+Nothing about transforming would cause the Metamorphic Alteration to fall off, so after it transforms, the enchantment is still there, and it would still be making your creature a copy of whatever was chosen.
+
+706.8. When copying a double-faced permanent, a face-up meld card, or a melded permanent, only the copiable values of the face that’s currently up are copied.
+
+So the physical card would be transformed, but now instead of Reckless Waif being made into a copy of Huntmaster of the Fells, you have Merciless Predator being made into a copy of Huntmaster of the Fells.
+If the card it was copying has a when-transform trigger, such as Huntmaster of the Fells, then that ability will trigger:
+
+701.27e Some triggered abilities trigger when an object “transforms into” an object with a specified characteristic. Such an ability triggers if the object transforms and has the specified characteristic immediately after it transforms.
+
+So the object transformed, and it has the specified characteristic (name), because it is Huntmaster of the Fells. So you will create a 2/2 green Wolf creature token and gain 2 life, even though you transformed from Huntmaster into Huntmaster.
+If the enchantment ever goes away, then you will suddenly have a Merciless Predator or a Jace, Telepath Unbound. In the second example, Jace will immediately go to the graveyard for having 0 loyalty tokens.
+Also note that in this case, Metamorphic Alteration will be legally enchanting Jace, Telepath Unbound, even though it couldn't normally be chosen as a legal target for it. This is because the copy effect is making it a creature, not a planeswalker.
+

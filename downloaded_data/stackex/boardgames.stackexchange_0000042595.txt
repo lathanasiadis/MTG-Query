@@ -1,0 +1,22 @@
+Q:
+
+Can # Colorless pay Colorless Mana?
+
+Looking at the notes for Inspiring Statuary, I noticed:
+
+Is this accurate?  Is it specific to the Improvise ability or does it go for any # colorless cards (for example Cloudpost)?
+
+A:
+
+Improvise has the following definition in rule 702.125a:
+
+Improvise is a static ability that functions while the spell with improvise is on the stack. “Improvise” means “For each generic mana in this spell’s total cost, you may tap an untapped artifact you control rather than pay that mana.”
+
+A generic mana cost is represented by a number in a circle, and can be paid for with any type of mana. Colored and colorless costs are not generic, so they cannot be paid for with improvise.
+Cloudpost is a different matter. Cloudpost adds colorless mana to your mana pool, and that has always been the case. Its current text is
+
+Cloudpost enters the battlefield tapped.
+{T}: Add {C} for each Locus on the battlefield.
+
+There is no such thing as generic mana. Any card that is printed as adding {1} to your mana pool actually adds {C}.
+

@@ -1,0 +1,17 @@
+Q:
+
+Can I cast a Slaughter Pact on a Spellskite after I played Lightning Storm and I already discarded some lands?
+
+My opponent has a Spellskite on board. He is at 17 life, has one blue mana and one land in hand. I just resolved Ad Nauseam + Angel's Grace and I have my entire deck in my hand.
+I have 2 Slaughter Pacts, 15 lands, and a Lightning Storm in hand.
+Now because I'm a dumb I forget to cast Slaughter Pact before I play Lightning Storm.
+After playing Lightning Storm, when I'm deciding how many lands I'm going to discard to add charge counters, is there any way to win the game? Let's say I'm in the situation where I can't play any more Slaughter Pacts in answer to Lighting Storm, but Lighting Storm is still on stack.
+
+A:
+
+Given the situation you described (2 Slaughter Pacts and 15 lands in hand, and a Lightning Storm on the stack), you can definitely win.
+I assume that you started by targeting your opponent with Lightning Storm. Then you still have priority, so you cast Slaughter Pact targeting the Spellskite. You also discard 7 lands to Lightning Storm's ability (failing to choose new targets) so that it has 14 charge counters and still targets your opponent.
+Your opponent gets priority after each of those abilities goes on the stack, so they can activate either Spellskite's or Lightning Storm's ability to redirect Lightning Storm, but each of your activations redirects it back to targeting them, so that doesn't matter. After you have resolved the ability 7 times, pass priority with only Lightning Storm and Slaughter Pact on the stack. Your opponent should then activate Spellskite's ability once to change Lightning Storm's target to Spellskite.
+After that ability resolves and your opponent passes priority, you should pass priority and allow Slaughter Pact to resolve, then activate Lightning Storm's ability once to redirect it to target your opponent. Your opponent should then activate the ability using the one land card in their hand to redirect it back to you. You can then use one of your remaining lands to activate Lightning Storm's ability one final time.
+At this point in the game, your opponent has no non-land permanents, no mana, and no cards in hand. You have 1 Slaughter Pact and 6 lands in hand. The stack has a single Lightning Storm with 20 charge counters on it targeting your opponent. Once you both pass priority, Lightning Storm resolves and deals 23 damage to your opponent, who then loses the game.
+

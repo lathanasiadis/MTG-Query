@@ -1,0 +1,12 @@
+Q:
+
+If you have multiple planeswalkers, how many of their loyalty abilities can you use in a single turn?
+
+Let’s say I played Ajani, Caller of the Pride and then played Ajani, Wise  Counselor. Would I be able to use Caller of the Pride's -8 ability to give me, say, 20 creatures and then use Wise Counselor's +2 ability in order to gain life for each creature on the field? Would I be able to do that in the same turn or would I have to use one wait a turn then play the other?
+
+A:
+
+306.5d Each planeswalker has a number of loyalty abilities, which are activated abilities with loyalty symbols in their costs. Loyalty abilities follow special rules: A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if none of that permanent’s loyalty abilities have been activated that turn. See rule 606, “Loyalty Abilities.”
+
+The rules only say something about not activating a single planeswalker's loyalty abilities twice in a turn, not about a hard limit of one loyalty ability activation per player. Therefore, you can use one Ajani's ability first and then the other's ability in the same turn.
+

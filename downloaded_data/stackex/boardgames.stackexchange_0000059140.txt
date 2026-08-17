@@ -1,0 +1,13 @@
+Q:
+
+How do Panharmonicon effects work with replacement effects?
+
+If I have Kalitas, Traitor of Ghet and Drivnod, Carnage Dominus in play at the same time, and a creature controlled by an opponent dies, do I get 2 zombies off of Kalitas or only 1?
+At first I thought 2, but now I think kalitas actually prevents Drivnod from trigger since the creature didn't actually die...
+Does this have implications for other panharmonicon style affects? Or is this kind of thing limited to the dies scenario (since dying means it has to actually hit the graveyard)?
+
+A:
+
+You only get one zombie, because Kalitas's ability is a replacement effect, not a triggered ability, so it has no direct interaction with Drivnod's ability. And since the original creature no longer dies, no abilities that trigger when a creature dies will trigger, so there's nothing for Drivnod to interact with there either.
+If a replacement effect modifies an event, then that original event doesn't happen. If a triggered ability would trigger from the original event but not the modified event, then it doesn't trigger, which means that there's nothing for Panharmonicon or Drivnod or any similar effect to see and interact with.
+

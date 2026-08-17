@@ -1,0 +1,21 @@
+Q:
+
+"Wrath of God" -VS- "Chord of Calling" + "Selfless Spirit" sacrificed in response
+
+My opponent plays Wrath of God. In response I use Chord of Calling to get Selfless Spirit, so I can sacrifice Selfless Spirit and all of my creatures become indestructible, preventing the effect of Wrath of God.
+My opponent said I can't play this way because according to the stack rules, by the time he plays Wrath of God, Selfless Spirit is not in the battlefield. 
+Can I prevent my creatures from dying to Wrath of God this way?
+
+A:
+
+You are correct, you can save your creatures with that play.
+The stack works according to the "last in, first out" principle. Whatever spell or ability goes on the stack becomes the top-most object on it, and when the stack starts resolving, the top-most object on the stack will resolve first. 
+Whenever something resolves, players have the chance to play more spells and abilities. So the line of play goes like this:
+
+Your opponent plays Wrath of God
+You play Chord of Calling in response
+Both of you pass on playing things, and the top-most object, Chord of Calling, resolves. You get the Selfless Spirit on the battlefield.
+You sacrifice Selfless Spirit. Its ability becomes the top-most object on the stack. Wrath of God is still on the stack, at the bottom of the stack.
+Selfless Spirit's ability resolves, making all of your creatures indestructible. 
+Wrath of God resolves, and will not kill any of your creatures.
+

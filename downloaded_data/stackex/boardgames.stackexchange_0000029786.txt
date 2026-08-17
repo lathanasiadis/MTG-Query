@@ -1,0 +1,22 @@
+Q:
+
+What is the sequence of actions when my Shocker removes cards and places cards in my opponents hand?
+
+I have a fun little shocker deck. From Gatherer
+
+Whenever Shocker deals damage to a player, that player discards all the cards in his or her hand, then draws that many cards.
+
+Note that the errata does not specify combat damage. When the stars align I usually have the following auras on the Shocker.   
+
+Arcane Teachings: Enchanted creature gets +2/+2 and has "Tap: This creature deals 1 damage to target creature or player."
+Sigil of Sleep: Whenever enchanted creature deals damage to a player, return target creature that player controls to its owner's hand.
+
+My understanding is that when I damage a player (I even targeted myself to get a new hand in desperation) that his hand is discarded and new cards are drawn. Then at the same time a creature (assuming there is a legal target) returns to his hand. Netting the player 1 extra card in his hand once the action is completed. 
+Is this correct? Are there rules addressing this scenario?
+
+A:
+
+When two or more trigger happen at the same time, the player controlling those triggers put them on the stack in an order of his/her choice, beginning with the active player.
+So in your scenario, you can put the discard/draw trigger first and the bounce creature trigger second on the stack. This way, the bounce trigger will resolve first, so he/she will have to discard this creature, too, when the other trigger resolves.
+Note, that he/she can respond to all triggers placed on the stack. If the bounced creature has Flash for example, he/she could replay it, before he/she has to discard
+

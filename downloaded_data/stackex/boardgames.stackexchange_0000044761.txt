@@ -1,0 +1,15 @@
+Q:
+
+How does Phasing work with aura enchantments?
+
+If I have a creature enchanted with Vanishing and any other enchantment, what happens if I activate Vanishing's activated ability?
+I assume it works like: The enchanted creature does not count as existing, but the enchantments are still sitting around and are still target-able. 
+
+A:
+
+No, all auras on that creature phase out simultaneously with the creature itself:
+
+702.25f When a permanent phases out, any Auras, Equipment, or Fortifications attached to that permanent phase out at the same time. This alternate way of phasing out is known as phasing out “indirectly.” An Aura, Equipment, or Fortification that phased out indirectly won’t phase in by itself, but instead phases in along with the permanent it’s attached to.
+
+and are therefore not targetable either.
+

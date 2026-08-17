@@ -1,0 +1,11 @@
+Q:
+
+Reduce toughness and cast dmg spell - cause of death?
+
+Let's say on the board is a creature with toughness 6. I reduce the toughness of this creature by 3 until end of turn. After this spell resolves, I cast a burn spell which does 3 dmg to that creature. Now the creature has 0 toughness and dies but what is the cause of death? 
+And how does this interact with regeneration? As fair as I understand the rules, if a creatures dies because of 0 toughness it cannot be regenerated because its not lethal damage nor a destruction event that causes death.
+
+A:
+
+If you reduce a creature's toughness from 6 to 3 you just treat it as a creature of toughness 3. So dealing 3 damage to it can be regenerated. The 3 damage does not reduce the toughness to 0. It will still be a creature with toughness 3 with 3 marked damage on it that will usually die but can be saved with regeneration.
+

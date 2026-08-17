@@ -1,0 +1,68 @@
+Q:
+
+How likely am I to have a key card in my starting hand in Brawl?
+
+I'm playing the Brawl format (a 60-card singleton format), and I really want one specific card in my starting hand.
+I'm willing to take two mulligans (leaving me with a starting hand of 5 cards after putting 2 on the bottom of my library).
+What are the odds of drawing the card in my opening hand within 2 mulligans? 
+
+A:
+
+The first mulligan is free in Brawl[CR 903.11g], so it's 3 mulligans leaves you with 5 cards. I shall reply accordingly.
+After removing the Commander, 59 cards remain in the deck. 58 of those aren't the card.
+The probability that the 1st card drawn isn't the card is 58/59.
+The probability that the 2nd card drawn also isn't the card is 57/58.
+The probability that the 3rd card drawn also isn't the card is 56/57.
+etc.
+So the probability that you don't have the card in your opening hand
+= (58/59)*(57/58)*(56/57)*(55/56)*(54/55)*(53/54)*(52/53)
+= (58*57*56*55*54*53*52)/(59*58*57*56*55*54*53)
+= 52/59
+Since you draw seven card from a freshly shuffled deck when taking a mulligan, the probably of not getting the card in a mulligan is the same as for the initial hand.
+So the probability that you don't have the card after up to three mulligans
+= (52/59)^4
+= 60%
+The probability that you do have the the card after up to three mulligans
+= 1 - 60%
+= 40%
+
+Probabilities are easy to get wrong, so I like to verify through experimentation.
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use List::Util qw( shuffle );
+
+use constant NUM_TRIALS => 10_000;
+
+my @deck = ( 1, (0)x58 );
+my $successes = 0;
+for (1..NUM_TRIALS) {
+   for (7,7,6,5) {
+      if ( grep { $_ } ( shuffle(@deck) )[0..6] ) {
+         ++$successes;
+         last;
+      }
+   }
+}
+
+printf("%.0f%%\n", $successes/NUM_TRIALS * 100);
+
+Output:
+$ ./a
+40%
+
+$ ./a
+40%
+
+$ ./a
+39%
+
+The current rules for mulligans:
+
+103.4. Each player draws a number of cards equal to their starting hand size, which is normally seven. (Some effects can modify a player’s starting hand size.) A player who is dissatisfied with their initial hand may take a mulligan. First, the starting player declares whether they will take a mulligan. Then each other player in turn order does the same. Once each player has made a declaration, all players who decided to take mulligans do so at the same time. To take a mulligan, a player shuffles the cards in their hand back into their library, draws a new hand of cards equal to their starting hand size, then puts a number of those cards equal to the number of times that player has taken a mulligan on the bottom of their library in any order. Once a player chooses not to take a mulligan, the remaining cards become that player’s opening hand, and that player may not take any further mulligans. This process is then repeated until no player takes a mulligan. A player can take mulligans until their opening hand would be zero cards, after which they may not take further mulligans.
+903.11g In any Brawl game, the first mulligan a player takes doesn’t count toward the number of cards that player will put on the bottom of their library or the number of mulligans that player may take. Subsequent mulligans are counted toward these numbers as normal.
+
+(Emphasis mine.)
+

@@ -1,0 +1,21 @@
+Q:
+
+What happens if opponent has infinite turns, but cannot kill me because I have infinite life?
+
+Let's say I have the Heliod, Sun-Crowned + Spike Feeder combo in play, which allows me to gain an arbitrary amount of life at instant speed. Meanwhile, opponent has the Nexus of Fate combo running, which allows her to take arbitrarily many turns. She still needs to convert these turns to a win, though. She is playing Biogenic Ooze as her win condition, but in this case I have arbitrary amounts of life, so Biogenic Ooze is ineffective.
+However ... she can continuously make more Oozes and attack for arbitrarily large damage. The board state is changing and so are our life totals, but she cannot kill me, and she cannot pass the turn and win by milling either since eventually I'll draw my Walking Ballista and kill her.
+How would the game end?
+Related: What happens in the event of a standoff in Magic? However, this doesn't seem like it falls into one of the standoff rules, since it's not a loop. As opponent attacks for ever-larger numbers, I have to respond by gaining ever-larger amounts of life.
+
+A:
+
+Your opponent cannot win, and forestalls losing to Walking Ballista by looping Nexus of Fate. Therefore, you would win the game either by direct judge decision because you explain the inevitable sequence of events, or by the judge forcing your opponent to let you draw cards and eventually getting you to the Walking Ballista.
+There is clearly a loop happening. Remember that "game state" is not a defined term. Even gaining and losing life does not alter the game state if it foreseeably does not decide the game at any point, as is the case in your scenario.
+Case 3 of the answer to the question you linked does apply. Your opponent can propose a loop with any (finite) number of attacks, and you can counter-propose the same loop, except you first gain enough life to survive all those attacks. Then a significantly different choice has to be made, i.e. your opponent must let you take a turn. You will eventually draw your Walking Ballista and win.
+
+721.3 Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+
+From the tournament rules:
+
+The judge is the final arbiter of what constitutes a loop. A player may not 'opt-out' of shortcutting a loop, nor may they make irrelevant changes between iterations in an attempt to make it appear as though there is no loop. Once a loop has been shortcut, it may not be restarted until the game has changed in a relevant way. Proposing loops as an effort to use up time on the clock is Stalling.
+

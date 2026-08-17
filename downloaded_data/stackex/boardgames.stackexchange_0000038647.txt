@@ -1,0 +1,40 @@
+Q:
+
+What happens when Boldwyr Intimidator makes a creature with Changeling a Coward?
+
+Boldwyr Intimidator has the following ability:
+
+{R}:Target creature becomes a Coward until end of turn.
+
+Changeling is defined as:
+
+702.72a: Changeling is a characteristic-defining ability. “Changeling” means “This object is every creature type.” This ability works everywhere, even outside the game.
+
+What happens to the creature with Changeling's creature type when Boldwyr's ability is applied to it?
+For example:
+I have a Boldwyr Intimidator on the board, my Opponent has a Changeling Sentinel and Muscle Sliver on the board.
+I use Boldwyr on my Opponents Changeling Sentinel to make it a Coward, does it still receive the +1/+1 bonus from Muscle Sliver?
+
+A:
+
+The creature will be only a Coward (or Warrior), and not get any bonuses for being a Sliver.
+This is true for the same reason that using Intimidator on a vampire will cause it to no longer be a vampire; it's type has been set, which overrides any other types it previously had.
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+Changling is a characteristic-defining ability, as as such the layer system applies it before the type-defining ability of Intimidator.
+
+604.3. Some static abilities are characteristic-defining abilities. A characteristic-defining ability conveys information about an object’s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box) or overrides information found elsewhere on that object. Characteristic-defining abilities function in all zones. They also function outside the game.
+
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: (1) It defines an object’s colors, subtypes, power, or toughness; (2) it is printed on the card it affects, it was granted to the token it affects by the effect that created the token, or it was acquired by the object it affects as the result of a copy effect or text-changing effect; (3) it does not directly affect the characteristics of any other objects; (4) it is not an ability that an object grants to itself; and (5) it does not set the values of such characteristics only if certain conditions are met.
+
+When determining what a card ends up as, different effects are applied in a specific order, starting with the characteristics of the card itself:
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+
+Both the Changeling ability and Intimidator's ability apply in layer 4. When multiple things get applied in the same layer, characteristic-defining abilities happen first:
+
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6).
+
+It is worth noting that even though the creature will not have any types other than Coward / Warrior, it will still have the changeling ability; because nothing removed its abilities.
+

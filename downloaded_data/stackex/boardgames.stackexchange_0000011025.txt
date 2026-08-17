@@ -1,0 +1,29 @@
+Q:
+
+Can extort be triggered for countered spells?
+
+Extort (Whenever you cast a spell, you may pay b/w. If you do, each
+  opponent loses 1 life and you gain that much life.)
+
+Questions:
+
+If my opponent has a creature with extort out, then casts a spell that I counter, can he still pay the 1 mana to trigger extort? 
+
+And if not, 
+
+Does he have to choose whether to spend the mana before or after I have countered the spell?
+
+A:
+
+Yes. If the spell wasn't countered, the following would happen:
+
+He casts the spell. (Puts it on the stack, pays costs, etc.) Extort triggers.
+Extort is added to the stack.
+Players get priority.
+Extort resolves. He chooses to pay the mana. Each opponent of his loses 1 life and he gains that much life.
+Players get priority.
+The spell resolves.
+
+The spell can be countered in step 3 (in response to extort) or in step 5 (after extort resolves), but as you can see, extort has already been added to the stack at that point.
+The choice of paying mana happens on resolution, so whether he chooses to spend the mana or not depends on when you counter the spell. If you counter in response to extort (step 3), he chooses after you counter. If you counter after extort resolves (step 5), he chooses before you counter.
+

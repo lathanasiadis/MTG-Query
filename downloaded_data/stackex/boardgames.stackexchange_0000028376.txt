@@ -1,0 +1,18 @@
+Q:
+
+Hexproof vs enchantment affecting all creatures
+
+My opponent controls Plated Crusher, a 7/6 hexproof creature. I control two Dampening Pulses, which give opponents' creatures -1/-0. Would Dampening Pulse affect the hexproof creature? I think it would because it's not directly targeting the hexproof creature.
+
+A:
+
+Yes, Dampening Pulse will affect creatures your opponents control that have Hexproof. The entire relevant part of the definition of Hexproof (rule 702.11b) is
+
+“Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+Then, rule 114.9a says
+
+Just because an object or player is being affected by a spell or ability doesn’t make that object or player a target of that spell or ability. Unless that object or player is identified by the word “target” in the text of that spell or ability, or the rule for that keyword ability, it’s not a target.
+
+Dampening Pulse doesn't use the word "target" and it doesn't have any keyword abilities (targeted or otherwise), so Hexproof doesn't affect it.
+

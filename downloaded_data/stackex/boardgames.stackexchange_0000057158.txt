@@ -1,0 +1,26 @@
+Q:
+
+Can Daxos of Meletis use Ancestral Vision?
+
+Daxos of Meletis attacked and got through, exiling my Ancestral Vision. Can the player with Daxos use the Ancestral Vision?
+From reading through the Gatherer rulings, it seems like even though Daxos of Meletis explicitly says "You may cast that card," because Ancestral Vision has no mana cost, rather than a mana cost of 0, it cannot be cast. It also appears that Suspend is an ability, rather than a alternate cost, therefore Daxos still can't use it.
+Is this analysis correct? Can the player with Daxos use Ancestral Vision (in any way)?
+
+A:
+
+No, you can't suspend or cast Ancestral Vision through Daxos of Meletis.
+The definition for suspend is:
+
+702.62a Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” [..]
+
+When Daxos triggers, it puts Ancestral Vision into exile, but Suspend only works from your hand. Therefore you can't suspend Ancestral Vision through Daxos.
+Also, Daxos specifically allows you to "cast" the exiled card. Suspending a card is a special action and thus something else than casting it.
+
+116.2f A player who has a card with suspend in their hand may exile that card. This is a special action. [..]
+
+As for casting, even though Daxos allows you to cast AV, you cannot cast a card with no mana cost, unless it gained an alternative cost somehow.
+
+118.6. Some objects have no mana cost. This represents an unpayable cost. An ability can also have an unpayable cost if its cost is based on the mana cost of an object with no mana cost. Attempting to cast a spell or activate an ability that has an unpayable cost is a legal action. However, attempting to pay an unpayable cost is an illegal action.
+
+To summarize, you can neither suspend Ancestral Vision from exile (where Daxos puts it) nor can you cast it from anywhere.
+

@@ -1,0 +1,17 @@
+Q:
+
+Does taking first strike damage before gaining life from normal lifelink cause me to lose the game?
+
+Two creatures are attacking me and one has first strike and I have one blocker with lifelink.  If I block the creature without first strike and take lethal damage from the first strike creature, would I lose the game before I gain the life to live from my blocker with lifelink?
+Essentially do you lose the game at the end of the first strike combat step or is this checked at the end of both combat steps?  
+
+A:
+
+You lose the game. Each player gets priority in the combat damage step, after damage is dealt. When there is a first strike or doublestrike creature attacking there is a second and separate combat damage step. So you would lose when state based actions are checked, before players receive priority in the first combat damage step.
+
+Combat Damage Step
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously.
+510.3. Third, the active player gets priority. (See rule 116, “Timing and Priority.”)
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step.
+

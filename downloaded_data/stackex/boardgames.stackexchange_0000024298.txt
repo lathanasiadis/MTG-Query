@@ -1,0 +1,34 @@
+Q:
+
+Why is 21 damage from a commander lethal?
+
+In commander, there is the extra rule:
+
+903.14a A player that’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game
+
+I am wondering as to the origins and intent of this rule.  Why is commander damage tracked separately per commander and why is 21 the particular number chosen to be lethal?
+
+Motivation for the question:
+This rule is incredibly cumbersome from a game tracking standpoint.  Even with just 4 players, it means that in addition to 4 life totals, there are 12 commander damage totals to track as well (or possibly even 16 commander damage totals if control changing effects are prevalent).  This takes the number of things that need tracking well out of range of most magic tracking apps and counter methods, making pen and paper or large dice piles the only good tracking options.
+My playgroup finds this so cumbersome that we ignore the commander damage rule almost entirely (we consider 20 damage from a commander in a single hit as lethal, and otherwise don't care).  This decision was made under the key part of commander philosophy:
+
+House rules or "fair play" exceptions are always encouraged if they
+  result in more fun for the local community.
+
+But this piece of philosophy also suggests that the commander damage rule originally was to create fair or at least interesting play.  
+Also, the number 21 is very odd in the context of magic.  Magic game constants, aside from starting hand size, are usually multiples of 10: 20 life in a normal game, 30 life in two headed giant, 40 life in commander, 60 card minimum deck size in a normal game, 40 card minimum deck size in limited, 100 card deck size in commander...
+[I'm posting my speculations as an answer, but I would love an answer with authoritative or historical sources.]
+
+A:
+
+The original rules for Elder Dragon Legend Wars had the following as part of the rules:
+
+players choose (or select at random) an Elder Dragon Legend as their army's leader. The dragon must be supported by creatures and spells corresponding to each of the Dragon's three specific casting colours.
+Players designate and announce three of their creatures as "Warlords" and two creatures as "Captains". If an opponent destroys a Captain, the Captain's controller takes 2 damage, and the destroyer gains 2 life. If a warlord is destroyed, the controller takes 3 damage and the destroyer gains 3 life. And for an Elder Dragon, the controller takes 4 damages, the destroyer gains 4 life.
+
+I'm not sure when or how the rules where modified to add the 21 damage rule, but I found an interesting thread on the MTG boards. Someone who goes by the handle TheTrueNub posted this:
+
+Well, I can tell you why the 21-damage rule was put in place, anyway. It didn't start out as anything to promote certain archetypes like voltron. "Commander" as we know it was once "Elder Dragon Highlander," the reason being that you'd choose one of the five Elder Dragons of Legends block (Arcades Sabboth, Chromium, Nicol Bolas, Palladia-Mors, or Vaevictis Asmadi) as your commander. Each of these dragons are 7/7, therefore three successful swings equals 21 damage. Though nowadays you don't have to use an Elder Dragon as your commander, the "21 Elder Dragon damage rule" is still preserved to this day.
+
+This makes sense to me. I imagine he "three swings rule" was a flavourful rule added to ensure a large multiplayer game didn't drag out for too long and that aggro strategies were viable. Without this rule, it's too easy to build a lifegain and/or control deck that wouldn't give combat-oriented decks a chance.
+

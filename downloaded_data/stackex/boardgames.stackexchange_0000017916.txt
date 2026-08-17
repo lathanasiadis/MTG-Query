@@ -1,0 +1,15 @@
+Q:
+
+Could Cemetery Puca copy a Primordial Hydra?
+
+If I kill my opponents 4/4 Primordial Hydra, will I be able to use my Cemetery Puca's activated ability on the Hydra, and have it become a 4/4 Primordial Hydra, or will my Puca die because the Hydra is considered a 0/0 creature when it is put into the graveyard, due to the X part of its mana cost?
+
+A:
+
+Your initial thought is correct. It will get copied, become a 0/0 creature, and die (unless you have a way to save it through a static effect, like Anthem or Caged Sun).
+Relevant rules:
+
+706.2. When copying an object, the copy acquires the copiable values of the original object's characteristics ... The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+So your Puca does have the "~ enters the battlefield with X counters", but that's irrelevant because it's not entering the battlefield anyway. The object already exists, it's just getting a facelift. (The X would be 0, but that doesn't matter because it isn't triggering.) As for the existing counters, the final clause states that counters are not copied. So you basically get to kill your own Puca by doing this. Which I suppose isn't so bad if you have a Blood Artist or something. =)
+

@@ -1,0 +1,22 @@
+Q:
+
+What permanent cards give creatures -X/-1?
+
+I'm looking for cards that give my opponent's creatures at least a static -1 to toughness. (I don't really care if it also gives my creatures -1 to toughness.) The effects needs to last until removed, so it must come on a permanent of some kind. Usually I would expect a simple Scryfall search to find everything I need, but Scryfall doesn't seem to register -1/-1 as a valid input. How can I find such cards?
+I know at least some cards exist:
+
+Night of Souls' Betrayal
+Elesh Norn, Grand Cenobite
+Ethereal Absolution
+Kaervek, the Spiteful
+Plague Engineer (edge case, only gives selected creatures -1/-1)
+
+A:
+
+Gatherer supports Regex. This search produces 27 results, including all of your example, but also some false positives.
+The statement is intentionally broad so it shouldn't have false negatives, at the cost of more false positives.
+Here is a screenshot of the search terms.
+The " get " excludes "gets" and "target" results.
+The "m/[.]*/-[1-9]+/" term is the regex, with the leading "m/" and trailing "/" being the signal to treat the enclosed term as regex.
+Exclude "until end of turn" to only get permanent P/T modifiers.
+

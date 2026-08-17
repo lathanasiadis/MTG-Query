@@ -1,0 +1,47 @@
+Q:
+
+Do sentence breaks, conjunctions, or "also" have any rules meaning?
+
+Oracle rules texts have several suspicious variations which do not appear to correspond to any differences in rules meaning.
+For example, they may have any of the following forms...
+[Do Action A] and [Do Action B].
+[Do Action A], then [Do Action B].
+[Do Action A].  Then [Do Action B].
+[Do Action A].  [Do Action B].
+Additionally, the word "also" is sometimes, but not always, embedded into an Action B.
+Does any of this affect card functionality?
+I know that for an instruction to draw or manifest multiple cards, each card draw or manifestation constitutes its own action, i.e., if you manifest two cards from the top of your library you do not get to choose which has an earlier timestamp, whereas if you Collected Company them onto the battlefield you do.  This distinction can also affect how triggered abilities or replacement effects apply.  However, this is determined by the nature of instructions in question; I'm not sure whether their wording in the context of the rules text also matters.
+Secondly, there are differences in information revelation determined by the nature of instructions, i.e., players later in APNAP order applying an instruction for all players to make choices simultaneously learn earlier players' choices if cards are being chosen in public zones, but not if cards are being chosen in hidden zones (Rankle, Master of Pranks exemplifies both), but again, I'm not sure whether wording can also matter, such as when players are making choices across multiple actions within a single instruction, or across multiple instructions.
+Do these wording differences in rules text matter at all?
+
+A:
+
+No, you simply apply the rules of the English language unless the wording matches a specific pattern in the rules that would signify some property, such as an ability being triggered, or it creating a replacement effect. The differences in wording you list are for better readability/clarity, to create a more compact and comprehensible card text.
+Grammatically, the things you listed are conjunctions. The are used to join together separate sentences that have a relation to each other, such as when they happen in a certain logical order, or they refer to the same thing in the same or a previous sentence.
+Lobotomy has all 4 of these conjunctions you listed combined into one card. It serves as a convenient example of why the different wordings are applied even in the same card.
+Let's break the card text down into clauses first:
+
+Target player reveals their hand, then you choose a card other than a basic land card from it.
+
+Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them.
+
+Then that player shuffles.
+
+In clause 1, we could get rid of ", then" by rephrasing it as the equivalent:
+
+1a Target player reveals their hand.
+1b Choose a card other than a basic land card from that player's hand.
+
+In clause 2 we could get rid of the first instance of " and " by rephrasing it as the equivalent:
+
+2a Search that player's graveyard for all cards with the same name as the chosen card and exile them.
+2b Search that player's hand for all cards with the same name as the chosen card and exile them.
+2c Search that player's library for all cards with the same name as the chosen card and exile them.
+
+We could further rephrase clauses 2a-c  to get rid of the remaining instance of " and " by separating the "exile them" instruction into its own clause, but you can already see where this would be going.
+Clause 3 could simply be rephrased as:
+
+3 That player shuffles.
+
+You can imagine the huge chunk of text that would result from the omission of these conjunctions. It would still be perfectly functional card text, but, apart from the fact that you can't fit so much text on a physical card in standard font size, it would be much more difficult to comprehend what the card is even saying mechanically.
+

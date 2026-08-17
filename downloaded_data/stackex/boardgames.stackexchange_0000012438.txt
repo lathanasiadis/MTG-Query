@@ -1,0 +1,45 @@
+Q:
+
+MTG: Zegana, Mul Daya Channellers and Green Suns's Zenith
+
+Suppose I have Mul Daya Channelers (only her) in play and have some creature on top of the library so Mul Daya is 5/5. Now I play Green Sun's Zenith and find Prime Speaker Zegana and put her into play. Now her ability triggers, but is this before or after I shuffle Green Sun's Zenith into the library? Potentially Mul Daya could be 2/2 if I shuffle first and end up with a non-creature up top.
+
+A:
+
+Short answer:  Prime Speaker Zegana will get 5 +1/+1 counters, and you'll draw 6 cards.
+Long answer:
+This is what happens, step by step:
+
+1: Search your library for a green creature card with converted mana cost X or less.
+
+Note that technically, we can't change the order of the library while we search it, even if in practice we often do so because it matters only in very corner cases (like this one). It's usually not a problem because the cards that let us search the libary always make us shuffle it afterwards. So the top card of the libary will be the same one until we shuffle.
+
+2: put it onto the battlefield.
+
+We put Prime Speaker Zegana on the battlefield. Its replacement effect see a 5/5 Mul Daya Channelers on the battlefield, and thus it enters the battlefield with 5 +1/+1 counters. Prime Speaker Zegana triggered ability triggers (but it doesn't go on the stack yet).
+
+3: then shuffle your library.
+
+The library is shuffled. Now a new card will become the top card of the library. We must reveal that card because of Mul Daya Channelers ability.
+
+4: Shuffle Green Sun's Zenith into its owner's library.
+
+We shuffle Green Sun's Zenith into the library. Technically, we are shuffling a second time. Usually it's just fine to use a shortcut and shuffle just once, but because shuffling a second time will cause another card on the top of the library to be revealed, we can't use a shortcut this time.
+
+5: Prime Speaker Zegana triggered ability is put on the stack.
+
+Triggered abilities wait to be put on the stack until a player would get priority. After this, and when both players has passed priority, the triggered ability will resolve and 6 cards will be drawn.
+Note that spell don't resolve as one big event, they can have several steps that we must follow in order:
+
+608.2c The controller of the spell or ability follows its instructions in the order written. However, replacement effects
+may modify these actions. In some cases, later text on the card may
+modify the meaning of earlier text (for example, “Destroy target
+creature. It can’t be regenerated” or “Counter target spell. If that
+spell is countered this way, put it on top of its owner’s library
+instead of into its owner’s graveyard.”) Don’t just apply effects step
+by step without thinking in these cases—read the whole text and apply
+the rules of English to the text.
+
+PD: also, even if the top card of the library when Green Sun's Zenith starts to resolve is the same Prime Speaker Zegana that we'll put into play, it would still get 5 +1/+1 counters. Because the replacement effect look at the other creatures just before Prime Speaker Zegana enters the battlefield, and at that time Mul Daya Channelers was still a 5/5.
+It's for the same reason why Prime Speaker Zegana entering the battlefield at the same time that another creature (for exampel with Tooth and Nail) won't count that other creature for getting +1/+1 counters.
+

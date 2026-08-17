@@ -1,0 +1,11 @@
+Q:
+
+When a creature is enchanted with 2 auras changing it's base stats, what happens?
+
+If Ensoul Artifact is attached to an artifact, then Lignify is later attached to the same artifact, does the base power of the creature you are targeting change to 0/4 even if Ensoul Artifact is still in play and effect, stating the creature to be a 5/5?
+
+A:
+
+If two continuous effects change the same characteristic in the same way, then those effects are applied in the order they were created (this is known as timestamp order).
+In this case, both Ensoul Artifact and Lignify set the enchanted creature's base power and toughness. Ensoul Artifact entered the battlefield first, so Ensoul Artifact sets the creature's base power and toughness to 5/5, then Lignify sets the creature's base power and toughness to 0/4. The result is that the creature has base power and toughness 0/4.
+

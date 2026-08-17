@@ -1,0 +1,27 @@
+Q:
+
+Can Fabled Passage generate two mana with Amulet of Vigor?
+
+Fabled Passage has this text:
+
+[T], Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Then if you control four or more lands, untap that land.
+
+Amulet of Vigor says:
+
+Whenever a permanent enters the battlefield tapped and under your control, untap it.
+
+With Amulet of Vigor + 3 lands on the battlefield, can I play Fabled Passage, sacrifice it, find a basic land which enters tapped, Amulet triggers and untaps the land, tap it for mana (floating one), and then untap the land again using Fabled Passage's effect?
+
+A:
+
+Yes, you can get 2 activations out of the land you fetch with Fabled Passage if you also control Amulet of Vigor, though technically a little different than you describe.
+When the land fetched with Fabled Passage enters the battlefield, it always enters tapped. That means Amulet of Vigor triggers, but the Amulet's ability does not go on the stack yet. It waits until Fabled Passage's ability has finished resolving:
+
+116.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, “Handling Triggered Abilities.”) However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack. See rule 116.5.
+
+Fabled Passage finishes resolving, and the land you fetched is untapped when it has finished resolving. Since an ability resolved, you as the active player get priority:
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+Before you get priority, Amulet of Vigor goes on the stack. You can now tap the land for mana and float it, then let Amulet of Vigor resolve, untapping the land again. You can now tap the land again for the second time. and use the mana as you see fit.
+

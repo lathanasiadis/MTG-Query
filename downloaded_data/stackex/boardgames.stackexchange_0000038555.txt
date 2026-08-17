@@ -1,0 +1,28 @@
+Q:
+
+Repeatedly targeting one creature with the same "target creature gains..." effect
+
+Main question
+Is it legal to target the same creature with the same effect that would give it an ability over and over again? 
+Context
+In my case, I run Broken Fall in my Omnath enchanter commander deck, and with some Enchantress's Presence effects on the field I like to return it to my hand by regenerating Omnath, then re-casting it to draw one or more cards over and over again. Is this a legal strategy?
+
+A:
+
+You may continue casting Broken Fall to trigger Enchantress's Presence for as long as you have the mana to do so.
+To break it down, in magic there are few cases where the game cares about what has happened previously (and when the game does care it is usually covered by the rules text on the card). So for your interaction the game sees it like this:
+
+You cast Broken Fall paying its costs ({2}{G}) as per (601.2).
+Enchantress triggers allowing you to draw a card.
+Broken Fall resolves. You may now activate its ability.
+You activate Broken Fall's ability, choosing a target and paying its costs (returning it to your hand). It should be noted that you can choose any creature for this not just your own, so no worries if you want to combo and have no creatures.
+Broken Fall's ability resolves (or dosen't, if your opponent response is to either kill the target or stifle it) and the stack is now empty. You may now start again from the top.
+
+Some things to note that your opponent might have had some trouble with:
+
+Once a card enters a private zone (hand, library etc.) the game no longer tracks it. So from the games perspective it has no way of telling that Broken Fall is the same card once it enters your hand. So the game can't tell the difference between casting the same Broken Fall 4 times, or casting and returning to your hand four different copies of Broken Fall.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence...
+
+A creature can have multiple regeneration effects applied to it. The regeneration replacement effects just queue up on the creature and are used up one at a time as needed and if not used disappear at the end of the turn. (Regneration 701.13, Replacement Effects 614.6-8)
+

@@ -1,0 +1,32 @@
+Q:
+
+MTG What happens if a creature's toughness is reduced to 0 but immediately raised?
+
+I've been playing MTG for a while and I just ran into this problem.
+Example: Let's say I have a 3/3 Grove Rumbler and my opponent uses a Lightning Strike to deal 3 damage to it making it a 3/0, but I immediately use a Titanic Growth to give it a +4/+4 making it become a 7/4. So my question is which happens?
+A. Lightning strike puts Grove Rumbler down to 3/0 immediately putting it into the graveyard due to state based effect and Titanic Growth is wasted.
+or
+B.Lightning strike puts Grove Rumbler down to 3/0, but Titanic Growth resolves before state based effect putting Grove Rumbler at 7/4.
+
+A:
+
+First, damage is not the same as toughness reduction. After Lightning Strike resolves, the Grove Rumbler is still a 3/3, with 3 damage marked. This still causes the Grove Rumbler to die from state based actions, just for a slightly different reason.
+Once you add Titanic Growth, the outcome depends on exactly when you cast it. If you let the Lightning Strike resolve, then decide to cast Titanic Growth, you can't save the Grove Rumbler, and it plays out like this:
+
+Your opponent casts Lightning Strike targeting Grove Rumbler.
+You choose not to respond.
+Lightning Strike resolves. Grove Rumbler now has 3 damage marked on it.
+State-based actions occur. Grove Rumbler has 3 toughness and 3 damage marked, so it dies due to rule 704.5g.
+You now have another opportunity to act. At this point, you can't cast Titanic Growth targeting Grove Rumbler, because Grove Rumbler is already dead.
+
+Alternatively, if you decide to cast Titanic Growth in response to Lightning Strike, you can save the Grove Rumbler, and it plays out like this:
+
+Your opponent casts Lightning Strike targeting Grove Rumbler.
+In response, you cast Titanic Growth targeting Grove Rumbler. Now the stack has Titanic Growth on top of Lightning Strike.
+Assuming neither of you have any other responses, Titanic Growth resolves. Grove Rumbler is now a 7/7.
+Again, assuming neither of you has a response, Lightning Strike resolves. Grove Rumbler now has 3 damage marked on it.
+State-based actions occur. Grove Rumbler has 7 toughness and only 3 damage marked, so nothing happens.
+
+Note: I omitted several irrelevant steps. Each player has an opportunity to act (priority) before each object on the stack resolves, and state-based actions actually occur every time a player gains priority.
+If Lightning Strike were replaced with Last Gasp to make the scenario actually involve toughness reduction, each case would play out in pretty much exactly the same way. Grove Rumbler would have a lower power and toughness instead of damage, and it would die because of 704.5f instead of 704.5g. 
+

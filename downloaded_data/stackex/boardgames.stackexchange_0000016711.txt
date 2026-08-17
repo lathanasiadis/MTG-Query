@@ -1,0 +1,17 @@
+Q:
+
+How does Humility affect creatures with an Echo cost?
+
+If I cast a card with Echo and Humility is in play do I still have to pay the echo cost?
+
+A:
+
+You will not have to pay the echo cost. The comprehensive rules definition of Echo:
+
+702.29. Echo
+
+702.29a Echo is a triggered ability. “Echo [cost]” means “At the beginning of your upkeep, if this permanent came under your control since the beginning of your last upkeep, sacrifice it unless you pay [cost].”
+702.29b Urza block cards with the echo ability were printed without an echo cost. These cards have been given errata in the Oracle card reference; each one now has an echo cost equal to its mana cost.
+
+As you can see, echo is a triggered ability just like any other. It would normally tigger at the beginning of your upkeep, but because of humility, the creature no longer has the ability, so there's no ability to trigger.
+

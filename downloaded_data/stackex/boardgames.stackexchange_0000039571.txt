@@ -1,0 +1,12 @@
+Q:
+
+Parallax mechanics
+
+I would play a Brago, King Eternal EDH deck but it is not clear in my mind how does the parallax cards work. I thought that I could remove only a fade counter each turn but googling I read different things: seems that people remove more than one land/creature each turn without using extra cards like Strionic Resonator. So they are able to exile up to 4 card each turn. How does parallax mechanics work? Can someone explain it to me?
+
+A:
+
+The "parallax cards" you are almost certainly Parallax Tide and Parallax Wave. These cards have Fading, but these cards also have the additional mechanic that allows you to remove an additional fade counter whenever you want to get a certain effect. In normal play, this creates a tradeoff, where you can activate the ability more times, but that results in the lands or creatures you exile returning sooner.
+However, with certain other cards, you can abuse effect timing and stacking to either exile lands or creatures permanently, or flicker creatures whenever you want. To exile things permanently, you can activate the ability targeting what you want to get rid of, then with all of those abilities on the stack, cast a card like Flicker. This will cause the parallax card's last ability to trigger before anything gets exiled, so when those cards do get exiled they will never return. In addition, if you allow any of those abilities to resolve before casting Flicker, those exiled cards will return, so you can also effectively use it to flicker multiple lands or creatures.
+In addition, if you have Parallax Wave with Opalescence, Parallax Wave will be a creature, so you can use its own ability to exile itself, then the last ability will trigger and it will return itself. This will allow you to effectively use its own ability as a makeshift Flicker, and do the previously described process repeatedly.
+

@@ -1,0 +1,12 @@
+Q:
+
+Can I counter or Nix an aura swap?
+
+I am playing magic with my friends and we have a problem with the ability Aura Swap on a card called Arcanum Wings.
+Does it count as casting when you activate Aura Swap and put new aura on the battlefield with Arcanum Wings? If a player uses the Aura swap ability, can I counter the new aura with Nix? 
+
+A:
+
+Aura swap says to "exchange this permanent with an Aura in your hand". The new Aura is not cast, it's simply put onto the battlefield. Since it's not cast, and is put on the battlefield during resolution of the effect, it cannot be countered by spells or abilities. There's never a time when the new Aura exists on the stack - the Aura swap ability goes on the stack with the new Aura in your hand, and upon resolution, the new Aura goes on the battlefield.
+You could get around this by countering the Aura swap ability itself (e.g. Stifle), or by removing the permanent that has Aura swap (perhaps by bouncing the creature it's attached to). In either of these cases, though, your opponent will still have the new Aura in his hand afterwards.
+

@@ -1,0 +1,20 @@
+Q:
+
+When must you resolve spells cast with Diluvian Primordial?
+
+Yesterday I have cast Diluvian Primordial, and my playgroup was trying to convince me, that I can cast one of their spells during the entire turn I had cast it, and that I could cast a spell from one of them, then cast a sorcery speed spell from my hand, and then continue casting spells from other players graveyards (the ones I had not targeted before). I think that this is nonsense. Can I cast a creature or a planeswalker from hand during the resolution of the Diluvian Primordial enter the battlefield trigger?
+
+A:
+
+You're right, you can't.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 116, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires. ...
+
+So when the ability triggers, in the process of putting the ability on the stack, you must already choose the appropriate target spells in the graveyards. Then (assuming the ability isn't countered) while it resolves, you cast (not resolve) all target spells, one after another, including choosing targets for them. While that happens, nobody can do anything else except that you can activate mana abilities:
+
+608.2f If an effect gives a player the option to pay mana, they may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, they do so by following the steps in rules 601.2a–i, except no player receives priority after it’s cast. That spell becomes the topmost object on the stack, and the currently resolving spell or ability continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
+
+so you'll end up with a stack full of spells (those you targeted with Diluvian Primordial's ability) waiting to resolve. Opponents may still counter those spells, or cast a spell or activate an ability to e.g. return a creature they want to protect to their hand. As you thought, you can't cast sorceries, creatures or planeswalkers from your hand in the normal way, since the stack is not empty. You'll have to wait for that until all 'stolen' spells have resolved.
+

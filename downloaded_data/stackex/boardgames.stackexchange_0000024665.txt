@@ -1,0 +1,16 @@
+Q:
+
+Am I allowed to shortcut two abilities that allow me to search my deck?
+
+If I have two abilities that allow me to search my deck for something and shuffle, may I use a shortcut to grab both to save time on shuffling?
+Say I have two Polluted Delta on the field, and I attempt to activate both of them. I know I can put them both on the stack at the same time and cause them to resolve back to back, but is there any way I can skip over the first shuffle process since I'm about to search again anyway?
+
+A:
+
+In general yes you can do both searches, and only shuffle once. You would do this by proposing a shortcut where you resolve both abilities without them responding in between. Assuming they accept the shortcut you can shorten search, shuffle, search, shuffle to search, search shuffle. Since if nothing happens between the two abilities resolving the first shuffle is pointless and a waste of time. This is supported by a ruling on Green Sun's Zenith, which technically tells you to shuffle your library twice.:
+
+In most cases, if you own Green Sun's Zenith and cast it, you'll shuffle your library twice. In practice, shuffling once is sufficient, but effects that care about you shuffling your library (like Psychogenic Probe, for example) will see that you've shuffled twice.
+
+Obviously if there is a card on the battle filed like Psychic Surgery, that triggers on the shuffle and alters the cards in the library, or Future Sight that reveals the top card of the library you cannot use this shortcut as the game state would be changing in meaningful ways that you aren't able to account for with your shortcut. Some other cards that trigger on a shuffle like the Psychogenic Probe would not prevent you from using this shortcut however since their results are the same so you can account for them in your proposed shortcut.
+And remember even if you only actually shuffle once the game still sees both shuffles, so anything that triggers on shuffling will trigger twice.
+

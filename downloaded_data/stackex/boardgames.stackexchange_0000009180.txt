@@ -1,0 +1,15 @@
+Q:
+
+Do Regenerate and/or Totem Armor counteract the Legend rule?
+
+Can a regeneration shield or a totem armor aura protect a Legendary creature from getting killed by a clone of itself?
+
+A:
+
+Nope. Regeneration and Totem Armor replace the "destroy" action, and the Legend Rule does not destroy.
+
+704.5k If two or more legendary permanents with the same name are on the battlefield, all are put into their owners’ graveyards. This is called the “legend rule.” If only one of those permanents is legendary, this rule doesn’t apply.
+701.12a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.”
+702.87a Totem armor is a static ability that appears on some Auras. “Totem armor” means “If enchanted permanent would be destroyed, instead remove all damage marked on it and destroy this Aura.”
+701.6b The only ways a permanent can be destroyed are as a result of an effect that uses the word “destroy” or as a result of the state-based actions that check for lethal damage (see rule 704.5g) or damage from a source with deathtouch (see rule 704.5h). If a permanent is put into its owner’s graveyard for any other reason, it hasn’t been “destroyed.”
+

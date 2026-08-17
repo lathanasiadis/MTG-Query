@@ -1,0 +1,14 @@
+Q:
+
+Pentad Prism interacting with Power Sink
+
+I'm playing with a five-color deck, and I cast a Pentad Prism  using Green and Red mana.
+Opponent responds with Power Sink and, having noticed that I only have four untapped lands available, puts X equal to 5.
+He doesn't know that I have in my hand Dark Ritual, which I immediately cast in response, using mana from an untapped Swamp.
+However, I don't use all three black mana to cast the Prism (just two of them), but I use the other three untapped lands that I have instead, giving two White and one Blue mana.
+Since I have used all five mana colors to cast the Prism, at this point, thanks to that card's sunburst ability, I should have 5 counters on it, one for each color. Is this correct?
+
+A:
+
+Unfortunately not - Power Sink does not make the Pentad Prism more mana, it counters the spell unless you pay X. In the scenario above, you pay {r}{g} for the prism and {w}{u}{u}{b}{b} for the sink - so the prism enters with 2 counters.
+

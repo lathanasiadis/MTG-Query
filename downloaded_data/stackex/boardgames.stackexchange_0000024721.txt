@@ -1,0 +1,14 @@
+Q:
+
+How does Sundial of the Infinite help you avoid losing turns to Eater of Days?
+
+This article on Wizards of the Coast website claims that Eater of Days "lose your next two turns" can be avoided by use of Sundial of the Infinite.  I can't figure that out.  There are no rulings on Eater of Days, and it is not an "end of turn" type of effect.  Is the author just wrong?  [seems unlikely]  Or maybe the rules have changed?
+
+A:
+
+A ruling on Sundial of the Infinite says
+
+Ending the turn this way means the following things happen in order: 1) All spells and abilities on the stack are exiled. This includes spells and abilities that can't be countered. 2) All attacking and blocking creatures are removed from combat. 3) State-based actions are checked. No player gets priority, and no triggered abilities are put onto the stack. 4) The current phase and/or step ends. The game skips straight to the cleanup step. The cleanup step happens in its entirety.
+
+Eater of Days' ability is a triggered ability, so if you respond to it by activating Sundial of the Infinite, that triggered ability will be exiled and will never resolve. So, you don't have to skip any turns.
+

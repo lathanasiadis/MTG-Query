@@ -1,0 +1,17 @@
+Q:
+
+What is the origin of the term "converted mana cost"?
+
+In Magic: the Gathering, a card's converted mana cost is the card's mana cost converted to an integer by replacing all mana symbols with 1's and summing all of it.
+My conjecture here is that it was named "converted" because it's "mana converted to an integer".
+Still, I was wondering when has the term been first used and why is it named "converted". An official explanation would be preferred.
+
+A:
+
+The term started to be used in Classic Sixth Edition.
+In Fifth Edition, Spell Blast says total casting cost. In Sixth it says converted mana cost.
+Pyromancy also says total casting cost, and Urza's Legacy was the set immediately before Sixth.
+Sixth introduced many major rules changes, including the removal of interrupts and the introduction of the stack. You can read more details here, but in general it was a major push by WotC to redesign the rules and wording to lead to a more consistent environment.
+I don't know why they chose the exact wording they did, but it makes sense as a term. A spell's mana cost includes colours and generic mana. The word "converted" (as opposed to "total") makes it clear that you're not paying attention to the composition of colour symbols (and later, other symbols), and instead just want a single number answer.
+This would be important for comparing two spells in different colours, or reducing a spell's cost by a number but still requiring coloured mana.
+

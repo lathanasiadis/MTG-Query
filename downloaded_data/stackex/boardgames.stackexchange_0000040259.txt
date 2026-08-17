@@ -1,0 +1,43 @@
+Q:
+
+Playing Desertion on a commander
+
+I'm not sure how playing Desertion on a commander works. I did a quick search and got even more confused, do the EDH rules overwrite it?
+Commander Ruling:
+If Commander would be put into a library, hand, graveyard or exile from anywhere, its owner may choose to move it to the command zone instead.
+
+This is a replacement effect. It applies last (!!) and may apply multiple times to an event.
+The creature never goes to the original destination zone and will not
+     trigger triggering abilities based on going there (e.g. "dies"
+     triggers).
+
+Desertion's Ruling:
+
+Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.
+
+https://magiccards.info/cn2/en/107.html
+This spell includes a replacement effect. If the target is an artifact or creature, it never goes to the graveyard.
+
+And a 4-year old Quote for reddit.
+
+"The Comprehensive Rules cover the interactions in Rules 614.15 and 616.1a:
+616.1a If any of the replacement and / or prevention effects are self-replacement effects (see rule 614.15), one of them must be chosen. If not, proceed to rule 616.1b
+614.15. Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replaces all or that spell or ability's own effect (s). Such effects are called self-replacement effects. When applying replacement effects to an event, self-replacement effects are applied before other replacement effects."
+
+"Desertion is an example of a self-replacement effect, and it should be chosen instead of the command zone replacement effect. This same rule applies to Hinder / Spell Crumple, allowing them to tuck a commander."
+
+A:
+
+Desertion does work against commanders. Commanders no longer go to the command zone instead of the graveyard or exile as a replacement effect. Instead, rule 903.9a now says
+
+If a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+As a result, when a commander is countered by Desertion, the only applicable replacement effect is Desertion's self-replacement effect, so Desertion's controller takes control of the commander.
+
+Under the previous Commander rules, the answer would be as follows:
+Desertion does work against commanders. The replacement effect on Desertion is a self-replacement effect, as defined in rule 614.15:
+
+Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replace part or all of that spell or ability’s own effect(s). Such effects are called self-replacement effects. The text creating a self-replacement effect is usually part of the ability whose effect is being replaced, but the text can be a separate ability, particularly when preceded by an ability word. When applying replacement effects to an event, self-replacement effects are applied before other replacement effects.
+
+So, when Desertion resolves and counters a commander, there are two replacement effects that can apply. One is the commander replacement effect quoted in the question, that in this case would allow its owner to move the commander card to the command zone instead of the graveyard. The other is Desertion's self-replacement effect that would move the card to the battlefield under Desertion's controller's control instead of the graveyard. As the quoted rule says, we have to apply self-replacement effects first, so the commander card enters the battlefield under Desertion's controller's control. Once we apply that replacement effect, the commander replacement effect cannot be applied because the commander is moving to the battlefield. So, the end result is that it goes to the battlefield.
+

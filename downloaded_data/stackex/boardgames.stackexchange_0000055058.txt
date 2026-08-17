@@ -1,0 +1,14 @@
+Q:
+
+Enchanting a tapped land
+
+When enchanting a tapped land using New Horizons can I still produce mana using it or do I have to wait for my next turn?
+Knowing that the enchantment let's you produce 2 mana when tapping the enchanted land, since I enchanted a tapped land that already produced 1 mana, but can I produce 1 more mana after enchanted that tapped land that already produced 1 mana?
+I'm not sure if can't produce any mana, produce 1 mana, or produce 2 mana.
+
+A:
+
+You need to wait until the land untaps to get more mana from it.
+Lands generally have abilities that allow you to tap them to produce mana. New Horizons gives the land a different ability that also allows you to tap it to produce mana. If the land is already tapped, you can't use any abilities that require you to tap it until it untaps.
+Basic lands (Plains, Island, Swamp, Mountain, Forest) and other lands with basic land types automatically have an ability "{T}: Add {M}" where M is the corresponding color of mana, as a result of rule 305.6. Most other lands explicitly have similar abilities printed on them.
+

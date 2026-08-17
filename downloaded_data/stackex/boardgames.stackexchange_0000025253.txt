@@ -1,0 +1,19 @@
+Q:
+
+Is an ability that can only be activated once per turn still considred activated if it gets countered?
+
+Stifle counters activated abilities. Quirion Ranger has an activated ability that can only be activated once each turn. Does the ability count as being activated for the turn if it was stifled?
+
+A:
+
+Yes, the ability was still activated even if it gets countered.
+Activating the ability is merely the process of paying its costs and putting it onto the stack, completely independent of what happens after that:
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. ...
+
+All that has to be done before anyone gets priority and is able to Stifle it. Countering it merely causes the ability to be removed from the stack without any of its effects occurring; it doesn't rewind the game and undo it being activated in the first place.
+
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+Similarly, once you cast a spell, it's been cast, even if it subsequently gets countered.
+

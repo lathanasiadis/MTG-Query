@@ -1,0 +1,15 @@
+Q:
+
+Grisly Spectacle has two parts if the first part fails does the second still happen
+
+Grisly Spectacle states:
+
+Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.
+
+If a creature is indestructible the first part will have no effect, but will the second part still happen?
+
+A:
+
+Yes, you can target an indestructible creature with Grisly Spectacle. If you do, the spell will try and fail to destroy the creature, and the spell will mill the creature's controller.
+Be aware that you need a creature you can legally target with Grisly Spectacle in order to cast the spell, and the creature needs to still be around and legal to target in order for the mill to happen. You can't for example, Grisly Spectacle your opponents Carnage Tyrant, and if they were to use Blossoming Defense on a creature you would get neither the kill nor the mill. 
+

@@ -1,0 +1,19 @@
+Q:
+
+Chandra, Pyromaster's ability and spells with x casting cost
+
+Chandra's ability allows you to cast spell without paying its casting cost:
+
+−7: Exile the top ten cards of your library. Choose an instant or
+  sorcery card exiled this way and copy it three times. You may cast the
+  copies without paying their mana costs.
+
+(see http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383204). 
+What if I decide to cast a spell with an X casting cost, e.g. Fireball (see http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=376334)? What kind of damage will be dealt?
+
+A:
+
+X is always zero in this case according to this rule.
+
+107.3b If a player is casting a spell that has an {X} in its mana cost, the value of X isn’t defined by the text of that spell, and an effect lets that player cast that spell while paying neither its mana cost nor an alternative cost that includes X, then the only legal choice for X is 0. 
+

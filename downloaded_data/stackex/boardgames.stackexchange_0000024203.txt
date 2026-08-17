@@ -1,0 +1,22 @@
+Q:
+
+Will Heroic trigger if a spell would cause the creature to lose all abilities?
+
+So me and a buddy of mine got into a argument: he had Setessan Battle Priest out which has heroic
+
+Whenever you cast a spell that targets Setessan Battle Priest, you gain 2 life
+
+Then he played Turn to Frog, which takes all abilities away and makes it a 1/1 Blue Frog until end of turn. He said he gained two life because Heroic triggers from the spell. I said that it took away the ability so it doesn't activate. Who was right?
+
+A:
+
+Yes, Heroic does trigger in that situation, and he does gain the 2 life. This is because Heroic triggers when you cast the spell, before it resolves and has any effects. Basically, it plays out like this:
+
+Your opponent casts Turn to Frog targeting his Setessan Battle Priest. The Priest's Heroic ability triggers. Now there are two objects on the stack: the Heroic ability is on top of the Turn to Frog spell.
+The Heroic ability resolves, and your opponent gains 2 life.
+Turn to Frog resolves and the Priest loses all of its abilities.
+
+The rulings on Setessan Battle Priest's Gatherer page also mention this:
+
+Heroic abilities will resolve before the spell that caused them to trigger.
+

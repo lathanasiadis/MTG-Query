@@ -1,0 +1,48 @@
+Q:
+
+Do i have to have a spell target to tap a wizard creature with Patron Wizard?
+
+Patron Wizard says I have to tap an untapped wizard. That is before the ":", which means that is the cost. However, does there have to be a spell to target to use this ability, or can I just tap an untapped wizard and let the ability fizzle?
+
+A:
+
+You absolutely do have to have a target in order to use the ability.
+
+602.2  To activate an ability is to put it onto the stack and pay its costs,
+  so that it will even tually resolve and have its effect. Only an
+  object’s controller (or its owner, if it doesn’t have a controller)
+  can activate its activated ability unless the object specifically says
+  otherwise. Activating an ability follows the steps listed below, in
+  order. If, at any point during the activation of an ability, a player
+  is unable to comply with any of those steps, the activation is
+  illegal; the game returns to the moment before that ability started to
+  be activated (see rule 717, “Handling Illegal Actions”). Announcements
+  and payments can’t be altered after they’ve been made.
+
+And you have to choose a target in order to cast a spell or activate an ability.
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell
+  may require some targets only if an alternative or additional cost
+  (such as a buyback or kicker cost), or a particular mode, was chosen
+  for it; otherwise, the spell is cast as though it did not require
+  those targets. If the spell has a variable number of targets, the
+  player announces how many targets he or she will choose before he or
+  she announces those targets. The same target can’t be chosen multiple
+  times for any one instance of the word “target” on the spell. However,
+  if the spell uses the word “target” in multiple places, the same
+  object, player, or zone can be chosen once for each instance of the
+  word “target” (as long as it fits the targeting criteria). If any
+  effects say that an object or player must be chosen as a target, the
+  player chooses targets so that he or she obeys the maximum possible
+  number of such effects without violating any rules or effects that say
+  that an object or player can’t be chosen as a target. The chosen
+  players, objects, and/or zones each become a target of that spell.
+  (Any abilities that trigger when those players, objects, and/or zones
+  become the target of a spell trigger at this point; they’ll wait to be
+  put on the stack until the spell has finished being cast.)
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b –
+  h. Those rules apply to activating an a bility just as they apply to
+  casting a spell. An activated ability’s analog to a spell’s mana cost
+  (as referenced in rule 601.2e) is its activation cost.
+

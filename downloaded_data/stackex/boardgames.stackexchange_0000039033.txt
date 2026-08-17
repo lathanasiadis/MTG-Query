@@ -1,0 +1,20 @@
+Q:
+
+How does Hive Mind work with Counterspell in a multiplayer game?
+
+I have a Hive Mind in play, it is my turn and I cast Wheel of Fortune (I win if my opponents don't have an answer and at least 2 of the copies resolve) everybody gets a copy, then the person in the 4th turn order relative to my active turn plays a Counterspell. 
+My question is: will my copy of Counterspell resolve first, or will every copy except for one copy of Wheel of Fortune get countered? (and we are assuming that every player knows and wants to counter the wheel copies except for myself) How would this change if it were the person in the 3rd or 2nd turn relative to my active turn if at all.
+
+A:
+
+You can counter the original Counterspell with your copy, ensuring that at least two copies of Wheel of Fortune resolve. This is true no matter whose turn it is or which opponent casts the Counterspell.
+The important thing to note here is that Hive Mind's ability is a triggered ability that triggers when a player casts a spell. The first and last steps of casting a spell are
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+
+[...]
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+This means that both the triggered ability and any copies that it makes go on the stack above the original spell, so when any other player casts Counterspell, the copy you make goes on the stack above it, and can target and successfully counter the original.
+

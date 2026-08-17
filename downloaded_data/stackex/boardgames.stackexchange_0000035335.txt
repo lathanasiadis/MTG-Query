@@ -1,0 +1,23 @@
+Q:
+
+Does Exalted still apply if additional creatures are later included?
+
+I want to confirm that my interpretation of the Exalted keyword is correct, specifically when creatures are added to the attack as an effect during the declare attackers phase.
+As an example, supposed I had Alesha, Who Smiles At Death and Angelic Benediction in play. My Alesha now has Exalted: 
+
+Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.
+
+Alesha also has an attack trigger: 
+
+Whenever Alesha, Who Smiles at Death attacks, you may pay [W/B][W/B]. If you do, return target creature card with power 2 or less from your graveyard to the battlefield tapped and attacking.
+
+If I use Alesha's triggered ability, I have to do so during the Delcare Attackers step, at which point a second creature will now be attacking. So Alesha is not longer "attacking alone". However, as I understand the timing rules,  Exalted triggers at the same time as Alesha's ability, so I can choose to have it resolve first, and she will get the +1/+1, then the second creature will enter the battlefield attacking?
+Is that correct?
+
+A:
+
+That is correct. Exalted triggers, and the creature that's attacking alone gets +1/+1 until end of turn. It doesn't matter whether that creature continues attacking alone for the rest of the turn (of course, it can't once the combat phase is over).
+There's a Gatherer ruling on Angelic Benediction to this effect:
+
+10/1/2008: Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+

@@ -1,0 +1,23 @@
+Q:
+
+Progenitor Mimic destroyed in response of its triggered ability
+
+What happens if Progenitor Mimic is destroyed in response of its triggered ability? Does it still generate the token?
+This questions is not a duplicate of Does an ability resolve if the source of the ability leaves the battlefield? because I am not asking if the ability will resolve. I am asking what happen when the ability resolves in this particular scenario when an object that was part of the ability is not longer in the game.
+Thanks to Hackworth for his excelent answer.
+
+A:
+
+Yes, it will still create a token that's a copy of itself.
+Spells and abilities on the stack that are resolving use the "last known information" of an object that has left the required zone, if properties of that object are required for that spell or ability to resolve.
+
+Abilities
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+Alternatively:
+
+Resolving Spells and Abilities
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 112.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+

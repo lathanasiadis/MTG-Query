@@ -1,0 +1,11 @@
+Q:
+
+How do "side effects" interact with a card that grants hexproof?
+
+I was looking at the card Leyline of Sanctity and noticed that it gives its controller hexproof. I understand that this means that I can't use any spells or abilities that target the player, but what about "side effects" that target another permanent, and then result in damage or an effect on the player?
+If I use Draconic Roar and reveal a dragon, will the 3 damage fizzle or will it get through since the player isn't the primary target?
+
+A:
+
+Hexproof only prevents targeting. Any effects that affect the player without targeting (e.g. "Deal 2 damage to each opponent") still work. Draconic Roar doesn't target your opponent, so his hexproof has no effect.
+

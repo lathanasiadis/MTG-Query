@@ -1,0 +1,20 @@
+Q:
+
+What would happen if you made Spellskite Hexproof?
+
+I would like to know if making Spellskite hexproof would render him useless or make him ultra effective at fizzling spells?
+I'm thinking about his activated ability: if he was hexproof, would I be able to pay the cost to change the target to him making the spell fizzle or would it mean I cannot use his activated ability?
+Either way this would be a useful thing to know to either use to enhance him and take him out of the game with an enchantment.
+
+A:
+
+You can fizzle a spell, but only once. Here are the two sequences possible:
+1. Give Spellskite Hexproof, and then change target to it
+Spellskite's ability resolves, and attempts to change the target. It fails because Spellskite is not a valid target. The spell or ability in question continues to target its original choice.
+2. Change target to Spellskite, and then give Spellskite Hexproof
+First you change the target of a spell (say, Lightning Bolt) to Spellskite, and let Spellskite's ability resolve. Lightning Bolt is now targeting Spellskite, but before it resolves, give Spellskite Hexproof. When Lightning Bolt tries to resolve, it will fail, as its current target is now invalid.
+Basically, if you want to do what you're thinking of, you need to change the spell's target to Spellskite, and let the target-changing ability resolve BEFORE giving Spellskite Hexproof to fizzle the spell.
+
+Just to be clear, here's a hard example of the second, more useful case.
+Player A controls a Spellskite, and is at 3 life. Player B casts Lightning Bolt targeting Player A. In response, Player A activates Spellskite's ability targeting Lightning Bolt on the stack. Spellskite's ability resolves, so now Lightning Bolt is on the stack targeting Spellskite. Then, Player A casts Blossoming Defense targeting their own Spellskite, which resolves and gives Spellskite Hexproof. Lightning Bolt tries to resolve, and is countered as its target (Spellskite) is no longer valid.
+

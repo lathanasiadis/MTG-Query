@@ -1,0 +1,18 @@
+Q:
+
+Do Attacking Creatures Deal Damage Simultaneously or Sequentially?
+
+When I declare multiple attackers, do they deal damage at the same time, or do they attack sequentially?
+For an example, I attack with Aethergeode Miner and Ninth Bridge Patrol. If they attack simultaneously, I've got a 3/1 and a 1/1. If they attack sequentially, I could use the Miner first, flicker it, and then I'd have a 3/1 and a 2/2, since the Patrol gains +1/+1 for each creature that flickers.
+Do attacking creatures work simultaneously?
+
+A:
+
+From the Comprehensive Rules:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then
+  the defending player announces how each blocking creature assigns its combat damage.
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously.
+
+Note that it is possible to get the sequential effect you want if you have a way of giving your Miner the ability First Strike (or Double Strike). All creatures with First Strike deal damage first, and then there is time to flicker your Miner before other creatures deal damage.
+

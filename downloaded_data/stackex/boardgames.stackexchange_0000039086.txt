@@ -1,0 +1,23 @@
+Q:
+
+Does Trespasser il-vec still deal damage after giving itself Shadow?
+
+Scenario
+
+I attack with a 4/4 beast token
+My opponent chooses to block with Trespasser il-Vec
+After declaring blocker, my opponent uses Trespasser's ability to discard Fiery Temper and pay madness cost to deal 3 damage to my beast creature.
+
+Does Trespasser still deal his combat damage to my beast token, even though he now has shadow and is an illegal blocker?
+
+A:
+
+Yes, Trespasser still deals combat damage.
+The relevant passage is in comprehensive rules 509.1b (emphasis mine):
+
+A restriction may be created by an evasion ability (a static ability
+  an attacking creature has that restricts what can block it). If an
+  attacking creature gains or loses an evasion ability after a legal
+  block has been declared, it doesn’t affect that block. Different
+  evasion abilities are cumulative.
+

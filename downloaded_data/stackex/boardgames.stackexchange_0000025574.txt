@@ -1,0 +1,23 @@
+Q:
+
+What does outlast do?
+
+On Disowned Ancestor it says
+
+Outlast {1}{B} ({1}{B}, tap: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
+
+Why do you pay the cost to activate it twice?
+Would it not be the same if it said
+
+Outlast {2}{B}{B}, tap: Put a +1/+1 counter on this creature. Outlast only as a sorcery.
+
+I don't understand what the point of paying the mana twice instead of doubled would be?
+
+A:
+
+You do not pay the cost twice. The part in parentheses is called reminder text, and doesn't actually do anything it just reminds you how Outlast works. The card would function exactly the same if it read "Outlast {1}{B}"
+
+207.2a Reminder text is italicized text within parentheses that summarizes a rule that applies to that card. It usually appears on the same line as the ability it’s relevant to, but it may appear on its own line if it applies to an aspect of the card other than an ability.  
+702.106. Outlast
+702.106a Outlast is an activated ability. “Outlast [cost]” means “[Cost], {T}: Put a +1/+1 counter on this creature. Activate this ability only any time you could cast a sorcery.”
+

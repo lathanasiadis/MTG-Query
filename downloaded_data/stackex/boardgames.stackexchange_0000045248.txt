@@ -1,0 +1,21 @@
+Q:
+
+Does an enchantment ability that gives -1/-1 to opponent creatures resolve before other abilities can be used on a 1/1 entering the battlefield
+
+So I control an Ethereal Absolution that gives all opponents creatures -1/-1.  On my opponents turn he sacrifices a creature to create two 1/1 white token spirits.  He then wants to sacrifice these using an ability on another card (Teysa Orzhov Scion).
+My question is does the enchantment resolve first and remove the 1/1 tokens, e.g. as completion of them entering the battle field, and, before his ability can be triggered, or as he is the active player he gets to decide the order?
+
+A:
+
+Your opponent cannot sacrifice them before they die. The -1/-1 ability is a static ability. It is always in effect, does not use the stack, and will kill off all */1 creatures before anyone can interact with them. 
+A static ability such as "Creatures your opponents control get -1/-1." is always in effect:
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+That means creatures this applies to enter the battlefield with the -1/-1 effect. The game never sees a 1/1 creature, it enters as a 0/0. As soon as the spell or effect that put that creature on the battlefield has resolved, the game checks for state-based actions (A set of rules that is checked almost all the time), because the active player would gain priority (the right to take actions).
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.5. Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, “State-Based Actions”),[..]
+704.5. The state-based actions are as follows:
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+

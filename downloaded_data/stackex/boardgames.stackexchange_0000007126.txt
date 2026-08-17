@@ -1,0 +1,30 @@
+Q:
+
+Are cards that interact with sacrificing rare, and why?
+
+For independent reasons, I was looking recently for cards that interact with Sacrificing. At the time (owing mostly to my lack of knowledge in MtG templating), I found none. Looking at the Avacyn restored preview card Sigarda, Host of Herons brought back the question, which was further piqued when I noticed that another preview cards is intended to "mess with" sacrificing (Angel of Jubilation).
+Looking through Gatherer (with the above caveat), I found only a few cards cards (Sigarda's predecessor Tajuru Preserver, Dragon Appeasement, Furnace Celebration, Savra, Queen of the Golgari, Mortician Beetle, Thraximundar) with sacrifice trigger effects. I found no card with trigger effects when they are sacrificed to other cards (something which, coming fro a YGO background, I am used to).
+Was my research too incomplete or are there really just few cards that interact with Sacrificing other than as a cost or effect?
+If there are so few, do you see any design-related reason for it? I mean, given the prevalence of effects triggering by entering the battlefield, drawing cards, creatures dying, attacking, blocking/being blocked etc., it seems strange that such a prevalent game action as sacrificing would have been ignored.
+
+A:
+
+You said:
+
+I found no card with trigger effects when they are sacrificed to other cards
+
+In a design article, Mark Rosewater said: 
+
+Originally, Perilous Myr dealt 1 damage when it was put into the
+  graveyard from play but 3 damage if it was sacrificed. And it wasn't
+  the only artifact creature with this rider. As I explained in parts 1
+  and 2, black and red had a sacrifice theme that was a little stronger
+  in the design handoff. The biggest problem with the rider was the
+  phrase "When CARDNAME is sacrificed" led many players to believe that
+  they were allowed to sacrifice it whenever they wanted. The
+  development team decided that having a death trigger was cleaner and
+  still would be slightly better in a deck capable of sacrificing its
+  artifacts.
+
+So Mark Rosewater considers sacrifice triggers of that kind bad design. Not that it couldn't work, just that the benefit of putting them into a set is not worth the complexity. Triggering when a card goes to the graveyard is just close enough in most cases that the sacrifice effect is not worth the potential confusion.
+

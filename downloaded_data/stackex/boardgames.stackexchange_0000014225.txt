@@ -1,0 +1,13 @@
+Q:
+
+Can an untapped creature "become untapped?"
+
+If an untapped creature is targeted with an "untap target creature" spell or ability, will it be considered becoming untapped?
+
+A:
+
+No. There must be a transition. As per the English definition, "to become untapped" is "to begin to be untapped".
+In fact, the ability you mentioned won't even try to untap it. It's impossible untap a permanent that's already untapped. That's why you can't activate an ability with the untap symbol ({Q}) in its cost if the source of the ability is already untapped.
+Similarly, it's impossible to tap a permanent that's already tapped. That's why you can't activate an ability with the tap symbol ({T}) in its cost if the source of the ability is already tapped.
+This wouldn't stop you from casting a spell that would try to do these impossible actions. The spell will simply do as much as possible, and skip over the impossible instruction. e.g. Gerrad's Command on an untapped creature would effectively become "Target creature gets +3/+3 until end of turn.", and Crippling Chill on tapped creature would effectively become "Target creature doesn't untap during its controller's next untap step."
+

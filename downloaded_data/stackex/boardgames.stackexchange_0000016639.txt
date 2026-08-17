@@ -1,0 +1,22 @@
+Q:
+
+Are "permanently" gained abilities copiable?
+
+So I haven't been quite able to comprehend how copy effects interact with stuff not printed on the card itself.
+What happens when a creature that was revived with Fated Return is then copied by, say, Artisan of Forms? Specifically, does the creature Artisan of Forms becomes have indestructible?
+
+A:
+
+Artisan of Forms will not be indestructible.
+When you copy a card, you always copy only exactly the printed values of the card you're copying, ignoring everything that's happened to modify it, including the fact that Fated Return gave that creature indestructible. The exception is when you're copying, say, a Clone that's copying something else - in that case, you become a copy of that too.
+There's an example that makes the quirks of this very clear: you can have Artisan of Forms target a Mutavault whilst it's in its creature state, and Artisan of Forms will become a land (not a creature).
+As much appears in the rulings on the Gatherer page of Artisan of Forms herself:
+
+Artisan of Forms copies the printed values of the creature plus any copy effects that have been applied to it. It won’t copy any other effects that have changed that creature’s power, toughness, color, and so on. Artisan of Forms won’t copy any counters on the creature, but Artisan of Forms will retain any counters it already had on it.
+
+If another creature becomes a copy of Artisan of Forms, it will become a copy of whatever Artisan of Forms is currently copying (if anything), plus it will have the triggered ability.
+
+These are derived from rule 706.2 on Copying Objects:
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by “as . . . enters the battlefield” and "as . . . is turned face up" abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

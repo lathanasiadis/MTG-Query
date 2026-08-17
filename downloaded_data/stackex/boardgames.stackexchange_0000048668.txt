@@ -1,0 +1,19 @@
+Q:
+
+How does the ability on Urza, Lord High Artificer interact with Treasure Nabber?
+
+Does Treasure Nabber grab artifacts tapped with Urza, Lord High Artificer?
+
+A:
+
+It's sort of surprising and counter-intuitive, but Treasure Nabber won't nab artifacts that are tapped for mana with Urza's ability.
+The rules are fairly specific about what counts as “tapped for mana”, and it's more specific than we might intuit:
+
+106.12 To “tap [a permanent] for mana” is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, “Mana Abilities.”
+
+The {T} symbol here is the tap symbol. That is to say, we have to use an ability found on the permanent itself that is similar to the form “{T}: Add some mana.”
+This means when we tap an artifact using Urza's ability, even though we get mana out of it and tapped something, it isn't considered to have been “tapped for mana” by the rules: we didn't use an ability found on the permanent we tapped.
+The rulings on Treasure Nabber also describe this for us:
+
+An artifact is “tapped for mana” when a player activates a mana ability of an artifact that includes {T} (the tap symbol). Notably, tapping an artifact to pay for a spell with the improvise keyword is not tapping that artifact for mana.
+

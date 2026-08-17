@@ -1,0 +1,16 @@
+Q:
+
+Can Wall of Blood and Transcendence be used to gain infinite life?
+
+Just checking to make sure I am correct about this interaction.  
+Transcendence on the field.
+Wall of Blood on the field.
+Life total 19.  
+Pay one life to wall, Transcendence trigger on the stack, pay another life, trigger on the stack, etc. Repeat until down to 0 life. Allow the top 9 triggers to resolve, putting me to 18 life and leaving 10 "gain 2" triggers on the stack. Repeat until infinite transcendence triggers are on the stack. Nature's Claim the Transcendence on the stack, allow all triggers to resolve.
+Am I correct on this interaction? I see no reason why not, but one of my friends is skeptical.
+
+A:
+
+Yes, that should work (with the caveat that you can never gain 'infinite' life, you have to specify an (arbitrarily large) number, how often you are going to repeat the cycle, upfront). It's important to note that you can't pay life you don't have (even with Transcedence on the field) but you've already accounted for that.
+One may expect for a combination of three cards (two of which are rather bad/mediocre on their own) in three different colors to be so powerful. It's a rather risky one as well; if Nature's Claim gets countered, you'll lose the game.
+

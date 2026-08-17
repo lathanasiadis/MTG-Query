@@ -1,0 +1,14 @@
+Q:
+
+How does shuffling work when your library is empty?
+
+Say there are no cards in someone's library. Can they shuffle their graveyard and hand into their library with an effect that instructs them to do so, if there is technically no library to shuffle into?
+
+A:
+
+Yes, you can still shuffle your library like normal even if it is empty. This includes both effects that shuffle your library normally, such as Entomb, and effects that shuffle your graveyard or hand into your library, such as Clear the Mind.
+
+701.19e If an effect causes a player to shuffle a library containing zero or one cards, abilities that trigger when a library is shuffled will still trigger.
+
+So there is no difference between shuffling an empty library or a non-empty library as far as game rules are concerned.
+

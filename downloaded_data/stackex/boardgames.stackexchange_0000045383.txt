@@ -1,0 +1,26 @@
+Q:
+
+Creature spells vs. ability to convert a permanent into a creature
+
+I just wanted some clarification here, but is an ability to convert into a creature (from a land or an artifact) regarded the same as a casting "creature spell" (as an instant I guess) in terms of "color creature spells you cast cost 1 less to cast"?
+Does that makes sense?
+If I wanted to convert a land into a 3/3 creature would an artifact with this ability allow me cast that conversion (as a creature spell) for less mana?
+
+A:
+
+No, you said it yourself: it's an ability, which is different from a spell. If you get a discount on creature spells, it won't affect abilities.
+
+Spells
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, "Casting Spells"), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner's hand. (See rule 405, "Stack.")
+
+Abilities
+
+112.1a An ability can be a characteristic an object has that lets it affect the game. An object's abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that grant abilities usually use the words "has," "have," "gains," or "gain.") Abilities generate effects. (See rule 609, "Effects.")
+...
+112.1c An ability can be an activated or triggered ability on the stack. This kind of ability is an object. (See section 6, "Spells, Abilities, and Effects.")
+
+Activating Activated Abilities
+
+602.1. Activated abilities have a cost and an effect. They are written as "[Cost]: [Effect.] [Activation instructions (if any).]"
+

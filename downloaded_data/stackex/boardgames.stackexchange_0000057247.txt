@@ -1,0 +1,22 @@
+Q:
+
+What do we do when we accidentally block an "unblockable" creature?
+
+While playing a game of Commander, I attacked with Ainok Bond-Kin and activated the ability of Rogue's Passage
+
+{4}, {T}: Target creature can't be blocked this turn
+
+targeting Ainok before the Declare Blockers step. Everyone at the table forgot that Ainok could not be blocked and the player it was attacking blocked it with two creatures.
+After proceeding to the Combat Damage step, we realised our mistake. Should we:
+
+Continue as if the Ainok had not be blocked and assign the damage to the player?
+Continue as if the Ainok had been blocked and assign the damage to the blocking creatures?
+Something else?
+
+A:
+
+Considering how quickly you spotted the mistake, rewinding the game to the start of the Declare Blockers step seems like the best way to proceed.
+Rewinding the game and remaking the blocks in a legal manner would solve all issues and costs little time.
+If so many spells and abilities have been played between declaring blockers and dealing combat damage that the gamestate can't be restored easily, the next best (because least impactful) fix would be to continue with the current blocks. In that case, the only rule being violated would be the unblockable ability.
+Simply treating the creature as unblocked would be the most disruptive. It would essentially take the two blocking creatures out of combat, give the illegally blocked creature trample, and the defending player would take unexpected damage. Also, all the spells and abilities that made the last legal gamestate irrecoverable were also made under the reasoning that the block was legal. Nullifying that block would also nullify at least part of that reasoning, without being able to take back the actual spells and abilities.
+

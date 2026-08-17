@@ -1,0 +1,28 @@
+Q:
+
+If I can cast sorceries at instant speed, can I use sorcery-speed activated abilities at instant speed?
+
+So Teferi, Time Raveler is down, and I have +1'ed him. I may now "cast sorcery spells as though they had flash". My Adorned Pouncer is in the graveyard, and can be Eternalized "only as a sorcery".
+Does this mean I can Eternalize at instant speed? I feel like it shouldn't but would love a rules clarification.
+
+A:
+
+No, Teferi only affects sorcery spells. This is because the phrase “any time you could cast a sorcery” (or “do this only as a sorcery”[see note]) doesn't actually mean any point you are able to cast a sorcery spell, but instead it means whenever it's a main phase of your own turn and the stack is empty:
+
+307.5 If a spell, ability, or effect states that a player can do something only “any time they could cast a sorcery,” it means only that the player must have priority, it must be during the main phase of their turn, and the stack must be empty. [...]
+
+To confirm this we can take a look at the rulings on Hypersonic Dragon which has a similar ability:
+
+You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)
+
+One of its rulings says:
+
+Hypersonic Dragon’s last ability has no effect on abilities that you can activate “any time you could cast a sorcery.” (2017-11-17)
+
+There is no card that generally provides instant timing to abilities that can only be activated “any time you could cast a sorcery”, and such a card will probably never appear.
+There are cards that let you activate specific sorcery-speed abilities at instant speed. Leonin Shikari lets you use Equip abilities with instant timing, Teferi, Temporal Archmage does the same for loyalty abilities. However there is nothing that lets you eternalize at instant speed.
+
+Note: Eternalize says “Eternalize only as a sorcery” in its reminder text. This “do thing only as a sorcery” phrase is a short-hand for “any time you could cast a sorcery” that you may see in reminder text. (You'll see the same short-hand used for Equip abilities such as on Explorer's Scope.) The full text for the Eternalize ability is as follows:
+
+702.128a Eternalize is an activated ability that functions while the card with eternalize is in a graveyard. "Eternalize [cost]" means "[Cost], Exile this card from your graveyard: Create a token that's a copy of this card, except it's black, it's 4/4, it has no mana cost, and it's a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery."
+

@@ -1,0 +1,35 @@
+Q:
+
+Can 'whenever' abilities trigger multiple times per turn?
+
+Let's say that I have an Utvara Hellkite and 3 other dragons on the battlefield. Do I get a 6/6 Dragon for every Dragon that's attacking, or just one?
+
+A:
+
+On the card it says you get a 6/6 dragon token whenever a dragon you control attacks.
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and include (and
+  usually begin with) the word “when,” “whenever,” or “at.” Whenever the
+  trigger event occurs, the ability is put on the stack the next time a
+  player would receive priority and stays there until it’s countered, it
+  resolves, or it otherwise leaves the stack. See rule 603, “Handling
+  Triggered Abilities.”
+
+So every time the trigger event occurs. But you can't activate abilities when attackers are being declared.
+
+603.2a Because they aren’t cast or activated, triggered abilities can trigger even when it isn’t legal to cast spells and activate
+  abilities. Effects that preclude abilities from being activated don’t
+  affect them.
+
+There are two types of abilities (that use the stack): activated abilities (which can also be loyalty abilities) and trigger abilities. Trigger abilities can trigger whenever; hence the word whenever/when.
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains
+  multiple occurrences. Example: A permanent has an ability whose
+  trigger condition reads, “Whenever a land is put into a graveyard from
+  the battlefield, . . . .” If someone casts a spell that destroys all
+  lands, the ability will trigger once for each land put into the
+  graveyard during the spell’s resolution.
+
+For every occurrence. Even if no one can react between those occurrences.
+So you get as many dragons as you attack with.
+

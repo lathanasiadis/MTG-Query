@@ -1,0 +1,20 @@
+Q:
+
+Changing targets for a spell with a variable number of targets
+
+My opponent casts Paradoxical Outcome and targets 2 permanents they control.
+I then cast Insidious Will. Now I can just counter Paradoxical Outcome, but instead I want to bounce some of their permanents (for example clearing blockers out of the way). It is clear that I can change the target from 2 permanents to another 2 permanents, but do I need to target the same number of permanents?
+In other words can I choose to return none, one or seven permanents?
+If I had to redirect the same number would I be able to choose the same target twice and as a result only return one?
+Note that this is not a duplicate of "Choosing new targets for a spell with a variable number of targets" as that is specifically for copying spells, not changing the targets of an existing spell.
+
+A:
+
+You cannot change the number of targets. The rules about targets say the following:
+
+114.3. The same target can’t be chosen multiple times for any one instance of the word “target” on a spell or ability. If the spell or ability uses the word “target” in multiple places, the same object, player, or zone can be chosen once for each instance of the word “target” (as long as it fits the targeting criteria). This rule applies both when choosing targets for a spell or ability and when changing targets or choosing new targets for a spell or ability (see rule 114.6).
+114.6. Some effects allow a player to change the target(s) of a spell or ability, and other effects allow a player to choose new targets for a spell or ability.
+
+114.6a If an effect allows a player to “change the target(s)” of a spell or ability, each target can be changed only to another legal target. If a target can’t be changed to another legal target, the original target is unchanged, even if the original target is itself illegal by then. If all the targets aren’t changed to other legal targets, none of them are changed.
+114.6d If an effect allows a player to “choose new targets” for a spell or ability, the player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal and must not cause any unchanged targets to become illegal.
+

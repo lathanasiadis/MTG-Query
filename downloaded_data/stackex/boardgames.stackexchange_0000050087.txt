@@ -1,0 +1,24 @@
+Q:
+
+Leyline of Combustion w/ two Pandemonium triggers
+
+If player A controls two (2) Pandemonium and player B controls Leyline of Combustion, how would this resolve. Player A has a creature enter the battlefield and has it deal damage to player B twice using each Pandemonium trigger. Does player B have Leyline of Combustion deal 0, 2 or 4 damage to player A?
+The main concern is does the creature target the player.
+
+A:
+
+The Leyline deals 2 damage twice, for a total of 4 damage.
+The current oracle text of Pandemonium's ability is:
+
+Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice.
+
+This ability has a target, so it can trigger Leyline of Combustion's ability.
+The exact sequence of events looks like this:
+
+The creature enters the battlefield under player A's control. Each Pandemonium's ability triggers.
+Player A puts one of the Pandemonium triggered abilities on the stack and chooses player B as the target. Player A controls the ability and player B is the target, so player B's Leyline's ability triggers.
+Player A puts the other Pandemonium triggered ability on the stack and makes the same choices. Player B's Leyline's ability triggers again.
+Player B puts each of the Leyline triggered abilities on the stack.
+Each of the Leyline triggered abilities resolves dealing 2 damage to player A, for a total of 4 damage.
+Each of the Pandemonium triggered abilities resolves, making the creature deal damage equal to its power to player B.
+

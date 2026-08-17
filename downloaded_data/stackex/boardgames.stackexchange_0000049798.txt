@@ -1,0 +1,14 @@
+Q:
+
+Multiple copies of planeswalkers
+
+I thought planeswalkers are legendary permanents and thus subject to the legend rule. While playing on Arena my opponent played three copies of Gideon Blackblade from their hand. Does this card become non-legendary during the owner's turn, or is there some other exception that makes this legal?
+
+A:
+
+The simple answer is "no, planeswalkers are always legendary and the legend rule applies". However, that leads to the obvious question of what did happen in your case - given that this was on Arena and therefore Standard (or maybe Historic), by far the most likely explanation is that your opponent played Spark Double:
+
+You may have Spark Double enter the battlefield as a copy of a creature or planeswalker you control [...] it isn't legendary if that permanent is legendary.
+
+(my emphasis). The explicitly stops the legend rule applying, so it is possible to have one actual Gideon Blackblade (which is still legendary) and any number of Spark Double copies (which aren't legendary) on the battlefield at once.
+

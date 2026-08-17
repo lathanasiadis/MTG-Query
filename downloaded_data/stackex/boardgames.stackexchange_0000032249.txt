@@ -1,0 +1,18 @@
+Q:
+
+Killing Avacyn Before She Transforms During Upkeep?
+
+Long question short: Can I kill an un-transformed Archangel Avacyn during the upkeep she's due to flip, before she flips?
+From how I understand it (copied by from a comment from murgatroid99):
+
+A non-Angel creature dies. Archangel Avacyn's triggered ability goes on the stack. 
+Archangel Avacyn's triggered ability resolves, and creates a delayed      triggered ability.
+At the beginning of the next upkeep, the delayed triggered ability goes on the stack.
+
+Could I, for example, cast an instant like Lightning Axe at this point, and deal 5 damage to the currently 4/4 Avacyn? Thus preventing the transformation and the damage that is dealt on the flip?
+Thanks for any help in advanced!
+
+A:
+
+Yep, this works just like you think it does. Avacyn's delayed trigger goes on the stack, you have a chance to respond and kill her. If you do, she can't transform, so the triggered ability does nothing as it resolves.
+

@@ -1,0 +1,19 @@
+Q:
+
+Magic: The Gathering - Why is it possible to activate some cards abilities from graveyard and some others not?
+
+There are some cards, that have activated abilities, that a player can activate when the card is in the graveyard. For example, the ability of Stitchwing Skaab to return it from the graveyard to the battlefield.
+
+However, most of the other card abilities, a player can't activate from the graveyard. For example, Drogskol Cavalry's ability to put a spirit token to the battlefield can not be activated when it's in the graveyard.
+
+So my question is, which rule of the game allowing a player to activate some abilities from the graveyard?
+
+A:
+
+This is Comprehensive Rule 113.6:
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+[ ... ]
+113.6k An ability whose cost or effect specifies that it moves the object it’s on out of a particular zone functions only in that zone, unless its trigger condition or a previous part of its cost or effect specifies that the object is put into that zone or, if the object is an Aura, that the object it enchants leaves the battlefield. The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone
+Example: Reassembling Skeleton says “{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.” A player may activate this ability only if Reassembling Skeleton is in their graveyard.
+

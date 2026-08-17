@@ -1,0 +1,21 @@
+Q:
+
+Why does Renegade Freighter not just have trample?
+
+The artifact vehicle Renegade Freighter has the ability
+
+Whenever Renegade Freighter attacks, it gets +1/+1 and gains trample until end of turn.
+
+Given that trample is only generally relevant when attacking, this should behave basically identically to:
+
+Trample
+Whenever Renegade Freighter attacks, it gets +1/+1 until end of turn.
+
+At first, I thought that maybe this was because it would be strange to have a non-creature have trample, so it only gets trample at a time that it is a creature. But then I saw Fleetwheel Cruiser, which is another vehicle that does always have trample. In fact, Untethered Express is even more similar, in that it does have a when-attack ability, yet it also just always has Trample.
+Renegade Freighter could be seen as slightly weaker as worded, because something like Stifle could prevent it from getting Trample. However, that seems like a small enough thing that it wouldn't be specifically designed around.
+Is it known why this card only gets trample when it attacks? A good answer could either point to any statements about it from the development team, or to information about general templating choices where this is a consistent design choice. Or finally, perhaps there is an important difference between always having trample vs only having trample when attacking that I am missing.
+
+A:
+
+There are some more relevant edge cases where the difference actually matters. Two of the cards that were in standard at the same time as Renegade Freighter were Odric, Lunarch Marshal and Majestic Myriarch. Both of those check for abilities including Trample at the beginning of combat, so in both cases, they can find Trample on Untethered Express, but not on Renegade Freighter.
+

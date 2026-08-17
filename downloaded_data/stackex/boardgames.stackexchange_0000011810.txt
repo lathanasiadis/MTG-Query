@@ -1,0 +1,42 @@
+Q:
+
+When should I activate Man Lands and Keyrunes in order to attack with them?
+
+Some lands and artifacts have abilities which allow them to be animated, and turned into creatures until end of turn. Examples include Inkmoth Nexus, Blinkmoth Nexus, Azorious Keyrune, Treetop Village and several others. These abilities can be activated at any time, and  then those permanents can be used to attack that turn.
+At what point during the turn should abilities that animate non-creatures be activated so that they can attack?
+
+A:
+
+You should activate them at some point before the declare attackers step on a turn after they enter the battlefield (unless they have haste).
+Here's a breakdown of the declare attackers step:
+
+508.1. First, the active player declares attackers.
+508.2. Second, any abilities that triggered on attackers being declared go on the stack.
+508.3. Third, the active player gets priority. Players may cast spells and activate abilities.
+
+Clearly, during the declare attackers step, it is too late to activate the abilities (508.3) in order to make them attackers (508.1). However, you are free to do so during your upkeep, first main phase, and beginning of Combat step and it will be eligible to attack.
+Note that if you cast a keyrune and turn it into a creature, it cannot attack. This is because permanents that are creatures are unable to attack or use activated abilities with the tap symbol in them unless they have been under their owners control continuously since their most recent turn began (302.6).
+It could still be tapped for mana if it is not a creature but as soon as you turn it into a creature it can no longer be tapped to activate abilities the turn it comes into play.
+With regards to shortcuts, according to the
+
+A statement such as "I'm ready for combat" or "Declare attackers?" offers to keep passing priority
+until an opponent has priority in the beginning of combat step. Opponents are assumed to be acting
+then unless they specify otherwise.
+
+In other words, the following exchanges between Aaron the Attacker and Dave the Defender, officiated by Jerry the Judge, have different outcomes
+Scenario 1
+
+Aaron: Attacks? long pause
+Dave: nods head
+Aaron: I activate my keyrune and swing with him for 2.
+Dave: Judge!
+Jerry: Sorry Aaron, because you passed priority with your "Attacks?" comment, your keyrune was activated too late to be an attacker.
+
+Scenario 2
+
+Aaron: Attacks - I activate my keyrune. long pause
+Dave: nods head
+Aaron: I swing with him for 2.
+Dave: I take 2, I'm at 18 life.
+Jerry: I'm going to sip this margarita because I'm not needed here. sips margarita
+

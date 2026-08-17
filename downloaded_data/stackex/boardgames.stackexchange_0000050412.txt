@@ -1,0 +1,17 @@
+Q:
+
+Kaya's ghostform and hanged executioner
+
+So on MTG Arena today, I enchanted my Hanged Executioner with Kaya's Ghostform.  Hanged Executioner reads in part:  "{3}{W}, Exile Hanged Executioner: Exile target creature."
+I activated this ability to exile both HE and one of my opponent's creatures, expecting both to go into exile and then Kaya's Ghostform to return HE to the battlefield.  However, HE remained in exile.  Never saw the poor guy again.  Am I misunderstanding something, or was this an arena mess up?
+
+A:
+
+Yes, Kaya's Ghostform should return Hanged Executioner to the battlefield.
+Kaya's Ghostform's ability says
+
+When enchanted permanent dies or is put into exile, return that card to the battlefield under your control.
+
+Exiling Hanged Executioner to pay the cost to activate its ability puts it into exile, which triggers Kaya's Ghostform's ability and should put the Hanged Executioner back on the battlefield.
+If Arena did not do that, that is an error on Arena's part. I suggest that you make the developers aware of this bug by following the instructions on this page.
+

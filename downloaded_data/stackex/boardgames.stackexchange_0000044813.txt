@@ -1,0 +1,14 @@
+Q:
+
+Metamorphic Alteration: Copying a creature that dies
+
+If you play Metamorphic Alteration copying a creature and the original creature dies, does they copy created by MA remain?
+For example, if I play MA on a 1/1 copying a 4/4, and the original 4/4 dies, does the copy made with MA remain?
+
+A:
+
+Yes. Metamorphic Alteration's copy effect only looks at the the creature once, as MA enters the battlefield. Nothing that happens to the creature being copied has any effect on the enchanted creature.
+This is confirmed by a ruling on Metamorphic Alteration:
+
+The characteristics that will be copied are determined as Metamorphic Alteration’s effect first begins to apply. If the copiable values of the chosen creature change later, or if that creature leaves the battlefield, the enchanted creature’s characteristics are unaffected.
+

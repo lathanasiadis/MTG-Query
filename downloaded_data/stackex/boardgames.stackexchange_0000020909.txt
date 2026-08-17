@@ -1,0 +1,26 @@
+Q:
+
+Can a tapped creature attack or block?
+
+If I tap a creature to use its activated ability before combat, can I use the same creature to block or attack on the same turn?
+My guess: you cannot block and/or attack with a tapped creature on the same turn.
+
+A:
+
+According to the rules, tapped creatures cannot attack or block:
+
+508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, and each one must either have haste or have been controlled by the active player continuously since the turn began.
+509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped.
+
+Note, however, that the untapped state is only checked when they are assigned to attack or block.  This means:
+
+If you tap the creature before combat and have a way to untap the creature again before combat (such as Thousand-Year Elixir), it will be able to attack or block.  Look at Relentless Assault as an example of a card that depends on this to work.
+
+If you tap your opponent's creature before combat (such as with Trip Noose), that creature will be unable to attack unless they have some means to untap it.
+
+If a creature has been assigned as an attacker or blocker and subsequently becomes tapped, it will still be in combat (so you can block with Orim, Samite Healer and then tap it to use it's ability after you have blocked and it will still be a blocking creature).  This is consistent with the fact that creatures normally tap when attacking.
+
+Because creatures normally tap when attacking, you cannot both attack with a creature on your turn and block with it on your opponent's turn (exceptions: if the creature has vigilance or you have a way to untap it).
+
+Also of note: Masako the Humorless.
+

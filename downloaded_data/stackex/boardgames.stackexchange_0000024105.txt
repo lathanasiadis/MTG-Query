@@ -1,0 +1,24 @@
+Q:
+
+Do I "control" creatures in my graveyard?
+
+Cloudshift has 
+
+Exile target creature you control, then return that card to the battlefield under your control.
+
+Are creatures already in my graveyard still under my control? Can I return one of them to the battlefield?
+(No, I don't think that one answers my question. It's not "permanent", but "creature you control")
+
+A:
+
+Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn't include the word "card," "spell," "source," or "scheme," it means a permanent of that card type or subtype on the battlefield.
+
+In its targetting clause, Cloudshift says "creature" without any of the specified words, so it's referring to a creature permanent on the battlefield.
+In general, you don't control anything in the graveyard. Rule 109.4 says
+
+Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren't controlled by any player.
+
+Effects that deal with cards in the graveyard would refer to their owner.
+

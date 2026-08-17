@@ -1,0 +1,28 @@
+Q:
+
+Does Tail Swipe trigger Legolas, Master Archer?
+
+Tail Swipe says "choose target creature". Usually when there is a choice it goes around hexproof and does not target. Does Tail Swipe target creatures and trigger Legolas, Master Archer? Why is it phrased like that?
+
+A:
+
+Tail Swipe targets two creatures, one controlled by you, the other controlled by an opponent.
+
+Choose target creature you control and target creature you don't control. If you cast this spell during your main phase, the creature you control gets +1/+1 until end of turn. Then those creatures fight each other.
+
+Why does it say "choose"? More of an English phrasing reason than a rules reason, in my opinion. Here's my (bad) attempt at wording this card without it:
+
+?? Target creature you control gets +1/+1 if you cast this spell during your main phase then fights target creature you don't control ??
+
+That intervening "if" clause makes the whole thing very confusing.
+"Choosing" each target first and then describing what happens with each makes much more sense. Key here is that the +1/+1 (if applicable) needs to happen before the creatures fight, so you can't invert the order without changing how the card works.
+"Choosing" the targets doesn't mean they aren't targeted; if your opponent's creature has hexproof or shroud, you won't be able to target it. If your own creature has shroud, you won't be able to target it. The second reference to "the creature you control" is talking about the already-targeted creature; that won't get around shroud.
+If you control Legolas, Master Archer and target him with Tail Swipe, both of Legolas' abilities will trigger:
+
+Reach
+Whenever you cast a spell that targets Legolas, Master Archer, put a +1/+1 counter on Legolas.
+Whenever you cast a spell that targets a creature you don't control, Legolas deals damage equal to its power to up to one target creature.
+
+You can choose to let the +1/+1 counter resolve before the "bite" ability.
+Both of Legolas' abilities will resolve before Tail Swipe. You can also choose a different creature to get the "bite" effect than the one you fight with the Tail Swipe.
+

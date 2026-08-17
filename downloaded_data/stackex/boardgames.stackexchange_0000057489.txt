@@ -1,0 +1,20 @@
+Q:
+
+Can Augusta, Dean of Order's abilities be used twice if I have two in play?
+
+Let's say I have two Augusta, Dean of Order and one Oreskos Sun Guide in play. One Augusta would allow Oreskos's Inspired ability
+
+Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.
+
+to trigger by attacking and untapping and I would gain two life. Would I be able to do this twice with two Augustas?
+
+A:
+
+Yes, that would work. The specific sequence here would be (assuming neither you nor your opponent(s) interrupt at all):
+
+You attack, and this causes the triggered ability of each Augusta to trigger. As the controller of the abilities, you choose the order in which they are placed on the stack (although it really doesn't matter here)
+The top item on the stack (the trigger placed on the stack last) resolves, you untap all your creatures and then choose to tap Oreskos, gaining two life.
+The new top item (the trigger placed on the stack first) resolves, you again untap all your creatures and choose to tap Oreskos, again gaining two life.
+
+[ This answer assumes you have found some way to make at least one of the Augustas non-legendary; plenty exist ]
+

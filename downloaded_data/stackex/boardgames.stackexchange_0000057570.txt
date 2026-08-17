@@ -1,0 +1,29 @@
+Q:
+
+What happens to a permanent stolen with 'Invoke the Winds' after the thief leaves the game?
+
+Player A steals a permanent from player B, via an effect like Invoke the Winds.
+Player A leaves the game.
+What happens to the stolen permanent? Does it leave the game as well, and goes in exile of its owner? Or does it go back to the battlefield under its owner's control? Or something else?
+
+Related:
+What happens to a permanent I gained control over using Agent of Treachery, and I leave a multiplayer game?
+In this example the card mentions
+
+"Agent of Treachery’s effect lasts indefinitely. It doesn’t wear off during the cleanup step, and it doesn’t expire if Agent of Treachery leaves the battlefield. In a multiplayer game, it does expire if you leave the game."
+
+But Invoke the Winds doesn't share that ruling.
+
+A:
+
+Control of the permanent goes back to player B.
+What I can see in the offical rules is 800.4a, which handles a player leaving a multiplayer game. Effects that have given them control of something they don't own immediately end.
+
+800.4a When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time they left, priority passes to the next player in turn order who’s still in the game.
+
+Notably, it gives us this example:
+
+Example: Alex casts Act of Treason, which reads, in part, “Gain control of target creature until end of turn,” targeting Bianca’s Runeclaw Bears. If Alex leaves the game, Act of Treason’s change-of-control effect ends and Runeclaw Bears reverts to Bianca’s control.
+
+That sounds the most like the example with Invoke the Winds.
+

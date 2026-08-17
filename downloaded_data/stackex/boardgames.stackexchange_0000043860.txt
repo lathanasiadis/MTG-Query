@@ -1,0 +1,18 @@
+Q:
+
+Can a creature with Hexproof be affected by a spell like Sleep?
+
+Let's suppose I have Emrakul, the Promised End in play, equipped with Swiftfoot Boots.  My opponent plays Sleep.  Does Emrakul, the Promised End get tapped or does Hexproof prevent that?
+
+A:
+
+Yes, Emrakul will be tapped.
+Hexproof prevents a creature from being targeted by an opponent.  Targeting is a very specific action in Magic, and only happens in three cases:
+
+A spell or ability has the word "target" in its text.
+A keyword ability defined in terms of an ability that has the word "target" in its text. (e.g. Equip) 
+You are casting an Aura Enchantment.
+
+In either of those cases, you cannot choose your opponent's hexproof creature as the target.  But any effect that does not target will affect the hexproof creature just like it would any other creature.
+Sleep does not target a creature, only a player, so it will affect Emrakul.
+

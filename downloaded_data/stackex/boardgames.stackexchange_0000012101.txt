@@ -1,0 +1,22 @@
+Q:
+
+If a sorcery card gives -X/-X to a 1/1 creature till end of turn does the creature die?
+
+I use Urge to Feed (-3/-3 until end of turn) against a 1/1 creature, does that creature die?
+If I use Zealous Persecution in a multiple player game, would it destroy all 1/1 creatures on the battlefield except mine?
+If I use Dead Weight to enchant a 1/1 creature, would it destroy that creature?
+
+I am confused with the first 2 because it says "Until end of turn", so would the 1/1 creature go back to normal after my turn?
+For the 3rd one, if it does destroy the creature then would the creature come back to life if the enchant is destroyed?
+
+A:
+
+The creatures die in all of those cases. If a creature's toughness is reduced to zero (or less), it is immediately put into the graveyard. It doesn't matter if at the end of the turn its toughness would become positive again; it died long before then. There's no coming back from the dead (not without playing a card like Unburial Rites, anyway). In the third case, when the creature dies, since Dead Weight no longer has a creature to enchant, it also immediately goes to the graveyard.
+If you care about details of the rules, this is an example of a state-based action. Here's the actual rule:
+
+704.5f If a creature has toughness 0 or less, it's put into its owner's graveyard. ...
+
+State-based actions happen automatically*; others you already know include creatures dying when they've taken lethal damage or you dying when your life is zero. Another state-based action: auras being put into the graveyard when the creature they enchanted dies (like I mentioned with Dead Weight).
+One more general thing you should learn here: when an object changes zones, like a creature being moved from the battlefield to the graveyard, it doesn't "remember" anything about where it came from. The creature card in your graveyard doesn't know it used to be a creature on the battlefield, that its toughness was reduced, and so on. It's just in the graveyard, and it stays there. (If you're curious, this is comp rule 400.7. - it does have a few specific exceptions, mostly things that you'd expect are necessary to make cards work.)
+* State-based actions don't technically happen immediately; they happen whenever a player would get priority. This distinction doesn't usually matter, though - pretty much, it means the creature dies when the spell or ability finishes resolving, not halfway through, which doesn't usually make a difference.
+

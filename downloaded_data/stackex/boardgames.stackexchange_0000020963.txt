@@ -1,0 +1,30 @@
+Q:
+
+Behavior of Linked Abilities if their Source Object Changes Zones
+
+I have Karn Liberated with 20 loyalty counters.  I have exiled an Emrakul, the Aeons Torn with Karn.  I activate Karn's -14 ability:
+
+−14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.
+
+In response, my opponent casts Beast Within targeting Karn to destroy him.
+When the game is restarted, do I have Emrakul?
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Since cards stop tracking other cards when they change zones, does Karn's ability use the cards that were tracked by Karn when the ability was activated or when the ability resolves?  If it is the later, then presumably the same thing happens when Karn's ability is activated when he has exactly 14 loyalty counters and is destroyed as a result of the activation.
+What if Karn is targeted with Flicker instead?
+
+A:
+
+[Karn] is destroyed as a result of the activation.
+
+It doesn't matter if Karn is destroyed. Once activated, an ability exists independently of its source.
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. [...]
+
+Cards stop tracking other cards when they change zones.
+
+Cards never track cards; only effects and abilities can "track" cards, and only under specific circumstances. This is one of those circumstances specifically allowed by the rules.
+607.2a If an object has an activated ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+If it couldn't do this, the ability would never work. There is no rule that says "If the source changes zones, linked abilities suddenly stop working."
+So we've established that the ability doesn't disappear, and that it can act on the cards that were exiled by (now destroyed) Karn. As you can see, there's no mention of checking if Karn still exists. There's no rule causing the cards to forget they were exiled by Karn either. All that matters is that Emrakul was exiled by the source of the ability. Therefore, in all of the situations described, you get an Emrakul.
+

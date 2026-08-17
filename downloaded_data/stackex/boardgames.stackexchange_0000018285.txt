@@ -1,0 +1,20 @@
+Q:
+
+Will Eidolon of Rhetoric also prevent Cipher from working in the same turn as another spell?
+
+Say Eidolon of Rhetoric is on the battlefield and an opponent has a Cipher card (Hidden Strings for example) encoded on one of their creatures. If that player casts a spell and then deals damage with that creature in the same turn, would they be able to cast Hidden strings? Would it work because the Ciphered card turns additional casts into an ability or would it not work because the cipher ability says "cast"?
+
+A:
+
+They cannot cast the ciphered spell because they've already cast a spell. Rule 101.2 says
+
+When a rule or effect allows or directs something to happen, and another effect states that it can't happen, the "can't" effect takes precedence.
+
+The cipher ability allows the player to cast a spell, and Eidolon of Rhetoric says that they can't cast any spells after their first each turn. So, Eidolon prevents them from casting the spell.
+
+From the Cipher rules, as long as the card is encoded on a creature, that creature has an ability that says
+
+Whenever this creature deals combat damage to a player, you may copy this card and you may cast the copy without paying its mana cost.
+
+So, when the creature deals damage to a player, the player can make a copy of the spell, and then they can cast the spell just like they would cast any other spell except that when they pay the cost, they don't have to pay the mana cost. This spell is affected by Eidolon of Rhetoric, just like any other spell
+

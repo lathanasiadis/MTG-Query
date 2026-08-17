@@ -1,0 +1,17 @@
+Q:
+
+Can I give a creature trample after blockers have been assigned?
+
+I declare my attack with a 3/3 creature & then my opponent assigns a 1/1 creature to block.
+Am I allowed to use the ability of an Elvish Herder (1 Green Mana - Target creature gains trample until end of turn) on my original 3/3 creature to make sure that, in addition to his creature dying, he receives 2 damage to himself as well?
+Or would that give my opponent the chance to go back and assign a secondary blocker?
+
+A:
+
+Yes, you can. If you look through the comprehensive rules on the details of the combat phase, you'll find that after blocks are declared, the active player (in this case the attacker) gets priority:
+
+509.4. Fourth, the active player gets priority. (See rule 116, “Timing and Priority.”)
+
+You can activate your trample ability now. If you activate it doesn't mean you rewind to the phase where you redeclare blockers (509.1, "First, the defending player declares blockers ..."). You simply move on to the next phase of combat damage.
+If opponent died because he didn't declare enough blockers, then he's been outplayed.
+

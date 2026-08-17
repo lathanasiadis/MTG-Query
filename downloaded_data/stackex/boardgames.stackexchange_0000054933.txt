@@ -1,0 +1,17 @@
+Q:
+
+Emerge cost reduction interaction
+
+If I were to sacrifice Warden of Evos Isle as part of the Emerge cost of Wretched Gryff, would its cost be 1U?
+
+A:
+
+Yes, it would cost 1U.
+First, when casting a spell, you choose modes and cost.  In this case, it's the alternative cost by casting it with Emerge (5U).  But, since it's a spell with flying, that cost is reduced by {1} down to 4U.
+Then, you pay the costs of the spell. The cost is set at 4U, so by sacrificing the Warden, you're left with 1U remaining to be paid.
+The rules actually have an example in 601.2h:
+
+Example: You cast Altar’s Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell’s total cost is “locked in” before payments are actually made, you pay {B}, not {1}{B}, even though you’re sacrificing the Familiar.
+
+This answer to a different question shows how you can set costs before actually paying.
+

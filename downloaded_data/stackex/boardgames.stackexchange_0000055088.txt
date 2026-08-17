@@ -1,0 +1,14 @@
+Q:
+
+Can I activate loyalty abilities of a planeswalker once per turn or once per upkeep?
+
+For example if I have Sphinx of the Second Sun out, giving me two untap upkeep and draw steps. Could I use a Planeswalker's ability on my first main phase, then again on my second main phase due to the second upkeep?
+
+A:
+
+You can activate planeswalker abilities once per turn; the extra beginning phase granted by Sphinx of the Second Sun is part of your current turn and does not allow you to activate your planeswalkers again.
+First of all, Sphinx of the Second Sun does not grant you extra main phases. After the extra beginning phase, the game will proceed to the ending phase.
+Second, that extra beginning phase is part of your current turn. A player's turn begins with their first phase, and ends when all their phases have completed, no matter how many. Planeswalkers can be activated only once per turn:
+
+606.3. A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn.
+

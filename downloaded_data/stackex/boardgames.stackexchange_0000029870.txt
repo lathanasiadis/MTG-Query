@@ -1,0 +1,21 @@
+Q:
+
+Karlov of the Ghost Council and Extort
+
+Will Karlov of the Ghost Council gain its counters if I use extort right after playing it?
+E.g.: I play him, then I use extort because I played him, will it gain its counters?
+
+A:
+
+No, Karlov will not gain counters.
+Extort will resolve before Karlov. When you gain life from Extort, Karlov will not be on the battlefield yet, and his ability only works while on the battlefield.
+
+702.100a Extort is a triggered ability. “Extort” means “Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain life equal to the total life lost this way.”
+
+The order of play is:
+
+You cast Karlov, it goes on the stack.
+Because of the completed cast of Karlov, Extort triggers. It goes on the stack on top of Karlov.
+Extort resolves first because it is the top-most item on the stack. You decide to pay the costs, and you gain life.
+Karlov resolves and enters the battlefield. His triggered ability starts listening for life-gain events.
+

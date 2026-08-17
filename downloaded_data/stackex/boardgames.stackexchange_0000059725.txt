@@ -1,0 +1,19 @@
+Q:
+
+Copying Éomer, Marshal of Rohan trigger on the stack
+
+I somehow managed to trigger Éomer, Marshal of Rohan's ability and copied it 10x on the stack. Do I get 10 combat phases? Does the triggers resolve one after another or does it empty the stack when the next combat phase begins?
+
+A:
+
+Yes, you get as many extra attack phases as you had copies of Eomer's ability. However, most creatures won't be able to attack more than twice, so the benefit is likely limited.
+Eomer's ability doesn't trigger more than once per turn, but that does not prevent copying it. If you get a total of 10 instances of the ability, you will indeed get 10 extra combat phases.
+
+500.8. Some effects can add phases to a turn. They do this by adding the phases directly after the specified phase. If multiple extra phases are created after the same phase, the most recently created phase will occur first.
+
+However, you will not get to untap your creatures before each of those combat phases. All copies of the ability resolve in the same step, untapping your creatures over and over before the turn advances. The game can only advance to the next step/phase when the stack is empty and all players pass in succession.
+
+117.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+Only creatures with vigilance or creatures you manage to untap another way will be able to attack more than twice during that turn. The only potential benefit of those untaps is to tap them to pay for spells and activated abilities between the resolutions.
+

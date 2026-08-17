@@ -1,0 +1,37 @@
+Q:
+
+When and where do Theros Gods become creatures or stop being creatures?
+
+Let's take Thassa, God of the Sea as my god. When does it count as a creature?
+
+Is it a creature spell?
+
+If I cast Thassa and my oponent has Kambal, Consul of Allocation, does it trigger Kambal ability?
+Can Essence Scatter counter Thassa?
+
+Is it a creature when it enters/leaves the battlefield?
+
+If I cast Thassa and my oponent has Authority of the Consuls, does it trigger?
+
+Is it a creature card (in my library / hand / graveyard)?
+
+Can I put Thassa into play discarding it with Æther Rift
+
+A:
+
+The devotion ability on the Theros gods are Static Abilities, covered by rule 604.2.
+[emphasis mine]
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+
+Static abilities, like the one on the Theros gods, only function while on the battlefield unless otherwise stated as part of the ability, they define costs or special ways to counter the spell on the stack, they are characteristic defining, or the object type only exists in zones other than the battlefield (command zone usually, like emblems).
+Of these special conditions, the only one close for the theros gods creature type is Characteristic Defining. The test for characteristic defining is laid out in rule 604.3a. The Theros gods fail that due to condition 5 of that rule, as devotion is a condition.
+
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: [...] (5) it does not set the values of such characteristics only if certain conditions are met.
+
+As for your specific questions:
+
+Yes your (Theros) gods are creatures on the stack, so Kambal will see her as a creature, and she can be countered as a creature.
+Only if you meet devotion, as she enters the battlefield, devotion is checked, if you have less than 4 other blue mana symbols, Thassa will enter as a non creature. Both or neither effects of Authority of the Consuls will depend on devotion.
+Yes your gods are creatures in all zones other than the battlefield at all times, so Æther Rift will work.
+

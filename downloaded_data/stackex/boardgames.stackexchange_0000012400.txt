@@ -1,0 +1,31 @@
+Q:
+
+Is there a card that protects me from a (self-)milling death?
+
+Is there a card with the ability: You do not lose the game being for unable to draw a card?
+I've found one so far; Mine, Mine, Mine! but it applies to all players.
+A little back story; I have Reliquary Tower that has the ability; You have no maximum hand size. I also have several cards that allow me to get an abundance of card draws: for instance I have Dragon Appeasement, if these two are paired in my devour deck I can get a wealth of cards, enabling me to play out Thromok the Insatiable all the sooner.
+This would of course mill me out pretty quickly, so I was hoping for a card that does for me in prevention of loss by having no library what Phyrexian Unlife does for having 0 life.
+I'm hoping there's a keyword I didn't think of, and that someone has a card in mind for this.
+
+A:
+
+Win the game
+Cards which change "draw from an empty library" into a win condition:
+
+Laboratory Maniac is the most famous card to do this.
+Jace, Wielder of Mysteries has a static effect to do the same.
+Thassa's Oracle has an enters the battlefield trigger which causes you to win if the number of cards in your library is less than your devotion to blue.
+
+Shuffle your graveyard into your library
+Some cards can cause you to shuffle your graveyard into your library, including Emrakul, the Aeons torn (among other mythic eldrazi cards). Elixir of Immortality will do the same, cheaper for a gain of 5 life. Other similar cards exist, including Finale of Revelation.  Gaea's Blessing is notable for shuffling your graveyard into your library specifically if it itself is milled.
+Don't draw a card
+Blue Sun's Zenith You can read this as "UUU: don't draw a card", and add the card to your library, so you can draw it next turn and repeat.
+Don't lose the game
+Various cards include a "you can't lose the game" effect, such as Platinum Angel and Angel Grace.
+Miscellaneous
+
+There is also the slightly convoluted combo of Consecrated Sphinx, Notion Thief which you then Donate to your opponent before doing anything to cause you to draw a card outside of your draw step. The draw will be redirected to your opponent, which will trigger the sphinx, which will allow you to redirect 2 more draws and repeat the process to mill your opponent out to defeat. Probably not as good as Lab maniac, but worth remembering.
+Nexus of Fate has a replacement effect which causes it to go to your library rather than your graveyard, so you never deck yourself if you can cast it every turn (unless something else causes you to draw). As Nexus of Fate gives you an extra turn, this is a win con if you have some way of damaging the opponent on every turn.
+Murderous Rider goes to the bottom of your library when it dies so you can play a similar trick with this if you can draw it and kill it every turn.
+

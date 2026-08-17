@@ -1,0 +1,20 @@
+Q:
+
+Magic the gathering, ixalan standard, bristling hydra
+
+I have a Bristling Hydra on the battlefield, which states I can pay 3 energy and give him a +1/+1 counter and give him hexproof. My opponent has an Ahn-Crop Crasher, which states he may exert him and target creature can't block this turn. 
+My opponent exerts Ahn-crop crasher and targets my Bristling Hydra. In response, I pay 3 energy and give him hexproof. In response, my opponent played Lightning Strike, dealing 3 damage to my Hydra.
+Wouldn't me activating the trigger ability of the Hydra on the Crasher still give him hexproof? I was told otherwise from the judge and my Hydra was destroyed. Was this a legal move?
+
+A:
+
+Your opponent can do this.
+After he exerted Ahn-Crop Crasher, the triggered ability went on the stack. Then, you activated Bristling Hydra's activated ability in response, which went on the stack above the triggered ability. Then, your opponent cast Lightning Strike, which went on the stack above your activated ability.
+At that point, the stack looks like this (from top to bottom):
+
+Lightning Strike
+Bristling Hydra's activated ability
+Ahn-Crop Crasher's triggered ability
+
+If no one else does anything, the stack will begin to resolve, starting from the top. So Lightning Strike will resolve. At this point, your Hydra's activated ability has not yet resolve, so the Hydra wouldn't have hexproof yet.
+

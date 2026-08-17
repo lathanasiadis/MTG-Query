@@ -1,0 +1,41 @@
+Q:
+
+Can you cast a creature with Bestow while you control a Steel Golem?
+
+You control a Steel Golem, which says "you can't cast creature spells". Can you pay the Bestow cost on, say, a Hopeful Eidolon, and cast it as an aura enchanting the Steel Golem?
+My reading of the rules is that you can't: Paying the bestow cost doesn't make the card into a (non-creature) Aura until after it's on the stack, and Steel Golem's restriction doesn't let you put a creature spell on the stack.
+In general the ordering of steps in casting a spell is:
+
+Choose a spell to play and place it on the stack.
+Choose modes and targets.
+Choose which costs to pay and pay them.
+
+When applied to a Bestow spell, these become:
+
+Place the bestow creature on the stack.
+(No modes or targets to choose yet, since it's a creature spell).
+Choose to pay the bestow cost.
+The spell stops being a creature and becomes an Aura (702.102a).
+The spell's controller chooses a target (702.102b).
+
+But if "you can't cast creature spells", then you can't complete step 1, since your Hopeful Eidolon is still a creature. And (per 601.2) "If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal".
+(The converse situation seems to arise with Aurelia's Fury, where a Bestow card is playable because it's not a non-creature card until after the Bestow cost is payed.)
+Does this sound correct or am I missing something?
+
+A:
+
+Under the current rules, you can bestow despite "you can't cast creature spells."
+The rules changed in the Magic Origins rules update to tweak the spell casting procedure and also to address the bestow interaction explicitly.
+Matt Tabak (then the rules manager) writes:
+
+I made some tweaks to the procedure of casting a spell or activating an ability. It basically boils down to the proposal of the spell, including making all necessary choices such as modes and targets. Then the game checks to see if what you've proposed is legal. Finally, assuming the spell is legal, you calculate and pay costs. In practice, not much is changing. Bestow gets a little easier to figure out. For example, if an effect stops you from casting creature spells, you can still cast one as an Aura. There are some strange cases with things like split cards or flash that become a bit clearer as well.
+
+(emphasis mine) and
+
+We've deleted [rule 601.5] that says you can't begin to cast a spell that's prohibited from being cast. The legality check now happens at one defined point, according to the changes to rule 601.2. [...]
+
+The updated rules now include 702.102c which explicitly addresses this interaction:
+
+702.102c. The check for whether a spell can legally be cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e.
+Example: Aether Storm is an enchantment with the ability "Creature spells can’t be cast." This effect doesn't stop a creature card with bestow from being cast for its bestow cost because the spell is an Aura enchantment spell, not an enchantment creature spell, when the game checks whether the spell is illegal.
+

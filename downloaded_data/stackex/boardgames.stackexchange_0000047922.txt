@@ -1,0 +1,46 @@
+Q:
+
+Can I survive every enchantment, creature, and artifact in the game entering the battlefield at the same time?
+
+This question is inspired by Frank Karsten's (pretty ridiculous) article What If Every Enchantment in Magic Entered the Battlefield at the Same Time? His conclusion at the end of the article, where he went even further and considered all creatures, artifacts, and enchantments entering the battlefield at the same time, was:
+
+If Magic Online’s implementation is correct and I’m not forgetting anything, then Enchanted Evening would turn everything permanent (including any cards that might save me) into enchantments, which become creatures with no abilities due to Opalescence/Humility. So the main conclusion from the enchantment section extends to all permanents:
+You'd die to Lich, and nothing could save you.
+
+Lich sets your life total to zero when it enters the battlefield, and since none of the other permanents have abilities, you're toast.
+Or are you? The comments to that article (and this question) suggest a few ways to get past this:
+
+Curse of Death's Hold kills everything, including Lich (because they're all 1/1 creatures) before you die. So you live.
+Phyrexian Unlife, Transcendence or Lich's Mastery keep you alive.
+Play Gideon of the Trials and get an emblem. This emblem says "As long as you control a Gideon planeswalker, you can't lose the game and your opponents can't win the game." This hinges on whether Gideon, with all the other permanents in play, still qualifies as a Gideon planeswalker.
+Play Kiora, Master of the Depths and get an emblem. Kiora's -8 ability says "You get an emblem with "Whenever a creature enters the battlefield under your control, you may have it fight target creature." Then create three 8/8 blue Octopus creature tokens." The plan now is to get the Octopus tokens to fight Humility and Opalescence (which are now creatures), kill them, and restore the abilities to all the other permanents that might keep you alive.
+Get Imprisoned in the Moon to enchant Lich, removing all its abilities and keeping it from killing you.
+Illusions of Grandeur gains you 20 life after it enters the battlefield, putting your life total above 0 again.
+
+At this point the rules questions are well past my head, so I'm asking this here: of all these methods to survive Lich, which (if any) work?
+If the exact order of things matter, we assume that I have 4 Plains in play and one each of every enchantment ever printed in the graveyard, then cast Replenish. In the case of Gideon/Kiora, we assume they are already in play and have created an emblem.
+
+A:
+
+The key here is that Lich's ability is an "enters the battlefield" replacement effect. It modifies your life total before anything is actually on the battlefield. Then you lose the game the next time state-based actions are checked after everything enters the battlefield. Trying to do anything after that point won't save you. This is covered by rule 614.1d and 614.12:
+
+614.1d Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+Because none of the effects created by the other enchantments already exist while they are entering the battlefield, none of them can modify or stop this ability on Lich.
+Looking at the specific options:
+
+Curse of Death's Hold will kill all of your permanents because Opalescence only affects non-Aura Enchantments. But this won't help because all of those permanents will die as state-based actions are checked, at the same time you lose.
+
+Phyrexian Unlife, Transcendence, and Lich's Mastery will all be affected by the Opalescence/Humility combo mentioned in the quoted section, so they will not have any of the abilities that would keep you from losing.
+
+Using Gideon to save yourself would work here, but it requires modifying the initial problem. I would argue it's not a valid solution to the question posed in that article. Gideon will be affected by Opalescence/Humility, but I can't think of any enchantment that would remove its Planeswalker type, so it will still be Gideon and the emblem's ability will still save you.
+
+Kiora would be another modification to the initial problem, and it won't help you anyway. If the plan is to activate Kiora's ability after everything enters, you would already be dead and it wouldn't have any abilities anyway. If the plan is to instead activate the ability before everything enters, then after everything enters the emblem's triggered ability wouldn't even have a chance to be put on the stack before you lose.
+
+There are two problems with Imprisoned in the Moon here. First, an Aura cannot enter the battlefield attached to a permanent that's also entering the battlefield at the same time. So you can't even attach it to any of the enchantments when it enters. Second, even if you could attach it to Lich, that would only happen after you lose all of your life. It is already too late to save you at that point.
+If you could attach Imprisoned in the Moon to one of these enchanments, then attaching it to either Opalescence or Humility would save you here. Breaking that combo would allow all of your other enchantments to retain their abilities, including the ones that stop you from losing the game.
+
+Like the other enchantments in point 2, Illusions of Grandeur will be affected by the Opalescence/Humility combo, so it won't do anything either.
+

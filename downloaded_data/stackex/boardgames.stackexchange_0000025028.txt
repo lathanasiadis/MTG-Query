@@ -1,0 +1,19 @@
+Q:
+
+Changing control of an attacking or blocking creature mid-combat
+
+I've happened upon a new scenario I didn't realise was possible: I attack or block with Jackal Pup, and after blockers are declared, I use Zedruu the Greathearted or Bazaar Trader to give the Jackal Pup to another player. I'd like to make sure I understand this interaction properly.
+As far as I understand it:
+
+Jackal Pup and the creature it's blocking or being blocked by still exchange damage as usual. It doesn't leave combat. Jackal Pup will deal a bunch of damage to whoever I gave it to.
+I can even hand Jackal Pup to the player blocking it or attacking me, and that will still hold true. (They'll then control two creatures who exchange combat damage with each other!)
+If a creature was declared attacking me (or my planeswalker), it is still doing so even after I block it with Jackal Pup and hand someone else control of it. If that creature has trample, the damage will go to me.
+
+Do I understand this correctly? (These are some fun hijinks, if they work like they seem to.)
+
+A:
+
+No, that is not correct. Rule 506.4 says
+
+A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, or if it's an attacking or blocking creature that regenerates (see rule 701.12) or stops being a creature. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that's removed from combat stops being attacked
+

@@ -1,0 +1,24 @@
+Q:
+
+Does a God's own mana cost count towards its own devotion?
+
+I'm quite new to playing MtG, and had a question about Erebos, God of the Dead. It needs five devotion (5 black mana symbols on permanents on your field) to be a creature. Does the 1 black mana symbol on that card count toward my devotion to black? My friends and I were unsure.
+
+A:
+
+To quote one of the rulings on Gatherer:
+
+If a God enters the battlefield, your devotion to its color (including
+  the mana symbols in the mana cost of the God itself) will determine if
+  a creature entered the battlefield or not, for abilities that trigger
+  whenever a creature enters the battlefield.
+
+Also from the rules:
+
+700.5. A player’s devotion to [color] is equal to the number of mana symbols of that color among the mana costs of permanents that player
+  controls. A player’s devotion to [color 1] and [color 2] is equal to
+  the number of mana symbols among the mana costs of permanents that
+  player controls that are [color 1], [color 2], or both colors.
+
+Since the god is a permenant, it's mana symbols in it's casting cost count towards your devotion.
+

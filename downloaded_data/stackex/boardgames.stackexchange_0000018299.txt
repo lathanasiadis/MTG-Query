@@ -1,0 +1,21 @@
+Q:
+
+Does heroic trigger when the creature is in a graveyard?
+
+I have an Agent of the Fates in my graveyard. I return it to my hand with Disentomb.
+Does my opponent have to sacrifice a creature?
+
+A:
+
+No. The Heroic ability only works if the creature you target is a permanent on the battlefield. Most abilities only work from the battlefield. From rule 112.6:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+There's a few exceptions, but the ones regarding activated or triggered abilities are i and j. They're quoted in full below. The basic gist of these exceptions, and rule 112.6, is that no activated or triggered abilities work outside the battlefield — unless it involves a cost or trigger condition that can't work on the battlefield, in which case it works wherever it can work.
+A good example of these exceptions (specifically exception i) is Scavenge or Bloodrush. The former requires you to exile the card from your graveyard, and the latter requires you to discard it (and cards can only be discarded from your hand, nowhere else). Since those costs can only be paid somewhere outside the battlefield, Scavenge works inside your graveyard, and Bloodrush works inside your hand. (But that's the only places they work, since their costs can't be paid anywhere else.)
+Since Heroic works just fine on the battlefield, though, it isn't covered by these exceptions (specifically the one regarding triggered abilities, exception j) and doesn't get to work elsewhere too.
+
+112.6i An objects activated ability that has a cost that can't be paid while the object is on the battlefield functions from any zone in which its cost can be paid.
+112.6j A trigger condition that can't trigger from the battlefield functions in all zones it can trigger from. Other trigger conditions of the same triggered ability may function in different zones.
+Example: Absolver Thrull has the ability "When Absolver Thrull enters the battlefield or the creature it haunts dies, destroy target enchantment." The first trigger condition functions from the battlefield and the second trigger condition functions from the exile zone. (See rule 702.54, "Haunt.")
+

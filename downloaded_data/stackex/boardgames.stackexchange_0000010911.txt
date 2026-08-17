@@ -1,0 +1,27 @@
+Q:
+
+Can I activate a bloodrush ability at instant speed?
+
+Can I use a card with bloodrush in response to something?
+For example:
+If an evil opponent wants to kill my attacking Skarrg Guildmage with an
+Izzet Charm can I discard Scorchwalker and use it's ability to save my guildmage?
+
+A:
+
+Yes. All activated abilities are at instant speed unless they specifically indicate otherwise*. Because the ability is written with a colon, it is an activated ability. It does not need to be on the battlefield to be activated, and your opponent does not need to know it exists to activate it (although you must reveal it, obviously). In this particular cast, you're discarding the card as part of the cost. That's the only reason you have to discard the card. If it didn't say discard, you could activate the ability as many times as you wanted.
+This is spelled out in 112.3b, emphasis mine.
+
+112.3b Activated abilities have a cost and an effect. They are written as "[Cost]: [Effect.] [Activation instructions (if any).]" A player may activate such an ability whenever he or she has priority.
+
+Compare this to the rules text for instants,
+
+304.1. A player who has priority may cast an instant card from his or her hand.
+
+So the timing for activated abilities is the same as the timing for instants.
+As for it being in your hand, this is spelled out here:
+
+602.2a The player announces that he or she is activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that's not a card.
+
+Note: I said specifically indicate otherwise. This specification does not need to be on the card. For example, the Comprehensive Rules state that planeswalker activate abilities can only be activated on your turn at sorcery speed, but this is not stated on the card.
+

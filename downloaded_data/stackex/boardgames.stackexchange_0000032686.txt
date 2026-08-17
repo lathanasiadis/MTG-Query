@@ -1,0 +1,14 @@
+Q:
+
+Why does this ability have its mana cost written twice?
+
+Korozda Monitor reads:
+
+Scavenge {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+
+I would like to know why the 5(G)(G) is listed twice, outside of the parentheses and inside. I've seen this format on other cards too. 
+
+A:
+
+It's written like that because that's what the ability means; "Scavenge [cost]" means "[Cost], Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.". The italic text in parentheses is called reminder text, and it's there in this case to tell you what scavenge does.
+

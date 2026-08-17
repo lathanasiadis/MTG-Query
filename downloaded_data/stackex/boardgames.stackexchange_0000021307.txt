@@ -1,0 +1,50 @@
+Q:
+
+Dealing Damage to Creature soulbonded to Deadeye Navigator
+
+A scenario played out last night that at the time I felt was correct, but the more I think about it, the more I feel uncomfortable about it. I had on the field:
+
+Goblin Bombardment
+
+Furnace of Rath
+
+Dictate of Twin Gods
+
+~10 0/1 creature tokens
+
+My opponent had:
+
+Deadeye Navigator
+
+Nevermaker
+
+6 blue mana available
+
+Here's what happened:
+
+I sacrificed a creature token to Goblin Bombardment to deal 4 damage to the Nevermaker.
+In response, my opponent paid 1U and exiled the Nevermaker.
+As the Nevermaker leaves the battlefield it's ability triggers, it targets my goblin bombardment to place on top of my library.
+Before the Nevermaker resolves, I sacrifice 2 tokens and deal 8 damage to the Deadeye Navigator.
+My opponent pays 1U to exile the Deadeye Navigator.
+Deadeye Navigator leaves the battlefield, and then returns, soulbonding to the Nevermaker.
+I sacrifice two more tokens to deal 8 more damage to the Deadeye Navigator.
+My opponent pays 1U to exile the Deadeye Navigator.
+Deadeye Navigator leaves the battlefield, and then returns, soulbonding to the Nevermaker.
+My third Goblin Bombardment fails to resolve as the Deadeye Navigator is a new instance of the creature and thereby a new object.
+My second Goblin Bombardment fails to resolve as the Deadeye Navigator is a new instance of the creature and thereby a new object.
+Nevermaker's use of Deadeye Navigator's ability resolves and it leaves the Battlefield.
+Nevermaker's ability trigers and my Goblin Bombarment in placed on the top of my library.
+Nevermaker returns to the battlefield and is re-soulbonded to Deadeye Navigator
+
+I feel like somewhere in the 10-12 range is where it goes awry. None of my abilities resolve because her cards are new instances of themselves, but this does not seem to hamper her at all. Was this all resolved correctly. Is there I way that I could have destroyed either the Deadeye Navigator or the Nevermaker?
+
+A:
+
+Is there I way that I could have destroyed either the Deadeye
+  Navigator or the Nevermaker?
+
+Yes.
+Start out the same way, sending 4 damage to the Nevermaker. Your opponent activates its flicker ability. You let the flicker ability resolve, and the Nevermaker leaves and then enters the battlefield again.
+This causes 2 triggers to be put on the stack, one is the Nevermaker's "leaves the battlefield" ability, the other is the "soulbond" ability on Deadeye Navigator (since your opponent controls both, he/she can arrange their order on the stack as desired). While both are on the stack, you can respond by activating Goblin Bombardment as you wish. Since neither Navigator or Nevermaker are soulbonded, they do not have the "flicker" ability anymore.
+

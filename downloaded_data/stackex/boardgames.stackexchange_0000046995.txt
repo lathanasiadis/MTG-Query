@@ -1,0 +1,23 @@
+Q:
+
+Expansion//Explosion and Siren Stormtamer
+
+I've had this situation come up several times in Magic Arena. I cast the Explosion half of Expansion // Explosion targeting my opponent's Siren Stormtamer. Opponent sacrifices the targeted Siren Stormtamer to itself targeting my Explosion. Somehow, I still draw cards.
+Why? Siren Stormtamer's effect should counter the spell, which means both the "deal damage" and the "draw cards" halves. Is this a bug?
+
+A:
+
+MTGA handles the rules correctly in this case. Explosion is a valid target for Siren Stormtamer's ability when your opponent activates the ability. By the time the ability resolves, that is no longer true, so the ability fizzles for lack of legal targets. Explosion is not countered, it can resolve and, since it still has a legal target (you), it does as much as possible, namely draw you cards.
+By the time your opponent activates the ability, Explosion is targeting his Stormtamer, so Explosion is a legal target for the ability. As part of the ability activation, your opponent has to sacrifice the Stormtamer, but only after declaring targets. Sacrificing the Stormtamer as part of paying the ability activation costs has no effect on Expansion's legality as the ability's target at this point.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a-d) and determination and payment of costs (rules 601.2f-h). [..]
+
+(the rules for casting spells and activating abilities are the same as far as this question is concerned.)
+When the ability resolves, it checks again that its target is still legal. Since the Stormtamer is no longer on the battlefield, Explosion no longer targets your opponent or a creature he controls. Therefore, Explosion is no longer a legal target for the Stormtamer's ability on the stack, and the ability fizzles.
+
+Resolving Spells and Abilities
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [..] If all its targets, for every instance of the word "target," are now illegal, the spell or ability doesn't resolve. It's removed from the stack and, if it's a spell, put into its owner's graveyard.
+
+Explosion can then resolve because it wasn't countered and still has a legal target; it will do as much as possible with the remaining target (yourself), so it will draw you cards.
+

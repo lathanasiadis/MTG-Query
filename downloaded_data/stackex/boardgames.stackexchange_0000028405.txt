@@ -1,0 +1,28 @@
+Q:
+
+4 Color Burn + Dark Confidant decktech
+
+This is a theory/decktech question.
+Lets say you're playing 4 color burn (R,W,B,G) and your opponent is running something with spikey lifegain (Feed the Clan and a few Tarmogoyfs for example), so each game gets dragged out longer than a burn deck would prefer. Would keeping Dark Confidant in hand and dropping him to help boost card drawing late in the game be a viable strategy?
+Lets assume you have sideboarded out Eidolon of ??? for Confidant and you also have Skullcrack to prevent lifegain. Let us also assume you've never heard of Leyline of ???. Finally, in keeping with our spikey lifegain example, our opponent is playing Junk.
+
+A:
+
+This isn't a good idea for several reasons. I'll focus on the main one:
+Burn decks don't want to play a grindy game where card advantage is paramount. Burn decks want to end the game as soon as possible with some haste creatures followed by burn spells. Playing a long game where drawing multiple cards actually becomes significant is not the plan. Sure it could happen, but if it does, it means something has gone wrong (in this case, opponent playing lifegain cards such as Feed the Clan).
+This primer for Burn puts it very well:
+
+Burn is one third of the premier trinity of aggro decks in Modern, alongside Affinity and Infect. Of the three, Burn is the slowest, but also the most difficult to interact with. It’s also scarily consistent, with virtually every card in the deck being interchangeable. This consistency aids it in mulligans, and also topdeck wars, where any non-creature spell will often be lethal. Barring extreme mana flood or screw, the typical Burn hand will kill on turn four or five.
+It’s common to see only 8-12 creatures in Burn lists. Because every card must aid directly in the count to twenty, creatures have to meet very specific requirements for inclusion. Preference is placed on cheap mana costs, haste, and incidental damage generated outside the combat step. The gold-standard creatures—Goblin Guide, Monastery Swiftspear, and Eidolon [of the Great Revel]—each represent damage or virtual damage the turn they come down. These are used to soften up the opponent’s life total, priming them to die to burn spells on subsequent turns after the board has been stabilized.
+
+When you add Dark Confidant to your deck, you weaken two of the key strengths of Burn given above:
+
+You are no longer as consistent. Your cards are no longer interchangeable. Usually it doesn't matter if you draw Goblin Guide or Monastery Swiftspear in your opening hand, but if you draw Dark Confidant, because the role is different, it will matter.
+You are adding a creature to your deck that doesn't do damage to the opponent. If you play Dark Confidant and they Fatal Push it, you don't do damage. With any of the other three creatures, you do damage anyway (assuming opponent wasn't holding up mana). This means you are easier to interact with.
+
+This neglects the fact that Dark Confidant mandates adding a color to a deck that's going to be primarily red. I know you're running four colors, but that's only going to make things worse (as you can see from the primer, the most common burn decks are 2 colors, red + white).
+Another way to think about this is to calculate how much damage each card you play inflicts. For example if Monastery Swiftspear connects on turn 1, and then connects again on turn 2 with two prowess triggers, it's contributing 4 damage. That's substantial and better than Lightning Bolt. On the other hand with Dark Confidant, if it dies immediately it does 0 damage. If it manages to connect it does 2 (not trivial, it's a 2/1), and every time it draws you a card it does maybe 2 damage (since most burn spells are worth 3, but you might not draw one). Average that over all your games and you should find that it does a lot less damage than Eidolon in general, which is practically guaranteed to do at least 2 damage.
+It's certainly possible you'll get games where the opponent stabilizes at 10 life and you're unable to finish them off, but you sign up for those games when you choose to play Burn. They represent your deck's fail case after all (or the opposing deck's best case). Consider: if you never get these games you'd also be winning most of your games, which makes your deck overpowered and bannable.
+What about Feed the Clan and Tarmogoyf? Feed the Clan is a card people put into their decks specifically to counter you, so you must expect it to do something. The upside is that it's poor against the rest of the format, so most opponents are not going to have 4 copies in their sideboard. Fortunately as well, you do have some tools: Skullcrack and especially Roiling Vortex are the main ways Burn decks beat lifegain.
+As for Tarmogoyf, you must expect that you will lose control of the board eventually against any deck that plays creatures. When you do lose control, then the plan switches to "cast burn spells at opponent until they die". Your Lightning Bolts now go directly at your opponent instead of at their creatures. It can be scary to play this way, but it is your deck's gameplan. On the bright side, the Tarmogoyf likely can't attack for a while because it's needed to block your Swiftspears/Goblin Guides, and even when it can attack, it will usually take 3-4 turns to kill you, during which you are likely to draw burn spells that can finish the opponent off.
+

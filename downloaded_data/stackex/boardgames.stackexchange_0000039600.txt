@@ -1,0 +1,33 @@
+Q:
+
+Sunbird's invocation implied rules
+
+I'm stuck with these rulings in Sunbird's Invocation:
+
+For spells with {X} in their mana costs, use the value chosen for X
+to determine the spell's converted mana cost.
+If a revealed card in your library has {X} in its mana cost, you must choose 0
+as the value of X when casting it without paying its mana cost.
+
+Does it mean spells with {X} sometimes have CMC 0 and sometimes X?
+Additionnaly, can I play a land from the revealed cards?
+
+A:
+
+Does it mean spells with {X} sometimes have CMC 0 and sometimes X?
+
+Yes, but thankfully it's simple:
+
+If a spell is on the stack, {X} is treated as the value the caster chose for it.
+Anywhere else, {X} is 0.
+
+This comes from comprehensive rule 202:
+
+202.3d When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+
+However, the second ruling is referencing something else entirely: if you cast a card "without paying its mana cost", you always have to choose 0 for the value of {X}. You're not paying its mana, so you don't get to pick some other arbitrarily value. This means, more often than not, it is not worthwhile casting an {X} spell for free.
+
+Additionnaly, can I play a land from the revealed cards?
+
+No. Sunbird's Invocation says you cast the card. Lands can't be cast, only played. See Stromkirk Occultist for an example of a card that lets you play lands.
+

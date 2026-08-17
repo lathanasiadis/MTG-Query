@@ -1,0 +1,25 @@
+Q:
+
+Why is there no ruling to offset Mandatory Loops?
+
+Why is there no ruling to offset Mandatory Loops? 
+As pointed out in a recent question: Marauding Raptor and Polyraptor - what happens when a loop has no exit?
+Which states this ruling
+
+721.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+Now I understand within the confines of the game that certain cards have been created and balanced with mandatory actions that once cast can not be deviated from. This is part of card design- which is a whole different topic, but sometimes these have the unintended consequence of looping forever.
+Non-optional unintended loops are presumably outside of the preferred intended play by the designers, and it leads me to wonder if any effort has been done to investigate outs for when these situations arise (eg. after a mandatory-loop, loops x100 then remove any further triggered/replacement effects.)
+Allowing a hard break to certain loops might allow some niche decks to arise, perhaps this might lead to a negative impact on certain formats, which might be why this decision was done?
+So ideally I am looking for any sources which point to why they have decided to leave this rule as such, and for so long. Has any past attempts at reanalyzing this rule come up?
+Disclaimers:
+Mainly looking for reasons within sanctions tournament rules, or other official events, but creditable sources outside that may be acceptable answers.
+
+A:
+
+There is no reasonable way to eliminate all mandatory loops, so this rule would still be needed for loops that can't be eliminated. For simplicity, it's better to just have the one rule.
+The biggest problem with trying to stop mandatory loops is listing what exactly stops happening, and putting the game in a valid state afterward. The simplest loops are the kind you describe, where one ability triggers, and the resolution of that ability causes another ability to trigger, and so on until the first ability triggers again and you end up in a loop. But there are other kinds of mandatory loops that are a lot harder to cut off.
+One of the strangest mandatory loops in the game involves the card Lich's Mirror. If a player controls a Lich's Mirror that they do not own, and gets 10 poison counters, the Mirror's ability replaces the state-based action that would make the player lose, but the Mirror itself stays on the battlefield, so when state-based actions are re-evaluated, exactly the same thing happens. Stopping this loop would require either suspending the rule that causes state-based actions to be rechecked after they do something, or making the Lich's Mirror's replacement effect no longer function. In other words, that player either loses immediately, or becomes nearly unkillable, and both changes have other unpleasant implications. Ending the game in a draw is a reasonable compromise.
+There are also several cards with "state-triggered abilities", which trigger on a particular game state, instead of an event. Some combination of those cards allow those abilities to trigger and resolve without changing the game state, so they immediately trigger again. There's no good way to change the game state so that those abilities stop triggering.
+In addition to that, there are more technical issues with defining such a rule. In particular, it's not clear how you would define an "iteration" of the loop, or how you would determine what part of an iteration to end it on. For player-defined looping shortcuts, the player makes those decisions, but a mandatory loop can involve both players equally, leading to difficult-to-resolve disagreements about how exactly such a loop should end.
+

@@ -1,0 +1,21 @@
+Q:
+
+If a token is returned to hand, is it considered dying?
+
+1/1 Devil token (ala Devils' Playground) on board
+Just the Wind cast on the 1/1 Devil
+Token gets removed from board
+?? Devil does 1 damage to target creature or player ??
+
+A:
+
+Unfortunately, no, it doesn't die. "Dies" has a specific meaning:
+
+700.4. The term dies means “is put into a graveyard from the battlefield.” 
+
+The token does cease to exist once in the player's hand, but that's due to other rules, and that's not considered dying either:
+
+110.5f A token that’s phased out, or that’s in a zone other than the battlefield, ceases to exist. This is a state-based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)  
+
+But, this has an interesting implication that a token can die and is temporarily in the graveyard, thus satisfying death triggers. 
+

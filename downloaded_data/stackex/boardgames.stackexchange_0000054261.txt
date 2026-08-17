@@ -1,0 +1,13 @@
+Q:
+
+Isn't Wall of Runes a Rune card?
+
+I played Runed Crown on MTG Arena, and tried to select Wall of Runes, but wasn't able. Isn't it a Rune card? So which cards are?
+
+A:
+
+When Runed Crown says "A rune card" it means "A card with the subtype Rune" not "A card with Rune in its name". This is the same way that Forest Bear can't be found with Three Visits but Dryad Arbor can - when a card is talking about card name it will say "card(s) named ~" and it uses the whole name of cards. When it says "a(n) ___ card." that blank is always some combination of colors and types (including subtypes, like rune here, and supertypes, like legendary or basic). Forging the Tyrite Sword is a perfect example of both, letting you search for "a card named Halvar, God of Battle" or "an Equipment card" the first is searching based on the name, the second option is searching based on type.
+Kaldheim created Rune as a subtype of enchantment, always beside Aura (at least for now) because the runes are meant to modify whatever they are put on, either the creature directly or the equipment. There are currently 5 rune cards, one in each color, all 2 cost enchantments that can go on any permanent, but only have an effect when attached to a creature or equipment.
+It's possible they could errata cards like Wall of Runes to add the rune type to it, but this is extremely unlikely. While you could arguably attach Wall of Runes to Runed Crown (since equipping attaches the two cards, though it attaches the equipment to the creature) the crown is meant to gain abilities that can then be given to whatever creatures the crown gets attached to using the search.
+If cards with the word Rune in their name were Rune cards, that would make Runed Crown a Rune card too - you could play one Runed Crown and use it to search for your second one, use that to get the third, then the fourth and the fourth finally finds something like Runes of the Deus or Wall of Runes. The crowns would fall off eachother since equipment can't attach to equipment, leaving you with 3 unequipped basic crowns and one equipped or enchanted crown, pulling 4 cards worth 10+ mana out of your deck and into play for 3 total mana.
+

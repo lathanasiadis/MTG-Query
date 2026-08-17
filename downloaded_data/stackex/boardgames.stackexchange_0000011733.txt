@@ -1,0 +1,21 @@
+Q:
+
+What happens if Ravager of the Fells can't target an opponent?
+
+Ravager of the Fells (the flip-side of Huntmaster of the Fells) says,
+
+Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent and 2 damage to up to one target creature that player controls.
+
+What happens if I cannot target my opponent (e.g. due to Witchbane Orb giving her hexproof)? Are her creatures protected as well?
+
+A:
+
+You must be able to declare legal targets for all targets of a spell or ability. Since Witchbane Orb prevents you from targeting your opponent, you cannot choose their creature to target either. Therefore CR603.3d forces you to remove it from the stack.
+It should be noted that if your opponent gains Hexproof after you choose valid targets, the spell will still resolve because the creature is still a valid target (it knows that it is controlled by the same player that you targeted, even if it cannot target that opponent)
+
+114.1. Some spells and abilities require their controller to choose one or more targets for them.The targets are object(s), player(s), and/or zone(s) the spell or ability will affect. These targets are declared as part of the process of putting the spell or ability on the stack. The targets can't be changed except by another spell or ability that explicitly says it can do so.
+
+114.1d A triggered ability is targeted if it identifies something it will affect by using the phrase "target [something],"where the "something" is a phrase that describes an object, player, or zone. The target(s) are chosen as the ability is put on the stack;see rule 603.3d.
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+

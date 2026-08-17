@@ -1,0 +1,16 @@
+Q:
+
+Can I kill an indestructible creature with damage and -1/-1?
+
+If a indestructible creature is a 3/3 and I block that creature with a 2/2 then I give the indestructible creature a -1/-1 will the indestructible creature die?
+
+A:
+
+Don't confuse reduced toughness with damage. Damage gets marked on a creature, but it doesn't reduce its toughness.
+The 3/3 takes two damage, remaining a 3/3. then you reduce it's power and toughness with the -1/-1. It is now a 2/2 with two damage marked on it. However it is indestructible so this is not sufficient to kill it. You would have to give it -3/-3  for example (reduce its toughness by 3)
+
+702.12. Indestructible
+702.12a. Indestructible is a static ability.
+702.12b. A permanent with indestructible can't be destroyed. Such permanents aren't destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage.
+702.12c. Multiple instances of indestructible on the same permanent are redundant.
+

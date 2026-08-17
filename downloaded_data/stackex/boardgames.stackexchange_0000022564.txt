@@ -1,0 +1,18 @@
+Q:
+
+What happens if you manifest a creature card with morph?
+
+If a player manifests a creature card with the morph ability, can that player pay the morph cost to turn it face up?
+For example, if Anthony casts Formless Nurturing to manifest Abomination of Gudul, can he pay the morph cost of {2}{B}{G}{U} instead of the creature cost of {3}{B}{G}{U} to turn it face up?
+
+A:
+
+Yes. If a creature card with Morph is manifested, the permanent it becomes may be flipped for either its creature cost or its morph cost. This is covered by the following rule introduced in Fate Reforged:
+
+701.31c If a card with morph is manifested, its controller may use the procedure described in rule 702.36d to turn a face-down permanent with morph face up rather than the procedure described above to turn a manifested permanent face up.
+
+In your specific example, Anthony may choose to pay either {2}{B}{G}{U} or {3}{B}{G}{U} to flip Abomination of Gudul at any time he has priority.
+For reference:
+
+702.36d Any time you have priority, you may turn a face-down permanent you control face up. This is a special action; it doesn’t use the stack (see rule 115). To do this, show all players what the permanent’s morph cost would be if it were face up, pay that cost, then turn the permanent face up.
+

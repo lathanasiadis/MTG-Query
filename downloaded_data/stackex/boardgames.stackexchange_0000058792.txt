@@ -1,0 +1,52 @@
+Q:
+
+How do battles function if they are turned into a creature?
+
+There are a number of ways to turn battles into creatures, for instance the classic Liquimetal Coating and Karn, the Great Creator's +1 ability.
+Now, your battle is a creature, based on my reading of the rules I would expect the following to be the case:
+
+If you cast the battle on the same turn you turn it into a creature it should have summoning sickness.
+You should be able to attack with your battle creature, while simultaneously have your creatures attack your battle.
+When your creature/battle is attacked by your creatures and takes damage greater number of defense counters it should offer you the ability to cast its backside.
+
+As of 2023-05-14, the second and third of these are untrue in Arena; I initially believed the first to be untrue as well but I realised Arena simply does not indicate the summoning sickness in the normal way on the battle creature (left in the question so not as to invalidate existing answers).
+Is my understanding of the rules in error or are these Arena bugs?
+
+A:
+
+1. Summoning Sickness
+Your first point is correct. A creature you control has summoning sickness if you did not control that permanent since the beginning of your current or most recent turn. It does not matter how its characteristics have changed in that time. See this question for full details of how summoning sickness works.
+
+2. Attacking with creature battles
+However, your second point is incorrect because a permanent that is both a battle and a creature cannot attack or block. The main rules that cover this are 508.1a and 509.1a:
+
+508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, they can’t also be battles, and each one must either have haste or have been controlled by the active player continuously since the turn began.
+509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped and they can’t also be battles. For each of the chosen creatures, the defending player chooses one creature for it to block that’s attacking that player, a planeswalker they control, or a battle they protect.
+
+On the other hand, there's nothing in the rules to say that a creature battle can't be attacked.
+There are other rules that cover related situations, such as 506.3e and f:
+
+506.3e If an effect would put a creature that’s also a battle onto the battlefield attacking or blocking, that permanent enters the battlefield but it’s never considered to be an attacking or blocking creature.
+506.3f If a resolving spell or ability would cause a battle to become an attacking or blocking creature, that part of the effect does nothing.
+
+3. Damaging creature battles
+Your third point is correct sometimes. If a creature/battle is dealt damage, there are three different rules that control the effects of that damage:
+
+120.3d Damage dealt to a creature by a source with wither and/or infect causes that source’s controller to put that many -1/-1 counters on that creature.
+120.3e Damage dealt to a creature by a source with neither wither nor infect causes that much damage to be marked on that creature.
+120.3h Damage dealt to a battle causes that many defense counters to be removed from that battle.
+
+So, any damage dealt to a permanent that is both a creature and a battle will result in removing that many defense counters, and in either putting -1/-1 counters on it or marking damage on it. If the damage removes the last defense counter, the triggered ability inherent to Siege battles triggers, as described in rule 310.11b:
+
+Sieges have the intrinsic ability “When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.”
+
+After that, state-based actions are checked, and any of the following could be relevant:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+704.5g If a creature has toughness greater than 0, it has damage marked on it, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+704.5h If a creature has toughness greater than 0, and it’s been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+704.5v If a battle has defense 0 and it isn’t the source of an ability that has triggered but not yet left the stack, it’s put into its owner’s graveyard.
+
+The last one won't actually apply, because the creature/battle is the source of an ability that has triggered but has not yet left the stack. If any of the others apply, the creature/battle dies.
+After that, the triggered ability is put on the stack and resolves. If the creature/battle is still alive, the ability will exile it and you can cast it transformed as usual. However, if it died, the ability will not be able to exile it, and there will be nothing to cast.
+

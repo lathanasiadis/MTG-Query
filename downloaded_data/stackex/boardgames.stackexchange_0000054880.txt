@@ -1,0 +1,23 @@
+Q:
+
+Can I cast spells while Teferi's Protection is in effect?
+
+Teferi's Protection says:
+
+Until your next turn, your life total can’t change and you gain protection from everything. All permanents you control phase out.
+
+I am not phased out, and the cards in my hand aren't phased out, so can I still cast spells before my next turn? I realize that my lands are also phased out, so I can't tap them for mana. But if I tap all my lands before casting Teferi's, can I spend surplus mana until it disappears at the end of the current phase? And can I cast spells with zero cost?
+
+A:
+
+There's no reason you can't do exactly as you describe.  In fact, it's a fairly common tactic to tap a land for mana that is about to be destroyed or otherwise made unavailable.
+
+106.4. When an effect instructs a player to add mana, that mana goes into a player’s mana pool. From there, it can be used to pay costs
+immediately, or it can stay in the player’s mana pool as unspent mana.
+Each player’s mana pool empties at the end of each step and phase, and
+the player is said to lose this mana. Cards with abilities that
+produce mana or refer to unspent mana have received errata in the
+Oracle™ card reference to no longer explicitly refer to the mana pool.
+
+And your analysis about everything phasing out is spot on.  Only permanents can phase out (and Teferi's Protection only instructs you to phase out your permanents anyway).  So nothing affects your ability to cast spells with your unspent mana.
+

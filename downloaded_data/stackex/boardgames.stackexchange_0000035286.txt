@@ -1,0 +1,14 @@
+Q:
+
+When a creature comes back to the battlefield from the graveyard, does it trigger its abilities?
+
+I'm talking of course about abilities that trigger "when entering the battlefield". For instance the Channeler Initiate is returned from the graveyard, does it require to put 3 -1/-1 counters?
+
+A:
+
+Yes, enters-the-battlefield abilities triggers regardless of a permanent's previous zone, unless explicitly stated.
+Channeler Initiate will force you to put -1/-1 counters when coming into play, regardless of it being played from your hand, coming back from the graveyard, from exile, etc...
+Here's the related bit of rules :
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters the battlefield, . . . “ or “Whenever a [type] enters the battlefield, . . .” Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+

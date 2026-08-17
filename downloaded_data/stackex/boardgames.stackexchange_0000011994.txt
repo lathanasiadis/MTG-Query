@@ -1,0 +1,23 @@
+Q:
+
+Dimir Doppelganger becoming Lazav, Dimir Mastermind
+
+I have a few clarification questions regarding what happens after I use the activated ability of Dimir Doppelganger to target a Lazav, Dimir Mastermind that's sitting in a graveyard. For simplicity, I assume that the only card in play before the ability resolves is the Dimir Doppelganger, which has never used it's ability before.
+Firstly, am I correct in saying that the card I have on the battlefield after resolution, in effect, has the name Lazav, Dimir Mastermind, is of the type Legendary Creature - Shapeshifter, and has card text which reads:
+
+Hexproof
+Whenever a creature card is put into an opponent's graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card except its name is still Lazav, Dimir Mastermind, it's legendary in addition to its other types, and it gains hexproof and this ability.
+1{U}{B}: Exile target creature card from a graveyard. Lazav, Dimir Mastermind becomes a copy of that card and gains this ability.
+
+Assuming this is correct, and I use the activated ability again to target another creature in a graveyard -- let's say Grizzly Bears -- then the card I have in play is now named Grizzly Bears, of type Creature - Bear and has only the activated ability of the original doppelganger (losing hexproof and the triggered ability of Lazav.)
+And finally, if I instead choose to use the triggered ability my doppel-Lazav in response to a creature entering an opponent's graveyard -- we can assume it's Grizzly Bears again -- then my card now named Lazav, Dimir Mastermind, of type Legendary Creature - Bear and reads:
+
+Hexproof
+Whenever a creature card is put into an opponent's graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card except its name is still Lazav, Dimir Mastermind, it's legendary in addition to its other types, and it gains hexproof and this ability.
+
+A:
+
+Assuming your grizzly bear scenarios are either/or (and you're not doing one after another)...
+You are correct. The card will come back as either a Lazav copy or a Doppleganger copy and it depends entirely on which card's copy ability you use.  
+It's the ability itself (of either lazav or the doppleganger) that causes the copy to retain the previous abilities, because it uses the wording: "gains this ability." 
+

@@ -1,0 +1,23 @@
+Q:
+
+Why are some cards out of collector number sequence in MTG:Lord of the Rings
+
+If you sort cards by collector number for MTG: Lord of the Rings, you see that almost all the white cards have collector numbers of 1-18:
+https://scryfall.com/search?as=grid&order=set&q=%28game%3Apaper%29+set%3Altr
+But, if you scroll to the end of the list:
+https://scryfall.com/search?as=grid&order=set&page=5&q=%28game%3Apaper%29+set%3Altr&unique=cards
+You will see a number of cards that are "out of order."  So, for instance, Frodo, Determined Hero has a collector number of 289, and Saradoc, Master of Buckland has a collector number of 282.  Well beyond the other 18 cards that are in "normal" sequence.
+Is there a reason for this discontinuity?  [Note, Frodo collector number 289 is "normal" art, there's an alternate art, with collector number 388.]
+
+A:
+
+There is a reason! The Lord of the Rings set code has lots of different ranges representing different product releases, and the numbering will restart for each of those ranges.
+
+The main set, found in boosters, spans collector numbers 1–281: https://scryfall.com/search?q=set%3Altr+cn%E2%89%A4281&unique=cards&as=grid&order=name
+Saradoc thru Elanor Gardner (282–286) are exclusive to Jumpstart packs: https://scryfall.com/search?q=set%3Altr+is%3Ajumpstart&order=set&as=grid&unique=cards (and so are another set of five that also show up in that link)
+Frodo and several others (287–298) are exclusive to the starter decks, which were themed as Aragorn & Arwen versus Sauron: https://scryfall.com/search?order=set&q=set%3Altr+is%3Astarterdeck&unique=prints
+Gandalf, Saruman, and Sauron (299–301) represent a set of promos: https://scryfall.com/search?q=set%3Altr+cn%E2%89%A5299+cn%E2%89%A4301&unique=prints&as=grid&order=set
+
+Then from 302 onwards we reach showcases, extended arts, borderless, the winter release that comes out on November 3rd, etc.
+If you visit the Scryfall set page for Lord of the Rings it tries to group most of these cards by the type of release they are, though it's not easy to go from the card page to that grouping.
+

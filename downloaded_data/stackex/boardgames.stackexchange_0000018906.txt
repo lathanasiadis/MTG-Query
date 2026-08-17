@@ -1,0 +1,19 @@
+Q:
+
+How does Gideon, Champion of Justice's ability work?
+
+Say I use Gideon, Champion of Justice's second ability to turn him into a creature:
+
+0: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+
+Is he now a creature with the ability of "this creature's power and toughness are equal to the number of loyalty counters on it" or is he assigned a power and toughness as it becomes a creature? The reason I'm asking are to know if I can either change the number of counters on him somehow to pump him up (if it's an ability), or duplicate him somehow when he is a creature (if it's a fixed at time of activation).
+
+A:
+
+A ruling on the gatherer page for Gideon says
+
+Gideon, Champion of Justice's power and toughness are set to the number of loyalty counters on him when his second ability resolves. They won't change later in the turn if the number of loyalty counters on him changes.
+
+So, he is assigned a power and toughness when the ability resolves, and it doesn't change.
+If you copy Gideon in this state, the copy is just a Planeswalker. The effect that makes Gideon a creature doesn't get copied.
+

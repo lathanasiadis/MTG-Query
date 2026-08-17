@@ -1,0 +1,50 @@
+Q:
+
+Living Lands versus Living Terrain
+
+If you have Living Lands on the battlefield, making all of your Forests 1/1 creatures, and you then enchant one of those Forests with Living Terrain, does the enchanted land become a 1/1, a 5/6, or a 6/7?
+
+A:
+
+The abilities of these cards create continuous effects, so we're interested in [CR 613], "Interaction of Continuous Effects".
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+
+613.1e Layer 5: Color-changing effects are applied.
+
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
+
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied.
+
+613.5. If an effect should be applied in different layers and/or sublayers, the parts of the effect each apply in their appropriate ones. [...]
+
+The timestamp order of effects is the order in which they were created.
+
+If Living Lands entered the 'field before Living Terrain (as in your scenario),
+
+Layer 4, It becomes a Forest Land Creature, then it becomes a Treefolk Forest Land Creature.
+Layer 5, Its color changes to green.
+Layer 7b, Its P/T is set to 1/1, then its P/T is set to 5/6.
+
+So it's a 5/6 green Treefolk Forest Land Creature.
+
+If Living Terrain entered the 'field before Living Lands,
+
+Layer 4, It becomes a Treefolk Forest Land Creature, then it becomes a Treefolk Forest Land Creature.[1]
+Layer 5, Its color changes to green.
+Layer 7b, Its P/T is set to 5/6, then its P/T is set to 1/1.
+
+So it's a 1/1 green Treefolk Forest Land Creature.
+
+And the tie breaker,
+
+613.6g If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their timestamp order at that time.
+
+It gets to keep its Treefolk subtype because its current (new) types support it.[CR 205.1].
+

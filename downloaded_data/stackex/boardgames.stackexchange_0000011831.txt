@@ -1,0 +1,21 @@
+Q:
+
+Can you fail to find a card in someone's hand?
+
+If I cast Inquisition of Kozilek, and my only target is a Loxodon Smiter, do I have to make my opponent discard the Loxodon Smiter, or can I "fail to find" just as I would if i were searching my library?
+
+A:
+
+You can "fail to find" a card, but only while explicitly searching someone's library or hand. In the case of Inquisition of Kozilek, you are not "searching" the zone, so you must choose a card if a valid choice is available.
+Per the comp rules, "fail to find" is specific to searching a hidden zone:
+
+701.18b If a player is searching a hidden zone for cards with a stated quality, such as a card with a certain card type or color, that player isn’t required to find some or all of those cards even if they’re present in that zone.
+
+While the hand is still considered a hidden zone even when it is revealed (CR 400.2: "Library and hand are hidden zones, even if all the cards in one such zone happen to be revealed"), Inquisition of Kozilek's instructions say to choose a card from it, not search for one. Thus, you must follow the normal rules: which is to carry out as much of the actions as possible.
+
+So, you may still be wondering: why doesn't this rule come with a "fail to find" clause?
+The simplest explanation is that it's part of the underlying logic of the Magic comp rules — to minimize actions that players can't "double-check" using public information. (Consider the difference between Vampiric Tutor and Mystical Tutor, for instance. What purpose does the extra "reveal" clause serve?)
+Adding "fail to find" to the rules for searching guarantees that your search will result in a valid game state without forcing you to prove there are no valid choices by revealing your entire library.
+Inquisition of Kozilek doesn't need a "fail to find" rule because it says "reveal" — all players get to see the targeted players' hand and verify whether there are any suitable cards in it.
+If a discard spell said "Look at target layer's hand" instead of "Reveal," the rules manager would probably insist they include a "may" clause, like Vendilion Clique.
+

@@ -1,0 +1,13 @@
+Q:
+
+Interactions between Oblivion Sower and counter spells that make you pay mana to prevent them?
+
+Lets say I am casting Oblivion Sower. The on-cast effect would activate, exiling the top 4 cards of my opponents deck. The person decides to cast Mana Leak to counter my creature. Assuming I don't have enough mana to prevent the Mana Leak on my own, could I tap the lands, assuming I get three, that are exiled with Oblivion Sower to prevent Mana Leak from countering my creature?
+
+A:
+
+It depends on exactly when your opponent casts Mana Leak; he can prevent you from doing so.
+Your opponent has 2 options here... cast Mana Leak in response to the "when you cast" triggered ability, or to wait until that ability resolves, and then cast Mana Leak in response to the Oblivion Sower instead.
+When you cast Oblivion Sower, the "when you cast" ability will go on the stack on top of the Oblivion Sower. At this point your opponent could cast Mana Leak on top of both of them, and the triggered ability will not have resolved yet, so you will not have those lands.
+Note that even if Oblivion Sower is countered, the triggered ability will still resolve normally and you will still get the lands.
+

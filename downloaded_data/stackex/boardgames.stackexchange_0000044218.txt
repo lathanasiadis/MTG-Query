@@ -1,0 +1,51 @@
+Q:
+
+Alternatives to Mulligans in Magic: The Gathering
+
+!edited: Added non-opinion-based question
+I am currently looking into ways of doing Mulligans in another way, or replace Mulligans altogether, for casual play around the kitchen table. I don't like the shuffling and reshuffling three times, for a two time mulligan.
+I want to hear what to do, so that option is roughly equivalent to a normal Mulligan.
+Here is my idea:
+Draw (7+X) cards, keep (8-X) cards
+Instead of having the option to take a Mulligan, at the beginning of the game, all players draw X additional cards, then shuffle (2X-1) cards back into their library (or put them on the bottom of their library). For each additional card draw, your starting hand size, which you may keep, decreases by 1:
+Draw: (7) - 8 - 9 - 10 - 11 - 12 
+Shuffle back: (0) - 1 - 3 - 5 - 7 - 9 
+Starting hand: (7) - 7 - 6 - 5 - 4 - 3
+(no mulligan taken)
+Players can draw 8, and keep 7, but can decide to keep drawing until the decide to keep, and shuffle cards back/put them on the bottom of their library for each card they drew additionally. 
+For example: Timmy does not care about odds and draws 7 cards, no mulligan. Johnny wants to test his new combo deck, and decides to draw 10, keep 5. Spike draws 8, is not quite satisfied, draws to 10, decides to keep, and shuffle five cards back, starting with a hand of 5.
+Handicapping idea:
+
+Timmy may draw up to 10 cards, and still keep 7.
+Spike may only draw additional cards, if he starts the game with 3 life less for each card drawn additionally. Starting hand size is either 7, or reduced as before.
+
+How have I to tweak the number of cards drawn and discarded, so that the quality of hands is similar to that of a regular Mulligan?
+
+A:
+
+Your proposed mulligan rule would be better for the quality of a hand compared to a single mulligan under current rules, but much worse for larger/more mulligans. I would expect the number of viable decks to decrease, especially decks and archetypes that rely on few key cards would suffer.
+Generally, mulligans are a system to exchange card advantage for card quality. Card advantage in this context is obvious, it's simply the number of cards in your starting hand compared to in your opponent's hand. Since your new system makes sure to keep the ultimate number of hand cards the same after the same number of mulligans (shifted by 1), we can focus on the resulting card quality. Card quality is hard to define because it depends on the deck's strategy, but generally, holding at least one of a certain card is a good, generally applicable definition of card quality of your starting hand. That's why I will evaluate your scheme on that criterion.
+You have designed the system such that the number of cards in hand after drawing an extra n+1 cards is equivalent to taking n mulligans under current rules. Threfore, it would be always optimal to draw 8 cards and shuffle 1 back to 7 rather than just keeping the 7. That means that the chance to draw at least 1 of a certain card in your starting hand of 7 goes from 39.9% to 44.5%, without downside. That means that if you already have a playable hand, you get a chance to further improve that hand for free.
+However, if you have an unplayable hand, e.g. too much or too little or the wrong color of mana, and you would like to get rid of the whole hand, then you could only do so at large card disadvantage. Also, the chance to find a certain card increases much more slowly with your scheme than under the current one.
+Under the current rules, the cumulative chance to get a certain card in your starting hand after n mulligans are roughly:
+
+0 mulligans: 40% (7 hand cards remaining)
+1: 61%
+2: 73%
+3: 80%
+4: 83%
+5: 85%
+6: 87% (1 hand card remaining)
+
+By contrast, if you draw an extra n+1 cards under your rules, the probabilities for at least 1 of a certain card in your hand are:
+
+1 card drawn: 44.5% (7 hand cards remaining)
+2: 48.7%
+3: 52.7%
+4: 56.5%
+5: 60.1%
+6: 63.4% (1 hand card remaining)
+
+I have used the hypergeometric calculator with values (top to bottom) 60, 4, 7 (hand size, adjust for actual card draw), 1. The first list of probabilities is obtained by multiplying the probabilities for "x < 1" (i.e. the wanted card is not in hand) for hand sizes 7 through 1. The second list is simply the probability for "x => 1" for hand sizes 8 through 13, which results in the same final starting hand size as the respective current mulligan.
+As an effect, I would expect the meta to adapt around such a drastic change of the maths behind mulligans. It would become much harder to get a certain key card on your starting hand. Deck construction would have to take that into acount, by not including disproportionately important cards into the deck's strategy. That would be counter the core idea of "build-around cards", which are usually found in the rare or mythic rare slots of a set. Arguably, that mulligan rule would reward homogenous decks, decks where cards can more or less stand in for each other, and therefore decrease the number of viable archetypes.
+

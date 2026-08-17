@@ -1,0 +1,20 @@
+Q:
+
+Can you tap a card whenever you want?
+
+If I have a colorless 1/1 untapped creature that has no abilities, can I just tap this card whenever I want? Or let's say I have a artifact/enchantment/planeswalker with no abilities. Can I just tap it?
+
+A:
+
+nope
+2 relevant rules:
+
+110.5c A permanent retains its status until a spell, ability, or turn-based action changes it, even if that status is not relevant to it.
+
+and
+
+110.5. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+
+it retains its status until something changes it, and tappedness is part of that.
+a sort-of meta-guessing "here's how I would design a game" answer, while we're at it: There's no way they would have printed Gilder Bairn or Immovable Rod without closing that loophole.
+

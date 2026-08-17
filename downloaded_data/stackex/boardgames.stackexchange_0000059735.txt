@@ -1,0 +1,19 @@
+Q:
+
+Paying mana cost, Targeting, Sacrifice, and Ward
+
+My opponent has Kykar, Wind's Fury, a 1/1 Spirit Token, and 5 lands (that produce any mana.) The only creature I control is a 6/6 Trample, Ward {1}.
+Opponent has a Switcheroo in hand and their goal is to exchange control of a 1/1 Token with the only creature I control. Is my opponent able to do this in any way? (without exchanging their Kykar)
+There was some confusion about when targeting happens, when paying mana costs happen, when Ward 'triggers', if ward is an additional cost or just paying for the ability, using Kykar's ability to sacrifice a token for mana, and being able to target the new token being created from Kykar's 1st ability.
+I've seen several topics discussing each of these effects and abilities individually but not all together.
+
+A:
+
+Sadly, I don't think it will work.
+
+Cast Switcheroo, targeting the 1/1 and the 6/6
+Two triggers happen: Kykar sees the spell cast, and the 6/6 sees it is targeted by an opponent's spell.
+In AP/NAP order they go on the stack; first is Kykar's ability, then the Ward 1
+Ward 1 has to resolve, but since you only have the original 1/1 that was targeted by Switcheroo, if you sacrifice it to pay the ward cost, Switcheroo does nothing (since you can't exchange control with nothing). So either Switcheroo is countered by Ward, or it does nothing.
+Kykar creates another 1/1.
+

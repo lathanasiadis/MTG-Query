@@ -1,0 +1,18 @@
+Q:
+
+Can I lose more life than I have?
+
+In a multiplayer game, I'm playing Exquisite Blood and resolve the second ability of Aetherflux Reservoir, dealing 50 damage to an opponent who's life total was only 10. I was able to pay the 50 life - that's not part of the question.
+What I want to check is if, when Aetherflux Reservoir's ability deals 50 damage to my opponent, Exquisite Blood's ability will make me gain 50 life, or if I only gain 10 - because that was my opponent's "available life" before.
+Rule 119.2 says “Damage dealt to a player normally causes that player to lose that much life”, and Rule 119.6 says “If a player has 0 or less life, that player loses the game as a state-based action”. The “or less life” makes me think that a player's life can be negative, and so I would gain 50 life - but I may be missing any other relevant rule here.
+I know I can't pay more life than I have per rule 118.4. But that doesn't tell me anything regarding losing more lives than I have.
+(not sure if tagging mtg-multiplayer since this can happen in 1v1, but can't think on a situation in which it matters)
+
+A:
+
+Yes, you can have a life total below zero. This is mainly a consequence of rule 107.1b:
+
+Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or a creature’s power and/or toughness.
+
+A player's life total is a game value, so it is possible for it to be less than zero. In addition, the last sentence specifically calls out that it is possible to set a player's life total to a negative value or double a negative life total.
+

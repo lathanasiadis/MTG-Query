@@ -1,0 +1,19 @@
+Q:
+
+Exert Ability Workings with Untap Abilities
+
+My main question is can you exert a creature twice in the same turn?
+For example, if I were to attack with and exert Champion of Rhonas, then activate Aggravated Assault's ability to untap and attack again, would I then be able to exert again giving me the ability to put another creature on the field?
+
+A:
+
+Yes, you can Exert a permanent multiple times in the same turn like this. The rules on Exert very helpfully clarify this:
+
+701.37. Exert
+
+701.37a To exert a permanent, you choose to have it not untap during your next untap step.
+701.37b A permanent can be exerted even if it’s not tapped or has already been exerted in a turn. If you exert a permanent more than once before your next untap step, each effect causing it not to untap expires during the same untap step.
+(and a couple of other lines)
+
+Very conveniently for us, all the Exerts only apply to the very next untap step. We won't have any Exerts "lagging behind", they all wear off simultaneously.
+

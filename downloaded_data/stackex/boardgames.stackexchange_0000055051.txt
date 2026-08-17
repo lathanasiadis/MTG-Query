@@ -1,0 +1,36 @@
+Q:
+
+Why doesn't my attack go through even after I remove the blocker?
+
+I've played a few games and an effect happens that I do not understand:
+
+I declared an attacker
+Opponent declares a blocker
+I use Unsummon or other Instant such as Murder and remove the declared blocker
+Blocker is sent to graveyard
+Opponent takes no damage and my attacker remains tapped! How come my attacker didn't attack?
+
+A similar effect that I don't understand happens in a slightly different scenario:
+
+I declare an attacker
+Opponent declares a blocker
+I cast an Instant that makes my attacker unblockable
+My attacker still clanks with blocker and trades damage! Why isn't the attack made unblockable?
+
+What is this rule/effect called? Can someone help me understand it better?
+
+A:
+
+The key rule is 509 - Declare blockers step, and especially 509.1 and 509.1h (emphasis added).
+
+509.1. First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 725, “Handling Illegal Actions”).
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+So between the defending player declaring blockers and the attacking creatures being blocked, there is no point where you gain priority and hence no opportunity for you to respond. By the point where you can cast Unsummon or activate an ability to make your creature unblockable, your creature has already been marked as being blocked and hence will (typically) not deal combat damage to your opponent.
+You can get around this by, for example:
+
+Giving your creature Trample, so that its excess combat damage is dealt to the opponent (noting that in the case where the other creature is Unsummoned, that will be all the damage);
+
+Making your creature unblockable before the Declare blockers step (e.g. at the end of the Declare attackers step, where you gain priority).
+

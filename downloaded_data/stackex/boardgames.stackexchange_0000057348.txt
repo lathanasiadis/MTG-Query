@@ -1,0 +1,49 @@
+Q:
+
+Can I use Sigil of Sleep to return a creature to opponent’s hand if I’ve just taken lethal damage?
+
+If I enchant an opponent’s creature with Sigil of Sleep, and my opponent deals me lethal combat damage with the enchanted creature, can I still return a creature to his hand, or does Sigil leave the game immediately because I’m out of the game, since the trigger for the ability was the damage being dealt?
+
+A:
+
+Sigil of Sleep cannot do anything after you've left the game. Its triggered ability will never occur.
+What happens as you're dealt lethal damage in combat?
+To look at how this situation resolves, first we need to look at what exactly happens during the combat damage step. That's governed by CR 510, but let's boil down the relevant bits:
+
+Creatures deal their assigned damage.
+
+In this step, the enchanted creature deals damage to you, so Sigil of Sleep's ability is triggered. However, triggered abilities don't go on the stack immediately as they occur, but later as players receive priority. (CR 117.2a)
+
+The active player is about to receive priority. This means we have to do a couple of things first (CR 117.5):
+
+First, we check state-based actions. (CR 704.5a) Creatures that would die from combat damage now die, and players that would lose due to 0 or negative life now lose. That means you lose here.
+Next, triggered abilities that have triggered since the last time a player received priority are put on the stack. (Your triggered ability will never do this, for reasons we'll get to later.)
+
+The active player gets priority.
+
+What happens in this scenario in 1v1?
+Considering this avenue makes sense if, say, your opponent controls a Platinum Angel and they'd lose if you bounced it. Do you get to take them down with you? Unfortunately, you don't get to do this and  your opponent wins.
+As you lose the game in step 2, you leave the game immediately, and your opponent wins the game immediately. The game now ends completely. We don't even bother continuing to check state-based actions, let alone proceeding past them to put triggered abilities on the stack.
+We can discover this by taking a look at CR 104: Ending the Game.
+On losing:
+
+104.5. If a player loses the game, that player leaves the game. [...]
+
+On winning:
+
+104.2a. A player still in the game wins the game if that player's opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+
+104.1. A game ends immediately when a player wins, when the game is a draw, or when the game is restarted.
+
+What about in multiplayer?
+In multiplayer, although you're gone, the game can still proceed. Multiplayer has a different process for players losing, described in CR 800.4. Here's the relevant bits:
+
+800.4a. When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. [...]
+
+So, during step 2, all your permanents immediately vanish, along with everything you had on the stack. This means Sigil of Sleep vanishes with you.
+However, you may recall the trigger isn't on the stack yet—so what happens with it? The answer is that it's never permitted to go on the stack:
+
+800.4d. If an object that would be owned by a player who has left the game would be created in any zone, it isn't created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn't put on the stack.
+
+So that pending triggered ability effectively vanishes from the queue of things waiting to go on the stack at the same time you leave the game.
+

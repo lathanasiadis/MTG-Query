@@ -1,0 +1,24 @@
+Q:
+
+How does Eye for an Eye work if my opponent casts a lethal Fireball on me
+
+My opponent and myself are at 5 life points. He casts a Fireball of 5 targeting me and I respond with Eye for an Eye so we both take five points of damage. Does my Eye for an Eye resolve first, because it is on stack, thus killing him before the Fireball has a chance to kill me?
+If so, does this also apply during the combat damage phase if one of his creatures attacks me thus killing him before his creature has a chance to kill me?
+
+A:
+
+You will both lose, meaning the game will be a draw.
+Your Eye for an Eye does resolve first, yes, but it doesn’t cause any damage when it resolves. All it does is set up a replacement effect that will happen the next time you would take damage this turn.
+So Eye for an Eye resolves, and then Fireball resolves. When Fireball resolves, instead of just you taking 5 damage, you and your opponent both take 5 damage at the same time.
+It would work the same if the damage were during combat. Your Eye for and Eye would resolve; setting up the replacement effect. Then when the creature would deal you damage, both you and your opponent take damage at the same time.
+
+104.3b If a player’s life total is 0 or less, that player loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+104.4a If all the players remaining in a game lose simultaneously, the game is a draw.
+
+State-Based Actions
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+704.5a If a player has 0 or less life, that player loses the game.
+

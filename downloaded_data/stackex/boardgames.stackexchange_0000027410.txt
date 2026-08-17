@@ -1,0 +1,16 @@
+Q:
+
+Does "Sacrifice a creature" trigger "sacrifice this creature"
+
+When choosing a creature to sacrifice (originated from a "sacrifice a creature" instruction), if the creature that is being sacrificed has "sacrifice this creature (for whatever result)", does it trigger?
+Does it make any difference if the target creature is a forced sacrifice instead of a volunteered sacrifice?
+Example scenario:
+I play Altar's Reap to draw 2 cards and target Bile Urchin as the sacrifice. Does this trigger Bile Urchin's "Sacrifice Bile Urchin: Target player loses 1 life."?
+I may have thought about this for too long and confused myself, so a little clarification would be great.
+
+A:
+
+It will not. Sacrificing is a cost paid for the effect to go on stack. Just like you can not spend 1 mana on different costs, you can not spend 1 creature on different costs.
+If you wanted it to work the way you described, the ability should be a triggered one, for example it could read: 'When this creature is sacrificed, ...'.
+(Also, keep in mind that sacrificing is not targeting anything. Untargettable creatures can still be sacrificed)
+

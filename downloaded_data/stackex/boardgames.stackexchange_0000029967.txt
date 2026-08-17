@@ -1,0 +1,18 @@
+Q:
+
+Starfield of Nyx and Eerie Interlude
+
+Say you have 7 enchantments on the field, including two Starfield of Nyx and a creature that cares about creatures entering the battlefield (e.g.Soul Warden). You cast Eerie Interlude targeting some number of the enchantment creatures to flicker them.
+I know that if you flicker 1 enchantment creature, it'll trigger Soul Warden once.
+
+If you flicker the two Starfield of Nyx, will they enter as creatures?
+If you flicker three non-Starfield enchantment creatures, will they re-enter as creatures?
+
+A:
+
+The enchantment creatures you flickered will enter the battlefield as enchantment creatures in both cases.
+The static ability of Starfield of Nyx creates a continuous, type-changing effect. As such, it works as soon as the permanent it changes enters the battlefield. As long as the condition is fulfilled, enchantments including themselves enter the battlefield as creatures and trigger Soul Warden. 
+Note that Soul Warden would be triggered even if Starfield's condition is only fulfilled with their own presence, e.g. if you flicker the 2 Starfields and control only 3 other enchantments.
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. [..]
+

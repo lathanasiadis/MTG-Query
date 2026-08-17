@@ -1,0 +1,42 @@
+Q:
+
+Avoiding Dovescape's Effect
+
+I’ve noticed Dovescape uses the specific word “cast” to trigger its ability, and I am curious about what effects circumvent its wording.  
+Will the following effects skirt through Dovescape?  
+
+Dualcaster Mage copying a not yet countered spell on the stack
+Ral, Storm Conduit ’s [-2] ability which would copy the next spell you attempt to cast, the Copy being unaffected since it was not “cast”
+Also related Spark Double (or Clever Impersonator) cloning an already in play Planewalker (Or any nonland/noncreature)
+Feel free to include additional effects which would improve this question.  
+
+A:
+
+The copy of the spell from the ETB effect of Dualcaster Mage will not be countered by Dovescape.  You are correct in saying that copies of spells are not cast, and thus do not trigger Dovescape.  This is also correct in the case of using Ral, Storm Conduit's -2 ability.
+Spark Double and Clever Impersonator will work as well.  These cards are creature spells on the stack and would not trigger Dovescape.  
+From the rulings on Clever Impersonator
+
+You choose which nonland permanent Clever Impersonator will copy, if any, as it enters the battlefield. This doesn’t target that nonland permanent.
+
+Once it enters the battlefield copying a Planeswalker, it's already been cast and resolved.  It's too late to counter it.
+To see, step by step, how it would work, here's how the interaction would play out.
+
+Player A casts Clever Impersonator.
+Dovescape does not see a non-creature spell cast, and thus doesn't trigger.
+Both players pass, and Clever Impersonator resolves.
+At this time, Player A choses the Planeswalker to have Clever Impersonator copy, and it enters the battlefield as a Planeswalker.  Dovescape doesn't trigger because a spell wasn't cast.
+
+With regards to other ways to get around Dovescape, there aren't a whole lot of options.  
+
+There are ways to make noncreature spells be uncounterable.  
+
+These cards would get around Dovescape, as they all say "This spell can't be countered."
+Veil of Summer and Determined can prevent spells from being countered for the rest of the turn if you can get them through Dovescape (see below).  Similarly Overmaster prevents the next spell from being countered, if you can get it through Dovescape.
+Taigam, Ojutai Master is a creature that prevents instants and sorceries from being countered (and dragons, but that doesn't matter for Dovescape)
+Thryx, the Sudden Storm is a creature that prevents spells with converted mana cost 5 or more from being countered
+Boseiju, Who Shelters All is a land that makes instants and sorceries uncounterable with it's mana ability
+Destiny Spinner is a creature that makes Enchantment spells uncounterable
+
+Dovescape's ability is a triggered ability.  There are cards that exist that allow you to counter triggered abilities, but with the exception of one in particular, are all non-creature spells that would also get countered by Dovescape. Nimble Obstructionist is the one exception, as cycling a card is not casting a spell, and it's triggered ability from cycling can counter Dovescape's effect
+The keyword ability Storm creates copies of itself for each time a spell had been previously cast.  The Dovescape ability will counter the original spell, but not any of the copies.
+

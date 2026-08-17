@@ -1,0 +1,22 @@
+Q:
+
+Can I cast a spell if I might be able to pay its cost but don't know yet?
+
+A Wizards forum thread had an interesting question that was left unanswered.  If I have only two black mana available, can I cast Fatal Lore if my opponent has a Spellwild Ouphe on the battlefield?  The issue is it is a legal play only if my opponent chooses the destroy creatures option (since I could target the Ouphe, making it cost two lest to cast).
+
+A:
+
+Since it is a legal play under some outcomes of the process of casting it, it is a legal play.  If your opponent chooses the mode where you draw cards, it will become an illegal spell and the game will be reverted to the state it was in before you began casting it.
+The precedent for this comes from a card specific ruling on Selvala, Explorer Returned:
+
+If you activate Selvala’s ability while casting a spell, and you
+discover you can't produce enough mana to pay that spell’s costs, the
+spell is reversed. The spell returns to whatever zone you were casting
+it from. You may reverse other mana abilities you activated while
+casting the spell, but Selvala’s ability can't be reversed. Whatever
+mana that ability produced will be in your mana pool and each player
+will have drawn a card.
+
+From this, we can tell that you are allowed to cast spells you might be able to pay for.
+As Hackworth and various members on the forum point out, the rules do not explicitly prevent you from attempting to cast spells you have no way of paying for in any circumstance, but doing so doesn't ever help you.  At best, it reveals a card in your hand with no other consequence.  At worst, it could get you disqualified in a tournament for repeat offenses of slow play or cheating (if you are attempting to cast an illegal spell to make an opponent reveal information in their reaction).
+

@@ -1,0 +1,26 @@
+Q:
+
+How did sorcery counter spells work?
+
+How exactly were the rules contrived as to make False Summoning actually able both be a sorcery spell and a counterspell?
+Has there been any official discussion as to how this came to be or how it worked, I know it happened years ago but I'm a little curious as to how this happened. 
+
+A:
+
+There's two parts to this.
+
+False Summoning is actually an Instant.
+False Summoning was introduced in a Portal set. Portal sets didn't have Instants.
+
+Gatherer actually has the wrong card image for the Masters Edition print; they just re-used the image from the Portal Second Age print. Scryfall has the correct image in which the card is an Instant.
+But, back to how this happened to begin with: back in 1997 thru 1999, Wizards released three Portal sets (Portal in 1997, Portal Second Age in 1998, and Portal Three Kingdoms in 1999). These products targeted new players as a teaching aid to introduce them to the game. In an effort to simplify the game, it did things like:
+
+use sword/shield icons for power and toughness
+rename blockers to interceptors (only in Portal '97)
+never call a card an Instant
+and more!
+
+A great example of all three of these particular differences at once is the card Defiant Stand. You'll notice it's an Instant in the Oracle text on Gatherer.
+That third one is the operative factor here. If a card needed instant timing, then in Portal it was instead printed with “Sorcery” on the type line, and it was printed with a specific instruction as to when you could/must play the card, and that meant you could cast it at that time (and only at that time). Hence we also get Sorcery counterspells that say you can cast them in response to someone else casting a spell. Make no mistake: this wouldn't work at all in regular Magic rules (you still don't have permission to cast a sorcery at those times) but Portal was operating on simplified rules.
+Now, teaching the player the game this way has some major problems. In particular, it's teaching the player poorly about how Sorceries work. Wizards of the Coast eventually decided this was the wrong approach too, and the Portal sets are no more. When Starter 1999 was released, instants were correctly labelled as such.
+

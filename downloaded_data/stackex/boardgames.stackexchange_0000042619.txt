@@ -1,0 +1,20 @@
+Q:
+
+If my opponent takes control of my creature, then it's exiled and later returns, is it still theirs?
+
+I was wondering, if someone casts Kari Zev's Expertise and I cast Seal Away on it, when it returns from exile does it return under my control or theirs? For example if I Blink of an eye the Seal Away?
+
+A:
+
+The creature will return to play under its owner's control.
+The comprehensive rules have the following to say on the matter:
+
+610.1. A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, creating a token, and moving an object from one zone to another.
+[...]
+610.3 Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3a If the specified event has already occurred when the initial one-shot effect would cause the object to change zones, the object doesn’t move.
+610.3b An object returned to the battlefield this way returns under its owner’s control unless otherwise specified.
+
+So exiling a creature is a one-shot effect, and Seal Away causes a creature to change zone from the battlefield to exile "until Seal Away leaves the battlefield", which means that 610.3 applies.
+Thus according to the rules, as long as the Seal Away was still on the battlefield when its triggered ability resolved (so that the exiling happens at all, see 610.3a above), whoever owns the creature gets to control it when Seal Away is removed form the battlefield. Normally, that means whoever started the game with that card in their library (although there are exceptions, like a commander starting in the command zone, or cards brought into the game by the different wishes).
+

@@ -1,0 +1,17 @@
+Q:
+
+Inalla, Archmage Ritualist and Sage of Fables interaction?
+
+I'm curious, when you cast Sage of Fables and copy it with Inalla do both the original and the copy come in with +1/+1 counters? or does just the copy?
+Reading this question about Inalla and Disciple of Bolas (note: not a SE link) makes me believe both get +1/+1 counters but I'd like a second opinion.
+
+A:
+
+Only the token copy of Sage of Fables will get a counter
+Sage of Fables works differently than Disciple of Bolas in several ways.
+It has a replacement effect, rather than a triggered ability, and it 'looks for' other creatures rather than itself.
+The difference between a replacement effect and a triggered ability is not actually relevant in this case.  It can be relevant - the biggest difference for these sorts of scenarios is that if multiple creatures enter the battlefield simultaneously (due to, for example, a kicked Rite of Replication), triggered abilities will 'see' all the other creatures that entered the battlefield at the same time, while a replacement ability will not.  So Rite of Replication on a Sage of Fables will only net you one counter on each copy, not 5 counters per.
+But that's not relevant here, because the two Sages of Fables are not entering the battlefield at the same time.  In this case, the card enters the battlefield, Inarra triggers, and then the token copy enters the battlefield.
+Sage of Fables' ability replaces the way a wizard enters the battlefield.  By the time the token copy has entered the battlefield, the original Sage is already there, and can't have its entrance replaced.
+This is different from Disciple of Bolas, whose triggered ability triggers when it enters the battlefield.  Every permanent can see itself enter the battlefield.  The ability sacrifices another creature, but that choice isn't made until the resolution of the ability.
+

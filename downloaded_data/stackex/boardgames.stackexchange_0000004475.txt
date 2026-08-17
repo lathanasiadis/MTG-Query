@@ -1,0 +1,26 @@
+Q:
+
+How is Test of Faith resolved?
+
+This is the scenario: He attacks with a 4/4, and I block with a 1/1. I cast Test of Faith on my 1/1.
+I say his creature dies, because I block three damage and become a 4/4, killing him, but he says that the +1/+1 counters don't come into play until all damage has been effected, meaning the 4th damage point would kill my creature.
+Who is right?
+
+A:
+
+P1 controls A: 4/4 attacker
+P2 controls B: 1/1 blocker
+Since Test of Faith has been cast and has resolved (probably during the declare blockers step, after declaring your blocker), it is not on the stack. When it resolves it creates a prevention shield that floats around, waiting for damage to prevent or the end of the turn to expire.
+The declare attackers and blockers steps finish and the combat damage step begins:
+
+P1 announces how attacking creatures assign damage (in this case, the only option is 4 damage from A to B).
+P2 announces how blocking creatures assign damage (in this case, the only option is 1 damage from B to A).
+Combat damage is dealt simultaneously as originally assigned, so your creature will only ever deal 1 damage in this combat even if its power changes now.
+Creature A takes 1 damage; creature B would take 4, but the Test of Faith shields change that: 3 damage is prevented, and 3 (permanent) +1/+1 counters are put on Creature B and it takes 1 damage.
+Even if the 4th point of damage lands before the counters are put down, neither player gains priority and so state-based effects (such as a creature dying) are not checked before the counters are placed. For more on this point, see thesunneversets' answer below.
+Both creatures are 4/4 and have taken 1 damage this turn.
+
+The combat damage step ends and the end of combat step begins.
+Result: neither creature dies; neither of you were correct!
+See: http://wiki.mtgsalvation.com/article/Combat_Phase
+

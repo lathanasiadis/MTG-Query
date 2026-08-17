@@ -1,0 +1,34 @@
+Q:
+
+Can I meld a creature if I've mutated it?
+
+What happens if I activate the melding ability of a creature while I both own and control it and the other half, but —
+
+Scenario 1: I have mutated under the creature?
+Scenario 2: I have mutated over the creature, then turned the merged permanent into a copy of the original creature?
+
+The comprehensive rules for meld don't mention mutate. The rules for merging permanents say only this about meld:
+
+726.2j A face-up merged permanent that contains a double-faced card or meld card can’t be turned face down.
+
+A:
+
+Yes, you can meld using a merged permanent. The other components of the merged permanent stay in exile.
+Meld effects, like on Gisela, the Broken Blade are written like this:
+
+At the beginning of your end step, if you both own and control Gisela, the Broken Blade and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares.
+
+First, the effect checks if you own and control a creature with the specified name, but that is all that it requires, so the creature can be a copy, or merged, or have its name changed, and the effect will still happen. The first thing the effect does is exile the two permanents. The specific result of this is described in rule 721.3 and subrules:
+
+721.3. If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone.
+
+721.3c If an effect can find the new object that a merged permanent becomes as it leaves the battlefield, it finds all of those objects. (See rule 400.7.) If that effect causes actions to be taken upon those objects, the same actions are taken upon each of them.
+
+Then the effect instructs you to meld the cards. Because of rule 721.3c, it actually instructs you to meld all of the exiled cards. The meld rules describe how this is handled:
+
+701.36a Meld is a keyword action that appears in an ability on one card in a meld pair. (See rule 712, “Meld Cards.”) To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined. The resulting permanent is a single object represented by two cards.
+701.36b Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren’t meld cards, or meld cards that don’t form a meld pair can’t be melded.
+701.36c If an effect instructs a player to meld cards that can’t be melded, they stay in their current zone.
+
+So, you can only actually meld the cards belonging to the meld card. In this example, that would be Gisela, the Broken Blade, and Bruna, the Fading Light. The other components of the merged permanent cannot be melded, so they stay in exile.
+

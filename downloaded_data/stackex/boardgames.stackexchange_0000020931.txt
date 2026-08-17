@@ -1,0 +1,15 @@
+Q:
+
+Casting Autumn Veil in response to opponent targeting my creature
+
+I have a creature in play.
+My opponent casts Dismember (A black spell), targeting it.
+In response I play Autumn's Veil, will the effect counters my opponent's spell?
+
+A:
+
+Yes, Autumn's Veil's effect will cause Dismember's target to be invalid, which means that it will be countered by the rules when it tries to resolve.
+More specifically, Autumn's Veil creates an effect that says that your creatures can't be targeted by blue or black spells. Then Dismember tries to resolve, but it no longer has a legal target, so it is countered. This is caused by rule 608.2b, part of the rules about resolving spells and abilities:
+
+If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal.
+

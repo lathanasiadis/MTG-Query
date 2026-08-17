@@ -1,0 +1,17 @@
+Q:
+
+Can I declare Brood Sliver's tokens as attackers?
+
+So in my Sliver deck I am running Brood Sliver and Heart Sliver. Let's say they're both on the battlefield, and a sliver deals damage to a player. Could I declare the tokens made as attackers or is it too late?
+Sorry if this question probably has an obvious answer, it's just something I was wondering about.
+
+A:
+
+No, you can't attack with those Sliver tokens the same turn you get them. In your combat phase, the following steps happen:
+
+You declare what creatures are attacking.
+Your opponents declare what creatures are blocking.
+Combat damage is dealt.
+
+Brood Sliver's ability triggers when a Sliver deals combat damage, so it is only in the Combat Damage Step that you get the tokens. At this point you have already finished dealing damage, so there's no chance to attack with the new tokens.
+

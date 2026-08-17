@@ -1,0 +1,18 @@
+Q:
+
+What happens if 2 separate abilities require you to sacrifice a creature?
+
+If i have two cards that force opponents to sacrifice every upkeep like for example
+Mogis God of Slaughter "At the beginning of each opponent’s upkeep, Mogis deals 2 damage to that player unless he or she sacrifices a creature."
+And Indulgent tormentor "At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life."
+Does the oppenent have to sacrifice twice? Or if they sacrifice Mogis's ability have they not allowed me to draw from indulgent tormentor?
+
+A:
+
+Your opponent has to sacrifice a different creature to each effect to stop that effect from happening. Note, however, that in your particular example, Mogis triggers only on your opponents' upkeeps and Indulgent Tormentor triggers only on your upkeep. However, if we consider the case where you control two Indulgent Tormentors, it's still basically the same question. And in that case, your opponent will have to sacrifice two creatures to stop you from drawing any cards.
+More specifically, here's the order of actions:
+
+As your upkeep begins, you choose who to target with each Tormentor trigger. In the interesting case, they both target the same player.
+Assuming nobody does anything else in between, the first triggered ability resolves. Your opponent chooses whether or not to sacrifice a creature. If they don't, you draw a card.
+The second triggered ability resolves. Your opponent again chooses whether or not to sacrifice a creature. If they don't, you draw a card, independent of what happened in step 2.
+

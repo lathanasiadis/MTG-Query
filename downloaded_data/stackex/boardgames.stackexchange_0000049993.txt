@@ -1,0 +1,28 @@
+Q:
+
+Order of enter the battlefield effects in multiplayer (Warp World)
+
+In a four player EDH game, Player 1 casts Warp World. Each player begins by shuffling their permanents into their library. Player 2 has a Banisher Priest on the battlefield, which currently has a Yarok, the Desecrated, owned by Player 3, under it. Next, everyone reveals an amount of cards from the top of their library equal to the amount of permanents they owned. They put all artifacts, creatures, and lands onto the field, and after that, enchantments. Then they put all cards not put onto the field onto the bottom of their library. Player 1 flips, among other cards, Grenzo, Dungeon Warden, and Faithless Looting. Player 2 hits Solemn Simulacrum and Panharmonicon. Player 3 flips Murderous Redcap, Panharmonicon, and Solemn Simulacrum. Player 4 hits Harvestguard Alseids, Doomwake Giant, and 4 enchantments. 
+What is the order of resolution on abilities?
+Can Enchantment Creatures be put out AFTER other creatures during the enchanment phase of flipping? Or must they be put on the battlefield at the same time as other creatures?
+Assumed:
+If possible, the Murderous Redcap will target Grenzo, Dungeon Warden, to attempt to stop him from putting the Faithless Looting in his graveyard after it goes to the bottom of his library.
+Player 4, if possible, will use Harvestguard Alseids to keep Player 1's Grenzo alive.
+Player 4, if possible, will have Doomwake Giant enter the battlefield as an enchantment
+The order of play is Player 1, Player 2, Player 3, Player 4.
+
+A:
+
+During Warp World's resolution, you have to put enchantment creatures on the battlefield as creatures. However, during Warp World's resolution, no triggered abilities enter the stack either, so for Murderous Redcap's ability, this specific order doesn't matter. Ultimately, you can't prevent Grenzo from fetching the Faithless Looting.
+Warp World gives clear instructions on the order in which to place permanent cards on the battlefield: you put all artifact, creature, and land cards down in any order, then enchantments (so that auras have something to attach to), and the rest to the bottom of the library. Enchantment creatures are creatures, so you put them down together with the other non-enchantments.
+During the resolution, ETB effects trigger as normal. However, they do not enter the stack yet, so you don't to choose any targets yet:
+
+117.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, “Handling Triggered Abilities.”) However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack.
+
+Therefore, by the time you have to choose a target for Murderous Redcap, all permanents will be on the battlefield to choose a target from, so it would not matter whether you put down enchantment creatures as creatures or enchantments. Consequently, it also does not matter whether, in the non-enchantment part of WW, you put down the Redcap or the Grenzo first.
+When the Warp World has finished resolving, the order of triggered abilities is determined by priority: The player with priority orders their abilities first, then all other players in turn order.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose. [..]
+
+That means that only when Warp World has finished resolving will the abilities go on the stack, and player 1 has an opportunity to activate Grenzo before Redcap's ability resolves. You have no way of preventing that in your scenario.
+

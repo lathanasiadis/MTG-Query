@@ -1,0 +1,24 @@
+Q:
+
+If a creature loses flying after blockers are declared, is the block still legal?
+
+My opponent declared attack with a flying creature, after that I declared a blocker with my own flying creature. He then cast Turn to Frog, targeting my blocker.
+My creature was a 6/6 flying, my opponent had a 3/3.
+The judge said that after he casts Turn to Frog my creature still blocks the flying but turned to 1/1.
+Is it correct that my creature still blocks the flying creature but becomes a 1/1 before dealing and taking damage?
+
+A:
+
+Yes, evasion abilities such as Flying only affect the declare blockers step. Once blockers are declared, flying no longer makes any difference.
+
+509.1b The defending player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.::: A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn’t affect that block. Different evasion abilities are cumulative.
+
+Your creature will be a 1/1 before doing or taking any damage, because Combat Damage step happens after declare blockers step. Your opponent was able to cast Turn to Frog during the declare blockers step, after blockers had been assigned; which is before the combat damage step.
+Combat phase is divided as follows:
+
+Beginning of Combat Step - Players can cast spells and activate abilities.
+Declare Attackers Step - After attackers are declared, players can cast spells and activate abilities.
+Declare Blockers Step - After blockers are declared, players can cast spells and activate abilities. (This is when your opponent was able to cast Turn to Frog)
+Combat Damage Step 
+End of Combat Step - Players can cast spells and activate abilities.
+

@@ -1,0 +1,37 @@
+Q:
+
+Hive Mind and Counterspell
+
+Let say I have Hive Mind in game:
+
+The opponent casts Counterspell on my creature spell. Can I counter the Counterspell with the clone of Counterspell I get from Hive Mind?
+
+A:
+
+Yes, you can. By the time Hive Mind's ability copies your opponent's Counterspell, that Counterspell is already on the stack. So you can choose it as a target for your own copy of Counterspell.
+In more detail, what happens is this:
+
+You cast your creature spell, which let's say is a Weirded Vampire. (Why would you be playing Weirded Vampire against Hive Mind? Weird, huh.) The stack is
+
+Weirded Vampire
+
+Your opponent casts Counterspell, and Hive Mind's ability triggers. The stack is
+
+Hive Mind's ability
+Counterspell (opponent's)
+Weirded Vampire
+
+The ability resolves, giving you a copy of Counterspell, which you can choose to have target the original Counterspell. The stack is
+
+Counterspell (yours)
+Counterspell (opponent's)
+Weirded Vampire
+
+Your Counterspell resolves, countering your opponent's Counterspell. The stack is
+
+Weirded Vampire
+
+The Weirded Vampire now resolves.
+
+This does mean that (in a 2-player game) Hive Mind basically nullifies any counterspell which can target a copy of itself.
+

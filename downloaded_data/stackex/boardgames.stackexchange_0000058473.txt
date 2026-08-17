@@ -1,0 +1,14 @@
+Q:
+
+Can I tap a tri-fetch land for mana with Chromatic Lantern before it sacrifices itself?
+
+Suppose I have Chromatic Lantern in play, and play Brokers Hideout.
+When Broker's Hideout enters the battlefield, it sacrifices itself for its ability.
+While that ability is on the stack, can I tap it for mana using the ability it gained from Chromatic Lantern?
+
+A:
+
+Yes, you can use any ability on that fetch land.
+Chromatic Lantern grants the mana ability as a static ability, meaning the Hideout will enter the battlefield with the mana ability already on it. The Hideout's sacrifice ability is a regular triggered ability that uses the stack and can be responded to at instant speed, and you can activate mana abilities at instant speed.
+Generally, you can interact with the Hideout with any instant-speed spell or ability. That is the very reason why the Hideout has the "When you do" clause on it - the designers anticipated people interacting with the Hideout before it is actually sacrificed to its own ability.
+

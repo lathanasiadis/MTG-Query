@@ -1,0 +1,51 @@
+Q:
+
+Can I save my Bristling Hydra by responding to removal with something that gives me energy?
+
+If I attack with Bristling Hydra and my opponent plays Vraska's Contempt to exile it, can I play Harnessed Lightning to get 3 energy to give my hydra hexproof?
+
+A:
+
+Yes. Players get priority after each spell or ability resolves (starting with the Active Player).[CR 116.3b]
+
+Harnessed Lightning is an instant, so it may be cast in response to Vraska's Contempt. Harnessed Lightning needs to target a creature. You could target your own Bristling Hydra and choose to deal no damage to it on resolution. (It might be safer to target an opponent's creature, but I'm assuming there are no other creatures on the 'field.) As the last spell or ability added to the stack, it resolves next.
+After Harnessed Lightning resolves, you can activate Bristling Hydra's activated ability. As the last spell or ability added to the stack, it resolves next.
+Finally, Vraska's Contempt would resolve, but is countered by the rules for having only illegal targets. Your opponent doesn't even get the 2 life.
+
+The following is the game flow in detail:
+
+NAP casts Vraska's Contempt targeting NAP's Bristling Hydra.
+NAP passes priority.
+AP casts Harnessed Lightning targeting their Bristling Hydra.
+AP passes priority.
+NAP passes priority.
+Harnessed Lightning resolves:
+
+AP gains 3 energy.
+AP chooses not to pay any.
+AP deals no damage to their Bristling Hydra.
+
+AP activates Bristling Hydra activated ability
+AP passes priority.
+NAP passes priority.
+Bristling Hydra activated ability resolves:
+
+AP puts a +1/+1 counter on their Bristling Hydra.
+Their Bristling Hydra gains Hexproof.
+
+AP passes priority.
+NAP passes priority.
+Vraska's Contempt is countered by the rules for having only illegal targets.
+
+The following is how the above might be voiced (using tournament shortcuts):
+
+NAP: I cast Vraska's Contempt targeting your Bristling Hydra. [Implicitly passes.]
+AP: In response, I cast Harnessed Lightning targeting my Bristling Hydra. [Implicitly passes.]
+NAP: Pass.
+AP: Harnessed Lightning resolves. I pay nothing.
+AP: In response to Vraska's Contempt, I activate Bristling Hydra's activated ability. [Implicitly passes.]
+NAP: Pass.
+AP: Bristling Hydra's ability resolves.
+AP: [Proposes a shortcut:] Vraska's Contempt is countered.
+NAP: [Accepts shortcut:] ok.
+

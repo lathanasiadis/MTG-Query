@@ -1,0 +1,14 @@
+Q:
+
+How do extra imprinted cards work?
+
+If I control a Panharmonicon, I can have more cards imprinted on an artifact than was intended. For most cases, it seems that you would just select one card from the exiled cards (for example, Isochron Scepter. What if I have a Prototype Portal with a 2 drop and a 4 drop? What is the cost to activate the ability? Could I pay 2, then get a copy of the 4 drop?
+
+A:
+
+Anytime a card with Imprint (or other cards that have a triggered ability that is linked to a second ability) refers to 'the exiled card' it really refers to both cards. In cases like Prototype Portal (where it looks at properties of exiled card) you would have to look at both cards, and add their CMCs together. You would then get to make tokens of both cards.
+From the Gatherer rulings on Panharmonicon:
+
+If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to “the exiled card,” it refers to all cards exiled by instances of the triggered ability. For example, if Isochron Scepter’s enters-the-battlefield ability triggers twice and two instant cards are exiled, both will be copied when its second ability is activated. You may cast either or both of the copies in any order.
+In some cases involving linked abilities, an ability requires information about “the exiled card.” When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist’s enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist’s other ability is the sum of the two cards’ converted mana costs. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+

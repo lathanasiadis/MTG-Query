@@ -1,0 +1,21 @@
+Q:
+
+How does Cascade work with Teferi?
+
+Teferi, Time Raveler says that enemies can only cast spells at sorcery speed. Does this prevent spells that are getting cast off of Cascade from casting? 
+
+A:
+
+Teferi will stop Cascade from working; as well as any other triggered or activated abilities that allow you to cast a spell as part of the abilities’ resolution. 
+From a Gatherer ruling on a similar card, Teferi, Mage of Zhalfir:
+
+11/17/2017 If a spell or ability lets an opponent cast a card as part of its effect (such as suspend and rebound do), that opponent can’t cast that card since the currently resolving ability is still on the stack. This is true even if that card is an instant.
+
+This is because Teferi’s ability is a restriction, so the second golden rule applies:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+Also, it does not matter that while cascade is resolving, it is actually a time that you could cast a sorcery, because that's not actually what "when you could cast a sorcery" means:
+
+307.5. If a spell, ability, or effect states that a player can do something only “any time they could cast a sorcery,” it means only that the player must have priority, it must be during the main phase of their turn, and the stack must be empty. 
+

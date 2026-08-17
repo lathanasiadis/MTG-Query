@@ -1,0 +1,39 @@
+Q:
+
+Can a creature have negative toughness?
+
+I know a creature can technically have negative power, but since a creature would normally die if it reaches 0 toughness, I can't find an official ruling.
+The reason I ask is based on +1/+1 counters. Let's say I have a Relic Seeker that has renowned; a base 2/2 with a +1/+1 counter. Now, if my opponent were to cast Cruel Finality, Relic Seeker would be reduced to a 0/0, but he's getting that +1/+1 from the counter, keeping him alive... so do +1/+1 counters bypass the toughness=0 death? Or can toughness go negative?
+Another example: My opponent casts Languish. Is Relic Seeker now a -2/-2, and the +1/+1 counter isn't enough to keep it alive? Or does its toughness get reduced to 0 and become unable to go lower since Relic Seeker should die, and the +1/+1 keeps it above 0?
+
+A:
+
+There are two things going on here.
+Toughness and base toughness
+First, the question you didn't ask, but which I think really underlies your confusion, is on the definition of toughness. When you calculate a creature's toughness, you take into account all toughness-changing effects, including counters. So the toughness of your renowned Relic Seeker is 3. Not 2. Not 0 either. The number marked on the card, 2, is called the "base toughness", and it only gives you a starting point for the toughness calculation. It doesn't have any further significance in the game.
+So in your first example, this is (technically) the wrong way to describe it:
+
+Now, if my opponent were to cast Cruel Finality, Relic Seeker would be reduced to a 0/0, but he's getting that +1/+1 from the counter, keeping him alive...
+
+What you should say instead is that, if your opponent were to cast Cruel Finality, Relic Seeker is reduced to a 1/1. Working from a base power and base toughness of 2/2, it gets -2/-2 from Cruel Finality and +1/+1 from the counter, all of which adds up to 1/1.
+All this is controlled by rule 613.3, if you're curious.
+
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+613.3a. Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.3b. Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c. Layer 7c: Effects that modify power and/or toughness (but don't set power and/or toughness to a specific number or value) are applied.
+613.3d. Layer 7d: Power and/or toughness changes from counters are applied. See rule 121, "Counters."
+613.3e. Layer 7e: Effects that switch a creature's power and toughness are applied. Such effects take the value of power and apply it to the creature's toughness, and take the value of toughness and apply it to the creature's power.
+
+Negative toughness
+Now the question you did ask, whether toughness can be negative: yes, it can. This is controlled by rule 107.1b, where you will see that toughness is one of the exceptions to the rule that Magic mostly uses nonnegative numbers.
+
+107.1b. Most of the time, the Magic game uses only positive numbers and zero. You can't choose a negative number, deal negative damage, gain negative life, and so on. However, it's possible for a game value, such as a creature's power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect sets a player's life total to a specific value, doubles a player's life total, sets a creature's power or toughness to a specific value, or otherwise modifies a creature's power or toughness.
+
+So in your second example, you have a renowned Relic Seeker and your opponent casts Languish. It starts with a base power and base toughness of 2/2, gets -4/-4 from Languish, and gets +1/+1 from the counter, all of which adds up to a power and toughness of -1/-1. Since its toughness is 0 or less, it dies (when state-based effects are checked).
+It sounds like you may have thought there was a rule like this:
+
+If an effect would reduce a creature's toughness to less than 0, it reduces it to 0 instead.
+
+But there is no such rule.
+

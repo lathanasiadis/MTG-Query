@@ -1,0 +1,19 @@
+Q:
+
+Is it possible to destroy Dragon Mantle without the owner successfully activating it?
+
+I was playing last night, and the following situation arose.
+I had a creature out with Dragon Mantle on it, which allows me to spend a red mana to give it +1/+0. My opponent wants to swing in with his larger creature, but doesn't want to have his large creature die to me pumping up my small one with Dragon Mantle. He's holding a Destructive Revelry. Is there a time he can play it such that I fail to pump my creature?
+My understanding is that
+
+If he plays it before I start pumping, I can pump in response and I will succeed as my pumps will resolve before the enchantment is destroyed.
+If he plays it after I start pumping, my pumps are already on the stack and will still resolve after the enchantment is destroyed. (I am not 100% sure about this)
+
+Is this correct? Are there situations where he can succeed? (i.e. if the wording on the enchantment was slightly different)
+
+A:
+
+He cannot prevent you from pumping it. As you say, you can either pump on your own or pump in response to the destruction, either way the pumps will resolve and his creature will die. The only way to prevent this is to kill the creature it's attached to.
+If the enchantment was to read "R: Enchanted creature gets +1/+0 until end of turn as long as ~ is attached to it" then things would work as your opponent would want. Obviously this isn't the case, and I am not aware of a card that functions in this way.
+Similarly, if he has priority and you have not pumped yet, he can prevent you from activating it with a card like Krosan Grip.
+

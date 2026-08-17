@@ -1,0 +1,21 @@
+Q:
+
+How do Faceless One and The Prismatic Piper work?
+
+Faceless One and The Prismatic Piper are both legendary creatures (and in one case also a background) with the following ability:
+
+If CARDNAME is your commander, choose a color before the game begins. CARDNAME is the chosen color.
+
+It's clear these cards are designed to allow for adding an additional color to a deck's color identity, but how do they work in terms of rules mechanics?
+For a reductionist example, let's say I build a mono-blue deck with Faceless One as the commander.  This deck is a valid deck if I declare "blue" as the pre-game color for Faceless One.  But what exactly in the rules stops me from choosing "green" between building the deck and starting the game?  I intuit that I'm not allowed to choose "green" as that would make the deck illegal, but how is choosing "green" pre-game different from using Prismatic Lace to change the commander's color to green after the game starts (which is legal)?
+
+A:
+
+The rules in question are the following (emphasis mine):
+
+903.4a Color identity is established before the game begins.
+903.4b If a commander has a static ability that causes a player to choose its color before the game begins, that choice applies during deck construction and throughout the game, even as the commander changes zones. That choice affects the commander’s color identity. The player reveals that choice as they put their commander into the command zone before the game begins. See rules 103.2c and 607.2p.
+
+So, it's not the case that the ability lets you pick an arbitrary color before each game but rather the color you chose for that commander is established as part of making the deck list.
+These abilities are different from color changing effects in game because color identity is established "before the game begins", i.e. during deck construction and isn't modified after that.  As a result of this, the choice of color for Faceless One will affect the types of mana that can be produced by Command Tower whereas using Prismatic Lace on a commander will not.
+

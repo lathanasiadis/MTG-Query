@@ -1,0 +1,13 @@
+Q:
+
+What counts as a counter?
+
+Does Chief of the Edge's ability count as a +1/+0 counter? I want want to use it for other cards such as Ainok Bond-Kin's ability ("each creature you control with a +1/+1 counter gets first strike"). I cant find confirmation anywhere.
+
+A:
+
+Only things that are actually referred to explicitly as counters are counters. And since Ainok Bond-Kin cares specifically about +1/+1 counters, you should be looking for cards that explicitly create +1/+1 counters.
+So no, Chief of the Edge does not put counter(s) on anything, because it doesn't say the word "counter(s)". Rather, it creates a continuous effect granting +1/+0 to all your Warriors as long as it's on the battlefield, whether they entered the battlefield before or after it. If Chief of the Edge subsequently leaves the battlefield, that effect disappears and those creatures will shrink back down.
+By far the most common kind of counters are +1/+1 counters, though there are plenty of others. Counters are used for things that are created at a single point in time, are associated with the permanent you place them on, and will stick around indefinitely. For example, Drana, Liberator of Malakir gives counters to your other attacking creatures, and those counters exist on those creatures independently of Drana, so they'll stick around even if Drana dies.
+Side note: there are, by the way, some old cards that use +1/+0 counters, rather than a continuous +1/+0 effect like Chief of the Edge. But those cards would still not work with Ainok Bond-Kin, because it looks for +1/+1 counters.
+

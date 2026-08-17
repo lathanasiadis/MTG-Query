@@ -1,0 +1,25 @@
+Q:
+
+Can regenerate save a creature from -X/-X effects?
+
+My opponent has a Rakshasa Deathdealer. What happens when I cast a Bile Blight on that creature? Does regenerate let the creature survive or will the -3/-3 until end of turn from Bile Blight simply kill the creature whether it regenerates or not?
+I also appreciate that the +2/+2 ability on this particular creature would in fact save it without any of the above interaction, but certain plays beforehand had caused this to be an unviable option for my opponent.
+
+A:
+
+Regenerate will not save the creature. The state based action that moves the creature to the graveyard in this case does not technically destroy it.
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+Even if regeneration could replace this kind of death, the creature would simply die again anyway because it would still have -3/-3.
+Regeneration can replace:
+
+Actual destruction, such as the destruction wrought by Dreadbore
+The state based action described by 704.5g
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+The state based action described by 704.5h
+
+704.5h If a creature has toughness greater than 0, and it’s been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+

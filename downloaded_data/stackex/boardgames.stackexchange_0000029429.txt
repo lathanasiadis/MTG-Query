@@ -1,0 +1,20 @@
+Q:
+
+How does casting a Storm spell on Zada, Hedron Grinder work?
+
+Related Question: How does each copy of a spell cast to Zada, Hedron Grinder count towards Storm abilities?
+If I cast a storm spell that targets only Zada, Hedron Grinder (like Astral Steel) then I will have a copy of it for each of my creatures. However, If spells had already been cast this turn, then I will have more than one copy of the Storm Spell, a nd I could have each copy target Zada. Would the additional copies of the storm spell also trigger Zada's ability, thus giving me more than one copy of the spell per creature?
+
+A:
+
+Zada only makes copies of the original Storm spell, not the copies that it makes.
+Zada has the text
+
+Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+
+And the definition of Storm says
+
+Storm is a triggered ability that functions on the stack. “Storm” means “When you cast this spell, put a copy of it onto the stack for each other spell that was cast before it this turn. If the spell has any targets, you may choose new targets for any of the copies.”
+
+The copies of the spell that storm creates are put onto the stack, not cast, so Zada's ability does not trigger when that happens. So, Zada only makes copies of the original spell that you cast.
+

@@ -1,0 +1,16 @@
+Q:
+
+What happens if you control two Krark's Thumb and you have to flip a coin?
+
+If I have Sakashima of a Thousand Faces out, a Krark's Thumb and a Copy Artifact that copies Krark's Thumb what happens when I have to flip a coin? Does it go infinite and result in a draw? Do I flip two coins? Do I flip four coins?
+
+A:
+
+Krak's ability is a replacement effect. The relevant rule is
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+Example: A player controls two permanents, each with an ability that reads “If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.” A creature that normally deals 2 damage will deal 8 damage—not just 4, and not an infinite amount.
+
+Like the example, two Krark's Thumbs would cause you to flip four coins.
+These flips technically aren't at the same time, but you can generally get away with flipping four coins at the same time and taking whichever you prefer. However, if they want, your opponent can insist on you flipping them two at a time. You can probably also declare before you flip any of them which result you prefer, then flip all of them at the same time; this would probably fall under the general concept of "shortcut". It's generally obvious which result you prefer, but if you don't want to reveal it, and your opponent is a stickler for the rules, you'll have to flip two at a time. Obviously, if the coins come up with different results, then which one you pick will reveal which you prefer, but if you flip two at a time, and they all come up the same, you can keep which you would have preferred secret. This is more of an issue if you had two Krark's Other Thumbs and you would roll a die: if you want to roll all four dice at the same time and it's not obvious what your preference ordering is, you have to declare it ahead of time, and it'll probably be faster to just roll the dice two at a time.
+

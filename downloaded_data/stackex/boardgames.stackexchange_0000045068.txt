@@ -1,0 +1,14 @@
+Q:
+
+How does Phasing work with Phyrexian Unlife?
+
+I have the card Phyrexian Unlife on the battlefield, and I have less than 0 life. If I cast Teferi's Protection, what happens? Do I lose the game because Phyrexian Unlife is phased out? Or does it still keep me alive?
+
+A:
+
+If you have zero or less life, a phased out Phyrexian Unlife will not save you from losing the game. Under the rules for Phasing, rule 702.25b says
+
+If a permanent phases out, its status changes to "phased out." Except for rules and effects that specifically mention phased-out permanents, a phased-out permanent is treated as though it does not exist. It can't affect or be affected by anything else in the game. A permanent that phases out is removed from combat. (See rule 506.4.)
+
+Since the phased-out Phyrexian Unlife can't affect anything else in the game, that means it can't affect whether you lose the game from having 0 or less life.
+

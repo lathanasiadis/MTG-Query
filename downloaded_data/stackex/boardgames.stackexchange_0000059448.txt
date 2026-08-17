@@ -1,0 +1,18 @@
+Q:
+
+After completing the Undercity how to order Sefris completion and enter the battlefield triggers
+
+I am currently in the Undercity and have Sefris of the Hidden Ways on the battlefield. If I venture into the last room of the Undercity, Throne of the Dead Three, I resolve the ability by putting a creature with an enters the battlefield trigger into play which is Aarakocra Sneak. After the dungeon ability resolves the Undercity is removed from the game and I count as completing the dungeon and Sefris' last ability should also trigger.
+At this point should I get priority and choose to order Sefris of the Hidden Ways ability or Aarakocra Sneak's ability on the stack and resolve in the order I want?
+I think it should follow rule 603.3b If multiple abilities have triggered since the last time a player received priority.
+
+A:
+
+You can put the two abilities on the stack in any order.
+First, the dungeon's triggered ability resolves, putting Aarakocra Sneak onto the battlefield. The Sneak's ability triggers at this time. After the dungeon's triggered ability resolves, rules 309.6 and 309.7 take effect:
+
+309.6. If a player’s venture marker is on the bottommost room of a dungeon card, and that dungeon card isn’t the source of a room ability that has triggered but not yet left the stack, the dungeon card’s owner removes it from the game. (This is a state-based action. See rule 704.)
+309.7. A player completes a dungeon as that dungeon card is removed from the game.
+
+The dungeon is removed from the game, which causes you to complete the dungeon, which triggers Sefris's second ability. After that, you put the triggered abilities on the stack. Two abilities have triggered and are waiting to be put on the stack, and you control both, so you choose the order they go on the stack as a result of rule 603.3b referenced in the question.
+

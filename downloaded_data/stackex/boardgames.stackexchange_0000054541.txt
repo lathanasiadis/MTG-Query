@@ -1,0 +1,17 @@
+Q:
+
+An exiled planeswalker returned with loyalty higher than printed in Arena
+
+In Arena, I exiled enemy's Teferi, Hero of Dominaria using Banishing Light. Some time later Banishing Light was destroyed and Teferi returned to play. It had immediately 8 loyalty.
+What allows this? I thought planeswalkers return with printed loyalty?
+
+A:
+
+Your thinking is correct, when Teferi, Hero of Dominaria returns from exile as a result of Banishing Light being destroyed, it is a brand new object that should be exactly as if it was being played for the first time.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+There are several possible effects that could cause Teferi to have entered with 8 loyalty counters, but no way to know for sure what happened in your particular game unless you know the entire board state.
+One simple possibility is that your opponent could have had Doubling Season or Vorinclex, Monstrous Raider or a similar card in play, which would cause their planeswalkers to enter with twice the normal amount of loyalty counters.
+They also could have activated an ability such as Gilder Bairn as soon as Teferi entered play.
+

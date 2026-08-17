@@ -1,0 +1,20 @@
+Q:
+
+Can I return a copied spell from exile to my hand via Narset's Reversal?
+
+I cast a spell like Mizzix's Mastery:
+
+Exile target card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery. [...]
+
+Then I cast something like Narset's Reversal:
+
+Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.
+
+Does the copied spell that got exiled with the first card return to my hand? Or is this not possible since the spell is a copy of the exiled card?
+
+A:
+
+The latter; Comprehensive Rule 707.10a:
+
+707.10a If a copy of a spell is in a zone other than the stack, it ceases to exist.
+

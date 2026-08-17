@@ -1,0 +1,14 @@
+Q:
+
+Can you activate the abilities of a creature once its been destroyed?
+
+My question is about Zacama, Primal Calamity or any creatures with abilities that are activated using mana. If such a creature is destroyed, can you activate its abilities as an instant after it's been destroyed.
+
+A:
+
+No, you cannot activate an ability once a creature has been destroyed; when a creature is destroyed, it is moved to the graveyard immediately without players getting priority, so there is no chance to activate any abilities, and Comprehensive Rule 113.6 makes it clear that abilities function only on the battlefield (unless some specific exceptions apply):
+
+Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield.
+
+What is possible (and common) is to activate the ability in response to the spell or trigger which would destroy the creature going onto the stack, but before it resolves.
+

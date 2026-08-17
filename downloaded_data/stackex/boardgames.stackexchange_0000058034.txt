@@ -1,0 +1,17 @@
+Q:
+
+Vesuvan Shapeshifter token copies turned face down
+
+What happens when Vesuvan Shapeshifter token instance is turned face down? Can you still unmorph it since the created token is a copy of Vesuvan Shapeshifter? Does it matter if the token was created from copying a Vesuvan Shapeshifter on the stack or on the battlefield?
+
+A:
+
+There are two main possibilities here, depending on what the token is exactly.
+The first possibility is that the token is a copy of Vesuvan Shapeshifter itself. This could happen by copying a Vesuvan Shapeshifter spell on the stack, or by having a face up Vesuvan Shapeshifter that is not copying anything, and copying that. In this case, the token will work exactly like a Vesuvan Shapeshifter. You can choose to use its copy effect as it enters the battlefield, and if so it will be a copy of whatever you choose with the upkeep trigger. And if you choose to turn it face down, it will be a regular 2/2 face down creature and you will be able to turn it face up using the Morph ability.
+The second possibility is that the token is a copy of whatever Vesuvan Shapeshifter is copying. In that case, it will be a copy of whatever that other creature is, with the upkeep ability. If you choose to turn it face down it will be a regular 2/2 face down creature, but it will still be a copy of that other creature, so you can only turn it face up if that other creature has Morph.
+The reason it works this way is rule 707.3, and the first example is directly relevant:
+
+The copy’s copiable values become the copied information, as modified by the copy’s status (see rule 110.5). Objects that copy the object will use the new copiable values.
+
+Example: Vesuvan Doppelganger reads, “You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn’t copy that creature’s color and it has ‘At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn’t copy that creature’s color and it has this ability.’” A Vesuvan Doppelganger enters the battlefield as a copy of Runeclaw Bear (a 2/2 green Bear creature with no abilities). Then a Clone enters the battlefield as a copy of the Doppelganger. The Clone is a 2/2 blue Bear named Runeclaw Bear that has the Doppelganger’s upkeep-triggered ability.
+

@@ -1,0 +1,11 @@
+Q:
+
+Predator's Rapport and counters
+
+Suppose Predator's Rapport's target has counters (for example, a few +1/+1 counters). Do the counters count when calculating the gained life? I thought power and toughness do not change after adding counters.
+
+A:
+
+Yes. When a card refers to any creature's power or toughness, it always means the creature's current power or toughness, not what is printed on the card. This includes any +1/+1, -1/-1 or other counters that modify power and toughness; any equipment or enchantments attached to the creature that modify power and/or toughness, and any effects from cards such as Giant Growth, Glorious Anthem, or Bile Blight.
+Note that damage on a creature does not change its toughness.
+

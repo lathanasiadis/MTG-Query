@@ -1,0 +1,13 @@
+Q:
+
+instants and sorceries with activated abilities while on the stack
+
+I only know of one instant with an activated ability: lightning storm. Are there any other instants or sorceries that have an activated abilities while on the stack? Also are there any permanents that have an activated ability that only works on the stack?
+
+A:
+
+Lightning Storm appears to be the only spell with an activated ability that functions on the stack.
+There are a couple of other spells that have an unusual static ability that functions on the stack: Torrent of Lava and Kaervek's Torch. (There's also the more common "(this spell) can't be countered" static ability or the "when you cast (this spell)" triggered ability found especially on Eldrazi cards.)
+We can check this by by searching for all instants and sorceries with an : in their text (and we'll filter out mention of Eldrazi scion/spawn tokens for convenience) — the only one in there with an activated ability that functions on the stack is Lightning Storm.
+We can also make a regex search for cards that mention the word "stack" at all. For abilities to function on the stack, they'll have to mention being able to function that zone. From that search we also see Torrent of Lava and Kaervek's Touch.
+

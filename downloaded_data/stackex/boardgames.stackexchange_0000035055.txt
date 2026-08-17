@@ -1,0 +1,18 @@
+Q:
+
+Are Planeswalkers "Legendary"?
+
+The new Amonkhet card Lay Bare the Heart says it can remove a non-land, non-legendary card from the opponent's hand. I'm curious if it can hit planeswalkers. I know they suffer from the "legendary rule", but as they don't explicitly say "legendary" on the card I'm inclined to believe that they can be targeted. Does anyone have an official ruling?
+
+A:
+
+The rules for planeswalkers changed with the release of Ixalan on September 29, 2017, so the second part of this answer is no longer correct, but is left for posterity.
+With the release of Ixalan all planeswalkers have the Legendary supertype (with all previous ones receiving errata to add it to existing cards), and the Planeswalker Uniqueness Rule has been removed.
+This change means that they are no longer be a valid choice for Lay Bare the Heart since Ixalan came out.
+
+They can be chosen with Lay Bare the Heart because Planeswalkers are not Legendary. While the 'Legend Rule' and the 'Planeswalker Uniqueness Rule' have similar effects, they are not the same, and they look at different information on the card.
+The Legend Rule looks at the name of the card, so you can have Niv-Mizzet, Dracogenius and Niv-Mizzet, the Firemind on the battlefield at the same time even though they are the same character because the card name is different. However you could not have Nissa Revane and Nissa, Steward of Elements on the battlefield at the same time because the Planeswalker Uniqueness Rule looks at the planeswalker type and they both have the planeswalker type 'Nissa'.
+
+704.5j If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “planeswalker uniqueness rule.”
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+

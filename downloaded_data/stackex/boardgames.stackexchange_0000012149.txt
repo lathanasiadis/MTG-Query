@@ -1,0 +1,43 @@
+Q:
+
+What chance do I have of my foil being a rare or mythic?
+
+If I open a pack, and it contains a foil, this foil could be any card in the set, from basic lands to the most expensive mythic rare. My question is, does each individual foil card have the same chance of being opened? Or does it follow the same distribution as boosters follow?
+To illustrate, if you were to open boosters until you got 14 foils, would those foils be in a distribution equivalent to the number of commons/uncommons/rares in the set? Or would those 14 foils be in the distribution equivalent of a booster (e.g. 10 commons, 3 uncommons, 1 rare)?
+Crucially, can you supply evidence to support this?
+
+A:
+
+In a standard full‐sized, Magic: The Gathering set, you have 15 Mythic Rares, 53 Rares, 80 Uncommons, 101 Commons and often 20 basic lands. A booster pack is 10 Commons, 3 Uncommons, 1 Rare, 1 Land, plus 1 Token or Advertisement card. When there is a foil in a pack, the Common is removed, having 9 Commons instead.
+Everything is based off of sheets. That’s the way cards come off the printers. Sets are printed on sheets of 11 × 11. Rares are printed 2:1 to Mythic Rares on exactly 1 rare sheet (which can be evidenced in many images of uncut Magic rare sheets online, and more importantly, corroborated by Mark Rosewater himself in his article. These printed sheets form the boosters that customers purchase in retail stores.
+Here’s what a sample print run looks like, using all the cards to build boosters:
+ 1 Rare sheet (121; 106 Rares + 15 Mythic Rares)
+ 3 Uncommon sheets (363; or 4.5 × 80 Uncommons spread across 3 sheets) 
+11 Common sheets (1331; or 11 × 121; 101 Commons + 20 Basic Lands)
+
+   (Plus, extra regular sheets for tokens and ads)
+
+We know foils have sheets just like regular cards do. There’s an image of a foil sheet posted as a different answer to this question, confirming they are print the same as Rares for regular cards: 2 Rare for every 1 Mythic Rare, filling up an entire sheet of 121.
+So how often are foils from the foil Rare sheet pulled from booster packs? My experience matches many others, which is just over 1 every box or so. Most of the time I have gotten 1, but just a few times I have gotten 2 foil Rares. Boxes have 36 booster packs each. This fits nicely in the ratio of 4 foils from the foil rare sheet on a batch of 121 boosters (121:4, which is close to 30:1).
+My experience also matches that of Hogan’s and many, many others, which is somewhere around 4:1 for packs per foil. In a sealed deck tournament, you get 6 boosters packs, and usually open one, but sometimes two. This forum post does a very decent job breaking the statistics down. The 15/63 mentioned, the best I can tell, is just a guess. If this was extrapolated, that’s about 30/121, which would be pulling 30 foils for our 121 packs (which, no surprise, is 4.033:1).
+So, of the 30 foils you would see in 121 packs, you would get 4 Rares, meaning there’s a 4/30 chance of your foil card being a Rare or a Mythic Rare. (This is just a guess.)
+The ratio of foil rarities is not the same as non‐foils. Maro actually says this in his article. It’s better than the standard ratio, and it has to be. We have about 1 foil in 4 packs, and 1 foil Rare/Mythic Rare in 30 packs — there just wouldn’t be enough foils to fill to have 10:1 Common to Rare foils! So, what is the correct foil ratio then?
+If we have a single Rare foil sheet, we’ll have some number of foil Uncommon and Common sheets too. But why 30 choices? At this point, we probably should be basing this off of the total number of foil Rares rather than non-foil Rares. (At the very least, we can account for using every single foil card possible.) In other words, instead of 121 packs, we should look at expending an entire Rare foil sheet. Instead of pulling 4 Rares in 30 foils, why not pull all 121 Rare foils — for thirty times as many packs.
+So let’s simulate a print run. Here’s how it will break down:
+  1 Foil Rare sheet
+  2 Foil Uncommon sheets?
+  4 Foil Common sheets?
+ 30 Rare sheets
+ 90 Uncommon sheets (3× Rare)
+330 Common sheets (11× Rare)
+
+There should exist somewhere around 780 foil Uncommon and Common cards (26 of 30 foils in 121 packs is 780 in 3630 packs).
+As far as Uncommons go, originally, Wizards printed 60 in a large set (which fits nicely, twice, on a sheet of 121 cards). It wasn’t until the last few years they increased this to 80, citing the need for more variation during draft without the prevalence of the cards from a third set. But that’s okay, because three runs of 80 happens to also fit nicely onto 2 sheets of 121 cards (80 × 3 = 240, or 2 sheets).
+If we had 2 foil Uncommon sheets, this would give us a perfect distribution. Along with 4 foil Common sheets, that’s 845 total foils, distributing amongst 3630 packs, which gets us 23% chance of pulling a foil, which is close enough. This also matches my own experience with cracking open booster boxes.
+I could certainly be wrong with the total number of cards. Wizards might actually use 4000 Common sheets and distribute the foils among them. But that’s fine, we’re not concerned about the chance of pulling a foil, we just want the ratio of the foil rarities, and 1:2:4 seems likely on how to do it on a print run.
+Thus, we end up with the following:
+
+14.28% or a 1/7 chance of your foil being a Rare or Mythic Rare
+12.51% or 106/121 of a 1/7 chance of being a Rare
+1.77% or 15/121 of a 1/7 chance of being a Mythic Rare
+

@@ -1,0 +1,39 @@
+Q:
+
+How does Elemental Resonance convert a Mana Cost to a Mana Source?
+
+With the new updates to how mana is shown and displayed, someone pointed out to me that Elemental Resonance effectively converts the generic mana in its target's casting cost to colourless mana.
+While I can see the gatherer rulings, is there anything more fundamental in the comprehensive rules about converting mana costs to mana sources?
+
+A:
+
+Short Answer
+As of Oath of the Gatewatch, rule 106.10 says
+
+106.10. If an effect would add mana represented by a generic mana symbol to a player’s mana pool, that much colorless mana is added to that player’s mana pool.
+
+Old Answer
+A couple of subrules of rule 106 concern adding converting mana cost to mana:
+
+106.8. If an effect would add mana represented by a hybrid mana symbol to a player’s mana pool, that player chooses one half of that symbol. If a colored half is chosen, one mana of that color is added to that player’s mana pool. If a colorless half is chosen, an amount of colorless mana represented by that half’s number is added to that player’s mana pool.
+106.9. If an effect would add mana represented by a Phyrexian mana symbol to a player’s mana pool, one mana of the color of that symbol is added to that player’s mana pool.
+
+The last part of 106.8 is relevant, because it explicitly says that the generic part of a monocolored hybrid mana symbol (which it calls the "colorless half") is converted to colorless mana. Unfortunately, this only tangentially touches on the issue of how generic mana costs are converted. However, rule 107.4c arguably applies:
+
+Numeral symbols (such as {1}) and variable symbols (such as {X}) can also represent colorless mana if they appear in the effect of a spell or ability that reads “add [mana symbol] to your mana pool” or something similar. (See rule 107.3e.)
+
+Combined with the subrules of 106 quoted above, we can interpret Elemental Resonance's ability to mean
+
+For each symbol in enchanted permanent's mana cost, add that to your mana pool.
+
+If we look at it that way, then the conversion of generic mana cost to colorless mana is simply a consequence of moving the symbol from a mana cost context to a mana generation context. In other words, it adds colorless mana to your mana pool because that's what would have happened if we had inserted the mana cost symbolically into a mana generating ability.
+
+The current rules don't indicate unambiguously how Elemental Resonance will interact with the new rules, but with the rulings we have and the information that Wizards has published so far, we can make some strong educated guesses.
+First, in a Twitter Q&A session regarding the new colorless symbol, Wizards Community Manager Trick Jarrett tweeted
+
+There is no functional errata planned with this change.
+
+This was in response to a question about cost reduction, but the wording seems to imply that there will be no functional errata to any cards because of the new symbol.
+This implies that all of the current rulings will still be accurate. In particular, this means that when Elemental Resonance converts a cost with generic mana, it will add the corresponding amount of {C} to your mana pool.
+We can also extrapolate from the existing rulings that if a cost contains {C}, then Elemental Resonance will add {C} to your mana pool for each corresponding symbol in the cost. In other words, Elemental Resonance attached to the new Kozilek, which costs {8}{C}{C}, will add ten colorless mana to your mana pool.
+

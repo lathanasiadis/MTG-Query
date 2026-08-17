@@ -1,0 +1,36 @@
+Q:
+
+Is there a term for defensive effects that only/primarily function for attacking creatures?
+
+There's a category of effects in Magic that I'd like to be able to name & categorise effectively, but I've never known the proper label for them: effects which minimise risk & harm to attacking creatures. Usually these effects grant first strike or indestructible to attackers, or prevent damage from being dealt to them. Whilst annotating the functions of cards in decks, I'd like to have a descriptive category name saying "I included these cards to protect my attackers, but they don't really help me defend at any other time."
+Some example cards:
+
+Ankle Shanker: "Whenever Ankle Shanker attacks, creatures you control gain first strike and deathtouch until end of turn."
+Iroas, God of Victory and Dolmen Gate: "Prevent all damage that would be dealt to attacking creatures you control."
+Frontline Medic: "Whenever Frontline Medic and at least two other creatures attack, creatures you control gain indestructible until end of turn."
+Stonehoof Chieftain: "Whenever another creature you control attacks, it gains trample and indestructible until end of turn."
+Winds of Qal Sisma's Ferocious effect: "[...] prevent all combat damage that would be dealt this turn by creatures your opponents control."
+Legion Loyalist: "Whenever Legion Loyalist and at least two other creatures attack, creatures you control gain first strike and trample until end of turn and can’t be blocked by creature tokens this turn."
+
+Potentially in this category, or potentially not, are effects which let you control who's blocking, which lets you maximise damage, minimise losses, and potentially evade completely:
+
+Brutal Hordechief: "Creatures your opponents control block if able, and you choose how those creatures block."
+Odric, Master Tactician: "Whenever Odric, Master Tactician and at least three other creatures attack, you choose which creatures block this combat and how those creatures block." (A ruling suggests you can just choose that each creature won't block, which also makes this potentially an evasion effect.)
+
+It's never felt right to call these effects any of the following:
+
+Fog effects: they don't simply protect everyone like Fog does.
+Anthem effects: they don't simply make everyone more powerful like Dictate of Heliod does.
+Defence effects: they're not in the same category as Ghostly Prison or Blazing Archon.
+Evasion effects: they don't evade the way Barrage of Boulders or Archetype of Imagination function.
+
+Is there a commonly accepted name I should be using to categorise and describe these kinds of effects? If I'm actually conflating multiple categories which I should be naming separately, what are those category names I should be using? If it is commonly accepted to call them something like fog/anthem/defence/evasion effects, please do point that out to me.
+
+A:
+
+There isn't really an overarching term for these effects (official or unofficial, that I've heard anyway), as they're so broad. For many of them, it's simply abilities that trigger off of attacking
+Winds of Qal Sima, Iroas and Dolmen Gate have one-sided fogs. Also in this category would be Endure and (depending on deck construction) Moonmist. This is less of a category and more of a sub-category of fog effects.
+Legion Loyalist has a word for its ability on the card itself: Battalion, which is a triggered ability that encourages attacking with multiple creatures. A little specific for widespread use though...
+I've head Hordechief and Odric's abilities and their ilk described as Battle Tactics or simply Tactical, with Odric as its namesake, but again, this style of ability doesn't show up often enough to really warrant its own name.
+Lastly, someone commented to add Gustcloak Savior and its ilk to the list. I've heard to this kind of ability as Gustcloaking, or Recon, the latter name coming from the similar (but not identical) ability on the enchantment Reconnaissance.
+

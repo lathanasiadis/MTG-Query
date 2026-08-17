@@ -1,0 +1,43 @@
+Q:
+
+Precise rules for MTG
+
+We recently picked up MTG to try out. It is fun but the rules are quite vague. It is not clear whether a player can attack more than once (with different cards) in a turn. It isn't clear how tap abilities of cards related to attacking (if one attacks does one also get the tap ability - if so can it be used without attacking, and can it be used if not ones own turn). It isn't clear when a card says "for each creature under your control" whether that count includes creature tokens (which are "creatures" but are often treated separately in the text of cards). Does life link only count damage to the other player or all damage to any creature? The list goes on.
+Is there a more precise version of the general rules for MTG?
+
+A:
+
+It is fun but the rules are quite vague.
+
+What have you been reading?
+MTG has the most precise rules of any complex game. These are found in the Comprehensive Rules.
+The Comprehensive Rules are far more detailed than what you need, though. You should start with the Basic Rules. These are still far from vague.
+
+It is not clear whether a player can attack more than once (with different cards) in a turn.
+
+You only have one combat phase per turn, but you can declare any number of attackers.
+Declare attackers step: You decide which, if any, of your untapped creatures will attack
+and which player or planeswalker they will attack. Then they do
+so. This taps the attacking creatures. Players can then cast instants
+and activate abilities.
+
+It isn't clear how tap abilities of cards related to attacking (if one attacks does one also get the tap ability - if so can it be used without attacking, and can it be used if not ones own turn).
+
+Attacking taps the creature.
+Activating some abilities requires tapping the creature.
+Unless there's an ability that says "Whenever [something] is tapped", tapping doesn't cause anything to happen.
+An applicable metaphor is: You can't pay for two things using the same dollar.
+
+It isn't clear when a card says "for each creature under your control" whether that count includes creature tokens (which are "creatures" but are often treated separately in the text of cards).
+
+Creature tokens are creatures.
+"Creature" not followed by "spell" or "card" means "creature permanent". A permanent is a card or token on the battlefield. So a creature is a creature card or token on the battlefield.
+An applicable metaphor is: A square building is square. A square building is a building.
+
+Does life link only count damage to the other player or all damage to any creature?
+
+It doesn't matter to what the damage is dealt.
+Lifelink: A keyword ability seen on permanents. Damage dealt by a
+permanent with lifelink causes that permanent’s controller to
+gain that much life, in addition to behaving like normal damage.
+

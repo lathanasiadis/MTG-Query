@@ -1,0 +1,17 @@
+Q:
+
+MTG Corrupted Roots and Contaminated Ground
+
+I have in my hands the cards Contaminated Ground and Corrupted Roots. Let's suppose that I target a Forest for my Corrupted Roots. Now, if I cast Contaminated Ground on that same Forest I have a doubt about which way they will work.
+1.- Two both Auras will remain attached to the Forest (now turned into a Swamp) because Corrupted Roots entered first just like auras don't fall off of permanents when they gains veil or hexproof and both effects of losing life will trigger when the land is tapped.
+2.- Contaminated Ground will transform the Forest into a Swamp. The land will become illegal for Corrupted Roots and it will fall off of the new Swamp and only Contaminated Ground will remain.
+3.- Other I have not considered.
+I think the correct is number two, because it is the same thing when a white aura is enchanting a permanent and it gains protection from that color (even if it is until end of turn). In this cases the auras will fall.
+
+A:
+
+Option 2. Corrupted Roots will be unable to enchant the land, so it will fall off and go to the graveyard.
+From the comprehensive rules (emphasis mine):
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard.
+

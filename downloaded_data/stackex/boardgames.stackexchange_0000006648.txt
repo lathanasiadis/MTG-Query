@@ -1,0 +1,39 @@
+Q:
+
+Can Mirrorworks' ability be activated multiple times for the same artifact?
+
+Mirrorworks reads like this:
+
+Whenever another nontoken artifact enters the battlefield under your
+control, you may pay 2 (colorless). If you do, put a token that's a
+copy of that artifact onto the battlefield.
+
+If I cast say, a Darksteel Relic, could I then pay 4 colorless and get a total of 3 Darksteel Relics (the original and two copies)?
+
+A:
+
+Since the thesunneversets is looking for an explict rules that prevent paying multiple costs to get multiple effects.
+No. You can only get one token copy of Darksteel Relic for each nontoken Darksteel Relic that enters the battlefield.
+Mirrorworks contains a triggered ability. We know this because its rules text begins with the word "When."
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and begin with the word “when,” “whenever,” or “at.” Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it’s countered, it resolves, or it otherwise leaves the stack. See rule 603, “Handling Triggered Abilities.”
+
+From rule 112.3c, we also know that the [Trigger Condition] is "another nontoken artifact enters the battlefield under your control", and with rule 117.12 (below) the [effect] is, "put a token that's a copy of that artifact onto the battlefield."
+Rule 603.2c explains that abilities only trigger one time for each event that occurs (so if multiple nontoken Darksteel Relics were coming into play, it would trigger once for each occurence).
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences. See also rule 509.4.
+Example: A permanent has an ability whose trigger condition reads, “Whenever a land
+is put into a graveyard from the battlefield, . . . .” If someone casts a spell that destroys all lands, the ability will trigger once for each land put into the graveyard during the spell’s resolution.
+
+The final piece of the puzzle. We know from all the above, that there is a single existence of the triggered ability on the stack, and we know from the rule below that you can only get one token copy of the nontoken Darksteel Relic (the ability didn't say, "you may pay 2 any number of times", and this isn't an activated ability which allows playing a cost for an effect any time you have priority)
+
+117.1. A cost is an action or payment necessary to take another action or to stop another action from taking place. To pay a cost, a player carries out the instructions specified by the spell, ability, or effect that contains that cost.
+117.12. Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does or doesn’t], [effect].” or “[A player] may [do something]. If [that player] [does or doesn’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does or doesn’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+Example: You control Hesitation, an enchantment that says “When a player casts a spell,
+sacrifice Hesitation. If you do, counter that spell.” A spell is cast, causing Hesitation’s
+ability to trigger. Then an ability is activated that exiles Hesitation. When Hesitation’s
+ability resolves, you’re unable to pay the “sacrifice Hesitation” cost. The spell is not
+countered.
+
+When the Mirrorworks trigger resolves, it gives you the option of paying a cost may pay 2. Then the [If you do] clause checks whether the cost was paid to determine if the [effect] (put a token that's a copy of that artifact onto the battlefield) occurs.
+

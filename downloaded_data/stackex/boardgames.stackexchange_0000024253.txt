@@ -1,0 +1,24 @@
+Q:
+
+Effect of "Thran Lens" on Devotion
+
+I want to know the effects of Thran Lens on a devotion-dependent enchantment creature, like a god or something.
+I read somewhere that, when a permanent becomes colorless, the Thran Lens makes the 'cost symbols' turn into 'colorless'. With this in mind, if I have Heliod, God of the Sun on the battlefield will he ever be a creature while Thran Lens is on the battlefield?
+
+A:
+
+Mana cost and color are two completely separate characteristics. Thran Lens only modifies the color, not the mana cost, and so Thran Lens has no effect on devotion.
+Devotion
+
+700.5. A player’s devotion to [color] is equal to the number of mana symbols of that color among the mana costs of permanents that player controls.
+
+Mana Cost
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card.
+
+Color
+
+202.2. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+
+202.2f Effects may change an object’s color, give a color to a colorless object, or make a colored object become colorless
+

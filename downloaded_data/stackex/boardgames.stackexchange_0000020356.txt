@@ -1,0 +1,14 @@
+Q:
+
+Mimic Vat and Exiling
+
+If I used Mimic Vat on a Licid, created a copy of that Licid, and attached it to a creature, would I still have to exile it during my end step even though it's now an enchantment?
+
+A:
+
+Yes.  The relevant part of Mimic Vat's text reads:
+
+Put a token onto the battlefield that's a copy of the exiled card. It gains haste. Exile it at the beginning of the next end step.
+
+The text clearly tells you to exile the token that the Vat created regardless of whether it's a creature or not.  If a Licid token becomes an enchantment, it is still the same object and thus still the same token, and so the Vat's delayed triggered ability will still find it and exile it at the next end step.
+

@@ -1,0 +1,64 @@
+Q:
+
+What are the results of combining Minion Reflector, Doubling Season, and Kalonian Hydra?
+
+Minion Reflector and Doubling Season are out, and then you play Kalonian Hydra.
+What happens when the token hydra(s) with haste attack? How many counters do the Hydras wind up with?
+If you would be so kind as to walk me through it step by step, I'd appreciate it. There's a few guys in the office and they want to prove their rightness by talking loudly and faster, so I can't quite follow what they're trying to say.
+I'm thinking that there will be 2x token hydras created, and the final total will be ?? (56? 40?) +1/+1 counters on each of the 3 Hydras. They think there will be 72 +1/+1 counters.  Am I right? Are they right? Is there a different number?
+Here's how I think it plays out:
+
+Kalonian Hydra hits the battlefield with 8x counters because of Doubling Season (see the page, it's a ruling).
+
+Minion Reflector kicks in and creates the token copy.
+
+Doubling Season kicks in, replacing the 1 token copy with 2 token copies.
+
+Doubling Season plays out the same for the token as the original because the hydra is a 0/0 coming into play with 4 counters because it says so on the card, so now there are 2x tokens with 8 counters.
+
+So far me and the guys in the office are all in agreement here, but then it starts to change.
+
+The 2x Hydras with haste attack another player.
+
+Their doubling abilities trigger (keyword trigger, right?) to double the counters on all of the other hydras.  Each Hydra has 8 counters at this point of time, so would get 8 more if this is where it stopped, and would wind up at 16 counters.
+
+I think the important difference in calculations is if the doubling abilities all trigger at the exact same time, or if they somehow go on the stack.
+
+The Doubling Season replacement effect doubles the number of counters placed on the hydras.  They all have 8, and would get 8 more.  Doubling Season says they have 8 and will get 16 more, for a total of 24.
+
+Step 7 happens for each hydra, in this case 2, because only 2 hydras are attacking.  Each Hydra gets 16 counters from each other hydra, for a total of 8 + 16 + 16 = 40
+
+I'm not clear on their math, otherwise I'd explain it.  The guys at the office say that the Hydras wind up with 72 counters.  I think the biggest crux is 6.5 and when the triggers occur and what values they operate on.
+
+I'm new to Magic, been playing less than a year, and I mostly play casual play, so break it down Barney-style if you could :D
+
+A:
+
+Each instance of the ability would go on the stack one at a time.
+So the first 8/8 hydra attacks and puts his ability on the stack,
+The second hydra's ability goes on the stack,
+The Doubling season's replacement effect modifies them each time the hydra's ability triggers.
+Since you are the active player and they both trigger at once, then you get to decide what order they go onto the stack, even though in this case it does not much matter because they both do the same thing.
+The first hydra doubles the counters, since it is going to put counters on something and the Doubling season says to put twice that many on, they end up with 8 + 16 =24 counters instead. 
+The second hydra doubles the counters, since it is going to put counters on something and the Doubling season says to put twice that many on, they end up with 24 + 48 = 72 counters instead. 
+so they are 8 +16 = 24
+then they are 24 + 48 = 72.
+
+614.1a Effects that use the word "instead" are replacement effects. Most replacement effects use the word "instead" to indicate what
+  events will be replaced with other events.
+
+The comprehensive rules show that each ability would count the number of counters at the time it resolves, not when it is put on the stack. (Emphasis mine)
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only
+  once, when the effect is applied. If the effect requires information
+  from a specific object, including the source of the ability itself or
+  a target that's become illegal, the effect uses the current
+  information of that object if it's in the public zone it was expected
+  to be in; if it's no longer in that zone, or if the effect has moved
+  it from a public zone to a hidden zone, the effect uses the object's
+  last known information. See rule 112.7a. If an ability states that an
+  object does something, it's the object as it exists -- or as it most
+  recently existed -- that does it, not the ability.
+
+In this case the information from the game the Hydra's ability needs, is the number of counters on each creature who's counters are being doubled.
+

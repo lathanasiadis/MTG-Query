@@ -1,0 +1,25 @@
+Q:
+
+Multiplayer priority and passing priority
+
+I have a question about priority in multiplayer games. The scenario: In multiplayer, someone board wipes and all creatures die and have a 'leaves the battlefield effect' and some of us want to play instants or trigger abilities of creatures about to die. Do we go clockwise or counter-clockwise (solved, clockwise) from the active players turn to put spells and abilities onto the stack to resolve before the board wipe resolves and we all have effects when creatures die or would enter the battlefield?
+To summarize,
+Board wipe cast, players go clockwise casting spells. If a player casts a spell, can others respond before he casts another spell or do we have to follow clockwise order from the first active player? (CAN ACTIVE PLAYER CHANGE??)
+The other part of the scenario, the creatures leaving the battlefield, do people cast on that and can people cast within spells resolving on the stack in the same, priority, order?
+
+A:
+
+After a spell is cast or an ability is activated, the player who did so may retain priority to do something else. When priority is passed, it passes clockwise, to the next player in turn order.
+
+Priority - Since players can cast instants and activate abilities during each other’s turns, the game needs a system that makes sure only one player can do something at a time. Priority determines, at any given time, which player can cast a spell or activate an activated ability.
+The active player (the player whose turn it is) gets priority at the beginning of each step and each main phase—except for the untap step and the cleanup step. When you get priority, you can cast a spell, activate an activated ability, or pass (choose to do nothing). If you do something, you keep priority, so you make the same choice again. If you pass, your opponent gets priority, so now he or she gets that choice. This goes back and forth until both players pass in a row.
+When both players pass in a row, if there’s a spell or ability waiting on the stack, it resolves. Then the active player gets priority again, and the system repeats. When both players pass in a row, if there’s no spell or ability waiting on the stack, that part of the turn ends and the next one begins.(MtG Basic Rules, Page 30)
+
+So if someone casts a spell, whether it is a board wipe or any other spell, then that player may choose to something else, or pass. If they pass, the next player gets priority. It goes around this way until all players have passed, at which point the top thing on the stack will resolve.
+The active player only changes when their turn is over. During a single turn, "active player' always means the player whose turn it is.
+
+102.1. A player is one of the people in the game. The active player is the player whose turn it is. The other players are nonactive players.
+
+This is no different in 2 player or multiplayer (of course in 2 player, clockwise just means "the other player").
+Also note that in a tournament (and often in casual play), when you cast a spell or activate an ability, you are assumed to be passing priority unless specifically stated otherwise. So if you want to cast a spell and then cast something else before your opponents can respond, you must say that you are retaining priority as part of casting the spell.
+

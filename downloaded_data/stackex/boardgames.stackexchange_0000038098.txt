@@ -1,0 +1,29 @@
+Q:
+
+Does untapping a creature save it from a spell that destroys a tapped creature?
+
+My opponent cast Murderous Compulsion, which says "Destroy target tapped creature". In response, I cast Aim High, which says "Untap target creature. It gets +2/+2 and gains reach until end of turn. (It can block creatures with flying.)"
+Does my creature gets destroyed? I think not because of the stack, being my spell was the last to be cast.
+
+A:
+
+That is correct, the target is essentially checked twice for validity, once while the spell is cast and again before it resolves. If the tapped creature is untapped before the spell has resolved then it is no longer a valid target and Murderous Compulsion will "Fizzle" (become countered), having no effect. Rule 608.2b covers this:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it
+  was in when it was targeted is illegal. Other changes to the game
+  state may cause a target to no longer be legal; for example, its
+  characteristics may have changed or an effect may have changed the
+  text of the spell. If the source of an ability has left the zone it
+  was in, its last known information is used during this process. The
+  spell or ability is countered if all its targets, for every instance
+  of the word “target,” are now illegal. If the spell or ability is not
+  countered, it will resolve normally. Illegal targets, if any, won’t be
+  affected by parts of a resolving spell’s effect for which they’re
+  illegal. Other parts of the effect for which those targets are not
+  illegal may still affect them. If the spell or ability creates any
+  continuous effects that affect game rules (see rule 613.10), those
+  effects don’t apply to illegal targets. If part of the effect requires
+  information about an illegal target, it fails to determine any such
+  information. Any part of the effect that requires that information
+  won’t happen.
+

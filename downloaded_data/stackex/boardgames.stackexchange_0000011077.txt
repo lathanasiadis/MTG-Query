@@ -1,0 +1,30 @@
+Q:
+
+Where can I get custom Magic: the Gathering cards printed?
+
+I have made up some custom MtG cards, and I am trying to get physical copies made (to mess with my friends, and for casual use). Does anyone know where I can get them made?
+Disclamer: These cards will be clearly fake, and for personal use only. I'm not trying pull any shenanigans here. In the interest of openness, a graphical list of the cards can be found here. The back will be a custom back that I am still working on...
+
+A:
+
+I've printed decks to playtest with friends before buying the actual cards. I just went to a local print shop. Everywhere has one.
+I didn't bother printing backs. I just sleeved the cards. For rigidity, I backed them with real cards or those silly advertisement cards you get in booster packs. As long as you do that for every card in the deck, it should shuffle correctly.
+I use the images from magiccards.info since they have a higher resolution than Gatherer's. To get the cards to display right, I create an .html file with the following content and print it to a PDF using my browser.
+<style>
+IMG {
+   height: 3.46875in;
+   width:  2.46875in;
+}
+</style>
+
+<img src="image1.jpg"
+><img src="image1.jpg"
+><img src="image1.jpg"
+><img src="image1.jpg"
+><img src="image2.jpg"
+><img src="image2.jpg"
+><img src="image2.jpg"
+><img src="image2.jpg"
+...
+>
+

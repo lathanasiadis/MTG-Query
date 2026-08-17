@@ -1,0 +1,11 @@
+Q:
+
+Is a creature considered to have died if it has negative toughness?
+
+Ok so let's say my opponent has a Festering Mummy (It's a 1/1 and when it dies put a -1/-1/ counter on target creature) and I cast Splendid Agony (Distribute two -1/-1 counters among one or two target creatures) and I put a -1/-1 on the Festering Mummy, is it considered to have died and does its death effect still occur?
+
+A:
+
+Festering Mummy's triggered ability will trigger.
+"To die" is synonymous with "to move from the battlefield to the graveyard" (for any reason). This includes when State-Based Actions move a creature to the graveyard for having negative toughness. 
+

@@ -1,0 +1,37 @@
+Q:
+
+What is the proper way to split uneven draft pods?
+
+The optimal number for a draft pod is 8 people, but it can be often hard to get a even multiple of 8.
+If there are an odd number of drafters how should the pods be split? Also if there is any justification as to why it's done that way that would be nice to know.
+I am aware of the Wizards Event Reporter, and that it can split players into pods automatically. I want to know how to split pods by hand, in case I ever need to run an event with pencil and paper.
+
+A:
+
+In my LGS it's solved this way.
+6 players => 1 x 6
+7 players => 1 x 7
+8 players => 1 x 8
+9 players => 1 x 9
+10 players => 1 x 10
+11 players => 1 x 11
+12 players => 2 x 6
+13 players => 1 x 6 + 1 x 7
+14 players => 1 x 6 + 1 x 8
+15 players => 1 x 7 + 1 x 8
+16 players => 2 x 8
+17 players => 1 x 8 + 1 x 9
+18 players => 3 x 6
+19 players => 2 x 6 + 1 x 7
+20 players => 2 x 6 + 1 x 8
+21 players => 1 x 6 + 1 x 7 + 1 x 8
+22 players => 1 x 6 + 2 x 8
+23 players => 1 x 7 + 2 x 8
+24 players => 3 x 8
+The idea behind is to not have a draftpod with less than 6 people, which yields in just too less cards in the entire cardpool. 9 players is still quite doable, 10 and especially 11 player pods are really bad (you basically won't see any card coming back to you).
+To summarize:
+
+Don't go below 6
+Avoid going above 9
+Try to fill as many 8 pods as possible
+

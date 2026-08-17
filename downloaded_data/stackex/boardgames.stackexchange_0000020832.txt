@@ -1,0 +1,13 @@
+Q:
+
+Couple questions related to Weight of the Underworld
+
+I assume that you can decide to place Weight of the Underworld on either a Creature you control, or on a Creature the opponent controls.
+Am I assuming it right?
+If I cast this Enchantment on a Creature, which has only 1 or 2 Toughness, will the Creature die instantly after that Enchantment is in play?
+
+A:
+
+1) You are correct, the restriction on what it can enchant is Enchant creature, so it can enchant any creature. If it was restricted to just yours for example it would say "Enchant creature you control"
+2) Yes. The enchantment will resolve and the next time state based actions are checked the game will see the creature has 0 or less toughness and die. Note this is not the same thing as being destroyed so things like indestructible and regenerate won't save the creature.
+

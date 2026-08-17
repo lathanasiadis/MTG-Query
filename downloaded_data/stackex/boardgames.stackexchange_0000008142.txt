@@ -1,0 +1,22 @@
+Q:
+
+How many of each land do I need to support a draft tournament?
+
+I am planning on running some booster draft tournaments, and want to make sure I am well supplied. The best case scenario is that each player takes 8 of one color and 8 of another color (assuming a typical 40% land spread). Realistically this doesn't happen, though. Sometimes there's more of one color than another in the draft packs. Some people go mono-color. Some people might be poor players and go with a color they don't have strong cards in (this is very common in red and green) which increases demand for that 'overloaded' color (while decreasing demand for another).
+So the 'best all around' would be 4 land per color per person. So for a 10 player draft I should have 40 land of each color.
+The 'worst case scenario' (while realistically impossible) would be 17 land of the same color for every person. So a 10 player draft would be 170 land of each color (since I don't know ahead of time which color will get 'overloaded' as such).
+In summary, For a magic booster draft of N players, how many of each land should I have available to accommodate a reasonably likely scenario?
+
+A:
+
+A little bored at work, so I coded up a simulation.
+I assume that each of n participants picks 2 different colors, with slightly higher probabilities for choosing red or green (0.23) than blue/black/white (0.18) to account for the "overloading possibility". I assume each person wants 8 lands of a chosen color. I ran this simulation 10,000 times, and took the 90% quantiles of the number of lands required.
+I ran the above code for n=5 up to n=30, which I figured covers your home-drafting range. Fitting linear models to the results (they do look linear, see below), gives
+red/green lands = 10.3 + 4.2 * n
+blue/black/white lands = 10.4 + 3.5 * n,
+
+which for n = 10 is 52.3 each mountains and forests and 45.4 each of the others. Sounds pretty reasonable (like what @Affe says in the comments and @wpickett says in the answer).
+My assumptions are bad in that each player's choices are independent--if 9 of 10 people pick blue, the 10th is still just as likely to pick blue too, but that's conservative, and somewhat makes up for the impossibility (in the model) of someone picking a mono-color.
+
+Red dots are for red/green lands, blue dots are for blue/black/white lands.
+

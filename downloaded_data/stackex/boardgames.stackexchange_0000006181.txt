@@ -1,0 +1,24 @@
+Q:
+
+Can players tap lands for mana with Enchanted Evening and Grand Abolisher in play?
+
+If I play Enchanted Evening and turn everything into an enchantment, and then play Grand Abolisher to disallow them activating abilities during my turn, can my opponents tap their lands during my turn (say, to make a payment for something)?
+
+A:
+
+No they cannot.
+From the rulings on Enchanted Evening:
+
+This has no effect on those permanents other than letting them interact with things that care about enchantments.
+
+Which Grand Abolisher clearly interacts with:
+
+During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.
+
+I think it's clear that lands have an innate implied ability, even if not printed of "Tap: Add 1 mana of the appropriate colour to your mana pool."
+So all we need to know is that this ability is treated like any other:
+
+CR 605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2)
+
+The exceptions listed don't apply to this case because Grand Abolisher is not countering the mana ability, it is preventing it from happening.  Just because it's a mana ability doesn't make it special in this case.
+

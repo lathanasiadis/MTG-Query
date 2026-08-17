@@ -1,0 +1,32 @@
+Q:
+
+Do Gather The Townsfolk's (or cards like it) tokens go on the stack separately?
+
+A friend of mine was playing a deck that uses Cathars' Crusade and Gather the Townsfolk (and cards like it) to pump his creatures.
+Another guy was watching and said that all the tokens went on the stack separately so each subsequent token was smaller than the last.
+This leads to my question: Is this correct? And, if it is, what happens if, in response to the first or second token going on the stack, someone played a split second spell so nothing else could enter the stack (like the rest of the tokens)?
+
+A:
+
+Tokens don't go on the stack, only spells and abilities. Gather the Townsfolk creates both tokens simultaneously.
+
+You cast Gather the Townsfolk.
+Gather the Townsfolk resolves:
+
+Put two 1/1 white Human creature tokens onto the battlefield. Cathars' Crusade's triggers twice.
+
+Cathars' Crusade's ability is placed on the stack twice.
+The second instance of Cathars' Crusade's ability resolves:
+
+Put a +1/+1 counter on each creature you control.
+
+The first instance of Cathars' Crusade's ability resolves:
+
+Put a +1/+1 counter on each creature you control.
+
+Both tokens (and any other creatures you might have had) got two +1/+1 counters.
+
+As for your second question, someone casting a split second spell would not change anything.
+A split second spell between steps 1 and 2 would resolve before step 2, then you continue with step 2. Same goes for one cast between steps 3 and 4, or between steps 4 and 5.
+Split second merely stop you from casting a spell or activating an ability in response to the split second spell.
+

@@ -1,0 +1,41 @@
+Q:
+
+Does the Scythe of the Wretched + Crypt Rats combo really work, and how?
+
+I've searched this and everywhere it says the Crypt Rats + Scythe of the Wretched combo works. But the Gatherer ruling for Scythe of the Wretched says something I found incompatible:
+
+Scythe of the Wretched needs to equip your creature when the other
+  creature goes to the graveyard for the ability to trigger, but it
+  doesn’t matter whether the Scythe equipped your creature when the
+  damage was actually dealt.
+
+So if I equip the Crypt Rats with the Scythe, and use their ability to deal damage to all creatures, enough to kill the Crypt Rats themselves, what really happens when the Crypt Rats die? The ruling seems to mean that for this combo to work, the rats should be considered as both equipped and going to the graveyard. Is that possible?
+How would this work if there are several creatures on the battlefield and the Crypt Rats have deathtouch (for example if I have a Ogre Slumlord in play)?
+
+A:
+
+Say you have Crypt Rats in play, equipped with the scythe. You activate their ability (either for 1 mana and the rats have deathtouch, or just by spending lots of mana). Either way, lots of creatures receive lethal damage. Here is what would happen:
+
+The rats' ability resolves, dealing lethal damage to several creatures
+After the ability has finished resolving, but before anyone gets priority, state-based actions are checked, and many creatures are destroyed
+As these creatures are destroyed, the scythe triggers once for each creature destroyed this way, because
+
+They were dealt damage by the rats this turn, and 
+The rats had the scythe equipped immediately before the destruction occurred*
+
+Again, before anyone receives priority, all the scythe's triggers are put on the stack.
+
+You now have a stack full of scythe triggers, each one returning a creature from their owner's graveyard to the battlefield under your control, with the scythe attached. You controlled the scythe, so you decide which order they are put on stack, which means that you decide which order these creatures enter the battlefield.
+The order of resurrection may matter because the creatures enter the battlefield one by one, and may care about how many creatures are on the battlefield when they enter or how many creatures enter after them. The order really matters because the last one will be the one which ultimately ends up with the scythe equipped and therefore get +2/+2 and the resurrection ability, meaning you probably want that to be the rats.
+
+*The scythe will trigger as though it's attached to the rats and the rats are alive when all the creatures are destroyed because of the following rule:
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library. 
+Example: Two creatures are on the battlefield along with an artifact that has the ability “Whenever a creature dies, you gain 1 life.” Someone casts a spell that destroys all artifacts, creatures, and enchantments. The artifact’s ability triggers twice, even though the artifact goes to its owner’s graveyard at the same time as the creatures.
+
+"Whenever a creature dealt damage by equipped creature this turn dies" is such a leaves-the-battlefield trigger, and it therefore looks at the board state immediately before the destruction happened to determine whether it ought to trigger. Immediately before all the creatures are destroyed, the scythe was equipped to the rats, and lots of creatures dealt damage by the rats this turn are about to be destroyed, so the scythe triggers.
+
+The gatherer ruling you quote is a clarification of a different sequence of events. For instance, say you first activate the rats' ability for 1 (somehow making sure the rats themselves survive), then equip the scythe to the rats, and then play, say, Wrath of God, then the combo still happens, even though the scythe wasn't attached to the rats when the damage was dealt.
+If, on the other hand, you equip the scythe on the rats, deal one damage, unequip the rats (possibly by equipping it on another creature), then play Wrath of God, then the scythe doesn't trigger at all. It doesn't matter if the rats die because you unequip the scythe (and the +2/+2 it brings with it), or if the rats survive the unequipping and die from the Wrath. Immediately before the rats die, the scythe is not equipped to them, and therefore does not trigger.
+

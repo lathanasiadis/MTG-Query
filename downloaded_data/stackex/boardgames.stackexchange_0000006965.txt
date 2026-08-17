@@ -1,0 +1,25 @@
+Q:
+
+Does deathtouch kill Phantom creatures?
+
+Does a Phantom creature, one with the ability "If damage would be dealt to Phantom {Creature}, prevent that damage. Remove a +1/+1 counter from Phantom {Creature}.",  that has taken damage from a creature with deathtouch get destroyed, or just lose a +1/+1 counter? (Example: Phantom Centaur)
+
+A:
+
+Assuming you're talking about the Phantom {Creature} series of cards from Judgment and some other sets (e.g. Phantom Flock), a creature with the following ability would not be destroyed (and would only have a counter removed) if damage was assigned to it from a creature with deathtouch:
+
+If damage would be dealt to {creature name}, prevent that damage. Remove a +1/+1 counter from {creature name}.
+
+This is because while damage has been assigned, the ability prevents that damage from actually being dealt.
+Relevant comp. rules:
+
+702.2b Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature's toughness. See rules 510.1c - d.
+615.6. If damage that would be dealt is prevented, it never happens. A modified event may occur instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the impossible instruction is simply ignored.
+
+A note - it is possible for there to be unpreventable damage (with something like Leyline of Punishment). In this case, the following rule applies (as well as a ruling on Phantom {Creatures}:
+
+615.11. Some effects state that damage "can't be prevented." If unpreventable damage would be dealt, any applicable prevention effects are still applied to it. Those effects won't prevent any damage, but any additional effects they have will take place.
+10/4/2004   If unpreventable damage is applied to this card, you still remove a counter even though the prevention fails.
+
+What would happen under that circumstance is that the trigger for damage prevention would still fire, removing a counter. However, the deathtouch damage would not be prevented, and would be considered lethal, destroying your Phantom {Creature}.
+

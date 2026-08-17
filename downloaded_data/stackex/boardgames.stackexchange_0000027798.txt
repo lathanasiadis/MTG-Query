@@ -1,0 +1,28 @@
+Q:
+
+"Conduit of Ruin" and "Endless One"
+
+If I have a Conduit of Ruin on the battlefield and say that I will be casting Endless One for 10 mana, will the cost reduction of 2 mana from the Conduit of Ruin's effect reduce the X so that the Endless One is 8/8 or will it remain 10/10?
+My thinking is going with X = 10, but I need to make sure.
+Then, expanding on that:
+If I have 4 x Conduit of Ruin on the battlefield, could I cast an 8/8 Endless One for "free", using only the total cost reduction of 8 mana (from the 4 x Conduit of Ruins) as the "X" casting cost?
+
+A:
+
+Yes, your interpretation is correct. From the card rulings:
+
+Conduit of Ruin’s last ability doesn’t change the mana cost or
+converted mana cost of any spell. It changes only the total cost you
+actually pay.
+If you control more than one
+Conduit of Ruin, the last ability of each of them applies only to the
+first creature spell you cast each turn, not to different spells; if you control two Conduits of Ruin, the
+first creature spell you cast each turn will cost {4} less.
+If the first creature spell you cast in a turn has {X} in
+its mana cost, you choose the value of X before calculating the
+spell’s total cost. For example, if the first creature spell you cast
+in a turn has a mana cost of {X}{G}, you could choose 2 as the value
+of X and pay {G} to cast the spell.
+
+So, the value that you pick for X is fixed, the only thing that changes is what you actually pay.
+

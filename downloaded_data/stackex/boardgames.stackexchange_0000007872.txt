@@ -1,0 +1,50 @@
+Q:
+
+If I lose control of an equipped creature, does the equipment stay attached to it?
+
+If I have an equipped creature and my opponent Mind Controls it, does my equipment remain attached to it? Can I re-equip that equipment to one of my creatures on my turn? I assume since I control the equipment I'm the only one that can play its activated abilities because it was only the equipped creature that was mind-controlled. 
+Another example where this could happen would be Act Of Treason.
+
+A:
+
+You are correct. The equipment stays attached to the stolen creature, but you still control it and may re-equip it to a different creature that you control.
+Here are the rules for equipment (emphasis added):
+
+301.5. Some artifacts have the subtype “Equipment.” An Equipment can be attached to a creature. It can’t legally be attached to an object
+that isn’t a creature.
+301.5a The creature an Equipment is attached to is called the “equipped creature.” The Equipment is attached to, or “equips,” that
+creature.
+301.5b An Equipment is cast and enters the battlefield just like any other artifact. An Equipment doesn’t enter the battlefield attached to
+a creature. The equip keyword ability attaches the Equipment to a
+creature you control (see rule 702.6, “Equip”). Control of the
+creature matters only when the equip ability is activated and when it
+resolves. Spells and other abilities may also attach an Equipment to a
+creature. If an effect attempts to attach an Equipment to an object
+that can’t be equipped by it, the Equipment doesn’t move.
+301.5c An Equipment that’s also a creature can’t equip a creature. An Equipment that loses the subtype “Equipment” can’t equip a creature.
+An Equipment can’t equip itself. An Equipment that equips an illegal
+or nonexistent permanent becomes unattached from that permanent but
+remains on the battlefield. (This is a state-based action. See rule
+704.) An Equipment can’t equip more than one creature. If a spell or ability would cause an Equipment to equip more than one creature, the
+Equipment’s controller chooses which creature it equips.
+301.5d An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control
+of the creature doesn’t change control of the Equipment, and vice
+versa. Only the Equipment’s controller can activate its abilities.
+However, if the Equipment grants an ability to the equipped creature
+(with “gains” or “has”), the equipped creature’s controller is the
+only one who can activate that ability.
+
+And here's the exact wording of the equip ability (emphasis added):
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you
+control. Activate this ability only any time you could cast a
+sorcery.”
+
+So, essentially, only the equip ability itself specifies "creature you control." If the equipment is already attached, the only restrictions are:
+
+The equipped permanent must still be a creature (301.5).
+The equipment cannot itself be a creature (301.5c).
+The equipment can't be attached to a creature with protection from it, due to the definition of protection (702.16).
+
+Creatures changing control doesn't violate that.
+

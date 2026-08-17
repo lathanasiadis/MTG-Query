@@ -1,0 +1,27 @@
+Q:
+
+Gustcloak's ability vs. creatures with Vigilance
+
+Gustcloak Savior has
+
+Whenever a creature you control becomes blocked, you may untap that creature and remove it from combat.
+
+What about creatures with Vigilance? Attacking does not cause them to tap so they cannot be untapped. Can they still be removed from combat, after they become blocked?
+
+A:
+
+Yes, you are allowed to use Gustcloak Savior's ability to remove an attacking creature from combat, even if it is not tapped.
+Gustcloak Savior's ability is a triggered ability, that triggers in your Declare Blockers step for each of your attacking creatures that have become blocked. Then, when the ability resolves, it lets you choose whether to have the ability's effect happen. Rule 608.2d says in part
+
+If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can’t choose an option that’s illegal or impossible
+
+Rule 609.3 says
+
+If an effect attempts to do something impossible, it does only as much as possible.
+
+Since part of the effect can happen (removing the creature from combat) and it will just not do the impossible part (untapping the creature), it's not considered impossible, so you are allowed to choose it.
+Then, once you choose to apply the effect, it tries to do both things: untap the creature and remove the creature from combat. Since the creature is already untapped, it is impossible to untap it, so it only does the part that is possible, which is removing that creature from combat.
+This ruling has been confirmed by the official Ask A Magic Judge blog, which says
+
+"Untap that creature and remove it from combat" is the action you’re taking, so as long as you perform some part of that action, you can choose to perform the action and remove the creature from combat.
+

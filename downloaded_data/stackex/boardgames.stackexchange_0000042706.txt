@@ -1,0 +1,26 @@
+Q:
+
+Which creature deals damage with the Ninjutsu mechanic, and can I block the creature that comes in?
+
+Ninjutsu allows you to return an unblocked creature to your hand and put a creature card from your hand into play tapped and attacking.
+Does this mean if I didn't block, my opponnent could attack me again and deal damage again? Or does ninjutsu simply replace an unblocked creature, and if it was replaced the first creature doesn't do damage?
+Also what happens if my opponent attacks me with a creature that can't be blocked, declare blockers step never happened so I could block the second creature that enters the battlefield tapped and attacking (the ninjustu creature)?
+
+A:
+
+Only one creature deals combat damage, the unblocked creature or the Ninjutsu creature. There is no second combat phase or declare blockers step.
+The complete rule for Ninjutsu is:
+
+702.48. Ninjutsu
+702.48a Ninjutsu is an activated ability that functions only while the card with ninjutsu is in a player’s hand. “Ninjutsu [cost]” means “[Cost], Reveal this card from your hand, Return an unblocked attacking creature you control to its owner’s hand: Put this card onto the battlefield from your hand tapped and attacking.”
+702.48b The card with ninjutsu remains revealed from the time the ability is announced until the ability leaves the stack.
+702.48c A ninjutsu ability may be activated only while a creature on the battlefield is unblocked (see rule 509.1h). The creature with ninjutsu is put onto the battlefield unblocked. It will be attacking the same player or planeswalker as the creature that was returned to its owner’s hand.
+
+A creature can be an unblocked creature only during combat, while it's attacking, as the Ninjutsu rule and rules reminder on every Ninjutsu card says. It becomes an unblocked creature only after the declare blockers step. Once combat ends, it's no longer attacking or unblocked, so it can't be Ninjutsu'd any more.
+
+Declare Blockers Step
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+As for unblockable creatures: Contrary to your assumption, the declare blockers step still happens normally, you just can't assign any creature to block an unblockable creature during it. A creature becomes unblocked only after the declare blockers step, and there will not be an additional declare blockers step just because you couldn't block any creatures at that time.
+

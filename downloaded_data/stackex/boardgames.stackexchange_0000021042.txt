@@ -1,0 +1,21 @@
+Q:
+
+Is drawing multiple cards an atomic action?
+
+Is drawing multiple cards an atomic action, or do effects triggered by drawing a card trigger for each card drawn instead?
+Consider Spiteful Visions, which reads:
+
+Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.
+
+If a player were to be compelled to draw more than one card, would that player be dealt the damage all at once, or one at a time? For example, how many times would Circle of Protection: Black need to be activated to prevent all damage?
+Furthermore, if there exist additional effects that are triggered by damage dealt in this way, are such effects resolved together atomically or is each resultant effect resolved individually?
+
+How about tutors, or other cards not using the word 'draw', eg: Tomorrow, Azami's Familiar
+
+If you would draw a card, look at the top three cards of your library instead. Put one of those cards into your hand and the rest on the bottom of your library in any order.
+
+A:
+
+Spiteful Visions would trigger once for each card drawn, so if you cast Divination to draw 2 cards it would trigger twice and you would be dealt 1 damage for each trigger, and CoP:Black would need to be activated twice to prevent all the damage. Anything that triggers off of this damage would then trigger once for each time the artifact triggered. 
+For Tomorrow it would not trigger because it does not contain the word "Draw", if it doesn't specifically say "Draw" it does not count as drawing cards they are just put into your hand.
+

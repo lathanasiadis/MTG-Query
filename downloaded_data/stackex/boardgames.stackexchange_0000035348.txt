@@ -1,0 +1,21 @@
+Q:
+
+Does Doubling Season creates attacking tokens with Hanweir Garrison?
+
+I have a doubt about the interaction between Doubling Season (or the more recent Anointed Procession) and cards creating attacking tokens, like Hanweir Garrison or Hero of Bladehold.
+I know that token-copying abilities like Populate wouldn't carry over attacking state.
+If I'm understanding it right, Doubling Season's ability is a replacement effect, meaning the "extra" token(s) are still created by the original effect, carrying over any additional effect it would give them.
+In that case, an attacking Hanweir Garrison with a Doubling Season on the battlefield would create 4 tokens, all tapped and attacking.
+Is this interaction working that way ? If it does, is there a specific rule about it, apart from general replacement effect rules ?
+
+A:
+
+Yes, all token creatures created by Hanweir Garrison etc. will be tapped and attacking, no matter how many are created.
+Doubling Season (and Anointed Procession), as you noted, are replacement effects. The original effect never happens. In particular, Doubling Season replaces Hanweir Garrison's ability with the same ability, except it doubles the number of creature tokens the effect creates. 
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. [..]
+
+When Hanweir garrison's ability resolves with Doubling Season in play, its effect will simply read
+
+Put four 1/1 red Human creature tokens onto the battlefield tapped and attacking.
+

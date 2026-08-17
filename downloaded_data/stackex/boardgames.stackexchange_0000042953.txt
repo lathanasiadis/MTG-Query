@@ -1,0 +1,72 @@
+Q:
+
+Questions on Incendiary Flow and Failed Inspection
+
+Me and my friend have been arguing about these two things for a while now. Also, I’ve been learning it from him, and haven’t played it anywhere else. 
+
+First, he played Incendiary Flow on my Geralf's Masterpiece, which says it “deals 3 damage to a player or creature. If a creature dealt damage this way would die this turn, exile it instead.” My card was 7/7, so I’m pretty sure I wouldn’t be dead if my math is correct. He also said me being exiled meant being sent to the graveyard. I’m pretty sure he’s wrong. 
+Second, when I countered him with a Failed Inspection, he countered that with a Failed Inspection, and I thought that counters automatically send the spell to the graveyard.
+
+A:
+
+My card was 7/7, so I’m pretty sure I wouldn’t be dead if my math is correct.
+
+It would take 7 damage to kill a creature with 7 toughness. The damage doesn't need to be dealt all at once, so Incendiary Flow could kill your 7/7 if 4 or more damage had been dealt to it earlier in the turn. But not on its own.
+Keep in mind that Geralf's Masterpiece is only a 7/7 if your hand is empty. If you have one card in your hand, it's a 6/6. If two, 5/5. And so on.
+Damage from previous turns doesn't matter because all damage dealt is cleared during the Cleanup Step.
+
+119.3e Damage dealt to a creature by a source with neither wither nor infect causes that much damage to be marked on that creature.
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+514.2. [As part of the Cleanup Step], the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+
+He also said me being exiled meant being sent to the graveyard. I’m pretty sure he’s wrong.
+
+The graveyard is where it would normally go. Incendiary Flow creates a replacement effect that alters that.
+When a creature is dealt an amount of damage that meets or exceeds its toughness, the creature is destroyed. When a permanent is destroyed, it's put into its owner's graveyard (unless it regenerates).
+Incendiary Flow overrides this. If a creature it damages would be sent to the the graveyard before the end of the turn in which it was damaged, it's exiled instead. The Graveyard and Exile are two different zones. It's virtually impossible to get back a card that's been exiled, while a lot of cards can leave the graveyard or can take other cards out of the graveyard.
+
+701.7a To destroy a permanent, move it from the battlefield to its owner’s graveyard.
+400.1. A zone is a place where objects can be during a game. There are normally seven zones: library, hand, battlefield, graveyard, stack, exile, and command. Some older cards also use the ante zone. Each player has their own library, hand, and graveyard. The other zones are shared by all players.
+
+when I countered him with a Failed Inspection, he countered that with a Failed Inspection, and I thought that counters automatically send the spell to the graveyard.
+
+That's completely legit. Just like you cast in response to Incendiary Flow, they can cast in response to your Failed Inspection.
+Normally, when one casts a spell, this is what happens:
+
+Player A casts Incendiary Flow.
+All players pass priority.
+Incendiary Flow resolves.
+
+This last step is where the spell actually takes affect.
+However, one could cast a spell in response to Incendiary Flow (i.e. in step 2).
+
+Player A casts Incendiary Flow.
+Player A passes priority.
+Player N casts Failed Inspection targeting Incendiary Flow.
+All players pass priority.
+Failed Inspection resolves:
+
+Counter Incendiary flow (by moving it from the Stack to the Graveyard).
+Draw a card.
+Discard a card.
+
+(Incendiary Flow never resolves because it was removed from the Stack.)
+Of course, players can cast spells in response to Failed Inspection (i.e. in step 4) too.
+
+Player A casts Incendiary Flow.
+Player A passes priority.
+Player N casts Failed Inspection targeting Incendiary Flow.
+Player N passes priority.
+Player A casts Failed Inspection targeting player N's Failed Inspection.
+All players pass priority.
+Player A's Failed Inspection resolves:
+
+Counter player N's Failed Inspection (by moving it from the Stack to the Graveyard).
+Draw a card.
+Discard a card.
+
+All players pass priority.
+Incendiary Flow resolves.
+
+(Player A's Failed Inspection never resolves because it was removed from the Stack.)
+

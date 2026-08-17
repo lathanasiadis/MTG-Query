@@ -1,0 +1,15 @@
+Q:
+
+Psychic Corrosion and Day's Undoing
+
+Can someone explain to me how the triggered ability of Psychic Corrosion would interact with Day's Undoing?
+From what I understand of the stack, the triggered abilities go on the stack after each card draw due to Day's Undoing is triggered, so opponents discard two cards at each draw immediately before further effects of Day's Undoing happen, then the Day's Undoing "exile all effects on the stack" comes into play afterwards. However, I admit that it could be interpreted in a different way. Do I grossly misunderstand?
+
+A:
+
+Day's Undoing will prevent Psychic Corrosion from doing anything.  (Your opponents will not have to mill 14 cards.)
+Although Day's Undoing has multiple effects, the card represents a single Spell when played111.1, and all of its effects must be resolved before anything else on the Stack is evaluated608.2c.  Psychic Corrosion's ability will be triggered 7 times, but the abilities would not go onto the stack until after Day's Undoing has finished resolving603.3.  However, because Day's Undoing ends the turn immediately upon resolution, those triggers never make it onto the stack.
+Gatherer has a ruling for Day's Undoing that clarifies this explicitly:
+
+If any abilities trigger while players are shuffling cards into their library or drawing seven cards, those abilities cease to exist when the turn ends. They won’t be put on the stack.
+

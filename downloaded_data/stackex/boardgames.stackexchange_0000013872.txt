@@ -1,0 +1,32 @@
+Q:
+
+When does "Targeting" happen in MTG?
+
+Here is a hypothetical situation I am wondering about:
+
+I have in play a Omnath, Locus of Mana and 500 Green mana in my mana pool.
+
+My opponent plays a removal spell on Omnath (Path to Exile, Doom Blade etc)
+
+In response I play a Vines of Vastwood on Omnath (Vines makes Omnath not targetable).
+
+Rule 114.1 says that:
+
+targets are declared as part of the process of putting the spell or ability on the stack
+
+So Omnath was declared as the target when the removal spell was played.  Is it too late then for my Vines of the Vastwood to save Omnath?
+Or is there somekind of rechecking of the target before the spell resolves (I could not find it in the targeting rules section.)
+
+A:
+
+As you said, you declare the targets of a spell while you are putting the spell on the stack. Then, when a spell starts to resolve, if it no longer has valid targets, it fails to resolve.
+From rule 601.2c, the third step of casting a spell is:
+
+The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires.
+
+and from rule 608.2b, as part of resolving a spell or ability,
+
+If the spell or ability specifies targets, it checks whether the targets are still legal... Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell... The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal... if any of its targets are illegal, the part of the spell or ability's effect for which it is an illegal target can't perform any actions on that target or make that target perform any actions.
+
+So in your example, once Vines of the Vastwood resolves, the removal spell no longer has a valid target, so the removal spell fails to resolve and Omnath stays in play.
+

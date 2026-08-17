@@ -1,0 +1,22 @@
+Q:
+
+How does Conversion affect dual lands?
+
+Conversion states (among other things) that "All Mountains are Plains.".
+My question is...  how does this work with dual lands? If you have a Plateau (a RW dual land), for instance, does it, hence forth, only produce W mana, or does it still produce R or W mana at it's owners discretion?
+
+A:
+
+As long as Conversion is on the battlefield, any lands that would otherwise be Mountains are instead only Plains, and can tap for {W}, but not for {R} or for any other color that they would produce because of having another basic land type (for example, if one was originally an Island Mountain). In addition, those lands will lose any other abilities printed on them.
+First, rule 205.1a says
+
+Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+So, Conversion's "All Mountains are Plains" effect removes any other land subtypes from the land. The land subtypes are listed in rule 205.3i:
+
+Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza’s. Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
+
+Finally, rule 305.7 describes additional specific rules for setting a card's subtype to a basic land type:
+
+If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn’t remove any abilities that were granted to the land by other effects. Setting a land’s subtype doesn’t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
+

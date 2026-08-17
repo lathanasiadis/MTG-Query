@@ -1,0 +1,23 @@
+Q:
+
+Targeting question in regards to illegal target
+
+I'm watching this video from the Judge's Corner on YouTube:
+Targeting - Judge's Corner #10. One example shows these cards being played:
+
+Middle first, left second, right third. The video says that once they resolve the left card wont have a valid target so it can't even be played. Does this mean that the card just stays in the persons hand as if it didn't happen?
+
+A:
+
+No that is not what that means. What happens is
+
+Your Shambleshark is on the battlefield
+You opponent casts Assassin's Strike targeting Shambleshark. At this time this is perfectly legal, so Assassin's Strike goes on the stack.
+You respond with Ranger's Guile targeting Shambleshark as well.
+Your Ranger's Guile resolves granting Shambleshark +1/+1 and Hexproof
+Your opponent's Assassin's Strike tries to resolve, but when it does it checks to see if it still has a legal target. When it does this it sees that Shambleshark now has Hexproof and is no longer a legal target. Assassin's Strike then gets countered due to a lack of legal targets, this works just like any other countering; the card has no effect (so you won't discard a card either) and goes to the graveyard.
+
+This is all because of this rule (relevant parts only):
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. ... The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal.
+

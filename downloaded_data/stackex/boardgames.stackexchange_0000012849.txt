@@ -1,0 +1,23 @@
+Q:
+
+Can I "hide" a Vesuvan Shapeshifter?
+
+Suppose I control a Vesuvan Shapeshifter and a face-down morph creature, and I then choose to turn the Vesuvan Shapeshifter face-down. My opponent definitely should still be able to tell which of the two face-down creatures is the Shapeshifter (I'm not allowed to shuffle them around). But that can get a bit tricky, as I may move them around in the course of the game, perhaps rearranging for attacking and blocking or anything else.
+It seems that there is a mix of private and public information here: which permanent is which is public, but the identity of a face-down creature, even if it was previously revealed, is private. Does my opponent simply have to keep track and never forget which is which? Do I have to answer questions like "which one of those is the Shapeshifter?", "which one of those is the one you turned face down a minute ago?", or any other related questions, or can I refuse to answer or even lie in response to those questions?
+(Note: I'm asking out of curiosity about tournament rules, i.e. what a rules lawyering player could get away with if their opponent forgets to mark the face-down card. Personally I'd happily answer the questions, same way I'd play with a revealed hand to save my opponent from having to write it down, but I know that's not required.)
+
+A:
+
+As per the rules reference in the answer you linked (i'll change emphasis to make this clear) :
+
+707.6. If you control multiple face-down spells or face-down permanents, you must ensure at all times that your face-down spells and permanents can be easily differentiated from each other. This includes, but is not limited to, knowing the order spells were cast, the order that face-down permanents entered the battlefield, which creature attacked last turn, and any other differences between face-down spells or permanents. Common methods for distinguishing between face-down objects include using counters or dice to mark the different objects, or clearly placing those objects in order on the table.
+
+If the opponent doesn't remember that the third face-down creature was the one revealed as the shapeshifter, that's not on you. However, you must be honest about a question such as "Which is the third face-down creature you cast this game?"
+CR 707.6 also seems to make explicit that you must answer such questions as "which creature attacked last turn" or the order they entered the battlefield.
+
+But that can get a bit tricky, as I may move them around in the course of the game, perhaps rearranging for attacking and blocking or anything else.
+
+If you're not using counters or dice to mark the face-down creatures, you must at least keep them always in the same order after combat manipulation, obviously, whether it's "tricky" or not to do so… in a tournament setting you could get in trouble if you don't.
+I think, in the spirit of CR707.6, which says "this includes, but is not limited to…" if you're asked "which creature did you turn face down last turn?" – you should answer truthfully. I know this is basically the same as saying "which creature is the Shapeshifter?" but you made the information public.
+I'm not sure how this situation is handled in a tournament, but once a creature has been turned face down, as your opponent I would immediately request some sort of die or counter be placed on it so I can keep track of which one is the Shapeshifter.
+

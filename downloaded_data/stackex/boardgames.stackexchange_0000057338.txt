@@ -1,0 +1,16 @@
+Q:
+
+Simulacrum and trample
+
+If I cast Simulacrum to retroactively apply damage done to me to a creature I control, but the attacking creatures have trample, does the excess damage get applied to me a second time?
+
+A:
+
+No, trample does not interact with Simulacrum at all.
+First off, make sure you are reading the Oracle wording of the card; that's the actual wording that applies.
+
+You gain life equal to the damage dealt to you this turn. Simulacrum deals damage to target creature you control equal to the damage dealt to you this turn.
+
+The amount of damage that Simulacrum deals is equal to however much damage you have taken this turn, and that damage is dealt entirely to a single creature you control. Furthermore, it is not combat damage, and trample does not interact in any way with non-combat damage.
+Trample only changes how an attacker is allowed to assign combat damage, it allows them to assign less than the total amount to the blocking creature(s) and the rest to the defending player. But it doesn't change the way damage itself is dealt.
+

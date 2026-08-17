@@ -1,0 +1,23 @@
+Q:
+
+Does Saheeli Rai's (-2) targeting Riddleform make a creature?
+
+Consider Saheeli Rai and Riddleform.
+Saheeli Rai's -2 says:
+
+Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. That token gains haste. Exile it at the beginning of the next end step.
+
+So, turn 2, I cast Riddleform. Turn 3, I cast Saheeli Rai, a noncreature spell, and elect to have Riddleform become a 3/3 Sphinx creature with flying. 
+Though it would be a legal target, I don't think it is an intelligent target for the -2. Does the token come in only with the copiable values, making it not a creature?
+As a tangent, suppose it's later in the game, with Saheeli Rai and Riddleform in play. I cast noncreature spell A, electing to make Riddleform a creature, and then use Saheeli Rai's -2 to make a token that is a copy of Riddleform. If I cast a second noncreature spell, can the token then become a creature?
+
+A:
+
+You'll end up with an Artifact Enchantment.
+When an object copies another, even if it never was anything else, only the copiable values are copied.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+[Emphasis added]
+The token will also have the abilities of Riddleform, so yes, it can become a creature.
+

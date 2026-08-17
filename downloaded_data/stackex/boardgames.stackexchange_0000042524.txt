@@ -1,0 +1,20 @@
+Q:
+
+Do Token Creatures go to the graveyard?
+
+Does a token creature when it dies satisfy the criteria of Fresh Meat? Text of card as follows:
+
+Create a 3/3 green Beast creature token for each creature put into your graveyard from the battlefield this turn.
+
+A:
+
+Yes. Per Comprehensive Rules:
+
+110.5e A token is subject to anything that affects permanents in general or that affects the token’s card type or subtype. (...)
+
+So the token is put in the graveyard like other creatures. There is one difference, but this doesn't matter for Fresh Meat:
+
+110.5f A token that’s in a zone other than the battlefield ceases to exist. (...) (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)
+
+It won't be in the graveyard at the time Fresh Meat resolves, but it will still count as a creature put into your graveyard.
+

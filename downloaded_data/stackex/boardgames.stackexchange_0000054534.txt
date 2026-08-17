@@ -1,0 +1,17 @@
+Q:
+
+Flickerform - are returning auras being attached once they enter the battlefield?
+
+I activate Flickerform and the ability resolves. Once the game moves to the next end step, the removed creature comes back, and then all auras which where attached to it (as per ruling in the Gatherer).
+My question is: Does returning the auras qualify as "attaching" them, or is this more like "the whole stack comes back as it was"?
+Asking for a friend.
+
+A:
+
+Yes, an aura that has been Flickerform'ed triggers Siona and all other abilities that trigger on an aura attaching.
+As the rule for auras state, all auras that enter the battlefield in any way become attached to a legal target (or go to their owner's graveyard) and thus trigger e.g. Siona, Captain of the Pyleas.
+
+303.4. Some enchantments have the subtype “Aura.” An Aura enters the battlefield attached to an object or player. What an Aura can be attached to is defined by its enchant keyword ability (see rule 702.5, “Enchant”). Other effects can limit what a permanent can be enchanted by.
+
+As you can see, the rule has a wording equivalent to Flickerform's ("enters the battlefield attached to" vs. "to the battlefield [..] attached to"), so there is no difference between an aura entering the battlefield the usual way, i.e. casting, and any other way, such as Flickerform.
+

@@ -1,0 +1,35 @@
+Q:
+
+Does any cards care about the color of mana spent on other spells/abilities?
+
+There are plenty of cards, such as cards with Sunburst and Converge and most of these cards, which care about the colors of mana spent on themselves.
+Additionally, Nix cares about whether or not any mana was spent on its target, but doesn't care about what color(s) it was.
+Are there any cards that care about what color(s) of mana
+were spent on something other than the card which cares?
+As a concrete example, suppose I tapped a Mountain and Temple Garden to cast Roast. Can it ever matter whether the Temple Garden was tapped for G or W, i.e. whether Roast was cast for GR or WR?
+
+A:
+
+It depends on what you mean by "care".
+There are abilities that remember what colors of mana were spent to activate them, such as the abilities of Illusionary Mask and Ice Cauldron (credit to this answer and its comments).
+There is at least one spell allows you to cast another spell based on the number of colors used to cast it: Bring to Light.
+There are also indirect effects. Although things like Sunburst only directly affect the card with Sunburst, other spells could depend on attributes of the Sunburst card which in turn depend on the color(s) of mana spent to cast it. For example:
+
+Situation A
+
+Cast Arcbound Wanderer for {W}{U}{B}{R}{G}{G}. 
+Cast Devour Flesh, targeting yourself.
+
+You gain 5 life.
+Situation B
+
+Cast Arcbound Wanderer for {G}{G}{G}{G}{G}{G}
+Cast Devour Flesh, targeting yourself.
+
+You gain 1 life.
+
+There are zero spells currently in existence that do the following:
+
+"If you/the controller of the spell spent [color] to cast [some other spell], [effect]."
+"Whenevever you cast a spell, if you spent [color] to cast it, [effect.]"
+

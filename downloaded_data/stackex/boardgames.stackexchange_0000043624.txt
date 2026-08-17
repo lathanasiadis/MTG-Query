@@ -1,0 +1,14 @@
+Q:
+
+How many scry ones equal infinite scry 1 shortcut?
+
+Can infinite scry 1 be shortcut by searching through your deck?
+It appears that with a scry 1 ability and some infinite repeat mechanism, one can cut to the card one desires, keeping the deck in order as a shortcut. But let's say I can't repeat it infinitely for some reason (maybe it has a cost). If my library has 40 cards in it, do I need to be able to scry 1 40 times to shortcut this? How many minimum do I need to do this every time, and do my odds of getting the card I want on top of the deck increase faster as I am able to trigger more scry one repeats?
+I don't know much about MTG, so please pardon my vernacular.
+
+A:
+
+In order to shortcut some finite number of "scry 1"s as "look at your entire deck, then cut the deck at a specific point to put a chosen card on top", it is enough to be able to scry 1 a number of times equal to twice the number of cards in your library. So, if you have 40 cards in your library, you can use the shortcut if you can scry 1 at least 80 times.
+The reason for this is that when you perform that shortcut, you see the order of the cards below the desired card as well as above. In order to get the same information by repeatedly scrying, you would have to put the card you are looking for on the bottom, then cycle through the entire library again to put it back on top. Following this algorithm, in the worst case, if the card you are looking for is at the bottom of your library, you would cycle through your entire library twice, for a total of 2 scrys for each card in your library.
+Strictly speaking, you can do it with two fewer scrys. If the card you are looking for is the very last card, then you can just leave it on top of your library at the end of the first step and not cycle through your deck again. And if the card you are looking for is second from the bottom, then in the second step you don't have to look at either of the cards at the bottom to end up with the card that was second from the bottom on top.
+

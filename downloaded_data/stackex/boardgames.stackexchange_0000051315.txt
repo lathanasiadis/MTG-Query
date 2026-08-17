@@ -1,0 +1,23 @@
+Q:
+
+Why don't triggered abilities immediately go on the stack?
+
+Rule 603.2 of the Comprehensive Rules says:
+
+Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+Lower, in 603.3 the Rules continue:
+
+Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority
+
+Why does it work this way? Is there a compelling reason why the ability can't immediately go on the stack? I know state-based actions will now happen before the ability is put on the stack, but I'm not sure why this would affect it.
+
+A:
+
+Magic is designed to avoid any interruptions to the resolution of a spell or ability
+It might seem like placing triggers on the stack is a minor thing that would not cause any problems, but some triggers target and that means that now somebody is making decisions in the middle of the resolution of the spell.  Even worse, some abilities trigger when the permanent becomes a target of a spell or ability, meaning that this interstitial trigger can trigger other triggers!  (And one card, Scalelord Reckoner, targets when triggered by being targeted,  which could cause it to trigger a third trigger!).
+The rules are almost certainly capable of handling such complication, but it's not really beneficial to the game to have to do so.  
+Having all the triggers placed all at once reinforces the general intuition about how Magic treats simultaneity - how if multiple creatures enter the battlefield all at once, they all see each other enter for their triggers.
+It also means that you don't have to figure out where various objects are at the exact moment the trigger happens when choosing targets.  Everything waits until resolution is complete and everything is settled and stationary before target choice happens.
+Additionally, if abilities entered the stack while a spell or ability was resolving, that would meant that you are now resolving an effect that is somewhere in the middle of the stack, which is philosophically not how the stack is meant to function. 
+

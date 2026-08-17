@@ -1,0 +1,25 @@
+Q:
+
+When is Ferocious checked?
+
+When is Ferocious checked?
+  A. When casting begins
+  B. When the spell resolves
+  C. Both of the above
+  D. It depends
+I think the answer is D. If I understand correctly, Ferocious is a meaningless mechanic with zero rules baggage. I'm tempted to say that the word "Ferocious" could be removed from every card it is printed on, and the card would still function exactly the same. Mechanics like Scry, for example, do have an actual rules meaning.
+Here are two example cards, and my guess on when the condition is checked:
+
+I think Crater's Claw would check on resolution, because damage is dealt on resolution.
+I think Dragon Grip would check on cast, because it can only be cast as though it had Flash if a certain restriction is met.
+
+A:
+
+As you said, Ferocious doesn't do anything on its own; it just signals that a certain mechanic is present in the ability. It is an ability word:
+
+207.2c An ability word appears in italics at the beginning of some abilities on cards. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council.
+
+As a rule of thumb, you can always safely ignore any text in italics in a card's text box. This includes flavor text, reminder text, and ability words.
+So if you want to figure out how a card works, you just read it as though the word Ferocious were absent. Crater's Claw's ability modifies what the spell does when it resolves, so you check it when the spell resolves. Dragon Grip's ability modifies when the spell can be cast, so you check it when you are casting the spell. If the ability modified when an ability triggered (such as Heir of the Wilds' ability) it would check when the ability triggers and when it resolves, like any other condition on a triggered ability.
+Because you mentioned it, I'll point out that scry is different. It is a keyword action, not an ability word, and as such it has actual rules attached to it.
+

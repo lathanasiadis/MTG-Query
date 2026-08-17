@@ -1,0 +1,14 @@
+Q:
+
+Clone legion - multiple creatures enter battlefield at same time
+
+Let's say I play Clone Legion on my opponent. He has 4 creatures, one of which is Deathbringer Regent. Do I get to have all 4 creatures, or do I get all 4, but deathbringer wipes out the 3 others so at the end, I only have deathbringer? I would assume all enter the battlefield at the same time, and thus deathbringer does not wipe those 3 - and thus, I'm left with 4 creatures, not one.
+
+A:
+
+Deathbringer Regent won't do anything for you, but not because of timing — it does nothing because its ability only functions "if you cast (this card) from your hand", which you didn't do.
+You cast Clone Legion, which created a token copy of Deathbringer Regent. That copy checks to see if it was cast from your hand, recognises it's never been in your hand and was never cast because it simply winked into existence on the battlefield a moment ago, and therefore its ability doesn't trigger.
+(Note that this is because it's a token copy. A card like Clone copying Deathbringer Regent would behave exactly like the real deal.)
+
+Let's pretend it would trigger though (it wouldn't) and examine the timing: Deathbringer Regent would enter the battlefield simultaneously with the other creatures, and it would also wipe them all out. This is because they all first enter the battlefield, then we check triggered abilities (the ones that start with "when..." or "whenever...") and put those on the stack. Deathbringer Regent and all the other creatures enter, then we check its ability, put that on the stack, and then it'll shortly afterwards resolve — and all other creatures on the battlefield would be destroyed.
+

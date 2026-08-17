@@ -1,0 +1,33 @@
+Q:
+
+Do the Magic tournament rules allow Rock-Paper-Scissors to see who goes first?
+
+The Magic Tournament Rules specifically state 'For the first game of a match, the winner of a random method (such as a die roll or coin toss) chooses either to play first or play second'.  My method of choice has often been Rock-Paper-Scissors, but it never occurred to me until recently that this might not be considered a valid method under the rules.  Obviously this question is more hypothetical than not; if my opponent disagrees with my method of randomization then a different option, or a judge, would be called for.  But at least in theory, spectators or judges watching our match could complain, so the question holds: is RPS (likely to be) considered a 'random method' for determining play/draw under the tournament rules?
+
+A:
+
+My understanding is that it's really up to the judge.
+The tournament rules just say this:
+
+For the first game of a match, the winner of a random method (such as
+  a die roll or coin toss) chooses either to play first or to play
+  second.
+
+They don't really specify a more detailed criterion for "random." (For example,  cutting to a random card of each other's decks and then comparing their mana costs is a method players use some times. It's random, but it's not actually fair: the CMC of various cards in your deck skews the results.)
+My first assumption was no rock-paper-scissors, since RPS is a game that permits some level of psychological skill. However, here's a quote from an old tournament report:
+
+The both of them shuffled up and scanned about for a way to figure out
+  who went first; turns out neither of them had dice. "That's the
+  problem with being up here," deadpanned Jensen. "You play against a
+  random? They always have a die."
+It was suggested that perhaps the two of them play rock, paper,
+  scissors to decide who would go first, but Jensen said that it wasn't
+  random enough. "Rock, paper, scissors is strategy," he said earnestly.
+  "I think I could psych someone out at rock, paper, scissors."
+  Eventually, someone donated not only a twenty, but a twelve-sider and
+  a ten-sider, and they rolled all three and added them up to see who
+  went first. Jensen snagged it with a 22.
+
+Note that it was the opponent who decided RPS was insufficient, not a judge. This implies that RPS might've been acceptable if both players were fine with it.
+In practice, I would expect low-level events not to care about the exact quality of the method you use as long as it's mutually agreeable to both parties (which is all the comp rules really call for), unless they've had to set up a specific system due to previous issues with cheating.
+

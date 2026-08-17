@@ -1,0 +1,36 @@
+Q:
+
+What does Counterbalance counter, when revealing a split card?
+
+Split cards have 2 Converted Mana Costs everywhere except the stack. I saw a similar question relating to Dark Confidant explaining that you lose life for each converted mana cost, however the way it was explained (you get 2 answers) made me unsure if you can counter a spell with either converted mana cost, or the sum of the converted mana costs.
+If you reveal (for example) Life // Death with Counterbalance, what CMC spells can you counter?
+
+A:
+
+New answer: While it's not on the stack, Life // Death has a CMC of 3.
+Amonkhet introduced a rules change in 2017 to simplify split cards. When not on the stack, a split card's CMC is the sum of its halves. When on the stack, it has the CMC of whichever side is being cast, or both combined in the case of split cards cast using the Fuse ability (Both halves are treated as one single spell, with the characteristics of each half combined). From the Comprehensive Rules:
+
+708.3 A player chooses which half of a split card they are casting before putting it onto the stack.
+
+708.3b While on the stack, only the characteristics of the half being cast exist. The other half's characteristics are treated as though they didn't exist.
+
+708.4 In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card's colors and converted mana cost are determined from its combined mana cost.
+Example: Assault/Battery's mana cost is {3}{R}{G}. It's a red and green card with a converted mana cost of 5. If you cast Assault, the resulting spell is a red spell with a converted mana cost of 1.
+708.4d The characteristics of a fused split spell on the stack are also those of its two halves combined (see rule 702.101, "Fuse").
+
+Old answer:
+If the spell has converted mana cost 1 or 2, it will be countered.
+This answer may seem different to the Dark Confidant question. While rule 708.5 adequately answers that question, there are further split card rules relevant to Counterbalance.
+
+708.5 An effect that asks for a particular characteristic of a split card while it’s in a zone other than the stack gets two answers (one for each of the split card’s two halves).
+708.6 Some effects perform comparisons involving characteristics of one or more split cards in a zone other than the stack.
+  
+  
+708.6a An effect that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card’s converted mana cost is less than 2) involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is “yes” if either side of each split card in the comparison would return a “yes” answer if compared individually.
+
+With Dark Confidant and Life // Death, you lose 3 life. This is not because Life // Death has a converted mana cost of 3, but because Dark Confidant receives both answers (1 and 2) and reacts to each of them.
+Counterbalance is a positive comparison: does the revealed card have the same converted mana cost as the cast spell? The converted mana cost of Life // Death is both 1 and 2, so if the revealed card has that a mana cost of either 1 or 2 then the answer to the question is yes, and the spell is countered.
+So, results that receive more than one answer apply to each of those answers. Positive comparisons that receive more than one answer use the or comparison (one or more "yes" = "yes"). Negative comparisons (rule 708.6b) use the nor comparison (one or more "yes" = "no).
+

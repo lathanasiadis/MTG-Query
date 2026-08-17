@@ -1,0 +1,31 @@
+Q:
+
+Spells with multiple free abilities
+
+I am very new to the game, and I have a basic question about the mechanics. Some spells have multiple abilities; for instance, the creature Azorius Guildmage has two abilities, and it is my understanding that you can play any one of them whenever you have priority and have enough mana to pay the cost.
+However, spells with abilities that cost nothing confuse me. Take Intellectual Offering, for example. Are you forced to play both abilities when you cast the spell? Is that because those are spell abilities, whereas in the first example above they are activated abilities? Is the following outline of what is supposed to happen when you play that spell correct? (Assuming we have priority.)
+
+Pay the mana cost, add Intellectual Offering on the stack.
+If it resolves, do as instructed (choose one opponent for each ability and apply the effects).
+
+Since the abilities are both spell abilities, they don't go on the stack. So there is no counterplay possible once Intellectual Offering resolves. Is that correct?
+
+A:
+
+Are you forced to play both abilities when you cast the spell? 
+
+Yes. Unless there are qualifiers ("may"/"up to" are popular ones), you must resolve all of a spell's effects.
+
+Is that because those are spell abilities, whereas in the first example above they are activated abilities?
+
+Not quite. It is because you are never forced to activate (pay the cost) of an activated ability.
+For the spell, you are rarely forced to cast a spell, but if you do choose to cast the spell, you must resolve all of the spell's effects.
+
+Is the following outline of what is supposed to happen when you play that spell correct?
+
+You've got it. Normally, as part of putting a spell on the stack, you must also choose all of the targets of the spell. These targets are then checked for validity upon resolution. But that particular spell doesn't target, you "choose" the opponent(s) upon resolution.
+
+Since the abilities are both spell abilities, they don't go on the stack. So there is no counterplay possible once Intellectual Offering resolves. Is that correct?
+
+You can (nearly) always respond to a spell on the stack, but if the spell has multiple effects, you must resolve all of them (and they cannot be responded to any longer) once the spell starts resolving.
+

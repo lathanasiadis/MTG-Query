@@ -1,0 +1,24 @@
+Q:
+
+Fiend Binder's triggered ability
+
+I have a question about Fiend Binder's triggered ability regarding the stack. I just want to make sure I'm understanding it correctly.
+It states:
+
+Whenever Fiend Binder attacks, tap target creature defending player controls.
+
+It triggers whenever she attacks, but it also says to tap defending player's creature. At first glance I interpret this as when I attack with her I can just tap away any creature I want, but I a have suspicion this is wrong and it only qualifies when the player defends, which would result in what? Me tapping any other creature that is not defending?
+I'm certain my question is straight forward, but just to make sure I understand let me run a scenario: If I control just Fiend Binder, and my opponent happens to just only control one creature also, am I permitted to tap my opponent's creature leaving him or her open for damage, or would nothing happen in this case as there is no other creature to tap?
+Appreciate any clarification, I couldn't seem to really find straight forward answer as I've only been playing magic for almost a year and reading from the rule book is sometimes cryptic to me.
+
+A:
+
+You would get to tap the only creature defending player controls before they can block.  When you actually declare attacks, what happens is that the Fiend Binder becomes tapped and is attacking a specific player.
+That player is the defending player, so at that point the ability goes on the stack and you can tap one of their creatures. Defending player is defined before the defender blocks.
+
+508.4. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it's referring to is the player that creature was attacking at the time it became an attacking creature that combat, or the controller of the planeswalker that creature was attacking at the time it became an attacking creature that combat.
+
+In a multiplayer game, even though all opponents are generally considered defending players, the ability can only target a creature that the player this specific creature had attacked controls:
+
+508.4a. In a multiplayer game, any rule, object, or effect that refers to a "defending player" refers to one specific defending player, not to all of the defending players. (...)
+

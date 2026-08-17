@@ -1,0 +1,28 @@
+Q:
+
+Can Dragon Broodmother+Elemental Mastery be triggered to provide elemental tokens before upkeep resolves?
+
+Fairly new mtg player, lifetime dragon fan looking to build some nifty combos.
+Dragon Broodmother has text that reads:
+
+At the beginning of each upkeep, create a 1/1 red and green Dragon creature token with flying and devour 2. 
+
+If I have enchanted her (or another creature I control for that matter) with Elemental Mastery, which has:
+
+Enchanted creature has "Tap: Create X 1/1 red Elemental creature tokens with haste, where X is this creature's power. Exile them at the beginning of the next end step."
+
+Can I activate the tap to make elementals in such a way that they exist on the battlefield prior to the upkeep generated dragon token so that it can devour them and become bigger immediately?
+I tried reading some similar questions but I'm afraid the whole stack business is still a little murky to me. 
+
+A:
+
+Yes.
+
+When dealing with keyword abilities, it's best to start by looking up their exact definition.
+
+702.81a Devour is a static ability. “Devour N” means “As this object enters the battlefield, you may sacrifice any number of creatures. This permanent enters the battlefield with N +1/+1 counters on it for each creature sacrificed this way.”
+
+Dragon Broodmother's ability is a triggered ability, which means you'll get priority before it resolves.
+The choice of creatures to sacrifice is made on resolution, so they don't need to exist when the ability is added to the stack.
+So, you can activate the ability granted by Elemental Mastery in response to Dragon Broodmother's ability being added to the stack (i.e. after it's been added to the stack, but before it resolves). Having been placed on the stack last, the ability granted by Elemental Mastery will resolve first.
+

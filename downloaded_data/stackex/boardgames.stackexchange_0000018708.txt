@@ -1,0 +1,12 @@
+Q:
+
+What happens if I play Cloudshift during combat?
+
+Would playing cards like Cloudshift end my combat phase? And if not could I attack then Cloudshift then attack again with the same card that was Cloudshifted? Also would cards like Amulet of Vigor allow me to untap a Cloudshifted card that has already attacked?
+
+A:
+
+No, playing Cloudshift would not end your combat phase, but the creature it targeted will no longer be in combat. If this leaves you with no attackers, then the rest of combat is uninteresting and can usually be skipped.
+When you Cloudshift a creature, it enters the battlefield as a new creature, and has no memory of its previous existence. This means that it loses all counters, enchantments, equipments, and status. This means that (unless it says otherwise), it will enter untapped, unflipped, face up, and phased in. The specific rule about status is 110.6. It will also have summoning sickness because it just entered the battlefield.
+Combat follows specific steps: beginning, declare attackers, declare blockers, damage, and end of combat. So if you declare a creature as an attacker, and then you cloudshift it, you can't declare it as an attacker again because you're already done declaring attackers.
+

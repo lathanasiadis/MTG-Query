@@ -1,0 +1,15 @@
+Q:
+
+Can I deal extra damage if I copy Booby Trap's ability with Strionic Resonator?
+
+Can I copy Booby Trap's ability that states if you sacrifice Booby Trap it deals 10 damage to that player with Strionic Resonator, or am I only able to copy the section that states when the target player draws the named card sacrifice Booby Trap? In which case I can't sacrifice another Booby Trap and it wouldn't go off a second time.
+
+A:
+
+You can copy the triggered ability with Strionic Resonator, but after the copy resolves, the original won't do anything.
+Booby Trap's triggered ability is
+
+When the chosen player draws a card with the chosen name, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player.
+
+If the ability is on the stack and you copy it with Strionic Resonator, you copy the whole thing. So, once the copy of the ability starts to resolve, you sacrifice Booby Trap, then it deals 10 damage to the opponent. Then the original ability starts to resolve, but the Booby Trap is already gone, so you can't sacrifice it and it doesn't deal any damage.
+

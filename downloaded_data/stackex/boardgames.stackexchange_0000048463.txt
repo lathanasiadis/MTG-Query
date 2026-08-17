@@ -1,0 +1,39 @@
+Q:
+
+Am I required to correct my opponent's assumptions about my morph creatures?
+
+The comprehensive rules state that
+
+You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield
+
+If my opponent makes an assumption about a facedown card based on public information that is wrong, am I required to correct his assumption?
+For example, suppose I'm using a red, green, and blue markers to differentiate my morph creatures. I have a blue marked, red marked, and green marked creature on the field. I turn the red marked creature face up, triggering Deathmist Raptor's ability. I choose to return it to the battlefield face down, and put the red marker on it. Since it came from a public zone, my opponent knows that Deathmist Raptor is the red marked card.
+Later, I attack with all three morph creatures and my opponent is thinking out loud when blocking. If he says something like "Deathmist Raptor is the blue marked creature", am I obligated to correct him? Alternatively, is he allowed to ask, "when Deathmist Raptor entered the battlefield face down, what color marker did you put on it?"
+
+A:
+
+You are required to say which card was the Deathmist Raptor when asked, and you are required to correct their mistake if they get it wrong.
+The Magic Tournament Rules define free information as follows:
+
+Free information is information to which all players are entitled access without contamination or omissions made
+  by their opponents. If a player is ever unable or unwilling to provide free information to an opponent that has
+  requested it, they should call a judge and explain the situation. Free information consists of:
+
+Details of current game actions and past game actions that still affect the game state.
+The name of any visible object.
+The number and type of any counter that isn’t defined as status information.
+The state (whether it’s tapped, attached to another permanent, face down, etc.) and current zone of
+  any object or player.
+The game score of the current match.
+The current step and/or phase and which player(s) are active
+
+Putting the Deathmist Raptor onto the battlefield face down was a past game action that still affects the game state. The details of that action include the name of the card that was moved from the graveyard (which was free information at the time), and which face down permanent that card became (because you need to distinguish which face-down permanent is which as mentioned in the question). You must provide that information when asked, and you must correct them if they get it wrong so that you are not hiding the information by omission.
+Strictly speaking, the current identity of the face down Deathmist Raptor probably counts as private information, because that information is not explicitly listed as free or derived information:
+
+Private information is information to which players have access only if they are able to determine it from the
+  current visual game state or their own record of previous game actions.
+
+Any information that is not status, free or derived is automatically private information
+
+There is no rule against misrepresenting private information, but the distinction between "This permanent is currently a face-down Deathmist Raptor" (private) and "This permanent was previously a visible Deathmist Raptor card that was put onto the battlefield face down" (free) is so small that I suspect that most judges would not look kindly on using it as a reason to misrepresent or omit that information.
+

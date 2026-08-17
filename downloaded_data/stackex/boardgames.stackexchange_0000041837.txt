@@ -1,0 +1,17 @@
+Q:
+
+Stack resolution in stack
+
+I have a deck, and it involves Murderous Redcap, Viscera Seer, and Geralf's Messenger. I was to sacrifice the Redcap and Messenger, remove a +1/+1 counter from the Messenger using Retribution of the Ancients in response to someone trying to kill my Viscera Seer?
+The idea is that, I play Redcap, sacrifice it with the Seer, someone tries to bolt my Seer. Can I, in response, continue my combination of sacrificing the Messenger, moving the counter to the Redcap, and sacrificing them both again before the Lightning Bolt resolves?
+
+A:
+
+While some other parts of your question are of debatable veracity, the core seems to be this:
+
+I play Redcap, sacrifice it with the Seer, someone tries to bolt my Seer.
+
+Assuming that your opponent has a firm understanding of the stack, they will cast Lightning Bolt before the Persist trigger of the Redcap resolves; at that point the Redcap will be in your graveyard and it will not leave the graveyard until after the Lightning Bolt resolves. You cannot continue to sacrifice the Redcap in this situation. It isn't impossible for an opponent to wait for your Redcap to return before casting their spell, but it seems unlikely that one choose to do so.
+
+As requested, if someone DOES cast Lightning Bolt while Murderous Redcap is on the battlefield, assuming (per an earlier comment) that you have Solemnity or some other combo piece rather than Retribution of the Ancients in order to make the combo repeatable, you can continue to combo in response to the Bolt. Lightning Bolt does not have Split Second so you are allowed to activate any ability or cast any spell which is not prevented by some other rule or effect. There is also no requirement that you allow the Lightning Bolt to resolve in order for later effects to resolve. Unless your combo requires casting a spell with a timing restriction, such as a sorcery, or activating an ability with a timing restriction, which will be stated in the ability's description, Lightning Bolt being on the stack will not restrict the combo at all.
+

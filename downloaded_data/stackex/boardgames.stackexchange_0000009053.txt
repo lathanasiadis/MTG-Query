@@ -1,0 +1,35 @@
+Q:
+
+Worldfire order of events
+
+Say I have a 
+Keldon Marauders  on the battlefield. The card reads:
+When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.
+I then cast Worldfire.
+Exile all permanents. Exile all cards from all hands and graveyards. Each player's life total becomes 1
+I assume Worldfire would resolve first and the players' life would be set to 1, then Keldon Marauders would leave the battlefield and deal 1 damage to a player?
+
+A:
+
+Not quite.
+You're wrong about Keldon Marauders leaving the battlefield after each players' life is set to 1. Worldfire's instructions are done in order [CR 608.2c], and "exile all permanents" comes before "each player's life total becomes 1".
+You're right that you will win the game, but it's because the triggered ability is only placed on the stack after each players' life is set to 1. Specifically, triggered abilities are only placed on the stack the next time a player would get priority [CR 603.3], not when they are triggered [CR 603.2]. Noone gets priority until after Worldfire has finished resolving.
+The following is a breakdown of what happens:
+
+You cast Worldfire.
+Worldfire resolves:
+
+Exile all permanents. Keldon Marauders's ability triggers. [CR 603.2]
+Exile all cards from all hands and graveyards.
+Each player's life total becomes 1.
+
+Keldon Marauders's ability is placed on the stack targeting your opponent. [CR 603.3]
+Keldon Marauders's ability resolves: Keldon Marauders deals one damage to your opponent.
+SBAs are performed: Your opponent loses the game for having non-positive life.
+
+The relevant rules are:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+

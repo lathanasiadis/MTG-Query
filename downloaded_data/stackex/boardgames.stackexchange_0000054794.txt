@@ -1,0 +1,28 @@
+Q:
+
+What happens if I mutate on top of a creature that I control until the end of a turn?
+
+This constellation actually happened when I (PLAYER A) drafted Ikoria on MTG:Arena yesterday, but I was unsure whether it would work in my favor. And therefore I didn't try.
+PLAYER B has a Cavern Whisperer on the battlefield.
+PLAYER A has a Lore Drakkis and Tentative Connection in hand.
+
+PLAYER A casts the Tentative Connection targeting the Cavern Whisperer.
+PLAYER A gains control of the Cavern Whisperer until end
+of turn.
+PLAYER A mutates Lore Drakkis on top of the Cavern Whisperer.
+
+Who will have control of the mutated creature at the end of a turn?
+I'm looking for the specific rulings regarding this topic. All I could find were the following rulings on the MTG Wiki.
+
+The resulting merged creature has all of the characteristics of the topmost card or token, and it also has all abilities from its other cards and tokens.
+
+The merged creature is the same creature it was before the merge, so any Auras or counters that were on it remain on it, it remains tapped if it was tapped, it's still attacking if it was attacking, and so on. If it's been under its controller's control since their most recent turn began, it can attack and {T}.
+
+A:
+
+In this case, Cavern Whisperer won't be a valid target for mutation, because you are not the owner of Cavern Whisperer. This is per CR:
+
+702.140a Mutate appears on some creature cards. It represents a static ability that functions while the spell with mutate is on the stack. “Mutate [cost]” means “You may pay [cost] rather than pay this spell’s mana cost. If you do, it becomes a mutating creature spell and targets a non-Human creature with the same owner as this spell.”  (...)
+
+108.3. The owner of a card in the game is the player who started the game with it in their deck. (...)
+

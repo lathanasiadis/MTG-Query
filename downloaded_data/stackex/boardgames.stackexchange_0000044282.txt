@@ -1,0 +1,11 @@
+Q:
+
+Does Sultai Ascendancy interact with cards that care about surveil?
+
+Does Sultai Ascendancy interact with cards that care about surveil? Like 
+Dimir Spybug for instance.
+
+A:
+
+No, Sultai Ascendancy does not interact with cards that care about surveil. Surveil is a specific keyword ability defined in rule 701.41. Cards that trigger when you surveil only trigger if the instruction contains that keyword. The oracle text of Sultai Ascendancy describes an action that is the same as surveil, but it does not use the word "surveil".
+

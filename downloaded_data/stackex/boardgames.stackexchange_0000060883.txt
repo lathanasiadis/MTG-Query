@@ -1,0 +1,25 @@
+Q:
+
+How does "must be blocked if able" work with banding?
+
+I control Maarika, Brutal Gladiator, Holga, Relentless Rager (both of which have the text "must be blocked if able"), and Adventurers' Guildhouse. Then, in my declare attackers step, I declare that Maarika and Holga will attack my opponent as a band (using adventurers' guildhouse's ability).
+In declare blockers step, assuming my opponent controls more than one creature that can block (e.g., at least 2 Grizzly Bears), do they have to declare at least one blocker for Maarika and at least one separate blocker for Holga? Or can they declare only one blocker that counts as blocking both?
+My reading of the bands with other rule (see 702.22) and declare blockers step (see 509.1) suggests they do have to declare separate blockers for each creature with "must be blocked if able". The argument being that the declare blockers step would unfold as follows:
+
+Because blockers are chosen all at once (step 509.1a) and the attacking creatures only count as blocked seven steps later (step 509.1h), the defending player must choose separate blockers in step 509.1a. For instance, if they control two grizzly bears (Bear A and Bear B), they must choose Bear A to block one of the attackers and Bear B to block the other
+After steps 509.1b through 509.1g are completed, and Maarika and Holga become blocked creatures (509.1h). Only at this point does 702.22h become invoked, causing both Maarika and Holga to both be blocked by both Bear A and Bear B. The exact wording of 702.22h even implies that it is a triggered ability (that it happens in response to creatures becoming blocked)
+
+702.22h If an attacking creature becomes blocked by a creature, each other creature in the same band as the attacking creature becomes blocked by that same blocking creature.
+
+In summary, the "must be blocked if able" text on Maarika and Holga applies before the banding mechanic kicks in (not until 702.22h is invoked by step 509.1h). I think it would specifically apply in 509.1c, but the wording there is a little unclear to me (its not clear if "must be blocked if able" counts as a restriction here, or if 509.1c only deals with abilities like flying)
+
+Is this a correct reading?
+
+A:
+
+One creature can block both
+Your assessment is that, because creatures don't become 'blocked' until step 509.1h, creature B who is banding with creature A doesn't figure out that it's being blocked by a creature blocking A in time for the assessment of requirements during 509.1c.
+But the same logic would imply that meeting any requirements in 509.1c is impossible, because at that point in the step no creatures have become blocked.  Therefore step 509.1c must "look ahead" to what creatures will be blocked by the end of 509.1h.
+Now, this might not be enough for one creature to block both two "must be blocked" creatures in a band if rule 702.22h (One creature in a band being blocked = all creatures being blocked) is a triggered ability.  But it's not.  Triggered abilities always begin with "when", "whenever", or "at", as per rule 603.1.  Rule 702.22h begins with "if".  That makes it a replacement effect*, which means all banded creatures will become blocked at the same time as the original became blocked, during 509.1h. This means that 509.1c should be able to 'look ahead' to see it just like the original block.
+*I'm not entirely confident on this point - the wording doesn't quite match the way I would expect a replacement effect to be worded.  But it's certainly not a triggered ability, which is the main question here.  If it's not a replacement effect, it's some sort of unnamed rules-internal effect that works similarly.
+

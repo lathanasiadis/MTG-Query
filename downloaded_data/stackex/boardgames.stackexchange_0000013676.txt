@@ -1,0 +1,27 @@
+Q:
+
+Double strike and Regeneration: Can the blocker die from combat after regeneration?
+
+I am unsure how the following situation resolves:
+Player A attacks Player B with a Two-Headed Cerberus with a Baleful Eidolon bestowed upon it, making it effectively a 2/3 with double strike and deathtouch. Player B blocks with a Nessian Asp.
+The first strike damage will kill Player B's asp, so he regenerates it using Boon of Erebos.
+What happens in the next damage phase? I can see three possibilities:
+
+Both creatures die (the Asp is killed by the deathtouch, the Cerberus by damage)
+Neither creature dies because the regeneration removed the Asp from combat, but the Cerberus was still effectively blocked and does not hit Player B.
+Neither creature dies, but the Cerberus is not blocked in the second damage phase (I don't think this makes sense) and so hits Player B for 2 damage
+
+A:
+
+The answer is #2. Regenerate causes the creature to be removed from combat:
+
+614.8. Regeneration is a destruction-replacement effect. The word “instead” doesn’t appear on the card but is implicit in the definition of regeneration. “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.” Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.12.
+
+As for the damage that the attacking creature would do, once a creature becomes blocked, it stays blocked no matter what happens to the blocking creature:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a 
+  blocked creature; one with no creatures declared as blockers for it becomes an unblocked 
+  creature. This remains unchanged until the creature is removed from combat, an effect says that 
+  it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat. 
+510.1c. A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+

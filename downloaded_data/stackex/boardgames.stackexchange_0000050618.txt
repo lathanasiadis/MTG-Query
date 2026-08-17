@@ -1,0 +1,28 @@
+Q:
+
+MtG multiple "first time each turn" effects question
+
+So I've been trying to word an emblem for a custom planeswalker so it gives the first card played each turn Flash, but so multiple emblems stack, giving each subsequent spell flash. I've been trying to find a precedent in MTG and have only found the following (maybe):
+Make copies of Erayo, Soratomi Ascendent and flip them, either with Mirror Gallery on the board or using Helm of the Host, so they become Erayo's Essence which reads "Counter the first spell played by each opponent each turn". If I have, say, 4 of these effects does it counter the first spell four times or the first four spells?
+I'm trying to keep the text on the card concise and easy to understand, but if I weren't I would have it read:
+You get an emblem with "The first X spells you cast each turn are cast as if they had flash, where X equals the number of emblems you have with this effect. Only one emblem effect counts toward the total number of spells you may cast each turn with Flash gained from these emblem effects." This leaves little to interpretation, but has a ton more text than can fit under a planeswalker's ability.
+Any help is appreciated.
+
+A:
+
+For the exact effect you want, you can word the emblem as follows:
+
+At the beginning of each upkeep, if this emblem has no Quickening counter on it, put a Quickening counter on it.
+As long as this emblem has a Quickening counter on it, you may cast spells as though they had flash.
+If you would cast a spell without a Quickening counter on it, instead move a Quickening counter from this emblem to that spell and the spell becomes cast.
+
+This template keeps track of the number of spells cast with flash through your emblems with counters. You can cast spells as though they had flash as long as at least one emblem still has a counter on it. Since I worded the counter-moving effect as a replacement effect, it makes sure you get exactly N uses out of your N emblems, because they can't put a Quickening counter on a spell that has already been handled by another emblem. After all counters have been moved during this turn, you can no longer cast spells as though they had flash. The counters also cease to exist as the spell leaves the stack, so no maintenance is required in that regard.
+Personally, however, I would drop the requirement that it has to affect the first N spells, whether they need it or not. It makes the emblem very awkward to word. I would recommend the following, much simpler and more elegant wording:
+
+{0}: The next card you cast this turn can be cast as though it had flash. Activate this ability only once each turn.
+
+That way, you can have multiple copies of that emblem and they work cumulatively and independently, with what I believe to be the minimum amount of text while using standard wording.
+For balance reasons, you can add e.g. "and only during your/an opponent's turn" to the second sentence.
+The template is a combination of Quicken and Avizoa.
+With this wording, you are flexible which card you want to play with flash, and you don't have to awkwardly count the number of emblems, which are the least descriptive objects.
+

@@ -1,0 +1,12 @@
+Q:
+
+Does drawing multiple cards count individually?
+
+Say if I have the emblem of Teferi, Hero of Dominaria (Whenever you draw a card, you may exile target permanent) out, and cast Brainstorm (Draw three cards, then put two cards from your hand on top of your library in any order). How many times does the emblem trigger? 
+
+A:
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+So Brainstorm causes three card draws, and three triggers of Teferi's emblem, so you get to exile three permanents. Neat!
+

@@ -1,0 +1,39 @@
+Q:
+
+Parallel Lives and Dance of Many
+
+I was wondering how Dance of Many and Parallel Lives interact.
+Dance of Many's Oracle text says:
+
+When Dance of Many enters the battlefield, put a token that's a copy of target nontoken creature onto the battlefield.
+When Dance of Many leaves the battlefield, exile the token.
+When the token leaves the battlefield, sacrifice Dance of Many.
+At the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.
+
+Parallel Lives says:
+
+If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.
+
+Although the ruling on Parallel Lives states:
+
+If the effect creating the tokens instructs you to do something with those tokens at a later time, like exiling them at the end of combat, you'll do that for all the tokens.
+
+this applies only to delayed triggers like for example the one on Mimic Vat, as far as I know.
+My question is: will the second triggered ability on Dance of Many remember that it put two tokens into play? And if it does (implying "the token" becoming "those tokens") , will the third triggered ability trigger on either token leaving the battlefield or on all tokens leaving the battlefield?
+
+A:
+
+Just like the delayed triggered ability and the activated ability of Mimic Vat, the first two abilities of Dance of Many are linked [CR 607.2c], and so are the first and third abilities. The ruling from Parallel Lives applies.
+
+607.2c If an object has an activated or triggered ability printed on it that puts one or more objects onto the battlefield and an ability printed on it that refers to objects "put onto the battlefield with [this object]," those abilities are linked. The second can refer only to objects put onto the battlefield as a result of the first.
+
+"The token" in the second and third ability is short for "the token put on the battlefield by Dance of Many", and refers to that which the first ability created [CR 607.1]. Since
+
+put a token that's a copy of target nontoken creature onto the battlefield.
+
+was replaced with
+
+put two tokens that's a copy of target nontoken creature onto the battlefield.
+
+that which was created was two tokens, so both tokens get exiled if Dance of the Many leaves the battlefield, and Dance of the Many gets sacrificed if either token leaves the battlefield.
+

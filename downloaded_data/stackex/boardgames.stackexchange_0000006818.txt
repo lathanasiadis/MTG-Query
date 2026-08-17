@@ -1,0 +1,18 @@
+Q:
+
+How does Vorinclex's second ability work at the time of his death?
+
+The Green New Phyrexian Praetor Vorinclex, Voice of Hunger is quite the beast, his second ability reads:
+
+If an opponent taps a land for mana, it does not untap during his next untap step.
+
+Say my opponent taps his land for mana, and sometime during his current turn or my next turn, Vorinclex dies somehow. Do his lands remain tapped for the extra turn as originally stated, since they were tapped during the time Vorinclex still lived, or does the effect end immrdiately upon his death, allowing my opponent to untap them as usual?
+
+A:
+
+They will not untap as usual in the next untap step.
+The reason is that after the ability triggered (while Vorinclex was alive) it went on the stack as a replacement effect for the next untap step.
+When Vorinclex died, it didn't undo that effect.
+Any lands tapped after Vorinclex died would untap in the next untap step.
+If Vorinclex instead said something like "While Vorinclex is in play lands do not untap as usual" then it's death would change the situation.
+

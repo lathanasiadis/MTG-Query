@@ -1,0 +1,12 @@
+Q:
+
+Creature kill and resurrect effects on the stack interaction?
+
+For example, casting Murder on a creature while Rally the Ancestors is on the stack (and would effect the creature if it was in the graveyard)?
+I would think so, because the creature should die and be in the graveyard once the Murder resolves. Or, maybe it is in the process of moving to the graveyard like the murder until the stack is empty.
+
+A:
+
+Spells like Rally the Ancestors or Living Death that don't target only care what is in the graveyard when they resolve.  Thus, a creature that goes to the graveyard while Rally the Ancestors is on the stack will be returned to the battlefield by Rally the Ancestors on resolution.
+This is not the case for spells like Resurrection or Proclamation of Rebirth, which, due to being targeted, need the affected creature(s) to be in the graveyard when the spell is cast.
+

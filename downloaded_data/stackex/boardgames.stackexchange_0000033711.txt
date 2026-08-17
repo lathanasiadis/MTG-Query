@@ -1,0 +1,20 @@
+Q:
+
+Will Evoke trigger on a creature that's returned to the battlefield from the graveyard?
+
+When a spell or ability returns a card with Evoke from i.e. the graveyard to the battlefield, will it's Evoke ability trigger, or does it only trigger when it enters the battlefield from the stack, being cast with it's Evoke cost paid?
+For example, if I blink Nevermaker using Brago, King Eternals ability, would Evoke trigger when it re-enters the battlefield?
+
+A:
+
+A creature will never be considered "evoked" when entering the battlefield in any other situation than being cast.
+Here's what the rules says about Evoke:
+
+702.73a [...] “Evoke [cost]” means “You may cast this card by paying [cost] rather than paying its mana cost” and “When this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it.” [...]
+
+Evoke adds two things to the card :
+The first is an alternative cost, meaning it can only be used at any time you would be able to play the card by paying its mana cost.
+The second (the sacrifice part) is a triggered ability for the creature, that will trigger when entering the battlefield.
+This trigger will make the controller of the creature sacrifice it, if and only if the Evoke alternative cost has been paid.
+If a creature with Evoke was played paying it's Evoke cost, then leave the battlefield and later comes back (for example from Acrobatic Maneuver or Reanimate), it will be a completely new object, which Evoke cost hasn't been paid, and so the Evoke trigger won't make it's controller sacrifice it.
+

@@ -1,0 +1,16 @@
+Q:
+
+Can I deal combat damage with a 1/1 Walking Ballista and deal damage with its ability?
+
+Rules Question:  
+
+Player A attack with 1/2 creature
+Player B block with Walking Ballista with 1 +1/+1 counter
+And now can player B use Walking Ballista activation ability, after combat damage but before it go to graveyard, to kill 1/2 creature?
+
+A:
+
+No, you cannot.  Going to the graveyard (due to damage) is a State-Based action that happens before either player gets priority.  Without priority, you can't activate Ballista's ability. 
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. 
+

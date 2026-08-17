@@ -1,0 +1,14 @@
+Q:
+
+Using Commander Abilities from the Command Zone
+
+So I have Horde of Notions and I am wondering if I can use it's mana cost ability from the commander zone. The ability which by paying one of each color, I can bring a Elemental from the graveyard to the battlefield.
+
+A:
+
+No, abilities of permanents usually only work when they're on the battlefield. Exceptions exist, but are generally explicit on the card.
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows: [..]
+
+Most permanents' abilities, including all activated abilities such as on Horde of Notions, will explicitely say so in their text if they work in any zone other than the battlefield. Horde of Notions' ability does not say that it works in any zone other than the battlefield, so it doesn't.
+

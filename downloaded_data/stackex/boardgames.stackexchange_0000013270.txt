@@ -1,0 +1,15 @@
+Q:
+
+Do Pack Rat copies give devotion?
+
+If I make a copy of Pack Rat using its ability, does that copy retain the mana cost, and thus increase my devotion to black by one?
+ie. I have nothing on the battlefield but one Pack Rat and some swamps. I discard a card to Pack Rat to create a copy of it. Is my devotion now equal to 1 or 2?
+
+A:
+
+Yes. Each of the Pack Rat copies will have a mana cost of 1B, which counts for devotion to black.
+Most tokens (like Elspeth's Soldier tokens) don't have a mana cost because the effect creating them doesn't specify one.
+Pack Rat, however, creates a token that is a copy of the card, meaning that it gains all of the original card's "copiable characteristics":
+
+706.2. When copying an object, the copy acquires the copiable values of the original object's characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

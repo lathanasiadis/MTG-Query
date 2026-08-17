@@ -1,0 +1,19 @@
+Q:
+
+Psychic Battle and Rayne, Academy Chancellor
+
+Will changing targets with Psychic Battle cause Rayne, Academy Chancellor to trigger? What about Dismiss into Dream?
+If an opponent casts a spell targeting you, and you win the "clash", can you change it to yourself and trigger Rayne twice?
+
+A:
+
+Yes, changing targets with Psychic Battle can trigger Rayne or Dismiss into Dream. However, when you do want to change a target, you have to choose a different legal target, so you can't change the target of a spell from yourself to yourself.
+For abilities that trigger when its permanent becomes a target, it doesn't matter whether the target was the original, i.e. when the spell or ability was played, or whether it became a target only afterwards, through Psychic Battle. "Becoming a target of a spell or ability" means the transition from being not a target to being a target of that spell or ability. Since Psychic Battle's ability is triggered rather than a replacement effect, the effects of multiple Psychic Battles can trigger Rayne multiple times from a single spell or ability.
+That also answers your second question. When you are already the target of a spell, and you would change the target to yourself, there would be no transition and thus, no trigger:
+
+603.2d Some trigger events use the word “becomes” (for example, “becomes attached” or “becomes blocked”). These trigger only at the time the named event happens—they don’t trigger if that state already exists or retrigger if it persists. An ability that triggers when a permanent “becomes tapped” or “becomes untapped” doesn’t trigger if the permanent enters the battlefield in that state.
+
+However, that situation couldn't occur to begin with, because you can never change the target of spell or ability to the same target that it already is:
+
+114.7a If an effect allows a player to “change the target(s)” of a spell or ability, each target can be changed only to another legal target. [..]
+

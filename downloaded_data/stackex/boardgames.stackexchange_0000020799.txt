@@ -1,0 +1,43 @@
+Q:
+
+Commander status as hidden information
+
+Inspired by Ivo Beckers' comment on the answer to Is your commander still a "commander" if it gets turned face down?
+If Akroma, Angel of Fury is your commander and is returned to your hand, followed by casting her as a morph creature for {3}, how is her commander status handled?
+Naturally, by CR 903.3, the face-down object still is your commander. However, that fact is hidden information. Normally, if a commander has been turned face down, since everyone is permitted to know what the morphed creature was, dealing commander damage with the nameless 2/2 isn't an issue. But if the commander was cast as a morph, that doesn't help.
+The most relevant specific question to this situation, I suppose, is "can you deal commander damage to your opponent without them knowing it?" (ie, connect for combat damage with the morph creature without revealing that the creature is your commander)
+
+A:
+
+Is it my commander?
+To reiterate what is stated in the question, your commander is always your commander, and nothing can change that. This is because of the following rule:
+
+903.3. [...] This [commander] designation it is an attribute of the card itself. The card retains this designation even when it changes zones.
+
+Does a commander deal commander damage?
+Yes, obviously.
+Even if it's morphed?
+Yes. Commanderness cannot be hidden. It's an attribute of a card, not a card face. This is specifically covered by an example under rule 903.3.
+
+A commander that’s been turned face down (due to Ixidron’s effect, for example) is still a commander.
+
+Even if it's morphed from my hand?
+Yes. Being unable to immediately prove* commanderness is not a legitimate argument for ignoring the rules. To illustrate this very clearly, consider these two rules:
+
+Correct rule 903.3
+
+The commander designation is an attribute of the card itself.
+
+Incorrect rule 903.3
+
+The commander designation an attribute of the card itself if and only if you can prove what card it is.
+
+*Note that you will eventually be required to reveal your morph via comprehensive rule 707.9.
+Am I required to immediately tell the truth if asked if a morph is my commander?
+It's not clear. The EDH Rules Committee previously stated on their forum:
+
+Face Down Commanders 
+Since the card itself is designated as the commander, face down commanders still deal commander damage. Your opponents are also allowed to know which morph creature is your commander.
+
+MTGCommander.net is cited in the comprehensive rules as being a source of "additional resources", so rulings made by the EDH Rules Committee are pseudo-authoritative. However, the forum has since been taken down, and with it the ruling. For lack of an authoritative source, it is unclear if "commanderness" is free information.
+

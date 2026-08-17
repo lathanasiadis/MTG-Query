@@ -1,0 +1,31 @@
+Q:
+
+Why is "slow play" a thing in Magic?
+
+I keep getting warnings for "slow play" in Magic. Yet being an avid chess player I consider fast playing a crime.
+Why does the Magic community have a problem with "slow play"? Looking back at chess, slower play with more thinking ahead is also good for spectators; long games typically have much more interesting plays.
+So what is the reason to have such short games in Magic by default? Why not play fewer games but in more depth at things like Friday Night Magic?
+And why does the game typically award "faster plays" by giving points per game instead of a true Elo?
+
+A:
+
+The prohibition on "slow play" is more than just a community norm, it is a tournament rule described in section 5.5 of the tournament rulebook, and it says this:
+
+Players must take their turns in a timely fashion regardless of the complexity of the play situation and adhere to time limits specified for the tournament. Players must maintain a pace to allow the match to be finished in the announced time limit. Stalling is not acceptable. Players may ask a judge to watch their game for slow play; such a request will be granted if feasible.
+
+In other words, it is considered "slow play" if a player takes an unreasonable amount of time to take individual game actions or make individual game decisions. In most cases, the rule is only enforced if a player exhibits a pattern of playing like that. Stalling is the extreme limit of this, when a player clearly does not intend to do anything, but also does not allow their opponent to act, simply to run down the match clock.
+Why is the "reasonable pace" so fast?
+In Magic, most decisions should not require much time. You are working with a relatively limited set of information, and most of that information does not change much from turn to turn. In addition, any attempt to plan more than a turn or so ahead would be limited by the unknown information about the cards in your opponent's hand and both libraries.
+Why is slow play a problem in tournaments?
+In Magic tournament play, the match as a whole has a limited amount of time. This means that players using match time is essentially a zero-sum game: the more time one player uses to think while not acting and also not allowing the opponent to act, the less time the other player has to act when they get the opportunity. This means that a player gains an advantage by thinking through their moves during their own turn, instead of while their opponent is acting.
+An unscrupulous player could abuse this fact by winning the first game, and then slowing down their pace of play in the second game enough to prevent their opponent from having an opportunity to make a comeback.
+Why not play fewer games for longer?
+The standard best-of-three structure is very important to Magic tournaments because it allows for "sideboarding", which is the ability to swap out cards with a pre-chosen sideboard in games after the first in order to counter your opponent's deck. Sideboarding is commonly considered to be integral to the depth of tournament-level Magic strategy, because it requires a deep understanding of the current metagame.
+Why not play fewer matches for longer?
+Generally, the goal of a Magic tournament is to find a winner among a large number of people, and to more generally rank the players by their performance in the tournament. In order to correctly determine a single winner based on match win rate alone, a tournament needs to contain at least log2(number of players) matches. Most tournaments do run approximately that many matches.
+Why not make the whole tournament longer?
+Magic exists in a larger context, and people have other things to do. If I go to play Magic at a Friday Night Magic event, I will likely not have the energy or inclination to stay for several hours and leave well after midnight.
+Why does chess not have this problem?
+The most important difference between chess and Magic that makes this problem virtually nonexistent in chess is the game clock. In chess, each player is timed separately, and a player loses if they spend too long on their own moves. In Magic tournaments, a game clock would be entirely infeasible, because control over the flow of the game switches between players much more frequently, and often in ways that are informal and shortcut in order to play at a reasonable pace.
+In contrast, Magic: the Gathering Online does play with a real game clock, where each player's clock runs as long as they have priority or a decision to make, and in that game slow play is generally not considered a problem, entirely because in that case the player who plays slowly is the one who is disadvantaged by doing so.
+

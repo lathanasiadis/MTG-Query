@@ -1,0 +1,15 @@
+Q:
+
+Is it possible to not pay a conditional counter with the cost set at 0?
+
+For example, there's a Cephalid Shrine on the field and someone casts a spell with no copies in any graveyards.  Can someone choose to counter their own spell by not paying 0 mana?
+I don't think there's anything in the rules preventing this, but I do know that things like 0 power attacks can't interact with combat damage triggers.  Is there a similar case for costs of 0 being automatically paid?
+
+A:
+
+Rule 117.5 states:
+
+117.5. Some costs are represented by {0}, or are reduced to {0}. The action necessary for a player to pay such a cost is the player’s acknowledgment that they are paying it. Even though such a cost requires no resources, it’s not automatically paid.
+
+So, it is possible to refuse to pay an optional payment with a cost of 0 mana, and a person can counter their own spell by refusing to pay the cost of 0 mana.
+

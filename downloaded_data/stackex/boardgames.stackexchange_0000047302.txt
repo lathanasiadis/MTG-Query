@@ -1,0 +1,24 @@
+Q:
+
+How does Dreadhorde Arcanist interact with split cards?
+
+If I have a Dreadhorde Arcanist with a +1/+1 counter and a Collision // Colossus in my graveyard, what can I do? Can I play one of the split cards, neither or both?
+If I play Colossus on a Dreadhorde Arcanist and attack with it targeting Collision / Colossus, can I play both or only one of them?
+If the case is that I can play only one, can I spend mana to play the second?
+
+A:
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and converted mana cost are determined from its combined mana cost.
+Example: Assault/Battery’s mana cost is {3}{R}{G}. It’s a red and green card with a converted mana cost of 5. If you cast Assault, the resulting spell is a red spell with a converted mana cost of 1.
+
+So Collision / Colossus has a converted mana cost of 4 and you won't be able to cast it in the first scenario when the Arcanist is a 2/4.
+
+708.3. A player chooses which half of a split card they are casting before putting it onto the stack.
+
+So in the second scenario, where the Arcanist is a 5/5, you can cast either Collision or Colossus, but not both.
+There's no way to cast both halves, not by paying extra mana and not even when it's a Fuse split card, because that ability only works when the card is in your hand:
+
+702.101. Fuse
+702.101a Fuse is a static ability found on some split cards (see rule 708, “Split Cards”) that applies while the card with fuse is in a player’s hand. If a player casts a split card with fuse from their hand, the player may choose to cast both halves of that split card rather than choose one half. This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.
+

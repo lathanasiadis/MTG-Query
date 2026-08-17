@@ -1,0 +1,12 @@
+Q:
+
+Does casting a Partner commander add a the +2 mana cost to your other commander as well?
+
+Since some commanders have the ability Partner, letting you have more than one commander at a time, and to recast a commander, you need to pay 2 mana for each time you recast them, does the +2 mana cost count towards both commanders if one leaves or does it just count towards the one that left the field?
+
+A:
+
+Each Commander will keep track of its own extra 2 mana separately.
+
+702.123d Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast. When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders separately. 
+

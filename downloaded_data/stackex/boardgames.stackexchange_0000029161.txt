@@ -1,0 +1,20 @@
+Q:
+
+Token creator gets countered?
+
+When a creature that produces tokens is countered, does it still produce tokens?  I.e. if Wurmcoil Engine is countered before it hits the battlefield, does it still produce tokens when it goes into the graveyard?
+
+A:
+
+It depends on the trigger condition.
+Wurmcoil Engine triggers when it dies. Dies means something very specific in Magic: the Gathering:
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+If Wurmcoil Engine is countered, it goes straight from the stack to the graveyard, bypassing the battlefield entirely.
+
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+If the trigger condition were different, like "Whenever Wurmcoil Engine gets countered, [...]" or "Whenever Wurmcoil Engine is put into the graveyard, [...]" then it would trigger.
+A commentor helped me find a creature that would still give you a token even if it were countered. Desolation Twin triggers when you cast the spell. Once triggered, the trigger exists independently of the actual spell. Even if Desolation Twin gets countered, the trigger will still resolve, and you will still get a token.
+

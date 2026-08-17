@@ -1,0 +1,20 @@
+Q:
+
+What Happens if I Manifest a Double-Faced Card?
+
+If I put a double-faced card onto the battlefield with Manifest (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it’s a creature card), what happens?  Does it enter the battlefield transformed, is it a 2/2 with no abilities, or is it not even possible to be manifested?
+
+A:
+
+This article explains that double-faced cards can be manifested and enter as 2/2's with no abilities.  The actual implementation of this stems from the fact that the double-faced card must already be unidentifiable in your hand and library.  As a result, you already have the card in an opaque sleeve or you have a checklist card in your deck as a placeholder, and either of these can be put on the battlefield face-down as a state distinct from transformed.
+It should be noted that double-faced cards can't be turned face down if they are already a face up permanent (such as by Ixidron).  The relevant rules are the following:
+
+711.9. If an effect allows a player to cast a double-faced card as a face-down creature spell, or if a double-faced card enters the
+  battlefield face down, it will have the characteristics given to it by
+  the rule or effect that caused it to be face down. That card remains
+  hidden, using either a face-down checklist card or opaque sleeves. See
+  rule 707, “Face-Down Spells and Permanents.” 
+711.9a While face down, a double-faced permanent can’t transform. If it is turned face up, it will have its front face up.
+711.10. Double-faced permanents can’t be turned face down. If a spell or ability tries to turn a double-faced permanent face down, nothing
+  happens.
+

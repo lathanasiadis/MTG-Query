@@ -1,0 +1,44 @@
+Q:
+
+Are there any good intermediate deck building resources available in magic
+
+I've gotten to the place where the run of the mill 'basic deck-building' guides offer no more help to me and yet the advanced deck building resources are still a little out of my reach. I am wondering if anyone can recommend any good resources to me that might help.
+I realize this is sort of a relative question, so I will provide a hypothetical question I might ask, given the level I am at in my current proficiency-
+(this next paragraph is the set up for my hypothetical question)
+Say, for example, I want to build a strong enchantment deck: I am at the point where I realize that enchantments have their weaknesses, most notably, a removal spell can completely ruin all the momentum you have built up in the game with a single card. So, when building this deck, an important aspect of it should be built around either countering or protecting against such a event. So I should think about something like hexproof or being able to return cards from my grave yard.  
+Question: Whether I go for either hexproof or graveyard return, how many cards in my 60 card deck should I dedicate to this protection?
+That's an example of the type of question I would be likely to ask at my current skill level. I would love to know any resources that would be good for someone at my stage in the game. 
+I am not looking for an answer to this hypothetical question and I am not looking for an answer such as, 'Put some in your deck and play it until it works."
+*I'm looking for a resource that provides, basic, guidelines for this type of thing, at this level.*
+
+A:
+
+As far as I know, there is not a "catch-all" resource that can answer any intermediate question that anyone could possibly dream up. However, I think that you are looking for what I would call "intermediate building blocks".
+Here are some building blocks that are relevant to nearly any deck build, but are not so hard to understand for an intermediate player. Please skip over any material you find to be too advanced (except for the rules - don't skip the rules
+#What are the rules?
+Understanding the rules is the most important tool when building a deck. I find The Judge's Corner on Youtube to be a great resource for understanding the rules. Wizards also releases a "rules clarifications" article right before every new set is released. You can read it to gain a more in-depth knowledge of the more complicated cards.
+For example, when Red Deck Wins was in the same meta as Master of Waves, I made a decision to leave Anger of the Gods in my sideboard because Skullcrack removes his protection, and I main decked four Skullcracks. Had I not known the rules, Anger would appear to be useless against Master of Waves.
+#How much land?
+In standard, this boils down to probabilities. If you have an iPhone or Android phone, I strongly suggest you download the free Manalyzer for Magic the Gathering app and play with the numbers. You want the least number of lands that will still give you a high probability or being able to play the cards that you are most likely to draw. There are countless other apps that were built to help with the math, so search for them.
+Using an extreme case to serve as a basis for all other cases, if your deck consists of only 1 drops, and you have a 90% chance to have 3 lands by turn 3, you will probably run out of cards to play on turn 3. That may be good or bad, depending on what the cards are.
+In short, you need to determine on what turn(s) you need your mana to be there for you. This ties in to the next topic.
+#Fundamental Turn
+When does your deck win? I can't do this topic justice, so I suggest you read about it here, from the guy who coined the phrase.
+Assume you have calculated your fundamental turn to be 6. You know that another deck that is in the meta has a fundamental turn of 4. What tools do you have to delay their fundamental turn? If you have none, you will lose. If you fill your deck with 1/3 creatures and he has a deck filled with 2/2 creatures, that will delay his fundamental turn. This leads to my last topic.
+#The Clock
+I can't find the article I wanted to reference here, so I'll reference this one instead.
+The clock is basically "if nothing changes, given the knowledge and board state that I have, in how many turns will I win or lose". If your opponent has a 4/4 flyer and you have no board, no cards, and 20 life, you are on a 5 turn clock. If you are milling 5 cards per turn and you have 40 left, you are on an 8 turn clock.
+You can anticipate changes to your clock by assuming that your opponent has specific cards in hand and knowing what cards remain in your library. This is where understanding your meta comes in.
+#The Metagame
+There are other decks out there. The ones that show up to tournaments the most form the "tournament meta". The ones that show up to your local store form the "local store meta". If you play with friends, your friends form your meta. Some metas are more stable than others (like legacy), while some are constantly shifting (like your friends).
+I determine my meta using TCG player latest decks, by watching the latest StarCityGames tournaments on Twitch.tv, by watching Grand Prix tournaments (also on Twitch), and by playing a lot.
+Once you know your meta, you can calculate the fundamental turn of the decks you will be facing, and adjust your deck to handle it.
+Now you have the following resources in your arsenal:
+
+The Judge's Corner and other mtg related playlists you may find
+The Manalyzer and other probability tools you may find
+A knowledge two important concepts: the fundamental turn and the clock
+Your meta and 2-4 ways to discover and explore it
+
+In the case that any of my links go bad, simply search for the bolded keywords. In the case that you know of a better article or tool than one I listed, please edit this answer with your awesome material.
+

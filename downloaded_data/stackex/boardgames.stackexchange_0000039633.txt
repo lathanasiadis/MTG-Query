@@ -1,0 +1,12 @@
+Q:
+
+Can a “flung” creature that is destroyed still deal damage?
+
+I pump my Longtusk Cub up to make it a 6/6 and use Fling to deal 6 damage to my opponent. He responds with a Fatal Push on my cub. Does my cub still get through to deal 6 damage or does my fling spell fizzle and he takes no damage?
+
+A:
+
+The situation described in your question can't happen. Your opponent cannot use Fatal Push on your Longtusk Cub. Sacrificing the creature is part of the cost of casting Fling, not part of the effect. This means that the parts of casting a spell, which cannot be interrupted (announcing, entering the stack, choosing targets, determining and paying costs) all occur before they get priority and can cast Fatal Push, leaving no creature for your opponent to target and destroy. This also means though if Fling is countered, you have lost your creature, since it is part of the cost, not the effect.
+In simpler terms by the time your opponent knows and is able to react to the fact you are going to Fling Longtusk Cub, it's already gone and too late to respond with anything intended to target the creature.
+Note that the reverse is not true, you can respond to Fatal Push by using Fling on your Longtusk Cub, since the destruction from Fatal Push is part of the effect, not the cost. This would cause Fatal Push to fizzle.
+

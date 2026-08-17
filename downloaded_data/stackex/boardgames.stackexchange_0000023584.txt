@@ -1,0 +1,22 @@
+Q:
+
+Does having 2 Flickerwisps and an Impact Tremors win me the game?
+
+I'm just thinking that if I had a Flickerwisp and an Impact Tremors in play, and I cast another Flickerwisp, would I be able to have the Flickerwisps "flick" each other until my opponents are at 0 life and win me the game? I'm thinking I might be on to something here.
+I'm not sure how the "end of turn" ruling affects this, but if it's an issue I guess I can use a Fiend Hunter for this combo, right?
+
+A:
+
+No, the first Flickerwisp will come back at the beginning of your end of turn step. The creature it exiles wouldn't come back until the beginning of the next end of turn since after they wont trigger at the begging of the end step.
+Ruling on the card:
+
+If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
+
+It is worth noting that the ruling on the card is just a clarification of the usual "beginning of phase" effects.  Since all beginning of phase effects are put on the stack first, and then are resolved in LIFO order any new "beginning of phase" effects that are put into play don't fire.  The "beginning of the phase" has already ended.
+Fiend Hunter will work for this combo, but you would need three of them. We'll call them A, B, and C. The pattern would follow:
+
+A enters
+B enters, capturing A
+C enters, capturing B, which releases A
+Repeat
+

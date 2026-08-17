@@ -1,0 +1,22 @@
+Q:
+
+Does a Angel of Glory's Rise and a Fiend Hunter combo work like I think it does?
+
+The scene I envision is that I have a graveyard full of humans, one of which is a Fiend Hunter. I play Angel of Glory's Rise and put all my humans from my graveyard and onto the battlefield, and when the Fiend Hunter enters the battlefield I target my Angel of Glory's Rise to be exiled.
+So, does that mean that when the Fiend Hunter who is holding my Angel in Glory goes to the graveyard, the Angel of Glory's Rise comes onto the battlefield and thereby returns Fiend Hunter to the battlefield again, triggering his ability to exile a target creature anew?
+If so, how does spells like Cloudshift effect that Fiend Hunter? If I used Cloudshift on the Fiend Hunter that was keeping my Angel of Glory's Rise in exile, would order of events look like this?
+
+Cloudshift targets Fiend Hunter
+Fiend hunter leaves battlefield - Angel of Glory's Rise returns from exile
+Angel of Glory's Rise "enters the battlefield" ability triggers 
+Fiend hunter enters battlefield - Angel of Glory's Rise goes to exile
+
+Or would using Cloudshift not trigger the Fiend Hunter's "leaves the battlefield" ability, exiling my Angel of Glory's Rise forever?
+Finally, what if I had two or more Champion of the Parish that entered the battlefield from the graveyard due to the Angel of Glory's Rise's "enter battlefield" ability? Do they both come into play at the same time, so that both of them get a +1/+1 counter because they are both "another Human" to one another, or do they enter the battlefield one at a time?
+
+A:
+
+The first part of your combo does work. When the Fiend Hunter enters the battlefield, he can exile the Angel of Glory, and when the Fiend Hunter goes to the graveyard, he will already be there when the Angel returns, which allows you to repeat that combo indefinitely.
+However, Cloudshift on Fiend Hunter is another matter. When the Hunter leaves the battlefield with the Angel exiled, he will indeed trigger the return of the Angel. However, the Hunter leaving and returning to the battlefield are all part of Cloudshift's resolution, so by the time the Hunter returns and you get to choose another creature to exile, the return of the Angel is still on the stack and is not yet back from its exile. You will have to choose another creature entirely, and if you don't happen to have a second Angel on the battlefield, the combo will end with the resolution of Cloudshift.
+As for the Champion of the Parish question: The creatures enter the battlefield simultaneously. Creatures that enter the battlefield at the same time see each other enter the battlefield, so a Champion's triggered ability will trigger for each other Human entering the battlefield at the same time. For example, if you have 5 humans in the graveyard, and 2 of them are Champions, then each Champion's ability will trigger four times, so each would get a total of 4 counters.
+

@@ -1,0 +1,26 @@
+Q:
+
+Who is the controller of an Aura when the creature it enchants is stolen?
+
+I have a Cockatrice enchanted with an aura, Celestial Mantle, which says:
+
+Whenever enchanted creature deals combat damage to a player, double its controller’s life total.
+
+My opponent then enchants the Cockatrice with Control Magic. Next turn, they attack with it.
+Who's the controller of the Celestial Mantle at this stage? Who will benefit from Celestial Mantle's ability to double a player's life total?
+
+The player who put the Aura onto the creature, or
+The player controlling the creature?
+
+A:
+
+You're still controlling the aura.
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn’t change control of the Aura, and vice versa. Only the Aura’s controller can activate its abilities. However, if the Aura grants an ability to the enchanted object (with “gains” or “has”), the enchanted object’s controller is the only one who can activate that ability.
+
+However, in this case it doesn't matter. The aura says
+
+double its controller's life total
+
+"its" refers to the enchanted creature, not the aura itself. So your opponent will get the benefits here.
+

@@ -1,0 +1,35 @@
+Q:
+
+Is this interaction of Grunn, the Lonely King, and Run Amok correctly examined
+
+Active player controls Grunn, the Lonely King at x/x, and has Run Amok in hand. Assume that we've just entered the Combat Phase.All Players Pass.
+Active Player declares Grunn attacking. Since Grunn is attacking alone, the last ability triggers.
+The Active Player gets priority. Grunn's last ability is added to the Stack. In response, the active Player casts Run Amok, targeting Grunn.
+Run Amok resolves, Grunn gains +3/+3 until end of turn: x+3 / X+3.
+Grunn's last ability resolves: 2(x+3) / 2(x+3).
+So, can I cast Run Amok before the last ability resolves?
+
+A:
+
+You have it correct; you can cast Run Amok before Grunn's triggered ability resolves.
+During the Declare Attackers step of the combat phase, players each get priority after attacking creatures have been declared.
+
+508. Declare Attackers Step
+
+508.1. First, the active player declares attackers. [...]
+
+508.1m Any abilities that trigger on attackers being declared trigger.
+
+508.2. Second, the active player gets priority. 
+
+So after Grunn's ability triggers when you declare it as an attacker. When you get priority, you will put that triggered ability on the stack, and can then cast Run Amok in response to the triggered ability.
+Grunn's ability will double the power and toughness as it is when the ability resolves, which will include the +3/+3 it got from Run Amok.
+The Gatherer rulings for Grunn say:
+
+If an effect instructs you to “double” a creature’s power, that creature gets +X/+0, where X is its power as that effect begins to apply. The same is true for its toughness.
+
+It doesn't matter what the power is when the ability triggers, or when it is being added to the stack.
+The comprehensive rule that backs up this ruling:
+
+701.9b To double a creature’s power, that creature gets +X/+0, where X is that creature’s power as the spell or ability that doubles its power resolves. Similarly, an effect that doubles a creature’s toughness gives it +0/+X, where X is that creature’s toughness. Doubling a creature’s power and toughness gives it +X/+Y, where X is its power and Y is its toughness.
+

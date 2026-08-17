@@ -1,0 +1,18 @@
+Q:
+
+Should trample damage get through a creature with protection from the attacker?
+
+I had the below scenario happen while playing MTG Arena.
+I have a 1/1 soldier token.
+I have given it protection from Red, by sacrificing an Alseid of Life's Bounty.
+My opponent has a Rimrock Knight equipped with an Embercleave.
+My soldier blocks the Rimrock Knight.
+Damage still gets through.
+I was under the impression that protection from red would force all damage to be absorbed by the soldier.  That was not the case.  I'm assuming this is a bug in my understanding of the rules, as opposed to a bug in Arena?
+
+A:
+
+The trample damage should get through in this situation.
+Protection prevents damage, but it does not have any effect on how damage is assigned in combat. The attacking player must still assign 1 damage to the token before assigning any damage to you. The token will not take the damage and will not die, but the rest of the damage assigned to you is not prevented, so it will still be dealt to you.
+One interesting note here is that this attacking creature has double strike because Embercleave grants that ability. This means that it will deal damage in both the first strike and regular combat damage steps, and since the damage is prevented by the protection ability, the token will be undamaged after the first strike combat damage step, so the attacking player will need to assign another 1 damage to it in the regular combat damage step.
+

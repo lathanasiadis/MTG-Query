@@ -1,0 +1,29 @@
+Q:
+
+Killing opponent's Arclight Phoenixes with Massacre Girl, with Cauldron Familiar in graveyard
+
+My board: 5 lands, Cauldron Familiar in graveyard, food token
+Opponent's board: 1 untapped red mana, 2 Arclight Phoenix, Shock in hand
+I want to play Massacre Girl and sweep up opponent's board. With no other creatures, Massacre Girl's trigger doesn't do anything, so I need to bring back Cauldron Familiar first. But opponent has a Shock, so if I bring back Familiar and then cast Massacre Girl, they will Shock in response to my Massacre Girl and the trigger does nothing.
+Here's my plan:
+
+I will cast Massacre Girl.
+Once Massacre Girl enters the battlefield and triggers, in response to the trigger, I will bring back Cauldron Familiar.
+Opponent can now Shock the Cauldron Familiar, but since Massacre Girl has the line of text "Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn" and it is already on the battlefield, it doesn't matter, the Phoenixes get -1/-1, and Massacre Girl sweeps them up anyway.
+
+Does this work, or does this ability on Massacre Girl not matter until the trigger is resolved?
+
+A:
+
+Your opponent can prevent another -1/-1 effect, no matter how you play it.
+The clause "Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn" is part of the Massacre Girl's ability, because there is no new paragraph separating the lines. 
+
+113.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability. [..]
+
+It is a delayed triggered ability that only comes into existence as the ETB ability resolves. If the Familiar dies before the ETB has started resolving, it will not create another -1/-1 effect. 
+
+603.7a Delayed triggered abilities are created during the resolution of spells or abilities, as the result of a replacement effect being applied, or as a result of a static ability that allows a player to take an action. A delayed triggered ability won’t trigger until it has actually been created, even if its trigger event occurred just beforehand. Other events that happen earlier may make the trigger event impossible.
+
+If you return the Familiar after the ETB has resolved, your opponent can simply decline to Shock the Familiar.
+Therefore, if your opponent plays correctly, you will not get a second -1/-1 effect and the Phoenixes will survive.
+

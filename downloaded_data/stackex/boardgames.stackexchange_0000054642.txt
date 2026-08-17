@@ -1,0 +1,16 @@
+Q:
+
+Lord Windgrace; Resolving the First Loyalty Ability
+
+Lord Windgrace's first ability reads:
+
++2: Discard a card, then draw a card. If a land card is discarded this way, draw an additional card.
+
+If a land is discarded with this ability, is the order of events with this to draw, discard, then draw again because it doesn't specify to draw an additional card—or draw two cards—"instead?"
+The confused other approach would be seeing the ability as reading to draw, draw, discard; which I believe is the way I initially interpreted it.
+I believe I recognize that a replacement effect is not in place here.
+
+A:
+
+Neither of your interpretations are correct. The order of events is discard, draw, [draw]. Look at the way the ability is ordered "+2: Discard a card, then [...]" The very first thing you do while resolving this ability is discard a card, then you draw either one or two cards. There is no replacement effect involved, and the first draw is unconditional. This means that even if you fail to discard a card (no cards in hand) you will draw that first card, but the discard definitely happens first if possible.
+

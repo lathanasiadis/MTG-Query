@@ -1,0 +1,22 @@
+Q:
+
+Splice and Arcane combo
+
+What are the current rules for spliced spells? Can they still be spliced again as long its mana cost is paid? or each spell can be spliced only once? If they an arcane spell can be spliced only once then if it goes to the graveyard the counter is reseted and be spliced again?
+For a Desperate Ritual + Past in Flames combo
+EDIT: Thanks for your response everyone.
+Now is clear to me that cards that fill the requirements can be spliced only once and as long they are in your hand.
+
+A:
+
+The rules for splice onto arcane (currently the only form of splice, and described in CR 702.46) are as follows:
+
+While you are casting an arcane spell, if you have a splice onto arcane card in your hand (hereafter called a splice card), you may reveal the splice card.
+If you do, pay the splice cost on the splice card.
+The arcane spell gains the effects of the splice card.
+
+Nothing happens to the Splice card. It stays in your hand. The original card resolves (plus the splice effects) then, usually, winds up in your graveyard.
+You cite Desperate Ritual + Past in Flames as a combo. You cannot splice onto Past in Flames because it is not arcane. I hope you are instead just planning on using Past in Flames to re-cast an Arcane card from your graveyard.
+An arcane spell is a spell with the Arcane subtype, i.e. one of these: t:arcane. These cards all have a type line that reads “Instant — Arcane” or “Sorcery — Arcane”. This means they have the Arcane subtype. This is just like how a Creature may be a Zombie, and cards may care about Zombie cards. The exact same way, splice onto arcane cares about Arcane cards.
+If you do happen to cast an Arcane card from your graveyard, such as via Past in Flames, you can still splice Desperate Ritual onto it if Desperate Ritual is in your hand at the time you cast it.
+

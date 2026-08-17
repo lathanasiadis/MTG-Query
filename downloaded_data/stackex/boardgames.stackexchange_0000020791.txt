@@ -1,0 +1,22 @@
+Q:
+
+Random targeting and protection
+
+I have a creature with protection from green in play along with another creature. My opponent plays a green spell that targets a creature I control chosen at random and does damage to it. Does the protection make the creature with protection an invalid target for said spell (automatically targeting my only other creature), or is there a 50/50 chance the protected creature will be targeted resulting in the spell being countered?
+Edit for clarification (targeted @ the discussion in the comments)
+The situation is slightly different than depicted (was posted via phone, couldn't easily provide links etc)
+I have a Woodlot Crawler in play along with another creature. My opponent plays Scab-Clan Giant, and its ability triggers. Question is whether my Woodlot Crawler is a legal target for the triggered ability.
+
+A:
+
+The Comprehensive Rules don't explicitly mention random targets. However, we can still use them to get an answer. The bottom line is that the creature with protection can't be chosen as the target, making the other creature automatically the target.
+Now, as you point out, "target creature [you] control chosen at random" could mean you must target a creature you control that is also a valid target, or it could that you target a creature you control without filtering on legal targets. Even if you try to pick from all creatures, the game itself will restrict you to legal targets.
+CR 601.2 details the exact process for casting a spell. The key sentence is as follows:
+
+If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast (see rule 717, "Handling Illegal Actions")
+
+As pointed out in comments, 601.2c specifies that the casting becomes illegal specifically when you try to target an invalid target, whether it's because of protection as in this case, or hexproof/shroud. At this point, it's as if the spell was never cast, so the spell can never wind up targeting the creature with protection. It can only wind up with a legal target.
+The ruling for Goblin Test Pilot confirms this (emphasis mine):
+
+To choose a target at random, all possible legal targets (including creatures and players) must have an equal chance of being chosen. There are many ways to do this, including assigning each possible legal target a number and rolling a die.
+

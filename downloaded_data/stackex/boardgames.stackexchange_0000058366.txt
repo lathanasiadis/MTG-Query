@@ -1,0 +1,32 @@
+Q:
+
+Why don't some cards use last known information for a card that's left exile (e.g. Bishop of Binding)?
+
+Bishop of Binding says:
+
+When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.
+Whenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.
+
+The card has a ruling that explains:
+
+If there is no exiled card as Bishop of Binding's last ability resolves, most likely because Bishop of Binding left the battlefield while that ability was on the stack, X is 0.
+
+The situation I'm confused about is why that would be the case if a valid card did go to exile and then left exile. For example, let's say you exiled a creature with it and then used Processor Assault to put it from exile into their graveyard.
+My confusion comes from the rule stating when you should use last known information:
+
+608.2h If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 113.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+I've highlighted the bits that are relevant. As far as I can tell, from this rule, it should mean that the ability continues to work with the same value of X even once the exiled card has gone, as long as the Bishop sticks around. Why isn't this the case? Am I missing some other rule?
+Another example would be Isochron Scepter.
+
+A:
+
+The reason this doesn't work as you suggest is that there is no "the exiled card" that you need to find the last known information about.
+It's not an issue of needing information about the card, it's an issue of what "the exiled card" mentioned in the ability even is. Bishop of Binding has linked abilities, so we need to look at the rules for those:
+
+Linked Abilities
+
+607.2a If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+So when there is no card currently in the exile zone, "the exiled card" referred to by the second ability simply isn't a thing that exists. It's not that we need information from it so we can look at its last known information. It's that we can't even say that "the exiled card" is the card that used to be in exile and no longer is. "the exiled card" is simply a thing that doesn't exist at all.
+

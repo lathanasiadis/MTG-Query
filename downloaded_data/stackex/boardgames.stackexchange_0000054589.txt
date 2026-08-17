@@ -1,0 +1,20 @@
+Q:
+
+If I copy a creature spell and it resolves, is the new permanent a token?
+
+If I copy a creature spell while it is on the stack, and then this copy resolves, I will get a creature object on my battlefield. Is this object a token? Or is it a nontoken object that happens to not have a physical card associated to it?
+
+A:
+
+Yes, it becomes a token permanent.
+
+706.10f Some effects copy a permanent spell. As that copy resolves, it ceases being a copy of a spell and becomes a token permanent. (See rule 608.3b.)
+
+608.3b If the object that’s resolving is a copy of a permanent spell, that object becomes a token permanent and is put onto the battlefield under the control of the spell’s controller. It is no longer a copy of a spell. The token put onto the battlefield this way is not “created” for the purposes of any replacement effects or triggered abilities that refer to creating a token.
+
+Note that this token copies all of the characteristics of the permanent spell that it copied, including mana cost, name, etc:
+
+111.11. A copy of a permanent spell becomes a token as it resolves. The token has the characteristics of the spell that became that token. The token is not “created” for the purposes of any replacement effects or triggered abilities that refer to creating a token.
+
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. Objects can have some or all of these characteristics.
+

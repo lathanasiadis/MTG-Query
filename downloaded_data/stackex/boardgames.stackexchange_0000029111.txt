@@ -1,0 +1,27 @@
+Q:
+
+How do you stop this combination?
+
+Consider the following combination of cards in the Standard Format of Magic the Gathering, encompassing Khans of Tarkir, Fate Reforged, Dragons of Tarkir, Magic Origins, Battle for Zendikar, and Oath of the Gatewatch.
+In Play: Zada, Hedron Grinder and Seeker of the Way
+Player casts: Arcbond and Valorous Stance, each targeting Zada, Hedron Grinder. Order is irrelevant.
+Player Casts: Wild Slash targeting Zada, Hedron Grinder.
+Result: Zada creates a copy of Arbond, Valorous Stance, and Wild Slash for each creature the Player Controls. Since Prowess has been triggered for Seeker of the Way thrice, Ferocious is satisfied for Wild Slash: Damage can't be prevented this turn. Each Creatures is Indestructible.
+A cascading, near uninterruptable chain of Arcbond reflected creature damage will deal infinite damage to each player and creature on the battlefield. Seeker of the Way's lifelink will keep the Player alive until everything else is dead.
+What can stop this combination from ending the game in a draw?
+
+A:
+
+Assuming that everything described in the scenario resolves, and nobody does anything to stop it, the player with the combo wins. Once the copy of Wild Slash resolves, the triggers play out as follows:
+
+Arcbond targeting Seeker of the Way triggers. Seeker of the Way deals 2 damage to you, your opponent, and Zada. Since Seeker of the Way has lifelink, you also gain 6 life
+If either player has 0 life, they lose the game.
+Arcbond targeting Zada triggers. Zada deals 2 damage to you, your opponent, and Seeker of the Way.
+If either player has 0 life, they lose the game.
+Goto step 1.
+
+Throughout this sequence, the original copy of Wild Slash is sitting at the bottom of the stack, waiting to resolve. So, even if it was possible to counter a triggered ability in Standard, that would be insufficient to stop the combo unless the opponent could do so twice.
+If the opponent controls Tainted Remedy, then the last part of step 1 would instead say "you also lose 6 life", so in most cases, this would cause you to lose instead of win.
+This sequence can be stopped at any time by removing one of the creatures, either by exiling it (e.g. with Complete Disregard), or by returning it to its owner's hand (e.g. with Force Away), or even by flickering it (e.g. with Eldrazi Displacer).
+Stepping back further, as you mention, the combo can be broken by countering either the original or the copy of the Arcbond or the Valorous Stance, or by destroying one of the creatures in response to Valorous Stance.
+

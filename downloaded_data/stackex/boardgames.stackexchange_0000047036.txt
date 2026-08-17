@@ -1,0 +1,24 @@
+Q:
+
+Understanding: Why is Spark Double triggering enter the battlefield abilities of the copied creature?
+
+Spark Double reads:
+
+You may have Spark Double enter the battlefield as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it’s a creature, it enters with an additional loyalty counter on it if it’s a planeswalker, and it isn’t legendary if that permanent is legendary.
+
+If I decide to copy a creature with an ETB-effect, like Dreadhorde Twins, why does Spark Double also trigger the copied ETB-effect? Its own ETB-effect is, that it may enter the battlefield as a copy of a creature, does that mean, its own ETB-effect is always resolved first?
+
+A:
+
+Spark Double triggers the copied creature's ETB effects because its copy ability works as a replacement effect, not as its own ETB ability. On the battlefield, there is no time when the game sees the non-copied version of Spark Double, and copied creature's ETB's can trigger as they would on the original.
+Spark Double's copy ability and the other modifications (counters, non-legendary) are replacement effects:
+
+614.1c Effects that read "[This permanent] enters the battlefield with . . . ," "As [this permanent] enters the battlefield . . . ," or "[This permanent] enters the battlefield as . . . " are replacement effects.
+
+That means if you choose to copy a creature or planeswalker, the game does not see the non-copied Spark Double enter the battlefield, but only the copied creature/planeswalker:
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. [..]
+
+The event to be replaced is the Spark Double entering as a 0/0 creature, which is the consequence of a creature spell resolving. That means all applicable ETB triggers will happen, whether they are on the copied creature, or on other sources that apply to the copied permanent entering.
+Hypothetically, the only way that the copied creature's ETB's would not go off was if the copy ability itself was an ETB. If Spark Double would copy a creature as e.g. an ETB or activated ability, it would be too late to trigger the copied creature's ETB's. Also, practically speaking, the copy ability could not be its own ETB, because if Spark Double entere the battlefield as a 0/0, it would generally die to state-based actions before it could assume its copied form.
+

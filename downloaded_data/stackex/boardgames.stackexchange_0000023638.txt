@@ -1,0 +1,441 @@
+Q:
+
+How many cards do I need to make a collected set "draftable?"
+
+I have very fond memories of (Triple) Innistrad, which is an absolutely amazing draft format, probably without equal.
+I'd like to be able to have a playset that I can pull out, years from now, and draft amongst my friends.
+I want a complete set that also serves as a rough facsimile of drafting from packs, i.e. with a card distribution roughly similar to actual Limited rather than Cube — including both the rarity distribution and the chance to see multiples of various cards, which is vital to actually being able to play the set in Limited as intended. I don't mind taking some time to set up "packs" before drafting or sort cards afterward.
+How many copies of each card would I need, by rarity, to supply one draft pod (of 6-8 players), with a card distribution roughly similar to a real draft?
+
+A:
+
+I had the exact same question, and wanted to quantify this. I've both done some simulation and some research, with the results below.
+The TLDR: To very accurately be able to re-create the booster box experience, you need
+
+6 copies of each common,
+6(4) of each uncommon,
+4(2) of each rare, and
+2 of each mythic rare
+numbers in () get you close but not quite there.
+
+Scroll down to 'Making real boosters' to look up how to do so manually.
+First off, mathematically, to have the exact same experience, assuming the following:
+Assumptions:
+
+Each common card is picked at complete random1 from a 'sheet' of C commons (typically C = 100 or 101)
+Ditto for Uncommon, Rare, mythic, but there are typically resp. 80, 53, and 15 unique ones.
+There are 10 commons, 3 uncommons, and 1 rare in each pack (note: I haven't dealt with the complications of the land slot; it varies a lot by set, so I'm ignoring it (lands go in with the normal cards instead)).
+There is a 12.5% chance your rare is a mythic instead.
+There are 8 players drafting (worst-case scenario).
+You don't draft small sets (expansions) without including a main-set pack or two.
+
+Math result
+The mathematically correct result for an exact match to this procedure above will require you to have N copies of each card, where N is the amount of slots of that type. However unlikely, it's possible for the 101-sided die to come up as a '1' every single time it is rolled.
+That means you need:
+
+24 copies of each rare and mythic,
+72 copies of each uncommon,
+240 copies of each common
+
+Of course, in the real world, that's nonsense: the chance that such a particular draft will happen is astronomically small. Instead, we want to settle for something that gets close enough.
+How many we need for a close enough result?
+I wrote a little program that I used to experiment with. It does a statistical test and reports how close to pure random the result is, by simluating a truly random draft, and checking how many copies of the most common common, most common uncommon, etc. the result had. If it requires more than the collection supply (which is fixed before the start of the test to say 6/4/2/1), then it will report a fail. It then averages out to calculate the failure and success chance.
+The result of this number-crunching, for a modern standard set; is as follows, checked for all combinations of 4-10 of each common, 1-6 of each uncommon, 1-5 of each rare, and 1-4 of each mythic:
++----+---+---+---+---------+-------+
+| C  | U | R | M | Success | Stdev |
++----+---+---+---+---------+-------+
+|  4 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  5 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  6 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  7 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  8 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  9 | 1 | 1 | 1 | 0.00%   | 0.00% |
+| 10 | 1 | 1 | 1 | 0.00%   | 0.00% |
+|  4 | 2 | 1 | 1 | 0.00%   | 0.00% |
+|  4 | 3 | 1 | 1 | 0.00%   | 0.00% |
+|  4 | 4 | 1 | 1 | 0.00%   | 0.00% |
+|  4 | 2 | 2 | 1 | 0.00%   | 0.00% |
+|  4 | 2 | 2 | 2 | 0.01%   | 0.00% |
+|  4 | 3 | 3 | 1 | 0.02%   | 0.00% |
+|  4 | 3 | 3 | 3 | 0.02%   | 0.00% |
+|  4 | 3 | 2 | 1 | 0.02%   | 0.00% |
+|  4 | 3 | 2 | 2 | 0.03%   | 0.01% |
+|  5 | 2 | 1 | 1 | 0.03%   | 0.01% |
+|  4 | 4 | 2 | 2 | 0.04%   | 0.01% |
+|  4 | 3 | 3 | 2 | 0.04%   | 0.01% |
+|  4 | 4 | 4 | 3 | 0.04%   | 0.01% |
+|  4 | 4 | 4 | 4 | 0.04%   | 0.01% |
+|  4 | 4 | 3 | 3 | 0.04%   | 0.01% |
+|  4 | 4 | 4 | 2 | 0.04%   | 0.01% |
+|  4 | 4 | 3 | 1 | 0.04%   | 0.01% |
+|  4 | 4 | 3 | 2 | 0.05%   | 0.01% |
+|  4 | 4 | 4 | 1 | 0.05%   | 0.01% |
+|  4 | 4 | 2 | 1 | 0.05%   | 0.01% |
+|  6 | 2 | 1 | 1 | 0.14%   | 0.01% |
+|  7 | 2 | 1 | 1 | 0.23%   | 0.02% |
+|  5 | 2 | 2 | 1 | 0.23%   | 0.02% |
+|  9 | 2 | 1 | 1 | 0.25%   | 0.02% |
+| 10 | 2 | 1 | 1 | 0.25%   | 0.02% |
+|  8 | 2 | 1 | 1 | 0.27%   | 0.02% |
+|  5 | 2 | 2 | 2 | 0.27%   | 0.02% |
+|  5 | 3 | 1 | 1 | 0.39%   | 0.02% |
+|  5 | 4 | 1 | 1 | 0.64%   | 0.03% |
+|  5 | 5 | 1 | 1 | 0.71%   | 0.03% |
+|  6 | 2 | 2 | 1 | 1.12%   | 0.03% |
+|  6 | 2 | 2 | 2 | 1.17%   | 0.03% |
+|  7 | 2 | 2 | 1 | 1.75%   | 0.04% |
+|  7 | 2 | 2 | 2 | 1.89%   | 0.04% |
+|  8 | 2 | 2 | 1 | 1.96%   | 0.04% |
+| 10 | 2 | 2 | 1 | 1.99%   | 0.04% |
+|  9 | 2 | 2 | 1 | 2.02%   | 0.04% |
+|  9 | 2 | 2 | 2 | 2.22%   | 0.05% |
+|  8 | 2 | 2 | 2 | 2.23%   | 0.05% |
+|  6 | 3 | 1 | 1 | 2.25%   | 0.05% |
+| 10 | 2 | 2 | 2 | 2.26%   | 0.05% |
+|  5 | 3 | 2 | 1 | 3.43%   | 0.06% |
+|  6 | 4 | 1 | 1 | 3.76%   | 0.06% |
+|  5 | 3 | 2 | 2 | 3.81%   | 0.06% |
+|  7 | 3 | 1 | 1 | 3.90%   | 0.06% |
+|  6 | 5 | 1 | 1 | 4.08%   | 0.06% |
+|  6 | 6 | 1 | 1 | 4.10%   | 0.06% |
+|  5 | 3 | 3 | 1 | 4.13%   | 0.06% |
+|  8 | 3 | 1 | 1 | 4.47%   | 0.07% |
+|  5 | 3 | 3 | 3 | 4.55%   | 0.07% |
+|  5 | 3 | 3 | 2 | 4.59%   | 0.07% |
+| 10 | 3 | 1 | 1 | 4.68%   | 0.07% |
+|  9 | 3 | 1 | 1 | 4.73%   | 0.07% |
+|  5 | 4 | 2 | 1 | 5.59%   | 0.07% |
+|  5 | 5 | 2 | 1 | 5.98%   | 0.08% |
+|  5 | 4 | 2 | 2 | 6.06%   | 0.08% |
+|  7 | 4 | 1 | 1 | 6.44%   | 0.08% |
+|  5 | 5 | 2 | 2 | 6.60%   | 0.08% |
+|  5 | 4 | 3 | 1 | 6.65%   | 0.08% |
+|  7 | 6 | 1 | 1 | 6.96%   | 0.08% |
+|  5 | 4 | 4 | 1 | 6.97%   | 0.08% |
+|  7 | 5 | 1 | 1 | 7.02%   | 0.08% |
+|  5 | 5 | 3 | 1 | 7.35%   | 0.08% |
+|  5 | 4 | 3 | 2 | 7.40%   | 0.08% |
+|  8 | 4 | 1 | 1 | 7.51%   | 0.08% |
+|  5 | 5 | 5 | 1 | 7.54%   | 0.08% |
+|  5 | 4 | 3 | 3 | 7.57%   | 0.08% |
+|  5 | 4 | 4 | 3 | 7.68%   | 0.08% |
+|  5 | 5 | 4 | 1 | 7.71%   | 0.08% |
+|  5 | 4 | 4 | 2 | 7.72%   | 0.08% |
+|  5 | 4 | 4 | 4 | 7.75%   | 0.08% |
+| 10 | 4 | 1 | 1 | 7.80%   | 0.08% |
+|  9 | 4 | 1 | 1 | 7.87%   | 0.09% |
+|  8 | 5 | 1 | 1 | 8.11%   | 0.09% |
+|  5 | 5 | 3 | 3 | 8.25%   | 0.09% |
+|  5 | 5 | 3 | 2 | 8.25%   | 0.09% |
+|  5 | 5 | 5 | 4 | 8.26%   | 0.09% |
+|  8 | 6 | 1 | 1 | 8.27%   | 0.09% |
+|  5 | 5 | 4 | 2 | 8.29%   | 0.09% |
+|  9 | 5 | 1 | 1 | 8.35%   | 0.09% |
+| 10 | 5 | 1 | 1 | 8.38%   | 0.09% |
+|  5 | 5 | 5 | 2 | 8.42%   | 0.09% |
+|  5 | 5 | 4 | 3 | 8.45%   | 0.09% |
+|  5 | 5 | 5 | 3 | 8.46%   | 0.09% |
+|  5 | 5 | 4 | 4 | 8.49%   | 0.09% |
+|  9 | 6 | 1 | 1 | 8.53%   | 0.09% |
+| 10 | 6 | 1 | 1 | 8.56%   | 0.09% |
+|  6 | 3 | 2 | 1 | 18.77%  | 0.12% |
+|  6 | 3 | 2 | 2 | 20.98%  | 0.13% |
+|  6 | 3 | 3 | 1 | 23.35%  | 0.13% |
+|  6 | 3 | 3 | 2 | 25.54%  | 0.14% |
+|  6 | 3 | 3 | 3 | 25.83%  | 0.14% |
+|  7 | 3 | 2 | 1 | 31.72%  | 0.15% |
+|  6 | 4 | 2 | 1 | 31.73%  | 0.15% |
+|  6 | 5 | 2 | 1 | 34.66%  | 0.15% |
+|  6 | 6 | 2 | 1 | 34.67%  | 0.15% |
+|  7 | 3 | 2 | 2 | 35.18%  | 0.15% |
+|  6 | 4 | 2 | 2 | 35.37%  | 0.15% |
+|  8 | 3 | 2 | 1 | 36.56%  | 0.15% |
+|  9 | 3 | 2 | 1 | 37.92%  | 0.15% |
+|  6 | 5 | 2 | 2 | 38.11%  | 0.15% |
+| 10 | 3 | 2 | 1 | 38.26%  | 0.15% |
+|  6 | 6 | 2 | 2 | 38.36%  | 0.15% |
+|  7 | 3 | 3 | 1 | 38.88%  | 0.15% |
+|  6 | 4 | 3 | 1 | 39.02%  | 0.15% |
+|  6 | 4 | 4 | 1 | 39.78%  | 0.15% |
+|  8 | 3 | 2 | 2 | 40.70%  | 0.16% |
+|  9 | 3 | 2 | 2 | 42.01%  | 0.16% |
+|  6 | 5 | 3 | 1 | 42.35%  | 0.16% |
+| 10 | 3 | 2 | 2 | 42.68%  | 0.16% |
+|  6 | 5 | 4 | 1 | 42.80%  | 0.16% |
+|  6 | 6 | 3 | 1 | 42.80%  | 0.16% |
+|  6 | 5 | 5 | 1 | 42.88%  | 0.16% |
+|  6 | 4 | 3 | 2 | 43.21%  | 0.16% |
+|  7 | 3 | 3 | 2 | 43.21%  | 0.16% |
+|  6 | 6 | 5 | 1 | 43.47%  | 0.16% |
+|  7 | 3 | 3 | 3 | 43.48%  | 0.16% |
+|  6 | 4 | 3 | 3 | 43.69%  | 0.16% |
+|  6 | 6 | 4 | 1 | 43.72%  | 0.16% |
+|  6 | 4 | 4 | 2 | 43.80%  | 0.16% |
+|  6 | 4 | 4 | 3 | 44.09%  | 0.16% |
+|  6 | 4 | 4 | 4 | 44.10%  | 0.16% |
+|  8 | 3 | 3 | 1 | 44.89%  | 0.16% |
+|  9 | 3 | 3 | 1 | 46.37%  | 0.16% |
+|  6 | 5 | 3 | 2 | 46.64%  | 0.16% |
+|  6 | 6 | 3 | 2 | 46.90%  | 0.16% |
+| 10 | 3 | 3 | 1 | 46.92%  | 0.16% |
+|  6 | 5 | 3 | 3 | 46.98%  | 0.16% |
+|  6 | 6 | 3 | 3 | 47.65%  | 0.16% |
+|  6 | 5 | 4 | 2 | 47.65%  | 0.16% |
+|  6 | 5 | 4 | 3 | 47.75%  | 0.16% |
+|  6 | 5 | 4 | 4 | 47.80%  | 0.16% |
+|  6 | 5 | 5 | 2 | 47.82%  | 0.16% |
+|  6 | 6 | 5 | 2 | 47.84%  | 0.16% |
+|  6 | 5 | 5 | 4 | 47.93%  | 0.16% |
+|  6 | 6 | 4 | 2 | 48.01%  | 0.16% |
+|  6 | 5 | 5 | 3 | 48.06%  | 0.16% |
+|  6 | 6 | 4 | 3 | 48.23%  | 0.16% |
+|  6 | 6 | 4 | 4 | 48.28%  | 0.16% |
+|  6 | 6 | 5 | 4 | 48.54%  | 0.16% |
+|  6 | 6 | 5 | 3 | 48.54%  | 0.16% |
+|  8 | 3 | 3 | 2 | 49.79%  | 0.16% |
+|  8 | 3 | 3 | 3 | 49.86%  | 0.16% |
+|  9 | 3 | 3 | 2 | 51.43%  | 0.16% |
+|  9 | 3 | 3 | 3 | 51.50%  | 0.16% |
+| 10 | 3 | 3 | 2 | 51.89%  | 0.16% |
+| 10 | 3 | 3 | 3 | 52.43%  | 0.16% |
+|  7 | 4 | 2 | 1 | 53.91%  | 0.16% |
+|  7 | 5 | 2 | 1 | 58.19%  | 0.16% |
+|  7 | 6 | 2 | 1 | 59.10%  | 0.16% |
+|  7 | 4 | 2 | 2 | 60.05%  | 0.15% |
+|  8 | 4 | 2 | 1 | 62.53%  | 0.15% |
+|  9 | 4 | 2 | 1 | 64.56%  | 0.15% |
+|  7 | 5 | 2 | 2 | 64.93%  | 0.15% |
+| 10 | 4 | 2 | 1 | 65.14%  | 0.15% |
+|  7 | 6 | 2 | 2 | 65.49%  | 0.15% |
+|  7 | 4 | 3 | 1 | 66.38%  | 0.15% |
+|  7 | 4 | 4 | 1 | 67.38%  | 0.15% |
+|  8 | 5 | 2 | 1 | 67.53%  | 0.15% |
+|  8 | 6 | 2 | 1 | 68.33%  | 0.15% |
+|  8 | 4 | 2 | 2 | 69.08%  | 0.15% |
+|  9 | 5 | 2 | 1 | 70.22%  | 0.14% |
+| 10 | 5 | 2 | 1 | 70.50%  | 0.14% |
+|  9 | 6 | 2 | 1 | 71.02%  | 0.14% |
+| 10 | 6 | 2 | 1 | 71.42%  | 0.14% |
+|  9 | 4 | 2 | 2 | 71.71%  | 0.14% |
+|  7 | 5 | 3 | 1 | 71.99%  | 0.14% |
+| 10 | 4 | 2 | 2 | 72.45%  | 0.14% |
+|  7 | 6 | 3 | 1 | 72.66%  | 0.14% |
+|  7 | 5 | 4 | 1 | 73.29%  | 0.14% |
+|  7 | 4 | 3 | 2 | 73.43%  | 0.14% |
+|  7 | 5 | 5 | 1 | 73.58%  | 0.14% |
+|  7 | 4 | 3 | 3 | 73.72%  | 0.14% |
+|  7 | 6 | 5 | 1 | 73.97%  | 0.14% |
+|  7 | 6 | 4 | 1 | 74.05%  | 0.14% |
+|  7 | 4 | 4 | 2 | 74.55%  | 0.14% |
+|  8 | 5 | 2 | 2 | 74.93%  | 0.14% |
+|  7 | 4 | 4 | 3 | 74.94%  | 0.14% |
+|  7 | 4 | 4 | 4 | 74.95%  | 0.14% |
+|  8 | 6 | 2 | 2 | 76.00%  | 0.14% |
+|  8 | 4 | 3 | 1 | 76.58%  | 0.13% |
+|  9 | 5 | 2 | 2 | 77.78%  | 0.13% |
+|  8 | 4 | 4 | 1 | 78.16%  | 0.13% |
+| 10 | 5 | 2 | 2 | 78.71%  | 0.13% |
+|  9 | 6 | 2 | 2 | 78.72%  | 0.13% |
+| 10 | 6 | 2 | 2 | 79.24%  | 0.13% |
+|  7 | 5 | 3 | 2 | 79.46%  | 0.13% |
+|  9 | 4 | 3 | 1 | 79.55%  | 0.13% |
+| 10 | 4 | 3 | 1 | 80.10%  | 0.13% |
+|  7 | 5 | 3 | 3 | 80.20%  | 0.13% |
+|  7 | 6 | 3 | 2 | 80.49%  | 0.13% |
+|  7 | 6 | 3 | 3 | 80.63%  | 0.13% |
+|  7 | 5 | 5 | 2 | 80.98%  | 0.12% |
+|  7 | 5 | 4 | 2 | 81.03%  | 0.12% |
+|  9 | 4 | 4 | 1 | 81.07%  | 0.12% |
+|  7 | 5 | 4 | 4 | 81.46%  | 0.12% |
+|  7 | 5 | 5 | 3 | 81.47%  | 0.12% |
+|  7 | 5 | 5 | 4 | 81.60%  | 0.12% |
+|  7 | 5 | 4 | 3 | 81.66%  | 0.12% |
+| 10 | 4 | 4 | 1 | 81.72%  | 0.12% |
+|  7 | 6 | 4 | 2 | 81.73%  | 0.12% |
+|  7 | 6 | 5 | 2 | 81.84%  | 0.12% |
+|  7 | 6 | 4 | 3 | 82.30%  | 0.12% |
+|  7 | 6 | 4 | 4 | 82.31%  | 0.12% |
+|  7 | 6 | 5 | 4 | 82.33%  | 0.12% |
+|  7 | 6 | 5 | 3 | 82.45%  | 0.12% |
+|  8 | 5 | 3 | 1 | 83.06%  | 0.12% |
+|  8 | 6 | 3 | 1 | 84.12%  | 0.12% |
+|  8 | 5 | 4 | 1 | 84.61%  | 0.11% |
+|  8 | 5 | 5 | 1 | 84.69%  | 0.11% |
+|  8 | 4 | 3 | 2 | 84.92%  | 0.11% |
+|  8 | 4 | 3 | 3 | 85.42%  | 0.11% |
+|  8 | 6 | 4 | 1 | 85.55%  | 0.11% |
+|  8 | 6 | 5 | 1 | 85.67%  | 0.11% |
+|  9 | 5 | 3 | 1 | 86.31%  | 0.11% |
+|  8 | 4 | 4 | 2 | 86.32%  | 0.11% |
+|  8 | 4 | 4 | 4 | 86.68%  | 0.11% |
+| 10 | 5 | 3 | 1 | 86.77%  | 0.11% |
+|  8 | 4 | 4 | 3 | 86.82%  | 0.11% |
+|  9 | 6 | 3 | 1 | 87.15%  | 0.11% |
+| 10 | 6 | 3 | 1 | 87.71%  | 0.10% |
+|  9 | 5 | 4 | 1 | 87.75%  | 0.10% |
+|  9 | 4 | 3 | 2 | 87.85%  | 0.10% |
+|  9 | 5 | 5 | 1 | 87.94%  | 0.10% |
+| 10 | 5 | 4 | 1 | 88.43%  | 0.10% |
+| 10 | 5 | 5 | 1 | 88.48%  | 0.10% |
+|  9 | 4 | 3 | 3 | 88.55%  | 0.10% |
+|  9 | 6 | 5 | 1 | 88.68%  | 0.10% |
+|  9 | 6 | 4 | 1 | 88.70%  | 0.10% |
+| 10 | 4 | 3 | 2 | 88.81%  | 0.10% |
+| 10 | 4 | 3 | 3 | 89.10%  | 0.10% |
+| 10 | 6 | 4 | 1 | 89.40%  | 0.10% |
+|  9 | 4 | 4 | 2 | 89.47%  | 0.10% |
+| 10 | 6 | 5 | 1 | 89.49%  | 0.10% |
+|  9 | 4 | 4 | 3 | 90.02%  | 0.09% |
+|  9 | 4 | 4 | 4 | 90.03%  | 0.09% |
+| 10 | 4 | 4 | 2 | 90.36%  | 0.09% |
+| 10 | 4 | 4 | 4 | 90.76%  | 0.09% |
+| 10 | 4 | 4 | 3 | 90.80%  | 0.09% |
+|  8 | 5 | 3 | 2 | 92.05%  | 0.09% |
+|  8 | 5 | 3 | 3 | 92.64%  | 0.08% |
+|  8 | 6 | 3 | 2 | 93.10%  | 0.08% |
+|  8 | 6 | 3 | 3 | 93.63%  | 0.08% |
+|  8 | 5 | 4 | 2 | 93.72%  | 0.08% |
+|  8 | 5 | 5 | 2 | 93.76%  | 0.08% |
+|  8 | 5 | 4 | 4 | 94.29%  | 0.07% |
+|  8 | 5 | 4 | 3 | 94.30%  | 0.07% |
+|  8 | 5 | 5 | 4 | 94.37%  | 0.07% |
+|  8 | 5 | 5 | 3 | 94.44%  | 0.07% |
+|  8 | 6 | 4 | 2 | 94.64%  | 0.07% |
+|  8 | 6 | 5 | 2 | 94.69%  | 0.07% |
+|  8 | 6 | 4 | 4 | 95.23%  | 0.07% |
+|  8 | 6 | 4 | 3 | 95.29%  | 0.07% |
+|  8 | 6 | 5 | 3 | 95.36%  | 0.07% |
+|  8 | 6 | 5 | 4 | 95.40%  | 0.07% |
+|  9 | 5 | 3 | 2 | 95.45%  | 0.07% |
+|  9 | 5 | 3 | 3 | 95.95%  | 0.06% |
+| 10 | 5 | 3 | 2 | 96.25%  | 0.06% |
+|  9 | 6 | 3 | 2 | 96.53%  | 0.06% |
+| 10 | 5 | 3 | 3 | 96.81%  | 0.06% |
+|  9 | 6 | 3 | 3 | 97.02%  | 0.05% |
+|  9 | 5 | 4 | 2 | 97.20%  | 0.05% |
+|  9 | 5 | 5 | 2 | 97.21%  | 0.05% |
+| 10 | 6 | 3 | 2 | 97.23%  | 0.05% |
+|  9 | 5 | 4 | 3 | 97.62%  | 0.05% |
+|  9 | 5 | 5 | 4 | 97.72%  | 0.05% |
+|  9 | 5 | 4 | 4 | 97.79%  | 0.05% |
+|  9 | 5 | 5 | 3 | 97.84%  | 0.05% |
+| 10 | 6 | 3 | 3 | 97.89%  | 0.05% |
+| 10 | 5 | 4 | 2 | 97.91%  | 0.05% |
+| 10 | 5 | 5 | 2 | 98.09%  | 0.04% |
+|  9 | 6 | 4 | 2 | 98.15%  | 0.04% |
+|  9 | 6 | 5 | 2 | 98.20%  | 0.04% |
+| 10 | 5 | 4 | 4 | 98.49%  | 0.04% |
+| 10 | 5 | 4 | 3 | 98.55%  | 0.04% |
+| 10 | 5 | 5 | 3 | 98.59%  | 0.04% |
+| 10 | 5 | 5 | 4 | 98.62%  | 0.04% |
+|  9 | 6 | 4 | 4 | 98.75%  | 0.04% |
+|  9 | 6 | 5 | 3 | 98.77%  | 0.03% |
+|  9 | 6 | 4 | 3 | 98.78%  | 0.03% |
+|  9 | 6 | 5 | 4 | 98.87%  | 0.03% |
+| 10 | 6 | 4 | 2 | 99.02%  | 0.03% |
+| 10 | 6 | 5 | 2 | 99.09%  | 0.03% |
+| 10 | 6 | 4 | 3 | 99.53%  | 0.02% |
+| 10 | 6 | 4 | 4 | 99.53%  | 0.02% |
+| 10 | 6 | 5 | 3 | 99.64%  | 0.02% |
+| 10 | 6 | 5 | 4 | 99.67%  | 0.02% |
++----+---+---+---+---------+-------+
+
+Currently, the program is rather slow. It does some heavy number-crunching to get a statistically significant result. I've lowered the number of experiments from 1M to 100K to produce the data above so each experiment takes roughly on the order of a minute.
+Interpreting the results
+A value of 100% successes would mean the cube is (near-enough2) perfect. Since our goal is to get 'close enough' to 'every draft passes' though that means you would accept numbers that are 'pretty close to' 100%.  Conversely, it would take you about 1 / (1 - successChance) drafts to be able to notice that the cube isn't like drafting a perfectly-random boosterbox.
+Pick any number α. For example, I could pick α = 0.0228 corresponding to a Z=2 test. To be 97.72% certain that your cube will pass a Z = 2 one-sided test half the time would thus mean you want a result of [Chance - Stdev * 2 = 97.72%] or better. I would need to get
+Let's say I already have 4 full collections of a set, and want to be able to re-create 90% of 8-person draft boxes (24 packs). Then I would need either 6 additional copies of each common (to get to 10/4/4/4), or 4 of each common, and 1 of each uncommon (to get 8/5/4/4) added to my collection.
+Making real boosters
+I found a very useful source, that goes into excruciating detail as to how sets are cut and made. It turns out that for most sets there are sheets of 110 or 121 cards (for modern sets where basic lands are cut together with commons: whatever the common card count is for a set, times 11/10 to correct for the 10 basic lands that are aligned in a column on one side of the sheet), and those go into boosters by the 10, with the orders of rows being a random order (due to properties of the cutting machine). That means you can actually predict what can appear in a pack.
+Commons
+It also means, for our purposes, that you actually don't need that many copies of a common. Since these three things are true:
+
+an booster box contains 360 commons,
+360 / 121 = 3 (rounded up),
+110/121 does not divide 360
+
+You actually require only 6 copies of each common.
+Common cards are printed from usually one single master sheet.
+To make exact boosters; look up the common 'sheets' for a set. Then, repeat the following process until you end up with 360 cards. Then return 12 packs back to the pool to end up with 240.
+
+Pick a random sheet if there are multiple.
+Pick a random spot on the sheet.
+Take 10 cards, sequentially, from that spot and put them in a booster.
+Continue to take 10 cards sequentially until you finish the sheet. You usually end up with less than 10 (for example, 7) left over. Start a pack with these.
+Pick a new random sheet.
+Take cards to finish the last pack from (4), so in the example, 3, from the start.
+If you don't have 360 cards yet, Go to step 3.
+
+Modern sets: Interleaving
+Modern sets will sometimes interleave their common sheets, rather than drawing 10 at a time, you draw say 5 from sheet A, and 5 from sheet B.
+For original Innistrad specifically, the sheets appear to be known there are four sheets. A, B, C1, and C2, with 66, 66, 55, and 55 unique cards on them.
+For example,
+For C1, take 4 from A, 0 from B, and 5 from C1.
+For C2, take 2 from A, 3 from B, and 4 from C2.
+Then, there's also a special 'double-faced cards' sheet, which functions like the Rares sheet (all the double faced cards are on one sheet due to high-volume printing limitations, but some have more copies than others on this sheet). Thus, each pack also contains one of the double faced cards from the 'D' sheet. Then add 3 uncommons and 1 rare as normal (see below on how those sheets work). Note: This might mean there's two rares or even two mythics in the same pack in this set!
+There's a topic over here covering this set specifically, which actually has some details for some of the sheets.
+Uncommons
+Here, there are multiple sheets, except for the oldest sets (you know when your set has a single sheet; just check if the number of unique uncommons is the same as the number of unique commons). Since there are less than 110 uncommons, some will be duplicated. Typically there are on the order of 5-ish different sheets to balance out the number of each card in existence.
+Since there are only 72 uncommons in a box, they are from at most 2 sheets. Since an uncommon appears up to 3 times, you would need 6 copies of each again. However, this happens only very rarely: most uncommon sheets will have either 1 or 2 copies of each card. Thus, 4 copies get you close enough.
+To randomly assign the uncommons to packs: Follow the procedure for commons, but take 3 cards at a time to add to each booster, and stop at 108 cards.
+Rares and Mythics
+These can be done at the same time, now taking one card per booster. Note: There's a small chance that, by randomizing near the end of a sheet, that you end up with two copies of the same card.
+Thus, 2 copies of each rare and mythic is enough.
+To randomly assign the rares and mythics to packs: Follow the procedure for commons, but take 1 card at a time to add to each booster, and stop at 36 cards.
+Creating your own sheets
+Sheet layout is only known for some sets. But you can make your own! It's just a semi-random order of the cards.  The  Here's how you would do it:
+Common sheet
+To make a common sheet, just randomize all the commons in the set. If you feel like the draft is very popular and will be played a lot, go ahead and create three sheets instead, so you can mix and match up to 27 combinations.
+Here's how to create a set of two sheets:
+
+Take 1 copy of each common in a set.
+Shuffle them.
+Divide them into two piles of 60 and 40 cards, leaving one card. Do this face-up, and ensure each pile has equal cards of each colour (so 12 blue, 12 white, ... in the first pile, and 8 of each in the second.), by say bottoming cards that aren't of the right colour(s).
+Add a copy of each of the cards in the 60 pile, creating a 120 card pile with 2 copies of each card.
+Add one copy of the last card to the pile.
+Add two copies of each of the cards in the 40 pile, creating a 120 card pile with 3 copies of each card.
+Add one copy of the last card to this pile as well.
+For both of the 121 card piles, do this:
+Lay out the 121 cards in an 11x11 grid. When laying out cards, make sure each row gets two or three cards of each colour, and no two subsequent cards are the same colour.
+Take a picture; you've got a card sheet.
+
+Uncommon sheet
+Add one copy of each uncommon card to a pile. In a standard set with 80 of them, fill the remaining 41 spots with randomly selected uncommons.
+Up to 3 copies of each can appear on the same sheet.
+If you only have 4 copies of each:
+
+Start with 2 copies of each uncommon.
+Split this into two piles with 1 copy of each uncommon.
+Shuffle the first pile of 80 cards and draw 41.
+Add these to the second pile.
+Shuffle the second pile and lay out the cards in a 11x11 grid. When doing so, make sure that there are no two cards of the same colour next to eachother (for example: bottom cards that happen to match), and 1-2 cards per colour per row.
+Take a picture, that's your card sheet.
+
+Much like with commons, you can create a second sheet to balance out the numbers, this features every card that appears once in the first sheet twice and vice versa. One lucky uncommon will appear four times.
+Rare sheet
+Here, the process works like this, for 110 card sheets from a set with 53 rares and 15 mythics:
+
+Start with 2 copies of each rare, and one copy of each mythic.
+Split this into two piles with 1 copy of each rare.
+Remove 11 cards from one pile, then combine together.
+Shuffle the cards.
+Lay out in a 11x10 grid, with no two subsequent cards being the same colour, and 1-2 cards per colour per row.
+take a picture.
+
+And here for the 121 sheet sets from a set with 53 rares and 15 mythics:
+
+Start with 2 copies of each rare, and one copy of each mythic.
+Shuffle them together.
+Lay out in a 11x11 grid, with no two subsequent cards being the same colour, and 1-2 cards per colour per row.
+Take a picture.
+
+You can speed up the laying of the cards by doing the final shuffle per colour individually and then 'mana-weaving' the colours. That way you don't whiff draws, but the weaving process also takes time, so this is a personal preference.
+I'm thinking of writing some code to automate this whole process.
+Addendum
+1: This is in actuality not entirely true. Players with a lot more experience with drafts have found that their 'set cubes' don't really manage to re-create the draft experience. Compared to real boosters, they found that the 'colour variety' in each booster is lower in their cube than in a real booster.
+Random numbers are clumpy. This is counterintuitive. Thus the real boosters aren't really 'true random', because the colours are too well distributed. It should be more likely than it is to find a booster that has say six cards in it of the same colour. With True random, that chance is 4.3% 15 choose 6 * 0.8^9 * 0.2^6 = 0.043, or probably twice in a box. If you've opened booster boxes before, the chance of that happening in a box is far lower than 4.3%, so real boosters are not random!
+In reality, the cards are cut at high speed from large sheets, then physically mixed together. This puts constraints on the randomness: the batch size of cards determines how close to true random the end-result is.
+Thus, in order to actually, actually re-create the exact experience, what you would need to know is, for each set, on the factory floor, how big are the batches of commons, uncommons, rares, and mythics? How many sheets per batch/printing sheetsPerBatch = ???
+This seems to be proprietary information. However, let's assume we know this number. Say it is sheetsPerBatch = 5 for common (so sheets are made in sets of 5). Then putting in 5 of each common creates the exact result you want.
+2: It's impossible to simulate the results for very high numbers of copies of cards accurately because it would take an absolutely astronomical number of experiments, on the order of 1000 * 100^100, to disambiguate between having 99 or 100 commons.
+

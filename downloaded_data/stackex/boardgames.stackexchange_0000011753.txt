@@ -1,0 +1,34 @@
+Q:
+
+How do two Notion Thieves interact with each other?
+
+Notion Thief's text reads:
+
+If an opponent would draw a card except the first one he or she draws
+in each of his or her draw steps, instead that player skips that draw
+and you draw a card.
+
+When both players have a Notion Thief in play and one casts a Think Twice, What happens?
+
+A:
+
+They cancel out.
+
+Alice casts Think Twice, it resolves, and Alice is instructed to
+
+Draw a card
+
+Bob's Notion Thief's replacement effect kicks in, changing the instruction to 
+
+Bob draws a card
+
+Then one looks if any other replacement effects apply. Alice's Notion Thief's replacement effect kicks in, changing the instruction to
+
+Alice draws a card
+
+And that's the final effect. Bob's Notion Thief has already modified the event, so it can't modify it again.
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace it.
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+616.2. A replacement or prevention effect can become applicable to an event as the result of another replacement or prevention effect that modifies the event.
+

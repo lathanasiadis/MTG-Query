@@ -1,0 +1,32 @@
+Q:
+
+Are Saprolings still Tokens after playing Life and Limb?
+
+After playing the enchantment Life and Limb all Saprolings and all Forests become "creature-land-saproling-forests" (see card rulings). My question is: Do they still have the card-type token? 
+Meaning:
+
+Is it possible to use cards which explicitly say "sacrifice a
+nontoken creature"? 
+Can I keep the saprolings on my hand if my opponent bounces them?
+(Tokens would be discarded.)
+The rulings also say, newly played lands get summoning sickness. So
+they can't attack right away. Does it also apply for the mana
+ability?
+
+A:
+
+Yes, they are still tokens.
+First of all, Token is not a card type:
+
+205.2a The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
+
+A token is any object on the battlefield that is not represented by a card. Note that a token is still a token even if you use an MtG card to represent it.
+
+110.5. Some effects put tokens onto the battlefield. A token is a marker used to represent any permanent that isn’t represented by a card.
+110.5e A token is subject to anything that affects permanents in general or that affects the token’s card type or subtype. A token isn’t a card (even if represented by a card that has a Magic back or that came from a Magic booster pack).
+
+No effect can ever turn a token into a non-token or vice versa. All Life and Limb does is affect a permanent's card type which, as shown, has nothing to do with the object being a token or not.
+That answers your questions 1 and 2. Tokens remain tokens under all circumstances and the same rules apply to them with or without Life and Limb.
+Question 3 is only tangentially related to Life and Limb and is answered here:
+What is Summoning Sickness
+

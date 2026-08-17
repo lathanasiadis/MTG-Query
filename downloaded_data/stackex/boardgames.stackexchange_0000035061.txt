@@ -1,0 +1,22 @@
+Q:
+
+How does countering spells work in stack?
+
+I have stumbled upon a situation where my opponent chooses to counter a spell when it is not the most recent spell placed on the stack. It goes like this:
+
+Fog is cast 
+Opponent casts Counterspell targeting Fog
+I cast my own Counterspell targeting their Counterspell
+Opponent casts another Counterspell targeting Fog
+
+Is it possible for the opponent to target any spell on the stack? Shouldn't it be targeting the last spell placed on the stack?
+
+A:
+
+You can target any spell on the stack, there is no rule limiting it to only the top item on the stack. As you can see below the term counter doesn't have anything that effects how targets have to be chosen, and the spells don't say they have to target the top most object on the stack, so they are able to target any spell that is on the stack.
+
+114.1. Some spells and abilities require their controller to choose one or more targets for them. The targets are object(s), player(s), and/or zone(s) the spell or ability will affect. These targets are declared as part of the process of putting the spell or ability on the stack. The targets can’t be changed except by another spell or ability that explicitly says it can do so.
+701.5. Counter
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+701.5b The player who cast a countered spell or activated a countered ability doesn’t get a “refund” of any costs that were paid.
+

@@ -1,0 +1,18 @@
+Q:
+
+What spells can be countered?
+
+From the Gatherer:
+
+Does this mean it can counter anything? If so, what other counter spells are there?
+
+A:
+
+It can counter almost anything. Notable exceptions are lands (they are played, not cast) and abilities (you'll need something else, like Stifle, to counter those).
+
+112.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) A spell remains on the stack as a spell until it resolves (see rule 608, “Resolving Spells and Abilities”), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, “Spells, Abilities, and Effects.”
+305.1. A player who has priority may play a land card from their hand during a main phase of their turn when the stack is empty. Playing a land is a special action; it doesn’t use the stack (see rule 116). Rather, the player simply puts the land onto the battlefield. Since the land doesn’t go on the stack, it is never a spell, and players can’t respond to it with instants or activated abilities.
+
+Some spells can't be countered because they say so on their card (like Akroma, Angel of Fury). Sometimes, the rules make it very difficult to do so (like Krosan Grip – its Split Second ability ensures you can't cast Counterspell or similar spells, but triggered abilities like the ones found on Counterbalance or Kira, Great Glass-Spinner can, under certain circumstances, still counter them).
+There are many other counterspells out there; you can find most of them via a Gatherer search.
+

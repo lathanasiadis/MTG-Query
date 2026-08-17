@@ -1,0 +1,13 @@
+Q:
+
+Can Act of Treason allow a Detained creature to attack?
+
+Suppose an opponent plays a card such as Lyev Decree to detain one or two of my creatures until the opponents next turn. If I have Act of Treason in my hand, would I be able to use Act of Treason to gain control of, and attack, with target creature once my turn comes around again?
+I know Act of Treason states that I gain control of target creature until end of turn and that creature also gains haste until eot. Just wondering if Lyev Decree would prevent me from gaining control again of my creature, basically countering Act of Treason.
+
+A:
+
+No, you cannot do that. Changing control of the creatures would have no effect on the fact that they are detained. This is because changing control, just like changing characteristics of an object on the battlefield, doesn't cause it to become a new object, or reenter the battlefield, or anything like that. Even if you changed it into a non-creature, then back into a creature, it would still be unable to attack.
+Note that you never lost control of your creatures, so Act of Treason would not cause the creatures to change control. Lyev Decree isn't preventing you from gaining control; you already have control. You simply can't attack or block with those creatures.
+If you were able to blink the creature with something like Momentary Blink; this would work, because when an object changes zones; it becomes a completely new object.
+

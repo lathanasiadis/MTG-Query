@@ -1,0 +1,22 @@
+Q:
+
+Nivmagus and cipher card rulings
+
+Well since the new set is available I was wondering the combo between Nivmagus Elemental and cipher cards[1].
+So let's assume that Nivmagus is on the field then I cast a cipher spell from my hand can I:
+
+Eat the spell and mount it on Nivmagus
+Eat the cipher spell on each attack
+
+Also is it possible to have multiple of the same cipher spells on a target creature?
+
+The definition is assumed to be "You may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost."
+
+A:
+
+If you eat a spell with Nivmagus, it won't resolve, so you don't perform any of its spell abilities, so you don't perform its cipher ability. You'll get the +1/+1 counters, but that's it.
+Now let's say you did let a cipher spell resolve, and you did attach it a creature. Since a copy of a spell is a spell, you can eat the copies created by cipher. But again, the spell won't resolve if you do. You'll get the +1/+1 counters, but that's it.
+Note that you can't encode the copies created by cipher because you can only encode spell cards with cipher, so eating the spell copies is not as expensive as eating the original. It actually sounds like a good use of cipher to me :)
+Note that the spell triggers after damage is dealt, so the +1/+1 counters it gets will only help it the next combat (except possibly if it has first strike or double strike).
+Yes, multiple spells can be encoded on a single creature.
+

@@ -1,0 +1,35 @@
+Q:
+
+What is the converted mana cost of a spell with {X} when cast with the Miracle mechanic?
+
+Say I topdeck Entreat the Angels and cast it for its miracle cost of XWW. But my opponent wants to counter it with a CMC-based effect, such as Spellstutter Sprite or Spell Burst.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color....
+202.3b When calculating the converted mana cost of an object with {X} in its mana cost, X is treated as 0 while the object is not on the
+stack, and X is treated as the number chosen for it while the object
+is on the stack.
+
+If I spent 5 mana to cast Entreat the Angels with X=3, what is the CMC of Entreat the Angels on the stack?
+Do I get to double-count the X I spent because the card's base mana cost is XXWWW?
+Or is X "zero" because I'm not actually paying the X in the mana cost?
+
+A:
+
+The mana value (formerly Converted Mana Cost/CMC) is 9.
+The XX in the mana cost and the X in the alternative cost are related. In your example, you chose X = 3, so the mana value becomes 3+3+3 = 9. You only pay 3WW, but spells asking for the mana value of an object don't care about what you have actually paid, they only care about what's printed in the upper right corner of a card.
+How to calculate the mana value:
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the illustration.
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+202.3b When calculating the converted mana cost of an object with {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+
+Miracle is an alternative cost, and an object's mana value is not affected by its alternative costs:
+
+118.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” Note that some alternative costs are listed in keywords; see rule 702.
+
+118.9c An alternative cost doesn’t change a spell’s mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell’s mana cost still see the original value.
+
+The X in the alternative costs is the same X as those in the mana costs:
+
+107.3i Normally, all instances of X on an object have the same value at any given time.
+

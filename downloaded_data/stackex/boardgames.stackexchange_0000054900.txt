@@ -1,0 +1,22 @@
+Q:
+
+What is the correct timing to play removal in order to stop a Niv-Mizzet + Curiosity combo?
+
+We were playing a game of commander the other day. Player 1 already controlled Niv-Mizzet, Parun going into their turn. On their turn, they cast Curiosity, targeting Niv-Mizzet. I warn the table that this is potentially a game ending combo, but we thought there was still a window to prevent it. Curiosity resolved, and then the game played out like this:
+
+Player 1 casts Isochron Scepter
+In response, Player 2 casts Doom Blade, targeting Niv-Mizzet.
+An instance of Niv-Mizzet's "Draw a card" ability goes on the stack.
+In response, Player 1 casts Negate, targeting Doom Blade.
+Another instance of Niv-Mizzet's "Draw a card" ability goes on the stack.
+In response to the Negate, Player 3 casts Bant Charm, choosing the tuck mode.
+Another instance of Niv-Mizzet's "Draw a card" ability goes on the stack.
+
+No one else has any responses, so we resolve the last Draw a Card, first. This then triggers Niv-Mizzet's ping ability, which triggers Curiosity, which triggers Niv-Mizzet, etc etc. Player 1 puts ~70 instances of this on the stack, drawing their whole deck and killing Player 3 and Player 4. (Player 3's Bant Charm was then removed from the stack as its controller was out of the game).
+How else could we have sequenced this to prevent Niv-Mizzet's combo from going off? Should Player 2 and/or 3 waited until Player 1 had put all their draws/pings on the stack, and then destroyed/tucked Niv-Mizzet in response to that?
+
+A:
+
+Your last opportunity to cast an instant to prevent the Niv-Mizzet combo was in response to the Curiosity spell. Of course, Niv-Mizzet only triggers on instants and sorceries, so abilities and permanent spells with Flash can always be used to break the combo.
+Your description of how the final combo plays out is a little wrong: drawing a card triggers Niv-Mizzet's first triggered ability. The resolution of that ability deals damage, which triggers Curiosity's ability, and the resolution of Curiosity's ability draws a card, which triggers Niv-Mizzet's first triggered ability. The stack never piles up with those triggered abilities; while the combo is going off, the top of the stack has one of them, and they alternate. If you respond to either one at any point by casting an instant, Niv-Mizzet's last ability will trigger again, starting a new loop of the combo.
+

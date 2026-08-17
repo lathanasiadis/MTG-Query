@@ -1,0 +1,21 @@
+Q:
+
+Can I activate Nim Deathmantle's creature saving ability more than once in a turn?
+
+My opponent attacks with two 4/4 creatures. I block each of them with one 2/2 creature, but have Nim Deathmantle on the field, currently not equipped to anything. When my two 2/2 creatures are put into the graveyard after the damage step, can I pay 4 mana to save one of them, equipping the Nim Deathmantle to it, and then pay another 4 to save the other, unequip from the first 2/2 creature, and now have it equipped to the other?
+
+A:
+
+Yes.
+It's a triggered ability, so it'll trigger every time a creature dies. If multiple creatures die simultaneously, you choose how to stack the triggers, then get to resolve them one by one.
+From the card's Oracle rulings:
+
+1/1/2011  If multiple nontoken creatures are put into your graveyard
+  from the battlefield at the same time, Nim Deathmantle's second
+  ability triggers that many times. You put the triggered abilities on
+  the stack in any order, so you'll determine in which order they
+  resolve. If you pay {4} more than once, each card you paid {4} for
+  will end up on the battlefield under your control, and Nim Deathmantle
+  will end up attached to the last card that returned to the battlefield
+  this way that it could equip.
+

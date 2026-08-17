@@ -1,0 +1,16 @@
+Q:
+
+Do Collective Restraint and Nylea's Presence work together in a non-5-color EDH deck?
+
+Say I have a four-color commander deck that includes blue and green. I have a Collective Restraint on the field and I cast Nylea's Presence on one of my lands. Do my opponents need to pay 5 to attack me now, even though my deck is missing a color of mana? 
+
+A:
+
+Yes.
+Since Nylea's Presence turns the enchanted land into every basic land type, it means that you have all basic land types under your control. Whether you could have originally have them or not doesn't matter to either continuous effect of your enchantments.
+Here's a ruling that supports this:
+
+2/1/2009: A number of nonbasic lands have basic land types. Domain abilities don't count the number of lands you control — they count the number of basic land types among lands you control, even if that means checking the same land twice. For example, if you control a Tundra, an Overgrown Tomb, and a Madblind Mountain, you'll have a Plains, Island, Swamp, Mountain, and Forest among the lands you control. Your domain abilities will be maxed out.
+
+This doesn't refer specifically to your question, but as you can see, since your enchanted land will have every basic land type, Collective Restraint's ability will consider it as being a Forest Mountain Swamp Island Plains land.
+

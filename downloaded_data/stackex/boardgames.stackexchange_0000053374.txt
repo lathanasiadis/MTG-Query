@@ -1,0 +1,31 @@
+Q:
+
+"Sacrifice a Creature" cost on as an ability: is there a limitation to how many times you can use it each turn?
+
+Say I have a zombie knight on the field, as well as a Carrion Feeder(sacrifice a creature: put a +1/+1 counter on Carrion Feeder), Haakon, Stromgald Scourge (as long as Haakon in in play, you may play knight cards from the graveyard), and Rooftop Storm(zombie creatures cost 0 to cast). If I use Carrion Feeder's sacrifice ability to sacrifice the zombie knight, can I simply cast that zombie knight from the graveyard and continue to sacrifice an cast infinitely, or can you only use the sacrifice ability once per turn?
+
+A:
+
+You can activate an ability as many times as you like as long as you can pay the cost.  The  only restrictions on activating an ability are listed in rule 602.5:
+
+602.5. A player can’t begin to activate an ability that’s prohibited from being activated.
+602.5a A creature’s activated ability with the tap symbol ({T}) or the untap symbol ({Q}) in its activation cost can’t be activated unless
+the creature has been under its controller’s control since the start
+of their most recent turn. Ignore this rule for creatures with haste
+(see rule 702.10).
+602.5b If an activated ability has a restriction on its use (for example, “Activate this ability only once each turn”), the restriction
+continues to apply to that object even if its controller changes.
+602.5c If an object acquires an activated ability with a restriction on its use from another object, that restriction applies only to that
+ability as acquired from that object. It doesn’t apply to other,
+identically worded abilities.
+602.5d Activated abilities that read “Activate this ability only any time you could cast a sorcery” mean the player must follow the timing
+rules for casting a sorcery spell, though the ability isn’t actually a
+sorcery. The player doesn’t actually need to have a sorcery card that
+they could cast.
+602.5e Activated abilities that read “Activate this ability only any time you could cast an instant” mean the player must follow the timing
+rules for casting an instant spell, though the ability isn’t actually
+an instant. The player doesn’t actually need to have an instant card
+that they could cast.
+
+So in the case you've listed above where you can recur and sacrifice a creature endlessly, go wild (note that you can't choose to activate something an infinite amount of times, you do have to pick a number, but that's a whole different discussion).
+

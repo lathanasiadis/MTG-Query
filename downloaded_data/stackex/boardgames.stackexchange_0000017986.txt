@@ -1,0 +1,17 @@
+Q:
+
+Do creatures come into play tapped if they come into play at the same time as a card which says "Creatures come into play tapped"?
+
+An example situation :
+Living Death resolves while there is a Urabrask the Hidden in my graveyard and another creature in my opponent's graveyard. Urabrask says "Creatures your opponents control enter the battlefield tapped."
+Will my opponent's creature come into play tapped if it enters the battlefield at the same time as Urabrask?
+
+A:
+
+No, your opponent's creatures will not enter tapped.
+The ability "Creatures your opponents control enter the battlefield tapped" creates a replacement effect on creatures entering the battlefield. Rule 614.4 says
+
+Replacement effects must exist before the appropriate event occurs -- they can't "go back in time" and change something that's already happened.
+
+Since your Urabrask wasn't on the battlefield before your opponent's creature entered, it's ability does not effect that creatures.
+

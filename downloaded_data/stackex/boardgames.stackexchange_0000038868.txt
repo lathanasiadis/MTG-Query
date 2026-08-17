@@ -1,0 +1,47 @@
+Q:
+
+Does a spell cast via cascade resolve before the cascade trigger finishes resolving?
+
+Cascade says to:
+
+Exile cards until you reveal the appropriate spell
+Optionally cast that spell 
+Return the exiled cards to your library 
+
+I am wondering whether or not 3 happens before the cast spell resolves. For example, if you cascade into Pull from Eternity, could you choose one of the cards that was exiled by the cascade trigger?
+
+A:
+
+Pull from Eternity will be useless. Those cards will be put into your library again immediately after you finish casting the spell, before it resolves.
+This means you could choose one of those exiled cards for a target of Pull from Eternity as it's cast via Cascade, but the exiled card will have left exile when Pull from Eternity resolves. That makes it an illegal target (since it doesn't exist) so this manoeuvre becomes a fancy way to get Pull from Eternity to fizzle and put into your graveyard.
+The steps
+First for clarity let's grab the Cascade reminder text off Bloodbraid Elf:
+
+When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.
+
+Here's the basic order of what happens:
+
+You cast a spell with Cascade. In doing so, you take it from your hand, put it on the stack, choose targets (if any) and pay its costs.
+The cascade triggered ability goes on the stack.
+Cascade resolves:
+
+You reveal cards from your library until you find Pull from Eternity.
+You choose to cast Pull from Eternity, pay costs, and choose targets: you pick one of the cards in exile.
+You remove those cards from exile and put them back in the bottom of your library.
+
+The stack now looks like this:
+
+Pull from Eternity (top)
+The original spell (bottom)
+
+Pull from Eternity resolves. It can no longer find its target, and so it gets countered by the game rules. [400.7, 608.2b]
+The original spell resolves.
+
+Rule 400.7 governs step 5 here, which reads like this:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+None of the exceptions match. Pull from Eternity wasn't expecting the exiled card to change zones and so doesn't keep track of it as it leaves exile. The card now at the bottom of your library has no relation to the object Pull from Eternity was targeting in Exile. Because there are no more legal targets, Pull from Eternity fizzles (i.e. does not resolve, but is also not countered), and is put into your graveyard per rule 608.2b:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. [...] If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. [...]
+

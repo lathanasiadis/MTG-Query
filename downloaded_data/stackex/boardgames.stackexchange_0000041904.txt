@@ -1,0 +1,27 @@
+Q:
+
+Full explanation of how multi-phrase cards work
+
+So, consider Snap or Subtle Strike
+and generally other spells that do multiple things, whether as 1 sentence, 1 sentence with commas, 2 sentences, 2 separated sentences, etc. etc.
+I struggle with understanding when failure to do or be able to do parts of a spell will stop other bits from happening. As far as I can tell sometimes the spell fizzles, sometimes you go "up to the bit you can't do", and sometimes you get to keep going anyway?
+Obviously, for an individual card the gatherer errata generally tell you such things.
+Is there a complete description of the rules for this.
+Ideally a complete readable description, rather than "here are the 17 formal rules clauses that apply", though obviously having a record of those clauses would be a useful addendum, and might be the only viable answer.
+
+A:
+
+The two most important rules here are
+
+Do as much as you can (609.3 below), but...
+...if every target of your spell has become illegal, then the whole spell is removed from the stack without resolving. (608.2b below) (Commonly known as the spell "fizzles".)
+
+So applying this to your examples:
+Snap: If the target of Snap has become illegal (e.g. left the battlefield, been given hexproof, etc), then since it is the only target, the spell never resolves and you do not untap any lands. However, imagine instead that the target of Snap had some weird effect on it like "This creature cannot be returned to players' hands by spells or abilities." In this case, the first part of the spell would be unable to affect the creature, but since it's still a legal target the spell still resolves so you would proceed to untap two lands.
+Subtle Strike: If you choose to do both and pick two different targets, then even if one of the targets becomes illegal you will still resolve the effect on the other.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+608.2b .... If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal...
+
+Note that 608.2b has been updated in the Dominaria rules update; previously a spell whose targets had all become illegal would be countered rather than simply removed from the stack.
+

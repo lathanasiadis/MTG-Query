@@ -1,0 +1,16 @@
+Q:
+
+Do conditional triggered abilities check their condition again before resolving?
+
+Let us assume that Alice has 15 life, and Bob has 17. It's Alice's turn. Alice swings at Bob with a Runeclaw Bear and Grenzo's Cutthroat, a creature with dethrone.
+In response to the dethrone ability, Bob casts a Dismember targeting the Bear, and paying 4 life. He is now at 13, less life than Alice. Does the dethrone ability still give the Cutthroat a counter?
+
+A:
+
+Once an ability has been triggered, that's it: it's on the stack and you don't have to worry about the triggering condition anymore.
+You can see this in the Gatherer rulings for Grenzo's Cutthroat itself:
+
+5/29/2014     Once dethrone triggers, it doesn’t matter what happens to the players’ life totals before the ability resolves. You’ll put a +1/+1 counter on the creature even if the defending player doesn’t have the most life as the ability resolves.
+
+The exception to this is the "intervening if" clause, which is specialized rules text in the form "When/Whenever/At [trigger event], if [condition], [effect]."
+

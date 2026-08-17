@@ -1,0 +1,19 @@
+Q:
+
+Request for clarification on section 107.1b of the Comprehensive rules (Numbers and Symbols)
+
+In section 107.1b of the Comprehensive rules there is an example where power and toughness of a creature change in a way that I find confusing.
+Example: Chameleon Colossus is a 4/4 creature with the ability “{2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.” An effect gives it -6/-0, then its ability is activated. It remains a -2/4 creature. It doesn’t become -4/2.
+I don't understand why the creature doesn't become a -4/2 creature. In my mind the creature has a base power and toughness of 4/4 which is first modified to -2/4 and subsequently to -4/2 (for a duration). It would seem to me that the only way for the power and toughness values to not change is if X is zero or the effect from the ability is ignored for some reason. But X is not zero since the base power has changed from 4 to -2. Neither is there a reason to ignore the effect from the ability.
+Is the meaning of the text that a creature can "become" something else if it undergoes a change in characteristics which is separate from the creature being subject to modifier values that cause a temporary change in the interpretation of it's characteristics? In the example the base power and toughness of the creature is 4/4, which are modified by the first effect to -2/4, changing the characteristics of the creature? The Colossus thus "becomes a -2/4 creature". There is then the effect from the activation of the creature's ability which causes a temporary interpretation of the characteristics to -4/2 until end of turn. In this sense the creature "doesn't become -4/2" since the characteristics do not change from -2/4 but are merely subject to a temporary modifier value.
+I'm a new player (haven't even played a game yet) trying to get an overview of the rules, so I might not be using the correct terms ("effects", "characteristics", "objects").
+
+A:
+
+The reason is rule 107.1b itself:
+
+Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or the power and/or toughness of a creature or creature card.
+
+Adding to power and toughness does not fall under any of the exceptions, thus 0 is used instead of −2.
+(Under some earlier versions of the rules, the exceptions were different and did include this case of adding to power and/or toughness; it would have become −4/2 under those versions of the rules.)
+

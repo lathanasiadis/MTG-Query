@@ -1,0 +1,17 @@
+Q:
+
+How does Decommission (and Revolt) work with multiple permanents leaving the battlefield?
+
+A new Aether Revolt card, "Decommission", states: "If a permanent you controlled left the battlefield this turn, you gain 3 life".
+
+I suspect that would mean if you sacrificed 3 artifact tokens, then played decommission later on you would gain 9 life.
+My confusion is that I would expect to see "for each permanent that left the battlefield this turn" to give the total of 9 life.  As it is written, I am thinking just 3, but is "each" implied?  Pretty basic question I guess.  Thanks in advance.
+
+A:
+
+You gain exactly 3 life no matter how many of your permanents left the battlefield this turn (as long as it's at least one).
+Your confusion as you describe it comes down to: "I expect this wording means {thing}. But if it really meant {thing} I'd expect it to use this other wording instead." Confusion like that is often a warning flag you've misread the card, and ought to check it again. MTG cards mean exactly what they say — if it meant "for each permanent" it'd say so.
+The Aether Revolt Release Notes state the following under the heading New Ability Word: Revolt:
+
+Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don’t apply multiple times if more than one permanent you controlled left the battlefield. They don’t check whether the permanent that left the battlefield is still in the zone it moved to.
+

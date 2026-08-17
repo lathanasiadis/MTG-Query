@@ -1,0 +1,21 @@
+Q:
+
+Are there any copy effects that allow the affected objects to retain original values for some characteristics?
+
+Rule 707.9c says
+
+Some copy effects specifically state that they don’t copy certain characteristics and the affected objects instead retain their original values. Copy effects may also simply state that certain characteristics are not copied.
+
+Are there any cards that apply this rule by making one object a copy of another object, except leaving some of the first object's characteristics unchanged?
+
+Note: I am aware of cards like Dermotaxi and Lazav, the Multifarious with copy effects that explicitly modify the copy effect with characteristics that match the original object, but that is separately covered by rules 707.9a and b. It is also functionally different than what I am looking for: for example, if Mairsil, the Pretender exiles Lazav and activates its ability, its name will become "Lazav, the Multifarious" instead of staying as "Mairsil, the Pretender"
+
+A:
+
+Vesuvan Doppelganger
+
+You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn't copy that creature's color and it has "At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn't copy that creature's color and it has this ability."
+
+Note that, unlike the examples you posted or, e.g., Embalm cards, it doesn't say "except that it's blue".
+As of this writing, Vesuvan Doppelganger is the only card whose Oracle text contains either "doesn't copy" or "don't copy". A search of copy effects "except" also doesn't turn up any other examples falling under 707.9c, although it does show a lot of examples of 707.9a and 707.9b modifications.
+

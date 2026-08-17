@@ -1,0 +1,16 @@
+Q:
+
+What happens when I sacrifice a blocking creature?
+
+In Magic:The Gathering it is possible to trigger abilities of creatures at the same time you can play instants?
+I play it that I can block with a creature and sacrifice it at the same time. The attacking creature blocked this ways does not deal damage because the blocking creature is gone - and I get the bonus for the sacrifice (e.g. Blood Pet gives me an extra B-Mana).
+In a recent discussion the topic came up again. It seems like the rulings even allow for the blocking player to wait until the damage is put on the stack. Once the damage is on the stack, I can sacrifice my creature, gain the benefits from the sacrifice ability AND deal damage to the attacking create. In my Blood Pet example I would be able to kill an attacking creature with toughness 1 and get 1 B-Mana.
+Is this correct? Where can I find the official ruling that clarifies that?
+
+A:
+
+There was a fairly long period of time ending with Magic 2010 when you could put damage on the stack, and then play instants and abilities before the damage resolved.  Those days are over!
+Nowadays, you declare blockers, and then both players have a chance to play spells and abilities.  Once everyone is finished doing this, we move onto the combat damage phase, and only then do creatures even start thinking about dealing damage to each other.  If you sacrificed your creature after declaring it as a blocker, then it never gets an opportunity to deal damage, I'm afraid!
+One corner case: if your creature has First Strike and also a sacrifice ability, you can have it deal its first strike damage and then sacrifice it in the window of opportunity both players have to play spells and effects before normal combat damage.  Try this page for a handy breakdown of when players have a chance to do things in the course of a Magic game.
+Also have a look at Magic 2010 Rule Change, explaining some of the latest changes made to the game rules, particularly section 5, about combat damage not using the stack.  Much more readable than the Comprehensive Rulebook, I think you'll find...
+

@@ -1,0 +1,13 @@
+Q:
+
+Stinkweed Imp + Rancor and a flying 3/3 blocker
+
+Does Stinkweed Imp with Rancor get the extra trample damage if a 3/3 flyer blocks? Is Stinkweed's text is the same as an actual deathtouch?
+
+A:
+
+No.
+If a creature has been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. The damage itself leads to the destruction.
+But that's not the case for Stinkweed Imp. Its damage does not leads to the destruction, a triggered ability eventually does. It must assign damage normally, so it must assign all three of its damage to the flyer.
+Here's the key difference: One can respond to Stinkweed's Imp's ability. It can even be countered.
+

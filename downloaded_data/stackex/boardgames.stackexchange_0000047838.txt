@@ -1,0 +1,12 @@
+Q:
+
+magic: the gathering enchantment problem
+
+If I have an enchantment creature with an aura attached to it, and I bestow the enchantment creature on another creature, does the aura go with it or go to the graveyard? 
+Can an enchantment creature be enchanted by another enchantment creature?
+
+A:
+
+Bestow is a choice that you make while casting a spell. If you choose to cast it with the Bestow cost, it is an Aura spell instead of a Creature spell. This is a choice that you can only make while casting the spell. If the card is already on the battlefield, you can't turn it into an Aura with the Bestow ability.
+You can enchant an Enchantment Creature with an Aura that has Enchant Creature, including an Aura that is a bestowed Creature Enchantment card. An Enchantment Creature is just both an Enchantment and a Creature, so it can be affected by things that affect Enchantments, and by things that affect Creatures, including Auras with Enchant Creature. Adding the Enchantment type to a Creature doesn't otherwise do anything special.
+

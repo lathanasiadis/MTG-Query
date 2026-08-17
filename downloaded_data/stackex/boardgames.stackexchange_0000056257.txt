@@ -1,0 +1,47 @@
+Q:
+
+Does this Teshar combo (listed #1 on EDHREC) really work?
+
+In the EDHREC page for Teshar, Ancestor's Apostle, there is a list of combos recommended for him as a commander.
+The top combo shown features these four cards:
+
+Blasting Station
+Myr Retriever
+Ornithopter
+Teshar, Ancestor's Apostle
+
+The explanation for the combo is written,
+Result: Infinite damage.
+
+Requires: Teshar, Ornithopter, and Blasting Station on the battlefield. Myr Retriever in graveyard.
+
+ Steps:
+ Cast Ornithopter, triggering Teshar, target Retriever in the graveyard.
+ Untap Blasting Station.
+ Let Ornithopter resolve, then sacrifice it.
+ Sacrifice Retriever to Blasting Station, target an opponent, triggering Retriever, target 
+ Ornithopter in the graveyard.
+
+There's a small oversight in that the Ornithopter needs to be in the player's hand at the beginning of the combo in order for the player to cast it, but beyond that, I think this combo--with these specific cards--wouldn't work at all.
+The problem is that Blasting Station needs a creature ETB in between every use of its sac ability, and the combo requires that Blasting Station be used twice, with no such trigger in between.
+There are plenty of ways to fix this by swapping in a different card for Ornithopter...any X-cost artifact creature that dies immediately on ETB when cast for 0 would do (eg. Walking Ballista or Hangarback Walker), or any 0-cost artifact capable of sacrificing itself (eg. Welding Jar; Urza's Bauble or Mishra's Bauble), but I can't see a way to make the combo work if we're keeping the four cards listed. Casting Ornithopter necessarily puts Ornithopter on the stack before Teshar's ability, meaning that Myr Retriever necessarily arrives on the battlefield before Ornithopter, and if we use Blasting Station to sac Myr Retriever before Ornithopter arrive on the battlefield, then   Ornithopter isn't in the graveyard and can't be returned to the player's hand by the Myr Retriever's LTB trigger.
+Is there anything I'm missing?
+Can this combo (with these four specific cards) be made to work?
+
+A:
+
+It does work, the steps are just a little vague in the description.  So it works like this:
+Setup
+Teshar and Blasting Station are on the battlefield (tapped or untapped, doesn't matter).  Myr Retriever is in the graveyard (can be easily put there with Blasting Station).  Ornithopter is in your hand.
+Steps
+
+Cast Ornithopter.  It's still on the stack.
+This triggers Teshar's ability.  Use it to return Myr Retriever to the battlefield.
+When Myr Retriever returns to the battlefield, this triggers Blasting Station's ability that untaps it.  Let that resolve.  Blasting Station is now untapped.
+Let Ornithopter resolve.  This triggers Blasting Station again (untap ability).  This goes on the stack.
+Now retain priority and activate Blasting Station's ability to deal one damage to something.  Sacrifice Ornithopter as part of activating the ability.
+Ornithopter goes to the graveyard.  Let Blasting Station's trigger resolve.  Blasting Station is now untapped.
+Activate Blasting Station, sacrificing Myr Retriever.  This goes on the stack.
+Myr Retriever's death trigger triggers.  Use it to return Ornithopter to your hand.  Let the Blasting Station ability from #7 resolve.
+You are now back where you started. (Ornithopter in hand, Myr in the graveyard, Teshar and Blasting Station on the battlefield).  Return to step 1.
+

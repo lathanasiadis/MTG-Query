@@ -1,0 +1,37 @@
+Q:
+
+Can a creature with deathtouch be killed by a creature that it is killing?
+
+If I attack with a Gifted Aetherborn (2/3 deathtouch and lifelink) and my opponent blocks with a creature that's a 3/3 (no abilities), does my Gifted Aetherborn die? 
+Without deathtouch it would, but since the Gifted Aetherborn only needs to deal 1 damage to kill the other creature, he should live, correct? 
+
+A:
+
+Both creatures receive lethal damage and as a result die.
+In the Comprehensive Rules it says the following regarding deathtouch:
+
+702.2b A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based
+  actions were checked is destroyed as a state-based action. See rule
+  704.
+
+So according to this rule any creature that get deathtouch damage gets destroyed.
+But who gets to deal damage first? Is the the deathtouch creature? Is it because he only has to do one damage to do lethal damage? Let's find out in the next paragraph!
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No
+  player has the chance to cast spells or activate abilities between the
+  time combat damage is assigned and the time it’s dealt
+
+So the 2 damage from Gifted Atherborn and the 3 damage from a 3/3 creature is dealt simultaneously resulting in them both perishing.
+If you want to destroy the enemy creature with combat damage before it kills your creature you should take a look at first strike and double strike.
+
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat
+  damage step begins, the only creatures that assign combat damage in
+  that step are those with first strike or double strike. After that
+  step, instead of proceeding to the end of combat step, the phase gets
+  a second combat damage step. The only creatures that assign combat
+  damage in that step are the remaining attackers and blockers that had
+  neither first strike nor double strike as the first combat damage step
+  began, as well as the remaining attackers and blockers that currently
+  have double strike. After that step, the phase proceeds to the end of
+  combat step.
+

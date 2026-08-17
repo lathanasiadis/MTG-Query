@@ -1,0 +1,13 @@
+Q:
+
+When I tap a creature to attack with it, does that also activate abilities that require tapping it?
+
+When I declare my attackers, that causes the attacker to be tapped. What happens if the attacker I tap has an ability that is triggered by tapping? 
+Would I have to tap the creature before the combat phase to use the ability (thus making it unable to attack due to it being tapped) or does tapping the creature to declare it as an attacker cause it to trigger its ability?
+
+A:
+
+If you can attack and use the ability depends on exactly what kind of ability it is.
+If it is a triggered ability like Fallowsage that says "Whenever Fallowsage becomes tapped, you may draw a card." you get to use the ability anytime that card becomes tapped, attacking is the most common way but any other way of tapping it would also work.
+If it is an activated ability that has tapping as a cost like Elvish Mystic that says "{T}: Add {G}." you have to choose whether you are tapping it to attack or if you are tapping it to pay for its ability. This is because tapping the creature is a cost and if it is already tapped from attacking you can't tap it again to pay for the cost.
+

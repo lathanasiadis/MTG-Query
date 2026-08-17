@@ -1,0 +1,16 @@
+Q:
+
+What is the converted mana cost of fuse cards
+
+If I were to play Blast of Genius and chose to discard Catch // Release Would the converted mana cost be the total cost of both halves or one? 
+
+A:
+
+Its converted mana cost is 9. Blast of Genius will deal 9 damage. Rule 708.4 says
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and converted mana cost are determined from its combined mana cost.
+
+Catch has a mana cost of {1}{U}{R} and Release has a mana cost of {4}{R}{W}, so the combined mana cost is {5}{W}{U}{R}{R} and the converted mana cost is 9.
+

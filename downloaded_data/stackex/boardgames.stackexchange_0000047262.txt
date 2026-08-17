@@ -1,0 +1,17 @@
+Q:
+
+When the match time is called, does the current turn end immediately?
+
+In the Magic Tournament Rules, the End-of-Match procedure says:
+
+If the match time limit is reached before a winner is determined, the player whose turn it is finishes their turn and five additional turns are played in total.
+
+In a Regular or Competitive REL tournament, does this mean the turn immediately ends (as though Sundial of the Infinite was activated), or does it mean the current player continues their turn through ordinary gameplay and draws it to a speedy conclusion so that the five extra turns can commence?
+I've only been to a couple of pre-releases as far as tournament exposure goes, and I'm looking to better understand tournament procedure. I don't want to join a tournament and have an incorrect understanding of this situation cost me a game.
+
+A:
+
+The active player takes the rest of the turn as usual, then the five-turn count begins. This is based on my own experience, but it is likely that if they wanted to end the turn immediately they would have used a wording that matched the corresponding effect template and said "End the turn".
+Overall, it would not really make sense to end that turn like that. It would effectively be introducing a somewhat complex effect into a running game from the outside with no respect for the stack, priority, or turn-based actions. It would create arguments about what the game state is and what spells/abilities/effects have already resolved. Plus it wouldn't do much for timeliness because it would effectively say "The active player immediately stops what they're doing and ends the turn, then both players return to playing at their own pace for another five turns". Finally, the active player already has the disadvantage of getting only two of the five turns; adding this further disadvantage to the same player could unreasonably swing the game.
+As some comments have mentioned, the quoted section of the Magic Tournament Rules was added before the concept of "ending the turn" was ever created in the Comprehensive Rules. So, the intention at the time that the tournament rules were written could not have been to end the turn in that way.
+

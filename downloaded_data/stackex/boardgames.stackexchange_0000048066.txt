@@ -1,0 +1,23 @@
+Q:
+
+MTG - Unsettled Mariner: When is the targeting checked?
+
+Unsettled Mariner counters spells and abilities targeting you or permanents you control unless the controller pays an additional 1 mana.
+When is that targeting checked? As in if my opponent casts a spell and declares my creature as a target and I use something like Aether Vial to put an Unsettled Mariner into play at instant speed before the opponents spell resolves do they need to pay the additional cost? Are the casting costs checked again on spell resolution?
+
+A:
+
+First of all, a little terminology: the casting cost is determined when casting a spell:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal ; the game returns to the moment before the casting of that spell was proposed (see rule 721, “Handling Illegal Actions”).
+
+So under no circumstances will Unsettled Mariner increase the casting cost of a spell.
+Now, when does a permanent/player 'become a target'? This happens while casting a spell:
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires.
+...
+The chosen objects and/or players each become a target of that spell.
+
+Only after the player is finished casting the spell, you get priority and will be able to vial in the Unsettled Mariner. That's too late to trigger the Mariner's ability; it simply doesn't 'see' the targeting.
+To elaborate on what @Becuzz is mentioning, if the Mariner is already in play and your opponent targets it with Combust, the Mariner's ability will trigger, and give your opponent the option to pay {1}. If they don't, the Mariner's ability will attempt to counter Combust, but fail to do so, because Combust can't be countered.
+

@@ -1,0 +1,31 @@
+Q:
+
+How do twitch effects work with the stack vs activated tap abilities?
+
+I'm becoming more and more confused as I learn about how things have changed during a break in play I had some time ago. Seems the stack has changed now, and oft times abilities use a source's last known status rather than its current stats when resolving.
+That being mentioned, if I have a card that taps a permanent, and I want to tap a creature in response to it activating an inherent tap ability, does that work? Can I tap it to prevent it from using such an ability? Is this different for mana abilities?
+Some examples:
+
+Player B says he is tapping his Steel Overseer to put a +1/+1 counter on all of his artifact creatures. Can I tap it first to prevent him from doing so?
+
+Player B says he is tapping his Forest to add a green mana to his mana pool, can I tap it first to prevent him from doing so?
+
+If I cannot, then what use is my ability to tap his permanents other than to prevent him from attacking or to take advantage of his tapped status (either by counter-attacking or perhaps an 'assassination' effect)?
+Also, if I cannot, is there a point in a turn when I COULD tap his lands and accomplish starving him of mana? If in theory, he could always tap his lands for mana in response to my attempt to tap them, how long would such mana remain unused in his pool until it expires and he cannot use it?
+
+A:
+
+There are certain actions that you undertake in Magic which do not use the stack, and therefore cannot be responded to. (AFAIK this has never been different for as long as the stack has existed, so this is not really a recent change.) The most important of these are:
+
+Paying costs
+Activating mana abilities
+
+Your first example above is an instance of #1. The cost of the Steel Overseer's ability is to tap the Overseer. After the Overseer is tapped, the +1/+1 ability goes on the stack, and each player gets priority. At this time it's too late to tap the Overseer, since it's already tapped and the ability is already on the stack.
+Your second example is an instance of #2. Tapping a land for mana does not use the stack,  so you cannot attempt to tap a land in response to your opponent starting to play a spell. By the time you receive priority, the land is already tapped and the mana is in your opponent's pool (or has already been spent to put the spell on the stack).
+Generally, then, you need to play your tap abilities before your opponent has the chance to do anything. This means:
+
+If you're trying to deprive your opponent of mana, you should tap his lands in his upkeep step. Your opponent will be able to tap them in response to pay for instant-speed spells and abilities if he has any, but he won't be able to use that mana for any main-phase spells.
+If you're trying to keep a creature from attacking, the last time when you can do so is the Begin Combat step. By the time you get priority in the Declare Attackers step, your opponent's creatures are already tapped and attacking, so tapping them has no effect.
+If you're trying to prevent your opponent from using some sort of other tap ability on a creature or artifact, your best bet is to tap it at a time when the ability is not relevant or has no targets. For example, tap your opponent's Avacynian Priest in his end step. He could activate the ability in response, but it doesn't matter since your creatures will untap at the beginning of your turn anyway.
+If you're trying to tap something like the Steel Overseer, which has an ability that's always relevant, you're basically SOL.
+

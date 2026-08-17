@@ -1,0 +1,19 @@
+Q:
+
+Does a Sengir Vampire survive when blocked by four 1/1s?
+
+I attack with Sengir Vampire which is a 4/4
+My opponent declares four 1/1 blockers
+
+Would Sengir Vampire die or would it gain counters from the three 1/1 creatures that died before attacking the last 1/1 blocker? Thus allowing it to survive while killing the four 1/1 blockers. 
+
+A:
+
+All of the creatures will deal their respective damage at the same time. Since Sengir Vampire's +1/+1 ability is a triggered ability, it uses the stack, and before any of the +1/+1 counters go onto the Vampire, it will die. 
+State-based actions (like death from damage) will happen before the triggered ability on the stack can resolve.
+If any of the creatures involved have first strike, however, this changes things:
+
+If the Sengir Vamire has first strike, it will deal it's damage before the blockers, killing them before they have a chance to deal damage, giving it the +1/+1 counters
+If the blockers have first strike, they deal damage to the vampire before it deals damage to them, killing the vampire while they remain alive
+If all parties have first strike, the outcome is the same as if none of them did.
+

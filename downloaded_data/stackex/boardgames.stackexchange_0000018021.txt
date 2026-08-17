@@ -1,0 +1,28 @@
+Q:
+
+When is my earliest opportunity to destroy a creature I couldn't counter?
+
+My friend has been playing a sliver commander deck and uses Root Sliver which is a thorn in the side of my control.
+Lets say I have an instant in my had that can destroy the Root Sliver and a counter creature card that I may want to use on the next sliver (and the mana to do both). I can't cast it while Root Sliver is still on the stack as it is not on the battlefield yet so I cannot target it.
+As I understand it after the stack resolves however my opponent regains priority meaning they can put their next sliver spell on the empty stack before I have a chance to play my card to destroy the Root Sliver.
+I was originally thinking I could put both the counter and the destroy in the stack but the counter would have to go on first so that it would resolve after the destroy, but since before the destroy resolves the sliver on the stack is not a valid target for the counter so this move is illegal.
+Is it possible to kill the Root Sliver in time to counter the next sliver?
+
+A:
+
+Your opponent gets to put their silver on the stack first. However, you can then add your incinerate to the stack, targetting their Root Silver.
+
+Incinerate
+New Sliver
+
+You can then pass so the Incinerate resolves, destroying the Root Sliver. Stack is now:
+
+New Sliver
+
+Then you cast your counterspell so the stack is
+
+Counterspell
+New Sliver
+
+Your counterspell resolves, and the New Sliver is countered.
+

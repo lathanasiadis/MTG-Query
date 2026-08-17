@@ -1,0 +1,17 @@
+Q:
+
+What amount of color overlap does intimidate require?
+
+I would like to make sure I understand intimidate well. If I have a green and blue creature, I can block a green creature with intimidate, because my creature shares a colour with it, right? And generally, creature is able to block creatute with intimidate if it shares at least one colour with it, colours don't have to be exactly the same? 
+
+A:
+
+The colors don't need to be exactly the same. The creatures just have to overlap by at least one color.
+The intimidate reminder text tells us:
+
+Intimidate (This creature can’t be blocked except by artifact creatures and/or creatures that share a color with it.)
+
+A green creature with intimidate can be blocked by any creature that is at least green, including a blue-green creature, or even just a mono-green creature, because it will share a color with them.
+Likewise a blue-green creature with intimidate can be blocked by any creature that is at least green or blue: the blocker could be mono-blue, or green-red, etc. This means a five-color card like Progenitus is never intimidated by any colored creature with intimidate.
+Naturally also artifact creatures can always block any creature with intimidate, regardless of their colors or lack thereof. 
+

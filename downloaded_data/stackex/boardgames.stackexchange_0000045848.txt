@@ -1,0 +1,25 @@
+Q:
+
+If I gain control of my opponent's Hostage Taker, can I cast card it exiled?
+
+Hostage Taker says:
+
+When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+
+Say my opponent casts Hostage Taker to kill one of my creatures. On my turn, I cast Control Magic to take the Hostage Taker. Can I cast the creature Hostage Taker exiled, or is that something only my opponent can do?
+
+A:
+
+Hostage Taker's ability is a triggered ability that creates a continuous effect.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]"
+611.1. A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+
+Just like any other ability, has no inherent ties to the permanent that created it unless otherwise stated. In this case, that means that the exiled card would return to the battlefield if Hostage Taker leaves the battlefield, but no other exceptions from the rules are stated by the effect.
+As such, you as the player taking control of Hostage Taker don't automatically take control over triggered abilities of the past, the the continuous effects created by them, so if the ability still existed, you couldn't take control of it by taking control of the creature, as once created, abilities exist independent from their source.
+
+603.3a A triggered ability is controlled by the player who controlled its source at the time it triggered (...).
+
+You also can't take control of a continuous effect, for the reason that nothing in the rules about continuous effects state that continuous effects have controllers, or that those controllers may change.
+The conclusion: You take control of the creature, but you don't take over the ability to cast the exiled card.
+

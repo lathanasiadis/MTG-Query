@@ -1,0 +1,20 @@
+Q:
+
+Sedris and Nicol Bolas, the Ravager
+
+If I unearth Nicol Bolas, the Ravager thanks to Sedris, the Traitor King, then use Nicol Bolas's activated ability to exile it, does it return to the battlefield transformed?
+Unearth seems to replace where it goes when it leaves the battlefield, but it's already going into exile.
+
+A:
+
+Yes, Nicol Bolas will be exiled and return transformed. The Unearth effect does not apply to that event.
+Sedris, the Traitor King has the following ruling:
+
+If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+
+The exact definition of Unearth is in rule 702.83a:
+
+Unearth is an activated ability that functions while the card with unearth is in a graveyard. “Unearth [cost]” means “[Cost]: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate this ability only any time you could cast a sorcery.”
+
+It is not going "anywhere else", so the Unearth replacement effect does not apply.
+

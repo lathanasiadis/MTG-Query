@@ -1,0 +1,32 @@
+Q:
+
+Does Gustcloak Savior's ability leave the door open for blockers to be reassigned?
+
+I'm using Gustcloak Savior in my token commander deck because I'm assuming after I remove my blocked creatures from combat that my opponents can't reassign their blockers. Am I incorrect? If so, it totally defeats my purpose of having it in there and I'd like to open up the spot for something more productive with my theme.
+
+A:
+
+That's correct, your opponents can't just reassign their blockers. Combat works like this:
+
+Beginning of combat step.
+
+Triggered abilities go on the stack.
+Then, the active player gets priority and can activate spells and abilities.
+
+Declare attackers step.
+
+The active player declares their attackers. (rule 508.1)
+Triggered abilities go on the stack, again. (508.2)
+The active player gets priority, again. (508.3) 
+
+Declare blockers step.
+
+The defending player(s) declare their blockers. (509.1)
+Damage assignment order is worked out by the attacker then the blocker. (509.2 and .3)
+Triggered abilities go on the stack, again. (509.4)
+The active player gets priority, again. (509.5)
+
+Then combat damage happens, then so does end of combat.
+Guess when they declare their blockers? Step 3.1. Guess when the Gustcloak ability triggers? Step 3.3, after all blockers were already declared and you know how damage will be dished out. They don't get to go back and revise. There is no "reassign blockers" or "declare more blockers" step after that.
+Your opponent now has at least one blocker now blocking nothing, and you've saved your creature from attack, and that's that.
+

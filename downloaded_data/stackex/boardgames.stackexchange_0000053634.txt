@@ -1,0 +1,30 @@
+Q:
+
+Snow-Covered Lands and Blood Moon interaction
+
+How do Blood Moon and e.g. a Snow-Covered Plains interact?
+When I think of Field of the Dead it already seems quite counterintuitive to me that snow-covered lands increase the "distinct land count". According to this logic I thought they should also be affected by blood-moons effect. I come to this conclusion since basic lands to me were solely the cards named "Forest", "Mountain", "Island", "Plains", "Swamp".
+
+A:
+
+Blood Moon does nothing to Snow-Covered Plains, because Snow-Covered Plains is a basic land.
+Blood Moon says:
+
+Nonbasic lands are Mountains.
+
+“Nonbasic” here means “not basic”, the same way “noncreature” (Negate) means “not a creature”.
+Snow-Covered Plains is basic; we can see this on the type line:
+
+Basic Snow Land — Plains
+
+So Blood Moon will leave it alone.
+
+When I think of Field of the Dead it already seems quite counterintuitive to me that snow-covered lands increase the "distinct land count". According to this logic I thought they should also be affected by blood-moons effect.
+
+They have different names, which is what Field of the Dead cares about, so yes, they'll matter for Field of the Dead too. And whether they have distinct names has nothing to do with whether they're basic.
+
+I come to this conclusion since basic lands to me were solely the cards named "Forest", "Mountain", "Island", "Plains", "Swamp".
+
+That's effectively true for most formats, so that's a good enough summary most of the time. But the basic snow lands are basic—they say so right on the type line—and are recognised in the rules as such. In formats that include them, like Modern or Commander, they are just as much Basic Lands as the usual five.
+Note that Wastes is also a basic land. (It doesn't have an associated basic land type though.)
+

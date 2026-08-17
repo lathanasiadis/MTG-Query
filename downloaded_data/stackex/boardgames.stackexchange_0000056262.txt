@@ -1,0 +1,19 @@
+Q:
+
+Tiger-Tribe Hunter and temporary power/toughness changes
+
+I played AFR draft on MTG Arena last night and encountered something that doesn't make sense to me.
+My opponent had a Zombie Ogre with a +1/+1 counter and a Death-Priest of Myrkul in play. I had a Targ Nar, Demon-Fang Gnoll and a Tiger-Tribe Hunter.
+In my precombat main phase, I doubled Targ Nar's power and toughness twice, making it an 8/8. I declared both of my creatures as attackers and sacrificed him to Tiger-Tribe Hunter's triggered ability (targeting Zombie Ogre). Only 2 damage got applied to Zombie Ogre, but I was expecting it to be lethal.
+Any insight would be appreciated!
+
+A:
+
+That is a bug. It should deal 8 damage.
+Tiger-Tribe Hunter has a ruling that says
+
+Use the sacrificed creature's power as it last existed on the battlefield to determine how much damage is dealt.
+
+Targ Nar's power was 8 when it was last on the battlefield, so the Tiger-Tribe Hunter should deal 8 damage.
+This problem with Tiger-Tribe Hunter has been reported as a bug by several other people on the official Magic: Arena bug reporting website.
+

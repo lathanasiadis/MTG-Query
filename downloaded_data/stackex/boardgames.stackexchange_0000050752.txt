@@ -1,0 +1,42 @@
+Q:
+
+How do Companion cards from Ikoria work in Commander?
+
+Today the Ikoria previews revealed a new mechanic: companion. From Ikoria: Lair of Behemoths Mechanics, you can choose up to one companion card in your sideboard (or in your collection outside the game) and reveal it before the game begins. For example Umori, the Collector says:
+
+Companion — Each nonland card in your starting deck shares a card type. (If this card is your chosen companion, you may cast it once from outside the game.)
+
+How do these work in commander? (Do they work at all, given they are outside the game?)
+
+Does my commander count as part of my starting deck for the purposes of the companion condition?
+Are these part of my 100 cards?
+Does their color identity matter?
+Can I have one in my main deck as well as one outside the game?
+
+A:
+
+Companion cards will function in commander, and rather unusually at that.
+Their behaviour in Commander is described by two key sources quoted below. To summarise:
+
+Your Commander is counted as part of your starting deck and thus has to meet your companion's deckbuilding restrictions. (Even if you might remove your commanders from your deck before your game begins.)
+A companion card is not one of your 100 cards. If you have a companion, it's essentially your 101st card.
+Singleton and color identity rules still apply to your companion. This means your companion must be inside your commander's color identity, and you cannot also have another copy of your companion inside your 100.
+Your Companion cannot also be your Commander, because Commanders start in your deck, but Companions start outside the game, and a single card can't be in both places.
+Just to confirm: companion cards start outside the game in your collection, and are not in the command zone.
+
+This means if you're using Umori, the Collector, your commander(s) must share a card type with all the nonland cards in the rest of your deck. For Keruga, the Macrosage, your commander (or commanders) must be converted mana cost 3 or greater.
+Companions aren't necessarily an auto-include; they come with deckbuilding restrictions. On that note: Lutri, the Spellchaser is pre-emptively banned in Commander because in this format its restriction is not actually a restriction at all, making it basically a free auto-include in any UR+ deck. You can see Sheldon Menery's tweet here announcing the ban; the full explanation is currently on the MTGCommander.net home page (archive link).
+Sources
+The Ikoria: Lair of Behemoths Mechanics article:
+
+Commander players, even though you don't have sideboards, you can still get in on the fun. Each Commander deck may include a chosen companion. It starts outside the game and doesn't count as one of your 100 cards. Just like the rest of your deck, your commander must follow the deck-building rule if you're going to use a companion.
+
+Sheldon Menery on Twitter:
+
+All the other companion cards [except for Lutri] will be legal, and subject to color identity and singleton rules.  If a card is your companion, it is effectively a 101st card.
+
+Finally, CR 103: Starting the Game:
+
+103.2b. If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and they may do so only if their deck fulfills the condition of that card's companion ability. (See rule 702.139, "Companion.")
+103.2c. In a Commander game, each player puts their commander from their deck face up into the command zone after having the opportunity to reveal a card with a companion ability and before shuffling. See rule 903.6.
+

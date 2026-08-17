@@ -1,0 +1,19 @@
+Q:
+
+Can you sacrifice a creature after it has dealt damage to a creature?
+
+Let's say, I have a 1/1 saproling token, a Thallid Omnivore, and my opponent has a 1/1 token of some sort. I attacked with a 1/1 saproling token and a Thallid Omnivore, and my opponent blocks it with his 1/1. Can I then sacrifice the token after it has dealt damage to the other token so that my Thallid Omnivore gains a +2/+2 while still killing his token? 
+
+A:
+
+Section 510 of the comprehensive rules details the combat damage step. First, 510.1 is about assigning damage, where all attacking and blocking creatures decide where they deal combat damage and how much they deal. Then we get the following (emphasis mine):
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action 
+  doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time 
+  combat damage is assigned and the time it’s dealt.
+
+So no, once the game has passed to the point where you decide which creatures are eligible to deal combat damage at all, you cannot play anything until after damage has been dealt and creatures have died from it.
+
+Historically (before the M10 core set), you would've been able to both let your token deal its damage and sacrifice it to the Omnivore, as "combat damage" was put as a single entity on the stack, and was something one could respond to just like spells and abilities.
+However, even then, if you had let your token deal damage, the Omnivore would deal 3 damage. Neither in modern rules nor old would you have been able to both deal damage with the token and deal five damage with the Omnivore. In the other hand, with the old rules, you would've been able to deal damage with the token and at the same time allow the Omnivore to survive combat against a 3/3 or a 4/4. That is no longer possible.
+

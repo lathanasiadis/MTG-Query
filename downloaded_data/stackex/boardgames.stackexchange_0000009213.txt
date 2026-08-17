@@ -1,0 +1,28 @@
+Q:
+
+How do you handle fast players in a casual setting that skip priority?
+
+This really isn't a problem in a tournament setting, because players are expected to know the rules, and will usually ask their opponent if they wish to take any actions before allowing a spell to resolve. In a casual setting though, and especially in Multiplayer, where players may not be paying that much attention to what might be happening on the other side of the board, how do you handle a player who casts a string of non-instant spells without giving anyone the time/chance to counter each spell in the string?
+Time is usually at a premium in MP, so I doubt that most players ask each player in turn if they have a response. (with the possible exception of the resolution of cards like Browbeat, where it is optimal to see if any player will bite the bullet and take the damage). In your multiplayer magic games, do you only ask if an opponent is playing Blue with 2-3 Mana available? Do you pause for a short time time after each spell? Do you allow opponents to backup and counter the first spell?
+What is the best way to handle counterspells in multiplayer to minimize time, and not make counters too powerful?
+
+A:
+
+By the rules, you allow opponents to backup and counter the first spell.
+
+MTG is not a real-time game, it's a turn-based game. In other words, it's not a game of chicken.
+MTG would be extremely tedious if you had to explicitly pass priority every time. That why people use shortcuts. If you say "I cast Foo and Bar", you are actually proposing the following a shortcut:
+
+I cast Foo
+I pass
+You pass
+I cast Bar
+I pass
+You pass
+
+The other player(s) may accept the shortcut entirely, or they may accept the shortcut only until a point of their choosing. Accepting part of the shortcut could be done, for example, by saying "In response to Foo, I cast Baz."
+If the shortcut is accepted, the person who proposed it must abide by it. (He must cast Foo and Bar.)
+If the shortcut is accepted to a point, the person who proposed it must abide by it up to that point. (He must cast Foo.) He can deviate as he wishes past that point. (He need not cast Bar, though he obviously can if he wants to do so.)
+So the answer, by the rules, is the last option you presented: You allow opponents to backup and counter the first spell.
+If you want to be sure Foo isn't going to be countered before announcing you're casting Bar, you have to make sure noone wants to do anything in response to Foo.
+

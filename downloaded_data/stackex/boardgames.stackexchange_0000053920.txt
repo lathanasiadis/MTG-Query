@@ -1,0 +1,32 @@
+Q:
+
+When planeswalkers become creatures, are they no longer planeswalkers?
+
+Sarkhan the Masterless has the ability:
+
++1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.
+
+There is a ruling associated with this Sarkhan that says:
+
+Once Sarkhan’s first loyalty ability has resolved, each planeswalker you control (including Sarkhan) is no longer a planeswalker for the rest of the turn. They don’t lose any loyalty counters or abilities, and you can still activate their loyalty abilities if you haven’t done so yet this turn. They don’t lose loyalty if they’re dealt damage while they’re not planeswalkers.
+
+Question:  I was under the impression that rulings are all derivable from the comprehensive rules, but I can find no rules reference to "back up" this ruling.
+The ruling makes sense to me, if a planeswalker is a creature, you don't want it to start losing loyalty counters for being in combat, but the above ruling makes it seem that Sarkhan has removed the "planeswalker" type from the planeswalkers.  Which comprehensive rule supports that statement?  I was unable to find it.
+Note: This question is similar to: What are the ramifications of turning a planeswalker into a creature?, but it is different.  In that question, it appears the creatures maintain their planeswalker status, where as Sarkhan removes it.  So, ideally, an answer could address why in that context planeswalkers remain planeswalkers, while Sarkhan removes planeswalker status.
+
+A:
+
+It is rule 205.1a:
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+This is why certain other cards like Blinkmoth Nexus, when they change type, have to include "it's still a land", for example, when the ability is made to retain the existing type. Or alternatively "in addition to its other types" in the case of something like Liquimetal Coating.
+There is also an exception for when the type is set to "artifact creature":
+
+205.1b [...] Some effects state that an object becomes an “artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes. Some effects state that an object becomes a “[creature type or types] artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes other than creature types, but replace any existing creature types.
+
+So if you use Karn, Silver Golem's ability on an artifact land, it would be an artifact land creature afterwards.
+Final note about activating the Loyalty Ability of a planeswalker that is no longer a planeswalker; it's allowed normally because the rules for Loyalty Abilities don't restrict or limit them to planeswalkers in any way; nothing stops a creature or any other non-planeswalker from having Loyalty Abilities:
+
+606.2. An activated ability with a loyalty symbol in its cost is a loyalty ability. Normally, only planeswalkers have loyalty abilities.
+

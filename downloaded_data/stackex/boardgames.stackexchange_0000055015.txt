@@ -1,0 +1,22 @@
+Q:
+
+Why doesn't Dress Down stop Emrakul's cast trigger?
+
+This situation happened in one of Andrea Mengucci's recent videos.
+Mengucci had Omniscience and Dress Down in play. He then decided to cast Emrakul, the Aeons Torn in case opponent made him shuffle his hand into his deck, but was surprised when Emrakul triggered and he got an extra turn.
+Why did Emrakul trigger? With Dress Down in play, it ought to have no abilities, including the cast trigger. Relevant text of cards:
+Dress Down:
+
+Creatures lose all abilities.
+
+Emrakul:
+
+When you cast this spell, take an extra turn after this one.
+
+A:
+
+Dress Down only removes abilities from creature permanents on the battlefield. Emrakul has its triggered ability as a spell, not as a permanent, so it is not affected.
+Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+

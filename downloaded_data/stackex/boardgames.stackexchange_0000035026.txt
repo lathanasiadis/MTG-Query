@@ -1,0 +1,15 @@
+Q:
+
+Sacrificing as part of a command, to fulfill other costs?
+
+It is covered well in other questions that sacrificing one creature cannot fulfill the requirements for two abilities that are both activated abilities (have 'Sacrifice a creature: do something', like Falkenrath Aristocrat), or other costs ("As an additional cost to cast Altar's Reap, sacrifice a creature"), but can cause multiple triggered abilities (like Zulaport Cutthroat's).
+However, there's one other type of sacrifice that some cards call for; when you're commanded to ("Target opponent sacrifices a creature" as in Cruel Edict), or optionally "may sacrifice" (like Brain Gorger).
+Are those "commanded to" or "optionally may" actions costs (and therefore must have a creature sacrificed specifically to it and no other cost), or some other sort of trigger?
+A complete example: I have a Falkenrath Aristocrat and a Bane Alley Blackguard in play. An opponent casts Cruel Edict on me. Can I sacrifice the Bane Alley Blackguard to the Falkenrath Aristocrat's ability (she gains indestructable for the turn and a +1/+1 token), and have fulfilled the requirements for what Cruel Edict needs me to do?
+
+A:
+
+No, you can't do that, because it is still essentially the same "can't sacrifice creature twice for 2 things", even if only one if an activated ability.
+One way to reason it is to think about it with the stack. When an ability or spell is resolving from the stack, it has to fully resolve before doing anything else and it resolves separately from anything else resolving.
+So, here you have Cruel Edict on the stack. If you let it start resolving, you can't activate the Aristocrat's ability until it finishes. If you activate the ability in response, the creature is sacrificed to put the ability on the stack. It resolves, then the Edict wants to resolve, and it needs its own sacrifice. 
+

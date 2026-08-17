@@ -1,0 +1,28 @@
+Q:
+
+Can I kill an indestructible creature with -X/-X and sufficient damage marked on it?
+
+Can I hit a 4/4 indestructible creature with a Lightning Bolt (3 damage) and give it -1/-1 with Tragic Slip to kill it? (Does it matter which way around I cast those?)
+I read this description here and it says, damage is removed in cleanup step, so it should be on the creature still after both spells.
+
+702.12. Indestructible
+  702.12a Indestructible is a static ability.
+  702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+  702.12c Multiple instances of indestructible on the same permanent are redundant.
+
+A:
+
+Spell order doesn't matter; either way you cast the spells, you wind up with: a 3/3 indestructible creature with 3 damage marked on it.
+You've asked if you can hit it with both Lightning Bolt and Tragic Slip... but I presume you also mean to ask "will that kill it?" and the answer is no, the indestructible creature will survive.
+See the part of your quote that says: "such permanents aren't destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage." By that, they are talking about the fact it's a creature with 3 toughness and 3 damage marked on it (until the turn ends) — that's lethal damage. And lethal damage doesn't kill indestructible creatures, so it will be fine.
+(Please note that damage never reduces toughness. Some of the MTG video games have treated it like it does, which is unfortunate and incorrect — toughness isn't like Health. Instead, damage simply sits on the creature, not changing the Toughness, but we measure it against their Toughness to see if they should normally die. Toughness is more like a Max Health attribute if anything.)
+
+It could however be killed by tragic slip's -13/-13 effect (use the lightning bolt to kill something else for this), or by Grasp of Darkness, either of which will reduce its toughness to 0 or less, which removes even indestructible creatures. This is because lethal damage "destroys" a creature, but toughness 0 or less merely puts that creature into its owner's graveyard (without counting as "destroys"):
+
+State-based actions:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+Your red/black options also include exiling the indestructible creature, such as with Gild or Oblivion Strike, or using special workaround cards which nullify its abilities like Burn from Within.
+

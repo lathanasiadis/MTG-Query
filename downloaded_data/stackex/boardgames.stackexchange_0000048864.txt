@@ -1,0 +1,36 @@
+Q:
+
+What is the priority sequence during a turn?
+
+I know that at the beginning of each step and phase the active player recieves priority, and that the active player recieves priority after a spell resolves. I want to make sure that I am right about getting priority during a turn. Please tell me if I'm right and correct my mistakes.
+
+Beginning phase:
+
+Untap step: nobody can casts spells
+Upkeep step: players get priority in order of active player, nonactive player
+Draw step: the same as in upkeep
+
+First main phase: 
+
+active player has priority during the entire turn and nonactive gets it after active passes, at the end of the turn
+
+Combat phase:
+
+after every step players get priority in order active player, nonactive player
+
+Second main phase:
+
+the same as in first
+
+End phase
+
+End step: players get priority in order active player, nonactive player
+Cleanup step: nobody can cast spells
+
+A:
+
+You seem to have things basically correct, but some of your wording is confusing; especially as it relates to the main phase.
+You say that the active player gets priority "during entire turn" and that non-active player gets it after active passes, "at the end of the turn". Priority in the main phase works exactly the same as it does in the other phases and steps... active player gets priority first, and when active player passes priority, non-active player gets priority.
+You are correct about which steps don't give players priority: untap step and cleanup step are the only ones; during all other steps the active player gets priority, and then non-active player gets priority when active player passes it.
+Note that in many steps; something else happens before players receive priority, such as drawing a card in the draw step; declaring attackers in the declare attackers step, etc.
+

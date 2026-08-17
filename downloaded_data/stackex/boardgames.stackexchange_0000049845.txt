@@ -1,0 +1,34 @@
+Q:
+
+How does Thought Sponge interact with Yarok, the Desecrated?
+
+Situation
+I have Yarok, the Desecrated on the battlefield:
+
+If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+I play Thought Sponge, after my opponent drew three cards this turn:
+
+Thought Sponge enters the battlefield with a number of +1/+1 counters on it equal to the greatest number of cards an opponent has drawn this turn.
+
+Does this creature's triggered ability trigger an additional time? Is it entering as a 4/4, or as a 7/7?
+Confusion
+I'm not sure whether this effect counts as replacement effect, as mentioned in the rulings of Yarok:
+
+7/12/2019. Replacement effects are unaffected by Yarok’s ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won’t receive an additional +1/+1 counter.
+
+A:
+
+Unfortunately for you, Thought Sponge won't trigger again. In fact, it doesn't even trigger at all, since it is indeed a replacement effect:
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+and as you noted, replacement effects are unaffected by Yarok's ability.
+A similar card which is affected by Yarok is Propeller Pioneer which has the Fabricate 1 ability:
+
+When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.
+
+This is a triggered ability:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+

@@ -1,0 +1,24 @@
+Q:
+
+Can a creature with hexproof be targeted by spells that target all creatures?
+
+examples:
+Blazing Volley,
+Fumigate,
+Last One Standing.
+
+A:
+
+Cards that affect "all creatures" (such Blazing Volley, Fumigate, and Last One Standing) are not stopped by hexproof because they don't actually target anything (to target, something must literally say the word "target"; the "choose a creature" in Last One Standing still doesn't count as targeting).  
+Even spells with overload (like  Electrickery) won't target if cast with overload because overload changes them to not target.
+However, spells that do target a bunch of creatures, such as spell with replicate (ex. Gigadrowse) or strive are stopped by hexproof.  The difference is that these spells do literally say the word "target".
+The relevant rules are:
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target
+  [something],” where the “something” is a phrase that describes an
+  object and/or player.
+114.1c An activated ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the
+  “something” is a phrase that describes an object and/or player.
+114.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the
+  “something” is a phrase that describes an object and/or player.
+

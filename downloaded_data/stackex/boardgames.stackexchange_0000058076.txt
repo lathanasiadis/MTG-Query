@@ -1,0 +1,18 @@
+Q:
+
+How does blocking work in Magic the Gathering?
+
+I am new to MtG, for this, I started playing the old PC game "Magic 2014 - Duels of the Planeswalkers", in order to get familiar with the game, and I modified my mono black deck as a zombie/undying deck.
+Playing the campaign, I faced a Slivers deck, where my opponent had 3 1/1 Sliver tokens, and I had Black Cat under the effects of Lord of the Undead and Undead Warchief making the cat a 4/3.
+I decided to attack with Black Cat and these 3 tokens blocked my attack, each of these tokens dealt 1 damage each, killing my Black Cat, but these 3 tokens didn't die... why? I was expecting to kill the tokens, they attack my card (3 attack to me) and my card deals 3 attack to them which is sufficient to kill them all. Do I have it wrong how blocking works in MtG?
+
+A:
+
+You have it essentially correct: if nothing else is in effect, your cat would deal 3 damage to the defenders and they would all die.
+Why they didn't die is most likely due to some other effect on the battlefield. Without seeing the full game state we can't tell you what that was, but the most likely possibilities are:
+
+Striking Sliver which would give all slivers first strike, meaning they do damage before your cat. As the 3 damage from the slivers is lethal damage to your cat, it dies before it can assign damage, so the slivers survive.
+Bonescythe Sliver which would give all slivers double strike, meaning they do damage before your cat (as with first strike) and normal damage.
+
+as both those cards are apparently in the 2014 Duels Slivers deck.
+

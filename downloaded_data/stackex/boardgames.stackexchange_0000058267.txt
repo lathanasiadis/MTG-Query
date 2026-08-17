@@ -1,0 +1,90 @@
+Q:
+
+Why is Magic Online saying I have off color cards even though I don’t?
+
+I’m trying to make a Commander deck using Rona, Sheoldred's Faithful as my Commander but Magic Online won’t let me use it because I have off color cards.
+I’ve looked through the deck list 5 times and haven’t found a single card that isn’t blue or black. I even tried taking out my colorless land cards but it doesn’t change anything. I looked at the thing that tells you the number of different mana colors mentioned in the deck and there were only black and blue.
+The deck list is as follows:
+
+Acquisition Octopus
+Alchemist's Retrieval
+Assassin's Ink
+Baneblade Scoundrel
+Battlefield Butcher
+Behold the Unspeakable
+Braids's Frightful Return
+Brokers Hideout
+Combat Research
+Component Collector
+Corrupt
+Corrupt Court Official
+Covetous Castaway
+Crawl From the Cellar
+Crystal Grotto
+Deal Gone Bad
+Delver of Secrets
+Desperate Farmer
+Dig up the Body
+Dockside Chef
+Drownyard Amalgam
+Faerie Vandal
+Field of Ruin
+Firmament Sage
+Founding the Third Path
+Gibbering Barricade
+Gixian Infiltrator
+Gluttonous Guest
+Gnawing Vermin
+Gruesome Realization
+Heirloom Mirror
+Illicit Shipment
+Impulse
+Incriminate
+Keeper of the Cadence
+Knight of Dusk's Shadow
+Mindleech Ghoul
+Moment of Defiance
+Morbid Opportunist
+Mysterious Tome
+Negate
+Obscura Storefront
+Parasitic Grasp
+Phyrexian Espionage
+Phyrexian Vivisector
+Ragged Recluse
+Restless Bloodseeker
+Riveteers Overlook
+Rona's Vortex
+Rooftop Nuisance
+Scattered Thoughts
+Security Bypass
+Shore Up
+Siege Zombie
+Tamiyo's Compleation
+Thran Vigil
+Third Path Savant
+Thraxodemon
+Tolarian Terror
+Tribute to Urborg
+Unblinking Observer
+Uncharted Haven
+Urborg Repossession
+Vengeful Strangler
+Virus Beetle
+Voda Sea Scavenger
+Volshe Tideturner
+Witness the Future
+
+What reasons could there be for Magic Online rejecting my deck?
+
+A:
+
+Urborg Repossession violates your deck's color identity.
+When making a commander deck, you may not include any cards that violate your commander's color identity. Color identity looks not only for the colors of cards in your deck, but also at any mana symbols that appear anywhere on those cards.
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+In your particular case, Rona, Sheoldred’s Faithful has a blue and black color identity, so you may not include any cards whose colors include white, red, or green, or which have a white, red, or green mana symbol anywhere in it. Urborg Repossession has a black and green color identity, making it ineligible for your deck, because it contains the text:
+
+Kicker {G} (You may pay an additional {G} as you cast this spell.)
+

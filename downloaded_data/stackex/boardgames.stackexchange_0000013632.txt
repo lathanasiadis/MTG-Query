@@ -1,0 +1,33 @@
+Q:
+
+What is the difference between Hexproof and a card like Canopy Cover?
+
+Canopy Cover is an Aura enchantment that includes this effect:
+
+Enchanted creature can't be the target of spells or abilities your opponents control.
+
+This sounds the same as Hexproof's definition in the glossary:
+
+This permanent can't be the target of spells or abilities your opponents control.
+
+So what's the difference between Canopy Cover and a card like Alpha Authority, which just says "Enchanted creature has hexproof"?
+Why does Canopy Cover spell it out like this?
+
+A:
+
+The effects are different because of what you/your refers to: it refers to an object's controller.
+Canopy Cover's effect is radically different from an effect that says "Enchanted creature has hexproof", but the difference only becomes important when you use it on a creature an opponent controls.
+Let's suppose you're a Green player facing a Blue player.
+Enchanting your opponent's creature with Hexproof means you can't target it
+Doing so means the creature now has a static ability that says:
+
+This permanent can't be the target of spells or abilities your opponents control.
+
+The "your" here refers to that creature's controller - Blue player - so now Blue player's opponents can't target that creature with spells or abilities. That's you, Green player. You now cannot target that creature with spells or abilities.
+Enchanting your opponent's creature with Canopy Cover means they can't target it
+Doing so means the enchantment says:
+
+Enchanted creature can't be the target of spells or abilities your opponents control.
+
+Since you are the enchantment's controller, the "your" in this case refers to you, the Green player. So your opponents can't target that creature with spells or abilities - that's the Blue player.
+

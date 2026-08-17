@@ -1,0 +1,23 @@
+Q:
+
+How do Hexproof and Combat Damage interact?
+
+Here's a quick question: suppose your opponent attacks with an 8/8 with Trample, and you block with a 5/5 with Defender, Indestructible, and Hexproof. You also have Hexproof.
+Trample is an ability, and Hexproof won't allow you to be targeted by abilities or spells. How would one assign damage then?
+Or is Hexproof just not important at all by this point?
+
+A:
+
+They don't interact at all.
+The word "target" does not occur anywhere in the Comprehensive rules for 702.19, Trample, nor 510, Combat Damage Step (well, the latter does use the word "target" within some examples, but those uses refer to spells being cast, not to the combat damage itself).
+The Comprehensive rules for Hexproof are short enough to include here in their entirety:
+
+702.11. Hexproof
+
+702.11a Hexproof is a static ability.
+702.11b "Hexproof" on a permanent means "This permanent can't be the target of spells or abilities your opponents control."
+702.11c "Hexproof" on a player means "You can't be the target of spells or abilities your opponents control."
+702.11d Multiple instances of hexproof on the same permanent or player are redundant.
+
+Because combat damage is not targeted, and Trample does not target the blocking creatures nor the defending player, Hexproof will not protect creatures or players from this damage.
+

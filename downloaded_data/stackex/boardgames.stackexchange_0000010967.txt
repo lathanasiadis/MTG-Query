@@ -1,0 +1,15 @@
+Q:
+
+Does the fact that my deck is aggro mean I should add or remove land?
+
+Say I have a deck where the only win condition I'm trying to win the first few turns. Would I want this deck to have a different number of lands than a control deck that is looking to win later in the game? An extra land or two could help me play my spells more quickly, but it would also mean that I would have fewer spells to play.
+Can any general conclusions be made about the number of lands in an aggro deck vs. a control deck? Or is it so dependent on the deck and format that this is impossible? 
+
+A:
+
+Generally it's less about whether your deck is aggressive or not than what your deck's mana curve looks like - the two are very closely correlated, but they're not necessarily the same thing!  It's probably  fair to say that the 'average' deck through Magic's history has run about 24 lands, with aggressive decks a little lighter and control decks a little heavier - but with quite a bit of variance.
+By and large, the rule is 'the lower your curve, the fewer lands you need' - for instance, the very mana-hungry Esper control decks in Standard (which generally want to be able to hit their first seven or eight mana drops so they can cast Sphinx's Revelation for a lot) will run 26 lands or even 27, whereas aggressive and low-curve red decks often drop down to about 22 lands.
+For an example of a deck that's not specifically an agressive deck but still runs land-light, look at the so-called aggro-control decks whose goal is to try and get just one or two threats out there and then proactively protect them and which run very low land counts.  Some of the versions of Delver decks in the pre-Return to Ravnica standard environment are a perfect example of this; they were shaving down to 19 or 20 lands.
+The Gitaxian Probe Delver decks (and similar tempo decks in formats like Legacy) also showcase another factor: the more cheap (and particularly 1-mana) card drawing spells a deck run, the more it can shave its land counts.  This is because by playing card draw spells it'll almost always be able to cast, the deck is effectively running one or two more 'virtual' lands - but note that this can be dangerous, because turns that would normally be spent playing threats often have to be spent searching for additional mana instead.  (And this explains why Probe in particular was so strong, since it didn't stunt development in this way.)
+Another factor is whether a deck can make good use of 'land spells' or not.  A card like Nephalia Drownyard, for instance, isn't just a mana source to let a control player cast Supreme Verdict or Sphinx's Revelation 'on time', it's also a win condition for the deck, and so it encourages 'overloading' the land count since it doesn't diminish the threat density (which is the usual hazard of running too many lands).  Even more aggressive decks can take advantage of utility lands to boost their count while still keeping plenty of action; cards like Hellion Crucible, Kessig Wolf Run and Gavony Township are perfect examples of this kind of effect.
+

@@ -1,0 +1,20 @@
+Q:
+
+'Creature Types' vs 'Creature Names' in Oracle Text
+
+For example: Hand of Emrakul references Eldrazi Spawn. Are these specifically creatures named "Eldrazi Spawn" or the combination of creature types? I would assume it is the first one, as Broodwarden specifically uses the terminology "Eldrazi Spawn creatures."
+However, other cards like Festering Newt use different phrasing to specify card name.
+I would appreciate any clarification since it is ambiguous with how Creature Tokens are named.
+
+A:
+
+The referenced abilities of both Hand of Emrakul and Broodwarden are referring to creatures with the creature types Eldrazi and Spawn. Cards only refer to the names of objects using a format like on Festering Newt, explicitly saying "named [some name]". This is covered by rule 109.2:
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+in the case of both Hand of Emrakul and Broodwarden, the descriptions "Eldrazi Spawn" and "Eldrazi Spawn creature" consist of types and subtypes, so they mean permanents of those types and subtypes on the battlefield.
+
+When a card like Awakening Zone creates an Eldrazi Spawn token, it is creating a token with the creature types Eldrazi and Spawn, and the name "Eldrazi Spawn Token". This is because of rule 111.4:
+
+A spell or ability that creates a token sets both its name and its subtype(s). If the spell or ability doesn’t specify the name of the token, its name is the same as its subtype(s) plus the word “Token.” Once a token is on the battlefield, changing its name doesn’t change its subtype(s), and vice versa.
+

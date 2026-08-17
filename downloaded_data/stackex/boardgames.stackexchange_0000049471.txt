@@ -1,0 +1,38 @@
+Q:
+
+Do Adventure cards count towards "number of instant and sorcery cards in your graveyard"?
+
+If I summon Crackling Drake while having only having a Giant Killer on my graveyard (or in exile) will my Drake be 0/4 or 1/4?
+I got confused by some answers. Some say that when an adventure card is anywhere except the stack it's a Creature card. So it would be 0/1.
+But there is this example from rule 601.3e: 
+
+Melek, Izzet Paragon says, in part, "You may cast the top card of your library if it's an instant or sorcery card." If you control Melek, Izzet Paragon and the top card of your library is Giant Killer, you may cast Chop Down.
+
+In the case above Giant Killer (Chop Down) is considered a Instant Card, but there is also this example:
+
+You won't be able to cast Chop Down with the ability of Torrential Gearhulk because in your graveyard, it is not an instant and it would thus be an illegal target.
+
+So now Giant Killer (Chop Down) is not considered an Instant Card.
+Can anyone explain what makes these cases different? Is it because it's being "targeted" or maybe because one is being cast from the library and the other one from the graveyard?
+Thanks!
+
+A:
+
+No, an adventure card is an instant/sorcery only on the stack and only if it's being cast as such. At any other time, it counts as a creature object. You can cast the adventure part through Melek because of intricacies in the spell casting rules.
+
+715.4. In every zone except the stack, and while on the stack not as an Adventure, an adventurer card has only its normal characteristics.
+
+So for current adventure cards, they are only creature cards while in exile or the graveyard, and do not count for Crackling Drake.
+So if Giant Killer is only a creature card in the library, why can you cast it with Melek? The example you gave is from rule 601.3e:
+
+601.3e If a rule or effect states that only an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to cast, those alternative characteristics replace the object’s characteristics prior to determining whether the player may begin to cast it.
+Example: Garruk’s Horde says, in part, “You may cast the top card of your library if it’s a creature card.” If you control Garruk’s Horde and the top card of your library is a noncreature card with morph, you may cast it using its morph ability.
+Example: Melek, Izzet Paragon says, in part, “You may cast the top card of your library if it’s an instant or sorcery card.” If you control Melek, Izzet Paragon and the top card of your library is Giant Killer, an adventurer creature card whose Adventure is an instant named Chop Down, you may cast Chop Down but not Giant Killer. If instead you control Garruk’s Horde and the top card of your library is Giant Killer, you may cast Giant Killer but not Chop Down.
+
+The fact remains that Giant Killer is only a creature card while in the library. However, due to the rules around adventure cards, if you can cast Giant Killer, you may instead cast it as Chop Down, in which case it assumes its alternative characteristics, which include being an instant, so it's eligible for Melek.
+
+715.3. As a player casts an adventurer card, the player chooses whether they cast the card normally or as an Adventure.
+
+So Melek looks at the top card of your library and asks "Can I cast you as an instant or sorcery", and Giant Killer says "Yes, but only if you cast me as Chop Down". Therefore, you are allowed to cast Chop Down, but not Giant Killer through Melek.
+So if you can cast Chop down with Melek, why can't you through Torrential Gearhulk? The difference is that the Gearhulk's ability requires a target card. Since, as we already established, Giant Killer is a creature card in the graveyard, the Gearhulk can not target it in the first place. The ability either has to target a different card or is immediately removed from the stack due to lack of targets, and you can't get permission to cast Chop Down that way.
+

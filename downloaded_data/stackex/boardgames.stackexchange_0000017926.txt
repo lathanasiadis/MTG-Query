@@ -1,0 +1,15 @@
+Q:
+
+Priorities at End of Turn
+
+So I announce the end of my turn.
+My opponent responds with a lightning bolt to my head. It resolves so I take 3.
+Do I still have priority to do something else, eg to play instants that says do this when you take this much damage etc~?
+
+A:
+
+In your case, you do have priority and you can cast the instant in question. However, an instant that says "When you take [some amount of] damage, [do something]" won't really do much because the damage has already been done, so to speak. However, if you had responded to the lightning bolt with your instant, then it would have worked as intended.
+You ask specifically about the end of the turn and responding to damage, but you also seem to not completely understand the priority system in general. There are several points during a turn (upkeep, end of draw step, main phase, beginning of combat, attack step, block step, end of combat step, end step) when the active player (the player taking the turn) gains priority. Whenever a player has priority, they can either do something (play a spell, activate an ability) or they can pass priority. Spells and abilities don't resolve and steps don't end until every player has passed priority. Usually, people take the shortcut that if somebody doesn't say anything, they are assumed to be passing priority.
+The important thing is that every player gets priority every step (as long as someone gets it) and before anything resolves (so you always get an opportunity to respond). You can read the comprehensive rules entry about timing and priority for more information.
+In your specific case, when you say "I end my turn", it really means "I propose a shortcut that we skip to my end step" (there is also a comprehensive rules entry about Shortcuts and when your opponent cast the spell, they were implicitly accepting your shortcut, casting the spell during your end step, and then passing priority to you.
+

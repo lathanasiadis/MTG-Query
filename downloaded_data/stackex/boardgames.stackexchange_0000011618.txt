@@ -1,0 +1,24 @@
+Q:
+
+Can I flicker Aurelia to get more than two attack phases?
+
+Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.
+
+If I attack with Aurelia once, then flicker her (e.g. with Acrobatic Maneuver), will her second attack also count as "attacks for the first time each turn," thereby allowing me a third?
+
+A:
+
+Yes. 
+There are two completely separate Aurelia, the Warleader in the scenario.
+The first attacked in the first Combat Phase before being removed from the battlefield using Acrobatic Maneuver.
+The second was placed on the battlefield by the blinking ability and went on to attack in the second Combat Phase.
+It's of no relevance that the same physical card represents both Angels.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [...]
+
+When a card refers to itself by name, it means "this object".
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+As such, the post-blinking Angel first attacks in the second Combat Phase, triggering the creation of a third.
+

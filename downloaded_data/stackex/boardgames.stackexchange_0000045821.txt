@@ -1,0 +1,14 @@
+Q:
+
+Does Chimeric Mass stay a creature in the grave for the rest of the turn it dies?
+
+I control a Chimeric Mass with no charge counters on it. If I were to turn it into a creature and it dies, would it stay a creature in the graveyard until end of turn, or would it turn back into an artifact once it entered the graveyeard?
+
+A:
+
+Your Chimeric Mass would immediately return to being a non-creature artifact in the graveyard.
+The effect that turns Chimeric Mass into a creature ends as soon as the permanent leaves the battlefield. That's because the effect turns "Chimeric Mass" into a creature, and that means exactly the object the ability is on. However, when an object leaves a zone, it becomes a new object, and the effect no longer works, even though the new object in the graveyard has the same name:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [..]
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+

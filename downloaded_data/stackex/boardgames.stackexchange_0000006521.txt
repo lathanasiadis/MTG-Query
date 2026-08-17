@@ -1,0 +1,19 @@
+Q:
+
+Can Thraben Heretic be used on creatures with undying?
+
+Thraben Heretic says:
+
+{T}: Exile target creature card from a graveyard.
+
+Undying says:
+
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+
+So, when a creature with Undying dies, can I use Thraben Heretic to exile that creature from the graveyard before Undying resolves?
+
+A:
+
+Yes.
+Undying is a triggered ability, not a replacement effect. That means Undying creatures still "die" -- meaning that the card is placed into the graveyard from the battlefield. Then its Undying ability goes on the stack. You can activate Thraben Heretic in response to exile the creature card from the graveyard. The Undying ability do nothing when in resolves because the card it's supposed to fetch back to the battlefield is no longer in the graveyard.
+

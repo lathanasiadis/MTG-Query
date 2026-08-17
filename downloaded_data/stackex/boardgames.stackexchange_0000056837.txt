@@ -1,0 +1,43 @@
+Q:
+
+Karn Liberated Ultimate vs Yorion
+
+So lets say I use the +4 on Karn Liberated, exiling two cards from my opponent's hand, and my opponent also is using Yorion, Sky Nomad as their companion, with a deck size of 80. Now when I restart the game with Karn's ultimate, would they be allowed to reveal Yorion as their companion even though their deck has only 78 cards? Additionally shouldn't restarting the game with Karn win the game if the opponents deck is only at 59 cards when the new game starts?
+
+A:
+
+Restarting the game does not worry about a deck's legality, but it will recheck the companion condition
+Restarting the game runs through the entirety of the start game procedures
+
+721.1. One card (Karn Liberated) restarts the game. A game that is restarted immediately ends. No players in that game win, lose, or draw that game. All players in that game when it ended then start a new game following the procedures set forth in rule 103, “Starting the Game,” with the following exception:
+721.1a The starting player in the new game is the player who controlled the spell or ability that restarted the game.
+
+The game start procedures are as follows (abbreviated):
+
+Determine start player (skipped as per 721.1a)
+Set aside sideboards and substituted cards (double faced cards in decks without sleeves)
+Reveal companions (optional)
+Reveal commanders (if playing Commander or Brawl)
+Set aside Conspiracies (if playing Conspiracy Draft)
+Shuffle the decks, which become libraries.
+Life totals are set
+Each player draws their starting hand, and mulligans
+Take opening hand actions (eg Leylines)
+Turn over the top card of the Planar deck (if playing Planechase)
+Starting player takes their first turn.
+
+Notably, checking the legality the deck never happens.  I actually can't find anywhere in the rules where deck legality is checked, but rule 721.3 explicitly covers the case where the player's starting hand is less than the number of cards in their deck, thereby implying that a deck with fewer cards than the deck minimum (but greater than 7) can be used without causing a game loss.
+However, the part where companions are revealed does check deck construction.
+
+103.2b If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and they may do so only if their deck fulfills the condition of that card’s companion ability. (See rule 702.139, “Companion.”)
+
+And Karn's ability doesn't merely move cards around - it really is changing which cards are part of the deck being used to restart the game with.
+
+721.5. Effects may exempt certain cards from the procedure that restarts the game. These cards are not in their owner’s deck as the new game begins.
+
+That said, if Yorian (or any other companion) was pulled into your hand, it will be part of your deck and ineligible to be a companion
+
+721.2. All Magic cards involved in the game that was restarted when it ended, including phased-out permanents and nontraditional Magic cards, are involved in the new game, even if those cards were not originally involved in the restarted game. Ownership of cards in the new game doesn’t change, regardless of their location when the new game begins. Example: A player casts Living Wish, bringing a creature card into the game from outside the game. Then that game is restarted. The creature card will be part of that player’s library when the new game begins.
+
+(Incidentally, this rule doesn't affect Commanders, because Commanders are taken from inside your deck, not from outside the game like companions are.  So a Commander can always be revealed and put in the command zone even if it was put into play, or in a library, or still in the command zone.)
+

@@ -1,0 +1,19 @@
+Q:
+
+Does new target need to be chosen after the original has become invalid?
+
+Hypothetical situation: 
+Player A has one creature and player B has also one creature. Now the player A casts a black spell to destroy the creature  and targeting player's B creature. If creature B gets protections from black does the player A need to target the only possible target left in the game and that is his creature? What if the creature B would be returned to hand instead? Is it the same?
+
+A:
+
+I am no Magic expert, but I think the answer is no.
+The target is chosen and needs to be valid when the card is played. Then the stack system kicks in, so the state of the game can change. When the card is resolved, you check whether the target is still valid. If it is, the effect happens, if it isn’t, the effect does not happen. In fact, you are not allowed to choose a new target then, even if you want to.
+From the basic rulebook, page 10:
+
+Target
+When you see the word “target” on a spell or ability, you have to choose one or more things for the spell or ability to affect. You’ll be able to choose only certain kinds of things, such as “target enchantment” or “target creature or player.”
+You choose the targets for a
+  spell when you cast it, and you choose targets for an activated ability when you activate it. If you can’t meet the targeting requirements, you can’t cast the spell or activate the activated ability. Once you choose targets, you can’t change your mind later.
+When the spell or ability resolves, it checks the targets to make sure they’re still legal (they’re still there, and they match the requirements stated by the spell or ability). If a target isn’t legal, the spell or ability can’t affect it. If none of the targets are legal, the spell or ability is countered and does nothing at all.
+

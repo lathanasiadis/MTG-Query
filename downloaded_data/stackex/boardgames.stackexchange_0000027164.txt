@@ -1,0 +1,29 @@
+Q:
+
+How does Paranoid Delusions work with Ingest
+
+Lets say I've ciphered Paranoid Delusions on a Mist Intruder and successfully deal combat damage to a player, which card would get exiled and which go to the graveyard? 
+Does the first card on the players library get exiled and the next three go into a graveyard? Or the other way around?
+
+A:
+
+You choose which happens first.
+
+After you cipher Paranoid Delusions on the Mist Intruder, there are two relevant triggered abilities: Mist Intruder's Ingest ability, which says
+
+Whenever Mist Intruder deals combat damage to a player, that player exiles the top card of his or her library.
+
+and the cipher triggered ability, which says
+
+Whenever [Mist Intruder] deals combat damage to a player, its controller may cast a copy of [Paranoid Delusions] without paying its mana cost.
+
+Since those both trigger on dealing combat damage to a player, they both trigger at the same time. Specifically, rule 510.3 says that the third step of the Combat Damage Step is
+
+Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+
+And rule 603.3b says
+
+If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+So, since both of those triggered at the same time, you put them on the stack in any order you choose. Then they resolve in the reverse of that order (since the one you put on the stack last is on top).
+

@@ -1,0 +1,36 @@
+Q:
+
+Can I mill my opponent into defeat with Mindcrank and Duskmantle Guildmage?
+
+Okay the scenario I'm thinking of is as follows:
+
+I control a Mindcrank, Duskmantle Guildmage and 3 untapped lands (2
+swamps, 1 Island to be perdantic).
+In my opponents turn he casts a burn spell to kill my duskmantle.  
+I activate his first ability in response.
+
+The way I am hoping the following interactions will go is:
+
+Duskmantles ability will hit the stack at the top and resolve
+The burn spell resolves dealing its damage to Duskmantle
+The burn spell card hits the graveyard and triggers the infinite
+loop for duskmantle and mindcrank killing my opponent
+Duskmantle perishes
+
+Is this the way that the stack would pan out?
+Do I win in this situation regardless of the stack being correct or not above? (I am not fully familiar with how the stack really works in magic)
+You can see the cards from my deck here.
+
+A:
+
+Your opponent will die
+The first ability from duskmantle is a delayed triggered ability:
+
+603.7. An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain “when,” “whenever,” or “at,” although that word won’t usually begin the ability. 
+603.7a Delayed triggered abilities come from spells or other abilities that create them on resolution, ...
+
+After it is created, it does not matter what happens to the object that created it. Meaning that as soon as this ability resolves, the next time this turn that something goes to your opponents graveyard, they die.
+Even though the last steps of the stack do not matter in this situation as your opponent has already lost after step 1, your stack is correct, because a spell going to the graveyard is the last part of resolving a spell and state-based actions that move your creature to the graveyard are only checked right before anyone gets priority.
+
+608.2k As the final part of an instant or sorcery spell’s resolution, the spell is put into its owner’s graveyard.
+

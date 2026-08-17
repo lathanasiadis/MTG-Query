@@ -1,0 +1,18 @@
+Q:
+
+Does a non-creature God entering the battlefield trigger Pelt Collector?
+
+Let's say I have a 1/1 Pelt Collector on the battlefield, then cast Nylea, Keen-Eyed. I don't have enough devotion to turn Nylea into a creature. Does Pelt Collector, which triggers when a creature with more power enters the battlefield, trigger?
+I'm guessing no because Nylea isn't a creature, but I'm not sure. After all, it's also a creature spell when it's being cast. If it enters the battlefield as a creature before becoming an enchantment, presumably Pelt Collector will trigger.
+
+A:
+
+Pulling from a ruling on Nylea, God of the Hunt:
+
+When a God enters the battlefield, your devotion to its color
+  (including the mana symbols in the mana cost of the God itself) will
+  determine if a creature entered the battlefield or not for abilities
+  that trigger whenever a creature enters the battlefield.
+
+So if you don't have enough devotion for Nylea to be a creature, it doesn't trigger Pelt Collector.
+

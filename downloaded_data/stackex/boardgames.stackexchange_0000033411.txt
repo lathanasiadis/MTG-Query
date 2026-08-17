@@ -1,0 +1,17 @@
+Q:
+
+Is an artifact creature considered an artifact?
+
+Is an artifact creature considered an artifact? For example, can I use Enlightened Tutor to search my deck for an artifact creature?
+
+A:
+
+Yes, an object is all of its types, subtypes, and supertypes at the same time.
+A condition on an effect only cares about the stated qualities of the object(s) being true. It does not care about any of its other qualities, they can be whatever they are. Enlightened Tutor lets you search for an artifact or enchantment card; it doesn't care if, as in your example, an artifact card is also a creature.
+
+205.2. Card Types
+205.2a The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard. See section 3, “Card Types.”
+205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.
+
+Subtypes (such as land types, creature types, etc.) and supertypes (such as legendary, basic etc.) have equivalent rules.
+

@@ -1,0 +1,53 @@
+Q:
+
+How do people decide on their spread of spot removals and sweepers in control decks?
+
+I'm tuning a UB mill deck for Historic BO1 play. Broadly speaking, the deck looks like this.
+This player has chosen to run 3 Cut Down and 4 Fatal Push as removal (Drown in the Loch qualifies as removal too, but it's also a counterspell, so it's strong enough to be an automatic 4-of), as well as 3 Jace, the Perfected Mind as card advantage.
+Question: why would a deckbuilder run this particular spread of removal and omit a sweeper? Why not run, say, 4 Fatal Push 3 Ritual of Soot?
+I'm looking for theoretical answers, preferably not tuned to this particular deck or this particular metagame. The same question could equally apply to, say, a UW control deck in Modern deciding on their spread of Prismatic Ending/Leyline Binding and Supreme Verdict.
+The only guideline that makes sense to me right now is that the more spot removal one runs, the more card advantage one must also run, or one just trades 1-for-1 and loses eventually. However, that doesn't seem conclusive since it doesn't explain when one runs a sweeper.
+
+A:
+
+I understand you mostly want a general answer, but I think we should focus on the specifics a bit in this case. And that's because…
+Your posted deck is not a control deck
+What's the control game plan? Inevitability. You fill the deck with interactive cards to turn the early game into a do-nothing slog, and then bury your opponent in resource advantage or expensive individually-powerful "finishers" (JTMS, Teferi, Consecrated Sphinx, things of that nature). Many control decks sit down to the table with just a handful of win conditions in their entire deck, and some of those win conditions are things like "I spend 15 minutes of our precious game time beating you down with a 2/1 creature."
+But look at your posted deck list. There's like 10 cards that interact with your opponent, and everything else is a semi-interchangeable spells that says "the opponent gets X% closer to losing." This deck simply doesn't have the juice to consistently shut down the stack or the board the way a control deck wants to.
+That's because the archetype you're actually playing is actually most similar to…
+ Burn. 
+This mill deck is, in many ways, operating like a classic Burn deck: you're dedicating most of the space in your deck to your win condition, and in your ideal game you just keep casting basically-interchangeable spells as quickly as possibly until the opponent dies before you do.
+Unlike a classic Burn deck,
+
+Your opponent-killing spells don't double as cheap removal (like Lightning Bolt), so you fill up some slots with strong, cheap removal so that the creature-based aggro decks can't trivially race you with repeated damage.
+Because mill is a niche strategy, there haven't been that many super-efficient, tournament-grade mill spells printed. So it's quite possible you've already used all the good mill cards and these extra slots are just "okay, what else can I do that's not milling?" (See note #1.)
+If you weren't playing best-of-1, being blue/black means you can sideboard to transform into more of a control deck, or bring in a lot of hand disruption or countermagic for a combo matchup. This is an option you have that the mono-red decks do not enjoy.
+
+Milling can be a side strategy in control decks (hello, Nephalia Drownyard) but you're just not a control deck, you're a deck where 50%+ of the deck are cards that directly try to kill your opponent and you just want to play enough of them quickly enough that they'll lose before you do. That's the deck!
+Why play the cheap spot removal in this deck?
+So, having said all that: why fill your limited interaction slots with cheap removal and not counterspells, or a few sweepers like you suggested, or discard spells since you're black?
+
+A sweeper won't save you!
+A card like Ritual of Soot comes down pretty late and you don't have enough interaction and card advantage to stabilize on board afterward! You were in a race before and you're still in a race now.
+Also, Ritual of Soot just isn't a very good card. Supreme Verdict crushes through countermagic to kill almost anything. The Ritual, meanwhile, is absolutely dead to any midrange deck's 4-drops and any tempo deck's simple countermagic.
+Like Ritual of Soot, your cheap instant 1-for-1 removal spells are also focused on beating early-game threats, but they let you interact with early-game creatures in the actual early game (something that every control deck also needs to do). Which means they pick off problem creatures before they put a lot damage on you or powerfully advance the opponent's game plan in some other way. (See note #2.)
+
+You're tapping out too often to play counterspells!
+You've got a lot of sorcery-speed spells and you mostly want to cast them "on curve." That means tapping out quite a lot, with room to keep mana open some turns but not every turn as a control or tempo player deck would prefer to do.
+If you cast Glimpse on turn 2 and I cast Jarsyl, Dark Age Scion, that's a big problem for your counterspells but only a small problem for your spot removal, which can still clean up Jarsyl as soon as you untap again.
+And your interactive spells are still instant-speed so you can leave mana open on crucial turns, e.g. to disrupt creature-based combo decks while some trigger that kicks off their combo is on the stack.
+(This deck is really soft to non-creature based combo. That's just how it is, though.)
+
+Your game-winning spells aren't powerful enough to justify discard!
+Okay, you're in black: why not play hand disruption (targeted discard spells), then? If you were playing a beefy midrange deck or a brutal combo deck, that would be a solid option. You could look at their hand, take away their best thing, and use the information to sculpt a game plan to play around their own interaction. Sounds great! Okay!
+Except: your Burn-deck-in-disguise doesn't want to do that — at all! Their disruption doesn't matter because your cards are efficient, redundant, and mostly interchangeable; a combo deck really wants to proactively take away the opponent's best disruption so they can push your combo, but your mill deck just wants to play some card, any card, it's all good we'll get there anyway. And their gameplan still matters to you, because you aren't going to be able to race every single other deck in the format without interaction, but the thing you most want to interact with is whatever they trot out early to start the race, the thing they've already cast, the thing that's doing things for them right now on board, the thing they've already spent mana on.
+
+Thus, the most expedient thing to run in your relatively-few "reactive" slots are cards that will let you very quickly deal with threats on board. And you're in blue-black so that's creature removal because creature removal is all you've really got.
+The very important implications of being a burn deck in disguise
+You largely don't care about card selection, because almost all of your cards do the same thing anyway.
+Card advantage always matters to some extent in a game of Magic, but your whole plan is casting a lot of cards that functionally read "either nothing happens or I win the game on your next draw step," so traditional measures of card-advantage like "can I get a 2-for-1 here?" aren't super useful to you. With a deck like this, you will always be at a bit of an overall card-advantage deficit compared to your opponents. The main thing you need to worry about is "How likely am I to run out of gas?"
+
+Side notes:
+1 - In a broader format like Legacy you wouldn't run these "mill 10" type cards because you'd just chase turn-2 combo kills with a mill deck like Painter or Cephalid Breakfast.
+2 - My understanding is that Historic is a bit light on really good mana dorks right now, but for decades a common adage among Magic players was "Bolt the Bird:" these stupid little critters seem innocent at first, but they advance the opponent's gameplan by a whole extra turn. If you can't interact with them it's like letting your opponent cast Time Walk.
+

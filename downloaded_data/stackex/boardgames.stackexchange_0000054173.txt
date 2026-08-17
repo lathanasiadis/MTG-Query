@@ -1,0 +1,22 @@
+Q:
+
+Clarification on How Basri, Devoted Paladin Works
+
+I wonder how abilities on Basri, Devoted Paladin from MtG Core Set 2021 work.
+
+Regarding the -1 ability -- am I right that every creature that attacks this turn gets +1/+1 counter?
+Regarding the -6 ability -- am I right that +2/+2 is there until end of turn?
+
+A:
+
+Yes to both, but that could use a little more clarification.
+
+−1: Whenever a creature attacks this turn, put a +1/+1 counter on it.
+
+This means whenever a creature is declared as an attacker this turn, you put a +1/+1 counter on it. This means creatures put into play tapped and attacking won't get these counters, such as the tokens made by Leonin Warleader.
+The effect also applies to every creature, not just yours. If you are playing a format like 2 headed giant, this applies to your partner's creatures as well. If you control Teferi, Master of Time or have Teferi, Temporal Archmage's emblem and use it on your opponent's turn, you will put counters on their creatures.
+
+−6: Creatures you control get +2/+2 and gain flying until end of turn.
+
+This one is exactly as you understood it, both the +2/+2 and the flying ability are connected to the "end of turn" part of the ability. If it had intended for the +2/+2 to be permanent it would likely have been written "−6: Put 2 +1/+1 counters on each creature you control. Those creatures gain flying until end of turn." This only applies to creatures that are in play when the ability is activated, anything played after will not get the effect, such as the tapped and attacking tokens from Leonin Warleader.
+

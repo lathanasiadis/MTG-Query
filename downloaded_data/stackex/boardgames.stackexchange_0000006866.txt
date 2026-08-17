@@ -1,0 +1,16 @@
+Q:
+
+What happens if a blocking creature is killed with Double Strike before all the damage is dealt?
+
+With an attacking creature with Double Strike, if the first strike deals lethal damage to a normal blocking creature, does the normal damage go to the defending player?
+
+A:
+
+No, once a creature is blocked, it remains so even if the defending creature dies. From the Comprehensive rules
+
+Blocked Creature: An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it's removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, "Declare Blockers Step."
+
+510.1c. A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+
+A creature with Double Strike and Trample (Stampeding Rhino that has gained DS) could deal damage to the defending player, but this is because Trample modifies the normal assigning of combat damage rules.
+

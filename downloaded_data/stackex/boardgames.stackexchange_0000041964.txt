@@ -1,0 +1,19 @@
+Q:
+
+Two players would gain control of a creature after it dies — who does?
+
+I have an Affa Protector enchanted with Unhallowed Pact ... My opponent kills my Affa with Dread Slaver ...
+Who will take control of the creature at the end? This is taking into consideration that my aura spell was cast 5 turns ago. Meaning my aura spell is NOT on the stack.
+
+A:
+
+It depends on whose turn it is.
+Both abilities trigger at the same time, and so will be put on the stack together. Abilities are put on the stack in APNAP (Active Player, Non-Active Player) order.* This means that the player whose turn it is puts their ability on the stack, then the other player does. That second player's ability will resolve first, returning the creature to the battlefield. When the other ability tries to resolve, it fails to find the creature in the graveyard and thus can't return it.
+Thus whoever's the active player won't end up with the creature. For multiplayer games where there are multiple NAPs they are put on the stack in turn order starting from the AP, so the last player in turn order with such an effect would take precedence.
+
+* From the rules on Triggered Abilities:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. [...]
+
+This works with any number of players, starting with the active player and passing around in turn order. In this case, the player furthest away from taking their turn (the last player to put their ability on the stack) would get the creature.
+

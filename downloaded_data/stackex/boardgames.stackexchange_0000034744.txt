@@ -1,0 +1,12 @@
+Q:
+
+MTG AER: Tezzeret's Touch and Audacious Infiltrator artifact interaction
+
+Tezzeret's Touch specifically indicates that the artifact it enchants is a Creature in addition to other types, rather than Artifact Creature. Does this mean this enchanted artifact can block Audacious Infiltrator as it is not specifically an Artifact Creature or does it become an Artifact Creature by default as it is both an Artifact and a Creature?
+
+A:
+
+'Artifact Creature' is not a thing by itself, it is two separate things. What it means is 'this permanent/card/spell is an Artifact' and 'this permanent/card/spell is a Creature'. Since the permanent is both a Creature and an Artifact it is effected by things that effect Artifact Creatures.
+
+205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.
+

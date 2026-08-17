@@ -1,0 +1,29 @@
+Q:
+
+Hypersonic dragon => instant scavenge?
+
+The rule text of Hypersonic Dragon says
+
+You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)
+
+Can I cast scavenge as an instant now?
+
+Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.
+
+A:
+
+No. Scavenge is an ability, not a spell
+The official MTG rules for the ability do not appear to be up on wizards site, but from the cards reminder text, you can clearly see that the ability is an activated ability (the colon ':'), that functions only while the card is in your graveyard, with specific activation instructions that only allow activation whenever you could cast a Sorcery (on your turn, during a main phase, when the stack is empty).
+
+112.3b Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]” A player may activate such an ability whenever he or she has priority. Doing so puts it on the stack, where it remains until it’s countered, it resolves, or it otherwise leaves the stack. See rule 602, “Activating Activated Abilities.”
+
+[Mana cost], Exile this card from your graveyard:Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.
+
+602.5d Activated abilities that read “Activate this ability only any time you could cast a sorcery” mean the player must follow the timing rules for casting a sorcery spell,
+
+Activating abilities is not the same thing as casting spells, so Hypersonic Dragon will have no effect on your ability to Scavenge only on your own turn, while the stack is empty. What Hypersonic Dragon will let you do, is to cast cards with the Card Type - Sorcery whenever you have priority, even on other players turn, when you normally could not.
+
+205.1. The type line is printed directly below the illustration. It contains the card’s card type(s). It also contains the card’s subtype(s) and supertype(s), if applicable.
+
+307.1. A player who has priority may cast a sorcery card from his or her hand during a main phase of his or her turn when the stack is empty. Casting a sorcery as a spell uses the stack. (See rule 601, “Casting Spells.”)
+

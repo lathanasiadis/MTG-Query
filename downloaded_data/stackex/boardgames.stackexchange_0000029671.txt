@@ -1,0 +1,11 @@
+Q:
+
+Magic the Gathering Protection question
+
+If I were to cast Hymn to Tourach a black card that makes the opponent discard 2 cards at random, and the only 2 cards my opponent has in his hand have protection from black would they be protected? Would it fall under Targeting since it doesn't actively target the creatures with white, it should go off?
+
+A:
+
+Protection only functions on the battlefield; most rules text only functions on the battlefield. The exceptions are characteristic defining text, i.e. 'this card is black' and text which references another zone, i.e. '{2}, discard 2 cards: return CARDNAME to battlefield from the graveyard.'
+In your example your opponent would discard both of their cards, despite their having protection from black, as protection only applies to permanents on the battlefield.
+

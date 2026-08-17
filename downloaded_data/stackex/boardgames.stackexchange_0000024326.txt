@@ -1,0 +1,21 @@
+Q:
+
+Can I get an enters-the-battlefield effect out of a second legendary before I must sacrifice it?
+
+If I have a legendary creature out, and I make a copy of it (such as by enchanting it with Splinter Twin or making a Clone), do I get enters-the-battlefield effects from the creature before I have to sacrifice it to the legend rule?
+
+A:
+
+Yes.
+As discussed in an article discussing the recent Legendary rules change:
+
+This will allow you to somewhat mitigate the downside of drawing a second copy of a Planeswalker by playing that copy to, in effect, refresh the loyalty of a Planeswalker or to get a second enters-the-battlefield trigger on a legendary permanent.
+
+Here's the rule covering Legendary permanents:
+
+704.5k If a player controls two or more legendary permanents with the same name, that player
+chooses one of them, and the rest are put into their owners’ graveyards. This is called the
+“legend rule.”
+
+Note that in order for the Legendary state-based action to be triggered, the Legendary permanents are both already on the battlefield and therefore any triggered enters the battlefield abilities (ETB) are also triggered. As the Legend rule is a state-based action, the choice of which Legendary permanent will be kept will be made before the ETB triggered abilities are put on the stack and resolve.
+

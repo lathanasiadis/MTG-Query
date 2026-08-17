@@ -1,0 +1,13 @@
+Q:
+
+Can double-faced cards still transform if they have lost all abilities?
+
+Let's say I have a Lone Rider and I've gained enough life to trigger it. Opponent is holding a Merfolk Trickster and wants to stop Lone Rider from transforming. Can opponent use Merfolk Trickster on my end step (after Lone Rider has triggered) or must opponent cast it in the main phase before the end step?
+Usually removing the source of the trigger doesn't stop the trigger, but in this case, after Merfolk Trickster revolves, Lone Rider has no abilities anymore. Does an ability-less Lone Rider still "know" it can transform?
+
+A:
+
+A Merfolk Trickster can stop a creature from transforming itself, but only before that creature's ability triggers (or is activated, as the case may be).
+Once an ability triggers, it exists independent of the object that created it. That means that if the object changes zones or loses the ability or has its text changed in some other way, that doesn't affect the ability on the stack. And "transform" is just a keyword action that is applied to a permanent. The permanent doesn't "know it can transform", it just has ability whose effect includes that instruction.
+That same keyword can be found on cards that don't themselves transform, and can be applied to permanents that don't have abilities with that keyword. For example, Waxing Moon can transform Ulvenwald Captive's back face Ulvenwald Abomination, even though Ulvenwald Abomination can't transform itself.
+

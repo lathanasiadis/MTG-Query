@@ -1,0 +1,29 @@
+Q:
+
+What is the most life you can have at the end of your first turn with only three cards?
+
+You start this game with 3 cards of your choice in hand.
+Your opponent starts with 0 cards in their hand.
+Both libraries do not contain any other useful cards.  
+What is the highest life total you can end your turn at?
+Assume you start at 20 life points. Beyond that, the rules can follow any of the official two-player formats by Wizard of the Coast.
+
+Extra Challenge: If you want a personal challenge (although this is not what I am looking for in the answers to this question), try to find the 4-card infinite-life combo that made me restrict the puzzle to 3 cards only.
+
+A:
+
+With just 2 cards, you can be at arbitrarily many life points.
+The 2-card combo is Black Lotus and Game of Chaos. As long as both you and your opponent keep playing, the stakes increase indefinitely, and you can end the game whenever you win a flip.
+Assuming both you and your opponent keep playing exactly until someone gets to zero life or below during Game of Chaos' resolution, you can go to 103 life with the 2 card combo, or 109 with 3 cards.
+If you win (+1), lose (-2), lose (-4), win (+8), lose (-16), win (+32), win (+64), then you (and your opponent) will be at
+
+21 (19),
+19 (21),
+15 (25),
+23 (17),
+7 (33),
+39 (1),
+103 (-63) life.
+
+At the start of the game, reveal Providence for another 6 life - this doesn't change the sequence of coinflips because your opponent would still fall to 1 life at the same point of the sequence.
+

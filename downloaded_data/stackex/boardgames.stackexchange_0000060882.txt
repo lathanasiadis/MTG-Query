@@ -1,0 +1,18 @@
+Q:
+
+Has there ever been a Kicker mechanic for activated abilities?
+
+I am looking to write a homebrew creature that, for a steep price, gives indestructible until End of Turn to itself, then destroys all creatures, but also destroys all enchantments (at the same time as it destroys creatures) if some extra mana cost is paid.
+I have tried clunky ways to do that suche as writing two separate abilities where one destroys "all creatures and enchantments" and costs more than the other, or using "You can pay an additional WWWW as you activate this ability. If you do, destroy all creatures and enchantments instead", which I feel might be construed as destroying enchantments instead of making itself invulnerable...
+Has something like that ever been done in official cards?
+(Yes, I know the card feels OP: it's a joke card, it's not meant for play.)
+
+A:
+
+There is no kicker equivalent for activated abilities, but don't let that stop you from making one.
+Kicker is a "wrapper" around the additional cost rules.
+
+702.33a Kicker is a static ability that functions while the spell with kicker is on the stack. “Kicker [cost]” means “You may pay an additional [cost] as you cast this spell.” Paying a spell’s kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+If you want an equivalent ability on an activated ability, you can either invent your own keyword, or use the "additional cost" template directly and apply a self-replacement effect if that cost was paid, so your second proposal would be my choice.
+

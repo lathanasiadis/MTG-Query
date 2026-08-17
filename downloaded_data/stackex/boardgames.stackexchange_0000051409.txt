@@ -1,0 +1,23 @@
+Q:
+
+Do Obosh and Brash Taunter together cause quadruple damage to an opponent?
+
+With the recent spoiling of Brash Taunter in M21, what would be the interaction for a combination like Obosh, the Preypiercer and Brash Taunter?
+Obosh causes Odd CMC (Coverted Mana cost) spells to do double damage.
+Brash Taunter is an odd CMC creature that deals damage to target player equal to the damage dealt to it.
+Let's say I have Brash Taunter fight a red creature I control that also has an odd CMC, let's just say it's Obosh, on the field. What is the damage Brash Taunter would be dealing out at that point? Would it be 6 or 12?
+
+A:
+
+If your Brash Taunter would fight your own Obosh, the Preypiercer, Brash Taunter would deal 12 damage to your opponent.
+Fighting means two creatures deal damage equal to their power to each other:
+
+701.12a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+
+Obosh doubles all damage from sources with odd CMC. Obosh is such a source, so it deals 3 damage to Brash Taunter, doubled to 6. Taking damage triggers Brash Taunter, so it deals 6 damage to a target opponent, again doubled to 12.
+Obosh's doubling ability is a replacement effect, which can only apply once to any given event. 
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
+However, the damage from Obosh to Taunter, and from Taunter to opponent are two separate events that can both be replaced by Obosh's ability, so you end up with quadruple the total damage to your opponent.
+

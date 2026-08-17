@@ -1,0 +1,18 @@
+Q:
+
+Does Winds of Abandon, overloaded, cause the player to search their library multiple times or just once?
+
+If I cast Winds of Abandon for its overload cost which says,
+
+Exile each creature you don't control. For each creature exiled this way, its controller searches his or her library for a basic land card. Those players put those cards onto the battlefield tapped, then shuffle their libraries.
+
+and an opponent has 5 creatures, does that opponent search their library five times for 1 basic land or search once for 5 basic lands?
+
+A:
+
+Just once - multiple searches that occur before shuffling are treated as a single search.
+
+701.19h An effect may instruct a player to search a library for one or more cards more than once before instructing a player to shuffle that library. This is the same as a single instruction for that player to search that library for all those cards. The player searches that library only once.
+
+Since Winds of Abandon instructs the player to potentially search their library multiple times for a basic land and then shuffle, it should be treated as searching the library once for multiple basic lands.
+

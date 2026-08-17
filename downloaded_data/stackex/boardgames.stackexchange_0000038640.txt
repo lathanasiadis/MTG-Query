@@ -1,0 +1,49 @@
+Q:
+
+Does excess Planeswalker damage hit the player?
+
+A friend said that excess damage will spill over and hit the player, but I can't find anything to support that. I've seen 306.7:
+
+306.7. If noncombat damage would be dealt to a player by a source controlled by an opponent, that opponent may have that source deal
+  that damage to a planeswalker the first player controls instead. This
+  is a redirection effect (see rule 614.9) and is subject to the normal
+  rules for ordering replacement effects (see rule 616). The opponent
+  chooses whether to redirect the damage as the redirection effect is
+  applied.
+
+but that doesn't mention excess damage.
+
+For example, in any of the following scenarios, does the excess damage hit the player after killing the Planeswalker?
+
+If I hit a Planeswalker with 4 loyalty like Samut, the Tested with a 5/5 creature like Collasapede?
+If I hit a Planeswalker with 4 loyalty like Samut, the Tested with a 5/5 creature with trample like Giant Warthog?
+If I hit a Planeswalker with 4 loyalty like Samut, the Tested with an instant or sorcery that does 5 damage like Explosive Impact?
+
+A:
+
+Does excess Planeswalker damage hit the player?
+
+No.
+
+An creature only deals damage to the player or planeswalker it is attacking. In this scenario, it must assign 5 damage to the planeswalker.
+
+510.1b An unblocked creature assigns its combat damage to the player or planeswalker it’s attacking. If it isn’t currently attacking anything (if, for example, it was attacking a planeswalker that has left the battlefield), it assigns no combat damage.
+
+Remember, when a creature is declared as an attacker, you must explicitly choose which player or planeswalker that creature is attacking.
+
+508.1b If the defending player controls any planeswalkers, or the game allows the active player to attack multiple other players, the active player announces which player or planeswalker each of the chosen creatures is attacking.
+
+Trample doesn't help deal damage to a player or planeswalker the creature isn't attacking. Trampling has no effect if there are no blockers, so this scenario is identical to the previous one.
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. [...]
+
+The damage source's controller either redirects the damage or they don't. (If there were multiple sources dealing damage simultaneously, or if a source dealt damage multiple times, each could be redirected or not independently.)
+
+306.7. If noncombat damage would be dealt to a player by a source controlled by an opponent, that opponent may have that source deal that damage to a planeswalker the first player controls instead. This is a redirection effect (see rule 614.9) and is subject to the normal rules for ordering replacement effects (see rule 616). The opponent chooses whether to redirect the damage as the redirection effect is applied.
+
+that doesn't mention excess damage
+
+Damage to a planeswalker results in loss of loyalty counters. Dealing an amount of damage to a planeswalker that's larger than the number of loyalty counters is has is simply waste. (You can't remove a counter it doesn't have.)
+
+306.8. Damage dealt to a planeswalker results in that many loyalty counters being removed from it.
+

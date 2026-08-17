@@ -1,0 +1,18 @@
+Q:
+
+Can I tap land for mana AFTER opponent tapped those lands if it's in the same stack?
+
+The other player plays a spell which makes me tap 3 lands.  I want to play another instant on top of his instant using the 3 mana from the lands that will be tapped. Can I?
+To simplify:
+
+me: I have 3 lands
+opponent: plays instant, taps 3 lands
+me: Wants to play instant on the same stack
+me: instant needs those 3 mana he is going to take
+
+A:
+
+It sounds like your opponent played a card like Early Frost, which taps (up to) three target lands. (Side note: lands are not mana, they produce mana.) When this happens, it doesn't resolve immediately; it goes onto the stack. At that point, you have the opportunity to respond with things that can be done at "instant speed", activating abilities and playing instants.
+So yes, you can respond by playing an instant, tapping those three lands for mana to pay for it. You can also simply respond by tapping the lands for mana and leaving it in your mana pool, if you'd like to play something later during the current step and phase. Either way, when Early Frost actually resolves after your spell resolves, it will still tap those three target lands, but they're already tapped, so nothing really happens.
+If your opponent really wants to stop you from playing an instant with that mana, the only way they can really do it is tap your lands down at a time when you wouldn't want to play your instant. For example, if it needs to get cast during combat, they could tap your lands before combat. But it's a lot more straightforward to use it to prevent casting a non-instant spell, by tapping down lands during upkeep.
+

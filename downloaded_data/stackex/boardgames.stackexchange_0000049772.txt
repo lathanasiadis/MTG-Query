@@ -1,0 +1,16 @@
+Q:
+
+Can you counterspell everything? (aside from lands)
+
+Artifacts, instants, sorcery, planeswalker, creature, and enchantment spells can all be stopped by counterspells right? So if I play Veil of Summer, and someone hits me with Didn't Say Please, would it cancel its effects (hexproof, spells can't be countered, and draw a card)?
+
+A:
+
+You're right; everything that is a spell can be countered by Didn't Say Please. This excludes lands (they aren't spells and can't be countered)
+
+305.1. A player who has priority may play a land card from their hand during a main phase of their turn when the stack is empty. Playing a land is a special action; it doesn’t use the stack (see rule 116). Rather, the player simply puts the land onto the battlefield. Since the land doesn’t go on the stack, it is never a spell, and players can’t respond to it with instants or activated abilities.
+
+and activated or triggered abilities (which can be countered, but with other cards like Trickbind).
+Veil of Summer's effects, including the 'spells can't be countered' part, only apply when they resolve; if it's on the stack, it's still vulnerable to Didn't Say Please. 
+Note that there are some spells which explicitly state they can't be countered, e.g. Obliterate, but there's an important difference in the wording: "This spell can't be countered." vs. "Spells you control can't be countered this turn.". "This spell" refers to the spell itself when it's on the stack; "Spells" does not.
+

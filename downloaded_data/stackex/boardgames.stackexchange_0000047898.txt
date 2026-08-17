@@ -1,0 +1,18 @@
+Q:
+
+Does having protection from Grapeshot work against the storm copies?
+
+Do storm copies have the same name as the original card? If you name Grapeshot with Runed Halo, do you have protection from the copies as well?
+I remember back in the day you could not have protection from faerie rogue tokens because they where not cards and was wondering if it is the same with storm copies.
+
+A:
+
+Yes, they have the same name, so you have protection from them.
+
+702.39a Storm is a triggered ability that functions on the stack. “Storm” means “When you cast this spell, copy it for each other spell that was cast before it this turn. If the spell has any targets, you may choose new targets for any of the copies.”
+706.1. Some objects become or turn another object into a “copy” of a spell, permanent, or card.
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+(emphasis mine)
+IIRC the Faerie Rogue example you mention didn't work because there is no card named "Faerie Rogue" so it's not a legal choice for Runed Halo's "choose a card name".
+

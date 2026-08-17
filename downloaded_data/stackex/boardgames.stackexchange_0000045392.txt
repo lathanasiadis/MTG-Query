@@ -1,0 +1,19 @@
+Q:
+
+Can Rhys be played in a mono-green EDH deck?
+
+I was wondering if a card with a cost that is either green or white, for example Rhys the Redeemed, could be played in a mono-green deck led by a commander such as Ezuri, Renegade Leader?
+
+A:
+
+No, you cannot play Rhys the Redeemed in a mono-green EDH deck. You can only play cards with hybrid mana costs if all of their colors are part of the commander's color identity.
+The commander rules describe the color identity rules in rule 903.4:
+
+The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card's mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+and the hybrid mana symbols are defined in rule 107.4e:
+
+Hybrid mana symbols are also colored mana symbols. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.
+
+So, Rhys's color identity is green/white, which means that it can only be played in a deck with a commander that has both green and white in its color identity.
+

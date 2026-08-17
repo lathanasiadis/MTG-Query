@@ -1,0 +1,16 @@
+Q:
+
+Seal Away and Permanent control
+
+Most spells that exile a permanent temporarily, like Oblivion Ring or Fiend Hunter specify they return the permanent to the owner when the effect ends. Some of the newer ones like Seal Away do not say they return it to the owner.
+Now I know if the permanent had been taken under temporary control from the owner, say Act of Treason or Word of Seizing the temporary effect ends, and it returns to the owner, but what happens if the effect was ongoing, say it was under temporary control then had Ghostly Flicker cast on it, or Nicol Bolas, Planeswalker's -2? Does the card return to the controller without the "end of turn" effect or does it return to the owner?
+
+A:
+
+The Seal Away will return the creature under its owner's control: a permanent enters the battlefield under its owners control unless specified otherwise.
+
+610 One-Shot Effects
+610.1. A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, creating a token, and moving an object from one zone to another.
+...
+610.3b An object returned to the battlefield this way returns under its owner’s control unless otherwise specified.
+

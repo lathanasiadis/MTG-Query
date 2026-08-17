@@ -1,0 +1,25 @@
+Q:
+
+Will Bioviosionary and Mirrorweave always end in a draw if every player has 4 or more creatures?
+
+I have the following scenario:
+Player A: Has 4 creatures on the board, one of them is Biovisionary.
+
+At the beginning of the end step, if you control four or more creatures named Biovisionary, you win the game.
+
+Player B: Also has 4 creatures on the board.
+Player A draws Mirrorweave and plays it on his turn.
+
+Each other creature becomes a copy of target non-legendary creature until end of turn.
+
+So first I fought Player A should win because it is his end step, but referring to this question here At the beginning of the end step" meaning and comparison to "your end step" and "each end step, the end step means any players end step.
+Therefore, both Player A and B have 4 “Bioviosionary” that say at any end step you win the game.
+In my understanding this scenario will always end in a draw, or does it matter on which step Player A is playing “Mirrorweave”?
+
+A:
+
+The last player in turn order with 4 or more creatures on the board will win, so if Player A plays Mirrorweave on their own turn Player B will win.
+As per 603.2b when the end step begins all the Biovisionaries will attempt to add their abilities onto the stack, this is done in the standard APNAP order.
+During Player A's end step as the active player they will add 4+ copies of the if you control four or more creatures named Biovisionary, you win the game ability onto the stack, then Player B will add 4+ copies of their own onto the stack.
+Then as per 405.5 the top ability will resolve first, winning the game for Player B
+

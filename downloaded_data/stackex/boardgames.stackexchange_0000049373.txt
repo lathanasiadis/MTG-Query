@@ -1,0 +1,22 @@
+Q:
+
+Lazav Ability on the Stack
+
+I have gained control of my opponent's Lazav, the Multifarious. I activate it's ability targeting the Clone in my graveyard. If the ability resolves, Lazav will die, becoming a 0/0 with no abilities, as it didn't enter, and so is unable to copy anything. 
+My opponent, in a desperate measure to keep Lazav on the field, casts Dominate with Lazav's ability on the stack targeting Clone. He then proceeds to cast Essence Flux on the Lazav that he now controls, flickering it. 
+In this scenario, does removing the source of the ability (temporarily) stop it from resolving properly, thus fizzling the ability? Or would his ability resolve, targeting Clone, as Lazav is now back on the field? 
+Does it work the same as flickering the target of a spell to make it fizzle if you flicker the source of an activated ability in this manner? 
+Additionally, would the ability fizzle because Clone is now no longer in the graveyard of Lazav's controller, or does it only check the location of the Clone relative to who controlled Lazav when the ability was activated?
+
+A:
+
+The Lazav that entered after Essence Flux is a new Lazav
+Any old abilities that may be on the stack only see that the Lazav that they were supposed to change is no longer on the field.
+This is similar to flickering the target of a spell or an ability to 'dodge' the ability (such as using Essence Flux to flicker a creature that is targeted by Murder) in that both interactions are governed by rule 400.7
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+There are 9 exceptions to this rule, and none of them apply here.
+If Lazav changes controllers with its ability on the stack, that ability will still resolve.
+In the secondary question (assuming Lazav wasn't flickered), the ability that targets Clone in your graveyard will resolve. Although Lazav changed controllers, the ability on the stack did not change controllers. "Your" in Lazav's ability on the stack still refers to you (the player who previously had control of Lazav), and Clone is still in your graveyard, so it is still a legal target. That ability will still find Lazav, even though it changed controllers, because it didn't change zones.
+

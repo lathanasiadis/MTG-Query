@@ -1,0 +1,24 @@
+Q:
+
+Tracking Down Cards Printed in a Specific Style
+
+Where can I find a complete list of cards which have been printed in the Mystical Archive style?  Right now, I am aware of the following cards:
+
+the original 63 cards from the Mystical Archive. [Scryfall link]
+a 6 card Secret Lair drop: [Scryfall link]
+another card from a more recent Secret Lair. [Misdirection]
+a pair of cards from March of the Machines: Aftermath. [Plargg and Nassari] and [Campus Renovation]
+one card from Multiverse Legends. [Dina, Soul Steeper]
+
+Are there other cards which have been printed in this style?  Is there any simple way to track down cards printed in a particular style (e.g. the new Enchanting Tales cards; or the Streets of New Capena showcase cards—there seem to be more of these in Aftermath, for example)?
+
+A:
+
+I could not find any way to search for the "Mystical Archive" treatment/style specifically. However, there are some workarounds to find some other custom card treatments.
+Card Image Gallery
+The most recent Card Image Gallery for Wilds of Eldraine has good filters to allow you to find cards with a given treatment. For example, you can search for Cards with the "Enchanting Tales" Treatment.
+Unfortunately, the older card image galleries don't have these filters card treatments. And each set has its own card image gallery in a separate article, so that's not very convenient for searching across different sets.
+Scryfall Art Search
+Scryfall supports a community-driven art tagging system that allows people to try to classify cards based on the art. There is not currently a tag dedicated to the "Mystical Archive" treatment, so this won't help your search as of today (SEP 2023). But some of the other card treatments like "anime" and "sketch" have tags and are searchable via Scryfall's art parameter. When combined with set or frame parameters, you can really narrow down art treatments. For example, here's a search for showcase cards tagged with "sketch" https://scryfall.com/search?q=art%3Asketch+frame%3Ashowcase
+Notably, this is a community-driven project, so there can be gaps with the tags people apply to each card. Or art treatments can overlap with the actual art in the art itself (instead of the custom frame/treatment). For example, as of the writing of this answer there are only 3 black cards from the Wilds of Eldraine tagged with "anime" in Scryfall even though the official card image gallery lists 4 such cards (Bitterblossom is missing).
+

@@ -1,0 +1,22 @@
+Q:
+
+Does Mizzix/Reiterate/Electrodominance infinite loop work?
+
+In theory, you use the experience counters on Mizzix of the Izmagnus to pay for the Buyback cost of Reiterate to remove it from the graveyard, allowing you to recast Electrodominance.
+But, all that does is put Reinterate in your hand.  It doesn’t cover the cost of the 2Red for the spell, right?  Or am I missing something?
+
+A:
+
+There is a loop here, but not the one you describe. Buyback does not "remove [the card] from the graveyard", it is an additional cost you pay while casting a spell, to make it go back into your hand after it resolves. The other key here is that Electrodominance allows you to cast a spell for free, and that spell can be Reiterate. That's what pays for Reiterate's cost.
+Here's how the loop works:
+
+You start with Mizzix, at least 3 experience counters, and at least RRRR in mana.
+You cast Electrodominance for X=3, paying RR.
+If you have 4 or fewer experience counters, Mizzix's ability triggers, giving you another one
+In response to Electrodominance, you cast Reiterate with buyback targeting Electrodominance, paying RR.
+Reiterate resolves, and makes a copy of Electrodominance, and goes back into your hand because of buyback.
+The copy of Electrodominance resolves, dealing 3 damage to its target, and you can cast a spell with mana value 3 or less without paying its mana cost. You choose to cast Reiterate, and you choose to pay for buyback. Buyback increases the cost by 3, and Mizzix reduces the cost by at least 3, so you don't have to pay any mana.
+Reiterate resolves, and makes a copy of Electrodominance, and goes back into your hand because of buyback.
+
+You can keep doing this as long as you want, dealing as much damage as you want to any number of targets.
+

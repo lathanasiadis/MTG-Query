@@ -1,0 +1,11 @@
+Q:
+
+How does flicker relate to a card like Ulamog's dispoiler
+
+I was wondering how a card like Flicker and a card like Ulamog's Despoiler would work together. Since Ulamog's Despoiler returns a card from exile and flicker exiles a card snd then returns it would flicker return the card that was put into a graveyard to the battlefield or would it just stay in the graveyard? I tried to look at rule 400.7 but I got confused on if it would work. If anyone could help me I would be very grateful.
+
+A:
+
+You can't cast or resolve anything whilst the target of Flicker is in exile, as it is returned to the battlefield as part of the spell.
+You could do it to the target of Otherworldly Journey, as that returns the card at the next end step. If you did, it would stay in the graveyard, the object in the exile zone that Journey is looking for is no more.
+

@@ -1,0 +1,38 @@
+Q:
+
+How does Sundering Titan handle snow lands?
+
+My doubt is about Sundering Titan; what happens when it enters and leaves the battlefield if there are snow lands in play? Does it destroy basic lands and snow basic lands and how much of each of them?
+
+A:
+
+"Snow" is a supertype.  If you look at Snow-Covered Plains you will see that it's types are "Snow Basic Land - Plains".  Which means that it counts as a basic land and a plains.
+So in the case of Sundering Titan, if there was both a regular Plains card and a Snow Covered Plains out, you could only choose one of them to destroy.
+Relevant rules:
+From the comprehensive rules glossary
+
+Basic Land Type There are five "basic land types": Plains, Island,
+  Swamp, Mountain, and Forest. Each one has a mana ability associated
+  with it. See rule 305, "Lands."
+
+And
+
+205.4c Any land with the supertype "basic" is a basic land. Any land that doesn't have this supertype is a nonbasic land, even if it has a
+  basic land type.: Cards printed in sets prior to the Eighth Edition
+  core set didn't use the word "basic" to indicate a basic land. Cards
+  from those sets with the following names are basic lands and have
+  received errata in the Oracle card reference accordingly: Forest,
+  Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered
+  Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered
+  Swamp.
+
+And from the rulings on Snow Covered Plains:
+
+“Snow” has no particular meaning or rules associated with it.
+
+Also (emphasis mine)
+
+Since this is a basic land, you may have any number of it in a
+  Constructed deck in any format in which the Masters Edition II set,
+  the Coldsnap set, or the Ice Age set is legal.
+

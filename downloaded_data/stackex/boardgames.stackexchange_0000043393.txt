@@ -1,0 +1,39 @@
+Q:
+
+If Progenitus "dies" to the command zone, can I shuffle my deck?
+
+This is related to another question about using Progenitus as a Commander, but focuses on a more specific interaction.
+In the Commander format, there is a rule that lets a Commander go to the command zone instead of some other zones: 
+
+903.9. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or
+  library from anywhere, its owner may put it into the command zone instead. This replacement effect
+  may apply more than once to the same event.
+
+Progenitus is a possible choice for a Commander, and it has its own overlapping replacement effect:
+
+If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.
+
+By my understanding of multiple replacement effects, the owner of Progenitus will have the chance to determine which of these replacement effects happen in what order any time Progenitus would go to their graveyard. My understanding also indicates that you could make the Commander replacement happen first, and then the Progenitus replacement wouldn't happen because the "put into a graveyard" isn't happening anymore. However, one could also choose to have Progenitus's replacement apply first instead.
+Based on Rule 903.9 including "This replacement effect may apply more than once to the same event." I assume that after applying Progenitus's replacement I can replace "Progenitus goes to the library" with "Progenitus goes to the Command Zone"; either the original replacement still applies because the condition had "... graveyard or library", or it applies a second time due to moving to the library instead. Regardless, it should be possible to have Progenitus replace "goes to the graveyard" with "shuffles into the library", and then have "goes to the library" replaced with "goes to the Command Zone".
+My question is, if you replace "shuffles into the library" with "goes to the Command Zone", does the library still get shuffled without Progenitus? Or is the entire "shuffle into the library" action replaced?
+
+A:
+
+Yes, if you apply the replacement effects as described, you will still shuffle your library. (Note: Rule 903.9 has since changed, but the outcome is the same. More on that later)
+In the rules for the Shuffle keyword action, rule 701.19c says
+
+If an effect would cause a player to shuffle one or more specific objects into a library, that library is shuffled even if none of those objects are in the zone they’re expected to be in or an effect causes all of those objects to be moved to another zone or remain in their current zone.
+
+In fact, one of the examples covers a very similar situation. It says
+
+Black Sun’s Zenith says, in part, “Shuffle Black Sun’s Zenith into its owner’s library.” Black Sun’s Zenith is in a graveyard, has gained flashback (due to Recoup, perhaps), and is cast from that graveyard. Black Sun’s Zenith will be exiled, and its owner’s library will be shuffled.
+
+In that situation, like in this one, we have an instruction to shuffle the card into the library, and a replacement effect (created by Flashback) to move the card to another zone (exile) instead of the library.
+
+Update: Rule 903.9 has been changed, and as a result, you will always shuffle your library in this situation, but the outcome is otherwise the same. Rules 903.9a and b now say
+
+903.9a If a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+903.9b If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+As a result, the only replacement effect that modifies the death event is the one on Progenitus itself, so you will always apply that one, and then you can apply the replacement effect described in rule 903.9b to move it to the command zone instead of the library, as before.
+

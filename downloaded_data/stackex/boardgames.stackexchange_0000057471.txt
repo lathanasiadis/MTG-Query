@@ -1,0 +1,58 @@
+Q:
+
+Sacrifice Garna before ETB resolves
+
+Garna, the Bloodflame has an ETB (enter the battlefield) effect that states that I may "return to your hand all creature cards in your graveyard that were put there from anywhere this turn".
+There was a ruling in 2018 that states "Which creature cards to return to your hand is determined as Garna's triggered ability resolves. If Garna somehow finds its way into your graveyard before that, perhaps due to the "legend rule", it will be returned to your hand."
+I would like to cast Garna and then immediately sacrifice him before his ETB resolves.  I built a deck with multiple cards that can sacrifice creatures including: enchantments (e.g. Goblin Bombardment), Planewalkers (e.g. Vivien on the Hunt), Creatures (e.g. Thermopod), Sorceries (e.g. Life's Legacy), and Instants (e.g. Fling).
+I thought that I may cast instants or trigger activated abilities on permanents already on the field immediately when Garna enters the field.  As the top of the stack triggers first, they could move him to the graveyard before his ability resolves.  My group (which includes all the individuals who taught me this game and the only people I've ever played with) ruled that the ETB would trigger immediately upon entering the field and the "legends rule" is a very specific case which would trigger before the ETB. They said something about activated abilities resolve at sorcery speed as opposed to instant speed but I didn't understand.
+While I was more that willing to concede that point for the match, I really would prefer to understand how this mechanic actually works as it seems fundamental:
+
+Could I cast an instant immediately after casting Garna to sacrifice him before his ETB triggers?
+Could I activate an ability on a permanent already on the field to do that?
+Planeswalker ability?
+Sorcery?
+
+A:
+
+the "legends rule" is a very specific case which would trigger before the ETB
+
+Your playgroup is correct on this specific point; the legend rule is a state-based action (SBA) and does not use the stack. Quoting Comprehensive Rule (CR) 704:
+
+704.1. State-based actions are game actions that happen automatically whenever certain conditions (listed below) are met. State-based actions don’t use the stack.
+[...]
+704.5. The state-based actions are as follows:
+[...]
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+As SBAs do not use the stack, there is no opportunity to respond to them before they resolve.
+However, your playgroup was incorrect to say
+
+activated abilities resolve at sorcery speed as opposed to instant speed
+
+Activated abilities are covered by CR 602 and this does not contain a restriction on when they may be activated; compare with CR 307.1:
+
+A player who has priority may cast a sorcery card from their hand during a main phase of their turn when the stack is empty.
+
+Coming to your specific questions:
+
+Could I cast an instant immediately after casting Garna to sacrifice him before his ETB triggers?
+
+No. His ETB triggers immediately on entering the battlefield and is placed on the stack. However, you could hold priority, and cast an instant while the trigger is on the stack but before it resolves.  The instant will resolve first, and if it sacrifices Garna (like Fling does), then Garna will be in the graveyard when his ETB triggered ability resolves and will come back to hand as desired.
+
+Could I activate an ability on a permanent already on the field to do that?
+
+Yes.
+
+Planeswalker ability?
+
+No. CR 113.5:
+
+Some activated abilities are loyalty abilities. Loyalty abilities follow special rules: A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn. See rule 606, “Loyalty Abilities.”
+
+Garna's trigger is on the stack so this prevents activating loyalty abilities.
+
+Sorcery?
+
+No; see CR 307.1 above and again the stack is not empty.
+

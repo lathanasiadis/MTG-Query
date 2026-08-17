@@ -1,0 +1,27 @@
+Q:
+
+Why can the activated ability of Genju of the Fields stack multiple times?
+
+According to a ruling on Genju of the Fields, its activated ability can be activated multiple times to enhance its lifelink effects:
+
+8/1/2005: When activated multiple times, it will have the triggered ability multiple times. When the animated Plains deals damage, the ability will trigger once for each copy of the ability. If, for example, you activate the ability three times, the Plains will deal two damage, and you'll gain six life.
+
+I would like to know why because I interpret it differently.
+I think that the ruling was made with the thought that the creature and ability were separate, such that even though the land becomes a creature multiple times with no effect, the ability accumulates.
+This confuses me because I've always had the notion that when a land becomes a creature with its abilities listed out, it replaces the other types. This (misconception?) is reinforced by the fact that when lands become creatures, they inherently stop being lands unless they say otherwise.
+Can somebody point me to the comprehensive guide ruling that causes this behavior?
+
+A:
+
+Genju of the Fields' activated ability creates multiple separate effects:
+
+Enchanted Plains is a Spirit Creature until end of turn. It's still a land.
+Enchanted Plains is white until end of turn.
+Enchanted Plains gains the ability "Whenever this creature deals damage, its controller gains that much life." until end of turn.
+Enchanted Plains has power 2 and toughness 5 until end of turn.
+
+When the ability is activated, each of these effects is created. If it's activated again, another copy of each effect is created. Each of the other effects has the same outcome if there are multiples (making a permanent white multiple times still results in it being white), but the ability granting effect grants a new ability for each copy.
+It's important to remember that permanents don't lose abilities unless something explicitly says so. When you activate Genju of the Fields' ability, the permanent it's attached to keeps all of its abilities, including the ability to tap to add white mana to your mana pool, and it gains a new ability that is similar to lifelink. Rule 112.10 specifies this:
+
+Effects can add or remove abilities of objects. An effect that adds an ability will state that the object "gains" or "has" that ability. An effect that removes an ability will state that the object "loses" that ability. Effects that remove an ability remove all instances of it. If two or more effects add and remove the same ability, in general the most recent one prevails. (See rule 613, "Interaction of Continuous Effects.")
+

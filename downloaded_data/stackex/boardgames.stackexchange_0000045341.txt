@@ -1,0 +1,13 @@
+Q:
+
+Can making a creature unable to attack, after it has been assigned as an attacker, remove it from combat?
+
+Kulrath Knight has an effect that states 'Creatures your opponents control with counters on them can't attack or block.'   So a creature is assigned as an attacker and subsequently gets a counter placed on it prior to combat resolution, does that remove the creature from combat?
+
+A:
+
+No, making a creature "unable to attack or block" after attackers have been declared does not remove it from combat.
+An ability that says "Creatures can't Attack or Block" means that they can not be declared as blockers or attackers. If they are already attacking or blocking it is too late and they will not be removed from combat.
+
+506.4a: Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don't remove the creature from combat.
+

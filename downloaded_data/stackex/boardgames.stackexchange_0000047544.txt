@@ -1,0 +1,15 @@
+Q:
+
+Infect vs first strike
+
+Let's say a creature with infect attacks and the opponent blocks with a creature that has first strike. How does the combat resolve? Does the blocking creature with first strike still get the -1/-1 counter?
+
+A:
+
+The two relevant rules for this are 702.7b and 702.89c; 702.7b does not stop 702.89c from occurring unless the creature with infect dies before it can deal damage itself.
+Essentially if the infect creature either has first strike itself, or survives the first strike damage step, an appropriate number of -1/-1 counters will be added to the creature with first strike.
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step
+
+702.89c Damage dealt to a creature by a source with infect isn’t marked on that creature. Rather, it causes that source’s controller to put that many -1/-1 counters on that creature.
+

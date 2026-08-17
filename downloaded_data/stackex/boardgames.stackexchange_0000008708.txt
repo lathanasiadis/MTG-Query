@@ -1,0 +1,69 @@
+Q:
+
+Does Doubling Season affect planeswalkers?
+
+According to 306.5b,
+
+A planeswalker is treated as if its text box included, "This permanent enters the battlefield with a number of loyalty counters on it equal to its printed loyalty number." This ability creates a replacement effect.
+
+A ruling on Doubling Season states,
+
+Doubling Season affects cards that "enter the battlefield with" a certain number of counters. Triskelion, for example, would enter the battlefield with six +1/+1 counters on it rather than three.
+
+If you control Doubling Season, do planeswalkers come into play with twice as many loyalty counters as mentioned on the card?
+Does using one of their 'Put X loyalty counters on this permanent: ...' abilities put twice that many loyalty counters on the planeswalker instead?
+
+A:
+
+A planeswalker enters the battlefield with double the normal counters, but the counters gained or lost from activating one of its abilities are unchanged.
+Doubling Season doubles the loyalty counters placed on a planeswalker entering the battlefield.
+You've correctly identified the relevant rules.
+From the comp rules:
+
+306.5b A planeswalker is treated as if its text box included, "This permanent
+enters the battlefield with a number of loyalty counters on it equal
+to its printed loyalty number." This ability creates a replacement
+effect.
+
+And Doubling Season's Oracle rulings:
+
+10/1/2005: Doubling Season affects cards that "enter the battlefield with" a
+certain number of counters. Triskelion, for example, would enter the
+battlefield with six +1/+1 counters on it rather than three.
+
+Doubling Season does not affect loyalty gain and loss from paying the costs for planeswalker abilities.
+The loyalty spent or gained to activate a loyalty ability is a cost:
+
+606.4. The cost to activate a loyalty ability of a permanent is to put on or remove from that permanent a certain number of loyalty counters,
+as shown by the loyalty symbol in the ability's cost.
+
+The game rules distinguish between costs and effects. A cost is a payment you make to perform an action:
+
+117.1. A cost is an action or payment necessary to take another action or to stop another action from taking place. To pay a cost, a player
+carries out the instructions specified by the spell, ability, or
+effect that contains that cost.
+
+An effect is the result of that action:
+
+609.1. An effect is something that happens in the game as a result of a spell or ability. When a spell, activated ability, or triggered
+ability resolves, it may create one or more one-shot or continuous
+effects. Static abilities may create one or more continuous effects.
+Text itself is never an effect.
+
+Taken together, these two rules mean that paying a cost is not an effect. While cards can change costs, Doubling Season's card text specifies "effects," so loyalty abilities are not impacted.
+Here's confirmation from a level 2 judge.
+Doubling Season does double the loyalty counters place on a planeswalker by an effect.
+Just for completeness' sake: effects, however, are effects.
+For example, Gideon, Champion of Justice has an ability that reads:
+
++1: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.
+
+This has two parts:
+
+The "+1" is a cost and is unaffected by Doubling Season (see above).
+
+The "Put a loyalty counter..." part is an effect and is modified by Doubling Season.
+
+So if your opponent had three creatures and you activate Bad Gideon's +1 ability with a Doubling Season in play, Gideon would gain seven counters: +1 when activating the ability, +6 (+3 doubled) when it resolves.
+Likewise, if a card like Clockspinning or Inexorable Tide puts loyalty counters on a planeswalker, that effect will be doubled.
+

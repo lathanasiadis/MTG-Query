@@ -1,0 +1,22 @@
+Q:
+
+Priority during declare blockers and attackers step
+
+If I decide not to attack my opponent, do players still gain priority in declare attackers step? And the same with blockers, if there are no blockers declared for some reason, can players do anything? Or maybe these steps are just skipped in these cases?
+
+A:
+
+All phases and their respective steps happen even if players take no action during them. The declaring blockers step and combat damage steps are skipped if there are no attacking creatures, but the beginning of combat and declare attackers steps still happen. All players gain priority during both the beginning of combat and declare attackers steps.
+
+500.1. A turn consists of five phases, in this order: beginning, precombat main, combat, postcombat main, and ending. Each of these phases takes place every turn, even if nothing happens during the phase. The beginning, combat, and ending phases are further broken down into steps, which proceed in order.
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.8). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).
+
+Beginning of Combat Step
+
+507.2. Second, the active player gets priority. (See rule 117, “Timing and Priority.”)
+
+Declare Attackers Step
+
+508.2. Second, the active player gets priority. (See rule 117, “Timing and Priority.”)
+

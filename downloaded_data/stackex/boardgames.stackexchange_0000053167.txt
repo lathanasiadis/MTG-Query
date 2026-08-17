@@ -1,0 +1,12 @@
+Q:
+
+Can a spell keep track of its target if the target changes controller?
+
+Let's say I'm in a multiplayer game. I cast Assassin's Trophy targeting opponent A's Sol Ring. Opponent B controlls Aladdin and responde by activating the ability targeting the same Sol Ring. Aladdin's ability resolves and opponent B gains control of Sol Ring.
+Will Assassin's Trophy fizzle or will it still destroy the Sol Ring but allow opponent B to fetch the basic land instead?
+
+A:
+
+Yes. An object that changes controllers is still the same object, so a spell that targeted it will continue to target it.
+Assassin's Trophy checks who controls the targeted permanent as the spell resolves, so in this scenario opponent B will fetch the basic land.
+

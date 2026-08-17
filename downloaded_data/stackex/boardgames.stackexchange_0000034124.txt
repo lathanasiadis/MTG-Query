@@ -1,0 +1,31 @@
+Q:
+
+Does undying triggers an addition of counter?
+
+When a creature with undying comes back on the battlefield, does it get a +1/+1 counter or is the counter already on it?
+For example: I have a Strangleroot Geist, a Hardened Scales and an Animation Module. My Geist is destroyed and comes back "with" a +1/+1 counter on it, does the counter is "placed" so it triggers Hardened Scale or Animation Module?
+EDIT
+There is an ambiguity on counters that are placed and cards that come with the counter already on it... are they "placed" anyway?
+Does Winding Constrictor behaves as a replacement effect like Hardened Scales and do they cumulate?
+Does Walking Ballista +1/+1 initial counters behaves like on undying?
+
+A:
+
+Yes.
+Counters are always placed onto objects (they never exist without having been placed).
+
+121.6. Some spells and abilities refer to counters being “placed” on an object. This refers to putting counters on that object while it’s on the battlefield and also to an object that’s given counters as it enters the battlefield.
+
+A ruling on Hardened Scales (similar cards such as Doubling Season and Winding Constrictor have similar rulings) clarifies this:
+
+“Placed on a creature you control” includes that creature entering the battlefield with +1/+1 counters on it.
+
+When undying triggers and returns a creature to the battlefield, that creature is entering the battlefield with a +1/+1 counter on it.
+
+702.92a Undying is a triggered ability. “Undying” means “When this permanent is put into a graveyard from the battlefield, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.”
+
+As a technical note, Hardened Scales does work (resulting in the additional counter) but doesn't trigger ("trigger" has a specific meaning in Magic) because it's a replacement effect, not a triggered ability. This means it modifies the way something happens as it happens. Triggered abilities are placed onto the stack as a reaction to something happening and then resolve separately.
+Added information:
+Winding Constrictor and Hardened Scales both provide replacement effects. When an event occurs that they would replace, you choose which one happens. Because the replaced event still places counters, the other one will still happen afterwards. Each replacement effect can only modify an event once, so you don't have an endless chain. You'll get one extra counter for each Winding Constrictor and each Hardened Scales.
+For Walking Ballista, as detailed earlier in the question, counters on an object always get there by being "placed". Yes, Walking Ballista is given counters as it enters the battlefield, which is part of rule 121.6.
+

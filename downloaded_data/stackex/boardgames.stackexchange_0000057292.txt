@@ -1,0 +1,30 @@
+Q:
+
+Does Ranar the Ever-Watchful's ability stack with Day of the Dragons?
+
+Ranar the Ever-Watchful has the ability
+
+Whenever one or more cards are put into exile from your hand or a spell or ability you control exiles one or more permanents from the battlefield, create a 1/1 white Spirit creature token with flying.
+
+If I have Ranar on the battlefield with N creatures and play Day of the Dragons:
+
+When Day of the Dragons enters the battlefield, exile all creatures you control. Then create that many 5/5 red Dragon creature tokens with flying.
+
+Will I get the tokens for Ranar's ability and all creatures turned to dragons and end up with N 5/5 dragons and N 1/1 white spirits?
+
+A:
+
+You will end up with N 5/5 dragons and 1 1/1 spirit.
+Ranar's ability can look back in time to see how many things were exiled with Day of the Dragons:
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card
+leaves a graveyard, and abilities that trigger when an object that all
+players can see is put into a hand or library.
+
+So Ranar's ability will see N creatures get exiled.  However it won't create N spirits because Ranar's ability is worded (emphasis mine)
+
+Whenever ... a spell or ability you control exiles one or more
+permanents from the battlefield, create a 1/1 white Spirit
+
+To create multiple spirits Ranar's ability would have to not have the "one or more" clause in it.
+

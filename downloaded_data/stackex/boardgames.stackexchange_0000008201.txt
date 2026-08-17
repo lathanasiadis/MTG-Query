@@ -1,0 +1,13 @@
+Q:
+
+Can I play a card using flashback without it having been successfully cast first?
+
+For instance, if I try to cast Army of the Damned and my opponent uses Cancel to stop it, can I still cast Army of the Damned from the graveyard for it's Flashback cost?
+
+A:
+
+Yes. The only requirements for Flashback are that the card is in your Graveyard, you are able to pay the alternate Flashback cost, and you are capable of casting the Flashback spell at that particular time (you have priority, if the Flashback spell is a Sorcery then it is you turn's first or second Main Phase and the stack is empty, etc.).
+Keep in mind that if your opponent Cancels your Army of the Damned spell, that you must wait until Cancel to resolve before your spell will be in the graveyard. If it was Dissipated, it would never hit the graveyard at all.
+
+702.33a Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player’s graveyard and the other that functions while the card is on the stack. “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.
+

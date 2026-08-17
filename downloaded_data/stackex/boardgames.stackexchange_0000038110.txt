@@ -1,0 +1,24 @@
+Q:
+
+Can I rebound a spell that exiles itself?
+
+There's a handful of cards from the game which also exile themselves as they resolve. For a straightforward example there's Restock:
+
+Return two target cards from your graveyard to your hand. Exile Restock.
+
+That's fine enough. But what if I have Cast Through Time on the battlefield to give it rebound?
+
+Instant and sorcery spells you control have rebound. (Exile the spell as it resolves if you cast it from your hand. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)
+
+Will Restock rebound out of exile?
+There doesn't seem to be a ruling about this on Cast Through Time. The one part I'm confident about is that if it does rebound, it won't rebound a second time -- it'll exile itself again and it won't have been cast from my hand that time.
+
+A:
+
+No, spells that exile themselves will not rebound.
+This is supported by the definition of Rebound in the comprehensive rules: (emphasis mine)
+
+702.87a Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. “Rebound” means “If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.”
+
+Rebound works by putting the card into exile instead of putting it into your graveyard after the spell is finished resolving. A card that exiles itself never goes into the graveyard, so Rebound dosen't have a chance to move it, and give you the chance to cast it for free at your next upkeep.
+

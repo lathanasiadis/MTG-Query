@@ -1,0 +1,29 @@
+Q:
+
+Can nonbasic dual lands such as "Azorius Chancery" be destroyed by the card text "destroy target land"?
+
+My cousin and I play MtG together sometimes. He has many years of experience, and I just started playing recently and we have had an argument when I tried to destroy his nonbasic dual lands such as Azorius Chancery, and Boros Garrison, with cards like Poison the Well, and Wrecking Ball, that have the card text "Destroy target land," and "Destroy target creature or land." He says that dual lands with the type/subtype "Land" and card text like...
+
+Azorius Chancery enters the battlefield tapped.
+When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
+Tap: Add {W}{U} to your mana pool.
+
+are nonbasic lands and can't be destroyed by cards with the text "destroy target land". So contrary to the card type/subtype being "Land" he says I can't destroy it. Is he right or wrong?
+The way I see it, if I can destroy, for example, a mountain with a type/subtype "Basic Land" using an instant/sorcery that has the text "destroy target land" (which he allowed me to do) then why can't I destroy a nonbasic land that has the type/subtype "Land".
+I would appreciate if you show some hard evidence or state your MtG experience, such as been to tournaments and have seen that it is or isn't legal to make your answers more credible when I show my cousin the responses if I'm right.
+
+A:
+
+You are correct, you can destroy any permanent with the type "Land" using a card that says "Destroy target land."
+The ultimate authority in these matters is the Comprehensive Rules (CR). They are updated regularly, and are free to download.
+The simplest rule from the CR that clarifies that nonbasic lands are lands:
+
+305.8. Any land with the supertype “basic” is a basic land. Any land that doesn’t have this supertype is a nonbasic land, even if it has a basic land type
+
+So, all lands that don't have the Basic supertype are lands that are nonbasic, even if they have a basic land type. There are several lands with a basic land type that aren't basic lands, like the original dual land cycle (Badlands et. al., Pain Lands Sulfurous Springs, etc.), while there are only 5 basic land cards. The basic lands have card names Mountain, Swamp, Island, Plains, and Forest.
+Then the rule below shows that a card like Boros Garrison is a legal target for Poison the Well, because it is referencing an object with "Land" in the card's Type Line.
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+If the card were specifically referencing only nonbasic lands, the rules text would have specifically said so. (Examples: Ruination, Blood Moon, Dust Bowl). Similarly, if a card is referring only to basic lands or lands with a basic land type, it would say so. (Examples: Fiery Fall, Global Ruin, Null Chamber, Flashfires).
+

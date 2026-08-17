@@ -1,0 +1,22 @@
+Q:
+
+If a creature is blocking and it has vigilance does it still tap?
+
+If a creature is blocking and it has vigilance does it still tap?
+
+A:
+
+Declaring a creature as blocker never taps it, whether it has vigilance or not. Only attacking creatures will be tapped:
+
+508.1f The active player taps the chosen creatures. Tapping a creature when it’s declared as an attacker isn’t a cost; attacking simply causes creatures to become tapped.
+
+(of course, Vigilance prevents this:
+
+702.20b Attacking doesn’t cause creatures with vigilance to tap. (See rule 508, “Declare Attackers Step.”)
+
+Such a rule is not present for blocking creatures; only that they must be untapped in order to block:
+
+509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped. For each of the chosen creatures, the defending player chooses one creature for it to block that’s attacking that player or a planeswalker they control.
+
+If a creature with vigilance becomes tapped because of another spell or effect, it won't be able to block.
+

@@ -1,0 +1,31 @@
+Q:
+
+Does Reduce to Ashes Kill indestructible creatures?
+
+When I first read Reduce to Ashes:
+
+Reduce to Ashes deals 5 damage to target creature. If that creature would die this turn, exile it instead.
+
+I thought "ok, a way to deal with indestructible", but then I thought again and wondered. Because indestructible will stop you dying, and the exile only kicks in after you die.
+So does it work?
+
+A:
+
+The creature will not die or be exiled.
+The ability Indestructible is defined in rule 702.12b:
+
+A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+So, if you resolve Reduce to Ashes targeting an indestructible creature with 5 or less toughness, this is how it plays out:
+First, Reduce to Ashes deals 5 damage to the creature. For the rest of the turn, if that creature would die, it is exiled instead.
+Then, State-based actions are checked. In particular, rule 704.5g says
+
+If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+But the creature has indestructible, so it can't be destroyed and nothing happens.
+Then, since the creature wouldn't die, the replacement effect never happens. Rule 614.7 says
+
+If a replacement effect would replace an event, but that event never happens, the replacement effect simply doesn’t do anything.
+
+However if the creature dies for some unrelated reason (if its controller sacrifices it, for example), then the replacement effect will kick in, and the creature will be exiled.
+

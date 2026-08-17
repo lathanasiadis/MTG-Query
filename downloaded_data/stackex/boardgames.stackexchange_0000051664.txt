@@ -1,0 +1,17 @@
+Q:
+
+Can Taigam grant rebound to spells I already cast before his attack?
+
+So, for example, if I cast Shock, and then during my combat step attack with Taigam, Ojutai Master, then after he attacks, cast another spell like Opt, would both Shock and Opt gain rebound as they were cast on a turn that the creature attacked? Or only Opt as it was cast after he attacked?
+
+A:
+
+It would only count instants or sorceries that you cast after Taigam attacks.
+Taigam's ability only triggers at the time that you cast an instant or sorcery, and at that moment it checks to see if he has attacked that turn. Each time you cast an instant or sorcery, his ability triggers if he has attacked that turn. Any instants or sorceries you cast when he hasn’t attacked that turn don’t meet the requirements for triggering.
+Note that Taigam's triggered ability has an intervening if clause:
+
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule.
+
+This means that when you cast an instant or sorcery spell, if he hasn’t attacked this turn, the ability doesn’t trigger at all. But even if it were not an intervening if clause (such as “whenever you cast an instant spell, it gains rebound if Taigam has attacked this turn), then the ability still wouldn’t work in that case. It would trigger and go on the stack, but when it resolved it would have no effect because the condition wouldn’t be met.
+In order to affect instants and sorceries that were cast before attacking, it would have to have a completely different wording; such as something that triggers when he attacks instead of triggering when you cast the spell.
+

@@ -1,0 +1,24 @@
+Q:
+
+How do I handle casting a spell with a cost of X when the casting cost is reduced?
+
+If I play a spell with {X} in the mana cost, and I have a card out that reduces the casting cost by 2 generic mana, what happens to the X? Does it start at -2?
+For example: I have Arcane Melee in play. If I play Prosperity for just 1 blue mana, do we draw 2 cards?
+
+A:
+
+When you cast a spell with X in its mana cost, you first choose X, then calculate the total cost including cost reduction, then you pay the resulting amount. Effectively, when a spell's cost is reduced by 2, you can cast it for X=2 for the same mana cost as with X=0
+When you want to cast a spell with X anywhere in the card's text (usually the casting cost), you have to announce which value X is going to have:
+
+601.2b [..] If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable.[..]
+
+Then you calculate the actual mana cost that you have to pay, at which time you consider cards like Arcane Melee. Arcane Melee only reduces generic mana costs, and any value below zero is considered zero, so there is no such thing as -2 generic mana:
+
+601.2f The player determines the total cost of the spell.[..] The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can't be reduced to less than {0}. [..]
+
+Finally you pay the calculated amount:
+
+601.2h The player pays the total cost in any order. [..]
+
+Therefore, you are correct in that you could announce Prosperity with X=2 and pay only {U} with Arcane Melee in play. You could also announce it with X=1 or X=0 if you want, drawing one or no card. In those cases, you would still pay {U}.
+

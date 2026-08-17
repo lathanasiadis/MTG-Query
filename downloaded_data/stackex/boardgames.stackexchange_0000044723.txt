@@ -1,0 +1,22 @@
+Q:
+
+Can I see the card I draw before deciding to activate Dawn of Hope a second time?
+
+I have one Dawn of Hope and two Soul Warden on the field. Another creature enters the battlefield, triggering both Soul Wardens' effects. Since each Soul Warden causes a separate life-gaining event, I know that I can activate the effect of Dawn of Hope twice, to draw two cards.
+But can I activate it once, look at the card I draw, and only then decide whether or not to activate it a second time? Or must I decide it all at once?
+
+A:
+
+You can and will (by how the game mechanically works) see 1 card before choosing to use it a second time.
+What will happen is as follows:
+
+Both Soul Warden Triggers go on the stack, the order of which doesn't matter for this case.
+Both players pass priority, causing the top of the stack to resolve (i.e. you gain 1 life from the first Warden trigger).
+Dawn of Hope will trigger because you have gained life and will go on the stack, above the 2nd Warden trigger.
+Both players pass priority
+You can now resolve Dawn of Hope, where you decide if you want to pay for it then draw a card if you do pay for it.
+Both players pass priority.
+Second Warden trigger finally resolves and will follow steps 3-5.
+
+For completion's sake: if you have multiple life-linkers attacking or blocking, they all will trigger Dawn of Hope, putting a trigger on the stack for each one. Each trigger will also resolve one at a time just as above.
+

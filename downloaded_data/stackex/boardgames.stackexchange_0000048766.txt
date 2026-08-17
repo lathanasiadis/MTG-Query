@@ -1,0 +1,43 @@
+Q:
+
+When Vesuvan Shapeshifter copies turn face up replacement effects, why do they work?
+
+Vesuvan Shapeshifter says:
+
+As Vesuvan Shapeshifter (...) is turned face up, you may choose another creature on the battlefield. If you do, until Vesuvan Shapeshifter is turned face down, it becomes a copy of that creature (...)
+
+My understanding is that due to the word "as", this is a replacement effect. There is a ruling for Vesuvan Shapeshifter on gatherer that says:
+
+(...) any “[when/as] [this creature] is turned face up” abilities of the chosen creature will work if Vesuvan Shapeshifter is turned face up.
+
+For triggered abilities such as "when this creature is turned face up..." this makes sense to me. The Shapeshifter is turned face up as a copy of the creature so the triggered ability sees that, due to 614.6.
+I don't understand why replacement effects such as "as this creature is turned face up..." would also work. My understanding is that once an event has been replaced the game moves forward, and replacement effects cannot effect past events per rule 614.4.
+So from my understanding, the Shapeshifter is turned face up as a special action, its controller chooses another creature, the "turn Vesuvan Shapeshifter face up" special action is replaced with a "turn Copied Creature face up except it has Vesuvan Shapeshifter's upkeep triggered ability" special action and the special action finishes. Vesuvan Shapeshifter would then have the replacement effect of the copied card, but the effect would never have had a chance to do anything because the game had already moved on.
+Could someone explain why that is incorrect?
+
+A:
+
+Compatible replacement effects can chain together.
+Vesuvan Shapeshifter's abilities are indeed replacement effects:
+
+614.1e Effects that read “As [this permanent] is turned face up . . . ,” are replacement effects.
+
+Replaced events do not happen:
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+
+The event to be replaced is "Vesuvan Shapeshifter is turned face up", and is replaced with "The Vesuvan Shapeshifter is turned face up as the chosen creature". When that happens, the Shapeshifter has not yet turned face up:
+
+707.11. If a face-down permanent would have an “As [this permanent] is turned face up . . .” ability after it’s turned face up, that ability is applied while that permanent is being turned face up, not afterward.
+
+If the copied creature has its own replacement effect on being turned face up, it is now in effect as it is being turned face up, and it happens as well.
+
+616.2. A replacement or prevention effect can become applicable to an event as the result of another replacement or prevention effect that modifies the event.
+
+So the sequence of events is: 
+
+You decide to turn Vesuvan Shapeshifter face up
+As you turn it face up, before it's actually turned face up, you choose another creature with a replacement effect that replaces getting turned face up.
+Before the copied creature is turned face up, its own replacement effect happens and does something.
+The copied creature is actually turned face up with its replacement effect applied, as if it was that creature all along.
+

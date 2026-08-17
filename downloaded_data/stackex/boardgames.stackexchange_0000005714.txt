@@ -1,0 +1,41 @@
+Q:
+
+What are good strategies against counterspell decks?
+
+I'm currently honing a white-green tokens deck for Standard tournament play. I feel like I have a good handle on my game-plan for most of the other common archetypes, but I'm really stymied playing against the counterspell-heavy blue decks.
+It's not hard for a blue deck to run 4x Mana Leak, 4x Dissipate, 4x Vapor Snag, and 4x Snapcaster Mage, giving him plenty of options to counterspell or bounce literally every single spell that I try to cast. I've tried two basic options:
+
+Go aggro. Cast spells as quickly as you can, try to exhaust his supply of counterspells, and hope that one of your plays will eventually stick. (This usually doesn't work.)
+Play the waiting game. Wait for him to tap out on my end step and then sneak in a Midnight Haunting, or, more rarely, hope that he eventually taps out or runs out of cards on his turn and gives me a chance to play some creatures. (This works a little better, but is very inconsistent. It depends on Villain eventually giving me an opening, and every turn I wait is another turn where he gets a chance to draw his finishers.)
+
+Is there another way to play against this deck?
+
+A:
+
+Tactics in Play
+Counterspells are powerful because they're a broad-brush answer to a lot of spells. Whatever spell type is central to your opponent's game plan, you can stop it on the stack. This versatility comes at a price, though: timing. If you've got a threat on the board, I can use Doom Blade to deal with it whenever is most convenient for me; with a Mana Leak, though, I have to cast my spell while yours is on the stack -- meaning I have to have the card in hand then and there, and the mana open to use my counter. Exploiting this weakness is the foundation of anti-counter tactics.
+(Note that I'm assuming you're playing in a more "conventional" environment like Limited or Standard here. The dynamics of Legacy or Vintage are pretty different, but would require long digressions about a couple of particular cards.)
+
+Play an aggressive early game. Most 1-drop counters are very situational, meaning they likely won't see widespread play in a control deck. So, right off the bat, you have 1-2 turns to establish an early board presence. Rush out permanents that will help you build board position or pressure your opponent's life total.
+
+When you do this, be mindful of sweepers (like Wrath of God). A typical control-deck strategy against aggressive starts is to use just enough counters or spot removal to survive to drop a sweeper, and then clear the board and try to "take over" with raw power and card advantage. Generally speaking, early pressure is good, but disgorging your entire hand ASAP is not necessarily an optimal plan.
+
+Exploit your opponent's limited mana in the mid-game. In the mid-game, your opponent will have enough land for counterspell mana, but you can still exploit the limitations of her mana base. Playing 1-drops and 2-drops straight into counters can put you at a mana advantage over your opponent. If you're both at 4 lands and she Dissipates a 1-drop, you still have 3 mana to pay for other spells. It helps if you have a key card that your opponent can't easily answer once it's on the battlefield: just holding enough mana open to cast your big threat creates pressure on your opponent to let your other stuff through.
+
+Another trick is to save your instant-speed plays for your opponent's end step. This puts your opponent in a double bind: if she counters your current play, then she'll be tapped out on your turn, and you'll get to play a thing; if she doesn't, hey, you just got to play a thing!
+
+Plan for the end-game. Your opponent has to play threats of her own to win. They're likely at the top of her curve (for a pure control deck) or at the bottom (for an aggro-control deck).
+
+Against control or combo-control: Your opponent is using counterspells to slow down your development while she plays out lands to pay for her big stuff. Eventually she'll drop some big finisher or set up an engine that gives her ever-increasing advantage. Having an answer for it will help you avoid defeat (or at least force your opponent to wait a few more turns to play it, so she can have counter backup), but fundamentally you'll still want to win on speed.
+
+Against aggro-control: Your opponent is trying to win on tempo. This involves setting up an early clock and then using counters and bounce spells to keep it going. Her undercosted threats become less and less powerful as the game wears on, though. Unless you can straight-up out-race her, you need to focus your efforts on stopping her clock. If you can do this, you can often grind out a win once her deck runs out of steam.
+
+Deckbuilding Strategy
+You can make deckbuilding decisions to beat counterspell-heavy decks, too.
+
+Include counter-proof lines of attack. Even though they're highly versatile, counterspells still can't counter everything. So, just play offensive cards that are impervious to counters. Thrun, the Last Troll is a popular sideboard card for this reason, being immune to counterspells and most removal (as a regenerating 4/4 for 4, he's also awesome enough to maindeck). Cavern of Souls can make any of your creatures uncounterable. Cards like Inkmoth Nexus and Moorland Haunt allow you to play offense with your land drops even if all your spell cards are getting zapped with counters. This is probably the easiest way to deal with permission-heavy decks without spreading your deck too thin (though watch your color density).
+
+Sideboard specific hosers. When all else fails, if you're having lots of trouble with any particular matchup, it's sensible to devote some space to it in your sideboard. Cards like Defense Grid or Vexing Shusher can restrict counterspells. Cards like Summoning Trap can punish them. Note that your hosers don't have to be focused on the counterspells themselves — if your opponent's deck is light on threats, you can disrupt them with cards like Slaughter Games; if they require lots of mana, try land destruction like Molten Rain to delay them.
+
+Don't play midrange without disruption. "Midrange" is a term for archetypes that try to straddle the line between aggro and control. They try to beat aggro decks by being "a little bigger" and control decks by being "a little faster". The problem is that "a little faster" doesn't work all that well. Oftentimes you do beat aggro (by going "a little bigger"), but counterspells clobber your deck because you're playing most of your stuff in the midgame (when your opponent has mana for counters) but the spells in your deck generally aren't big enough that you can win the game just by getting one of them to stick. The most successful midrange-style decks typically use focused hand disruption (e.g. Thoughtseize) to clear an opponent's counters and removal.
+

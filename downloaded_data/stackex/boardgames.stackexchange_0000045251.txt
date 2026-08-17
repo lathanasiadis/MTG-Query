@@ -1,0 +1,30 @@
+Q:
+
+Words of Worship and Nefarious Lich
+
+Suppose I have Nefarious Lich and Words of Worship in game. When I draw a card, I can pay 1 to draw 5 cards instead. But can I pay 2 and draw 9? Or, repeating this, can I pay X to draw 4X in addition to that first one?
+
+A:
+
+You can only draw at most five cards from this. You could however gain up to 25 life.
+Replacement effects can only be applied to an event once, and not indefinitely:
+
+614.5. A replacement effect doesn't invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace it.
+Example: A player controls two permanents, each with an ability that reads "If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead." A creature that normally deals 2 damage will deal 8 damage-not just 4, and not an infinite amount.
+
+Nefarious Lich has a ruling reminding us of how that applies here:
+
+If you were going to gain life and you also have a replacement that can turn card drawing into life gain on the battlefield, you can gain life by using the Lich to turn the original life gain into card drawing, and then using the other replacement to turn a card draw into life gain. Nefarious Lich will not replace the life gain with a card draw again because it has already acted on this event.
+
+Here's how that works out. When you draw a card, that's the event. You can replace it using Words of Worship:
+
+{1}: The next time you would draw a card this turn, you gain 5 life instead.
+
+... which turns the “draw a card” event into “gain 5 life”. This is still the same event, it's just doing something different now. That effect will in turn be replaced by Nefarious Lich:
+
+If you would gain life, draw that many cards instead.
+
+This turns the event into “draw five cards”. This is still the same event, just doing something different again.
+If you had activated Words of Worship twice, the second Words of Worship replacement effect would see this event and replace one of the card draws to make this event: “Gain 5 life and draw four cards”. If you'd activated it six times total, these last five would would replace all card draws in this event, and turn the event into “Gain 25 life”.
+You might be looking at the lifegain and thinking you'll draw cards, but remember: Nefarious Lich has already applied its replacement effect to this event to transform it once. Its replacement effect will not apply a second time. This means no life gain from this same event will be turned back into cards.
+

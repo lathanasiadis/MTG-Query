@@ -1,0 +1,55 @@
+Q:
+
+How is Test of Faith resolved with multiple blockers?
+
+As an extension of this related question, how is Test of Faith resolved in a situation where this instant is cast on one of multiple blocking creatures assigned to a single attacking creature? 
+Let: 
+
+A = 8/8 attacker
+B1 = 1/1 blocker assigned to A
+B2 = another 1/1 blocker assigned to A
+
+In this scenario, let us assume that:
+
+the defending player declares both B1 and B2 to be blockers for A
+B1 is the first blocker to receive damage from A
+Test of Faith is cast on B1
+
+Specific questions:
+
+Is the defending player allowed to wait until the attacking player
+has declared the order in which damage is assigned before playing
+Test of Faith? (i.e. attacking player declares damage to be dealt to
+B1 followed by B2 before defending player casts spell) 
+Given that A
+would normally deal 1 damage to B1 with remaining damage to B2 (in
+the absence of any instants or abilities), does Test of Faith
+prevent 1 or 3 damage in this scenario? 
+Given that A has sufficient
+power to destroy both B1 and B2 even with the damage prevention and
++1/+1 counters provided by Test of Faith, does A end up dealing more damage than initially
+planned to finish off B1? Or does B1 survive?
+
+A:
+
+Short version: yes, the defending player can cast Test of Faith after damage assignment order is chosen, and yes, the attacking player can send enough damage at B1 to kill it.
+This is fairly easy to answer once you know how the declare blockers and combat damage steps work. (Remember the steps of combat: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat.) Focusing on the relevant bits, we have:
+
+declare blockers
+
+the defending player assigns blockers
+the attacking player announces damage assignment order
+the active player gets priority (your chance to cast spells or activate abilities)
+
+combat damage
+
+the active player announces how combat damage from attacking creatures will be assigned
+the blocking creatures assign their damage
+damage is actually dealt
+
+(This is pretty much all in the basic rules, but if you want gory details, see 509 and 510 in the comprehensive rules.)
+So the answer to (1) is easy. Yes, the defending player can wait until after the order is assigned to cast Test of Faith - in fact they pretty much have to, unless they want to cast it before they even declare blockers. 
+The answer to (2) and (3) depends on what the attacking player decides, but if they're smart, they can kill both B1 and B2. They've already chosen the order back in the declare blockers step, but now they can choose the amount to assign to each creature in order. They have to assign at least lethal damage* (1 damage, since it's a 1/1) to B1 before going on to B2, but otherwise they can split it however they want - 8 and 0, 7 and 1, and so on. Presumably they'll decide to assign 7 to B1 and 1 to B2, so that B1 ends up as a 4/4 with 4 damage marked on it and dies, and B2 takes 1 damage and dies as well.
+Note that this isn't really terribly specific to Test of Faith. All that really matters is that you can deal any amount of damage to B1, as long as it's at least 1 (lethal damage). No matter what the weird effect is (prevention, redirection, +1/+1 counters appearing...) you choose the amount of damage and can send the necessary amount at it, so you'll never get weird cases where B1 somehow survives even though you could've killed it, or where the damage assignment amounts somehow change outside your control. You do have to consciously make the right decision (deal 7 damage even though 1 is "lethal"), but beyond that, nothing really fancy happens.
+* Lethal damage doesn't have to take into account abilities and effects that might change the amount of damage that ends up being dealt, so Test of Faith doesn't matter here - if they wanted B1 to live for some reason, they could deal it just 1 damage.
+

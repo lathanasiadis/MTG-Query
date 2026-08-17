@@ -1,0 +1,16 @@
+Q:
+
+Do the draw abilities of Kor Spiritdancer and Mesa Enchantress stack?
+
+Suppose I have both Kor Spiritdancer and Mesa Enchantress under my control. They have two similar abilities:
+
+Kor Spiritdancer: Whenever you cast an Aura spell, you may draw a card.
+
+Mesa Enchantress: Whenever you cast an enchantment spell, you may draw a card.
+
+If I now cast an Enchantment — Aura card, do I draw two cards or one?
+
+A:
+
+You can draw 2 cards. When you cast an Aura spell, then 2 separate triggered abilities will trigger. You choose the order in which to put them on the stack (the order doesn't matter in this case), and then you will have 2 separate instances of "you may draw a card" on the stack, which will resolve one at a time.
+

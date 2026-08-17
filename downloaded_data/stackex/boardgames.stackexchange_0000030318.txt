@@ -1,0 +1,20 @@
+Q:
+
+What happens if you give Defiant Bloodlord Lifelink? Infinite Health/Damage?
+
+What would happen if you cast a spell like Grotesque Mutation on Defiant Bloodlord, then gain life from one source or another?
+Theoretically, he would then deal X damage (where X is the triggering life) to target opponent (from his ability), which would cause the player to heal X life (lifelink), which would cause him to deal X damage to target player, etc.
+Am I missing something?
+
+A:
+
+This does not work as an infinite combo because "damage" is not the same as "loss of life". Lifelink only happens when damage is dealt, and Defiant Bloodlord doesn't damage an opponent when you gain life.
+See the question here for a very similar combo that does work like you're thinking:
+Is Sanguine Bond + Exquisite Blood a potential game ender?
+Because Exquisite Blood triggers whenever an opponent loses life, as opposed to Lifelink which has to do with damage dealt, it will cause a loop of triggers until your opponent loses the game. (Defiant Bloodlord could be used instead of Sanguine Bond in that combo).
+The official rules on Lifelink:
+
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes). 
+
+So Lifelink just changes the results of damage; it does not trigger on life being lost.
+

@@ -1,0 +1,17 @@
+Q:
+
+What is the result of a combat between creatures of 3/1 and 2/2?
+
+I don't know which one would win a 3/1 creature or a 2/2 creature, or would they both tie. I always thought they would tie.
+
+A:
+
+Both creatures will die.
+From the MTG Basic Rulebook
+
+After all blockers are chosen, combat damage is assigned. Each creature — both attackers and blockers — deals damage equal to its power.
+If a creature is dealt damage equal to or greater than its toughness over the course of a single turn, that creature is destroyed and goes to its owner’s graveyard.
+
+In your example, after combat damage is done, there will be a 3/1 creature with 2 damage, and a 2/2 creature with 3 damage. Both of these creatures have at least as much damage as toughness, so both will go to the graveyard.
+Note that there is no actual concept of "win", "lose", or "tie" in combat. I suppose it's fair to consider it a tie if both your and your opponent's creatures die, but that's not actual terminology in Magic.
+

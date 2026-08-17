@@ -1,0 +1,23 @@
+Q:
+
+Will spells that exile enchantments also exile enchantment artifacts?
+
+Does a spell which says "exile target enchantment" such as Erase work on enchantment artifacts? I can not seem to find an answer for this, can you help?
+
+A:
+
+Yes, any card that can exile an enchantment can exile an enchantment artifact. This is because an enchantment artifact is both an enchantment as well as an artifact.
+
+205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.
+
+There's also this nugget of information buried in the Basic Rulebook, to help illustrate this relationship to new players.
+
+Artifact creatures are both artifacts and creatures. [...]  An artifact creature can be affected by anything that affects artifacts, as well as anything that affects creatures.
+
+Trivia: The quoted piece of information was present in the M14 Basic Rulebook, but you won't find it anywhere in the M15 Basic Rulebook.
+Examples
+Erase can exile Whip of Erebos, because Whip of Erebos is an enchantment, and Erase targets enchantments. Being an artifact does not make this any less true.
+Dryad Arbor would be affected by Urborg, Tomb of Yawgmoth, because Dryad Arbor is a land.
+Dryad Arbor would also be affected by Anger of the Gods, because Dryad Arbor is a creature.
+A Darksteel Citadel enchanted with Ensoul Artifact with an Enchanted Evening in play would be would be affected by anything that affects enchantments, creatures, artifacts, or lands.
+

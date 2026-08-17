@@ -1,0 +1,30 @@
+Q:
+
+Is putting multiple counters onto a target an atomic action?
+
+Consider these two cards:
+Fathom Mage
+
+Whenever a +1/+1 counter is placed on Fathom Mage, you may draw a card.
+
+Dragonscale Boon
+
+Put two +1/+1 counters on target creature and untap it.
+
+Would Fathom Mage's effect trigger once or twice?
+
+A:
+
+The rulings for Fathom Mage indicate that a single effect placing multiple counters on it, causes its ability to trigger multiple times.
+
+1/24/2013: If multiple +1/+1 counters are placed on Fathom Mage simultaneously, its last ability will trigger once for each of those counters.
+
+As a result, Dragonscale Boon would cause the ability to happen twice, and you could draw up to two cards.
+
+Hypothetically if Wizards wanted you to only draw one card when you cast Dragonscale Boon, they'd probably word Fathom Mage the way they did Hardened Scales.
+
+Whenever one or more +1/+1 counters is placed on Fathom Mage, you may draw a card.
+
+In this case, the ability only triggers once for each discrete event. Dragonscale Boon would only cause the ability to happen a single time.
+If we gave Fathom Mage an ability like "RRR: put a +1/+1 counter on Fathom Mage", then you would be able to draw a card once for each time you activate the ability, regardless of how the triggered ability was worded. If you're adding more than one counter, you're activating the ability more than once, and each ability generates a brand new event.
+

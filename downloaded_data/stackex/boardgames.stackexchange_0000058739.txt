@@ -1,0 +1,16 @@
+Q:
+
+How should Scheming Symmetry resolve in Judge Tower (shared library) with a Panglacial Wurm that must be cast?
+
+Player A casts Scheming Symmetry in their turn and choses two of the other players (B and C) to have to resolve this. What is the correct way for this to happen, specifically related to Panglacial Wurm being found?
+
+A:
+
+Rule 101.4 covers this type of interaction; while Scheming Symmetry theoretically resolves simultaneously as per rule 701.19i, the decision to cast Panglacial Wurm occurs in APNAP order.
+This means that, while playing Judge Tower with either the "Players must treat every instance of “may” as “must”" or broader "Cards must be played as soon as legally allowed." rules, the first player in turn order from the active player that was targeted by Scheming Symmetry will be required to utilize the "you may" on Panglacial Wurm to cast it (during searching the library will also be required to be kept in order due to the ruling on Panglacial Wurm).
+
+701.19i If multiple players search at once, each of those players looks at the appropriate cards at the same time, then those players decide in APNAP order (see rule 101.4) which card to find.
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+Example: A card reads “Each player sacrifices a creature.” First, the active player chooses a creature they control. Then each of the nonactive players, in turn order, chooses a creature they control. Then all creatures chosen this way are sacrificed simultaneously.
+

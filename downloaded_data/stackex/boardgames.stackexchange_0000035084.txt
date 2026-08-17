@@ -1,0 +1,28 @@
+Q:
+
+How does the Commander interact with Banishing Light or Oblivion Ring?
+
+What happens if a commander is sent to the command zone via Banishing Light and then enchantment is destroyed? Can the commander return to the battlefield from the command zone?.
+I think that Oblivion Ring would not allow that to happen.
+
+A:
+
+Neither Banishing Light nor Oblivion Ring can return a commander from the command zone to the battlefield.
+In the Commander rules, rule 903.9a says
+
+If a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+So, after the ability on Banishing Light or Oblivion Ring finishes resolving, this state-based action moves the commander again from exile to the command zone. At that point, the enchantment loses track of the card, and can't bring it back later.
+
+This is a change from previous rules, which allowed the commander to move to the command zone instead of the graveyard or exile as a replacement effect. Under those rules Banishing Light could return the commander from the command zone to the battlefield, but Oblivion Ring could not do that.
+The main reason that it worked that way is rule 610.3:
+
+Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+
+Banishing Light's effect is one of these. The important thing to note is that returning the object to its previous zone does not depend on which zone it originally moved to.
+Oblivion Ring, on the other hand, has two separate abilities, which are called linked abilities. Rule 607.2a describes how this kind of linked ability works:
+
+If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+Because Oblivion Ring's second ability refers to "the exiled card", it can only find cards that are actually in the exile zone when it resolves.
+

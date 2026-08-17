@@ -1,0 +1,13 @@
+Q:
+
+Do blocking creatures heal back to full between phases?
+
+I am new to MTG and this has been bothering me. Say I use any spell on my 1st main phase to deal 1 damage to my opponenent's 2/5 creature.
+If I attack him during the combat phase of the same turn with a 4/3 creature and he blocks me using that 2/5 I previously did 1 damage to, will my 4/3 creature kill it, or his creature would have "healed" up between phases?
+
+A:
+
+It will be destroyed. All damage done to the creature in most cases stays until the very end of the turn (cleanup step).
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.12, “Regenerate”) and during the cleanup step (see rule 514.2).
+

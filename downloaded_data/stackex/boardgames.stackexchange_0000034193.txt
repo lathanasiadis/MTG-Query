@@ -1,0 +1,30 @@
+Q:
+
+Arcbound Ravager and Shortcuts
+
+According to the Magic Tournament Rules, one of the accepted shortcuts is that when player A puts something on the stack, they automatically pass priority unless they specifically state they're holding priority. A corollary to that is if player A says they want to put multiple things on the stack (eg. "I activate Shivan Dragon's ability X times"), what they actually are proposing is to do it once, pass priority, and repeat X times.
+An opponent, player B can interrupt the latter shortcut by saying "After the Yth activation, I do Z", in which case whatever player A planned on doing after the Yth activation is dropped, and they can respond how they wish. These shortcuts exist to stop play from turning into a painful slog of explicitly passing priority over and over, without those annoying "GOTCHA" moments where someone assumes you stacked a bunch of activations and try to blow you out (sidenote: these rules are relatively obscure so it's worth remembering them and not letting yourself get screwed).
+This brings me to my main question, which has to do with Arcbound Ravager in modern affinity. The scenario often comes up where one wants to sacrifice all of their artifacts to Ravager, and it seems similar to the above shortcut, but unlike on Shivan Dragon, the order in which the artifacts are sacrificed matters. Of course if the opponent just says "Ok", then I sacrifice my board and carry on, but what if they don't?
+If I'm in a tournament and I say "I sacrifice all of my artifacts to Arcbound Ravager", not knowing my opponent has a response, what will happen?
+A) My opponent asks me to specify order, and I must give an order including ALL the artifacts I wanted to sacrifice. Then, if they decide they want to respond, they say which sacrifice they will respond to, and we carry on as normal. If they decide they don't want to respond, my board is sacrificed (I can't take it back!) and we carry on. This is the answer I gave my befuddled friend the other day, and the one that makes the most sense to me.
+B) My opponent asks me to specify order, and now suspicious, I say I only want to sacrifice one artifact (say, Darksteel Citadel) to Ravager. My friend was arguing that this shortcut rule is bad because stuff like this can happen, but I believe that the rules don't allow for this kind of take-backsy silliness.
+C) It's too late, my opponent calls a judge, and I get a warning for misrepresenting gamestate or miscommunicating?
+D) Some other unlisted thing occurs?
+
+A:
+
+You have to specify the order of sacrifice when asked to, and you still have to propose a shortcut that involves sacrificing all your artifacts, as originally proposed.
+Since the Ravager only allows you to sacrifice one artifact per activation, the proposal of "I sacrifice all of my artifacts to Arcbound Ravager" was technically not legal in the first place. From the CompRules:
+
+719.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. 
+
+Of course, if the order of sacrifice didn't matter to any player, it would still be an acceptable proposal. However, since it did matter, your opponent can force you to spell out the order of sacrifice. You may not modify your play as a reaction to your opponent asking about the order of sacrifice. From the Tournament Rules:
+
+4.3 Out-of-Order Sequencing
+All actions taken must be legal if they were executed in the correct order, and any opponent can ask the player to do the actions in the correct sequence so that he or she can respond at the appropriate time (at which point players
+  will not be held to any still-pending actions).
+An out-of-order sequence must not result in a player prematurely gaining information which could reasonably affect decisions made later in that sequence.
+Players may not try to use opponent's reactions to some portion of an out-of-order sequence to see if he or she should modify actions or try to take additional ones.
+
+While the examples for out of order sequencing don't include one similar to your scenario, combining individual actions that can't be combined arguably also fall under that rule.
+

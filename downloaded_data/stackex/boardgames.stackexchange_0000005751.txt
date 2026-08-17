@@ -1,0 +1,30 @@
+Q:
+
+How long will an MTG draft take with varying number of players (approximately)?
+
+I'm planning to have a MTG draft with some of my friends, but I'm not exactly sure how much time I should block out. We'd be using 40 card decks with 3 boosters total.
+
+About how long will the drafting itself take? Does this time vary much with number of players?
+About how long will each individual game between 2 players take? Since we'll have to wait for people to finish occasionally, how long should I budget for each round?
+About how long will the whole thing take? We will have enough rounds so that everyone can play each other once:
+
+4 players: 3 rounds
+5 players: 5 rounds (everyone sits out 1 round)
+6 players: 5 rounds
+7 players: 7 rounds (everyone sits out 1 round)
+8 players: 7 rounds
+
+A:
+
+It depends on whether you use the official rules or house rules.
+In appendix B of the MTG official tournament rules (not the same thing as the comprehensive rules) it gives recommended time limits for sanctioned tournaments:
+
+Each pick has an associated time limit, which starts at 40 seconds and drops by 5 seconds roughly every two cards. The total time allocated to picks for a single pack is 285 seconds.
+Between packs, there is a period for review of the cards you've picked, which is 30 seconds after the first pack, 45 after the second, and 60 after the third.
+Deck construction gets 30 minutes
+Each round gets 50 minutes
+
+So based on these numbers alone, you would need a total of (285/60)*3+(30+45+60)/60+30+50*N = 46.5+50N minutes. In practice, people will need a few minutes between rounds to clear their head and change seats, but for only a few people, that won't be a long process. Still, as a decent estimate, you could set aside an hour per round plus one additional hour for drafting and deck construction.
+My monthly(ish) drafting group has no time limits at all for draft picks. If your group is not full of competitive players and you're just doing it for fun, I highly recommend this. You can still get the drafting and deck construction done in about an hour, since you can always make fun of whoever is the slowest picker at the table ;-) (The draft time depends on the number of cards that are being picked, not the number of players)
+Also keep in mind that Magic tournaments are mentally draining. After 3 or 4 rounds people can start to get tired of playing. In my experience a 3-round tournament works well, and it's possible to adapt it to different numbers of players by doing a Swiss structure with ranking-based pairings.
+

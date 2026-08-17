@@ -1,0 +1,19 @@
+Q:
+
+Collected company + Eternal witness
+
+I cast Collected Company and one of the creature cards I choose to put into the battlefield is Eternal Witness. 
+By the time Eternal witness enters the battlefield, will Collected company be already in the graveyard so I can put it back to my hand?
+
+A:
+
+Yes, you can add Collected Company to your hand.
+It works like this:
+
+Collected Company resolves choosing Eternal Witness
+Eternal Witness is put onto the battlefield and triggers (but is not put on the stack yet)
+Collected Company finishes resolving and is put into the graveyard as the last action of casting a spell
+State based actions are checked and see that Eternal Witness has triggered and it's ability is put onto the stack and targets are chosen
+
+By the time Eternal Witness' ability is on the stack and it's time to choose targets, Collected Company is in the graveyard and can be chosen to be returned to hand
+

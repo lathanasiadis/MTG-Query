@@ -1,0 +1,14 @@
+Q:
+
+What happens if the permanent enchanted by Song of the Dryads gets copied?
+
+If your Jin-Gitaxias, Core Augur get turned into a tree by a Song of the Dryads and the subsequent tree gets copied by a Vesuva or a Thespian's Stage, what exactly happens?
+
+A:
+
+The copy will be a copy of Jin-Gitaxias, Core Augur's original text.
+Song of the Dryads changes a permanent's characteristics, but not its copyable attributes. The changed attributes make it a valid choice for Vesuva's ability and a valid target for Thespian Stage's ability, but those effects still copy the permanent's copyable attributes.
+Rule 702.2 describes how copyable attributes work:
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The copiable values are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, counters, and stickers are not copied.
+

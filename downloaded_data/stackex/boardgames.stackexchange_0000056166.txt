@@ -1,0 +1,59 @@
+Q:
+
+How would casting a Lightning Bolt in response to Giant Growth work in early Magic?
+
+In early Magic—in the early nineties—the rules had a rule that made damage occur on the stack. I'd like to know how a certain situation (described below) would work in the rules at that time:
+
+I have a vanilla 2/2.
+Having priority, I cast Giant Growth on it.
+My opponent, in response to Giant Growth, responds with Lightning Bolt targeting the vanilla.
+
+What happened under those rules?
+
+Thanks to Giant Growth, Vanilla managed to survive, due to the fact that  damage went on the stack, and therefore even if vanilla suffered three damage, it could immediately take advantage of the +3 increase in toughness since Giant Growth is still on the stack.
+
+Or, did the fact that lightning was thrown in response to the Giant Growth automatically lead to the vanilla being sent to the graveyard? (just like the current game)
+
+Even if it may seem trivial, I know for sure that lots of people have actually interpreted the early rules such that the vanilla survives the lightning. I want to verify this is the authentic way it plays, and not a completely mistaken interpretation.
+
+A:
+
+This depends on what era of the game you reference:
+
+Pre-Sixth Edition (1993-1999), which used the batch.
+Sixth Edition (1999) and onwards, which introduced the stack.
+
+Your question referenced the early nineties, but also references the stack. The stack didn't exist in the early nineties, and without it neither did the damage-on-the-stack rule. It's not clear which era you're interested in so I'm going to address both of them.
+Pre-Sixth Edition and the Batch (1993–1999)
+The vanilla survives.
+The MTG Wiki gives us a summary of the batch from the Fourth Edition rules booklet:
+
+Batch (Obsolete)
+A series of non-interrupt fast effects that build on one another as players respond to each other's spells. Batches are resolved by first-in, last-out for all effects. Any damage done to creatures or players isn't applied until the end of the batch, but creatures that are destroyed through means other than damage are sent to the graveyard immediately and regeneration and/or death effects are checked when this occurs.
+— From the The Pocket Players' Guide for Magic: The Gathering - Fourth Edition (1995)
+
+In Alpha, both Giant Growth and Lightning Bolt were instant spells and therefore used the batch. (As opposed to interrupts, which would play out differently.)
+Essentially, the nature of the batch would be that we resolve the entire thing in one go, most recent first... but apply damage only at the end! That gives us the following outcome:
+
+We begin resolving the batch. Lightning Bolt resolves first, because it was cast last. Its damage is not applied yet.
+Giant Growth resolves, and the vanilla gets +3/+3.
+The batch ends. The damage from Lightning Bolt is applied only now. The vanilla is now a 5/5 and survives the 3 damage.
+
+This means your first bullet point, while referencing the stack, sounds unintuitive and incorrect—because you're actually describing what happens with the batch instead.
+Side note: What would change if one of these spells was an interrupt?
+The behaviour of an interrupt was to resolve immediately, instead of waiting until we start resolving the batch. If Lightning Bolt was an interrupt, it would actually be able to apply its damage before Giant Growth applied its effect, which would kill the vanilla. (If Giant Growth were an interrupt, there'd be no overall difference in outcome.)
+Sixth Edition and the Stack (1999 onwards)
+The vanilla dies.
+The concept of the stack was introduced with Sixth Edition on 21 April 1999. Thanks to the Wayback Machine and Venser's Journal we have an archived copy of the 23 April 1999 Comprehensive Rules. Reviewing it, we can see that damage is only put on the stack as part of the combat damage step. Spells just deal their damage immediately as part of resolution:
+
+408.2. Actions That Don't Use the Stack
+408.2a Effects don't go on the stack. When a spell or ability resolves, its instructions are executed immediately.
+
+This means we get this outcome:
+
+Lightning Bolt resolves first, because it was cast last. It deals 3 damage to the vanilla.
+We check state-based actions (rule 420) and the vanilla is destroyed & sent to the graveyard for having lethal damage (rule 420.5c).
+We try to resolve Giant Growth, but it has no valid target remaining and is countered (413.3).
+
+That's what we'd expect today, with the exception that Giant Growth would simply fail to resolve instead of being countered (because of Dominaria's rules changes in 2018).
+

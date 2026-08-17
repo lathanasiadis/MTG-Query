@@ -1,0 +1,78 @@
+Q:
+
+What happens if the legend rule doesn't apply to only one of a pair of legendary creatures with the same name?
+
+Brothers Yamazaki has the ability
+
+If there are exactly two permanents named Brothers Yamazaki on the battlefield, the "legend rule" doesn't apply to them.
+
+So, say I control two Brothers Yamazaki (and there are no others on the battlefield), a Grizzly Bears, and a Leyline of Singularity, and I have a Spy Kit attached to one of the Brothers.
+Spy Kit has the ruling
+
+The set of names the equipped creature has includes the names of all nonlegendary creature cards in the Oracle card reference, including the back faces of double-faced cards. Notably, the equipped creature won’t gain the names of tokens, such as Zombie, Goblin, and similar. It also won’t gain the names of noncreature cards that have become creatures, such as a Wandering Fumarole that has become a creature.
+
+So, the overall result here is that I have 3 legendary creatures:
+
+One named "Brothers Yamazaki"
+One named "Grizzly Bears"
+One with many names, including both "Brothers Yamazaki" and "Grizzly Bears"
+
+Then because of the ability on Brothers Yamazaki, the "legend rule" applies to creature number 2, but not to creature number 3. What exactly does that mean? What happens to creature number 2?
+
+A:
+
+Independent of how you arrived at this position, you now get to choose between the Brothers Yamazaki that has the Spy Kit attached and the Grizzly Bears. The premise of the question is wrong; the legendary rule still applies to each Brothers Yamazaki in play. However, it does not apply to a grouping of exactly two Brothers Yamazaki.
+The specific exception created by the rules texts of the Brothers Yamazaki allows a pair of legendary creatures named Brothers Yamazaki to exist on the battlefield, directly contradicting rule 704.5K. Refer to the Magic the Gathering Golden Rules:
+
+101.1. Whenever a card’s text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. The only exception is that a player can concede the game at any time (see rule 104.3a).
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+The card text of Brothers Yamazaki only prevents the legend rule from triggering when the game sees two of them existing. Look back at the rules text:
+
+If there are exactly two permanents named Brothers Yamazaki on the battlefield, the "legend rule" doesn't apply to them.
+
+The special condition created by the rules text applies specifically to the pair of them.  It does not stop the Legendary rule from seeing the two Legendary "Grizzly Bears." Since two creatures named "Grizzly Bears" that are legendary exist under your control, you must choose one of them and sacrifice the other. Further, the interaction of two Brothers Yamazaki, Leyline of Singularity, and Spy Kit will affect every other creature you control.
+Twitter?
+The persistence of this rules hole drove me to Twitter for answers, with a direct Tweet to Wizards_Magic, Gavin Verhey, and Matt Tabak.
+
+Rule Hole challenge: @GavinVerhey @tabakrules @wizards_magic - Brothers Yamazaki+Spy Kit+Leyline of Singularity - drunkcynic
+
+This prompted a response from Matt Tabuk:
+
+@drunkcynic @GavinVerhey @wizards_magic Nothing happens. You continue to control all three permanents. - tabakrules
+
+Which confused me, so I sought to get some clarity:
+
+@TabakRules @GavinVerhey @wizards_magic Clarity: W/ LeylineOfSingularity, will Spy Kit'ed 1/2 Brothers Yamazaki 704.5k non-legend creatures? - drunkcynic
+
+Initially, I thought my hopes were dashed:
+
+@drunkcynic @GavinVerhey @wizards_magic Two Yam Bros. means ignore those perms and look at everything else to see if legend rule applies. - tabakrules
+
+Yet, all was not lost:
+
+@drunkcynic @GavinVerhey @wizards_magic Spy Kit has u lose creatures until the legend rule doesn't apply, likely by offing the eq. creature. - tabakrules
+
+That, and I think Gavin Verhey was hungry:
+
+Mmmmm, Yam Bros. Delicious! #wotcstaff - gavinverhey
+
+Disclaimer:
+Resorted to pinging these two only because there was a shortage of other avenues. Ask Wizards has been defunct for a while, and there wasn't a clear answer from the existing rules or sources.
+Deeper Analysis
+Doesn't Apply - There are two instances in Gatherer for the rules text, "doesn't apply:" Mirror Gallery, released in Betrayers of Kamigawa, and Brothers Yamazaki, released in Champions of Kamigawa. Each affect the application of the Legend Rule. Mirror Gallery sweeps broadly in its contradiction of the rule, removing it from the game entirely. The Borthers Yamizaki narrow that restriction down considerably, only stopping it from applying to two of them.
+Them/They/Those - Their are 793 occurrences in Gatherer of cards that include "They," "Those," or "Them" in their rule text. Each apply to a grouping of objects, be it creatures targets, cards being considered, or other effects, where something is affecting them jointly or you are choosing a portion of them. The rules texts of cards are, for the most part, rather exact; the "They," "Those," or "Them" is intentional, just as the times where further rules text is used to narrow the application of effects to a portion of the group. As an example, consider Tamyo, Field Researcher. Her first ability states:
+
++1: Choose up to two target creatures. Until your next turn, whenever either of those creatures deals combat damage, you draw a card.
+Here, the ability establishes a grouping of two creatures, with a result if either member of the group satisfies the condition.
+
+Narrowing the scope of the search further, consider just cards with the rule text "each of them." Here, the cards create a group, and then apply an effect to each member of that group. In contrast, Brothers Yamazaki ability establishes a group, consisting of exactly 2 Brothers Yamazaki, applies an effect to the group. The legendary rule applies to each Brothers Yamazaki individually, and to a group of three or more Brothers Yamazaki. Refer back to the earlier citation of Rule 101.1; the ability of Brothers Yamazaki only contradicts the legendary rule 704.5k for the group consisting of exactly two Brothers Yamazaki. it does not conradict the rule for each of them, just them.
+Yes, Magic the Gathering uses Them, Those, and They to address a group objects affected by an event. The event will then either work with the entire group, or affect portions of the group, using modifiers like: Each, the Rest, from Among, etc. There is a certain refined legalese in how the rules texts of Magic the Gathering cards is constructed, based on the grammar and structure of the English language. "to them" occurs three times in the entire card pool; Brothers Yamazaki, Silence the Believers, and Gauntlets of Chaos. In each, the effect creates a group, and then the group is affected. In every card where an effect creates a group, and affects a member of the group, the rules text explicitly does so. Since the rules text for Brothers Yamazaki doesn't say "each of them" or "either of them," it doesn't affect the two individually, just the group.
+A notable factoid.
+Champions of Kamigawa brought the first change to the legendary rule. Prior to Champions of Kamigawa, the first player to get a legendary object in play "won", turning each other copy of that card in the game into a dead draw. With Champions of Kamigawa, follow on copies of the card would reset the condition instead, causing all copies in play to be sacrificed. This mattered in part because of the numerous "Legendary" cards in Kamigawa.
+It was with Magic 2014 that we got the rule as it stands today, where 705.4K looks at each players battlefield independently. While each player can control copies of the same legendary object, one player can't control two copies without effects that specifically allow him to do so. However, there is also a unique interaction between Brothers Yamazaki and the Legendary Rule as it stands, looking at the Oracle ruling (specifically noting the date, coinciding with Magic 2014 release):
+
+7/1/2013   If a third Brothers Yamazaki enters the battlefield, the legend rule will apply. If one player controls more than one Brothers Yamazaki at that time, that player will have choose one and put the rest into his or her graveyard.
+
+While the current Legendary rule only cares about your battlefield, Brothers Yamazaki still looks at the entire battlefield. Baring any additional effects, there can only be two Brothers Yamazaki in play at once. When a third comes into play, the player with more than one follows the actions of 704.5K.
+

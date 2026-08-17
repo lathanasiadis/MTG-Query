@@ -1,0 +1,26 @@
+Q:
+
+Using Liege of the Tangle to awaken a manland
+
+I have a Liege of the Tangle on the battlefield that has struck a player. I've resolved the ability and put an awakening counter on a Stirring Wildwood, a "manland," so to speak. What happens when I go to trigger the ability of the Stirring Wildwood? Does the land remain an 8/8? Or does it turn into an 11/12 with reach?
+
+A:
+
+When multiple overlapping effects occur in Magic, they are resolved by the "layer system", or formally Comprehensive Rule 613 "Interaction of Continuous Effects"; effects in lower (sub)layers are resolved before effects in higher (sub)layers.
+The power and toughness effects of both Liege of the Tangle's "is an 8/8 green Elemental creature" and Stirring Wildwood's "becomes a 3/4 green and white Elemental creature with reach" effects are in
+
+Layer 7b: Effects that set power and/or toughness to a specific number or value are applied.
+
+This means that Rule 613.7 applies:
+
+613.7 Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+There are a lot of subclauses in 613.7 but basically it is "things that resolve first have a lower timestamp". In your case, Liege of the Tangle's effect resolved first so has the lower timestamp, and therefore Liege of the Tangle's effect is applied first, and Stirring Wildwood's effect second. This results in you having a 3/4 creature.
+For the other effects:
+
+Types and subtypes are set in Layer 4, but as both effects are changing the type to "Creature Land" and subtype to "Elemental" there is nothing complicated to resolve here.
+The conflicting colour effects are resolved in timestamp order in Layer 5, and again in favour of the later Stirring Wildwood's effect, making the object green and white.
+The adding of reach from Stirring Wildwood happens in Layer 6.
+
+Therefore after all this, you have a 3/4 green and white Creature Land with the Elemental subtype and reach. Unless you really wanted your creature to be white or to have reach, you probably didn't want to do this.
+

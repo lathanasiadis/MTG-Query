@@ -1,0 +1,21 @@
+Q:
+
+When does the Legend Rule take place?
+
+Say my opponent has Elesh Norn on the table and plays Phyrexian Metamorph as a copy of her. As I understand from her Gatherer-page, all my creatures will now briefly have -4/-4. 
+So my question is now, suppose I have Obsidian Fireheart (or any other elemental with at least 3 toughness) in play along with two Incandescent Soulstokes, then obviously both my Soulstokes die as they have -1 toughness each, but will Obsidian Fireheart die as well? In other words, when exactly during this process does one copy of Elesh Norn leave the battlefield due to the legendary rule?
+
+A:
+
+The Legendary rule is one of the state-based actions which are performed at several points in a turn. 
+
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for
+  state-based actions, then performs all applicable state-based actions
+  simultaneously as a single event.
+
+State-based actions are also what kills created with non-positive toughness.
+During the resolving of a spell, state-based actions are not performed. So when the copy of Elesh Norn enters the battlefield, there are temporarily two of them, and your creatures have -4/-4. The 3/3 creatures will temporarily be -1/-1.
+Then state-based actions are performed, and those creatures and all but one of those Elesh Norns are killed simultaneously. From that moment, your remaining creatures have -2/-2.
+
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability. 
+

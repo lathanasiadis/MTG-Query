@@ -1,0 +1,20 @@
+Q:
+
+When do transformed creatures go back to their original forms?
+
+It's not clear to me from reading Double-Faced Card Rules: do transformed creatures revert back to their original type automatically? And if so, when? End of your turn or beginning of your next turn?
+
+A:
+
+Double-faced cards only transform when they (or another effect like Moonmist) explicitly say they transform.  For example, Ulvenwald Mystics says on its front side:
+
+At the beginning of each upkeep, if no spells were cast last turn, transform Ulvenwald Mystics.
+
+and the back side (Ulvenwald Primordials) says:
+
+{G}: Regenerate Ulvenwald Primordials.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ulvenwald Primordials.
+
+Thus, the conditions for transforming in both directions are printed on the card.
+Loyal Cathar, on the other hand, has a transformation-causing ability on its front side but no transformation-related abilities on its back, so once it transforms, it stays that way until it leaves the battlefield.
+

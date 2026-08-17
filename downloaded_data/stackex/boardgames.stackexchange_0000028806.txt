@@ -1,0 +1,16 @@
+Q:
+
+"Can't attack you unless" in Two-Headed Giant
+
+How do cards like Ghostly Prison and Propaganda work in 2HG? 
+More specific, how do you apply the "Can't attack you unless X" to the game. Does it work for both players, i.e. no matter which player you attack you need to pay mana. Or does it only protect the player who controls the effect. In the latter case it would significantly reduce the effectiveness.
+
+A:
+
+Propaganda etc. apply whenever the enemy team attacks your team.
+In 2HG games you cannot be attacked individually, you always attack or defend as a team, so all attacking creatures attack both players at once and Propaganda costs will have to be paid for those creatures that don't attack Planeswalkers.
+
+810.7a Each team’s creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player.
+810.7c As the declare attackers step begins, the active team declares attackers. If an effect of an object controlled by a defending player prohibits a creature from attacking him or her, that creature can’t attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole. See rule 508.1.
+508.1g If any of the chosen creatures require paying costs to attack, the active player determines the total cost to attack. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes “locked in.” If effects would change the total cost after this time, ignore this change.
+

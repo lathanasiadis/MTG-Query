@@ -1,0 +1,14 @@
+Q:
+
+How does combat damage work when one creature blocks multiple attackers?
+
+If I have Brave the Sands, am I allowed to block both a 6/6 flying and a 5/4 with my 1/2 Gurmag Swiftwing, and take 0 damage?
+
+A:
+
+Yes, the combination of cards you described allows you to block both creatures.
+Since Brave the Sands allows you to declare your creature as a blocker for 2 separate attackers, both will be considered blocked, your Swiftwing will die, and you will receive no damage. Declaring blockers does not require that your creature be able to survive combat with any of the attackers, and both declarations and damage happen simultaneously, so there's no point where your creature will be destroyed "before" it can block the other attacker.
+A couple things worth noting: 
+When a creature blocks multiple attackers, the defending player chooses the order in which the blocking creature's damage is dealt. In your example it doesn't make much difference since your creature couldn't kill either attacker, but if you were blocking instead with a 4/4 creature, you could either deal 4 damage to the 5/4 and destroy it, or you could deal 4 damage to the 6/6 in hopes of damaging it later that turn. 
+If either attacker has trample, any damage beyond your creature's toughness can be assigned to you.
+

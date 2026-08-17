@@ -1,0 +1,17 @@
+Q:
+
+How does Chains of Mephistopheles interact with Dredge
+
+If Chains of Mephistopheles is on the battlefield, and I would use my a draw other than my first for the turn to trigger a dredge effect like Dakmor Salvage. What happens?
+
+A:
+
+First, let's look at a flowchart explaining how Chains of Mephistopheles works.
+Now, when you go to draw a card (other than the one that is a turn based action during your draw step) you have 2 replacement effects trying to replace that draw, the Chains and Dredge. You get to choose which one to apply first (616.1).
+
+If you choose to apply Dredge first you can no longer apply the Chains since you are no longer drawing a card (614.6).
+If you choose to apply the Chains effect first you can still Dredge as long as you would draw a card after discarding, if you mill (because you had no cards to discard) you cannot apply Dredge.
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order.
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+

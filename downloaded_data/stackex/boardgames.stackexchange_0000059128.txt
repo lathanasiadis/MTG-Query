@@ -1,0 +1,24 @@
+Q:
+
+Why do people play mana dorks instead of mana enchantments?
+
+As I write this question, Orcish Bowmasters (and to a lesser extent Wrenn and Six) is strongly suppressing mana dorks. These two cards trade extremely favorably against the likes of Birds of Paradise and Noble Hierarch, and the 2-toughness mana dorks are significantly more popular as a result. (Unfortunately there really is only Delighted Halfling and Gilded Goose with two toughness, and both of them have serious drawbacks relative to the Birds/Hierarch.)
+Given that, why do people still run mana dorks instead of Utopia Sprawl? The latter seems like the much more reliable way to ramp, since it's significantly harder to kill.
+Examples of recent decks using mana dorks instead of Utopia Sprawl by seasoned deckbuilder SaffronOlive: Deck 1, Deck 2
+
+A:
+
+There's a lot of reasons why mana creatures are preferred over auras, some are very specific, others are more general:
+Search - An early game play in some decks is to Green Sun's Zenith for 0 or 1, fetching either Dryad Arbor (a green land creature with 0 mana value(MV)) or a one MV mana dork. Very little searches for auras and enchantments compared to the ability to find creatures or lands, and what does is more expensive and doesn't put the card into play.
+Cost - Most played mana dorks cost one mana, Scryfall has a tag which finds 28 one MV mana dorks. There are exactly 2 one MV mana auras in magic Wild Growth and Utopia Sprawl all the rest have a higher cost to start, making them slower and...
+Restrictive use - The two one MV mana auras are pretty restrictive. One only makes green mana, the other only goes on forests and makes one color chosen when you play it. Of the 28 one MV mana dorks from the scryfall search, almost half of them can make more than one color of mana, and most of those make any color. A few even add more than one mana, or untap lands which can have other benefits.
+Combat - Mana dorks can enter combat where mana auras can't. When faced with a big enough attacker which doesn't trample, throwing a mana dork in front of it can stop you from losing a game, something you can't do with non-creatures like auras. There are even pro matches that were famously (GP Lyon 2018) won because a player had a Dryad Arbor to block with (and that caused a tournament rules change to put creatures clearly together, so possible blockers weren't hidden with lands). There are also many times when you can swing with your mana dork on turn two against empty boards if you didn't need the mana, potentially speeding up the game clock, this is particularly true when...
+Lords and finishers - A lot of mana dorks are elves, and in elf tribal what starts out as a 1/1 mana dork turns into a 5/5 or bigger actual threatening body. Noble Hierarch and Ignoble Hierarch have Exalted, making a single other attacker bigger even after you used them for mana. They all also make one more attacker when using a finisher like Triumph of the Hordes or Craterhoof Behemoth.
+Fragile - But the biggest reason is people simply avoid auras. They are considered the weakest type of card because they don't stay around like equipment when whatever they are on gets removed. While land destruction isn't as common as it once was, there still are plenty of cards that hate on land, mostly other lands like the most recent Demolition Field or Boseiju, Who Endures. But even when talking about being destroyed...
+Expendable - These mana dorks usually are expendable and will either be ignored or bait out an opponent's removal early enough on. It's better for the player that is playing the mana dork to have the Orcish Bowmasters on the field sooner where it can be removed and won't be a surprise response to card draw effects. Even though "Bolt the Bird" has been a magic adage for a while, people still played Birds of Paradise, and partly because it made their opponent use that Lightning Bolt sooner rather than keep it for later.
+Some things may change, depending on where the value ends up being, but right now there are still many things that make creature based mana acceleration better than aura based mana acceleration. If they did have non-aura enchantment based acceleration, it might end up in a similar place to artifact based mana, but we don't really have that now.
+
+There are two notable exceptions that specifically play mana auras, Mono Green Devotion and Enchantress decks.
+Mono Green Devotion wants a single land to tap for as much as possible, this means using one and two drop mana auras piled on a single forest that Arbor Elf and Kiora, Behemoth Beckoner can untap, doubling the effects of the auras.
+Enchantress decks are specifically all about playing enchantments for ETB and on cast triggers like Sythis, Harvest's Hand or cards with Constellation, this gives more of an upside to using an aura over non-enchantment creatures.
+

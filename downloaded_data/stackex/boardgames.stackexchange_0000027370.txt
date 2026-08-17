@@ -1,0 +1,16 @@
+Q:
+
+Does Hellkite Tyrant in combination with Mycosynth Lattice steal lands?
+
+Say you attack someone for player damage with Hellkite Tyrant whilst Mycosynth Lattice is in play (played by you if it makes a difference). Do you get control of all of your opponents lands? The answer to this question says that lands are permanents, and since all permanents are turned in to artifacts does Hellkite Tyrant steal them? I'm asking this because it feels so OP that I'm wondering if there is more to this.
+
+A:
+
+Yes, as you stated correctly, lands are permanents:
+
+110.1. A permanent is a card or token on the battlefield.
+...
+110.4. There are five permanent types: artifact, creature, enchantment, land, and planeswalker.
+
+Enemy Lands are Artifact [Basic] Lands now due to Mycosynth Lattice, and nothing stops you from getting control of them if you deal combat damage with Hellkite Tyrant.
+

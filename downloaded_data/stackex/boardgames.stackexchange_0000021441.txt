@@ -1,0 +1,20 @@
+Q:
+
+What happens if Humble Defector is sacrificed before its ability resolves?
+
+Humble Defector reads
+
+{T}: Draw two cards. Target opponent gains control of Humble Defector. Activate this ability only during your turn.
+
+Anthony controls Humble Defector and Butcher of the Horde. He activates Humble Defector's ability and holds priority. He then sacrifices Humble Defector to activate Butcher of the Horde's ability.
+When Humble Defector's ability resolves, does Anthony draw two cards?
+
+A:
+
+Yes. Abilities exist on the stack independently of their source.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. [...]
+
+That means that even if the object that has the ability changes or ceases to exist, the ability spawned from it will go on to resolve as normal.
+In this case, that means you get to draw two cards, then the targeted opponent attempts to gain control of Humble Defector and fails to do so.
+

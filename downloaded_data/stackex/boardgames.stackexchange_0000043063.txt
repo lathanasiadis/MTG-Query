@@ -1,0 +1,15 @@
+Q:
+
+If I clone a Dryad Arbor is the clone a land?
+
+If my opponent plays a Dryad Arbor and I use a Clone to copy it, is the clone a land as well? Can I kill the clone with a Stone Rain? I'm assuming that if the clone is a land that it does not count to your one land played a turn limit?
+
+A:
+
+Yes, the new Dryad Arbor copy will be a land, and it can be destroyed by Stone Rain. Rule 706.2 describes a copy effect copies:
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+This means that the copy will have the name "Dryad Arbor", no mana cost, a green color indicator, the type line "Land Creature - Forest Dryad", no rules text, and the power and toughness 1/1, all exactly like the card it is copying.
+This does not count as your land play. To do this you do not play a land, you cast a spell that happens to become a land as it resolves.
+

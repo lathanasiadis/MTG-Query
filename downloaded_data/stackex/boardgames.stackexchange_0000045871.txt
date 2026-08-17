@@ -1,0 +1,12 @@
+Q:
+
+what does "you control enchanted creature" mean
+
+I'm confused. Corrupted Conscience has an ability where it says you control enchanted creature. Does that mean you can put it on an opponent's creature and use that creature to attack the other player? Can I use it to capture a Humble Defector and gain its draw 2 cards ability?
+
+A:
+
+It creates a continuous effect that changes the controller of the enchanted creature to you. As long as the continuous effect exists (i.e. as long as the creature is enchanted by Corrupted Conscience), and only as long as the continuous effect exists, you will be the creature's controller. As its controller, you can activate its abilities, you can sacrifice it, you can attack with it, you can block with it, and any reference to "you" or "your" in its abilities refers to you.
+Note that changing a permanent's controller doesn't cause it to change zone, so it doesn't trigger abilities that would trigger on it leaving or entering the battlefield, it doesn't lose attached permanents (be they Auras, Equipment, or Fortifications), it doesn't lose counters, etc. However, it does regain "summoning sickness" (since it stopped being "under its controller's control continuously since their most recent turn began").
+Note that Humble Defector's ability also creates a change of control effect. The most recently created change of control effect that still exists wins out, so using a stolen Humble Defector's ability will cause you to lose control of it. See this for details.
+

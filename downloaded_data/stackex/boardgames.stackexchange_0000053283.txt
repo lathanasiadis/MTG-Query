@@ -1,0 +1,18 @@
+Q:
+
+Do creatures created after first strike damage contribute to exalted?
+
+Let's say I have Pollenbright Wings on a creature with double strike, and I have given all my creatures exalted (say with First Slivers Chosen, and Arcane Adaptation choosing slivers).
+Does the exalted from the new tokens created (which are now slivers), increase the regular damage from the double striking creature? Or is that checked after all the damage is done?
+
+A:
+
+No
+
+702.82. Exalted
+702.82a Exalted is a triggered ability. “Exalted” means “Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.”
+702.82b A creature “attacks alone” if it’s the only creature declared as an attacker in a given combat phase. See rule 506.5.
+
+Exalted triggers when you attack, and then after the trigger resolves (which it must before first strike damage can be dealt) it doesn't trigger again. You need the exalted creature to be on the battlefield when you declare attackers for it to contribute; creating more exalted creatures afterwards has no effect.
+In the same way, killing a creature with exalted after exalted has resolved does not magically shrink the attacker (and neither does killing it before the trigger has resolved, usually).
+

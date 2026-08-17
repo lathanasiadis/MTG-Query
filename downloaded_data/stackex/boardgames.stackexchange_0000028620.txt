@@ -1,0 +1,14 @@
+Q:
+
+Creatures with variable power and toughness
+
+If I summon a creature like Boneyard Wurm whose power and toughness depends on the number of creatures in my graveyard, and afterwards another creature of mine dies, do the Boneyard Wurm's power and toughness increase? What about the opposite: if a creature card is removed from my graveyard, do its power and toughness decrease?
+
+A:
+
+Yes, that creature's power and toughness will change as the number of creatures in your graveyard changes. It doesn't say something weird like "when it enters the battlefield, count the creatures in your graveyard, etc etc". It just says:
+
+Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.
+
+So that's what it does. However many creature cards are in your graveyard right at this moment, that's its power and toughness. Add one, they go up by one, remove one, they go down by one.
+

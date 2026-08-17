@@ -1,0 +1,23 @@
+Q:
+
+Ability to cast for overload cost or just cast
+
+Dreadhorde Arcanist allows you to "cast target instant or sorcery card with converted mana cost equal to or less than dreadhorde arcanists power from your graveyard without paying its mana cost" but for cards with overload costs that state in it's own separate ruling that we "may" cast it for its overload cost, can I use dreadhorde archanist to reach and have the ability to cast a card like "weapon surge", then choose to pay its overload cost for its overload effect?
+
+A:
+
+No, you cannot pay the overload cost for spells cast that way.
+Dreadhorde Arcanist allows you to cast a spell with an alternate cost of "without paying its mana cost", as described in rule 118.9:
+
+Some spells have alternative costs. An alternative cost is a cost listed in a spell's text, or applied to it from another effect, that its controller may pay rather than paying the spell's mana cost. Alternative costs are usually phrased, "You may [action] rather than pay [this object's] mana cost," or "You may cast [this object] without paying its mana cost." Note that some alternative costs are listed in keywords; see rule 702.
+
+The Overload ability also defines an alternate cost in rule 702.95a:
+
+Overload is a keyword that represents two static abilities that function while the spell with overload is on the stack. Overload [cost] means "You may choose to pay [cost] rather than pay this spell's mana cost" and "If you chose to pay this spell's overload cost, change its text by replacing all instances of the word 'target' with the word 'each.'" Using the overload ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
+
+Then rule 118.9a says this:
+
+Only one alternative cost can be applied to any one spell as it's being cast. The controller of the spell announces their intentions to pay that cost as described in rule 601.2b.
+
+Since Dreadhorde Arcanist's effect specifically allows you to cast the spell with its alternate cost, you cannot choose to pay the overload cost.
+

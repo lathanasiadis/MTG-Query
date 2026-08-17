@@ -1,0 +1,14 @@
+Q:
+
+Would enchanting an opponents Stuffy Doll with Pariah cause a Draw?
+
+I'm not sure how I haven't stumbled upon this amazing combo of cards before! I was just thinking, would it cause an infinite loop if I controlled a Pariah that was attached to an opponents Stuffy Doll?
+In turn would this be a draw?
+
+A:
+
+Yes, that would be a draw as soon as any damage would be dealt to you or the Stuffy Doll, assuming that you are the chosen player for Stuffy Doll.
+Once damage would be dealt to you or Stuffy Doll, that damage is dealt to Stuffy Doll. Then Stuffy Doll's triggered ability triggers and it tries to deal damage to you, but it deals that damage to itself instead, which triggers its ability again. This creates an infinite loop, which results in a draw because of rule 719.4:
+
+If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+

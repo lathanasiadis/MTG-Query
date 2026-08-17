@@ -1,0 +1,16 @@
+Q:
+
+Does First Strike cause a creature to deal damage twice?
+
+Do creatures with first strike deal first and normal strike damage? I attacked with a Goblin Machinist, a 0/5, that had +5/+0, and my friend argued that his 3/1 first strike would kill it, is that true?
+
+A:
+
+No, First Strike does not cause your creature to deal damage twice; it only causes your creature to deal damage before normal damage is dealt.
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+So in the second / regular combat damage step, creatures with first strike will not deal damage, because they already dealt their damage.
+If your attacking creature is blocked by a 3/1 with first strike, it would take a total of 3 damage. If it has 3 or less toughness, then it will die in the first strike damage step, before it can deal damage. If it has 4 or more toughness (which Goblin Machinist does), then it will still be alive to deal its damage after it has taken the 3 damage.
+Your friend may have been confusing First Strike with Double Strike, which is an ability that causes creatures to deal damage twice.
+

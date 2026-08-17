@@ -1,0 +1,33 @@
+Q:
+
+Can an opponent destroy an Iron Maiden during their upkeep to avoid taking damage from it?
+
+I'll lay out the situation.  I have an Iron Maiden in play.  My opponent begins his turn with 10 cards in his hand (including a Disenchant), and 1 life.  Iron Maiden's ability triggers at the beginning of his upkeep.
+Can he Disenchant it in response to avoid taking the damage?  Is there some other time after untap phase that he can Disenchant it, or was he doomed to lose from the moment his turn began?
+
+A:
+
+No.  The iron maiden's ability goes onto the stack before any player gets priority, and it will resolve regardless of whether it's source is still on the battlefield when it does.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source
+after that time won’t affect the ability. Note that some abilities
+cause a source to do something (for example, “Prodigal Pyromancer
+deals 1 damage to target creature or player”) rather than the ability
+doing anything directly. In these cases, any activated or triggered
+ability that references information about the source because the
+effect needs to be divided checks that information when the ability is
+put onto the stack. Otherwise, it will check that information when it
+resolves. In both instances, if the source is no longer in the zone
+it’s expected to be in at that time, its last known information is
+used. The source can still perform the action even though it no longer
+exists.
+
+.
+
+503  Upkeep Step
+503.1. First, any abilities that trigger at the beginning of the upkeep step and any abilities that triggered during the turn’s untap
+step go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+503.2. Second, the active player gets priority. Players may cast spells and activate abilities.
+503.3. If a spell states that it may be cast only “after [a player’s] upkeep step,” and the turn has multiple upkeep steps, that spell may
+be cast any time after the first upkeep step ends.
+

@@ -1,0 +1,17 @@
+Q:
+
+How does Shadowborn Demon work?
+
+A question about the rules on Shadowborn Demon:
+
+When Shadowborn Demon enters the battlefield, destroy target non-Demon creature.
+At the beginning of your upkeep, if there are fewer than six creature cards in your graveyard, sacrifice a creature.
+
+Firstly, I understand that you have to destroy a creature (even if it's your own), what if there are no other non-demon creatures out? Can you play the card?
+If Shadowborn Demon is the only card on your side and you don't have six or more creatures in your graveyard do you have to sacrifice it?
+
+A:
+
+You can play the card even if there are no non-Demon creatures. The "When Shadowborn Demon enters the battlefield" ability is a triggered ability, it doesn't happen until after the Demon is finished being cast and resolves. Once it does, if there are no legal targets, then the triggered will be removed from the stack immediately after being added; it won't even try to resolve[CR 603.3d].
+For your second question, yes, you would be forced to sacrifice the Demon if there are no other creatures to sacrifice. The "Sacrifice a creature" is not optional, it is an ability that is triggered at the beginning of your upkeep. So long as you don't have 6 or more creature cards in your graveyard, you must sacrifice a creature.
+

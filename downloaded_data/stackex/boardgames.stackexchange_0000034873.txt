@@ -1,0 +1,17 @@
+Q:
+
+Can I untap Nettle Drone in the untap step?
+
+I was playing the game with my dad when I dealt one damage with Nettle Drone. In my untap step, I untapped it. My dad thought this wasn't allowed because it says "Whenever you cast a colorless spell, untap nettle drone". I argued that the card doesn't say it doesn't untap in the untap step.
+Who was correct?
+
+A:
+
+You are correct. All permanents will always untap during the untap step UNLESS a continuous effect stops them from untapping. This continuous effect could come from
+
+its own static ability (e.g. Basalt Monolith),
+another object's static ability stops (e.g. Arena of the Ancients), or
+a non-static ability (e.g. Frost Lynx).
+
+Nettle Drone's triggered ability lets you untap it when you cast a colourless spell in addition to the normal conditions where it would untap (that is, during your untap step).
+

@@ -1,0 +1,22 @@
+Q:
+
+Jace, Telepath Unbound and Casting a Spell from the Graveyard
+
+I was playing MTG Duels.
+I had Jace, Telepath Unbound on the battlefield and activated its second ability:
+
+You may cast target instant or sorcery card from your graveyard this
+  turn. If that card would be put into your graveyard this turn, exile
+  it instead.
+
+The target was Adverse Conditions in the graveyard. However, there was no effect and it wasn't exiled either.
+Why was there no effect?
+
+A:
+
+I don't know how MTG Duels exactly works but my guess is this, the card says
+
+You may cast target instant or sorcery card from your graveyard this turn
+
+Which means that you are able to target a card in your graveyard but decide to not cast it. After this ability resolves you still have to manually cast it from your graveyard. You have the entire turn for that. It doesn't automatically get cast when the ability resolves.
+

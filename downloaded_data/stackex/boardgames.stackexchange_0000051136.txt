@@ -1,0 +1,18 @@
+Q:
+
+Liliana, Untouched by Death and Ashes of the Fallen Interaction?
+
+How does Liliana, Untouched by Death's +1 ability interact with Ashes of the Fallen (naming Zombie)?
+This question was asked about a similar interaction between Ashes and Necromancer's Stockpile, but I'm not sure if there was a definitive answer.
+I'm curious if the wording of the cards makes a difference here. For example, Necromancer's Stockpile states "if the discarded card was a Zombie card" (i.e. before it was discarded) whereas Liliana's +1 states if a milled card "is a Zombie card" (i.e. after it was milled into the graveyard).
+
+A:
+
+Liliana, Untouched by Deaths' +1 considers every moved creature card a Zombie card with Ashes of the Fallen naming Zombie on the battlefield.
+By the time Liliana's ability checks the three cards for their type, they are already in the graveyard, and the creature cards among them are Zombies because of Ashes of the Fallen. Ashes of the Fallen has a static ability which creates a continous effect.
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 113.6.
+
+Since activated abilities resolve in the order they're written, the cards are Zombies as soon as they enter the graveyard. The next instruction checks for the cards being Zombies and finds that they are.
+I can't explain the difference in wording ("was" and "is") between Liliana and Stockpile, even though they seem to do very similar things: move cards from a hidden zone to the graveyard and check if they had certain properties. Generally, there seems to be a difference between "If something was a" and "If something is a", but I don't understand the pattern enough to draw general wording rules from it.
+

@@ -1,0 +1,14 @@
+Q:
+
+Does Into the Wilds stack?
+
+The enchantment Into the Wilds allows a player to look at the top card of their library and play it if it's a land.
+If I have 4 Into the Wilds in play, can I look at the top card four times, and, in theory, play 4 lands before my draw step?
+
+A:
+
+They do stack, but only if you get the right cards on top of your library.
+Into the Wilds has a triggered ability. At the beginning of your upkeep, four triggered abilities (one for each copy of Into the Wilds) are put on the stack, and we resolve then one at at time.
+So if the first trigger resolving reveals a land card and you put it into play, then the next trigger will reveal a new card. But if it doesn't reveals a land card, then next ones will just reveal the same card again.
+So they stack only so far as they keep revealing lands. As soon as one reveal a non land card, the remaining ones are just redundant (unless of course you somehow change the top card or your library before the next trigger resolves. There are a lot of cards that would allow you to do that).
+

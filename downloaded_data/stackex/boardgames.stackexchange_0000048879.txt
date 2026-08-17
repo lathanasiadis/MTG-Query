@@ -1,0 +1,17 @@
+Q:
+
+Untapping a creature enchanted with Charmed Sleep
+
+I have a question that relates to untapping a creature enchanted by Charmed Sleep. It says "Enchanted creature doesn't untap during its controller's untap step". That's clear.
+But when someone has an instant or activated ability that causes the creature to untap? Does this creature untap then? What happens to this Aura? Is it destroyed? 
+
+A:
+
+But when someone has an instant or activated ability that causes the creature to untap? Does this creature untap then?
+
+Yes, it does. Note that the aura says "doesn't untap during its controller's untap step", so it explicitly does not say anything about the rest of the turn.
+
+What happens to this Aura? Is it destroyed?
+
+The aura stays on the creature (since it does not have any text like 'Enchant tapped creature'), so if the creature is tapped again in the future, it won't untap automatically during its controller's untap step.
+

@@ -1,0 +1,42 @@
+Q:
+
+How does Exquisite Archangel work with different ways of losing?
+
+The card Exquisite Archangel from Aether Revolt has the following ability:
+
+If you would lose the game, instead exile Equisite Archangel and your life total becomes equal to your starting life total.
+
+The way this works with losing due to life loss seems relatively simple, but what happens if you lose to something else, such as poison counters, mill, or an effect that says that your opponent wins the game? Does this ability have any other common edge cases?
+
+A:
+
+There is actually a variety of possible outcomes of the Exquisite Archangel's ability, depending on how you would lose the game.
+
+Life Loss: In this case, the ability works as you would expect: instead of losing the game due to having 0 or less life, you gain life so that your life total becomes equal to your starting life total (20 in a normal game) [CR 118.5].
+
+Exception: If an effect says that you can't gain life, such as on Erebos, God of the Dead, then the Archangel's ability will not cause you to gain life, so you will remain a 0 or less life and lose immediately after exiling the Archangel.
+
+Poison Counters: If you get 10 or more poison counters, the Archangel will not save you. You will exile it and change your life total the first time State-based actions are checked, but once that is done, State-based actions will be rechecked immediately, and this time the Archangel won't be there to help, so you will still lose.
+
+Commander Damage: In a Commander game, you normally lose if you take 21 damage from a single commander. Similar to the case with poison counters, the Archangel's effect will apply once, but the damage will still be marked, so you will still lose immediately.
+
+Mill: If you try to draw a card from an empty library, the Archangel will save you once, but you will still have an empty library and you will lose the next time you have to draw a card. You don't lose immediately because of how that specific state-based action is worded:
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, he or she loses the game.
+
+"You lose": If an effect directly says that you lose the game, from a card such as an opponent's Door to Nothingness or your own Demonic Pact, the Archangel will replace that effect, and you won't lose the game.
+
+Exception: If you lose due to the effect of the card Transcendence, the Archangel won't be much help. The replacement effect will reset your life total to your starting life total, which will usually be at least 20, and then Transcendence's triggered ability will trigger again, and you will lose.
+
+"You Win": If your opponent has an effect that says "you win the game", the outcome varies depending on whether the game is a multiplayer game using the limited range of influence option:
+
+Games without limited range of influence: In a standard two-player game, or any multiplayer game without the limited range of influence option, winning the game immediately ends the game, without requiring the opposing player to lose the game. In this case, the Exquisite Archangel's ability will simply never apply.
+
+Games with limited range of influence: In these games, rule 104.3h applies:
+
+In a multiplayer game using the limited range of influence option (see rule 801), an effect that states that a player wins the game instead causes all of that player’s opponents within the player’s range of influence to lose the game. This may not cause the game to end.
+
+So if a player has an effect that says "you win the game", instead each of their opponents in their range of influence loses the game, but the Archangel's replacement effect will apply and save you if you are one of those players.
+
+Exception: If that player wins due to the effect of a state-based triggered ability such as Darksteel Reactor, then the replacement effect will save you once, and then the triggered ability will trigger again, and you will lose.
+

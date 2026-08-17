@@ -1,0 +1,26 @@
+Q:
+
+What are "other" ways you can prevent your opponent from winning in magic the gathering, given the "right" decks?
+
+In a game, if you can prevent your opponent from winning, there are only two possible outcomes: 1) You will win or 2) Your opponent can also force a draw.
+This question outlined how you can prevent your opponent from winning in magic the gathering by obtaining "infinite life." What are other ways you can achieve this result, at least in various situations? According to an answer to the question, getting "infinite turns" is not a way for the opponent to avoid defeat, or is it?
+
+A:
+
+I feel like this question is unclear; however, an explanation of why it's unclear could easily also answer the question, so I am writing this answer.
+How do you prevent opponents from winning? It depends on how the opponent is planning to win in the first place. There are tons of Magic decks and tons of strategies, but broadly speaking there are four ways to win:
+
+Reduce your opponent's life to zero.
+Give your opponent ten poison counters.
+Use a "you win the game" (or "your opponent loses the game") card.
+Maneuver to a state where the opponent has to draw from an empty library.
+
+Method #1 is by far the most common way to win. Virtually all the competitive decks in the current Standard (from MTGTOP8) primarily win this way. Some of them try to win quickly with a fast creatures and a low curve, others take it slowly and win on turn 20 with Dream Trawler attacks, but they all win by reducing the opponent's life total to zero. The corollary is they all cannot win against infinite life, and this is why the infinite life combo alluded to in the OP is effective.
+To go a bit further here, there are different ways to reduce the opponent to zero life. Perhaps a deck attempts to win with creatures; in this case Ensnaring Bridge could stop it from winning. Or perhaps a deck uses ground creatures only; in this case Moat is just as effective. Or perhaps a deck is aiming to cast burn spells (e.g. Lightning Bolt, Skewer the Critics, Boros Charm) at the opponent; in this case Leyline of Sanctity stops it from winning.
+Against Method #2, you can use cards that either remove poison counters or prevent you from getting them, such as Suncleanser, Solemnity and Melira, Sylvok Outcast. Or you can use the various creature removal / prison cards alluded to above, since poison counters usually comes from creatures.
+Beating Method #3 will depend on what the exact card used is. Right now, in Pioneer, one of the top decks is Dimir Inverter. This deck wins by milling most of the cards in its library, then casting Thassa's Oracle with enough blue devotion to trigger the "you win" clause. In this case you can't prevent the win by removing Thassa's Oracle, since the ability is an enters-the-battlefield trigger, but you can prevent them from resolving Thassa's Oracle in the first place with a counterspell.
+Other "you win" cards can be vulnerable to creature removal, e.g. one of the ways the Modern Ad Nauseam deck can win is by emptying its library and then attempting to draw a card while Laboratory Maniac is in play. In this case counterspells do nothing, but removing the Laboratory Maniac stops the opponent from winning (and most likely wins the game).
+Method #4 is straightforward to attack by running a bigger deck. I vaguely remember reading that back in the day when Tolarian Academy mill was the dominant deck, someone calculated that the maximum amount they can mill for is about 400 cards. Therefore, if you have a 450-card deck, you cannot lose against that deck. You'll likely lose to everyone else, but you will beat this deck 100% of the time, even if the only cards in your deck are basic lands.
+So why is this question unclear? Because Magic decks have insane variability, it's impossible to say "using this you can prevent your opponent from winning". Gaining infinite life means you beat many decks, but not all of them; having Solemnity in play guarantees you'll beat Infect, but it doesn't mean anything against an opponent trying to win with normal damage. Having an Emrakul against this deck attempting to win with method #4 stops you from losing, but does nothing against the Tolarian Academy deck mentioned above, and so on. Even taking infinite turns doesn't necessarily win, as you can see from the linked question.
+The answer to the headline question relies completely on what deck the opponent is playing, and therefore, it's not really an answerable question.
+

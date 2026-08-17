@@ -1,0 +1,18 @@
+Q:
+
+Would the +1/+1 counter from Curse of Stalked Prey save my creature?
+
+My question pertains to a situation that happened last night when my friends and I were playing Magic: the Gathering. 
+There was a game of Two-Headed Giant going on and I had Werewolves on the battlefield with Trample. My partner had previously enchanted an opposing team member with Curse of Stalked Prey. I had a Reckless Waif with a 3/2 power and toughness (via Mayor of Avabruck and Full Moon's Rise) attacking said opponent. Their only blocker was a 2/2, so they blocked. 
+Curse of Stalked Prey reads "Whenever an opponent is deal combat damage..." and goes on to say the creature that dealt damage gets a +1/+1 counter. Is the counter immediately added, thus saving it from the 2/2 blocker?
+
+A:
+
+No, the blocker would be destroyed.  From the comprehensive rules dealing with the Combat Damage Step
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt. This is a change from previous rules.
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities
+
+The state based action that destroys is 704.5g.  So although the ability triggers it is placed on the stack.  State based actions are dealt with before the stack is, and thus, the blocker dies.
+

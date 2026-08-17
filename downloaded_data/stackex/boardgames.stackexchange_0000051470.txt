@@ -1,0 +1,17 @@
+Q:
+
+Ordering of Triggers
+
+If I have Terror of the Peaks on the board, play Storm Herald and target Colossification, can I order triggers so Storm Herald is enchanted with Colossification before Terror of the Peaks' ability takes place?
+
+A:
+
+Both of the abilites are triggered when the Storm Herald entering the battlefield, and since you control both sources, you will choose the order the abilities go on the stack.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose.
+
+In this case, since you want the buff from the Colossification on the Herald before the Terror of the Peaks ability resolves, you'll want to put the Herald's ability on the stack last so the Aura will be placed first. This will buff the Herald to a 23/23 when the Terror's ability resolves. The Terror's ability will see the final power of the Herald and do 23 damage to any target you choose, probably at your opponent. :)
+Notably, if the the Herald is killed before the Aura is placed onto it, the Terror deals damage equal to its last known power, which would be 3. If the Colossification is placed, and then the Herald is killed (say, to a spell like Smite the Monstrous), the last known power will be 23 for the purposes of the Terror's ability resolving.
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 113.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+

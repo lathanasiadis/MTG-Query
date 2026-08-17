@@ -1,0 +1,37 @@
+Q:
+
+Can Fragmentize destroy artifacts with converted mana cost greater than 4?
+
+Fragmentize, a white sorcery, has this wording:
+
+Destroy target artifact or enchantment with converted mana cost 4 or less.
+
+The wording seems clear enough, but I see a potential loophole in the wording. This can be read two ways:
+
+Choose one:
+
+Destroy target artifact
+Destroy target enchantment with converted mana cost 4 or less
+
+or
+
+Choose one:
+
+Destroy target artifact with converted mana cost 4 or less
+Destroy target enchantment with converted mana cost 4 or less
+
+I believe the first version is the intended effect, but an argument could be made for the second (maybe operator precedence?).
+To make an analogy:
+Buy me a car, or a plane if it's less than $50.000
+
+I would interpret this as "Buy me a car, but if you find a plane that costs less than 50k, that would also work"
+Which is correct?
+
+A:
+
+No, Fragmentize cannot destroy artifacts with mana value/converted mana cost 5 or higher
+There are several cards with rules text worded similarly to Fragmentize. One such card, Eliminate from Core Set 2021, reads "Destroy target creature or planeswalker with converted mana cost 3 or less."
+One of the Oracle rulings for Eliminate specifies "If a creature or planeswalker on the battlefield has X in its mana cost, X is considered to be 0."
+If the intention for Eliminate was that its text be read as "Destroy [target creature] or [target planeswalker with converted mana cost 3 or less]", then the word "creature" would not need to be in that ruling, since that version of Eliminate wouldn't care about a creature's CMC. (The digital implementation of Eliminate on MTG Arena also doesn't allow targeting a creature with CMC > 3. Also, it's worth noting that a spell that unconditionally destroyed any creature for 1B, and ALSO could destroy some planeswalkers, would be more powerful than for example Doom Blade, which is a very good card in its own right.)
+From this we can conclude that Eliminate is intended to be read as "Destroy target [creature or planeswalker] with converted mana cost 3 or less." Further, since the wording of Fragmentize is nearly identical to the wording of Eliminate except for the slightly different CMC and types of permanents it targets, it can be demonstrated that the intended reading of Fragmentize is "Destroy target [artifact or enchantment] with converted mana cost 4 or less."
+

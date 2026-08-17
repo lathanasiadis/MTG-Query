@@ -1,0 +1,61 @@
+Q:
+
+Treefolk Mystic and destruction effect timing
+
+This is a fairly basic question, but there's some underlying rule or principle I think I'm missing.
+What happens if Treefolk Mystic blocks an attack from a land enchanted with Living Terrain?
+I think that since the land counts as a creature, the Living Terrain card is simply destroyed and therefore the land is removed from combat.  So that if Treefolk Mystic were given trample, it couldn't be blocked by Living Terrain (or rather, it could be blocked, but the damage would end up being dealt to the player anyway).  Would Treefolk Mystic live through the combat?
+How about if Treefolk Mystic entered combat with Grizzly Bears enchanted with Armor of Thorns (so it was 4/4 at start of combat)?  Would they both die, or just one?  Which one?
+I'm pretty sure a buffed up creature (e.g. with Armor of Thorns) works differently from a creature enchanted with Venom, since the latter sets up a delayed trigger effect which takes effect even if Venom itself is destroyed.  But how does this interaction work, anyway?
+I'd love to get a clear blow-by-blow layout of the sequence in which everything would happen in these examples.  Again, I know this is a basic question, but I appreciate the clarity on this site.  :)
+
+A:
+
+So that if Treefolk Mystic were given trample, it couldn't be blocked by Living Terrain
+
+Well, it would be blocked by the creature enchanted with Living Terrain, not Living Terrain itself.
+
+How about if Treefolk Mystic entered combat with Grizzly Bears enchanted with Armor of Thorns (so it was 4/4 at start of combat)? Would they both die, or just one? Which one?
+
+When I first saw "entered combat with", I though you meant "were both declared attackers", but after reading your question more, I presume you mean "blocks or was blocked". The official terminology doesn't refer to creatures blocking each other as being in combat "with" each other.
+
+I'm pretty sure a buffed up creature (e.g. with Armor of Thorns) works differently from a creature enchanted with Venom, since the latter sets up a delayed trigger effect which takes effect even if Venom itself is destroyed. But how does this interaction work, anyway?
+
+Yes, because the effect of Armor of Thorns is to change the power and toughness of a creature, and the effect of that is to change the amount of damage it deals, and damage is dealt after blockers is assigned. So it doesn't end up affecting the game until later, as opposed to Venom, which creates an effect on the stack immediately. If the rules were rewritten so as that when one creature blocks another, an effect of "Damage equal to the current power of each creature is dealt to the other creature" were put on the stack, then Armor of Thorns could cause Treefolk Mystic to die. (There may have been a point where something like this existed in the rules, I'm a little fuzzy on that point.)
+
+I'd love to get a clear blow-by-blow layout of the sequence in which everything would happen in these examples.
+
+For Treefolk Mystic blocking Grizzly Bears (Grizzly Bears blocking Treefolk Mystic plays out pretty much the same way):
+
+The Declare Attackers step begins.
+
+Grizzly Bears enchanted with Armor of Thorns is declared an attacker.
+
+The Declare Blockers step begins.
+
+Treefolk Mystic is declared as blocking Grizzly Bears.
+
+Treefolk Mystic being declared as blocking Grizzly Bears triggers its ability. "Destroy Armor of Thorns" goes on the stack.
+
+Once everyone passes priority, "Destroy Armor of Thorns" resolves.
+
+The Assign Damage step of combat begins.
+
+The game looks at the power of Grizzly Bears. It sees that it is 2, so 2 damage is assigned to Treefolk Mystic. Barring other events, Treefolk Mystic survives.
+
+For Living Terrain:
+
+Declare Attackers step begins.
+
+Treefolk Mystic is declared as attacker.
+
+Declare blockers step begins.
+
+Land is declared as blocker.
+
+"Destroy Living Terrain" is put on the stack.
+
+Living Terrain is destroyed.
+
+The land ceases to be a creature and is removed from combat. Treefolk Mystic remains blocked ("Attacking creatures that are blocked but have the blocking creature removed from combat before the Damage Assignment Step deal no combat damage. Attacking creatures with Trample may deal combat damage to the defending player in this case." https://mtg.gamepedia.com/Combat_damage_step)
+

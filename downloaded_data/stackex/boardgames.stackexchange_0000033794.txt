@@ -1,0 +1,17 @@
+Q:
+
+Can a noncreature artifact be destroyed by reducing toughness?
+
+I was reading through the answers of this question when I suddenly wondered about Vehicles in their artifact state.
+They have a listed Power and Toughness. If I were to reduce that toughness to 0 and the Vehicle is not crewed (i.e. does not have the Creature type, only Artifact), is it destroyed?
+Are there other examples of this, like enchantments that have a power and toughness even though they are (at the moment) not creatures? Can those permanents be destroyed by reducing toughness?
+
+A:
+
+The Gods from Theros aren't creatures sometimes.
+
+208.3. A noncreature permanent has no power or toughness, even if it’s a card with a power and toughness printed on it (such as a Vehicle).
+208.3a If an effect would be created that affects the power and/or toughness of a noncreature permanent, that effect is created even though it doesn’t do anything unless that permanent becomes a creature.
+
+Thus, they have no power and toughness that can be reduced to below 0.
+

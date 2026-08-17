@@ -1,0 +1,32 @@
+Q:
+
+MTG can you destroy a chosen sacrificed creature twice
+
+Me and my friends were playing and I chose to destroy his creature but in response he used its ability to sacrifice it but in response I chose to use another instant of destroy target creature so my question is can I do that or no since the stack is involved and it’s not sacrificed to cast it since it’s already in play
+So is it
+Scenario 1: I use “Murder” to target his “Aerie Ouphes” so he sacrifices it in response to deal 3 damage to my “Vampire Nighthawk” but in response to that I play another “Murder” that targets “Aerie Ouphes” again can I do that since by the stack my second “Murder” would go off first before his ability to sacrifice it
+Also my friend thinks he can do
+Scenario 2: I use “Murder” to target his “Aerie Ouphes” so he sacrifices it in response to deal 3 damage to my “Vampire Nighthawk” but in response to that I play another “Murder” that targets “Aerie Ouphes” again but in response to my second “Murder” use “Aerie Ouphes” ability again choosing to sacrifice it and deal the damage to “Vampire Nighthawk” a second time but with the same card ability twice in a stack
+I was thinking wouldn’t it go on the stack as 
+1: Murder targeting Aerie Ouphes
+2: Aerie Ouphes ability to sacrifice it and deal damage to my Vampire Nighthawk
+3: second Murder targeting Aerie Ouphes 
+Then the stack would go through with the last thing activated in the chain first 
+
+A:
+
+In both scenarios, you would be unable to cast the second Murder because the Aerie Ouphes has already been sacrificed. Since they no longer exist, they can't be targeted.
+Because Aerie Ouphes have Persist, they could very well return the battlefield before they even deal their damage, and you could target the new Ouphes with Murder, but that won't prevent the original Ouphes from dealing their damage.
+
+You seem to think that responding to an activated ability is to do something before it has been activated, but that's wrong.
+There are two parts to getting the effect of an activated ability:
+
+First, the ability must be activated (or copied).
+Then, the ability resolves.
+
+In between activating the ability and it resolving, players will get priority (possibly more than once). To respond to the ability is to do something after the ability has been activated, but before it resolves.
+Costs to activate an ability are payed when activating the ability, so paying the activation cost happens before one has a chance to respond to the ability.
+The cost to activate an activated ability is found before the ":" in the ability. That means that sacrificing Aerie Ouphes is part of the cost of activating the ability, and therefore happens before one has a chance to respond to the ability being activated.
+
+Note that everything I've said here also applies to spells (cast, then resolves) and triggered abilities (added to the stack after being triggered, then resolves).
+

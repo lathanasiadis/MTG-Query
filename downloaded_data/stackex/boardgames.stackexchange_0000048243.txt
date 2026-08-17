@@ -1,0 +1,18 @@
+Q:
+
+Does Nightpack Ambusher's second ability trigger if I cast spells during the end step?
+
+Nightpack Ambusher has this second ability:
+
+At the beginning of your end step, if you didn't cast a spell this turn, create a 2/2 green Wolf creature token.
+
+Let's say it's now the end step. Nightpack Ambusher triggers. If I cast an instant now, will the ability fizzle? Do I have to wait until the trigger resolves to cast any instants to get the 2/2 token? Or will casting any instants cause the ability to fizzle anyway (because my end step is still part of my turn)?
+
+A:
+
+This is an example of an ability with a so-called 'Intervening "if" clause' - this condition is checked during both trigger and resolution. So if you cast an instant while Nightpack Ambusher's ability is on the stack, it won't do anything as it resolves.
+
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule. (The word “if” has only its normal English meaning anywhere else in the text of a card; this rule only applies to an “if” that immediately follows a trigger condition.)
+
+You can still cast the instant after the ability resolves; unlike the cleanup step, players do get priority during the end step (cf. rule 500.3.)
+

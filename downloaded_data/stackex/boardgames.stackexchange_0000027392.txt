@@ -1,0 +1,19 @@
+Q:
+
+How does the example of rule 601.2h work?
+
+I'm having trouble understanding the example of rule 602.1h in the Magic Comprehensive Rules.
+
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+Example: You cast Altar’s Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell’s total cost is “locked in” before payments are actually made, you pay {B}, not {1}{B}, even though you’re sacrificing the Familiar.
+
+If the costs are locked in before the sacrifice lowers them, why does it say only {B} is payed instead of {1}{B}? Should it not be the other way around?
+The language ("even though...") also seems to suggest the costs were mistakenly exchanged.
+
+A:
+
+When it says that the spell's cost is "locked in" before payments are made, it means that you calculate the cost, including all modifiers, then you pay for it. This matches up with the steps described in the rules: you calculate the cost in step 601.2f, then pay the cost in step 601.2h.
+So, when calculating the cost of that Altar's Reap, you take the base cost: {1}{B}, and apply any relevant cost reductions; in this case, you reduce the cost to {B} due to Thunderscape Familiar's effect. Then you pay the cost: you pay {B} and you sacrifice the Familiar. Since you do the sacrifice after you calculate the cost, the Familiar's cost reduction applies, even though it won't be on the battlefield when you're done casting the spell.
+Note that sacrificing the Familiar is not what lowers the cost. The Familiar has a static ability that reduces the cost of black spells. Sacrificing it is, separately, part of the cost of casting Altar's Reap.
+

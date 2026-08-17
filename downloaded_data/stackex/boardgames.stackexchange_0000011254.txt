@@ -1,0 +1,15 @@
+Q:
+
+Does non-combat damage affect Commander damage?
+
+Do the effects of a Commander that deal (non-combat) damage, such as Obzedat, Ghost Council, count towards Commander damage?
+I have not been able to find whether or not it has to be, specifically, combat damage, or simply damage dealt by the Commander.
+
+A:
+
+Per the official rules on mtgcommander.net,
+
+If a player has been dealt 21 points of combat damage by a particular Commander during the game, that player loses a game.
+
+"Combat damage" refers only to damage dealt in combat as a result of attacking and blocking; direct-damage abilities don't count. Note also that Obzedat, Ghost Council's triggered ability doesn't deal damage: it simply causes your opponent to lose life.
+

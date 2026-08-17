@@ -1,0 +1,13 @@
+Q:
+
+Does Battlefield Forge add two mana to your pool each time it is tapped?
+
+Do cards like Battlefield Forge add 2 mana each time it's tapped or is it just one of the two tapped mana options? Or can you choose between both at once vs one? And is the mana only there while it's tapped?
+{T}: Add {1} to your mana pool.
+{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you.
+
+A:
+
+You'll only get one mana, and like all mana, it'll be there until you spend it or until the end of the current step/phase. (There are a very small number of cards like Omnath, Locus of Mana in the game which change this, but they clearly, explicitly say so.)
+Abilities are of the form "cost: effect". You pay the cost, and get the effect. In this case the cost is simply tapping the land. So you can choose one of those abilities to activate, then you'll have tapped the land, and you won't be able to activate the other anymore.
+

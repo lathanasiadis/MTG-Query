@@ -1,0 +1,15 @@
+Q:
+
+Change from target all to target one
+
+Can you change the target of a spell that would normally target all creatures to instead target one.
+Eg; say my opponents have been mean and found some way to get an obnoxious amount of obnoxiously powered creatures- something like twenty-five (twenty/twenties). Would I be able to cast Burn Down the House, then something like redirect to change the target of all to my Mirrorwing Dragon - who's ability would then trigger and copy that spell (burn down the house) and cast each copy targeting each of my three other creatures in a 1:1 ratio- to do five damage four times to all creatures.
+I know it's lengthy and a bit roundabout but thank you.
+
+A:
+
+No, that does not work the way you want it to, for a few reasons.
+First, "target" is a word with specific meaning in Magic, and in particular, Mirrorwing Dragon is referring to cards that actually say the word "target" in their text. Burn Down the House affects all creatures, but it does not "target all creatures", because it does not use the word "target" in the text of that effect.
+Second, Mirrorwing Dragon triggers when a player casts a spell. If you initially cast a spell that does not only target Mirrorwing Dragon, and then change its target to Mirrorwing Dragon, that will not trigger Mirrorwing Dragon's ability anyway.
+Third, there are actually existing mass damage spells that target a single creature, such as Chandra's Ignition, but this will actually create a different problem. If you cast Chandra's Ignition targeting Mirrorwing Dragon, it will create another copy of the spell targeting each other creature you control. Those copies and the original will resolve one at a time, and with all the damage being dealt, creatures can die before the copy targeting them resolves. If that happens, the spell will have no legal targets, and it will fail to resolve, and not deal any damage. It would be difficult to deal enough damage this way to kill your opponent's creatures without already having large creatures of your own.
+

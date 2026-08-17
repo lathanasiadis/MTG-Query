@@ -1,0 +1,34 @@
+Q:
+
+Upkeep Priority
+
+On opponents turn I chump blocked to trigger Archangel Avacyn's transform on my upkeep.
+Opponent has Giltspire Avenger on the battlefield, and Faith's Shield in hand. Is it possible for him to cast it for pro-red, before Avacyn's transform into Purifier deals it lethal damage?
+If so and even if not so, does the 3 damage Avacyn does to opponent allow Giltspire to tap and destroy it?
+
+A:
+
+Yes, your opponent can do both of those things and destroy Avacyn, unless they have less than 5 life, in which case no damage will be dealt.
+First, Avacyn's ability normally plays out like this, if the opponent does nothing.
+
+At the beginning of the upkeep, Archangel Avacyn's triggered ability goes on the stack. At this point, both players have a chance to respond.
+Archangel Avacyn's ability resolves, and she transforms into Avacyn, the Purifier. Avacyn, the Purifier's triggered ability goes on the stack. At this point, both players have another chance to respond.
+Avacyn, the Purifier's ability resolves, and she deals 3 damage to each other creature and each opponent.
+
+Your opponent can cast Faith's Shield after step 1 or 2 to save the Giltspire Avenger.
+Assuming the opponent acts after step 2 and they have more than 5 life, the full scenario you described plays out like this:
+
+At the beginning of the upkeep, Archangel Avacyn's triggered ability goes on the stack.
+Archangel Avacyn's ability resolves, and she transforms into Avacyn, the Purifier. Avacyn, the Purifier's triggered ability goes on the stack.
+In response, the opponent casts Faith's Shield targeting their Giltspire Avenger.
+Faith's Shield resolves. Giltspire Avenger has protection from red.
+Avacyn, the Purifier's ability resolves, and she deals 3 damage to each other creature and each opponent. The damage to Giltspire Avenger is prevented.
+The opponent activates Giltspire Avenger's ability targeting Avacyn, the Purifier. This is legal because Avacyn, the Purifier has dealt damage to you this turn.
+Giltspire Avenger's ability resolves, and Avacyn is destroyed.
+
+If the opponent instead has 5 or less life, that scenario plays out differently starting from step 4:
+
+Faith's Shield resolves. The opponent and each permanent they control has protection from red.
+Avacyn, the Purifier's ability resolves. All damage it would deal is prevented.
+Avacyn has not dealt damage to the opponent, so it is an illegal target for Giltspire Avenger's ability.
+

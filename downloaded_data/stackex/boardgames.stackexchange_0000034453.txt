@@ -1,0 +1,64 @@
+Q:
+
+Requirement and Restrictions for Declaring Attackers
+
+This is a question I've had for some time. It involves rule 508.1 from the Magic: The Gathering Comprehensive rules. I feel the rules are a little ambiguous, and I wonder if someone can elucidate which of several interpretations is correct.
+Consider the following situation. Entering my declare attackers step, I control a vanilla creature and an Ekundu Cyclops. Ekundu cyclops has the text
+
+If a creature you control attacks, Ekundu Cyclops also attacks if
+able.
+
+The Ekundu Cyclops is enchanted by Pacifism, which has text
+
+Enchanted creature can't attack or block.
+
+My question: What are the legal declarations of attackers here?
+The relevant part of the rules for resolving this question seems to be
+
+508.1c The active player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a
+creature can’t attack, or that it can’t attack unless some condition
+is met). If any restrictions are being disobeyed, the declaration of
+attackers is illegal. Example: A player controls two creatures, each
+with a restriction that states “[This creature] can’t attack alone.”
+It’s legal to declare both as attackers.
+508.1d The active player checks each creature he or she controls to see whether it’s affected by any requirements (effects that say a
+creature must attack, or that it must attack if some condition is
+met). If the number of requirements that are being obeyed is fewer
+than the maximum possible number of requirements that could be obeyed
+without disobeying any restrictions, the declaration of attackers is
+illegal. If a creature can’t attack unless a player pays a cost, that
+player is not required to pay that cost, even if attacking with that
+creature would increase the number of requirements being obeyed.
+Example: A player controls two creatures: one that “attacks if able”
+and one with no abilities. An effect states “No more than one creature
+can attack each turn.” The only legal attack is for just the creature
+that “attacks if able” to attack. It’s illegal to attack with the
+other creature, attack with both, or attack with neither.
+
+First of all, it is pretty clear that in no valid declaration of attackers can the Ekundu Cyclops attack. The rules are explicit that the effect of Pacifism constitutes a "restriction" on attacking that cannot be overridden by any "requirement". Since the Cyclops' effect is phrased without the word "can't", I interpret the Cyclops' ability as a requirement under the condition that another creature is attacking.
+There are a few ways to interpret the bold section, in my mind. We could interpret it to say:
+
+If the number of requirements that are being obeyed is fewer than the maximum
+possible number of requirements that could be obeyed under any
+possible declaration of attackers without disobeying any
+restrictions, the declaration of attackers is illegal.
+
+Under this interpretation, it would be illegal to attack with the vanilla creature, since if one attacks with the vanilla and not the Cyclops, then the Cyclops' requirement to attack is violated, while it would be obeyed if I had chosen not to attack with the vanilla. Under this interpretation of the rules, I also find it uncertain whether we consider the Ekundu's requirement "obeyed" if the conditional that another creature is attacking is not satisfied. Perhaps if neither creature attacks then there are no requirements obeyed. We could also say
+
+If the number of requirements that are being obeyed is fewer than the maximum
+possible number of requirements that could be obeyed if this creature were to attack without disobeying any
+restrictions, the declaration of attackers is illegal.
+
+In this case, we could attack with the vanilla, as attacking with that cyclops will never result in a legal attack.
+Edit:
+It seems pretty clear to me that people here interpret "could be obeyed" to refer to all possible configurations of attackers that do not violate restrictions. The ambiguity boils down to this: if a creature has an ability that says "This creature attacks if X" and X is not true, does that count as a satisfied requirement (since the clause in itself is true), or does it not count as a satisfied requirement (since the conditional is not met)?
+
+A:
+
+You are allowed to attack with your vanilla creature.
+The Cyclops' ability becomes an attack requirement if and only if it is able to attack:
+
+If a creature you control attacks, Ekundu Cyclops also attacks if able.
+
+However, Pacifism makes it unable to attack under any circumstances, so it doesn't become a requirement that you would have to satisfy. Therefore, you are free to attack with your vanilla creature. Look at the example section of 508.1d to see an example of when the rule would apply.
+

@@ -1,0 +1,27 @@
+Q:
+
+Lethal damage while controlling Sower of Discord?
+
+I recently played a game of commander with a single opponent. When I played Sower of Discord, I selected my opponent and myself. I then swung with Serra Avatar. If damage is taken and the amount is enough to kill the opponent, who wins? Does anyone win?
+
+A:
+
+You win.
+Sower of Discord's third ability is a triggered ability, so the life loss taken by you would happen "long after" the game has already ended.
+
+State-based actions are what causes a player to lose for having a non-positive life total.
+
+704.5. The state-based actions are as follows:
+704.5a If a player has 0 or less life, that player loses the game.
+
+SBA are checked whenever a player is about to gain priority.
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+So your opponent loses the game before the triggered ability is even placed on the stack. The game ends immediately when that happens.
+
+104.2a A player still in the game wins the game if that player’s opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+104.1. A game ends immediately when a player wins, when the game is a draw, or when the game is restarted.
+
+It doesn't matter that you would also have lost if the game had continued.
+

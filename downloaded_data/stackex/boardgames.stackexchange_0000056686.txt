@@ -1,0 +1,18 @@
+Q:
+
+Opponent controlled Auras and Greater Auramancy
+
+If an opponent has cast an Aura on my creature,
+and then I play Greater Auramancy, does the creature get shroud, or do I have to control the Aura?
+Similarly, if an opponent has enchanted one of my lands with an Aura, and then I turn that land into a creature, does the land/creature get shroud?
+
+A:
+
+Yes, it will have shroud.
+The relevant rule is:
+
+303.4b The object or player an Aura is attached to is called enchanted. The Aura is attached to, or “enchants,” that object or player.
+
+There is no mention of controllers. Something with an Aura attached to it is enchanted, regardless of controllers.
+And yes, it does work for a land turned into a creature. The technical details (rules section 613 – Interaction of Continuous Effects) are that type-changing effects are applied in layer 4, while ability-adding effects are applied in layer 6, thus the effect making the land into a creature is always applied before Greater Auramancy's effect.
+

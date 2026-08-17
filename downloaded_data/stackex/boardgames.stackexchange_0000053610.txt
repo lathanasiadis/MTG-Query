@@ -1,0 +1,18 @@
+Q:
+
+Inspiring unicorn vs shock
+
+I’m fairly new to Magic and still learning but got the basics.
+My problem is as follows.
+My friend person A : white deck (basic starter)
+Me person B : red deck (basic starter)
+Scenario
+Person A declares attack with Inspiring Unicorn “when this declares attack each creature you control gains +1/+1 until end of turn” alongside another generic 2/2 creature.
+Person B casts an instant, Shock, before declaring blockers, then proceeds to block other creature with 2/3 creature.
+Now this is where I was confused as I thought shock would resolve first killing the unicorn before it could apply its ability or am I wrong?? As person A said they were right and the unicorns ability resolved first as he declared an attack so gains the stat increase before shock so shock would be useless.
+
+A:
+
+Once person A declares attackers, the Unicorn's ability triggers, and a Shock won't help to stop it. However, if you cast Shock in reaction to the trigger (of course, it's better to cast it before the combat phase), it will resolve before the Unicorn's ability resolves, and will hence kill the Unicorn. I think that person B cast it 'too late' but it's hard to tell; 'before declaring blockers' can be during the remainder of the declare attackers phase.
+However, even without the Unicorn around, the ability still resolves, and the other attacking creature will get the +1/+1 bonus. See Does an ability resolve if the source of the ability leaves the battlefield? for more details.
+

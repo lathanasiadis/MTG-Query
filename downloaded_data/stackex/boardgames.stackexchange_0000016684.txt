@@ -1,0 +1,36 @@
+Q:
+
+Do I draw a card if I enchant an opponent's Eidolon of Blossoms with Hypnotic Siren?
+
+The situation is just as stated in the title: my opponent controls Eidolon of Blossoms:
+
+Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.
+
+I target the Eidolon of Blossoms with Hypnotic Siren, gaining control of it:
+
+Bestow 5UU (If you cast this card for its bestow cost, it's an
+  Aura spell with enchant creature. It becomes a creature again if it's
+  not attached to a creature.) 
+Flying
+You control enchanted creature.
+Enchanted creature gets +1/+1 and has flying.
+
+Do I draw a card for Hypnotic Siren coming into play?  My instinct says yes, because of rules 603.6b and 603.6d:
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before
+  then). The permanent is never on the battlefield with its unmodified
+  characteristics.
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous
+  effects that exist at that time are used to determine what the trigger
+  conditions are and what the objects involved in the event look like.
+
+but I'm not 100% certain.  (I had it ruled the other way at FNM this evening; at the time I agreed with the ruling, but now I'm less sure.)
+
+A:
+
+First gatherer note on Hypnotic Siren:
+
+If you Hypnotic Siren for its bestow cost, and you gain control of a creature with a constellation ability, that ability will trigger when Hypnotic Siren enters the battlefield. You'll controll [sic] that triggered ability.
+
+Looks like the answer is "yes".
+

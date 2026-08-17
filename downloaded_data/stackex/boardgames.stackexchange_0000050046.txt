@@ -1,0 +1,37 @@
+Q:
+
+Is it possible to copy a Legend that is on the battlefield on your side?
+
+Following up on this question: in the current rules a player can't control two Legends of the same name simultaneously. However, suppose I do one of the following:
+
+I summon a Clone copying another Legendary Creature I control.
+I summon Copy Artifact copying another Legendary Artifact I control, such as Traxos, Scourge of Kroog.
+
+In these cases should one of these immediately go to their owner's graveyard?
+It is not obvious to me since the two cards (the original and the copy) do not have actually the same "name", but only the same appearance.
+That makes me suspect the Legend Rule might not apply in these situations:
+
+704.5j: If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners' graveyards. This is called the “legend rule".
+
+(emphasis mine)
+
+A:
+
+An object's name is among the values that get copied when copying an object:
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the
+  stack, choices made when casting or activating it (mode, targets, the
+  value of X, whether it was kicked, how it will affect multiple
+  targets, and so on). The “copiable values” are the values derived from
+  the text printed on the object (that text being name, mana cost, color
+  indicator, card type, subtype, supertype, rules text, power,
+  toughness, and/or loyalty), as modified by other copy effects, by its
+  face-down status, and by “as . . . enters the battlefield” and “as . .
+  . is turned face up” abilities that set power and toughness (and may
+  also set additional characteristics). Other effects (including
+  type-changing and text-changing effects), status, and counters are not
+  copied.
+
+That means that if you copy your Nicol Bolas with Vesuvan Doppelganger you will control two legendary permanents named "Nicol Bolas" and will have to put all but one of them into your graveyard the next time any player would gain priority as per rule 704.5j.
+There are a few effects that circumvent this.  Sakashima the Impostor does so by explicitly retaining its original name when it copies another creature.  Helm of the Host does so by removing the "Legendary" supertype from the copies it makes.  In either case, you would not control multiple legendary permanents with the same name, and so the "legend rule" wouldn't apply.
+

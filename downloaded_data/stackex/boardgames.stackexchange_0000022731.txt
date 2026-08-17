@@ -1,0 +1,75 @@
+Q:
+
+What are all the previous Oracle text revisions for Time Vault?
+
+On Gatherer, I can see the original wording for Time Vault:
+
+Tap to gain an additional turn after the current one. Time Vault doesn't untap normally during untap phase; to untap it, you must skip a turn. Time Vault begins tapped.
+
+And I can see the most recent errata:
+
+Time Vault enters the battlefield tapped.
+Time Vault doesn't untap during your untap step.
+If you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.
+Tap: Take an extra turn after this one.
+
+Using Google, I was able to find a few more revisions:
+
+Time Vault comes into play tapped.
+Time Vault doesn't untap during your untap step.
+Skip your next turn: Untap Time Vault and put a time counter on it.
+T, Remove all time counters from Time Vault: Take an extra turn after this one. Play this ability if only there's a time counter on Time Vault.
+
+ 
+
+Time Vault comes into play tapped.
+Time Vault doesn't untap during your untap step.
+At the beginning of your upkeep you may untap Time Vault. If you do, put a time counter on it and you skip your next turn.
+T, Remove all time counters from Time Vault: Take an extra turn after this one. Play this ability only if there's a time counter on Time Vault.
+
+ 
+
+Time Vault comes into play tapped.
+If Time Vault would become untapped, instead choose one -- untap Time Vault and you skip your next turn; or Time Vault remains tapped.
+T: Take an extra turn after this one.
+
+... But are there any more versions? For the sake of historical curiosity, I'm interested in seeing every revision listed in one place.
+
+A:
+
+According to MtG Goldfish the different erratas of Time Vault are as follows.
+1993, the original printing:
+
+Tap to gain an additional turn after the current one. Time Vault doesn't untap normally during untap phase; to untap it, you must skip a turn. Time Vault begins tapped.
+
+1996, made some power level errata to make it go from broken to useless:
+
+Does not untap as normal. If Time Vault is tapped and does not have a time counter, you may skip your turn to untap Time Vault and put a time counter on it. {tap}: Remove the time counter from Time Vault to take an additional turn immediately before the next normal turn.
+
+1998 & 2004, edited the template to match current rules. (this is the 2004 text):
+
+Time Vault comes into play tapped.
+Time Vault doesn't untap during your untap step.
+Skip your next turn: Untap time vault and put a time counter on it.
+{T}, Remove all time counters from Time Vault: Take an extra turn after this one. Play this ability if only there's a time counter on Time Vault.
+
+March 2006, to stop an unintended combo with Flame Fusillade abusing unlimited untaps:
+
+Time Vault comes into play tapped.
+Time Vault doesn't untap during your untap step.
+At the beginning of your upkeep you may untap Time Vault. If you do put a time counter on it and you skip your next turn.
+{T} Remove all time counters from Time Vault: Take an extra turn after this one. Play this ability only if there's a time counter on Time Vault.
+
+July 2006, as far as I can tell there isn't a reason for this eratta (other than bad Mizzium Transreliquat combos):
+
+Time Vault comes into play tapped.
+If Time Vault would become untapped, instead choose one -- untap Time Vault and you skip your next turn or Time Vault remains tapped.
+{T}: Take an extra turn after this one.
+
+2008, Wizards finally decides to remove all power level errata and returns Time Vault to its original functionality just with an updated template:
+
+Time Vault enters the Battlefield tapped.
+Time Vault doesn't untap during your untap step.
+If you would begin your turn while Time Vault is tapped, you may skip that turn instead. If you do, untap Time Vault.
+{T}: Take an extra turn after this one.
+

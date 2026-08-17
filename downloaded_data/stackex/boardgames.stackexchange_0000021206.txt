@@ -1,0 +1,49 @@
+Q:
+
+Does an attacking creature have to deal lethal damage to the blocking creatures before dealing damage to the other blocking creatures?
+
+This rule:
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocked creature to divide its combat damage. However, it can’t assign combat damage to a creature that’s blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. An amount of damage that’s greater than a creature’s lethal damage may be assigned to it. 
+Who chooses the assignment order?
+If I attack with a 5/5 and he has a 2/4 and a 2/2 would he have to deal 4 damage to the 2/4 first before dealing any damage to the 2/2? Could he instead give the 2/2 lethal damage instead if it was a better card to kill?
+
+A:
+
+Does an attacking creature have to deal lethal damage to the blocking creatures before dealing damage to the other blocking creatures?
+
+Yes.
+If A is blocked by B, C and D (in that order), then
+
+A must assign lethal damage to B before it can assign any damage to C.
+A must assign lethal damage to C before it can assign any damage to D.
+A must assign lethal damage to D before it can assign any damage to the defending player or planeswalker (if A has trample).
+
+510.1c [...] However, it can’t assign combat damage to a creature that’s blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. [...]
+510.1d [...] However, it can’t assign combat damage to a creature that it’s blocking unless, when combat damage assignments are complete, each creature that precedes that blocked creature is assigned lethal damage. [...]
+
+Banding overrides these rules.
+
+Who chooses the assignment order?
+
+The controller of the creature dealing damage. Three turn-based actions occur in the Declare Blockers Step before players get priority:
+
+509.1. First, the defending player declares blockers. [...]
+509.2. Second, for each attacking creature that’s become blocked, the active player announces that creature’s damage assignment order, which consists of the creatures blocking it in an order of that player’s choice. [...]
+509.3. Third, for each blocking creature, the defending player announces that creature’s damage assignment order, which consists of the creatures it’s blocking in an order of that player’s choice. [...]
+
+you giant growth the 2/3 making it a 5/6 how does that change the damage?
+
+Players gain Priority after declaring attacking and blocking damage orders[CR 509.5], but before assigning damage[CR 510.1].
+We have an attacking 5/5 blocked by a 5/6 and a 2/2. The attacking creature chose to damage the (now) 5/6 first.
+The attacking creature must assign at least 6 damage to the 5/6 before it can assign any to the 2/2. It can only assign 5 damage, so
+
+The 5/5 deals 5 damage to the 5/6.
+The 5/6 deals 5 damage to the 5/5.
+The 2/2 deals 2 damage to the 5/5.
+
+so
+
+The 5/5 takes 7 damage
+The 5/6 takes 5 damage
+The 2/2 takes no damage
+

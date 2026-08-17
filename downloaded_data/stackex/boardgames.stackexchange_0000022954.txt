@@ -1,0 +1,18 @@
+Q:
+
+Magic the Gathering: Hero's Blade vs Lightning Bolt
+
+My opponent has Hero's Blade on the battlefield. He plays Yisan, the Wanderer Bard and attempts to attach Hero's Blade to it. In response, I cast Lightning Bolt and attempt to deal Yisan 3 damage and kill it before Hero's Blade is able to attach. My question is, am I able to do this? Can I cast Lightning Bolt so that its effect will resolve AFTER Yisan enters the battlefield but BEFORE Hero's Blade is able to be attached?
+
+A:
+
+Yes, you can. Hero's Blade's ability triggers "Whenever a legendary creature enters the battlefield under your control," which means that the order of events goes like this:
+
+Your opponent casts Yisan
+Yisan finishes resolving and enters the battlefield. This causes the Hero's Blade's ability to go on the stack. At this point, Yisan is on the battlefield
+You respond to the triggered ability with your Lightning Bolt.
+The Lightning Bolt resolves, and kills Yisan.
+The triggered ability resolves, and does nothing.
+
+As a side note, the Equip ability can only be activated "whenever you could cast a sorcery," so your opponent would not be able to Equip the Hero's Blade in response to your Lightning Bolt.
+

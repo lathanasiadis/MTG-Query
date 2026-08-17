@@ -1,0 +1,39 @@
+Q:
+
+How does Ashaya, Soul of the Wild interact with Blood Moon?
+
+What happens when you play Blood Moon while your opponent controls Ashaya, Soul of the Wild? What happens when you play Ashaya, Soul of the Wild and the opponent already has a Blood Moon out? How do the layers work?
+
+A:
+
+When Ashaya and Blood Moon are on the battlefield at the same time, no matter their relative timestamps, Ashaya will die immediately as a state-based action. Your other creatures are briefly mountain creatures with no relevant abilities.
+Blood Moon's effect depends on Ashaya's effect:
+
+613.8a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect; (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+Both effects are applied in layer 4, type-changing effects (a), applying Ashaya changes what objects Blood Moon would apply to (b), and neither are characteristic-defining effects (c). Therefore, Blood Moon depends on Ashaya, and the normal timestamp system for ordering effects within a layer is not used:
+
+613.8. Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+
+Because of the dependency, Ashaya is applied first:
+
+613.8b An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. [..]
+
+Your creatures are now non-basic forests with all their abilities intact, plus "T: Add G":
+
+305.8. Any land with the supertype “basic” is a basic land. Any land that doesn’t have this supertype is a nonbasic land, even if it has a basic land type.
+
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring to one of these subtypes. An object with the land card type and a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. [..]
+
+Next, Blood Moon is applied and can affect your creatures. By setting a land to mountain, that land loses all abilities from its printed rules text, it loses the "T: Add G" ability from the forst type, and it gains "T: Add R" from the mountain type:
+
+305.7. If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn’t remove any abilities that were granted to the land by other effects. Setting a land’s subtype doesn’t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
+
+That means all your non-token creatures, including Ashaya, are mountain lands in addition to their other types, and they have no abilities except "T: Add R".
+Ashayas's power and toughness are defined through a characteristic-defining ability. Her power and toughness are undefined if she loses that ability, and thus treated as zero.
+
+107.2. If anything needs to use a number that can’t be determined, either as a result or in a calculation, it uses 0 instead.
+
+Ashaya is now a 0/0 creature, and goes to the graveyard the next time a player would gain priority. All other non-token creatures you control revert back to being only creatures, with all their abilities.
+You will generally not be able to generate mana from any of your creatures while they are mountains. Mana abilities don't use the stack, but you still need to have priority (or be required to pay a mana cost) in order to activate them.
+

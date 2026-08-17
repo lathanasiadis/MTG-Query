@@ -1,0 +1,16 @@
+Q:
+
+Can Ward Slivers protection be responded to?
+
+So I was playing against someone sniping my creatures. I cast Ward Sliver and name protection from a colour. They said that because Ward Sliver says "as it comes into play" the effect is an ETB (Enters the Battlefield trigger) and can be responded to while it's on the stack, sniping Ward Sliver before it has protection. Is this true?
+
+A:
+
+Your friend is incorrect.  The "magic words" for a triggered ability, which an ETB is a subset of, are "When", "Whenever" and "At."  Triggered abilities use the stack and can be responded to.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+
+"As X enters play" indicates what is known as a replacement effect.  It changes the standard rules for what happens when the spell resolves.  (In addition to it becoming a creature permanent as per standard rules, you also choose a color.)  Such an effect does not use the stack.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+

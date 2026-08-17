@@ -1,0 +1,24 @@
+Q:
+
+Can I put Lich's Mirror into play with The Ur-Dragon's ability to save me after drawing out with the same ability?
+
+Let's say I have The Ur-Dragon and a ton of dragons on the field. I attack with enough dragons to draw my remaining library (as per The Ur-Dragon's  ability "Whenever one or more dragons you control attack, draw that many cards"), I draw Lich's Mirror and use Ur-Dragon's "put a permanent from your hand onto the battlefield" effect to play Lich's Mirror. Would I lose as soon as I draw my entire library? Would I get a chance to trigger Lich's Mirror? 
+
+A:
+
+Lich's Mirror's would be on the battlefield to save you before you actually lose the game.
+
+The pertinent rules are:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [...]
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+
+From that, we gather the following:
+
+It's drawing more than the number of remaining cards that causes you to lose the game.
+It doesn't happen immediately; it happens the next time a player would get priority. This means the ability finishes resolving first.
+
+So, for example, let's say your library has two cards left, one of which is Lich's Mirror. And let's say you attack with three dragons.
+The Ur-Dragon's third ability triggers, goes on the stack and (possibly eventually) resolves. During its resolution, you draw the remaining two cards and fail to draw the third one, then you place Lich's Mirror on the battlefield.
+Immediately after the ability has finished resolving, an SBA would cause you to lose the game for having not being able to draw since the last time SBA conditions were checked. However, Lich's Mirror's replacement effect kicks in, keeping you in the game.
+

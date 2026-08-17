@@ -1,0 +1,57 @@
+Q:
+
+How much damage do I take when I Trample a Stuffy Doll that has Pariah attached?
+
+Last game I played I faced the following combo:
+
+Stuffy Doll played by an opponent, opponent chose me
+Pariah attached to Stuffy Doll
+
+This resulted in an invincible opponent, as long as Pariah is attached to that player.
+How exactly will rules be applied when e.g. a 8/8 creature with trampling attacks and is blocked by the Stuffy Doll (enchanted as stated above) that has 0/1 this turn? Do I (as the attacking player) get
+
+1 damage
+2 damage
+8 damage
+some other value?
+
+… when my opponent blocks the 8/8 creature with trampling with his Stuffy Doll?
+All mentioned values of damage have been discussed during play.
+
+A:
+
+You will take 8 damage from the Stuffy Doll's triggered ability.
+In the combat damage step, every creature deals combat damage equal to its power, no matter how much toughness the defending creatures have:
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. [..]
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures according to the damage assignment order announced for it. [..]
+
+When a creature with Trample deals combat damage, you don't not have to assign all its damage to the blocking creatures; as long as all blocking creatures have been assigned lethal damage, you can assign the rest to the defending player:
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. [..]
+
+From sources without Deathtouch, lethal damage is equal to the creature's toughness:
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.12, “Regenerate”) and during the cleanup step (see rule 514.2).
+
+From sources with Deathtouch, any damage >= 1 is lethal damage:
+
+702.2b Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature’s toughness. See rules 510.1c–d.
+702.2c A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action. See rule 704.
+
+You have to assign 1 damage (lethal) to the stuffy doll; you then have to distribute the remaining 7 damage between the Doll and the defending player as you like.
+Whenever damage is dealt to an object, prevention and replacement effects are applied first:
+
+119.4. Damage is processed in a three-part sequence.
+119.4a First, damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, “Replacement Effects,” and rule 615, “Prevention Effects.”) Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.
+
+Therefore, no matter how much damage you assign to the defending player, Pariah will redirect all damage to the Stuffy Doll; this is a replacement effect:
+
+614.9. Some effects replace damage dealt to one creature, planeswalker, or player with the same damage dealt to another creature, planeswalker, or player; such effects are called redirection effects. [..]
+
+The 8 damage are dealt to the Doll and its triggered ability goes on the stack.
+
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+
+Finally, the active player gets priority and the combat damage step ends.
+

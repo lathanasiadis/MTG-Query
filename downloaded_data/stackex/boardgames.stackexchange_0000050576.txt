@@ -1,0 +1,29 @@
+Q:
+
+Does the first strike damage step happen even if no first strike damage is going to be dealt?
+
+Inspired by this question
+Lets suppose that I attack with multiple creatures, and one of them has first strike but not trample. That creature gets blocked, but the blocker gets bounced/killed before the combat damage step.
+Now I have an attacking creature with first strike, but no first strike damage is going to be dealt. Will there be an additional combat damage step anyway?
+I believe the answer is yes, but the rules are not clear about it and it is counterintuitive enough that I want to make sure. Also note that this question is purely hypothetical, I have yet to come up wth a situation where this would be relevant.
+Relevant rules:
+
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat
+  damage step begins, the only creatures that assign combat damage in
+  that step are those with first strike or double strike. After that
+  step, instead of proceeding to the end of combat step, the phase gets
+  a second combat damage step.
+
+A:
+
+When a creature with First Strike or Doublestrike does combat, there will be a second combat damage step, whether or not that creature actually deals damage.
+
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step.
+
+Nothing in that sentence indicates that one of these creatures has to be able to deal >= 1 damage for the second combat damage step to occur. The presence of "at least one attacking or blocking creature [having] first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins" is the only condition for the consequences laid out in the rest of the rule. Also, "assigning" and "dealing" combat damage are two different things:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. [..]
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. [..]
+
+If your suspicion were the case, even power-reducing effects like from Bewilder or damage-preventing effects like from Healing Salve, or any number of other effects that would result in no combat damage could prevent the second combat damage phase from happening, which appears even less plausible.
+

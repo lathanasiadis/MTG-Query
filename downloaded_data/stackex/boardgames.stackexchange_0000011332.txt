@@ -1,0 +1,13 @@
+Q:
+
+Do cards that say "Each player..." still affect players with Shroud?
+
+I have a True Believer out which gives me shroud. My opponent has an enchantment that says that each player must sacrifice whenever he sacrifices a card. Does the enchantment target me, thus allowing me to avoid the effect, or does the enchantment still have its effect despite me having shroud?
+
+A:
+
+"Shroud" means "This permanent or player can't be the target of spells or abilities."
+Unless the ability specifically uses the word target, it is not affected by shroud.
+I'm not sure which enchantment you are talking about, but if it says each player, like Grave Pact, then it is not affected by shroud. If it says target opponent or target player, then it is affected by shroud.
+Note that there is a subtype of Enchantment, Curse, which have the line Enchant Player. These Enchantment Aura spells do target a player when they are on the stack, so they are affected by shroud.
+

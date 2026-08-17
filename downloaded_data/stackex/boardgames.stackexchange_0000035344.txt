@@ -1,0 +1,24 @@
+Q:
+
+Damage and insult//injury
+
+I play Insult, then attack with my 4/4 and my opponent blocks with their 4/4.
+Do both creatures die?  Damage cannot be prevented, does that work both ways?
+
+A:
+
+As GendoIkari mentioned in a comment, the way you've asked your question makes me wonder if you may misinterpreting what Insult does. It does two things:
+
+Stops damage from being prevented this turn, if anything would otherwise prevent damage
+Doubles damage dealt by sources you control, if any source you control would deal damage
+
+Without Insult's effects, when you attack with your 4/4 creature and your opponent blocks with their 4/4, your creature would deal 4 damage to theirs and theirs would deal 4 damage to yours, killing both. But what actually happens instead, taking into account Insult's effects, is this:
+
+Insult stops damage from being prevented, but nothing is preventing any damage, so that effect doesn't do anything
+Insult doubles damage dealt by sources you control, so the 4 damage your creature would deal to your opponent's is doubled to 8
+
+Thus your creature deals 8 damage to your opponent's, and your opponent's creature deals 4 damage to yours, meaning that they both die.
+Insult's first effect, which stops damage prevention, is only relevant if someone plays a spell like Djeru's Resolve, controls a permanent like Protection of the Hekma, or activates an ability like the +1 loyalty ability on Gideon, Ally of Zendikar. All of these may normally cause some damage to be prevented, which you can tell because they include the phrase "prevent...damage".1 Insult stops these kinds of damage prevention effects from working.
+
+1It can happen that damage is prevented without something explicitly saying "prevent...damage", such as with the protection ability, but I don't believe any recent cards (current Standard) have that ability.
+

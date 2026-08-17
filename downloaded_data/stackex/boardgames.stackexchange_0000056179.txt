@@ -1,0 +1,45 @@
+Q:
+
+When the top card of my library is permanently revealed, when is more than one card revealed?
+
+I have an effect like Courser of Kruphix that is revealing the top card of my library. I'm trying to avoid revealing extra hidden information about what cards I'm playing in my deck to my opponent while resolving effects that manipulate cards in my library. The relevant Oracle rulings on it state:
+
+If the top card of your library changes while you’re casting a spell, playing a land, or activating an ability, you don’t reveal the new top card until you finish doing so. This means that if you play a land from the top of your library, you can’t look at the next one until you’ve handled any replacement effects that modify that land entering the battlefield, such as that of Vesuva.
+
+While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it. If you put multiple cards on top of your library at once, reveal only the one new top card.
+
+It's clear drawing multiple cards will reveal more hidden information to my opponent than just the top card of my library before and after the spell's resolution.
+Are there any other deck manipulating actions that I can take that would reveal more cards than just the top card of my library before and after the spell's resolution? Some effects I'm thinking of are:
+
+Cards that shuffle multiple times during their resolution like Green Sun's Zenith. Is the top card of my library after the first shuffle but before the second shuffle revealed?
+Cards that search a library for a card like Polluted Delta's activated ability. Assuming that the card I search for and put on the battlefield is the top card of my library, is the new top card of my library revealed before I shuffle?
+Cards that can be played while searching your library, which I think is exclusively Panglacial Wurm. If Panglacial Wurm is the top card of my library and I cast it while searching my library, is the next top card of my library revealed after moving Panglacial Wurm to the stack? Is the next top card of my library revealed before or after I complete searching?
+
+Alternatively, are there deck manipulating actions that I can take that change the top card of my library don't end up revealing the intermediate cards?
+
+The first Oracle ruling points out some instances where manipulating the library won't have intermediate cards revealed. Are these the only effects of that type?
+
+I asked about the interaction with Green Sun's Zenith in the Magic Judge Chat:
+
+I control a Courser of Kruphix which is revealing the top card of my library. I cast Green Sun's Zenith to find a creature, and during resolution, the card's text says that I shuffle twice. After the first shuffle but before the second, do I reveal the top card of my library? Or do I wait until after the second shuffle?
+
+I was told:
+
+Yes, you reveal the top card of your library between the two shuffles.
+
+A:
+
+The important distinction here is that if multiple cards become the top card of the deck as the result of separate actions, you need to reveal all of them, but if multiple cards on top of the library get manipulated simultaneously as the result of a single action, you only need to reveal the one that ends up on top.
+Drawing cards makes you reveal each card because drawing multiple cards actually results in drawing each card as a separate action, because of rule 121.2:
+
+Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+The first ruling applies to playing lands because that is a single self-contained action, and to casting spells and activating abilities because of rule 401.5:
+
+Some effects tell a player to play with the top card of their library revealed, or say that a player may look at the top card of their library. If the top card of the player’s library changes while a spell is being cast, the new top card won’t be revealed and can’t be looked at until the spell becomes cast (see rule 601.2i). The same is true with relation to an ability being activated.
+
+None of the other subrules in the "Library" section specifies other times that cards would not be revealed, so that ruling can't be broadened from there.
+It seems clear from this that you reveal two cards while resolving Green Sun's Zenith. The two shuffles are separate actions, written in separate sentences. As an interesting note, Green Sun's Zenith is the only card ever printed that instructs you to shuffle twice in a single ability.
+The questions about Polluted Delta and Panglacial Wurm both mostly boil down to the question of whether searching and shuffling constitute one single action or two separate actions. I would lean towards arguing that they are separate, because they are separate keyword actions in the rules (701.19 and 701.20, respectively). That would mean that if the top card of the library changes while searching, you should reveal the new top card after you have finished searching, before you shuffle. This is not explicitly stated in the rules though, and judges may rule the other way.
+Panglacial Wurm in particular is a bit of a rules nightmare that doesn't always have the clearest rules interactions. It is the only effect ever printed that allows you to stop in the middle of an action and go do something else, and then come back to that action when you're done.
+

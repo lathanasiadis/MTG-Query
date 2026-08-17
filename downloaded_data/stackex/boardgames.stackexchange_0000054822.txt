@@ -1,0 +1,16 @@
+Q:
+
+Dina Soul Steeper & Lifelink Combo
+
+I recently pulled a Dina, Soul Steeper from a Strixhaven, School of Mages pack. I realized that Dina's activated ability, when given lifelink, could instantly win you the game. The ability reads "Whenever you gain life, each opponent loses one life." Lifelink affects creature abilities, so it would affect this. Therefore, if I gave Dina lifelink (from, say, an Alchemist's Gift, though it's irrelevant, so long as it grants lifelink) then gained life, I would win the game. I'd be dealing damage because of the ability, which would go on the stack before the lifelink, which would give me more life. It would be an endless loop, me gaining life and draining my opponents' life. My question is: Would this work? I do not know how thorough the Magic card developers are when checking if cards are too overpowered, but this seems too big to overlook. If this is legal, would it work the way I described? If not, why not? Is there any potential there?
+
+A:
+
+This would not work as you are thinking.
+The key is that Dina's ability does not do damage to your opponent. Although taking damage results in a loss of life, the effect "loses life" does not count as taking damage.
+Lifelink only works when the source with lifelink actually deals damage:
+
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes).
+
+See this question for more details on the differences between "loss of life" and "damage".
+

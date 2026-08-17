@@ -1,0 +1,20 @@
+Q:
+
+Has there ever been a deck that expects to lose game 1, then win game 2 and 3?
+
+Per title. This kind of deck would acknowledge that its mainboard plan is not very strong, but expect that its sideboard is powerful enough to tilt games 2 & 3 in its favor. Or, phrased differently, has there ever been a deck whose mainboard plan is not very good, but whose sideboard plan is strong enough to compensate?
+I'm not aware of any such deck. The two closest are:
+
+The traditional midrange deck like Jund expects to improve against all strategies post-board since it has the tools to beat everything in its 75. However, even this kind of deck hopes to win game 1; it usually has versatile cards maindeck that can disrupt whatever it faces, and there are matchups where it is naturally advantaged.
+I once conceived of a deck that would play every good card legal in the format, with something like 400 cards maindeck, then after sideboard it would board down to the specific 60 cards most effective against the opponent. Such a deck would indeed expect to lose game 1 and win games 2 & 3. However, this idea is illegal, because sideboards cannot have more than 15 cards even postboard.
+
+I do know of decks that do the reverse - they expect to win game 1, then hope to win one of games 2 and 3. Examples would be graveyard and artifact decks. Game 1 they are devastatingly effective, but post-board they can expect opponent to have strong sideboard bullets, which makes the games much harder. Still, if they can steal one of the postboard games, they still win 2-1.
+
+A:
+
+Nobody does this, because there's mathematically always a better option.
+Consider the most extreme version of your plan:  This deck has a 0% win rate in its base form, but can sideboard to have a 100% win rate against any deck - but each sideboard will only win against that particular deck, and has a 0% win rate against any other.
+There's no advantage to starting in the base form, when you could instead start in the form which is effective against the most popular deck.  If deck A can sideboard into deck B or deck C, then deck B can sideboard into deck C, so there's no opportunity cost for starting in a winning configuration.
+The only way starting with a bad deck could be in any way viable is if your goal is to trick your opponent into sideboarding incorrectly - but that can only ever work for a single game, as after the second game they will know your true strategy and can sideboard against it for the third.  Throwing away your entire first game for an advantage in the second is not at all worth it.
+And again, that's supposing the most extreme version of your deck.  In reality, a 15 card sideboard is just not that impactful.  Realistically, there's no way to tailor a deck to your opponent's weaknesses so drastically as to turn a deck with a low chance of winning into one with a high chance of winning.  But even if you could, then you might as well start out with a chance of beating at least one deck.
+

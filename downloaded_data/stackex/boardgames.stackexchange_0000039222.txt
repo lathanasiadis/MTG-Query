@@ -1,0 +1,16 @@
+Q:
+
+Drover of the Mighty + Raptor Hatchling + Fiery Canonnade
+
+Let's say I have a Drover of the Mighty and a Raptor Hatchling in play and then someone casts Fiery Cannonade, dealing 2 to each of them. Does the 3/3 dino arrive in time to save the Drover or does it briefly drop back to 1/1?
+
+A:
+
+Unfortunately no.  
+After Fiery Cannonade deals 2 damage, you check State-based-actions (SBA).  SBAs happen right before a player would get priority.  
+It sees Drover as a 3/3 with 2 marked damage, and the Hatchling as 1/1 with 2 marked damage.  So, it puts the hatchling in the graveyard. 
+Then it checks SBAs again to see if anything should happen again.  It sees Drover as a 1/1 with 2 marked damage, so it puts it into the graveyard.
+SBAs check again, see nothing, so then it goes ahead and puts the Hatchling's enrage trigger on the stack.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. 
+

@@ -1,0 +1,13 @@
+Q:
+
+How does first strike work with multiple blockers?
+
+I have an Edgar Markov that is currently attacking as a 10/10. My opponent assigns four creatures with a total of 20 power to block it. Does Edgar kill all of those blockers or does he only kill two of them?
+
+A:
+
+The outcome of a battle like this depends on the exact power and toughness of each creature involved.
+If Edgar is blocked by four 5/5 creatures, then Edgar will 5 first strike damage to each of two of those creatures, which will die. Then the other two creatures will deal 5 damage each to Edgar, and Edgar will die.
+If instead Edgar is blocked by two 4/6 creatures and two 6/4 creatures, then Edgar's controller can choose to deal 4 damage to each of the 6/4 creatures and the other 2 damage to one of the other creatures. In that case, both 6/4 creatures will die and the surviving creatures will only deal a total of 8 damage to Edgar, so Edgar will survive.
+In general, the important thing to look at is not just the total power and toughness of the creatures involved, but also how it is distributed among the creatures. The basic question is whether the creature with first strike can kill enough of the other creatures that the remaining blockers don't have enough power.
+

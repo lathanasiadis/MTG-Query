@@ -1,0 +1,39 @@
+Q:
+
+When restarting the game, do players shuffle all their cards into their libraries?
+
+Karn Liberated has an ultimate ability that says
+
+Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.
+
+At first I interpreted this effect as saying that players shuffle all cards they own into their libraries, then carry out the start of game procedure, thereby making a fully and completely reset game and board state (except for the exiled cards). But reading the comprehensive rules only mystified me, because there's nothing that explicitly says that, with some rules seeming to require it and others requiring the opposite.
+Rule 721.1 states
+
+...All players in that game when it ended then start a new game following the procedures set forth in rule 103, “Starting the Game”...
+
+And there is nothing in rule 103, nor rule 721, that states players shuffle all their cards into their libraries, only "shuffle their deck" in rule 103.2. So now I interpret the effect as all permanents remain on the battlefield and players' existing libraries become their decks in the restarted game. This is supported by rule 721.3:
+
+Because each player draws seven cards when the new game begins, any player with fewer than seven cards in their library will lose the game when state-based actions are checked during the upkeep step of the first turn, regardless of any mulligans that player takes.
+
+If players shuffled all their cards into their libraries before starting the game, they couldn't lose due to mill in the opening hand. I was comfortable with this state of affairs until I saw the example rule 721.2, which boggled my mind.
+
+Example: A player casts Living Wish, bringing a creature card into the game from outside the game. Then that game is restarted. The creature card will be part of that player’s library when the new game begins.
+
+Huh?? So suddenly a creature card does go back into the library? Wouldn't that apply to other cards as well? This example doesn't say what zone the card was in, seeming to make it unconditional.
+The other argument I can think of is: if cards aren't shuffled back into libraries, why would Karn's effect need to specify that cards are left in exile?
+I'm so confused.
+
+A:
+
+Yes, players shuffle all of their cards into the library when starting a new game.
+The full text of rule 103.2 says
+
+After the starting player has been determined, each player shuffles their deck so that the cards are in a random order. Each player may then shuffle or cut their opponents’ decks. The players’ decks become their libraries.
+
+Your deck is not the same thing as your library. Your deck is the cards that you start the game with. When you restart the game, you pick up every card in every zone that you own to reconstruct your deck, then you shuffle it, then it becomes your library.
+This is reflected in Karn Liberated's second ruling:
+
+The player who controlled the ability that restarted the game is the starting player in the new game. The new game starts like a game normally does: Each player shuffles their deck (except the cards left in exile by Karn’s ability). Each player’s life total becomes 20 (or the starting life total for whatever format you’re playing). Players draw a hand of seven cards. Players may take mulligans. Players may take actions based on cards in their opening hands, such as those of Leylines.
+
+"Deck" must refer to more cards than just the library for the exception to make any sense.
+

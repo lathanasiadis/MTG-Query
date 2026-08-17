@@ -1,0 +1,25 @@
+Q:
+
+What cards can retrieve arbitrary cards from exile?
+
+By "arbitrary" I mean the card retrieved need not be related to the card doing the retrieving. Red's impulsive draw mechanic and flicker cards that exile and immediately retrieve another permanent don't count, but it's fine if the spell limits the category of cards that can be retrieved, like Karn.
+
+A:
+
+I'm not completely sure this covers everything, but as far as I know in most cases you can only interact with cards face-up in exile. So doing a scryfall search for the words face-up + exile reveals 6 cards:
+
+Ashiok, Nightmare Muse (only grabs from opponent though)
+Coax from the Blind Eternities (only grabs eldrazi)
+Karn, the Great Creator (only grabs artfacts)
+Mirror of Fate (quite risky, exiles your deck)
+Pull from Eternity (puts the card in the grave)
+Riftsweeper (shuffles the card in the deck)
+
+There is also:
+
+Kaya the Inexorable whose emblem lets you cast face-up legendary cards (and face down legendary cards that you can view) that you own from exile
+Runic Repetition (only grabs cards with flashback)
+Rootcoil Creeper (only grabs cards with flashback)
+Memory Theft (only grabs opponents' Adventure cards)
+The Eldrazi Processors, and Processor Assault which can put cards your opponents have in exile in to their graveyards.
+

@@ -1,0 +1,19 @@
+Q:
+
+How damages from an attack applies to a player?
+
+Context :
+We're playing a mtg multiplayer game with 3 people (2 friends and I).
+Let's say player 1 has no creature on the board and no way to defend himself and 1 Life left, player 2 has some big creatures on the board and plenty of Life, and player 3 has three 3/3 creatures on the board, each with lifelink and vigilance, but player 3 doesn't have much life left (he could die next time player 2 attacks him with full power).
+In order to survive the next turn, player 3 has to gain life with the 3 of his creatures AND keep them alive for defense purpose) so he decides to attack player 1 with everything.
+Question :
+How do you apply the damage from player 3's attack to player 1 ?
+We're lacking information and can't tell if player 1 will die from the blow of the first creature to damage him (thus healing only 3 life to player 3), or if all three creatures hit him at the same time, letting player 3 heal 9 Life this turn.
+
+A:
+
+All combat damage happens at the same time, barring abilities such as first strike. That means player 3 gains 9 life from the attack (and player 1 ends up at -8 life before losing).
+From the CR:
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+

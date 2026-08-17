@@ -1,0 +1,43 @@
+Q:
+
+When a card modifies how many copies of that card a deck can have, does that affect the sideboard?
+
+I'm using MTG Cardsmith to design custom cards for a casual tournament with friends. My goal is to design some cards that make sense within the current rules of the game, while still being flavorful and interesting; one of my ideas is for a card that can only be played as a singleton (one copy per deck), in any format. But I'm not sure how best to write the rule text when sideboarding is taken into account.
+I thought I'd follow the wording of Persistent Petitioners, which reads:
+
+A deck can have any number of cards named Persistent Petitioners.
+
+The problem with this is that it's ambiguous whether "a deck" is inclusive of the sideboard or not. It doesn't really matter for Petitioners, because if the point is you can play as many as you want, a) you don't really need the sideboard and b) if you wanted to somehow side into Petitioners, it would be inconsistent with the spirit of the card not to allow you to add 15 of them.
+But if you're limiting the card to one copy, then it becomes important to know whether that's one copy in the main deck plus another one (or three) in the side, because of things like wishes.
+I check the comprehensive rules and it seems they define a deck as follows:
+
+100.2. To play, each player needs their own deck of traditional Magic cards, small items to represent any tokens and counters, and some way to clearly track life totals.
+  
+  
+100.2a In constructed play (a way of playing in which each player creates their own deck ahead of time), each deck must contain at least sixty cards. A constructed deck may contain any number of basic land cards and no more than four of any card with a particular English name other than basic land cards.
+100.2b In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates their own deck using only this product and basic land cards), each deck must contain at least forty cards. A limited deck may contain as many duplicates of a card as are included with the product.
+
+And a sideboard as follows:
+
+100.4. Each player may also have a sideboard, which is a group of additional cards the player may use to modify their deck between games of a match.
+  
+  
+100.4a In constructed play, a sideboard may contain no more than fifteen cards. The four-card limit (see rule 100.2a) applies to the combined deck and sideboard.
+
+(And so on.)
+The implication of "combined deck and sideboard" in 100.4a is that the word "deck" technically refers to what we more loosely call a "main deck" and is exclusive of the sideboard.
+Furthermore, the four-card limit of 100.2a explicitly applies to the "combined deck and sideboard." However, 100.4a does not explicitly state that any restriction on the number of copies of a card that may be played is necessarily applied in this way.
+So, my gut feeling is that the rules text of the card should be worded like this:
+
+A deck can not have more than one card named [this card].
+
+If Wizards were to print a card with that wording today, would the limitation apply only to the (main) deck as defined by 100.2, or would it apply to the "combined deck and sideboard," consistent with 100.4a? Is there some basis for an official ruling here, even though the wording is essentially hypothetical? Or should I resign myself that this needs to be interpreted as a house rule?
+
+A:
+
+Rule 100.4 clearly distinguishes between the deck and the sideboard, by using the word "also". That is, a player must have a deck of minimum size and may choose to have a sideboard of maximum size.
+Rule 100.4a again makes this distinction, and clarifies that the deck and sideboard together may contain a maximum of four copies of the same card. This ensures a person cannot "accidentally" end up with more than four copies of the same card when making changes between deck and sideboard, or "accidentally" mix up the two sets of cards to disguise excess use of one card.
+Rule 100.4c gives further insight into the separation between decks and sideboards, by telling us that all cards not in the decks of either player are in the sideboard. A card cannot both be in the sideboard and in the deck, therefore the sideboard cannot be part of the deck.
+Consider the outcome of counting the sideboard as part of the deck: someone could pick just 45 (or 25!) cards for actual use in the match, shuffled to form their library. If this was intended, the rule writers could, and given the clarity of the Rules as a whole, assuredly would, have said so.
+All told, this would mean a card that says "You may only have one copy of [Card Name] in your deck" would not disallow having three copies in the sideboard as well. However, none of those other copies could be brought into the game by an effect that accesses the sideboard (if such an effect were to be written). To avoid the loophole, the card should say "... in your combined deck and sideboard".
+

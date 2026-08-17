@@ -1,0 +1,31 @@
+Q:
+
+Do I have any chance to use a 0 toughness animated land before it dies?
+
+In the event that Living Plane is in play along with Elesh Norn, Grand Cenobite (or similar effects) in play, can an opponent of Elesh Norn play a land and tap it for mana before the state based board events send it to the graveyard for having 0 or less toughness?
+Living Plane 2GG World Enchantment: "All lands are 1/1 creatures that are still lands."
+Elesh Norn, Grand Cenobite 5WW Legendary Creature: "Creatures your opponents control get -2/-2."
+This is also under the assumption that there is something providing haste to creatures since summoning sickness would prevent tapping the creature land for mana.
+
+A:
+
+The lands will die before you can tap them for mana.
+A combination of these rules will mean the creatures die.
+
+115.2a Playing a land is a special action. To play a land, a player puts that land onto the battlefield from the zone it was in (usually that player's hand). A player can take this action any time he or she has priority and the stack is empty during a main phase of his or her turn, but only if he or she hasn't yet played a land that turn. See rule 305, "Lands."
+
+115.3. If a player takes a special action, that player receives priority afterward.
+
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step's first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2), with the following exceptions:
+
+605.3a A player may activate an activated mana ability whenever they have priority, whenever they are casting a spell or activating an ability that requires a mana payment, or whenever a rule or effect asks for a mana payment, even if it’s in the middle of casting or resolving a spell or activating or resolving an ability.
+
+You would play your land that immediately becomes a 0/0 creature due to Living Plane and Elesh Norn.  Then you would receive priority due to taking a special action (i.e. playing a land) but before you would get priority, State Based Actions are checked, which sees you have a 0/0 creature on the battlefield and would immediately put it into your graveyard.
+You cannot activate the mana ability because
+
+You do not have priority - you're about to receive priority back but you don't have it until after SBAs are checked
+You are not casting a spell - you can't be in the process of casting a spell because you just played a land
+Nothing is asking for a mana payment - again, there is nothing on the stack because you are getting priority as a result of playing a land
+

@@ -1,0 +1,28 @@
+Q:
+
+Can you use one creature for both convoke and delve for Hogaak?
+
+Hogaak, Arisen Necropolis has both Convoke and Delve, meaning that its cost can be paid for by tapping creatures, and by exiling cards from your graveyard.
+Can I tap a creature for convoke, sacrifice it to Ashnod's Altar, and then exile it for delve?
+I know that I couldn't sacrifice the creature to something like Altar of Dementia, because you can't activate abilities while casting a spell.  But Ashnod's Altar is a mana ability, so I should be able to use it while casting Hogaak, even though I can't use the mana to pay for Hogaak (because of its first ability), right?
+Does this work?  Could I pay Hogaak's 7 cmc cost using 4 Grizzly Bears?
+
+A:
+
+The ordering of when Delve, Convoke and mana abilities are activated mean that you cannot use both Convoke and Delve on a single creature/card.
+Essentially you activate mana abilities as part of 601.2g, then pay costs as part of 601.2h, this is where Delve and Convoke come in.
+So you can activate Ashnods and then Delve the sacrificed card, but cannot Convoke before the sacrifice.
+
+601. Casting Spells
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can’t be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes “locked in.” If effects would change the total cost after this time, they have no effect.
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+702.50. Convoke
+702.50a Convoke is a static ability that functions while the spell with convoke is on the stack. “Convoke” means “For each colored mana in this spell’s total cost, you may tap an untapped creature of that color you control rather than pay that mana. For each generic mana in this spell’s total cost, you may tap an untapped creature you control rather than pay that mana.”
+702.50b The convoke ability isn’t an additional or alternative cost and applies only after the total cost of the spell with convoke is determined.
+
+702.65. Delve
+702.65a Delve is a static ability that functions while the spell with delve is on the stack. “Delve” means “For each generic mana in this spell’s total cost, you may exile a card from your graveyard rather than pay that mana.”
+702.65b The delve ability isn’t an additional or alternative cost and applies only after the total cost of the spell with delve is determined.
+

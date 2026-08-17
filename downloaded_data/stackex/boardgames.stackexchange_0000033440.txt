@@ -1,0 +1,19 @@
+Q:
+
+Trample and double strike
+
+I attack with an 8/8 double strike trampler.  My opponent blocks with a 3/5, and three 1/2 creatres.  How much damage does my opponent ultimately receive?  I said 5, he said 4. Who is correct?  Thanks
+
+A:
+
+Your opponent will be dealt up to 5 damage
+Damage doesn't wear off until end of turn, so it's irrelevant how much damage a creature is dealt in the First Strike or normal combat damage segment individually.
+
+119.6. Damage marked on a creature remains until the cleanup step (...)
+
+Therefore, when dealing with a creature with Trample, you can simply add up the defense of all creatures blocking it, subtract that number from the trampling creature's total power (multiplied by 2, if it has Double Strike) and end up with the amount of damage dealt to the player. In this case, here's what the calculation looks like:
+8 * 2 - (5 + 2 + 2 + 2)  =  16 - 11  =  5
+
+Exceptions to this rule would be the creature with Double Strike dieing in the First Strike combat damage segment, for example when blocked by a Glissa, the Traitor. Since the blocking creatures in this case aren't capable of dealing lethal damage in the First Strike combat damage step, damage assignment order and combat damage segments are irrelevant to this specific example.
+Note that you can assign more damage to a blocking creature than it has toughness, meaning you could assign all damage to the blocking creatures and none to the defending player. Because of that, the answer is phrased "up to 5 damage"
+

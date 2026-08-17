@@ -1,0 +1,23 @@
+Q:
+
+Under what circumstances can Carrion Grub trigger Garruk's Uprising?
+
+Garruk's Uprising triggers whenever a creature with power >4 enters the battlefield. A ruling on the card says "If a creature is entering the battlefield under your control, consider static abilities to determine whether its power is 4 or greater. Spells, activated abilities, and triggered abilities can’t be used to raise the creature’s power in time to have Garruk’s Uprising’s last ability trigger or to lower it in time to stop it from triggering."
+Meanwhile, a ruling on Carrion Grub says "Carrion Grub’s first ability applies only while it is on the battlefield. In all other zones, its power is 0."
+In which of these scenarios will Carrion Grub trigger Garruk's Uprising?
+
+I have no cards in my graveyard and Garruk's Uprising in play. I play Carrion Grub, which mills a 4-power creature.
+I have a creature with >4 power in my graveyard when I play Carrion Grub.
+
+I'm guessing that in the first case it will not trigger (because Garruk's Uprising explicitly says triggered abilities aren't in time) but I am not so sure about the second. The ruling on Carrion Grub explicitly says it has zero power until it's on the battlefield, which could be before or after Garruk's Uprising checks for a creature entering.
+
+A:
+
+Your guess is correct; in the first case Garruk's Uprising will not trigger; in the second case it will.
+Because Carrion Grub's mill ability is a triggered enters-the-battlefield ability, it doesn't do anything until it is too late for it to help with Garruk's Uprising. First a creature with power 0 enters the battlefield, and then later that creature grows into a 4-power creature. It never happened that a 4-power creature entered the battlefield. It is similar to a land that is on the battlefield later becoming a creature; you don't get "when a creature enters the battlefield" effects.
+In the second case, Garruk's Uprising will trigger because Carrion Grub's first ability is a static ability, it is always true while Carrion Grub is on the battlefield. The moment it enters the battlefield, the game checks to see what happened, and it will see that there is a creature on the battlefield with 4 power that wasn't on the battlefield before.
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don’t apply before the permanent is on the battlefield, however (see rule 603.6d).
+
+603.6d Some permanents have text that reads “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” “[This permanent] enters the battlefield as . . . ,” or “[This permanent] enters the battlefield tapped.” Such text is a static ability—not a triggered ability—whose effect occurs as part of the event that puts the permanent onto the battlefield.
+

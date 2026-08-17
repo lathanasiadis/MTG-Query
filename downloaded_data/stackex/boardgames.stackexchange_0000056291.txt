@@ -1,0 +1,41 @@
+Q:
+
+How to determine the card pool used by Pool of Vigorous Growth?
+
+Short Version:
+Is there a list of all creatures in Arena?
+Long Version:
+If you go to scryfall, and look at all the 9 mana value creatures available in historic you get a list of 5 cards (as of 2021-09-05).
+Missing from that list are the cycle of five bringer creatures.
+However, if you experiment with Pool of Vigorous Growth you'll see that it will generate tokens from the bringer cycle.
+This leads me to conclude that the pool of creatures that Pool of Vigorous Growth pulls from is all creatures in Arena.  Which is different from all creatures in historic.  (Wizards often has put the bringer cycle into special events on Arena.)  Is there a list of all creatures in Arena?
+One scenario where this matters:  I have a pool on the battlefield, and my opponent is in beatdown mode with a flyer with the ground fully stalemated.  I need to get a flyer and have 1 basic land in my hand.  How much mana should I pump into the pool to maximize my probability of getting a flyer?
+
+A:
+
+Arena itself downloads the full set of cards supported in Arena; on a Windows machine, this can be found at %PROGRAMFILES%\Wizards of the Coast\MTGA\MTGA_Data\Downloads\Data\ (i.e. C:\Program Files\Wizards of the Coast\MTGA\MTGA_Data\Downloads\Data\ in the vast majority of cases); I'm sure a similar location exists for the macOS version as well.
+In that directory, the primary file you'll want is data_cards_<string of hex digits>.mtga, although you'll need to reference the other data_*.mtga files as well. From there you can extract every card, token and a few other oddities that can appear on the battlefield (e.g. the Momir Vig emblem) and can then filter that to the list of creatures. The disclaimer here is that there's no guarantee that Arena actually selects from every creature in there when selecting a random creature, and I'm not aware of any actual specification from WotC saying how the random creature is selected. While it's obviously not a creature, there are definitely some cards in Arena's database you might not expect - for example, Mox Jet and Mox Sapphire, which were very briefly playable as part of the preconstructed Elspeth vs Ashiok event done at the launch of Theros Beyond Death.
+If you're a Python programmer, python-mtga will do a lot of the heavy lifting for you in terms of parsing the Arena data. Here are all the 9 mana value creatures in Arena's database as of 2021-09-05:
+
+Arboretum Elemental (GRN)
+Blazing Archon (RAV)
+Bringer of the Black Dawn (5DN)
+Bringer of the Blue Dawn (5DN)
+Bringer of the Green Dawn (5DN)
+Bringer of the Red Dawn (5DN)
+Bringer of the White Dawn (5DN)
+Chromescale Drake (DST)
+Colossus of Sardia (10E)
+Demon of Death's Gate (M11)
+Fire Dragon (ME2)
+Furnace Dragon (DST)
+Iona, Shield of Emeria (ZEN)
+Kuro, Pitlord (CHK)
+Molderhulk (GRN)
+The Tarrasque (AFR)
+Thing from the Deep (ME4)
+Titanoth Rex (IKO)
+Zacama, Primal Calamity (RIX)
+
+Full disclosure: that link is to my fork of python-mtga. My fork does have the advantage that it works on the latest Arena data though, unlike the original.
+

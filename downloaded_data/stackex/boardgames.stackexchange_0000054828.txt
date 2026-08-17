@@ -1,0 +1,10 @@
+Q:
+
+Does Wandering Archaic trigger if the spell is countered?
+
+If Wandering Archaic is in play, a spell is played and countered while the Wandering Archaic's ability is still on the stack, what happens when the Wandering Arachic trigger resolves? Does it fizzle or does it create a copy despite the original spell being countered?
+
+A:
+
+Since the triggered ability does not target, it will resolve and use last known information about the copied spell. See for example the ruling on Mirari.
+

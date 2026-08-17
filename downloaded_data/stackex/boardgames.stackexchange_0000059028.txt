@@ -1,0 +1,35 @@
+Q:
+
+Does Ent's Fury have any effect when targeting a creature with less than 4 power?
+
+The first part of Ent's Fury's specifies
+
+Put a +1/+1 counter on target creature you control if its power is 4 or greater.
+
+but then it continues
+
+Then that creature gets +1/+1 until end of turn and fights target creature you don't control.
+
+When targeting a creature with less than 4 power, my interpretation is that the first ability will do nothing, while the second will take effect (ideally burying an opposing creature and preparing to attack), but I see conflicting reports online and no Oracle Rulings yet
+The spell can target a creature with less than 4 power because it's not a qualifier like "target creature you control with 4 or more power", triggering effects like "when X becomes the target of a spell", but does the second part of the spell take effect?
+
+A:
+
+The second part of the spell functions for creatures with less than 4 power.
+The "if its power is 4 or greater" clause only modifies the first sentence. The antecedent of "that creature" in the second sentence refers to "target creature you control", and that creature is still that creature even if it doesn't have power 4 or greater.
+Several similar fight spells have been printed, and they all work like this. For example, Ancient Animus has the text
+
+Put a +1/+1 counter on target creature you control if it’s legendary. Then it fights target creature an opponent controls.
+
+and the ruling
+
+The creature you control doesn’t have to be legendary. It simply won’t receive a +1/+1 counter before it fights if it isn’t legendary.
+
+And Savage Swipe has the text
+
+Target creature you control gets +2/+2 until end of turn if its power is 2. Then it fights target creature you don’t control.
+
+and the ruling
+
+The target creature you control gets +2/+2 only if its power is exactly 2 as Savage Swipe resolves. It’ll still fight if it doesn’t get +2/+2.
+

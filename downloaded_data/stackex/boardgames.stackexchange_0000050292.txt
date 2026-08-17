@@ -1,0 +1,22 @@
+Q:
+
+Reordering Static Effects with Dependencies on a Changing Board State
+
+All of the discussion about Dryad of the Ilysian Grove's Layer 4 confusion and other discussions about continuous effects got me thinking about an unintuitive situation that can result from dependencies and seemingly unrelated changes to the board state.  Here is the scenario:
+
+Player A controls some basic Forests, a Gingerbread Cabin and Life and Limb.  All of their Forests (including the Cabin) are 1/1 Saprolings.
+Player B casts Blood Moon.  Life and Limb's ability is dependent on Blood Moon because it changes what it applies to (specifically, whether it applies to the Cabin).  As such, the Cabin becomes a Mountain when Blood Moon is applied, and does not become a Saproling when Life and Limb is applied.
+Player A casts Sprout Swarm and creates a 1/1 Saproling token.  This now creates a dependency of Blood Moon on Life and Limb as now the application of Blood Moon to the token will depend on whether Life and Limb has been applied yet.  This forms a dependency loop as outlined in 613.7b-c.  We would apply Life and Limb first due to the timestamp order, then reevaluate and determine no further dependencies exist.  Then we would apply the effect from Blood Moon.  As such, both the Gingerbread Cabin and the Saproling token will have the stats of 1/1 green Land Creature -- Saproling Mountain.
+
+So my question is about whether this is correct.  Can the presence or absence of an object with no static abilities of its own shake up the orders of these continuous effects in a meaningful enough way to determine whether a seemingly unrelated object will have effects applied to them?  Or am I missing or misunderstanding something that would not cause this unintuitive result?
+
+A:
+
+Yes, the existence of an object with no abilities can change the order in which effects are applied.
+In the section about dependencies, rule 613.7a says
+
+An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+The highlighted section clearly indicates that the dependency order of effects depends not only on the effects themselves and the objects those effects are on, but also the full set of objects that those affects could apply to. So a change to that set can change how effects are applied.
+So, your description of how that example would play out is correct. The existence of the Saproling token changes the dependency order between Life and Limb and Blood Moon, which results in Gingerbread Cabin ending up with different characteristics.
+

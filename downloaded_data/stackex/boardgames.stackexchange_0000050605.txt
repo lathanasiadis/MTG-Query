@@ -1,0 +1,31 @@
+Q:
+
+Resolving spell terminology
+
+I've seen a lot of cards use the key phrase "When you cast a spell..." but are there any cards or abilities that rely on spells being successfully cast and Resolve?
+For instance the creature ability Prowess; triggers whether or not a non-creature is cast successfully or countered. 
+What would the wording on modern cards look like to reflect that?
+
+A:
+
+Buyback and Rebound depend on the card resolving in order for their effects to occur.
+Anoint
+
+Buyback 3 (You may pay an additional 3 as you cast this spell. If you do, put this card into your hand as it resolves.)
+
+Artful Maneuver
+
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+
+Feather, the Redeemed has a trigger that fires when you cast a spell, and then checks to see if the spell resolved.
+
+Whenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.
+
+There is also a very similar phrasing to what you're describing used on some cards.  These are ETB triggers that fire only if the permanent entered the battlefield as a result of being cast.  It is, functionally, no different than the spell resolving.
+
+(...)When (X) enters the battlefield, if you cast if from your hand, (Y).
+
+This is a list of cards that have that phrasing on it.  As a specific example, Angel of the Dire Hour.
+
+When Angel of the Dire Hour enters the battlefield, if you cast it from your hand, exile all attacking creatures.
+

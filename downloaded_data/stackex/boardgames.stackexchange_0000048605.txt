@@ -1,0 +1,17 @@
+Q:
+
+Can the card Disintegrate destroy creatures with indestructible?
+
+I was playing magic the gathering with my friend, and I was using the card Zetalpa, Primal Dawn, which has indestructible. He wanted to play the card Disintegrate on the Zetalpa to destroy it, but we weren’t sure whether or not it would actually kill it.
+
+(source: scryfall.com)
+
+A:
+
+No. Disintegrate cannot kill Zetalpa, Primal Dawn. Creature with indestructible cannot be killed with damage.
+Rules quote from comprehensive rules:
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+Disintegrate would exile Zetalpa only if Zetalpa would die. In your case Zetalpa won't leave the battlefield.
+

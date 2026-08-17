@@ -1,0 +1,13 @@
+Q:
+
+Mirror-Sigil Sergeant and Mirrorweave
+
+Can I cast Mirrorweave in response to my own Mirror-Sigil Sergeant's upkeep ability and turn all my creatures into Mirror-Sigil Sergeant for that upkeep / turn and cause all my creatures to duplicate themselves?
+
+A:
+
+You can use Mirrorweave and make all of your creatures copies of Mirror-Sigil Sergeant, but you won't get any extra triggers.
+Mirror-Sigil Sergeant's triggered ability triggers "at the beginning of your upkeep", which is before you have any chance to act during that turn. The first time you can cast Mirrorweave is, as mentioned in the question, in response to the triggered ability. By that point, the time for the triggered ability to trigger has already passed, so any new Mirror-Sigil Sergeants will have already missed their window for the ability to trigger. If you instead cast Mirrorweave at any time during the previous turn, the copy effect will end before the new turn starts, so you can't get the trigger that way either.
+
+As a side note, if a creature becomes a copy of Mirror-Sigil Sergeant in some other way that does allow the ability to trigger, the tokens it creates would just be more Mirror-Sigil Sergeants, not whatever creature it would be otherwise. As long as those creatures are copies of the Mirror-Sigil Sergeant, they have its copyable attributes, so anything that copies those creatures just copies the Mirror-Sigil Sergeant.
+

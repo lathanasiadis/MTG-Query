@@ -1,0 +1,23 @@
+Q:
+
+When an effect says “you may cast” something, how can I tell when timing rules apply?
+
+Some effects that say “you may cast” let you ignore timing rules. For example, Descendants' Path lets you cast creature spells during your upkeep. It doesn’t explicitly say that you can ignore timing rules or cast the spell as though it had flash, but it’s implicit (because otherwise the card wouldn’t work at all).
+On the other hand, Emry, Lurker of the Loch has a “you may cast” effect with reminder text stating that “Timing rules still apply.” Since this is reminder text and not rules text, that means the rules text on its own already implies that you can’t ignore timing rules.
+Those two are clear-cut cases, but in general, how to determine whether a “you may cast” effect lets you ignore timing rules? It seems like punctual effects let you ignore timing rules, while ongoing effects (“You may cast (…) this turn”) don’t, but I couldn’t find a reference to that in the comprehensive rules.
+
+A:
+
+While these effects look similar, there is a key difference between the two:
+Descendants' Path instructs you to cast the card as part of the effect's resolution. This is the case exempted by 116.1 and therefore ignores the timing restrictions given by the game rules (see 116.1a) , but is still subject to timing restrictions imposed by game objects (e.g. an opponents Teferi, Time Raveler would prevent you from casting it)
+Emry, Lurker of the Loch creates a continuous effect that gives you permission to cast the card upon resolutuion. You may do so until the effect  ends, but must follow the usual timing restrictions (116.1a).
+
+116.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined
+by a system of priority. The player with priority may cast spells,
+activate abilities, and take special actions.
+116.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main
+phase any time he or she has priority and the stack is empty.
+
+If a spell or ability instructs you to cast another spell as part of its resolution, it will be on the stack while the other spell is being cast, however, it will have left the stack by the time that spell resolves. While technically a legal target, you will not be able to actually copy the original spell or ability.
+If a spell or ability grants you permission to cast another spell, it will have left the stack by the time you recieve priority to cast that spell and will not be a legal target.
+

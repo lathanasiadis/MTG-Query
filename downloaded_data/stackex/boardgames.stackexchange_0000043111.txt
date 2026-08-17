@@ -1,0 +1,16 @@
+Q:
+
+With Necropotence, would I keep playing even with no library?
+
+In MTG, I know if I'm not able to draw on my draw step I lose, but what if I had Necropotence out; that lets me skip my draw step. Would I be able to continue playing the game?
+I'm just curious because I'm not sure how that would work in play. I'm not too familiar with priorities, like who has it, who gets and when it changes. But I was thinking if I could skip my draw step I wouldn't have to draw therefore wouldn't lose because I can't draw.
+
+A:
+
+You are correct that if you control a Necropotence, you will not lose the game during your draw step, because you will skip your draw step entirely, and you can keep playing until the game ends some other way.
+You say "I know if I'm not able to draw on my draw step I lose", but it would be more accurate to say that you lose if you are instructed to draw from an empty library at any time, during your draw step or otherwise.
+From the Comprehensive Rules:
+
+120.4. A player who attempts to draw a card from a library with no cards in it loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+120.5. If an effect moves cards from a player’s library to that player’s hand without using the word “draw,” the player has not drawn those cards. This makes a difference for abilities that trigger on drawing cards and effects that replace card draws, as well as if the player’s library is empty.
+

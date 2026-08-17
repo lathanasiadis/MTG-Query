@@ -1,0 +1,36 @@
+Q:
+
+If Pitiless Pontiff sacrifices Piru, the Volatile, does it get indestructible?
+
+If Pitiless Pontiff sacrifices Piru, the Volatile, does it get indestructible before getting killed by Piru?
+
+A:
+
+No, Pitiless Pontiff would die to Piru's damage.
+When you activate an ability, the process has a certain order: In a nutshell, you start by putting the ability on the stack as the top-most object. Then you make all necessary choices such as selecting modes, targets, etc. Finally you determine and pay all costs, which includes sacrificing Piru.
+Now the Pontiff's ability has been activated but not yet resolved. Piru's triggered ability goes on the stack as the new top-most object. Because of the Last In, First Out order of resolving the stack, Piru's trigger resolves first, dealing 7 damage to the Pontiff. The Pontiff's ability is still on the stack and has not yet resolved,  leaving the Pontiff vulnerable. By the time the Pontiff's ability resolves, the Pontiff has already died.
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. [..]
+
+602.2a The player announces that they are activating the ability. [..] That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack.
+
+The Pontiff's ability goes on the stack here.
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. [..]
+
+601.2h The player pays the total cost. [..]
+
+You sacrifice Piru here.
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+After the ability has been activated, players get a round of priority, and triggered abilities waiting to enter the stack do so now.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+Piru's ability triggers as soon as you sacrifice it to pay for the Pontiff's ability, but doesn't enter the stack yet.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+As mentioned above, players get rounds of priority after the Pontiff's ability has finished activating, and Piru's ability goes on the stack now, ultimately causing it to resolve before the Pontiff's ability.
+

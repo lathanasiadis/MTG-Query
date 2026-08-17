@@ -1,0 +1,24 @@
+Q:
+
+Does Yidris, Maelstrom Wielder's cascading reoccur with cascaded spells?
+
+The new Commander 2016 set comes with a deck commanded by Yidris, Maelstrom Wielder, who can apply cascade to cards his player casts.
+My friend has been playing with Yidris, and it seems insanely powerful! He casts a spell from his hand, then cascades into one from his library, then that cascade reoccurs with another card from his library, and another, and so on. He can easily cycle through a third of his deck each turn eventually! Is this really how it's meant to work?
+
+A:
+
+This is a common mistake and misreading with Yidris. His ability says:
+
+as you cast spells from your hand this turn, they gain cascade.
+
+When you cascade into another card to cast it for free, that new card is not cast from your hand; it is cast from exile. This means it will not be given cascade by Yidris. Normally each card you cast from your hand grants you just one extra card and no more.
+
+You'll cast a card from your hand.
+You'll find one new card while cascading through your library, cast that one from exile. It isn't given cascade, so you'll be done here.
+
+... unless you happened to find a card that did have cascade in its own rules text. (In Yidris's preconstructed deck this will be Etherium-Horn Sorcerer, Bloodbraid Elf, or Bituminous Blast.) You'll cascade again, but that's because of the card itself, not because of Yidris.
+
+Your spells will resolve in reverse order: the one you cascaded down to most recently resolves first, and the one you actually originally cast from your hand resolves last.
+
+If you cast a second card from your hand, you'll repeat this process again, getting one (but probably only one) new card from your cascading.
+

@@ -1,0 +1,28 @@
+Q:
+
+Enduring Angel and Metamorphic Alteration effects
+
+This is a bit of an edge case:
+
+Player 1 has an Enduring Angel on the field
+Player 2 plays a Delver of Secrets and enchants it with Metamorphic Alteration, copying the Angel
+Player 2 is reduced to 0 life, triggering the Enduring Angel replacement effect.
+
+Being specifically Delver isn't important, other than it being a double faced card. It's clear that if this were a normal creature, the copy wouldn't be able to transform and the player would lose the game. However Delver is double faced and is able to flip to transform. What happens? The card will end up flipped over and still a copy of Enduring Angel - does this still count as transforming and let the player live with 3 life and a repeatable Enduring Angel?
+
+A:
+
+Yes, the copy will "transform" and the player will survive.
+This is covered by one of the examples under rule 712.5, although the text of the rule itself doesn't explicitly say it.
+
+712.5. Only permanents represented by transforming double-faced cards can transform. (See rule 701.28, “Transform.”) If a spell or ability instructs a player to transform any permanent that isn’t represented by a transforming double-faced card, nothing happens.
+
+Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a
+transforming double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a transforming double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.
+
+The example clearly shows that a TDFC that becomes a copy of another card can still be transformed. The copy effect will continue to overwrite whatever's printed on the card with the card it copied. Notably, rule 707.8 means it won't become the back side of the copied card:
+
+707.8. When copying a double-faced permanent, a face-up meld card, or a melded permanent, only the copiable values of the face that’s currently up are copied.
+
+The Delver passes the restriction of rule 712.5: it's still a permanent represented by a TDFC, so it may transform when instructed to do so. Per 712.5 and 707.8, it will continue to be a copy of the front side of Enduring Angel. (It still tracks which of its own sides is up, which matters if Metamorphic Alteration is removed.) Enduring Angel's ability only checks whether the card transformed as a result of that ability, not whether it actually gained the characteristics of Angelic Enforcer, so it will not cause the player to lose the game.
+

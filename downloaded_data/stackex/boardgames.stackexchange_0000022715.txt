@@ -1,0 +1,30 @@
+Q:
+
+Will a creature cast with Dash still return to your hand if it dies in combat?
+
+While going through Fate Reforged, I became a little bit confused by the new mechanic Dash.
+For example, if you take a look at Goblin Heelcutter, the ability states as such:
+
+Whenever Goblin Heelcutter attacks, target creature can't block this turn.
+Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+
+My question is, since the creature is a 3/2, if it was assigned a blocker and dealt more than 2 damage, would it still return to the owner's hand at the beginning of the next end step?
+
+A:
+
+If it's dead, it's not coming back.
+Reminder text isn't actually official rules, but it is there to help you out, and there's a key phrase in the reminder text to help you in this case just from the card, without having to look things up:
+
+You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.
+
+If it's not on the battlefield anymore, it can't be returned from there to your hand! So if it dies (or is exiled or otherwise leaves the battlefield) before the end of the turn, whether due to combat damage or a removal spell or anything else, it won't come back.
+The Mechanics of Fate Reforged article also mentioned this, among all the other helpful information about the mechanics. It's a good article to read if you want to make sure you understand everything from the new set.
+
+If you cast a creature spell using its dash cost, it will return to your hand only if it's still on the battlefield at the beginning of the next end step. If it leaves the battlefield before that point, it'll just stay wherever it is.
+
+If you want the actual rules, the comprehensive rules mention that dash actually does a few separate things, one of which is the return-to-hand ability:
+
+702.108a Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. “Dash [cost]” means “You may cast this card by paying [cost] rather that its mana cost,” “If this spell’s dash cost was paid, return the permanent this spell becomes to its owner’s hand at the beginning of the next end step,” and “As long as this permanent’s dash cost was paid, it has haste.” Paying a card’s dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.
+
+Note that it specifically says "return the permanent..." - if the creature has left the battlefield already, it's no longer a permanent, so there's nothing to return.
+

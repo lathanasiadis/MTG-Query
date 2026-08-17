@@ -1,0 +1,23 @@
+Q:
+
+Portcullis triggers
+
+The oracle text for Portcullis is:
+
+Whenever a creature enters the battlefield, if there are two or more other creatures on the battlefield, exile that creature. Return that card to the battlefield under its owner's control when Portcullis leaves the battlefield.
+
+One of the official rulings for the card says that:
+
+The creature does enter the battlefield, so any other abilities that trigger on it entering the battlefield trigger. This follows the normal rules for timing triggered abilities: first, the current player puts his or her abilities on the stack in any order, then each other player in turn order does the same. Portcullis’ own ability is included in this, so it could result in the creature being exiled after some abilities have resolved, but before others.
+
+So clearly any entering creatures can result in EtB triggers going onto the stack in APNAP order, but when does "Portcullis’ own ability" go on the stack? And who determines the order?
+Example: Portcullis is on the battlefield under the control of player B, who also has a single creature on the field. Player A casts Show and Tell, which resolves. Player A puts down an Emrakul, the Aeons Torn and player B puts down Grizzly Bears. They enter simultaneously. Neither has an EtB trigger (Emrakul's trigger is "on cast"). Who gets to decide the order of the Porcullis triggers? Portcullis’ controller? Or do the Portcullis triggers go on the stack as if the creatures had entered in APNAP order. If APNAP, order, then Player B's (NAP) trigger would go onto the stack after A's (AP) trigger and thus resolve first, exiling the Bears and then when Emrakul's trigger resolves, there would be only two creatures, so Emrakul would stick. OTOH, if Portcullis' controller gets to choose, (s)he could put the Bears' trigger on the stack first, followed by Emrakul, so the trigger for Emrakul would see two other creatures and Emrakul would be exiled. Then the Bears would see only one other creature and would stay on the battlefield.
+I would guess that I'm reading too much into the phrase "Portcullis’ own ability" and that the answer is simply APNAP, but I'm not sure.
+Thanks.
+
+A:
+
+Triggered abilities that trigger simultaneously are always put on the stack in APNAP order. Specifically, this means that the active player puts the triggered abilities that they control onto the stack in any order they choose, then each other player in turn order does the same. In the case of Portcullis, the player who controls the triggered ability is the player who controls Portcullis itself, so that player chooses the order in which its triggers go on the stack if multiple creatures enter simultaneously.
+So, in your specific example, player B controls the Portcullis, so they decide the order in which the triggers go on the stack, allowing them to effectively decide which creature gets exiled.
+The ruling you quoted simply means that if there are other triggered abilities that trigger the same time as Portcullis's own ability, then Portcullis's ability may appear before, after, or even in between them on the stack, depending on who controls those abilities and in what order they decide to put them on the stack.
+

@@ -1,0 +1,28 @@
+Q:
+
+Does "Mountainwalk" imply "Snow-Covered Mountainwalk"?
+
+If I am playing a deck with Snow-Covered Mountains, does a creature with Mountainwalk become unblockable or do they require Snow-Covered Mountainwalk  (where "mountain" is interchangeable with plains, islands, swamps, forests and mountains)?  Conversely, if I had a creature with Snow-Covered Mountainwalk, is it unblockable if an opponent has only regular Mountains in play?
+I lack the experience with the Comprehensive Rules to be able to conclusively go one way or the other.
+
+702.12a Landwalk is a generic term that appears within an object’s rules text as
+“[type]walk,” where [type] is usually a subtype (as in “islandwalk”), but can be
+the card type land, any land type, any supertype, or any combination thereof (as
+in “snow swampwalk” or “legendary landwalk”).
+
+702.12b Landwalk is an evasion ability. A creature with landwalk is unblockable
+as long as the defending player controls at least one land with the specified
+subtype and/or supertype. (See rule 509, “Declare Blockers Step.”)
+
+I suppose the question boils down to this: is "Mountain" a supertype of "Snow-Covered Mountain"?
+
+A:
+
+Yes.
+Since Snow-covered is a land supertype, and mountain is a subtype, a snow-covered mountain is also a mountain and thus plain vanilla mountainwalk applies. The land subtypes are specified in rule 204.3h
+
+204.3h Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza's.
+            Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
+
+However, you are correct about the converse. A creature with Snow-covered mountainwalk would be able to be blocked if you had a mountain but no snow-covered mountains.
+

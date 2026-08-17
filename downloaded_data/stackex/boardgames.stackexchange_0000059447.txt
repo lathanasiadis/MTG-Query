@@ -1,0 +1,33 @@
+Q:
+
+Danny Pink and "enters the battlefield with"
+
+In this recent installment of "too specific" on EDHREC.com the author argues that Metallic Mimic wouldn't be that good with Danny Pink since creatures of the chosen type enter the battlefield with that counter.
+If I remember correctly, other cards which trigger when a counter is put onto something also trigger when creatures enter the battlefield with that counter, e.g. Hapatra, Vizier of Poisons creates a snake token when Deity of Scars enters the battlefield under the same controller - this is somewhat rooted in 122.6a of the comprehensive rules.
+Since the wording isn't different, Danny Pink's static ability should allow the player to draw a card for each creature which enters the battlefield with a counter. This is backed by the ruling on Fathom Mage. Am I correct, or did I miss some miniscule difference between Danny & Hapatra/Fathom Mage?
+
+A:
+
+Danny Pink and Metallic Mimic are a combo.
+Danny grants the ability to your creatures through a static ability with a ability-granting continuous effect, so they enter the battlefield with the ability already on them. There is no delay to static abilities.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+604.2. Static abilities create continuous effects [..].
+
+While you control Danny and Metallic Mimic, your applicable creatures enter the battlefield with Danny's granted ability and a +1/+1 counter. That counter counts as having been placed on that creature:
+
+122.6. Some spells and abilities refer to counters being put on an object. This refers to putting counters on that object while it’s on the battlefield and also to an object that’s given counters as it enters the battlefield.
+
+There is no timing conflict between Danny's ability and other rules. An object's abilities are among its characteristics and therefore governed by the layer system, which always comes first.
+The layer system is the sole method of determining an object's characteristics such as its abilities. Whenever anything in the game, including other rules, asks about the characteristics of an object, the layer system is used. The only difference between Danny Pink and e.g. Fathom Mage is that Fathom Mage gets its ability innately, while Danny grants its ability in layer 6.
+
+Interaction of Continuous Effects
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. [..] Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1f Layer 6: Ability-adding effects, keyword counters, ability-removing effects, and effects that say an object can’t have an ability are applied.
+
+When the rules check whether or not the +1/+1 counter from Metallic Mimic triggers either Danny Pink or Fathom Mage, the layer system will return in both cases that the object in question has a triggered ability that triggers on counter placement.
+In conclusion, there is no practical difference between Danny Pink and Fathom Mage as far as their interaction with Metallic Mimic is concerned and the author of the article is mistaken in dismissing the Danny Pink/Metallic Mimic combo.
+

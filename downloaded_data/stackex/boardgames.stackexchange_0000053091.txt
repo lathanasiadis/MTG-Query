@@ -1,0 +1,23 @@
+Q:
+
+Does Bear Umbra trigger if it was attached with Sovereigns of Lost Alara?
+
+Say I have Sovereigns of Lost Alara and attack just with Inkwell Leviathan. Sovereigns of Lost Alara lets me search for an aura and attach it to that creature.
+If I attach Bear Umbra does the creature's new attack trigger trigger?
+On Ilharg, the Raze-Boar the rules say:
+
+Although the new creature is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example, such as those of Trusted Pegasus and Makeshift Battalion).
+(2019-05-03)
+
+It seems as though this is a roughly similar case, because the creature is declared an attacker before the aura is attached, but I don't know if it's close enough or if the aura can look back at the card's previous state?
+
+A:
+
+Bear Umbra's ability triggers when the creature it enchants is declared as an attacker. That happens at the same moment Sovereigns' ability triggers, so by definition it's too late for Bear Umbra. You have more luck next turn.
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. ...
+
+508.2. Second, the active player gets priority. (See rule 117, “Timing and Priority.”)
+
+508.2b Any abilities that triggered on attackers being declared or that triggered during the process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+

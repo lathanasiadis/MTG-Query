@@ -1,0 +1,30 @@
+Q:
+
+How does Psychic Surgery work with Scheming Symmetry?
+
+If I have the card Psychic Surgery out and I cast Scheming Symmetry, when exactly do I get to exile? Does the Psychic Surgery trigger resolve before or after the card tutored with Scheming Symmetry (or similar tutors, such as Vampiric Tutor) gets put on top of the library?
+
+A:
+
+The card found by Scheming Symmetry will be one of those looked at.
+Spells and abilities in Magic the Gathering are atomic - once they start to resolve, they need to fully resolve before anything else happens. Psychic Surgery will see the shuffle, and the ability from it will trigger, but triggers do not get put on the stack as soon as they happen, they are put onto the stack the next time a player would get priority per rules 603.2 and 603.3 in the Comprehensive Rules (emphasis mine):
+
+603.2 Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3 Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+This means this is how the events will happen:
+
+Scheming Symmetry (SS) is cast, targeting two players.
+All players pass priority, SS begins to resolve.
+Both targeted players search their libraries for a card.
+Both targeted players shuffle their libraries, except for the found card.
+Psychic Surgery (PS) notes that it has been triggered at least once (twice if SS targeted two of your opponents in a multiplayer game). PS does nothing yet.
+Both players place their found card on top of the newly shuffled library, SS finishes resolving.
+Active player would receive priority again, because PS has triggered, the PS triggers are placed on the stack.
+All players pass priority and the (first) PS trigger beings to resolve, allowing you to look at the found card and one other card from the top of the library.
+
+With Psychic Surgery on the battlefield, a smart player will search for some middle ground card in their deck, anything too good will mean it gets exiled, anything too mediocre means that will be their next draw as the other card gets exiled.
+
+Note, where I say "all players pass priority at steps 2 and 8, players can cast instants or use instant speed abilities. Unless one of those is a counter like Stifle, or an end the turn effect the Psychic Surgery will resolve eventually. A player could cast or use an ability that will make them draw the card they searched for before psychic surgery resolves, something like Brainstorm, but it will be more common that they can't do that in time.
+

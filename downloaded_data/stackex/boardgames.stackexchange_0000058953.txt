@@ -1,0 +1,23 @@
+Q:
+
+How does Founding the Third Path work with Revolt?
+
+Founding the Third Path's 3rd chapter allows you to cast a spell from your graveyard. Say I target Fatal Push. Can I successfully kill a 3-CMC creature with Fatal Push? In other words, does the Founding leave the battlefield first courtesy of its saga effect, or does the Fatal Push resolve first?
+Relevant text of cards in question:
+
+Founding the Third Path: III — Exile target instant or sorcery card from your graveyard. Copy it. You may cast the copy.
+
+Fatal Push: Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.
+
+A:
+
+The saga will leave the battlefield before Fatal Push can resolve, meaning you get revolt.
+
+715.2. A chapter symbol is a keyword ability that represents a triggered ability referred to as a chapter ability.
+
+Abilities of sagas are triggered abilities that use the stack and have to resolve before they do anything.
+
+715.4. If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.
+
+The saga leaves the battlefield when its final ability has finished resolving, but at that time, Fatal Push is still on the stack, waiting to resolve. By the time Fatal Push does resolve, the saga will have left the battlefield and given you revolt.
+

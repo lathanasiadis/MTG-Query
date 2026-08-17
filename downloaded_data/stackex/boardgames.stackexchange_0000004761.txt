@@ -1,0 +1,27 @@
+Q:
+
+How does Infect resolve in M:TG?
+
+I'm making a poison deck and want to check the Infect rules.
+If a 2/2 creature with Infect is blocked by a vanilla 3/3 creature, what happens?
+I know the 3/3 gets two -1/-1 counters instead of damage, but does it do 3 or 1 damage to my 2/2 infect creature?
+Can anyone give reference to official rules on when the counters come into play?
+
+A:
+
+if a 2/2 poison creature is blocked by a normal 3/3 creature what happens ?
+I know the 3/3/ gets two -1/-1 counters instead of damage but does it do 3 or 1 damage to my 2/2 poison creature ?
+can anyone give reference to official rules on when the counters come into play?
+
+From the comprehensive rules, all damage is dealt simultaneously.:
+
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt. This is a change from previous rules.
+
+A creature with infect deals damage like this, according to rule 119.3d & e and 702.88c:
+
+119.3d Damage dealt to a creature by a source with wither and/or infect causes that many -1/-1 counters to be put on that creature.
+119.3e Damage dealt to a creature by a source with neither wither nor infect causes that much damage to be marked on that creature.
+702.88c Damage dealt to a creature by a source with infect isn't marked on that creature. Rather, it causes that many -1/-1 counters to be put on that creature. See rule 119.3.
+
+Therefore, since damage is done simultaneously and the counters come into play at the same time damage is dealt, your 2/2 creature with infect will be dealt 3 damage, and the 3/3 creature will get two -1/-1 counters during the combat damage step. Your creature with infect will therefore die.
+

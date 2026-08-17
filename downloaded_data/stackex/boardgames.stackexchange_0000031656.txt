@@ -1,0 +1,10 @@
+Q:
+
+Do multiple take control effects let me keep a card?
+
+If I was to cast two "take control of a creature until end of turn" spells, like Act of Treason, twice on the same creature in the same turn, do I keep it ?
+
+A:
+
+You will keep the creature until the end of the turn (more precisely, the Cleanup Step). If you cast two separate Acts on the same creature in the same turn, they both have the same duration—"until end of turn"—so both will expire at the same time. They don't add together to let you keep the creature longer.
+

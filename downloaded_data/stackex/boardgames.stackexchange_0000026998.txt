@@ -1,0 +1,38 @@
+Q:
+
+How does Void Winnower affect face down spells and creatures?
+
+Void Winnower says
+
+Your opponents can't cast spells with even converted mana costs. (Zero is even)
+
+Your opponents can't block with creatures with even converted mana costs.
+
+If I control a Void Winnower, does it prevent my opponent from casting Morph and Megamorph cards as face down spells? Does it prevent face down creatures from blocking?
+
+A:
+
+Void Winnower does prevent your opponent from casting face down spells and blocking with face down creatures.
+The most important rule here is 202.3a:
+
+The converted mana cost of an object with no mana cost is 0.
+
+The description of Morph is in rule 702.36a:
+
+Morph is a static ability that functions in any zone from which you could play the card it’s on, and the morph effect works any time the card is face down. “Morph [cost]” means “You may cast this card as a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost.” (See rule 707, “Face-Down Spells and Permanents.”)
+
+Since the spell has no mana cost, you cannot cast it for its mana cost, so you need an alternative mana cost to cast it [CR 117.6a]. In this case, the rule allows you to cast it for an alternative mana cost of {3}, but that does not change the actual mana cost of the spell.
+And the description of Manifest in 701.31a says
+
+To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it’s turned face up.
+
+In addition, rule 707.2a says
+
+If a face-up permanent is turned face down by a spell or ability, it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. A permanent that enters the battlefield face down that wasn’t cast as a face-down spell also has these characteristics. These values are the copiable values of that object’s characteristics.
+
+Putting these together, we can see that face down morph spells, and any creature that is face down for any reason has no mana cost, so Void Winnower prevents your opponent from casting face down spells and blocking with face down creatures.
+
+Void Winnower's Gatherer page now has a ruling that says
+
+The converted mana cost of a face-down creature spell or a face-down creature is 0. Void Winnower will stop face-down creature spells from being cast and face-down creatures from blocking.
+

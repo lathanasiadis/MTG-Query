@@ -1,0 +1,26 @@
+Q:
+
+Does an ability resolve if the source of the ability leaves the battlefield?
+
+Player A taps Goblin Fireslinger targeting Player B; its "deals 1 damage to target player" ability is placed on the stack.
+Player B gets priority and responds with Snap, targeting Goblin Fireslinger.
+Both players pass priority. Snap resolves, and Goblin Fireslinger is returned to its owner's hand.
+Does Player B still take 1 damage from Goblin Fireslinger's activated ability?
+I know that if the creature had been killed/sent to the graveyard, the ability would still resolve, but I was told recently that because a player's hand is a private zone it couldn't. If anyone could confirm or deny this for me, it would be most appreciated.
+
+A:
+
+Yes, Player B still takes damage from the Goblin Fireslinger. Rule 112 covers this adequately. Rule 112.3a tells us that Activating an ability puts it on the stack, until it resolves, is countered (Stifle), or it otherwise leaves the stack (Time Stop). Rule 112.7a tells us that the activated ability exists independent of the source, and does not quality this separation with objects moving to a hidden zone.
+
+112.3b Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]” A player may activate such an ability whenever he or she has priority. Doing so puts it on the stack, where it remains until it’s countered, it resolves, or it otherwise leaves the stack. See rule 602, “Activating Activated Abilities.”
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+It is possible that they are confusing this with the rules regarding tracking objects that are moving between zones. Normally, objects have no memory of their previous existence in another zone, and become new objects. There are 7 exceptions, and (d/g) are probably the ones that they are confusing this with. These exceptions exist, because cards like Rancor exist that need to have rules that allow the cards to actually work.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+400.7g A resolving spell or activated ability can perform actions on an object that moved from one zone to another while that spell was being cast or that ability was being activated, if that object moved to a public zone.
+

@@ -1,0 +1,23 @@
+Q:
+
+Arixmethes and Riot
+
+Say I have Rhythm of the Wild out and I cast Arixmethes, Slumbering Isle. How do they interact? 
+My understanding is that riot and the slumber counters are both replacement effects and I can choose the order to apply them. So if I choose to apply riot first, then Arixmethes can enter with a +1/+1 counter, even though it ultimately ETBs as a land, not a creature. Is this correct?
+Edit: I asked a judge and they said that riot always applies to Arixmethes, regardless of the order. So I guess that settles that.
+
+A:
+
+From the rulings on Arixmethes (emphasis mine):
+
+Arixmethes isn’t a land until after it has entered the battlefield.
+  Effects such as that of Blood Moon won’t affect its
+  enters-the-battlefield ability. Similarly, replacement effects that
+  modify how creatures you control enter the battlefield will see
+  Arixmethes entering as a creature rather than a land. However,
+  triggered abilities (such as landfall abilities) will see that a land
+  entered the battlefield and not a creature.
+
+So Rhythm of the Wild will see it as a creature and give it riot.  Then Arixmethes will get a counter (or haste if you want).
+Arixmethes's other ETB effect (getting slumber counters) is irrelevant.  The static ability making Arixmethes a land only applies once Arixmethes is on the battlefield.  Gaining riot happens before that.
+

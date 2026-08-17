@@ -1,0 +1,17 @@
+Q:
+
+Does splicing change the target of a spell
+
+I cast an instant and my opponent casts a counter and I splice an additional spell to my original instant does this prevent the counter.
+
+A:
+
+Well, first of all, you cannot do that.
+These are the rules for Splicing:
+
+702.46a Splice is a static ability that functions while a card is in your hand. “Splice onto [subtype] [cost]” means “You may reveal this card from your hand as you cast a [subtype] spell. If you do, copy this card’s text box onto that spell and pay [cost] as an additional cost to cast that spell.”
+  Paying a card’s splice cost follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+This means that you need to splice the spell as you cast whatever you're splicing onto.
+Also, as @ikegami pointed out, Splicing onto a spell will not create a new object. Even if you could splice a spell onto another spell that had already been cast, the target for the counterspell wouldn't be changed.
+

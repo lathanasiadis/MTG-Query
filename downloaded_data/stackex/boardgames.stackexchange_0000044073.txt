@@ -1,0 +1,32 @@
+Q:
+
+Do I draw a card in this situation with Oblivion Ring in MTG?
+
+Situation:
+My opponent has an Oblivion Ring exiling my Wirewood Savage. I play Beast Within targeting the Oblivion Ring.
+The following things will happen:
+
+The oblivion ring will be destroyed
+A beast will be put on the battlefield
+My Wirewood Savage will come back
+
+But in what order? I want to know whether or not I'll be able to draw a card by Wirewood Savage's effect.
+
+A:
+
+You will not draw a card.
+When a spell or ability resolves it resolves fully, then all abilities that were triggered during that resolution are put on the stack immediately after.
+Beast Within resolves fully, destroying Oblivion Ring and creating a beast.
+Oblivion Ring's 'leaves the battlefield' ability it put on the stack.
+The ability resolves, bringing back Wirewood Savage.
+Modern versions of Oblivion Ring such as Ixalan's Binding use a different template.  For those, you would draw a card.
+Ixalan's Binding reads
+
+When Ixalan's Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan's Binding leaves the battlefield.  
+
+This creates a one-shot effect (exiling a permanent) that lasts "until" Ixalan's Binding leaves the battlefield.  As per rule 610.3:
+
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+
+Wirewood Savage would return to the battlefield immediately after Ixalan's Binding leaves play.  Then you would create a Beast token, and because Wirewood Savage is in play, Wirewood Savage would trigger.
+

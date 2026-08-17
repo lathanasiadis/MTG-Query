@@ -1,0 +1,46 @@
+Q:
+
+Can I Shatter a Lotus Petal, using mana from the Lotus Petal to pay for Shatter?
+
+I was just thinking about the differences between how Magic is played and how the rules describe its play. In particular, I see most people cast a spell this way:
+
+Tap mana,
+Put spell on stack, declare targets.
+
+But the rules describe it happening in a specific order,
+
+Put spell on stack, declare targets,
+Pay for costs.
+
+Which is backwards from the way I see most people play it (even though both are legal).
+So, can I do the following?
+
+Propose Shatter, putting it on the stack.
+Declare its target as my Lotus Petal.
+Sacrifice the Lotus Petal and tap a Mountain to pay for the Shatter.
+The Shatter does not resolve because all of its targets are not legal, and it is put in the graveyard.
+
+File this under “shenanigans that have no real point”, but I’m curious if this bizarre sequence is legal according to the rules.
+I’m also curious if there is any reason why you might want to pay for a spell after declaring its targets, other than contrived scenarios (e.g. opponent has a Black Vise, and the Lotus Petal is the only artifact in play).
+
+A:
+
+Yes, you can do this.
+When casting a spell, declaring targets happens before paying costs:
+
+Casting Spells
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.[...]
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires.[...]
+[...]
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+And as you suggest, doing so will result in Shatter fizzling; going to the graveyard without resolving when it attempts to resolve. You might want to do this for a reason such as increasing your Storm count, or because you have other things that combine with having Shatter in your graveyard.
+You also could choose to sacrifice Lotus Petal first, for example if you wanted to cast Argivian Find, targeting the Lotus Petal in your graveyard (again just to either increase Storm count, or because you need Lotus Petal in your hand for something, etc).
+You seem to be mixing up "tapping lands" with "paying costs". These are 2 separate things. Tapping lands (or Lotus Petal, etc) adds mana to your mana pool. This can either be done any time you could activate any other ability, or it can be done during 601.2g while casting a spell.
+However, paying the cost itself can only ever happen during 601.2h. You can't pay the cost for a spell before you begin the process of casting that spell.
+In terms of the difference between tapping lands before you begin to cast the spell or during the casting of the spell, there is generally no difference. The rules allow for either, and I think as casually played, I've seen players do either. The difference is whether your opponent sees the card you are casting as they see you tapping your lands or not.
+There are some cases where you need mana that isn't produced by a mana ability. For example, if you are casting Dark Ritual to cast a spell that costs 3 mana even though you only have 1 Swamp in play. In this case, you wouldn't be able to wait until you start casting the spell you want to cast, because you aren't allowed to cast Dark Ritual as part of that process.
+

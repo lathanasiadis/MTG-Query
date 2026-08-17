@@ -1,0 +1,15 @@
+Q:
+
+How does Dredge work with drawing more than one card?
+
+How does dredge work with drawing multiple cards at once? For example, let's say I cast Windfall and discard three cards, a Golgari Grave-Troll, and a Stinkweed Imp. With the at least five cards I am drawing from Windfall, could I dredge two of the draws with the troll and the imp? If so, how exactly do I do that properly? Do I get to select which of the five draws I am dredging?
+
+A:
+
+Yes and yes.  Yes you can dredge both cards, and yes you can select which of the five draws you are choosing to replace with a dredge.  More than that, though, when you draw cards, you do so one by one.  So you could in theory be like "I'm looking for a specific card.  Draw 1?  Not it.  Draw 2?  Not it.  Draw 3?  Ok that's what I want, I'll Dredge using my other 2 draws instead of drawing".
+To do this "properly" in the most formal way, you would say "I'm drawing a card and replacing my draw with CARDNAME".  Then you return CARDNAME to your hand and mill that many cards.  If you would like to dredge multiple cards in 1 action, you can shortcut this by saying "I'm going to draw 2 cards, I'm going to replace those draws with dredging CARDNAME1 and CARDNAME2".  Then you return both of those cards to your hand and mill a number of cards equal to the sum of their Dredge numbers.
+Relevant sections of Comprules:
+
+121.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+702.51a Dredge is a static ability that functions only while the card with dredge is in a player’s graveyard. “Dredge N” means “As long as you have at least N cards in your library, if you would draw a card, you may instead put N cards from the top of your library into your graveyard and return this card from your graveyard to your hand.”
+

@@ -1,0 +1,25 @@
+Q:
+
+What happens when a commander is exiled?
+
+Let's say you have a commander on the field, and an opponent uses Sisters Of Stone Death to force your commander to block the sisters and then exiles your commander?  Does it remain exiled, or does it go back to your commander zone?
+
+A:
+
+The rule is
+
+If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone.
+
+If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event.
+
+(See mtgcommander.net)
+So, in this case, you get to choose whether it goes into exile or the command zone. If you put it in the command zone, then your opponent can't use the Sisters' other ability to bring it back, of course.
+Several important nuances:
+
+You don't have to put your commander back in the command zone. This is handy if, for instance, you can't afford to hardcast your commander, but you've got a reanimation spell in your hand.
+As of the June 2020 rules update, your commander will hit the graveyard or the exile zone before going to the command zone, and will trigger "on exile" or "on graveyard" triggers. E.g. if you are playing Keiga as your commander, you can steal a creature if you put Keiga in the command zone when it dies.
+Owner, not controller. Even if someone else Mind-Controls your commander, you still get to pick whether it goes back into your command zone. If they use Mindslaver on you, however, they can choose.
+You only get a choice when your commander has just reached the new zone, in the case of the graveyard or exile, or just before it goes there, in the case of your hand or library. So, if you put it into the graveyard or exile, it'll stay there just long enough to trigger any relevant abilities, but there is no opportunity for anyone to gain priority and start playing spells or activating abilities before it moves to the command zone. If someone exiles it from your graveyard, you can scoop your commander back into the command zone. Mimeoplasm, for example, can copy a dead commander like any other creature card in your graveyard, but at least you can put that commander back in your command zone since it gets exiled (Mimeoplasm still comes into play as the copy).
+Recasting your commander from your hand doesn't cost extra like bringing it back from the command zone does; nor does it count for figuring out how many times you've cast it from the command zone already.
+Rare card interactions can cause a card to move from one zone to the same zone. If that happens to your commander, fear not: you do still get the option to put it in the command zone. See this answer for a detailed explanation.
+

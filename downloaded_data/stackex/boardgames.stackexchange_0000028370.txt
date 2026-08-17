@@ -1,0 +1,21 @@
+Q:
+
+Do Surge triggers happen "on cast" or when the spell resolves?
+
+Consider this new card from Oath of the Gatewatch -- Crush of Tentacles.
+I realize the first part -- "Return all nonland permanents to their owners' hands" -- happens when the spell resolves, but what about the second part of the card text -- "If Crush of Tentacles surge cost was paid, put an 8/8 blue Octopus creature token onto the battlefield."
+Does that trigger when the card is cast or when the spell resolves?
+
+A:
+
+The effect that checks whether the Surge cost was paid resolves when the spell resolves. This is because abilities of Instants and Sorceries are by default "spell abilities", and resolve when the spell resolves. Rule 112.3a says
+
+Spell abilities are abilities that are followed as instructions while an instant or sorcery spell is resolving. Any text on an instant or sorcery spell is a spell ability unless it’s an activated ability, a triggered ability, or a static ability that fits the criteria described in rule 112.6.
+
+None of those exceptions apply here. It's not an activated ability, because it doesn't have the form "[cost]: [effect]" [CR 112.3b]. It's not a triggered ability because it doesn't start with the word "At", "When", or "Whenever" [CR 112.3c]. And it's not a static ability, because it's written as an instruction, not a statement [CR 112.3d].
+When you are resolving the spell, rule 608.2c says
+
+The controller of the spell or ability follows its instructions in the order written. [...]
+
+so the Octopus token enters the battlefield immediately after the other creatures return to their owners' hands, and it does not itself get returned.
+

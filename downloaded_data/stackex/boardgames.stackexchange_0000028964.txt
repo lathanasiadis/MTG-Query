@@ -1,0 +1,56 @@
+Q:
+
+If a player goes to "combat", and then activates an ability, what is the game state?
+
+My question is not a duplicate of When should I activate Man Lands and Keyrunes in order to attack with them?, although anyone answering this question would need to understand at least that much in order to understand this one. That question only explains when a player would need to activate. It doesn't cover shortcuts or illegal actions, which is what my question is primarily about.
+Does activating an ability when you have already decided to move to the declare attackers step imply that you are declaring zero attackers?
+
+Anthony: Combat?
+Noah: Sure.
+Anthony: Animate Mutavault?
+Noah: Sure.
+Anthony: Declare attackers?
+Noah: Hang on. You're already in the declare attackers phase, right? I thought you animated Mutavault after you decided to declare no attackers.
+
+Anthony offers the shortcut "Combat?". According to the Tournament Rules, that means he is offering to pass priority until Noah has priority in the Beginning of Combat step.
+
+A statement such as "I'm ready for combat" or "Declare attackers?" offers to keep passing priority
+  until an opponent has priority in the beginning of combat step. Opponents are assumed to be acting
+  then unless they specify otherwise.
+
+Noah responds with "Sure." I believe this means that Noah is passing priority back to Anthony (don't get too hung up on this - it isn't the focus of the question). That means the game moves to the Declare Attackers step.
+Anthony activates Mutavault, which is an action that could, if it is legal, only be taken after declaring attackers. Now the game state is potentially ambiguous.
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack
+  ...
+  508.3. Third, the active player gets priority
+
+Assume the tournament level is Competitive REL, and that if a judge is needed, one will be called. What is the resulting game state? I believe the resulting game state would be one of the following, but I am not sure which is correct (if either):
+
+The game is in the Declare Attackers phase, and Anthony does not have the opportunity to declare attackers.
+Activating Mutavault was an illegal action because Anthony didn't have priority. That action is reversed. The game is in the Declare Attackers phase, and Anthony still has the opportunity to declare attackers.
+
+A:
+
+As of the release of Amonkhet, the "Go to combat" tournament shortcut changed, and it now unambiguously supports Anthony's interpretation of the sequence of events. The game is in the beginning of combat step and Mutavault's ability is on the stack. Noah has priority.
+The current wording of that shortcut is
+
+If the active player passes priority with an empty stack during their first main phase, the non-active player is assumed to be acting in beginning of combat unless they are affecting whether a beginning
+of combat ability triggers. However, if the non-active player takes no action, the active player has priority at the beginning of combat. Beginning of combat triggered abilities (even ones that target)
+may be announced after any non-active player action has resolved.
+
+The Amonkhet policy changes announcement describes the practical impact of the change to this shortcut:
+
+What this does, in a bunch of words, is set the default case so that the active player moving to combat (usually) means that the non-active player is acting in beginning of combat, but the active player’s role there only happens after that. They haven’t missed triggers, and they can still crew. But, by offering to pass priority into combat, they can no longer claim to be in main phase for non-instant spells afterwards unless the non-active player took an action to prevent the trigger.
+
+In the situation in question, activating Mutavault serves the same purpose as the ability to crew that they mention: it turns a non-creature object into a creature in preparation for attacking with it.
+In addition, that same blog has a post that takes a more detailed look at the change, and it discusses a scenario that involves actions like those described in the question:
+
+The Cryptic Command Problem
+It’s not a problem with the shortcut, per se, but it’s a protection for the non-active player that’s been removed. There are various permutations of the “Phantom Priority Pass”, but here’s a simple one:
+The active player has a two Bears and a Mutavault. The non-active player is at 5 life, but active player is worried about a Cryptic Command.
+The active player wants to try to get a read on if the coast is clear. So, they say “Combat” in an attempt to imply that they’re ready to declare attackers. If the non-active plays the Cryptic, you activate the Mutavault and get in for 2. If they don’t, unless they’re a very precise player, it’s a strong sign that they may not have it and you should activate the Mutavault and go for it. The old shortcut precluded that baiting.
+Of course, the correct time to play the Command if you have it is after the second priority pass (or interrupting the declaration). But now you need to be more careful if you’re the non-active player to not accidentally tip your hand.
+
+The "if they don't [play a Cryptic Command]" scenario plays out exactly like the one in the question: the active player announces that they are moving to Combat, the non-active player takes no action, then the active player activates Mutavault and attacks with it.
+

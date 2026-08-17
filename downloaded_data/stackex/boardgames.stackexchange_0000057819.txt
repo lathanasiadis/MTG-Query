@@ -1,0 +1,20 @@
+Q:
+
+Does Eater of Virtue works with tokens?
+
+If a token is exiled with Eater of Virtue, does the equiped creature has the listed abilities?
+I wonder because tokens aren't really cards...
+
+A:
+
+Eater of Virtules only grants abilities from exiled cards, not tokens.
+Eater of Virtues' third ability says
+
+As long as a card exiled with Eater of Virtue has flying, equipped creature has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance.
+
+Tokens are not cards, so the ability does not work with tokens. In addition, even if the wording was different, it could not work with tokens anyway, because tokens cannot continue to exist outside of the battlefield. This is because of rule 111.7:
+
+A token that’s in a zone other than the battlefield ceases to exist. This is a state-based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)
+
+If a token equipped with Eater of Virtues dies, it will cease to exist immediately after going to the graveyard, before Eater of Virtues' triggered ability resolves and tries to move it to exile.
+

@@ -1,0 +1,20 @@
+Q:
+
+Can I exile a token copy of Greenwarden of Murasa for its second ability?
+
+I have a Greenwarden of Murasa out, and I make a token copy of it with Fated Infatuation or Progenitor Mimic or something along those lines.
+When the token dies it will immediately vanish from the graveyard per token rules, but this ability will also trigger:
+
+When Greenwarden of Murasa dies, you may exile it. If you do, return target card from your graveyard to your hand.
+
+Will I have no option to return a card via this ability? It vanishes too soon for me to exile it, and I don't have the ability to meet that "if" with a token, right?
+
+A:
+
+You cannot choose to exile the token because it has already ceased to exist, and you won't be able to return a card to your hand.
+A token ceases to exist as soon as it moves to a zone other than the battlefield:
+
+110.5g A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+
+When the token dies, its death ability will trigger. As per state-based actions, the token ceases to exist. On resolution of the triggered ability, you will get to choose whether to exile the token. However, because the token has already ceased to exist, you cannot choose to exile it, and you will not be able to return a card to your hand.
+

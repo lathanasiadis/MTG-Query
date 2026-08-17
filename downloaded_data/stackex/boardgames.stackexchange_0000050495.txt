@@ -1,0 +1,36 @@
+Q:
+
+Under what conditions can I cast Panglacial Wurm from my Library when my opponent controls an Aven Mindcensor?
+
+My opponent controls an Aven Mindcensor. 
+
+If an opponent would search a library, that player searches the top four cards of that library instead.
+
+I have a Panglacial Wurm in my deck.
+
+While you're searching your library, you may cast Panglacial Wurm from your library.
+
+I cast a Rampant Growth (or any other card that allows me to search my library).
+What is the ruling on my ability to cast the Panglacial Wurm?
+I can see one of three possible answers.
+
+You cannot cast Panglacial Wurm.  You aren't searching your library, you're searching the top four cards of your library.
+You can cast Panglacial Wurm, but only if it's in the top 4 cards of your library.  Aven Mindcensor prevents you from looking any further into your library, and if you can't find Panglacial Wurm then you can't cast it.
+You can cast Panglacial Wurm, regardless of where it is in your library.  It's in your library, and you're searching your library.
+
+I have a feeling it's either 1 or 3, but I'm unsure.  What is the correct ruling?
+
+A:
+
+It is option 2, you can cast Panglacial Wurm if it is in the top 4 cards.
+
+701.18f If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply. [...]
+
+Because Aven Mindcensor uses the word "search" in the replacement, it is still searching. It is just now searching a sub-set of your library.
+The regular event of searching your library never happens in this case, so a Wurm somewhere else in your library won't do anything:
+
+614.6 If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+
+The reason number 3 doesn't work is that you don't have the Wurm available to cast. If you aren't seeing it while searching, you have no way of "knowing" that it is even in your library. You wouldn't be allowed to rely on having your deck list memorized to know that. And even if you do know for sure that it's in there, you aren't allowed to search the rest of your library to find it in order to cast it.
+This was addressed and confirmed by a judge here.
+

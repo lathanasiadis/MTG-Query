@@ -1,0 +1,16 @@
+Q:
+
+Does Stony Silence stop Salvage Titan's activated ability from the graveyard?
+
+Salvage Titan is a black artifact with the ability "Exile three artifact cards from your graveyard: Return Salvage Titan from your graveyard to your hand."
+If Salvage Titan is in the graveyard and opponent has Stony Silence in play (which says "activated abilities of artifacts can't be activated"), can I still activate Salvage Titan's ability to return it from graveyard to hand? In other words, does Stony Silence's ability extend to artifacts in the graveyard?
+
+A:
+
+No, Stony Silence does not affect that ability on Salvage Titan.
+Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+Stony Silence refers to "artifacts", so it is talking about artifact permanents on the battlefield. So, while Salvage Titan is in the graveyard, Stony Silence's effect does not apply to it.
+

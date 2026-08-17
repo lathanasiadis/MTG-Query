@@ -1,0 +1,19 @@
+Q:
+
+Expansion // Explosion and Alms Collector
+
+If I have an Alms Collector and my opponent casts Explosion where X is 4 targeting himself and my Alms Collector, should Alms Collector still replace the draw 4 effect?
+I assume because Alms Collector doesn't leave the battlefield until state based actions are checked and that won't happen until after Explosion fully resolves.
+
+A:
+
+Yes, Alms Collector will replace Explosion's draw effect, for the reason you mentioned.
+The exact order of events is like this:
+
+Explosion starts resolving.
+Explosion deals 4 damage to Alms Collector.
+Your opponent would draw 4 cards as the result of Explosion's second instruction, but Alms Collector replaces that effect. Instead, you and your opponent each draw 1 card.
+Explosion finishes resolving and goes to the graveyard.
+State-based actions are checked. Alms Collector dies because it has lethal damage marked on it.
+The active player gains priority.
+

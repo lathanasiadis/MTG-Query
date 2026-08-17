@@ -1,0 +1,15 @@
+Q:
+
+Can you claim a Double Sacrifice Bonus?
+
+Two very closely related questions:
+If a card has two different "Sacrifice this creature for X" abilities on it, does sacrificing it give both benefits?
+Likewise, if a card requires a creature to be sacrificed, but that creature has a "Sacrifice this creature for X" ability, do you get the sacrifice benefit when you sacrifice it for the other requirement?
+
+A:
+
+No to both - each ability has an individual cost, which you'll need to fulfill before it is put on the stack.
+Anytime you see Sacrifice [X]: Do [Y], that is expressing a cost that must be paid in order to activate the ability.  A single paid cost may not activate multiple abilities; see the following (from the comp. rules):
+
+117.10. Each payment of a cost applies to only one spell, ability, or effect. For example, a player can't sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn't pay another spell or ability's cost, even if part of its effect is doing the same thing the other cost asks for.
+

@@ -1,0 +1,11 @@
+Q:
+
+"Reflections of Littjara" and "Glasspool Mimic" interaction
+
+I'm currently building a new Dimir Rogue Deck and I'm unsure about a certain interaction between Reflections of Littjara and Glasspool Mimic. Let's say I have the former in place and called "Human" as creature type. I then cast Glasspool Mimic, as far as I understand it is a spell at this point, with the creature type "Shapeshifter Rogue". As soon as it resolves and stops being a spell but starts being a permanent, I can let it enter the battlefield as a copy of a Human creature. This means Reflections of Littjara is not triggered, as the spell was not a Human creature spell yet, but the permanent entering the battefield is. Am I getting it correctly or do these two actually interact with each other, allowing me to copy my Human twice?
+
+A:
+
+You are correct that the spell and the creature that ends up on the battlefield are distinct. This means the Mimic does not trigger your Reflections because its creature types were not named.
+Notably, the triggered ability of Reflections copies the spell (creating a token as it resolves), and that trigger will resolve before the original creature you cast, so whatever happens on the battlefield is irrelevant.
+

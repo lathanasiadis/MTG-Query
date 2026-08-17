@@ -1,0 +1,65 @@
+Q:
+
+Was it possible to target spells placed at the bottom of a just-cast fast effects chain?
+
+[ This is a follow-up from this question about how various effects interacted in the earliest releases of Magic: the Gathering ]
+In an Alpha & Beta Series Magic Game something like this happens:
+
+Player A cast a Lightning Bolt targeting Player B.
+Player B responds with a Guardian Angel (X = 3).
+Player A cast a second Lightning Bolt, and B replies again with another Guardian Angel (X = 3).
+
+At this point, player A decides to insert an interrupt in the chain: he cast a Counterspell targeting the second Guardian Angel.
+Player B, even if it is not possible to speak of an action "in response" to the Counterspell (since interrupts are faster than instants), then decides to cast an instant, continuing the chain: it is an Healing Salve,(choosing to have three more life points),which in fact is cast in the "batch" without all the fast effects having been resolved before, and probably ignoring the part of the interrupt-rule that says:
+
+"After your rival casts another spell, it is too late to interrupt the first.".
+
+But it is in fact a question concerning how this part of the rule should be properly interpreted.
+Now, let's imagine that players do not know rules very well, and keep to cast spells and fast effects, do not taking into account the fact that the rules are probably different, but focusing on the fact that they still have mana available, and so they keep and give up priority, casting more spells.
+Looking the current game, Player B decides to remedy, by trying to remove one of the spells cast at the beginning of the chain, and which are therefore at the bottom of the "bunch" of various fast effects (I call it "bunch" as it is neither a batch, nor a stack, but of a series of various mixed fast effects ...).
+Player B,retaining priority, cast a Counterspell (calling it "Counterspell 2")on the second Lightning Bolt.
+At this point the players are satisfied, and declare the chain of fast effects finished.
+But,in fact,the chain could continue, especially in a similar way to what I had imagined in the previous draft -
+(so, for example, imagining that a reverse damage is cast to be solved at the end, and that the opponent tries to neutralize in turn ) -
+but which I then modified, due to some incompatibility problem between the cards in their original wording.
+Notwithstanding that, following the rule on interruptions where it says that "After your rival casts another spell, it is too late to interrupt the first", it would not be possible to cast a spell after the interruptions without resolving them first, in fact the players they are all casting fast effects that are waiting to be fixed, and therefore are still "on the batch".
+And then the key question is this:
+
+Is it possible to target spells placed at the bottom of a just-cast fast-effects chain?
+
+If so, once the chain of effects is concluded, it must be firstly purified of the interrupts cast, with the well known LIFO rule applied on interrupts.
+This means that:
+Counterspell 2 counters the second Lightning Bolt; the second Guardian Angel is countered.
+The following effects would remain to be resolved "on the batch":
+Lightning - Guardian Angel - Healing Salve
+Which means, as a net result of the chain, that Player B gains 3 more life.
+Well, here we go, there are two possible outcomes:
+
+Is the just described situation correct (player B gains three life)?
+
+Or, more likely, should it be stopped and resolved everything before the player adds an instant after an interrupt (ie Healing Salve, which means that everything happens from that spell is a completely mistaken chain effect game situation) has been cast?
+
+A:
+
+Yes, I think that the first described situation is correct, and therefore player B gains 3 life.
+In my way of understanding the first draft of Magic's Rules (I mean the Alpha & Beta period, early '90), there is nothing that can prevent a series of effects from being internally made up of any number of instants, interrupts, and other fast effects.
+Although in the regulation there is the rule, already cited at other times, according to which:
+
+"After your rival casts another spell, it is too late to interrupt the first.";
+
+it is also clear that, in my opinion,  this rule refers to spells that are successfully cast, and therefore not while the chain of effects - that are still in the batch - are far from being solved.
+Therefore, I believe that it is possible to observe a game situation in which, after one player is just trying to cast an interrupt, the other player "responds" with an instant.
+As long as the two players have priority, and decide to cast more spells, batch does not resolve.
+All of this above  gives greater force to the rule that interrupts are faster than instants: in fact, they are simply resolved first.
+If this were not the case, in fact, we would only have series of effects in which any interrupts would always be placed at the end of the chain of effects, and therefore,  according to the LIFO rule it would be automatic that these interrupts are resolved first -
+as they are naturally placed at the bottom of the series of effects.
+So, I think everything could allow to the following outcome.
+What has been analysed so far must be able to allow that, in a series of effects, BEFORE its full resolution, it is permissible to be able to respond - just in the sense of casting after it - to an interrupt with an instant.
+I therefore mean that what is reported in the question is possible:
+
+after one player is just trying to cast an interrupt, the other one is able to continue the chain by casting an instant too, despite its speed being lower.
+
+Once both players consider the chain of effects concluded, when resolving it, special precautions must then be followed.
+The first of them is that the effects of the chain that must be solved first MUST be all the interrupts launched, thanks to their greater speed. Once the series has been "purified" from interrupts, it will then be possible to solve the entire batch, with the well-known LIFO rule.
+Thus, the situation described in the question should end with player B gaining 3 life points: what remains once the series is purified of interrupts, and solving the only instants that remain in the batch (original or modified in a particular way by some interrupt, e.g. by Purelace).
+

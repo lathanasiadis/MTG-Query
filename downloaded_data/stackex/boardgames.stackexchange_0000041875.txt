@@ -1,0 +1,19 @@
+Q:
+
+Etali and returning casted cards questions
+
+With our EDH group we can't completely figure out what happens in the following cases:
+After attacking with Etali, Primal Storm and casting some of the exiled cards, some of them for example creatures, are now on the board for player John. John is the one playing Etali.
+Let's say one of the creatures was originally in Ben's deck. That creature gets killed. Does this creature go back to Ben's graveyard? Or does the card go back to exile?
+
+A:
+
+The answer to Q1 is: The creature goes to it's owner's (in your case, Ben's) graveyard.
+This is supported by CR701.7a:
+
+701.7. Destroy
+
+701.7a To destroy a permanent, move it from the battlefield to its owner’s graveyard.
+
+Q2 already has an answer here.
+

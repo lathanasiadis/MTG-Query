@@ -1,0 +1,15 @@
+Q:
+
+What happens to the target of Oko, Thief of Crowns' second ability when it is put in the graveyard?
+
+An artifact or creature becomes a 3/3 green Elk creature due to Oko, Thief of Crowns' second ability. What happens to that artifact or creature when it is put into the graveyard? Does it remain a 3/3 green Elk creature? Or does it revert back to it's original state once in the graveyard?
+For example, Death's Shadow is turned into a 3/3 green Elk creature. For the purposes of using Unearth, when in the graveyard does it remain as a 3/3 green Elk creature, or does it revert back to being 'Death's Shadow'?
+
+A:
+
+It will become a Death's Shadow again. Whenever an object changes zones, e.g. when it goes from the battlefield to the graveyard, it gets completely 'reset': 
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+The rules list nine exceptions to this, but your situation is not one of them.
+

@@ -1,0 +1,15 @@
+Q:
+
+How would Glasspool Mimic (or other clones) resolve if cloned target is removed
+
+If I cast Glasspool Mimic targeting a Lord of Atlantis that I control, and in response to the spell going on the stack, my opponent casts Petty Theft targeting the same Lord of Atlantis, how would this resolve?
+
+A:
+
+Firstly, Glasspool Mimic does not target; quoting from its Oracle text:
+
+You may have Glasspool Mimic enter the battlefield as a copy of a creature you control, except it's a Shapeshifter Rogue in addition to its other types.
+
+You do not have to choose the creature it is copying until it actually enters the battlefield. You can choose any creature you control at that point, and your opponent does not get to respond to the choice as this does not use the stack.
+If you have no other creatures available when the mimic enters the battlefield, it enters as a 0/0 creature and will be moved to the graveyard the next time state-based actions are checked unless there is some other effect increasing its toughness.
+

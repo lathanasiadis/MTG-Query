@@ -1,0 +1,64 @@
+Q:
+
+Does priority matter in Magic?
+
+When does priority actually matter in magic?  I have been playing Magic since Time Spiral and have never once seen the rules for priority matter.  I've never heard a question from a player about a game situation to which the answer was, "Oh, well it's right here in the rules for priority."
+Let me elaborate.  Most other games handle questions of precedence (I want to do this but my opponent wants to do something conflicting) with a system of priority.  Magic handles questions of this type with the stack.  Here are some examples:
+
+What tap effect has precedence?
+I have a 2/2 and I want to play Giant Growth on it while my opponent wants to kill it with Lightning Bolt?  Resolved by the stack.  Priority doesn't actually matter here.  It's not a question of who has the option to act first, it's about who does act first, and because the person that acts first in this situation loses, the solution (given both players run Telepathy) is for both players to pass and the game to move on to the next step or phase.  But this isn't a quirk of priority, this is that the Nash Equilibrium given perfect information and how the stack works is for neither player to cast his/her spell.
+I want to cast Silence on my opponent during his/her upkeep but he/she wants to cast Lightning Bolt on me first.  Sure, a player get's priority on his/her turn before other players, so he/she has the option to cast a spell before I can cast Silence, but it doesn't matter!  Since this all happens during the upkeep, the spell I want to cast has to be instant speed anyways, so it can be cast in response to Silence while Silence is on the stack.  Since Silence only takes effect on resolution, what order it and another spell are cast in won't change either spell's resolution (unless the other spell is a counterspell).  In almost all situations, Silence only changes the ability for the player to cast things post-upkeep.
+
+In all of the above situations, the stack is what determines what happens.  Players priority in putting things on the stack doesn't matter since in the above cases (and the overwhelming majority of cases I've seen), as it is the ability to react that matters, not the ability to act first.
+So, given how the stack works, does priority actually matter in Magic?  If so, what types of situations are the rules for priority needed to actually determine what happens?
+
+For reference, here are the rules for priority:
+
+116.3. Which player has priority is determined by the following rules:
+  
+  
+116.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card
+  during the draw step; see rule 703) have been dealt with and abilities
+  that trigger at the beginning of that phase or step have been put on
+  the stack. No player receives priority during the untap step. Players
+  usually don't get priority during the cleanup step (see rule 514.3).
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives
+  priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player's mana pool, he or
+  she announces what mana is there. Then the next player in turn order
+  receives priority.
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability
+  on top of the stack resolves or, if the stack is empty, the phase or
+  step ends.
+
+A:
+
+Priority can matter, but only in rare corner cases.  Here are the main types of situations where priority matters.  Some of these are pretty obscure.
+
+Split second cards
+It's your turn.  You have in hand Dark Depths and Vampire Hexmage for the infamous Marit Lage combo.  Your opponent has Sudden Death in hand.  Can you summon Marit Lage?  The answer is yes.  You retain priority through playing Dark Depths and casting Vampire Hexmage, then your opponent gains priority while Hexmage is on the stack (which is still too early to cast Sudden Death on it), but then your opponent cannot respond again between the Hexmage resolving, entering the battlefield, and you activating its sacrifice ability.  As the active player, you can retain control through this entire process.  That said, if you were putting the Hexmage onto the battlefield on your opponent's turn through Aether Vial, they would be able to Sudden Death it before you could use its ability because they have priority.
+If instead your plan is to win via Chance Encounter + Frenetic Efreet, you can still do it facing a Sudden Death if it is your turn and you play Chance Encounter first.  After the Efreet enters the battlefield, you have priority and retain it through as many activations of its ability as you want.  You can have a billion activations of its ability on the stack by the time your opponent has the option to Sudden Death it, giving you near statistical certainty that you will have enough counters on Chance Encounter to win.
+The reason split second cards matter with priority is that they temporarily change how the stack works.  Instead of a player being able to respond at any time, they can't respond until the split second card has finished resolving, meaning when you can cast them matters since players cannot react with other spells or abilities once they are cast.
+
+Sorcery speed abilities (such as planeswalker abilities)
+When a planeswalker spell resolves, assuming it was the bottom spell on the stack and cast by the active player (so not cast using Vedalken Orrery or the like), the active player has the option to activate one of it's abilities before anyone else can do anything.  This is important because if someone else could do something, they could Lightning Bolt your planeswalker before you could use one of its abilities.  This pretty much only matters with planeswalkers because their abilities are sorcery speed.  Almost all other activated abilities of permanents are instant speed.  Those that aren't also benefit from priority.  This is anything with the text "Activate this ability only any time you could cast a sorcery." such as Aggravated Assault.  Basically, if you have a permanent enter the battlefield under your control, you can put one of its sorcery speed abilities on the stack before anyone else can kill or destroy the permanent.
+The exception to this is if the card with a sorcery speed ability triggers an enter the battlefield ability, in which case the stack will not be empty when you gain priority and players will be able to use instant speed removal before you can use its abilitiy.
+Also in this category are the ability to trigger abilities with sorcery speed cards, such as the situation in this question.  If the active player has just cast Kor Spiritdancer and it resolves and doesn't trigger any enter the battlefield abilities, the active player will be able to cast an Aura and consequently trigger the Spiritdancer's ability before the other player has the chance to play instant speed removal.
+
+A change in casting eligibility as a result of a non-stack action (such as paying a cost, activating a mana ability, or unmorphing a creature)
+You are playing a mill deck against a burn deck.  Your opponent has Searing Blaze in hand and you are at 1 life.  Meanwhile, your opponent has three cards left in his/her library, and they are all copies of Lightning Bolt.  You have Altar of Dementia on the battlefield and a beefy creature in hand.  Who wins?
+This matters includes, but also goes far beyond, priority.  First, Searing Blaze requires that you have a creature on the battlefield for it to be cast.  The requirement is just for casting; the creature need not be there on resolution since as long as any of a spell's targets are still legal, the spell will resolve.  Additionally, sacrificing a creature to the Altar is part of the cost for the altar, and so the sacrifice doesn't use the stack.  Consequently, there is an action that doesn't use the stack that changes whether or not another action can be put on the stack.  It's a fairly rare situation, but it is one where priority matters.  If it is your turn, your creature can enter battlefield and then be sacrificed to the altar without your opponent getting priority.  By the time he/she has priority, the creature is already in the graveyard, and so Searing Blaze cannot be cast.
+
+Retaining priority after playing a land
+This is also going to be a bit contrived.  You have some creature that you need to give double strike in order for you to win.  You have Assault Strobe and a Mountain in hand, and several Mountains on the battlefield.  Your opponent has Mana Short.  Because of priority, they cannot stop you from casting Assault Strobe.  If they cast Mana Short before your main phase, you can just play the Mountain on your main phase and then cast Assault Strobe with it.  Meanwhile, if they wait, you retain priority after playing the land, and so can still cast Assault Strobe before they cast Mana Short.  The first chance they have to cast Mana Short during your main phase is in response to Assault Strobe.  Basically, this just means that Mana Short should be played before your opponent's main phase and that it doesn't deprive them of mana sources they get after that point, but this isn't exactly news.
+As is the case for the sorcery speed abilities, if the land entering the battlefield triggers an ability, the stack won't be empty when you receive priority, so your opponent will have a chance to use Mana Short before you can cast Assault Strobe since sorceries can only be cast when the stack is empty.
+
+Breaking the symmetry of hidden information
+This is one introduced in comments and is perhaps the hardest to formalize.  Take the example in the question where a player is attacking with a 2/2 and has Giant Growth while the defender has Lightning Bolt.  It is now the declare blockers step, the last time to cast spells before combat damage.  If neither player knows about the other's threatened instant, than each player is eager to cast his/her card but whoever does so first loses the interaction.  Here, that the active player must chose first is a disadvantage because it causes the active player to be the one to make the bad decision rather than the non-active player.
+That said, the application of priority rules here is only relevant if players are using a low degree of short-cutting (namely the non-active player waits for explicit verbal confirmation that the active player is not acting during the declare blockers step before announcing "I do this during the declare blockers").  In addition, no player trying to win will invoke priority rules here if he or she is erroneously skipped; the ability to respond is far more valuable.  As a final point to why this situation is particularly rare, both players must have to have basically equal willingness to take an action that is disadvantageous given full information.  For this to actually be the case requires fairly specific setups of both game board and player psyche, and occurs rather rarely in practice.
+
+Multiplayer
+If multiple players want to respond to a particular event (such as by countering a mass-removal spell), whoever is earlier in priority will be at the disadvantage of acting first.  Perfect information in this situation doesn't help.  The first player with the option to counter the spell cannot know for certain the true priorities of the next player with the option to counter it.  The first player must chose whether to counter the spell or risk it going uncountered where the second player has the leisure of only needing to counter it if the first does not.
+

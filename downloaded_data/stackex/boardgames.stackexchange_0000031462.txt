@@ -1,0 +1,17 @@
+Q:
+
+Can I use Fate Transfer to make a Thing in the Ice transform immediately?
+
+If I have Thing in the Ice with 4 ice counters on it and played Fate Transfer to move all these counters on to another creature, will it transform? Or is the check on how many counters it has done before the actual move of all the counters?
+
+A:
+
+End result: Thing in the Ice with no counters, unflipped; another creature has 3 ice counters.
+The sequence of events creates the following stack:
+
+Thing in the Ice Trigger
+Fate Transfer
+
+The trigger is on top of the transfer since it is in response to the spell. Trigger resolves, removes 1 counter, sees that there are 3 counters left and doesn't flip. Transfer resolves, and moves the counters.  Since the trigger is already resolved, it doesn't flip. 
+The next time you cast an instant or sorcery, the trigger will (attempt to) remove a counter, then seeing no counters will flip. 
+

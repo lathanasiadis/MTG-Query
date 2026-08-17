@@ -1,0 +1,17 @@
+Q:
+
+Does creating colored tokens affect a card's color identity?
+
+God-Eternal Oketra is a white creature that creates black creature tokens.
+Is God-Eternal Oketra's color identity [White] or [White,Black]?
+
+A:
+
+God-Eternal Oketra's color identity is White
+From the comprehensive rules, regarding Color Identity:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+  Example: Bosh, Iron Golem is a legendary artifact creature with mana cost {8} and the ability “{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact’s converted mana cost to any target.” Bosh’s color identity is red.
+
+God-Eternal Oketra has white in it's mana cost, has no other mana symbols on it's card, and does not have any relevant characteristic-defining abilities or color indicator, so it is a White creature
+

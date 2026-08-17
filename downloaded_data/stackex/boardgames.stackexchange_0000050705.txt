@@ -1,0 +1,25 @@
+Q:
+
+Does Curator's Ward trigger when a creature it enchants and Curator's Ward get removed at (seemingly) the same time?
+
+Let's say you've got Curator's Ward enchanting a historic creature you control, and you target that creature with Portal of Sanctuary. Does the creature and Curator's Ward get returned at the same time, meaning that Curator's Ward's card draw effect doesn't trigger?
+
+A:
+
+Does the creature and Curator's Ward get returned at the same time?
+
+Yes. They are all returned to your hand simultaneously.
+
+...meaning that Curator's Ward's card draw effect doesn't trigger?
+
+Now this is where it gets interesting. For most triggers, the permanent watching for the trigger event must be on the battlefield just after the event occurs. But for some triggers, this doesn't work. Think about a creature with "When ~ dies, [do something]". If we went by the general rule for this ability, it would never trigger, since just after the event happened the creature is already in the graveyard.
+For this reason, some kinds of triggers are given an exception. These triggers "look back in time" and determine if they trigger based on whether the ability existed just before the event happened. Leave-the-battlefield triggers such as the one on Curator's Ward are one kind of such triggers. 
+This is all to say that even though Ward is returned at the same time as the enchanted creature, its ability will trigger none the less.
+Relevant CR:
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game "looks back in time" to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+603.10a. Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library. 
+
+Example: Two creatures are on the battlefield along with an artifact that has the ability "Whenever a creature dies, you gain 1 life." Someone casts a spell that destroys all artifacts, creatures, and enchantments. The artifact's ability triggers twice, even though the artifact goes to its owner's graveyard at the same time as the creatures.
+

@@ -1,0 +1,28 @@
+Q:
+
+Indomitable Creativity + Sacrifice Outlet
+
+Indomitable Creativity says:
+
+Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries.
+
+Let's say I have Commander's Sphere on the battlefield, which says:
+
+{T}: Add one mana of any color in your commander's color identity.
+Sacrifice Commander's Sphere: Draw a card.
+
+I cast Indomitable Creativity and target, among other things, my own Commander's Sphere. While Indomitable Creativity is still on the stack, can I sacrifice Commander's Sphere to get the card draw trigger and still get the positive benefit of Indomitable Creativity? I'm assuming not because it says "...destroyed this way...", but I wanted to make certain.
+
+A:
+
+Your assumption is correct.
+You won't get the extra artifact from Indomitable Creativity because, when it resolves, it checks each of its targets to see if they're still legal. That is (part of) CR608.2b:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. [...]
+
+Since Commander's Sphere is no longer on the battlefield, it becomes an illegal target for Indomitable Creativity, and the spell will no longer target it, according to its Gatherer rules (thanks to @Gendolkari for pointing this out):
+
+If an artifact or creature is targeted but not destroyed (perhaps because it gained indestructible or became an illegal target), it doesn’t count as one of the artifacts or creatures destroyed this way. An artifact or creature that’s destroyed but put into a zone other than a graveyard (such as a player’s commander in the Commander variant) does count.
+
+Also, as you said, even if that did work and Commander's Sphere was still a legal target after being sacrificed, the wording on Indomitable Creativity ("For each permanent destroyed this way...") would still prevent you from getting the artifact, since Commander's Sphere is already destroyed by the time Creativity resolves.
+

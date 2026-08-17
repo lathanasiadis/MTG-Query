@@ -1,0 +1,10 @@
+Q:
+
+Does adding a subtype to a creature count as entering the battlefield?
+
+I have Seraph Sanctuary in play, which lets me gain life when an Angel enters the battlefield. If I play Call to Serve on a creature, turning it into an Angel, does adding the subtype like that count as an Angel entering the battlefield, so that I gain life?
+
+A:
+
+No, attaching Call to Serve to a creature you control will not trigger Seraph Sanctuary's ability. A permanent triggers "enters the battlefield" abilities when it transitions from not being on the battlefield to being on the battlefield, whether it be from the resolution of a creature spell, from the creation of a creature token, or from some other instruction. However, Call to Serve just changes the type of a creature that is already on the battlefield.
+

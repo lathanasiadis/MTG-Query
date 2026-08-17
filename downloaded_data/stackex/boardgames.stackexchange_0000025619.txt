@@ -1,0 +1,18 @@
+Q:
+
+Can non-exile related return effects bring a card out of exile?
+
+So I stumbled upon this land, Karakas.  Can this return effect reach a card in exile?  I read the rules regarding exile, and it appears to me that Karakas' effect (and similar return/play/add effects) are fully capable of accessing the Exile Zone.
+
+A:
+
+Karakas' ability:
+
+Tap: Return target legendary creature to its owner's hand.
+
+Karakas returns a creature. Creatures only exist on the battlefield, everywhere else they are usually creature cards (or spells, on the stack).
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn't include the word "card," "spell," "source," or "scheme," it means a permanent of that card type or subtype on the battlefield.
+
+So Karakas can not target cards in exile.
+

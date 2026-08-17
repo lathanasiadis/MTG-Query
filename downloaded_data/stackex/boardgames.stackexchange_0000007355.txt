@@ -1,0 +1,37 @@
+Q:
+
+What order do triggered abilities happen in if multiple things trigger at the same time?
+
+I had several humans on the battlefield.
+On turn three, I played Triumph of Ferocity. On turn four, I played Descendants' Path. On turn five, during my upkeep, this question came up.
+At this point, I need to draw/reveal three cards. If I reveal a human, Descendants' Path will allow me to cast it without paying its mana cost.
+So, does it matter when I draw the human?
+The static abilities state "at the beginning up your upkeep..." which leads me to believe that those two draws/reveals would happen before my normal draw. If that's the case, does the draw order happen in the same order that I played the enchantments?
+In the end, that's how we decided to do it. I drew first for Triumph of Ferocity, then I revealed for Descendants' Path, then I drew for my turn. Did we do it right?
+
+A:
+
+When multiple abilities trigger at the same time (as Path and Triumph did, in this situation) and you control both of them, you can choose to put them on the stack in any order you like.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered
+abilities he or she controls on the stack in any order he or she
+chooses. (See rule 101.4.) Then the game once again checks for and
+resolves state-based actions until none are performed, then abilities
+that triggered during this process go on the stack. This process
+repeats until no new state-based actions are performed and no
+abilities trigger. Then the appropriate player gets priority.
+
+Both Descendants' Path and Triumph of Ferocity trigger at the same time, at the beginning of your upkeep. Because you control both triggers, you have a choice of how to put those two triggers on the stack, meaning you can draw a card from Triumph of Ferocity first (put Triumph's trigger on the stack on top of Path's) or reveal the card for Descendants' Path first (put Path's trigger on the stack on top of Triumph's).
+Afterward, when you proceed to the draw step, you get your normal draw.
+So, your actions were perfectly game-legal. But you could have changed the order and that would be correct as well.
+Note that you are not drawing three cards in this situation. Descendants' Path tells you to "reveal" a card and do something with it. This does not count as "drawing" it for abilities that reference that.
+
+For reference, "APNAP order" just means that, if both players have to do something, the player whose turn it is makes the decisions first:
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes
+any choices required, then the next player in turn order (usually the
+player seated to the active player’s left) makes any choices required,
+followed by the remaining nonactive players in turn order. Then the
+actions happen simultaneously. This rule is often referred to as the
+“Active Player, Nonactive Player (APNAP) order” rule.
+

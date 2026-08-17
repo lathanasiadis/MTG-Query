@@ -1,0 +1,39 @@
+Q:
+
+Does Athreos with Deathrender let me keep the same creature?
+
+I control Athreos, God of Passage, and Deathrender equipped to a nontoken creature.
+I sacrifice the creature equipped with Deathrender to Victimize, and the opponent does not pay 3 life for Athreos's effect, so the creature will go back to my hand.
+Can I choose that same creature card to return to the battlefield with Deathrender's ability?
+
+A:
+
+Yes, you can do that (if you place the abilities on the stack in the correct order[CR 603.3b]) because Deathrender chooses a card on resolution[CR 608.2d].
+
+You cast Victimize.
+Victimize resolves:
+
+Choose two target creature cards in your graveyard.
+Sacrifice the creature equipped by Deathrender.
+
+Athreos's triggered ability triggers.
+Deathrender's triggered ability triggers.
+
+Return the chosen cards to the battlefield tapped.
+
+You place Deathrender's triggered ability on the stack.
+You place Athreos's triggered ability on the stack.
+Athreos's triggered ability resolves:
+
+Return the sacrified creature to your hand.
+
+Deathrender's triggered ability resolves:
+
+Put the sacrified creature card onto the battlefield.
+Attach Deathrender to it.
+
+Nice.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses.
+608.2d If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect.
+

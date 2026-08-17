@@ -1,0 +1,30 @@
+Q:
+
+How many booster each players should crack for a 60 cards booster draft?
+
+I plan to create a 60 cards booster format. How many booster each players should crack for a 60 cards booster draft?
+I think that 4 or 5 should works. Is there any existing format or math about this?
+I made a small script in Python but I am bot sure that it helps:
+import math
+
+def fill_land(deckSize):
+    return deckSize / 2.5
+
+def count_booster_per_person(deckSize):
+    boosterSize = 15
+    landCount = fill_land(deckSize)
+    noLandCount = deckSize - landCount
+    return math.ceil(noLandCount / boosterSize) + 1
+
+print(count_booster_per_person(40))
+print(count_booster_per_person(60))
+
+Try it online!
+
+A:
+
+Depending on what your goal for your 60 card draft is, you might want to decide between 4 and 5 packs per player.
+The MtG tournament rules recommend 3 booster packs per player for the default 40 card draft format. Accordingly, you would need 4.5 booster packs for a 60 card draft format to keep the average deck quality on a similar level. 
+There are no official Limited formats with deck sizes other than 40. I am not aware of official Limited tournaments which used a different number of packs than what is recommended in the tournament rules.
+The draft phase itself and deck building afterwards take considerable amounts of time. Increasing the number of packs increases both, and might take significant drain on your players' mental stamina before the actual games even begin. On the other hand, drafting with a lower than recommended number of packs takes less time, but also lowers the average deck quality, since players will have to include more cards in their main deck that would otherwise go into their sideboard.
+

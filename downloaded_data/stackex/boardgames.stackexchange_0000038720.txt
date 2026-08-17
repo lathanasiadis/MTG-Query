@@ -1,0 +1,16 @@
+Q:
+
+Do Multiple Into the Wilds Stack
+
+What would happen if I hand more than one Into the Wilds in play? I was curious if I get an extra use of looking at the top card of my library and playing it if it's a land, or do I only get that once no matter how many I have in play?
+
+A:
+
+Each one will trigger separately, so you'll check the top card of your library once per Into the Wilds you have in play.
+We know this is the case because it's a triggered ability. Those use the words "when", "whenever", or "at". The rules for triggered abilities mention a more detailed format for them:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Other forms of effects will be very carefully worded to not use this same formula.
+In general if you've got multiple cards instructing you to do the same thing, you do that thing for each one. Cards in general don't care if you've got another one of them around; they still have their instructions and expect you to follow them regardless of whether another card also gave you those instructions.
+

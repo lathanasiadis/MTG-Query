@@ -1,0 +1,16 @@
+Q:
+
+Do Triggered effects stack?
+
+Lets say I have a Suture Priest creature that says "Whenever another creature enters the battlefield under your control, you may gain 1 life."
+and I currently have all 4 of them in the battlefield. Then I cast another creature and : Do I get 1 or 4 life? Does that effect trigger for every priest or just once? thanks for help
+
+A:
+
+You get four lifes in total: one when each of the four triggered abilities resolves.
+Since you have four copies of Suture Priest on the battlefield, you have four copies of the triggered ability. Each time the event a triggered ability is indicating happens, it triggers. Since you have four copies, it trigger four times.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers.
+
+Since there is no rule that stops several copies of the same triggered ability to trigger at the same time, they all work.
+

@@ -1,0 +1,45 @@
+Q:
+
+Will countering a spell that left the stack still trigger abilities?
+
+Situation
+I control Baral, Chief of Compliance, a sufficient amount of mana, and have Mystic Confluence in hand. My opponent casts Grizzly Bears, to which I cast Mystic Confluence in response, choosing the first mode three times, each targetting the Grizzly Bears.
+Question
+If my opponent chooses to pay for the effect all three times, obviously, the spell won't be countered and Baral won't trigger.
+However, if they do pay no mana and therefore having the spell countered, how often will Baral trigger?
+In other words, will an effect that attempts to counter a spell still counter it if the spell isn't on the stack to be countered anymore?
+Rules Background
+I looked at the following rules, trying to determine what would happen. First...
+
+608. Resolving Spells and Abilities
+608.2b. If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don’t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won’t happen.
+
+Those rules clearly relate to determining whether the spell would resolve. Since in the example given, Mystic Confluence's targets are all legal, the spell isn't countered and will resolve normally, handling all three modes one after another, even though for the second and third time, the targetted spell will already be illegal and therefore the ability might do nothing.
+To determine that, I looked at the keyword action's rules:
+
+701.5. Counter
+701.5a. To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+I noticed that there's no qualifier that states whether the countering will still occur, regardless of the spell still being legal - likely due to the fact that normally, a spell like Counterspell would be countered on resolution if that were to occur.
+As a possibly noteworthy mention, other keyword abilities do have equivalents to such a qualifier, such as the rules about tapping an untapping stating that permanents that are already (un)tapped may not be (un)tapped again, clarifying whether abilities on cards like Reckless Racer would trigger.
+
+A:
+
+Baral will trigger once. You cannot counter the same spell more than once.
+As you already quoted the relevant rule 701.5a, countering a spell or ability means to remove it from the stack:
+
+701.5. Counter
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+Since spells can only exist on the stack, a countered spell will stop being a spell, and will no longer be a valid target for counter effects.
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) A spell remains on the stack as a spell until it resolves (see rule 608, “Resolving Spells and Abilities”), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, “Spells, Abilities, and Effects.”
+
+If you choose the counter option of Mystic Confluence three times, Mystic Confluence effectively reads:
+
+Counter target spell unless its controller pays 3.
+Counter target spell unless its controller pays 3.
+Counter target spell unless its controller pays 3.
+
+When Mystic Confluence resolves and the first ability already counters the targeted spell, that spell will immediately be removed from the stack and Baral will trigger. The second and third part of Mystic Confluence lack a valid target, and will not do anything.
+

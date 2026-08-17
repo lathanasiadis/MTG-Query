@@ -1,0 +1,15 @@
+Q:
+
+can the value of x change in a turn
+
+Suppose I have a card that gives x power to a creature until end of turn, where x is the number of creature cards in the graveyard. And then I take back a creature card from my graveyard using some effect. Does the value of x change along with it?
+
+A:
+
+No, it doesn't.
+
+611.2d If a resolving spell or ability that creates a continuous effect contains a variable such as X, the value of that variable is determined only once, on resolution.
+
+Because you said "until end of turn", I'm assuming that you are talking about casting a spell or activating an ability that has such text, in which case this applies. See Strength of Cedars.
+Note that if you have a permanent on the battlefield that says "creatures you have get +x/0, where x is the number of creature cards in your graveyard", then it is a static ability, and the value of x will change every time your graveyard changes. See Wreath of Geists.
+

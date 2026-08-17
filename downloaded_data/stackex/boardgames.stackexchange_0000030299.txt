@@ -1,0 +1,16 @@
+Q:
+
+Willbreaker vs. Silverfur Partisan who gets a wolf?
+
+With Willbreaker (mine) and Silverfur Partisan (opponents) in play if I cast an instant on their Silverfur Partisan who gets the wolf? Do I get to choose the order they go on the stack to decide this or is it another process?
+
+The wording of the rules confused me as there seemed to be some additional rules around things going on the stack if there are multiple players effected.
+
+A:
+
+Your opponent will get the wolf token.
+The active player's trigger will go on the stack first, but the order of triggers on the stack does not matter in this case. Silverfur Partisan's ability refers to "you", which is the Partisan's controller at the time when the ability triggers, i.e. your opponent. Since your opponent controlled the Partisan when its ability triggered, he is also the controller of that ability on the stack. Even if your opponent loses control of the partisan before the Partisan's ability resolves, he will not lose control of that ability on the stack.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. [..]
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+

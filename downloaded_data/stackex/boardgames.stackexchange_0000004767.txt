@@ -1,0 +1,21 @@
+Q:
+
+Can Circle of Protection:White prevent the damage from Leeches (Circle of Protection / Leeches Combo)?
+
+Can the damage caused by removing poison counters using Leeches be avoided using a Circle of Protection:White?  If it can be avoided, would the damage be considered "once" and cost {1}, or would it be {1} times the number of poison counters?
+
+A:
+
+The current Gatherer text for Leeches is the following:
+
+Target player loses all poison counters. Leeches deals that much damage to that player.
+
+Circle of Protection White:
+
+{1}: The next time a white source of your choice would deal damage to you this turn, prevent that damage.
+
+When you cast the spell, there is only one copy on the stack. All the damage is dealt at once. You only need to activate the CoP:White once.
+Leeches is a white source of damage by 609.7a and thus may be prevented by CoP:W
+
+609.7a If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a replacement or prevention effect that's waiting to apply, or by a delayed triggered ability that's waiting to trigger (even if that object is no longer in the zone it used to be in); or, for certain casual variant games, a face-up card in the command zone. A source doesn't need to be capable of dealing damage to be a legal choice. The source is chosen when the effect is created. If the player chooses a permanent, the effect will apply to the next damage dealt by that permanent, regardless of whether it's combat damage or damage dealt as the result of a spell or ability. If the player chooses a permanent spell, the effect will apply to any damage dealt by that spell and any damage dealt by the permanent that spell becomes when it resolves.
+

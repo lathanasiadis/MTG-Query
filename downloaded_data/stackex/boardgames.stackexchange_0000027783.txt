@@ -1,0 +1,12 @@
+Q:
+
+Can you cast Hangarback Walker for X=0 and have it survive with Hardened Scales?
+
+I'm building a deck with Hangarback Walker and Hardened Scales, and I was wondering if I could cast Hangarback for X=0, and it would activate Hardened Scales. Just a thought.
+
+A:
+
+No, and for a very straightforward reason: Hardened Scales requires that at least one counter be placed on the creature before it adds any additional counters:
+
+The key text here is 'If one or more'.  You're trying to put zero counters on the Hangarback Walker, and so Hardened Scales never processes.
+

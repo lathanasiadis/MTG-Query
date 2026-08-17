@@ -1,0 +1,13 @@
+Q:
+
+exiling cards from graveyard. can each trigger for multiple cards in play
+
+if i have multiple cards in play with activated abilities involving exiling cards from my graveyard can each exiled card activate for each of my cards in play? card gets +1+1 for each card exiled and another creature has "target creature get -x-x for each card exiled. By exiling 3 cards does the one get +3+3 and the other activae target creature gets -3-3?
+
+A:
+
+Activated abilities always follow the general pattern "cost: effect". The only way to get the effect is to pay all the costs, and you only get the effect from the one card that activated the ability. Paying the costs for one creature's ability does not affect any other activated abilities of the same or other creatures.
+From the Comprehensive Rules:
+
+117.10. Each payment of a cost applies to only one spell, ability, or effect. For example, a player can't sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn't pay another spell or ability's cost, even if part of its effect is doing the same thing the other cost asks for.
+

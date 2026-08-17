@@ -1,0 +1,14 @@
+Q:
+
+Do multiple return to battlefield effects "stack"?
+
+If a creature I control without flying has a coin counter from Athreos, Shroud-Veiled dies, and I have Luminous Broodmoth and Athreos on the field.  What happens?  
+Do I only get the original creature back? With or without flying counter? Does this cause me to get a copy of the creature since both cards say return to battlefield?
+
+A:
+
+Both Athreos and Broodmoth's abilities create a triggered effect ("Whenever ...") when the creature dies. As the controller of the effects, you choose the order in which they go on the stack.
+Whichever effect resolves first (the second one you put on the stack) finds the card it's looking for and returns it to the battlefield, with a flying counter if it was Broodmoth's effect.
+The second effect to resolve looks for the card, can't find it in the zone it expects it to be in (because it's already been returned to the battlefield) and fizzles.
+Or in other words: you get one creature back, with your choice as to whether it has a flying counter on it or not. As an aside at this point, you're never going to get a copy of something unless an effect explicitly says "create a copy" or similar.
+

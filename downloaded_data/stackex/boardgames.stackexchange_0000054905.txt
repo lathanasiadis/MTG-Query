@@ -1,0 +1,21 @@
+Q:
+
+Do I need to pay more mana to activate Outlast for other Sliver creatures in the card Enduring Sliver?
+
+As shown in the card, you need to pay 2 additional generic mana to activate Outlast for this creature. but I was wondering about the second part that is referring to other Sliver creatures have outlast {2}. Should I pay {2} more generic mana in addition to the first {2} that were paid to activate Outlast for the creature itself? or Paying {2} generic mana for the first Outlast is enough to activate the second Outlast for other Sliver creatures?
+
+A:
+
+No, Outlast {2} works the same for every creature that has it. If you activate Outlast on any of your creatures, it works on that creature and no other. It has no effect on or cost increase from other creatures with Outlast.
+Enduring Sliver grants each sliver you control Outlast {2} through its static ability. This is true as soon as, and as long as you control Enduring Sliver. You don't have to pay anything for this to take effect.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+Outlast itself is an activated ability, which means it has a cost and an effect. When you pay the cost, the ability goes on the stack, and the effect only happens if and when the ability has successfully resolved from the stack.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+The mana cost to activate Outlast is not somehow cumulative, and activating one has no influence on others. Enduring Sliver's first ability grants "Outlast {2}" only to itself, the object represented by the card. What Outlast {2} means is briefly explained in the italicized reminder text in parentheses.
+The second line grants Outlast {2} to all other Sliver creatures you control. On those creatures it works exactly the same as on Enduring Sliver itself: You pay {2} and tap the creature to put a +1/+1 counter on exactly that creature.
+Assuming you control exactly one Enduring Sliver, each Sliver you control has exactly one instance of Outlast among their abilities, and they function entirely independent of each other.
+

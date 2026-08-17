@@ -1,0 +1,17 @@
+Q:
+
+Triggering "On Cast" Effects When Sacrificing
+
+I've been playing Magic 2015 and I noticed an interaction I didn't expect.
+I had a Young Pyromancer out and cast Fling, sacrificing the Pyromancer. The game triggered Young Pyromancer's effect and put a token onto the battlefield.
+I don't understand this. Since the sacrifice is part of the cost of Fling, shouldn't the Pyromancer already be in the graveyard before Fling reaches the state of "having been cast", meaning that the token shouldn't exist?
+Is there something I'm missing, or is it a bug in the game?
+
+A:
+
+You should not have gotten a token
+
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+601.2a-g are the steps of announcing the spell, choosing targets, paying costs such as sacrificing creatures, and so on. By the time the "casting a spell" occurs, Young Pyromancer is no longer on the battlefield and its ability would not trigger.
+

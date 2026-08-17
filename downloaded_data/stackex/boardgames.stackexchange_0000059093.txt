@@ -1,0 +1,15 @@
+Q:
+
+how do Enters the Battlefield abilities resolve?
+
+If there are two "Enters the Battlefield" triggers, what decides how they resolve?
+Particularly, if I had both a Tolsimir, Friend to Wolves, and a Cathars' Crusade. If I put a wolf on the battlefield, does it fight something first, or does it gain the +1/+1 first?
+
+A:
+
+Since you control both triggered abilities, you decide the order in which they go on the stack and thus the order in which they resolve.
+A certain event can trigger multiple abilities, or the same ability multiple times. In that case, each player gets to order the abilities they control in the way they want. So it's your choice whether to have the wolf get the +1/+1 counter first, or have it fight first.
+If multiple players put their abilities on the stack this way, the last player in turn order would resolve their abilities first, and the active player last.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two-part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn’t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the stack in any order they choose. Then the game once again checks for and performs state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+

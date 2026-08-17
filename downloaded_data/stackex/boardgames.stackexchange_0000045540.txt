@@ -1,0 +1,16 @@
+Q:
+
+Can you block with a creature and then sacrifice it?
+
+I block a Territorial Allosaurus with a Brindle Boar. I sacrifice the Brindle Boar. Does the Territorial Allosaurus still do damage to me?
+
+A:
+
+Yes, that works; you won't take any damage, unless the Allosaurus somehow has trample. The Allosaurus remains a 'blocked' creature after the Boar is assigned to block it:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+
+After declaring blockers, before the combat damage step begins, there is an opportunity for both players to play instants or activate abilities like the Boar's.
+

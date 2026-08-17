@@ -1,0 +1,25 @@
+Q:
+
+It That Betrays in a multiplayer game
+
+How does It That Betrays' triggered ability work in a multiplayer game, if two of us controls a It That Betrays, and a third player sacrifices a card?
+
+A:
+
+The ability is a triggered ability, so they both trigger when the third player sacrifices a creature. Whichever one is on top of the stack resolves first, and puts the creature into play under that player's control. Then the other one resolves, but can't find the creature card in the graveyard, so it does nothing.
+It That Betrays' ability is a leaves-the-battlefield triggered ability. The rule regarding those abilities, 603.6c says
+
+Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren't limited to, "When [this object] leaves the battlefield, ..." or "Whenever [something] is put into a graveyard from the battlefield, ..." An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone "from anywhere" is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
+
+Once the first ability that resolves moves the creature out of the graveyard onto the battlefield, the second ability that resolves can't find the creature in the graveyard, so it doesn't do anything.
+The order in which the abilities go on the stack depends on APNAP order. This is what the Comprehensive Rules have to say
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+101.4 If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player's left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the "Active Player, Nonactive Player (APNAP) order" rule.
+
+In other words, which player gets the creature depends on whose turn it is. If we call the players with It That Betrays A and B, and the other player C, and say that A, B, C is the turn order, then
+
+If it's Player A's turn, A's ability goes on the stack, followed by B's. This means that B's ability resolves first, so B gets the creature.
+If it's Player B's turn, B's ability goes on the stack, followed by A's. This means that A's ability resolves first, so A gets the creature.
+If it's Player C's turn, A's ability goes on the stack, followed by B's. This means that B's ability resolves first, so B gets the creature.
+

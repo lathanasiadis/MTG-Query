@@ -1,0 +1,29 @@
+Q:
+
+Can I simply ignore some effects on a card when there's no target for them?
+
+While playing a game with a friend, I faced a problem we couldn't agree on how to solve :
+He played a card (Decimate) which had 4 distinct effects.
+For a combined cost cost of 4 mana, this card had:
+
+Destroy target artifact, target creature, target enchantment, and target land. 
+
+Without any "chose one, chose two, etc" indication.
+There was no artifact for him to target, could he still have cast this spell while simply ignoring the "destroy target artifact"?
+
+A:
+
+No, he could not legally cast the spell in the first place.
+Declaring targets is one of the steps of casting a spell. For each instance of the word "target", you must choose a legal target. You haven't legally cast the spell until you have chosen all the targets.
+You can never just ignore a part of a card instruction unless it says "may" or "choose".
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires.
+
+Decimate works as a good example of what you are talking about. Because the word "target" is used 4 times, you must choose an object 4 times. See the Gatherer rulings for Decimate:
+
+[...]If the spell or ability uses the word target in multiple places, the same object or player can be chosen once for each instance of the word “target.” For example, you could choose Tree of Tales for both the artifact and the land. You still need a legal target enchantment and creature as well.
+
+Note that if any of the targets become illegal before the spell resolves, then the spell will still resolve unless every target becomes illegal. So if you were the only player with a creature; but wanted to cast Decimate for the other effects; you could target your own creature, and then if you had a way to make it illegal (bounce or flicker effects, shroud, etc); then the spell would still resolve as you want.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. 
+

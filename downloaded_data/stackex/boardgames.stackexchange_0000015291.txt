@@ -1,0 +1,31 @@
+Q:
+
+What happens to my Athreos triggers when my opponent has an Aegis of the Gods?
+
+This is an important interaction between two Journey into Nyx cards. Really it's a question about how "unless" interacts with targeting.
+Say I have an Athreos, God of Passage (spoiler link) in play:
+
+Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
+
+My opponent has an Aegis of the Gods (spoiler link):
+
+You have hexproof.
+
+What happens when one of my creatures dies, but there are no valid targets for the trigger?
+
+Do I get to return it to my hand from the graveyard because there is no other valid option?
+Or does it stay dead because the whole trigger is a no-go?
+
+A:
+
+The ability is removed from the stack, and you do not get your creature back. See:
+603.3
+
+603.3 Once an ability has triggered, its controller puts it on the stack as an object that's not a card the next time a player would receive priority. See rule 116, "Timing and Priority." The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it's countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+and 603.3d
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+
+You are required to choose a target, and since you cannot the ability is removed from the stack and does not resolve.
+

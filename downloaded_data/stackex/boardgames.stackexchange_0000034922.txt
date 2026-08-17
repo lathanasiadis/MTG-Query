@@ -1,0 +1,26 @@
+Q:
+
+What happens when both players run out of cards with Gideon of the Trials and an emblem in play?
+
+Gideon of the Trials is a planeswalker card from Amonkhet with the following abilities:
+
++1: Until your next turn, prevent all damage target permanent would deal.
+0: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier
+  creature with indestructible that’s still a planeswalker. Prevent all
+  damage that would be dealt to him this turn.
+0: You get an emblem with “As long as you control a Gideon
+  planeswalker, you can’t lose the game and your opponents can’t win the
+  game.
+
+My understanding of "can't lose" effects like the third above ability is that they prevent any loss except for a voluntary concession (since the player who concedes simply leaves the game with all cards they own). So, a player who has this Gideon on the battlefield and an emblem would ignore the rule that you lose if an effect would make you draw a card from your library, but your library has no cards in it. (This method of losing is known as "decking.")
+Normally board stalls and the like are decided when one or the other player loses by decking but in a two-player game where both players control a Gideon of the Trials and have used his emblem ability, neither player can win and neither player can lose. In addition, each player can use their Gideon's +1 ability to ensure their opponent's Gideon can't kill their own.
+What rule applies in the situation where both players run out of cards in their library and can't (or don't) remove their opponent's Gideon?
+As a follow-up, are cards in hand relevant? Either player could hold onto cards to bluff having an answer. Maybe one or both players holds an instant-speed answer but wants to play it in response for the best chance of winning (if both have Anguished Unmaking, both want to respond).
+The board state isn't necessarily an exact loop because both players can be plussing their Gideons before passing the turn.
+
+A:
+
+There are no specific rules to handle this kind of situation. If both players can't lose the game, play just continues as normal until one player can lose and does, or somebody concedes. The tournament rules do allow for player to agree to declare the game a draw, and doing so may be an attractive option in the situation you describe.
+In addition, in a tournament, if a game does not end, eventually the tournament organizers will announce that time for the round has ended, and that games can proceed for a total of five more turns. If the game has still not ended at the end of those turns, it will be declared a draw.
+If a player resolves an Anguished Unmaking targeting their opponent's Gideon, then the next time that opponent would lose the game, they actually lose the game.
+

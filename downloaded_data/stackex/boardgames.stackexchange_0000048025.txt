@@ -1,0 +1,39 @@
+Q:
+
+Which creatures count as green creatures?
+
+This question works with the other colors too, but for now I'm mostly interested in which creatures are valid for benefiting from Rhonas's Monument:
+
+Green creature spells you cast cost {1} less to cast. 
+
+I can think of two options:
+
+All creatures with green in their color identity. This means creatures like Sunder Shaman and Knight of Autumn are cheaper to cast when the monument is in play. 
+All creatures that only have green in their color identity. This would exclude multi-colored creatures. 
+
+A:
+
+A creature spell is green if green is one of its colors; it doesn't matter what other colors, if any, it has.
+First of all, when an effect asks for the color of an object, it uses the following definition:
+
+202.2. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+
+Some cards that would be colorless because of 202.2, such as Crimson Kobolds or the back face of most transforming permanents, have a color indicator that sets the card's colors.
+
+204.2. An object with a color indicator is each color denoted by that color indicator.
+
+Color identity is related to, but different from color. It is only relevant for building Commander decks. A card's color identity is the sum of colors of all mana symbols in that card's mana cost and rules text, plus color indicator:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+With that being said, the answer to your question is option 1, if you replace "color identity" with just "color".
+If a card has green among its colors, Rhonas's Monument will identify it as green, regardless of what other colors the card is:
+
+202.2c An object with two or more different colored mana symbols in its mana cost is each of the colors of those mana symbols. [..]
+
+If Rhonas's Monument would only apply to mono-green creature spells, it would explicitly say so. Generally speaking, whenever something ask for a property of an object, then it doesn't matter what all other properties of that object are.
+For example, you might as well ask whether Rhonas's Monument also applies to "artifact creature" spells such as Verdurous Gearhulk instead of just "creature" spells. The answer would also be "yes", because an artifact creature is a creature, and for the Monument it doesn't matter whether or not it's also an artifact.
+Also note that your one example of Sunder Shaman would still not benefit from Rhonas's Monument, because the Monument only reduces generic mana costs by 1. Sunder Shaman has no generic mana cost, only colored.
+
+117.7a Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can’t affect the colored or colorless mana components of that cost.
+

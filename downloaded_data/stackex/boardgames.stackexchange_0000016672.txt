@@ -1,0 +1,16 @@
+Q:
+
+Can you dredge twice for one card draw?
+
+Say I have two Life from the Loams in my graveyard. Can I dredge twice — once for each of the Life from the Loams — when drawing my first card on my turn?
+I assume the answer is no, but I figured I'd ask nonetheless.
+
+A:
+
+No, you cannot.
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+614.7. If a replacement effect would replace an event, but that event never happens, the replacement effect simply doesn’t do anything.
+
+Once you choose to apply the first Life from the Loam's ability, you are no longer drawing a card; you are instead milling 3 and returning the card to your hand.  Thus, as soon as you apply one replacement effect (and replacement effects must be applied one after the other), there is no card draw for the other Life from the Loam to replace, and so you can't dredge twice.
+

@@ -1,0 +1,19 @@
+Q:
+
+Is 'Enchantment Creature' a creature type?
+
+I'm specifically looking at interactions with Descendant's Path. If I have an enchantment creature on the battlefield, let's say Aegis of the Gods, and then Descendants' Path reveals Agent of Erebos, does the shared 'Enchantment Creature' feature allow Agent of Erebos to come into play, or does the Path just look at the Human Soldier and and Zombie part, putting the Agent on the bottom of my library?
+
+A:
+
+According to the rules, possible card types are:
+
+300.1. The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
+
+Agent of Erebos shares the type with Aegis of the Gods. However, Desendants' Path looks not at the card type, but on Creature Type:
+
+302.3. Creature subtypes are always a single word and are listed after a long dash: “Creature — Human Soldier,” “Artifact Creature — Golem,” and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+  Example: “Creature — Goblin Wizard” means the card is a creature with the subtypes Goblin and Wizard.
+
+Aegis and Agent don't share a creature (sub)type, therefore you will have to put the Agent on the bottom of your library unless you control more creatures one of which is a Zombie.
+

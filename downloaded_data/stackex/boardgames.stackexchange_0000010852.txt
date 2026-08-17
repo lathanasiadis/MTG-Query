@@ -1,0 +1,21 @@
+Q:
+
+Can I use Act of Aggression to steal their attacking creature and block with it?
+
+My opponent declares two creatures as attackers. I want to play Act of Aggression to gain control of one of their creatures and so I can have it block their other creature. Is this possible? Is so, during what step do I need to play my Act of Aggression? If I played it during my declare blockers step, would the creature that I now controlled still be attacking me?
+
+A:
+
+Yes, that's fine.  You would play the spell during the declare attackers step, after attackers are declared, but before proceeding to the declare blockers step.  Then you are free to declare it as a blocker.  If you wait for your declare blockers step, it's too late to block with the creature.
+The ordering is:
+
+Declare Attackers Starts: 
+Turn Based Action - Attackers are declared
+Players get Priority <- Cast Spell Now! 
+Declare Blockers Starts: 
+Turn Based Action - Blockers are declared 
+Players get Priority <- Too late
+to use as blocker if cast now!
+
+Any time a creature changes controllers, it is automatically removed from combat, so it will no longer be considered attacking you (or attacking/blocking at all if it previously was).
+

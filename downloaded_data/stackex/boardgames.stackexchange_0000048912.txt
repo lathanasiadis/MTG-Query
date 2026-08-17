@@ -1,0 +1,15 @@
+Q:
+
+How to find Enchantments or Artifacts that have multiple effects?
+
+I've tried the Gatherer and Advanced Google Search and cannot find a good way to find cards of the type I'm hoping to find.
+I'm looking for enchantments or artifacts that have multiple effects possible when conditions are met.  
+For example, Jeskai Ascendancy has 2 separate effects when you cast a noncreature spell.  
+A better example is Waste Not that triggers for creatures, lands or any spell if a 'discard' action happens.
+I'm not sure there is a good way to search for this type of card, so if anyone has suggestions, I would gladly welcome them.
+
+A:
+
+As a starting point, the following Gatherer search finds all of the cards with multiple triggered abilities that have the exact same trigger condition: text=m/(\b(When(ever)?|At)\b[^,]+),.+?\1,/. This uses Gatherer's regular expression search functionality to find cards with "When...", "Whenever..." or "At..." matching up to the first comma, and then the exact same text later on the card. This has a couple of false-positive matches of cards with commas in their name (like Brimaz, King of Oreskos). It also matches cards with multiple triggered abilities with the same trigger condition and different "intervening if" clauses (like Duergar Hedge-Mage).
+It's a lot more complicated to find cards like Waste Not with trigger conditions that are similar but not identical, because it is unclear how that "similarity" would be rigorously defined in general.
+

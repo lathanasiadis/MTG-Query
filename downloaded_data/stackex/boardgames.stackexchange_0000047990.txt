@@ -1,0 +1,36 @@
+Q:
+
+If I resurrect a previously enchanted creature, does it get its old auras back?
+
+If my enchanted creature dies, and I then bring the creature back to the battlefield does said creature come back with the same enchantment on it?
+
+A:
+
+ConMan's answer is very good, but it goes explaining auras, their effects and characteristics but I think this rule is more important to explain the answer to your question.
+
+217.1c An object that moves from one zone to another is treated as a new object. Effects connected with its previous location will no
+  longer affect it.
+
+Answer to your question: No, it will not have any auras or equipment attached to it.
+This is because every time an object moves from one zone to another, this is a new object. Whether this new zone is graveyard, battlefield, exile, library or hand.
+A good and relevant example of this is a card by the name of Animate Dead with the following text:
+
+Enchant creature card in a graveyard When Animate Dead enters the
+  battlefield, if it's on the battlefield, it loses "enchant creature
+  card in a graveyard" and gains "enchant creature put onto the
+  battlefield with Animate Dead." Return enchanted creature card to the
+  battlefield under your control and attach Animate Dead to it. When
+  Animate Dead leaves the battlefield, that creature's controller
+  sacrifices it.
+
+Very convoluted text for a simple, return creature to the battlefield isn't it? The gatherer explains why:
+
+Animate Dead is an Aura, albeit with an unusual enchant ability. You
+  target a creature card in a graveyard when you cast it. It enters the
+  battlefield attached to that card. Then it returns that card to the
+  battlefield, and attaches itself to the card again (since the card is
+  a new object on the battlefield). Animate Dead itself never moves into
+  a graveyard during this process.
+
+As Animate Dead attaches to the creature and enters the battlefield, the creature is still theoretically in the graveyard, the effect from Animate Dead then brings the creature to the battlefield which means that as it is now a new object, Animate Dead has to attach itself to it again.
+

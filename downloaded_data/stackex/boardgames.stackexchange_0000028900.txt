@@ -1,0 +1,16 @@
+Q:
+
+Can I defeat an opponent with their own commander?
+
+I know that if I gain control of my opponent's commander, it won't lose the status of commander. How is the commander damage calculated in this case? Can I do the 21 commander damage with the stolen commander to win the game? Does the damage add to the damage of my own commander?
+
+A:
+
+Yes, you can make a player lose by dealing 21 total damage to them with their own commander. (If it keeps getting stolen by yourself or others, a cumulative total 21 damage from their own commander will make them lose.)
+The rule, from mtgcommander.net's Rules — Play section, is:
+
+If a player has been dealt 21 points of combat damage by a particular Commander during the game, that player loses a game.
+
+That is any one specific commander card, including their own. Commander damage from different commander cards doesn't count together: if you've successfully stolen every commander on the board and dealt 20 damage with each of them to one opponent, they still haven't lost to commander damage.
+Also, commander damage never makes anyone win directly, it only makes players lose. You'll only win if them losing made you win, e.g. they were your only opponent.
+

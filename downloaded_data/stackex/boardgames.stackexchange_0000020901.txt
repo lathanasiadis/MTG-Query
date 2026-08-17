@@ -1,0 +1,21 @@
+Q:
+
+Does "an attacking creature" count as "a creature that attacked"?
+
+Say I have Hypersonic Dragon in play and go to combat phase. Dring the declare attackers step I tap and declare Hypersonic Dragon as attacking. After I have declared Hypersonic Dragon as attacking I get priority (as there are nothing else on the battlefield generating triggers). 
+Now I play Relentless Assault and it resolves. Since this is during combat, there is no additional Combat or Main Phase added, but is Hypersonic Dragon untapped now?
+If not, at what point is Hypersonic Dragon "a creature that attacked"? What is the earliest Relentless Assault can be played to get the untap effect?
+
+A:
+
+The Hypersonic Dragon will be untapped.
+It is well established that to attack is to declare as an attacker, so a creature that attacked is one that has been declared as an attacker earlier in the current turn.
+
+508.2. Second, any abilities that triggered on attackers being declared go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition
+
+The rule and ruling for "put on the battlefield attacking" further supports this:
+
+508.4. If a creature is put onto the battlefield attacking, [...]. Such creatures are “attacking” but, for the purposes of trigger events and effects, they never “attacked.”
+2011-9-22 Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+

@@ -1,0 +1,26 @@
+Q:
+
+Why does rule 608.2b counter Last Word, when Last Word can't be countered?
+
+After reading Can uncounterable spells still be countered somehow?, I am confused by a conflict between two of Magic's rules. At risk of being labelled a duplicate, I want to cover this edge case in more detail than answers to the other questions would, because the other question is very broad. Here's the situation:
+Last Word can't be countered by spells or abilities.
+According to the top answer on the aforementioned question, Last Word can be countered by rule 608.2b if it has no legal targets. This could happen by using Redirect to change the target of Last Word to Redirect.
+
+608.2b [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal.
+
+I think this is wrong. Last Word can't be countered. The card's text directly conflicts with rule 608.2b. Therefore, rule 101.1 applies.
+
+101.1. Whenever a card's text directly contradicts these rules, the card takes precedence. [...]
+
+By rule 101.1, Last Word has precedence. It seems like it would not be countered by game rules. Instead, I think it would resolve, and rule 101.3 would apply:
+
+101.3. Any part of an instruction that's impossible to perform is ignored.
+
+An illegal target can't be countered, and so that instruction would be ignored. That happens to be all that Last Word does, and so the spell would resolve with no effect. The conclusion I arrived at is not the conclusion arrived at in the answer to the other question. It would make a difference if, for example, the spell had other non-targeting effects that were still possible to perform.
+Why does rule 608.2b counter Last Word, and why does rule 101.1 not apply?
+
+A:
+
+608.2b is neither a spell nor an ability, it is a rule of the game, therefore it can counter Last Word. This is why all spells that can't be countered and have targets include the 'by spells or abilities' text, as opposed to Thrun, the Last Troll or Supreme Verdict which do not have targets and thus do not need that additional clause. They just say '~ can't be countered'
+If it said 'Last Word can't be countered by spells, abilities, or game rules' 101.1 could apply, but it doesn't say that so 101.1 never applies.
+

@@ -1,0 +1,20 @@
+Q:
+
+When a permanent has a "When a creature dies" ability, and gets destroyed at the same time as creatures, does that ability trigger?
+
+Say I control Fecundity, which states:
+
+Whenever a creature dies, that creature's controller may draw a card.
+
+If I control 2 creatures and my opponent controls one creature, and I cast Planar Cleansing to wipe the board (including Fecundity), what happens?  Do I get to draw 2 cards?  Does my opponent get to draw 1 card?  Or do neither of us get to draw any?
+
+A:
+
+Both you and your opponent will draw cards, since the game looks back before an event to see if anything would trigger.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. [...] However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, [...] will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
+
+Example: Two creatures are on the battlefield along with an artifact that has the ability "Whenever a creature dies, you gain 1 life." Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifact's ability triggers twice, even though the artifact goes to its owner's graveyard at the same time as the creatures.
+
+Note that for this to work the destruction must happen at the same time, if you had used Austere Command instead the enchantment would be destroyed before the creatures thus it wouldn't trigger.
+

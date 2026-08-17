@@ -1,0 +1,29 @@
+Q:
+
+A question about flickering a stolen creature
+
+Some cards like Mistmeadow Witch and Ghostly Flicker specify under whose control the flickered creature will return. What happens when it isn't specified whose control the creature will return under? For example if I'd play Yannik, Scavenging Sentinel or Lumbering Battlement which doesn't specify that, would the creature return under my or my opponent's control?
+
+A:
+
+They won't be 'stolen' anymore when they return to the battlefield. One of the rulings under Lumbering Battlement says
+
+When the cards return to the battlefield, they will be new objects with no connection to the cards that were exiled.
+
+'Stealing' a creature is a continuous effect, i.e. a creature is always controlled by its owner unless another effect changes this. When a stolen creature returns to the battlefield, the game doesn't know about the effect anymore and its owner will control it.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Nine exceptions are listed there but this isn't one of them.
+There is even a special ruling about these type of cards/effects which I didn't know about (thanks @doppelgreener):
+
+One-Shot Effects
+
+610.1. A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, creating a token, and moving an object from one zone to another.
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3c An object returned to the battlefield this way returns under its owner’s control unless otherwise specified.
+
+Finally, @murgatroid99 mentions a card which explicitly modifies this behaviour, Cloudshift:
+
+Exile target creature you control, then return that card to the battlefield under your control.
+

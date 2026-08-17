@@ -1,0 +1,24 @@
+Q:
+
+Is it possible to generate mana at instant speed when tapped out
+
+Supposing my opponent is tapped out, has no floating mana, and has nothing on the battlefield capable of directly generating mana at instant speed (No Moxen or Loti, for example), or of untapping their lands, or otherwise being self-evidently relevant.
+Is there any risk of the opponent acquiring new mana, or otherwise casting non-zero-mana spells?
+Are there any zero-mana instant-speed spells?
+Can you think of any abilities, that could really subtly end up with mana available, but might not be obvious at first glance?
+Basically, does "tapped out + no obviously relevant abilities on the battlefield" equal "I am guaranteed that I can play un-hindered?"
+Ideally, it would be good to know the answer for any given format (Standard, Modern, etc.)
+
+A:
+
+You asked two different questions. For both, we are assuming that the opponent is tapped out with no relevant mana abilities on the field.
+
+It possible for my opponent to generate mana at instant speed?
+
+Yes, players can generate mana at "instant speed" (mana abilities technically don't use the stack and can't be responded to like an Instant spell). As an example, see Simian Spirit Guide.
+
+Am I guaranteed that I can play unhindered?
+
+Even without cards that can generate mana, like Simian Spirit Guide, the answer is no. Cards like Force of Will can disrupt you for an alternative cost. Cards like Pact of Negation or Slaughter Pact allow your opponent to pay later.
+Three of the four cards I mentioned are legal in both Modern and Legacy. Standard rarely has effects like this, but it happens every now and then.
+

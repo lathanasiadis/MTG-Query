@@ -1,0 +1,21 @@
+Q:
+
+"Counter target ability from a [quality] source" -- changing [quality]?
+
+Some cards counter abilities, but only from some sources. For example, Ouphe Vandals can only counter activated abilities of artifacts.
+I know that removing the source of an ability does not prevent the ability from resolving in the general case (the exception being relevant intervening if clauses). However, if I make a modification to the qualities of the source, does that affect what can target the ability, or are the qualities of the source "locked in" at the time of activation?
+For a specific example: Mayael the Anima activates her ability. In response, I turn Mayael into an artifact using Liquimetal Coating. Can I then counter the ability (and destroy Mayael) with Ouphe Vandals, despite the fact that when her ability was activated, the ability did not come from an artifact source?
+
+A:
+
+Rule 112.7 says
+
+The source of an ability is the object that generated it. The source of an activated ability on the stack is the object whose ability was activated. The source of a triggered ability (other than a delayed triggered ability) on the stack, or one that has triggered and is waiting to be put on the stack, is the object whose ability triggered. To determine the source of a delayed triggered ability, see rules 603.7d–f.
+
+So, if you want to answer the question "Is the source of this ability an artifact?" for example, you just have to answer "Is the object whose ability was activated an artifact?" That object exists independent of the ability and can become an artifact after its ability is activated. So yes, in your example you can target Mayael's ability with Ouphe Vandals.
+In addition, as 3C273's answer quotes, rule 608.2b says, in part
+
+If the source of an ability has left the zone it was in, its last known information is used during this process.
+
+This means that in your example, if Mayael left the battlefield after Liquimetal Coating's ability resolved, it's last known information would include being an artifact, and Ouphe Vandals' ability would be able to target its ability. It would be inconsistent if this was different from the situation where it doesn't leave the battlefield.
+

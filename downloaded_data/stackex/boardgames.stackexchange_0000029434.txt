@@ -1,0 +1,16 @@
+Q:
+
+How is Ondu Cleric's Rally ability resolved when more than one ally enters the battlefield at once?
+
+If I start with an Ondu Cleric on the battlefield and cast Allied Reinforcements, how much health would I gain? I know it is somewhere between 4 and 6.
+Posible options in my mind:
+a. The tokens enter at the same time, but the rally ability only counts there being two creatures on at once: The Ondu Cleric, and the token who activated Ondu Cleric's ability. This happens twice, so 22 is 4. (Didn't seem likely, but hey, this might be the case)
+b. The tokens enter one at a time, and the rally ability gives 2 health, then 3 health for a total of 5.
+c. The tokens enter at the same time, and the rally ability counts 3 creatures both times it is activated for a total of 6 (23).
+Optional Question: What if I started with 2 Ondu Clerics on the battlefield? Would that just double the health gained, or would something else happen?
+
+A:
+
+When Allied Reinforcements resolves, the two tokens enter the battlefield at the same time.  Ondu Cleric will see both ally tokens enter the battlefield, and will have its ability trigger twice.  The number of allies on the battlefield is checked when the trigger resolves, so barring any other allies on the board, you will gain a total of 6 life ( 3 for each trigger).
+If you had a pair of clerics on the board, each cleric would see both tokens enter, for a total of 4 triggers at 4 life per trigger, giving you a total of 16 life.
+

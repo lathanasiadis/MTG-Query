@@ -1,0 +1,22 @@
+Q:
+
+If I activate Shambling Vent's ability after it has been 'awakened', what happens at the end of the turn?
+
+Let's say I control a Shambling Vent and then cast a spell with Awaken 3, targeting the Vent. The Shambling Vent becomes a 0/0 Land Creature - Elemental with 3 +1/+1 counters on it, no problem there.
+I then activate Shambling Vent's second ability, turning it into a 2/3 white and black Land Creature - Elemental with lifelink and 3 +1/+1 counters on it. I know that the new P/T setting ability overwrites the first so I effectively have a 5/6 Land Creature, still no problems here.
+However I'm not sure what happens when the turn ends and Shambling Vent's ability wears off. Does it go back to being a 0/0 elemental or does it stop being a creature entirely?
+
+A:
+
+Both Awaken and Vent's ability generate a continuous effect that applies changes in layers 4 and 7b – type and power/toughness accordingly (also some other layers which do not intersect).
+
+611.1. A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+
+Awaken's effect is not "overwritten" by Vent's ability. Rather, Vent's ability is applied "over" it and takes precedence due to being more recent (timestamp rule).
+
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp
+
+Therefore, after Shambling Vent's ability wears off it will go back to being a 0/0 Land Creature - Elemental due to Awaken's effect.
+

@@ -1,0 +1,19 @@
+Q:
+
+When gaining control of an opponent's target creature, who do effects of that card that apply to?
+
+So, I'm playtesting two of my decks, (yeah, I do that... I need friends...) and I'm confused about how the effects of my opponent's cards that come under my control (via cards such as Act of Treason, or Mind Control), which say "you and "your," would affect me and my opponent. The specific card in question is Yavimaya Elder, which I gained control of for the turn using Act of Treason. I plan to attack with it, then sacrifice it. But the card says: "When Yavimaya Elder is put into a graveyard from the battlefield, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library." (emphasis added)
+I understand that as I sacrifice the card, it would go into my opponent's graveyard, as he owns it (I know that he is me since I'm playing myself, but for all intents and purposes, "he" refers to the player of the deck who owns Yavimaya Elder). However, since the card doesn't specify "your graveyard," does that mean that it's effects that say "you" would apply to me, as Act of Treason causes me to control it until end of turn?
+So my main question is, would I, owner of Act of Treason, search my library for two lands, or would my opponent, owner of Yavimaya Elder, search "his" library for two lands??
+
+A:
+
+In general, "you" always refers to an objects controller, or if it doesn't have one, its owner. This is specified with some more detail in rule 109.5. For example, if a card is on the battlefield, "you" refers to its controller, and if a card is in a graveyard, "you" refers to its owner.
+In the specific example of taking control of Yavimaya Elder and sacrificing it, you (the controller) would search your library for the lands and put them into your hand. This is because Yavimaya Elder's ability is a "leaves-the-battlefield ability", which means that the following parts of the triggered ability rules apply:
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+This means that when Yavimaya Elder dies, its triggered ability considers how it existed when it was last on the battlefield. This includes the fact that you controlled it, so you also control the ability and the "you"s in the ability refer to you.
+

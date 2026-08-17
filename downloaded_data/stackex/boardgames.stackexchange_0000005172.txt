@@ -1,0 +1,24 @@
+Q:
+
+If my creature has shadow and flying, can it only be blocked by creatures with shadow AND flying?
+
+My understanding is that creatures with shadow can only block or be blocked by creatures with shadow, and creatures with flying can only be blocked by creatures with flying. If I have a creature with shadow and cast a spell that gives it flying (say, Jump), can it now only be blocked by nothing but a creature that also has both those abilities?
+
+A:
+
+In a general sense, you are correct. Both abilities impose a restriction that's tracked individually. A creature must satisfy all the restrictions in order to block your super-evasive attacker.
+My one niggle is that there are non-flyers that can block fliers, such as creatures with reach. And there are a few creatures, like Wall of Diffusion, that don't have shadow but have "~ can block creatures with shadow as though ~ had shadow" as an ability, which allows them to block shadow creatures (and non-shadow creatures as well, since they don't actually have shadow).
+Here's some comp rules for ya, with this exact example:
+
+509.1b The defending player checks each creature he or she controls to see whether it’s affected by    any restrictions (effects that say a
+creature can’t block, or that it can’t block unless some    condition
+is met). If any restrictions are being disobeyed, the declaration of
+blockers is illegal.
+A restriction may be created by an evasion ability (a static ability an attacking creature has    that restricts what can block
+it). If an attacking creature gains or loses an evasion ability after
+a    legal block has been declared, it doesn’t affect that block.
+Different evasion abilities are    cumulative.
+Example: An attacking creature with flying and shadow can’t be blocked by a creature with flying but without shadow.
+
+Trivia: Stronghold Overseer has both flying and shadow natively. On a 5/5 body to boot!
+

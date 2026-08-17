@@ -1,0 +1,15 @@
+Q:
+
+What happen if I use cast out on my creature which is under my opponent's control and then cast out leaves the battlefield?
+
+Let's say my opponent is controlling one of my creatures. And then I target that creature with Cast Out or Hostage Taker's ability. After the ability resolved, Cast Out or Hostage Taker leaves the battlefield. Would the creature return to the battlefield under my control?
+My guess is it would return under its owner's control. Since card that moves from one zone to another becomes a new object with no memory, there is no difference between (1) using cast out on my creature under my control and (2) using cast out on my creature under my opponent's control. In the first case it is easy to see that the creature would return to the battlefield under my control when cast out leaves the battlefield, and both cases are actually the same. 
+
+A:
+
+Yes, if the effect that changes control specifically affects the creature that was exiled.
+You never actually move an object from one zone to another. It works more like a transporter, where the original object ceases to exist, and a new object is created at the new location (in a different zone).
+Specifically, the creature that was exiled, the creature card in exile, and the creature that returns from exile are all completely different objects.[CR 400.7] Anything that specifically affected the exiled creature won't affect the creature that returned from exile since they are two completely different creatures (even though they are represented by the same physical card).
+Since nothing affects the new object, it enters the battlefield as it always does: Under it's owner's control.[CR 110.2]
+Note that continuous effects from static abilities (but not those created by the resolution of a spell or ability) applies at any given moment to whatever its text indicates.[CR 611.3a] So the static ability "Gain control of all white creatures" would affect the new creature if it's white, but the continuous effect created Kefnet's Last Word targetting the original creature would not affect the new creature.
+

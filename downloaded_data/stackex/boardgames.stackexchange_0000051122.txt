@@ -1,0 +1,23 @@
+Q:
+
+Probability of drawing duplicates of a card in magic
+
+Was trying to figure this out, and realized I don't know the exact math:
+In the card game magic you have a deck of 60 cards. You can have 4 copies of any individual card, and you are dealt a starting hand of 7. Each turn, one additional card is drawn.
+What are the odds of drawing more than one of a card (2, 3, or 4 of the same card) on turns 1, 2, 3 etc...
+If anyone knows how to break this down, I'd love to see the math behind it.
+Cheers
+
+A:
+
+This is not math.stackexchange, so I don't have access to any formula formatting. I'll try to make it readable regardless. The basic mathematical construct used here are the so-called binomial coefficients:
+
+(a choose b) means a!/(b!*(a-b)!), it says how many different possible hands of b cards there are when you have a unique cards to choose from. I will pretend that you can see the difference between the duplicates, say they are reprints from different sets or something. It's just easier that way.
+
+Say you have seen k cards of your deck (the seven you start with, plus any you have drawn). And you have one particular card you're looking for duplicates of (if you're asking about having any duplicate at all, then this becomes messy). I am going to pretend that you just keep drawing cards, never playing any and never discarding, so that all the cards you've seen are in your hand. It's easier to phrase this way.
+The probability of having drawn none of your cards is (56 choose k)/(60 choose k). The numerator is the number of hands of size k that do not contain your card, and the denominator is the total number of hands with k cards. The probability of having drawn exactly one is 4*(56 choose k-1)/(60 choose k). The probability of not having duplicates is the sum of these two. The probability of having duplicates is 1 minus that:
+
+Probability of duplicates: 1-(56 choose k)/(60 choose k) - 4*(56 choose k-1)/(60 choose k)
+
+Here is a table of the first few values.
+

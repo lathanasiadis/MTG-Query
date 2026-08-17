@@ -1,0 +1,17 @@
+Q:
+
+Can I cast Killing Glare with X=0 while no creatures with zero power are on the battlefield?
+
+I wonder if I am able to cast Killing Glare if there are no powerless creatures on the board?
+For example to Extort after casting.
+
+A:
+
+No, you have to pick a legal target (a creature with power 0 or less) when you cast the spell, as instructed by the third step of casting a spell.
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+
+If you can't, any steps of casting the spell already taken are undone.
+
+601.2. [...] If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast [...]
+

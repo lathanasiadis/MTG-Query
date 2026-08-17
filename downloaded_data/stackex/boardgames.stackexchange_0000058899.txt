@@ -1,0 +1,26 @@
+Q:
+
+What happens if an Aura loses all abilities?
+
+If an Aura loses all abilities, that would mean it loses its enchant ability. Assuming it's still attached to something, what happens to it? I would expect that the rules would say that it's put into its owner's graveyard, but they are less than clear.
+The state-based action that cleans up improperly attached Auras says only that an Aura is destroyed if it's attached to something "illegal", without clarifying what "illegal" means.
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+The rules on Auras basically say the same thing.
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+But the definition of enchant seems to offer some clarity:
+
+702.5a Enchant is a static ability, written “Enchant [object or player].” The enchant ability restricts what an Aura spell can target and what an Aura can enchant.
+
+The word "restricts" implies to me that by default, Auras are allowed to enchant anything and their enchant ability only limits that to whatever it says. So if an Aura had no enchant ability, it could just stay attached and not doing anything, right?
+
+A:
+
+It's put into its owner's graveyard.
+As excited as I was by the above rules ambiguity, a ruling on Immovable Rod settles the issue.
+
+If you target an Aura with Immovable Rod's last ability, it will lose its enchant ability and be put into its owner's graveyard because it can't legally enchant anything. An Equipment that loses its abilities loses its equip ability, so you won't be able to move it that way, but it will stay attached to the creature it's equipping, if any.
+

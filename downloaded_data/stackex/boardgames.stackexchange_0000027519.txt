@@ -1,0 +1,27 @@
+Q:
+
+Regal force and cyclonic rift
+
+Say I have 2 green creatures out and I cast Regal Force. My opponent responds by overloading Cyclonic Rift. Do I draw 3, 1, or 0 cards, and does Regal Force get bounced?
+
+A:
+
+It depends on what exactly the opponent is responding to. If they cast Cyclonic Rift in response to Regal Force the spell, then Regal Force ends up on the battlefield and you draw 1 card. However, if they respond to Regal Force's triggered ability, then Regal Force instead ends up in your hand and you draw no cards.
+Responding to the spell
+If they respond to the spell, then the sequence of actions plays out like this:
+
+You cast Regal Force and pass priority. At this point, Regal Force is on the stack.
+They cast Cyclonic Rift. At this point, Regal Force is on the stack, and Cyclonic Rift is on top of it.
+Cyclonic Rift resolves, returning your two creatures on the battlefield to your hand.
+Regal Force resolves and it enters the battlefield. Its ability triggers.
+Regal Force's ability resolves, and you draw 1 card for the 1 creature you control.
+
+Responding to the triggered ability
+If they respond to the triggered ability, the sequence of actions instead plays out like this.
+
+You cast Regal Force.
+Your opponent declines to respond, and Regal Force resolves. It enters the battlefield, and its ability triggers. At this point, the triggered ability is on the stack.
+They cast Cyclonic Rift. At this point, Regal Force's triggered ability is on the stack, and Cyclonic Rift is on top of it.
+Cyclonic Rift resolves, returning your three creatures on the battlefield to your hand.
+Regal Force's ability resolves, and you draw no cards because you control no creatures.
+

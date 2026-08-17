@@ -1,0 +1,19 @@
+Q:
+
+Returning an enchantment to your hand
+
+Krasis Incubation has the following ability:
+
+{1}{G}{U}, Return Krasis Incubation to its owner's hand: Put two +1/+1 counters on enchanted creature.
+
+When Krasis Incubation is being targeted by Cancel, can I put it back to my hand to save it?
+
+A:
+
+No.
+Krasis Incubation's ability only functions on the battlefield[1], but Cancel can only target spells, and spells only exist on the stack[2]. Therefore, you won't be able to use KI's ability to protect the KI from being countered.
+On the other hand, the ability could possibly be used to prevent KI from being destroyed (as opposed to being countered). For example, if your opponent casts Abolish targeting KI, you would normally be able to activate KI's ability in response, and this would return KI to your hand before Abolish resolves.
+
+Generally speaking, if it makes sense for an ability to work when the object on which it resides is on the battlefield, the ability can only be used when the object on which it resides is on the battlefield.[CR 112.6]
+A spell is a card on the stack, a copy of a card on the stack, or a copy of a spell.[CR 111.1]
+

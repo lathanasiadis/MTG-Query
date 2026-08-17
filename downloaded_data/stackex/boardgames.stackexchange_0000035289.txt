@@ -1,0 +1,12 @@
+Q:
+
+Reanimating a creature with X in its cost
+
+Say I reanimate an Apocalypse Hydra using Rise from the Grave. How strong is the hydra?
+
+A:
+
+It would enter with 0 +1/+1 counters, then get put back into the graveyard for having 0 toughness as a state-based action.
+
+107.3f If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.
+

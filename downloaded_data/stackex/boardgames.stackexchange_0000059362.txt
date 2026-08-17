@@ -1,0 +1,29 @@
+Q:
+
+Does Damping Sphere make Baldur's Gate not able to produce all colors of mana?
+
+Let's say Damping Sphere is in play and so is Baldur's Gate (with 2+ other Gates). Is Plaza of Harmony still able to tap for all colors of mana?
+The idea is that, if there are 2+ other Gates, then Baldur's Gate's second ability will generate more than one mana, so Damping Sphere kicks in and makes it produce {Colorless} instead. But then Baldur's Gate can only produce Colorless mana. Does Plaza of Harmony still work then? If Plaza of Harmony does not produce all colors of mana, does this change if there is only one other Gate in play alongside Baldur's Gate?
+Relevant text of cards in question:
+Baldur's Gate:
+
+{2}, {T}: Add X mana of any one color, where X is the number of other Gates you control.
+
+Plaza of Harmony:
+
+{T}: Add one mana of any type that a Gate you control could produce.
+
+Damping Sphere:
+
+If a land is tapped for two or more mana, it produces {Colorless} instead of any other type and amount.
+
+A:
+
+Plaza of Harmony will only be able to create colorless mana, because at the moment, Baldur's Gate can only product colorless mana.
+
+106.7. Some abilities produce mana based on the type of mana another permanent or permanents “could produce.” The type of mana a permanent could produce at any time includes any type of mana that an ability of that permanent would produce if the ability were to resolve at that time, taking into account any applicable replacement effects in any possible order.
+
+So you basically have to go through what would happen if you were to tap Baldur's Gate right then, and have to account for all the replacement effects, including Damping Sphere. Because you have no way of producing red mana at the moment using Baldur's Gate, then you cannot get red mana from Plaza of Harmony.
+If you have just 1 other gate, then Baldur's Gate would only produce 1 mana of any color, so Damping Sphere would be irrelevant, and Plaza can produce any color just like Baldur's Gate can.
+If you have no other gates, then Plaza could only produce colorless, because Baldur's Gate could only produce colorless (you could activate it for 0 mana of any color instead, but producing 0 mana is not producing any mana).
+

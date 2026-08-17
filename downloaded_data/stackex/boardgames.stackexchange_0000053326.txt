@@ -1,0 +1,55 @@
+Q:
+
+What happens when two players are both trying to secretly choose the highest number? (Commander Legends spoilers)
+
+Consider the Commander Legends card Wheel of Misfortune:
+
+Each player secretly chooses a number. Then reveal those numbers. Wheel of Misfortune deals damage equal to the greatest chosen number to each player that chose it. Then, each player who didn't choose the smallest number discards their hand, then draws seven cards.
+
+Suppose that Alice and Norman are in a two-player game. Alice casts Wheel of Misfortune on her turn. Suppose further that each player would like to wheel, and also that each player is functionally immune to damage (e.g. can't take damage, can't lose the game, or life total can't change). Then each player wants to choose a higher number than the other.
+The comprehensive rules state:
+
+107.1c If a rule or ability instructs a player to choose “any number,” that player may choose any positive number or zero.
+
+How may Alice and Normal specify their numbers? In what format?
+I would presume that each player should write the number down on a piece of paper. The obvious way to do this is by writing the number out digit-by-digit. But the rules don't seem to require this. If a player wrote “a million”, would this be an illegal choice? If not, then what about “a googolplex”? What about “Graham's number”? What about mathematical notation, such as “10^100”?. (If Alice and Norman are both, say, theoretical computer scientists or set theorists, then things could get really complicated.)
+And how long do they each have to specify a number? According to the rules, they choose consecutively in turn order. How long may Alice spend writing down a number? At what point would it become slow play? Then, how long does Norman have? He clearly has a legitimate in-game reason to take longer than Alice took (even though in a perfect world he shouldn't have any information at all about Alice's choice).
+I'm interested in any of the following:
+
+Concrete citations to the comprehensive rules, tournament rules, official rulings, and so on.
+Real-world experience of how this has been handled in practice.
+Opinions of judges or other official/semi-official sources about how such a situation might be handled.
+
+A:
+
+There is precedent for making secret choices in the Conspiracy game mode, you make a secret choice by writing it on a piece of paper. Players are required to make choices understandable to each player; if a player chooses a number the other player doesn't understand by "obfuscating" it through a mathematical definition or similar, the opponent may demand an intelligible explanation, otherwise they can consult a judge. Slow play rules are well established in the tournament rules.
+If a choice is to be made secretly, we can infer the process from Hidden Agenda:
+
+702.105b To secretly choose a card name, note that name on a piece of paper kept with the face-down conspiracy card.
+
+It seems obvious that a secret choice of a number would be kept track of the same way. As always with additional game materials, any method is fine to use as long as both players agreed to it, and as long as it serves its purpose of fixing a choice and keeping it secret until the reveal.
+There are rules regarding choosing a number:
+
+107.1c If a rule or ability instructs a player to choose “any number,” that player may choose any positive number or zero.
+
+There is no specification in what form or notation the number is to be represented. However, the choice is free information as per the tournament rules once it has been revealed, and thus every player is entitled to knowing that choice. If one player, intentionally or not, obfuscates that number through a mathematical definition you couldn't reasonably expect the average player to know, then that player has violated the rules for player communication:
+
+Free information is information to which all players are entitled access without contamination or omissions made by their opponents. If a player is ever unable or unwilling to provide free information to an opponent that has requested it, they should call a judge and explain the situation. Free information consists of:
+
+Details of current game actions and past game actions that still affect the game state.
+
+The following rules govern player communication:
+
+Players may not represent derived, free, or status information incorrectly.
+
+Players must answer completely and honestly any specific questions pertaining to free information.
+
+Of course, if you have two opponents who know what a Googolplex etc. is, then there is no communication issue and either player may use such terms. The end goal is that both players know the other's choice and can agree on which choice is the higher number. How you get there is irrelevant, as long as it happens, and happens in a timely fashion.
+Which brings us to slow play, the rules of which are well-established in the tournament rules. If there is a dispute in a tournament setting, a judge will be called to decide.
+
+Players must take their turns in a timely fashion regardless of the complexity of the play situation and adhere to time limits specified for the tournament. Players must maintain a pace to allow the match to be finished in the announced time limit. Stalling is not acceptable. Players may ask a judge to watch their game for slow play; such a request will be granted if feasible.
+
+Finally, the catch-all for tournament rule questions, in case it isn't clear what constitutes slow play, or what constitutes obfuscation of free information:
+
+The Head Judge is the final judicial authority at any DCIsanctioned tournament and all tournament participants are expected to follow their interpretations.
+

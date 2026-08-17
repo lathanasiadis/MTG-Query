@@ -1,0 +1,23 @@
+Q:
+
+How does Lava Burst work with hexproof/shroud?
+
+How does Lava Burst work with hexproof/shroud ability?
+Lava Burst text says:
+
+If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another creature or player.
+
+However, hexproof / shroud ability also say:
+
+This creature can't be the target of spells or abilities ...
+
+So how does it actually work? Can Lava Burst damage a hexproof / shroud creature, or can't that creature be targeted at all?
+
+A:
+
+No, Lava Burst cannot damage a creature with shroud or an opponent's creature with hexproof. An opponent's creature with hexproof or shroud can't be the target of anything you control, period. The "cannot be prevented" text only means that prevention effects do not prevent or change that damage. The relevant rules here are:
+
+615.1. Some continuous effects are prevention effects. Like replacement effects (see rule 614), prevention effects apply continuously as events happen -- they aren't locked in ahead of time. Such effects watch for a damage event that would happen and completely or partially prevent the damage that would be dealt. They act like "shields" around whatever they're affecting.
+
+615.11. Some effects state that damage "can't be prevented." If unpreventable damage would be dealt, any applicable prevention effects are still applied to it. Those effects won't prevent any damage, but any additional effects they have will take place. Existing damage prevention shields won't be reduced by damage that can't be prevented.
+

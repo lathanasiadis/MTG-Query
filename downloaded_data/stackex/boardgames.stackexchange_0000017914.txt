@@ -1,0 +1,20 @@
+Q:
+
+When do static bonuses go away relative to damage dealt?
+
+I use Radiant Archangel in a deck full of flying creatures. It is a 3/3 flyer with +1/+1 for each other flying creature in play. During a game, I had seven other flying creatures, making it a 10/10. My opponent cast a spell (and I'm sorry I don't recall the spell) that did 6 damage to all my creatures.
+He contends that this kills Radiant Archangel as well because the static bonus of +1/+1 for all the flying creatures in play goes away once they are dead and the damage sticks around until the end of turn. Thus, after the spell resolves, the other flying creatures are gone so Radiant Archangel is only a 3/3, and it has 6 damage so it's dead.
+I contend that when the damage was dealt, it was a 10/10 and survived the attack, and that the 6 damage can come out of the +1/+1 bonuses that the other flying creatures provided and that it lost once they were gone.
+Does anybody have any official rulings on this?
+
+A:
+
+Your friend is correct. By CR 119.6, and/or 302.7, Radiant has six damage marked on it for the rest of the turn. The damage doesn't come out of the toughness, buffed or otherwise. What happens in order is:
+
+His spell does 6 damage to your creatures
+State-based actions are checked. Your other seven creatures now have 6 damage, and are destroyed for having damage greater than or equal to their toughness. Radiant is not destroyed yet, having toughness greater than damage.
+Since state-based actions destroyed creatures, they are re-checked with the new gamestate. The other flyers are no longer buffing Radiant, so she is now a 3/3 creature, still with 6 damage marked on it, so Radiant is destroyed at this point.
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.11, "Regenerate") and during the cleanup step (see rule 514.2).
+302.7. Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 119.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.12, "Regenerate") and during the cleanup step (see rule 514.2).
+

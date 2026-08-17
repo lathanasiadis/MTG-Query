@@ -1,0 +1,21 @@
+Q:
+
+Does Storm count opponents' spells?
+
+The definition of storm (such as in Grapeshot) is:
+
+Storm (When you play this spell, put a copy of it onto the stack for each other spell that was played before it this turn. If the spell has any targets, you may choose new targets for any number of the copies.)
+
+Does Storm count the spells played by the opponent?
+This definition does not specify if the spell are played by the controller of the "Storm-card" or by the opponent. I read this article and it does not clarify my doubt.
+I ask this because the owner of my local shop told me that Storm does not count enemy spells and he is a kind of judge.
+
+A:
+
+You get a copy for every previous spell, not just the ones you cast. The Storm rules (that you linked to) define Storm in rule 702.39a:
+
+Storm is a triggered ability that functions on the stack. “Storm” means “When you cast this spell, put a copy of it onto the stack for each other spell that was cast before it this turn. If the spell has any targets, you may choose new targets for any of the copies.”
+
+As you can see, it uses the same wording as the reminder text you quote. It does not mention who cast the previous spells, so it counts all previous spells.
+Cards that care about which player did something always say so. If any trigger event, or description, or bit of text that cares about information does not mention a player, then it does not distinguish between players.
+

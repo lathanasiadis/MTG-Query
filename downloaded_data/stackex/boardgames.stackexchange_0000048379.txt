@@ -1,0 +1,24 @@
+Q:
+
+Lavinia, Azorius Renegade ruling
+
+So my opponent is playing Jodah, Archmage Eternal, and they attempt to cast Omniscience for WUBRG. In response, I flash in Lavinia, Azorius Renegade.
+What happens to the Omniscience since it's already on the stack and Lavinia says "each opponent can't cast noncreature spells with converted Mana cost greater than the number of lands that player controls"
+
+A:
+
+Nothing. Lavinia, Azorius Renegade has no effect on it, so it resolves normally.
+
+To cast a spell is to put it on the stack, to make some choices (mode, targets, how the cost is payed, etc) and to pay its cost.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). [...]
+
+Specifically, resolving a spell is not part of casting it. To respond to a spell is to do something after it has been cast but before it resolves, so Omniscience has already been cast by the time you get to respond to it.
+Lavinia's static ability only affects spell that are cast while Lavinia is on the battlefield. It doesn't affect spells that have already been cast. What's been done is done. Nothing has a retroactive effect in Magic.[1]
+Similarly, Lavinia's triggered ability only triggers for spells that are cast while Lavinia is on the battlefield. It doesn't trigger for spells that have already been cast.
+
+Two exceptions:
+
+In the extremely rare situation in which a spell becomes uncastable in the middle of the process of casting it, the game reverses to when the spell started being cast. (This isn't the case here because the player has finished casting Omniscience.)
+When an error is made, the judge may undo certain actions in certain circumstances.
+

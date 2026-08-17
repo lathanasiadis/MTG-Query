@@ -1,0 +1,13 @@
+Q:
+
+Vorinclex, does my opponents land untap if they were tapped before i summoned him?
+
+If I summon Vorinclex, Voice of Hunger and my opponent already had lands tapped before hand, do they untap on his turn or do they stay tapped?
+
+A:
+
+Whenever an opponent taps a land for mana, that land doesn't untap
+  during its controller's next untap step.
+
+This is a triggered ability. If your opponent already had tapped lands before you played Vorinclex, his ability will not trigger. Conversely if your opponent taps lands while Vorinclex is in play, and Vorinclex then leaves play, Vorinclex's ability will have already triggered and your opponent's lands will not untap during your opponent's next untap phase.
+

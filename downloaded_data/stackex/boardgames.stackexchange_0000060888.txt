@@ -1,0 +1,28 @@
+Q:
+
+Myrkul, Lord of Bones interaction with exile
+
+Myrkul, Lord of Bones says "whenever another non-token creature you control dies, you may exile it. If you do, create a token that's a copy of that card, except it's an enchantment and loses all other card types.
+With Athreos, Shroud-Veiled, I can put coin counters on creatures and "whenever a creature with a coin counter on it dies or is put into exile, return that card to the battlefield under your control."
+Similarly with Kaya the Inexorable, ghostform counters give non-token creatures "When this creature dies or is put into exile, return it to it's owner's hand and create a 1/1 white Spirit creature token with flying."
+If I control all three of these cards and one of my other, non-token, legendary creatures with a coin counter and ghostform counter dies, what happens?...
+I'm assuming I have to choose between the two counter's triggers and can't get a spirit and the creature on the battlefield, but can I choose one of those triggers and get the enchantment?
+If my opponent had something like Grave Betrayal which says "Whenever a creature you don't control dies, return it to the battlefield under your control with an additional +1/+1 counter on it at the beginning of the next end step." would I be able to exile it, get the enchantment, then they get the creature?
+Sorry there's a lot of confusing questions, thanks for the help in advance.
+
+A:
+
+You only get one of the effects, except that you always get the Spirit from Kaya's ability.
+The most important rules for this are 109.2, 400.7, and 400.7e:
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t refer to a specific zone or include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. This rule has the following exceptions.
+...
+
+400.7e Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+When the creature dies, each of these abilities can find it in the graveyard. Each of them then tries to move it out of the graveyard. Myrkul tries to move it to exile, Athreos tries to move it to the battlefield, and Kaya tries to move it to your hand. Whichever one of those happens first succeeds, but then it's no longer in the graveyard, so the other effects can't find it, so they can't move it. Kaya's ability is different just because it tries to do two separate things: move the card, and create the token. Even if it can't move the card, it still makes the token.
+It's also important to note that because of rule 109.2, each of these abilities only care about creature permanents on the battlefield moving into the graveyard (or exile). So, Athreos's and Kaya's abilities don't trigger again when Myrkul's ability moves the card from the graveyard to exile. So even though they mention exile, they don't actually see the card in exile if it moves there that way.
+Fortunately for you, since you control the triggered abilities, you get to choose the order they go on the stack. So, you get to choose which one happens.
+Grave Betrayal works the same, except that the abilities are controlled by different players. In that case, the abilities go on the stack in APNAP (Active Player, Non-Active Player) order: in turn order starting with the current player. That means that Grave Betrayal's ability will go either on top or on the bottom of the stack, depending on whose turn it is. If it's on top, the opponent gets the creature, otherwise one of the other abilities works instead.
+

@@ -1,0 +1,13 @@
+Q:
+
+Abilities interrupting effects on a cast card
+
+When casting a card with multiple effects (e.g. Fated Infatuation) targeting another card with a triggered ability (e.g. Golos, Tireless Pilgrim) at which point does Golos ETB? Ideally I cast Fated Infatuation, create a Golos token, it ETB so search for land, shuffle library, then scry 2. However I think I would have to resolve all of Fated Infatuation before Golos ETB. Meaning I would lose the benefit of scrying by having to shuffle my library after searching for land. 
+
+A:
+
+Abilities that trigger during the resolution of a spell or effect wait until that spell or effect has finished resolving before they go on the stack.
+As you suspect, you have to wait until the spell or ability has finished resolving before the triggered abilities go on the stack. Then you have to wait until Golos' ability actually resolves to get its benefits.
+
+116.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, “Handling Triggered Abilities.”) However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack. See rule 116.5.
+

@@ -1,0 +1,32 @@
+Q:
+
+Can I copy a counter spell to then counter said counter?
+
+Is it possible to create a copy of a counter spell to then use to counter the copied counter spell?
+I'm not sure if the copied spell will have resolved before the copy can target it.
+For example:
+
+Player A: Casts "insert random none-special creature that can be
+countered"
+Player B: Casts Cancel
+Player A: Casts Reverberate and targets the original Cancel
+with the copied cancel
+
+A:
+
+Yes, that's a perfectly valid play.
+For this specific case of Reverberate, these are the rulings you should take into account:
+
+8/15/2010: Reverberate can target (and copy) any instant or sorcery spell, not just one with targets. It doesn't matter who controls it.
+8/15/2010: When Reverberate resolves, it creates a copy of a spell. You control the copy. That copy is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+8/15/2010: The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+8/15/2010: If the spell Reverberate copies is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. You can't choose a different one.
+8/15/2010: If the spell Reverberate copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+8/15/2010: You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it with Reverberate, the copy of Fling will also deal 3 damage to its target.
+8/15/2010: If the copy says that it affects “you,” it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an “opponent,” it affects an opponent of the copy's controller, not an opponent of the original spell's controller.
+
+Notice that, if you're copying a spell such as Disrupting Shoal, you'll probably not be able to counter it, since Disrupting Shoal requires the spell's CMC to be equal to X, and its CMC on the stack will always be X+2. The same is true for spells such as Remove Soul or Overwhelming Intellect, which have a specific requirement that says they can only counter creature spells.
+Also, quoting Arcanist Lupus' comment:
+
+Worth noting perhaps that if you use Reverberate and don't choose a new target for the copy, then your copy of the counterspell will counter the original spell, and the opponent's counterspell will be countered as a state-based effect. This has very little utility, but could come up in a multi-player game if, for example, one opponent was playing a Guile-based control deck, and they counter a spell that you also want countered.
+

@@ -1,0 +1,44 @@
+Q:
+
+Kathril, Aspect Warper and his ability's "targets"
+
+I have a question regarding Kathril, Aspect Warper's ability. The ability is as follows:
+
+When Kathril, Aspect Warper enters the battlefield, put a flying counter on any creature you control if a creature card in your graveyard has flying. Repeat this process for first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. Then put a +1/+1 counter on Kathril for each counter put on a creature this way.
+
+Now, as I understand it, this ability is a triggered ability that is put on the stack when Kathril enters the battlefield (so the spell "Kathril, Aspect Warper" has resolved). This means any player can immediately react to this trigger, before it has resolved. This has led to some confusing situations regarding the creatures that receive a counter.
+The part that confuses me is this:
+
+put a flying counter on any creature you control
+
+According to rule 115. Targets:
+
+115.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the
+“something” is a phrase that describes an object and/or player. The
+target(s) are chosen as the ability is put on the stack; see rule
+603.3d.
+
+This is not a target-ability since it does not state "target [something]".
+
+So what is this ability then?
+Do I need to specify targets as soon as the ability is put on the stack?
+Can the chosen creatures be changed by something like Willbender?
+Is there even a moment opponents gain priority between Kathril entering the battlefield, en putting counters on creatures?
+
+Question 2, 3 and 4 matter quite a lot when you want to make Kathril hex-proof and indestructible, but an opponents wants to remove Kathril before the trigger resolves.
+Any info or relevant rules would be greatly appreciated.
+
+A:
+
+Your general understanding is correct; this ability does not target, because it doesn't use the word "target". It IS still a normal triggered ability though.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Your confusion seems to be that you were under the impression that all abilities (or at least all triggered abilities) target. This isn't the case. What we have here is simply a triggered ability that has no targets.
+Because the affected creatures are not targeted, you do not have to choose them when you put the ability on the stack. Instead, you choose them as part of resolving the ability.
+
+608.2d If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect.
+
+So when Kathril, Aspect Warper enters the battlefield, its ability triggers. The next time a player would receive priority, that ability goes on the stack. Because there are no targets (and it is not a modal ability), no choices are made as part of putting it on the stack. Players will receive priority like normal and could respond to that ability. Something like Willbender cannot be used here, because the ability doesn't have a target, making the ability an invalid target for something like Willbender.
+When both players pass priority, the ability will resolve, at which point you follow the instructions, making choices as needed.
+

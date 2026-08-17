@@ -1,0 +1,44 @@
+Q:
+
+Magic: The Gathering - Difference between card prints of the same set and same collector number, but different letter suffix
+
+I have noticed that there are cards in Magic: The Gathering that belong to the same set, but appear under slightly different set number.
+For example, in scryfall, for those 2 cards:
+
+https://scryfall.com/card/sta/73/ja/%E5%89%A3%E3%82%92%E9%8D%AC%E3%81%AB
+https://scryfall.com/card/sta/73e/ja/%E5%89%A3%E3%82%92%E9%8D%AC%E3%81%AB
+
+They seem identical, the only difference I can see is that one of the images is a bit blur. But those 2 cards have different (?) set numbers: 73 and 73e (this is the 'blur' one).
+From the same set, another one is:
+
+https://scryfall.com/card/sta/62/lightning-helix
+https://scryfall.com/card/sta/62e/lightning-helix
+
+with set numbers 62 vs 62e. Here, it's slightly more obvious that there is some difference in those cards, if you pay attention to the grey-coloured part on the card 62e, but there is no other difference.
+I have also noticed the same thing in other sets as well, there are cards with same collector number (in the number part) but different suffix, ie. 70 vs 70e, 80 vs 80p etc, but they seem identical cards.
+
+Are those different card prints (from collector perspective)?
+How can they be distinguished?
+Are all of those card print versions included in booster packs?
+Is there any difference in the collector value of the card, for such cards?
+
+A:
+
+Scryfall (and other similar sites) are using the "e" suffix to denote the "foil-etched" cards first introduced in Commander Legends (see the section "Foil-etched legendary creatures", although this treatment was obviously extended to non-creatures in the Strixhaven Mystical Archive) - these are to some extent "partially foiled" cards where the frame or other areas are highlighted, but not the full art.
+Are those different card prints (from collector perspective)?
+Yes - but then collectors are remarkably precise in their categorisations, so this shouldn't be a surprise.
+How can they be distinguished?
+Quoting from How to Tell the Difference Between Mystical Archive Cards on TCG Player:
+
+[Etched foils] look very similar to the non foils, BUT when you tilt them, there will be a shiny texture in the framing of the card. The English version has the etching in the gold parts of the frame. The Japanese version's texture is around the textbox (in the colors that correspond to the card's colors!).
+
+The video in the Commander Legends article linked above illustrates this nicely.
+Are all of those card print versions included in booster packs?
+This time quoting from Collecting Strixhaven: School of Mages:
+
+The only place to get foil-etched Mystical Archive cards is in the Collector Booster.
+
+i.e. you will not get any foil-etched cards if you buy set or draft boosters.
+Is there any difference in the collector value of the card, for such cards?
+There is always a difference in value between different treatments. As of July 2021, it seems that for the regular art of Revitalize, the foil-etched treatment is more valuable than the non-foil, but for the Japanese alt-art, the foil-etched treatment is less valuable than the non-foil (but they're all under $1, so you're not going to get rich on any of them). Make of that what you will.
+

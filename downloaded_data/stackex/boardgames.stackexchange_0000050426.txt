@@ -1,0 +1,21 @@
+Q:
+
+Mentor trigger ordering
+
+Let's say my board is Blade Instructor, Boros Challenger, and Goblin Cratermaker. Can I:
+
+Attack with all three;
+Two mentor triggers go on stack;
+Stack triggers such that Blade Instructor's trigger goes first, have that target Boros Challenger;
+Boros Challenger's mentor trigger targets Goblin Cratarmaker;
+Both triggers see a valid target, therefore I end up with 3/1, 3/4 and 3/3?
+
+I'm not sure if #2 actually works - it is possible that Boros Challenger's mentor ability won't trigger because it, at the time it goes on the stack, had no legal target (or does it trigger anyway, just not resolve?).
+
+A:
+
+You can only get one Mentor trigger, the one from Blade Instructor.
+If a triggered ability that targets something does not have a legal target when it triggers, it will be removed from the stack as part of the triggering process, and you won't get a chance to resolve anything beforehand. This applies to Boros Challenger's ability as there is no legal target when it triggers.
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+

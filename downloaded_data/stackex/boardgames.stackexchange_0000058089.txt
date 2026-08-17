@@ -1,0 +1,15 @@
+Q:
+
+If a creature would die from an equipment unattaching, does that creature die with the effects of the equipment?
+
+Grafted Wargear states: Equipped creature gets +3/+2 and whenever Grafted Wargear becomes unattached from a creature, sacrifice that creature.
+If I have Grafted Wargear attached to a 1/1 creature and attach it to another creature in order to get an easy die trigger, will that first creature die as a 4/3 or will it die with its base power and toughness?
+Very important distinction for my Shirei, Shizo's Caretaker deck.
+
+A:
+
+It would die without the equipment buff. In your case it would die as a 1/1 and trigger Shirei, Shizo's Caretaker.
+As soon as you unattach the Wargear, the creature it had equipped loses the power/toughness bonus. The ability that forces you to sacrifice the creature is a triggered ability, where unattaching the equipment is the trigger for that ability in the first place. A triggered ability goes on the stack and can be responded to much like a spell, so by the time it does resolve and you have to actually perform the sacrifice, the P/T bonus is long gone.
+
+113.3c Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and include (and usually begin with) the word “when,” “whenever,” or “at.” Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it’s countered, it resolves, or it otherwise leaves the stack. See rule 603, “Handling Triggered Abilities.”
+

@@ -1,0 +1,22 @@
+Q:
+
+Are activated abilities only abilities with mana costs?
+
+Example, if I had Archon of Redemption out and my opponent played Arrest on it (Arrest says that the creature's activated abilities cant be activated). When something with flying enters the battlefield can I still gain life equal to its toughness?
+
+A:
+
+Archon of Redemption's ability is a triggered ability and will not be effected by Arrest. Arrest affects activated abilities, described by rule 602.1.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation
+instructions (if any).]”
+
+Examples: Ancient Silverback, Elvish Mystic, Heritage Druid, Fume Spitter
+Triggered abilities, like the Archon's, are described by rule 603.1.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and begin with the word “when,” “whenever,” or “at.” They can also be as “[When/Whenever/At] [trigger event], [effect].”
+
+In either case, whether or not mana is involved has no bearing on the classification of the ability (except in the specific case where mana is produced, but we'll ignore that for this conversation).
+Activated abilities can have a mana cost (R: Shivan Dragon gets +1/+0 until end of turn) or not (T: Prodigal Sorcerer deals 1 damage to target creature or player).
+Also, triggered abilities can have optional costs (Apothecary Initiate's Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 life). The Archon's triggered ability is an example of one that does not.
+

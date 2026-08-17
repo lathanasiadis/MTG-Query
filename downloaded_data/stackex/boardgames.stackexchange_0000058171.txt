@@ -1,0 +1,19 @@
+Q:
+
+How to learn a deck's strategy and tricks?
+
+The very short version: How do I learn how different decks are supposed to be put to best use?
+The longer version...
+I am new to Magic. I know the rules and play via MTG Arena. (I don't know anyone who I can play with in person, and I'm not interested in travelling for that - that's fine.) Now I'd like to learn different techniques by playing different decks - but it's not obvious how.
+For example, Arena presents me with various starter decks, but it's not at all obvious how I should best put each one to use. To make things more difficult (as a more specific example) Arena has given me a mono-blue Aerial Domination in "My Decks" and an Aerial Domination in "Starter Decks" - but each one has different cards, including quite different mana curves. And then when I watch Hello Good Game's video of Aerial Domination he's playing with yet another combination of cards. Presumably they all have a slightly different strategy and different tricks. I'd like to learn those.
+I've learned a lot from Tolarian Tutor, including general approaches such as aggro and control. That's great, but it's quite general.
+Presumably when someone assembles a specific deck with specific cards (and certainly when Wizards assembles a deck and puts it in Arena) they have a strategy - an idea about how to best use it - and they include and reject certain cards accordingly. I can see plenty of decks online, but they never have a specific explanation of how it should be best used. Ideally I'd see reference to specific cards, timing, attack strategies, etc. If they did then I'd learn a lot more.
+Any help with learning techniques from particular decks would be very welcome.
+
+A:
+
+In general, the way to learn how to win with a specific deck is to learn general, deck-agnostic Magic strategy, and then figure out how the specific deck fits into that framework.
+The most important question you can ask about a deck is "What is the deck's plan to win the game?" The answer can be fairly simple: for aggro, it is generally "attack with creatures early to reduce the opponent's life total to 0", for control it is generally "disrupt the opponent's game plan until you can land a big threat unopposed", and for combo it is generally "assemble the combo and execute it".
+When evaluating a specific deck, you can look at what cards it has to determine what plans it has the ability to execute, and then use that to determine what high-level strategies to employ. Then you can refine that understanding by actually playing with that deck and seeing how the strategies work in practice.
+Consider for example the Aerial Domination Starter Deck Upgrade decklist linked from the video linked in the question. One of the primary focuses of the deck is card advantage: 18 of the deck's 36 nonland cards have card draw effects, and 2 of the 24 lands have seek effects. Shore Up, Slip out the Back, and Fading Hope can be used to blank removal, and Fading Hope can also be used to bounce opposing creatures for tempo. All three of those also synergize with Stormchaser Drake's card draw effect, along with Combat Research and Essence Capture. Faerie Vandal synergizes very well with all of the card draw effects, and with the density of card draw in the deck it can easily get that value even if played later in the game. The creatures in the deck are quite low to the ground, with 4 1-drops and 8 2-drops, and no creature with more than 3 power. Overall, the deck seems fairly aggressive, with most of the strategy focusing on attacking with small creatures and using card advantage to find them consistently.
+

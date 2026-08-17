@@ -1,0 +1,18 @@
+Q:
+
+MTG -- Search for a sorcery -- Green -- EDH
+
+I am building an EDH/Commander deck and my commander is mono green...
+I want a card or a combo that allows me to search my library for a sorcery card (or something similar).
+Do you guys know something about this? I searched on scryfall and didn't found anything relevant
+
+A:
+
+Interacting with sorceries is very much outside of the Green part of the color pie, so this kind of effect is going to be rare at best.
+As a basic first search, the following Scryfall search finds every card compatible with a Green commander that has you search your library: o:"search your library" ci:g. The o: search term specifies text in the card's text box to look for, and the ci specifies the color identity to look for. This returns 241 cards, which can be reasonably looked through. If a card matching your criteria doesn't show up in those search results, it doesn't exist.
+There are a couple of common ways that cards could allow allow you to search for sorceries that suggest ways to refine that search. Some cards could allow you to search specifically for sorcery cards. A simple way to search for that would be to just add a search for the word "sorcery": o:"search your library" ci:g o:sorcery. This search returns two cards, both of which are false positives.
+Other cards might allow you to search for any card. The phrasing for this is "Search your library for a card", so the following search would find cards like that: o:"search your library for a card" ci:g. This finds 14 cards; most find cards with a specific name, or names that match another name, but three cards match requested criteria: Planar Portal, Ring of Three Wishes, and Tamiyo's Journal.
+Finally, some cards allow you to search for nonland cards, but the search for that (o:"search your library" ci:g o:nonland) finds no results.
+
+Some specific Sorcery cards can be found by other search effects. The few green and colorless tribal sorceries can be found by any effect that instructs you to search for cards with that specific creature subtype (such as Wirewood Herald). And the creature cards with with Adventure instants and sorceries can be found by any effect that instructs you to search for a creature, which are plentiful in green.
+

@@ -1,0 +1,28 @@
+Q:
+
+Are permanent +1/+1 counters considered enchantments?
+
+If a creature has one or more permanent +1/+1 counters are those counters considered "enchantments"?
+
+A:
+
+No. They are not objects on the battlefield, and they don't have the enchantment card type.
+
+An enchantment is a permanent with the card type "enchantment".
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+A counter fails to match the definition of an enchantment for two reasons.
+
+Counters aren't permanents. They aren't even objects.
+
+110.1. A permanent is a card or token on the battlefield. [...]
+121.1. A counter is a marker placed on an object or player that modifies its characteristics and/or interacts with a rule, ability, or effect. Counters are not objects and have no characteristics. Notably, a counter is not a token, and a token is not a counter. Counters with the same name or description are interchangeable.
+
+Counters don't have the enchantment card type. They don't even have a card type. They aren't even objects.
+
+300.1. The card types are artifact, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, expansion symbol, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. Objects can have some or all of these characteristics. Any other information about an object isn’t a characteristic. For example, characteristics don’t include whether a permanent is tapped, a spell’s target, an object’s owner or controller, what an Aura enchants, and so on.
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+121.1. A counter is a marker placed on an object or player that modifies its characteristics and/or interacts with a rule, ability, or effect. Counters are not objects and have no characteristics. Notably, a counter is not a token, and a token is not a counter. Counters with the same name or description are interchangeable.
+

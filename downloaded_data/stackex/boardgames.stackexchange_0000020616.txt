@@ -1,0 +1,15 @@
+Q:
+
+If both players are killed at the same time, do they both die?
+
+I play Magic: The Gathering and I just had a really strange game with my opponent. We were both about to die (both sides with 2 life) when we both set down instants that damaged each other (at the same time). I played the red instant Shock, and she played the red instant Staggershock. It was my turn. It was kind of an awkward coincidence, so we called a draw. Is that logic correct?
+
+A:
+
+No, it's not correct, and no, it wasn't a draw.
+As you know, if they were killed at the same time, it would be a draw. But they weren't killed at the same time. MTG is a turn-based game. It's impossible to cast two instants at the same time (at least under normal circumstances), and it's completely impossible for two instants to resolve at the same time.
+Whoever had priority[1] got to cast their instant. Their opponent then got a chance to cast an instant in response. The instant cast in response, being cast last, will resolve first.
+The game would have ended before the first instant had a chance to resolve.
+
+It's not possible to determine who had priority from the info you provided. Being your turn, chances are it was you unless you just finished casting a spell.
+

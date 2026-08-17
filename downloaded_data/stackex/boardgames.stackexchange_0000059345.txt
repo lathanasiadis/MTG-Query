@@ -1,0 +1,28 @@
+Q:
+
+Since the active player controls planes in the Planechase variant, does protection from a player protect a creature from planes too?
+
+Alice and Bob play a game of Planechase. Bob controls a True-Name Nemesis and has chosen Alice as it entered the battlefield; the current plane is Mount Keralia with one pressure counter on it.
+It is Alice's turn and she rolls the planer die, rolling the Planswalker symbol. When she planswalks Mount Keralia's first triggered ability triggers.
+If I understand rule 901.6 correctly Alice controls Mount Keralia and True-Name Nemesis' protection ability will prevent the damage it would deal to it.
+Is that correct?
+
+A:
+
+This is correct. Because it is Alice's turn, she controls Mount Keralia:
+
+901.6 The owner of a plane or phenomenon card is the player who started the game with it in their planar deck. The controller of a face-up plane or phenomenon card is the player designated as the planar controller. Normally, the planar controller is whoever the active player is.
+
+And protection from [player] will prevent damage from objects that the player controls:
+
+702.16k “Protection from [a player]” is a variant of the protection ability. A permanent or player with protection from a specific player has protection from each object that player controls and protection from each object that player owns not controlled by another player, regardless of that object’s characteristic values. Such a permanent or player can’t be targeted by spells or abilities the specified player controls and can’t be enchanted by Auras that player controls. Such a permanent can’t be equipped by Equipment that player controls, fortified by Fortifications that player controls, or blocked by creatures that player controls. All damage that would be dealt to such a permanent or player by sources controlled by the specified player or owned by that player but not controlled by another player is prevented.
+
+Finally, a Plane does count as an "object":
+
+Planes
+
+311.1. Plane is a card type seen only on nontraditional Magic cards. Only the Planechase casual variant uses plane cards. See rule 901, “Planechase.”
+
+Objects
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+

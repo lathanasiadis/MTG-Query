@@ -1,0 +1,18 @@
+Q:
+
+Myrkul, Lord of Bones and Afterlife - will I get an Enchantment AND a Spirit Token?
+
+If a creature I control with Afterlife dies while Myrkul, Lord of Bones, is on my battlefield, will both the Afterlife as well as his second ability trigger, e.g. will I get a Spirit as well as an Enchantment Token?
+
+A:
+
+Yes, you will get the spirit token from afterlife as well as the token copy of the creature.
+Both abilities (afterlife and Myrkul's) are triggered abilities that trigger off the same event, namely the creature has died.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+702.135a Afterlife is a triggered ability. “Afterlife N” means “When this permanent is put into a graveyard from the battlefield, create N 1/1 white and black Spirit creature tokens with flying.”
+
+Myrkul has to exile the creature card it is about to copy, otherwise you get no copy. If, hypothetically speaking, you managed to get 2 Myrkuls under your control at the same time and another creature died, both Myrkuls would trigger, but only one could actually create a copy. The other would would fail to create a copy because the card it has to exile would already be exiled at that point.
+Afterlife, however, does not care about what happens to the card afterwards, only the death event is required. You will get the spirit token(s) from afterlife and can also choose to get an enchantment copy of the creature.
+

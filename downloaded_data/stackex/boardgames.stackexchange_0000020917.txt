@@ -1,0 +1,31 @@
+Q:
+
+What happens in this infinite damage/infect loop?
+
+So I have an Exquisite Blood and a Sanguine Bond in play under my control, then I attack my opponent directly for 1 damage, but the opponent has a Phyrexian Unlife and a Melira, Sylvok Outcast in play. What happens after they take the damage? Do I win?
+
+A:
+
+Depends on how much life your opponent currently has.
+If your opponent has non-positive life
+
+Your opponent would lose a life from the damage except for Phyrexian Unlife.
+Instead, your opponent would gain a poison counter from the damage expect for Melira, Sylvok Outcast.
+Instead, nothing happens to your opponent.
+Exquisite Blood doesn't trigger since no life was lost.
+Sanguine Bond doesn't trigger since you didn't gain any life.
+The game goes on.
+
+If your opponent has positive life
+
+Your opponent loses a life from the damage.
+Exquisite Blood triggers and gives you life.
+Sanguine Bond triggers and cause your opponent to lose a life. Phyrexian Unlife doesn't prevent or replace loss of life, so it doesn't effect this.
+Exquisite Blood triggers and— Oh my, we've entered a loop of mandatory actions. If noone has a way of ending it, the game ends in a draw.
+
+104.4b If a game that’s not using the limited range of influence option (including a two-player game) somehow enters a “loop” of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don’t result in a draw.
+
+Note that neither of the players are forced to end the loop even if they could. For example, if your opponent could sacrifice Phyrexian Unlife (ending the loop by losing), he doesn't have to do it.
+
+716.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+

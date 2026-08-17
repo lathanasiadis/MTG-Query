@@ -1,0 +1,21 @@
+Q:
+
+How do Panglacial Wurm and Imoti interact?
+
+Let's say I control Imoti, Celebrant of Bounty. I then cast Panglacial Wurm while searching my library. Panglacial Wurm will have cascade.
+Since the library is kept in the same order while searching, I will know exactly what Panglacial Wurm will cascade into, and I will have access to this information before making the decision to cast Panglacial Wurm, is this correct?
+
+A:
+
+No, you won't know what it cascades into.
+Cascade is a triggered ability. This means that the ability triggers when you cast the Wurm, and then goes onto the stack once players receive priority. This only happens once you're done resolving whatever spell or ability let you search in the first place. At the end of the search, you are almost certainly instructed to shuffle your library (I don't know any searching effects that doesn't make you shuffle your library afterwards, but I don't know that none exist).
+So here is the order of events:
+
+You search your library, cast the Wurm, the cascade triggers
+You finish your search, and shuffle your library as instructed
+The cascade is put on the stack
+Players have opportunities to cast instants and activate abilities
+The cascade resolves and you exile cards from the top of your library
+
+So the search that let you play the Wurm does not let you know what it cascades into. You would have to do something like a scry in step 4 above in order to know that. But by then you have already decided to cast the Wurm.
+

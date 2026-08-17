@@ -1,0 +1,26 @@
+Q:
+
+How does Homeward Path work with cards that enchant to steal?
+
+How does the card Homeward Path work with cards like In Bolas's Clutches? Homeward Path would imply that you still get it back, but those types of effects continue as long as the creature is enchanted, at least from a surface level inpsection of the enchantment. 
+
+A:
+
+Even though Homeward Path looks to have an instantaneous effect, it's actually continuous:
+
+611.1. A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+
+Since both continuous effects apply in layer 2:
+
+613.1b Layer 2: Control-changing effects are applied.
+
+you have to apply them in timestamp order:
+
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
+
+If Homeward Path is activated after In Bolas's Clutches is cast, the owner will get the creature back:
+
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+(quotes are from the Comprehensive Rules)
+

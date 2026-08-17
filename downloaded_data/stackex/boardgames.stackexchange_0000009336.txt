@@ -1,0 +1,22 @@
+Q:
+
+Where do Auras go when a card is put on top of its owner's library?
+
+Say a player casts a card that returns a permanent to the top of owner's library, for example Banishment Decree, and the targeted creature card he chooses has two Auras enchanting it.  Where do the Aura enchantments go, to the players hand, graveyard or library?
+
+A:
+
+It goes to the graveyard.
+You seem to be under the misconception that Auras follow the permanent to which they are attached to the graveyard. That's not the case. It's just a coincidence that both end up in the same place.
+When an object changes zone (e.g. goes from the battlefield to the graveyard), it becomes a brand new object. The original object ceases to exist, and a new one is created in the new zone.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: [...]
+
+No matter whether the enchanted permanent goes to the graveyard or to the player's library, the object the Aura was enchanting has ceased to exist. The game doesn't tolerate that since Auras are suppose to enchant something, so it sends the Aura to the graveyard.
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+If it was an Equipment or Fortification instead, it would remain on the battlefield unattached.
+
+704.5p If an Equipment or Fortification is attached to an illegal permanent, it becomes unattached from that permanent. It remains on the battlefield.
+

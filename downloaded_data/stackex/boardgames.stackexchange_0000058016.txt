@@ -1,0 +1,15 @@
+Q:
+
+Is it too late to save my creatures?
+
+Using Magar of the Magic Strings my Wail of the Nim has become a creature. I attack with my Wail of the Nim and a few other creatures with no abilities. My opponent's creatures block my other creatures, and my other creatures would die, but my Wail of the Nim would deal combat damage to my opponent. Does casting Wail of the Nim to regenerate all of my creatures save my creatures that would've died this combat? Or is that regeneration effect essentially too late, damage having already been dealt? Or something else entirely?
+
+A:
+
+It is too late. All combat damage is dealt simultaneously, and regenerate must be active before damage is dealt.
+
+701.15a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.”
+
+After damage is dealt, your creature will die the next time state-based actions are checked. This happens before you get to cast your instant, and definitely before the instant would resolve.
+If your creature had first strike then this would work.
+

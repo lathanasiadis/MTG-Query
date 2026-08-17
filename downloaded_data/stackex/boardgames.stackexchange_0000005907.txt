@@ -1,0 +1,17 @@
+Q:
+
+Can a creature's sacrifice benefit be taken when it is sacrificed to Eldrazi Monument?
+
+I asked a general question about double sacrifice bonus, but thought it better to ask a specific question. If a creature has a "Sacrifice this creature for X" ability, can you sacrifice it for that ability and satisfy the requirement of the Eldrazi Monument with the same sacrifice (assuming it is done during the upkeep)?
+Oracle Text:
+
+Creatures you control get +1/+1, have flying, and are indestructible.
+At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice Eldrazi Monument.
+
+A:
+
+No.
+Magic: The Gathering Comprehensive Rules:
+
+117.10. Each payment of a cost applies to only one spell, ability, or effect. For example, a player can't sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn't pay another spell or ability's cost, even if part of its effect is doing the same thing the other cost asks for.
+

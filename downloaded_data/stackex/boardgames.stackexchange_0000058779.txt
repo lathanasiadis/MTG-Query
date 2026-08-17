@@ -1,0 +1,19 @@
+Q:
+
+Do multiple Seedborn Muses untap permanents multiple times in one untap step?
+
+If I control multiple Seedborn Muse, do I untap each permanent I control once or that many times? This makes a difference if a permanent I control has a stun counter on it, because then multiple untaps can have different effects.
+
+A:
+
+Because the of wording "during" being something that doesn't refer to an specific/exact time, I don't think we can read Seedborn Muse as something that happens at a specific time (otherwise it would have to be "at the beginning of each other player's untap step, and rule 502.4 would have to be amended to allow triggered abilities to trigger and resolve during the untap step).
+Thus the only logical meaning behind Seedborn Muse that I can see is that it overrides 502.3 so that instead of
+
+the active player determines which permanents they control will untap. Then they untap them all simultaneously.
+
+it becomes
+
+you and the active player determine which permanents they control will untap. Then they untap them all simultaneously.
+
+The important part is that all permanents that untap during the untap step untap "simultaneously". So there wouldn't be any way to both remove a stun counter and also untap it.
+

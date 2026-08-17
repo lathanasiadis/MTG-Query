@@ -1,0 +1,13 @@
+Q:
+
+Is there a way to Bring to Life my Lucky Clover and still cast Animating Faerie?
+
+Say I have Lucky Clover on the battlefield, which I want to Bring to Life (this is the adventure side of Animating Faerie). So I cast Bring to Life. Lucky Clover triggers, and there's a 2nd Bring to Life on the stack. Lucky Clover is the only artifact I have, so I only have one legal target, so the 2nd Bring to Life must target Lucky Clover as well.
+Now the stack resolves. The copied Bring to Life resolves first, which turns Lucky Clover into a 4/4 creature. The original Bring to Life now perceives that the Lucky Clover is no longer a legal target (since it can only target noncreature artifacts), so it's sent to the graveyard without any effect.
+This interaction seems pretty silly to me - my own permanents are hurting my own cards - so I'm wondering if there's anything I could've done to prevent this from happening. Do I have a way to get Animating Faerie to the adventure zone while simultaneously animating Lucky Clover?
+
+A:
+
+Nope, your analysis of what should happen is spot on.  Short of having another card or ability to use, there's nothing you could have done.  You'd need to have a way to stop the triggered ability (Stifle), counter the copy or have another legal target.
+Silly as it might seem, sometimes normally beneficial effects have detrimental edge cases.  That's just part of Magic.
+

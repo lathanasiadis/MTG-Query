@@ -1,0 +1,21 @@
+Q:
+
+Auras, Equipment and Eater of Virtue
+
+Do attachments on a creature being exiled with Eater of Virtue get exiled as well and does that creature keep the abilities from the any attachments that were on the creature when it was exiled?
+
+A:
+
+No. Eater of Virtue has a triggered ability that exiles the creature, and only the creature that was equipped to it after that creature was put in the graveyard. Before that trigger resolves, auras that were on that creature would be put into their proper graveyards per 704.5m, equipment doesn't have a rule to remove it, so it stays on the battlefield, unless some other effect says to do something else with these cards when the creature leaves play.
+
+704.5. The state-based actions are as follows:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+If Eater exiled the cards attached to the creature, then it would exile itself, since it's an equipment attached to the creature.
+The two abilities on Eater are linked abilities of the type described in 607.2b. As long as those creatures are in exile and were exiled by Eater's replacement effect it can see those cards and see what abilities they have as printed, and only what is printed on them. It's important to note if Eater leaves the battlefield, this link is broken and those abilities are no longer given until new creatures are exiled.
+
+607.2. There are different kinds of linked abilities.
+
+607.2b If an object has an ability printed on it that generates a replacement effect which causes one or more cards to be exiled and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a direct result of a replacement event caused by the first ability. See rule 614, “Replacement Effects.”
+

@@ -1,0 +1,23 @@
+Q:
+
+Do Untap triggers still trigger when the creature is untapped?
+
+I control an untapped Goblin Sharpshooter, My opponent controls a 3/3 Beast Token, I Cast Lightning Bolt on the Beast, to kill it. Do I have to tap my Sharpshooter before the beast dies to get the trigger allowing me to untap it? Or will it trigger regardless, allowing me to ping with the trigger on the stack?
+This is relevant as being able to wait gives me the opportunity to know that my sharpshooter will definitely untap before I tap it.
+
+A:
+
+You do not need to tap it before the creature dies, you will have an opportunity before the untap trigger resolves.
+Goblin Sharpshooter does not contain an intervening "if" clause, but rather a normal triggered ability [CR 603.1]. This means that whenever the event occurs, "a creature dies," an untap trigger is placed on the stack [CR 603.1] . As with all objects, you and your opponent have the opportunity to cast spells and activate abilities in response to to the objects on the stack before they resolve [CR 116.4].
+Intervening "if" clauses require that the event that they are checking is true when being placed on the stack and when resolving [CR 603.4]. For Goblin Sharpshooter to not trigger because it is untapped would require a triggered ability like:
+
+Whenever a creature dies, if ~this~ is tapped, untap it.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+
+603.2. Whenever a game event or game state matches a triggered ability's trigger event, that ability automatically triggers. The ability doesn't do anything at this point.
+
+603.4. A triggered ability may read "When/Whenever/At [trigger event], if [condition], [effect]." When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. [...]
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+

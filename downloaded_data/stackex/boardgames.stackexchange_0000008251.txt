@@ -1,0 +1,17 @@
+Q:
+
+Can you Clone a creature with protection or shroud?
+
+So, Clone doesn't say the word "target" anywhere in its text:
+
+You may have Clone enter the battlefield as a copy of any creature on the battlefield.
+
+Does this mean that it isn't targeting the creature it's cloning, and could therefore be used to copy a creature with shroud (or hexproof) or a creature with protection (like Emrakul, the Aeons Torn)?
+
+A:
+
+A spell or ability that targets must use the word "target" in the rules text, or the rules of the Keyword ability on a card. Everything you need to know is covered under rule 114, where 114.1a-e covers targeted spells and abilities and when those targets must be selected. Most spells and abilities that target will say "target" directly on the card, unless their Keyword ability rules covers this already (i.e. Auras, Equipment, Haunt, etc.). 
+Reminder text, which shows up in many base sets or on cards with new Keyword abilities, might appear on a card in italics with the word "target" to inform you an ability is targeted.
+
+114.9a Just because an object or player is being affected by a spell or ability doesn’t make that object or player a target of that spell or ability. Unless that object or player is identified by the word “target” in the text of that spell or ability, or the rule for that keyword ability, it’s not a target.
+

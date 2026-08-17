@@ -1,0 +1,28 @@
+Q:
+
+Kaya The Inexorable with Luxior, Giada's gift
+
+Kaya the Inexorable has the following loyalty ability:
+
++1: Put a ghostform counter on up to one target nontoken creature. It gains "When this creature dies or is put into exile, return it to
+its owner's hand and create a 1/1 white Spirit creature token with
+flying."
+
+As I have bolded, the ability specifically states creature. If an opponent uses Luxior, Giada's Gift:
+
+Equipped creature gets +1/+1 for each counter on it. Equipped
+permanent isn't a planeswalker and is a creature in addition to its
+other types. (Loyalty abilities can still be activated.) Equip
+planeswalker 1 Equip 3
+
+to equip to Kaya, she becomes a creature. Kaya then can put a ghostform counter on herself. My question is, if luxior becomes unattached for any reason and Kaya stops being a creature, should the ghostform counter still bring her back to hand and create the token if she is destroyed or exiled? My reading of the cards would suggest that since she is not a creature any longer, the ability should not resolve. Am I incorrect in assuming this? I am looking for an answer that quotes a ruling that either involves these exact cards or a ruling that affects what happens to granted abilities that specifically state they affect one card type, and then that card changes type.
+
+A:
+
+The use of "this creature" in the granted ability does not restrict that ability from applying to non-creature permanents, per comp rule 700.7:
+
+700.7. If an ability uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn’t the appropriate characteristic at the time.
+Example: An ability reads “Target creature gets +2/+2 until end of turn. Destroy that creature at the beginning of the next end step.” The ability will destroy the object it gave +2/+2 to even if that object isn’t a creature at the beginning of the next end step.
+
+The granted ability (not the ghostform counter itself, which is a memory aid and has no effect) will still trigger even if the permanent it was granted to is no longer a creature when it's destroyed or exiled.
+

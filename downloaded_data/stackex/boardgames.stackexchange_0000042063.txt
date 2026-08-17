@@ -1,0 +1,11 @@
+Q:
+
+How does Hallar, the Firefletcher work with Multikicker?
+
+Does Hallar, the Firefletcher's ability trigger each time a multikicker spell is kicked? Or just once for a kicked spell?
+
+A:
+
+The ability happens once.
+Hallar, the Firefletcher's ability trigger whenever you cast a spell, checking if the spell was kicked. Since multikicked spells are still a single spells, there is only one copy of the ability.
+

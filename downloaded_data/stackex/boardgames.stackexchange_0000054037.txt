@@ -1,0 +1,40 @@
+Q:
+
+How does color identity work in Commander?
+
+I recently began playing commander, and have run into a few questions, mainly about color compatibility with a commander. I think I can lump them all together into this one question:
+What exactly determines color identity in cards?
+And then just a few specific examples to make sure I'm understanding this correctly:
+
+If my blue commander has an activated ability in non-blue color(s), what colors can I run in the deck? e.g.: Shu Yun, the Silent Tempest
+
+For a mono-blue commander deck, can I have a card with a non-blue color(s) activated ability in the deck? e.g.: Cloudheath Drake
+
+For a mono-blue commander deck, can I include in my deck a card with a hybrid mana cost that can be cast with either blue or non-blue mana? e.g.: Covetous Urge
+
+For a mono-blue commander deck, can I have a card that makes non-blue mana? e.g.: Iron Myr
+
+A:
+
+The color-related deckbuilding rules of Commander are centered around a specific characteristic named 'color identity'
+Color identity is distinct from the color of the card itself, which is only determined by the mana cost and color-defining abilities
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+Example: Bosh, Iron Golem is a legendary artifact creature with mana cost {8} and the ability “{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact’s converted mana cost to any target.” Bosh’s color identity is red.
+903.4a Color identity is established before the game begins.
+903.4b Reminder text is ignored when determining a card’s color identity. See rule 207.2.
+903.4c The back face of a double-faced card (see rule 711) is included when determining a card’s color identity. This is an exception to rule 711.4a.
+Example: Civilized Scholar is the front face of a double-faced card with mana cost {2}{U}. Homicidal Brute is the back face of that double-faced card and has a red color indicator. The card’s color identity is blue and red.
+...
+903.5c A card can be included in a Commander deck only if every color in its color identity is also found in the color identity of the deck’s commander.
+Example: Wort, the Raidmother is a legendary creature with mana cost {4}{R/G}{R/G}. Wort’s color identity is red and green. Each card in a Wort Commander deck must be only red, only green, both red and green, or have no color. Each mana symbol in the mana cost or rules text of a card in this deck must be only red, only green, both red and green, or have no color.
+
+What this means is that if a mana symbol appears on a card, it is part of that card's color identity. It doesn't matter if the symbol is in the mana cost, an ability cost on the card, or is produced by an effect of the card.  If the card has rules that grant it other colors (like Transguild Courier) then it has those colors as well. The exception is if that symbol appears in reminder text: Trinisphere still has a colorless identity, and Crypt Ghast still has a mono-black color identity.
+If a card has a color identity that includes a color that is not part of your commander's color identity, it cannot be added to your deck.
+To address your specific examples:
+
+Shu Yun has a WUR color identity.
+Cloudhearth Drake has a WU color identity
+Covetous Urge has a UB color identity
+Iron Myr has a R color identity.
+

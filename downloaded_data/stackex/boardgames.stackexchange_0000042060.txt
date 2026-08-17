@@ -1,0 +1,16 @@
+Q:
+
+MTG: Guardian of the Gateless
+
+My opponent attacks me with 10 creatures. I block with Guardian of the Gateless . He can block any number of creatures and gets 1+/+1 counter for each creature blocked. Does he gets +10/+10 and blocks all the creatures simultaniously dealing +13+13 to all of them? Killing them in the process. Or he can block 1 creature at a time and gets damaged by each one. So the best way would be to start blocking the creature with less toughness until he dies?
+
+A:
+
+First, Guardian of the Gateless doesn't get 10 +1/+1 counters, but rather a temporary boost until end of turn. Assuming Guardian blocks all 10 attacking creatures, he will get a temporary +10/+10, making him a 13/13 until end of turn. 
+Now then, during the declare blockers step, you'll order the attacking creatures into a block order and your opponent will order your blockers into an attacking order. This second part is only relevant when there's multiple blockers to an attacker. After this is done, the Guardian's ability will trigger, making him a 13/13.
+Now that declaring blockers is done, you will move to the Combat Damage step where you can now assign damage to them. You must assign lethal damage[1] to an individual creature before assigning damage to the next. So for example, you could assign all 13 damage to the first creature and none to the rest, or 4 to first creature and 9 to the rest, any combo really as long as it totals your power of 13 and follows the above guideline.  
+Depending on what your goals are, you have a few options. From what I'm understanding Guardian will die anyway if the creatures attacking have a combined power of at least 13. Therefore you should assign lethal damage to the creatures you want to get rid of the most. Or if your opponent is attacking with a bunch of small creatures, it might make sense to instead destroy a bunch of little creatures. You need to look at the quality vs. quantity of attacking creatures and what needs to be eliminated for you to survive or win.
+Finally, since all 13 attacking creatures have been be blocked, none of them will deal damage to the attacked player or planeswalker (unless they have trample), whether the Guardian deals damage to them or not.
+
+A lethal amount of damage (usually shortened to "lethal damage") refers to an amount of damage that would be sufficient to destroy the creature being damaged, ignoring anything that would prevent the damage or its destruction (e.g. Indestructible). This is usually means an amount of damage equal to the toughness of the creature being damaged, but it could be less (if the creature to which damage is being dealt has previously received damage, or if the creature dealing the damage has deathtouch).
+

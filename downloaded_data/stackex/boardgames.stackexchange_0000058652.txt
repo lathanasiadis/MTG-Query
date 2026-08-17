@@ -1,0 +1,27 @@
+Q:
+
+How are triggered abilities from permanents you own, but do not control, handled when you lose the game?
+
+I was playing a game of Commander, having control of The Beamtown Bullies. With its ability, I gave an opponent a Hellcarver Demon. He then attacked someone with the hellcarver, and attacked with other creatures. This caused my lifetotal to become 0.
+Now, while my cards get removed from the game, what happens to the trigger of the Hellcarver Demon? As far as I understood it still gets added to the stack, since damage did happen. And it does not get removed from the stack, since I do not control the ability (the opponent does).
+
+A:
+
+The Hellcarver Demon's ability would still go on the stack and resolve.
+First, the precise sequence of events in the combat damage step is as follows:
+
+Attacking and blocking creatures deal damage. The Hellcarver Demon's ability triggers.
+State-based actions are checked. You lose the game and all of your cards leave the game, including the Hellcarver Demon.
+The triggered ability is put on the stack.
+The triggered ability resolves.
+
+For more detail on what exactly happens in step 2, we have to look at rule 800.4a:
+
+When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time they left, priority passes to the next player in turn order who’s still in the game.
+
+It's hard to prove a negative, but there is no rule that establishes that abilities on the stack have an owner, so nothing happens to the triggered ability in the first of those steps. The triggered ability is also not on the stack at the time that you leave the game, so the again nothing happens in the second step. Finally, we have to check the control of the object. Rule 603.3a says
+
+A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+The source of the ability is the Hellcarver Demon, and the opponent controlled it as the ability triggered, so the opponent also controls the triggered ability. Therefore, the ability is also not exiled in that third step. Overall, this means that the ability sticks around, goes on the stack, and resolves.
+

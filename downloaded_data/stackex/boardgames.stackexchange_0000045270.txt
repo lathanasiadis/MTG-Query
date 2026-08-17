@@ -1,0 +1,24 @@
+Q:
+
+Can damage be dealt to permanents that are not creatures or planeswalkers?
+
+Cards like Lightning Bolt now say:
+
+Lightning Bolt deals 3 damage to any target.
+
+Can Lightning Bolt target something that is not currently a creature or planeswalker?  For example, can I deal damage to an unanimated Mutavault so that it will die if it is animated later this turn?
+
+A:
+
+In the context of of damage, "any target" is limited to creatures, players, and planeswalkers, and battles:
+
+115.4. Some spells and abilities that refer to damage require “any target,” “another target,” “two targets,” or similar rather than “target [something].” These targets may be creatures, players, planeswalkers, or battles. Other game objects, such as noncreature artifacts or spells, can’t be chosen.
+
+Even if you could somehow target something other than these, it would not receive damage:
+
+120.1a Damage can’t be dealt to an object that’s not a battle, a creature, or a planeswalker.
+
+Note however that non-creature permanents can still have damage marked on them, but the only way to do this for them to have been a creature when they took the damage:
+
+120.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.15, “Regenerate”) and during the cleanup step (see rule 514.2).
+

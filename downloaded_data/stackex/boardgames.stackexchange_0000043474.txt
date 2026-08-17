@@ -1,0 +1,26 @@
+Q:
+
+Can a clone of a double-sided planeswalker transform?
+
+Suppose my opponent has Nicol Bolas, the Ravager on the battlefield, and has not yet transformed it into a Planewalker.
+I cast Clone, making my own copy of Nicol Bolas.
+What happens if I activate my cloned Nicol Bolas' ability? What would happen if the ability were phrased differently, such that it doesn't require the creature to leave the battlefield and re-enter?
+
+A:
+
+No, a Clone'd creature cannot transform because Clone is not a double-faced card, even though it copies one face of a double-faced card. If you activate the ability, the Clone will be exiled and stay in exile.
+First of all, to flip a card has its own meaning in Magic. It is a mechanic used exclusively in the Kamigawa block. Even though transforming a card is the spiritual successor to flipping, they are very different mechanics. Nicol Bolas, the Ravager transforms into a planeswalker.
+
+110.6. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+701.27. Transform
+701.27a To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced cards can transform. (See rule 711, “Double-Faced Cards.”)
+
+Second, you can activate the Clone'd Nicol Bolas' ability and exile it, but it will stay in exile. Following the instructions of Nicol Bolas' ability, you exile the Clone, but it will not return to the battlefield. It will stay in exile:
+
+711.8a If a player is instructed to put a card that isn’t a double-faced card onto the battlefield transformed, that card stays in its current zone.
+
+A Clone copy of Nicol Bolas, the Ravager cannot transform into anything, even if you didn't have to exile the Clone:
+
+711.1. A double-faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. Each face may have abilities that allow the card to “transform,” or turn over to its other face. Tokens and cards with a Magic card back can’t transform. (See rule 701.27, “Transform.”)
+701.27c If a spell or ability instructs a player to transform a permanent that isn’t represented by a double-faced card, nothing happens.
+

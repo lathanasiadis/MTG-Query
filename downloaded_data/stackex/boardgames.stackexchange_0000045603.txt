@@ -1,0 +1,16 @@
+Q:
+
+Is it allowed to activate the ability of multiple planeswalkers in a single turn?
+
+Suppose I have more than one planeswalker (different planeswalkers) in play.
+During my turn, am I allowed to use both of their '+' abilities? Or can I only use one planeswalker ability from one planeswalker during my turn?
+
+A:
+
+You can use all of them; one from each planeswalker.
+Here is the rule that prevents you from using the same ability repeatedly on your turn:
+
+606.3. A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn.
+
+Emphasis mine. It only cares that you haven't used an ability of the specific permanent that turn; you can use one from each planeswalker each turn.
+

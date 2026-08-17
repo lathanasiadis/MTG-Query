@@ -1,0 +1,18 @@
+Q:
+
+Giving a 2/1 creature -2/-2
+
+The card Disfigure reads:
+
+Target creature gets -2/-2 until end of turn.
+
+If I used that on Highland Game, a 2/1 creature, would Highland Game still die?
+
+A:
+
+Yes. A creature that has 0 toughness or less will die the next time any would would get priority.
+
+State-Based Actions
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+

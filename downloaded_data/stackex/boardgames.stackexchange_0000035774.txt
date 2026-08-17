@@ -1,0 +1,13 @@
+Q:
+
+Does an enter-the-battlefield effect count the permanent that created the ability?
+
+Filigree Angel has an ability that triggers when it enters the battlefield, which has you gain 3 life for each artifact you control.
+It is itself an artifact creature. If I have no other artifacts on the battlefield when it comes into play, do I gain 3 life?
+
+A:
+
+Yes (assuming nothing else happens). The basic reason that it happens is that the artifact creature is already on the battlefield when the trigger happens. 
+When it enters the battlefield, that trigger puts the life gain effect on the stack.  When that effect resolves, it counts how many artifacts you control at that point and you gain 3x life. 
+So, if an opponent removes the angel while the life gain is on the stack, you end up gaining no life. 
+

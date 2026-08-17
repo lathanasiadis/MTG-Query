@@ -1,0 +1,59 @@
+Q:
+
+First strike and bioshift
+
+Player A's board consists of:
+
+1/1 first strike with 4 +1/+1 counters
+1/1 creature
+
+Player B's board consists of: 
+
+2/2 lifelink creature
+
+Player B has 5 life and has to block the creature with 4 +1/+1 counters.
+Can Player A, after dealing first strike damage, transfer the remaining counters to the 1/1 creature and then deal lethal damage to Player B?
+
+A:
+
+Yes, given that Bioshift is an instant.
+
+The combat unrolls as follows:
+
+...
+Declare Blockers [CR 509]
+
+Blockers are declared. [CR 509.1]
+Damage Assignment order for attacking creatures is decided. [CR 509.2]
+Damage Assignment order for blocking creatures is decided. [CR 509.3]
+Players get priority. [CR 509.4-5]
+
+Combat Damage Step (First Strike) [CR 510]
+
+Attacker assigns damage. [CR 510.1]
+Defender assigns damage. [CR 510.1]
+Combat damage is dealt. [CR 510.2]
+Players get priority. [CR 510.3-4]
+
+Combat Damage Step (Normal Damage)
+
+Attacker assigns damage.
+Defender assigns damage.
+Combat damage is dealt.
+Players get priority.
+
+End of Combat Step
+
+Players get priority.
+
+First Strike damage is dealt in 3.3 above, leaving you free to shift counters in 3.4 before normal damage is assigned and dealt in 4.1 and 4.3.
+Note that the counters could also have been transferred in the Declared Blockers Step (2.4 above). However, it's more advantageous to wait until the First Strike Combat Damage Step (if possible) since two creatures get to take advantage of them.
+
+510. Combat Damage Step
+
+...
+
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+

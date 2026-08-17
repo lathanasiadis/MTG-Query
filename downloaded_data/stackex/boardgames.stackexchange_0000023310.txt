@@ -1,0 +1,28 @@
+Q:
+
+Essence Scatter and summoning creatures
+
+I played Nessian Game Warden, and a friend of mine tried to counter the entire summoning using Essence Scatter.
+Essence scatter says:
+
+Counter target creature spell.
+
+Does Nessian Game Warden go to the graveyard since its summoning hasn't yet resolved or does essence scatter's effect only apply to the ability on the card and NGW is summoned?
+
+A:
+
+The Nessian Game Warden is countered. It does not resolve, and its ability does not go on the stack or resolve. It goes immediately to the graveyard.
+"Creature spell" in Essence Scatter's text refers to the creature card itself, and not the ability on it.
+Basically, if you cast Nessian Game Warden and it isn't countered, gameplay proceeds like this:
+
+You cast Nessian Game Warden. The Nessian Game Warden card goes on the stack, and players have a chance to resolve.
+Nobody responds and Nessian Game Warden resolves. Nessian Game Warden enters the battlefield.
+Nessian Game Warden's triggered ability triggers and goes on the stack.
+Nessian Game Warden's triggered ability resolves, and you do what it says.
+
+In the situation you describe, here's what happens instead:
+
+You cast Nessian Game Warden. The Nessian Game Warden card goes on the stack, and players have a chance to resolve.
+Your opponent responds by casting Essence Scatter, and that goes on the stack on top of Nessian Game Warden.
+The Essence Scatter resolves, countering Nessian Game Warden. Nessian Game Warden goes to the graveyard.
+

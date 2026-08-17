@@ -1,0 +1,16 @@
+Q:
+
+Would Evacuation and Ambush Commander return all forests to their owners' hands?
+
+Evacuation returns all creatures to owners hands. Ambush Commander turns all forests into creatures. Would that mean that Evacuation would return all forests to their owners hand?
+
+A:
+
+Ambush Commander only affects its controller's Forests, but otherwise, yes.  Evacuation will return them to their owners' hands.
+This doesn't come down to a single rules citation, but ultimately Creature Lands still count as creatures due to this rule:
+
+608.2h If an effect refers to certain characteristics, it checks only for the value of the specified characteristics, regardless of any related ones an object may also have.
+Example: An effect that reads “Destroy all black creatures” destroys a white-and-black creature, but one that reads “Destroy all nonblack creatures” doesn’t.
+
+It does not matter that they are 'Creature Lands', the spell just cares that they are creatures.
+

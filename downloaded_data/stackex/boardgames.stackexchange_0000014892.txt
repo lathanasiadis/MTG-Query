@@ -1,0 +1,23 @@
+Q:
+
+Can I cast Enchant Creature cards on Enchantment Creatures (Bestow) that are on another creature?
+
+Say I have a Nessian Courser which is enchanted by a Nylea's Emmissary. I want to cast an Enchantment - Aura on the Nylea's Emissary, for example: Ordeal of Thassa.
+  
+Perhaps for some reason, I know that the Nessian Courser is going to die at the end of the turn, or I just want to diversify my play so that one burn spell won't cost me two cards. Can I cast an Ordeal of Thassa on the EMISSARY? It is technically a creature, even though it's being used as an enchantment currently.
+I wouldn't imagine that the Nessian Courser would get the bonus from the Ordeal of Thassa, but I would expect that the Nylea's Emissary would retain the Ordeal when the Nessian Courser dies and it bounces off.
+Is this possible, and if so is my understanding of how it works correct? Thanks!
+
+A:
+
+No, because whilst Nylea's Emissary is bestowed on another creature, it isn't itself a creature - it's just an Enchantment — Aura.
+Its card type might be Enchantment Creature — Cat, but whilst it's bestowed, that's overwritten to just make it an Enchantment — Aura. That's thanks to the following two rules:
+
+702.102a (the expanded definition of Bestow): [snipped] "Bestow [cost]" means "You may cast this card by paying [cost] rather than its mana cost." and "If you chose to pay this spell's bestow cost, it becomes an Aura enchantment and gains enchant creature.
+
+205.1a: Some effects set an object's card type. In such cases, the new card type(s) replaces any existing card types.
+
+The text I've bolded is something Nylea's reminder text points out, though it doesn't explicitly say how it remains an enchantment in the reminder text.
+As a result, whilst Nylea's Emissary is a bestowed permanent, it's just an aura and not a creature. Note in particular the "it becomes a creature again" statement in Bestow's reminder text - that wouldn't make much sense if it was a creature to begin with.
+Furthermore, Thassa's emissary says "Enchant creature". Whenever something simply says "creature", it means a permanent on the battlefield that's a creature. Nylea's Emissary isn't a creature whilst it's bestowed, so it can't be enchanted. This is flipside of the mechanic that allows a Mutavault to be enchanted with something that says Enchant creature whilst in creature mode, even if its card type doesn't include "Creature".
+

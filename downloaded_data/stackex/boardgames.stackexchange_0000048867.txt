@@ -1,0 +1,18 @@
+Q:
+
+Can you have an aura attached to an aura that is itself attached to the first aura?
+
+This question was inspired by this post on /r/BadMtgCombos. 
+
+In the post, the user makes use of three copies of Feedback and Aura Graft to get Feedback 1 attached to Feedback 2, Feedback 2 attached to Feedback 3, and Feedback 3 attached to Feedback 1, creating a "Feedback Loop".
+Is it possible to remove a Feedback from this bad combo, and have two Feedbacks attached to each other?
+
+A:
+
+Yes, and I think you only need two Feedbacks and Aura Graft (and an arbitrary other enchantment). Just use Aura Graft on Feedback 1 and have it enchant Feedback 2.
+While the rules mention that
+
+303.4d An Aura can’t enchant itself. If this occurs somehow, the Aura is put into its owner’s graveyard.
+
+there's no such rule forbidding 'mutual' enchantments.
+

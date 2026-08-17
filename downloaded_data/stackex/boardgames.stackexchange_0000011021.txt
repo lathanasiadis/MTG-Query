@@ -1,0 +1,21 @@
+Q:
+
+At what point does a spell 'target' its target?
+
+If I have a counterspell in my hand, and my opponent chooses to cast an instant or sorcery, can I wait to see what his spell 'targets' before I choose to counter it or not?
+
+A:
+
+Yes, you will know all targets of a spell as soon as it is cast.
+From the Comprehensive Rules:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast (see rule 717, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made.
+[...]
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+[...]
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Note that depending on the card-specific wording, there are some spells and abilities that have choices that are made when they resolve, not when they are cast. Once a spell or ability starts resolving, there is no way of countering it, so in those rare cases, you have no way of knowing for sure what it will do.
+For example, Hex Parasite's ability lets you choose the number and kind of counters to remove when it resolves, which matters when the target has more than 1 kind of counter on it.
+Another side effect of this rule is that there is usually no way of preventing abilities that trigger on its permanent being targeted from triggering, aside from hexproof or shroud. Once you target such a permanent (usually a creature), the ability will trigger, even if you counter the spell that triggered the ability.
+

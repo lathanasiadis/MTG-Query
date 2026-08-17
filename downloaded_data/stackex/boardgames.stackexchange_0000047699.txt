@@ -1,0 +1,17 @@
+Q:
+
+Chandra exiles a card, I play it, it gets exiled again
+
+I exiled a creature card with Chandra, Fire Artisan. I then played it, and it got countered by a card that put it back into exile. Can I play it again? 
+
+A:
+
+No, you can't play it again.
+It's necessary to understand that everything in the game is only an imaginary game object. Objects are the things that players actually play with. Cards only represent objects; they serve as a reminder that there is an object and what its base properties are. 
+Whenever an object leaves a game zone (such as exile), it ceases to exist. If that object was represented by a card, a new object is instead created in the zone it moved to. Those new objects have no relation to their previous existence. 
+That means the object you exiled with Chandra is different from the one you cast and was countered, and different yet again from the exiled object put there by the counter. That means you can not cast it again with Chandra, because it's a different object to the one Chandra exiled.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. 
+
+There are a few exceptions to this rule, but none apply here.
+

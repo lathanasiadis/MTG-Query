@@ -1,0 +1,28 @@
+Q:
+
+Can I use Naturalize to "counter" an activated ability?
+
+I have a question regarding activated abilities.
+My opponent has an Isochron Scepter (untapped). He wants to play the ability and taps it.
+Is it possible to destroy the Isochron Scepter with Naturalize beforehand? So if I play Naturalize, is he able to cast the spell imprinted in the Scepter? Or is the Scepter destroyed before the ability triggers?
+And if it would be destroyed before the ability triggers, is it then possible to "replay" the Isochron Scepter ability in response again?
+
+A:
+
+Once the ability is put on the stack, destroying the Isochron Scepter in response will not take that ability back off the stack.  First the Naturalize will resolve, destroying the Scepter; then, next the Scepter's ability will resolve and you can copy the imprinted instant card (using the last-known-information rule).
+I'm not quite sure what you mean about "replaying the Scepter's ability in response" - the Scepter has been tapped in order to play its ability.  Of course, you can use a spell or effect to untap the Scepter in response to the Naturalize, and pay 2 to pay its ability again.  In which case the Scepter's ability would resolve twice, once before Naturalize resolves and destroys the artifact, and once afterwards.  If this is what you're asking?
+This para from the Comprehensive Rules may help to understand the finer points of destroying a permanent while its ability is on the stack:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source
+  after that time won't affect the ability. Note that some abilities
+  cause a source to do something (for example, "Prodigal Pyromancer
+  deals 1 damage to target creature or player") rather than the ability
+  doing anything directly. In these cases, any activated or triggered
+  ability that references information about the source because the
+  effect needs to be divided checks that information when the ability is
+  put onto the stack. Otherwise, it will check that information when it
+  resolves. In both instances, if the source is no longer in the zone
+  it's expected to be in at that time, its last known information is
+  used. The source can still perform the action even though it no longer
+  exists.
+

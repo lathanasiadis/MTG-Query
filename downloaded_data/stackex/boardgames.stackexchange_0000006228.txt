@@ -1,0 +1,15 @@
+Q:
+
+Does a creature that has both double strike and first strike deal damage three times or only twice?
+
+In the new Dark Ascension expansion, the card Markov Blademaster has double strike. Stormkirk Captain gives all other Vampires first strike and +1/+1. 
+This means that the Blademaster has double and first strike. Does that mean it deals combat damage three times?
+
+A:
+
+It will only deal combat damage twice.  First Strike and Double Strike create an additional combat damage step.
+
+702.4b/702.7b If at least one attacking or blocking creature has first strike or double strike as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+Only one extra combat damage step is created in which all creatures with first strike and/or double strike deal their combat damage.  Then it moves onto the "normal" combat damage step where double strikers deal their comabt damage again (along with anything that had neither first strike nor double strike)
+

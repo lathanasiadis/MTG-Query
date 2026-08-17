@@ -1,0 +1,27 @@
+Q:
+
+Can you attack in stages before blockers are declared?
+
+I have Answered Prayers, which reads:
+
+Whenever a creature enters the battlefield under your control, you gain 1 life. If Answered Prayers isn't a creature, it becomes a 3/3 angel with flying in addition to its other types until end if turn.
+
+I declare an attacker, and in response to it attacking a creature enters the battlefield. (Say, Grave Titan creating its zombies.) Can I then attack with Answered Prayers as well before blockers are declared?
+
+A:
+
+No. Basically, all attackers need to be declared at once:
+
+Declare Attackers Step
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 725, “Handling Illegal Actions”).
+508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, and each one must either have haste or have been controlled by the active player continuously since the turn began.
+
+and the final step is the triggering of abilities:
+
+508.1m Any abilities that trigger on attackers being declared trigger.
+508.2. Second, the active player gets priority. (See rule 117, “Timing and Priority.”)
+
+When they resolve, and Answered Prayers triggers and resolves in turn, it's too late to declare additional attackers.
+Note that if you somehow get a second combat phase in that turn (such as with Relentless Assault), your Answered Prayers might be eligible to attack during that combat phase since it already became a creature during the first one. The exception is if you cast Answered Prayers this same turn, in which case it can't attack because it has "summoning sickness"; it isn't under your control since the beginning of your most recent turn.
+

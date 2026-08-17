@@ -1,0 +1,28 @@
+Q:
+
+If a weak creature with death touch attacks a tougher creature, does my own creature die as well?
+
+If a weak creature with death touch attacks a tougher creature, does my own creature die as well?
+If I have a 2/2 with death touch that attacks a 4/4, the 4/4 will die but what will happen to my 2/2? 
+
+A:
+
+Yes it does.
+The damage to them both happen simultaneously (footnote 1), so the big one receives 2 deathtouch damage, and the little one receives four regular damage. Both of these are lethal damage (footnote 2, 3) to the respective receivers, and they are sent to the graveyard.
+This can be avoided by giving the little guy first strike (consider Glissa, the Traitor or double strike, which will cause the little guy's damage to be dealt first (unless the big guy somehow also gains it.) Other things like protection can mitigate the damage too.
+I should point out that creatures can't attack other creatures in normal combat. You can only declare them as attackers to a player or planeswalker. The defending player (in this case, the player owning the 4/4) can choose to block or not block.
+You can cause them to deal damage to each other with the "fights" mechanic (like Prey Upon, or with spells and abilities (Livewire Lash comes to mind.) If a creature deals damage to another creature, and the damage-dealing creature has deathtouch, then the receiving creature has lethal damage (causing it to be destroyed).
+Footnote 1
+
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt.
+
+Footnote 2
+
+704.5h If a creature has toughness greater than 0, and it's been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+
+Footnote 3
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+

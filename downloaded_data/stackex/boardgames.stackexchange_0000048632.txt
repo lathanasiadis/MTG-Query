@@ -1,0 +1,19 @@
+Q:
+
+Interaction between Teferi Time Raveler and Enduring Ideal
+
+Does Teferi, Time Raveler's static ability, which limits opponents' spells to sorcery 'speed', stop Enduring Ideal's Epic ability which functions during the upkeep?
+
+A:
+
+No, it doesn't stop it. Teferi says:
+
+Each opponent can cast spells only any time they could cast a sorcery.
+
+(emphasis mine)
+But copying a spell is different from casting it:
+
+706.10. To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated.
+
+Therefore, Teferi doesn't affect the Epic ability.
+

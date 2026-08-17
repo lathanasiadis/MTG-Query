@@ -1,0 +1,22 @@
+Q:
+
+Is a copy of a vehicle that enters tapped and attacking a vehicle?
+
+Thousand-Faced Shadow reads
+
+When Thousand-Faced Shadow enters the battlefield from your hand, if it’s attacking, create a token that’s a copy of another target attacking creature. The token enters the battlefield tapped and attacking.
+
+If you copy a Vehicle using this ability, will that copy be a creature (and attacking)?  My understanding of the rules says that it should enter as a tapped artifact that is not a creature and not attacking, but it seems odd that a creature printed in a vehicle heavy set would have an ability that doesn't work the way it says it works when interacting with vehicles.
+
+A:
+
+If you create a copy of a card that is not printed as a creature or a copy of a creature, such as a Vehicle, the copy will not be a creature and it will not be attacking. It will still enter the battlefield tapped.
+Rule 707.2 says
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The copiable values are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Vehicle cards are not printed with the type Creature, so even if one has gained that type as the result of a Crew ability resolving, or any other reason, a copy of it will not be a creature.
+Rule 506.3a says
+
+If an effect would put a noncreature permanent onto the battlefield attacking or blocking, the permanent does enter the battlefield but it’s never considered to be an attacking or blocking permanent.
+

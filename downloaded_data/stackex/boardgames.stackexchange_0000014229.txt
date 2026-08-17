@@ -1,0 +1,16 @@
+Q:
+
+Can a non-instant or sorcery ever have flashback?
+
+Normally the Flashback ability only exists on instants and sorceries. But with all the various strange combinations and rules quirks that exist in MTG, I was wondering if there's anything that can cause a creature or enchantment or land to have Flashback.
+If so, then what would happen if you cast it for the Flashback cost? Flashback rules say that the card is exiled after it is cast, so I'm guessing that the card would never enter the battlefield at all; rather it would just resolve and be exiled immediately. Is this correct?
+
+A:
+
+That's correct.
+It's currently impossible for a permanent card to gain Flashback[1], but let's say it's possible. Instead of being put on the battlefield on resolution, the card would be exiled instead.
+
+“Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” 
+
+Flashback can only be granted to instants and sorceries, and it would be too messed up for a card with a permanent type to gain one of those types.
+

@@ -1,0 +1,17 @@
+Q:
+
+Do triggered abilities still trigger if the creature is tapped?
+
+For example if Falkenrath Noble was tapped and another creature dies then would his triggered ability still trigger or only if it was not tapped?
+
+A:
+
+Yes. Whether an permanent is tapped or not has no effect on its abilities. This is the case for abilities of all kinds (static, triggered and activated).
+Three things change when a creature is tapped:
+
+It is considered tapped by anything that cares.
+It cannot be tapped. (Effects instructing to tap the permanent are skipped. Costs consisting of tapping the permanent can't be payed.)
+It cannot attack.
+
+Do note that the first two items can indirectly prevent abilities from triggering ("Whenever an untapped creature dies, ...") or from functioning ("..., tap it. If you do, ...").
+

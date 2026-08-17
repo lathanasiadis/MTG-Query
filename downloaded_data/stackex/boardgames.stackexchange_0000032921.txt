@@ -1,0 +1,53 @@
+Q:
+
+How does Camouflage interact with "can't be blocked by more than one creature"?
+
+Camouflage is a strange old card that changes how blocking works. The card text says
+
+This turn, instead of declaring blockers, each defending player chooses any number of creatures he or she controls and divides them into a number of piles equal to the number of attacking creatures for whom that player is the defending player. Creatures he or she controls that can block additional creatures may likewise be put into additional piles. Assign each pile to a different one of those attacking creatures at random. Each creature in a pile that can block the creature that pile is assigned to does so.
+
+Here's an example of the situation I'm wondering about:
+My opponent attacks with two creatures, a Charging Rhino and a Boggart Brute. The former can't be blocked by more than one creature, and the latter can't be blocked by fewer than two creatures. After they declare attacks, they cast Camouflage.
+Now, I want the possibility of blocking both creatures, so I put two creatures in one pile and one in another (for simplicity, assume all of the blocking creatures are 1/1 Soldier tokens).
+Then, when the piles are assigned to attackers, I get unlucky, and the pile with one creature is assigned to block the Boggart Brute, and the pile with two creatures is assigned to block the Charging Rhino.
+Now, clearly the single Soldier can't legally block the Boggart Brute alone. So my question is this: does the Charging Rhino end up blocked?
+Basically, I think there are two possible interpretations for the bolded sentence that change how this situation plays out. I think it could either mean
+
+For each attacking creauture, if some subset of the set of creatures that could each individually block that creature is a legal block, then they are assigned to block that creature.
+
+or
+
+For each attacking creature, if the entire set of creatures that could each individually block the assigned creature is a legal block, then they are assigned to block that creature.
+
+Or it could even be something different from both of those that I haven't thought of.
+
+A:
+
+You can't leave the Charging Rhino unblocked because it's possible to block it, and you were instructed to block it.
+Similarly, you can't block with both Soldiers since you are restricted from doing so[1].
+That leaves only two possible legal outcomes:
+
+Solder 1 blocks the Charging Rhino, and Soldier 2 doesn't.
+Solder 2 blocks the Charging Rhino, and Soldier 1 doesn't.
+
+Pick one.
+
+In Magic, actions are instantaneous. They are never being performed. For example, a card is never moving, a creature is never tapping, etc[2]. The game instantly switches from one state to another. For example, when instructed to draw, the game instantly goes from a state where the card is on top of your library to a state where the card is in your hand. This is why triggered abilities look at the state of the game before or after they trigger; there is no state during the event that triggered the ability.
+Yet, some actions can depend on the outcome of other actions taken simultaneously. This is technically impossible. In this situation, we naturally start imagining complex scenarios to explain what happens, but these have no basis in the rules. I've learned long ago to catch myself, and I now see that you have entered this trap. 
+The solution: You must simply find the legal state that is achieved from following the instructions. How the game managed to achieve that result is not important!
+
+I find it reassuring that the above achieves the same outcome as if one were to follow the steps of Declare Blocks. But it doesn't resolve many other related problems, such as creatures that require paying costs to block. I would be tempted to interpret
+
+Each creature in a pile that can block the creature that pile is assigned to does so.
+
+as
+
+Follow the instructions of the Declare Blocks Step, except
+
+Each creature in a pile that can block the creature that pile is assigned to must do so,
+Each creature in a pile can't block any creature other than the creature that pile is assigned to, and
+Creatures not in a pile can't block.
+
+I take "that can block" to mean "that isn't tapped and that isn't subject to a restrictions preventing it". In other words, restrictions are still in effect even though they are normally checked during the declaration of blockers which was replaced.
+Attacking and defending don't refer to actions being performed, but to a rule-defined state of the object.
+

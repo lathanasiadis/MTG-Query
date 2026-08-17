@@ -1,0 +1,44 @@
+Q:
+
+Can the game be left in an invalid state if all state-based actions are replaced?
+
+Rule 704.3 on checking state-based actions states, in part:
+
+[...] If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority.
+
+Based on the wording "if any state-based actions are performed", this implies to me that if no state-based actions are performed because they are replaced, the check would not be repeated and the player could get priority. This is supported by the famous rule 614.6:
+
+614.16 If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities.
+
+Suppose that Alice, while at 4 life, controls The Great Henge and two Exquisite Archangels. Her opponent controls a Balefire Liege, a Void Maw, and a Quakebringer that was dealt 4 damage earlier in the turn. On Alice's turn, something simultaneously deals 4 damage to her and 4 damage to Balefire Liege.
+State-based actions are checked, and two such actions would be performed: Alice would lose the game for having 0 or less life (704.5a), and Balefire Liege would die from damage ≥ toughness (704.5g). One of Alice's Exquisite Archangels replaces the former, exiling itself and attempting to reset Alice's life total, but this is prevented by Quakebringer (119.5). Void Maw replaces the latter, causing Balefire Liege to be exiled instead of die.
+Because no state-based actions have been performed as a result of the check, the "otherwise" clause kicks in. Assume that no triggered abilities trigger as a result of any of this. State-based actions are checked once again, and now it is Alice's second Exquisite Archangel that fails to reset her life total and is exiled. Additionally, Quakebringer, which was being kept alive only by Balefire Liege's +1/+1 buff to red creatures, has been dealt lethal damage and would die, but is exiled by Void Maw instead. Again, my understanding is that none of this counts as a state-based action being performed.
+Now that no state-based actions have been performed and no triggered abilities are waiting to be put on the stack, Alice gets priority while having 0 life. The instant she passes priority as a result of casting spells or activating abilities, state-based actions will be rechecked and she will lose. But since mana abilities do not reset priority (117.3c), she can now tap The Great Henge to gain 2 life and save herself.
+Is this analysis correct? Or perhaps I am correct in the core idea, but this scenario does not allow for it?
+
+A:
+
+The simple answer here is that if you take an action as a result of a state-based action, then a state-based action has been performed. In this case, those actions include exiling the Exquisite Archangel and the Balefire Liege.
+Your interpretation is incorrect because you are applying rule 614.16 in a way that is overly broad. For example, in your situation, one of the state-based actions we consider is rule 704.5a which has the full text
+
+If a player has 0 or less life, that player loses the game.
+
+Exquisite Archangel's text, in full, is
+
+If you would lose the game, instead exile Exquisite Archangel and your life total becomes equal to your starting life total.
+
+The event that is being replaced here is "you would lose the game", and it is correct to say that rule 614.16 mean that the event "you lose the game" never happens here. However, broader action "If a player has 0 or less life, [do something]" is still performed.
+One of the rulings on the card Lich's Mirror makes it clear that this is how it works (reformatted by me for readability):
+
+As part of Lich's Mirror's effect, it typically shuffles itself into your library. If it does, that means that if you'd lose the game again immediately after its effect is finished, it can't help you a second time. This can occur in a few different ways. For example:
+
+You have ten or more poison counters. Lich's Mirror doesn't remove poison counters. If you'd lose the game this way, you'll do what Lich's Mirror says, then you'll lose the game the next time state-based actions are checked.
+Your life total is 0 or less and an effect says that you can't gain life. Since your life total can't be raised, it stays at whatever it is rather than becoming 20, and you'll lose the game the next time state-based actions are checked.
+The number of nontoken permanents you own plus the number of cards in your hand, graveyard, and library is less than seven. When you try to draw seven cards as part of Lich's Mirror's effect, you'll be unable to complete at least one of those draws and you'll lose the game the next time state-based actions are checked.
+You control but don't own a permanent such as Immortal Coil with a triggered ability that causes you to lose the game when a certain game state happens (also known as a “state trigger”), and the condition that causes the “lose the game” ability to trigger hasn't changed. If you owned the permanent, Lich's Mirror would shuffle it into your library. In this case, however, it remains on the battlefield and its ability will trigger again.
+
+Compare this with what would happen with Platinum Angel. When state-based actions are checked, instead of losing the game, nothing happens. Since no actions are taken, state-based actions are not checked again, and the game continues.
+There even a somewhat famous example of a state-based action loop that depends on state-based actions working this way, described in another ruling on Lich's Mirror:
+
+If you control but don't own Lich's Mirror, Lich's Mirror itself will still be on the battlefield after its effect is finished. If you would lose the game again for any of the reasons above, Lich's Mirror has its effect again . . . and again . . . and again. An involuntary infinite loop will be created, and the game will end in a draw. (In the case of the triggered ability example given last in the list above, it's possible that a player could cause the loop to end while the ability is on the stack. None of the loops caused by state-based actions can be stopped at all.)
+

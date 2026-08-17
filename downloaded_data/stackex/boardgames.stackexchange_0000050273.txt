@@ -1,0 +1,19 @@
+Q:
+
+Buffing an Unblockable?
+
+I have a card that basically says any creature with power or toughness = one is Unblockable, is it possible to buff them after declaring blockers? Thanks ahead of time for the info
+
+A:
+
+Yes.
+There is a particular step of the game called the "Declare Blockers Step", and the very first part of it involves the actual act of choosing which creatures are blocking. After damage assignment ordering is chosen, the active player receives priority.
+
+509.1. First, the defending player declares blockers. [...]
+509.2. Second, for each attacking creature that’s become blocked, the active player announces that creature’s damage assignment order [...]
+509.3. Third, for each blocking creature, the defending player announces that creature’s damage assignment order [...]
+509.4. Fourth, the active player gets priority.
+
+If your creature has one power (and is therefore unblockable) at the time blockers are declared, and then you later use, e.g., Giant Growth to increase its power, there is nothing that allows your opponent to "re-declare" blockers. The game has already moved on past that point, and the blocking choices made at step 509.1 are "locked in" for the remainder of combat*.
+* Plus or minus any cards/effects that cause creatures to become blocked or unblocked (e.g., Curtain of Light).
+

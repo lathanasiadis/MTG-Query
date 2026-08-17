@@ -1,0 +1,19 @@
+Q:
+
+Are there abilities or effects that change the timing restriction of 'level up' abilities in M:tG?
+
+Are there effects that change the timing restrictions of level up cards (e.g. Wizard Class)? As far as I can tell, the various effects that affect casting of sorcery spells do not affect level up abilities despite the reminder text stating "Gain the next level as a sorcery to add its ability."
+
+A:
+
+There are no such abilities or effects.
+The relevant rules are:
+
+717.2a “[Cost]: Level N — [Abilities]” means “[Cost]: This Class’s level becomes N. Activate this ability only if this Class is level N-1 and only as a sorcery” and “As long as this Class is level N or greater, it has [abilities].”
+
+and
+
+307.5. If a spell, ability, or effect states that a player can do something only “any time they could cast a sorcery” or “only as a sorcery,” it means only that the player must have priority, it must be during the main phase of their turn, and the stack must be empty. The player doesn’t need to have a sorcery card they could cast. Effects that would preclude that player from casting a sorcery spell don’t affect the player’s capability to perform that action (unless the action is actually casting a sorcery spell).
+
+There are no existing cards that modify these fundamental rules.
+

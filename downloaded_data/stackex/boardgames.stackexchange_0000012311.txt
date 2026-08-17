@@ -1,0 +1,30 @@
+Q:
+
+Which MtG core set has had the greatest change in cards from a previous core set?
+
+From its beginning through 2015, Magic the Gathering released a new core set every so often (at first every two years, then every year). At first, core sets would only contain previously released cards, but that changed with the Magic 2010 series.
+What core set contains the largest number of different in cards within that core set from the previous core set? (how many cards were changed from that previous year?)
+
+A:
+
+The MTGSalvation wiki tracks core set changes here. The summary, assuming I haven't made any copying/arithmetic errors:
+
+Unlimited -> Revised: 39 added, 35 removed (total 74)
+Revised -> 4th: 122 added, 50 removed (total 172)
+4th -> 5th: 194 added, 128 removed (total 322)
+5th -> 6th: 167 added, 266 removed (total 433)
+6th -> 7th: 177 added, 177 removed (total 354)
+7th -> 8th: 167 added, 160 removed (total 327)
+8th -> 9th: 165 added, 163 removed (total 328)
+9th -> 10th: 214 added, 190 removed (total 404)
+10th -> M10: 158 added, 292 removed (total 450)
+M10 -> M11: 136 added, 136 removed (total 272)
+M11 -> M12: 153 added, 153 removed (total 306)
+M12 -> M13: 193 added, 193 removed (total 386)
+M13 -> M14: 154 added, 198 removed (total 352)
+M14 -> M15: 235 added, 201 removed (total 436)
+M15 -> Origins: 263 added, 259 removed (total 522)
+
+So Origins had the largest total number of changed cards as well as the largest number added, while M10 had the largest number removed. If you don't want to consider Origins a "true" core set for these purposes (because it was also introducing a bunch of new lore) then M10 also has the largest number of changed cards, and M15 added the largest number of new cards.
+It's worth noting, however, that some this is driven by changes in set size — the number of cards removed from 10th edition to get to M10 is literally larger than the total number of cards in many of the more recent core sets.
+

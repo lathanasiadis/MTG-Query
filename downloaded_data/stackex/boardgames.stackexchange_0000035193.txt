@@ -1,0 +1,14 @@
+Q:
+
+Sacrificing in response to a triggered ability that would place -1/-1 counters
+
+With the new Amonkhet series, if an ETB trigger says to put -1/-1 counters on target creature you control (e.g. Baleful Ammit, Exemplar of Strength), can you in response sacrifice that creature (supposing you have a sacrifice outlet) and not put the -1/-1 counters from the triggered ability on anything? I can't seem to find any info on this anywhere in the rules.
+
+A:
+
+Yes, you can sacrifice the creature in response to targeting it with the enter the battlefield triggered ability and that will result in the ability being countered (fizzle) because it has no legal targets when it resolves and no -1/-1 counters will get placed on anything. 
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal.
+
+You should know that you must indicate that you wish to maintain priority as you identify the creature that you are targeting with the ability (e.g. "I will target my Oashra Cultivator with this ability and maintain priority. In response to the ability on the stack I will sacrifice my Oashra Cultivator"). This is more important when playing online or in formal play settings but it's a good habit to be in.
+

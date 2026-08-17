@@ -1,0 +1,19 @@
+Q:
+
+Which rule(s) govern the difference between {T} activated abilities and activated abilities that require tapping?
+
+There seems to be a difference in Magic between activated abilities with the tap symbol, and activated abilities with a cost that requires you to tap permanents, and I'm unsure which rules specifically detail this difference.
+For example: Assume I have four vampires in play and I have just used Sorin, Vampire Lord's -8 ability stating:
+
+Until end of turn, each Vampire you control gains "{T}: Gain control of target creature."
+
+I play a Captivating Vampire. Thanks to Sorin he has "{T}: Gain control of target creature." in addition to his other abilities, but I can't activate it because he has summoning sickness. For some reason, however, I can activate Captivating Vampire's second ability by tapping himself and my four other vampires. Why is this not similarly prohibited by his summoning sickness?
+
+A:
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began.
+
+So it's the tap symbol vs. the word 'tap'.
+I'm not sure why this is ruled differently; one reason could be that the tap symbol is always an ability of the creature itself, while the word 'tap' indicates an external ability. But there are (of course) exceptions: there's an Elf which allows you to tap three Elves for three green mana. It can tap itself the turn it enters the battlefield.
+But I guess one could question the origin of most Magic rules this way; for instance, why do creatures suffer from this but lands do not? (To which the answer probably is: lands are played and creatures are summoned. It does make some sense, flavour-wise.)
+

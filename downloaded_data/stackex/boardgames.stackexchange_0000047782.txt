@@ -1,0 +1,16 @@
+Q:
+
+Intentionally Fizzling Mandatory ETB Effect
+
+Can one stack several mandatory triggers on one target in such a way to make the consecutive triggers Intentionally fizzle?
+The situation is you have several mandatory ETB creatures coming into play (we'll say 4+ Acidic Slime or Indrik Stomphowler), entering at the same time from mass reanimation or something like Legion's Initiative. Your opponent for whatever reason has no valid targets, but you control 2+ valid targets.
+Are you able to minimize the loses by having all the ETB effects target a single Artifact/Enchantment? Thus the first one successfully destroys it's target and the following fail? Or must they resolve in such a way that you must target,destroy #1, new target, destroy #2, etc? 
+
+A:
+
+Yes, you can choose the same target for all the effects.
+When multiple creatures enter the battlefield simultaneously, their ETB effects all trigger at once.  The next time a player gets priority, all those abilities are placed on the stack one at a time (in the order of the player's choice or APNAP order, whichever is applicable).  Nothing resolves (and nobody gets priority) until all the 'waiting' triggers have been placed on the stack.
+Targets are selected when the spell or ability goes on the stack, as per rule 601.2c.  At that time, the chosen target must be legal, and the game does not "look ahead" to see whether or not the target will still be legal when the spell resolves before allowing you to choose the target (because, among other things, doing so would be impossible).
+
+Incidentally, this technique is rather similar to the trick of using a redirection spell to counter a counterspell by changing the target of the counterspell to the redirect.  The counterspell could not possibly counter the redirect because the redirect is going to leave the stack as soon as it finishes resolving, but until it does it is still a legal target for the counterspell (which is good, because the counterspell itself is not a legal target for itself, and there is usually only one other spell on the stack, the one that you don't want to be countered).
+

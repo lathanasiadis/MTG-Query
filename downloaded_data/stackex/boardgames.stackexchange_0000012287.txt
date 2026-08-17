@@ -1,0 +1,14 @@
+Q:
+
+Is there a way to beat Standstill?
+
+If your opponent has a standstill on an otherwise empty board, is there a way to remove it without your opponent drawing cards?
+krosan grip doesn't work because split-second doesn't apply to triggered abilities, and stifle or trickbind don't work either, because they themselves will trigger the ability.
+
+A:
+
+You need to look for abilities that can be activated from places other than the 'field, since abilities don't trigger Standstill.
+You can cycle Resounding Wave targeting Standstill and a land, as cycling is an activated ability it won't cause Standstill to trigger.
+
+702.28a Cycling is an activated ability that functions only while the card with cycling is in a player’s hand. “Cycling [cost]” means “[Cost], Discard this card: Draw a card.”
+

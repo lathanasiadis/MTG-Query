@@ -1,0 +1,23 @@
+Q:
+
+Returning cards to their owner's hands in MTG
+
+So I have two cards that say "Return two target creatures to their owner's hands," but there is no target location from where those cards may be. So could I recover two creatures from exile, and put them into my hand? What about my graveyard?
+For reference, those cards are Floodwaters and Grasping Current.
+
+A:
+
+A "creature" by definition means a permanent on the battlefield. 
+
+109.2 If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+So whenever something says "Target creature", it always is referring to the battlefield.
+Whenever a spell wants to refer to a card in another zone, such as the graveyard, it will use the phrase "creature card" or "creature spell". See Reanimate as an example.
+Worth noting that there is another, somewhat redundant rule, dealing with targeting specifically:
+
+114.2 Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can't exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+This rule clarifies that if the spell isn't specific about targeting something in another zone, etc, then it can only target permanents.
+
+110.1. A permanent is a card or token on the battlefield.
+

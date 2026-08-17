@@ -1,0 +1,36 @@
+Q:
+
+Would Guttersnipe plus a cyphered card result in an infinite loop of damage?
+
+Guttersnipe says:
+
+Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.
+
+Hidden Strings says:
+
+You may tap or untap target permanent, then you may tap or untap another target permanent.
+
+Cypher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+
+and Shock deals two damage to a target opponent.
+Here's the process:
+
+Have Guttersnipe on the field.
+Play Hidden Strings; cipher it on to him.
+Play Shock instant.
+
+Because shock causes guttersnipe to deal damage, this activates the cypher ability and you can now cast hidden strings, which will then cause him to deal two more damage, which allows you to cast hidden strings, which deals two damage, which allows you cast to hidden strings, which deals two damage.... and well you know where this is going.
+Does this combo work?
+
+A:
+
+No, that doesn't amount to an infinite loop, because of this term in cipher's definition:
+
+Whenever that creature deals combat damage to a player [...]
+
+(That's an extract from the reminder text, but the actual rules definition is virtually identical.)
+Combat damage is just the damage dealt during the combat damage step. In other words, it's the damage Guttersnipe would deal if you tapped it to attack, and it wasn't blocked and ended up attacking the player. The damage dealt by Guttersnipe's triggered ability does not count as combat damage, so it doesn't trigger cipher.
+Your combo would work if cipher just triggered off any damage at all, in which case it'd say this:
+
+Whenever that creature deals damage to a player [...]
+

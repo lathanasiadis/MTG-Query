@@ -1,0 +1,15 @@
+Q:
+
+If my opponent casts a spell that exiles a card with flashback from my graveyard, can I play it in response to their spell?
+
+Say my opponent casts Purify the Grave on my Rally The Peasants in my graveyard. If I have enough mana available, can I cast the Rally the Peasants in response to their trying to exile it?
+
+A:
+
+Yes. You can cast an instant whenever you have priority. All spells give all players the chance to respond to them, before they resolve. Mtg Rules:
+
+116.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+702.32a Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player’s graveyard and the other that functions while the card is on the stack. “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.
+

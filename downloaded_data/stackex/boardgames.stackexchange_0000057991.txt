@@ -1,0 +1,19 @@
+Q:
+
+How does Thespian's Stage work with Urza's Saga?
+
+Say I have a Thespian's Stage and an Urza's Saga. I copy the Urza's Saga with Thespian's Stage. It should become a Saga, if I'm not mistaken, and therefore start gaining the Saga chapter abilities. When the copied Urza's Saga hits level 3, with the trigger on the stack, I use the Thespian's Stage ability to turn the Thespian's Stage/Urza's Saga into another land. Do I still have to sacrifice the Thespian's Stage?
+I'm guessing the answer is no because there's a ruling for Urza's Saga which says:
+
+Even though Urza's Saga is a land, it is also still a Saga, and it will be sacrificed after its last chapter ability resolves.
+
+And if I turn Urza's Saga into another land, then it is no longer a Saga (but the third chapter ability otherwise resolves as normal).
+
+A:
+
+No, you won't have to sacrifice the Thespian's Stage, but it will retain both the added abilities, and the lore counters.
+Rule 715.4 covers sacrificing a Saga once the number of lore counters exceeds the final chapter number, and has the requirement that the Saga permanent doesn't have an chapter ability currently on the stack, as the Thespian's Stage can respond to the triggered ability while it is still on the stack it will stop being a Saga before the final ability resolves.
+Notably, because the lore counters remain, if the same Thespian's Stage was used to copy another Urza's Saga if would immediately be sacrificed.
+
+715.4. If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.
+

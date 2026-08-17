@@ -1,0 +1,40 @@
+Q:
+
+Bloodlord of Vaasgoth plus Warstorm Surge, then casting a vampire creature spell
+
+I run vampire tribal and have a stack related question.
+I have a Bloodlord of Vaasgoth and Warstorm Surge in play, my main phase I cast a Vampire Nighthawk from my hand, here is my issue, how does the order resolve.
+In my knowledge I believe this is the proper scenario or I hope it is at least.
+
+Cast Vampire Nighthawk.
+Bloodlord triggers and gives it bloodthirst 3.
+As Nighthawk enters Warstorm Surge puts its trigger onto the stack dealing 2 damage to a target I choose (an opponent).
+Warstorm Surge resolves and my opponent takes 2 damage.
+Vampire Nighthawk resolves entering the battlefield, bloodthirst 3 activates due my opponent taking damage and gives the Vampire Nighthawk 3 +1/+1 counters.
+
+Again this is only my understanding and my hope of how it goes and just using sense of how things trigger and react to one another.
+
+A:
+
+This is incorrect; the damage will be dealt too late for Bloodthirst.
+You were right up to a point... but Warstorm Surge triggers on a creature entering the battlefield, meaning that it will not trigger until after Vampire Nighthawk is on the battlefield, completely done resolving.
+Note that Bloodthirst creates a replacement effect, that changes how a creature enters the battlefield. It does not do anything once the creature is on the battlefield.
+The actual order of events, assuming that both players pass priority when they can.
+
+Cast Vampire Nighthawk.
+Bloodlord of Vaasgoth's ability triggers.
+Bloodlord of Vaasgoth's ability resolves, giving Nighthawk Bloodthirst.
+Vampire Nighthawk resolves; entering the battlefield - its bloodthirst doesn't do anything because an opponent was not dealt damage.
+Warstorm Surge triggers.
+Warstorm Surge resolves, dealing 2 damage to your opponent (or any target).
+
+Bloodthirst rules:
+
+702.53a Bloodthirst is a static ability. "Bloodthirst N" means "If an opponent was dealt damage this turn, this permanent enters the battlefield with N +1/+1 counters on it."
+
+We know this is a replacement effect because of:
+
+614.1c Effects that read "[This permanent] enters the battlefield with . . . ," "As [this permanent] enters the battlefield . . . ," or "[This permanent] enters the battlefield as . . . " are replacement effects.
+
+To do what you want, Bloodthirst would need to be a triggered ability instead of a replacement effect; and it would also have to be worded in such a way as to avoid having an intervening if clause so that the condition would only be checked when it resolves (rule 603.4).
+

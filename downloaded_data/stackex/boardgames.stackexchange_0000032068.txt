@@ -1,0 +1,13 @@
+Q:
+
+Why does Spell Queller prevent spells from resolving?
+
+Why when a spell get "Spell Quellered" the spell does not resolve, even though it's not written that it "counters" but instead "exiles" the spell? Is there a special ruling or am I missing something? (I'm still kinda new to Magic.) I've been told numerous time that a card effect still resolves (if not countered) even if it's removed from the stack, like for example if I play Stasis Snare on a creature that has a "enter the battlefield" effect that effect will still resolve unless it is "countered."
+
+A:
+
+Spell Queller exiles the spell itself. The other situation you're talking about is removing the source of an ability on the stack, while leaving the ability there on the stack.
+Spells and abilities can only resolve if they're on the stack. So when Spell Queller exiles a spell, it's just gone. There's nothing there to resolve anymore.
+On the other hand, if your opponent casts a creature with an "enters the battlefield" ability, say Ulrich of the Krallenhorde, we're talking about two objects: Ulrich himself (a creature on the battlefield), and its ability (on the stack). The two are independent. If you actually removed the ability, say by casting Summary Dismissal, then it wouldn't resolve. But if you remove Ulrich, the ability is still there to resolve and give the targeted creature +4/+4.
+Same goes for activated abilities, like Thermo-Alchemist's ability to deal one damage to each opponent. If you remove the Thermo-Alchemist, the ability is still there to deal you damage.
+

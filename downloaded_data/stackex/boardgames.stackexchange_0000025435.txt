@@ -1,0 +1,59 @@
+Q:
+
+What pauper cards are legal in MTGO but not paper?
+
+I am trying to collect most cards relevant to pauper. All cards that have ever been printed at the common level on paper are legal for pauper, except for 10 cards on the pauper ban list.
+Because MTGO pauper is more popular than paper pauper, and because it is so easily available electronically, it is easy to find data and analysis on the most frequently used cards in pauper. I did this.
+The problem is that there are some cards, such as Chainer's Edict, that are common on MTGO but have never been printed as paper commons. They are therefore not legal for play with paper pauper.
+Is there a list maintained of cards printed at common for MTGO, but not paper? If so, please provide link. If there is no such list but it turns out to be very few cards, then the answer should contain that short list of cards, followed by "as of x date."
+Note: For the exact opposite list of cards, see: What pauper cards are legal in paper but not MTGO
+
+A:
+
+I have a program that lets me do weird queries, this was an interesting one to code.  Here are the results:
+Adarkar Sentinel                  Addle                             Aeolipile                         
+Afterlife                         Alluring Scent                    Anaba Ancestor                    
+Anaba Spirit Crafter              Armored Griffin                   Arrogant Wurm                     
+Balduvian Conjurer                Barktooth Warbeard                Battle Screech                    
+Beetleback Chief                  Bone Flute                        Brass Man                         
+Brilliant Plan                    Brindle Shoat                     Chainer's Edict                   
+Circular Logic                    Citanul Druid                     Claws of Wirewood                 
+Coal Golem                        Dauthi Mercenary                  Death Spark                       
+Demonic Torment                   Desperate Charge                  Drift of the Dead                 
+Ebony Horse                       Elephant Guide                    Elven Lyre                        
+Exile                             Fellwar Stone                     Feral Thallid                     
+Fire Drake                        Flying Carpet                     Foul Spirit                       
+Gilded Light                      Glasses of Urza                   Goblin Commando                   
+Goblin Firestarter                Goblin General                    Gravebind                         
+Heavy Fog                         Hunting Cheetah                   Hyalopterous Lemure               
+Icatian Lieutenant                Icatian Phalanx                   Icequake                          
+Icy Prison                        Ironhoof Ox                       Jedit Ojanen                      
+Jerrard of the Closed Fist        Just Fate                         Killer Whale                      
+Kjeldoran Elite Guard             Kjeldoran Skycaptain              Knights of Thorn                  
+Kobold Taskmaster                 Lady Orca                         Lava Flow                         
+Lesser Werewolf                   Library of Leng                   Lightning Blow                    
+Mana Prism                        Mightstone                        Mistmoon Griffin                  
+Oasis                             Obsianus Golem                    Ogre Taskmaster                   
+Onulet                            Peach Garden Oath                 Phantasmal Forces                 
+Phantasmal Mount                  Phantom Monster                   Predatory Nightstalker            
+Primal Clay                       Ramirez DePietro                  Red Cliffs Armada                 
+Righteous Avengers                River Merfolk                     Rockslide Ambush                  
+Roots                             Royal Trooper                     Sea Sprite                        
+Shield Sphere                     Shu Elite Companions              Shu General                       
+Shu Soldier-Farmers               Shyft                             Sir Shandlar of Eberyn            
+Sivitri Scarzam                   Skirge Familiar                   Skirk Drill Sergeant              
+Slashing Tiger                    Sol Grail                         Soltari Emissary                  
+Spoils of Victory                 Strategic Planning                Tangle                            
+Tawnos's Wand                     Telekinesis                       Thallid Devourer                  
+The Lady of the Mountain          Thermokarst                       Thrull Retainer                   
+Tobias Andrion                    Torsten Von Ursus                 Tribute to the Wild               
+Trip Wire                         Wall of Kelp                      Wall of Light                     
+Wanderlust                        Warp Artifact                     Wei Elite Companions              
+Whiteout                          Wu Longbowman                     
+
+EDIT: forgot Tempest Remastered:
+Armor Sliver                      Barbed Sliver                     Bottle Gnomes                     
+Elven Rite                        Horned Sliver                     Mnemonic Sliver                   
+Patchwork Gnomes                  Skyshaper                         Staunch Defenders                 
+Telethopter                       Verdigris                         Whispers of the Muse     
+

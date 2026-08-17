@@ -1,0 +1,29 @@
+Q:
+
+What's actually good against Jund?
+
+"Jund" is the red-black-green shard from Shards of Alara.
+More importantly, however, it's a term for a midrange archetype in those colors, using a mixture of quick disruption, multi-faceted removal, and powerful creatures, with lots and lots of 2-for-1s, via cards like Bloodbraid Elf, Hymn to Tourach, or Thragtusk. This is clearly a powerful strategy since we've seen periods where Jund decks were ascendant in Standard, Extended, Modern, and Legacy — often multiple formats at the same time!
+Magic pros have said things like, "Jund is at best 55% and at worst 45% against everything." Still, having a "55%" matchup against Jund is much better than a "45%" matchup; and when Jund decks are powerful, it's useful to at least have a good sideboard plan against the deck.
+For example, the Jund Standard decks at Pro Tour Gatecrash featured these elements:
+
+Hand disruption: Liliana of the Veil, Rakdos's Return, Duress
+Resilient threats: Thragtusk, Garruk, Primal Hunter
+Powerful removal: Dreadbore, Abrupt Decay, Victim of Night, burn spells
+Plentiful sources of card advantage: Thragtusk, Huntmaster of the Fells, Olivia Voldaren, Mizzium Mortars, Rakdos's Return
+Incidental lifegain on cards that are great even without it: Thragtusk, Huntermaster of the Fells
+Aggressive utility lands: Kessig Wolf Run (compare to the plentiful use of manlands in other formats)
+Occasional mana acceleration: Deathrite Shaman, Farseek, Arbor Elf
+
+What kinds of cards and strategies are particularly strong against Jund?
+("Jund" is a broad category of decks, but it is a very clear archetype. Feel free to focus your analysis on one format, e.g. Standard.)
+
+A:
+
+Jund is the prototypical midrange deck - serving as a control deck in the matchups vs. aggressive decks while playing a more aggressive role itself vs. 'true' control decks.  Unfortunately for the Jund deck, it's difficult to do both of these things at once - generally decks of this kind want to be tuned for a particular environment, and guessing wrong can be a problem for the deck.  What's more, while resilience is its strong suit, there isn't any one thing it does better than any other deck can do it, and so it's vulnerable to both ends of its range.
+This points to the core ways of dealing with it (note that I'm primarily focusing on Standard here as it's what I'm most familiar with, but most of the core concepts here should apply to other formats) :
+
+Go under it.  A deck like the Saito or Christiansen G/R decks or the 'aggro Jund' decks (which are more 3-color decks that happen to be in the appropriate colors than the sort of resilient Jund deck this post talks about) can easily kill before Jund has a good chance to establish itself, and often build enough board presence early that by the time the Jund player hits 5 mana and starts running out Thragtusk the aggro deck is able to kill them around it.  This seems to be the preferred approach at the moment, judging by the results of the Quebec City Standard Grand Prix where the top 8 was flooded with more aggressive decks; but much of this may be a result of the Jund decks tuning themselves more against the control and midrange (including mirror) matchups than against the aggro decks (for instance, the rising numbers of Olivia Voldaren in Jund lists); I would expect this plan of attack to have more problems as the Jund decks start adapting with e.g. more Vampire Nighthawks.
+Go over it: this is the typical control approach, of course.  Right now it might be more accurate to call this plan the 'go around it' plan — the goal is to be a slower, more powerful deck than Jund by playing on axes where Jund has a harder time interacting.  The Nephalia Drownyard/Jace, Memory Adept mill plan is the perfect example of this — rather than trying to beat Thragtusks or Olivias in a fair fight, the Esper control decks just ignore them outright and go for the library.  Backed with cards like Witchbane Orb to keep the Jund deck from attacking spots where the control decks are actually vulnerable, this strategy can be a trump; typically most Jund decks have no actual defense against a mill plan.
+Another way of "going around it" is via combo — since Jund has no way (in the main deck, and very few in the board) to actually prevent its opponents from resolving spells, a deck that can win the game from any board position with a single resolved spell is a difficult matchup.  The prototypical example of this in Standard are the combo reanimator decks like Tzu Ching Kuo's from the Quebec City GP; even having its Unburial Rites discarded by Liliana or Rakdos' Return isn't a major problem, since that deck is just as happy to cast it out of the graveyard and win from there.  Birthing Pod decks in Modern work similarly, since just a single resolved Birthing Pod will generally overwhelm the Jund deck with too much card advantage to be effectively dealt with — any creature becomes a serious threat at that point.
+

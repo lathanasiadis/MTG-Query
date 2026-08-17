@@ -1,0 +1,19 @@
+Q:
+
+Which player(s) does Ragavan's ability target if the creature damages the opponent team?
+
+Ragavan, Nimble Pilferer says:
+
+Whenever Ragavan, Nimble Pilferer deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.
+
+If I were to attack with Ragavan in a two-headed giant game, I would have to declare who I am attacking. But since it's the life total of the team that decreases, I guess one could argue that both players have been dealt damage. So can I choose the player targeted by the triggered ability, or does it trigger once for each head?
+Thanks
+
+A:
+
+The relevant rule is 810.9:
+
+810.9. Damage, loss of life, and gaining life happen to each player individually. The result is applied to the team’s shared life total.
+
+So your guess "one could argue that both players have been dealt damage" is not correct; you're only dealing combat damage to one of the players, and it's only that player whose top library card you may exile.
+

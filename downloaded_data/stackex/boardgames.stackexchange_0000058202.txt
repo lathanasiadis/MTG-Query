@@ -1,0 +1,26 @@
+Q:
+
+Melek, Izzet Paragon - how does the copy ability work?
+
+I would like to understand better how Melek, Izzet Paragon works in Magic the Gathering, I am building a blue/red deck, so the first question is about this effect:
+
+Play with the top card of your library revealed.
+You may cast the top card of your library if it's an instant or sorcery card.
+
+Just to confirm, since it says "cast the top card" it means I need to pay for it's mana cost rather than casting it for free, right?
+Second one:
+
+Whenever you cast an instant or sorcery spell from your library, copy it. You may choose new targets for the copy
+
+Let's say in the battlefield, I have Viashino Pyromancer as my creature, and the top card in my library revealed is Lightning Strike, since LS is an instant, I will cast it, now for You may choose new targets for the copy, how does that work exactly?
+Does the target needs to be in the battlefield? If so, should I chose Viashino Pyromancer to be copied as Lighting Strike? if that is correct, what happens if I don't have mana to use for my clone Lighting Strike, it stays in the battlefield like an unused instant?
+Or the copy effect means I need to choose a card from my hand, if so, let's say one of my cards is Nivix Cyclops, and I decided to replace Nivix to be Lightning Strike, would this be correct?
+Or the copy effect means I can choose any create my opponent might have in the battlefield? it doesn't specify what targets I can choose
+Also, it says you may choose, so the copy effect is not mandatory, right?
+
+A:
+
+Melek's second ability allows you to cast instant and sorcery cards from the top of the library. It does not make any further modifications to the spell casting process, so you still have to pay the mana cost and do everything else that you normally do to cast a spell.
+Melek's third ability copies the spell that you cast. The copy is another instance of the same spell. It is not represented by another card, it is just an object that you remember is there. The part that says "You may choose new targets for the copy" means that if the spell is targeted, then you can change what target the copy has, or you can choose not to change it.
+For example, Lightning Strike deals 3 damage to any target. So, while casting the original spell, you choose a creature, player, or planeswalker to deal the 3 damage to. Then if Melek's ability makes a copy of it, by default the copy targets the same creature, player, or planeswalker as the original. You can change the copy's target, or leave it the same.
+

@@ -1,0 +1,31 @@
+Q:
+
+What happens when Illusory Gains is detached during combat?
+
+Player 1 has Arcades Sabboth onto the battlefield.
+Player 2 has Garna,The Bloodflame onto the battlefield.
+In Player 2's main phase, he cast Illusory Gains on Arcades Sabboth, to gain control of the Elder Dragon; and, in the subsequent combat phase, declares Arcades Sabboth as an attacker, tapping him.
+In the declaring blockers sub-phase, the defending player (player 1) summons Plaxmanta - spending green mana - thanks to his Flash Ability.
+Consequently, this question arises, which I am now going to explain in detail.   
+Since Illusory Gains' triggered ability is now on the stack, and the creature to which Illusory Gains is to be assigned is the just summoned Plaxmanta, I was wondering which of the two is the right one:
+1) Arcades Sabboth continues to be tapped and attacking, as declared by player 2 during the sub-phase, and therefore remains on his side, until the end of the combat phase; or,   
+2) Arcades Sabboth, since Illusory Gains has been "detached", is no longer under the control of player 2, and returns under the control of player 1, but tapped and removed from the fight.
+In all this situation, Plaxmanta is in any case now enchanted by Illusory Gains, and therefore it is under the control of player 2.
+But it is good to clarify whether the combat phase has significantly changed since his entering onto the battlefield, in a case like the one described.    And for this purpose my question is addressed.
+The particular dynamics of Illusory Gains, namely the fact that this card can "detach" from one creature to enchant another in various situations, makes this question a little different from various others, in my opinion.
+  Also the fact that Illusory Gains can be attached to creatures that have hexproof or shroud makes this card - and the situations related to it - really particular, and therefore it may need more explanations and clarifications from expert players.
+
+A:
+
+Number 2 is correct (Arcades is no longer attacking and returns to player 2).
+
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect
+  specifically removes it from combat, if it’s a planeswalker that’s
+  being attacked and stops being a planeswalker, or if it’s an attacking
+  or blocking creature that regenerates (see rule 701.14) or stops being
+  a creature. A creature that’s removed from combat stops being an
+attacking, blocking, blocked, and/or unblocked creature. A
+  planeswalker that’s removed from combat stops being attacked.
+
+(emphasis mine)
+

@@ -1,0 +1,10 @@
+Q:
+
+Jhessian Thief and Aqueous Form
+
+If I have a Jhessian Thief enchanted with an Aqueous Form, and it deals damage to my opponent, do I get to Scry 1 before or after I draw a card from Jhessian Thief's ability?
+
+A:
+
+Aqueous Form's scry ability triggers when the creature attacks. Jhessian Thief's draw ability triggers when it deals combat damage to a player. Thus Aqueous Form's ability will trigger and resolve in the declare attackers step. Jhessian Thief's ability won't trigger until later, in the combat damage step.
+

@@ -1,0 +1,57 @@
+Q:
+
+How many Polyraptors?
+
+The combination of having a Forerunner of the Empire and playing a Polyraptor is pretty well known, but I have yet to understand how many you would create.
+How many Raptors would a player create before the forerunner (a 1/3 creature) dies to it's own damage? 
+How many Raptors would a player create if the forerunner had x/5 toughness before dying to it's own damage?
+I understand the Forerunner's ability is a 'may' effect but I am looking for maximum value, stopping short of infinite loops.
+
+A:
+
+If Forerunner has 3 toughness, you can get 8 Polyraptors.
+If Forerunner has 5 toughness, you can get 31 Polyraptors.
+Each time you use Forerunner's ability, your number of Polyraptors doubles, and the Forerunner and all Polyraptors takes 1 damage.  This gives us a notion of Polyraptor "generations".  Note that in each generation, all Polyraptors 5 or more "generations" old die (from also having taken 5 damage).
+Polyraptors are created 1 at a time, so when you get Forerunner's trigger, it is always at the top of the stack, meaning you have to use it then or nor at all.  There's no way I know of with just these two cards to accumulate Forerunner triggers on the stack.  Given that, you want to use Forerunner's trigger when there are as many Polyraptors as possible, namely only using the last Forerunner trigger of each generation.  This also gives us the simplest progression, since then there are no Polyraptor creation triggers on the stack when we create a new generation.
+Assuming you start with 1 Polyraptor you have the following progression (if Forerunner starts at 0 damage, it will die when the number of generations equals it's damage):
+
+Generation
+New Polyraptors
+Total Polyraptors
+
+0
+1
+1
+
+1
+1
+2
+
+2
+2
+4
+
+3
+4
+8
+
+4
+8
+16
+
+5
+16
+31 (gen 0 dies)
+
+6
+31
+61 (gen 1 dies)
+
+7
+61
+120 (gen 2 dies)
+
+8
+120
+236 (gen 3 dies)
+

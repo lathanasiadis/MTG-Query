@@ -1,0 +1,18 @@
+Q:
+
+Can you kill a Blessed Spirits with a Fiery Impulse in response to an enchantment being cast?
+
+Here's the situation: my opponent has a Blessed Spirits in play, and he he casts a Grasp of the Hieromancer targeting it.  I respond by casting Fiery Impulse, targeting the same card.  Is the Blessed Spirits destroyed?  
+I think that the answer is no, but I'm confused about the timing.  Does Blessed Spirits' ability use the stack?
+
+A:
+
+It depends on exactly what you are responding to (and if you have Spell Mastery, I'm assuming you don't for purposes of this answer). The Spirits' ability does indeed use the stack, so if you respond to that you will destroy them, if you wait for the ability to resolve but before the enchantment spell resolves it will not destroy them.
+The ability of the Blessed Spirits is what is called a triggered ability, and whenever their condition occurs they trigger and go on the stack.
+What happens when they cast the Grasp is the Blessed Spirits ability triggers and goes on the stack. The stack then looks like  this:  
+
+Blessed Spirits ability   
+Grasp of the Hieromancer targeting Blessed Spirits
+
+At this point you have to opportunity to respond with Fiery Impulse, if you do it will go on the stack on top of the Blessed Spirits ability. Since it is above the Blessed Spirits ability it will resolve first, dealing 2 damage to the Spirits. Since 2 damage is enough to destroy the Spirits they get sent to the graveyard as soon as State Based Actions are checked after the Impulse resolves. At this point the Blessed Spirits ability resolves, but does nothing since the Spirits are already in the graveyard, the the Grasp gets countered due to a lack of legal targets.
+

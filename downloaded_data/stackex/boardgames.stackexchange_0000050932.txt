@@ -1,0 +1,30 @@
+Q:
+
+Is it allowed to use Keruga as a Companion when using a split card with CMC >= 3?
+
+The situation: I am playing MTGO and I have a deck with Keruga, the Macrosage in my sideboard and Response // Resurgence in my main deck.
+Keruga, the Macrosage states the following, emphases mine:
+
+Companion — Your starting deck contains only cards with converted mana
+  cost 3 or greater and land cards. (If this card is your chosen
+  companion, you may cast it once from outside the game.)
+When Keruga, the Macrosage enters the battlefield, draw a card for
+  each other permanent you control with converted mana cost 3 or
+  greater.
+
+The problem: MTGO shows that Keruga, the Macrosage is not a valid Companion once Response // Resurgence is included in my deck, a card with a CMC of 7.
+Referencing both rules of split cards:
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from
+  previous rules. 
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and converted mana cost are
+  determined from its combined mana cost. An effect that refers
+  specifically to the symbols in a split card’s mana cost sees the
+  separate symbols rather than the whole mana cost.
+
+So it should be allowed to cast Keruga, the Macrosage as a companion in this case, correct?
+
+A:
+
+You are entirely right, there is no reason that Response // Resurgence should stop you from having Keruga as a companion. Seems like a bug in MTGO to me.
+

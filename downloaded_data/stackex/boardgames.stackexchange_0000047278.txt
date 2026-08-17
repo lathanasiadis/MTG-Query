@@ -1,0 +1,37 @@
+Q:
+
+Kasmina's Transmutation vs. Gideon Blackblade
+
+If I were to attach Kasmina's Transmutation to an opponent's Gideon Blackblade (using Teferi's Time Twist to have it ETB on their turn, for example), what would happen?
+Kasmina's Transmutation:
+
+Enchant creature
+Enchanted creature loses all abilities and has base power and toughness 1/1.
+
+Relevant bit of Gideon's text:
+
+As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.
+
+What happens?
+
+Gideon stays a vanilla 1/1 creature since he was a creature at the time
+
+Gideon loses the ability that makes him a creature, immediately stops being a creature and drops the aura
+
+Gideon stays a 1/1 until opponent's turn ends, then stops being a creature and drops the aura
+
+A:
+
+3.
+From the card ruling on gatherer:
+
+If an effect causes Gideon to lose all abilities during your turn,
+  he’s still a Human Soldier creature and a Gideon planeswalker.
+
+and
+
+If an Equipment becomes attached to Gideon while he’s a creature,
+  it’ll become unattached during the next upkeep that isn’t yours. The
+  same is true of any Auras that become attached to Gideon that can’t
+  enchant a noncreature planeswalker.
+

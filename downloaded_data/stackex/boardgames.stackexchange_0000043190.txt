@@ -1,0 +1,44 @@
+Q:
+
+Can I target Nicol Bolas, the Ravager/Arisen with its own -4 ability?
+
+Lets say I have transformed Nicol Bolas, the Ravager into Nicol Bolas the Arisen, I activate his -3 to shoot a creature or Planeswalker for 10 and pass the turn, Bolas does not take any damage so on my main phase 1 I -4 Bolas to return target creature or Planeswalker from a graveyard to the battlefield under my control.
+My question here is can I target Bolas (Bolas the Rrisen now the Ravager when it leaves play) in my graveyard and return him to play as the Ravager?
+
+A:
+
+No, you cannot target Nicol Bolas using his own ability like that.
+First, the rules for planeswalkers describe loyalty abilities as follows in rule 306.5d:
+
+Each planeswalker has a number of loyalty abilities, which are activated abilities with loyalty symbols in their costs. Loyalty abilities follow special rules: A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if none of that permanent’s loyalty abilities have been activated that turn. See rule 606, “Loyalty Abilities.”
+
+The relevant steps for activating an ability are as follows:
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 721, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made.
+
+602.2a The player announces that they are activating the ability. [...]
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+
+[...]
+
+601.2c The player announces their choice of an appropriate player, object, or zone for each target the spell requires. [...]
+
+[...]
+
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+Then, at the end of this process, the state-based action rules come into effect:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [...]
+
+704.5. The state-based actions are as follows:
+
+[...]
+
+704.5i If a planeswalker has loyalty 0, it’s put into its owner’s graveyard.
+
+So, it is only at this point, after you have finished activating the ability, that Nicol Bolas actually goes to the graveyard.
+

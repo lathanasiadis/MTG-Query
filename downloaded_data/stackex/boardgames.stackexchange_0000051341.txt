@@ -1,0 +1,30 @@
+Q:
+
+Can enchantments (briefly) go on protected creatures?
+
+Protection is an ability that grants an object or player several benefits, including:
+
+702.16c A permanent or player with protection can’t be enchanted by Auras that have the stated quality. Such Auras attached to the permanent or player with protection will be put into their owners’ graveyards as a state-based action. (See rule 704, “State-Based Actions.”)
+
+This ability is usually less relevant because when enchantment auras are cast they target, and protection prevents targeting as well. However, if an enchantment aura enters the battlefield without being cast (such as from a flicker effect or Zur the Enchanter), the comprehensive rules say:
+
+303.4f If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell ... that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+Does the "any other applicable effects" clause prevent me from putting an aura onto a protected permanent? At first I thought yes because protection specifically says 'can't be enchanted'. But then I re-considered, as I'm more leaning towards the interpretation that protection prevents ongoing enchantment, not the act of putting an enchantment onto something.
+For a specific example, if my opponent has a creature with protection from blue, and I use Brago, King Eternal to flicker a Reality Acid that is currently on the battlefield, can I choose my opponents pro blue creature to enchant with Reality Acid? Knowing that it would immediately slide off as a state based action, but me being ok with that due to Reality Acid's triggered ability.
+This question seems close: If a protection effect "doesn't remove Auras", can auras that are not cast be placed on the permanent?, but I think is subtly different as the card in question specifically removes the 'can't be enchanted' clause which is crucial to my question here I think.
+
+A:
+
+The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+Now, what is a legal object? That isn't explicitly defined, and neither is illegal object:
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+However, the same word legally is used in
+
+702.16n Some Auras both give the enchanted creature protection and say “this effect doesn’t remove” either that specific Aura or all Auras. This means that the specified Auras can legally enchant that creature and aren’t put into their owners’ graveyards as a state-based action. If the creature has other instances of protection from the same quality, those instances affect Auras as normal.
+
+which would lead me to conclude that a creature with protection from blue is an illegal target destination for a flickered Reality Acid.
+

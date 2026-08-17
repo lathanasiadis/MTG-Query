@@ -1,0 +1,20 @@
+Q:
+
+MTG charmed sleep
+
+I have a question about the card Charmed Sleep.
+The card reads 
+
+Enchant creature
+  When Charmed Sleep enters the battlefield, tap enchanted creature.
+  Enchanted creature doesn't untap during its controller's untap step. 
+
+Does that mean that creature is basically useless unless I get rid of the enchantment? From my understanding if I can 'never' untap it (unless a spell allows me to) then I can't block or attack correct?
+
+A:
+
+Your understanding is correct
+While a creature is tapped, it cannot attack, block, used activated abilities that require tapping, or pay costs that require tapping.
+There are many abilities creatures can have that do not require tapping (eg "Whenever a creature enters the battlefield, gain 1 life").  Those abilities will function normally.
+As long as a creature is enchanted by Charmed Sleep, it will not untap naturally, but other effects can untap it and allow it to be used.
+

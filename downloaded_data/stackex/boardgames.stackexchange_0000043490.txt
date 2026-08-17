@@ -1,0 +1,22 @@
+Q:
+
+Why does Rhizome Lurcher see itself in the graveyard as it enters the battlefield? (GRN spoilers)
+
+Rhizome Lurcher is a new card in Guilds of Ravnica that says:
+
+Undergrowth — Rhizome Lurcher enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in your graveyard.
+
+It has a ruling that completely surprises me:
+
+If you return Rhizome Lurcher from your graveyard to the battlefield, its undergrowth ability counts itself.
+
+OK, I'm willing to believe that. But why does it count itself? I would have thought that as it enters the battlefield it's no longer in the graveyard and would not count itself. What's going on in the rules for this interaction that have it work out this way?
+
+A:
+
+Rhizome Lurcher's ability is a replacement effect, specifically the kind described in 614.1d:
+
+Continuous effects that read “[This permanent] enters the battlefield . . .” or “[Objects] enter the battlefield . . .” are replacement effects.
+
+Replacement effects apply to an event before that event occurs. So replacement effects that modify a permanent entering the battlefield apply before it enters the battlefield. In Magic, objects can't be "between" zones or not in any zones, so in the situation in question, before the Rhizome Lurcher is on the battlefield, it is in the graveyard. So, it counts itself when counting creatures cards in the graveyard.
+

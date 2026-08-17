@@ -1,0 +1,35 @@
+Q:
+
+Does a creature block when it is declared as a blocker or when damage is dealt?
+
+Suppose the following scenario:
+It's Bob's turn. He has five open lands including a Labyrinth of Skophos and a 10/10 creature. In combat phase he declares the 10/10 creature as attacker and passes priority to Alice who now has to declare blockers.
+Alice controls Grizzly Bears equipped with Dead-Iron Sledge. She declares the Grizzly bears as a blocker for the 10/10 creature. As far as I know the triggered ability of Dead-Iron Sledge now goes onto the stack.
+I have read the rulings of Labyrinth of Skophos in the gatherer but can't seem to make sense of it:
+
+If a blocking creature is removed from combat, the creature it blocked remains blocked. Unless that creature has trample, it won’t deal combat damage.
+
+Once creatures attack or block, they remain attacking or blocking creatures through the end of combat step unless removed from combat (by Labyrinth of Skophos or a similar effect).
+
+Dont these two rulings contradict each other?
+Will Bob be able to activate the ability of Labyrinth of Skophos targeting his own creature or the grizzly bears in response in order to prevent it from dying?
+
+A:
+
+Bob can activate Labyrinth of Skophos targeting either creature, but it won't save his creature.
+Dead-Iron Sledge doesn't require the creatures to still be attacking or blocking when it resolves. It will destroy the creatures even if they have been removed from combat. It triggers when the equipped creature is declared as a blocker or another creature is declared as blocking it. After that moment, it doesn't matter at all if the equipped creature is still blocking or being blocked; all that matters is that the ability triggered. *
+So the question of when a creature stops being considered a blocker or being blocked is irrelevant to Dead-Iron Sledge; it doesn't care. But to answer that question as well:
+A creature controlled by the defending player is considered to be "blocking" from the moment it is declared as a blocker, and stops being a blocking creature if it is removed from combat. An attacking creature is considered to be "blocked" from the moment a creature is declared as a blocker for it, and remains "blocked" even if the blocking creature is removed from combat.
+In other words, there are different rules for the attackers vs the blockers. "Block" in the context of "is this creature blocked?" doesn't have the same meaning as "blocking" in terms of "is this a blocking creature?"
+
+Declare Blockers Step
+
+509.1g Each chosen creature still controlled by the defending player becomes a blocking creature. Each one is blocking the attacking creatures chosen for it. It remains a blocking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+The rulings are different because 509.1g is different than 509.1h. 509.1g says that a blocking creature stops being a blocking creature if it is removed from combat. However, 509.1h says that just because a blocking creature is no longer a blocking creature doesn't mean that the creature is was blocking is no longer blocked.
+In simplest terms, it is possible for an attacking creature to be considered blocked, but without any blocking creatures around.
+Check out Curtain of Light. This actually causes an attacking creature to become blocked without ever having a creature blocking it. This shows that there's a difference between "is blocked" and "has a creature blocking it".
+*Putting this at the bottom because it's helpful, but not necessary to the actual answer. If Dead-Iron Sledge instead said "Whenever equipped creature blocks or becomes blocked by a creature, destroy target blocked or blocking creature", then it would be different; it would matter if the creature was removed from combat, because it would be a targeted ability. When a targeted ability resolves, it checks to see if the targets are still valid. If you targeted a blocking or blocked creature that was removed from combat, then it would no longer be a valid target for the ability, so it would fizzle (leave the stack without resolving and have no effect). But instead it says "destroy both creatures", so it doesn't target anything.
+

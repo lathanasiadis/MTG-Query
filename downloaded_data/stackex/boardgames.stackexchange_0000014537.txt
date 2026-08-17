@@ -1,0 +1,15 @@
+Q:
+
+How do Platinum Angel and Darksteel Reactor interact?
+
+I have a Darksteel Reactor on the battlefield, and my opponent plays Platinum Angel. How does the Reactor's effect resolve when it hits 20 counters with the PA in the battlefield? Do I win the game or not?
+
+A:
+
+The game will be a draw. Darksteel Reactor will trigger, attempt to win you the game, and then resolve and do nothing (since you can't win the game). Once resolved, Darksteel Reactor will see that it is still in play and still has 20 counters, and it will trigger again.
+
+603.8. A state-triggered ability doesn't trigger again until the ability has resolved, has been countered, or has otherwise left the stack.
+
+This will continue without moving the game forward until a player removes either Darksteel Reactor or Platinum Angel or both. Since the game can't move forward, it is a draw.
+Note: in a multiplayer game, "You win the game" is translated as "Each opponent loses the game." So if Player A had Darksteel Reactor, player B has Platinum Angel, and player C had nothing, player C would lose and players A and B would tie.
+

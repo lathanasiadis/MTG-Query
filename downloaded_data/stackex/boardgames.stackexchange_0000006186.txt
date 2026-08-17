@@ -1,0 +1,17 @@
+Q:
+
+How should I determine how many lands of each different color to put in my deck?
+
+Situation: You've built your at least 2 color deck, know exactly what number of lands you want in it, but don't know how many to put in of each basic-land type. 
+How do pro-players figure this out? Obviously it seems like a deck that is about 50-50 color-wise would have equal numbers of each basic-land for those colors, but what if the deck is 60-40, 70-30, 80-20, etcetera? Or perhaps its a tri-color deck with a 40-30-30 or a 50-40-10 color distribution? Obviously it will depend on the mana-curve and the cards in the deck, but I'm just looking for some general guidelines.
+Not getting any land in your side-color is bad, but not getting any in your main color is even worse. How do you manage these problems to get the best chance of success?
+
+This question addresses how many lands to put in a 40-card deck, and This one addresses the general issues of building a multi-color deck but I'm specifically interested in color distribution of lands. It would be awesome if answers could address both 40 and 60 card decks. I'm talking only about basic lands, as I believe addressing the entire issue of "What lands should I put in my deck?" is far too big for one question.
+
+A:
+
+As an unscientific method for quickly throwing lands into a draft deck, I could up the number of coloured mana symbols in the casting costs of my cards, and use the results as a ratio to choose my lands.  So, if my deck has 20 white mana symbols and 10 blue mana symbols, and I need to select 17 lands, I'd typically be thinking about 11 Plains and 6 Islands.
+Though of course it's not quite as simple as that.  You also need to factor in coloured activation costs, of course; and then, consider when you need your different colours of mana.  In the example given above, if many of the white cards cost 4W or 5W, and all the blue cards cost U or UU, then evidently I need to draw my islands early and can get away with drawing plains later on.  That sounds like a pretty peculiar deck, but if for some reason it did exist you could easily be considering even 9 Islands and 8 Plains.
+Another example: suppose your deck is pretty much mono-white, with a red splash.  Your red mana symbols may be less than 10%  of your total mana symbols: you may even only have one red card!  Even so, it might not serve you well to dogmatically have 1-2 Mountains and 15-16 Plains.  12 Plains should be more than enough to run your white spells off (assuming none of them cost WWW, anyway!) and you can make up the difference with 5 Mountains, to make sure you have a good chance of playing that red spell in any game you draw it.
+Unfortunately I don't think there's any simple magic formula for answering this question: it's just the sort of thing that becomes more and more intuitive the more Magic you play.  But one last tip: if you're playing a lot of Limited games where your mana is letting you down, consider the possibility that it might not be your choice of lands that's letting you down at all - maybe you should be trying to assemble decks that are less ambitious about the range of spells they are trying to play!
+

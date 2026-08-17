@@ -1,0 +1,23 @@
+Q:
+
+Necroskitter and Everlasting Torment
+
+I am playing a game of EDH against 3 other opponents and I control an Everlasting Torment and Horde of Notions, and I have a Necroskitter in my graveyard. My opponents control a whole host of non-token creatures. If one of us were to cast a Blasphemous Act for example and I use Horde of Notions ability to bring back Necroskitter, would I then gain control of all creatures that died to Blasphemous Act?
+If so, as a bonus question: What about if they cast Anger of the Gods instead of Blasphemous Act?
+
+A:
+
+You will get back all non-token creatures killed by having 0 (or less) toughness after the Blasphemous Act thanks to the Necroskitter (unless something else prevents them from hitting the graveyard or moves them from the graveyard before your triggers resolve).
+What happens is :
+
+Someone casts Blasphemous Act.
+In response you bring back your Necroskitter with Horde of Notions
+Blasphemous Act resolves, all creatures get 13 -1/-1 counters.
+State based effects are checked, all creatures with 0 toughness or less die.
+Necroskitter triggers for each dying creature your opponents control.
+Profit!
+
+Note: while they trigger Necroskitter like any creature, you won't return token creatures because they cease to exist as soon as they enter the graveyard.
+Note 2: You also won't get the creatures if they get moved from the graveyard before your triggers resolve (it can happen depending on which player is the active player if something like a Mortus Strider dies) or if they don't get into the graveyard in the first place (for example with a Rest in Peace on the battlefield, in which case Necroskitter doesn't trigger at all).
+This doesn't work with Anger of the Gods, because it says "If a creature dealt damage this way would die this turn, exile it instead.". It works even if the damage was done in the form of -1/-1 counters. And it is a replacement effect, preventing the act of dying altogether so you don't get Necroskitter triggers at all, just like with Rest in Peace.
+

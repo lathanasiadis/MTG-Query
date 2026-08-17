@@ -1,0 +1,21 @@
+Q:
+
+What is Majestic Myriarch's power and toughness if I "eternalize" it with God-Pharaoh's Gift?
+
+I have a God-Pharaoh's Gift in play and a Majestic Myriarch in my graveyard with no other creatures on the battlefield. At the start of my combat, I use the ability of God-Pharaoh's gift to "eternalize" the Myriarch. When it enters the battlefield, what is its power and toughness?
+Based on the rulings for eternalize, I assume the Myriarch will be a 4/4 with no additional power and toughness (from gatherer, emphasis mine):
+
+The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn’t copy any information about the object the card was before it was put into your graveyard.
+The token is a Zombie instead of its other types (unlike Zombies created by an eternalize ability) and is black instead of its other colors. Its power and toughness are 4/4. These are copiable values of the token that other effects may copy.
+
+Is this correct? Does eternalize override the variable power and toughness ability of Myriarch?
+
+A:
+
+It will be a 4/4.
+As the rulings indicate, God Pharaoh's Gift's effect is a copy effect with modifications; in particular, it modifies the type, color, power, and toughness of the copy. this means that rule 706.9d applies:
+
+When applying a copy effect that doesn’t copy a certain characteristic, retains an original value for a certain characteristic, or modifies the final value of a certain characteristic, any characteristic-defining ability (see rule 604.3) of the object being copied that defines that characteristic is not copied. If that characteristic is color, any color indicator (see rule 204) of that object is also not copied.
+
+This means that Majestic Myriarch's first ability is not copied, so it is just a 4/4.
+

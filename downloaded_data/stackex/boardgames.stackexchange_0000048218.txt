@@ -1,0 +1,27 @@
+Q:
+
+Can another instant be used to buff an attacking creature, after another instant was cast that would kill the creature?
+
+Specific example: Attacking player sends a 3/2. Defending player plays Shock to deal 2 damage to the creature. Attacking player then attempts to cast another Instant which would lend the attacking creature additional +/+.
+I was under the impression the Shock would resolve first, and the attacking player can’t then buff a 3/0 creature since it would be dead. 
+
+A:
+
+The creature survives.
+Some time ago Magic followed a system where instants that did damage resolved last. That's since been changed to a simpler LIFO (last in first out) system. So what happens is:
+
+The defending player casts Shock.
+With Shock "on the stack" (i.e. before it resolves), the attacking player casts a pump spell (say, Giant Growth).
+Neither player does anything else.
+Giant Growth is the "last in" spell (the most recent one cast), so it resolves first. The 3/2 becomes a 6/5.
+And then Shock does damage. The 6/5 becomes a 6/5 with 2 damage marked on it, and lives.
+
+For this scenario to happen, the attacking player needs to do nothing ("pass priority") until the defending player casts Shock. In other words, he needs to be willing to do only three damage that combat step. The attacking player also needs to cast Giant Growth in response to the defending player casting Shock. If the attacking player lets Shock resolve, then he wouldn't be able to cast Giant Growth at all (since the creature is dead and Giant Growth needs a target). With this order, the Giant Growth never fizzles.
+An alternative way things could happen is:
+
+The attacking player casts Giant Growth before damage (presumably to do 3 more damage to opponent).
+Defending player casts Shock in response.
+Now, per the same LIFO system, Shock resolves first. The 3/2 dies, and Giant Growth fizzles.
+
+For this scenario to happen, the defending player needs to do nothing ("pass priority") until the attacking player casts Giant Growth (which the attacking player must do prior to damage assignment if he wants to use the pump spell).
+

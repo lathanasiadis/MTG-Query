@@ -1,0 +1,31 @@
+Q:
+
+Can I always sacrifice a permanent whenever I want, without anything telling me to do so?
+
+Can one sacrifice any permanent at any time for any reason, or is "permission" to sacrifice only granted by other cards?
+
+A:
+
+You can't spontaneously sacrifice a permanent. Even if you have a permanent with an ability of the form "whenever a creature dies" or "whenever a creature is sacrificed", you need to find some means of sacrificing it.
+
+There's no rule forbidding it; there's simply no rule allowing it. CR 116 itemizes what actions you can perform. When you have priority[1], you can do the following[2]:
+
+116.1a Cast a spell.
+116.1b Activate an activated ability.
+116.1c Perform certain Special Actions.
+
+115.2a Play a land.
+115.2b Turn a face-down creature face up.
+115.2c Take an action an effect previously permitted you to take at a later time (usually to end a continuous effect or to stop a delayed triggered ability from triggering).
+115.2d Take an action a static ability allows you to take to ignore the effect of that static ability for a duration.
+115.2e Exile a card with Suspend.
+115.2f Role the Planar Die.
+115.2g Turn a face-down conspiracy card face up.
+
+116.1d Activate a mana ability.
+
+As you can see, sacrificing a Permanent is not an option (unless it's part of one of the above actions (e.g. The cost to activate an ability)).
+
+There are other actions you can take (e.g. Drawing a card in your Draw Step), but they aren't actions you chose to do, so I won't bother listing them. They are itemized by CR 116.2.
+Conditions may apply.
+

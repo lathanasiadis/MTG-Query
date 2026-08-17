@@ -1,0 +1,31 @@
+Q:
+
+When does Depala's ability happen?
+
+When Depala, Pilot Exemplar becomes tapped you can reveal cards from your library and get some out of there:
+
+Whenever Depala, Pilot Exemplar becomes tapped, you may pay {X}. If you do, reveal the top X cards of your library, put all Dwarf and Vehicle cards from among them into your hand, then put the rest on the bottom of your library in a random order.
+
+Does this mean that as you tap Depala to attack you search right then, even before you tap other attackers, or can you wait until say the second main phase, after combat, to pay X and then search?
+
+A:
+
+The ability triggers and is resolved after you have declared all of your attackers, and before blockers are declared, during combat. (It won't trigger in the middle of declaring attackers.) Breaking down the Declare Attackers Step (itself the second step of the combat phase) we get:
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack.
+(skipped: most of the steps on how this plays out)
+508.1f The active player taps the chosen creatures. Tapping a creature when it’s declared as an attacker isn’t a cost; attacking simply causes creatures to become tapped.
+
+So, first, you choose all of your attackers, and they all get tapped as part of that process.
+
+508.2. Second, the active player gets priority. (See rule 116, “Timing and Priority.”)
+508.2b Any abilities that triggered on attackers being declared or that triggered during the process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+Now that you've chosen your attackers, all of the abilities that triggered during that process are put on the stack.
+So, at this point, just after all attackers are declared, Depala's ability is to be put on the stack. As it resolves, you can pay {X}, reveal the top X cards of your library, and then take the dwarves and vehicles from it and put them in your hand.
+Then you still have priority, and can still cast instants and so on — then once you've got nothing else to do, we move on to declaring blockers, then combat damage, then end of combat.
+This also means, to your specific questions:
+
+You don't tap Depala as an attacker, use her ability, then declare more attackers. All attackers are already declared.
+You do not and cannot wait until after combat. The ability is triggered and resolves right there in the middle of combat, after declaring attackers, and before moving on to declaring blockers.
+

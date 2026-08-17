@@ -1,0 +1,19 @@
+Q:
+
+Do I get more cards if my hand is empty at the end of my turn?
+
+What do I do if I have zero cards left in my hand at the end of my turn?  Do I wait until the end of my turn then draw the usual one card at the beginning of my next turn or do I draw a new seven card hand?
+
+A:
+
+When you get to your draw step, you must draw a single card, unless some effect lets you draw more or less. If you attempt to draw a card when your library is empty, you lose the game.
+Even if your hand is empty, the rules remain the same, and you still only draw one.
+Here is how the comprehensive rules states it.
+
+The draw step is the third step of the beginning phase.
+
+Draw Step
+504.1. First, the active player draws a card. This turn-based action doesn't use the stack.
+504.2. Second, any abilities that trigger at the beginning of the draw step and any other abilities that have triggered go on the stack.
+504.3. Third, the active player gets priority. Players may cast spells and activate abilities.
+

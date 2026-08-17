@@ -1,0 +1,22 @@
+Q:
+
+How should I determine whether a deck is legal in a particular format?
+
+I have a list of cards for a deck I want to build or buy. What should I do to check whether that deck is legal in a particular format (Standard, for example)?
+
+A:
+
+When checking whether a decklist is legal in a particular format, you should follow these steps:
+
+Check that every card in your deck has a non-silver border or no structured border, rounded corners, and a normal card back, and that they are sleeved if you can tell any of them apart from the back.
+Check that your deck follows the deck construction rules for your particular format. Most formats follow the general deck-building rules laid out in the Comprehensive Rules 100.2-100.5. Some formats have additional constraints though. Highlander, for example, requires that each deck have at least 100 cards (as opposed to the usual 60), and that you have only one of each card that's not a basic land.
+Determine what sets are legal in your format, and make sure that each card has been printed in a legal set. The version of the card that you use doesn't have to be from one of those sets, as long as it was once printed in that set. Standard, for example, only allows cards from the last couple of years (with some exclusions), but if one of those sets contains a card originally printed in Beta, you can play the Beta version.
+Check the ban list for your format and make sure that none of those cards are in your deck.
+Check the restricted list (found on the same page as the ban list) for your format and make sure that your deck has no more than one of each of those cards. Note that currently, only Vintage has a restricted list.
+
+Websites exist that will help you determine your deck's legality automatically. A few popular examples are:
+
+deckstats.net
+deckbox.org
+tappedout.net
+

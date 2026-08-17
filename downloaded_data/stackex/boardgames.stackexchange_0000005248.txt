@@ -1,0 +1,81 @@
+Q:
+
+Why was Gifts Ungiven so popular?
+
+Back in Kamigawa Block, Gifts Ungiven was a very popular card, showing up in a good percentage of blue decks.  I don't understand why it's considered useful.  What made this card so popular?
+
+A:
+
+The short version
+Gifts Ungiven was — and is — popular because it's one of the most powerful and flexible tutor cards in Magic, thanks to its ability to find multiple relevant cards for just 4 mana, at instant speed. In practice, the card is much more powerful than it looks:
+
+The opponent's choice is not a meaningful disadvantage: it's easy to render the opponent's choice practically meaningless, using functional equivalents or Regrowth effects.
+Putting cards in your graveyard is actually a desirable feature of the card, not a disadvantage: it's fairly easy to build decks that efficiently reuse cards in your graveyard; it's very easy to cheat on costs when you do that, too.
+Tutoring for multiple cards is super-powerful: Gifts is exceptionally good at setting up combos and engines.
+
+The long version
+Gifts Ungiven isn't just any tutor card. Sure, it costs the same as Diabolic Tutor, with the following added bonuses:
+
+Gifts is an instant-speed tutor in blue, the best "draw-go" color. You don't have to tap out on your own turn to cast Gifts. Instead, you can keep your mana open, ready to counter any important plays your opponent makes, and then play Gifts whenever it's convenient.
+Gifts gives you more than one card. That's always good, right?
+
+So, it's at least as good as Mystical Teachings (also an instant-speed tutor with built-in card advantage — one that saw tournament play during Time Spiral Standard and later in Modern). But it's way better than that, too!
+Gifts give you four cards. Not two cards, four cards — it's just that two of them will end up in your graveyard. And you get all those cards at the same time, which makes it an amazing combo tutor.
+Your opponent gets to control which cards go where, but, with careful deck-building and skillful play, you can get much more power from the card by effectively removing your opponent's meaningful choices.
+Functional equivalents
+At the least, Gifts allows you to tutor for four cards and get the third and fourth best ones for the current situation into your hand. That's pretty powerful by itself, though it relies on building a deck that even has a third and fourth best card for many situations.
+An easy way to get that effect is to run one-ofs of a bunch of very similar cards, so that your "third best" card is basically the same as your "best" card. Here's the classic example:
+(I'm using general examples rather than all Kamigawa-block ones because it's much easier to think about what's good in general Magic than in the rather idiosyncratic world of any set's Block Constructed.)
+ 
+ 
+Two of those cards will end up in your hand. Three of them are 4-drop sweepers. So, whatever your opponent picks, you're guaranteed at least one sweeper in your hand. (The fourth card could be anything, in this case — Path to Exile just fits because you can use it to answer a creature your opponent plays after the wrath.)
+Regrowth effects
+Running lots of functional equivalents takes up a lot of space in your deck. This isn't too bad for the sweepers example above, since decks often run three of four wraths anyway. When you've got one particular, functionally-unique card you really want, though, or a niche case where you'd only run a one-of.
+A common solution is to run "Regrowth" effects, forcing your opponent to choose between the card you want and a card that'll fish it out of your graveyard.
+An example from the Kamigawa era is Frank Karsten's 2005 Worlds (Standard) deck. Let's say Frank's opponent has an artifact that needs to be removed right away. The deck has one maindeck answer — Putrefy. Here's a way he could tutor it with Gifts:
+ 
+ 
+Recollect gives you Putrefy back in hand. Reclaim can put it on top of your library; you could either cast Reclaim on your upkeep and draw the card naturally, or use the Top to bring the card to your hand. Your opponent can make you spend a couple of cards and some extra mana to cast Putrefy, but, short of graveyard hate, he can't keep you from casting it.
+An easy way to get the same effect with more recent cards, without even having to run green mana sources, is to include Snapcaster Mage and Noxious Revival in your Gifts pile.
+Card you just want in your graveyard anyway
+Hopefully you saw that this is where we were going when I mentioned Snapcaster.
+The graveyard is a very active zone in Magic. So much so that some cards are actually at their most powerful in the 'yard. Kenji Tsumura's 2005 Pro Tour Los Angeles (Extended) deck includes Darkblast and Life from the Loam, whose Dredge ability helps power up his Psychatogs; as well as Wonder, whose in-your-graveyard ability is more relevant than the creature itself.
+Flashback cards are great to tutor up with Gifts — whether they go in your hand or the graveyard, you can cast 'em either way. In addition, it's important to note that this is a valid Gifts pile:
+ 
+That's it! Just two cards.
+
+701.14b If a player is searching a hidden zone for cards with a stated quality, such as a card with a    certain card type or color, that
+  player isn’t required to find some or all of those cards even if
+  they’re present in that zone.
+
+(The "stated quality" in this case is "different names".)
+Since your opponent must choose two cards to go in your graveyard, both of these will end up in your 'yard. At which point you can flashback Rites and bring out your big reanimated finisher. It's the best graveyard-filling tutor this side of Entomb!
+I believe the first example of using Gifts like this was actually during Kamigawa block. During one of the Pro Tour matches, a player was about to lose the game but had Goryo's Vengeance and Gifts in hand. So he Gifts-ed for just Kokusho and then let him die to drain his opponent.
+Combos and engines
+You know how Tooth and Nail is so good because you can dig out both pieces of a combo at the same time?
+Gifts does that as well. It's especially easy with graveyard-based engines. For example, Patrick Chapins' 2008 Pro Tour Berlin (Extended) deck could set up his win condition using something like this:
+ 
+ 
+Regardless of which card goes where, this sets up an engine that lets you make a bunch of Worm tokens every turn.
+Plain old deception
+Setting up "no-win scenarios" for your opponent is powerful and consistent, but sometimes you don't even need to do that.
+For instance, let's say you have Urza's Mine, Urza's Tower, Steam Vents, and two Izzet Signets in play (five mana total, but one land away from completing the UrzaTron).
+You show me this Gifts pile:
+ 
+ 
+Now, I do have real, serious choices here.
+
+If I let you complete your Tron with the Power Plant, you might cast something nasty next turn — or have nothing to do with all your mana.
+If I give you Through the Breach, you could crush me with an Eldrazi next turn, but only if you have one in hand.
+If I give you Emrakul, it might sit uselessly in your hand for a number of turns. Or you might be sanbagging a Power Plant already in hand, ready to ramp you all the way to 15 mana in a couple more turns.
+
+There are right choices and wrong choices, but they're based on hidden information. If I guess wrong, you're probably won the game. You're taking a chance when you do this, of course, but it's a chance with a big upside.
+Another common way to play mind games with your opponent is to use the Regrowth trick detailed above, but then regrow some other card that was already sitting innocuously in your graveyard.
+What a truly busted Gifts deck looks like
+Did you know that Gifts Ungiven is restricted in Vintage and banned in Commander? Do you ever wonder why?
+Look at this deck (more discussion available here).
+ 
+ 
+Gifts gets so much better with a deeper card pool: there are more ways to cast stuff from your graveyard, more functional equivalents to choose from, more powerhouse "silver bullet" singletons, more two-card combos.
+In the right deck, Gifts Ungiven is a one-card combo, an obscene card advantage engine, and every kind of disruption you need to win the game.
+

@@ -1,0 +1,18 @@
+Q:
+
+Does trample damage trigger the ingest ability?
+
+I have an Eldrazi deck that has creatures with the ingest ability:
+
+Whenever this creature deals combat damage to a player, that player exiles the top card of their library
+
+Would trample damage activate this ability since the trample damage is done to the player?
+
+A:
+
+Per the rules on Trample:
+
+702.19a Trample is a static ability that modifies the rules for assigning an attacking creature’s combat damage.
+
+As the wording says, trample lets you assign excess combat damage to the blocking player (or planeswalker or battle). As such, it is considered combat damage, and so it will trigger ingest.
+

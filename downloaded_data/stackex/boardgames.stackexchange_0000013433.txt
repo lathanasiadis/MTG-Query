@@ -1,0 +1,28 @@
+Q:
+
+How does mana cost reduction interact with colored mana in a cost?
+
+My friends and I are relatively new to magic, and we're confused as to how mana cost reduction works — i.e. the effects which say something costs X less mana.
+Can mana cost reduction reduce the colored portion of a mana cost, or can it only reduce the uncolored portion? If so, how does it interact with the mana cost?
+I think some examples will make this clearer:
+
+Can Nemesis of Mortals potentially be free to cast, or does it always cost at least 2 green mana?
+Suppose I have Animar, Soul of Elements with two counters, meaning creature spells cost {2} less to cast. If I cast Lazav, Dimir Mastermind:
+
+Does Lazav now cost less than UUBB to cast?
+Can I choose to pay only UU to cast him, and let the discount take away the BB portion of the cost?
+Can I choose to pay UB?
+
+If I have Animar out with two counters, and I choose to cast Nemesis of Mortals instead, can I discount the forest mana and pay only the remaining 4 of any color?
+
+A:
+
+Mana cost changes affect specific elements of a mana cost only. If a reduction says “Spells cost {1} less to cast” this will only affect generic portions of a mana cost. If a reduction says “Spells cost {U} less to cast” it can make spells cost {U} less or a corresponding amount of generic mana.
+A good illustrative example is Khalni Hydra, which has a mana cost reduction specifying colored mana symbols (in this case green). This mana reduction can pay for generic mana costs (in the event an additional mana cost is added by another effect). However, the same is not true for generic cost reductions paying for colored mana symbols. This behaviour functions in exactly the same way as generally paying for spells, you can pay generic mana costs with any color of mana (or colorless) but you cannot pay color costs with colorless mana.
+To summarise, Colored mana costs can only be reduced by effects that specify they will reduce that color of mana. Generic costs can be reduced by colored mana cost reductions OR colorless ones. All of this functions just like spending mana to cast spells.
+To answer your specific examples:
+
+Nemesis of mortals will always cost at least 2 green mana.
+Lazav's mana cost will be unchanged. The mana cost reduction is colorless only, and he has no colorless mana in his casting cost.
+You could discount 2 from the generic cost, but you would still have to pay the green portion of the mana cost. If you have 2 creatures in the graveyard and Animar with 2 counters, you will get a total mana cost reduction of 4 colorless.
+

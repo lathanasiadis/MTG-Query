@@ -1,0 +1,21 @@
+Q:
+
+MTG Mirage Mirror copying Medomai the Ageless
+
+Hey guys just a quick question. Last night I played an EDH game and I have a Medomai the Ageless onto the battlefield. It's my opponent's turn and he uses Mirage Mirror to copy Medomai.
+He used Chainer, Dementia Master as the commander. So on his turn he copies Medomai with Mirror, use Chainer to bring back Gary and deals X damage to me and another opponent, he attacks my opponent with Mirage which is a copy of Medomai, the person doesn't have flying blockers so damage gets through triggering Medomai ability to get an extra turn. Then after finishing his turn he sacrifice Gary with a sacrifice outlet and Mirage Mirror becomes the artifact again. Now he starts the extra turn doing the same thing (copying Medomai, bringing back Gary with Chainer, attacking the opponent with Mirage, damage gets through and gets an extra turn, sacrificing Gary, Mirage becomes the artifact again) and the loop goes and goes.
+In this scenario Mirage Mirror copying Medomai over and over and getting combat damage through does not get affected by Medomai's second ability (Medomai the Ageless can’t attack during extra turns.)?
+
+A:
+
+"[Cardname] can’t attack during extra turns" places an attacking restriction on the card. 
+
+508.1c The active player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a
+  creature can’t attack, or that it can’t attack unless some condition
+  is met). If any restrictions are being disobeyed, the declaration of
+  attackers is illegal.
+
+Therefore, any creature with that restriction can not be declared as an attacker during extra turns. It does not matter how the extra turn was created.
+Note that Medomai has two separate abilities. They happen to work together by design (or rather against each other), but they are not connected ruleswise. 
+Now the restriction only applies while declaring attackers. If Mirage Mirror was somehow attacking before it turned into Medomai (e.g. March of the Machines), that player would continue to get extra turns from Medomai's first ability. Similarly, it will also work if Medomai or a copy thereof is put onto the battlefield tapped and attacking (e.g. Ilharg, the Raze-Boar).
+

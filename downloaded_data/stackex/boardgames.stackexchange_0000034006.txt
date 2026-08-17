@@ -1,0 +1,19 @@
+Q:
+
+Can you sacrifice Implement of Ferocity in response to a revolt trigger?
+
+Can you sacrifice Implement of Ferocity in response to a revolt trigger?
+So for example can I play a Greenwheel Liberator and then in response sacrifice the implement to give the liberator +1/+1 and then have the liberator get its own pair of counters for a total of +3/+3.
+I think the answer is yes, but wondered whether there might be some rule saying the trigger doesn't happen at all if the condition isn't met or some other tricky timing issue.
+
+A:
+
+This cannot work because the Implement of Ferocity can only be activated anytime you could cast a sorcery. This means it must be your main phase and the stack must be empty. 
+Assuming that you could activate the ability at any time it would depend on exactly how the ability is worded, in most cases you need to sacrifice the Implement before the Revolt ability would happen.
+For you example of a Greenwheel Liberator entering the battlefield, you would have to sacrifice the Implement before the Liberator enters the battlefield in order to get the Revolt effect. Also note that the Liberator doesn't have a triggered ability it has a replacement effect that modifies how it enters the battlefield.
+For triggered abilities like Airdrop Aeronauts or Call for Unity you also need to sacrifice the Implement before the trigger condition would occur. This is because they have what is called an 'intervening if clause'and if the 'if' clause isn't true nothing happens.
+
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing.
+
+For instants and sorceries with Revolt, like Fatal Push you can sacrifice them after they have been put on the stack and still get the Revolt effect. This is because the Revolt condition isn't checked until the spell goes to resolve, unlike the other types of Revolt abilities.
+

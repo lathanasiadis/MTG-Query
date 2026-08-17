@@ -1,0 +1,28 @@
+Q:
+
+Mirage Phalanx and Aurelia, the Warleader
+
+If Mirage Phalanx soulbounds with Aurelia, the Warleader can it produce infinite combats? Does the legend rule remove the old copies of Aurelia in time for the soulbonding with the new copy to happen?
+
+A:
+
+The original Aurelia is still paired with Mirage Phalanx when the copy enters play. This is because the "legend rule" that destroys the original Aurelia is a state-based action (specifically, rule 704.5j). Rule 704.3 describes the timing of state-based actions:
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+704.4 Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+
+The copy effect is resolved and the copy enters play before the active player gets priority. But soulbond requires the creature to be unpaired at the moment the other creature enters play:
+
+702.95a ... “Whenever another creature enters the battlefield under your control, if you control both that creature and this one and both are unpaired, you may pair that creature with this creature for as long as both remain creatures on the battlefield under your control.”
+
+So the full sequence of events is:
+
+Mirage Phalanx's ability starts resolving, putting a token copy of Aurelia into play.
+
+Mirage Phalanx's triggered soulbond ability sees the token enter the battlefield, but since Mirage Phalanx is still paired with the original Aurelia, it does not trigger.
+
+The ability finishes resolving.
+
+The active player (you) would gain priority, so the game checks for state-based actions. It sees the two Aurelias and removes one by the legend rule.
+

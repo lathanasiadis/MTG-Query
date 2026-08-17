@@ -1,0 +1,22 @@
+Q:
+
+Is the ability of Sphinx of New Prahv cumulative?
+
+The passive ability says
+
+Spells your opponents cast that target Sphinx of New Prahv cost {2} more to cast.
+
+If I have two copies in play, does the opponent has to pay {4} extra to target one Sphinx with a spell?
+
+A:
+
+No, just {2}; in this case, Sphinx of New Prahv refers only to itself. (Also, if the card's name somehow changes, it would still refer to itself.) The relevant rule is
+
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+It would be different ({4}) if the card would read
+
+Spells your opponents cast that target a card named Sphinx of New Prahv cost {2} more to cast.
+
+but it doesn't.
+

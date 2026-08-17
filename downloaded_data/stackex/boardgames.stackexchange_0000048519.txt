@@ -1,0 +1,32 @@
+Q:
+
+Can doublestrike kill a creature with totem armor?
+
+The Battlefield
+My opponent has a 3/3 creature in play, enchanted with a Mask token from Estrid, the Masked's -1, which grants the creature totem armor:
+
+If enchanted permanent would be destroyed, instead remove all damage from it and destroy this Aura.
+
+I have Samut, Voice of Dissent in play, who is a 3/4 with doublestrike.
+It's my turn and we move to combat. I attack his planeswalker, and my opponent blocks with the enchanted 3/3 creature.
+My opponent told me that Samut first would kill the 3/3 creature with her first strike, removing the Aura token instead, and then swing again killing the 3/3 creature. Is that correct?
+Research
+The rulings of 7/13/2018 from Estrid mention:
+
+If a permanent enchanted with an Aura that has totem armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness) totem armor’s effect will replace all of them and save the creature.
+
+Does doublestrike count as multiple state-based actions at the same time? If so, the ruling of my opponent would've been wrong, and the totem armor would've saved his creature altogether. Right? Or am I missing something here? Any clarification would be greatly appreciated.
+
+A:
+
+Yes, a creature with doublestrike can kill a creature with totem armor in combat.
+In a combat phase that involves first/double strike creatures, there is an additional combat damage step. In the first, only creatures with first/double strike deal damage, so the 3/4 deals 3 damage to the 3/3. Players then get a round of priority, which means state-based actions are checked and the 3/3 that received lethal damage dies. Totem armor replaces that death and, unlike with regeneration, the 3/3 remains in combat. In the next damage step, the 3/3 and the 3/4 deal damage to each other and the 3/3 creature dies for good.
+
+Combat Damage Step
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage.
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously.
+510.3. Third, the active player gets priority.
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step.
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+

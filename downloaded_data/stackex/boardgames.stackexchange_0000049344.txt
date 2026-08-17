@@ -1,0 +1,17 @@
+Q:
+
+MTG - Priority and timing between activated abilities and instants
+
+If I have got a creature with "inflatable abilities" - just like Frozen Shade, or Granite Gargoyle - I want to know what happens when activating it. Since inflatable abilities are activated abilities, if I activate three times Granite Gargoyle's ability ({R}: +0/+1 until end of turn) in response to each other, they go on the stack one after the other, and my opponent may respond to this with a Shock targeting the Gargoyle. So, in such a situation, the Gargoyle dies, and goes to the graveyard  before his ability comes to rescue. Is this correct?
+
+A:
+
+Yes, there's not much difference between activated abilities and instants in this particular case. If you look at the Comprehensive Rules, you'll see that they are treated similarly, e.g. in rule 405:
+
+405. Stack
+405.1. When a spell is cast, the physical card is put on the stack (see rule 601.2a). When an ability is activated or triggers, it goes on top of the stack without any card associated with it (see rules 602.2a and 603.3).
+405.2. The stack keeps track of the order that spells and/or abilities were added to it. Each time an object is put on the stack, it’s put on top of all objects already there.
+405.4. Each spell has all the characteristics of the card associated with it. Each activated or triggered ability that’s on the stack has the text of the ability that created it and no other characteristics.
+
+In this case, you're better off activating the Gargoyle's ability once, and let it resolve before activating it again. If your opponent responds with Shock, you can respond to that with activating the ability again, saving the Gargoyle.
+

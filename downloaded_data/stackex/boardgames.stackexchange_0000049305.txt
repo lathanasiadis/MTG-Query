@@ -1,0 +1,16 @@
+Q:
+
+Does the Changeling ability count for Happily Ever After?
+
+In Magic: The Gathering, there is a card that allows you to win automatically if you meet 3 specific conditions, one of which this question is about. On the card Happily Ever After, it states that if there are six or more card types among permanents you control and/or cards in your graveyard (and the other conditions), then you win the game, but I am unsure if specific creature types count. The MTG Gatherer states that supertypes (such as legendary) do not count but I do not know if creature types count.
+
+A:
+
+No, that won't work. Creature types are subtypes and not card types.
+
+205.2a The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard. See section 3, “Card Types.”
+205.3a A card can have one or more subtypes printed on its type line.
+205.3m Creatures and tribals share their lists of subtypes; these subtypes are called creature types.
+
+In regular games, you'll only see artifact, creature, enchantment, instant, land, planeswalker, sorcery, and finally tribal (which is never encountered alone, but always in combination with another card type).
+

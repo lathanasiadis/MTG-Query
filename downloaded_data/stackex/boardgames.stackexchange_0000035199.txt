@@ -1,0 +1,15 @@
+Q:
+
+Interaction with "with power 2 or less"
+
+The Pathmaker Initiate ability can target creatures with power 2 or less. Can this creature then have its power grow beyond 2 through other means, while still keeping the benefits from the Pathmaker Initiate?
+For instance can I target the Graceful Cat and then turn it into an unblockable 3/3 this turn?
+
+A:
+
+Yes. The restriction "with power 2 or less" is something that restricts the valid targets of the ability. As long as the creature has power 2 or less when you activate the ability, and also when the ability resolves, then the ability happens, and the creature cannot be blocked this turn. It doesn't matter what happens to the creature's power after that.
+To have the sort of restriction you are thinking of, the ability would need to be something along the lines of "target creature cannot be blocked this turn as long as its power is 2 or less".
+Here is the Gatherer ruling on Pathmaker Initiate:
+
+If the creature’s power is greater than 2 as the activated ability tries to resolve, the ability will be countered and none of its effects will happen. However, if instead the creature’s power is raised above 2 after the ability resolves, it still can’t be blocked that turn.
+

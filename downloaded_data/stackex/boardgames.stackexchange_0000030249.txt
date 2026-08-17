@@ -1,0 +1,34 @@
+Q:
+
+Do multiple instances of Arcbond stack?
+
+For example, someone deals 10 damage to one of my creature, and I have enough mana to cast two Arcbond.
+
+Choose target creature. Whenever that creature is dealt damage this turn, it deals that much damage to each other creature and each player.
+
+If I cast both Arcbond on the creature that is taking damage, will that inflict double the damage to all players?
+
+A:
+
+The effect of Arcbond stacks. If you cast Arcbond on the same creature twice, it will deal twice the amount of damage that it takes to each other creature and each player.
+The damage for each Arcbond will be dealt separately. If you were trying to force a draw by dealing 20 damage to both players, but you accidentally kill yourself after the first 10, that is too bad for you.
+Here's an example of how multiple Arcbond triggers behave:
+
+Cast Arcbond twice on a creature.
+The creature takes 10 damage.
+Both Arcbonds trigger.
+The first Arcbond trigger resolves. The creature deals 10 damage to stuff.
+The second Arcbond trigger resolves. The creature deals another 10 damage to stuff.
+
+Make sure you cast Arcbond before the creature takes damage (not after, and not at the same time). Here are a few more examples:
+
+Opponent: "Attack with my 10/10."
+You: "Block with my dude."
+Opponent:"Okay. Damage?"
+You: "Before damage, I'll cast Arcbond twice on my dude."
+
+Another example:
+
+Opponent: I'll Lightning Bolt your dude.
+You: "In response, I'll cast Arcbond twice on my dude."
+

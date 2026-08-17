@@ -1,0 +1,14 @@
+Q:
+
+Spy Kit and Leyline of Singularity
+
+Spy Kit gives a creature the names of all non-legendary creatures.  Leyline of Singularity makes all creatures on the battlefield legendary.  If I have the Leyline on the battlefield, as well as a Grizzly Bears equipped with Spy Kit and then cast Storm Crow, does Grizzly Bears lose the name Storm Crow, or is one of the two put in the graveyard because of the legend rule?
+
+A:
+
+They will conflict because of the legend rule.  Spy Kit gives a creature the names of all non-legendary creature cards that exist in Magic.  This can be found in the card ruling:
+
+The set of names the equipped creature has includes the names of all nonlegendary creature cards in the Oracle card reference, including the back faces of double-faced cards.
+
+Spy Kit is adding names based on the printed properties of those creatures, not the current properties of permanents with those names.  Storm Crow the card is not legendary, so Grizzly Bears is also named Storm Crow regardless of whether or not there is a Leyline of Singularity, and will have a legend conflict with a second Storm Crow if there is a Leyline of Singularity.
+

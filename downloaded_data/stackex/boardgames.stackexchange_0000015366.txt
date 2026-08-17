@@ -1,0 +1,17 @@
+Q:
+
+In Commander, does color identity prevent me from taking control of a different colored permanent?
+
+In trying out EDH for the first time last night we ran into a confusing issue. I was using Olivia Voldaren as my commander.
+One opponent activated Ajani Goldmane's 6 point ability to summon a white avatar creature, which I then used Olivia to vampire and steal. I think this is okay because despite being white the avatar wouldn't have any non-black, non-red dots on the face.
+I then wanted to steal another one of his creatures that was white and had white mana on the face, but I wasn't sure if this was allowed.
+So in EDH, I know that I can't construct my deck with cards outside of my commander's colour identity, but does this stop me taking control of creatures outside of my colour range?
+
+A:
+
+No, stealing an opponent's creature of any color is fine.
+The only limitations are the ones explicitly imposed by the rules:
+
+Color identity applies during deck creation. You may not put a white card or a card that uses white mana symbols in your red/black Olivia deck. (You could include a black card that creates a white token, though; or an extort card, since that's just reminder text.)
+(Historical only.) Before 2016, there was a special rule limiting how you generate mana: mana outside of your color identity would become colorless when it entered your mana pool. So if you were playing Olivia Voldaren and you would add {W} to your mana pool, you'd get colorless mana instead. This meant you would might trouble activating the abilities of some of the creatures you stole with Olivia.
+

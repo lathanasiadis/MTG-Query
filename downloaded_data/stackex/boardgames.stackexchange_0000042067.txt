@@ -1,0 +1,28 @@
+Q:
+
+What is the order of Waterfront Bouncer's ability + Basking Rootwalla + Intruder Alarm on the stack?
+
+I have some confusion about the ordering of specific triggered abilities on the stack which can be summarized with this sequence:
+
+Waterfront Bouncer (no summoning sickness) and Intruder Alarm are on the battlefield under my control. 
+Basking Rootwalla is in my hand.
+I activate Waterfront Bouncer's ability, paying the cost by tapping an Island and Waterfront Bouncer, and discarding Basking Rootwalla. 
+
+What is the order on the stack, and does Waterfront Bouncer untap? Can I target Basking Rootwalla with Waterfront Bouncer's ability?
+
+A:
+
+This is the order of events: 
+
+You announce that you wish to activate the Bouncer's ability. As part of activating the ability, you pay the costs and choose the target (which has to be on the battlefield). The Rootwalla goes from your hand into exile when you discard it, the Bouncer is tapped, and you put the ability on the stack
+The madness ability triggers, and you put that on the stack on top of the Bouncer's ability
+Each player gets the opportunity to play spells and activate abilities (a "priority wave" happens; I'll go ahead and assume that no additional spells and abilities are played, but I'll indicate where players have the opportunity)
+The madness triggered ability resolves, during which you get to choose whether to play the Rootwalla or put it into your graveyard. I'll assume you choose to play it. This makes the Rootwalla a spell on the stack, on top of the Bouncer's ability
+New priority wave
+The Rootwalla resolves, and becomes a creature on your battlefield
+The intruder alarm's triggered ability triggers, and is put on the stack on top of the Bouncer's ability
+Priority wave
+Intruder alarm resolves, untapping all creatures
+Priority wave
+The Bouncer's ability resolves, returning the originally targeted creature to its owner's hand
+

@@ -1,0 +1,31 @@
+Q:
+
+Casting instants between first strike/normal strike combat phases
+
+Let's say I have a 1/1 with first strike that's attacking and blocked by a vanilla 4/4.
+It deals first strike damage, but that's not enough to kill the defending creature. Right now, the attacking creature will have to take damage from the blocking creature.
+Before the attacking creature takes that damage, can I “finish off” the blocking creature by casting Lightning Bolt and avoid it taking damage?
+I am unsure whether,and when,a player gains priority during that step.
+What, in my opinion, distinguishes this question from the others with which it can be associated, is the exact moment in which the players have the priority to cast spells again, which I believe should be placed exactly between the conclusion of the "first strike damage assignment phase" - in which first strike creatures assign their damage - and  the "ordinary combat phase" - in which other creatures without first strike assign their damage.   
+It should be specified when players gain priority and it is possible to cast spells able to damage creatures during combat, and if it is possible to do so; and, above all, if these damages due to spells are assigned without the possibility,for creatures without first strike, to respond to them.  
+I don't think these are trivial things ...
+
+A:
+
+Yes, that's a thing you can do.
+It works out like this:
+
+The first strike combat damage step begins:
+
+All creatures with first strike or double strike assign combat damage. Your 1/1 deals its damage to the 4/4, which now has 1 damage marked on it.
+All players get priority.
+You cast a spell—Lightning Bolt—and deal 3 damage to the 4/4. It now has 4 damage marked on it and dies.
+All players (including you) choose to do nothing else, passing priority to let the next step begin.
+
+The regular combat damage step begins:
+
+All creatures still present now deal damage, except your 1/1 because it already dealt its first strike damage. The 4/4 is no longer around, so it won't do anything.
+
+Your 1/1 survives this combat.
+Naturally we'd normally see this scenario if you can't deal a whole 4 damage with any one spell or creature, but you can combine these damage sources to get the job done. However, you're also definitely not limited to eliminating the creature via damage in the middle of combat: if you have a spell like Murder or Final Reward you can also remove the creature that way after first strike combat damage and have the same outcome. You may choose to do things that way if your 1/1 has Lifelink, to gain some life before eliminating the enemy creature.
+

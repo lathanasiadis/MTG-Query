@@ -1,0 +1,30 @@
+Q:
+
+Does Rayami's ability still function if it is in a mutate stack?
+
+How do abilities that refer to their cards' names work when the name is changed, or the ability is "stolen" by a card with a different name?
+Rayami, First of the Fallen has two abilities:
+
+If a nontoken creature would die, exile that card with a blood counter on it instead.
+
+And:
+
+As long as an exiled creature card with a blood counter on it has flying, Rayami, First of the Fallen has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance.
+
+My question is related to these rules in regards to Mutate, and the "Top vs Bottom" aspect of the ability.
+If Rayami is on top, it seems unambiguous that both abilities would affect her
+If she is underneath (i.e. a Mutate creature is played onto her), it seems to me that because this creature is not named "Rayami, First of the Fallen", the second ability will not apply, but the first will (i.e. if that creature dies, it gets exiled with a counter, along with any others that die while it is on the battlefield). So the mutated creature with Rayami's abilities will not gain the abilities of cards exiled with counters on them.
+Am I reading this right?
+
+A:
+
+From the article
+
+Some creatures, like Bristling Boar above, have abilities that refer to themselves by name. Remember that from a rules perspective, a card using its own name in an ability really just means "me." For example, if Cloudpiercer ends up on top of Bristling Boar, that ability will work on the resulting creature.
+
+As per Rule 201.4:
+
+Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+From this it is clear that the second ability will apply to the resulting creature, even if it is not named "Rayami, First of the Fallen"
+

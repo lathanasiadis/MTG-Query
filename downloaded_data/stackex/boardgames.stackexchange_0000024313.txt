@@ -1,0 +1,29 @@
+Q:
+
+How does stacking and resolving work exactly?
+
+I understand that every card that is put onto the stack is resolved in the opposite order that it is put on (meaning the first card to be put onto a stack is the last one to be resolved), but here is my question.
+Say I cast a Lightning Bolt. That goes onto the stack. My opponent passes priority back to me. Then, I cast Twincast, and that also goes onto the stack. Would Twincast copy Lightning Bolt, effectively doing an additional 3 damage to my opponent?
+Or, would Lightning Bolt Resolve, do 3 damage, then Twincast would resolve and do nothing?
+
+A:
+
+Twincast copies Lightning Bolt, dealing 3 damage to whatever target you choose, then the original Lightning Bolt resolves as usual - a total of 6 damage. The first sentence of your question pretty much explains why. To be specific (and correct the detail about priority):
+
+You cast Lightning Bolt, putting it onto the stack.
+You gain priority before your opponent does. (Note that by default, it's assumed that you pass it - if you want to hang onto it, you should say so explicitly.)
+You cast Twincast, targeting Lightning Bolt. (The stack now has Lightning Bolt and Twincast on it.)
+You and your opponent both pass priority.
+Twincast resolves. It creates a copy of Lightning Bolt, optionally with a new target, and puts it on the stack. (The stack now has the original Lightning Bolt and the copy on it. Just one copy - not sure why you asked if it'd copy it twice.)
+You and your opponent both pass priority.
+The copy resolves, dealing 3 damage to whatever target you chose.
+You and your opponent both pass priority.
+The original resolves, dealing 3 damage.
+
+For the record, the relevant rules about who gets priority when:
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+
+This is slightly important in this case because it means that you have to cast Twincast before you see if your opponent wants to respond to Lightning Bolt; if you pass priority to them before casting Twincast and they do nothing, then you've both passed and Lightning Bolt will resolve.
+

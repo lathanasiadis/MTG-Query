@@ -1,0 +1,24 @@
+Q:
+
+order of attack and blocking with a creature with modifying other creature's ability
+
+Suppose a situation where you have a Paragon of Gathering Mists and another creature, say X, with 3/3 on the battlefield. PGM is 2/2 and X becomes 4/4 because of PGM.
+When I attack a player with both creatures, how is the order of fights decided?
+If X fights first, it fights as 4/4. If PGM fights first and it dies, after that X fights as 3/3, since PGM is removed and its effect is removed as well.
+
+A:
+
+Combat damage is all dealt simultaneously. They'll each deal damage equal to their power (i.e. X will deal 4 damage), then if one or both of them die, well, they die, but the damage is already dealt.
+The one exception is if the creature blocking Paragon of Gathering Mists has first strike (or double strike). Then it'll deal its damage first during the first strike combat damage step, Paragon of Gathering Mists will die, and X will immediately become a 3/3, so when deals its damage during the normal combat damage step, it'll only deal 3 damage.
+This has nothing to do with order of attacking and blocking, but for what it's worth, the steps of combat are:
+
+Beginning of combat: a last chance to do stuff (cast spells or activate abilities) before the next step
+Declare attackers: you declare your attacking creatures, all at once. (Yes, in practice you say "I attack with X and Y" but that order doesn't matter, they both attack at the same time.)
+Declare blockers: your opponent declares which of their creatures block which of your creatures, all at once.
+Combat damage: attacking creatures deal damage to blocking creatures and/or the opponent, and blocking creatures deal damage to blocked creatures, all at once. (If any of the creatures have first strike, there's a first strike combat damage step exactly like this before the normal one.)
+End of combat step: a last chance to do stuff before the second main phase.
+
+So yes, the steps go in that order, but within each step, nothing happens for one creature before another.
+I do highly recommend reading the basic rulebook. It'll help you answer a lot of basic questions like this, and it's written to be easy to understand.
+Side note: "fight" is a word with specific meaning, and has nothing to do with combat. When a card says "X fights Y" it means that X and Y deal damage equal to their power to each other, then and there, no combat, no attacking or blocking or anything.
+

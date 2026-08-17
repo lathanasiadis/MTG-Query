@@ -1,0 +1,20 @@
+Q:
+
+What is the one-turn win combination, using Zada, Hedron Grinder, that requires the least number of cards and external effects, in Modern?
+
+Having only been playing for a bit over a year I am not very knowledgeable on cards outside of standard. I recently got smashed at FNM by a Zada deck which prompted me to look into this for modern (and commander?)
+I was thinking this may involve something like Arcbond
+What is the one-turn win combination, using Zada, Hedron Grinder, that requires the least number of cards and external effects, in Modern?
+
+A:
+
+The only interesting guaranteed (assuming no external effects) one-turn win combination I can find that uses Zada, Hedron Grinder is the Arcbond combo described in this question, or some variation of it. Basically, you need the following:
+
+Zada, Hedron Grinder
+Any creature with Lifelink (e.g. Ajani's Sunstriker)
+Arcbond
+Any spell that makes a creature indestructible (e.g. Ephemeral Shields)
+Anything that deals damage to a creature (e.g. Lightning Bolt)
+
+When you control the mentioned creatures, and then cast and resolve each of those spells in turn targeting Zada, the result is an arbitrarily large amount of damage dealt to each creature and player, and the combo's controller gaining large amounts of life, until every other player has lost.
+

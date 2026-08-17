@@ -1,0 +1,16 @@
+Q:
+
+What happens when destroying something that gives flash to a spell on the stack?
+
+Say Player 1 has something like Shimmer Myr that reads:
+
+You may cast artifact cards as though they had flash.
+
+Then when that player tries to cast an artifact as an instant, Player 2 places something like Naturalize on the stack to destroy target artifact (the Shimmer Myr). What happens to the artifact being cast?  What about the mana used to cast it?
+
+A:
+
+Player 2 can't really stop player 1 from casting an artifact as if it had flash, outside of destroying Shimmer Myr while player 1 is tapped out.
+At any given time, one player has priority. If player 2 has priority first and casts Naturalize, player 1 can respond by casting an artifact. If player 1 has priority, they can cast an artifact. Once they do so, it's on the stack and it doesn't matter if player 2 casts Naturalize; the artifact has already been cast and will eventually resolve unless it's countered. 
+That is, Shimmer Myr's ability only matters while they're casting the artifact. (Same goes for flash.) You check whether you're allowed to cast a spell as part of casting it, not later, and timing restrictions are part of that.
+

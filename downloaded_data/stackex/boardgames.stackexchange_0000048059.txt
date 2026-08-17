@@ -1,0 +1,21 @@
+Q:
+
+Golden Guardian removed before death related trigger
+
+Golden Guardian says:
+
+(2): Golden Guardian fights another target creature you control. When
+  Golden Guardian dies this turn, return it to the Battlefield
+  transformed under your control
+
+If an opponent targets Guardian with a kill spell, and you activate it's ability in response; it will return transformed. That's great. 
+But if you activate it's ability to fight another creature, THEN in response your opponent kill-spells it. Does the ability fizzle or will it still revolse returning the Gaudrian to the battlefield transformed?
+
+A:
+
+Golden Guardian will stay dead.
+Since the ability doesn't resolve until after Golden Guardian dies, it won't "see" the Guardian die, and therefore won't trigger.
+There is a Gatherer ruling that states this specifically:
+
+If Golden Guardian leaves the battlefield before its activated ability has resolved, it won’t be returned to the battlefield when the ability resolves.
+

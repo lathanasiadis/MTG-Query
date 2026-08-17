@@ -1,0 +1,47 @@
+Q:
+
+How many of a legendary card should I be including in my deck?
+
+So, I am making a Magic: The Gathering cat deck for my younger sister, and I am running in to a wall with trying to narrow my 63 card deck into a 60 card deck. My biggest problem is that I have 6 really awesome planeswalkers to choose from. They are pairs of three different types of planeswalkers.
+6 planeswalkers is quite a lot for a deck. 4 seems decent. 
+There are two options I have: Get rid of one pair, (as well as another card,) or have each type of planeswalkers, but only one of them.
+BUT, you can only have one legendary card of the exact same name on the field at the same time.
+So, my big question: For legendary cards that you can only have one of on the field at a time, is it usually better to have two types of the same card, and increase your probability of picking it up, but at the risk it taking up space in your hand, and being unable to play it because it's already on the field,
+OR
+Have different types of legendary cards, meaning you could have both on the field at the same time, but it decreases your chance of picking up either one of the card, making it more unpredictable?
+Note: I do not expect people to help me pick cards to put into her deck. That’s not what I want the focus of this question to be about. But I would still gladly listen to any card suggestions. ^^
+I will provide card context into the comments below for anyone who desires to help me on my quest to make an awesome cat deck for my sister.
+I'm not 100% sure this question is suitable for this site, so just tell me if you feel otherwise.
+
+My deck list is:
+
+Lands: 21x Plains, 6x Forest
+Enchantment: 4x Compulsory Rest, 4x Anointed procession
+Creature: 4x Sacred cat, 4x Adorned pouncer, 4x Regal caracal, 4x Pride sovereign, 4x Leonin warleader, 2x Brimaz, king of oreskos,
+Planeswalkers: 2 each of Gideon, Martial Paragon (to help pride sovereign make cats), Huatli, Radiant Champion (to draw cards quicker), Ajani, adversary of tyrants (to make even more cats)
+
+A:
+
+It depends on what you want out of your legends. Sometimes the legend is so important for your deck that you're willing to risk drawing multiples of them. Other times the legend drawback is real, and you don't run four copies for exactly this reason. Some examples from recent Standard:
+Adrian Sullivan's Jeskai Control won GP Milwaukee. Note the 4x Niv-Mizzet, Parun. This is a legend, but he has four copies. Why? Lots of factors go into this.
+
+Niv-Mizzet is a fantastic win condition: if you ever untap with him, you've more or less won the game (he's even more powerful than Teferi in this regard).
+Because Niv-Mizzet is so good at winning the game, Adrian Sullivan is dedicating other cards to supporting him - note he has Dive Down to protect Niv-Mizzet from targeted removal, and Treasure Map to accelerate Niv-Mizzet onto the battlefield. These cards (especially Dive Down) are not nearly as good if the deck doesn't draw Niv-Mizzet.
+Another way of thinking about this is that, this deck wants to draw Niv-Mizzet every single game, and the obvious way to maximize that chance is to run four copies.
+
+Ari Lax's Selesnya tokens from Pro Tour Guilds of Ravnica. Note he has only three copies of Emmara, Soul of the Accord. Why? Again, many factors go into this:
+
+Emmara is a great role-player and a great body to Convoke with, but you don't need to draw Emmara. The turn after you play Emmara, you're still only convoking for one mana. If you didn't draw Emmara, you might have drawn another of the deck's 2-drops, which also convoke for the same amount. All your lose out on then is a 1/1 token - still a loss, but not a devastating one. Meanwhile if you draw Emmara without drawing a convoke card, she's not particularly good - just a 2-mana 2/2, easily prevented from attacking.
+Emmara is easily answered. Shock kill her at mana advantage (Shock costs 1 mana, Emmara costs 2). She's also fully vulnerable to all the commonly-played sweepers, from Ritual of Soot to Deafening Clarion.
+Emmara is not nearly as threatening as Niv-Mizzet. Niv-Mizzet is a removal magnet: it's fine if you can't play any more Niv-Mizzets, since if you stick a copy of him, you win. With Emmara, if she lives, the game still goes on. In this case any more copies of Emmara in hand become genuine dead cards.
+
+If you followed this, it should be clear why there're only three copies of Emmara in the Selesnya deck. The first copy of Emmara is great, but the second is not. But for the Jeskai deck, casting and protecting Niv-Mizzet is its gameplan. It wants to draw a Niv-Mizzet every game. It doesn't want to draw multiples, but if the first copy dies, it immediately wants to draw another. So it runs four copies of the legend.
+Hall of Famer Frank Karsten once wrote an article on how many copies of a card one should include in a deck. He suggests the heuristic:
+
+4 copies – You want to draw the card as often and as early as possible. The card is essential for the deck to work as it's supposed to, and you don't mind drawing multiples, even in your opening hand. You might even be happy to do so. It's rare to play legends as 4-ofs, but you can make exceptions for cards that are extremely powerful and/or removal magnets. Example: Heart of Kiran in Mardu Vehicles or Karn Liberated in Modern Tron.
+3 copies – You want to see the card at some point in the midgame, but you prefer not to draw multiples. A second copy is not necessarily dead, but it's much less valuable than the first. Most commonly, this is because the card is expensive to cast, a situational answer, and/or a non-essential legendary. Example: Kari Zev, Skyship Raider in Mono-Red Aggro or Teferi, Hero of Dominaria in U/W Control.
+2 copies – You're not excited to see the card in your opening hand, and it's not vital to your strategy. Often, the card is not much better than the alternatives, worthless in multiples, and/or crazy expensive to cast. Example: Josu Vess, Lich Knight in Mono-Black Control or Ugin, the Spirit Dragon in Modern Tron.
+1 copy – You don't want to draw the card naturally, but you want to have access to one in your deck. Most commonly, this is because it's a kill condition for strategies that see their entire deck, because you hope to mislead your opponent into thinking you're playing more copies than you actually are, or because it's a tutor target in a toolbox-style deck. For example: Elesh Norn, Grand Cenobite in Gifts Ungiven decks or Shalai, Voice of Plenty in Chord of Calling decks.
+
+On a side note: it sounds like you're including planeswalkers because they're "cool". There's nothing wrong with that, but if your aim is to make a strong deck aimed at winning, each card must have a reason for being included. Take Huatli, Radiant Champion. What does this card do for you? Does it make cats? Does it synergize with cats? Is it better than simply casting another creature like Brimaz? I'm pretty sure the answer to all these questions is "no", and so you should not be including her. There's a place for planeswalkers like Huatli, but in a deck like yours, that place is the sideboard. If you're playing against a deck with lots of Cleansing Nova and Golden Demise, then you bring her in because she's a threat that survives these sweepers. But in game 1, when many decks don't have sweepers, you're better off just casting another creature. Among the planeswalkers you listed, the only one I can see playing in the maindeck is Ajani.
+

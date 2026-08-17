@@ -1,0 +1,15 @@
+Q:
+
+Do card abilities that grant mana stack?
+
+For example, if I have a creature card that says 
+
+Creatures you control have "{T}: Add one mana of any color to your mana pool."
+
+and I have two of these creatures out, do they stack so I can tap a creature to get two mana?
+
+A:
+
+The creature has two copies of the ability to tap for mana. However each one is separately activated, and you have to pay by tapping the creature for either of them. So you get a choice: Use the first copy of the ability to tap for one mana, or use the second. You can't use both.
+So no, you only can get one mana per creature in this case.
+

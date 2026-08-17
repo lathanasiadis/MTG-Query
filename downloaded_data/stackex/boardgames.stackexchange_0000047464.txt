@@ -1,0 +1,14 @@
+Q:
+
+How to view cards in the stack below the top card in MTG Arena?
+
+Fairly often in MTG Arena, my opponent will cast a spell that triggers effects that go on top of the original spell in the stack.  How can I see the full text of the original spell or anything else below the top card in the stack?
+I need to be able to see such details to decide whether to react (e.g. cast a counterspell).  I'm not sure whether this is a design flaw or I'm just being dense.
+
+A:
+
+There are two things two answer that question:
+
+You can simply examine the cards on the stack by right-clicking on them. Then it will open in the large preview (usually on the left on the screen).
+It is nevertheless a design flaw, as the way of doing this is not very intuitive (in my point of view) and also not "real like", as it would be if the stack was unfolding while hovering over it.
+

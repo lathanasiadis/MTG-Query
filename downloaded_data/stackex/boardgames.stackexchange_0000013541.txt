@@ -1,0 +1,16 @@
+Q:
+
+Can Breath of Life Put a Discarded Creature into Play?
+
+Original versions of the white Sorcery Breath of Life read "Put target creature card from your graveyard into play." In later editions, they changed the text to read "Return target creature card from your graveyard to play."
+Was this a functional change that retroactively modified how Breath of Life works? Can I use new versions of Breath of Life to put a discarded creature card into play, or does it have to have been on the battlefield?
+
+A:
+
+It was not a functional change, you can return a creature card from your graveyard into play even if it was never in play to begin with. Though I couldn't find an exact rule describing the word "return," there is this:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+So a card in your graveyard has no possible way of knowing if it used to be on the battlefield or not, so it must be treated the same whether it was or not.
+Note also that cards may say "return target permanent to its owner's hand", and these can be used on permanents that were never in the owner's hand, such as a land that was fetched with a fetchland.
+

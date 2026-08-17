@@ -1,0 +1,16 @@
+Q:
+
+Can I target a hexproof opponent in order to trigger prowess?
+
+Let's say an opponent has hexproof due to Leyline of Sanctity.  Can I still cast a spell like Thoughtseize against them, just to let it fizzle and trigger prowess?
+
+A:
+
+No, you can't. Part of the process of casting a spell is checking whether it's legal to cast:
+
+601.2e The game checks to see if the proposed spell can legally be cast. If the proposed spell is
+illegal, the game returns to the moment before the casting of that spell was proposed (see rule
+725, “Handling Illegal Actions”).
+
+If any chosen target is illegal, the game reverts to its state right before you started casting Thoughtseize, so Prowess never triggers.
+

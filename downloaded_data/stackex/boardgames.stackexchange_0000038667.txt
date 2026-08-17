@@ -1,0 +1,31 @@
+Q:
+
+Can I give a creature spell hexproof to prevent it from being countered?
+
+The card Dive Down states:
+
+Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+
+If I cast creature and opponent casts counter, can I Dive Down on the stack to give creature hexproof?
+
+A:
+
+So if I understand correctly:
+
+You're casting a creature spell.
+Your opponent has cast Essence Scatter targeting that spell to counter it.
+You want to use Dive Down to prevent that creature spell from being countered.
+
+No, you can't do this. For a few reasons:
+
+Hexproof only functions on the battlefield. A creature card on the stack that has hexproof can still be a target of your opponent's spells. (Same for when it's in your graveyard, in exile, etc.)
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+(Anytime it's not on the battlefield, it's not a permanent.)
+Dive Down targets a "creature", which refers to only creature permanents on the battlefield. It can't target a spell — things that target creature spells say "creature spell", such as Essence Scatter.
+
+114.2. Only permanents [ed: cards and tokens on the battlefield] are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can’t exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+If you want to prevent your creatures from getting countered, you'll need effects that say your spell "can't be countered." For example, Altered Ego and Carnage Tyrant both can't be countered. Meanwhile Surrak Dragonclaw and Prowling Serpopard both grant this ability to other creature spells you cast, whilst also having the ability themselves.
+

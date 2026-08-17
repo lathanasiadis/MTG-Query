@@ -1,0 +1,18 @@
+Q:
+
+What happens if both players have the ability to pump their creature an unlimited number of times?
+
+Say that both players each had 2 Leaden Myr, 2 Myr Galvanizer, and a Nantuko Shade. (Or any other way to get unlimited mana, and a Nantuko Shade).
+Player 1 attacks with his Nantuko Shade, and player 2 blocks with his Nantuko Shade. Before damage is assigned, each has chances to pump up their Nantuko Shade as much as they want. They can't just declare them to be "infinite," but each can always one-up the other player. What happens?
+It seems there would be a loop of events, but would one player eventually be forced to break the loop as per rule 714.3? Is it considered the same game state after each player pumps their creature a bunch as it was before?
+This was discussed at length on the Draw3Cards Magic Q&A site (which is no longer available), but no conclusion was reached. Some felt that the game would simply be a draw, others felt that the active player would be forced to make a different decision to break the loop. Others felt that you would just have to call a judge and see what he decides.
+
+A:
+
+This is a fragmented loop.  The active player (whose turn it is) would be forced to make a decision that stops the loop.
+
+719.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+Example: In a two-player game, the active player controls a creature with the ability “{0}: [This creature] gains flying,” the nonactive player controls a permanent with the ability “{0}: Target creature loses flying,” and nothing in the game cares how many times an ability has been activated. Say the active player activates his creature’s ability, it resolves, then the nonactive player activates her permanent’s ability targeting that creature, and it resolves. This returns the game to a game state it was at before. The active player must make a different game choice (in other words, anything other than activating that creature’s ability again). The creature doesn’t have flying. Note that the nonactive player could have prevented the fragmented loop simply by not activating her permanent’s ability, in which case the creature would have had flying. The nonactive player always has the final choice and is therefore able to determine whether the creature has flying.
+
+In essence - the attacking player is screwed.
+

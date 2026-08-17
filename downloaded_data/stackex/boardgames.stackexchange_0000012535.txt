@@ -1,0 +1,29 @@
+Q:
+
+Can a player respond while a spell is resolving?
+
+I cast Wistful Thinking on my opponent, whose hand has two Mountain cards. Wistful Thinking resolves and my opponent draws a Shock and another Mountain.
+Can my opponent cast Shock before discarding it?
+
+A:
+
+No, they can not cast the Shock.
+Comprehensive rule 608, all parts.
+The fact that the card text contains 'then' does not make the two parts separate abilities. The whole effect of drawing, then discarding, happens in that order while the spell resolves. There is time in between drawing and discarding for the new information to be reacted upon. However, there is no break in the resolution.
+There is no passing of priority until the spell completely resolves, and thus no opportunity to cast the instant.
+Edit June 2018:
+In regards to the Madness key word and abilities:
+A Madness trigger may cause someone to believe that in response to a card being discarded the 'Madness' ability interrupts the resolution of the thing on the stack that would trigger madness. This is not the case. 
+Rule 702.34 which defines Madness has this to say:
+
+702.34a Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a
+  player’s hand. The second is a triggered ability that functions when
+  the first ability is applied. “Madness [cost]” means “If a player
+  would discard this card, that player discards it, but exiles it
+  instead of putting it into their graveyard” and “When this card is
+  exiled this way, its owner may cast it by paying [cost] rather than
+  paying its mana cost. If that player doesn’t, they put this card into
+  their graveyard."
+
+Though it is not explicitly stated here, this does not cause the player who's card is exiled to receive priority at that time. The card is in exile and when the player who exiled the card has priority again, they are able to choose to cast the card(s) in exile or let it(them) go into the graveyard. 
+

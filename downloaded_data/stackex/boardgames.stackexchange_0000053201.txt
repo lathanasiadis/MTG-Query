@@ -1,0 +1,35 @@
+Q:
+
+Mechanically is there any difference between split and double faced cards?
+
+Are there any differences in the rules (implicitly or explicitly) between how double faced cards are treated (e.g. cast, targeted, etc) and how split cards are treated?
+The only difference that I came across is that double faced cards can be a permanent on either side whereas split cards must always be instant/sourceries.
+
+A:
+
+There are two different kinds of double-faced cards that work differently and are handled differently in the rules: modal double-faced cards, and transforming double-faced cards.
+Modal double-faced cards
+Modal double-faced cards, introduced in Zendikar Rising (the most recent set as of the time of writing this answer), are very similar to split cards. In both cases, a single physical card effectively represents two different "cards", and a player can play one or the other when they play the card. The only significant rules difference between split cards and modal double-faced cards is what characteristics the cards have in zones other than the battlefield and the stack.
+Modal double-faced cards' characteristics are determined by rule 711.4:
+
+711.4. Each face of a double-faced card has its own set of characteristics.
+
+711.4a While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+711.4d While a modal double-faced spell is on the stack or a modal double-faced permanent is on the battlefield, it has only the characteristics of the face that’s up.
+
+while split cards' characteristics are determined by rules 708.3 and 708.4:
+
+708.3. A player chooses which half of a split card they are casting before putting it onto the stack.
+
+708.3b While on the stack, only the characteristics of the half being cast exist. The other half’s characteristics are treated as though they didn’t exist.
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined.
+
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and converted mana cost are determined from its combined mana cost. An effect that refers specifically to the symbols in a split card’s mana cost sees the separate symbols rather than the whole mana cost.
+
+(Rule 708.4 only mentions the stack and not the battlefield here because split cards are only instants and sorceries, so a split card is never on the battlefield.)
+Transforming double-faced cards
+However, there are also transforming double-faced cards, originally introduced in the Innistrad block, that work very differently from how split cards work. Transforming double-faced cards can only be cast as their front face, and they each have their own way to either transform by switching to the back face while on the battlefield, or to enter the battlefield transformed. There are a variety of other rules governing how these cards work and how transforming works in the rules sections about Double-faced cards and the Transform keyword ability.
+Split card variants
+There are also split card variants that do not exist for modal double-faced cards. Some split cards have the keyword ability Fuse, which gives you an additional option to cast both halves of a split card as a single spell by paying the combined mana cost. And some split cards have one half with the keyword ability Aftermath, which means that that half can be cast from the graveyard, and only from the graveyard, not the hand.
+

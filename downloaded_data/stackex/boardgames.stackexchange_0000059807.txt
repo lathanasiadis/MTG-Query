@@ -1,0 +1,21 @@
+Q:
+
+Will Righteous Cause trigger with tapped and attacking tokens
+
+Will i gain life if someone is attacking and they create a tapped and attack token
+
+A:
+
+No.
+The relevant trigger for the ability is "whenever a creature attacks", which is defined as declaring a creature as an attacker during the Declare Attackers step. Creature tokens which get put onto the battlefield "tapped and attacking" are never actually declared attackers (or get tapped for that matter) - at the time they are created, they are already attacking and tapped.
+Rules for declaring attackers are defined in CR508, in particular sections .3 and .4 (emphasis mine).
+
+508.3a An ability that reads “Whenever [a creature] attacks, . . .” triggers if that creature is declared as an attacker. Similarly,
+“Whenever [a creature] attacks [a player or planeswalker], . . .”
+triggers if that creature is declared as an attacker attacking that
+player or planeswalker. Such abilities won’t trigger if a creature is
+put onto the battlefield attacking.
+508.4 ...[creatures put onto the battlefield attacking]
+are “attacking” but, for the purposes of trigger events and effects,
+they never “attacked.”
+

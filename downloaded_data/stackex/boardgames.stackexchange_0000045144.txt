@@ -1,0 +1,17 @@
+Q:
+
+Update to partial fizzle
+
+I'd like to have a more precise answer to when a spell fizzles.
+The rule seems to have changed to when not all targets are invalid.
+For example: If an opponent casts Essence Capture to counter my creature spell and add a +1/+1 counter to a creature he controls and I destroy his creature in response, the second target is now invalid and his creature won't get the +1/+1 counter. Is my creature spell countered or does Essence Capture fizzle?
+
+A:
+
+The part of the "fizzling" rules that your question is about haven't changed recently. The rule quoted in the page you linked to, 608.2b, says in part
+
+If all its targets, for every instance of the word "target," are now illegal, the spell or ability doesn't resolve.
+
+In the example you gave, one of the targets is still legal, so the spell still resolves.
+The part of the rule that changed recently is that it used to say that the spell would be "countered", but now it says that the spell "doesn't resolve".
+

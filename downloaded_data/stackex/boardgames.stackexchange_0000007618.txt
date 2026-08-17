@@ -1,0 +1,25 @@
+Q:
+
+Killing with Divine Deflection
+
+I am at 2 life, and my opponent is at 3 life. It is my opponent's turn. He attacks me with a Kindercatch. After blockers are declared (none) but before the combat damage step, I cast Divine Deflection, targeting my opponent with X declared as 4.
+Who wins?
+
+A:
+
+The oracle rulings of Divine Reflection state:
+
+If Divine Deflection prevents damage, excess damage (if any) dealt by
+that source is dealt at the same time. Immediately afterward, as part
+of that same prevention effect, Divine Deflection deals its damage.
+This happens before state-based actions are checked, and before the
+spell or ability that caused damage to be dealt resumes its
+resolution.
+
+So, the damage is done at the same time and only after are state-based actions checked.
+
+704.5. The state-based actions are as follows:
+704.5a If a player has 0 or less life, he or she loses the game.
+
+As checking the life totals is a state-based action, both players will have 0 life at the same check, thus the game ends in a draw!
+

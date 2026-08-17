@@ -1,0 +1,15 @@
+Q:
+
+How can a Morph ability counter split second spells?
+
+Voidmage Apprentice is a creature with Morph that counters target spell when it is turned face up.
+I've read that it can counter spells with split second.  How does it do this?  Is it that the ability is an added effect of the morph action and does not use the stack?  Or is it a triggered ability that split second cannot prevent from being placed on the stack?
+
+A:
+
+The Gatherer ruling on Voidmage Apprentice explains it fairly well:
+
+If a spell with split second is on the stack, you can still respond by turning this creature face up and targeting that spell with the trigger. This is because split second only stops players from casting spells or activating abilities, while turning a creature face up is a special action.
+
+The triggered ability still does use the stack, but split second doesn't stop it. And of course, you're able to turn it face up in the first place because that's a special action, not an activated ability that uses the stack.
+

@@ -1,0 +1,41 @@
+Q:
+
+What exactly does the "If you do [...]" clause on Mimic Vat check for?
+
+Mimic Vat has two abilities. The one I am concerned with is:
+
+Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard.
+
+Anthony controls his commander, Ezuri, Renegade Leader. He also controls Mimic Vat with Llanowar Elves imprinted. The following occurs:
+
+Ezuri dies
+Mimic Vat triggers and resolves
+Anthony chooses to Exile Ezuri
+Anthony replaces the event, "exile that card", by sending Ezuri to the Command zone
+
+We are not done following Mimic Vat's instructions.
+
+If you do, return each other card exiled with Mimic Vat to its owner's graveyard.
+
+This is where I get confused. I see two possible interpretations of "If you do":
+
+"If you [exile that card], ..."
+"If you [choose to exile that card], ..."
+
+Which interpretation is correct? Have we satisfied the condition? Does Llanowar Elves end up in its owner's graveyard, or does it remain in exile?
+
+A:
+
+With the current Commander rules, there is no longer the mentioned replacement effect. Instead, if the commander moves to the graveyard or exile, its owner can then move it to the command zone as a state-based action afterward [CR 903.9]. That simplifies this scenario considerably: now you choose to exile the commander, and you do exile the commander, and then it moves to the command zone afterward. The condition is satisfied, and the Llanowar Elves moves to the graveyard.
+
+Under the previous Commander rules, this worked as follows:
+The correct interpretation is the second option. You have satisfied the condition, and Llanowar Elves ends up in its owner's graveyard. This is because rule 117.12 says
+
+Some spells, activated abilities, and triggered abilities read, "[Do something]. If [a player] [does or doesn't], [effect]." or "[A player] may [do something]. If [that player] [does or doesn't], [effect]." The action [do something] is a cost, paid when the spell or ability resolves. The "If [a player] [does or doesn't]" clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+in addition, rule 117.11 says
+
+The actions performed when paying a cost may be modified by effects. Even if they are, meaning the actions that are performed don't match the actions that are called for, the cost has still been paid.
+
+In this specific scenario, the cost of moving Ezuri to the exile zone is replaced by moving it to the command zone, but the cost still counts as paid.
+

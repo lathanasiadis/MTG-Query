@@ -1,0 +1,26 @@
+Q:
+
+Dream Eater leaves battlefield before Surveil
+
+Dream Eater's ability says:
+
+When Dream Eater enters the battlefield, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand.
+
+The second half of the ability is referred to as a "reflexive triggered ability".  So, with the first half of the ability on the stack, can you remove the Eater so the second half doesn't trigger?
+
+A:
+
+No, having the Dream Eater become a new object does not affect its ability on the stack.
+A reflexive triggered ability follows the same rules as a delayed triggered ability:
+
+603.12. A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers “when [a player] [does or doesn’t]” take that action or “when [something happens] this way.” These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they’re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them.
+
+This just means that the second half of the ability ("When you do...") is triggered by actually doing the first half ("surveil 4") instead of something happening later as with regular delayed triggered abilities. Delayed triggered abilities can potentially never trigger if its trigger event happened before the ability was created. This can't happen for reflexive triggered bilities. For reflexive triggered abilities, the second half can only not trigger if the first half never  happens, for example if the first half was replaced.
+Either way, Dream Eater's ability does refer to the Dream Eater that created it, but it doesn't affect it, so 603.7c does not apply. 
+
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it.
+
+Therefore, removing the Dream Eater does not affect the ability it created. Once it has entered the battlefield and triggered the ability as a whole, removing it won't do anything.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. 
+

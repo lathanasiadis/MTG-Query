@@ -1,0 +1,20 @@
+Q:
+
+What the difference between +x/+x on some Cards, and how does it effect the ability "Undying"
+
+What is the difference between cards that say
+
+Card A: "Put a +1/+1 "Counter" on each Creature you control."
+Card B: that say "Each creature you control gets +1/+1 and gains Flying" 
+
+Does card B also has a counter? Card A states that it has a "+1/+1 Counter" Does the +1/+1 in Card B still count as a counter or not?
+If the cards are different between +1/+1 Counters and +1/+1 abilities are different.
+Will the +1/+1 ability cause Undying not to trigger, or will it still trigger.
+
+A:
+
+The difference is one of bookkeeping: what exactly is keeping track of whether a creature has a +1/+1 effect or not.
+For card A (it's most common to see that written on an instant or sorery, or as a "when this card enters the battlefield"-effect for permanents, or similar "happens once and is then done"-effects), each separate creature gets a counter which makes that creature stronger (intuitively, each creature is thinking "Oh boy, I have a +1/+1 counter! That means I'm stronger."). It will stay with that creature for as long as that creature is on the battlefield, unless some effect specifically removes that counter. New creatures coming into play will not have the counter, and no matter what happens to card A, the creatures who have been given counters will keep them.
+For B, it is card B itself which keeps track of and boosts all creatures. New creatures entering the battlefield will also benefit from the effect. However, if card B leaves the battlefield, then all creatures will lose their +1/+1 bonus. (Intuitively, it is card B who is thinking "My presence makes all these creatures larger". The relevant rules keyword here is "static ability")
+As a rule of thumb, cards in Magic: the Gathering (except the really old ones) are quite precise in their language. If an effect doesn't mention counters, then counters aren't involved. Similarily, if a continuous effect (like change of control of a permanent, or giving a creature +1/+1) doesn't say "until end of turn", it won't end.
+

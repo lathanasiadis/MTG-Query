@@ -1,0 +1,11 @@
+Q:
+
+Ordering of triggered ability and ETB effect
+
+Suppose I have a Rhonas's Monument and a 1/1 creature token on the field and I play an Ornery Kudu, putting the -1/-1 counter on the token and giving it +2/+2 via the Monument trigger. Does the token die immediately, or can I choose to apply the monument first so that the token lasts until end of turn (as a 2/2)?
+
+A:
+
+You have no choice: you must apply the monument ability first (and so the token will survive). This is because the monument ability triggers when you cast Ornery Kudu, and will resolve before Kudu can actually enter the battlefield at all to trigger its own ability.
+If you do have two triggered abilities that trigger at the same time however, you do get to choose the order they'll resolve.
+

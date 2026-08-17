@@ -1,0 +1,16 @@
+Q:
+
+Does a Myr Welder token created with Mimic Vat retain abilities added to the original?
+
+Suppose I play Myr Welder, then later I play Grindclock (or any artifact) and it gets countered or destroyed. Next turn I exile grindclock from my graveyard with Myr Welder's activated ability and play Mimic Vat. Myr Welder dies on the opponent's next turn and is exiled with Mimic Vat's imprint ability. Then on my next turn I activate the Vat and put a token copy of Myr Welder into play. 
+Does the token have Grindclock's abilities after Myr Welder had been exiled? Since the myr hit the graveyard first, I know it loses counters. But does the Grindclock remain "exiled with (Myr Welder)" allowing the use of its abilities?
+
+A:
+
+No.
+When an object refers to itself by name, it refers specifically to that object (regardless of its name). It does not refer to other objects with the same name. 
+The Myr Welder card in exile never exiled anything.
+The Myr Welder token on the battlefield never exiled anything.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+

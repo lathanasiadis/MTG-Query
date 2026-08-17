@@ -1,0 +1,26 @@
+Q:
+
+What is the difference between Owning and Controlling an object on the Battlefield?
+
+I’m a little confused on what the outcome of this scenario is – any help would be appreciated.  
+Let’s say I cast Turn Against on one my opponent’s creatures.  So I would “Gain control of target creature until end of turn.” However If I use the ability of Eldrazi Displacer on the same creature after gaining control which says “Exile another target creature, then return it to the battlefield tapped under its owner's control.” Will this creature become mine forever? 
+I assume that the effect of Turn Against only applied to the first instance of the creature I targeted. Then when I use Displacer’s ability a new version on that creature is placed on the field and all equipment etc. is removed including effects from spells? 
+
+After using Displacer’s ability will I be the “owner” of the targeted creature
+Will the creature return to my opponent at the end of my turn? 
+
+If this doesn’t make sense – please let me know. 
+
+A:
+
+You won't ever become a creature's owner in a game if you already weren't.
+
+108.3. The owner of a card in the game is the player who started the game with it in his or her deck. If a card is brought into the game from outside the game rather than starting in a player’s deck, its owner is the player who brought it into the game. If a card starts the game in the command zone, its owner is the player who put it into the command zone to start the game. Legal ownership of a card in the game is irrelevant to the game rules except for the rules for ante. (See rule 407.)
+
+So, when you use Turn Against on a creature, you become its controller, not owner. If you used Eldrazi Displacer's ability on the same creature, it would return under your opponent's control, since he owns this creature.
+To answer your second question, let's assume that you somehow retained control of the creature that you blinked with Eldrazi Displacer. The creature would not return to your opponent's control at the end of the turn. This is because an object that changes zones, even if it returns to the same zone it came form, becomes a completely new object every time it changes zones.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. 
+
+There are seven exceptions to this rule, and none of them apply here.
+

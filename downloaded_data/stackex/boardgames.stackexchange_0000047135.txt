@@ -1,0 +1,24 @@
+Q:
+
+Captive Audience vs. Teferi's Time Twist
+
+In a MTG Arena match, my opponent played Captive Audience on me, which I exiled/blinked using Teferi's Time Twist. I expected CA to return under the opponent's control, but it entered on my side.
+The relevant wording on Captive Audience:
+
+Captive Audience enters the battlefield under the control of an opponent of your choice. ...
+
+and on Teferi's Time Twist:
+
+Exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step. (...)
+
+What do the rules say about this kind of interaction?
+
+A:
+
+That ability on Captive Audience is a replacement effect that modifies how it enters the battlefield. Effects like this are described in the replacement effects section of the rules:
+
+614.1d Continuous effects that read “[This permanent] enters the battlefield . . .” or “[Objects] enter the battlefield . . .” are replacement effects.
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) [...]
+
+When you exiled it and then brought it back, it would have entered the battlefield under the control of its owner, your opponent, but the replacement effect modified that so that it entered the battlefield under your control instead.
+

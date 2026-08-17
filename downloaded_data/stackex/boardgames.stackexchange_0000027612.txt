@@ -1,0 +1,50 @@
+Q:
+
+How to protect a tribal deck from Extinction?
+
+I put together a Legacy Elfdrazi deck relying on Elvish Piper, Concordant Crossroads, some mana dorks and a bunch of tutoring like Green Sun's Zenith and Worldly Tutor to get Emrakul, the Aeons Torn and Progenitus out by turn 3-6 depending on how I draw.
+Problem is that if things go poorly and I don't get Emrakul out til turn 5 or 6, my friend has managed to start playing Extinction which he recently acquired in response to my Elfdrazi deck. He's started winning nearly all our games with this.
+I am unsure how to respond. It's a mono-green deck and splashing blue to get my hands on Unnatural Selection or Standardize (cheap blue cards that allow me to change all my creatures' creature types at a moment's notice, protecting them from Extinction) would slow me down a lot, most likely.
+What effective ways are there to protect a tribal deck from black type-specific board clear? Is my best choice to buy more concordant crossroads and more pipers and try to make the deck faster so he never gets a chance?
+
+A:
+
+Playing Around Board Wipes
+For your purposes, Extinction is just a board wipe, like Supreme Verdict. In fact, at CMC 5, it's a slow board wipe. In a no-holds-barred Legacy environment, you'd be having to deal with faster sweepers like Perish and Terminus.
+So you could try to get cute with instant-speed creature-type changing here, but nothing really prevents your friend from switching to more conventional mass removal to get the job done — even a card like Marsh Casualties will clean out mana dorks very efficiently.
+So, what do you do if you're unprepared for a sweeper? General strategy is to be faster but don't overextend. Aggro decks commonly try to put a lot of pressure on their opponents right out the gate, forcing opponents to scramble to stabilize. "Curve-toppers" (especially creatures with haste or evasive abilities) and burn spells (like Lightning Bolt) help get the last few points of damage in after that Supreme Verdict has dropped.
+But, in your case, you're playing a combo deck that uses creatures for mana instead of constantly pressuring life totals, so racing the sweeper is a bit of an all-or-nothing arrangement: if you fail, you've lost a lot of resources with basically nothing to show for it.
+So, what do you do?
+Combo Deck Fundamentals
+Most combo decks want to be fast. That's basically their whole value proposition: devote most of your deck to doing weird, kinda useless-seeming stuff in order to quickly work your way up to a devastating finish.
+So, can you tune up your combo engine to make your deck faster? For example:
+
+Tournament-grade elf decks often use Heritage Druid+Nettle Sentinel as a mana engine. Heritage Druid will help speed up hands where you didn't get a Concordant Crossroads.
+Tournament-grade elf decks tend to use Glimpse of Nature (or Beck) to chain lots of cards quickly.
+
+Replacing some of your slower elves with these cards might help you gain a turn or more.
+You can also speed up your deck by improving its consistency. If you're "going off" on turn 3 50% of the time and turn 4 50% of the time, then getting that ratio down to 90%/10% is effectively the same as speeding your deck up by half a turn. Card filtering, tutors (not just for your endgame piece but for the cards you need to get there), and better access to redundant cards will all help get you there.
+But, unless you're playing a truly degenerate format, your opponents will be able to interact with you, and your deck needs to be able to go off despite their best attempts at disruption — especially in post-sideboard games where they might bring in specific countermeasures against you. Some tried-and-true strategies here:
+
+Lots of redundant pieces. Elf decks usually naturally have this covered, since they play a lot of highly interchangeable cards.
+"Plan B." A second combo (e.g. slower but simpler), going offensive with your creatures, or the ability to play for the endgame like a control deck.
+Disruption. Protect your combo with disruptive elements of your own.
+
+Deckbuilding Suggestions
+Your deck already has a fair bit of redundancy to it. "Plan B" is pretty easy: go on the offense with your little elves, perhaps using Ezuri's Overrun ability.
+Let's focus on that third pillar: disruption. The best colors for this are blue and black, which are the colors of counterspells and targeted discard, respectively. I prefer targeted discard for true combo decks, because it allows me to go after my opponent's disruptive resources on my own schedule rather than having to wait and hold open counterspell mana (if you want to do that, build full-on combo-control, or play an instant-speed combo deck). Targeted discard also works well in combo decks because oftentimes your opponent only has a few cards that can truly interact with yours — you don't need to deal with all of their cards, just the handful of reactive cards or hosers they're using to slow down your combo.
+So, let's just use targeted discard to rip our opponents' hands apart before they can nuke our elves away. As a bonus, we'll get the ability to see their hands, which makes it much easier to play around whatever they still have in hand. The optimal targeted discard cards are Thoughtseize, Cabal Therapy, Duress, and Inquisition of Kozilek; in your case, IoK is suboptimal (you care about some CMC 4+ spells, but in a pinch you can chump-block with an elf or two, so you don't particularly need discard spells that can hit cheap creatures), but all the other ones have their appeal:
+
+Play Cabal Therapy for maximum value, if you're comfortable guessing strategically.
+Play Thoughtseize if you want a targeted discard spell guaranteed to hit something.
+Play Duress if you're budget-limited or you think Thoughtseize exposes you to too much risk from aggro deck.
+
+Going green/black, even if it's just a splash, also opens up access to a number of other interesting options:
+
+Shaman of the Pack lets you turn elves into life drain.
+Black/green gives you access to a lot of great removal, including Abrupt Decay and Maelstrom Pulse (and Pernicious Deed, but that's suicide for your deck).
+Golgari Charm is a multifaceted spell that can protect your elves from some (but not all!) sweeper effects.
+Black is a great color for digging stuff out of the graveyard. You've even got some mass revival options like Patriarch's Bidding (perfect for a "tribal" deck). Since such spells are costly, I don't really recommend them for one-on-one, but they may be a good addition to a deck for multiplayer.
+
+These are all secondary to the pure defensive benefit or running discard spells to protect your combo, though.
+

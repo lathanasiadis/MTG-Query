@@ -1,0 +1,22 @@
+Q:
+
+Will Myth Realized still become an X/X when Humility's in play?
+
+Humility says "all creatures lose all abilities and have base power and toughness 1/1" and Myth Realized is an enchantment that can become a creature with P/T equal to the number of lore counters on it.
+I'm thinking that due to the timestamp ordering if Myth Realized becomes a creature after Humility was cast that Myth Realized would be x/x and not 1/1, where x is the number of lore counters?
+
+A:
+
+You are correct, Myth Realized will be a creature with power and toughness equal to the number of lore counters on it.
+This is because both its own ability and Humility's apply in Layer 7b (613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.) Since they are in the same layer and neither ability depends on the other you use timestamps (613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order.)
+Note that if Myth realized is already a creature when Humility is played it will become a 1/1 until the end of turn, but the next time it is activated it will be back to normal.
+Myth Realized's ability is not a Characteristic-Defining Ability which would be applied in layer 7a and then get overwritten because cause CDAs require that 
+
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: ... (2) it is printed on the card it affects, it was granted to the token it affects by the effect that created the token, or it was acquired by the object it affects as the result of a copy effect or text-changing effect;
+
+Also from the Gatherer Rulings
+
+Activating the ability that turns Myth Realized into a creature while it’s already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
+
+This would not be possible if its ability were a CDA
+

@@ -1,0 +1,12 @@
+Q:
+
+Does Coat of Arms work on various Artifact Creatures?
+
+So I decided that it would be fun to start an artifact deck, and was wondering if I could use Coat of Arms to give +1/+1 to an Artifact Vehicle and an Artifact Creature Construct if they were the only artifacts/creatures on the battlefield?
+
+A:
+
+Artifact isn't a creature type, and Vehicle is an artifact type not a creature type, so Coat of Arms has no effect on a Vehicle and Construct. You'd need multiple Constructs.
+You can find the full list of creature types in the rules (205.3m, reproduced here), but a creature's creature types are always printed after "Creature" on the type line, never before, and will never include things like Artifact, Enchantment, or Land - those are types, not creature types. (And outside of some corner cases, everything after "Creature" on the type line is a creature type, assuming you're looking at the Oracle text in Gatherer or a sufficiently recent printing.)
+(Technically creature types are subtypes, but for convenience they're referred to as creature types.)
+

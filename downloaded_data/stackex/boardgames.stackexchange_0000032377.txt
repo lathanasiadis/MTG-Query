@@ -1,0 +1,22 @@
+Q:
+
+How do I activate Dauntless Cathar's ability?
+
+Dauntless Cathar has the following ability:
+
+{1}{W}, Exile Dauntless Cathar from your graveyard: Put a 1/1 white Spirit creature token with flying onto the battlefield. Activate this ability only any time you could cast a sorcery.
+
+Please clarify. If the card is IN my hand, how can I exile if FROM the graveyard if it is not there? Did the writers mean SEND it to graveyard, or actually exile it? Confused, the writing does not make sense.
+
+A:
+
+In general, if a card's ability says to move it from a particular zone, then that ability can only be activated (or trigger, as the case may be) when the card is in that zone. On this particular card, part of the cost of the activated ability is "Exile Dauntless Cathar from your graveyard", so you can only activate the ability when the card is already in your graveyard.
+Keep in mind that in general, activated abilities cannot be activated while the card is in your hand. Most activated abilities can only be activated while the card is on the battlefield.
+The specific rule that covers this is 112.6:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+[...]
+
+112.6k An ability whose cost or effect specifies that it moves the object it’s on out of a particular zone functions only in that zone, unless that ability’s trigger condition, or a previous part of that ability’s cost or effect, specifies that the object is put into that zone. The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone.
+

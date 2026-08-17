@@ -1,0 +1,44 @@
+Q:
+
+Can you sacrifice a creature that's in the middle of an attack?
+
+Earlier tonight, I was playing magic. My opponent had a card out that allowed him to place a 2/2 goblin token on the board for every creature that made an attack. He also had one out that allowed him to sacrifice one of his creatures and destroy any nonland permanent.
+He declared an attack with one of the goblin tokens, thus placing another goblin token on the board. He then sacrificed the attacking token before it attacked and my blocker destroyed it.
+I'm new to the game, but it seems to me that if he sacrificed it prior to its attack, it shouldn't have counted as an attack. So he couldn't have placed the new token on the board. Am I wrong?
+
+A:
+
+Your opponent could have declared that token as an attacker, then sacrificed it before actual combat damage happened. It would have counted as attacking — at least until it was sacrificed — but it wouldn't have actually done any combat damage to its blocker.
+The combat phase works like this:
+
+Beginning of Combat Step
+  
+Nothing has happened yet, but you're considered to be inside the combat phase. Players can cast spells and use abilities.
+
+Declare Attackers Step
+  
+The active player may declare which of their creatures are attacking.
+Those attacking creatures get tapped. They're now considered to be Attacking for the rest of the combat phase, even if something untaps them somehow.
+Players may now cast spells and use abilities before moving on.
+
+Declare Blockers Step
+  
+The inactive player may declare which of their creatures are blocking.
+The inactive player assigns the blocking creatures among the attackers. These creatures are now considered Blocking for the remainder of combat, even if something taps them somehow. Any attacker assigned a blocking creature is now considered Blocked for the remainder of combat, even if its blocker disappears, and will not deal combat damage to you personally (unless it has trample, or something else that lets it do that).
+Players may now cast spells and use abilities again before moving on.
+
+Combat damage happens.
+  
+Any attacking creatures still alive and present at this point attack their blockers and/or the opposing player/planeswalker/etc.
+  Nobody can cast spells during this process.
+
+Combat finishes, the board gets cleaned up (dead creatures removed, etc).
+
+It sounds like the Goblin in question was given a blocker during the Declare Blockers step. At that point, the other player does have the opportunity use an ability to sacrifice the goblin, and if the goblin is doomed to die, that's probably a good choice.
+However, once combat damage happens, that sacrificed goblin won't be around anymore. You say this:
+
+I'm new to the game, but it seems to me that if he sacrificed it prior to its attack, it shouldn't have counted as an attack.
+
+It will have counted as attacking, but since it's dead by the combat damage step, it's gone and won't actually be there to do anything. Your blocker won't take damage from the goblin, for instance - the goblin will be dead and gone.
+(There was a time in the past when you could cast spells and use abilities during combat damage, so that the goblin could deal combat damage and get sacrificed too, but that was weird and got removed from the rules a few years ago in M10.)
+

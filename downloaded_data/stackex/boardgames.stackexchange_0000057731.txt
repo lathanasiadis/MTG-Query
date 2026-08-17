@@ -1,0 +1,20 @@
+Q:
+
+Does Death's Presence check base power or actual power of a creature?
+
+If I have Death's Presence on the field, which says
+
+Whenever a creature you control dies, put X +1/+1 counters on target creature you control, where X is the power of the creature that died.
+
+...and a creature I control with base power toughness 0/0 and 4 +1/+1 counters on it dies, do those counters then move because of Death's Presence, or does Death's Presence only take into account the base power?
+
+A:
+
+The counters don't technically move¹, but the same amount of counters are put on another creature.
+When cards mention power without explicitly mentioning "base power", it always means the actual power of the creature, taking into account all +1/+1 counters, static buffs, and of course base power (the same is true for toughness respectively, of course).
+This is also indicated in Death's Presence's oracle text:
+
+X is the power of that creature as it last existed on the battlefield.
+
+¹ The reason I mention that counters don't technically move is that for a 2/2 creature with two +1/+1 counters, you'd still place four counters on the target creature with Death's Presence, not two - phrasing it as "moving counters" might be confusing in this regard. There are cards in magic that actually move counters, such as Bioshift, and in case of this example creature, they would only put two counters on the target creature.
+

@@ -1,0 +1,23 @@
+Q:
+
+Atemsis, All-Seeing and Mask of Immolation interaction
+
+Does sacrificing Atemsis, All-Seeing equipped with Mask of Immolation trigger Atemsis' second ability, or does it not trigger because Atemsis left the battlefield already?
+Atemsis' second ability:
+
+Whenever Atemsis, All-Seeing deals damage to an opponent, you may reveal your hand. If cards with at least six different converted mana costs are revealed this way, that player loses the game.
+
+Mask of Immolation's sacrifice ability:
+
+Equipped creature has “Sacrifice this creature: It deals 1 damage to any target.”
+
+(Emphasis mine)
+
+A:
+
+No, it doesn't. While it's certainly Atemsis, All-Seeing who does the damage (so a Circle of Protection: Blue would work to prevent it), the damage is done at a moment when Atemsis, All-Seeing is in the graveyard (it has been sacrificed as part of activating the ability). It has the reveal-your-hand ability only when it's on the battlefield, so it won't trigger.
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield.
+
+A list of exceptions follows but this ability is not one of them.
+

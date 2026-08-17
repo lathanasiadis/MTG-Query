@@ -1,0 +1,42 @@
+Q:
+
+Clarification on how the emblem gained by Tibalt, Cosmic Impostor works
+
+I have two questions regarding the exact rulings of the emblem gained by Tibalt, Cosmic Impostor.
+Question 1 The emblem gained by Tibalt mentions the card (Tibalt) by name. Looking at rule 201.4a stated below, am I correct in assuming that the emblem only grants you the ability to cast cards exiled with the specific Tibalt which created the emblem? Meaning that if, for example, Tibalt got bounced and was then replayed, and the new Tibalt's ETB got countered (resulting in no emblem being created), then any cards exiled with this new Tibalt would not be playable from exile (even though you still have the old emblem)?
+
+201.4a If an ability’s effect grants another ability to an object, and that second ability refers to that first ability’s source by name, the name refers only to the specific object which is that first ability’s source. The second ability does not refer to any other object with the same name as the first ability’s source. However, if the second ability also moved the first ability’s source to a different public zone, the name refers to the object the source became in its new zone. This is also true if the second ability is copied onto a new object.
+
+Question 2 What is the ruling for if some ability changed the name of Tibalt, for example if Tibalt was made into a copy of another permanent? Looking at rule 706.11, I assume that the emblem would track whatever permanent Tibalt became? And if this permanent has some ability which allows it to exile cards, am I correct in assuming that these cards would be playable from exile?
+
+706.11 If an effect refers to a permanent by name, the effect still tracks that permanent even if it changes names or becomes a copy of something else.
+
+Thanks for your time.
+
+A:
+
+No and yes respectively to your questions.
+For your first question, your analysis of rule 201.4a is correct, however you have an incorrect assumption in your question.  You assume that Tibalt's effect that creates the emblem can be countered separate of Tibalt, but it cannot.  Tibalt's effect is worded thus (emphasis mine):
+
+As Tibalt enters the battlefield, you get an emblem with "You may play
+cards exiled with Tibalt, Cosmic Impostor, and you may spend mana as
+though it were mana of any color to cast those spells."
+
+Since it is worded "As ..." it is a replacement effect, not a triggered ability.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or
+“[This permanent] enters the battlefield as . . . “ are replacement
+effects.
+
+A triggered ability would be worded as "When Tibalt enters the battlefield ..."
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters
+the battlefield, . . . “ or “Whenever a [type] enters the battlefield,
+. . .” Each time an event puts one or more permanents onto the
+battlefield, all permanents on the battlefield (including the
+newcomers) are checked for any enters-the-battlefield triggers that
+match the event.
+
+Since it is written as a replacement effect, there is no ability that ever goes on the stack that can be countered to stop creating Tibalt's emblem separate from countering Tibalt himself!  So you could never get into a situation where 201.4a could apply (under normal casting circumstances, copying Tibalt or some other jankiness can cause it to happen).  If Tibalt hits the battlefield, so does his emblem.
+For the second situation, your analysis of rule 706.11 is correct.  The game will track Tibalt and any cards exiled by it, no matter if it's name changes or not.
+

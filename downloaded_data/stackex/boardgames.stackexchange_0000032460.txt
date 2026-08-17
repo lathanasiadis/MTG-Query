@@ -1,0 +1,28 @@
+Q:
+
+How can Glacial Chasm be useful?
+
+Glacial Chasm reads:
+
+Cumulative upkeep—Pay 2 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
+When Glacial Chasm enters the battlefield, sacrifice a land.
+Creatures you control can't attack.
+Prevent all damage that would be dealt to you.
+
+Wondering what the strategy to use this card is? In a 2-player game, the game is essentially over regardless who controls the card. Please give me your insight, thanks.
+
+A:
+
+It's a little hard to tell from your question, but it sounds like it might be worth making sure you understand what the card does.
+First off, "Cumulative upkeep - Pay 2 life". The definition from the comprehensive rules is:
+
+702.23a ... “At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don’t, sacrifice it.” ...
+
+So the first upkeep after you play this, you'll pay 2 life, the next you'll pay 4 life, then 6 life, and so on, until you decide not to pay and sacrifice it instead. So assuming you start at 20 life, and aren't gaining any, the longest you can keep it is three turns, at which point you'll have paid 2+4+6=12 life, and paying 8 more would kill you. You could also sacrifice it after less than that if you don't want to pay that much life.
+In the meantime, it's preventing all damage that'd be dealt to you. So if your opponent is trying to kill you with damage, which is reasonably common, you're pretty much invincible for three turns. If it prevents more damage than the life you've paid to hold onto it, you've come out ahead on life (though you'll be down two lands).
+So, is that useful? Could be, in the right sort of deck.
+If your deck is one that struggles to survive until it sets up for victory, that could be quite helpful. Maybe a couple turns of preventing damage is all you need, and then you can kill your opponent before you even have to worry about not being able to pay the upkeep. Maybe all you really need is to prevent damage for one turn, and then you'll be able to stop what your opponent is doing some other way, and can sacrifice it before you even need to pay life. If you're in situations like this, you don't care at all about whether your creatures can attack, and you may not even have any creatures.
+On the other hand, if you don't manage to get ready to win the game in time, you'll eventually have to sacrifice it and your opponent will be able to hit you again - and you'll have been paying life, so you'll be in worse shape to survive.
+In all, this is a pretty niche effect. On top of that, it's an old card that can only be played in formats with all kinds of other powerful old cards, so it faces pretty stiff competition for inclusion in serious decks. There are plenty of other ways to stave off defeat for a couple turns (including dealing more directly with threats), and often it's better to try to win faster than to try to just delay your opponent.
+But, nonetheless, it still sometimes sees play in legacy lands decks like this one. That's a deck built around using lands to provide effects, so it's actually a bit of an upside that Glacial Chasm is a land: it can be searched up with Crop Rotation or brought back from your graveyard with Life from the Loam. It'll still only be useful in certain situations, so it's just a one-of in a sixty card deck, and many lands decks don't include it at all. But some do, so there you go: sometimes useful.
+

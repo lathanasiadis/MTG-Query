@@ -1,0 +1,41 @@
+Q:
+
+How exactly does Xenograft work, and not work?
+
+The Blue Enchantment Xenograft (New Phyrexia) reads like this:
+
+As Xenograft enters the battlefield, choose a creature type.
+Each creature you control is the chosen type in addition to its other types.
+
+Discussion on The Gatherer about this card is avid, complicated, and at times, contradictory.
+What exactly does this card do? I was first under the impression that it affects all creature cards I control from the point it hits the board and continues to do so for the rest of the game. Then I was under the impression it only affected creatures that were in play at the time of its casting, and NOT creatures that come out later. Now I'm just totally confused and unsure about anything other than that I can obviously add creature types to some or all of my creatures, at some point or another.
+Too much confusion. Someone set me straight! Specifically:
+
+Does Xenograft apply to creatures that are already on the battlefield when it's cast?
+Does Xenograft apply to creatures that enter the battlefield after it's been cast?
+The Gatherer's details page says, among other things, this about Xenograft:
+
+Creature cards not on the battlefield and creature spells are not affected.
+
+What does creature spells are not affected mean exactly? Aren't all creatures creature spells? I'm lost here.
+Please go the extra mile if possible and cover anything I haven't mentioned here if it comes to your mind. I'm so lost with this card that I wouldn't be surprised if you end up answering questions I have that I can't even put into words yet.
+
+A:
+
+All creatures already on the battlefield and all creatures that come under your control later are affected by Xenograft. No if's and but's. As pointed out, it's a static ability that generates a continuous effect. If Xenograft would affect only the creatures that are in play at the time of its casting, the wording would be quite different and would probably involve counters to mark the affected creatures.
+Creature cards not on the battlefield are simply that: Creature cards on the stack, in your hand, library, graveyard, command zone, exile, ante, or out of game are not affected by Xenograft.
+Creature spells are not creatures, but objects on the stack. You control the spell, but a spell is not a creature, so Xenograft does not apply to them either. Only if and when the spell resolves does it become a creature to which Xenograft can apply.
+Creature spells are spells, not creatures:
+
+111 Spells
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, "Casting Spells"), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner's hand. (See rule 405, "Stack.") A spell remains on the stack as a spell until it resolves (see rule 608, "Resolving Spells and Abilities"), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, "Spells, Abilities, and Effects."
+302 Creatures
+302.1. A player who has priority may cast a creature card from his or her hand during a main phase of his or her turn when the stack is empty. Casting a creature as a spell uses the stack. (See rule 601, "Casting Spells.")
+302.2. When a creature spell resolves, its controller puts it onto the battlefield under his or her control.
+
+Xenograft only affects creatures on the battlefield:
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don't apply before the permanent is on the battlefield, however (see rule 603.6e).
+
+user1873's answer also covers this well.
+

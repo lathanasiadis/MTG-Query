@@ -1,0 +1,23 @@
+Q:
+
+Can Parallax Wave track a card moved by with Void Attendant?
+
+Let's say you remove a creature with Parallax Wave, then put it in its owner's graveyard with the Void Attendant and then the Parallax is destroyed. 
+Does the creature go back to the battlefield or is the Parallax trigger unable to see that creature anymore ?
+I read about rule 400.7, but there seems to be an exception about public zones and whatnot, I'm just not 100% sure of what would happen.
+Thanks !
+
+A:
+
+When Parallax Wave exiles the creature, the creature card becomes a brand new object.[CR 400.7] Anything that tries to query or affect the creature can't find it anymore.
+Parallax Wave knows that this new object is the one it exiled because Parallax Wave is the one the that created the new object.[CR 400.7h][CR 406.6]
+When Void Attendant moves the creature card to its owners graveyard, the creature card becomes a brand new object.[CR 400.7] Anything that tries to query or affect the creature card can't find it anymore.
+This includes Parallax Wave. CR 400.7h doesn't help Parallax Wave find the card in the graveyard because CR 400.7h only helps the effect that moved the object.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+406.6. An object may have one ability printed on it that causes one or more cards to be exiled, and another ability that refers either to “the exiled cards” or to cards “exiled with [this object].” These abilities are linked: the second refers only to cards that have been exiled due to the first. See rule 607, “Linked Abilities.”
+
+Historical trivia: As you might guess from how high a "number" "h" is, 400.7h is a rather recent addition to the rules. Yet abilities that exile cards and bring them back have existed much longer than 400.7h. So how did they work before?
+I once argued the rules didn't allow for these abilities to work, until it was pointed out to me that the exiling abilities don't need to find the object that was exiled; they just need to find the object they created in exile. The downside of this is that the exiling ability can't examine the properties of the object that existed before it was exiled. 400.7h avoids that problem and possibly others.
+

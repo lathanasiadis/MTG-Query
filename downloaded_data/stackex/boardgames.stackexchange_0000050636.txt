@@ -1,0 +1,14 @@
+Q:
+
+What happens if someone builds a MtG Turing Machine in a tournament setting?
+
+In this paper, the authors prove that it's possible to construct a Legacy-legal combo deck where the comboing player constructs a Turing Machine through mandatory actions, which begins to execute a series of actions that will result in one player either winning or losing the game, but determining which of these actions will occur is as hard as the Halting Problem.
+What would occur if a player were to construct and execute this combo in a real Magic: the Gathering tournament?
+
+A:
+
+This situation, in which no player knows whether a sequence of mandatory actions will end or loop forever, is so rare and so niche that neither the comprehensive rules nor the tournament rules address it. By a strict reading of the rules, players would need to continue executing the loop until they either know it will end, or that it will loop forever.
+Practically speaking, in most situations either the players will eventually agree to end the game in a draw, or one player will just concede.
+In a tournament, if neither player wants to end the game, they will keep playing, the game will go to time, and after the 5 overtime turns, the game will end in a draw. Or the "Turing Machine" will halt during that time; that's always a possibility. If someone ever finds a combo like this that never needs to pass the turn, a judge will probably rule that the game ends in a draw after it goes on long enough to start cutting into the next round's time.
+If one player wants to end the game with a draw, but the other doesn't, and neither wants to concede, the first player will probably call a judge. There is no guidance for a situation like this in the existing judging documents, so they will have to make a judgement call, which will probably be either that the players have to continue playing it out, or that the sequence of mandatory actions has gone on long enough to qualify as a loop, and the game is a draw.
+

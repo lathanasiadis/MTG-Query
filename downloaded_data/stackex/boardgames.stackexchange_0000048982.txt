@@ -1,0 +1,16 @@
+Q:
+
+Interaction between Torment of Hailfire and Persist
+
+If I choose a creature with persist for one repetition of Torment of Hailfire, will it return to play before the next repetition to choose it again?
+
+A:
+
+No, it will not.
+Persist in a triggered ability:
+
+702.78a Persist is a triggered ability. “Persist” means “When this permanent is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner’s control with a -1/-1 counter on it.”
+
+Triggered abilities trigger while other spells and abilities resolve, bit they aren't put on the stack until afterwards, and they don't resolve until a little while after that.
+The only (common) thing that can really intervene in a case like this is a so-called replacement effect (those usually contain the word "instead"). And while there may be replacement effects that can let you get out of the Torment predicament cheaper, I can't think of one right now.
+

@@ -1,0 +1,24 @@
+Q:
+
+Can I reorder the abilities of Hydra's Growth and Simic Ascendancy?
+
+Suppose I control Simic Ascendancy and Hydra's Growth. Each of these has an ability that triggers at the beginning of my upkeep.
+Since I'm the controller of both of these abilities, can I choose the order in which they go on the stack, so that Hydra's Growth's ability resolves first (adding +1/+1 counters), this triggers Simic Ascendancy's other triggered ability (adding growth counters), and then Simic Ascendancy's original ability resolves (I win the game due to those growth counters)? This seems like it should be possible, but Arena doesn't allow it.
+
+A:
+
+You can't do the specific sequence you are trying to do because if there aren't already 20 growth counters on Simic Ascendancy at the beginning of your upkeep, its last ability doesn't trigger at all.
+Simic Ascendancy's last ability has what's called an "intervening if" clause, described in rule 603.4:
+
+A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule. (The word “if” has only its normal English meaning anywhere else in the text of a card; this rule only applies to an “if” that immediately follows a trigger condition.)
+
+The text of Simic Ascendancy's ability says this:
+
+At the beginning of your upkeep, if Simic Ascendancy has twenty or more growth counters on it, you win the game.
+
+So, if it doesn't have 20 growth counters at the beginning of your upkeep, the ability doesn't trigger at all, so there's no opportunity to reorder it so that it resolves after Hydra's Growth's ability. In fact, on Gatherer Simic Ascendancy has a ruling about this:
+
+If Simic Ascendancy doesn’t have twenty or more growth counters on it as your upkeep begins, its last ability won’t trigger. You can’t take any actions during your turn before your upkeep begins.
+
+In general, if two or more triggered abilities trigger at the same time, you can reorder them. This is described in greater detail in this question.
+

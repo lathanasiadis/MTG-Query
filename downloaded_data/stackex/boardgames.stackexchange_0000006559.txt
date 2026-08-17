@@ -1,0 +1,33 @@
+Q:
+
+What happens if Genesis Wave puts Fists of Ironwood onto a battlefield with no creatures?
+
+This question arose as a response to a recent question about putting Auras onto creatures with Shroud.
+What happens if I cast Genesis Wave, let's say for 2, and reveal Fists of Ironwood on an otherwise creatureless battlefield.  Does Fists still come into play for a while without creatures to enchant, giving me two 1/1 Saprolings?  Or do I even get two 1/1 Saprolings one of which has an enchantment giving it Trample (lucky me)?
+Bonus question: what happens if I Genesis Wave for 5 instead and reveal 3 instants, Fists of Ironwood and Bramble Elemental?
+There's a possible clue in Bramble Elemental's Oracle text (I'll leave finding that as a treasure hunt for the reader) but it still leaves me unclear - when Genesis Wave does its work, does it Fists of Ironwood come into play already attached to the Elemental, or do they both come into play and then get attached by the player?
+
+A:
+
+GW + FoI + no other creatures
+Let's say you cast Genesis Wave and reveal Fists of Ironwood, with no creatures in play and no creatures revealed by GW. Genesis Wave talks about putting cards in play, not casting them as spells, so this situation is covered by rule 303.4g:
+
+303.4g If an Aura is entering the battlefield and there is no legal object or player for it to enchant, the Aura remains in its current zone, unless that zone is the stack. In that case, the Aura is put into its owner‘s graveyard instead of entering the battlefield.
+
+To see how this interacts with Genesis Wave, note that the resolution of Genesis Wave contains three actions:
+
+Reveal the top X cards from your library. This doesn't say to put the cards anywhere else, so the revealed cards are still considered to be in your library while they are revealed.
+Put any number of revealed permanent cards on to the battlefield. If the only permanent you reveal is an Aura but it has nothing to enchant, rule 303.4g specifies that it remains in your library.
+Put all revealed cards that weren't put on the battlefield into your graveyard. This includes the Aura that wasn't put on the battlefield since there was nothing for it to enchant.
+
+So Fists of Ironwood would wind up in the graveyard.
+Bear in mind that (in general) it is not possible for Fists of Ironwood to come into play enchanting one of the tokens it creates. Those tokens are created by a triggered ability that only triggers (and goes on the stack) when Fists of Ironwood enters the battlefield. But the enchantment needs something to enchant right from the moment it enters the battlefield; it can't wait for the triggered ability to resolve to create a creature for it to be attached to. But the tokens don't come into existence until the triggered ability resolves, which occurs later, after both players have had a chance to respond.
+GW + FoI + another creature revealed
+If Genesis Wave does reveal a creature that would be a legal target for Fists of Ironwood, this post on the Wizards community forums states that you still can't put the Aura into play enchanting the creature. The reason is basically what I guessed before. Placing a permanent on the battlefield consists of two "substeps:"
+
+Make any choices required prior to placing the permanent in play. For an Aura, this includes determining whether it can legally enchant something, and if there are multiple options, choosing which one it will enchant.
+Actually put the permanent on the battlefield subject to the choices (if any) made in the previous substep.
+
+(I don't think this is specifically detailed in the rules, but it should make sense that you have to choose what an Aura will enchant before putting the Aura into play enchanting that thing.) When multiple permanents are revealed with Genesis Wave, substep 2 occurs simultaneously for all of them (rules 101.4, 608.2e), so substep 1 necessarily happens prior to putting any of the permanents in play. And you can't choose something that's not on the battlefield for an Aura to be attached to.
+This also covers the case with Bramble Elemental: Fists of Ironwood can't be put on the battlefield enchanting Bramble Elemental if both are revealed with Genesis Wave.
+

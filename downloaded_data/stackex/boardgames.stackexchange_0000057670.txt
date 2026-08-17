@@ -1,0 +1,31 @@
+Q:
+
+Triggered ability resolution order (603.3b) for multiple players
+
+Suppose my opponent has a Kaervek the Merciless
+
+Whenever an opponent casts a spell, Kaervek the Merciless deals damage equal to that spell's mana value to any target.
+
+and I have a Balefire Liege
+
+Other red creatures you control get +1/+1.
+Other white creatures you control get +1/+1.
+Whenever you cast a red spell, Balefire Liege deals 3 damage to target player or planeswalker.
+Whenever you cast a white spell, you gain 3 life.
+
+It's my turn, I have 1 life left and I try to Sword to Plowshares Kaervek. If I understand the rule correctly, I will first put the Balefire Liege +3 life on the stack, then my opponent will put the 1 damage to any target on the stack. On resolution, Kaervek will deal damage first and I will lose instantly. Rule 603.3b states:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two-part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn’t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the stack in any order they choose. Then the game once again checks for and performs state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+It makes no sense to me as the active player will always be at a disadvantage since its triggered abilities will always resolve last.
+Is this the correct interpretation of the rules? Would waiting for my opponent's turn to cast the Swords to Plowshares change anything to this?
+
+A:
+
+Yes, your interpretation of the rules is correct. And yes, waiting for your opponent's turn to cast the spell would change the outcome because a different player would be the active player, so the triggered abilities would get put on the stack in a different order.
+The Active Player, Nonactive Player order rule is used almost everywhere that players need to make choices or take actions in some order. It is described in detail in rule 101.4:
+
+If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+
+The ordering of triggered abilities is simply one consequence of this ordering rule.
+

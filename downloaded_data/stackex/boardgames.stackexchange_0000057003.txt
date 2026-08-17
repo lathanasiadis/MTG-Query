@@ -1,0 +1,15 @@
+Q:
+
+Inquisitor's Flail with Trample and First Strike
+
+This question is basically a variation on this one. Yesterday during a game I encountered a rather puzzling (for me) combat interaction involving Inquisitor's Flail.
+Let's say I have a 3/3 trample first strike equipped with Inquisitor's Flail, and my opponent has a 3/3 of their own. I attack with my 3/3, and my opponent blocks.
+I understand that if my creature didn't have first strike, I would assign 0 damage to defending player, since I have to assign lethal damage (=3) to the creature before the damage is doubled by the Flail (bringing it to 6).
+Does first strike change this interaction in any way?
+
+A:
+
+No, First Strike does not change this outcome. You will still deal 6 damage to the blocking creature and no damage to the defending player.
+First/Double Strike only causes another combat damage step to occur, during which only creatures with First/Double Strike deal damage. This additional combat damage step works the same otherwise, in particular as far as damage assignment is concerned. You are still required to assign 3 damage to the blocking creature, which is then doubled to 6. First strike or not, there will be no damage left to be assigned to the defending player.
+The only difference between your creature having first strike or not is whether or not it survives combat with another 3/3.
+

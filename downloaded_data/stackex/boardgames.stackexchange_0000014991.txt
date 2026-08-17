@@ -1,0 +1,28 @@
+Q:
+
+Volatile Rig blocks Xathrid Necromancer: What happens?
+
+My opponent has a Volatile Rig in play. The Rig has some silly coin flipping abilities:
+
+Whenever Volatile Rig is dealt damage, flip a coin. If you lose the flip, sacrifice Volatile Rig.
+
+When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to each creature and each player.
+
+I attack with some creatures, including a Xathrid Necromancer. He blocks the Necromancer with his Rig.
+When we get to combat damage, the Necromancer is going to die, and the Volatile Rig is going to take damage, triggering its first ability. I'm going to get a 2/2 zombie off the Necromancer's ability.
+
+Whenever Xathrid Necromancer or another Human creature you control dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
+
+If the Rig blows up, will I possibly lose my zombie to the second ability of the Rig? Or do I get the zombie after all the Rig abilities have resolved?
+
+A:
+
+Your zombie will be safe, because you are the active player.
+All combat damage is dealt simultaneously. This causes the Rig to trigger, but triggered abilities don't go on the stack until the next time state-based actions are checked. When state-based actions are checked, the Necromancer dies because he has taken lethal damage. This causes the Necromancer trigger to happen. Once state-based actions are done being checked, both the Rig ability and the Necromancer ability are put on the stack. Because you are the active player, your ability is put on the stack first. So the Rig ability will resolve, causing a coin flip. If that coin flip is lost, another triggered ability will be created, and put on the stack at the top. When that coin flip is lost, your zombie hasn't been created yet.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+Note that this would be different if it were your opponent's turn instead. In that case, your zombie trigger would go on the stack after the Rig trigger, thus resolving first.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses.
+

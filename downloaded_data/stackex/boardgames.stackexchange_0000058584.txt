@@ -1,0 +1,25 @@
+Q:
+
+Can I play instants between taps due to Hidden Strings?
+
+I've resolved a Hidden Strings spell. It says "You may tap or untap target permanent, then you may tap or untap another target permanent. Cipher". I tap the first permanent. Now, do I have a window to play instants/triggered abilities? Or The first tap/untap and the second tap/untap are indivisible?
+
+A:
+
+No, you cannot do anything between the two taps.
+A spell or ability resolves all at once, and there is no opportunity to take actions in the middle of it.
+The key rules are in the Timing and priority section:
+
+117.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+[...]
+
+117.2e Resolving spells and abilities may instruct players to make choices or take actions, or may allow players to activate mana abilities. Even if a player is doing so, no player has priority while a spell or ability is resolving. See rule 608, “Resolving Spells and Abilities.”
+
+One situation that looks different is when the effect of a spell or ability has a part that uses the word "when", "whenever", or "at". These are triggered abilities. Specifically, they are either delayed triggered abilities or reflexive triggered abilities:
+
+603.7 An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain “when,” “whenever,” or “at,” although that word won’t usually begin the ability.
+[...]
+603.12. A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers “when [a player] [does or doesn’t]” take that action or “when [something happens] this way.” These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they’re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them.
+
+When a delayed or reflexive triggered ability is involved, it is still the case the original spell or ability resolves all as one unit, with nobody gaining priority in the middle, but the thing that happens during that resolution is the creation of the triggered ability, and the triggered ability triggering in the case of reflexive triggers.
+

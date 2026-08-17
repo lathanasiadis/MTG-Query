@@ -1,0 +1,17 @@
+Q:
+
+If you trigger Tree of Perdition's ability, then give the tree -13/-13, does the player go to 0 life?
+
+If you activate Tree of Perdition's ability, "Exchange target opponent's life total with Tree of Perdition's toughness", then play a spell before the ability resolves that brings the tree's toughness to 0, does the opponent's life total become 0?
+
+A:
+
+No - the Tree's ability will fail to do anything when it resolves. After the -13/-13 effect resolves, the Tree will die as a state-based action. Thus by the time the Tree's ability resolves, it won't be in play so the exchange can't happen.
+The general rule:
+
+701.8a A spell or ability may instruct players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if the entire exchange can’t be completed, no part of the exchange occurs.
+
+And confirming this, a specific ruling for a very similar card:
+
+If Tree of Redemption isn’t on the battlefield when the ability resolves, the exchange can’t happen and the ability will have no effect.
+

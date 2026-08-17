@@ -1,0 +1,12 @@
+Q:
+
+Resolving triggered abilities
+
+I control the following two enchantments: Bottomless Pit and Necrogen Mists. At the beginning of my opponent's upkeep do I get to choose which one of the triggered abilities that goes on the stack first or will my opponent make that choice?
+
+A:
+
+Since you control the source of both triggered abilities, you choose the order they are put on the stack (and then they resolve in reverse order). If your opponent also has abilities triggering at the same time, he will do the same. The active player (the player whose turn it is) puts their triggers on the stack first, followed by the triggers of all of the other players in turn order. (Thus, the active player's triggers resolve last.)
+This applies to any situation where multiple triggers would be placed on the stack at the same time.
+It's important to know where the trigger is actually coming from. For example, you can control Pendrell Mists, but on your opponent's upkeep the triggers that are put on the stack are actually coming from his creatures, not your enchantment, because Pendrell Mists is granting an ability to the creatures, rather than having a trigger itself.
+

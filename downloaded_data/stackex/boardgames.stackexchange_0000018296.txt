@@ -1,0 +1,11 @@
+Q:
+
+What effect do Strionic Resonator and Vorinclex, Voice of Hunger have together?
+
+If I have a Strionic Resonator and a Vorinclex, Voice of Hunger in play under my control, what will happen when I tap a land for mana, or when my opponent taps a land for mana?
+
+A:
+
+You can't use Strionic Resonator when you tap a land for mana. Mana abilities do not use the stack. According to rule 605.1, a mana ability is an activated ability that creates mana, or a triggered ability that triggers off of mana creation and makes more mana itself (such as with Overgrowth or the last ability on Gauntlet of Power). Since Vorinclex's ability is never on the stack, you can't target it.
+If you copy the second ability, it won't have any additional effect. The ability doesn't have any targets, it simply affects the same land twice during the next untap step (my comment below indicating that this may not be the case is wrong).
+

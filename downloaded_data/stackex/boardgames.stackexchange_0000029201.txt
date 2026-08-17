@@ -1,0 +1,33 @@
+Q:
+
+Painter's Servant vs Emrakul
+
+What happens in the following situation?
+My opponents got the Painter's Servant and Grindstone lock going on but I have a Emrakul, the Aeons Torn in my deck that keeps me shuffling my graveyard back into my deck when it gets milled.
+DO I just keep on shuffling untill the 45 minutes is up and the games end in a draw? How is this situation resolved?
+
+A:
+
+DO I just keep on shuffling untill the 45 minutes is up and the games end in a draw?
+
+The fact that you asked this makes me suspect you might have the wrong idea about how Grindstone's milling ability works with Emrakul's reshuffling ability.
+When you mill an Emrakul with Grindstone, you don't reshuffle immediately. Instead, you schedule the reshuffling trigger to be put on the stack after Grindstone's ability is done resolving - in particular, after your library is empty.
+Then, when Emrakul's reshuffling trigger goes on the stack, both players have to have a chance to respond to it before it resolves.
+After that happens - both players respond, or pass, and then the triggered ability resolves - only then do you actually shuffle your graveyard into your library.
+And at this point, Grindstone's milling effect is over and done.
+Nothing else gets milled until your opponent is able to activate Grindstone's ability again, most likely during their next turn.
+The net effect of this is that, as long as you have Emrakul in your library, your opponent's Grindstone ability does very little (assuming, as I do throughout this answer, that no other relevant spells or abilities are used). Yes, they can mill your entire library once per turn cycle, but it gets reshuffled right afterwards, before you draw your card at the beginning of your draw step. So you wind up continuing the game pretty much as normal.
+Of course, once you draw Emrakul, if it was the only one in your deck, then Grindstone can mill your entire library. So you should try to win before that happens.
+
+To address the question you probably thought you were asking, if there is a mandatory loop of actions that keep coming back to the same game state, the game ends in a draw.
+
+716.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+Obviously, you don't actually have to carry out the loop, as long as all players are satisfied that the loop exists and is, in fact, mandatory.
+So if these cards somehow did create such a loop, you wouldn't keep shuffling for 45 minutes, you and your opponent(s) would just declare the game a draw and move on to the next one.
+There is the question of whether it counts as the same game state if the ordering of your library is random.
+If I remember correctly, there was once a deck (or at least the idea for a deck) where you would use an infinite combo to repeatedly shuffle your library until whatever card you wanted at the time happened to be on top.
+While this is effectively just stacking the deck, because any ordering you want will eventually occur with probability 1, I believe the official word as announced by some high-level judges is that you can't just skip the shuffling and stack the relevant cards on top of your deck.
+Similarly, it might be held that reshuffling changes the game state - perhaps depending on whether the positions of any cards were known beforehand.
+But I'll have to leave that to other people to resolve.
+

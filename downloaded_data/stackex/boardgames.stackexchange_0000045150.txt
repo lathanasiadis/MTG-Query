@@ -1,0 +1,14 @@
+Q:
+
+What happens in the case of multiple land animation effects?
+
+Suppose I have Noyan Dar, Roil Shaper, and I cast an instant and use the trigger to put 3 counters on a Celestial Colonnade, turning it into a 3/3 colorless Elemental with haste. 
+Now suppose I activate Celestial Colonnade. What happens? My assumption is that it becomes a 7/7 white and blue Elemental with haste, vigilance and flying until end of turn, and then it goes back to being a colorless 3/3 with haste. Is this correct?
+
+A:
+
+Yes, the land will be 7/7 until end of this turn, and a 3/3 otherwise.
+Noyan Dar's and Celestial Colonnade's abilities do the same thing: Turn the Colonnade into a creature that's still a land and set its power and toughness to a specific value. When both effects are active, the latest effect "wins". 
+Therefore, the order in which you activate them matters. If you first activate and resolve Celestial Colonnade's ability, then trigger Noyan Dar, the Colonnade will be 3/3, because the Colonnade's power/toughness-setting ability will be overwritten by Noyan Dar. If you trigger and resolve Noyan Dar first and then activate the Colonnade, it will be a 7/7.
+Noyan Dar's ability has no end condition, and counters always remain on permanents, so the land will be a 0/0 with 3 +1/+1 counters on it when the Colonnade's ability has ended.
+

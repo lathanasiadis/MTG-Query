@@ -1,0 +1,34 @@
+Q:
+
+How does Unstable set's "The Grand Calcutron" work with cards that interact with a player's hand?
+
+The upcoming Unstable set features a card called The Grand Calcutron:
+
+A particular part of the card seems to make it so that players no longer have hands, along with changing how draws work.
+
+When The Grand Calcutron enters the battlefield, each player's hand becomes a program (an ordered row of revealed cards).
+Players can only play the first card of their program.
+If a card would be put into a player's hand from anywhere, that player reveals it and places it anywhere within his or her program instead.
+At the beginning of each player's end step, if that player's program has fewer then five cards, he or she draws cards equal to the difference.
+
+The way that it is written it seems like players will no longer have a "hand". I am wondering how this card will change interactions with other cards that look at, or modify, player's hands in some way.
+Specifically I am wondering about:
+
+Discard effects, (eg: Duress, or Thoughtseize)
+Effects that modify a player's handsize (eg. Locust Miser)
+Effects that ask you to make selections from someones hand (eg. Agonizing Memories)
+Effects that try to count how many cards a player has in their hand (eg. Adamaro, First to Desire)
+
+Note: As this is a card from an Unset, Official Rulings from Mark Rosewater would be word of God, failing that well reasoned answers that draw on existing card rulings or game rules are perfectly acceptable.
+
+A:
+
+The program is your hand, and effects that affect or care about the contents of your hand affect or care about the program while The Grand Calcutron is on the battlefield.
+Mark Rosewater answered this question specifically regarding discarding as follows:
+
+What happens if an effect forces you to discard a card while The Grand Calcutron is in play? Do you discard from your program?
+You discard a card from the program. With Grand Calcutron on the battlefield, your hands are the program so things that affect your hand affect the program.
+
+Presumably, "things that affect your hand" includes the rule instructing you to discard to hand size in the cleanup step, so an effect that modifies your maximum hand size would affect the program the same way they would affect a regular hand.
+Similarly, an effect that requires selecting a card from a hand would have you select from the program instead, and anything that wants to count the cards in the hand would count the cards in the program.
+

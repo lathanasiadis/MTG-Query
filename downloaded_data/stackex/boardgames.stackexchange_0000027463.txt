@@ -1,0 +1,16 @@
+Q:
+
+Life gain against fatal spell damage
+
+I was recently in the following situation. I had an untapped sunscorch regent and 5 life. It was my opponents turn and he cast Beacon of destruction.
+Would I have died or would I have 1 life remaining.
+
+A:
+
+You would have 1 life remaining. Action order:
+
+Opponent casts Beacon of Destruction, it goes on stack.
+Sunscorch Regent triggers, it goes on stack.
+
+If both players pass, the stack starts resolving top to bottom. First you gain 1 life and put a counter on Regent. You now have 6 life. Next, Beacon resolves, you are dealt 5 damage and now have 1 life.
+

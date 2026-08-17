@@ -1,0 +1,12 @@
+Q:
+
+Can Turn to Frog prevent 'enter the battlefield' abilities?
+
+Can my opponent cast Turn to Frog, to prevent 'Enter the battlefield' abilities?
+
+A:
+
+There are two cases of "Enter the Battlefield" abilities.
+If the ability is on the creature entering the battlefield, such as Abbot of Keral Keep, Turn to Frog isn't an answer. You can't target the creature until it has entered the battlefield. Once it has entered the battlefield, the Ability has already been triggered and is being added to the stack.
+However, if the ability is on a creature already on the battlefield, such as Agent of Erebos or Ivy Lane Denizen, Turn to Frog is a valid answer. In response to any number of effects that would cause creatures to enter the battlefield, casting Turn to Frog while they are on the stack will pre-empt the ability. Turn to Frog will resolve first, affecting the target with the Enter the battlefield effect. When other creatures enter the battlefield, the ability no longer exists.
+

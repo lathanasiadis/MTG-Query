@@ -1,0 +1,17 @@
+Q:
+
+Exiling tokens with conjurer's closet
+
+What happens if you exile a token with Conjurer's Closet? My understanding is that the token disappearing is a state based action, which is only checked when the ability finishes resolving. Since the closet exiles and returns the token as part of the resolution of a single ability, state based actions are never checked and the token survives. Is this correct?
+Edit: I just noticed that the closet specifically refers to "that card". Does that change the answer?
+
+A:
+
+The token will disappear, and it will never enter the battlefield.
+You are correct that state based actions are only checked after the entire ability resolves. However, there is an additional rule that applies here: rule 110.5g says
+
+A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+
+So once the token is exiled, it stays in exile even when the Conjurer's Closet instructs you to return it to the battlefield.
+So, the use of the phrase "that card" on Conjurer's Closet is not the reason that it only returns to the battlefield if it's a card, but it's a hint that that's how it works anyway.
+

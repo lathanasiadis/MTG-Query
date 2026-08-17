@@ -1,0 +1,16 @@
+Q:
+
+Order of resolution of creatures abilities triggered by combat damage
+
+If multiple creatures that have an ability that gets triggered when the creature deals damage to an opponent, in what order should those abilities be resolved?
+For example, if I attack with an Hypnotic Specter and a Guul Draz Specter and both are not blocked, should my opponent discard a card at random and then choose and discard one, or viceversa?
+If my opponent has 3 cards in hand, 2 of which are bad and one is good, if he discards randomly first, he has a probability of 1/3 to discard the good card, and if he chooses first he has a probability of 1/2 to discard the good card, so I think that in this case the order does matter...
+Maybe I'm just overthinking :)
+
+A:
+
+Every player puts the abilities he or she controls on the stack in any order that player chooses, starting with the player whose turn it is.
+Since you control both triggers from your creatures, you may put them on the stack in any order. The ability you put on last will resolve first.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+

@@ -1,0 +1,13 @@
+Q:
+
+How to find the spellbook for a card?
+
+To make the question specific, I'd like to find the spellbook for Cursebound Witch.
+My usual go to places for cards are scryfall and Gatherer.  Gatherer appears to not have Arena/Alchemy cards.  I'm assuming Scryfall doesn't have the spellbook, because it's not in mtgjson?
+TLDR: I can find the spellbook in various locations, but is there a "canonical" source that's tracking these properly?
+
+A:
+
+Scryfall at the time of this post, has added support for spellbooks.
+You can search the card name with spellbook:"Cursebound Witch". Alternately, you can click the Spellbook button below the card image to be taken to that search. For example, here it is indicated on the page of Cursebound Witch:
+

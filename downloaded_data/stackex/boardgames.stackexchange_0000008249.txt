@@ -1,0 +1,21 @@
+Q:
+
+Is a spell with split mana in its cost a multicolored spell?
+
+Say I play a Noggle Bandit (or any card with split mana in its cost). Does its color depend on what mana I use to play it, or is it always both red and blue? It seems a little weird that this card would return Aurora Eidolon from my graveyard to my hand AND be able to block red creatures with intimidate if I only paid blue mana for it, but I highly doubt that it would 'remember' the mana-color used to play it. Likewise, Reaper King would always be 5 colors no matter how I pay its cost, right?
+
+A:
+
+A card's color is all colors contained in its mana cost, be it regular mana symbols and/or hybrid and/or Phyrexian mana, plus the color of its color indicator, if any:
+
+202.2d An object with one or more hybrid mana symbols and/or Phyrexian mana symbols in its mana cost is all of the colors of those mana symbols, in addition to any other colors the object might be. (Most cards with hybrid mana symbols in their mana costs are printed in a two-tone frame. See rule 107.4e.)
+
+Also, it's not at all unusual that a card has a color that is different to what you pay to cast it. There are numerous cases where those two properties are unrelated.
+Examples include: 
+
+Creatures that have no mana costs at all or cost zero mana
+Creatures that have their colored mana costs reduced to zero
+Creatures that are brought into play without paying its mana costs through other means
+Creatures that have alternative costs that do not include mana at all
+and so on.
+

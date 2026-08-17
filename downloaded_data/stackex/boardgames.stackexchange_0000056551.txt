@@ -1,0 +1,46 @@
+Q:
+
+If Invocation of Saint Traft, or similar card enchants an opponent's creature what happens?
+
+If Invocation of Saint Traft enchants an opponent's creature, is the opponent the one who creates the creature token or is it the owner/controller of the aura card? For what it's worth, I would still control the aura.
+
+Whenever this creature attacks, create a 4/4 white Angel creature token with flying that’s tapped and attacking. Exile that token at end of combat.”
+
+I'm aware that the token can't enter attacking for a player who isn't currently attacking, and instead just enters tapped, as per Crafty Cutpurse rulings:
+
+If a token would be created tapped and attacking, but the token’s controller isn’t an attacking player, that token is created tapped but not attacking. If a token would be created blocking a creature, but the token’s controller isn’t a defending player, that token is created but isn’t blocking.
+(2018-01-19)
+
+But that doesn't define how ownership of cards triggering effects impacts the ownership of the results of those effects?
+But I'm not clear from rule 701.6. (Create) who owns the newly created token?
+
+701.6a To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.
+
+Even the token rules, don't spell it out for me:
+
+111.2. The player who creates a token is its owner. The token enters the battlefield under that player’s control
+
+The upshot is, if I target an opponent's creature with Invocation of Saint Traft (or similar) and that creature attacks, who gets the token?
+
+A:
+
+Your opponent will control the token because they control the creature, and thus the ability that created the token.
+What matters here is that the ability that creates the token is not the aura’s ability. Rather, the aura gives the ability to the enchanted creature. At the time the triggered ability triggers; nothing in the game cares about why the creature has that ability. It could be printed on the creature card, granted by a one-shot effect of a resolving effect, or granted by a continuous ability of an aura as in the example. All that matters is that the creature has that triggered ability.
+This is all because the aura states
+
+Enchanted creature has “Whenever this creature attacks, create a 4/4 white Angel creature token with flying that’s tapped and attacking. Exile that token at end of combat.”
+
+rather than stating
+
+Whenever enchanted creature attacks […]
+
+If it were that phrasing instead then the triggered ability would be on the aura and not the creature, and so the controller of the aura would be the one that controls the ability and thus the token.
+
+113.8. The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability’s source when it triggered, or, if it had no controller, the player who owned the ability’s source when it triggered. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+The ability’s “source” is the creature. And we know that the controller of the ability is the one that creates the token, because:
+
+Resolving Spells and Abilities
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+

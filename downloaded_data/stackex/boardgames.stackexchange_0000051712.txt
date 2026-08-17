@@ -1,0 +1,20 @@
+Q:
+
+Paying madness costs with Dark Ritual
+
+If you cast a card with Madness by discarding it in the cleanup step, are you able to pay for it's alternate casting cost with a Dark Ritual?
+From my basic knowledge of the game, you wouldn't be able to, as neither player gets priority before the cost of the discarded card needs to be paid, and as Dark Ritual isn't a mana ability, you cannot pay costs with it. Though reading through the comprehensive rules gives me a headache, and it's not obvious to me what the answer is.
+
+A:
+
+You can pay for madness using dark ritual
+Madness needs to be a little bit complicated in order to work within the rules properly.
+
+702.34a Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player’s hand. The second is a triggered ability that functions when the first ability is applied. “Madness [cost]” means “If a player would discard this card, that player discards it, but exiles it instead of putting it into their graveyard” and “When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn’t, they put this card into their graveyard.”
+
+The important detail here is that the madness cost is paid as part of the resolution of a triggered ability. While normally no player gets priority during cleanup, there is an exception if abilities are triggered
+
+514.3. Normally, no player receives priority during the cleanup step, so no spells can be cast and no abilities can be activated. However, this rule is subject to the following exception: 514.3a At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger “at the beginning of the next cleanup step”). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
+
+So Dark Ritual can be played while these madness trigger is waiting on the stack.
+

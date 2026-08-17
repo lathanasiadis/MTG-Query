@@ -1,0 +1,33 @@
+Q:
+
+Another aspect of regeneration in Magic the Gathering?
+
+I read most of the articles about regeneration in MTG, but my question albeit being somewhat basic, still finds no answer. Here's the scenario:
+I attack with a creature that has the ability to regenerate. My opponent blocks it with a deathtouch creature. I paid the regeneration cost before attacking. I know my creature is to be tapped, remove all damage, survive the destruction effect, then be removed from combat. What I want to know is does my creature deals its combat damage to my opponent's creature before it is pulled out of combat by its ability? 
+(I would say yes, because the damage is done in a step before the 'death' effect triggers, hence I regenerate post-combat damage. But somehow my friend doubted that, and it made me doubt too.)
+
+A:
+
+Yes, combat damage is dealt simultaneously.
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn't use the stack. A player assigns a creature's combat damage according to the following rules:
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt. This is a change from previous rules.
+
+Your regenerating creature will assign its combat damage if it survives to the Combat Damage Step in which it will deal damage (I.e. if the defending creature had First Strike, and your creature did not, it may receive lethal damage before getting to its Combat Damage Step. The Combat phase is divided into 5 steps.
+
+Beginning of Combat Step
+Declare Attackers Step
+Declare Blockers Step
+Combat Damage Step
+End of Combat Step
+
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+If a creature is removed from combat before the Combat Damage Step, it will not assign or deal any damage. Setting up a regeneration shield is not one of the listed methods of removing a creature from combat.
+
+it leaves play
+it regenerates [CR 419.6b]
+its controller changes
+it stops being a creature
+an effect removes it from combat
+

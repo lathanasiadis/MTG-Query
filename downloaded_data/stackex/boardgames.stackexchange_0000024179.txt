@@ -1,0 +1,52 @@
+Q:
+
+can you activate abilities during a resolving stack?
+
+So for example: I have Krenko, Mob Boss with Thornbite Staff equipped. He is targeted with Doom Blade. In response I tap Krenko to make 1 Goblin token. I also have Goblin Bombardment to sacrifice the token. Can I sacrifice the token after it has been made to untap Krenko and make more tokens before Doom Blade resolves?
+
+A:
+
+It sounds like you're trying to determine which of two possible models is the real one:
+
+If all players pass priority in succession, then every spell/ability on the stack resolves, with no further opportunities to respond until it is empty. If this is the real model, then you can't sacrifice the goblin token to Goblin Bombardment before Doom Blade resolves.
+If all players pass priority in succession, then only the top spell/ability on the stack resolves, and players may continue to respond to spells/abilities remaining on the stack. If this is the real model, then you can sacrifice the goblin token to Goblin Bombardment before Doom Blade resolves.
+
+So which is the real model? It's the second one. Items on the stack resolve one at a time, rather than all at once.
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+and
+
+116.3b. The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+With these in mind, the play-by-play goes like this. I'm assuming it's your opponent's turn, but this only matters for order of priority. The outcome would be the same otherwise.
+
+It's your opponent's turn, so he is the active player. He casts Doom Blade targeting Krenko.
+
+Stack: Doom Blade.
+
+Your opponent passes priority to you. You activate Krenko's tap ability.
+
+Stack: Doom Blade, Krenko.
+
+You pass priority. Your opponent passes priority. The top spell/ability on the stack resolves. You receive one goblin token.
+
+Stack: Doom Blade.
+
+Your opponent passes priority. You activate Goblin Bombardment, sacrificing a goblin and choosing a target. Krenko's "untap me" ability triggers and goes on the stack.
+
+Stack: Doom Blade, Goblin Bombardment, Krenko's untap ability.
+
+You pass priority. Your opponent passes priority. The top spell/ability on the stack resolves. Krenko untaps.
+
+Stack: Doom Blade, Goblin Bombardment.
+
+Your opponent passes priority. You pass priority. The top spell/ability on the stack resolves. Goblin Bombardment deals one damage to whatever you targeted.
+
+Stack: Doom Blade.
+
+Your opponent passes priority to you.
+
+At this point, you can pass priority, letting Doom Blade resolve and destroy Krenko. Or you can go back to step 2 and make another goblin token. In fact, you could repeat the loop as many times as you wish.
+(This is all assuming that your opponent has no more plays to make after Doom Blade. He could play additional spells and abilities any time during this process where it says "Your opponent passes priority". For instance, if he plays a second Doom Blade on Krenko during step 3, then your infinite damage combo will be foiled)
+

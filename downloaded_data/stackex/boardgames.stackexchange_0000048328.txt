@@ -1,0 +1,19 @@
+Q:
+
+What happens when I copy a legendary creature with Rite of Replication?
+
+What happens when you replicate a legendary creature with Rite of Replication?
+
+A:
+
+The token will enter the battlefield when the spell resolves and, the next time any player would receive priority, you'd have to choose one of the legendary permanents to stay on the battlefield. The copies would then be put into your graveyard.
+This is governed by rule 704.5j:
+
+If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards.
+
+This will happen the next time you would receive priority because it's a state-based action:
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.[...]
+
+As a side note, like @Gendolkari mentioned, this interaction is no different than simply casting another copy of a legendary permanent you already have on the battlefield. In this case, the exact same rulings will apply.
+

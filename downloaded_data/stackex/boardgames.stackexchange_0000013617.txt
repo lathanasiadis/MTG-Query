@@ -1,0 +1,15 @@
+Q:
+
+How does Armed // Dangerous interact with trample?
+
+I have a Ghor-Clan Rampager on the battlefield and I fuse Armed/Dangerous on it. It is going to be a 5/5 with trample and double strike, and all of my opponents creatures are going to be forced to block it.
+If my opponent has Burning-Tree Emissary (2/2) and Skarrg Guildmage (2/2), which are going to block my Rampager, will the resulting damage from each combat reduce my opponent's life total? In other words: my Rampager deals 5 damage on the Emissary, which dies, and yet my opponent loses 3 life due to the trample and then another 5 due to the second strike? And then, the same thing against the Guildmage?
+If that's correct, my opponent would lose 3 + 5 + 3 + 5 = 16 life, Is that correct?
+
+A:
+
+Unfortunately your understanding is incorrect.
+Your 5/5 Ghor-Clan Rampager with trample and double strike will be declared as an attacker, then all creatures able to block it must do so. Your opponent will declare their 2 creatures as blockers, and you will subsequently choose the order in which your ghor-clan rampager will deal its damage to those blocking creatures.
+Then the first strike damage phase will occur. Your Ghor-Clan Rampager will assign it's 5 damage to the blockers in the order you chose earlier. First it must assign lethal damage to the first creature. In this case they are both 2 toughness, so 2 damage is "lethal" damage. Once lethal damage has been assigned to the first creature in the damage assignment order, you move onto the next creature with your remaining damage (3). Again assigning 2 lethal damage. At this point your creature has 1 damage left to assign, having assigned lethal damage to all its blockers. This is where trample occurs, and in the first strike step the creature deals 1 damage to your opponent.
+Subsequently, these creatures die and things move on to the regular combat damage step, at this point you have 5 damage to assign, a creature without trample at this point (having killed one or more blockers in the first strike damage phase) would have nothing to assign damage to, as creatures without trample can only assign damage to the creatures that are blocking them. As your Ghor-Clan Rampager has trample, the full 5 damage from this damage phase tramples over the now dead blockers onto your opponent. This gives you a total of 6 damage trampled onto your opponent.
+

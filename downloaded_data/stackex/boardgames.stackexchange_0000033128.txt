@@ -1,0 +1,23 @@
+Q:
+
+After lethal first strike damage to an indestructible creature, will it still do damage?
+
+If I were to attack with a 4/4 indestructible creature and it's blocked by a 4/2 creature with first strike, would my indestructible creature still attack during the second combat damage step, or would it just tap, not assigning any damage?
+
+A:
+
+Indestructible, as with most abilities, doesn't modify how combat works - it only does this:
+
+702.12b. A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (...).
+
+The respective state-based action that 702.12b renders unaffecting:
+
+704.5g. If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. (...)
+
+This results in the following chain of events:
+
+In the first combat damage step, the 4/2 will deal 4 damage to the indestructible 4/4 creature.
+State-Based Actions are checked, but even though the creature has lethal damage marked on it, it won't be put into the graveyard and therefore not removed from combat.
+In the second combat damage step, the 4/4 will deal 4 damage to the 4/2.
+State-Based Actions are checked, see lethal damage marked on the 4/2, and put into the graveyard.
+

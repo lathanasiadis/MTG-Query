@@ -1,0 +1,11 @@
+Q:
+
+How can I translate a Magic card printed in a language that I don't know?
+
+I bought a bulk pack of magic cards today and one of them was in a foreign language. I don’t know which language it is. Google translate is not recognizing it, even when I take a picture of it. How can I determine what the card says?
+
+A:
+
+Instead of trying to translate the card, just search for it with other unique identifiers.  Your image contains a collector number (that first number at the bottom of the card 71/244) and a set symbol (the one for Avacyn Restored, aka AVR). With those two pieces of information, I used Scryfall to search for the specific card.   In this case I searched for https://scryfall.com/search?q=number%3A71+set%3Aavr which returned a result for Peel from Reality
+If you don't recognize the set symbol, you could include other search parameters (like the mana cost and artist) or look up the set symbol at https://scryfall.com/sets. Here's another search using just the collector number and artist that also found a single result: https://scryfall.com/search?q=number%3A71+artist%3A%22jason+felix%22
+

@@ -1,0 +1,22 @@
+Q:
+
+Does a card played with a cascade ability count for "casting" a spell?
+
+I recently added Fires of Invention and Maelstrom Nexus to one of my decks.
+Fires of Invention:
+Enchantment. You can cast spells only during your turn and you can cast no more than two spells each turn. You may cast spells with mana value less than or equal to the number of lands you control without paying their mana costs.
+Maelstrom Nexus:
+Enchantment. The first spell you cast each turn has cascade. (When you cast your first spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
+So, if I cast my first card for the turn with Fires of Invention and then play a spell with the Maelstrom Nexus cascade effect, will that count for my second spell cast this turn?
+
+A:
+
+Yes. Cast has a very specific meaning in the comprehensive rules:
+
+Cast
+To take a card from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. See rule 601, “Casting Spells.”
+
+and both cards refer to that specific definition. The trigger (you deliberately choosing a card from your hand, semi-automatic casting from an ability like cascade, etc.) does not matter.
+If you didn't cast another spell this turn, the card cast with Fires of Invention itself counts as the first one, and the one cast with Maelstrom Nexus' ability counts as the second one (which is fine - Fires of Invention allows two spells per turn). That means you cannot cast another spell this turn. If you did already cast another spell this turn, Fires of Invention would prevent you from casting a revealed card with Maelstrom Nexus' ability, because that would be the third one (but the revealed cards are still put on the bottom of your library).
+Conclusion: Fires of Invention and Maelstrom Nexus are not an ideal combination. Of course, if you find both cards fun to play, we won't stop you from playing them together ...
+

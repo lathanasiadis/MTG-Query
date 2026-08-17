@@ -1,0 +1,29 @@
+Q:
+
+How does the Innistrad "no spells / two or more spells cast last turn" transform trigger work?
+
+On some of the two sided cards the cards ability says "At the beginning of each upkeep, if no spells were cast last turn transform (card name)".  Mayor of Avabruck 
+Does "turn" refers to the opponents last turn, or the opponents turn before the other player? 
+I have a entire deck that has these cards but it don't understand it.
+
+A:
+
+If it's your upkeep, the last turn is the turn that has most recently concluded (usually your opponents). If it's your opponent upkeep, the last turn is usually yours.
+What is a turn?
+
+500.1. A turn consists of five phases, in this order: beginning, precombat main, combat, postcombat main, and ending. Each of these
+  phases takes place every turn, even if nothing happens during the
+  phase. The beginning, combat, and ending phases are further broken
+  down into steps, which proceed in order.
+
+So a turn contains all the phases. But when is the upkeep?
+
+501.1. The beginning phase consists of three steps, in this order: untap, upkeep, and draw.
+
+It is in the beginning phase. The whole turn before this point is the turn of the previous player.
+
+603.2e If a triggered ability’s trigger condition is met, but the object with that triggered ability is at no time visible to all
+  players, the ability does not trigger.
+
+That whole turn will be checked to see if the condition has been met to so it can trigger.
+

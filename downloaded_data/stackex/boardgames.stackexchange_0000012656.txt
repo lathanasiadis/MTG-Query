@@ -1,0 +1,62 @@
+Q:
+
+Does the Thorncaster Sliver's ability damage have to be assigned before or after blockers are declared?
+
+If I have 5 slivers and one of them is a Thorncaster, will I need to assign the "1 damage to target creature or player" before or after my opponent declares blockers?
+My guess is that it is as I attack, but I would like it to be after blockers are assigned.
+
+A:
+
+As with most abilities, you choose the targets as part of placing the ability on the stack. The damage is assigned and resolves before any blockers are declared.
+I will cite ikegami's answer from another question related to Thorncaster Sliver.
+https://boardgames.stackexchange.com/a/12644/3128
+
+Here's what happens:
+
+You attack with five slivers. Five instances of Thorncaster Sliver's ability triggers
+You place the abilities on the stack in the order of your choice: (Best order used)
+  
+  
+You place PS#1's ability on the stack targeting the 2/2
+You place PS#2's ability on the stack targeting the 2/2
+You place TS's ability on the stack targeting the Blood Artist
+You place MS#1's ability on the stack targeting your opponent
+You place MS#2's ability on the stack targeting your opponent
+
+MS#2's ability resolves:
+
+Deal one damage to your opponent.
+
+MS#1's ability resolves:
+  
+  
+Deal one damage to your opponent.
+
+TS's ability resolves:
+  
+  
+Deal one damage to the Blood Artist
+
+The Blood Artist dies. Blood Artist's ability triggers.
+Your opponent places Blood Artist's ability on the stack targeting you.
+Blood Artist's ability resolves:
+  
+  
+You lose one life.
+Your opponent gains one life.
+
+PS#2's ability resolves:
+  
+  
+Deal one damage to the 2/2.
+
+PS#2's ability resolves:
+  
+  
+Deal one damage to the 2/2.
+
+The 2/2 dies.
+[Move on the Declare Blockers]
+
+The emphasis is mine.
+

@@ -1,0 +1,14 @@
+Q:
+
+What happens if you are unable to draw because your library is empty?
+
+In Magic the Gathering, what happens to a player if they get their draw phase, but are unable to draw a card because their library is empty?
+
+A:
+
+They lose the game.
+
+120.4. A player who attempts to draw a card from a library with no cards in it loses the game the next time a player would receive priority.
+104.3c If a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority.
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, he or she loses the game.
+

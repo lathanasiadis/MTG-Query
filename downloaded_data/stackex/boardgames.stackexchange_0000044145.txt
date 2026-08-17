@@ -1,0 +1,40 @@
+Q:
+
+If I really need a card on my start hand, how many mulligans make sense?
+
+There is a funny modern deck where you play Treasure Hunt, but you really need to have it on the starting hand. How many mulligans should I take, if my deck contains 60 cards and contains 4 copies of Treasure Hunt?
+
+A:
+
+If you “need” the card in your starting hand and there is no other option—you take as many as you need until you have it, then stop. If you don't have it when you've mulliganed to 1, you concede and hope for better luck next game.
+Granted you also need lands for mana, so you probably concede if you don't have it and an island when you mulligan to 2.
+However this is a bit of a fragile fragile game plan: you're going to lose about 1 in 8 games simply for not having the card in your opening hand and conceding. 1 in 8 chances can also happen multiple games in a row.
+Odds of finding that card in your mulligans
+From How do you calculate the likelihood of drawing certain cards in your opening hand?, we can calculate the odds of having it by each mulligan.
+If you have a 60-card deck, the chance of starting with at least one 4-of in your opening hand is about 40%. That's from this calculation that finds the odds of not finding that one card:
+
+(56*55*54*53*52*51*50) / (60*59*58*57*56*55*54) = ~0.6005 or ~60%
+
+Chance of finding the card in each separate hand
+Let's run that calculation for each of your hands:
+
+7 cards (first hand): 0.60 → 40% chance of finding the card
+6 cards: (56*55*54*53*52*51) / (60*59*58*57*56*55) = 0.64 → 36% chance
+5 cards: (56*55*54*53*52) / (60*59*58*57*56) = 0.699 → ~30% chance
+4 cards: (56*55*54*53) / (60*59*58*57) = 0.75 → 25% chance
+3 cards: (56*55*54) / (60*59*58) = 0.81 → 19% chance
+2 cards: (56*55) / (60*59) = 0.87 → 13% chance
+1 card: (56) / (60) = 0.933 → ~7% chance
+
+Chance of finding the card by a certain mulligan
+To get this, we just multiply the mulligan results together.
+
+Chance of finding the card by your second hand of 6 cards: (0.60*0.64) = 0.38 → 62%
+By your third hand (5 cards): (0.60*0.64*0.699) = 0.265 → 73.5%
+By your fourth hand (4 cards): (0.60*0.64*0.699*0.75) = 0.20 → 80%
+By your fifth hand (3 cards): (0.60*0.64*0.699*0.75*0.81) = 0.16 → 84%
+By your sixth hand (2 cards): (0.60*0.64*0.699*0.75*0.81*0.87) = 0.14 → 86%
+By your seventh hand (1 card): (0.60*0.64*0.699*0.75*0.81*0.87*0.933) = 0.13 = 87%
+
+In 87% of your games, you'll find your card in one of your mulligans if you mulligan all the way down to 1. In 13% of them, or 1 in 8 games, you'll just never find it and you'll concede.
+

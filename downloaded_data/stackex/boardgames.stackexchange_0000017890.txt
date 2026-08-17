@@ -1,0 +1,14 @@
+Q:
+
+Do gods keep their +1/+1 counters if they stop being creatures?
+
+Do counters added to a god with Gleam of Battle disappear when the god stops being a creature?
+Scenario: Purphoros, God of the Forge is a creature (due to devotion reaching the required amount) and Gleam of Battle is also on the battlefield. Then Purphoros attacks and gets a +1/+1 counter for attacking. If my devotion to red then drops below 5 and Purphoros is no longer a creature, would the +1/+1 counters stay on him or will he reset to his original power/toughness level?
+My thinking is when he becomes an enchantment he loses it due to the fact that he is no longer a creature and that his power and toughness are technically not there and so he gets remade into being a creature only when devotion is high enough.
+
+A:
+
+They absolutely stay. According to the comprehensive rules, emphasis mine:
+
+205.1a Some effects set an object's card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. 
+

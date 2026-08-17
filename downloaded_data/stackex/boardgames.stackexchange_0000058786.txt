@@ -1,0 +1,27 @@
+Q:
+
+narset, parter of veils interaction with alms collector
+
+If I have on the battlefield both Narset, Parter of Veils and Alms Collector, and my opponent have a trigger to draw 2, do alms collector make me draw 1?
+and then narset will let the opponent draw one or not depending on if it was the first card of the turn for the opponent or not.
+First answer of most people in my LGS is no, because of rules 101.2 and 614.17c. and it make sens
+But I think yes because of  121.1a and 121.1b, witch said that replacement effect that refer to the number of card are considered before individual draw (because of 616.1g), and that effect that restrict the number of draw applies to individual draw.
+But I'm not 100% certain because 614.q7 say "can't" effect are not replacement effect
+I am missing something?
+
+A:
+
+You get to draw a card from Alms Collector's ability in any case.
+You are correct that Narset's passive ability is not a replacement effect, because of 614.17, but that has no relevance here - 121.2a solely exists to enable the Alms Collector replacement effect, and its second clause is not limited to replacement effects.
+
+121.2a An instruction to draw multiple cards can be modified by replacement effects that refer to the number of cards drawn. This modification occurs before considering any of the individual card draws. See rule 616.1g.
+
+So what happens is that Alms Collector replaces the multiple card draw event before Narset is even considered because of the second clause in 121.2a. You and your opponent each draw 1 card, and 121.2b is checked now because of Narset.
+
+121.2b Some effects say that a player can’t draw more than one card each turn. Such an effect applies to individual card draws. Instructions to draw multiple cards may still be partially carried out. However, if an effect offers the player a choice to draw multiple cards, the affected player can’t choose to do so. Similarly, the player can’t pay a cost that includes drawing multiple cards.
+
+We are already down to individual card draws because of Alms Collector, so only the first 2 clauses are relevant. If your opponent already drew their card for the turn, Narset will prevent their Alms Collector card draw.
+In any case, you will get to draw your Alms Collector card:
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+

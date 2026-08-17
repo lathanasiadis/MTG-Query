@@ -1,0 +1,40 @@
+Q:
+
+What happens after using Spinal Embrace on a Theros God?
+
+Spinal Embrace:
+
+Cast Spinal Embrace only during combat. Untap target creature you
+  don't control and gain control of it. It gains haste until end of
+  turn. At the beginning of the next end step, sacrifice it. If you do,
+  you gain life equal to its toughness.
+
+Phenax, God of Deception
+
+As long as your devotion to blue and black is less than seven, Phenax
+  isn't a creature.
+
+If I have Phenax in play, and my opponent plays Spinal Embrace targeting it, and then gains control of it, but does not have enough devotion to make Phenax a creature, what happens? Do they gain control of Phenax permanently?
+
+A:
+
+Your opponent will gain control of Phenax, then at the end of your turn they will sacrifice it and gain zero life.
+When Spinal Embrace resolves, it creates two continuous effects:
+
+You control that Phenax.
+Phenax gains haste until end of turn.
+
+and a delayed triggered ability:
+
+At the beginning of the next end step, sacrifice Phenax. If you do, you gain life equal to its toughness.
+
+So, right after Spinal Embrace resolves, your opponent controls Phenax and it has haste. Then, at the beginning of the next end step, the delayed triggered ability triggers and they sacrifice Phenax. Then they gain life equal to its toughness. However, rule 302.4 says
+
+Power and toughness are characteristics only creatures have.
+
+and rule 107.2 says
+
+If anything needs to use a number that can't be determined, either as a result or in a calculation, it uses 0 instead.
+
+When you sacrifice Phenax, it is not a creature, so it doesn't have a toughness. So, they gain zero life.
+

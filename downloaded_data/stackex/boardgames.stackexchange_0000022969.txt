@@ -1,0 +1,19 @@
+Q:
+
+Will returning a creature trigger Prowess?
+
+Pre-amble
+So I am currently building a Blue & White Prowess + Heroic deck in Standard. The idea that I can boost my heroic creatures with instants and auras and reap the benefit across all my prowess creatures.
+Possible combo
+I'm interested to know if the below combination will work. The Lotus-Eye Mystics would be in the graveyard, and then I would play Rally the Ancestors. In an ideal scenario the Rally the Ancestors would trigger the Lotus-Eye Mystics Prowess because it's an instant. Then I can return an enchantment aura back to my hand also.
+
+Assumption
+I am assuming that Prowess has to be on the battlefield for the effect to trigger, which means that Rally the Ancestors would return the Lotus-Eye Mystics to the battlefield, but because they were in the graveyard when the instant was cast, the Prowess effect cannot trigger.
+Is my assumption correct?
+
+A:
+
+The creature with Prowess has to be on the battlefield to trigger it.
+Prowess is a triggered ability that only works while the card it's printed on is on the battlefield, i.e. as long as it's a permanent. Therefore, if you return Lotus-Eye Mystics with Rally the Ancestors, the Mystics will not get the Prowess trigger from that. 
+You will, however, get the enters-the-battlefield trigger from the Mystics.
+

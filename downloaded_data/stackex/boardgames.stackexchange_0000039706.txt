@@ -1,0 +1,49 @@
+Q:
+
+How many iterations of the legend rule have there been?
+
+I remember hearing LSV talk about how back in Urza's block people would play Crop Rotation to tutor for a Tolarian Academy just so that with the old legend rule, your opponent could not play the legendary land.
+That made me wonder how many versions of the legend rule have there been, and how has it changed over the years?
+
+A:
+
+There have been three versions of the Legend rule. After its initial introduction in Legends (released 1994), its second iteration was introduced in Champions of Kamigawa (released 2004), and its third in Magic 2014 (released 2013).
+From Legends to Champions of Kamigawa (1994–2004)
+We had the rule you described: only one of a given Legend card could be in play. If any newer copies entered, they were immediately removed. Here's what the rule said in 2002:
+
+420.5e If two or more Legends or legendary permanents with the same name are in play, all except the one that has been a Legend or legendary permanent with that name the longest are put into their owners’ graveyards. This is called “the Legend rule.” In the event of a tie, each Legend or legendary permanent with the same name is put into its owner’s graveyard.
+(If two permanents have the same name but only one is a Legend or is legendary, this rule doesn’t apply.)
+
+During this period there was both a Legend creature type and a Legendary supertype: creatures were Legends (the creature type) and other card types were Legendary (the supertype).
+One impact of this particular rule players observed was that it sometimes created a race to get down your legends first. Doing so would lock your opponent out of playing theirs, rendering cards in their hand/library dead until they could respond with removal. If you didn't want the same to happen to you, you'd better win the race.
+Legends to Ice Age (1994–1995): Legends initially also Restricted
+Initially all Legends were also on the Restricted list, a deckbuilding restriction which meant you could only have one of a given legendary card in your entire deck. WotC did this for flavour reasons and to keep things simple, since you could only play one of them anyway. This change was lifted pretty soon in Ice Age; Mark Rosewater says it created trouble for R&D.
+From Champions of Kamigawa until Magic 2014 (2004–2013)
+The second version of the Legend rule was introduced for Kamigawa block in September 2004:
+
+420.5e If two or more permanents with the same name have the supertype legendary, all are put into their owners' graveyards. This is called the "legend rule." If only one of those permanents is legendary, this rule doesn't apply.
+
+With this change, the "Legend" creature type went away and just got absorbed into the "Legendary" supertype.
+Note that unlike today, we don't reduce down to one copy — nobody gets a copy of the Legendary card. This change turned Phantasmal Image into an incredibly popular spell for removal: play it as a copy of any Legendary creature, and both head to the graveyard for just {1}{U}. This worked even if the target was indestructible because it wasn't destruction: it was just "put them into the graveyard."
+Magic 2014 onwards (2013–today)
+The Magic 2014 Core Set Rules Preview article announced the new Legend rule we still have today:
+
+Let's dive in, shall we? The "legend rule," rule 704.5k for those of you following along at home, is changing. Under the current rules, any time two or more legendary permanents with the same name were on the battlefield, they would all be put into their owners' graveyards as a state-based action. Under the new rules, any time two or more legendary permanents with the same name are controlled by a player, that player chooses one of them and the rest are put into their owners' graveyards as a state-based action.
+
+This segregated the players' boards such that each had their own set of unique Legendaries available to them. One person playing a Legendary card wouldn't make all the other players' copies disappear. Plus, now if you controlled multiple legends sharing a name somehow, you could at least choose one to keep!
+The actual rules text became the following:
+
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+Related: Planeswalker Uniqueness Rule (2007–2017)
+There was a separate rule for Planeswalker uniqueness until 2017. While it worked a lot like the Legend rule, it cared about the Planeswalker type found on the type line instead of the name. This prevented you from controlling two Garruk planeswalkers, even if they had different names.
+Before Magic 2014, this mirrored the second legend rule: no two players could both control a Garruk. From the October 2012 rules:
+
+704.5j If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners’ graveyards. This is called the “planeswalker uniqueness rule.”
+
+As of Magic 2014, it mirrored that edition's legend rule instead. If you controlled a Garruk Wildspeaker and a Garruk, Primal Hunter simultaneously, you'd have to pick one and put the other in your graveyard, even though they had different names. From the November 2013 rules:
+
+704.5j If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “planeswalker uniqueness rule.”
+
+With the release of Ixalan's rules updates in 2017, the Planeswalker Uniqueness Rule went away. Every Planeswalker became Legendary via errata and were just handled as normal by the Legend rule: you could control multiple Garruk planeswalkers as long as you weren't control two legendary Garruks with the same name.
+

@@ -1,0 +1,19 @@
+Q:
+
+Do abilities still trigger if there are no legal targets?
+
+For example, suppose I cast Wicked Wolf when my opponent has no creatures on the board. Wicked Wolf says:
+
+When Wicked Wolf enters the battlefield, it fights up to one target creature you don't control.
+
+Does Wicked Wolf's ability trigger even though opponent has no creatures? This usually won't matter, but if I'm e.g. intending to cast Ghalta, Primal Hunger afterwards opponent might want to remove Wicked Wolf before I get priority.
+My intuition is that the answer is "yes", but there are things that cannot be put on the stack if there are no legal targets (e.g. Path to Exile) so I would like to confirm.
+
+A:
+
+Yes, this ability will trigger and go on the stack even if there are no legal targets, because it targets "up to one" creature.
+First, an ability triggering and being put on the stack are two separate events [CR 603.2, 603.3]. The full trigger condition for this ability is "When Wicked Wolf enters the battlefield" [CR 603.1]. This triggers unconditionally as soon as the creature enters the battlefield.
+Then, the next time a player (you) would gain priority, you put the ability on the stack in a process that is mostly identical to casting a spell [CR 603.3a-d, 601.2c-d]. That includes choosing targets. In this case, the ability says "up to one target", so you can legally choose zero targets whether or not there are any legal targets available. If your opponent controls no creatures, you must choose zero targets. Since that is a legal choice, the ability will stay on the stack and there will be the normal round of priority before it resolves.
+
+If the card was instead Ravenous Chupacabra, which has a similar ability but no "up to one" rider, the ability would still trigger but it would be removed from the stack before any player gains priority, because it would require a valid target and none would be available.
+

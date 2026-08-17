@@ -1,0 +1,21 @@
+Q:
+
+Single Combat vs Shroud
+
+If Player A had a creature with shroud on the battlefield, and Player B cast Single Combat, would Player A be able to choose the shrouded creature as the creature they keep?
+
+A:
+
+Yes, you can choose a shrouded permanent. And if a shrouded permanent isn't chosen, it must be sacrificed.
+
+702.18a Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+
+When a rule or ability uses a word with a rule meaning, it only refers to that specific meaning. Target is such a word.
+Only the following target:
+
+Spells and abilities on the stack that use the word "target".
+Aura spells (since the rule text for these uses the word "target").
+
+Keep in mind that certain keyword abilities represent abilities that use the word target (e.g. Equip).
+Single Combat doesn't target, so it's unaffected by Shroud.
+

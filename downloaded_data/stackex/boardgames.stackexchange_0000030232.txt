@@ -1,0 +1,16 @@
+Q:
+
+Giving a creature hexproof as a response
+
+The situation/question:
+I have Nahiri, the Harbinger. I use her "-2:  Exile target enchantment, tapped artifact, or tapped creature" on Elusive Tormentor.
+My opponent transforms Elusive Tormentor, which gives it hexproof.
+Does Insidious Mist get exiled or does my spell no longer work.
+
+A:
+
+Nahiri's ability would be countered due to a lack of legal target (commonly called 'fizzling'). This is because the legality of a target is checked at 2 different times, when the ability is activated and put on the stack and then again when the ability goes to resolve.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [...] Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. [...]
+Example: Sorin’s Thirst is a black instant that reads, “Sorin’s Thirst deals 2 damage to target creature and you gain 2 life.” If the creature isn’t a legal target during the resolution of Sorin’s Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorin’s Thirst is countered. Its controller doesn’t gain any life.
+

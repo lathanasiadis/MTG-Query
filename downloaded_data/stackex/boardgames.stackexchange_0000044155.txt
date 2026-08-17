@@ -1,0 +1,16 @@
+Q:
+
+How do dash costs work with commander tax?
+
+If I have the card Zurgo Bellstriker as my commander, and I cast it for its Dash cost, do I have to add commander tax to it? Or does the Dash cost override it?
+My gut tells me I would still have to pay commander tax, but I am checking regardless.
+
+A:
+
+Yes, the additional casting cost still applies.
+The dash cost of Zurgo is an alternative cost, while the "commander tax" is an additional cost. You simply add them together for the total cost of casting your commander.
+
+903.8. A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game.
+702.108a Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. “Dash [cost]” means “You may cast this card by paying [cost] rather than its mana cost,” “If this spell’s dash cost was paid, return the permanent this spell becomes to its owner’s hand at the beginning of the next end step,” and “As long as this permanent’s dash cost was paid, it has haste.” Paying a card’s dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions.[..]
+

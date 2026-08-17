@@ -1,0 +1,14 @@
+Q:
+
+Compost and Plumb the Forbidden
+
+What happens with copies of Plumb the Forbidden and Compost? Do the copies count as cards that hit the graveyard?
+
+A:
+
+No, copies of a spell do not trigger Compost because they are not cards.
+Copies of spells (and tokens) do go to the graveyard and can trigger all applicable abilities by doing that. They cease to exist the next time state-based actions are checked, but them changing zones is still a game event that happens.
+However, Compost does not apply because Compost only triggers on black cards going to the graveyard. Copies of a spell are not cards, they're only objects without a card representing them.
+
+706.10. To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; [..] A copy of a spell is itself a spell, even though it has no spell card associated with it. [..]
+

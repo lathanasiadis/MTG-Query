@@ -1,0 +1,23 @@
+Q:
+
+How would Etrata work with double strike?
+
+If I give Etrata, the Silencer double strike, what happens? Am I able to get off the second hit and exile a second creature? Or would she shuffle herself away after the first strike damage (and before the normal damage)?
+
+A:
+
+Double Strike causes damage to be dealt at 2 separate times, with a chance for triggered abilities and other responses to happen in between.
+Because of this, after Etrata deals damage the first time, during the First Strike damage step, she will be shuffled into the owner's library and won't deal damage a second time.
+
+510. Combat Damage Step
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage[...]
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously[....]
+510.3. Third, the active player gets priority. 
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+So Etrata will deal damage in step 2, which causes her ability to trigger. That triggered ability is put on the stack at the start of step 3 (whenever a player would get priority, as per 603.3). Her ability resolves after both players pass priority in step 3; which causes her to be shuffled into her owner's library. 
+She is now removed from combat and cannot deal (or take) any damage.
+
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, or if it’s an attacking or blocking creature that regenerates (see rule 701.14) or stops being a creature. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that’s removed from combat stops being attacked.
+

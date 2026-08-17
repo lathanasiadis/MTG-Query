@@ -1,0 +1,18 @@
+Q:
+
+Do multiple instances of paying extra mana to target a permanent stack?
+
+When I have two copies of Diffusion Sliver on the battlefield, does my opponent have to pay four mana, or two mana to target my slivers?
+I mean it says, pay two, so when he pays two both cards should be happy, or does this stack?
+An explanation how and why would be nice.
+
+A:
+
+For convenience, I will quote Diffusion Sliver's ability:
+
+Whenever a Sliver creature you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {2}.
+
+So, you've got two Diffusion Slivers. Let's call them Artemis and Boromir. Each of them has their own independent copy of this ability. When your opponent casts a spell that targets one of your slivers, you get two triggered abilities going on the stack: one from Artemis and one from Boromir.
+When Artemis's triggered ability resolves, your opponent has to pay 2 mana to satisfy the cost of that ability (unless they let their spell be countered, but let's assume that doesn't happen). It's a general rule in Magic that you cannot pay for more than one cost using the same resources. So the two mana used to pay for Artemis's ability's cost cannot also pay for the cost of Boromir's ability. When they pay the mana, they no longer have that mana - just like money. 
+Later on when Boromir's triggered ability resolves, your opponent will have to find two additional mana to pay for that cost. That makes a total of four.
+

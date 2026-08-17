@@ -1,0 +1,18 @@
+Q:
+
+What knowledge do players get when Hangman is sent to another game using Side Quest?
+
+At a un-draft I had the pleasure of sending Hangman to another silver bordered game with Side Quest. We played it with both players having no knowledge about the hidden word and me confirming if the letters were in the word. Also we didn't give them knowledge about what else had been guessed. Was this the correct way to play this?
+
+A:
+
+This is silver-bordered land, so of course there is no "real" rule to cover this. As such, this is my interpretation of the interaction.
+Hangman keeps all of the "state" of its mini-game, and Hangman's new Side Quest controller becomes the mini-game's gamemaster for the duration of the Side Quest. So Hangman would keep its originally-chosen word, Hangman would keep its +1/+1 counters, and all players in the Side Quest game would have access to which letters had already been guessed and what the "progress" of the mini-game is.
+My justification for this answer is that I would expect a generic 1/1 creature with a +1/+1 counter on it to keep its counter when going on a Side Quest, and I would expect a creature that had gained e.g. First Strike to retain that ability when going on a Side Quest. In other words, I think that Side Quest keeps the creature in its current state.
+From Mark Rosewater's tumblr:
+
+magicwizardmageman asked: What happens if you augment a creature on a side quest?
+It stays with the creature and returns to the original game. Same for an aura. If either of the games end, the Augment/aura goes to its owner’s graveyard.
+
+This sounds like "official" justification that you try to keep the Side Quest creature as "current" as possible while moving it between games.
+

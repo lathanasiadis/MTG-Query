@@ -1,0 +1,16 @@
+Q:
+
+Who controls Oath of Scholars' trigger?
+
+The Oath of X cycle triggers on each player's upkeep and targets an opponent that meets certain conditions. Who controls this ability? The controller of the enchantment or the player whose turn it is?
+For a concrete example, suppose I have Oath of Scholars and Rayne, Academy Chancellor on the battlefield. At the beginning of my opponent's upkeep, Oath triggers and they choose me. Do I get to draw from Rayne?
+
+A:
+
+The controller of a permanent always controls that permanent's triggered abilities. This is covered in rule 603.3a:
+
+A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it’s a delayed triggered ability.
+
+The source, in this case, is the Oath of Scholars enchantment itself. This ability is not a delayed triggered ability, so you don't have to account for that.
+So, Rayne's ability will not trigger if you are chosen as the target for your own Oath of Scholars.
+

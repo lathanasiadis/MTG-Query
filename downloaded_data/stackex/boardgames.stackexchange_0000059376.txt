@@ -1,0 +1,16 @@
+Q:
+
+How does the Ozolith work with undying?
+
+If a creature with undying and a +1/+1 counter dies when The Ozolith is on the battlefield, is the counter removed so that the undying ability makes the creature come black to the battlefield?
+
+A:
+
+The Ozolith won't allow you to infinitely recur a creature with undying.
+The Ozolith doesn't remove the counter from the dying creature before it leaves play, it simply makes copies of each counter after the fact. This means your undying creature still sees the +1/+1 counter it had before leaving the battlefield, and it won't return to play.
+From rulings on The Ozolith:
+
+The Ozolith's first ability doesn't move counters off the creature that left the battlefield. Rather, you put the same number of each kind of counter the creature had onto Ozolith. Notably, if you somehow control a second The Ozolith, each one will receive the same number and kinds of counters that were on the creature that left the battlefield. Similarly, if the creature has an ability that triggers when it leaves the battlefield that refers to the number of counters it had, that ability will use the number of counters that were on the permanent, even if The Ozolith's first ability resolves first.
+
+(emphasis mine)
+

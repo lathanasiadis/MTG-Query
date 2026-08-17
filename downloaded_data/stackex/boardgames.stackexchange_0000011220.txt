@@ -1,0 +1,20 @@
+Q:
+
+Is the ability cost of the commander part of the color identity?
+
+Consider the card Rhys the Exiled. Are you allowed to play black (and green) cards in your deck with this commander?
+Or are you only allowed to play cards that are the same color as the commander's cost? If so, would this then make it impossible to use his ability?
+
+A:
+
+The colour identity of Rhys the Exiled is Green and Black.
+As per the Commander colour identity rules:
+
+A card's colour identity is its colour plus the colour of any mana symbols in the card's rules text.
+
+The colour doesn't have to be just in the casting cost (which determines the card's colour), any mana symbol cost in the rules text counts towards the card's colour identity.
+See also Comprehensive Rule 903.4:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card's mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+Example: Bosh, Iron Golem is a legendary artifact creature with mana cost {8} and the ability "{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to target creature or player." Bosh's color identity is red.
+

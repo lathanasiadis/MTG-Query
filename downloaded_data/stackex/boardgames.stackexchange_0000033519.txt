@@ -1,0 +1,40 @@
+Q:
+
+Detention sphere triggers
+
+I have a Pithing Needle on the battlefield naming my opponent's planeswalker. My opponent on his turn plays a Detention Sphere targeting the pithing needle. I have a Naturalize in hand. Do I have the ability to cast the Naturalize and get rid of the Detention Sphere before my opponent can activate one of his planeswalker's abilities?
+Does the answer to this question change if instead of a Detention Sphere, the opponent plays Banishing Light?
+
+A:
+
+If your opponent uses Detention Sphere, he will be able to activate his Planeswalker's ability at least once, but not if he uses Banishing Light instead.
+Since it is your opponent's turn, he or she will always have priority after he or she has cast a spell or activated an ability, or after a spell or ability has resolved. Therefore, once the Detention Sphere's exile trigger resolves and the Needle is removed, your opponent will have priority and the opportunity to activate one of his planeswalker's abilities. You can only react to that activation once your opponent has passed priority, but by that time, Naturalizing the Detention Sphere has no effect on that previous activation. If you destroy the Detention Sphere while its exile trigger is on the stack, the Needle will be exiled permanently.
+Banishing Light works slightly differently from Detention Sphere - if Banishing Light is destroyed before it exiles the Needle, the Needle will not be exiled at all, and your opponent can't activate his Planeswalker's loyalty ability.
+The order of play with Detention Sphere is:
+
+Your opponent casts Sphere. You cannot Naturalize it yet because it's not on the battlefield yet.
+The Sphere resolves and triggers its ETB ability.
+
+If you Naturalize now, the Sphere will be destroyed, its LTB ability triggers and resolves but does nothing because the Sphere hasn't exiled anything yet. Its ETB trigger is still on the stack, will resolve, and will indefinitely exile your Needle.
+
+If you don't Naturalize now and let the Sphere's ETB trigger resolve, then the Needle is exiled, the stack will be empty and your opponent gets priority because he is the active player and an ability resolved.
+
+Either way, your opponent can now activate his Planeswalker. You cannot cast Naturalize first because you don't have priority.
+If you still have your Naturalize, you can cast it now and return the Needle from exile, but it's too late to prevent the Planeswalker's activation.
+
+With Banishing Light, you simply respond to the Light's ETB trigger with Naturalize, and the Needle will remain on the battlefield.
+
+The key to answering this question for Detention Sphere is the priority system. Priority determines who may cast spells and activate abilities. Generally, the active player (the player whose turn it is) receives priority first. These are the complete rules on who receives priority when:
+
+116.3. Which player has priority is determined by the following rules:
+116.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card during the draw step; see rule 703) have been dealt with and abilities that trigger at the beginning of that phase or step have been put on the stack. No player receives priority during the untap step. Players usually don’t get priority during the cleanup step (see rule 514.3).
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+
+Your opponent will receive priority after the Detention Sphere has resolved:
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Your opponent can activate Planeswalker abilities at sorcery speed, i.e. the stack is empty, it's your opponent's main phase, and your opponent has priority. Everything is given once the Detention Sphere trigger has resolved.
+

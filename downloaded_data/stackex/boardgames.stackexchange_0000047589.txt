@@ -1,0 +1,15 @@
+Q:
+
+If I buff an infect card, is the new damage infect as well?
+
+Let's say I have Rogue's Passage and Phyrexian Hydra and I use Rogue's Passage's ability to make Phyrexian Hydra unblockable.  Then, after no spells are played that effect Phyrexian Hydra, I play Titanic Growth on the Phyrexian Hydra. Does the 11 infect kill the opponent that I am attacking as long as no other spells are cast?
+
+A:
+
+Yes, your opponent is dead. As you can see from the description of Infect on the card,
+
+(This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
+
+Like with every other creature, it deals damage equal to its power. Its power is 11, so it does 11 damage. The infect keyword means you do damage in the form of poison counters, so your opponent gets 11 poison counters and loses the game. Infect doesn't say you do poison damage equal to the printed power and the rest in normal damage; it converts all the damage to poison damage.
+(There are exceptions to some of these blanket statements of course, e.g. if opponent has Melira, Sylvok Outcast then he doesn't get poison counters [although he takes normal damage since Melira's effect removes infect], but these exceptions would be printed on the card.)
+

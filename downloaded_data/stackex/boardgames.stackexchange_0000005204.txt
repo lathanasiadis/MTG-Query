@@ -1,0 +1,21 @@
+Q:
+
+How do split cards work?
+
+I saw these cards on the Internet and quickly became curious: How in the world do they work?
+Do you pick one of them to play and then discard the card, or can you play both? How does their color and mana-cost duality function with cards that depend on them? When were these cards added to MTG?
+
+A:
+
+Note: The answers given here were correct at the time they were written, rules changes have since made parts of them incorrect.
+They work as if they only had one of the sides attributes while on the Stack, and as if they had both sides' qualities in every other zone.
+If an effect is asking for a particular characteristic, it gets two answers. For example, Infernal Genesis asks you to reveal the top card of your library and add a number of 1/1 tokens to the battlefield based on the converted mana cost of the revealed card, if you revealed Hit//Run you would get 8 tokens, because the converted mana cost of the card would have two answers 3 and 5.
+If an effect is performing a comparison, it only gets one answer. If either side would return a Yes answer when performing the comparison, then you would get a single Yes. For example, if you used Sunforger to search your library for a card that was red or white and had a converted mana cost of 4 or less, you could search out Wax/Wane (because for one of the sides, you would get a yes - Wane is white, and has a CMC of 4 or less) and still cast the Green side (Wax) of the card (only the search is restricted by color and CMC).
+When casting a split card, you choose a side and proceed to do the normal process for casting a spell. Announce the spell, choose targets, pay costs, etc.
+The Split Card type was added to MtG first in Invasion Block.
+
+708.2. In every zone except the stack, split cards have two sets of characteristics and two converted mana costs. As long as a split card is a spell on the stack, only the characteristics of the half being cast exist. The other half’s characteristics are treated as though they didn’t exist.
+708.2a If a player casts a split card, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only the half that is being cast is considered to be put onto the stack.
+
+As of Amonkhet, these cards no longer give separate answers for characteristics - they give one answer that combines the characteristics of both halves. Some of this makes no difference, as explained here Infernal Genesis will still give 8 tokens for Hit//Run because it now gets one answer, 8, instead of two answers 3 and 5. Other times the difference matters, Isochron Scepter can no longer imprint Bound // Determined because the card no longer returns 5 and 2 for CMC, it returns just 7.
+

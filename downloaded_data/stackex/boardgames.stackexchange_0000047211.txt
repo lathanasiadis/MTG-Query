@@ -1,0 +1,36 @@
+Q:
+
+What happens if a creature that would fight isn't on the battlefield anymore?
+
+Ulvenwald Tracker is a specific example of a creature with an activated ability for the fight mechanic. If this ability is activated and put on the stack, but then Ulvenwald Tracker is destroyed somehow, does the fight ability still resolve given he no longer exists? 
+
+A:
+
+The ability resolves normally if the target still exists.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+(Emphasis mine.)
+This means the the two creatures fight. But the fight has no effect.
+
+701.12. Fight
+
+701.12a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+
+701.12b If a creature instructed to fight is no longer on the battlefield or is no longer a creature, no damage is dealt. If a creature is an illegal target for a resolving spell or ability that instructs it to fight, no damage is dealt.
+
+701.12c If a creature fights itself, it deals damage to itself equal to twice its power.
+
+701.12d The damage dealt when a creature fights isn’t combat damage.
+
+(Emphasis mine.)
+
+If neither of the targeted creatures exist as the ability would resolve, it will be removed from the stack instead of resolving.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don’t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won’t happen.
+Example: Sorin’s Thirst is a black instant that reads, “Sorin’s Thirst deals 2 damage to target creature and you gain 2 life.” If the creature isn’t a legal target during the resolution of Sorin’s Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorin’s Thirst doesn’t resolve. Its controller doesn’t gain any life.
+
+Example: Plague Spores reads, “Destroy target nonblack creature and target land. They can’t be regenerated.” Suppose the same creature land is chosen both as the nonblack creature and as the land, and the color of the creature land is changed to black before Plague Spores resolves. Plague Spores still resolves because the black creature land is still a legal target for the “target land” part of the spell. The “destroy target nonblack creature” part of the spell won’t affect that permanent, but the “destroy target land” part of the spell will still destroy it. It can’t be regenerated.
+
+(Emphasis mine.)
+

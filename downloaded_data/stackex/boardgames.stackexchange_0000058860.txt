@@ -1,0 +1,20 @@
+Q:
+
+MTG: Interaction Narset Parter of Veils with Seizan Perverter of Truth
+
+How is the interaction between Narset, Parter of Veils with Seizan, Perverter of Truth? Does the opponent lose 2 life during the upkeep without drawing the cards?
+
+A:
+
+At the beginning if your opponent's upkeep, they will lose 2 life and draw 1 card. Then, during their draw step, they will draw 0 cards.
+The life loss and card draw are not dependent upon each other or directly related, they are simply 2 different things that both happen when the triggered ability resolves.
+
+101.2 When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+121.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+This means that the "draw 2 cards" really means "Draw a card. Draw a card." When they get to the second "Draw a card", 101.2 kicks in and prevents them from doing that. Then, when they get to their draw step, 101.2 kicks in again and prevents that draw.
+Your opponent still loses 2 life because that part of the effect is not contradicted by anything:
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+

@@ -1,0 +1,22 @@
+Q:
+
+Do on-death triggered abilities of creatures happen in multiplayer when a creature's owner loses at the same time?
+
+So my friend had gained control of my Wurmcoil Engine and attacked me. When damage resolved Wurmcoil Engine and myself had lethal damage, so both myself (player) and my creature with a "when this creature dies" effect die at the same time. Would my friend controlling the Wurmcoil Engine still receive the two tokens from Wurmcoil Engine dying? my understanding is that when I die, everything I own is removed from game thus when the check is made on the ability of Wurmcoil being in my graveyard to generate the tokens, it would not be in my graveyard but instead be in exile along with everything else.
+
+A:
+
+A good resource in this situation is http://chat.magicjudges.org/mtgrules/ - their answer follows:
+
+Both them losing and Wurmcoil dying happens as part of the same "set" of State Based Actions.  Wurmcoil will hit the graveyard and they will lose at the same time.  Wurmcoil will still trigger in that case since it did, in fact, die.
+
+Edit: Relevant rules
+
+118.6. If a player has 0 or less life, that player loses the game as a state-based action. See rule 704.
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the 
+  result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+704.5. The state-based actions are as follows:
+      704.5a If a player has 0 or less life, he or she loses the game.
+      704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+      704.5h If a creature has toughness greater than 0, and it’s been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+

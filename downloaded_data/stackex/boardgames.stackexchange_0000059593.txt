@@ -1,0 +1,18 @@
+Q:
+
+Would Westvale Abbey be tutorable with Mausoleum Secrets?
+
+Okay so I understand that the black color indicator makes Ormendahl, Profane Prince black and thus the color identity for commander is black, but I want to make it clear that I'm wondering specifically if this makes Westvale Abbey count as a black card for in-game effects that care what color it is. Mausoleum Secrets for instance tutors for a black card of a certain mana cost, being equal to or less than # of the creatures in my grave.
+
+A:
+
+Westvale Abbey is colorless, and Mausoleum Secrets cannot search for it.
+Rule 712.8a says:
+
+While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+
+The black color indicator is only on the back face of Westvale Abbey, not the front, so it is colorless in your library, and Mausoleum Secrets cannot find it. It is only black while it is on the battlefield with its back face up.
+The reason that rule doesn't stop that color indicator from counting towards color identity is that the color identity rules specifically make an exception. Rule 903.4d says:
+
+The back face of a double-faced card (see rule 712) is included when determining a card’s color identity. This is an exception to rule 712.8a.
+

@@ -1,0 +1,40 @@
+Q:
+
+How does Over My Dead Bodies interact with combat-related abilities of creature cards in my graveyard?
+
+Over My Dead Bodies is an unstable card that has Graveyard creatures fight in a sort of undeath. We also know that whilst they're involved in combat, they're also effectively on the battlefield, at least for the purposes of global effects. From the Unstable FAQ:
+
+Will global effects affect the graveyard creatures?
+Here's where silver-bordered rules get fun. Over My Dead Bodies allows you to attack or block with creature cards in your graveyard. If you do, for the duration of combat, the attacking and blocking creature cards are treated as if they are creature cards on the battlefield which means they can be affected by spells or abilities that would affect creatures on the battlefield. That means, for example, if you have a Lord of Accursed on the battlefield ("Other Zombies you control get +1/+1"), all your attacking and blocking graveyard creatures (which Over My Dead Bodies makes into Zombies) would get +1/+1 while in combat.
+
+I'm interested to understand how these creatures' abilities can interact with combat, if at all. Let's assume to that end that Over My Dead Bodies is out, and I have a Brutal Hordechief and a Raving Dead in my graveyard.
+Raving Dead has an ability that enforces how it attacks at the start of combat, and triggers on it dealing damage:
+
+At the beginning of combat on your turn, choose an opponent at random. Raving Dead attacks that player this combat if able.
+Whenever Raving Dead deals combat damage to a player, that player loses half his or her life, rounded down.
+
+Brutal Hordechief has an ability that affects my attacks, and lets me choose blockers:
+
+Whenever a creature you control attacks, defending player loses 1 life and you gain 1 life.
+{3}{R/W}{R/W}: Creatures your opponents control block this turn if able, and you choose how those creatures block.
+
+Do any of these abilities function while these creatures are in my graveyard? (Let's assume they're going to attack either way.) Am I dealing with just a vanilla 2/6 and a vanilla 3/3, or do I have to take into account any of these abilities as well? Are there specific kinds of abilities that do work and ones that don't? Has Mark Rosewater mentioned anything to clarify this?
+
+A:
+
+During combat, all creatures in your graveyard are treated as if they were on the battlefield. Anything they could do at this time while they were alive, they can do now even though they are dead.
+This is covered in the Unstable FAQAWASLFAQPAFTIDAWABIAJTBT:
+
+Do the graveyard creatures cause attacking or blocking triggered abilities to trigger?
+Yes. Remember that they're treated as permanents on the battlefield while in combat, so a graveyard creature attacking will cause anything that triggers when a creature attacks (including its own abilities) to trigger.
+
+With further confirmation that "on combat damage" abilities work on Mark Rosewaters Blogatog
+
+wretchedor30 asked: I have out Over My Dead Bodies and attack with Phage the Untouchable. As she is in a graveyard, would it still cause game loss, or is the ability only relevant on the field?
+MR: Her ability still works.
+
+In regards to your specific examples:
+
+Raving Dead's ability triggers at the beginning of combat (which is during the combat phase), so you will need to attack a random player. If that player doesn't block Raving Dead (perhaps they have no creatures in their graveyard) they will lose 2 life, and then half their remaining life rounded down.
+If you control a Brutal Hordechief in your graveyard, when you attack during your turn each creature you attack with both alive and in the graveyard will cause the defending player to lose 1 life and you to gain 1 life. You also may use Hordechief's activated ability during combat, before blockers are declared.
+

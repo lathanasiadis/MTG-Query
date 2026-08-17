@@ -1,0 +1,23 @@
+Q:
+
+Supernatual Stamina + Commander
+
+I've been wondering a seemingly stupid question, can Supernatural Stamina work more than once on a commander card? Instant grants ability to creature, commander is the same creature while changing zones. Could it be a loophole or am I missing something?
+
+A:
+
+You can not use Supernatural Stamina to return your Commander to the battlefield multiple times.
+Whenever a creature leaves the battlefield and returns it is treated as different object. This is covered in the gatherer rulings for Supernatural Stamina:
+
+Supernatural Stamina’s effect works only once. If the targeted creature dies and is then returned to the battlefield, it’s considered to be a new creature. If that new creature dies, it won’t come back a second time.
+
+Additionally, while your Commander is still considered your Commander while changing zones it is still treated as a new object every time it changes zones as covered in the comprehensive rules:
+
+903.3.: Each deck has a legendary creature card designated as its commander. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.
+
+and:
+
+400.7.: An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:*
+
+*(None of the exceptions apply)
+

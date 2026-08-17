@@ -1,0 +1,18 @@
+Q:
+
+Do Cascade and Epic work together?
+
+Spells that have Epic, such as Neverending Torment prevent you from casting any more spells outside of the copy that you cast of it each turn. But, does playing a card count as casting a spell? I am specifically asking about cards that give Cascade, such as Maelstrom Nexus.
+Would I get a Cascade trigger off of the Epic spell copy?
+
+A:
+
+No, Cascade and Epic don't work together.
+Epic creates a copy of that spell on the stack, which then resolves.
+Cascade responds to spell casting. Copying a spell is not casting it. You can frequently see that on the rulings on cards that copy spells, such as on Insidious Will:
+
+The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
+
+The final nail in the coffin is that Epic says “you can't cast spells”. If somehow you did trigger Cascade, you would not be allowed to cast the spell you cascaded down to. Of course, you wouldn't be able to cast spells to trigger Cascade in the first place. (Thanks @Gendolkari.)
+Only the original casting of the Epic spell will trigger Cascade. That will be the final Cascade you will see this game.
+

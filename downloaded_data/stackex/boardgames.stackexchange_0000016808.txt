@@ -1,0 +1,49 @@
+Q:
+
+What happens when I redirect multiple large sources of damage through the en-Kor ability to Mogg Maniac?
+
+The situation is this:
+I control a Shaman en-Kor and a Nomads en-Kor and a Mogg Maniac. During my opponent's turn, I cast Inferno, dealing 6 damage to all creatures and all players.
+Is it possible for me to redirect the 6 damage done to the shaman and the Nomads to the Mogg Maniac AND have the Mogg deal a total of 18 damage to my opponent before the Mogg Maniac dies?
+or...
+Will the Inferno kill the Maniac before I can redirect any damage to it from my en-Kor creatures?
+I'm confused about the timing of this combo since the shamans and the nomads en-Kor ability is an activated ability that allows me to redirect 1 damage for 0 mana.
+Can someone help me understand this?  (Is the combo even possible?)
+
+A:
+
+Mogg will deal 18 damage, but it will deal it after dying.
+
+The en-Kor's redirection only works if you activate it before they take damage. When you activate their redirection ability, it creates a shield that will redirect the next point of damage it would take.
+The redirection shield is a replacement effect. It causes Inferno to deal damage to Mogg instead of the en-Kor. Inferno still deals all of its damage simultaneously.
+This is how the game progresses:
+
+You cast Inferno (and retain priority).
+Six times,
+
+You activate Shaman en-Kor's first ability targeting Mogg.
+Shaman en-Kor's first ability resolves, creating a shield that will redirect damage later.
+
+Six times,
+
+You activate Nomads en-Kor's ability targeting Mogg.
+Nomads en-Kor's ability resolves, creating a shield that will redirect damage later.
+
+Inferno resolves.
+
+It will simultaneously deal 18 damage to Mogg and 6 damage to each player. Simultaneously, life is subtracted from players' totals, damage is marked on Mogg and Mogg's ability triggers.
+
+State-based actions are performed simultaneously.
+
+Any player with non-positive life lose the game. (I'm going to assume noone loses here.)
+Mogg is destroyed for having marked damage exceeding its toughness.
+
+Mogg is put in the graveyard from the battlefield.
+
+Mogg's triggered ability is placed on the stack targeting your opponent.
+Mogg's triggered ability resolves.
+
+It deals 18 damage to the targeted opponent.
+
+Note that Mogg only takes damage once in this scenario (even though some of it was originally intended for the en-Kor), so its ability only triggers once for the entire 18 damage.
+

@@ -1,0 +1,19 @@
+Q:
+
+In Multiplayer, if I attack all other players for lethal, who loses first?
+
+Is it simultaneous, like 1st me > several tied 2nd places? Or is there a sequence to it. I know 802.6. Combat damage is assigned in APNAP order. Other than that, the combat damage step proceeds just as in a two-player game. See rule 510, “Combat Damage Step.” under "Attack multiple players" is a thing, but does that just mean that turn player deals all his damage first, or is there a sequence to the order in which players lose to lethal damage?
+
+A:
+
+All combat damage happens simultaneously. 
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+802.6 is simply explaining a slight difference to 510.1:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack.
+
+So "defending player" in this case means each of the opponents being attacked, in APNAP order.
+However, the premise of your question may be flawed. There is no "second place" in magic. It doesn't matter which player loses first, or if it is simultaneous. If I kill opponent A on turn 5, and then kill opponent B on turn 6, opponent B isn't "second place" while opponent A is "third place". They are simply both players who did not win the game.
+

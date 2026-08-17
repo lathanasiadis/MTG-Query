@@ -1,0 +1,16 @@
+Q:
+
+What happens if a target becomes ineligible after a card has been cast?
+
+Let's say I cast
+Strangling Soot on Llanowar Elves. 
+Before this resolves, my opponent casts Giant Growth on the Llanowar Elves.
+Giant Growth resolves, making the Llanowar Elves a 4/4. When the Strangling Soot resolves, is it able to destroy the Llanowar elves, or does it do nothing because Llanowar elves no longer has a toughness of 3 or less?
+
+A:
+
+Strangling Soot has an illegal target (only one) as it resolves and therefore fizzles (is countered by game rules due to all targets being invalid). 
+When you cast a spell with targets, you check the validity of all targets as it is cast. If any targets are invalid, the spell is "undone" and goes back to where it started. As the spell resolves, it again checks if the targets are valid. If any are valid, it resolves as much as it can; if not, it fizzles. 
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. .......
+

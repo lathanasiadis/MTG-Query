@@ -1,0 +1,15 @@
+Q:
+
+When a creature turns into a frog, does damage stay on it?
+
+I dealt 1 damage to a creature that my opponent controls. Then I want to cast Polymorphist's Jest and turn it into a 1/1 frog. Does damage stay on it or does all damage reset?
+
+A:
+
+Damage stays on the creature.
+This rule outlines all the situations in which damage would be removed from a creature, without a card explicitly saying so:
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.13, "Regenerate") and during the cleanup step (see rule 514.2).
+
+(emphasis added) Note that this rule says nothing about the creature turning into a different creature or changing its power/toughness or other characteristics. Since there is no rule that specifies that damage should be removed when those things happen, the damage stays.
+

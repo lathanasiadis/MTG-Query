@@ -1,0 +1,40 @@
+Q:
+
+Chance Encounter/As Luck Would Have It and reflips/rerolls
+
+I'm making an Uncommander deck based around rolling dice and flipping coins, and I'm planning on including Chance Encounter and As Luck Would Have It as alternate win conditions. Both of them place luck counters on themselves when you win a coin flip or roll a dice (respectively), and win you the game if you have enough counters. There are several cards that allow a reflip or a reroll, but I have questions about three.
+
+Goblin Bookie
+{R}, {T}: Reflip any coin or reroll any die. (Activate this ability only any time it makes sense.)
+
+Goblin Bookie's wording is fairly standard for effects that reroll dice or reflip coins (apart from the timing), but Krark's Thumb - and its Unstable counterpart, Krark's Other Thumb - are worded a bit differently - instead of reflipping, you're ignoring a result.
+
+Krark's Thumb
+If you would flip a coin, instead flip two coins and ignore one.
+
+Krark's Other Thumb
+If you would roll a die, instead roll two of those dice and ignore one of those results.
+
+If I reflip/reroll with Goblin Bookie, does the original roll still earn me luck counters? What about with Krark's (Other) Thumb? Does "ignoring" one of the coins means that it doesn't count as a win for me? There might not be a ruling on dice rolls, since only Unsets (as far as I know) have used dice as a mechanic, but coin flips have been used on a number of cards. Chance Encounter is from Odyssey, Krark's Thumb is from Mirrodin; heck, Mana Crypt uses coin flips. I would expect there to be an official ruling on flips at least, but neither Krark's Thumb nor Chance Encounter have any Gatherer rulings that clarify things.
+
+A:
+
+As Luck Would Have It works fully with rerolls.
+Chance Encounter doesn't work with reflips.
+The entire game only sees one result from any kind of Krarkish prestidigitation.
+
+Mark Rosewater (the Un-Rules Manager) rules on Goblin Bookie/ALWHI in this blog post:
+
+mikedoesstories asked: If I use Goblin Bookie to reroll a die, do both die rolls count for As Luck Would Have It or just the rerolled die?
+Both rolls count.
+
+MaRo later clarifies that it's based on whether the dice roll would trigger this ability regardless of the outcome (posted here):
+
+tarectarec asked: In your FAQ you said that As Luck Would Have It would get counters from the original dice in case of a reroll. But would Chittering Doom give me a squirrel token if I rolled a 6 but then decided to reroll it (Rolling a 1 this time for example)?
+No. Counting die rolls is different than triggering things based upon on a particular outcome.
+
+This wouldn't work with Krark's Other Thumb since you're specifically instructed to ignore one of the rolls (as far as the rest of the game is concerned, it never happened). For the same reason, Krark's Thumb won't work with Chance Encounter.
+
+By following this logic in the second case, we can see that a reroll can't trigger Chance Encounter twice because Chance Encounter only triggers on a particular outcome (rather than the flip itself), and there's only one outcome.
+Note that we're safe following un-logic in this case, as reflips and rerolls can currently only exist in silver-border.
+

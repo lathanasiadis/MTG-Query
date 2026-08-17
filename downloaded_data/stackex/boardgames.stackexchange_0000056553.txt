@@ -1,0 +1,35 @@
+Q:
+
+What is the fastest way to get infinite mana in Historic?
+
+I'm looking for the combo using the fewest cards from the start of the game that allows you to generate unlimited mana using Historic-legal cards. It doesn't have to be viable or practical, but I have two restrictions:
+
+No using Codie, Vociferous Codex, because I need to cast permanent spells for what I'm trying to pull off and Codie doesn't allow that.
+The opening hand may be assumed. If a solution requires more than 7 cards, you may assume perfect results from random events. If it requires 7 or fewer cards it must be deterministic.
+
+I devised a method using 11 cards over 4 turns, requiring you to be on the draw and draw perfectly.
+
+Play Botanical Sanctum and tap it to cast Llanowar Elves
+Play Lotus Field, tap Sanctum to cast Stifle targeting Lotus Field's trigger, and tap one Llanowar Elves to cast another
+Play an untapped land, tap everything to cast Chromatic Orrery, tap it for 5 to cast Irencrag Feat, then spend that mana to cast Nyxbloom Ancient
+Cast Circle of Dreams Druid and enchant it with Gauntlets of Light
+
+I'm sure this can be improved.
+
+A:
+
+Try #2: Turn 3, 7 cards
+
+Forest, Llanowar Elves
+Land, Selvala, Heart of the Wilds
+Swamp, Rotting Regisaur, Tap Selvala for 2W2WG, play Gauntlets of Light, untap Selvala, tap Selvala, repeat
+
+Try #1: Turn 3, with 10 cards
+
+Forest, Llanowar Elves
+Lotus Cobra, Forest, Lotus Cobra
+Forest, Ashaya, Soul of the Wild, Lotus Cobra, Lotus Cobra, Man-o'-War,
+Man-o'-War, Man-o'-War, Man-o'-War...
+
+Explanation:  Man-o'-War can bounce itself.  With Ashaya out, Man-o'-War is a land.  With four Lotus Cobras out, Man-o'-War entering the battlefield produces 4 mana, but it only costs 3 to replay.
+

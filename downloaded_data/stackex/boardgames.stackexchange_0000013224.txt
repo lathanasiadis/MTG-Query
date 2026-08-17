@@ -1,0 +1,29 @@
+Q:
+
+How do SBAs interact with the sacrifice of a creature enchanted with Gift of Immortality?
+
+I am not very au fait of how state based actions work, so I'd like to understand an interaction. Say I have Brindle Boar enchanted with Gift of Immortality. There are basically no simple ways (barring graveyard hate or Stifle-like effects) to prevent both permanents from returning?
+I mean, if they target Gift or Boar with removal, I sacrifice the boar, but (this is the part I'm not sure) SBAs will send the Gift to the graveyard before the removal can hit it, right (and same if they target in response to my sacrificing the boar)?
+
+A:
+
+Yes, SBAs will result in GoI going to the graveyard. Yes, there are simple ways to prevent both from returning.
+State-Based Actions
+If you sacrifice the boar before your opponent targets it (or the Aura enchanting it), then Gift of Immortality is attached to an object that no longer exists. Before any play receives priority, Gift of Immortality is placed in its owner's graveyard. Your opponent can no longer target Gift of Immortality on the battlefield, because it is no longer there.
+If you sacrifice the boar in response to your opponent targeting it (or the Aura enchanting it), then Gift of Immortality will still be placed in the graveyard, because the object it was enchanting no longer exists. The spell that originally targeted it (or the boar) will be countered on resolution, because the boar and the aura will be new objects when they return to the battlefield.
+
+116.2d State-based actions happen automatically when certain conditions are met. See rule 704. They’re dealt with before a player would receive priority. See rule 116.5.
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+Playing Around Gift of Immortality
+There are at least a few other ways besides graveyard removal and Stifle effects:
+
+Use two removal spells: Gift of Immortality returns the Brindle boar to the battlefield after it is sent to the graveyard, but GoI doesn't return to the battlefield until the beginning of the next end step. You can use the first removal to force the sacrifice, and before the GoI returns, you can use the second removal to send it to the graveyard permanently.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: [...] 400.7e Abilities of Auras that trigger when the enchanted permanent leaves the battlefield can find the new object that Aura became in its owner’s graveyard if it was put into that graveyard at the same time the enchanted permanent left the battlefield. It can also find the new object that Aura became in its owner’s graveyard as a result of being put there as a state-based action for not being attached to a permanent. (See rule 704.5n.)
+
+Sudden Shock/Krosan Grip: Split Second prevents your opponent from activating Brindle Boar's activated ability while it is on the stack.
+
+End the Turn: Sundial of the Infinite or Time Stop prevent the "at the beginning of the end step" from returning either.
+

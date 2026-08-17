@@ -1,0 +1,30 @@
+Q:
+
+What happens if I double Mangara's Tome ETB?
+
+If I have Yarok, the Desecrated on the battlefield and play Mangara's Tome, what happens? Do I get one ten card pile that the tome can rummage through? Do I get two five card piles that I can pick between?
+
+A:
+
+You get two piles of five, and each time you activate the tome, you replace your next draw with taking one card from each pile.
+Let's see what happens when the tome enters. The Gatherer rulings on Yarok say
+
+Yarok affects a permanent’s own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with “when” or “whenever.”
+
+So the tome triggers itself twice, letting you look for five cards two separate times, putting each in separate piles (there are two separate triggered abilities, not one double-powered single triggered ability, so you do not get one ten-card pile).
+Next, what happens when you activate the tome? Again, there is a Gatherer ruling on Yarok:
+
+If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to “the exiled card,” it refers to all cards exiled by instances of the triggered ability.
+
+And also, for more details, rule 607.3:
+
+If, within a pair of linked abilities, one ability refers to a single object as “the exiled card,” “a
+card exiled with [this card],” or a similar phrase, and the other ability has exiled multiple cards
+(usually because it was copied), the ability refers to each of the exiled cards. If that ability asks for
+any information about the exiled card, such as a characteristic or converted mana cost, it gets
+multiple answers. If these answers are used to determine the value of a variable, the sum of the
+answers is used. If that ability performs any actions on the exiled card, it performs that action on
+each exiled card.
+
+Since the first ability was copied, you have two piles of exiled cards. The second ability tells you to take the top card of "the exiled pile" and put it into your hand. Rule 607.3 says you do this with both piles. So you get to "draw" two cards when you do this.
+

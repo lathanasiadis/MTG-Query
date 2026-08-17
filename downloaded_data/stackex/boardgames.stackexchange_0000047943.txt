@@ -1,0 +1,33 @@
+Q:
+
+Mass Spell Recursion & Storm
+
+If one overloads a card such as Mizzix's Mastery to recur a graveyard full of instant/Sorceries, including a card with Storm (Grapeshot). Will Storm trigger for each spell you're also casting from the graveyard? As I understand storm is an on-cast trigger, so does order stacking matter in this instant?
+This is question is not specific to Mizzix's Mastery or Grapeshot. If there is a better example of Mass Recursion & Storm please use that.
+
+A:
+
+The spells cast by Mizzix's Mastery would count towards the storm count if you casted them in the correct order.
+
+From the Gather rulings under Mizzix's Mastery:
+
+If Mizzix’s Mastery exiled multiple cards, you may cast the copies in any order. The last copy you cast will be the first one to resolve.
+
+The correct play to maximize your storm count would be to cast every spell other than Grapeshot first, and then cast Grapeshot last.  
+For instance, lets say your graveyard had Time Walk, Ancestral Recall, and Grapeshot, and you had casted no other spells that turn.
+
+You cast overloaded Mizzix's Mastery (Storm=1) 
+Each player passes priority, Mizzix's Mastery resolves.
+Exile Time Walk, Ancestral Recall, and Grapeshot, making copies of each of them
+Cast the copy of Time Walk (Storm=2)
+Cast the copy of Ancestral Recall (Storm=3)
+Cast the copy of Grapeshot
+Grapeshot's Storm ability triggers on cast with the Storm count equal to 3
+Place 3 copies of Grapeshot on the stack on top of the original Grapeshot
+Each player passes priority, Grapeshot storm copy 3 resolves
+Each player passes priority, Grapeshot storm copy 2 resolves
+Each player passes priority, Grapeshot storm copy 1 resolves
+Each player passes priority, Grapeshot Mizzix copy resolves
+Each player passes priority, Ancestral Recall copy resolves
+Each player passes priority, Time Walk copy resolves
+

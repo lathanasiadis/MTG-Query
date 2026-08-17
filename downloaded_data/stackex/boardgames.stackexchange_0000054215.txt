@@ -1,0 +1,23 @@
+Q:
+
+Can a creature with flash be killed before it can block?
+
+Let's say my opponent attacks me with a Marit Lage from Dark Depths.  I have a Scryb Ranger in hand and they have a Doom Blade in hand.
+For lack of the Doom Blade, I could chump-block with Scryb Ranger.
+Does my opponent have an opportunity to kill Scryb Ranger before I can declare it as a blocker?
+
+A:
+
+Yes, the Scryb Ranger can be killed before it can block.
+The key rule is:
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+In order to block with Scryb Ranger, you need to play it before the Declare Blockers step, and for it to survive until the declare blockers step so that you can block with it:
+
+Declare Blockers Step
+
+509.1. First, the defending player declares blockers. This turn-based action doesn’t use the stack.
+
+The last possible opportunity to do so is the Declare Attackers Step.  If you play it then, even though your opponent has already passed during the Declare Attackers step, they get a chance to act again after Scryb Ranger resolves (thereby being on the battlefield), during which they can cast Doom Blade and kill it.
+

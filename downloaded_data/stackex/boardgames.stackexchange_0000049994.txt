@@ -1,0 +1,32 @@
+Q:
+
+Can creatures with Defender be unmorphed while attacking?
+
+I have a face down Monastery Flock card on the battlefield. 
+
+I begin my attack phase, and declare the face down Monastery Flock as an attacker.
+The defending player blocks with  Llanowar Elves, then during the blocker declaration phase, the defender casts a Giant Growth on his elves.
+I would like to know if, within this phase - and therefore before the assignment of combat damage - it is possible to activate the Flock's morph ability to prevent it from dying. 
+I asked this question because there is an apparent contradiction in the simple operation described here.
+Since the face-up side has Defender, I'm afraid it cannot be declared as an attacker.  Or, however, if it is declared as an attacker when it is still face down, it may not be possible to unmorph it.
+In game practice, it is never said that there is (or there isn't) some note that specifies whether a given action can or cannot be executable.
+Therefore, I thought that in a case like this it was right to ask experienced players what the right interpretation is.
+Is this an action that can be performed without problems, or is it still an illegal action?
+
+A:
+
+Yes, you can morph anytime you could cast a spell or activate an ability. Once a creature has been declared as an attacker, it remains an attacker even if it gains defender afterwards.
+You may morph whenever you could cast a spell or activate an ability:
+
+702.36e Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn’t use the stack (see rule 116). [..]
+
+Whether or not a creature is a legal attacker is only checked once, not continuously, on the "declare attackers" step of the combat phase.
+
+508.1c The active player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t attack, or that it can’t attack unless some condition is met). If any restrictions are being disobeyed, the declaration of attackers is illegal.
+
+Your 2/2 creature does not have defender, it can be an attacker.
+
+508.1k Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+
+The creature, whether it's the 2/2 or the 0/5 with defender, remains an attacker for the duration of the combat phase, because gaining defender does not remove it from combat.
+

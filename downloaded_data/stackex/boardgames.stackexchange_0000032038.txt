@@ -1,0 +1,37 @@
+Q:
+
+Voldaren Pariah is exiled while transforming
+
+What happens if Voldaren Pariah is exiled while transforming? Does it still force target player to sacrifice 3 creatures? Also if it is returned from exile, does it returned already transformed and if it does, does its triggered ability go on the stack then?
+
+A:
+
+There are two possible outcomes, depending on when the Volarden Pariah is exiled. These are the only two possibilities; you can't do anything while the Pariah is transforming.
+While the activated ability is on the stack
+In this case, the Pariah will never transform, and the triggered ability that would make the opponent sacrifice creatures never goes on the stack.
+The relevant rules are these:
+
+112.7. The source of an ability is the object that generated it. The source of an activated ability on the stack is the object whose ability was activated. The source of a triggered ability (other than a delayed triggered ability) on the stack, or one that has triggered and is waiting to be put on the stack, is the object whose ability triggered. To determine the source of a delayed triggered ability, see rules 603.7d–f.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+If we put these all together, we see that the instruction "Transform Volarden Pariah" really means "Transform the object whose ability was activated". And when the Pariah is exiled, it becomes a new object, so the original object doesn't exist, and the "Transform" instruction just does nothing. Since it never transforms, the triggered ability on the back face never triggers, and the opponent doesn't have to sacrifice three creatures.
+After the activated ability resolves
+Once the activated ability resolves, the triggered ability on the back face immediately goes on the stack, because rule 116.2a says
+
+Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, “Handling Triggered Abilities.”) However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack. See rule 116.5.
+
+And rule 112.7a says
+
+Once activated or triggered, an ability exists on the stack independently of its source...
+
+So, even if the Pariah is exiled while the triggered ability is on the stack, the ability still f the resolves, and forces the opponent to sacrifice three creatures.
+If the Pariah re-enters the battlefield
+In either case, the Pariah will enter the battlefield face-up. Rule 711.8 says
+
+A double-faced card enters the battlefield with its front face up by default. If a spell or ability puts it onto the battlefield “transformed,” it enters the battlefield with its back face up.
+
+And rule 400.7 (quoted above) says that it doesn't remember its previous existence, so there's nothing that would change what it does from the default.
+

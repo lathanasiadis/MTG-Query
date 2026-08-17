@@ -1,0 +1,31 @@
+Q:
+
+Can an instant spell be used before an upkeep triggered ability resolves?
+
+I am looking into a new card for my deck and I was curious if instants could be used before an ability triggered 'at the beginning of your upkeep' resolves.
+Here is the potential situation:
+I control a Cryptoplasm and have a Sudden Spoiling in hand. My opponent controls an Archetype of Endurance, which gives my opponent's creatures hexproof - but its controller doesn't have hexproof.
+I want to use Sudden Spoiling to suppress the Archetype of Endurance's hexproof, and I want Cryptoplasm's upkeep ability to trigger and make it a copy of the Archetype of Endurance whilst it does not have hexproof.
+Can instants be used before a 'beginning of your upkeep' ability resolves, and is this play legal?
+
+A:
+
+No, you can't do what you're trying to do, unfortunately!
+Yes, however, in general you can cast instants before a "beginning of your upkeep" triggered ability resolves. You cannot, however, do it before that ability gets triggered and goes on the stack, which is what messes up your plan.
+The upkeep step is the first step in your turn when you receive priority (and can thus cast an instant), and it involves two steps:
+
+503.1. First, any abilities that trigger at the beginning of the upkeep step and any abilities that triggered during the turn's untap step go on the stack.
+503.2. Second, the active player gets priority. Players may cast spells and activate abilities.
+
+What this means for the general case
+The triggered abilities from 503.1 won't resolve before you have your chance to respond to them in 503.2, so in the general case, instants can be cast before "beginning of your upkeep" triggered abilities resolve.
+What this means for your strategy
+In your specific strategy, though, this isn't quite enough. You want Cryptoplasm to copy Archetype of Endurance. It can't do that, because things happen in this order:
+
+503.1 happens. Cryptoplasm's triggered ability is placed on the stack. As part of this process, you choose your targets for that ability, which means choosing the creature Cryptoplasm will copy. At this point, Sudden Spoiling can't yet be cast, and Archetype of Endurance still has hexproof, so it cannot be legally chosen as a target.
+503.2 happens. You receive priority and can cast instants. This is the earliest time you can cast Sudden Spoiling, but at this point it's too late to make Archetype of Endurance a legal target for your Cryptoplasm - a target's already been chosen.
+Eventually, your Cryptoplasm's triggered ability resolves, and it becomes a copy of the creature you chose in step 1.
+
+Clever thinking, but the order of events prevents this strategy from working.
+Since you're playing black/blue, your options include using Lazav, Dimir Mastermind and destroying the Archetype, or using Willbender after Sudden Spoiling resolves so as to change the target you chose in step 1 to the Archetype.
+

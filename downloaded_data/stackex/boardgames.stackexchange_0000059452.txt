@@ -1,0 +1,32 @@
+Q:
+
+Can tapping for another card, also activate that card ability?
+
+If I have in play a Selesnya Evangel and tap Tolsimir Wolfblood to create a Saproling, can I create the 2/2 green/white Voja too? Thank you.
+
+A:
+
+Not in the way you describe; both abilities require tapping the Wolfblood as part of their cost; you can't pay one cost to pay for both abilities.
+Think of it this way: if a fries and a soda each cost $1 (and you only have $1), you can get one or the other, but not both.
+Abilities in Magic the Gathering are written as {cost}:{effect}.
+Selesnya Evangel's ability says:
+
+1, T, Tap an untapped creature you control: Create a 1/1 green Saproling creature token.
+
+Paying for this ability requires 1 mana, tapping the Evangel, and tapping another untapped creature you control.
+Tolsimir Wolfblood's ability says:
+
+T: Put a legendary 2/2 green and white Wolf creature token named Voja into play.
+
+Paying for this ability only requires tapping Tolsimir.
+You could, however, change the order and do the following:
+
+Activate Tolsimir's ability to create the wolf token
+Then activate Selesnya Evangel, tapping the newly created wolf token, to creature a Saproling.
+
+Note that there are abilities that work more like your original idea, but they're worded much differently. For example, check out Emmara, Soul of the Accord:
+
+Whenever Emmara, Soul of the Accord becomes tapped, create a 1/1 white Soldier creature token with lifelink.
+
+Emmara has a triggered ability that creates a token whenever it becomes tapped, for any reason (when she attacks, or tapping her for the Evangel's ability, or if it got tapped down by an opponent's Benalish Trapper).
+

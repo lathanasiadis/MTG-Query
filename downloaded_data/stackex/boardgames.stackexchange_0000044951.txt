@@ -1,0 +1,18 @@
+Q:
+
+Mirrorwing Dragon with Vigor Mortis
+
+When I cast Vigor Mortis or a similar spell (Reanimate, Resurrection, etc.) on my Mirrorwing Dragon,  does it copy the spell on other targets in my graveyard? 
+I suppose not, since I do not control the creature cards in my graveyard.
+
+A:
+
+No, Mirrorwing Dragon's ability only works while it's on the battlefield, and creature cards in the graveyard are not creatures.
+Generally, abilities of permanent cards only work while that card is a permanent on the battlefield. Exceptions to that will always be noted on the card itself.
+Even if Mirrorwing Dragon's ability would work while in the graveyard, creature cards in the graveyard are not creatures (shorthand for creature permanents), and as you noted, cards in the graveyard have no controller, so a copied Reanimate spell could not target them anyway.
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows: [none of the exceptions apply]
+110.1. A permanent is a card or token on the battlefield.  [..]
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+108.4. A card doesn’t have a controller unless that card represents a permanent or spell; in those cases, its controller is determined by the rules for permanents or spells. See rules 110.2 and 111.2.
+

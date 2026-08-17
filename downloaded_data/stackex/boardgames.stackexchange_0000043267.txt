@@ -1,0 +1,36 @@
+Q:
+
+Can Thrun, the Last Troll be exiled?
+
+So I've been playing commander for quite a while now I've been playing a green stompy deck. I have Thrun, the Last Troll. It says it cannot be countered and it cannot be a target of opponents spells or abilities so isn't spells like instant and sorceries? My friend say it can be exiled still; is he correct?
+
+A:
+
+Yes, Thrun can be exiled
+Let's go through Thrun's abilities:  
+
+This spell can't be countered.
+
+This ability affects Thrun while he's on the stack. It has no impact on him once he reaches the battlefield. Note that while Thrun is on the stack, he can still be exiled by effects such as Mindbreak Trap. This is because "exiling" a spell doesn't actually counter it; it simply moves the spell from the stack straight to the exile zone. It's also worth mentioning that Thrun's second ability, hexproof, only applies while he's on the battlefield, meaning that it doesn't prevent him from being targeted by spells such as Mindbreak Trap while he's on the stack. 
+
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)  
+
+This specifically protects Thrun from all targeted spells and abilities. Magic cards are written in such a way that all such abilities specifically include the word "target", such as "destroy target creature", or "exile target permanent". As a result, Thrun is protected from a spell like Murder, but will still die to a spell such as Wrath of God. 
+
+{1}{G}: Regenerate Thrun, the Last Troll.  
+
+Regeneration is an ability that creates a replacement effect when a creature would die due to damage, or be destroyed:  
+
+701.14a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement
+  effect that protects the permanent the next time it would be destroyed this turn. In this case,
+  “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, 
+  instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature,
+  remove it from combat.”
+  701.14b If the effect of a static ability regenerates a permanent, it replaces destruction with an
+  alternate effect each time that permanent would be destroyed. In this case, “Regenerate
+  [permanent]” means “Instead remove all damage marked on [permanent] and tap it. If it’s an
+  attacking or blocking creature, remove it from combat.”  
+
+It has no impact on a creature that's being exiled.
+Outside of these cases, Thrun can be interacted with just like any other creature, including exiling it with a non-targeted spell, such as Final Judgement.
+

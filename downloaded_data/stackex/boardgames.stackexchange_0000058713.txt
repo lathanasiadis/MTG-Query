@@ -1,0 +1,16 @@
+Q:
+
+Does a maximally clumped deck or a mana woven deck require require more shuffling to sufficiently randomize?
+
+I've been under the impression that a mana woven deck (i.e., nonland nonland land nonland nonland land...) reaches a state of randomization after fewer riffle shuffles than the same deck with all nonlands on the top and all lands on the bottom.  More generally, the idea would be that more clumping requires more shuffling to achieve sufficient randomness.
+Recently, however, I've heard it claimed that a certain style of weaving (or double pile shuffling) requires twenty riffle shuffles to make random.  This struck me as odd, since 7-9 riffle shuffles are generally considered sufficient.
+Do clumped or declumped decks require more shuffling to randomize, or equivalently, given a fixed number of riffle shuffles, is one more likely to end up with a sufficiently randomized deck starting with a clumped or declumped initial distribution of cards?
+
+A:
+
+It doesn't make a difference.
+No deck in a known order is more or less random than any other deck in a known order. A deck with all of the lands together requires just as many shuffles for randomization as a deck with the lands perfectly distributed. A mana weave starts with looking at the cards to see which are lands and which are not, and doing so resets the deck to a "known order" state and undoes any previous shuffles.
+To see why this is true, we can characterize the degree of randomization of a deck by the number of possible permutations it can possibly be in. Any deck with a known order has one possible permutation, and a fully shuffled deck can have every possible permutation. A partially shuffled deck is somewhere in between.
+A pile shuffle deterministically maps any given permutation to a specific other permutation, so it changes the set of possible permutations, but always preserves the size, and therefore preserves the degree of randomization.
+If you experience that reordering your cards before shuffling (such as by mana weaving) results in a noticeable change in your draws, then you are not shuffling enough.
+

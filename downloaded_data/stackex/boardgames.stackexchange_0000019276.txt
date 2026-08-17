@@ -1,0 +1,15 @@
+Q:
+
+Can Legion's Initiative save permanents from Bearer of Heavens's destruction ability?
+
+When Bearer of Heavens dies, it destroys all permanents. If my opponent's creature destroys Bearer of Heavens can he activate Legion Initiative's ability (to exile his creatures until the start of his next combat) before Bearer destroys all permanents? Or does Bearer's ability activate straight away on death?
+
+A:
+
+The first ability of Bearer of the Heavens creates a delayed trigger:
+
+When Bearer of the Heavens dies, destroy all permanents at the beginning of the next end step.
+
+So if, for example, the Bearer dies during combat, it simply goes to the graveyard and nothing happens yet. During the second main phase, your opponent can activate Legion's Initiative and exile his creatures. When your end step begins, the delayed trigger from Bearer of the Heavens goes on the stack and resolves, destroying all permanents that are in in play, which doesn't include the creature cards your opponent has exiled.
+Alternatively, he could wait until the Bearer's trigger goes on the stack, then activate the ability of Legion's Initiative in response. Either way, the your opponent's creatures are exiled before the Bearer's ability resolves, and his creatures are saved.
+

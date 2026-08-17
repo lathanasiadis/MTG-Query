@@ -1,0 +1,18 @@
+Q:
+
+Word of Command recursion
+
+Let's say I cast Word of Command, and during its resolution I see that my opponent has a Word of Command in their hand, and I decide to cast it (as my spell that I make them cast due to my WoC, let's call it WoC1) targeting myself. Who controls the resolution of the second WoC, let's call it WoC2? Them or me? Do I have restrictions on what I can do to cast the spell I would choose for WoC2, since I'm not myself but I'm myself controlling myself through control of my opponent, and WoC1 and 2 would impose restrictions on how I can cast a spell? Let's say the only cards left in my hand are lands and Lightning Storm, can I or my opponent discard lands while it is on the stack or do I still control my opponent? Can my opponent counter Lightning Storm?
+
+A:
+
+The rules don't actually address how multiple player control effects interact, so strictly speaking, it's ambiguous how this works. Logically, the player control effect created by Word of Command 1 encompasses the entire resolution of Word of Command 2, including the effect that has your opponent make decisions for you while playing the card for WoC2, so you will make those decisions. However, once you have played that card, no more player control effects from WoC1 apply, so if that last card is a spell, your opponent will control you while it resolves.
+As for Lightning Storm, Word of Command specifically says that you control your opponent while casting the spell and while it is resolving. In between those two times, no player control effect is active, so either player can make their own choices to activate Lightning Storm's ability.
+To sum up, with the ambiguous part in bold:
+
+You cast Word of Command 1. No player control effects apply, and you make your own decisions.
+Word of Command 1 resolves. You choose for your opponent to cast Word of Command 2. While casting it, you control your opponent and choose what mana abilities they activate.
+Word of Command 2 resolves. You control your opponent while this spell resolves. You choose the Lightning Storm to cast. While casting it, your opponent controls you but your control effect is broader, so you have overall control. You choose what mana abilities to activate and what the spell's initial target should be.
+While Lightning Storm is on the stack, no player control effects apply, and each player can choose to activate Lightning Storm's ability.
+Lightning Storm resolves. Your opponent controls you while this spell resolves. There are no meaningful choices to make while the spell resolves.
+

@@ -1,0 +1,18 @@
+Q:
+
+If a Ring-bearer loses all abilities, does that include The Ring's abilities?
+
+While playing Arena, I enchanted my opponent's Slimefoot, Thallid Transparent, which was their Ring-bearer, with Witness Protection. I expected that Witness Protection's ability removal would remove the one ability that The Ring's had at the time, "Your Ring-bearer is legendary and can't be blocked by creatures with greater power". It's a simple matter of timestamps, right? First The Ring gives Slimefoot the ability, then Witness Protection removes it. However, it did not. Here is a screenshot:
+
+Thinking this was simply a visual bug, displaying the ability without granting it, I attacked with Dina, Soul Steeper and passed. On my opponent's turn, they attacked with Legitimate Businessperson, and I was not given the option to block it because all my untapped creatures had 3 power. This confirms that the ability was functional.
+9 times out of 10 I can mull it over and prove myself wrong when I think there's a bug in Arena, but I'm stumped here.
+
+A:
+
+The effect preventing you from blocking is not an ability on the creature, so Witness Protection does not remove it.
+Rule 702.51c says
+
+If a player doesn’t have an emblem named The Ring at the time the Ring tempts them, they get an emblem named The Ring before choosing a creature to be their Ring-bearer. The Ring has “Your Ring-bearer is legendary and can’t be blocked by creatures with greater power.” As long as the Ring has tempted that player two or more times, it has “Whenever your Ring-bearer attacks, draw a card, then discard a card.” As long as the Ring has tempted that player three or more times, it has “Whenever your Ring-bearer becomes blocked by a creature, the blocking creature’s controller sacrifices it at end of combat.” As long as the Ring has tempted that player four or more times, it has “Whenever your Ring-bearer deals combat damage to a player, each opponent loses 3 life.”
+
+None of the abilities on The Ring actually grant abilities to the Ring-bearer. Instead, the effects are created by the abilities on The Ring itself. So, there's nothing here to remove from the creature.
+

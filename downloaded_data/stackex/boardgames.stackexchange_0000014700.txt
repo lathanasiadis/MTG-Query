@@ -1,0 +1,24 @@
+Q:
+
+Multiple effects causing extra phases in M:tG
+
+Just checking that I understand rule 500.8 correctly:
+
+500.8. Some effects can add phases to a turn. They do this by adding the phases directly after the specified phase. If multiple extra phases are created after the same phase, the most recently created phase will occur first.
+
+If multiple effects add extra phases before the current ones is over, these phases will run one after the other, right? If Medomai the Ageless attacks alone while Finest Hour is on the battlefield and then deals damage, I'll get two extra combat phases?
+
+ETA:
+Obviously I had a big brainfart, but I guess the question was answered anyway. For a more practical example with extra turns, it's safe to assume that if I connect with both Medomai and Wanderwine Prophets (and sacrifice a merfolk), I'll get two extra turns?
+
+A:
+
+Medomai adds turns, not phases, so the rule you quoted isn't really necessary. Assuming no blockers, here's what happens:
+
+Medomai attacks on your turn. Finest Hour's abilities trigger.
+You can stack Finest Hour's abilities in either order. Assuming no other actions, Medomai is now 5/5 and there is now a combat phase after the current combat phase.
+Medomai deals damage. Medomai's ability triggers, so you take an extra turn after this one.
+You get another combat phase. Medomai attacks again, gaining another Exalted trigger.
+Medomai deals damage. Medomai triggers and you get another turn after this one (and before the other extra turn, not that it matters)
+You take two consecutive turns in which Medomai can't attack. Each of those turns can get a bonus combat phase from Finest Hour if you have non-Medomai creatures to attack with.
+

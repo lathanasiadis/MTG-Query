@@ -1,0 +1,26 @@
+Q:
+
+Does a melded creature remain melded when it leaves the battlefield?
+
+If a melded creature like Brisela, Voice of Nightmares dies, does it go to the graveyard as a single, melded creature, or does it split apart? 
+Can the whole creature be brought back to the battlefield (or to my hand), or just 1 of the 2 parts? 
+Do both halves of Brisela have to be regenerated separately?
+
+A:
+
+From the Eldritch Moon release notes:
+
+While a meld card is anywhere other than the battlefield ... it has only the characteristics of its front face.
+
+So once a melded creature is in the graveyard, the two parts have their front-face identities only and do not "remember" that they had been melded. Anything trying to move the cards back to hand or battlefield will have to interact with them separately.
+However, a creature that is rescued from death with regeneration never actually leaves the battlefield at all, so regeneration works just fine on a melded creature. Regeneration does not mean to return the creature from the graveyard to the battlefield - rather it (roughly) means "the next time this creature would die, instead it doesn't."
+Here's part of the Comprehensive Rules on regenerate:
+
+701.12a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement
+  effect that protects the permanent the next time it would be destroyed this turn. In this case, 
+  “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn,
+  instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature,
+  remove it from combat.”
+
+While the melded creature is on the battlefield it counts as just one creature, so a single regeneration effect can save it (you don't have to regenerate both halves).
+

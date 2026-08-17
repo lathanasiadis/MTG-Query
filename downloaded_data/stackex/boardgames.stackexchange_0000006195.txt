@@ -1,0 +1,50 @@
+Q:
+
+Is there any way to rehabilitate the "junk rare" Lost In The Woods?
+
+I've really been enjoying the incredible Innistrad set, and advance previews of Dark Ascension (on the Wizards official site and elsewhere) have been living up to it so far.  However, I had to do a double take when I read the text of this rare, Lost in the Woods, it seemed so bad:
+
+Lost in the Woods, 3GG [Enchantment]
+Whenever a creature attacks you or a planeswalker you control, reveal
+the top card of your library.  If it's a Forest card, remove that
+creature from combat.  Then put the revealed card on the bottom of
+your library.
+
+I feel like the ability on this card would be bad if it Fogged all creatures on a Forest reveal, not just one creature.  I feel like the card would still be bad if it cost G and you could cast multiples of it in early turns - but as an expensive late game card, it seems totally unplayable.
+Obviously it's a "flavourful" card that will never see competitive play.  But come on, surely no Magic card can be completely without actual play value?  This is the hardest card to think of a good use for that I've come across in ages, though - can anyone else think of a great combo or other strategy for making Lost In The Woods a halfway decent addition to a deck?
+
+A:
+
+It's a rather awful card with one very limited application that only really works in draft.
+Here's a deck that can win a game or two (likely only games, not matches) in Dark Ascension draft and sealed:
+
+1x Lost in the Woods
+45x Forest
+
+Transform into it for game 2 after you're sure they don't have enchantment removal or enough mill or burn to bypass it.
+Mulligan until you get Lost in the Woods in your opening hand.
+Play a Forest a turn (you're guaranteed to draw one) until you can cast Lost in the Woods.
+Win the game by running your opponent out of cards, TurboFog-style.
+
+This trick is rather fragile, but it was apparently good enough to win a few games on the Pro Tour! (As discussed here and here.)
+Importantly, it's a trick that costs almost nothing in draft: you can draft a normal deck in any colors and randomly twelth-pick this single junk rare to give yourself an entire alternate strategy to swap into. That's the very lowest possible investment for a transformational strategy, well worth the potential to "steal" a game or two out of nowhere.
+
+Beyond that... no, not really. 
+As a defensive card, it doesn't really compare to staples like Propaganda and Spike Weaver.
+Benefits:
+
+It's a permanent, of a pretty durable kind.
+Protects your planeswalkers, too. A lot of older defensive enchantments don't.
+It's not a damage-prevention effect.
+Multiples stack nicely.
+You control how the triggers are stacked. If you know what's in first few cards of your library, you can use Lost in the Woods to stop the biggest threat.
+The creatures it removes from combat don't become untapped as a result.
+
+Drawbacks:
+
+Only works on forests, not any land. This is quite prohibitive.
+Cmc 5. If this were much lower, Lost in the Woods might still be worth it as a card that a ramp could drop to slow down an aggro opponent.
+
+Basically the problem is that it's too slow for 60-card Magic but a singleton copy doesn't do very much for you in Commander. The card can be improved by synergy with stuff like Sensei's Divining Top, but that's like saying Siege Mastodon is more playable with Black Lotus.
+Beyond the fog effect, this card does do something else, though: it lets you go through a bunch of your deck. With something like Future Sight on the field, you can take advantage of the individual resolution of the triggers to cycle through a chunk of your library looking for stuff to cast. The major downside is that making effectively use of this requires not only a Future Sight effect, but also the ability to play most of your stuff at instant speed. It's much easier to set up the same combo with Top.
+

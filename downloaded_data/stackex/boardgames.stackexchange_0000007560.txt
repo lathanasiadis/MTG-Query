@@ -1,0 +1,32 @@
+Q:
+
+How does Infinite Reflection work with Commander and commander damage?
+
+Does a Commander which has been turned into a copy of another card still do commander damage (i.e. will 21 damage dealt to a single player from the copy lose the game for that player)?
+Alternately, does a card which has been turned into a copy of a commander do commander damage?
+Examples of both cases:
+Our antagonist has 50 life and no commander damage dealt.
+Our protagonist has a (any) commander and Malignus on the battlefield.
+Protagonist enchants Malignus with Infinite Reflection and then attacks with his/her commander (which is a copy of Malignus). Antagonist does not block. 25 damage is dealt. Does our protagonist win the game due to commander damage?
+Alternately:
+Our antagonist has 50 life and no commander damage dealt.
+Our protagonist has a 6/6 commander and 3 other non token creatures on the battlefield.
+Protagonist enchants his/her commander with Infinite Reflection and then attacks with all 4 creatures. Antagonist does not block. 24 damage is dealt (6 per creature). Does our protagonist win the game due to commander damage?
+It seems like the answer to one of these questions should be yes. I feel like it's probably the first one (a commander turned into a copy of another card doesn't lose its commander-ness), but I'm not familiar enough with the rules to say for sure.
+
+A:
+
+I found the answer to this in the rules:
+
+903.3. Each deck has a legendary creature card designated as its commander. This designation is not a characteristic of the object
+  represented by the card; rather, it is an attribute of the card
+  itself. The card retains this designation even when it changes zones.
+Example: A commander that's been turned face down (due to Ixidron's
+  effect, for example) is still a commander. A commander that's copying
+  another card (due to Cytoshape's effect, for example) is still a
+  commander. A permanent that's copying a commander (such as a Body
+  Double, for example, copying a commander in a player's graveyard) is
+  not a commander.
+
+So the answer is that in the first example (commander copying Malignus) the antagonist loses the game. In the second he/she does not (yet).
+

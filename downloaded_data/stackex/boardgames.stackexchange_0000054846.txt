@@ -1,0 +1,25 @@
+Q:
+
+Madness and Conspiracy Theorist
+
+Strixhaven introduces Conspiracy Theorist, with the triggered ability:
+
+Whenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn.
+
+Madness is a keyword ability that let's me cast cards that were discarded for an alternative cost.
+Is the following possible for a non-permanent card with madness, assuming timing supports?
+
+Discard card with madness
+
+Exile card, and cast it for the madness cost. It goes to the graveyard on resolution.
+
+cast card with Conspiracy Theorist ability.
+
+A:
+
+No, I cannot do this.
+A card discarded with madness is discarded, but is sent to exile instead of the graveyard. Rule 702.35a.
+The complication is the act of casting it from exile for its madness cost. On moving it from the exile zone to the stack, the spell becomes a new object. Rule 400.7
+When it resolves, and is put in the graveyard, the triggered ability of Conspiracy Theorist would not be able to find the card that was discarded.
+If the card was not cast for its madness cost, it would remain the same object as it passed through exile, and could be cast from the graveyard. Rule 400.7i
+

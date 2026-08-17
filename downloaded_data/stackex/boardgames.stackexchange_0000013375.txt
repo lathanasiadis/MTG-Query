@@ -1,0 +1,21 @@
+Q:
+
+Does Leyline of Singularity works on tokens?
+
+If Leyline of Singularity is in play, will  my opponent be able to have multiple "2/2 zombie tokens" in play?
+
+A:
+
+It does count for tokens; you will not be able to have multiple tokens with the same name. The name of a token is defined by the spell that created it:
+
+110.5c A spell or ability that creates a creature token sets both its name and its creature type. If the spell or ability doesn’t specify the name of the creature token, its name is the same as its creature type(s). A “Goblin Scout creature token,” for example, is named “Goblin Scout” and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn’t change its creature type, and vice versa.
+
+So in your example, if an effect creates a 2/2 Zombie token, then the name of that token will be "Zombie."
+Furthermore, the legendary rule does apply to tokens:
+
+205.4d Any permanent with the supertype “legendary” is subject to the state-based action for legendary permanents, also called the “legend rule” (see rule 704.5k).
+
+and
+
+110.5e A token is subject to anything that affects permanents in general or that affects the token’s card type or subtype. A token isn’t a card (even if represented by a card that has a Magic back or that came from a Magic booster pack).
+

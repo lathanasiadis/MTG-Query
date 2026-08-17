@@ -1,0 +1,17 @@
+Q:
+
+Is there any way to get an instant or sorcery on the field as a permanent? What would happen if this occurred?
+
+Is there any process or series of plays/cards that would allow an instant to be put onto the battlefield as a permanent, instead of resolving? Would it resolve anyway, even if not cast? Not including something like manifesting an instant, where it's not technically the card.
+
+A:
+
+There's a clear boundary between the two types of cards (one having a 'lasting' effect, the other a 'momentary' effect), and as far as I can see that's intentional. In the history of Magic: The Gathering, a handful of instant/sorcery cards with transform and/or manifest have been printed, and with some other cards it would be possible to make permanents of them, except for some very specific rules (mentioned by @doppelgreener) preventing this:
+
+304.4. Instants can’t enter the battlefield. If an instant would enter the battlefield, it remains in its previous zone instead.
+307.4. Sorceries can’t enter the battlefield. If a sorcery would enter the battlefield, it remains in its previous zone instead.
+701.27d If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, nothing happens.
+701.33f If a manifested permanent that’s represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won’t trigger.
+
+Even if those rules didn't exist, the text on an instant or sorcery indicates what happens when the spell resolves. So if you could somehow get a Lightning Bolt on the battlefield as a permanent, it won't do any damage, not even when it enters the battlefield.
+

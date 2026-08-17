@@ -1,0 +1,26 @@
+Q:
+
+Can I pay two different costs with the same payment?
+
+Say I have a Zombie token, Viscera Seer, and Altar of Dementia on the battlefield. Can I sacrifice the Zombie token to activate both the Altar's and Seer's abilities?
+Similarly, if I have one card in hand, and Wild Mongrel and Patrol Hound on the battlefield can I discard the one card to both of their abilities?
+If I have a Lux Cannon with 3 charge counters can I activate both of its abilities by tapping it to add a counter, and tapping it to remove 3 counters and destroy a permanent without untapping it in between?
+
+A:
+
+No.
+We might say "I sacrifice this creature to activate Altar of Dementia's ability", but that's not entirely correct. Sacrificing the creature doesn't activate the ability; sacrificing the creature is part of activating the ability. You must start to activate the ability before you pay the cost, so you must be in a position to activate the ability before you can pay the cost.
+
+"[cost]: [effect]" denotes an activated ability.
+Activating Viscera Seer's ability requires that you sacrifice a creature as a cost. That means the first thing you do is chose to activate the ability, then you sacrifice a creature to satisfy the cost of doing so.
+If you also wanted to activate Altar of Dementia's ability, you will need to sacrifice a second creature since the one you sacrificed to Viscera Seer no longer exists. Like costs of real life, each needs to be payed separately.
+
+117.10. Each payment of a cost applies to only one spell, ability, or effect. For example, a player can't sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn't pay another spell or ability's cost, even if part of its effect is doing the same thing the other cost asks for.
+
+Note that you are free to use the either of the abilities again. Only a Planeswalker's loyalty ability can't be used more than once per turn (and those which explicitly forbid it on the card). Any other activated ability can be used as many times as you can pay the cost.
+
+"{Whenever|When|At} [condition], [effect]" denotes a triggered ability.
+If Viscera Seer's and Altar of Dementia's abilities were phrased "Whenever you sacrifice a creature, ...", then you would get both effects whenever you sacrifice a creature, no matter the reason it was sacrificed. You would need some external means of sacrificing a creature, though.
+For example, attacking with a Fallowsage would give you to the option of drawing a card.
+For example, tapping a land for mana while its enchanted by Contaminated Ground would cause its controller to lose two life (in addition to gaining mana). If that land was enchanted by two Contaminated Ground, its controller would lose a total of four life.
+

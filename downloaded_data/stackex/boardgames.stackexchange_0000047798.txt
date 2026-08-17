@@ -1,0 +1,30 @@
+Q:
+
+Can a deck with a mono-colored commander have cards with other colors than its commander in it?
+
+The basic rules for building a Commander deck state:
+
+All cards must be in the color identity of the commander
+
+Then the rules summary continues with:
+
+COLOR IDENTITY
+A card's color identity can come from any part of that card, including its casting cost and any mana symbols in its text. Every card in your Commander deck must only use mana symbols that also appear on your commander. Colorless cards are allowed as well.
+
+(emphasis mine)
+So reading these rules makes it pretty clear to me, giving a "no" to my question. However, a couple of weeks ago I played a multiplayer game with more experienced players, but nobody made any remarks on the (winning) deck featuring a mono-white commander* leading a red-white deck. So now I'm confused. Am I missing something, or was that deck technically illegal?
+
+* I can't remember the exact card. It had doublestrike and was pretty cheap to cast, around 2-4 mana. It was not a flip-card, such as Archangel Avachyn in the example on the linked website.
+
+A:
+
+As the rules you quoted say, the color identity of every card in a commander deck must be a subset of the color identity of the commander, where a card's color identity is the set of the colors of all mana symbols and color indicators in that card's rules text.
+There are currently only three mono-white legendary creatures whose color identity contains both red and white:
+
+Archangel Avacyn - color ID WR
+General Tazri - color ID WUBRG
+Sisay, Weatherlight Captain - color ID WUBRG
+
+The only other candidate that's close to your description and could have been valid is Sylvia Brightspear.  She partners with Khorvath Brightflame, which is red.  In the case of partner, a deck actually has two commanders, and they both contribute to color identity.  It's possible Khorvath never got cast, or you simply didn't notice it was from the command zone when it was cast.
+If none of the cases above are true, then your opponent's deck was not valid.
+

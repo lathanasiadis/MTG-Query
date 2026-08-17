@@ -1,0 +1,35 @@
+Q:
+
+Can I use counterspells to make my Decree of Silence last longer?
+
+Decree of Silence says:
+
+Whenever an opponent casts a spell, counter that spell and put a depletion counter on Decree of Silence. If there are three or more depletion counters on Decree of Silence, sacrifice it.
+
+Can I "stretch" my Decree of Silence by using other spells and abilities to counter spells so its triggers will fizzle?
+For example:
+
+If my opponent casts a Sorcery, can I use Negate from my hand to counter it so that Decree won't get a depletion counter?
+If I also have a Jace, Unraveler of Secrets emblem ("Whenever an opponent casts his or her first spell each turn, counter that spell") in play, can I sequence the two triggers so that the first spell each opponent casts each turn won't cause Decree to get depletion counters?
+
+A:
+
+No, because casting a spell is different from resolving a spell, and adding a depletion counter does not depend on Degree of Silence actually countering the spell.
+When you counter a spell, you only prevent it from resolving.
+
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+Decree of Silence triggers on an oponent casting a spell. That event happens as soon as the opponent has put the spell on the stack, made all choices, and paid all costs. It's impossible to retroactively prevent the casting of a spell.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [..]
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+Decree of Silence's ability also won't fizzle once it's triggered. It is not necessary for Decree of Silence to actually counter the spell to get a counter. Countering the spell and placing a counter are independent of each other, so it doesn't matter if the spell that triggered it is countered beforehand. If you counter the spell before DoS resolves, DoS will still do as much as possible:
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+Its ability does not target anything, so it can't fizzle due to lack of targets. It does not require any information about the spell as it resolves, so there is no potential for failing to carry out its instructions on those grounds. While exceptions exist, triggered abilities generally don't care about what happens to the source once they have triggered.
+If the "adding a counter" effect was dependant on "countering that spell", the ability would be worded as a special kind of delayed triggered ability:
+
+603.12. A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers “when [a player] [does or doesn’t]” take that action or “when [something happens] this way.” These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they’re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them.
+

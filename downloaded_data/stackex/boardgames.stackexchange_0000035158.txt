@@ -1,0 +1,15 @@
+Q:
+
+Multiple sources of damage prevention
+
+Let's say I cast two Healing Salves on a creature. Each would prevent the next 3 damage that would be dealt to that creature. Does this effectively prevent the next 6 damage that would be dealt? Or do they both try to prevent the same 3 points of damage?
+
+A:
+
+It effectively prevents the next 6 damage. 
+Rule 616.1e says:
+
+Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+If the first 3 damage has already been prevented, the second prevent doesn't need to do anything until more damage comes in. 
+

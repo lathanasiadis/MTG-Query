@@ -1,0 +1,35 @@
+Q:
+
+Can you tap the same land twice in a turn?
+
+So i am wondering if you could use cards to allow you to play a land, tap it, send it back to your hand, then tap it again.
+For example:
+
+Play forest, tap it
+Play Selesnya Sanctuary, send forest to hand
+Play Urban Evolution
+Play forest, tap it
+
+And maybe
+
+Untap it with Kiora's Follower to tap it a total of 3 times
+
+Does this work?
+
+A:
+
+I think the other answer by doppelgreener puts too much emphasis on 400.7. I don't think that that rule is relevant at all. Rather, we have
+
+107.5. The tap symbol is {T}. The tap symbol in an activation cost means “Tap this permanent.” A permanent that’s already tapped can’t be tapped again to pay the cost. A creature’s activated ability with the tap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began.
+
+along with
+
+110.6. A permanent’s status is its physical state. There are four status categories, each of which has two 
+  possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. 
+  Each permanent always has one of these values for each of these categories.
+110.6b Permanents enter the battlefield untapped, unflipped, face up, and phased in unless a spell or 
+  ability says otherwise
+
+So nothing in rule 110.6 says that a permanent remembers that it has previously been tapped; it is either tapped or untapped, and that's it. Nothing in rule 107.5 cares what has happened to a permanent earlier when you decide whether the tap symbol is a cost you're allowed to pay (except summoning sickness on creatures). Only its status in that exact moment.
+If a permanent is untapped (regardless of why), then you are allowed to activate abilities it has with the tap symbol in the cost (unless it's a creature with summoning sickness). When you play the forest in step 4, it comes into play untapped as per 110.6b. You can then tap it to get a green mana. When it has been untapped by Kiora's follower, it is untapped, which means 107.5 once again allows you to activate its ability.
+

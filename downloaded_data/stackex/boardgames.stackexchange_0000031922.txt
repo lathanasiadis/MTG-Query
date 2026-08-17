@@ -1,0 +1,28 @@
+Q:
+
+Why didn't my Deathtouch creature kill my opponent's Protean Hydra?
+
+I'm trying to learn the new MTG; I haven't played since the original Beta set. I'm playing on PS3 so I can learn how to at least last a few rounds against my son. :)
+So here's the scenario: My opponent had a 12/12 Protean Hydra out. I had a 2/7 Spider with Deathtouch. The Spider blocked the Hydra. The Spider died and the Hydra became a 13/13. Why didn't the Hydra die? Am I misunderstanding Deathtouch?
+
+A:
+
+Protean Hydra has two abilities that say
+
+If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it.
+Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step.
+
+And the rule for how Deathtouch damage works is 702.2b:
+
+A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action
+
+So, here's the sequence of events in your scenario:
+
+We get to the combat damage step, and the Spider is assigned to deal 2 damage to the Hydra.
+
+The Hydra's ability prevents that damage, and instead 2 +1/+1 counters are removed, making it a 10/10. Since the damage was prevented, the Hydra wasn't dealt damage by a source with Deathtouch, so it doesn't die.
+
+At the beginning of the end step, because of the Hydra's other ability, 2 +1/+1 counters are put on it for each one removed earlier, making it a 14/14.
+
+You said that the Hydra ended up as a 13/13 instead. That could happen if the Protean Hydra was actually a 11/11 originally, or if the Spider actually only had 1 power, or it could simply be a bug in the game.
+

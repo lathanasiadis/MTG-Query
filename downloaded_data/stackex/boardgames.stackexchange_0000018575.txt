@@ -1,0 +1,44 @@
+Q:
+
+How do I identify the role of a singleton in a well-tuned deck?
+
+In this instance, I'm looking at Matt Sperling's Pro Tour top 8 Boros Burn deck, and there's one thing I don't get--what's the single Eidolon of the Great Revel doing here?
+
+Creatures:
+
+4 Young Pyromancer
+1 Eidolon of the Great Revel
+4 Chandra's Phoenix
+
+Spells:
+
+4 Shock
+3 Skullcrack
+4 Lightning Strike
+4 Boros Charm
+4 Stoke the Flames
+4 Warleader's Helix
+4 Searing Blood
+
+Lands:
+
+4 Mutavault
+3 Sacred Foundry
+9 Mountain
+4 Battlefield Forge
+4 Temple of Triumph
+
+A:
+
+I'm not familiar with this deck in particular, but it looks like this is a good example of a miser's copy (a singleton, usually with the connotation that it has a unique effect within your deck but you have no way to tutor for it). Some things to note about that card:
+
+It is really good in some situations
+It is really bad in others
+In the situations where it is bad, it is horrible in multiples
+Even if it is overall bad, drawing one is probably not the end of the world
+
+(1) is the argument for running the card at all. (2) argues against running the card. (3) and (4) are where you might come to the conclusion to run exactly one.
+I suspect "potentially horrible in multiples" was a major contributor here. Drawing too many of the Eidolon means you're not drawing targeted burn, and therefore not burning your opponent (or your opponent's blockers). They trigger each other, so casting multiple copies risks just killing yourself instead of your opponent; it's easy to envision situations where you lose a close race because you drew the second Eidolon, but literally any burn spell would have worked. Running too many also reduces the effectiveness of your other creatures, which need a lot of instants and sorceries to work at their full potential. Finally, "damages self" is not a drawback that stacks well; you only have one life total, so you can only eat into it so much before you need to gain life somehow or be certain you can kill the opponent first[1].
+Adrian Sullivan has written about singletons in the past; in his terms, I'm arguing that the Eidolon suffers from diminishing returns.
+[1] I didn't notice this until after I wrote the answer, but the deck only has 3 Sacred Foundry. This is a clue that avoiding too much self-damage was a factor in tuning the deck.
+

@@ -1,0 +1,18 @@
+Q:
+
+Can your opponent counter the exert ability of Champion of Rhonas?
+
+Can your opponent counter the exert ability of Champion of Rhonas, either as a spell or an activated ability? Does it count as a spell being cast?
+
+A:
+
+Champion of Rhonas's ability is a replacement effect followed by a triggered ability. You will be able to counter it during the Declare Attackers step by effects which counter triggered abilities. In the current Standard format, there is one card that does this: Disallow. (If the Exert effect has targets, you could also optionally make all of its targets illegal: this makes the rules counter the ability, and doing so is colloquially known as fizzling.) Currently this is true of all creatures with an Exert effect.
+It is not an activated ability, and abilities are never spells and never count as a spell being cast. You will not be able to counter it with an effect which requires an activated ability or a spell as a target.
+Activated abilities follow a specific format, which is (quoting the rules themselves):
+
+[Cost]: [Effect.] [Activation instructions (if any).]
+
+That : following a cost (including {0}, as in Kazuul's Toll Collector) in an ability's text is the way to tell it's an activated ability. If there is no cost & colon, it's not an activated ability.
+The Champion's exert ability comes in two parts as mentioned earlier: it starts as a replacement effect (because of the "as"), which modifies how declaring attackers works by giving the controller the opportunity to exert it. It is followed by a triggered ability that occurs if it is exerted. This triggered ability carries the "when you do..." portion of the effect, and it goes on the stack during the Declare Attackers step after attackers are declared.
+All current creatures with an Exert effect work this way. Battlefield Scavenger and Trueheart Twins are slight exceptions in that their triggered ability is a separate ability, but it will still trigger in the same way.
+

@@ -1,0 +1,28 @@
+Q:
+
+Examples of Magic Cards that use rule 115.2c
+
+What are some examples of cards in Magic the Gather that use the rule 115.2c?
+
+115.2c Some effects allow a player to take an action at a later time, usually to end a continuous effect or to stop a delayed triggered
+  ability from triggering. Doing so is a special action. A player can
+  take such an action any time they have priority, unless that effect
+  specifies another timing restriction, for as long as the effect allows
+  it.
+
+A:
+
+An example of this (very rare) special action would be paying {U} to prevent the delayed trigger from Quenchable Fire.
+
+Quenchable Fire {3}{R}
+Sorcery
+Quenchable Fire deals 3 damage to target player or planeswalker. It deals an additional 3 damage to that player or planeswalker at the beginning of your next upkeep step unless that player or that planeswalker’s controller pays {U} before that step.
+
+There are three other cards with a similar template that also use 115.2c: Glass Asp, Nafs Asp, and Sabertooth Cobra.
+The Licids from Tempest block also use 115.2c to enable you to end a continuous effect:
+
+Calming Licid {2}{W}
+Creature — Licid
+{W}, {T}: Calming Licid loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {W} to end this effect.
+Enchanted creature can’t attack.
+

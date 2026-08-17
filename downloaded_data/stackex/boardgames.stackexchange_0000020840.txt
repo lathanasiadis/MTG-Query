@@ -1,0 +1,18 @@
+Q:
+
+Damage to player when activating Flying ability after 'Declare Blockers' step
+
+If I attack with a Leaping Master and my opponent blocks it with an Alpine Grizzly and I then activate the Leaping Master's Flying ability (i.e. at the end of the 'Declare Blockers' step), the Alpine Grizzly can, presumably, no longer block the (now flying) Leaping Master.
+However, would Leaping Master deal damage to my opponent in this case or does rule 509.1h prevent this?
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+My feeling is that Leaping Master's damage is assigned to the player as the Alpine Grizzly is not "removed from combat"?
+
+A:
+
+Flying only creates a restriction on blocking when blockers are declared, once the blocker is declared giving the attacker flying will have no effect.
+From the Rulings on Leaping Master
+
+9/20/2014  Activating Leaping Master’s ability after it’s been blocked won’t change or undo the block.
+

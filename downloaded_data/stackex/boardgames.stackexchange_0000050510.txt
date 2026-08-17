@@ -1,0 +1,17 @@
+Q:
+
+Arena, Triumphant surge without legal target
+
+Just playing Arena using the Workshop:Heroes of Theros - Devotion deck.
+I tried to cast Triumphant Surge when there was only my Transcendent Envoy on the battlefield. The Triumphant Surge just hung in the air over the stack part of the screen, not doing anything for about 10 turns. occasionally it would light up blue but mostly it sat in the way, I couldn't read the cards on the stack and didn't gain my 3 life. Then later in the game, when there was a legal target, I could cast the card by clicking on it where it was suspended on the rhs of the screen; it destroyed opponent's creature (4/4) and I gained 3 life.
+Can I cast Triumphant Surge without a legal target to gain 3 life? Is this just a bug in Arena, or am I mistaken? 
+
+A:
+
+What you describe was certainly a bug in Arena. You can't cast a spell if you can't choose legal targets for it. By the rules, the spell will not hang around until there is a legal target.
+Spells and abilities that require one or more targets can't be cast, activated, or enter the stack if you don't have a legal target at the time of casting/activating/triggering it. A spell that was started to be cast would be returned to where it came from, usually the hand.
+The process for casting a spell, activating an ability, and triggering an ability are mostly identical for the purpose of target selection, so I'll only quote those rules for casting spells.
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires. [..]
+601.2e The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 725, “Handling Illegal Actions”).
+

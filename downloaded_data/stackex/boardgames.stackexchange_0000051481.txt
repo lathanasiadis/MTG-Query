@@ -1,0 +1,52 @@
+Q:
+
+Can Etrata 'hit' commanders and count them toward game loss?
+
+Etrata, the Silencer has this ability:
+
+Whenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata’s owner shuffles Etrata into their library.
+
+It used to be the case that it would be useless to exile a commander this way. However as of June 7 2020, MTGCommander.net announced a new rule for sending your commander to the command zone from graveyard or exile that now uses state-based actions:
+
+If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone.
+
+(The hand/library rule is still a replacement effect.)
+Under these rules, can I exile somebody's commander with Etrata and count it toward them potentially losing the game?
+
+A:
+
+Yes, you can exile a player's commander this way now, and you can cause that player to lose the game this way if it's the third card of theirs you exiled with a hit counter. This happens even if the player wants to move their commander to the command zone—because they lose the game before they get the option to do that. However, it still won't be helpful to pick their commander for the first or second 'hit'.
+The events now unfold like this:
+
+Etrata deals combat damage to a player.
+Her ability goes on the stack. You choose their commander as the target.
+(Let's assume players do nothing in response and let the ability resolve.)
+Etrata's ability resolves. As part of resolution, the target creature is exiled with a hit counter on it. Then, that creature's owner loses if they have three or more cards in exile with hit counters on them. Then, Etrata gets shuffled into her owner's library.
+Now that Etrata's ability has finished resolving, state-based actions are checked. As part of this, the player whose commander was just exiled has the choice to move their commander to the command zone:
+
+If they choose to move their commander, it vanishes from exile and is now in the command zone without a hit counter on it. It will not count toward future 'hits' anymore.
+If they choose to leave it in exile, it will stay there with a hit counter on it.
+
+You'll see that during ability resolution their commander is still in exile. This means if you've exiled two other cards and then the player's commander, that player now loses the game. They don't have the option yet to move their commander out of exile.
+If you exile their commander for the first or second hit, then they won't lose the game and can subsequently move the commander out so it won't count as a hit for the next time. So that's still not a good choice.
+What if I have multiple Etratas, or I copy her ability with Strionic Resonator?
+State-based actions still get checked between any two abilities resolving. If you want to pull this off, Etrata still needs to exile their commander for the last 'hit' and not the first or second. This means target the commander with the first such trigger that goes on the stack.
+This would work:
+
+Attack with three Etratas (using Helm of the Host) that all deal combat damage to the player.
+Because the abilities go on the stack simultaneously, you choose the order. Choose their commander for the first ability to go on the stack, then two other creatures for the next two.
+The topmost Etrata ability resolves, exiles one of those other creatures, and doesn't cause the player to lose the game.
+The next Etrata ability resolves doing the same with another creature.
+The last Etrata ability resolves, exiles their commander, and causes them to lose the game.
+
+This would also work:
+
+Have a card owned by that player in exile with a hit counter on it from a previous turn.
+Attack with one Etrata and deal combat damage to that player.
+Etrata's ability goes on the stack — choose their commander for the target.
+Using Strionic Resonator, copy the ability and choose another creature for the target. This goes on the stack on top of the original trigger.
+The copied ability resolves first, exiling the other creature for the second 'hit'.
+The original ability resolves next, exiling their commander for the third 'hit' and causing them to lose the game.
+
+However, if you choose the commander for the first trigger that resolves, the player will be able to move their commander out of the command zone before the next ability resolves. This means the next ability won't count that 'hit'.
+

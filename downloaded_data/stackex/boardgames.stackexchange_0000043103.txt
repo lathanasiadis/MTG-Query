@@ -1,0 +1,51 @@
+Q:
+
+Why do cards like Isochron Scepter have more than one "may" clause?
+
+Isochron Scepter reads, in part,
+
+You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.
+
+There are a number of other cards that give you the option of copying a card, and then give you the option of casting that copy.
+
+Spellbinder
+Spellweaver Helix
+Panoptic Mirror
+Reversal of Fortune (noteworthy for being the only one that doesn't have Imprint)
+
+Effectively, each of these cards offers three options:
+
+Don't copy the card.
+Copy the card, but don't cast the copy.
+Copy the card and cast the copy.
+
+Why would I ever choose option 2? Is there ever a situation where choosing option 2 results in a different game state than if I had chosen option 1?
+My perception is that WoTC usually tries very hard to avoid redundancy in card text, so I'm curious why they would choose a wording like this over something like,
+
+You may copy the exiled card and cast the copy without paying its mana cost.
+
+Edit: and in fact now that I look at the images of the original Mirrodin block printings, the cards did originally have only one instance of "may" in the instructions for casting the copy. So by issuing this errata, WoTC very deliberately wants there to be two opportunities to make a choice. But why?
+
+A:
+
+Warning: Clicking on the first link will download a .doc file.
+
+From A Summary of Recent Rulings published by the Magic Rules Team in February 2005:
+
+ERRATA -- ORACLE WORDING CHANGES
+
+Isochron Scepter and Similar Cards
+
+The Mirrodin(R) block contains a group of cards that create copies of cards and allow a player to play those copies.  The creation of the copy and then the playing of the copy are both optional.  The text has been clarified to indicate that each action is an optional choice.  If the spell can't be legally played, choosing not to use either option is acceptable.  There is no functional change in the way these cards are played.  The new Oracle text for the cards is as follows:
+[...]
+
+As spelled out here, the errata was not a functional change, which means that despite how the printed text may be interpreted today, each action has always been optional.
+
+Why would I ever choose option 2? Is there ever a situation where choosing option 2 results in a different game state than if I had chosen option 1?
+
+At the time this answer was written, option 1 and option 2 are identical. However, if a card were printed tomorrow with the text...
+
+Whenever you copy a card, you gain 1 life.
+
+... then suddenly the two options would be different.
+

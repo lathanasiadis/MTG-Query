@@ -1,0 +1,22 @@
+Q:
+
+Does a Panharmonicon effect Torpor Orb's ability?
+
+Does Torpor Orb work as usual with a Panharmonicon in play? For example, my Viridian Shaman's ability would still not trigger as is usually the case with Torpor Orb, the Panharmonicon does not change anything in this situation?
+
+A:
+
+Torpor Orb does not directly interact with Panharmonicon, but with Torpor Orb in play, Panharmonicon has no effect when creatures enter the battlefield.
+Torpor Orb's ability says
+
+Creatures entering the battlefield don't cause abilities to trigger.
+
+and Panharmonicon's ability says
+
+If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+With both on the battlefield, if a creature enters the battlefield, Torpor Orb prevents any abilities from triggering, so the condition of Panharmonicon's ability is never met, so Panharomonicon's ability does nothing. Panharmonicon still works as usual if a non-creature artifact enters the battlefield.
+Panharmonicon's ability is very similar to a replacement effect, and rule 614.7 says
+
+If a replacement effect would replace an event, but that event never happens, the replacement effect simply doesn’t do anything.
+

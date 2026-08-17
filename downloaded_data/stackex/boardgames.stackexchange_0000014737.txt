@@ -1,0 +1,19 @@
+Q:
+
+show and tell, gilded drake and primeval titan
+
+I cast Show and Tell and with it play Primeval Titan. My opponent plays Gilded Drake and takes over my Primeval Titan. I assume I'm the one who gets to use the land search ability and not my opponent?
+
+A:
+
+Yes, you will get to search for lands with the Titan's ability; similarly to your other question, the key here is that both Primeval Titan and Gilded Drake have triggered abilities.  Both of those triggers are put onto the stack after Show and Tell has finished resolving, and the controller of the ability is locked into place when the ability is put on the stack:
+
+112.8. The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the
+  stack (other than a delayed triggered ability) is the player who
+  controlled the ability’s source when it triggered, or, if it had no
+  controller, the player who owned the ability’s source when it
+  triggered. To determine the controller of a delayed triggered ability,
+  see rules 603.7d–f.
+
+When Primeval Titan's triggered ability is put onto the stack (which will generically be just before Gilded Drake's ability is put on the stack, since the active player's triggers are placed on the stack before any inactive players', and it's hard but not impossible to cast Show and Tell outside your turn), the controller of the land-search ability is locked in as the controller of the titan; at this point you still control the Titan, since Gilded Drake's ability hasn't even gone on the stack yet, much less resolved.  The fact that you don't control the Titan when the ability resolves is moot.
+

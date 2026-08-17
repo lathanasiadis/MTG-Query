@@ -1,0 +1,16 @@
+Q:
+
+Double Hardened Scales
+
+I'm having issues understanding how a possible turn would go which I'll try to explain best I can.
+Say I currently had two Battlewise Hoplites currently on the board. One of them currently has Hardened Scales but the other does not. This would mean that the first which has the enchantment would have two +1/+1 counters currently. The first for its Heroic ability and another due to Hardened Scales.
+Now say that I decide that I want to play an additional Hardened Scales to the other Battlewise that isn't enchanted and is still a 2/2? I'm unclear how two Hardened scales on the board at the same time would resolve?
+I'm still pretty new to magic so excuse me if I'm using wrong terminology!
+Thanks!
+
+A:
+
+Not all enchantments attach to a creature (or any kind of permanent). In general, enchantments just sit on the battlefield like artifacts. Auras are special types of enchantments that do attach to things. They have a type line that says "Enchantment - Aura" and an ability in the text box that says "Enchant [object]," which means that it attaches to objects with the given description.
+Hardened Scales doesn't target, and it doesn't just affect just one creature. As long as it's on the battlefield, any time you would put any number of +1/+1 counters on any creature you control, you also put an extra +1/+1 counter on that creature.
+If you had two copies of Hardened Scales, every time you put +1/+1 counters on one of your creatures, each of the abilities modifies what happens and you add two extra counters.
+

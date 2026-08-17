@@ -1,0 +1,30 @@
+Q:
+
+What happens if you cast a modal spell but choose illegal modes?
+
+For example, Izzet Charm is a spell with three modes, one of which is "counter target noncreature spell unless opponent pays {2}".
+Suppose I cast Grizzly Bears and opponent responds with Izzet Charm attempting to counter the Grizzly Bears. That's illegal, of course. Which of the following is the correct result?
+
+Opponent gets to take back Izzet Charm and untap their lands.
+Opponent must pick one of the other two modes of Izzet Charm (which can legally be cast).
+
+Bonus question: what if opponent went "Izzet Charm to counter your Grizzly Bears, in response do X"?
+I'm assuming the answer varies based on REL, hence tagging with all RELs.
+
+A:
+
+The opponent gets to take back Izzet Charm; see below for untapping lands.
+The important rule here is 601.2 which states (in part):
+
+If a player is unable to comply with the requirements of a step
+listed below while performing that step, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed
+
+The steps listed below are:
+
+601.2a: moving the card to the stack. This succeeds.
+601.2b: making modal choices (and potentially other things). This succeeds, because the player hasn't named a target yet.
+601.2c: Selecting targets. At this point, the player realises they have a problem - but nothing in the rules allows a "partial unwinding" at this point; if the player cannot name a valid target, the casting of the spell is illegal and 601.2 means we unwind to the moment before the casting of the spell, not to step 601.2b.
+
+As for untapping lands: going through the strict sequencing, no lands needed to have been tapped at this point; they would be done in step 601.2g. If the player had tapped lands before they proposed casting the spell, they would not be able to untap them at this point.
+I'm not enough of an expert to say what the penalties would be for this at any REL, other than the usual enforcing anything at regular REL is for exceptional cases only.
+

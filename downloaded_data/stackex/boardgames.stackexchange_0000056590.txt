@@ -1,0 +1,11 @@
+Q:
+
+What's with the "When ~ enters the battlefield, if it’s on the battlefield" text?
+
+Some cards like Necromancy, Animate Dead, and Dance of the Dead have text like "When ~ enters the battlefield, if it’s on the battlefield, do something". What is the purpose of the "if it’s on the battlefield" part of that trigger? It seems like it's there to prevent some form of abuse, but I'm not sure what that abuse would look like.
+
+A:
+
+The "if it's on the battlefield" clause specifically prevents the triggered ability from resolving if the permanent leaves the battlefield while the ability is on the stack. On each of the cards listed, the triggered ability in question also creates a delayed triggered ability that says "When ~ leaves the battlefield, that creature’s controller sacrifices it." If the permanent has already left the battlefield by the time the first triggered ability resolves, that delayed triggered ability will never trigger and you will never be forced to sacrifice the referenced creature.
+So, the abuse that clause is intended to avoid is removing the enchantment in response to the triggered ability so that the creature can be reanimated indefinitely without any of the downsides the enchantment applies.
+

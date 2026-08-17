@@ -1,0 +1,19 @@
+Q:
+
+In Magic, when and why did the rules change to check life totals “continuously” instead of at the end of each phase?
+
+In the old days, the rules of Magic specified that players' life totals were only checked at the end of a phase, or at the beginning or end of combat. The modern rules, however, specify that life totals are checked as a state-based action, every time a player would receive priority.
+This means that by the time somebody's life hits 0, it's too late to play spells or resolve triggered abilities that would save them. The correct play is to take preventative action before the fatal event would occur.
+When did this change take place? Was there any specific reason for it, aside from obvious factors like streamlining and consistency?
+
+A:
+
+Wikipedia suggests this as the reasoning for the 6th edition rules changes:
+
+This brought that loss condition in line with the only other loss
+  condition specified by the rules; a player being forced to draw a card
+  when he has an empty library has always been an immediate loss.
+
+Which is certainly more pleasingly symmetrical.  
+Thinking about the modern approach to Magic design, there are almost certainly other good reasons: like mana burn, it's a corner case that doesn't come up all that often (at least, not often enough for it to be worth having special rules for it); like damage on the stack, it's the sort of thing that might be counterintuitive for the new player ("What do you mean, you killed me after you were already dead? I'm not playing this stupid game...").  In general, weird intricacies of the rules that only "experienced players" are able to exploit are not favoured at Wizards any more!
+

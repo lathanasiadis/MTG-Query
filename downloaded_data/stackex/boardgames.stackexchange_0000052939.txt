@@ -1,0 +1,16 @@
+Q:
+
+Can I remove the targeted creature in response to Lukka, Coppercoat Outcast's -2 ability?
+
+If my opponent casts Lukka, Coppercoat Outcast and uses its -2 ability to target a creature to be exiled, can I destroy the creature in response to the ability to prevent them from revealing cards until they find a creature etc, since the card reads "Exile target creature you control, then reveal cards...".
+So if the creature is destroyed before it can be exiled, the rest of the ability fizzles?
+
+A:
+
+Yes, if the targeted creature becomes an illegal target for any reason before the ability resolves, the ability will not do anything.
+Lukka's -2 is a targeted ability. The legality of its only target is checked again as part of resolving it. If you destroyed the creature, or it became an illegal target for any other reason, the ability will simply leave the stack and no part of the ability will do anything.
+
+Resolving Spells and Abilities
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [..] If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard.
+

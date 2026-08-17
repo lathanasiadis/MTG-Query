@@ -1,0 +1,28 @@
+Q:
+
+Can I sacrifice a treasure for mana not in my commanders colours?
+
+Commander or edh is a format that, amongst other things places restrictions on the colours of the cards you play in the deck. See this faq.
+
+A card's color identity is its colour plus the color of any mana symbols in the card's rules text. A card's color identity is established before the game begins, and cannot be changed by game effects.
+  Cards in a deck may not have any colors in their color identity which are not shared with the Commander of the deck. (The identity of each card in the deck must be a subset of the Commander's)
+
+But if I have a card like flash conscription which has a rider on which colour of mana was used, can I put that into a deck that doesn't have that colour identity, and can I pay for it with something like a treasure token or some other effect that can make any colour mana?
+
+A:
+
+As the rule states:
+
+A card's color identity is its colour plus the color of any mana
+  symbols in the card's rules text.
+
+Flash Conscription's rules text contains a white mana symbol, therefore it it's colour identity is Red/White.
+The only time this does not apply is when that symbol is included in reminder text e.g. Extort like on Crypt Ghast
+it should also be noted:
+
+903.4c The back face of a double-faced card (see rule 711) is included when determining a card's color identity.
+
+so Elbrus, the Binding Blade / Withengar Unbound from is classed as a black card because the back face has the black colour identifier on it's type line.
+Also split cards like those with fuse mechanic or aftermath also take the colour identity from both halves combined.
+As for generating mana outside of your commanders colour identity, this is fine and allowed in commander rules, as of January 2016
+

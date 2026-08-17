@@ -1,0 +1,17 @@
+Q:
+
+Can I cast Dire Fleet Daredevil if my opponent has no instants or sorceries in their graveyard?
+
+I want to cast Dire Fleet Daredevil but my opponent has no instants or sorceries in their graveyard.
+Am I able to cast it?
+The text doesn't read "You may exile target instant or sorcery", but it also doesn't require it as an additional cost.
+
+A:
+
+Yes, you can.
+The enter-the-battlefield ability has nothing to do with casting the creature itself. Creatures are not targeted spells. If they have an enter-the-battlefield trigger, then that ability will trigger after you have cast the creature spell and after it resolves.
+After you cast Dire Fleet Daredevil and it resolves, its enter the battlefield ability will trigger. At this point, you must chose targets for the triggered ability, and if you can't do so, then the ability simply disappears:
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+

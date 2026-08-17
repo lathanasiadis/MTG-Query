@@ -1,0 +1,21 @@
+Q:
+
+Copying an Aura with Mirage Mirror
+
+I know the rules for what happens when an aura that wasn't cast enters the battlefield - that aura's controller chooses something to enchant with it, and this doesn't target that something.
+However, I'm confused as to what would happen if I had, for instance, a Market Festival enchanting my Forest, and then copied that Market Festival with my Mirage Mirror.
+My first thought is that it would instantly fizzle with nothing to enchant since it's not entering the battlefield, and whatever a permanent is enchanting is not a copiable value of an object. Or, am I wrong in that I would get to pick a different land and enchant that with the Mirage Mirror copy? Some clarity would be greatly appreciated!
+
+A:
+
+Your Mirage Mirror will go to your graveyard.
+This is covered in the rulings on Mirage Mirror's Gatherer page:
+
+If Mirage Mirror becomes a copy of an Aura, it’s put into its owner’s graveyard unless it’s somehow attached to an appropriate object or player already. If it becomes a copy of an Equipment and is attached to a creature, it’ll become unattached when it becomes a non-Equipment artifact again.
+
+Which is a natural consequence of the following rule (emphasis mine):
+
+704.5m: If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+In order for the Mirage Mirror to not be moved to the graveyard you would first need to attach it to the land some other way. If you can find a way to attach Mirage Mirror to the land first, and then copy the Market Festival, the Mirage Mirror will stay attached and not go to your graveyard.
+

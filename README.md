@@ -35,23 +35,18 @@ These are fed to the model as sources, so you can inspect them to validate the m
 
 ## Installation
 
-MTG Query uses `langchain`'s DeepSeek integration.
- 
+- MTG Query uses `langchain`'s DeepSeek integration.
 You need to rename `example.env` to `.env` and fill in your API key.
 
-Additionally, you can set up LangSmith tracing if you're curious on what the agent
-is doing behind the scenes by following the instructions in `example.env`.
+- Dependencies are managed with `uv`. After installing it, run `uv sync` to download the dependencies and create the virtual environment.
+
+- You will need to create the embeddings for the MTG rulebook and the stackexchange Q&As.
+Run `uv run embed.py` which will create a Chroma vector store in `.chroma_db`.
+The stack exchange data has been downloaded using [stackexchange-dataset](https://github.com/EleutherAI/stackexchange-dataset/tree/master) frm EleutherAI and adding a filter for MTG tags.
+
+- Lastly, you can set up LangSmith tracing if you're curious on what the agent
+and models are doing behind the scenes by following the instructions in `example.env`.
 (This is optional.)
-
-Dependencies are managed with `uv`. After installing it, run
-
-`uv sync`
-
-to download the dependencies and create the virtual environment. Then, run
-
-`uv run rulequery.py`
-
-to run the actual app.
 
 ## Example
 

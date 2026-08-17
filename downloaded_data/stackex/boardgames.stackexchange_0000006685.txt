@@ -1,0 +1,40 @@
+Q:
+
+What happens when an undying creature takes damage from a creature with deathtouch?
+
+Let's say a 2/2 creature with deathtouch attacks another 2/2 creature with undying.
+As far as I can see there are two ways this could resolve:
+
+Damage is applied, killing creature B. As the damage was enough to kill it deathtouch will not matter. The creature is then put back into play, alive, with a +1/+1 counter.
+Damage is applied, killing creature B. It is then put back into play, but with its previous state, i.e. still having deathtouch applied to it, thus killing it and putting it into the graveyard.
+
+I'd be grateful if someone could clear this up for me.
+
+A:
+
+The undying creature will return and stay.
+Your provided answer options indicate a misunderstanding of what Deathtouch is. Deathtouch merely says:
+
+702.2. Deathtouch
+702.2a Deathtouch is a static ability.
+702.2b Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature's toughness. See rules 510.1c - d.
+
+In other words:
+For normal damage to kill a creature, two conditions have to be true:
+
+The sum of all damage packets on that creature has to be 1 or greater.
+The sum of all damage packets on that creature has to match or exceed its current toughness.
+If both conditions are met, all damage packets are removed from the creature and it is destroyed.
+
+If any of the damage packets comes from a source with Deathtouch, it merely removes the second condition.
+So Deathtouch is not, for example, a triggered ability that would cause another destruction affect on top of lethal damage - there still is only 1 destruction effect.
+Going further, your option 1 is closer to the truth than option 2 - if a creature dies and returns, it returns as a new object and (with few exceptions) all spells, abilities, etc. tracking the creature's previous incarnation will have lost track of its new version. So even if the Deathtouch was an effect using the stack, it would still not destroy the returned creature.
+Edit:
+Thanks to StuartCook, a little correction:
+According to
+
+702.2c A creature with toughness greater than 0 that's been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action. See rule 704.
+
+the Deathtouch rule comes into effect only immediately after Deathtouch damage has been dealt - if a creature has been indestructible or anything similiar at the time the Deathtouch destruction effect was checked for, but loses that ability later the same turn, Deathtouch damage no longer ignores the creature's actual toughness. It's a one-time effect and for the purposes of destruction becomes regular damage if the creature did not die from it.
+It's actually a clever way of keeping the "touch" feel of that ability intact in the rules - once the touch is over (after combat), it no longer kills the target immediately.
+

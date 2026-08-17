@@ -1,0 +1,12 @@
+Q:
+
+Search Gatherer for cards with quotation marks in the flavor text?
+
+A friend recently wondered, and now I’m curious too: is there any way to search Gatherer for cards that have a quotation mark in the flavor text (or in other fields)?
+Putting " in the Flavor Text field seems to just return every card. Using \" to try to escape it just returned no results.
+
+A:
+
+I've tried a couple of other tricks, like percent encoding and a double "", but to no avail.
+Scryfall does support your search: https://scryfall.com/search?as=grid&order=name&q=flavor%3A%22
+

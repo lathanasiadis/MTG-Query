@@ -1,0 +1,26 @@
+Q:
+
+Can a spell fizzle because a cost-reducing effect is removed?
+
+In this scenario, would my Aerial Responder fizzle because the mana cost is higher than I can pay?
+I have a Ballyrush Banneret out on the battlefield, which says "Kithkin spells and Soldier spells you play cost {1} less to play."
+I play Aerial Responder for WW, tapping my only two plains.
+In response to this, my opponent casts Lightning Bolt on Ballyrush Banneret.
+We begin to resolve the stack, and first of all, Lightning Bolt kills Ballyrush Banneret.
+Now Aerial Responder is going to be resolved. Does it still only cost WW, or does it now cost 1WW? Would it fizzle? If instead of only having two plains when I cast Aerial Responder I actually had 3, could I tap the final plains in response to this so that Aerial Responder could be cast?
+
+A:
+
+No, a spell can never fizzle because you're unable to pay the cost.
+Among the steps involved in casting a spell are the following:
+
+you announce that you're casting the spell
+you determine what it costs
+you pay the cost that was previously determined1
+
+These steps (and a few others) occur immediately back to back; your opponent can't do things between them. The whole process of casting a spell is one "block" of actions that can't be interrupted. Once the "block" finishes, the spell is considered paid for. Period. If the spell's cost were somehow to change later, that doesn't matter; all that matters is that you paid the cost that was required at the time you cast the spell.
+Even if you find yourself unable to pay the cost of a spell during the casting of the spell (i.e. at the third bullet point), the spell does not fizzle. Instead, you back the game up to before you started casting the spell in the first place (unless you are using Selvala, Explorer Returned, then you call a judge and watch them cry).
+There are some effects, for example Mana Leak and Frost Titan, which counter a spell unless its caster pays a certain amount of mana (or takes some other action, e.g. Reality Smasher). It's important to note that these do not change the casting cost of the spell, and even if they did, it wouldn't matter because the spell has already been paid for. What Mana Leak does is create an entirely separate cost, which has to be paid at the time that Mana Leak resolves, long after the spell has been cast.
+
+1In rare circumstances the action of paying the cost can change what the cost would be, but it doesn't change the amount you actually have to pay. For example, suppose you wanted to cast a Soldier spell costing {1}{B}{B} that said "As an additional cost to cast [this], sacrifice a creature", and you have Ballyrush Banneret in play. You would first determine the cost you need to pay, which is {B}{B} and sacrificing a creature. That gets "locked in" before you start paying it. So you can safely sacrifice Ballyrush Banneret, and it doesn't mean you have to pay any more mana.
+

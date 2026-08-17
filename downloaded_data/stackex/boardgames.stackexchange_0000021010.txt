@@ -1,0 +1,22 @@
+Q:
+
+When you "sacrifice 3 creatures" as a cost, are they sacrificed one at a time?
+
+If you want to activate the activated ability of Teysa, Orzhov Scion, does "sacrifice 3 creatures" count as 1 cost, or 3 separate costs? And, does it matter which it is at all?  601.2g says The player pays the total cost in any order. Does this mean that the creatures are sacrificed in any order; or are they sacrificed all at the same time, as 1 cost?
+Further, is it any different if they are sacrificed all at the same time, or one after the other? I believe it wouldn't matter, because no triggered abilities would go on the stack until a player is about to receive priority anyway. 603.6d says ...will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. But what is "the event" that it looks prior to? Is each sacrifice of a creature a separate event? If this were the case, then sacrificing Teysa before the other creatures would mean that you don't get the tokens for Teysa's triggered ability. Or, is "the event" the activating of Teysa's ability, in which case the order makes no difference?
+
+A:
+
+When you “sacrifice 3 creatures” as a cost, are they sacrificed one at a time?
+
+No. "Sacrifice 3 creatures" only has one keyword action. This differs from "Sacrifice a creature. Sacrifice a creature. Sacrifice a creature."
+
+When a payment consists of more than one action, those action aren't performed simultaneously as per the rule you quoted ("in any order"). That is practically never relevant. 
+It means that if part of the cost requires that you sacrifice a permanent, and that part of the cost requires that you tap a permanent, you could tap a permanent then sacrifice that same permanent. If all parts of the payment was done simultaneously, I don't think that would be possible.
+In this case, there's only one action ("sacrifice"), so asking about order makes no sense. All three creatures are sacrificed at once since there's only one instruction to sacrifice.
+So yes, for each black and white creature you sacrifice at the same time as Teysa, Teysa's second ability will trigger. Because of 603.6d, all that's relevant is that the Teysa was on the battlefield immediately before the sacrifice, and that the sacrificed creatures were black[1]. This is supported by a ruling on Teysa:
+
+You may sacrifice Teysa itself to help pay for its first ability, but unlike other white and black creatures, it won't cause its second ability to trigger. Any other white and black creatures you sacrifice to pay for the first ability will cause the second ability to trigger.
+
+It doesn't matter that Teysa left the battlefield during, that Teysa isn't on the battlefield afterwards, or that one of the creatures became a colorless artifact card when it got sacrificed.
+

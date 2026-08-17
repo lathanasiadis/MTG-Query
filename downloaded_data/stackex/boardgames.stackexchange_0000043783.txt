@@ -1,0 +1,22 @@
+Q:
+
+Does Curse of Opulence give its controller tokens when someone else attacks?
+
+Let's say player A casts Curse of Opulence on player B. Then, player C attacks player B. I claimed that player A and C each create Gold tokens, but my friends agreed that only player C creates a Gold token. Was I wrong? I think that greatly decreases the value of the Curse.
+
+A:
+
+You are correct, players A and C each create a Gold token.
+The ability "Whenever enchanted player is attacked, create a colorless artifact token named Gold" applies to the player that controls Curse of Opulence, which is player A in this case.
+The other part of the ability, "Each opponent attacking that player does the same" makes it so that player C also gets a token.
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same.
+
+The player who controls Curse of Opulence is also the controller of the triggered ability:
+
+112.8. The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability’s source when it triggered [...]
+
+And the controller of the ability is the one that carries out the instructions, including to create the token:
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+

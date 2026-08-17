@@ -1,0 +1,30 @@
+Q:
+
+What happens when the attacking player dies to damage triggers after killing the blocking creatures in the first combat step of double strike?
+
+We were playing a commander game and the attacking player had a bunch of trample creatures, well call him Andy. The defending player, Bob, blocks with a Zulaport Cutthroat, Cruel Celebrant, Teysa Karlov, and at least 2 other creatures. Normally that would be enough to save him as he was at 37 life but then Andy played Savage Beating choosing to give his army double strike. Andy was at 3 life. So the question is does he die before the regular damage gets to kill Bob or is it too late and they're both dead? 
+
+A:
+
+You have left several crucial details out of your description of the situation, which makes it a bit difficult to analyze.
+Under the assumptions that:
+
+Andy was attacking with more than 5 creatures.
+Andy's creatures that were not blocked, could do a total of 37 damage after the second phase (but less than 37 damage during the first strike phase).
+Andy's creatures killed at least one of Bob's creatures.
+No other shenanigans in play (trample, damage prevention, regeneration, no other first strike etc.).
+
+Then:
+
+First strike damage is assigned.
+One or more of Bob's creatures die.
+Triggers from Bob's creature deaths, due to Zulaport et al. go on the stack in Bob's chosen order.
+After the resolution of each trigger, state-based actions are checked. One of those is whether or not Andy has more than 0 life.
+When a trigger resolves that puts Andy at zero life, he is dead. He leaves the game, along with all permanents that he owns.
+All remaining triggers on the stack that target Andy fizzle, and Bob lives.
+
+For lots of info on exactly how all the edge cases of player death are handled, see this question:
+In MTG, what happens when a player loses in multiplayer?
+For when players actually die, see this question for a full explanation:
+When do you check if you lose
+

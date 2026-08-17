@@ -1,0 +1,13 @@
+Q:
+
+Is a card with devoid colorless on the stack?
+
+A card with devoid is colorless. But is it still colorless when it's a spell? I mean: when is it in the stack, that is, when it is not yet a permanent, and when it has not yet been resolved?
+As an example, I can take a card called Unnatural Aggression (mana cost 2G,so that at first glance it may seem that the spell is green). Is it possible to choose as one of this spell's targets a creature that has "protection from colored spells" among its abilities?    
+
+A:
+
+702.113a Devoid is a characteristic-defining ability. “Devoid” means “This object is colorless.” This ability functions everywhere, even outside the game. See rule 604.3.
+
+'Everywhere' includes the stack, so a creature with protection from green can still be targeted by Unnatural Aggression.
+

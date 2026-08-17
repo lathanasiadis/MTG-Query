@@ -1,0 +1,25 @@
+Q:
+
+Can a single card have multiple activations on a stack?
+
+For further context, it has to do with Ghost Town in my landfall deck. It has the ability "0: Return Ghost Town to owner's hand."
+If I activate it during an opponent's upkeep and they respond by destroying it(such as Field of Ruin), is there a rule preventing me from activating Ghost Town's ability again to keep it on the top of the stack?
+
+A:
+
+Yes, you can do this.
+There is no limit to the number of times you can activate an ability other than being able to pay the cost. It doesn't matter if the other activations are still on the stack or if they have resolved already.
+Some activated abilities have a built-in limit, where they say something like "activate this ability only once each turn". An example is Aggressive Mining.
+
+117.1b A player may activate an activated ability any time they have priority.
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect.
+
+If things do happen as you suggest, then the stack will look like this:
+
+Ghost Town's ability
+Field of Ruin's ability
+Ghost Town's ability
+
+First Ghost Town will resolve and return to your hand. Then Field of Ruin's ability will fizzle and leave the stack without resolving because it has no legal target anymore. The searching for land part will not happen. Finally the original Ghost Town's ability will resolve, but it will not do anything upon resolving because it cannot find the Ghost Town on the battlefield anymore.
+

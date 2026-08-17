@@ -1,0 +1,12 @@
+Q:
+
+Victimize with Noxious Ghoul and opponent's Murder
+
+I play Victimize targeting some creature I have. Victimize resolves and returns Noxious Ghoul and some other creature with an ETB triggered ability to the battlefield at the same time. Both my creatures triggered abilities trigger and I choose to let Noxious Ghoul's triggered ability trigger first. In response to the first triggered ability, my opponent chooses to Murder my Noxious Ghoul. Noxious Ghoul's triggered ability will still be on the stack, but will my other creature trigger Noxious Ghoul's triggered ability giving non-zombie creatures -2/-2 instead of -1/-1?
+
+A:
+
+Creatures entering the battlefield at the same time cause each other's abilities to trigger. Triggering Noxious Ghoul's ability requires either itself or another card of the Zombie creaure type to enter the battlefield - if the other creature isn't a Zombie, only Noxious Ghoul will trigger it's own ability.
+That said, assuming the other creature is a Zombie, both abilities trigger at the same time, along with any other ETB abilities that might trigger. Then, those abilities are put on the stack in APNAP (active player, non-active player) order, and for each player in the order of their choosing. Only at that time can players cast spells or activate abilities.
+Abilities on the stack exist independent from their sources. If Noxious Ghoul's ability triggered twice, destroying a creature on the battlefield won't remove the ability from the stack. Unless it's countered by something like Stifle, both abilities will resolve, giving non-Zombie creatures a total of -2/-2 until end of turn.
+

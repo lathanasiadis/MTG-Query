@@ -1,0 +1,23 @@
+Q:
+
+Bazaar Trader combo and Void Snare - Ownership vs. Control
+
+I use Bazaar Trader and Act of Treason to gain control of a creature my opponent controls.
+If my opponent uses a card such as Void Snare on that creature, does the card go to my hand or my opponents hand?
+
+A:
+
+As you note in your title, there is a difference between ownership and control. 
+
+110.2. A permanent's owner is the same as the owner of the card that represents it (unless it's a token; see rule 110.5a). A permanent's controller is, by default, the player under whose control it entered the battlefield. Every permanent has a controller.
+  110.5a A token is both owned and controlled by the player under whose control it entered the battlefield.
+
+So clearly, we know the owner of the card, and where it goes as a result of void snare.
+But let's say, for some reason, it said controller's hand instead of owner's hand. That's already covered: cards only ever go to their owner's hand.
+
+400.3. If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its owner’s corresponding zone.
+
+As for who the owner is, well that's also defined for us:
+
+108.3. The owner of a card in the game is the player who started the game with it in his or her deck. If a card is brought into the game from outside the game rather than starting in a player's deck, its owner is the player who brought it into the game. If a card starts the game in the command zone, its owner is the player who put it into the command zone to start the game. Legal ownership of a card in the game is irrelevant to the game rules except for the rules for ante.
+

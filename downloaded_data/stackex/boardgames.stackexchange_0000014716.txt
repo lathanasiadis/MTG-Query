@@ -1,0 +1,38 @@
+Q:
+
+Leyline of the Void and exiling stolen permanents
+
+What I love about M:tG is the fact that even after 10+ years of playing you always come up against new situations. This one stumped me earlier tonight though.
+I've gone up against Leyline of the Void a few times over the years, but earlier I had mind controlled the Leyline's owners creature, then sacrificed it for an ability, pretty standard fare.
+He immediately swiped back the card putting it into his graveyard and stated that I don't actually get any benefit for the sacrifice and definitely don't get to exile his creature from the Leyline's ability?
+I said he was wrong based on my understanding of graveyard triggers. I thought that, even though I don't own the permanent, it still triggers graveyard entry, even if it essentially can't exist in my graveyard and goes to the owners. For example sacrificing a token still counts as a creature dying and entering a graveyard, even though they cease to exist after triggering entering the graveyard. So I thought his creature would exile even though he was the owner, I was the controller and anything that goes to my graveyard exiles?
+It was late and we agreed that he was right to move game on, but ironically the 2 judges in our group had gone by then and I think he just wanted to keep the card in his graveyard so he could recur it. So was I wrong to challenge him? Just having and playing a card doesn't mean you know how it plays.
+
+A:
+
+He's right. It goes directly to his graveyard.
+
+Just to be clear, he controls Leyline of the Void, which has the following ability:
+
+If a card would be put into an opponent's graveyard from anywhere, exile it instead.
+
+You control one of his creature, which you somehow sacrifice.
+
+701.14a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. [...]
+
+108.3. The owner of a card in the game is the player who started the game with it in his or her deck. [...]
+
+As part of sacrificing the creature, you place it in his graveyard. The Leyline's replacement effect does not apply since the creature enters his graveyard (being the creature's owner), not the graveyard of one of his opponents.
+
+As for whether you benefit from the sacrifice, the answer isn't clear, since it's not clear what you mean by that.
+
+If sacrifice is part of the cost of activating an ability: The ability resolves as normal, no matter where the creature ends up. As the person who activated the ability, you control it.
+
+If the creature has an ability that triggers on leaving the battlefield, it would trigger with you as the controller of the ability. (LTB abilities look at the state of the game before the event happen.)
+
+If another one of your permanents has an ability that triggers whenever you sacrifice a creature, it triggers no matter where the creature ends up. The sacrifice action still take places even if the effect of sacrifice is modified by a replacement effect.
+
+If another one of your permanents has an ability that triggers whenever a creature enters your graveyard, it will not trigger since the creature moved from the battlefield to his graveyard.
+
+If the creature has an ability that triggers when it enters a graveyard, it will trigger with your opponent as the controller since it went to his graveyard.
+

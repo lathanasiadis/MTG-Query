@@ -1,0 +1,23 @@
+Q:
+
+If Akroan Horse is put into play attacking, does it get removed from combat by its own ability?
+
+I came across this interaction when thinking about a horse tribal.
+Shadowfax, Lord of Horses has this ability:
+
+Whenever Shadowfax, Lord of Horses attacks, you may put a creature card with lesser power from your hand onto the battlefield, tapped and attacking.
+
+Akroan Horse has this ability:
+
+When Akroan Horse enters the battlefield, an opponent gains control of it.
+
+How do these two abilities interact? In a two player game, it seems that Akroan Horse would be an attacking creature, but also that the defending player would have control over it. Is there a rule which removes it from combat when its controller changes?
+
+A:
+
+Yes, there is a rule that removed creatures from combat when its controller changes.
+
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, if it’s a battle that’s being attacked and stops being a battle, or if it’s an attacking or blocking creature that regenerates (see rule 701.15), stops being a creature, or becomes a battle. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker or battle that’s removed from combat stops being attacked
+
+Emphasis mine
+

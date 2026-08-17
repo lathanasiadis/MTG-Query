@@ -1,0 +1,18 @@
+Q:
+
+Do "enter the battlefield" abilities trigger heroic? Do creatures that leave and reenter the battlefield trigger again?
+
+So, here's the play:
+Player 1 has Staunch-Hearted Warrior on the field. They play Living Totem and target the warrior, giving the warrior a +1/1 counter.
+Question 1: Would Living Totem's ability trigger Staunch-Hearted Warrior's heroic ability?
+Back to the game now. Next turn, player 1 plays Invasive Species and returns Living Totem to their hand. On the following turn, they play Living Totem back onto the battlefield.
+Would Living Totem's ability trigger again?
+
+A:
+
+Question 1: No.
+Creature spells (such as Living Totem) don't target. When you cast Living Totem, you do not pick any targets. Once it eventually resolves, it's ability triggers and you choose targets when you place it on the stack. But placing an ability on the stack is not casting a spell, so it doesn't trigger Staunch-Hearted Warrior's ability.
+Aura spells, on the other hand, always target. Casting Messenger's Speed targeting Staunch-Hearted Warrior would trigger the latter's ability.
+Question 2: Yes.
+Living Totem was in your hand (not on the battlefield) one moment and on the battlefield the next, so it entered the battlefield. As such, it's ETB ability triggered.
+

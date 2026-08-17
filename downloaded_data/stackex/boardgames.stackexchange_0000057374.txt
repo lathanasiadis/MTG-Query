@@ -1,0 +1,20 @@
+Q:
+
+When exactly do I get to return my Commander to the Command Zone after it goes to the Graveyard?
+
+If my Commander on the field dies, and I send it to the Graveyard, its death becomes a state-based action. My question is, since a Commander has the chance to be returned to the Command Zone from the Graveyard or exile since the last time state-based actions were checked (its death), can I do something that does not involve a stated based action, such as tapping two of my lands to gain mana to activate a creature's ability, and then return my Commander to the Command Zone (after the creature's ability resolves)?
+
+A:
+
+You have a single opportunity to move the commander to the command zone, immediately after it moves to the graveyard. You can't take any actions before making the choice.
+The specific rule for moving the commander from the graveyard to the command zone is rule 903.9a:
+
+If a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+Since this is a state-based action, you have exactly one opportunity to make this choice, the next time state-based actions are checked after it moves to the graveyard.
+It's important to note that rule 704.3 says, in part,
+
+Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated...
+
+So, if the commander dies as a result of state-based actions, state-based actions are immediately checked again, and you immediately get the choice of whether to move the commander to the command zone. If the commander instead dies during the resolution of a spell or ability, you make the choice as state-based actions are checked immediately after the spell finishes resolving.
+

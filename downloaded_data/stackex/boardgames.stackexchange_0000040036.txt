@@ -1,0 +1,46 @@
+Q:
+
+What decides whether a card is exiled or returned as a player loses?
+
+I came across this problem when writing this answer, and it's not addressed in this question, so I am left wondering here.
+In the Comprehensive rules, 800.4a there are a few examples of what happens as a player leaves the game to permanents he / she controls but doesn't own. I am specifically interested in examples 2 and 3:
+
+Example: Alex casts Act of Treason, which reads, in part, “Gain control of target creature until end of turn,” targeting Bianca’s Runeclaw Bears. If Alex leaves the game, Act of Treason’s change-of-control effect ends and Runeclaw Bears reverts to Bianca’s control.
+Example: Alex casts Bribery, which reads, “Search target opponent’s library for a creature card and put that card onto the battlefield under your control. Then that player shuffles his or her library,” targeting Bianca. Alex puts Serra Angel onto the battlefield from Bianca’s library. If Bianca leaves the game, Serra Angel also leaves the game. If, instead, Alex leaves the game, Serra Angel is exiled.
+
+So, clearly, we have two effects, both giving Alex control over creatures owned by Bianca. Then Alex loses, and the result is that Bianca gains control over the bears, while the angel is exiled. Clearly something is different between these two ways of gaining control over a creature.
+Up until now I had thought that a permanent only tracks two players: its owner, and its controller. However, if this were the case, then both creatures would be creatures owned by Bianca, controlled by Alex, and they would both end up the same place after Alex loses. Clearly, this is not the case.
+There are two differences between how these two permanents have come under Alex' control. The angel has been put directly into play by an effect owned by him, with permanent control, while the bears has been put into play by Bianca, and then Alex has taken control untilthe end of turn. So there are two differences that I can see:
+
+The angel is subject to a permanent change of controller, while the bears are only temporarily under Alex' control
+The angel was put into play by an effect controlled by Alex, while the bears were put into play by an effect controlled by Bianca
+
+Both of these would require a permanent to not only remember who controls it and who owns it, but in addition either who put it into play or whether the control is temporary. Regardless of which one it is it goes against how I thought the game worked.
+Which one is it? And why isn't it the other one?
+
+A:
+
+There is a subtle difference between your two examples:
+
+The Act of Treason'd Runeclaw Bear is under Alex's control because of a control changing continuous effect.
+The Serra Angel is put into play under Alex's Control.
+
+This is a subtle but important difference. Whenever a creature enters the battlefield, whoever controls it at the time is considered to be its controller. Usually this means that the person who owns the creature is also the controller but because of cards like Bribery that isn't always true. This is covered in the comprehensive rules:
+
+110.2.: A permanent’s owner is the same as the owner of the card that represents it (unless it’s a token; see rule 110.5a). A permanent’s controller is, by default, the player under whose control it entered the battlefield. Every permanent has a controller.
+110.2a: If an effect instructs a player to put an object onto the battlefield, that object enters the battlefield under that player’s control unless the effect states otherwise.
+
+This is different from an effect such as Act of Treason that causes a creature to change controllers. These effects are called continuous effects and are treated a bit differently.
+
+611.1.: A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+
+So to bring this together lets have a look at what happens when a player loses the game:
+
+800.4a: When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game.
+
+So in your first example you can see that the Runeclaw Bear is under Alex's control because of a effect which gave him control. When Alex leaves the game this effect ends, so the Bears revert to Binaca's control.
+In your second example Serra Angel doesn't have any control changing effects applied to it, so those effects can not end (they never started). Instead it is just treated as any other permanent that is controlled by Alex and is removed from the game.
+
+Additional Notes: One thing I figure I should mention is that not all control changing continuous effects are temporary like Act of Treason. Cards like Beguiler of Wills will give you permanent control of the creature, but will still be treated the same as Act of Treason when the player leaves the game.
+Secondly, you are correct in that the game only knows the controller and owner of permanents. That is why in your second example Alex loses the Serra Angel when Bianca leaves the game, she owns the card so it will leave the game with her.
+

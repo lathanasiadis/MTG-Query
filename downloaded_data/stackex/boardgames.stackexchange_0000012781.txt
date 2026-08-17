@@ -1,0 +1,23 @@
+Q:
+
+Diplomatic Immunity, card's self abilities and equipments
+
+I have card Diplomatic Immunity (from Mercadian Masques)
+
+It says that both the enchantment itself and the creature enchanted can't be target of spells or abilities (called shroud now, it seems).
+
+If I enchant a creature that have, for e.g., R: Gets +1/+0 until end of turn, will this card block the creature's self-ability also?
+Considering any Equipment (which have a cost for equipping on something), does that card block the equip also? If yes, if I equip first then enchant, will the equipment be removed or will it stay shrouded also?
+
+A:
+
+Target is a special word in Magic; if a spell or ability targets, it will say "target" in the rules text. The only time it doesn't is if it's hidden away inside a keyword - in which case the reminder text for the keyword (if present) will say "target". (Or I suppose a card subtype - Auras target.)
+In the first case, the creature doesn't target itself, so that's fine, the ability still works.
+In the second case, the Equip ability does target, as you can see from its reminder text, for example:
+
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+
+It says target, so you can't equip your creature. But it only targets as you're activating the ability, so if the equipment is already attached to the creature when you enchant it with Diplomatic Immunity, it'll stay there. You might be interested in this rules summary for Equipment, which in fact mentions these very things:
+
+The equip ability can't target a Gigapede, because it can't be the target of spells and abilities. There's no real way around this, even though being untargetable wouldn't cause the equipment to fall off. If the Warhammer is equipping a Glimmering Angel, making the Angel untargetable won't make the Warhammer fall off.
+

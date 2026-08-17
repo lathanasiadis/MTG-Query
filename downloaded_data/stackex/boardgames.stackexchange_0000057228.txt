@@ -1,0 +1,17 @@
+Q:
+
+What counts as "sacrifice" in Magic: the Gathering?
+
+Do sacrifices still take effect if the cause of death is from something else like from opponent's creatures/spells, or can only I trigger it?
+
+A:
+
+A permanent is sacrificed only when a spell, ability or other rule explicitly calls for it to be sacrificed. Anything else which causes the permanent to be destroyed, including having damage marked on it greater than its toughness, does not count as having been sacrificed.
+Consider the situation in which you control a Mayhem Devil. Then:
+
+A 1/1 creature you control is blocked in combat by a 2/2 creature and the game proceeds to the combat damage step. Your creature has 2 damage marked on it and is then destroyed the next time state-based actions are checked. Mayhem Devil's effect is not triggered because the creature was not sacrificed.
+An opponent casts Murder on your 1/1 creature. Mayhem Devil's effect is not triggered because the creature was destroyed, not sacrificed.
+You cast Murder on your 1/1 creature (possibly an odd thing to do, but a valid game action).  Mayhem Devil's effect is not triggered because the creature was destroyed, not sacrificed.
+You cast Neoform and as part of the casting cost choose to sacrifice your 1/1 creature. Mayhem Devil's effect is triggered because Neoform says to sacrifice the creature.
+An opponent casts Cruel Edict targeting you, and you choose to sacrifice your 1/1 creature. Mayhem Devil's effect is triggered because Cruel Edict says to sacrifice the creature.
+

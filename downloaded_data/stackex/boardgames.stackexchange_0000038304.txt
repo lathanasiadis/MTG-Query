@@ -1,0 +1,11 @@
+Q:
+
+Casting Fling on a Creature Token
+
+Can I deal damage to opponent if I cast Fling on a Creature token?
+I was playing on MTGO, and when I cast Fling the creature was sacrificed but no damage was dealt to the opponent. I just wanted to make sure it wasn't a miss click, or that sacrificing tokens doesn't work with Fling.
+
+A:
+
+Yes, you can sacrifice a creature token to cast Fling, and it will work as you would expect. Fling just cares that you sacrifice a creature; it doesn't matter whether it's a card or a token. And Fling's effect just checks the creature's power, which works exactly the same way with a card or a token.
+

@@ -1,0 +1,32 @@
+Q:
+
+Is Loyal Cathar's ability a "delayed triggered ability"?
+
+Loyal Cathar - When Loyal Cathar dies, return it to the battlefield transformed under your control at the beginning of the next end step.
+
+Question reposted from user Zacula:
+
+I believe that Cathar's ability is not a delayed ability that triggers at End of turn. The ability reads: "When Loyal Cathar dies, return it to the battlefield transformed under your control at the beginning of the next end step." It is triggered upon Loyal Cathar's death! it doesn't say: "If Loyal Cathar dies, at the beginning of the next end step return it... blah... blah... blah...
+
+From the rulings, a triggered ability begins with the words "at", "when", "whenever". Loyal Cathar's aility triggers upon its death, so it is up to the controller of the two triggered abilities (Undying, and cathar's) to place them on the stack any way he/she wishes to. He will of course prefer the Undying to resolve first, hence the result will be the same as everybody else answered to this question.
+My question is: am I right regarding the Cathar's ability not being a delayed triggered ability that triggers at the End step?"
+
+A:
+
+You are partially right. Loyal Cathar's ability is actually a triggered ability that creates a delayed triggered ability.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and begin with the word “when,” “whenever,” or “at.” They can also be expressed as “[When/Whenever/At] [trigger event], [effect].”
+Loyal Cathar's ability can be parsed as follows [When][Trigger Condition], [effect]:
+
+[Loyal Cathar dies], - is the Trigger Condition.
+[return it to the battlefield transformed under your control at the beginning of the next end step] - is the effect.
+
+The effect of the triggered ability sets up a delayed triggered ability that triggers at the the beginning of the next end step (see example below).
+
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it. (Note that if that object left that zone and then returned, it’s a new object and thus won’t be affected. See rule 400.7.)
+Example: An ability that reads “Exile this creature at the beginning of the next end
+step” will exile the permanent even if it’s no longer a creature during the next end step.
+However, it won’t do anything if the permanent left the battlefield before then.
+
+The original question that spawned your question still has the correct checkmarked answer. Loyal Cathar's ability will fail to find the card in the graveyard, because Undying Evil already returned it to the battlefield. So, when the delayed triggered ability resolves at the beginning of the end of turn, it will fail to do anything. If Loyal Cathar dies again before the beginning of the end of turn, the original delayed triggered ability will still fail to do anything, because the Undying Evil returned Loyal Cathar is a new object.
+

@@ -1,0 +1,20 @@
+Q:
+
+Is untapping my permanents during the untap step optional?
+
+I was reading the untap step rule and got confused a bit. It says:
+
+502.2. Second, the active player determines which permanents he or she controls will untap. Then he or she untaps them all simultaneously.
+  This turn-based action doesn't use the stack. Normally, all of a
+  player's permanents untap, but effects can keep one or more of a
+  player's permanents from untapping.
+
+If "a player determines", can I determine not to untap all my permanents?
+
+A:
+
+You do not get to choose whether or not to keep a permanent tapped during the Untap Step of the Beginning Phase unless a specific card's ability provides that choice. For example, Rubinia Soulsinger lets you choose not to untap her during your untap step. Notice that the clause "your untap step." is important, Rubinia Soulsinger must still be untapped if an opponent plays a Pestermite you must untap Rubinia Soulsinger and relinquish control of whatever creature you stole.
+The word "determine" in this context does not mean choose, it means to evaluate whether or not there are any abilities preventing a permanent from untapping, and evaluating the decision to untap should an ability provide that choice. As the rule states:
+
+Normally, all of a player's permanents untap.
+

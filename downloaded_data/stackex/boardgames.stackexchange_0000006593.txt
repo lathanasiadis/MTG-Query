@@ -1,0 +1,17 @@
+Q:
+
+If I cast Flicker on an unearthed creature, does it remain exiled?
+
+The rules for the Unearth ability are as follows:
+
+702.82a Unearth is an activated ability that functions while the card with unearth is in a graveyard. Unearth [cost] means [Cost]: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate this ability only any time you could cast a sorcery.
+
+If I unearth a creature, and then cast Flicker to exile and return it, does the replacement effect cause Flicker to lose track of it, or is Flicker still able to see the exiled card and return it to the battlefield?
+(Are there similar combinations of spells or abilities that would result in a different outcome?)
+
+A:
+
+"If it would leave the battlefield, exile it instead of putting it anywhere else." means that if the creature would leave the battlefield for some zone other than exile (because exile doesn't fit the condition of "anywhere else"), it's exiled instead. Therefore unearth replacement effect doesn't apply here. Obviously flicker won't lose track of the creature and will return it to the battlefield just fine.
+But even if the unearth replacement effect could apply, the creature would still return. Replacement effects modify other actions, they don't do anything by themselves. It's still flicker who is exiling the card even if we could apply unearth replacement effect, therefore it can track the card because of rule 400.7g. Rule 400.7g doesn't actually apply here, because it refers to cards that changed zones while the card/ability was being played/activated. Flicker finds the card because it doesn't need to know that it was the same card that was on the battlefield. It just knows that there is a card in exile that is going to be put on the battlefield.
+Note: I'll edit this and quote the rule to support that replacement effects don't do anything by themselves when I get home, right now I can't access the rules (I couldn't find a rule talking specifically about this, but there is an official ruling here that talks about the same thing)
+

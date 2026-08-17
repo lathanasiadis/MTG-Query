@@ -1,0 +1,32 @@
+Q:
+
+Is it possible for a Creature permanent to become a non-Creature permanent without losing its abliities?
+
+The Oath of the Gatewatch release notes say the following in the section about Stone Haven Outfitter:
+
+In this context, “equipped creatures you control” and “equipped creature you control” refer to any creatures you control with Equipment attached to them. In the highly unusual case that Stone Haven Outfitter becomes an Equipment, the meaning of its abilities doesn’t change. The bonuses continue to refer to any equipped creature you control. They aren’t bonuses applied solely to the creature Stone Haven Outfitter is attached to.
+
+I am trying to determine whether the highlighted case is at all possible. I know that I can turn non-Creature, non-Equipment Artifacts into Equipments with Bludgeon Brawl, and that I can turn non-Artifact permanents into Artifacts with cards like Mycosynth Lattice. So, for that highlighted case to be relevant, the only requirement is for Stone Haven Outfitters to become a non-Creature permanent. Is there any way to do that with currently existing cards?
+Alternatively, is there any way for a non-Creature permanent to gain Stone Haven Outfitter's abilities?
+
+A:
+
+I think this is the highly unusual case they talk about:
+Have Bludgeon Brawl, Dominating Licid (or any other Licid) and Stone Haven Outfitter on the battlefield.
+So far every permanent is just as they are printed.
+Activate the Licid targeting a creature. Respond by casting Mirrorweave on the Outfitter.
+When Mirrorweave is resolved the Licid is an exact copy of a printed Outfitter. So it loses the "You control enchanted creature." ability too here.
+When the Licid's activated ability is resolved it becomes an Enchantment - Aura and stops being a creature and it becomes attached to the creature. It still has all abilities of the Outfitter.
+Cast Mycosynth Lattice.
+The Licid becomes an Artifact in addition to it other types. Bludgeon Brawl therefore makes it an Equipment with Equip 2 and "Equipped creature gets +2/+0", based on it having CMC 2 from being a copy of Outfitter. It retains its other abilities.
+The Licid is now considered as both equipping as enchanting the creature it's attached to because all that matters for being equipped/enchanted is that it is attached and is an Equipment/Aura.
+The enchanted/equipped creature will have +2/+0 because of the Brawl and +1/+1 for each Outfitter you control.
+The Licid's typeline and textbox will be:
+
+Enchantment Artifact - Aura Equipment
+Enchant creature
+Equip 2
+Equipped creature gets +2/+0.
+Equipped creatures you control get +1/+1.
+Whenever an equipped creature you control dies, draw a card.
+

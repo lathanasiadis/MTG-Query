@@ -1,0 +1,12 @@
+Q:
+
+Can an enchantment creature with hexproof be targeted by destroy target enchantment card?
+
+Can an enchantment creature with hexproof be targeted by a spell that destroys enchantments. For example, can Archetype of Endurance be targeted by Naturalize?
+
+A:
+
+No. Hexproof prevents something from being targeted by opponents' spells and abilities — that's pretty final. You can't target Archetype of Endurance with Naturalize because you can't target it at all; there's nothing special about enchantment removal.
+(If you're thinking hexproof is a creature thing, and we're getting around it by targeting their enchantment-enss instead of their creature-ness, that's not how things work in M:tG. Note also that anything can have hexproof: enchantments, players, or even every permanent you control.)
+You get around this by doing things that don't target the creature: Dead Drop, Toxic Deluge, Settle the Wreckage, are examples of the kinds of non-targeting effects you'd use, or a plain old Wrath of God effect. Or kill it in combat.
+

@@ -1,0 +1,20 @@
+Q:
+
+RAW v. RAI concerning enumerated card names
+
+Let’s say I have 2 Elvish Visionaries on the battlefield. I resolve a third EV with the other two alive.
+The two other EVs have the card text, “When Elvish Visionary ETB, draw a card”.
+Will the third EV draw me 3 cards because the other elves see an Elvish visionary ETB, or will I get one trigger because only one is entering. 
+My question is, should it resolve with RAW, and get 3 triggers or RAI with it behaving like “When this creature . . . “? (I use RAI lightly, not actually knowing the intentions)
+I ask because with the new Bolas, I don’t know how that interaction will work with cards like “Jace, Cunning Castaway” and “Dovin, Grand Arbiter”. Both cards enumerate their respective names, but people are piecing combos together with Bolas being able to copy other loyalty abilities.
+RAW: Rules As Written
+RAI: Rules As Intended
+
+A:
+
+You draw a single card under both RAW and RAI.
+This is covered by rule 201.4
+
+201.4: Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless
+  of any name changes caused by game effects.
+

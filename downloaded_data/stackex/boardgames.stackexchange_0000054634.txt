@@ -1,0 +1,36 @@
+Q:
+
+How many Corridor Monitors can I make with Blade Of Selves and Strionic Resonator?
+
+I have Corridor Monitor attached with Blade of Selves. As well as this I have Strionic Resonator, and a load of spare mana. I have a way to give my creatures exalted (Sublime Archangel) or at least trigger Exalted, for later on.
+When I attack with Corridor Monitor, and copy it with Blade Of Selves it creates two new copies of Corridor Monitor. I'm confident I can order the triggers on the stack so I can use the Strionic Resonator to copy the exalted trigger for each new Corridor Monitor (exalted trigger goes on first, then the Blade of Selves, as the top of the stack resolves more exalted triggered abilities get added by copying them). As they enter the battlefield each Corridor Monitor can untap the Strionic Resonator.
+However, instead can I use Strionic Resonator to copy the Blade of Selves trigger and make more Corridor Monitors (copying the Blade of Selves triggered ability), to then repeat the effect of creating token versions of Corridor Monitor over and over. One I have enough finally using the last generation of Corridor Monitor copies to untap Strionic Resonator each one then copying the exalted trigger ? Or do I not end up with enough copies of the Corridor Monitor to then retap Strionic Resonator?
+Otherwise is there some tweak to make this possible without changing the main game pieces?
+
+A:
+
+If I understand the situation correctly you want to do this in a game with at least 2 opponents:
+
+Attack with Corridor Monitor(CM) equipped with Blade of Selves, one copy of Myriad triggers and at least two instances of Exalted(CM, Sublime Archangel) trigger. Put Myriad on the stack last, so the token copies would enter first.
+Use Strionic Resonator(SR) to copy the Myriad effect, the stack is now: Myriad, Myriad, Exalted, Exalted...
+Resolve the top Myriad, creating (N-1) copies of CM, where N is the number of opponents.
+Target SR with all copies of the CM trigger. Stack is now: CM, [CM...], Myriad, Exalted, Exalted...
+Resolve first CM trigger, untapping SR.
+Use SR to copy the myriad trigger. Stack is now: Myriad, [CM...], Myriad, Exalted, Exalted...
+Repeat from step 2...
+
+Yes, this will work, it's similar to Kiki-Jiki, Mirror Breaker/Splinter Twin combos that have been played for some time, though it has more moving parts (2 cards minimum vs 3 minimum, 4 to guarantee infinite) and requires less colors (need to be in at least Izzet vs this in mono blue). The Kiki-Jiki and Splinter twin combos also let you attack all opponents with infinite token copies, letting you protect the original creatures by not attacking, this combo protects the one that you attacked first and risks your CM.
+A possible addition to this combo would be Sol Ring, Everflowing Chalice, mana vault, etc. any artifact that can create at least 2 mana. This would, in a 4 player game (1 CR targets the Resonator, the other targets the mana source), guarantee that you have enough mana to continue the combo. It will then take 5 opponents (and a 3+ mana rock) to enable to you copy the exalted triggers also indefinitely, but this won't usually be much of a benefit, "infinite" small attackers are much more effective than one "infinitely" large attacker. This combo should be able to kill all opponents except for the one who you attacked originally.
+
+To explain the mana rock addition (4 player game):
+
+Attack with CM, putting Myriad on stack.
+Tap mana rock(MR) to generate at least 2 mana, use that mana to pay for SR and copy Myriad. No mana floating, Stack is now: Myriad, Myriad, Exalted, Exalted...
+Top Myriad resolves, 2 new CM enter the battlefield, one targets SR, the other targets MR, order on stack does not really matter, but is CM, [CM...], Myriad, Exalted, Exalted... With 2/3 mana floating.
+CM resolves untapping MR.
+CM resolves untapping SR
+Return to step 2.
+
+The reason combos like this are usually run off Kiki-Jiki or Splinter Twin is because they cost no mana to use, they just need Deceiver Exarch, Sky Hussar or Intruder Alarm to untap the enabler for free. It is mana neutral.
+Most infinite combos need to be mana neutral or mana creating. Without some kind of infinite mana source, a combo like this that has a mana cost to repeat would only be able to go off a dozen or less times in most decks (that's 24 mana), powerful but not immediately game winning. By adding a 2 mana rock into the combo the combo becomes mana neutral, with a 3+ mana rock it becomes mana generating, either makes it as truly infinite as the rules allow.
+

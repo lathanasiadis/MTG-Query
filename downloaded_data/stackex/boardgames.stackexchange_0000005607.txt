@@ -1,0 +1,32 @@
+Q:
+
+In Magic, when Magus of the Unseen returns an untapped artifact to its original controller, is there a delay before it becomes tapped?
+
+Suppose I have a Magus of the Unseen and some other creature or artifact, and my opponent has a Glare of Subdual and a tapped Yotian Soldier.
+
+Magus of the Unseen (1U)
+  Creature — Human Wizard
+  1/1
+1U, T: Untap target artifact an opponent controls and gain control of it until end of turn. It gains haste until end of turn. When you lose control of the artifact, tap it.
+
+I use the Magus to untap and steal the Soldier during my turn. During my cleanup step, the effect wears off and my opponent gets the Soldier back. Is there time for him to activate the Glare by tapping the Soldier, before the Soldier becomes tapped and before his next untap step?
+My interpretation is that there is, because the tap is triggered by the return of control. This means that players get priority before it resolves, during the cleanup step. Is this correct?
+
+A:
+
+Your interpretation is correct. The Comprehensive Rules:
+
+514. Cleanup Step
+514.2. Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all "until end of turn" and "this turn" effects end. This turn-based action doesn't use the stack.
+
+During the Cleanup Step, you lose control of the artifact. This doesn't use the stack so can't be responded to. 
+
+514.3. Normally, no player receives priority during the cleanup step, so no spells can be cast and no abilities can be activated. However, this rule is subject to the following exception:
+
+Normally, the new controller of the artifact wouldn't be able to activate its ability. But, because there is a triggered ability waiting to be put on the stack (When you lose control of the artifact…)
+
+514.3a At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger "at the beginning of the next cleanup step"). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
+
+So the "Tap it." is on the stack, and can be responded to. The change of control didn't use the stack and has already happened. Your opponent can use the glare when they have priority.
+It's a bit odd that if this triggered ability wasn't there, your controller wouldn't be able to tap it during your turn, but that's the way it works. Note that because of the Summoning Sickness rule, your opponent wouldn't be able to use the tap effect of any artifact you gained control of unless it had haste. But the Glare cares not for Summoning Sickness.
+

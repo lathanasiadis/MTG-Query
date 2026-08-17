@@ -1,0 +1,22 @@
+Q:
+
+Thawing Glaciers return to hand interaction
+
+I have a Thawing Glaciers, a Thespian's Stage, and  Deserted Temple on the battlefield in addition to four other mana producing lands. In the previous turn I tapped Thespian's Stage to make it a copy of Thawing Glaciers.
+I tap the Thespian's Stage (Thawing Glaciers Copy) to search my library for a basic land.
+I then use Deserted Temple to untap Thespian's Stage
+Finally, I use Thespian Stage's copy ability to copy the basic land that just entered the battlefield.
+When I end my turn and enter the cleanup step, the text from Thawing Glacier's ability attempts to take effect, "Return Thawing Glaciers to its owner's hand at the beginning of the next cleanup step"
+Does my Thespian's stage get returned to my hand, or does nothing happen because the card that activated the ability is no longer a Thawing Glaciers?
+
+A:
+
+Thespian's Stage will return to your hand.
+It doesn't matter that it became a copy of a different land. The effect "Return Thawing Glaciers to its owner's hand at the beginning of the next cleanup step." is still around. The "Thawing Glaciers" wording in that text only means "this permanent", it doesn't matter that it isn't actually named Thawing Glaciers.
+
+706.11. If an effect refers to a permanent by name, the effect still tracks that permanent even if it changes names or becomes a copy of something else.
+
+and
+
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+

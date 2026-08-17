@@ -1,0 +1,12 @@
+Q:
+
+Does Multani, Yavimaya's Avatar die to Fall of the Thran?
+
+With a Multani, Yavimaya's Avatar in play, a Fall of the Thran resolves. Is there a span of time between when lands are destroyed and lands exist in the graveyard where no lands exist? If not, what mechanism keeps Multani from being 0/0?
+
+A:
+
+Multani does not die to Fall of the Thran, or any other mass land destruction effect, for two different reasons.
+First, there is no such thing as being "between zones". When lands get destroyed, they go directly from the battlefield to the graveyard. So, there is never a time when Multani is a 0/0.
+Second, dying due to having 0 toughness is a state based action, and those are never checked in the middle of a spell or ability resolving. So even if a similar effect caused Multani to briefly be a 0/0 in the middle of resolution, Multani would stay alive if it has more than 0 toughness after the effect is done resolving.
+

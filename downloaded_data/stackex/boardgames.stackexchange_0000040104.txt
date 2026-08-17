@@ -1,0 +1,30 @@
+Q:
+
+Can I activate ninjutsu between first strike and normal damage steps
+
+Say I control a creature with first strike, that does not get blocked when attacks are declared.
+Can I have it deal the first strike damage before activating/resolving the keyword ability ninjutsu on a ninja card in hand?
+
+A:
+
+The comprehensive rules say about ninjutsu that, among other things,
+
+702.48c A ninjutsu ability may be activated only while a creature on the battlefield is unblocked
+  (see rule 509.1h). The creature with ninjutsu is put onto the battlefield unblocked. It will be
+  attacking the same player or planeswalker as the creature that was returned to its owner’s hand.
+
+Since it's referencing 509.1h, which happens to be in the section on the declare blockers step, let's see what that rule says:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a
+  blocked creature; one with no creatures declared as blockers for it becomes an unblocked
+  creature. This remains unchanged until the creature is removed from combat, an effect says that
+  it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature
+  remains blocked even if all the creatures blocking it are removed from combat.
+
+So yes, a creature which is attacking and unblocked stays that way until combat is over (which includes a step after all damage is dealt but before your second main phase), unless something happens to it. Note that it is only an unblocked creature once blockers have been declared. You can even ninjutsu out your ninja after regular combat damage has been dealt. Or, as you say you want to do, after your attacking, unblocked creature has dealt its first strike damage, but before regular combat damage is dealt, for an effective "double strike".
+
+There is a funny subtlety here, though. If you, for some reason, have a ninjutsu creature with first strike on your hand, and there are no creatures with first strike in combat, and you want to ninjutsu out your creature so that no damage is dealt to the defending player neither by your attacking unblocked creature nor by your ninjutsu creature, then that cannot be done. That's because if there are no creatures with first strike or double strike in combat as the declare blockers step ends, then there is no first strike damage step. So either you ninjitsu out your creature after blockers are declared, and you get a first strike step, or you wait, which means the game goes straight to the regular damage step, where the unblocked attacking creature deals its damage.
+And even if there is a creature with first strike in combat (say one of your other creatures that got blocked), so you do get a first strike step, it wouldn't help, as who deals damage in the second damage step actually doesn't really care whether creatures have first strike. In that step, damage is dealt by creatures that have double strike, as well as creatures that didn't deal damage in the previous step. So if you ninjutsu after first strike damage is dealt, then your ninjutsu creature with first strike deals regular combat damage.
+There are more important applications of this subtlety, though, and what I suspect is the reason behind why the regular damage step doesn't care about first strike directly: giving first strike to an opponent's creature with the right timing doesn't prevent it from dealing its combat damage. Similarly, there are a few instances where a creature could lose first strike. But no matter how you try to time it,  that would not give it an opportunity to double strike.
+Back to your situation, it would also mean you would get to deal damage with both creatures even if the ninjutsu creature had first strike. I can't find any such creatures in Gatherer, but an effect like "creatures you control have first strike", of which there are several, would actually make this situation happen.
+

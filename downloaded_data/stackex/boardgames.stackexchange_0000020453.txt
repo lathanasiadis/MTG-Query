@@ -1,0 +1,26 @@
+Q:
+
+If Anger of the Gods kills a creature, does it still trigger death effects?
+
+Let's say I control Athreos, God of Passage and my opponent casts an Anger of the Gods. I'm fairly sure any creatures I own that die this turn are just exiled without Athreos' ability triggering, but I can't bring to mind a concrete explanation of exactly why that's the case.
+Can anyone explain how abilities that trigger when a creature dies interact with effects along the lines of "If X would die this turn, do Y with it instead"?
+
+A:
+
+The creature never died, so the ability doesn't trigger.
+
+Anger of the Gods creates a replacement effect.
+
+614.1. Some continuous effects are replacement effects. [...] Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. [...]
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+So the creatures never went to the graveyard.
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+
+So the creatures never died.
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+If you have an ability that triggered on a creature being exiled, that ability would trigger.
+

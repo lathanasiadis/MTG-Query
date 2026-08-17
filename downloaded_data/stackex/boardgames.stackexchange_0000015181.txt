@@ -1,0 +1,17 @@
+Q:
+
+Do Gild's Gold tokens go into play under the caster's control?
+
+Gild says "Exile target creature. Put a colorless artifact token named Gold onto the battlefield. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."". I assume that that means that the token goes into play under your control (assuming you were the one who cast Gild) and not the person who's creature you exiled?
+
+A:
+
+Yes, the token comes into play under the control of the player who played Gild. This is specified by rule 110.2a:
+
+If an effect instructs a player to put an object onto the battlefield, that object enters the battlefield under that player's control unless the effect states otherwise.
+
+Gild's effect instructs you (the player who controls the spell) to put the token into play, so it comes into play under your control.
+A ruling on the Gatherer page states this explicitly:
+
+You will control the token, no matter who controls the target creature.
+

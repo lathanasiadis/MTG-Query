@@ -1,0 +1,13 @@
+Q:
+
+Can hexproof remove an opponent's aura already enchanting my creature?
+
+If a creature I control is being targeted by an enchant creature my opponent controls, can I equip it with an artifact that grants hexproof to counter the existing enchant creature?
+Example: My opponent casts Kasmina's Transmutation on my Serra's Guardian. Several turns later I equip Swiftfoot Boots. Does the "hexproof" ability make Serra's Guardian an invalid target for Kasmina's Transmutation?
+
+A:
+
+No. Hexproof prevents the creature from being targeted. Kasmina's Transmutation targeted the creature when it was cast, but after it's resolved it's no longer targeting the creature.
+It's possible you are thinking of protection, which prevents the protected creature from being "Enchanted, equipped, or fortified by permanents with the specified quality." If you give your creature protection from blue, then Kasmina's Transmutation falls off, since a pro-blue creature cannot be enchanted by blue auras. Another possibility is if the aura enchants only certain things which no longer applies. For example if you cast Daybreak Coronet on your Kasmina-enchanted creature, and then opponent bounces the Kasmina's Transmutation, then Daybreak Coronet does fall off (since it can only enchant an already-enchanted creature, and with Kasmina's Transmutation off, the creature is no longer enchanted). Yet another possibility is if your creature turns into (say) an enchantment via One with the Stars, then Kasmina's Transmutation also falls off since it can only enchant creatures (it says "enchant creature").
+Hexproof is none of these situations and therefore Kasmina's Transmutation remains attached. It will, however, stop your opponent from casting more auras targeting the creature.
+

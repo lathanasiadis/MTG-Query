@@ -1,0 +1,30 @@
+Q:
+
+How does the Commander 2018 Storm cycle work with Partner commanders?
+
+Commander 2018 includes a cycle of cards that say:
+
+When you cast this spell, copy it for each time you've cast your commander from the command zone this game.
+
+How does this relate to Partner cards? Suppose I've cast one of my partner commanders 3 times, and one of them 4 times. Does that count as 7 casts—and 7 copies—for the purposes of one of these cards, or do I have to choose one of my commanders and copy it only 3 times or 4 times? The first option is like how we treat split cards, the second is like how we treat Command Beacon.
+I expected a ruling on the Commander 2018 release notes to clarify this, but they didn't.
+
+A:
+
+It would count all 7 times.
+
+702.123e If an effect refers to your commander while you have two commanders, it refers to either one. If an effect causes you to perform an action on your commander and it could affect both, you choose which it refers to at the time the effect is applied.
+
+"It refers to either one"... so in this case we can treat the ability as:
+
+When you cast this spell, copy it for each time you've cast [either one of your commanders] from the command zone this game.
+
+In other words, it is how many times have you done the act of "casting your commander from the command zone".
+This has been confirmed by Gavin Verhey, a Senior Magic: The Gathering Designer at Wizards of the Coast, on Twitter:
+
+I double checked with rules manager @EliShffrn and indeed: you get a copy for each time you have cast any of yout partners. So if you have cast Pir and Toothy each once, you will receive two copies. :)
+
+Also, (thanks @Jorn), the "Designing Commander" article specifically backs this up:
+
+These "commander storm" cards have quite the history. Handed off from design, the effects changed quite a bit, but the key mechanic didn't: caring about how many times you cast your commander. (Also, yes, these do work really well with partner commanders like those found in Battlebond!) This mechanic was a lot of fun!
+

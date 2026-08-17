@@ -1,0 +1,30 @@
+Q:
+
+What's the probability to start a game of Vintage Dredge with Bazaar of Baghdad in your opening hand?
+
+I want to pick up Vintage Dredge in the card game Magic - The Gathering and I want to know the probability of starting with Bazaar of Baghdad in your opening hand.
+We can assume that this is a 60-card deck with 4 Bazaar of Baghdad and 4 Serum Powder, and that we will mulligan aggressively for the Bazaar. Then we will perform the following procedure: we start by drawing 7 cards. After each draw, if the hand contains a Bazaar of Baghdad we are done. Otherwise, if the hand contains a Serum Powder, we use Serum Powder's ability to exile the hand and draw the same number of cards. Otherwise, we mulligan normally, drawing 1 fewer card. If we get to 1 cards without drawing a Bazaar we have failed. What is the probability of finding a Bazaar this way?
+
+A:
+
+I approached this question numerically and drew one billion (1,000,000,000) sample hands.
+My assumptions: The deck contains 60 cards, 4 of which are Bazaar of Baghdad and 4 are Serum Powder. No further assumptions regarding the deck building are required.
+Then I draw the opening seven cards. If it contains at least 1 Bazaar, the hand is considered a hit. If I draw a Serum Powder, the hand is removed from the game and I draw the exact same number again. If I miss on both, Bazaar and Powder, than I take a mulligan (e.q. reshuffling the deck and drawing one card less).
+This continues until I reach the point where I reshuffle a one-card-hand, since it was considered a miss and start the game with a zero-card-hand. In this situation I consider the somewhat new mulligan scry rule, which let's you scry one after mulligan. So even if I start with zero cards in hand, there is a chance that a Bazaar is in the top 2 cards of my library and (thanks to the scry) can be found within one draw step. That probability is also included in my end results.
+My findings:
+
+Probability of starting with a 7 card hand: 54.2 %
+Probability of starting with a 6 card hand: 22.12 %
+Probability of starting with a 5 card hand: 9.91 %
+Probability of starting with a 4 card hand: 4.79 %
+Probability of starting with a 3 card hand: 2.43 %
+Probability of starting with a 2 card hand: 1.23 %
+Probability of starting with a 1 card hand: 0.52 %
+Probability of starting with a 0 card hand: 4.8 % (this means no Bazaar of Baghdad was found)
+Probability of starting with a 0 card hand and Bazar on top (including scry 1): 0.9 %
+Probability of complete failure: 3.9 %
+Probability to hit: 95.2015011 %
+Probability to hit with scry: 96.1029072 %
+
+For the curious people, here is a plot how those probabilities converged:
+

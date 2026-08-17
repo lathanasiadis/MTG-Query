@@ -1,0 +1,20 @@
+Q:
+
+Can I block with a previously bestowed creature?
+
+When a creature enchanted with a bestow creature dies while blocking a creature, the bestow enchantment becomes a creature. Can that creature block in the same combat, even though all the blockers have already been declared?
+
+A:
+
+No, as you've said in your question, all of the blockers have already been declared. There's not another opportunity to declare blockers, especially not after combat damage has been dealt!
+The steps of combat are:
+
+beginning of combat
+declare attackers
+declare blockers
+combat damage
+end of combat
+
+Your creature presumably doesn't die until the combat damage step. You can't go back to the declare blockers step to declare a new blocker, and it wouldn't even make any sense to: by the time your blocker takes damage and dies, combat damage dealt to you by unblocked creatures has already happened too, so there's nothing left to accomplish by blocking.
+And if your creature dies after blockers are declared, but still in the declare blockers step - destroyed by an instant, perhaps - it's of course still too late. If on the other hand it dies before blockers are declared, the bestowed-aura-turned-creature can certainly block.
+

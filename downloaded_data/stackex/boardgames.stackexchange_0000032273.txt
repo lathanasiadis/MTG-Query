@@ -1,0 +1,33 @@
+Q:
+
+Can I make decisions while searching my library based on what order it is in?
+
+Let's say I have 3 Millikin and 4 Selvala, Explorer Returned on the battlefield (via Mirror Gallery), and a Panglacial Wurm in my library.
+I start searching my library, without shuffling. (because of some spell or ability)
+I want to cast the Wurm, but I need all 4 Selvalas to generate mana. Can I make decisions based on what order to activate the Millikins and Selvalas in based on the top cards of my library? Can I even see the top cards before I cast the Wurm?
+
+A:
+
+You can decide the order in which to activate mana abilities based on knowledge about the order of your library. You can also decide whether to cast the Wurm based on knowledge about the order of your library.
+First, the keyword action "Search" is defined in rule 701.15a:
+
+To search for a card in a zone, look at all cards in that zone (even if it’s a hidden zone) and find a card that matches the given description.
+
+And the following are rulings on Panglacial Wurm in Gatherer:
+
+Panglacial Wurm’s ability works only while you’re searching your own library. [...]
+
+If you want to cast Panglacial Wurm while searching your library, you must do so before you find any cards with the search effect.
+
+Together, these strongly imply that you can choose to cast Panglacial Wurm after you have looked at all of the cards in your library and before you have "found" any of them. So, you can absolutely use the information available at that time when making that choice.
+In addition, Panglacial Wurm has another ruling that says
+
+While searching your library, you must keep your library in the same order until you shuffle it. This order could matter if you tap Millikin for mana, for example, to pay for a Panglacial Wurm you cast from your library.
+
+Then, in the process of casting a spell, one of the last steps is 601.2g:
+
+If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+There's nothing in that rule about simultaneous activation, or what order things happen in, so the obvious interpretation is that at this time you can activate and resolve mana abilities sequentially in any order you choose, like any other action in the game.
+Once you can do that, you can activate the Millikins and Selvalas in the order you choose to maximize the mana you get, taking into account the information about the library order that you have.
+

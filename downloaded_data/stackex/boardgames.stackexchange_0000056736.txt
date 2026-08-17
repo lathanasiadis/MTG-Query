@@ -1,0 +1,14 @@
+Q:
+
+MTG first strike vs first strike and non first strike blockers
+
+Attacking player has 6/3 first strike, The blockers are 2/2 first strike, and 4/3 without first strike - do we all die, or does the 6/3 get to live?
+
+A:
+
+The 6/3 attacker will live, because the creature without first strike will die before it gets to do any combat damage.
+When any creatures with first strike are involved in combat, whether attacking or blocking, there are 2 separate combat damage steps. In the first one, only creatures with first strike will deal damage. In the second one, only creatures without first strike will deal damage.
+So in first first combat damage step, the 6/3 and the 2/2 will assign and deal their damage simultaneously. The 6/3 will take 2 damage (and live), while the attacking creature gets to split its 6 damage between the 2 blockers, enough to kill them both. Then when state-based actions are checked before the second combat damage step, the 4/3 will die for having 3 (or 4) damage, without ever dealing damage.
+
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+

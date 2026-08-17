@@ -1,0 +1,17 @@
+Q:
+
+How big is a Consuming Aberration after it is stolen with Act of Treason?
+
+Suppose I take a Consuming Aberration with an Act of Treason. Consuming Aberration says: Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards. 
+Therefore, which graveyard do we count to determine how big the Consuming Aberration is in this instance?
+
+A:
+
+You would count the cards of the graveyards of the opponents of whoever controls the Consuming Aberration. "You" in Static Abilities, such as the one setting Consuming Aberration's power and toughness, refer to the controller of that card. Act of Treason gives you control of the creature, so the Static Abilities are yours. Per the Magic Comp rules (emphasis mine):
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller
+  (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a
+  static ability, this is the current controller of the object it’s on. For an activated ability, this is the
+  player who activated the ability. For a triggered ability, this is the controller of the object when the
+  ability triggered, unless it’s a delayed triggered ability.
+

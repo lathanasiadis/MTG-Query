@@ -1,0 +1,25 @@
+Q:
+
+Why does a blocking 1/1 creature with double strike kill a 3/2 creature?
+
+I was playing MTG Arena and had a 3/2 creature get blocked by a 1/1 creature with double strike.
+What I thought would happen:
+
+First strike: Attacker down to 3/1 (but still alive)
+Normal combat: Blocker down to 1/0 (lethal damage)
+No double strike damage is dealt by the blocker since they're dead, the attacker remains alive
+
+What actually happened: Both creatures died
+What went down here and why?
+
+A:
+
+Here's how the combat actually goes:
+
+First strike damage: Attacker marks one damage (they are still 3/2, but with 1 damage marked), Blocker is at 1/1 with no damage marked.
+Normal strike damage: The two creatures exchange damage simultaneously. The attacker marks another damage (still at 3/2 but with two damage), and the Blocker is a 1/1, but with 3 damage marked.
+State-based actions are checked. Both attacker and blocker have at least as much damage marked than they have toughness, so both die.
+
+(Technically state-based actions are checked after first strike damage, because they are checked when player priority changes, but there are no actions to check.)
+Really, the only difference is that the damage doesn't take effect immediately, so read up on state-based actions to learn more.
+

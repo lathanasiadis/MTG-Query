@@ -1,0 +1,20 @@
+Q:
+
+Order of the stack with conspire?
+
+The ability "Conspire" found on some instants/sorceries, reads
+
+As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.
+
+What is the order of spells being placed on the stack when a spell is conspired? Normally, when copying a spell, it's when it is already on the stack, with cards like Twincast. However, looking at the text of Conspire, it seems to indicate that you copy the spell as it is being cast, which insinuates that it is not yet on the stack. Am I correct in this? To specify a situation in which this may be relevant, if I have Wort, the Raidmother out, and I cast Reverberate, and choose to conspire it, can the copy target the original? In what order are targets chosen? Is the original Reverberate on the stack yet?
+
+A:
+
+Casting a spell is a process which begins with putting the spell on the stack and ends when the cost is paid. So anything that takes effect as you are casting the spell will see the spell on the stack already. 
+For Conspire, this is backed up by the full text of the Conspire rule which says in part:
+
+Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. “Conspire” means “As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it” and “When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy.”
+
+That's 702.77a of the Comprehensive Rules; the full list of steps in casting a spell is 601.2.
+So for your example, the second Reverberate would be created after the first is finished being cast, so the second will go on the stack on top of the first and can see it as a valid target.
+

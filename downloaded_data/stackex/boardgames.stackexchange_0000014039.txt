@@ -1,0 +1,34 @@
+Q:
+
+Put twice as many tokens/counters
+
+If I control 2 copies of Primal Vigor which reads: 
+
+If one or more tokens would be put onto the battlefield, twice that
+  many of those tokens are put onto the battlefield instead.
+If one or more +1/+1 counters would be placed on a creature, twice
+  that many +1/+1 counters are placed on that creature instead.
+
+Marath, Will of the Wild reads:
+
+Marath, Will of the Wild enters the battlefield with a number of +1/+1
+  counters on it equal to the amount of mana spent to cast it.
+{X}, Remove X +1/+1 counters from Marath: Choose one —
+  Put X +1/+1 counters on target creature; or Marath deals X damage to
+  target creature or player; or put an X/X green Elemental creature
+  token onto the battlefield. X can't be 0.
+
+When Marath, Will of the Wild enters the battlefield if I have spent 3 mana to cast it, he enters with 3 counters, because those tokens weren't placed on it, but it had them already when it entered. A: Is this Correct?
+When I pay 3 and remove 3 +1/+1 counters from Marath and put them on itself, it now has 12 counters, because both Primal Vigors trigger, the first replacement effect changing 3 counters to 6, and the second replacement effect changing 6 counters to 12? B: Is this correct?
+Or does Marath die, because between payment and when the ability resolved, it ended up with 0 toughness? I guess the removing is part of the cost, as it comes before the colon.
+
+A:
+
+Marath will enter the battlefield with 12 counters, because of this rule:
+
+121.6. If a spell or ability refers to a counter being “placed” on a permanent, it means putting a counter on that permanent while it’s on
+  the battlefield, or that permanent entering the battlefield with a
+  counter on it as the result of a replacement effect (see rule 614.1c).
+
+If you use Marath's ability to remove all the counters, it will die before the abilty resolves unless you are increasing its thoughness in some other way. But you are right that it will get four times the number of counters you removed.
+

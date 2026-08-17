@@ -1,0 +1,22 @@
+Q:
+
+Kill a blocker with an instant - is it still blocking?
+
+We are in the combat phase:
+
+I declared my attackers 
+My opponent declared his blockers, stating which
+attackers he was blocking
+I cast an instant, which automatically kills his blocker. There is nothing blocking my attacker now
+
+Now we're in the damage phase. I said that my attacker now does damage and  reduces my opponent's hit points. My opponent said that because my attacker was blocked no damage could be done. I pointed out that the blocker was destroyed before the damage phase, so therefore he wasn't blocking, but he wasn't having it. (My attacker does not have trample)
+Is this covered by a specific section in the rules?
+
+A:
+
+Your opponent was right. From the magic comprehensive rules (http://magic.wizards.com/en/gameinfo/gameplay/formats/comprehensiverules):
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+I bolded the relevant part.
+

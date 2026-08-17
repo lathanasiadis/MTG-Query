@@ -1,0 +1,27 @@
+Q:
+
+Does Doubling Cube's ability affect the mana used to activate it?
+
+Rules Question: When Doubling Cube doubles mana, does that include the mana used to activate the ability?
+
+A:
+
+No, Doubling Cube does not copy the mana used to activate it.
+When you activate an ability you pay costs before the ability takes effect. Specifically, rule 602.2 describes the steps for activating an ability:
+
+602.2a The player announces that he or she is activating the ability. [...]
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+...
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+601.2i Once the steps described in 601.2a–h are completed, the [ability becomes activated]. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Normally, players would get a chance to respond before the ability resolves, but Doubling Cube's ability is a mana ability, so 605.3b says
+
+An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+
+Then, rule 608 describes how spells and abilities resolve. Specifically, rule 608.2g says
+
+If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. [...]
+
+This means that the Doubling Cube checks the mana to be doubled when the effect resolves, which is after you spent the 3 mana on the ability's cost.
+

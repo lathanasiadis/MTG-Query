@@ -1,0 +1,20 @@
+Q:
+
+What happens if you use a Clone Effect on a Double Faced Card that's Transformed?
+
+Say someone has Ludevic's Test Subject, which is a 0/3 Defender, and after some mechanics, transforms into a 13/13 Lizard Horror with Trample.
+Say this someone managed to transform said card into its 13/13 Trample form, and then cast Phyrexian Metamorph on it (or any other clone type card if it would matter between different ones). Does the Metamorph/Clone/etc. come into play transformed, or as the 0/3 Defender?
+
+A:
+
+If an effect tries to copy a double-faced permanent, it sees whichever side is face-up.
+There's actually an example in the comprehensive rules that covers this sort of scenario:
+
+711.3. Except for determining whether or not a permanent can transform, a spell, ability, effect, or rule that needs information about a double-faced permanent sees only the information given by the face that's currently up.
+Example: A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a double-faced card, it can't transform.
+
+Whenever a clone-style effect tries to copy a permanent, it copies the copiable values of that permanent. In the case of a double-faced permanent (that isn't already a copy of something else), those values are whatever is printed on the face that is currently showing.
+Note, however, that if a permanent can only transform if it's actually represented by a double-faced card. If you create a copy of Ludevic's Test Subject before it transforms, you can add as many counters as you want, but it will never become Ludevic's Abomination.
+
+701.25a Only permanents represented by double-faced cards can transform. (See rule 711, “Double-Faced Cards.”) If a spell or ability instructs a player to transform any permanent that isn‘t represented by a double-faced card, nothing happens.
+

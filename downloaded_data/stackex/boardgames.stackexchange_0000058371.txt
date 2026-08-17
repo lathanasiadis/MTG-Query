@@ -1,0 +1,22 @@
+Q:
+
+Can Spellskite redirect Swarmyard's regeneration ability?
+
+I have Spellskite in my board and want to destroy a squirrel from the board of my opponnent. My opponnent activates Swarmyard and tries to regenerate his squirrel.
+Can I redirect the target of Swarmyard with the ability of Spellskite to my Spellskite?
+
+A:
+
+No, Spellskite cannot redirect Swarmyard's ability.
+Swarmyard has the ability
+
+{T}: Regenerate target Insect, Rat, Spider, or Squirrel.
+
+Spellskite has the type "Artifact Creature — Phyrexian Horror". It is not an Insect, Rat, Spider, or Squirrel, so it is not a valid target of Swarmyard's ability. As a result, rule 115.7a applies:
+
+If an effect allows a player to “change the target(s)” of a spell or ability, each target can be changed only to another legal target. If a target can’t be changed to another legal target, the original target is unchanged, even if the original target is itself illegal by then. If all the targets aren’t changed to other legal targets, none of them are changed.
+
+Note that Swarmyard's activated ability is a valid target for Spellskite's activated ability. So you can legally pay the cost and activate Spellskite's ability targeting Swarmyard's ability, but Spellskite's ability won't actually do anything on resolution. This is stated in one of the rulings for Spellskite:
+
+You can activate Spellskite's ability even if Spellskite isn't a legal target for the target spell or ability—or even if that spell or ability has no targets. In this case, no targets are changed.
+

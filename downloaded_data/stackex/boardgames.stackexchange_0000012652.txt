@@ -1,0 +1,43 @@
+Q:
+
+In plain English, how does casting spells and using creature abilities work with the stack and priority?
+
+I'm a relatively new player to Magic: the Gathering. I was reading the expanded rules to try to understand exactly when it's okay to cast instants (e.g. Cancel) and use some abilities (e.g. Goblin Diplomats should be tappable sometime during other peoples' turns), but I don't seem to be making much progress: as I come to understand some things, others make less sense.
+My confusion is boundless
+For instance: to cast Instants one needs priority. Spells go on the stack, and priority gets passed at some points (I have no idea when), and effects on the stack are resolved when both players have passed priority. But when is that? I can't find any mention of when the other player gets the priority to cast an instant, except on their own turn. Furthermore, The Complete Turn states that during the Main Phase:
+
+505.4. Second, the active player gets priority. Players may cast spells and activate abilities. The active player may play a land.
+
+So players (plural) may cast spells, but only the active player has priority, so only the active player can cast an instant. The turn rules, and the rules on Casting Spells, never mention any point at which the other player gets priority, so when can they possibly Cancel?
+In addition, you can only cast a spell when the stack is empty, so the entire stack must be able to be resolved in your turn at some point.
+I need an explanation!
+I could go on a bit more. There is also Counterflux which can be overloaded to "Counter each spell you don't control", which seems like it could only possibly work with an understanding of the stack.
+Could someone explain, in simple English:
+
+When can Instants be cast?
+When can tap abilities be used?
+What do Instants and abilities have to do with the Stack and Priority?
+
+A:
+
+I am going to reiterate that the Basic Rules are sufficient for and a better way to learn how to play MtG rather than the Comprehensive Rules
+When can Instants be cast?
+Instants can be cast on your own turn, during your opponents turn, and in response to other spells. This differs from Sorcery cards, which can only be cast during your own Main Phase. (MtG Basic Rules, Page 6)
+
+Instant - An instant is just like a sorcery, except you can cast it just about any time you want, even during your opponent’s turn or in response to another spell. Like a sorcery, an instant has its effect, then you put it into your graveyard.
+
+When can creatures use their abilities, like tap abilities?
+Anytime you could cast an Instant. There is nothing inherently different between an activated ability with the tap symbol in its cost and other activated abilities and their costs. Tapping is a cost, and just like any other cost, it must be paid before activating an ability.
+
+Activated Abilities - An activated ability is an ability that you can activate whenever you want, as long as you can pay the cost. [...] Each activated ability has a cost, then a colon (“:”), then an effect. [...] Some activated abilities contain the {T} symbol in their costs. This means that you must tap the permanent to activate the ability. You can’t activate the ability if the permanent is already tapped. (MtG Basic Rules, Page 12)
+Creature - [...] Unlike other types of permanents, creatures enter the battlefield with “summoning sickness”: a creature can’t attack, or use an ability that has {T} in its cost, until it has started your turn on the battlefield under your control. You can block with a creature or activate its other abilities no matter how long it’s been on the battlefield.(MtG Basic Rules, Page 6)
+
+What do Instants and abilities have to do with the Stack and Priority?
+Instants, Activated Abilities both go on the stack. The stack gives players the opportunity to respond to spells/abilities before they resolve. The stack is a First In Last Out (FILO) zone, where spells and abilities exist until they resolve or are countered. (Instants/Sorcery) spells have their effect and then go to the Graveyard, (Creatures/Enchantments/Artifacts/Planeswalkers) resolve and become permanents on the Battlefield, (Triggered Abilities/Activated Abilities) are not represented by a physical card, so they resolve and disappear into the AEther.
+Priority is just the way MtG is designed to handle whose turn it is to do something. Players can cast Instants or activate abilities on other players turns, so the game needs a way to determine who goes first.
+
+The Stack - Spells and abilities exist on the stack. They wait there to resolve until both players choose not to cast any new spells or activate any new abilities. Then the last spell or ability that was put onto the stack resolves, and players get a chance to cast spells and activate abilities again. (You’ll learn more about casting spells and activating abilities in the next section.) This zone is shared by both players.(MtG Basic Rules, Page 8)
+Priority - Since players can cast instants and activate abilities during each other’s turns, the game needs a system that makes sure only one player can do something at a time. Priority determines, at any given time, which player can cast a spell or activate an activated ability.
+The active player (the player whose turn it is) gets priority at the beginning of each step and each main phase—except for the untap step and the cleanup step. When you get priority, you can cast a spell, activate an activated ability, or pass (choose to do nothing). If you do something, you keep priority, so you make the same choice again. If you pass, your opponent gets priority, so now he or she gets that choice. This goes back and forth until both players pass in a row.
+When both players pass in a row, if there’s a spell or ability waiting on the stack, it resolves. Then the active player gets priority again, and the system repeats. When both players pass in a row, if there’s no spell or ability waiting on the stack, that part of the turn ends and the next one begins.(MtG Basic Rules, Page 30)
+

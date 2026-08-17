@@ -1,0 +1,45 @@
+Q:
+
+Assigning damage to multiple blockers
+
+Okay so when I was looking up the answer to a different question I had I found this
+
+You assign 2 damage on the first target, but he's not dead yet until you assign all 5 damage that you have. So all the remaining creature are still 2/2 so you are forces to a assign at least 2 damages on each so assign 2 damage on the second in the row, and 1 damage to the 3rd creature for a grand total of 5 damages. The forth creature receive no damage.
+
+So if this is correct, this is something I didn't know about blocking multiple creatures (I'm fairly new to the game and have never actually had it happen, only been reading about the fact that you can double block)
+So if I attack with 6/6, and am blocked with 4/4 and 2/3
+This is how I thought it worked
+
+I choose order of 4/4 then 2/3
+So 4/4 dies because I did 6 damage, 6/6 took 4
+2/3 dies because I did 6 damage, 6/6 took 2
+My 6/6 died because it took a total of 6 damage
+
+So is that correct? Or is it like this
+
+Attack with 6/6
+Blocked by 4/4 and 2/3
+Order of 4/4 then 2/3, 4 damage and 2 damage (Total of 6, my creatures attack number)
+4/4 dies because it took 4 damage, 6/6 takes 4 damage
+2/3 lives because it took 2 damage, 6/6 take 2 damage
+My 6/6 dies because it took a total of 6 damage
+
+Source
+
+A:
+
+The latter. Each creature deals damage equal to its power to all blockers, attackers and defending players or planeswalkers, not to each of them.
+Simultaneously,
+
+The 6/6 deals 4 damage to the 4/4[1].
+The 6/6 deals 2 damage to the 2/3.
+The 4/4 deals 4 damage to the 6/6.
+The 2/3 deals 2 damage to the 6/6.
+
+Shortly after, when State-Based Actions are performed, the following happens simultaneously:
+
+The 6/6 is destroyed for having damage equal to or exceeding its toughness.
+The 4/4 is destroyed for having damage equal to or exceeding its toughness.
+
+That's assuming the minimum damage is dealt to each creature. You can choose to "overkill" if you so desire, but it's rarely helpful.
+

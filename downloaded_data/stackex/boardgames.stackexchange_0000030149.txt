@@ -1,0 +1,44 @@
+Q:
+
+Where do Delayed Triggered Abilities live?
+
+From the rules I gather that Delayed Triggered Abilities are objects on the stack,
+
+112.1b. An ability can be an activated or triggered ability on the stack. This kind of ability is an object. (See section 6, “Spells, Abilities, and Effects.”)
+
+but because these delayed triggered abilities need not trigger until their trigger condition is met, it stands to reason that they remain on the stack until they can resolve. However, this seems to be in conflict with the continuation of the game after a player receives priority, which happens as soon as all players pass on priority and the stack is empty:
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+...
+500.2. A phase or step in which players receive priority ends when the stack is empty and all players pass in succession.
+
+So then, my question is: where do Delayed Triggered Abilities live, and if the answer is indeed 'on the stack', what is the resolution to the apparent conflict with continuing the game?
+
+A:
+
+Delayed triggered abilities (DTAs) simply exist on their own, they do not depend on the existence of another object.
+A spell or ability creates one-shot effects and/or continuous effects. Creation of a DTA is a certain kind of one-shot effect:
+
+610.2. Some one-shot effects create a delayed triggered ability, which instructs a player to do something later in the game (usually at a specific time) rather than as the spell or ability that’s creating the one-shot effect resolves. See rule 603.7.
+
+Their source in the rules sense is always the spell or ability that created them, which in any case already ceased to exist before the DTA can trigger; a DTA's controller is the player who controlled the source of the DTA when it resolved (603.7d-f). If a situation cares about properties of the source of a triggered DTA, the last known information about the source is used. (112.7a)
+The confusion stems from the fact that "triggered ability" refers both to abilities as they are printed on cards, and to the objects on the stack that they create. You already quoted the rule for the latter case, but you left out the former:
+
+112.1. An ability can be one of two things:
+
+112.1a An ability is a characteristic an object has that lets it affect the game. An object’s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that do so use the words “has,” “have,” “gains,” or “gain.”) Abilities generate effects. (See rule 609, “Effects.”)
+
+112.1b An ability can be an activated or triggered ability on the stack. This kind of ability is an object. (See section 6, “Spells, Abilities, and Effects.”)
+
+For example, take any permanent with a triggered ability, such as Abattoir Ghoul or Abyssal Horror. The text that is written on them respresents triggered abilities. When their trigger condition is met, they create an object on the stack. These objects are also called "triggered ability", and, as you correctly noted, they have to leave the stack (usually by resolving) before the game can continue.
+A delayed triggered ability (DTA) follows the same rules. A DTA is a triggered ability that creates instances of itself on the stack that are also called "triggered abilities". However, matters are complicated a little further because a DTA is never printed on a card, they are always created by a spell or other ability:
+
+603.7a Delayed triggered abilities come from spells or other abilities that create them on resolution, or are created as the result of a replacement effect being applied.
+
+However, at that point a DTA is not an object on the stack, just like the ability printed on Abyssal Horror is not on the stack, and therefore does not block the progression of the game. An instance of a DTA goes on the stack when its trigger condition is met, just like a regular triggered ability.
+
+603.7b A delayed triggered ability will trigger only once—the next time its trigger event occurs—unless it has a stated duration, such as “this turn.”
+
+Example: Death Frenzy, Balduvian Rage
+DTAs are also always temporary, they either last until the end of turn, or they do something at the beginning of the next turn. That temporary nature is not a fundamental limitation based on the rules. It's a design decision, because it's simply too difficult for human players to keep track of more and more dynamically created abilities across multiple turns, or even the whole game.
+

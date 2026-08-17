@@ -1,0 +1,20 @@
+Q:
+
+Is "*/*" considered a "+X/+X" counter or as the "base power" of a creature spell?
+
+I have a card (namely Molimo, Maro-Sorcerer) which has "*/*", where "*" is equivalent to some condition.  My opponent has a spell (namely Vorinclex, Monstrous Raider) with
+
+If an opponent would put one or more counters on a permanent or player, they put half that many [...] rounded down.
+
+Does the "*/*" of my creature behave then as a "+X/+X", which would be halved by my opponent's spell, or is "*/*" my base power/toughness?  It seems to me the "*" is a value defining the base power/toughness rather than counters added to a base of "0/0".
+But my interpretation is obviously biased by my desire to win.  I expected to find answers to this in Rules 208 or 613, but did not.
+
+A:
+
++1/+1 counters are counters. They are, per CR 122.1, specifically added to the permanent or player:
+
+122.1. A counter is a marker placed on an object or player that modifies its characteristics and/or interacts with a rule, ability, or effect. Counters are not objects and have no characteristics. Notably, a counter is not a token, and a token is not a counter. Counters with the same name or description are interchangeable.
+
+Creatures that are */* don't have counters on them by default. This means for example that their power and toughness are not affected by proliferate, Vampire Hexmage, nor the effect that says any +1/+1 counters on your opponent's creatures are halved and rounded down. So your interpretation is correct.
+The edge case is for a creature like Walking Ballista, which has 0/0 stats but also enters the battlefield with +1/+1 counters. In this case proliferate, Vampire Hexmage, etc, can affect it. Still, Walking Ballista is not a */* creature; it is fundamentally different.
+

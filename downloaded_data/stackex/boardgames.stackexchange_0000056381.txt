@@ -1,0 +1,24 @@
+Q:
+
+What specifically makes Alms Collector apply before other replacement effects?
+
+The card Alms Collector has this ruling:
+
+Alms Collector’s replacement effect applies to an instruction to draw more than one card before any replacement effects apply to individual cards drawn. For example, if you have a card with dredge in your graveyard, you can’t dredge it before the effect of Divination is modified by Alms Collector’s replacement effect.
+
+But is that correct? Rule 616.1 states
+
+If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+So in the situation given in Alms Collector's ruling, can't the active player choose to apply the Dredge replacement effect first, leaving Alms Collector's effect with nothing to replace?
+
+A:
+
+It's explicitly stated in rule 121.2a:
+
+121.2a An instruction to draw multiple cards can be modified by replacement effects that refer to the number of cards drawn. This
+modification occurs before considering any of the individual card
+draws. See rule 616.1f.
+
+So no, the active player can't choose to have Dredge apply before Alms Collector.  If you had 2 different replacement effects that applied to drawing multiple cards, then you would apply them according to 616.1.
+

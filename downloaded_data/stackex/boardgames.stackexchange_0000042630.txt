@@ -1,0 +1,28 @@
+Q:
+
+Can I use a Planeswalker's ability when I took over its control this turn?
+
+My opponent controls a Planeswalker and uses its ability. End of turn.
+I play In Bolas's Clutches and target that Planeswalker. It comes under my control (right?).
+Can I now use this Planeswalker's ability or do I have to wait another "round" because its ability was already used this  "round" by my opponent? (by "round" I mean two turns)
+
+In Bolas's Clutches
+Types: Legendary Enchantment — Aura Card
+Text: Enchant permanent / You control enchanted permanent. / Enchanted permanent is legendary.
+
+A:
+
+You may use one of the planeswalker's abilities during your turn.
+In Bolas's Clutches does indeed allow you to control planeswalkers, and each player's turn counts separately. If your opponent ended their turn, your turn is separate from that, those two turns do not count as the same turn.
+
+606.3. A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn.
+
+Please note that the game structure doesn't have a concept of "rounds". In order of decreasing scope, the structure of MtG is as follows:
+
+Tournament (a series of matches)
+Match (series of games)
+Game (series of turns)
+Turn (series of phases)
+Phase (series of steps)
+Step (some phases don't have steps)
+

@@ -1,0 +1,96 @@
+Q:
+
+How can I make a fast, MTG Modern Glimpse-based mill deck?
+
+I have always been fascinated with MTG milling decks and, since Ravnica, have wanted to build a fast Glimpse the Unthinkable based mill deck. I've tried numerous times but the deck is always too slow, puttering out before I finish off my opponent. Further, it's tough to find a balance of aggressively milling while simultaneously defending myself from attacks. 
+So, is there a way to make a speedy Glimpse the Unthinkable mill deck?
+My deck constraints are:
+
+Build around Glimpse, the Unthinkable
+Only use Modern legal cards
+
+The latest iteration of my deck is:
+Lands
+
+Island x12
+Swamp x9
+Watery Grave x2
+Drowned Catacomb
+
+Creatures
+
+Hedron Crab x4
+Wall of Frost x4
+
+Planeswalker
+
+Jace, Memory Adept
+
+Enchantments
+
+Memory Erosion x4
+Jace's Erasure x4
+
+Instants
+
+Grasp of Darkness x4
+Visions of Beyond x4
+
+Sorceries
+
+Glimpse, the Unthinkable x4
+Mind Funeral x3
+Mind Sculpt x2
+
+Artifacts
+
+Keening Stone x4
+
+The older versions of this deck relied on Ravnica Transmute cards like Shred Memory, Muddle the Mixture, and Dimir Infiltrator to quickly retrieve the Glimpses but, without mana acceleration, it still took 5-6 turns to get three Glimpses out.
+
+A:
+
+If you want a fast glimpse the unthinkable deck, then the best you are going to do is definitely going to be cutting those wall of frost, and some of the mill enchantments. play 4 ghost quarter (think of it as a 0 mana spell that mills them for 1 card, you can also kill your own land for more hedron crab triggers), and 4 Archive Trap, a spell that does a lot to win you the game when your opponent isn't expecting it after ghost quarter, or turns your ghost quarter into the extremely powerful and mostly banned Strip Mine when your opponent is familiar with your deck.
+You would probably be looking to extend your longevity with spells like damnation or black sun's zenith to keep the opponent's side of the board under control. Snapcaster mage will let you reuse your glimpses for additional mill, and provide a defense to slow your opponent down, but remember it cant cast your Archive Traps for their trap cost.
+you will want 4 Dimir Signet, because a turn 3 play of Signet into glimpse the unthinkable is a very efficient ramp turn. Mind Funeral and Mind Grind are also both very good cards.
+Additionally, you will make better use of those hedron crabs by using fetchlands such as scalding tarn and Marsh Flats, allowing you to get 2 activations per turn, cheaper alternatives include Terramorphic expanse and evolving wilds
+I would suggest the following changes:
+
+-4 Jace's Erasure
+-4 Wall of Frost
+-4 Memory Erosion
+-4 Keening Stone
+-4 Grasp of Darkness
+-2 Visions of Beyond
+-9 Island
+-7 Swamps
+-1 Drowned Catacombs
+
+and bring in:
+
++1 Hallowed Fountain
++1 Plains
++2 Watery Grave
++4 Scalding Tarn
++4 Marsh Flats
++4 Ghost Quarter
++4 Dimir Signet
++1 Mind Funeral
++2 Mind Grind
++4 Snacpcaster mage
++4 Damnation
++4 Archive Trap
++4 Path To Exile
+
+I cut a land as the dimir signets help fix your mana, it might be worth cutting another, it depends on how it plays.
+Visions of beyond is a bit overkill, as long as you can average about 7 cards milled per card you play, you can win within 4-6 turns, and visions can slow that down, as winning revolves around spending your mana effectively in the early turns. I kept 2 in though as sometimes you just draw all removal and no mill
+Damnation might seem counter productive if you have hedron crabs on the field, but with fetchlands, you can hit 6 cards milled per crab with just one land drop, meaning they will usually provide enough mill to be worth playing out even if you then kill them.
+Mind Grind is there to mitigate when you get mana flooded, so that you can get a higher return per card due to having so much excess mana, it's not something you would want to cast for anything less than x = 4.
+Splashing white might be beneficial also, path to exile gives you another route to activate archive trap, and does what grasp of darkness did cheaper. it can also turn a snapcaster mage who gave you a flashback mill last turn, into another land to activate hedron crabs for further mill.
+these changes should help speed the deck up, and increase your survivability in a more synergistic way than previously. feel free to tinker with numbers based on your own knowledge as i haven't played the deck, but i advise against tinkering the cards that were totally removed back into the deck.
+A faster mill deck
+Having said all of the above, if you want a fast mill deck, there are definitely better choices than Glimpse the unthinkable.
+abandoning the idea of glimpse the unthinkable, a mill deck that will usually run much faster than glimpse the unthinkable can would be the protean hulk combo deck. If you were to play acceleration such as ramp spells (rampant growth, harrow etc) and Heartless Summoning to accelerate casting your Protean Hulk you will be able to get it onto the battlefield around turn 4 or 5, any of a number of spells would allow you to sacrifice it (fling, viscera seer, birthing pod, and many others, just search gatherer for rules text "Sacrifice a creature").
+once you have managed to summon and sacrifice your hulk, your milling combo comes to fruition. It's ability to search for a cumulative 6 converted mana cost worth of creatures allows you to search for the 4 hedron crabs in your library, and the 4 dryad arbor, all of which translate to only 4 converted mana cost of creatures. They all enter the battlefield, each dryad arbor triggers all 4 hedron crabs, which is 16 hedron crab triggers which is 48 milled cards. the final 2 CMC can be used to find a viridian emissary, which would either die instantly to the Heartless Summoning, or be sacrificed to the viscera seer or another sacrifice outlet, and give you a basic land and another 12 milled cards.
+i will leave the building of an actual 60 card deck of this combo to you, if you wish to pursue it, since it is not strictly an answer to your question. above should give you an idea for the options, and key cards of the deck.
+

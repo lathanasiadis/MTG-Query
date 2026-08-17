@@ -1,0 +1,40 @@
+Q:
+
+How do I handle a gameplay error when I have an equivalent play available in a tournament?
+
+For example, suppose I have 3 Mountains. I play another Mountain, cast Koth of the Hammer, use the +1, and attempt to attack for four. However the Mountain I target is the one I freshly played (discernible since it has different art). Can my opponent call a judge and stop the attack, since Koth does not give haste so the mountain should be summoning sick?
+I'm wondering if there are rules around these kind of "it doesn't matter situations". Since I have four Mountains, I could clearly have targeted another Mountain. I'm clearly not trying to cheat, but I'm also playing loosely. Do I get to hit for four after all?
+If the answer to this depends on REL, I'm interested in all REL levels.
+
+A:
+
+The attack was illegal. Your opponent can call a judge at any time, and is required to do so as soon as he noticed the error. The consequences of that error depend on the rules enforcement level (REL) and the judge's call. The illegal attack will be reverted, but you will not be allowed to animate and untap a different mountain at any REL.
+In the Tournament Rules, it is stated that, among others, that
+
+Players are responsible for:
+• Maintaining a clear and legal game state.
+• Calling attention to any rules or policy infraction they notice in their matches.
+
+As you noted yourself, the mountain you untapped and turned into a creature has summonig sickness and cannot attack. Therefore you committed a game error.
+As for consequences, given the circumstances you describe, a judge would probably not come to the conclusion that you were trying to cheat, because you had an equivalent, legal play at your disposal. Therefore, a game loss or worse seems out of the question here.
+At regular REL, such as Friday Night Magic or pre-release tournaments, with relatively minor prizes at stake, the judge would most likely decide to rewind the game state to before your illegal attack.
+
+A player makes an in-game error not mentioned above
+This will cover the bulk of player errors, and usually the least disruptive option is to leave the game as it is after fixing anything that is currently illegal (e.g. an Aura enchanting an illegal permanent). If the error involved a player forgetting to draw or discard cards, have them perform the appropriate action now. Otherwise, if the error was caught quickly and rewinding is relatively easy, you may undo all the actions back to the point that the illegal action happened. [..]
+
+Note that, since untapping the recently played mountain was perfectly legal, you would probably not be allowed to rewind that action, also for educational purposes:
+
+Player education is a priority; remind the players to play more carefully, but avoid being heavyhanded in order to keep your events fun and relaxed. If a player continues to repeat a mistake despite multiple reminders, you may warn them that the next occurrence will result in a Game Loss.
+
+Further consequences should not be expected. As you yourself admit to playing sloppily, this seems like a textbook case of an educational ruling.
+At competitive or professional REL, the following rule applies:
+
+2.5. Game Play Error — Game Rule Violation — Warning
+Additional Remedy
+First, consider a simple backup (see section 1.4).
+
+This would already be a remedy to fix the game state, as the backup is trivial in your case.
+You would receive a Warning penalty for a Game Rule Violation infraction. Had your opponent not noticed and reported the error within a short time, he would have received a Warning for a Failure to Maintain Game State:
+
+For most Game Play Errors not caught within a time that a player could reasonably be expected to notice, opponents receive a Game Play Error — Failure to Maintain Game State penalty. [..]
+

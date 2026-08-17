@@ -1,0 +1,16 @@
+Q:
+
+Can you negate an adventure spell?
+
+Can I Negate the instant/sorcery part of an adventure spell?
+Say, someone casts Stomp from bonecrusher giant. Can I negate it?
+
+A:
+
+Yes, there is nothing special about the Adventure half of an Adventurer card while it is on the stack. Comprehensive rules 715.3b:
+
+While on the stack as an Adventure, the spell has only its alternative characteristics.
+
+Countering the Adventure half of an Adventurer card is often a very good play to make as the countered spell goes to its owner's graveyard, not into exile where the non-Adventure half of the card can be cast - e.g. if you counter Stomp, its owner does not get to cast Bonecrusher Giant from exile.
+A small note on terminology: the spell does not have halves. An Adventurer card has alternative characteristics, and if cast with those alternative characteristics it is then a spell with solely those characteristics - e.g. what is on the stack is either the instant spell Stomp or the creature spell Bonecrusher Giant, not a split object with both sets of characteristics. This may seem pedantic but it can be important - for example, you cannot use Essence Scatter to counter Stomp, because it is not a creature spell.
+

@@ -1,0 +1,18 @@
+Q:
+
+Primary Key for Magic: The Gathering cards
+
+If you were designing a database for Magic: The Gathering cards, what would be the most basic identifying fields for a card to get a primary key. The Gatherer site uses the multiverse id, but say you couldn't use it and had to come up with something else.
+I believe it would be the card name and set. Every card name is unique. Even the cards from Unstable like "Knight Of The Kitchen Sink" that have multiple versions of the card with the same name have versions a-f on the Gatherer site, and the set + card name would let you get any other version of the card (different rarities, wordings, etc.).
+I think the only other possible unique identifier might be the "version" - stuff like extended art, full art, showcase art, etc., which could be the same per card name and per set, especially with recent sets. Stuff like Cloudpiercer has the same name & set (Ikoria), but comes in standard art and showcase art.
+Is there anything I'm overlooking?
+BTW, I wasn't sure whether to ask this question here or in the Database Administrators Stackexchange, but I thought more MTG players would know DB stuff than DB Admins would know MTG cards. If I need to ask it there please let me know.
+Thanks!
+
+A:
+
+The answer to this question really depends on what you are trying to store, and what the goal of building the database is.
+For example, if the goal of the database is to represent the functionality of black-bordered cards, all you really need is the English name and the Oracle text, and the rules state that the name is a unique identifier in that context. If you want to include silver-bordered cards, then in order to handle cards that have multiple different Oracle texts, you will either need to use a "variant" in addition to the name to have a unique identifier, or represent variants in a separate table so that you can still use the name as a "unique" identifier.
+Of course, if you want to completely describe every card ever printed, then you will need to distinguish languages, and sets, and variants, and promos, and alternate arts, etc. And again, you could stick all of those together to uniquely identify a card, or you could have one main table with just the basic card info, and another table with printings.
+The answer could be either of these, or something else, depending on what your goal is. The most important questions to ask in any situation like this are "how do I expect to use this database?" and "how does the structure of the database facilitate that use?"
+

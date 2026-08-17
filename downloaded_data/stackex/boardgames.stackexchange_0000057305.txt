@@ -1,0 +1,30 @@
+Q:
+
+Does Death's Shadow grow when blocking a creature while the player is taking damage?
+
+The game situation:
+
+I'm at 12 life, meaning that Death's Shadow is currently a 1/1.
+I'm being attacked by two 2/2 Goblin Guides; I block one of them with the Death's Shadow, leaving the other unblocked.
+We proceed to the Combat Damage step.
+
+Does the Death's Shadow die, or is this a situation similar to "Lightning Bolting the Tarmogoyf" where the Tarmogoyf can grow as a result of the spell resolving?
+
+A:
+
+Death's Shadow will survive, because its static ability is "faster" than the state-based action that kills creatures that take lethal damage.
+
+You and Death's Shadow are both assigned 2 damage as described in comp rule 510.1.
+
+That damage is dealt simultaneously (per rule 510.2) and has different effects on players and creatures. Importantly, damage doesn't kill creatures, a state-based action does. State-based actions are only checked when a player gains priority, which no one does at the point in the combat damage step.
+
+120.3a Damage dealt to a player by a source without infect causes that player to lose that much life.
+
+120.3e Damage dealt to a creature by a source with neither wither nor infect causes that much damage to be marked on that creature.
+
+704.5g If a creature has toughness greater than 0, it has damage marked on it, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed.
+
+Death's Shadow's static ability, however, doesn't need priority, it simply takes effect. The moment that your life total drops to 10, Death's Shadow becomes 3/3.
+
+Per rule 510.3, after all of the damage is dealt, the active player gains priority and the game checks state-based actions. Because Death's Shadow is a 3/3, 2 damage isn't enough to kill it.
+

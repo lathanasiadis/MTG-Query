@@ -1,0 +1,19 @@
+Q:
+
+Instantaneous creature death and checking conditions
+
+I have a Night of Souls' Betrayal, and so does my opponent. Creatures get -2/-2.
+I have a Marchesa, the Black Rose, relevant text:
+
+Whenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.
+
+I play a Rakdos Cackler, a 1/1 with Unleash.
+If I choose to have Rakdos Cackler enter with a counter, will it have a +1/+1 counter on it when it dies? Will Marchesa's ability return Rakdos Cackler to the battlefield at the next end step?
+
+A:
+
+Yes, it will trigger every time it returns.
+Let's start when the Cackler is on the stack, when you originally cast it.
+If no one has a response, it resolves. When it is resolving, you choose whether or not to have it enter with a counter. Assuming you do, it enter with a counter on it, as a 0/0, because of the Night of Souls' Betrayals.
+At this point, state based actions are checked. The Cackler dies, but Marchesa will see it with a +1/+1 on it, and this process will repeat every end step.
+

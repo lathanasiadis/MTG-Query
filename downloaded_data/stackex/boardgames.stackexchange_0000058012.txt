@@ -1,0 +1,30 @@
+Q:
+
+Are costs always paid sequentially?
+
+According to Rule 601.2h...
+"The player pays the total cost. First, they pay all costs that don’t involve random elements or moving objects from the library to a public zone, in any order. Then they pay all remaining costs in any order."
+Does "in any order" imply that all cost payment actions are broken down to their most basic components and applied sequentially, even if they would be applied simultaneously otherwise?  For example, an instruction to sacrifice multiple creatures NOT as a cost would require them to be sacrificed simultaneously (although the decision process would be sequential, see Rankle Master of Pranks rulings on Gatherer).  If multiple creatures are sacrificed as a cost, is it a sequential process?  Can a player first sacrifice Hostage Taker as a cost to cast Plumb the Forbidden or Bankrupt in Blood, and then sacrifice a creature Hostage Taker returns to their control from exile?  In the case of Bankrupt in Blood, does it matter whether the player already controlled a second creature, either to be allowed to cast the spell or to make it past Rule 601.2e...
+"The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 728, “Handling Illegal Actions”)"
+...before doing this type of cost payment, or does the game foresee that the cost will be payable due to Hostage Taker's effect and allow the casting process to reach the cost payment stage?
+
+A:
+
+Sacrificing multiple creatures is a single atomic action that must be taken all at once.
+First, consider the following rules in the resolving spells and abilities section:
+
+608.2c The controller of the spell or ability follows its instructions in the order written. [...]
+608.2e Some spells and abilities have multiple steps or actions, denoted by separate sentences or clauses, that involve multiple players. In these cases, the choices for the first action are made in APNAP order, and then the first action is processed simultaneously. Then the choices for the second action are made in APNAP order, and then that action is processed simultaneously, and so on. See rule 101.4.
+
+The first of those rules mirrors the quotation of 601.2h: like a cost, a resolving spell or ability consists of a set of actions that the player takes in a particular order, with the difference that the player can choose the order when paying costs. The second of those rules indicates that there is a specific way to divide a sequence of actions into individual actions that cannot be further subdivided. Since the rules do not further specify this for costs, the most reasonable interpretation is that the same method of division applies to costs as to effects.
+The card Barter in Blood is a sorcery with the text "Each player sacrifices two creatures.", and it has the following ruling:
+
+The active player chooses which creatures will be sacrificed first, then each other player in turn order does the same. Then all creatures are sacrificed simultaneously.
+
+This shows that in the context of resolving a spell, "sacrifice two creatures" is a single action that cannot be subdivided. So, we should also treat it as such for costs.
+For contrast, consider rule 121.2:
+
+Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+This rule sets the precedent that if an action can be subdivided into multiple sequential component actions, the rules will explicitly specify that this is the case. No such rule exists for the "sacrifice" action.
+

@@ -1,0 +1,18 @@
+Q:
+
+Can you have same Legendary Creature on the battlefield twice utilizing the Mutate ability?
+
+If you have mutated on top of a legendary creature, are you then legally able to cast onto the battlefield another of the same legendary creature card?
+
+A:
+
+702.139e A mutated permanent has all abilities of each card and token that represents it. Its other characteristics are derived from the topmost card or token.
+
+Being legendary is not an ability; rather, it's a supertype:
+
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. Objects can have some or all of these characteristics. Any other information about an object isn’t a characteristic. For example, characteristics don’t include whether a permanent is tapped, a spell’s target, an object’s owner or controller, what an Aura enchants, and so on.
+
+205.4a A card can also have one or more supertypes. These are printed directly before its card types. The supertypes are basic, legendary, ongoing, snow, and world.
+
+That means that if you mutate on top of a legendary creature, you can cast it again (if you have another copy in your hand) without it being affected by the legend rule. If you mutate under a legendary creature, it's still legal to cast another copy, but it's usually not such a good idea.
+

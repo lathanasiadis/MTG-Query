@@ -1,0 +1,13 @@
+Q:
+
+Color Changed on blocker
+
+I attack with Whirling Dervish, which has protection from black, and it is blocked by a white creature. I use Tidal Visionary to make that creature black. Does my Dervish go around the now illegal block?
+
+A:
+
+The legality of blocks is checked exactly once, during the declare blockers step. Evasion abilities that take effect after that don't matter, as described in comp rule 509.1:
+
+509.1b The defending player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn’t affect that block.
+

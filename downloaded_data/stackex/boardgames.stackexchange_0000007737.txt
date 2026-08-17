@@ -1,0 +1,16 @@
+Q:
+
+Which effects affect both opponents and which only one in Two Headed Giant?
+
+Say, for Cruel Edict I have to choose which one of my opponent's heads sacrifices a creature. But I think that Sudden Disappearance makes all of their permanents go away, not just one person's. Can someone tell me why?
+
+A:
+
+Cruel Edict and Sudden Disappearance both only affect a single opponent. In general, the only cards that would affect both heads of an opponent in two headed giant (2HG) are cards that say each or all within the rules text (example: Heartless Hidetsugu), but this would be have the same effect in non-2HG duels or multiplayer games.
+The only differences in 2HG with respect to rules text, is that players attack/defend in teams and take their turn as a team. A card that referred to an attacking or defending player would be referring to both members of the teams, or cards that add/skip turns or phases. The MtG Comprehensive Rules state:
+
+810.7a Each team’s creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player.
+Example: One player in a Two-Headed Giant game controls Teferi’s Moat, which says “As Teferi’s Moat enters the battlefield, choose a color.” and “Creatures of the chosen color without flying can’t attack you.” Creatures of the chosen color without flying can’t attack that player’s team.
+Example: If an attacking creature has forestwalk and either player on the defending team controls a Forest, the creature can’t be blocked.
+805.8 If an effect gives a player an extra turn or adds a phase or step to that player’s turn, that player’s team takes the extra turn, phase, or step. If an effect causes a player to skip a step, phase, or turn, that player’s team does so. If a single effect causes more than one player on the same team to add or skip the same step, phase, or turn, that team adds or skips only that step, phase, or turn. If an effect causes a player to control another player, the controller of that effect controls the affected player’s team.
+

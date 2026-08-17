@@ -1,0 +1,26 @@
+Q:
+
+Consequences of killing a blocking creature
+
+I've not been playing for years, so I'm a bit rusty.
+A creature attacks, it is blocked, and the blocked creature gets shocked. What happens now?
+
+As far as I know, the attacking creature is now blocked anyway and despite being there no blocking creatures anymore, it won't deal any damage to the attacked player.
+As far as I know, if for some reason the attacker gets the chance to kill the blocker "somewhat before" the block is "finalized" (not that such a concept exists), then this mean that the blockers aren't really declared yet, and the defender can still assign other creatures to block the attacking creature.
+In no (normal) occasion the attacking player gets to kill a declared blocker and still deal damage to the defending player (unless the attacking creature has trample or specific abilities).
+
+Is this correct?
+
+A:
+
+What you say is basically correct. Once a creature becomes blocked, it stays blocked, even if it no longer has any blockers.
+Your second point doesn't really make sense, though. There is no time at which some creatures are blocked, and the defending player can declare more blockers.
+For more detail, combat proceeds like this:
+
+The declare attackers step starts. The active player can declare creatures they control as attacking, as long as they follow any applicable requirements and restrictions.
+The active player gains priority. Any abilities that trigger when creatures attack trigger now, and players have the opportunity to cast spells and activate abilities. It is possible for those abilities to put creatures onto the battlefield attacking.
+The declare blockers step starts. The defending player(s) can declare creatures they control as blocking, again following applicable requirements and restrictions.
+The attacking player chooses the order in which their attacking creatures deal damage to blocking creatures. The defending player chooses the order in which their blocking creatures deal damage to attacking creatures.
+The active player gains priority. Any abilities that trigger when creatures block or become blocked trigger now, and players have the opportunity to cast spells and activate abilities. It is possible for those abilities to put creatures onto the battlefield blocking, but such abilities always say which creature they are blocking.
+The combat damage step starts. Each player chooses how the damage their creatures deal is distributed, with the restriction that it must deal lethal damage to each attacking/blocking creature before dealing any to the next in order (as chosen in step 4). Note that if an attacking creature does not have trample, any damage not dealt to a creature is simply not dealt. This has the consequence that a blocked creature without any blockers deals no damage
+

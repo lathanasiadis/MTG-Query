@@ -1,0 +1,18 @@
+Q:
+
+Walking Ballista and how it works
+
+I assume Walking Ballista does not need to survive for the damage on the stack to resolve. Also I assume that you can remove multiple 1/1 counters before letting any of them resolve 
+
+A:
+
+What usually happens in the situations you describe is:
+
+I have (say) a Walking Ballista with 3 counters on it.
+I use Walking Ballista's ability to remove one counter and do one damage. While this ability is on the stack, my Ballista has two +1/+1 counters on it.
+In response to the first activation, I activate a second time. Now there are two triggers on the stack and my Ballista only has one +1/+1 counter.
+In response to the second activation, I can still activate a third time (or fourth, if there were a fourth +1/+1 counter on it).
+
+And then when everything on the stack resolves, the target takes damage. If my Ballista now has a toughness of 0, it's dead, but since removing the source of an ability does not stop the ability from resolving, the target still takes damage.
+Of course I could also sequence things differently. Instead of doing #3 above in response to the first activation, I could let the activation resolve, target takes 1 damage, and then activate Ballista again. Usually this won't matter, but if it does for whatever reason I can do this.
+

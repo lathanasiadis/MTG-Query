@@ -1,0 +1,22 @@
+Q:
+
+Who takes extra turns first when I copy someone else's "take an extra turn" card?
+
+What happens when a player copies an opponent's Time Stretch? Does the copyer take two extra turns then the owner? Does the owner even take two extra turns? What about Part the Waterveil? These spells say take X extra turns after this one, so my playgroup is confused.
+
+A:
+
+The player who cast the spell that creates extra turns will take their extra turn(s), and then the player who copied the spell will take their extra turn(s).
+From the comprehensive rules (emphasis mine):
+
+500.7. Some effects can give a player extra turns. They do this by adding the turns directly after the current turn. If a player gets multiple extra turns or if multiple players get extra turns during a single turn, the extra turns are added one at a time. The most recently created turn will be taken first.
+
+The order in which the spells resolve will determine the order of the extra turns. For example:
+
+Player A casts Time Stretch targeting themself, adding it to the stack
+Player B copies it using Reiterate, adding a copy of Time Stretch targeting themself to the stack
+Player B's Time Stretch will resolve, giving them two extra turns after the current turn
+Player A's Time Stretch will resolve, giving them two extra turns after the current turn
+
+Player A's extra turns are created after Player B's, so they will get the next two turns because are the most recent extra turns. The new turns will be taken in the order {A, A, B, B}. Then the game will return to normal turn order, which assuming it was Player A's turn when Time Stretch was cast, will belong to Player B. From the point of the Time Stretch, the next set of turns will look like {A, A, B, B, B, A, B, A...}. Note that nothing in this prevents the original caster from taking additional turns.
+

@@ -1,0 +1,22 @@
+Q:
+
+How to clone a Legendary permanent?
+
+I want to clone Geist of Saint Traft without falling prey to the legend rule and without using Mirror Gallery. Are there any cards that allow you to copy a card's text without copying its name? I was unable to find any but might have failed to search the right wording.
+
+A:
+
+Sakashima the Impostor copies a creature except its name; Spark Double copies a creature or planeswalker except it loses legendary. There are other cards as well.
+The rule that is responsible for preventing the existence of multiple identical legendaries is the so called "legend rule". It is a state-based action:
+
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+The only ways to get around the legend rule are if the creatures all have different names, or at most one of those with identical names is legendary.
+This Gatherer search include all sanctioned-legal cards that can copy a legendary creature to keep (plus a few that don't apply)
+Lazav, Dimir Mastermind only copies creatures that go to your opponent's graveyard, so the creature you want to copy has to go to your opponent's graveyard somehow, which requires either elaborate setup, or that your opponent also happens to play Geist.
+Both creatures restrict you to one additional Geist each, because the legend rule still applies to Lazav and Sakashima, respectively.
+Helm of the Host creates non-legendary token copies of the equipped creature. It costs 4 mana to cast and 5 mana to equip, but it lets you get any number of copies with only 1 reusable card invested.
+If your group allows Un-sets, there is also Rules Lawyer, which makes state-based actions not apply to you and your creatures, which disables the legend rule check.
+Any creature with Mutate and a second copy of the (non-human) legendary creature will allow you to avoid the Legend rule.  Mutate your first legendary creature, and be sure to put the mutation on top. Then, when another copy of the legendary enters the battlefield on your side, you get to keep it.
+Kamigawa: Neon Dynasty added Mirror Box which is a strictly better version of Mirror Gallery
+

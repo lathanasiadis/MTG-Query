@@ -1,0 +1,24 @@
+Q:
+
+Shouldn't Mana be a Copied Attribute?
+
+One of the new Kaldheim cards, Blessing of Frost, has the text:
+
+Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast this spell. Then draw a card for each creature you control with power 4 or greater.
+
+and a ruling of:
+
+If Blessing of Frost is copied, no mana was spent to cast the copy, so no +1/+1 counters will be distributed. You may still draw cards if your creatures are large enough.
+
+But rule 706.10 says:
+
+A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. ... If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability.
+
+So why doesn't the snow mana of the original spell count for the copied spell?
+(I know the spell and the rules both refer to X, but I'm not concerned about the X of the rules, mostly why the cost of the original spell can't be considered for the resolution of the copied spell)
+
+A:
+
+When they say "the value of X" in rule 706.10, they mean specifically the value of a mana cost of X, the way it appears in, say, Hurricane. This X is an inherent part of a spell on the stack; as you cast a spell with X in its mana cost, you choose X at the same time you would for instance choose to pay for kickers and other alternate / optional additional costs, and the X is included in the converted mana cost as long as the spell is on the stack. As such, that value will be copied if the spell is copied.
+However, the X in your Blessing is just another way of writing "Distribute a number of +1/+1 counters among creatures you control, equal to the amount of snow mana used to pay for this particular spell." And if you copy a Blessing, no snow mana was used to pay for the copied spell. That X isn't part of the spell itself. It is only part of the effect that happens when the spell resolves.
+

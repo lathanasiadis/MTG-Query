@@ -1,0 +1,30 @@
+Q:
+
+Can I avoid an opponent preventing my Desecration Demon attacking?
+
+I have a Desecration Demon in my hand, and through some other means I have the ability to cast it with flash and give it haste. Is there a point on my turn when I can cast the Demon such that it can still attack, but is too late for my opponent to sacrifice a creature to tap it?
+ie. Can I do the following:
+
+Start combat phase
+The "beginning of combat" passes
+Cast Desecration Demon (with flash from some effect)
+Declare Desecration Demon as an attacker (with haste from some effect)
+
+or will my opponent have an opportunity to sacrifice a creature to the demon prior to declaring it an attacker?
+
+A:
+
+You can do that. The combat phase is divided into several steps, and this is how the first step goes:
+
+507.Beginning of Combat Step
+
+507.1. First, if the game being played is a multiplayer game in which the active player's opponent's don't all automatically become
+    defending players, the active player chooses one of his or her
+    opponents. That player becomes the defending player. This turn-based
+    action doesn't use the stack. (See rule 506.2.)
+507.2. Second, any abilities that trigger at the beginning of combat go on the stack. (See rule 603, "Handling Triggered Abilities.")
+507.3. Third, the active player gets priority. Players may cast spells and activate abilities.
+
+So, during the 3rd part listed there, you can cast Desecration Demon (if you have something that allows you to do so as though it had flash, such as Leyline of Anticipation). At this time, "At the beginning of each combat" have already been triggered, and it wasn't on the battlefield at that time, so it didn't trigger. By the time you cast it, it's too late for that trigger.
+After that comes the declare attackers step, during which you can attack with your Demon if you have a card such as Fervor that will give him haste.
+

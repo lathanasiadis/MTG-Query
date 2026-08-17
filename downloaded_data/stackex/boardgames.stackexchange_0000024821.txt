@@ -1,0 +1,29 @@
+Q:
+
+If an object has at least 2 colors, does it also count as non[color] for every color?
+
+Are all multi-color permanents of colors C1,C2 also non-C1 and non-C2 simultaneously?
+Example: Battle Frenzy: does a Red/Green creature gain +1/+1 and +1/+0 by being both green and nongreen?
+
+Section 105 of the Official Rules:
+http://mtgsalvation.gamepedia.com/Colors_(rules)
+
+The official rules do not explicitly mention how to interpret the meaning of "non[color]" where [color] is one of the 5 listed colors.
+
+Example A:
+If Gruul Ragebeast is both red and green, then: (A.1) Gruul Ragebeast is a red permanent; (A.2) Gruul Ragebeast is a green permanent.
+(A.3) Gruul Ragebeast (if a creature) cannot be assigned to block any creature with "Protection from Red".
+(A.4) Gruul Ragebeast (if a creature) cannot be assigned to block any creature with "Protection from Green".
+
+Assuming all statements A.1, A.2, A.3, and A.4 are true, I ask:
+Question:
+Per statement A.1 (Gruul Ragebeast is red) then is it true that (Q.1) Gruul Ragebeast is nongreen?
+
+A:
+
+Multicolored cards are only considered "non-[color]" if they do not have that color.
+"Non-green" is not explicitly defined in the Comprehensive Rules because it has its standard English meaning: "Not green". An object either is green, or it is not. In the example you gave, the object is green, so it is not "Not green".
+
+Another way of putting it is that, when a card specifies some restrictions (like "untapped green Elf creature"), those restrictions are all predicate functions, and any object with matching zone, characteristics, and status can be affected by the effect. If the example I gave is a targeting restriction, then any object can be targeted as long as it is on the battlefield ("creature" implies "permanent"), has "Creature" and "Elf" among its types, has "Green" among its colors, and is not tapped.
+From that point of view, "non-green" is the negation of the predicate function "green", which means that it matches any creature that does not have "Green" among its colors.
+

@@ -1,0 +1,13 @@
+Q:
+
+What is the power of Bell Borca on opponent's turns?
+
+Bell Borca, Spectral Sergeant enters the battlefield as a 0/5, and gets power when something gets exiled. Does the power hold till the next of the controller's upkeep, or does it get reset to a 0/5 each upkeep?
+
+A:
+
+Bell Borca, Spectral Sergeant's power is equal to the greatest number noted for it this turn.
+
+(emphasis mine)
+So its power gets reset every upkeep (well, actually somewhat earlier, there is an untap step happen before the upkeep), not just its controller's. The reset happens as soon as the turn begins, so Meekstone has no effect on Bell Borca (unless, of course, it has a permanent power buff because of e.g. an equipment).
+

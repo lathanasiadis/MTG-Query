@@ -1,0 +1,19 @@
+Q:
+
+Could I play forever with this loop combination?
+
+Let it be my main phase: I got Omniscience on the field and one Clear the Mind in my graveyard and another one in my hand.
+Could I then play forever?
+Because I would never run out of cards, so these rules would never apply, right? 
+MTG Arena: If I continue to do this combo over and over again, would at some point my timer start to run out?
+
+A:
+
+I assume your library is empty and your graveyard contains no other cards; otherwise you risk drawing something else (an Island?) and you'll have no Clear the Mind to cast anymore.
+Even then, you cannot play forever; it's a "loop", but one with non-mandatory actions, and you'll have to use a shortcut to state how many times you want to perform the action.
+
+720.1b Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a “loop”). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken.
+
+This loop is only useful if you have some other effect, e.g. Niv-Mizzet, the Firemind which turns your card draws into damage, or as you mention, Psychic Corrosion to mill your opponent.
+(I don't know what happens in this situation in MTG Arena, I don't play it.)
+

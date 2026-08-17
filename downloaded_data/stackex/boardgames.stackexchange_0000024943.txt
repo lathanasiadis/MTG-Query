@@ -1,0 +1,22 @@
+Q:
+
+Does "return" from graveyard to Zone X require a card to have been in Zone X?
+
+When an ability says, return X from Zone A to Zone B, can the ability only be used if X was in Zone B previously?
+In particular, consider the Reassembling Skeleton's ability text:
+
+{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield
+  tapped.
+
+If I was forced to discard a Reassembling Skeleton from my hand or library, am I prohibited from "returning" it to the battlefield?
+If not, can the "return" ability be used at any time? Or only during the turn in which the card entered the graveyard?
+
+A:
+
+When an ability says to "return" a card from one zone to another, the card does not need to have ever been in the zone it is "returning" to. "Return" is just the word they use on Magic cards to describe moving between certain zones (graveyard to battlefield or hand, battlefield to hand). Rule 400.7 says
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+The card in the graveyard doesn't count as the same object as the card in your hand or the permanent on the battlefield, and it doesn't know what zone it used to be in.
+The ability itself is just an activated ability that can be activated if the card is in your graveyard. Like any other activated ability, you can activate it any time you have priority.
+

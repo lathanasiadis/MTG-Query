@@ -1,0 +1,24 @@
+Q:
+
+Does a triggered ability with no legal target for only some of its targets make it to the stack?
+
+Let's say my opponent controls a Spirit of the Hearth, and thus has hexproof.
+I summon a Burning Sun's Avatar, and its enters-the-battlefield ability triggers.
+I don't have a legal target for target opponent, but I could for up to one target creature.
+Does the triggered ability make it to the stack with as many legal targets as possible, or does it get cancelled by not being able to choose a legal target when putting it on the stack?
+
+A:
+
+You cannot choose targets for Burning Sun's Avatar's triggered ability, and therefore cannot put it on the stack, if you have no opponents that are legal targets.
+Burning Sun's Avatar's ability says
+
+When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature.
+
+This means that in the process of putting the ability on the stack, you must choose exactly one opponent as the the first target, and zero or one creatures as the second target. If no opponents are legal targets, then you cannot choose a legal combination of targets for the ability, and it will not be put on the stack.
+We have the following rules that describe how to put a triggered ability on the stack:
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+
+If for one of the targets the spell requires there are no legal choices, then the ability is simply removed from the stack.
+

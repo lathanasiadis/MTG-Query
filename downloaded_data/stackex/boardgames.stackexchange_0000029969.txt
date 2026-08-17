@@ -1,0 +1,25 @@
+Q:
+
+Will Hallowed Moonlight exile creatures from Starfield of Nyx
+
+A continuous effect that changes enchantments to creatures (Starfield of Nyx) is on the battlefield and the effect is active.
+During my upkeep, I target an enchantment to return.
+In response, my opponent casts Hallowed Moonlight which creates a replacement effect that only affects creatures entering the battlefield.
+I know that enchantments that enter the battlefield do trigger creature ETB triggers.
+But, since the replacement effect occurs before it would enter the battlefield, is the enchantment exiled (aside from the "may" clause in Starfield)?
+
+A:
+
+This has changed as of the Ixalan rules update. Under the current rules, Hallowed Moonlight will exile any Enchantment that Starfield of Nyx would put onto the battlefield if its type changing effect is active
+The original ruling from the Ask a Magic Judge tumblr, quoted below, appears to be based directly on rule 614.12. The new text of that rule says
+
+Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+Under the new rules, the Starfield's continuous effect that makes the enchantment a creature is taken into account while applying replacement effects that affect an object that would enter the battlefield, so Hallowed Moonlight's effect applies and the enchantment is exiled.
+
+Old Answer (now incorrect)
+Assuming that the enchantment is not printed as a creature, Hallowed Moonlight will not exile it.
+The Ask a Magic Judge tumblr already has a post covering this exact situation. To explain the reasoning, it says (emphasis added)
+
+When we determine whether or not to apply a certain replacement effect, like Hallowed Moonlight’s, to an object that would enter the battlefield, we only look at that object’s own abilities and characteristics and not other effects that would change the abilities or characteristics of the object once it’s on the battlefield. Since a normal enchantment isn’t going to generally enter the battlefield as a creature, Hallowed Moonlight’s effect isn’t applied here.
+

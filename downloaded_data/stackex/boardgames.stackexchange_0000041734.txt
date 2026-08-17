@@ -1,0 +1,27 @@
+Q:
+
+What does "until end of turn" mean?
+
+Sure Strike has the text
+
+Target creature gets +3/+0 and gains first strike until end of turn.
+
+I don't understand what "first strike until end of turn" means.  Does this mean the creature gets first strike until my opponent starts his turn, and then the "first strike" effect is canceled forever?  Or does the creature get first strike every time I start my turn?
+
+A:
+
+Yes, the "first strike" ability will be canceled "forever". The creature which had the ability "until end of turn" will lose this ability exactly at the end the current turn, and not at the beginning of the next turn.
+To answer your question more clearly, a few things must be laid out first as a basic understanding of the game's structure:
+A turn is composed of several phases (and their respective steps). The step that is relevant to your question is quoted here. All quoted text is taken from the Comprehensive Rules of Magic: the Gathering.
+I strongly suggest your do your own reading about phases and steps, as it will greatly improve your understanding of the game.
+Here, we'll be looking at the ruling on effects that happen "until end of turn". That's CR514, which deals with the last step of a turn, the Cleanup Step:
+
+Cleanup Step
+  
+  
+[...]
+    514.2. Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+
+As you can see, nothing about this rule states that these kinds of effects ever come back into action. This means that, once your turn reaches the cleanup step, all effects that happen "until end of turn" cease to happen. 
+Note that at the beginning of this answer, I quoted the word "forever". I did that because, naturally, if at any other point in the game you once again give your creature any ability "until end of turn", it will once again have that ability until the next cleanup step is reached.
+

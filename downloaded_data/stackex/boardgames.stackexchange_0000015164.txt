@@ -1,0 +1,51 @@
+Q:
+
+Question about interaction: levitation, then gravity sphere, then oblivion ring on each, then tranquility. Who flies away?
+
+Here are the cards involved:
+
+Levitation
+
+Creatures you control gain flying.
+
+Gravity Sphere
+
+All creatures lose flying.
+
+Oblivion Ring
+
+When Oblivion Ring enters the battlefield, exile a nonland permanent (card).
+When Oblivion Ring leaves the battlefield, return that permanent (card) to play under its owner's control.
+
+Tranquility:
+
+Destroy all enchantments.
+
+So, I play a Levitation, and all of my creatures gain flying. Next turn, my opponent responds with a Gravity Sphere, and so, since the Gravity Sphere came into play more recently, it overrides Levitation, so all of my creatures would then lose flying. So, I play Oblivion Ring on his Gravity Sphere, my creatures gain flying again. He then plays Oblivion Ring on my Leviation, they lose flying. I then play Tranquility, which simultaneously kills both Oblivion Rings and brings back the Levitation and Gravity Sphere. So at this point, does everyone fly, or do they all stay on the ground?
+
+A:
+
+Short answer: your creatures lose flying.
+Since both Oblivion Rings are destroyed at the same time, their triggered abilities "When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control." are put on the stack. They are put on the stack in APNAP order:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered
+  abilities he or she controls on the stack in any order he or she
+  chooses. (See rule 101.4.) Then the game once again checks for and
+  resolves state-based actions until none are performed, then abilities
+  that triggered during this process go on the stack. This process
+  repeats until no new state-based actions are performed and no
+  abilities trigger. Then the appropriate player gets priority.
+
+Since we are in your turn (because Tranquility is a sorcery), the ability of the Oblivion Ring you control is put on the stack, then on top of that is put the ability of the other Oblivion Ring. First we resolve the one your opponent controls which returns Levitation to the battlefield. Then we resolve the one you control, and return Gravity Sphere. Since Gravity Sphere entered last on the battlefield, all your creatures lose flying.
+Of course, if you somehow managed to destroy both rings on your opponents turn, then the result would be reversed and your creatures would have flying.
+
+When you asked the question, you thought Levitation and Gravity Sphere were entering the battlefield simultaneously. You now know that's not the case here, but you probably still wonder what would happen if they did enter the battlefield simultaneously.
+The order in which the effects are applied are defined in the section of the rules entitled "Interaction of Continuous Effects". As you've indicated, it comes down to timestamps in this case (whichever has the latter timestamp wins out). So which one has the later timestamp if they both entered the battlefield simultaneously?
+
+613.6g If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their timestamp order at that time.
+
+Being the Active Player, you would decide the timestamp order.
+
+If you decide that Levitation has the lower timestamp, it gives the ability then Gravity Sphere takes it away, so none of your creatures can fly.
+If you decide that Gravity Sphere has the lower timestamp, it task away the ability then Levitation grants it, so all of your creatures can fly.
+

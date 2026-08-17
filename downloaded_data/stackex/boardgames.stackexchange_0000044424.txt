@@ -1,0 +1,19 @@
+Q:
+
+Does First Strike apply when two creatures Fight each other?
+
+Does First Strike apply when two creatures fight, i.e when they have been targets of the Fight ability?
+
+A:
+
+No. First strike only works in combat, and Fight is not a combat ability. See the Comprehensive Rules:
+
+701.12. Fight
+701.12a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+701.12b If a creature instructed to fight is no longer on the battlefield or is no longer a creature, no damage is dealt. If a creature is an illegal target for a resolving spell or ability that instructs it to fight, no damage is dealt.
+701.12c If a creature fights itself, it deals damage to itself equal to twice its power.
+701.12d The damage dealt when a creature fights isn’t combat damage.
+
+702.7. First Strike
+702.7a First strike is a static ability that modifies the rules for the combat damage step. (See rule 510, “Combat Damage Step.”)
+

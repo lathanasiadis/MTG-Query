@@ -1,0 +1,24 @@
+Q:
+
+Combat Damage Steps (Double Strike) and Sacrificing a Creature
+
+I am attacking with my only creature, Dragon-Style Twins, a creature with 3 power and Double Strike.
+My opponent is blocking with two Griffin Sentinel, which have 3 toughness.
+After he declares both Sentinels as blockers, he flashes in Dictate of Erebos, which says
+
+Whenever a creature you control dies, each opponent sacrifices a creature.
+
+How does Dragon-Style Twins's double strike work against the Sentinels?  Is Dictate of Erebos triggered after the first combat damage phase, which would require me to sacrifice my Twins before I can deal damage to the second one?
+
+A:
+
+Yes, you are correct. Double Strike, like First Strike, causes 2 separate combat damage steps. In each of these, players get priority, which means that state based actions happen and triggered abilities go on the stack. 
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step.
+
+And:
+
+510 Combat Damage Step
+
+510.3a Any abilities that triggered on damage being dealt or while state-based actions are performed afterward are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+

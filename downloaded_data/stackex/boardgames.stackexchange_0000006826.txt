@@ -1,0 +1,13 @@
+Q:
+
+Regeneration specifics: activation of the ability in combat
+
+I'm aware of this question about regeneration, which covers almost everything about it, but the focus of that question was on instants such as Shock or Doom Blade. My question is different and wasn't answered by that post.
+If I block a 5/5 creature with two 4/4 creatures that both have a regeneration ability, but I only have enough mana to regenerate one of my creatures, can I regenerate after my opponent has assigned lethal damage to one of my creatures?
+Does the creature immediately die from lethal damage since I can't predict where said damage will go (and therefore can't activate the shield beforehand), or can I still regenerate it?
+
+A:
+
+In the declare blockers step, the attacker must specify the order of the blocking creatures.  
+What that means, in the scope of your question, is that the owner of the 5/5 creature must declare which of your 4/4s he is going to deal damage to first.  As such, you have a pretty good idea which creature you want to regenerate: the one the attacker put first into the firing line!  Unless something else happens, that creature will take 4 damage and be regenerated, the other creature will take 1 damage, and both your blockers will survive.
+

@@ -1,0 +1,18 @@
+Q:
+
+How does copying a creature with +1/+1 counters on it work?
+
+If I have a 0/0 with 13 +1/+1 counters on it and I or my opponent copies that creature, would it copy the 0/0 and die from its base power and toughness, would it be a 0/0 with 13 +1/+1 counters, or would it be a base 13/13 from copies the original creature's current power and toughness?
+
+A:
+
+Copy effects copy the printed values[1] —not the current values— of the object being copied, so the copy will be a 0/0.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+(Emphasis mine.)
+If an object is being created as a copy (e.g. Clone), some pre-existing unmentioned effect (such as the one created by Bad Moon's ability) would be needed to keep the copy alive.
+If an existing object is becoming a copy (e.g. Lazav, Dimir Mastermind), pre-existing counters of its own or some pre-existing unmentioned effect (such as the one created by Arcane Flight's ability) would be needed to keep the copy alive.
+
+If copying a token, the token's initial values are copied.
+

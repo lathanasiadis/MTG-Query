@@ -1,0 +1,23 @@
+Q:
+
+Why do some cards which counter abilities say they can't counter mana abilities?
+
+Some cards, like Voidslime, counter abilities - but they say they can't counter mana abilities. Why is that?
+
+A:
+
+Because mana abilities get special treatment that prevents countering: they resolve instantly, without first going onto the stack. That leaves no opportunity to target them with anything - such as a counter spell - before they resolve.
+Rule 605.3 describes this for activated abilities (as in Elvish Mystic), and rule 605.4 describes this for triggered abilities (as in Lotus Cobra).
+
+605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2), with the following exceptions:
+
+605.3b An activated mana ability doesn't go on the stack, so it can't be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+
+605.4. Triggered mana abilities follow all the rules for other triggered abilities (see rule 603, "Handling Triggered Abilities"), with the following exception:
+
+605.4a A triggered mana ability doesn't go on the stack, so it can't be targeted, countered, or otherwise responded to. Rather, it resolves immediately after the mana ability that triggered it, without waiting for priority.
+Example: An enchantment reads, "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced." If a player taps lands for mana while casting a spell, the additional mana is added to the player's mana pool immediately and can be used to pay for the spell."
+
+Note that Voidslime's italicized "(Mana abilities can't be targeted.)" is reminder text. It's a statement about how these rules work, not a specific limitation of Voidslime.
+Rule 605.1 defines what counts as a mana ability. At the time of writing, it has to meet three criteria: "it doesn't have a target, it could put mana into a player's mana pool when it resolves, and it's not a loyalty ability." This means Deathrite Shaman's first ability is not a mana ability.
+

@@ -1,0 +1,14 @@
+Q:
+
+Is cascade triggered by putting a creature into play?
+
+If Wild Pair is on the field when I cast a 5/5, and I use Wild Pair to put Enlisted Wurm into play, does Enlisted Wurm's cascade trigger?
+
+Wild Pair: Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.
+Enlisted Wurm: Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
+
+A:
+
+No.  Cascade triggers when the spell with Cascade is cast.
+Casting a spell is different from putting a permanent into play.  Casting a permanent spell puts that spell on the stack.  When a permanent spell resolves, that permanent enters play.  There are other ways of putting a permanent directly into play (like Wild Pair) that do not involve casting a spell.
+

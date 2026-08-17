@@ -1,0 +1,28 @@
+Q:
+
+Can I deal damage to Hornet Nest multiple times before it dies?
+
+If I have a Hornet Nest on the battlefield, can I cast 2x Lightning Axe on it to get 10 tokens? Or does the creature die between the first Lightning Axe and the space that the opponent has to respond? I think I can play as many instants as I want on the same creature before the stack resolves and the creature dies, right?
+
+A:
+
+If it is your turn, you may cast two instances of Lightning Axe (or any other instant) before your opponent gets priority. However, they do not resolve until your opponent has a chance to respond. 
+The order is:
+
+You get priority
+You cast Lightning Axe, choosing targets and paying the costs; Lightning Axe is on the stack
+You intentionally retain priority.
+You cast Lightning Axe, choosing targets and paying the costs; second Lightning Axe is on stack.
+You get priority, you pass
+Opponent gets priority, they may cast a spell.
+Opponent passes priority.
+Second Lightning Axe checks if the target is still legal. It is, it resolves. Creature has lethal damage.
+a. 5 Damage has been dealt to Hornet Nest, so next time priority would be given, ability that creates 5 Hornet tokens would be put on stack.
+State-based actions are checked, creature dies. 
+Ability that creates 5 Hornet tokens goes on stack. (It resolves)
+You get priority, pass
+Opponent gets priority, pass.
+First Lightning Axe checks if target is still legal.  It is not, so it fizzles. No damage is dealt to Hornet Nest
+
+Final result: 5 Hornet tokens
+

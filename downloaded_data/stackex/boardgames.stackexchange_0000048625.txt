@@ -1,0 +1,20 @@
+Q:
+
+Can I tap all my opponent's lands while they're casting a spell to negate it?
+
+If my opponent attempts to play Molten Disaster (along with the kicker cost which gives it split second), can I play Mind Games to tap my opponent's lands to negate Molten Disaster?
+
+A:
+
+No, you can't do that.
+Casting a spell follows this basic process:
+
+The player puts the card on the stack.
+They make all choices for that spell, including targets, additional costs, etc.
+They pay for the spell.
+
+During this process nobody is allowed to cast spells, activate abilities, or do anything at all really — the exception is that the player can activate mana abilities while casting their spell to pay for it.
+Only after this process does any player gain priority, meaning they are allowed to cast spells and activate abilities. The player who cast the spell gets priority first, then they can pass priority to the next player in turn order, and so on. (For more details on casting spells and priority see In plain English, how does casting spells and using creature abilities work with the stack and priority?.)
+This means that by the time you are able to cast spells in response to your opponent casting Molten Disaster, it has already been fully paid for. It is too late to tap down their lands. Plus their Molten Disaster is now on the stack with split second so you can't cast spells at all until it resolves!
+If you did want to tap down their lands, they can just activate them for their mana in response anyway while your spell is still on the stack, and use that mana right afterwards.
+

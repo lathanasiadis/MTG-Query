@@ -1,0 +1,35 @@
+Q:
+
+Prophet of Kruphix: Can I flash Bestow?
+
+If I have Prophet of Kruphix out (which gives all my creatures flash), can I use the bestow ability of my enchantment creatures during my opponents turn? For example, can I bestow Thassa's Emissary on one of my creatures, during my opponents turn?
+Bestow text for reference:
+
+If you cast this card for its bestow cost, it's an Aura spell with
+enchant creature. It becomes a creature again if it's not attached to
+a creature.
+
+Similarly, if I do not have enough devotion for Thassa, God of the Sea to be a creature, can I use flash to cast her during my opponents turn?
+Thassa's devotion related text, for reference:
+
+As long as your devotion to blue is less than five, Thassa isn't a
+creature. (Each Blue in the mana costs of permanents you control
+counts toward your devotion to blue.)
+
+A:
+
+Yes, you can, for both. Prophet of Kruphix allows you to cast "Creature Cards" as though they had flash. Thassa's Emissary IS a Creature Card. It's NOT a "Creature", as a "Creature" is a permanent on the battlefield, which it isn't while it's in your hand or on the stack. But it IS a "Creature Card", and that's all that matters.
+See rules for Bestow, noting that Bestow ability that allows you to cast it as an Aura is a static ability of the card itself, not of a creature or aura permanent.
+
+702.102. Bestow
+
+702.102a Bestow represents two static abilities, one that functions while the card with bestow is on the stack and another that functions
+    both while it's on the stack and while it's on the battlefield.
+    "Bestow [cost]" means "You may cast this card by paying [cost] rather
+    than its mana cost." and "If you chose to pay this spell's bestow
+    cost, it becomes an Aura enchantment and gains enchant creature. These
+    effects last until one of two things happens: this spell has an
+    illegal target as it resolves or the permanent this spell becomes,
+    becomes unattached." Paying a card's bestow cost follows the rules for
+    paying alternative costs in rules 601.2b and 601.2e–g.
+

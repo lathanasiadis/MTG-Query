@@ -1,0 +1,12 @@
+Q:
+
+Return a creature with an adventure to hand, can i cast the instant/sorcery again?
+
+Will returning Brazen Borrower from the battlefield to my hand using the -3 ability of Teferi, Time Raveler enable me to cast Petty Theft again?
+The rulings say nothing against it but I have the feeling that this would be kind of broken. But on the other hand you don't remember something like a "card state" I guess.
+
+A:
+
+Yes, you would be able to use the adventure again. 
+If an object changes zones (like battlefield, hand, library, graveyard and exile) it is a completely new object and knows nothing about anything that happened to "it" (the card that represents it) before. So you can send everything off on an adventure again. But you are right, for that you have to have played the creature part of the adventure and then return it to hand. Before that the card is in exile (and thus hard to interact with).
+

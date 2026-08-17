@@ -1,0 +1,12 @@
+Q:
+
+Destroying Odric, Master Tactician in response to declared attackers
+
+Alright, so we were playing a game and confusion was brought up.
+Player 1 Attacks with 5 creatures as well as Odric, Master Tactician. When doing so, Odric's ability kicks in saying P1 could choose which creatures block, and who they block. In this phase, when P1 declared which of his monsters were attacking, and P2 played Bright Reprisal, which states "Destroy target attacking creature. Draw a card." P2 used that card to destroy Odric. So with that being said, would Odric's ability still be in effect? 
+
+A:
+
+Abilities written as "Whenever X, Y" are triggered abilities, they go onto the stack when the trigger condition, in this case "Whenever Odric, Master Tactician and at least three other creatures attack" is met, the ability's effect, in this case "you choose which creatures block this combat and how those creatures block" is put on the stack.
+Once an ability is on the stack, changes to the board itself don't affect that ability, it is going to resolve unless countered. So unless you Stifle the ability, removing the Odric, no matter where he goes, be that to hand, exile, graveyard or even flickered back to the board, will not stop his ability from resolving. The only change to boardstate that can affect a spell or ability on the stack is if that ability is no longer legal, say removing all targets, causing the spell or ability to fizzle (be put in the graveyard as it would resolve).
+

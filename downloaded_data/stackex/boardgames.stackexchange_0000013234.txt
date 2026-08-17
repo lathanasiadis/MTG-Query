@@ -1,0 +1,13 @@
+Q:
+
+Activating abilities of creatures while it is in stack
+
+When I cast a creature with an ability that costs 2 mana to gain hexproof.Can I activate its ability as I'm casting it ?
+
+A:
+
+No.
+The only kind of abilities you can possibly activate during casting are mana abilities.
+Even if you could activate arbitrary abilities, you couldn't activate its ability because that ability (like most) can only be activated when the object on which it resides is on the battlefield. From the time you start casting the creature until it resolves, it's on the stack.
+Finally, hexproof (like most static abilities) only work when the object on which it resides is on the battlefield, so even if he spell had hexproof (e.g. Ascended Lawmage being cast), it wouldn't have any effect whatsoever.
+

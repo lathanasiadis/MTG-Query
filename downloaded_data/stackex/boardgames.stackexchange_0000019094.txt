@@ -1,0 +1,14 @@
+Q:
+
+Order of multiple triggered abilities
+
+What happens if two of my creatures, have triggered abilities, which trigger on attack, in what order it resolves?
+For example I have on board Prognostic Sphinx and Narset, Enlightened Master, and attack with both. Can I scry first put something on the bottom of my library and then exile 3 cards from top of my library, or it resolves at the same time so I scry 3 cards and same 3 cards + 1 additional are exiled?
+
+A:
+
+This is the general rule: when the same event triggers multiple triggered abilities, the controllers of the abilities decide what order to place them on the stack, in APNAP (active player first, then non-active player) order (rule 603.3b).
+In your example, you get to choose. If you put the Sphinx's ability on the stack first, then Narset's resolves first, so you exile the top four cards, then scry the next three. If you put Narset's ability on the stack first, you scry 3 first (which will set up better cards for Narset), and then exile. In most situations you would want to put Narset's ability on the stack first.
+Note that what you describe as resolving "at the same time" never happens in Magic. Spells and abilities are always on the stack in some order, and they always resolve in that order.
+To extend the example, if your opponent controlled a Blood Reckoning, no matter what order you placed your two triggered abilities on the stack, your opponent (the non-active player) would place two triggered abilities from the enchantment (one for each attacking creature) on top of them, and they would always resolve before your abilities. If you had a life total of two when you attacked, even if you knew that you would be able to cast a life gain spell for free off of the cards Narset exiled, you would still lose life from Blood Reckoning -- and lose the game -- before Narset's ability resolved.
+

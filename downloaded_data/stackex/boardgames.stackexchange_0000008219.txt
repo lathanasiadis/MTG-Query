@@ -1,0 +1,24 @@
+Q:
+
+Can I attempt to activate an equipment's equip ability without a valid target?
+
+Say I have a Mycosynth Wellspring on the field and a Piston Sledge. The equip cost for piston sledge is "sacrifice an artifact". If I control no creatures, can I sacrifice the Mycosynth Wellspring to the Piston Sledge to benefit from its ability, or does the equip ability require a valid target in order to pay its cost?
+
+A:
+
+No you may not, you need a target to activate the equip ability. Equip means from the Comprehensive Rules
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+
+Activating an ability is very similar to casting a spell, and most of the same steps need to be followed to activate an ability. If you cannot comply with all the steps, then you have performed an illegal action, and the game backs up the game state to just before that illegal action.
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. ... Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 717, “Handling Illegal Actions”). Announcements and payments can’t be altered after they’ve been made.
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–h.
+
+This is the important step that you are incapable of complying with. You cannot announce a valid target for the equip activated ability.
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. ...
+
+BTW, if you did have a single creature that the Piston Sledge was already attached to, you could sacrifice an artifact to Equip the Piston Sledge to the already equipped creature. If the creature was an Artifact Creature, you could sacrifice the creature to pay the costs of the activation since costs are paid after targets are chosen.
+

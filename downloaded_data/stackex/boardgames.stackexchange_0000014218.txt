@@ -1,0 +1,19 @@
+Q:
+
+Do permanents controlled by a player with hexproof also have hexproof?
+
+If I have a Witchbane Orb, then I (the player) have hexproof.
+
+Are permanents I control also hexproof? Or am I only hexproof from abilities that target me specifically?
+Can a card like Wrath of God be used to destroy creatures with hexproof, because it is not targeting the creature(s)?
+
+A:
+
+You are the only one protected from opponent's spells that target you with a witchbane orb. Saying a player is hex proof is not the same as saying all of their permanents are hex proof as well.
+As for wrath of god and other 'All creatures' or 'all players' spells. Since there is no targeting hex proof does not protect a creature from Wrath of God. Indestructible would protect a creature from wrath of god, but not hex proof.
+
+Looking at Comp rule 114.1a a definition for targeted is made. It says that the verbiage 'target [something]' is the indicator that a spell is targeted.
+Looking at 702.11 the definition for hex proof says a permanent can't be the target of a spell. meaning it can't be targeted.
+So a Wrath Of God that says 'Destroy All Creatures' is not considered a targeted spell and thus is not hampered by hex proof.
+Furthermore looking at 114.9a it is clarified that just because a spell or ability can affect objects and players they don't target does not mean they have atrgeted that player or object.
+

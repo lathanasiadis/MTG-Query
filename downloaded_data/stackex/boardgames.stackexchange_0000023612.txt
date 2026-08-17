@@ -1,0 +1,19 @@
+Q:
+
+If I sacrifice a Sultai Emissary to a Gurmag Drowner's Exploit ability, which triggered ability resolves first?
+
+I need to know what happens first if I exploit a Sultai Emissary with a Gurmag Drowner. Do I look at the top 4 cards in my library and choose a card to add to my hand first or do I manifest the top card of my library first?
+
+A:
+
+You choose what order they happen in, because you control both abilities, and they both trigger from the same event. Rule 603.3b says
+
+If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+Specifically, here's how it plays out:
+
+Gurmag Drowner enters the battlefield, and its Exploit ability triggers.
+The Exploit ability resolves, and you choose to sacrifice Sultai Emissary.
+Now, since the last time you checked you chose to sacrifice Sultai Emissary, so Gurmag Drowner's second ability triggers because you exploited a creature, and Sultai Emissary's ability triggers because it died. You choose in what order they go on the stack.
+First, you resolve whichever ability you chose to put on top of the stack. Then you resolve the other one.
+

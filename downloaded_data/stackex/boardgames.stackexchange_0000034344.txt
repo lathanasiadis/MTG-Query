@@ -1,0 +1,30 @@
+Q:
+
+Why doesn't Rishkar, Peema Renegade have Support 2?
+
+This bugs me.
+Rishkar, Peema Renegade's Enter the Battlefield ability:
+
+When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.
+
+Lead by Example spell text:  
+
+Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
+
+Another creature with support: Saddleback Lagac 
+
+When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)
+
+So, why isn't the text for Rishkar, Peema Renegade:  
+
+When Rishkar, Peema Renegade enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)
+
+Huh?
+
+A:
+
+Rishkar can put a counter on himself. You can't do that with support.
+If that were not the case, there's another reason: most keyword mechanics only last for the single block in which they are introduced. For example, support was introduced in Oath of the Gatewatch. Once that block was printed, that's it for support. Future cards which have functionally identical mechanics will have the text of the mechanic written out, rather than using a keyword. An example is Gearseeker Serpent, which functionally has affinity for artifacts, but does not use the keyword.
+The exceptions are evergreen mechanics, which can be used in any set. These are things like flying, deathtouch, and scry. Support is not evergreen, though.
+I'm not sure exactly what reason Wizards uses to justify limiting keyword mechanics in this way, but I can think of one good possibility: when they use a keyword in a set, they want to make it common enough that people playing with those cards will internalize the keyword. That's the whole point of a keyword, after all; you see it often enough that you come to learn what it means and then you don't have to read the reminder text or the relevant rules. But putting a keyword on only one card doesn't save any mental effort compared to writing out the text of the mechanic, and it may even be more confusion than it's worth to newer players who would then have one more unfamiliar word to deal with on the card.
+

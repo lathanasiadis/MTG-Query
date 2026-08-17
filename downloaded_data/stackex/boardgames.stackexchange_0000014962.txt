@@ -1,0 +1,29 @@
+Q:
+
+What happens when I target an indestructible card with an "if that would die this turn, exile it instead" effect?
+
+Annihilating Fire says:
+
+Annihilating Fire deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+
+If I deal lethal damage to an indestructible creature with Annihilating Fire or after Annihilating Fire has been played on it this turn will the the creature be exiled?
+
+A:
+
+No. 
+Lethal damage will not cause an indestructible creature to die.
+
+700.4. The term dies means "is put into a graveyard from the battlefield."
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the
+  state-based action that checks for lethal damage (see rule 704.5g).
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that
+  creature has been dealt lethal damage and is destroyed. Regeneration
+  can replace this event.
+
+However, if another effect causes the indestructible creature to die (for example through sacrificing), Annihilating Fire's effect will cause the card to be exiled.
+A ruling on gatherer:
+
+10/1/2012     A creature dealt damage by Annihilating Fire will be exiled
+  no matter why the creature would die. It could be destroyed by another
+  spell or ability.
+

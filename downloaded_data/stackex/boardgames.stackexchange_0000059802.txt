@@ -1,0 +1,16 @@
+Q:
+
+How does Persist and Finality interact with each other?
+
+A player in my pod played Admiral Brass, Unsinkable which puts a finality counter on his pirate when they enter the battlefield from their graveyard during combat. I had a Cauldron of Souls which lets me give any number of creatures persist until end of turn which allows them to come back to the battlefield with a -1/-1 counter if they died.
+So when a creature with a Finality counter dies would it come back to the battlefield with a -1/-1 counter because of Persist or would it go to exile?
+
+A:
+
+It will be exiled because of the Finality counter.
+Persist will not do anything, because persist is a triggered ability that triggers when a creature goes to the graveyard, while finality is a replacement ability that prevents the creature from ever going to the graveyard in the first place.
+
+122.1h One or more finality counters on a permanent create a single replacement effect that stops the permanent from going to the graveyard. That effect is “If this permanent would be put into a graveyard from the battlefield, exile it instead.”
+
+702.79a Persist is a triggered ability. “Persist” means “When this permanent is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner’s control with a -1/-1 counter on it.”
+

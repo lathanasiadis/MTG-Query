@@ -1,0 +1,18 @@
+Q:
+
+How are colored mana symbols ordered?
+
+Yesterday when I organized a part of my collection I noticed something odd. I especially looked at Flying Crane Technique and Ruhan of the Fomori.
+Note how Flying Crane Technique's mana cost are {3}{U}{R}{W} and Ruhan of the Fomori has {1}{R}{W}{U}. In the oracle box of Ruhan the mana costs are already different to what the printed card shows and thus match the pattern of Flying Crane Technique.
+Are colored mana costs of cards in any specific order? Was this not the case but they changed it after a specific set?
+
+A:
+
+The general rules for mana costs are to order them in sequence around the WUBRG circle, with white also following after green, with adjacent pairs having equal gaps in the clockwise direction, and minimizing the size of those gaps.
+For two-color cards, this means that you order the pair so that you move the shortest distance in the clockwise order. So, white and blue will be WU, and white and green will be GW.
+Four-color cards are also pretty simple, you write them going clockwise around the circle with no gaps. So a non-black card will have the order RGWU.
+Five color cards are the simplest of all: they always have the order WUBRG.
+Three-color combinations are the most complicated. There are two kinds of three-color combinations: shards and wedges. Shards are combinations with three adjacent colors, and they are just written with the colors adjacent in clockwise order. So, a white/blue/black card will have the order WUB, and a white/blue/green card will have the order GWU. Wedges are combinations with two adjacent colors and one opposite both of them. They are written with the two adjacent colors on the outside, and the opposing color in the middle. This creates a gap of size 2 between each adjacent pair of colors in the cost.
+The cards in the question are examples of wedges: blue and white are the adjacent colors, and red is the opposing color. The order you see is the one that obeys the listed rules. The previous rule, as you can see on Ruhan of the Fomori, was to put the opposing color first.
+According to this reddit thread, the color order for wedges was changed in Khans of Tarkir, the set Flying Crane Technique was printed in, and it has not changed again since then.
+

@@ -1,0 +1,15 @@
+Q:
+
+Aura Mutation vs. indestructible enchantments
+
+If the target is indestructible, does Aura Mutation still resolve and give you the tokens, or is an indestructible enchantment an illegal target?
+
+A:
+
+The spell still resolves and gives you tokens; being indestructible means nothing more than
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+(source: Comprehensive Rules)
+This is different from being an illegal target because of protection from white, shroud or hexproof.
+

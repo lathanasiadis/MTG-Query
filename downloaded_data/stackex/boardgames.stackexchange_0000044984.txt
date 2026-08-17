@@ -1,0 +1,18 @@
+Q:
+
+Hexproof in response?
+
+If I have a card out like Animar, Soul of Elements and my opponent cast a Murder and targets Animar, would I be able to morph my Mistfire Weaver and give Animar hexproof in response so that he doesn't die, or does he still die?
+
+A:
+
+So this is really a question about how the stack works.  First, to ansewer your question, Animar, Soul of Elements has protection from Black, so Murder can't be cast targeting Animar, unless Animar somehow lost protection from black. 
+Ruling:
+
+702.16. Protection
+702.16a Protection is a static ability, written “Protection from [quality].” This quality is usually a color (as in “protection from black”) but can be any characteristic value or information. If the quality happens to be a card name, it is treated as such only if the protection ability specifies that the quality is a name. If the quality is a card type, subtype, or supertype, the ability applies to sources that are permanents with that card type, subtype, or supertype and to any sources not 
+  on the battlefield that are of that card type, subtype, or supertype. This is an exception to rule 109.2.
+702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+
+But let's assume the person who cast Murder picked a valid target and then you turned Mistfire Weaver face up.  Stack is first in, last out.  So Murder goes on the stack targeting a valid creature.  Mistfire Weaver gets turned face up triggering it's ability and goes on the stack targeting the same creature (if the creature has protection from blue, then Mistfire's ability can't target the same creature).  Mistfire's ability resolves first (top of the stack, first out) giving the creature hexproof.  Then Murder tries to resolve, but sees it no longer has any legal targets and leaves the stack without doing anything.
+

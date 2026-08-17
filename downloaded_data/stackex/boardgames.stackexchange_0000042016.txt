@@ -1,0 +1,25 @@
+Q:
+
+Whenever you gain life put a counter. At the end of turn or by each time you gain life?
+
+I control an Archangel of Thune and a Seraph of Dawn. My opponent attacks and I block with seraph of dawn. I gain life, do I put the counter right away on my archangel of thune so I can block the other creature as a 4/5 archangel of thune instead a 3/4. Or the life gain effect triggers at the end of the turn?
+
+A:
+
+Archangel of Thune's trigger happens exactly when it says it does.. "whenever you gain life".
+When Seraph of Dawn deals damage, you gain that much life due to Lifelink, and this triggers Archangel of Thune. However, all combat damage is dealt simultaneously, so the Seraph and the Archangel will deal their damage at the same time. This will actually cause 2 separate "whenever you gain life" triggers, so all your creatures will get 2 +1/+1 counters. But by the time you get your +1/+1 counters, your creatures will have already dealt combat damage, and it will be too late for them to benefit from the counter during that combat phase.
+From the Basic Rulebook, page 16:
+
+Once players decide how the creatures they
+  control will deal their combat damage, the damage is
+  all dealt at the same time.
+
+And the comprehensive rules:
+
+Combat Damage Step
+  
+  
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+As for the question of "or at the end of turn"... don't read more into a card than what it says. It says "whenever you gain life", so that's all there is to it. If the card gave you a +1/+1 counter at the end of turn, it would say "at the beginning of the next end step, if you gained life this turn, put a +1/+1 counter on each creature." Cards say what they mean.
+

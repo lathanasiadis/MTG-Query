@@ -1,0 +1,16 @@
+Q:
+
+How do multiple copies of Merrow Commerce interact?
+
+If I have more than one copy of Merrow Commerce in play, they both trigger during my end step. Can I take actions after the first one resolves, but before the second one does? I'm thinking of something like tapping my Silvergill Douser and Merfolk Thaumaturgist to pick off an opponent's creatures, then having them untap again.
+
+A:
+
+Well yes you can. These are triggered abilities
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect].
+
+Multiple triggers are put on the stack, and after one resolves, you get priority as the active player.
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+

@@ -1,0 +1,18 @@
+Q:
+
+Is Boseiju, who Endures' channel ability blocked by protection from green?
+
+Card in question: Boseiju, who Endures
+I'd normally expect Boseiju's channel ability to be colorless because it's a land with no color identity. In the same vein, to my understanding, Forests are not actually green even though they tap for green mana. On the other hand, Boseiju is colored green. Is it actually green? Is it affected by protection and other green-only effects?
+
+A:
+
+Boseiju is colorless, not green.
+Rule 105.2 describes how objects get their colors:
+
+An object can be one or more of the five colors, or it can be no color at all. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame. An object’s color or colors may also be defined by a color indicator or a characteristic-defining ability. See rule 202.2.
+
+Boseiju has no mana cost, color indicator, or characteristic-defining ability. The frame is purely cosmetic, and has no effect on the the in-game color.
+
+The only existing land that is not colorless is Dryad Arbor, because it has a green color indicator.
+

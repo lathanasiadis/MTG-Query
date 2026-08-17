@@ -1,0 +1,11 @@
+Q:
+
+Would Rakdos, Lord of Riots allow a free Endless One cast?
+
+I have a commander / EDH deck running Rakdos, Lord of Riots as my commander. (This isn't a tournament legal deck by the way, just for casual play with friends) I've got Endless One in the deck as well. My question is, though: With Rakdos out, could I be able to get Endless One out, for free, with as much +1/+1 counters in it as there was damage dealt to opponents that turn? Or would I have to pay even one mana for it?
+
+A:
+
+Yes, if you choose a value for X that is less than or equal to the amount of life your opponents have lost this turn, you can cast Endless One for free.
+While casting a spell, one of the first steps involves making choices, including the value of X. Then, later, the cost is calculated, including cost increases and cost reductions. So, in this situation, you first choose the number you want for X, then you calculate the cost after Rakdos reduces it. Then you pay that much mana (note that it can't go below {0}).
+

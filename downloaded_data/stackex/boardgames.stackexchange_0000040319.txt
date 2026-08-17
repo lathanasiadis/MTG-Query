@@ -1,0 +1,14 @@
+Q:
+
+Does removing First Strike affect creatures with Double strike?
+
+Is a creature with double strike effected by 'creatures lose first strike and cannot be given first strike', for instance if an opponent has Archetype of Courage?
+
+A:
+
+No.  First Strike and Double Strike are entirely separate abilities.
+First Strike and Double Strike are different abilities with overlap in their effects.  Effects that care about First Strike ignore Double Strike, and vis versa.
+From the rulings on Urborg (which has the ability "{T}: Target creature loses first strike or swampwalk until end of turn."):
+
+Urborg’s second ability affects only the first strike ability, not the part of the double strike ability that acts like first strike.
+

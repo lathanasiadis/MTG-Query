@@ -1,0 +1,11 @@
+Q:
+
+What happens if I have two Pledges of Loyalty attached to a creature?
+
+Let's say, I only have Ersatz Gnomes (1/1 Artifact Creature) with Pledge of Loyalty on it. Since the Pledge is my only colored permanent, it will grant the Gnomes protection from white. If I now use the Gnomes' ability to make the Pledge colorless, I won't have any colored permanents on the battlefield and the Gnomes won't have protection any more.
+I can now cast a second Pledge of Loyalty on the Gnomes, giving it protection from white again. Now, what happens at the end of the turn, when the Gnomes' effect ends? Are one or both Pledges moved to the graveyard, since they enchant a creature with protection from white? Or do they both remain on the battlefield, since their effect does not remove Pledge of Loyalty? (The last one seems unlikely because a name on a card refers only to the card itself and not to another card with the same name.)
+
+A:
+
+Once the second Pledge enters the battlefield, the first one again starts granting protection from white to the Gnomes, which causes the second aura to fall off. This happens as a state-based action just after the second Pledge resolves.
+

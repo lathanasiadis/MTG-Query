@@ -1,0 +1,33 @@
+Q:
+
+Does Goblin Electromancer reduce both sides of a fused split card?
+
+Does Goblin Electromancer reduce the cost of a fuse spell on both sides of the card? Would Turn // Burn be {1}{U}{R} to cast both sides?
+
+A:
+
+No. Only one spell is cast, so only {1} is deducted for a total cost of {2}{U}{R}.
+
+Fuse is an alternative cost, as evidenced by "you have the additional option to cast both halves as a single spell by paying their combined cost". This refers to their mana cost (as will be stated explicitly in the rules). The combined mana cost of Turn and Burn is {3}{U}{R}.
+The Goblin Electromancer provides a cost reduction of {1}.
+total cost to cast a fused Turn and Burn
+= mana cost or alternative cost + additional cost and cost increases - cost reductions
+= {3}{U}{R} - {1}
+= {2}{U}{R}.
+
+UPDATE
+The rules have been released. It's not an alternative cost. Here's the relevant rule:
+
+702.101a Fuse is a static ability found on some split cards (see rule 708, "Split Cards" that applies while the card with fuse is in a player’s hand. If a player casts a split card with fuse from his or her hand, the player may choose to cast both halves of that split card. This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.
+
+702.101b A fused split spell has two sets of characteristics and one converted mana cost. The converted mana cost of the spell is a number equal to the total amount of mana in its two mana costs, regardless of color.
+
+702.101c The total cost of a fused split spell includes the mana cost of each half. (See rule 601.2e.)
+
+702.101d As a fused split spell resolves, the controller of the spell follows instructions of the left half and then follows the instructions of the right half.
+
+That's very poorly worded, but it's clear there's only one spell being cast. I'm going to get confirmation of my answer anyway.
+
+UPDATE
+Confirmed
+

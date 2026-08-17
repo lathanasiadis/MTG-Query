@@ -1,0 +1,38 @@
+Q:
+
+How can I make Wall of Roots's toughness 0 and still sacrifice it?
+
+In the ruling about Wall of Roots is written the following:
+
+2017-11-17: If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron’s abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost.
+
+I do not understand this properly. Compared to the state based actions this seems wrong. You would get the mana and then the creature dies. Mana ability are for normal not using the stack, and can't be responded to. But this is a mana ability, and a 'put a counter on a creature ability'. Does that mean, that the 'put the counter ability' is still on the stack, when you already got the mana? A creature can't have toughness 0 and then become sacrificed.
+I hope someone can explain to me this strange card.
+
+A:
+
+This ruling describes an unusual interaction with Bubbling Cauldron, which says:
+
+{1}, {T}, Sacrifice a creature: You gain 4 life.
+
+Specifically it requires mana and a creature sacrifice, and that ruling is attesting that you can use Wall of Roots for both. This is because of two quirks of the game:
+
+State-based actions are only checked when a player gets priority. This means they are not checked during the process of putting a spell or ability on the stack; they are just checked before and after. (The same is true for whilst a spell or ability is resolving, but that's not so relevant here.)
+Wall of Roots's ability is a mana ability, and mana abilities can be activated during the process of putting a spell or ability on the stack. They do not themselves use the stack and simply immediately resolve.(1)
+
+The process works like this:
+
+You announce you're activating Bubbling Cauldron's ability.
+During the process of activating the ability, because the cost includes a mana cost, you may activate mana abilities. You activate Wall of Roots's ability, pay its costs (put a -0/-1 counter on it, reducing it to 0 toughness), and add one green mana. It will now die the next time state-based actions are checked, but they're not going to be checked yet.
+After activating mana abilities you may now pay costs. You pay the one green mana and sacrifice Wall of Roots.
+The process of activating the ability is now finished. State-based actions are checked. If there's a creature with 0 or less toughness, it will now die, but there isn't one anymore.
+
+You can do the same thing with other spells or abilities that require both mana and a sacrifice as part of their cost, such as Eldritch Evolution or Evolutionary Leap.
+If you were to reduce Wall of Roots to 0 toughness outside the process of casting a spell or activating an ability, it would immediately die as you expect, and you would not also be able to later sacrifice it.
+(The citations above are from the procedure of casting spells. The rules for activated abilities say that we announce we're activating the ability, and then follow the spell casting procedure after that.)
+
+(1) From these rules in the section on mana abilities:
+
+605.3a A player may activate an activated mana ability whenever they have priority, whenever they are casting a spell or activating an ability that requires a mana payment, or whenever a rule or effect asks for a mana payment, even if it’s in the middle of casting or resolving a spell or activating or resolving an ability.
+605.3b An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+

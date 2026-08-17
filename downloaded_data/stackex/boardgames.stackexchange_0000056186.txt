@@ -1,0 +1,28 @@
+Q:
+
+Where did Interrupts in Alpha & Beta Magic Editions end?
+
+Here is another question regarding the very early Magic times, namely Alpha & Beta Edition.
+The old rules for spellcasting worked with a “Batch”, described in the Fourth Edition rules booklet as:
+
+A series of non-interrupt fast effects that build on one another as players respond to each other's spells.
+
+I wonder then why it refers to "a series of non-interrupt fast effects", since it could happen that series of interrupts were also played, such as Counterspells, also one after the other, and with a method of resolution very similar to that of the instants.
+The only difference, then, if I'm remembering well, was that interrupts had to be resolved between themselves first, and before every other fast effects; and only then, you had to check the instant and other fast effects, even if the fast effects would had cast after the interrupt.
+So, the question is this:
+Where did interrupts go , if they were not going on the batch?
+In addition to what I have already reported, did the "batch" rule carry other consequences regarding interruptions?
+Or is that all?
+(that is, repeating myself: the interruptions must be resolved first, and regardless of all other fast effects)
+Really thank you for tiny details provided ...!!
+
+A:
+
+Wizards have been kind enough to make available the transcript of a rulebook from the first era of Magic here. Among other things, it details the card types.
+
+Instants: An instant can be played at any time, and is always discarded afterwards. You cannot interrupt your rival with an instant, but your rival's spells do not take effect until after you have had a chance to respond with instants and other fast effects. Once you have responded, your rival can respond to you, and so forth. After all responses are finished, all spells take place at the same time.
+Interrupts: Interrupts can be played by either player at any time. Many interrupts modify the effects of spells; you cast them just as you or your rival are playing a spell you want to change. Although you must discard the interrupt immediately after you play it, its modification to a spell such as a summoning can be permanent. If you are not sure if you want to cast an interrupt, ask your rival to wait while you think. After your rival casts another spell, it is too late to interrupt the first. You may interrupt your own spells, and you and your rival can play more than one interrupt at a time. If you interrupt your own spells, your interrupt happens before your rival's. You may also interrupt an interrupt.
+
+So the way I read this, interrupts were played during the casting of another spell (probably comparable to where we now have an opportunity to activate mana abilities to pay for spells), immediately took effect, then went into the graveyard. All the while a player is still in the middle of casting something, like an instant, or another interrupt, or activating an ability. The interrupts were never placed on the batch.
+Mark Rosewater himself has said the Split Second mechanic from Time Stop is reminiscent of how interrupts worked back in the day (see for instance footnote 24 in this rant), and that rhymes well with what I see here, apart from the ability to interrupt interrupts (I guess Split Second could have allowed other Split Second cards to be played while they are on the stack, but that seems finicky).
+

@@ -1,0 +1,35 @@
+Q:
+
+What happens with palace guard and other blockers?
+
+Suppose my opponent attacks with 2 grizzly bears and I control 2 palace guard. I am on 1 life and must block both creatures to survive. I elect to block both creatures with both my palace guard.
+In this situation, my assumption is that both the attacker and blockers must assign a damage order for their creatures, however this is confusing as each player can potentially choose a different order. I am at a loss as to what happens in that situation.
+How are combatants ordered in this situation, and do player decisions have any significant impact on the outcome?
+
+A:
+
+For each blocking creature, you choose the order of the creatures that it is assigning damage to. So, for your palace guards, you have 4 total options:
+
+Palace Guard 1 and Palace Guard 2 both assign damage to Bear 1 first.
+Palace Guard 1 and Palace Guard 2 both assign damage to Bear 2 first.
+Palace Guard 1 assigns damage to Bear 1 first, Palace Guard 2 assigns damage to Bear 2 first.
+Palace Guard 1 assigns damage to Bear 2 first, Palace Guard 2 assigns damage to Bear 1 first.
+
+If you choose either #1 or #2, you will do 2 damage to 1 Bear and kill it, while not touching the other Bear. If you choose #3 or #4, you will do 1 damage to each Bear, and not kill anything.
+Also, for each attacking creature Your opponent gets to choose the order that your blocking creatures will take damage, so he also has 4 total choice:
+
+Bear 1 and Bear 2 both assign damage to Palace Guard 1 first.
+Bear 1 and Bear 2 both assign damage to Palace Guard 2 first.
+Bear 1 assigns damage to Palace Guard 1 first, Bear 2 assigns damage to Palace Guard 2 first.
+Bear 1 assigns damage to Palace Guard 2 first, Bear 2 assigns damage to Palace Guard 1 first.
+
+Similar to your choices, if he chooses #1 or #2, he will deal 4 damage to 1 Palace Guard and kill it; if he chooses #3 or #4, he will deal 2 damage to each Palace Guard and won't kill anything.
+
+509.2. Second, for each attacking creature that’s become blocked, the active player announces that 
+  creature’s damage assignment order, which consists of the creatures blocking it in an order of that 
+  player’s choice
+509.3. Third, for each blocking creature, the defending player announces that creature’s damage 
+  assignment order, which consists of the creatures it’s blocking in an order of that player’s choice. 
+
+The key here is that players get to choose separately how each attacking creature (and each blocking creature) orders/assigns its damage.
+

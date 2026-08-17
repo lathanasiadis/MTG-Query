@@ -1,0 +1,11 @@
+Q:
+
+Do -1/-1 counters count as damage?
+
+I am wondering if -1/-1 counters are considered damage? On creatures with the wither ability is says that the creature deals damage in the form of -1/-1 counters. As such I would like to know if a creatures wither-ability would trigger ex: Rite of Passage?
+
+A:
+
+In general, -1/-1 counters do not count as damage. However, in the case where an ability (such as Wither or Infect) says that damage is dealt in the form of -1/-1 counters, it does count as damage. When a creature with one of those abilities deals damage to another creature, it still counts as dealing damage to the other creature, but instead of marking damage, you put that many -1/-1 counters on the other creature.
+This means that damage dealt by a creature with Wither or Infect would trigger Rite of Passage.
+

@@ -1,0 +1,20 @@
+Q:
+
+Targeting an exchanged creature with a hexproof equipment
+
+If I have placed a hexproof equipment (Swiftfoot Boots) on one of my creatures and I exchange control of it with an opponent (Puca's Mischief), can I still target the exchanged creature?
+If I understand correctly, I lose control of the creature but still have control of the equipment. Since hexproof says, "It can't be the target of spells or abilities your opponents control...".
+
+A:
+
+No, you will not be able to target the creature while your opponent controls it.
+This is covered in the gather rulings on Swiftfoot boots:
+
+If an opponent gains control of a creature equipped by your Swiftfoot Boots, that creature can’t be the target of spells and abilities you control.
+
+The reasoning behind this is that the equipment is granting the creature Hexproof, to the game this is treated pretty much the same as if the creature had Hexproof written in its own text box. As a reminder Hexproof's definition is:
+
+702.11b: “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+So when your creature changes control from you (Player A) to your opponent (Player B), Player B is the controller of the permanent and Player A becomes the opponent that can't target it. 
+

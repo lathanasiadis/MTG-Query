@@ -1,0 +1,19 @@
+Q:
+
+If I use a colorless commander, can I use colored spells?
+
+In Commander, your General's color identity defines what other cards you get to use, but what happens when you have a colorless General? Can you play any other colors of cards (WUBRG), or are you stuck playing only colorless?
+
+A:
+
+You can only use cards with a colorless color identity with a commander that has a colorless color identity.
+Rule 903 has the rules for the commander format, and the following subrules are relevant here:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+903.5. Each Commander deck is subject to the following deck construction rules.
+
+903.5c A card can be included in a Commander deck only if every color in its color identity is also found in the color identity of the deck’s commander.
+
+"Colorless" color identity means that the card has no colors in its color identity. If you tried to put a card in your deck that had any colors in its cost or rules text or indicator, then it would have a color in its color identity that is not in the commander's color identity.
+

@@ -1,0 +1,19 @@
+Q:
+
+What is the resolution of tapping a blocking creature?
+
+Let's say I have declared a blocker during the correct phase and during the activate abilities step I choose to tap the blocker to use its ability.
+All the abilities resolve and now we move to the declare damage step.
+I believe the resolution is that the attacking creature remains blocked and that it deals damage to my blocker; however, the blocker does not deal damage to the attacker.
+How would this change if the blocker had first strike? How would this change if the blocker was sacrificed?
+
+A:
+
+The resolution is the attacking creature remains blocked and the damage resolves the same regardless if the blocking creature is tapped or not. They both do full damage as they normally would, and trigger any effects they normally would.
+If the Blocking creature was removed from play somehow before combat damage was dealt (say it was sacrificed like you asked) then the attacking creature is still blocked and would deal damage to nothing, unless it has trample.
+
+509.1g Each chosen creature still controlled by the defending player becomes a blocking creature. Each one is blocking the attacking creatures chosen for it. It remains a blocking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+509.2a During the declare blockers step, if a blocking creature is removed from combat or a spell or ability causes it to stop blocking an attacking creature, the blocking creature is removed from all relevant damage assignment orders. The relative order among the remaining blocking creatures is unchanged.
+510.1d A blocking creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage...
+

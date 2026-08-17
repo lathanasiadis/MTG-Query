@@ -1,0 +1,22 @@
+Q:
+
+In MTG what happens when you have multiple Aberrant Researcher in play?
+
+Aberrant Researcher:
+
+At the beginning of your upkeep, put the top card of your library into your graveyard. If it's an instant or sorcery card, transform Aberrant Researcher.
+
+Considering I had two of these in play:
+Two questions:
+1) Would I put two into the graveyard at the start of my upkeep?
+2) If an instant or sorcery is revealed do both flip at the same time?
+
+A:
+
+All Aberrant Researchers trigger independently of each other. An instant or sorcery revealed by one does not flip the other.
+If an object (for example, a creature) refers to itself by name in its card text, it only means itself, not other permanents with the same name.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+And yes, both Researchers' ability triggers at the beginning of your upkeep. The Researchers have no relation to each other, they just happen to have identical properties and abilities. They are also checking different cards - each one checks the card it put into the graveyard, not all cards put into the graveyard this way.
+

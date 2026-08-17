@@ -1,0 +1,30 @@
+Q:
+
+Combat damage assignment with multiple blockers
+
+After reading the comprehensive rules, the answer to these questions seem clear, but I'm still having trouble reconciling them in my mind.
+Here on some scenarios:
+(1) My opponent attacks me with a 4/2 and I choose to block with a 1/5 and a 1/1. If he assigns damage to the 1/5 first, and then the 1/1, what happens? From my reading of the rules, no creatures would die because blockers only assign damage if all creatures "in front" of them are assigned lethal damage. Therefore the 1/1 does not assign damage.
+(2) My opponent attacks with a 4/6, and I block with six 1/1s. What happens? My interpretation is that I would lose four 1/1s and the 4/6 would be assigned 5 damage. This implies that as long as an attacker has toughness at least 2 higher than its power, an army of 1/1s cannot kill it. Likewise an attacker with toughness three higher than its power cannot be killed by an army of 2/2s, etc.
+(3) If the 1/1 in the first scenario had first strike, it would deal damage regardless of the blockers order. This would result in the 4/2 being assigned 2 damage.
+Are all of these interpretations correct?
+
+A:
+
+Nope, nothing weird happens with blockers - they always assign damage equal to their power, no matter what order you've put them in. The order is just about dividing up your attacking creature's damage.
+The rule you were probably looking at is:
+
+510.1c  A blocked creature assigns its combat damage to the creatures blocking it. ... However, it can't assign combat damage to a creature that's blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. ...
+
+It sounds like the thing you missed is that this is only talking about the blocked creature (the attacking creature) assigning its combat damage to the creatures that are blocking it - it's an explanation of how that damage can get divided up among multiple blockers. The friendly/oversimplified version is "put them in order, then kill as many as you can starting with the first one" - pretty intuitive.
+But the blockers? They always assign damage equal to their power:
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. ...
+510.1d A blocking creature assigns combat damage to the creatures it's blocking.  ...
+
+There's no weird confusing rules here. The blockers always get to hit the creature they're blocking. (With the usual sorts of exceptions, e.g. they get killed before they get a chance to.) So your examples are pretty easy to deal with:
+1) The 1/5 and the 1/1 both hit your 4/2, so it dies. If you put the 1/1 first, it'll take 1 damage (killing it) and the 1/5 will take 3; if you put the 1/5 first it'll take 4 damage and the 1/1 won't take any.
+2) The six 1/1s all deal damage to your 4/6, so it dies. The 4/6 presumably assigns 1 damage each to the first four 1/1s you put in order, killing them. (Though you're actually allowed to deal more than lethal, e.g. 2 each to the first two, if you want to leave some of them alive for some reason.)
+3) First strike doesn't change the result here; the 1/1 hits the 4/2 first, but then normal damage happens, and the 4/2 still gets to deal all 4 of its damage as you see fit. First strike would matter if instead you had a 2/1 with first strike; it'd kill the 4/2 before it had a chance to deal any damage.
+If you want to make sure you understand the comprehensive rules (though it's probably overkill) read through that section again being careful to distinguish between "blocked creature" (an attacking creature which is blocked) and "blocking creature" (a creature which is blocking an attacking creature).
+

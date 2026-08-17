@@ -1,0 +1,16 @@
+Q:
+
+MTG: Creature can't attack unless X after "declare attackers"
+
+Say that I have Desperate Castaways and Walking Ballista with 1 
+ +1/+1 counter on the battlefield. This means that Desperate Castaways can attack at the moment.
+What would happen if I declare Desperate Castaways as an attacker, and then, at the beginning of "declare blockers", remove the +1/+1 counter from the Walking Ballista? The Ballista dies, of course, but does that mean that Desperate Castaways will be removed from combat, or does the "can't attack unless X" restriction apply only to declaring it as an attacker (which would mean that it would remain as an active attacker)?
+
+A:
+
+It remains an attacker.
+
+508.1k Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, or if it’s an attacking or blocking creature that regenerates (see rule 701.13) or stops being a creature. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that’s removed from combat stops being attacked
+506.4a Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don’t remove the creature from combat.
+

@@ -1,0 +1,31 @@
+Q:
+
+Are cards that are both Land and Creature affected by summoning sickness?
+
+Are cards that are both Land and Creature affected by summoning sickness with regard to:
+
+Possibility to attack
+Activating special abilities with the TAP symbol?
+
+A:
+
+Yes they are affected. No they cannot use any ability that requires {T} or {Q} as part of the cost (unless the land creature also has haste).
+
+Dryad Arbor satisfies the criteria for being a creature. (or Charmille dryade in French)
+
+205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.
+
+Creatures cannot activate abilities that require {T} or {Q}.
+
+107.5. The tap symbol is {T}. The tap symbol in an activation cost means “Tap this permanent.” A permanent that’s already tapped can’t be tapped again to pay the cost. A creature’s activated ability with the tap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since his or her most recent turn began. See rule 302.6.
+107.6. The untap symbol is {Q}. The untap symbol in an activation cost means “Untap this permanent.” A permanent that’s already untapped can’t be untapped again to pay the cost. A creature’s activated ability with the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since his or her most recent turn began. See rule 302.6.
+
+Creatures cannot attack if you haven't controlled them since the start of their most recent turn.
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since his or her most recent turn began. A creature can’t attack unless it has been under its controller’s control continuously since his or her most recent turn began. This rule is informally called the “summoning sickness” rule.
+
+Unless they have Haste, a Creature cannot attack or activate abilities that require {T} or {Q} in their cost.
+
+702.10b If a creature has haste, it can attack even if it hasn’t been controlled by its controller continuously since his or her most recent turn began. (See rule 302.6.)
+702.10c If a creature has haste, its controller can activate its activated abilities whose cost includes the tap symbol or the untap symbol even if that creature hasn’t been controlled by that player continuously since his or her most recent turn began. (See rule 302.6.)
+

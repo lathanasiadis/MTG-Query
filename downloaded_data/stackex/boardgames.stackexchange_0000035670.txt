@@ -1,0 +1,15 @@
+Q:
+
+How does Puncturing Light work against a creature buffed in size?
+
+Puncturing light is an instant that has:
+
+Destroy target attacking or blocking creature with power 3 or less.
+
+If a creature has a buff on it until end of turn that makes it a 4/4 for example, would puncturing light still be able to kill this creature? In a stack what would happen to the puncturing light if the buff were applied after puncturing light was played.
+
+A:
+
+If its power is greater than 3 (whether its power has been increased by a "buff" or not), then it can't be targeted by Puncturing Light, so you are unable to cast Puncturing Light targeting it.
+If the power of a creature targeted by Puncturing Light increases so that the creature's power is greater than 3 when Puncturing Light would resolve, Puncturing Light will be countered by the game rules (for having only illegal targets) instead of resolving.
+

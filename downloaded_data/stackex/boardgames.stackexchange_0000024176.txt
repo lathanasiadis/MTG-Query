@@ -1,0 +1,14 @@
+Q:
+
+Can I Redirect a Retract to affect my opponent?
+
+Can I Redirect my own Retract to my opponent with a redirect? I'm just wanting to know before I try it and look dumb. I know you have to have a valid target for a Redirect but Retract targets me, a player, so I don't see why I can't Redirect to another player.
+
+A:
+
+Redirect only allows you to change a spell's targets. Retract does not target; it just affects you. Rule 114.1a says
+
+An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase "target [something]," where the "something" is a phrase that describes an object, player, or zone. The target(s) are chosen as the spell is cast; see rule 601.2c. (If an activated or triggered ability of an instant or sorcery uses the word target, that ability is targeted, but the spell is not.)
+
+Retract doesn't use the phrase "target [something]" so it does not target and cannot be affected by Redirect. If you did cast Redirect targeting Retract, it would give you the chance to choose new targets, but since Retract has no targets, it wouldn't do anything.
+

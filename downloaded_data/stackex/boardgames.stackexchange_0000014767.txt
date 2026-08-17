@@ -1,0 +1,33 @@
+Q:
+
+Can I tap a creature in response to an instant?
+
+I am try to figure out Crypt Sliver's ability better. I was wondering if my opponent casts an instant to destroy target creature, during his or her turn, if I could respond by tapping a creature (perhaps the targeted creature if its untapped) to regenerate my creature before the spell is resolved?
+
+A:
+
+Yes, you can tap activate the abilities of a permanent in response to an instant.
+Yes, it will save your Sliver. To regenerate something is to give it a shield that will prevent (replace) destruction the next time it would be destroyed that turn.
+
+The system governing when you can cast a spell and activate abilities is called "priority", and you will get priority at some point between when a spell is cast and when it resolves.
+That means that you can activate abilities in response to a spell. Restriction to activating the ability apply as normal.
+
+Equip, Loyalty abilities and any other ability that specifically mention they can only be activated "as a sorcery" cannot be activated in response to another spell or ability.
+If the tap or untap symbol is in the activation cost, the creature must have been under your control since the start of your turn (must not have summoning sickness).
+You must be able to pay the cost. (e.g. The creature cannot already be tapped if the ability has the tap symbol in its cost.)
+
+Say you have
+
+Crypt Sliver (henceforth known as "C")
+Battering Sliver (some other sliver henceforth known as "B")
+Armor Sliver (some other sliver henceforth known as "A")
+
+Say your opponent casts Hero's Downfall targeting "B".
+In response, you can cast instant spells and activate abilities, including the "{T}: Regenerate target Sliver." ability of any of your Slivers.
+Say you activate "A"'s ability targeting "B". The stack now contains the ability that grants regeneration and Hero's Downfall. The ability that grants regeneration resolves first because it was added to the stack last. This gives a regeneration to "B".
+
+614.8. Regeneration is a destruction-replacement effect. The word “instead” doesn’t appear on the card but is implicit in the definition of regeneration. “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.” Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.12.
+
+Next, Hero's Downfall resolves. It would destroy "B" but for the regeneration shield. Instead, "B" is tapped, it's removed from combat, and any marked damage is cleared.
+Note: It would have been much better to use "B"'s "{T}: Regenerate target Sliver." ability targeting itself since it will end up tapped anyway, but you might not be able to if it's already tapped or if it has summoning sickness.
+

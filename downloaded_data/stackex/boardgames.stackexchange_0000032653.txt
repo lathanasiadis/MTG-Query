@@ -1,0 +1,14 @@
+Q:
+
+How do I search for cards without a casting cost (excluding {0})?
+
+Ancestral Vision is an example of a card with a total absence of any casting cost: you can't cast it the ordinary way. In this case, you have to cast it using its Suspend ability.
+
+I've just found that I have no idea how to search for these cards in Gatherer or in MagicCards.info. I can search for cards with a mana cost or converted mana cost of 0, but that also gets me cards like Accorder's Shield.
+How can I search up cards with no mana cost in either Gatherer or MagicCards.info?
+Lands are also in this category — it's fine if this search turns lands up as well; I can exclude those by their type easily enough.
+
+A:
+
+You can search for cards that have a CMC of 0 but don't have a mana cost of 0 or that contains X. Here is an example on Gatherer. Many of them are transform cards or tokens.
+

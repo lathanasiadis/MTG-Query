@@ -1,0 +1,19 @@
+Q:
+
+What happens when you blink a cipher-ed creature?
+
+if I have a cipher ability encoded on a creature, and I cast a Restoration Angel, thus exiling and returning the creature to play, does the creature still have the cipher ability?
+How about creatures returning from the graveyard (undying ability)?
+
+A:
+
+The creature ceases to exist (permanently) as soon as it leaves the battlefield for any reason.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+None of the exception help cipher. That leaves the card with cipher in exile, encoding a creature that no longer exists, and which will therefore never deal any combat damage again.
+When the card returns to the battlefield, it becomes yet again another object. This is why it comes back untapped, untransformed, with summoning sickness, without any counters it used to have, and of course, without any cards encoded on it.
+There is a rule to remind you of this:
+
+702.97c The card with cipher remains encoded on the chosen creature as long as the card with cipher remains exiled and the creature remains on the battlefield. The card remains encoded on that object even if it changes controller or stops being a creature, as long as it remains on the battlefield.
+

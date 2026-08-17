@@ -1,0 +1,27 @@
+Q:
+
+Creatures Dying At Same Time Controller Loses
+
+Player A, B, and C are in a Multiplayer Game. It is player A's turn.
+Player A has: Sword of Vengeance attached to Kobolds of Kher Keep, a Mystic Crusader, and 1 life.
+Player B has: Memnite, a tapped Darksteel Colossus and 1 life
+Player C has: Blood Artist enchanted with Rancor and 2 life.
+No one has a hand, graveyard or any lands.
+Player A attacks Player B with the Kobolds and he attacks player C with the Mystic. Player B blocks with the Memnite and takes 1 damage in the first strike step. Does Player C's Blood Artist trigger from the memnite's death, allowing Player C to win by targeting Player A with the ability. Or does memnite never make it to the graveyard due to Player B losing the game, allowing Player A to win when the Mystic deals combat damage?
+
+A:
+
+Player C can win with Blood Artist's triggered ability.
+After First Strike damage, Player A would gain priority, so state-based actions are checked. The following ones actually happen:
+
+704.5a If a player has 0 or less life, he or she loses the game. (Player B, in this case)
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event. (Player B's Memnite, in this case).
+
+Then rule 704.3 says
+
+Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+So, simultaneously, Player B loses and Memnite goes to the graveyard. At this point, Blood Artists ability triggers. Rule 800.4 has a complete description of what happens when Player B loses; essentially, they take all of their cards and leave. Now, SBA's are checked again, and since no action needs to be taken, Blood Artist's triggered ability goes on the stack, with Player C presumably choosing player A as the target. Eventually, the ability resolves, putting player A at 0 life. The check described above repeats, and player A loses.
+The important thing here is that there is no mention in rule 800.4 or any of its subrules that anything happens to abilities that other players own and control that happen to have trigger conditions associated with the losing player.
+

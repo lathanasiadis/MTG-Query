@@ -1,0 +1,28 @@
+Q:
+
+Does Kill Shot-ing a morph during combat prevent damage?
+
+I just started playing Magic this year, so this might a super-newb question, but here it goes:
+
+My opponent declares that he will attack with this 2/2 colorless morph.
+I declare no blockers because I figure I can take 2 damage.
+My opponent pays the morph cost to morph his attacking creature into a 5/3 Krumar Bond-Kin.
+Then I decide to play Kill Shot.
+
+What happens now? Do I take 5 damage? Do I take 2 damage? Can I even play Kill Shot?
+Also, technically speaking, during what phases are the steps I've detailed above happening? I was under the assumption that you can morph whenever you want, but I've read that you can't morph during combat damage resolution, which leads me to believe that I take no damage.
+
+A:
+
+The end result of these plays is that the Krumar Bond-Kin dies, and deals you no damage. If you did not play the Kill Shot, you would take 5 damage instead. If your opponent did not morph the creature, and you played Kill Shot, the creature would still be dead and you would still take no damage. I think that covers it.
+More specifically, the actions happened in this order:
+
+During your opponent's Declare Attackers Step, they declared a face-down 2/2 creature as an attacker.
+During your opponent's Declare Blockers Step, you chose to declare no blockers.
+
+Your opponent then gained priority and morphed their creature. Morphing a creature is a special action, and it does not use the stack. It happens immediately, and cannot be responded to. The face up creature counts as the same object that the face down creature was. It is still tapped and attacking.
+You gained priority, and cast Kill Shot targeting the face up Krumar Bond-Kin.
+The Kill Shot resolves, and destroys the Krumar Bond-Kin.
+
+The Combat Damage Step starts. There are no attacking creatures, so no damage is dealt.
+

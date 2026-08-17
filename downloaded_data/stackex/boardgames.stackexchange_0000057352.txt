@@ -1,0 +1,35 @@
+Q:
+
+Can I activate a creature's ability before that creature triggers and enter the battlefield effects (ETBs)?
+
+The two cards I am concerned with:
+Flayer of the Hatebound:
+
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to any target.
+
+Evernight Shade:
+
+{B}: Evernight Shade gets +1/+1 until end of turn.
+
+If I control a Flayer of the Hatebound, and I cast an Evernight Shade from the graveyard (most likely with Chainer or Dread Return) can I dump mana into the Evernight Shade to beef it up before Flayer of the Hatebound causes it to deal damage?
+I don't know how creature abilities stack on top of their own ETB.
+
+A:
+
+Yes, you can pump your creature by responding to the triggered ability while it is on the stack.
+You cannot activate a creature's ability before its ETB ability triggers, but you can activate a creature's ability before its ETB ability resolves. If you do so, your activated ability will go on the stack on top of the triggered ability, and it will resolve first.
+The power of the creature at the time the triggered ability resolves is all that matters; not the power it had when the ability triggered.
+
+Resolving Spells and Abilities
+
+608.2h If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in[...]
+
+And you have time to pump up the creature before the triggered ability resolves because of the usual way that the stack works; the top thing on the stack only resolves once all players pass priority; so everyone gets a chance to respond to anything on the stack by activating an ability or casting an instant spell before it resolves.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+405.2. The stack keeps track of the order that spells and/or abilities were added to it. Each time an object is put on the stack, it’s put on top of all objects already there.
+
+405.5. When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.
+

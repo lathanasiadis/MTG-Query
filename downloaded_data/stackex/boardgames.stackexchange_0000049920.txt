@@ -1,0 +1,22 @@
+Q:
+
+Does Cycling a card to trigger an ability allow you to target a creature protected by the color of the card you're cycling?
+
+If I'm going to use the Cycle ability of a card of a certain color, and that activated ability is connected with a triggered ability that needs to choose a target for its correct resolution, it is possible to activate it by targeting a creature that has the ability to protection from the same color as the starting card, ie the card with the Cycle ability?
+For example -
+ if I have the blue card Choking Tethers in my hand,
+  and the opponent has on the battlefield a Serra Angel,
+with the Aura Blue Ward that enchants him,
+I can avail myself with success of the Cycle ability of the Choking Tethers,
+and tapping this way the Serra Angel?
+
+A:
+
+No, the angel with protection from Blue cannot be targeted by the ability of Choking Tethers.
+The relevant rule about Protection:
+
+702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+
+In your case, the source of the ability, Choking Tethers, has the quality 'blue'.
+Note that (as mentioned in the card's Gatherer rulings) it is allowed to cycle Choking Tethers even if there are no legal targets for the triggered ability (e.g. there are no creatures at all, or only creatures with protection from blue). This is because the Cycling activated ability itself does not require any targets to activate. The triggered ability that taps a creature will not successfully be put on the stack, but the Cycling ability will resolve just fine and you will draw a card.
+

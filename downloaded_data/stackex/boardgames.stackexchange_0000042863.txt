@@ -1,0 +1,12 @@
+Q:
+
+Which card has the highest number of mana symbols in its mana cost?
+
+Color doesn't matter. No Un-Sets. In case of a tie, one card tied for highest number suffices. I need such a card as a test case for a computer program involving MtG cards.
+
+A:
+
+Progenitus has 10.  This is easy to check in gatherer, just use CMC >= 10, and see that it's the max.
+Draco has the largest generic mana number, at 16.  (Observed using the same query.)
+If you include unsets (I know you didn't want that, but for completeness, and because I love them) Big Furry Monster from Unglued has 15. And Gleemax has generic mana requirement of 1,000,000.
+

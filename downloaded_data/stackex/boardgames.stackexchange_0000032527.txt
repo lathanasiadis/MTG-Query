@@ -1,0 +1,20 @@
+Q:
+
+Creatures pumping each other and combat damage
+
+Suppose I have two Myr Galvanizers, so they give a +1/+1 to each other.
+If I attack with both, and my opponent blocks one with a 5/5 creature and kills it, does the surviving one still deal 3 damage to the defending player? Or the damage to players is assigned after the blockings among creatures are solved?
+
+A:
+
+Three damage would be dealt to the defending player. All combat damage is assigned and then dealt simultaneously. Rules 510.1 and 510.2 explain this:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+
+(Those rules are explained in the next few rules, but they aren't relevant for this question.)
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+  Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability “Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player”) blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldn’t have been dealt damage.
+
+(emphasis added to both rule quotes)
+

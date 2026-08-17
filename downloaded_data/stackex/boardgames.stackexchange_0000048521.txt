@@ -1,0 +1,15 @@
+Q:
+
+If I cast Reality Ripple with Eon Hub out, is the target Permanently phased out?
+
+Reality Ripple reads, "Target artifact, creature, or land phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)" This seems to indicate to me that it phases in during the untap step. If a player skips their untap step, from an effect such as Eon Hub, does this mean that whatever is phased out just stays phased out? 
+
+A:
+
+Yes. From the comprehensive rules:
+
+702.25m If an effect causes a player to skip his or her untap step, the phasing event simply doesn’t occur that turn.
+
+If by 'permanently' you mean 'until something is done about the thing that prevents untap steps', yes.
+However, if that thing is removed, untap steps will happen again, and phased out permanents will phase back in.
+

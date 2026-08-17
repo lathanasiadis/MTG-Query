@@ -1,0 +1,19 @@
+Q:
+
+What was the point of "Substance"?
+
+I've heard people mention the "Substance" keyword ability before, as an ability that has never been printed and does nothing. This seems…strange, to say the least. And searching Gatherer turns up nothing on it.
+What is/was the point of Substance, if it has never been printed and does nothing? Did it ever actually exist? And if so, why?
+
+A:
+
+Substance existed at one point in time in the Oracle wording of twelve cards, but it was never printed on a card.
+It was created to get around an issue caused when they changed the timing rules for end of turn effects, but wanted to keep the functionality on certain cards the same.
+The idea was to give a card substance until the end of turn, and then have a triggered ability that would trigger when the card lost substance. This would allow effects to wear off at the end of turn when they wanted it to. Now, they use "at the beginning of the next cleanup step" to achieve the same thing.
+This article discusses the change where they removed the substance keyword.
+
+Twelve cards (Waylay, Thawing Glaciers, and the ten-card Armor of Thorns cycle) had "at end of turn" triggers back when that truly referred to the very end of the turn. To preserve their functionality (especially because some of them were practically nonsensical if they were sacrificed before damage clears), they were given a wording that allowed their delayed triggered abilities to trigger during the cleanup step (a time when nothing normally triggers). To achieve this, the relevant permanents gained substance (a static ability with no effect) until end of turn, then triggered when they lost substance—because "until end of turn" effects wear off at the same time that damage does.
+These cards will now have a more straightforward "at the beginning of the next cleanup step" trigger, and the rules have been adjusted accordingly. Note that this new wording is somewhat misleading, since it's not the first thing that happens in the cleanup step (just like "at the beginning of your draw step" triggers aren't the first thing that happen during your draw step—you draw a card first). In the cleanup step, the player whose turn it is will discard down to seven cards, then "until end of turn" effects will end and damage will be cleared, then these abilities will trigger.
+
+This article discusses more details around how substance worked.
+

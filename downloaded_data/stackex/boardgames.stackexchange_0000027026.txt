@@ -1,0 +1,13 @@
+Q:
+
+Phasing vs Tribute
+
+Does phasing allow for a Tribute to trigger twice, since the creature continues to re-enter the battle field?
+For example, if I enchant my Nessian Wilds Ravager with Vanishing, does this mean that my Ravager will get to fight a second creature when he phases in (or gain an additional +6/+6)?
+
+A:
+
+No, phasing won't cause Tribute or any other enters-the-battlefield abilities to trigger. A phased-out creature is treated as if it weren't on the battlefield for most effects, but phasing back in doesn't count as re-entering the battlefield.
+
+702.25d The phasing event doesn’t actually cause a permanent to change zones or control, even though it’s treated as though it’s not on the battlefield and not under its controller’s control while it’s phased out. Zone-change triggers don’t trigger when a permanent phases in or out. Counters remain on a permanent while it’s phased out. Effects that check a phased-in permanent’s history won’t treat the phasing event as having caused the permanent to leave or enter the battlefield or its controller’s control. 
+

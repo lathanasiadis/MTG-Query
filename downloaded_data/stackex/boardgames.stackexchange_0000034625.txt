@@ -1,0 +1,20 @@
+Q:
+
+Can Sundial of the Infinite interrupt multiple-card draws while drawing?
+
+I'm not quite sure about the interaction between the stack and multiple-card draws.
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+According to Is drawing multiple cards an atomic action?, this means that:
+
+"draw 2 cards" really means "draw a card, then draw a card". - diego
+
+Now, my question is: Does that mean that a player, affected by a multiple-card draw (Divination for example), can draw one card and avoid drawing any more by activating Sundial of the Infinite inbetween individual draws?
+
+A:
+
+No. 
+In order to activate an ability or cast a spell, a player must have priority. During the resolution of spells and abilities, players do not receive priority. 
+One advantage of declaring "multiple draws are done one at a time" is multiple card drawing cleanly interacts with cards like Abundance, Alhammarret's Archive, or cards that say, "whenever you draw a card"
+

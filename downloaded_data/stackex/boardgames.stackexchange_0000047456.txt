@@ -1,0 +1,17 @@
+Q:
+
+When would it be advantageous not apply Training Ground's cost reduction?
+
+Training Grounds has an optional cost reduction ability, as indicated by the card-specific ruling:
+
+You may choose not to apply Training Ground’s cost reduction effect. You may also choose to apply only part of it (causing an activated ability of a creature you control to cost just {1} less to activate).
+
+Why is this conditional?  Training Grounds never co-existed with Mana Burn.  Are there any situations in which it would be advantageous to not apply this ability?
+(This is related to Paying more mana for a Flashed creature, but is about why you would not apply the cost reduction rather than whether or not you can.)
+
+A:
+
+You have a Glissa Sunseeker in play, and your opponent has an artifact with CMC {1}. You have 1 untapped Lotus Vale and no other untapped lands or mana in your mana pool.
+You want to activate an ability on a creature that normally costs {3} (like that on Walking Wall), and you also want to use Glissa to destroy your opponent's artifact.
+After getting 3 mana from Lotus Vale, you need to spend exactly 2 mana in order to have {1} remaining, so that you can destroy your opponent's artifact. So you choose to only reduce the cost if your ability by {1} instead of reducing it by {2}.
+

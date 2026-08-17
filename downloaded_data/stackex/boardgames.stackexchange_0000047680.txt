@@ -1,0 +1,18 @@
+Q:
+
+Felidar Guardian exiling Soul Seizer
+
+If I use Felidar Guardian to exile a transformed Soul Seizer I control, does it return as the enchantment and is put in the graveyard, or is it returned as the creature Soul Seizer?
+I think exiling makes it lose all properties prior to the exiling, so it should return as the creature, shouldn't it?
+
+A:
+
+Yes, you are right: the rules say
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+But being transformed or not is not listed among the exceptions.
+So in exile it's no longer transformed, and it will return to the battlefield as a creature, as that is the 'normal' way for this object to enter the battlefield:
+
+711.8. A double-faced card enters the battlefield with its front face up by default. If a spell or ability puts it onto the battlefield “transformed,” it enters the battlefield with its back face up.
+

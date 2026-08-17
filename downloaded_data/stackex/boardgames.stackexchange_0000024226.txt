@@ -1,0 +1,35 @@
+Q:
+
+List of blue counterspells that can be played for free?
+
+I looked around on the internet for a list of blue counterspells in Magic: the Gathering that can be played for no mana. (Alternative costs or a mana cost later is fine.) Does anyone have a list or know where to find a list?
+
+A:
+
+There are 8 Blue counterspells that can be cast for alternate costs:
+
+Admiral's Order (The alternate cost still costs {U})
+Daze
+Disrupting Shoal
+Fierce Guardianship
+Foil
+Force of Negation
+Force of Will
+Thwart
+
+I found these with the following search on Scryfall:
+
+(o:"rather than pay ~'s mana cost" or o:"you may cast this spell without paying its mana cost") o:counter c:u
+
+This searches for spells with alternative costs (first clause) with "counter" in the text (second clause) that are blue (third clause).
+In addition, Mental Misstep only costs {UP}, so you can pay life instead of mana.
+If you also want to count spells with mana that needs to be paid later, Pact of Negation has a mana cost of {0}, but it also says
+
+At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.
+
+Besides that, there are 3 spells that can be used to effectively counter a spell that can be cast without paying any mana:
+
+Commandeer lets you take control of a spell and change its targets. You can choose a target that is (more) beneficial to you, or, if the other spell is a counterspell, you can redirect it to target Commandeer so that it is countered for having an illegal target after Commandeer leaves the stack.
+Mindbreak Trap lets you exile any number of spells, but you can only cast it for free if your opponent has cast at least 3 spells this turn.
+Misdirection also lets you choose new targets for a spell. Of course, it is only useful for dealing with targeted spells, and you can use it to deal with counterspells the same way you can use Commandeer.
+

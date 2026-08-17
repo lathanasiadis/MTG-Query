@@ -1,0 +1,17 @@
+Q:
+
+Does a creature trigger its own ETB ability even if not explicitly stated?
+
+I work heavily on custom magic cards, and in one of my groups there is some discussion around ETB effects.
+Take a card like Soul Warden, it explicitly says 'another creature' in its ETB. If we removed 'another' from the triggered ability would soul Warden gain life on ETB from itself?
+
+A:
+
+Yes, creatures can trigger their own ETBs
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters the battlefield, . . . “ or “Whenever a [type] enters the battlefield, . . .” Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+
+Emphasis mine.
+That said, the standard template for such abilities is "Whenever {cardname} or another [type] enters the battlefield", largely to remove exactly this sort of ambiguity.  This sort of question should only be relevant to players if some sort of type modification is going on (for example, playing Setessan Champion while Enchanted Evening is on the battlefield).
+This template also has the minor side effect that if for whatever reason the card in question is not of the specified type, it will still trigger its own ability.  (For example, playing Ayara, First of Locthwain with a Mycosynth Lattice in play)
+

@@ -1,0 +1,14 @@
+Q:
+
+Manland and Sentinel of the Eternal Watch
+
+Sentinel of the Eternal Watch says, "At the beginning of combat on each opponent's turn, tap target creature that player controls."
+Can the opponent activate a manland after this ability and attack with it to prevent getting the manland tapped?
+
+A:
+
+Yes, you can get around the Sentinel this way with a manland. I'll assume you have the Sentinel, and your opponent has an untapped Mutavault.
+At the the Beginning of Combat step in the Combat phase, all abilities that trigger at that point go on the stack. As part of putting the abilities on the stack, you have to choose a target, and that target must be a creature at that point per the ability text. So, by the time that ability's on the stack, the target is set, and can't be changed — and it isn't the manland.
+Then, the active player, and the non-active player, will each get priority at least once. Your opponent can activate their Mutavault's abilty while the triggered ability is still on the stack, or they can let that triggered ability resolve and then activate their Mutavault. (The latter is probably safer, in case you have something like Redirect, such as the standard-legal Insidious Will.)
+Then we move on to Declare Attackers, and their Mutavault is a Creature at this point, not tapped, and able to attack.
+

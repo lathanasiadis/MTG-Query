@@ -1,0 +1,28 @@
+Q:
+
+Can Oko's Elk ability stop nonbasics from being affected by Magus of the Moon?
+
+I have a Magus of the Moon, opponent turns it into an Elk that loses all abilities with Oko, Thief of Crowns. Are nonbasic lands still affected by the magus?
+
+A:
+
+No, turning Magus of the Moon into an Elk will not stop it from affecting nonbasic lands.
+Both of these effects in question are continuous effects, so their interaction is described by the Interaction of Continuous Effects rules section, commonly called the "layer system". The first part of that section is the most relevant here:
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1a Layer 1: Copy effects are applied. See rule 706, “Copying Objects.”
+  613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, “Text-Changing Effects.”
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+Magus of the Moon's effect applies at layer 4: it changes the type of nonbasic lands to Mountain. Oko's effect applies at layers 4, 5, 6, and 7: it turns the permanent into an Elk Creature, makes it green, removes its abilities, and makes it a 3/3. So, as 613.1 says, the continuous effects are applied in that order.
+First, Magus of the Moon turns nonbasic lands into Mountains and Oko's effect turns the Magus into an Elk. Second, Oko's effect turns the Magus green. Third, Oko's effect removes the Magus's ability. And fourth, Oko's effect turns the Magus into a 3/3.
+
+You may be wondering, then, how Magus of the Moon also ends up removing abilities from nonbasic lands, if its effect only applies in layer 4. The answer is rule 305.7:
+
+If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn’t remove any abilities that were granted to the land by other effects. Setting a land’s subtype doesn’t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
+

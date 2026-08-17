@@ -1,0 +1,23 @@
+Q:
+
+Weird Lich and Laboratory Maniac situation, who wins?
+
+In a Commander game I cast Lich + Sudden Substitution and swapped Lich for one of my opponents' creatures, giving him 0 life. My opponent plays Laboratory Maniac and proceeds to make us both draw our entire libraries.
+So the question is, who wins?
+I obviously lose from drawing out, and he wins from Lab maniac trigger, but even though the Lab Maniac trigger is a replacement effect, he'd have 0 life and lose the game when my Lich leaves the battlefield when I lose as well.
+Since I'm assuming this all resolves at the same time, what would the final result be? Draw? Is it the person who loses the least that wins? Does he win because one trigger states he wins or does the 0 hp take priority?
+Thanks.
+
+A:
+
+All of this happens as part of the same resolution, yes, but it doesn't all happen at the same time. Or, well, it kind of depends on how you define "time"; my point is that there is a definite sequence to the events that occur, and it's that order that determines who wins and loses.
+The first thing that happens during resolution of a spell or ability is that players follow the instructions that the spell or ability lists as its effect. In other words, you do what the card says (or what the hypothetical card would say, if there isn't a real card). The details depend on exactly which spell or ability it is, but we're assuming that at some point during this process your opponent draws a card from an empty library. Because of Laboratory Maniac's replacement effect, that event is literally replaced with your opponent winning the game. The winning doesn't queue up and come later; it happens right at that very moment. Everything stops. The game is now over. It doesn't matter if anyone has zero life or if any other player drew from an empty library or who controls what permanents.
+However, if your opponent didn't immediately win the game at that point, then the players would finish following the spell or ability's instructions; then the spell card (if there is one) would be put into the graveyard; then it's time to check what the game calls "state-based actions", which are things like:
+
+A player who has drawn a card from an empty library since the last time state-based actions were checked loses the game
+A player who is at zero life or less loses the game
+
+So at this point, you would lose the game because of the card-drawing state-based action. If your opponent is the only player remaining in the game at that point, because it's a two-player game or because everyone else was already eliminated, your opponent wins due to being the only player left (and again, that happens immediately).
+On the other hand, if there are additional players still in the game, it continues on to process all the effects of you losing and leaving the game. One of those is that all cards you own also leave the game, so in particular, your opponent no longer has your Lich. Then, because a state-based action was taken (you losing the game), the game checks again for any state-based actions that might now be applicable; it sees that your opponent has 0 life, and thus your opponent loses the game, not having a Lich in play to prevent it. Then the game checks again, and let's say no more state-based actions are taken, so it's done checking and play proceeds.
+Note that at no point in all this does anyone have the chance to play spells or activate abilities or take any other voluntary game actions. Playing spells and abilities and so on can happen before all the stuff I described, or after all the stuff I described, but not in the middle of it. (Well, players can still concede at any time. And some cards let you play things at weird times. Don't worry about it. :)
+

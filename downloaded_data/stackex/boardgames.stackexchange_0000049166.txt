@@ -1,0 +1,25 @@
+Q:
+
+Stream of Thought/Creeping Chill Interaction?
+
+What happens stack-wise when Stream of Thought mills Creeping Chill?
+My understanding is that the triggered ability of Creeping Chill gets put on the stack but doesn't happen until Stream of Thought is finished resolving. So if you choose to shuffle back Creeping Chill with Stream of Thought, then would the triggered ability fizzle?
+Any thoughts?
+
+A:
+
+Creeping Chill's ability triggers and goes on the stack if Stream of Thought puts it into the graveyard. If you then shuffle it into your library, the ability will still resolve (it won't "fizzle") but it won't do anything because you can't exile the Creeping Chill. The Handling Triggered Abilities rules section has these rules:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+Then rule 118.12 says
+
+Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does, doesn’t, or can’t], [effect].” or “[A player] may [do something]. If [that player] [does, doesn’t, or can’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does, doesn’t, or can’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+The bolded part matches the wording on Creeping Chill:
+
+When Creeping Chill is put into your graveyard from your library, you may exile it. If you do, Creeping Chill deals 3 damage to each opponent and you gain 3 life.
+
+This is a choice you make while the ability is resolving, so the ability will start to resolve whether or not Creeping Chill is still in the graveyard, but if it's not in the graveyard to be exiled, you can't pay that cost and the rest of the effect won't happen.
+

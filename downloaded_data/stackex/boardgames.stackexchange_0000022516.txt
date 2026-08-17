@@ -1,0 +1,33 @@
+Q:
+
+Granting Indestructible and the Stack
+
+If I play an instant that grants target creature "indestructible," can an opponent use an instant in response to destroy said creature? Would the stack resolve their ability first? If so, would I be allowed to change target for indestructible? If not, do I still pay the mana cost?
+
+A:
+
+Would the stack resolve their ability first?
+
+Yes. A spell cast in response to another resolves first (Last In, First Out).
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+would I be allowed to change target for indestructible?
+
+No.
+When you are about to resolve a spell, the following happens:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. [...]
+
+If your spell isn't countered by the above check, it continues on to resolve.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+do I still pay the mana cost?
+
+You already did. The mana cost to cast a spell is payed when casting the spell. Acting in response to a spell means acting after the spell is cast, but before it resolves.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [...]
+
+You don't get a refund if your spell is useless. You don't even get a refund if it's countered.
+

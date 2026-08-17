@@ -1,0 +1,17 @@
+Q:
+
+How can I tell if a card is likely to have "functional errata"?
+
+ 
+Apparently there was a period in Magic's history when cards received significant "errata" between printings — not just templating updates or clarifications, but straight-up changes to what the cards do.
+The most recent example I can think of is Loxodon Warhammer, which officially has lifelink even though the original printing had the triggered-ability version (like Spirit Link), due to some messiness with the redefinition of lifelink while the card was reprinted. Most of the others are significantly older.
+Without looking up every single card a player plays in Gatherer, is there a quick way to figure out which cards are likely to have Oracle text that wildly diverges from what's printed on them? (For example, are there certain old-timey abilities that got errata-ed away en masse?)
+
+A:
+
+There aren't many cards in magic that have actual so-called "power level" errata that fundamentally changes what they do, with the exception of the ones that were reprinted in physical form with new wording.  However, there are a few things that make you think "Hey I should check the oracle" because it may not be entirely clear how it was updated to work in modern rules.
+1) Wording that would generate a really weird replacement effect, may now be a trigger:
+e.g.,  Black Vise   There are obvious patterns to a lot of them, like with this one "if during upkeep" will generally become "at the beginning of upkeep" but then there are ridiculous things like Animate Dead that will you never ever "get right" trying to infer current functionality.  So the presence of what would be replacement effects if playing it literally as written is a good cue to check the Oracle.
+2) Does it target?  Use of the word target is inconsistent on pre-6th edition cards.  If it just says "opponent" or "player" something you should check if it's "target" or "choose."
+3) Creatures with only a "Class" and Artifact Creatures with no creature type.  e.g., if you see "Summon Warrior" it is likely now an "Elf Warrior" or "Goblin Warrior" or whatever as appropriate.  Artifact Creatures cards with no subtype will also have one in the Oracle (mostly "Construct.")
+

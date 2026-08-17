@@ -1,0 +1,16 @@
+Q:
+
+Can you sacrifice Animate Dead AND the creature it enchants?
+
+My opponent has a creature with Animate Dead attached to it. I attacked him with Emrakul, the Aeons Torn, forcing him to sacrifice 6 permanents to Annihilator. He wanted to sacrifice both Animate Dead and the creature it was enchanting. I said that was impossible, as sacrificing either one would cause the other to leave the battlefield. Which of us is right?
+
+A:
+
+Yes, if someone's asked to sacrifice multiple permanents, they can sacrifice Animate Dead and its enchanted creature.
+As part of enacting Emrakul's Annihilator ability, your opponent has to to make six choices. These six choices are made all at once during resolution, and at that point they're all valid choices, and then after those choices are made, the ability dumps all six choices into the graveyard simultaneously.
+Just about no triggered abilities can actually activate during effect resolution, so Animate Dead can't do its thing until that ability's fully resolved. Once it is, Animate Dead has left the battlefield and its triggered ability goes onto the stack:
+
+When Animate Dead leaves the battlefield, that creature's controller sacrifices it.
+
+That creature's no longer around, and nothing happens.
+

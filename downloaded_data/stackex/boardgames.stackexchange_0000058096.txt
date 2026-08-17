@@ -1,0 +1,48 @@
+Q:
+
+What mechanics have coloured mana in their reminder texts?
+
+Extort is the best known example of a Magic: the Gathering mechanic which has coloured mana in its reminder text:
+
+702.101a Extort is a triggered ability. “Extort” means “Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain life equal to the total life lost this way.”
+
+As the coloured mana is only in the reminder text, this does not affect the colour identity of the card, meaning cards with extort can be used in Commander decks where the Commander does not have a colour identity including black and white.
+What other mechanics (if any) have coloured mana symbols in their reminder texts?
+
+A:
+
+There are not very many of them.
+First, let's clear some negative cases out of the way:
+
+Many mechanics restate a cost in their reminder text that appears before the reminder text: cycling (Thornado) and eternalize (Dreamstealer) for example. We're not counting these.
+Phyrexian mana and hybrid mana come with reminder text about how to pay that cost. Like these mechanics, it's just explaining a cost that already exists on the card. Also not counted.
+
+Mechanics
+The following mechanical features come with reminder text that uses a colored symbol that doesn't just correspond to a cost already expressed:
+
+Extort as noted always includes the symbol {W/B} in its reminder text.
+Devotion has reminder text that often includes a mana symbol, but is (so far) exclusively used this way on cards that already featured that mana symbol.
+Cards with land types come with reminder text about their intrinsic mana abilities: for example Steam Vents and Molten Tributary.
+
+... and that's it.
+One-off cards
+There's also a couple of one-off cards that do this, giving the colored symbol as an example:
+
+Charmed Pendant
+Trinisphere
+
+Sourcing
+How do we find this stuff, confirm it, or find out if it's changed?
+Searching through Scryfall
+We can search Scryfall pretty helpfully with regex:
+
+We can search for cards with mana symbols in their reminder text like this: fulloracle:/\(.*\sm.*\)/
+
+We can build on that to search specifically for colored mana symbols in reminder text like this: fulloracle:/\(.*\{.*[wubrg].*\}.*\)/
+We can further eliminate reminder text that is preceded by “Words {X}” or “Words N—{X}”, eliminating things like Embalm and Suspend, using a negative lookbehind: fulloracle:/(?<![\w ]+([X\d]—)?\sm+ )\(.*\{.*[wubrg].*\}.*\)/
+
+This helps us find the above cases.
+Searching through comprehensive rules
+If we search through the comp rules, e.g. at Yawgatog's reference, we could look for all the occurrences of the text pay {, which would be the start of a cost. Some of those are going to be in the keyword abilities/actions section.
+There's only 12 occurrences for that on the page, and there's only one mechanic that has a colored symbol in its definition: Extort.
+

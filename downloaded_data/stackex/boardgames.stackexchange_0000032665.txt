@@ -1,0 +1,12 @@
+Q:
+
+Why isn't Selvala, Explorer Returned's ability restricted from being used as a mana ability?
+
+Selvala, Explorer Returned's ability is very similar to the ability of Charmed Pendant, so I don't understand why the latter has an instant speed restriction and Selvala does not. I'm looking for insight into this difference.
+In the history of Magic, there are three cards with abilities that have the clause "Activate this ability only at any time you could cast an instant" (more when you include times when it's in reminder text, but I do not). In all three cases, the ability is a mana ability, as that's the only thing with less timing restrictions than an instant (as you can activate it while casting a spell). These three cards are Lion's Eye Diamond, Rhystic Cave and Charmed Pendant. For LED, this is to stop people from dumping their hand after the spell is already on the stack. For Rhystic Cave, one could attempt to cast a spell, then revert game state if an opponent pays to stop the Cave, and try again forever. Both these cases are fine and I include them mostly for completeness.
+Charmed Pendant mills a card, then gives you mana based off that card. Selvala makes everyone reveal cards (and draw), then gives you mana based off those cards. These abilities seem very analogous, yet Selvala can be activated mid-cast and Charmed Pendant cannot. Why is this?
+
+A:
+
+The rules about ability speeds were standardized with the 6th edition. No more mention of speed was necessary on the cards after that. Some older cards were rewritten, some weren't. The 10/4/2004 ruling makes it clear that this wasn't an oversight (as the ability, despite being a mana ability, changes the board's state, while Selvala's doesn't - I'm guessing).
+

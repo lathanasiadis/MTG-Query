@@ -1,0 +1,31 @@
+Q:
+
+Can I produce off-color mana and activate off-color abilities outside my commander's identity?
+
+Can a commander deck use abilities of creatures or spells, and generate mana that are not part of the commander's color identity? For example, if my commander has only black in its color identity, can I cast Unburial Rites, a black creature, and use the flashback ability which requires white mana? Similarly, can I have lands that produce white mana as part of the deck?
+
+A:
+
+Mostly no, you cannot have cards with a different color identity from your commander in your deck, including your lands. There are however ways to cast off color spells and have off color mana.
+Color vs Color Identity
+First there's a difference between a card's color and its color identity. The color identity of a card is set by four things:
+
+The colors in the color indicator on the card
+The colors of the mana symbols in its casting cost
+The colors of any mana symbols in the card's rules text (not reminder text - important for extort1)
+The colors associated with any basic land types that card has.
+
+The card's color cares about only the first two of these things, and about the devoid keyword (identity ignores devoid).
+Playing Unburial Rites
+You can't have it in your deck unless your commander is both black and white, because the color identity of unburial rites is both black (because of the casting cost) and white (because of the flashback cost).
+You can still cast the spell, but it would have to come from your opponent's deck, stolen with something like Gonti, Lord of Luxury or Hedonist's Trove. (You would not be able to flash it back, since it would be in your opponent's graveyard, they could flash it back)
+Playing White Producing Lands
+Lands that have a basic type don't actually have the tap ability on their rules text (it is reminder text if it is ever printed on them), but they are covered by point 4, so you can't have cards with the plains type in your deck if you aren't playing with a white commander, so that leaves out several land types that produce white mana (basic, shock, triomes, etc).
+Lands that have the colored mana symbol on them are out because of point 3, so nothing like Caves of Koilos, Tainted Field or The World Tree2.
+Lands that can produce any color however don't fall under either of these color identity rules. Land like Exotic Orchard, Mana Confluence or Vivid Marsh could all be played in a black deck and be used to produce white mana3 if you needed it, to play cards stolen from an opponent or to pay into Sunburst(Etched Oracle)/Converge(Painful Truths) mana costs that care about color.
+You can also use something like Chromatic Lantern or Prismatic Omen to let all your lands produce any color, or the opposite with Mycosynth Lattice to let you spend mana as if it were any color.
+
+Extort is a triggered ability that lets you to pay  to drain one life from your opponent whenever you cast a spell. However it is a keyword ability and the mana symbols are in the rules for that keyword, not the rules printed on the card, so it does not have any effect on the color identity of cards with extort, Crypt Ghast is playable without white in the commander's identity and Blind Obedience is playable without black in the commander's identity.
+An interesting side note, Urborg, Tomb of Yawgmoth doesn't have the swamp type and doesn't tap for black until it is in play, so it can be in any color of deck (potentially useful if you're planning to exploit swampwalk)
+This was a change to the rules in 2017. Previously any mana you tried to generate outside your commander's colors would come out colorless. The change was made in part due to the addition of the  symbol for colorless mana - which meant you could use this color drained mana to pay costs you couldn't have used the colored mana to pay and in part due to the addition of the Converge mechanic at that time, which cared how many different colors were spent to cast the spell.
+

@@ -1,0 +1,44 @@
+Q:
+
+Multiple Replacement Effects for "Next Time"
+
+So I recognize that replacement effects are chosen in order by the affected object/player's controller per
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the
+affected object's controller (or its owner if it has no controller) or
+the affected player chooses one to apply, following the steps listed
+below. If two or more players have to make these choices at the same
+time, choices are made in APNAP order (see rule 101.4).
+
+My question is, in the case of multiple "Next Time" effects, say, Circle of Protection activations, are all of the uses forced to happen at the same time? If a replacement effect isn't used, does it work similar to regeneration shields, in that they can still be used later?
+Circle of Protection: Red has an activated ability with oracle text as follows
+
+1: The next time a red source of your choice would deal damage to you this turn, prevent that damage.
+
+Example Scenario:
+
+Adam activates Circle of Protection: Red two times during Nat's
+Beginning of Combat step, choosing Nat's Dragon-Style Twins (A red
+creature with double strike).
+Nat attacks with his Dragon-Style
+Twins, and Adam does not block.
+
+Will Nat's Dragon-Style Twins deal combat damage during either the first strike or normal combat damage steps? Obviously, please cite your answer, thanks!
+
+A:
+
+The Dragon-Style Twins will not deal damage in either combat damage step.
+One of the subrules of the rule you quoted, 616.1e, says
+
+Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+So, in the first combat damage step, the process of applying replacement and prevention effects goes like this:
+
+We start with two instances of "the next time Dragon-Style Twins would deal damage to you this turn, prevent that damage".
+The effect to be modified is "Dragon-Style Twins deals 3 damage to you".
+You choose (arbitrarily) to apply the first prevention effect.
+The new effect is "Nothing happens". Now there are no applicable replacement or prevention effects, so the process ends.
+One instance of the Circle of Protection: Red effect was applied, and the other was not, so now we have one remaining Circle of Protection: Red effect to apply.
+
+In other words, a replacement or prevention effect that applies to "the next time" something would happen is only consumed if it is actually applied to an event.
+

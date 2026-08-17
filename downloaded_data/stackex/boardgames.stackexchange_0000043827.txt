@@ -1,0 +1,25 @@
+Q:
+
+Memory Plunder/Flashback interaction
+
+My opponent has a Think Twice in their graveyard and then pays its Flashback cost to cast it.
+Could I respond to the Flashback by casting Memory Plunder and casting my opponent's Think Twice before he gets to flash it back?
+
+A:
+
+No, you can only cast Memory Plunder while you have priority.
+
+116.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+
+If your opponent is paying the cost to cast Think Twice from their graveyard, then they must have priority.
+You will only get priority to cast a spell after Think Twice has been fully cast and is on the stack, and your opponent passes priority after casting it.*
+
+116.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, they announce what mana is there. Then the next player in turn order receives priority.
+
+And note that after the spell is cast, it is no longer in the graveyard to be targeted by Memory Plunder, it is now on the stack:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+
+*Passing priority after casting a spell is considered to be implicit unless you state that you wish to retain priority as you cast the spell.
+

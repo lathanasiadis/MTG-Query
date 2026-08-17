@@ -1,0 +1,16 @@
+Q:
+
+Do other creatures have to survive to deal damage back to Alpha Brawl's target?
+
+When Alpha Brawl is played, after the target creature deals damage to the opponents creatures, do only the ones that survive do damage back?
+
+A:
+
+Creatures dealt lethal damage will still deal their damage back to Alpha Brawl's target.
+From the Oracle rulings, which you can see on the card's Gatherer page:
+
+1/22/2011   The two parts of Alpha Brawl's effect happen sequentially: first the targeted creature deals damage, then the other creatures deal damage. State-based actions aren't checked in the middle, so creatures that are dealt lethal damage by the targeted creature will still deal damage.
+
+Why does it work the way it does? Because, in Magic, you carry out the instructions on a card sequentially, but you also do all the actions as one event, and only check for state-based actions and triggers afterward. "This creature took so much damage that it's going to the graveyard now" is a state-based action.
+Note also that all creatures killed by Alpha Brawl will go to the graveyard at the same time.
+

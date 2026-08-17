@@ -1,0 +1,26 @@
+Q:
+
+Rules of MTG Dive Down and spells priority
+
+I'm playing MTGArena and I have one issue with the Dive Down spell. I have a Guttersnipe on battlefield, then my opponent cast Lightning Strike on it. I cast Dive down on Guttersnipe. And then my opponent cast another Lightning Strike that kills my creature. Why? I already used Dive Down. Why can the second Lightning Strike destroy my creature? Please explain.
+
+A:
+
+This goes to the basics of how the stack works. After a spell or ability has been played, but before it resolves ("takes effect") it goes on the stack. Then all players have the opportunity to play instants, spells with flash and activated abilities. If anyone does, that spell or ability goes on the stack on top of everything already there.
+Only when all players pass on the opportunity to play anything does the top object on the stack resolve (or if the stack is empty, the game continues to the next phase / step instead). Then all players once again have an opportunity to play things.
+So this is what happens in your case:
+
+Your opponent plays Lightning Strike, targeting your goblin.
+Before the Strike resolves (the damage happens), instead of passing, you play Dive Down, targeting your goblin. It goes on top of the Lightning Strike on the stack.
+Guttersnipe triggers, and you put its ability on the stack on top of Dive Down.
+Before the goblin's ability resolves, instead of passing, your opponent plays a new Lightning Strike, targeting your goblin. It goes on top of the stack.
+You both pass, and the topmost spell on the stack resolves. Your goblin takes three damage and dies.
+You both pass.
+Guttersnipe's ability resolves, and your opponent takes two damage (the ability, once on the stack, doesn't care at all what happens to the Guttersnipe).
+You both pass.
+Your Dive Down tries to resolve, but all its targets are gone, so it just fizzles (does nothing, is removed from the stack).
+You both pass.
+The first Lightning Strike your opponent played tries to resolve, but all its targets have disappeared so it fizzles.
+
+Note that your opponent can, if they choose, wait until Guttersnipe's ability has resolved before they play the second Lightning Strike, and the end result will be the same. This will matter if they, for instance, have an ability which lets them draw cards when they take damage. In that case they would want to see what the drawn card is in case it's a better card to use instead of the second Lightning Strike.
+

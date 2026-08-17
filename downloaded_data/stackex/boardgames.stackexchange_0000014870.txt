@@ -1,0 +1,18 @@
+Q:
+
+Do bestow count toward cards that say "when [sub-type] enters on the battlefield"
+
+Champion of the Parish gains +1/+1 "Whenever a another human enters the battlefield under your control". If I play Nyxborn Shieldmate as a bestow does it count toward this effect? I know it does not count as a creature but it is still a human is it not?
+
+A:
+
+According to the definition of "Bestow" (702.102a), the card will enter as an Aura spell.
+
+"Bestow [cost]" means "You may cast this card by paying [cost] rather than its mana cost." and "If you chose to pay this spell’s bestow cost, it becomes an Aura enchantment and gains enchant creature.
+
+The game will remove the Creature type from the card. Since Human is a subtype of Creature and not a subtype of Aura, the card loses the Human subtype per 205.1a
+
+"If an object's card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object's card type is removed."
+
+The ability won't trigger since the card does not have the subtype Human.
+

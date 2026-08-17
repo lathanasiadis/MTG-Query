@@ -1,0 +1,14 @@
+Q:
+
+What's the technical term for the period of time between when an opponent concludes their turn and mine begins?
+
+Apologies if this is poorly phrased.  I'll try to make this as clear as possible...
+I recently realized that I can utilize the period of time between a players turn and my turn in Magic. What's the name of this period?  What is the appropriate verbiage/ettiquette to indicate doing something during that time? I don't think its "during your upkeep"...
+Essentially, I'd like to use this time to activate lands like Arid Mesa search my library for land that I want without losing a cycle doing that.
+
+A:
+
+There is no between turns; the end of one turn transitions immediately to the beginning of the next. The last time you can definitely activate abilities and play instants before your turn is during your opponent's End Step, which is after their second main phase. The end step is is followed by the cleanup step (the last step of the turn), when players usually do not gain priority, and that is followed immediately by your untap step.
+The standard way of indicating that you want to do something during this time is to wait for your opponent to say "I end my turn." (or equivalent), and then you say "During your end step, I activate my Arid Mesa's ability."
+Technically, this falls under the Shortcut rules. The official tournament rules (section 4.2) list "Your turn" (and equivalents) as meaning "I propose a shortcut: that I pass priority until you have priority at my end step" and when you say "I would like to do something at your end step" it means "I accept your shortcut, and when it is complete I do something."
+

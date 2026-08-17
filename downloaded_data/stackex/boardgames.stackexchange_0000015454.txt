@@ -1,0 +1,29 @@
+Q:
+
+Does something which affects "defending player" target that player?
+
+If I have shroud or hexproof, because I control Ivory Mask or Witchbane Orb, am I immune to something which affects "defending player," such as a creature with Annihilator, or will I still have to sac, since it doesn't say "target opponent"?
+
+Ulamog's Crusher
+
+Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
+Ulamog's Crusher attacks each turn if able.
+
+A:
+
+No, it doesn't target. You are not immune.
+If the word "target" isn't used, it doesn't target. Keep in mind that some keywords (e.g. "Equip") use the word "target" in the abilities they represent, and the rules for casting an Aura use the word "target".
+You're asking about Annihilator, so let's look up what abilities it represents:
+
+702.85a Annihilator is a triggered ability. “Annihilator N” means “Whenever this creature attacks, defending player sacrifices N permanents.”
+
+As you can see, it doesn't use the word "target". As such, it does not target.
+
+In case you're interested, the following is the exhaustive list of what targets:
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target [something],” [...]
+114.1b Aura spells are always targeted. [...]
+114.1c An activated ability is targeted if it identifies something it will affect by using the phrase “target [something],” [...]
+114.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” [...]
+114.1e Some keyword abilities, such as equip and provoke, represent targeted activated or triggered abilities. In those cases, the phrase “target [something]” appears in the rule for that keyword ability rather than in the ability itself. (The keyword’s reminder text will often contain the word “target.”) See rule 702, “Keyword Abilities.”
+

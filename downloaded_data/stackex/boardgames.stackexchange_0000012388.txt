@@ -1,0 +1,28 @@
+Q:
+
+North Star and Fist of Suns
+
+A discussion on Reddit about bad combos mentioned combining the following two cards (Oracle included here):
+Fist of Suns
+
+You may pay {W}{U}{B}{R}{G} rather than pay the mana cost for spells that you cast.
+
+North Star
+
+{4}, {T}: For one spell this turn, you may spend mana as though it were mana of any color to pay that spell's mana cost. (Additional costs are still paid normally.)
+
+The idea being that by activating North Star you could pay {5} to play anything instead of the usual {W}{U}{B}{R}{G}, due to the oracle wording. The total mana cost would be 9 mana thanks to the {4} required to activate North Star of course.
+Does this combo work?
+
+A:
+
+I do not believe it works due to the wording of the rules regarding costs.
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.)
+601.2e The player determines the total cost of the spell. Usually this is just the mana cost. Some
+spells have additional or alternative costs.
+
+Fist of Suns has a static ability that creates an alternative cost for all spells that are played. This alternative cost if {W}{U}{B}{R}{G}. However that alternative cost is not the mana cost which is still the original printed symbols.
+For this reason when both are out if you attempt to pay the alternative cost of {W}{U}{B}{R}{G} you are no longer paying the mana cost, so the ability to pay mana as if it were mana of any color no longer applies.
+Thus after activating North Star with Fist of Suns in play you can either pay {W}{U}{B}{R}{G} or the CMC of the spell, but cannot choose to pay {5}.
+

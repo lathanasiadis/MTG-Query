@@ -1,0 +1,62 @@
+Q:
+
+Does a quantified comparison between differing non-basic lands exist?
+
+Part of the joy of building decks is the theory crafting that can be applied.
+Consider a deck with thirty-seven non-land cards, leaving optimal room for 23 lands. For context, the deck is Dimir, (black and blue) or UB.
+At current, the land base is: 8 Swamp, 7 Island, and 4 Polluted Delta. For the remaining 4 slots, there is a wide list of options for non-basic lands, including:  
+
+Sunken Hollow 
+Choked Estuary 
+Watery Grave 
+Temple of Deceit 
+
+Each land offers blue and black mana, and either off-sets the cost of coming into play tapped or has a mechanism to come into play untapped. Other possibilities include the pain lands
+Is there a quantifiable evaluation of the cost/benefit of choosing either land to fill the void?
+Context: This situation could possibly be extended to any of the other 10 pairs, with the possible exceptions of those including green, giving the innate color fixing there.
+
+A:
+
+The limited options in the question aren't directly comparable. Looking at non-basic lands in general, they categorize as follows:
+
+Requires a Cost or condition to tap.
+Filters mana
+Is throttled  
+Come into play tapped
+Come into play tapped, but offer an immediate benefit  
+Come into play tapped, unless you meet a cost or condition  
+
+Further, some of the non-basic lands are enhanced over their counter parts by being sub-typed, increasing their search-ability. As designed, the strength of the card increases with its rarity.
+Note: Some of the differences in the lands are inherent because of the set they were introduced in. Example: At common, Dimir Blackwater appears stronger than Dimir Guildgate, because 1 life is gained. However, inside the Gatecrash block, the subtype Gate has a functional role.
+Given that the needs, costs, and capabilities of each deck they could be played in differ, it is difficult to fully evaluate the impacts of each. The cost-benefit analysis of a land that comes into play tapped with a benefit versus one that has a mechanism to not come into play tap is more nebulous outside of their context. Even within the category of lands with a mechanism to enter the battlefield untapped, looking at Watery Grave versus Sunken Hollow, it is difficult to compare the cost of two life against meeting the condition. Independent of the actions of the opponent, two life could be negligible in a fast deck or one that gains life; however, in a deck that chews on your own life total consistently, that two life may be a bit beyond the pale. 
+All that said, there are four varieties of non-basic lands that can be evaluated, nearly independent of the deck they are in. Keeping to the Blue/Black premise of the question, these are:
+
+Sunken Hollow 
+Choked Estuary
+Drowned Catacomb Didn't include in question, cause I don't have any. 
+Darkslick Shores Didn't include in question, cause I don't have any. 
+
+The conditions of these lands are:  
+
+Enters tapped unless you control two or more basic lands.  
+Enters tapped unless you reveal a(n) Island or Swamp card from your hand.  
+Enters tapped unless you control an Island or a Swamp.  
+Enters tapped unless you control two or fewer lands.  
+
+Of these four, the first has the additional benefit that it has the associated land subtypes, making it searchable by Polluted Delta. First though, we should evaluate the ability to satisfy the condition statistically, under the assumptions you play a land each turn you are able to, the opponent doesn't destroy your lands, all four of the remaining land slots are given to one of these 4 options, and you have at least one in your hand. As an extension of that last condition, since we are applying that probability to all four cases, they can be evaluated without having to use multivariate hyper-geometric distributions. That would be hard. 
+Enters tapped unless you control two or more basic lands.
+Sunken Hollow benefits being played turn 3, after two basic lands. For this, there is a decision point which creates two possibilities: is Polluted Delta used to search only for basic lands, only for Sunken Hollow, or some combination.
+Enters tapped unless you reveal an Island or Swamp card from your hand.
+Choked Estuary just wants a card in hand. Early in the game, this is relatively easy. However, as the assumptions are maintained, and lands are played, the probability a land will be in hand to support playing Choked Estuary untapped dwindle, with the search effect of Polluted Delta narrowing the supply even further. 
+Enters tapped unless you control an Island or a Swamp.
+Drowned Catacombs just wants a card with the appropriate land sub-type in play. Since it can't be searched for with Polluted Delta, there are 19 cards in the population of 60 that could be played before it.
+Enters tapped unless you control two or fewer lands.
+Darkslick Shores really want to be played on or before turn 3, or with no more than 2 lands in play. It can't be searched from the deck with Polluted Delta, reducing its odds to four successful copies among the population of 60. In this special case, it is less about the last assumption from above (we already have the card), and more about the likelihood it is drawn quickly. As the game goes on, and other lands have been played, this card gets progressively worse.
+Graphic
+
+This graph depicts a rough estimation of the chances you'll be able to satisfy the conditions of the cards, narrowed to the range of 40% to 100% over the number of cards sampled as the game progresses (7 to 21) over fourteen turns. Excepting for the requirement that lands be played before Sunken Hollow and Drowned Catacombs, the lines show the probability you've drawn sufficient land to satisfy the condition. For the multivariate concern that is Choked Estuary, There are three lines, reflecting the best, worst, and average case; for the worst, it assumes you've drawn and played every basic land in the deck before drawing the Choked Estuary. The average splits the difference.
+Of the four lands evaluated, Drowned Catacombs [blue line starting at (7,.94)] has the greatest probability to satisfy the requirement, so it is the best option.
+Chocked Estuary ranks next [diverging lines starting at (7,.88)], up until turn 6; at that point, Sunken Hollow [four converging lines where y ranges from .57 to .72] edges it out if all four Polluted Delta's are used to find basic lands. As the game continues, the average case continues to decay.
+Darkslick Shores is not depicted on the graph, because of the four it has the cruelest requirement. 
+The line not referenced is the probability of drawing at least 1 of 4 cards as the game progresses. This is the probability influencing the last assumption.
+

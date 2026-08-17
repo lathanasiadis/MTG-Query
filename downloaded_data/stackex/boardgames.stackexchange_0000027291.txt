@@ -1,0 +1,47 @@
+Q:
+
+Would this hypothetical rule change about winning and losing simultaneously ever matter?
+
+One of Magic the Gathering's rules is
+
+104.3f If a player would both win and lose the game simultaneously, he or she loses the game.
+
+However, it seems to me like it "ought to be" the case that if there are only 2 players and [A loses] ​ [B loses] ​ [B wins] would occur simultaneously, then B should win, since win-and-lose-simultaneously should be better than just-lose.
+For that reason, it seems like this would make more sense:
+
+Proposed Alternative If, simultaneously, all players would lose the game and some players would win the game, then the players who would not win the game lose the game, and the game is a draw between the remaining players. ​ Otherwise, if a player would both win and lose the game simultaneously, he or she loses the game.
+
+However, I can't think of any situations in which that would matter.
+Are there any possible situations in which my proposed alternative would yield a different result from the actual rule?
+
+A:
+
+Your hypothetical rule change would never matter, because there is currently no way for a player to win and lose the game simultaneously and therefore it is impossible for 104.3f to apply.
+Generally, the steps of an effect in Magic are followed in the order they are written, often APNAP order. An effect stating "you lose the game and you win the game" would cause you to lose the game strictly first, before the "you win the game" effect could apply.
+There are two exceptions to this generalization: damage events (510.2) and state-based actions (704.3). Replacement effects can replace only parts of these events, so theoretically by filtering through multiple replacement effects we could change one part of the event to "you lose the game" and another part to "you win the game".
+Unfortunately, the only way to win the game with replacement effects is through Laboratory Maniac or Jace, Wielder of Mysteries. Both of these require us to draw a card via a replacement effect, and a very specific rule gets in our way:
+
+121.7. Some replacement effects and prevention effects result in one or more card draws. In such a case, if there are any parts of the original event that haven’t been replaced, those parts occur first, then the card draws happen one at a time.
+
+Consider the following situation. A player who has an empty library and graveyard controls:
+
+A 1/1 creature with lifelink
+Laboratory Maniac
+Nefarious Lich
+
+Their opponent attacks with a 2/2 creature with trample, and they block with their 1/1. The damage event starts out as
+
+(1 damage dealt to the 1/1 AND SIMULTANEOUSLY 1 damage is dealt to the 2/2 AND SIMULTANEOUSLY 1 damage is dealt to the player AND SIMULTANEOUSLY the player gains 1 life)
+
+The former two are irrelevant for our purposes. Nefarious Lich's replacement effects change the latter two events to
+
+(the player exiles 1 card from their graveyard, if they can't they lose the game AND SIMULTANEOUSLY the player draws 1 card)
+
+If you didn't know about 121.7, you might assume that Laboratory Maniac replaces the draw here resulting in a simultaneous win and loss. But what actually happens is that 121.7 notices a replacement effect resulting in a card draw and results in
+
+(the player loses the game.) then,
+(the player draws 1 card.)
+
+So the player simply loses.
+If you're particularly astute, you might seize upon 121.7's wording "the original event" and think that it would not apply if we completely replaced every part of the starting effect. However, I have personally consulted with a judge I know. He says that the consensus in the judging community is that "original" in this context refers not to the effect that was originally generated before replacement effects started to apply, but to the effect after the replacement effect that results in card draws. In other words, it does not mean "if every part of the effect that was generated has been overwritten by replacement effects", but instead means "if any part of the effect that has now been partially replaced with card draws consists of something other than card draws".
+

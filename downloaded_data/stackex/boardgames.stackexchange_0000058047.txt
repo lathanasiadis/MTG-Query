@@ -1,0 +1,23 @@
+Q:
+
+If Drach’Nyen exiles a commander and it is put into command zone, does it still get bonus power?
+
+If Drach'Nyen exiles a commander and it is put into command zone, does it still get bonus power? I think it is the same as with Mimic vat and it only gives menace then?
+
+A:
+
+If Drach'Nyen exiles a commander and it is put in the command zone, Drach'Nyen does not give any bonus power, but it does still grant menace.
+Drach'Nyen's second ability says
+
+Equipped creature has menace and gets +X/+0, where X is the exiled card's power.
+
+The phrase "the exiled card" can only refer to a card in the exile zone. If the card is not in the exile zone, that part of the ability does not work. This is specified in rule 607.2a:
+
+If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+Then rule 107.2 says
+
+If anything needs to use a number that can’t be determined, either as a result or in a calculation, it uses 0 instead.
+
+Since the ability can't find the exiled card, it can't determine the power, so it uses 0 instead. The ability still works and still grants menace.
+

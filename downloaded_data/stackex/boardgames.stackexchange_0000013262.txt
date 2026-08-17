@@ -1,0 +1,23 @@
+Q:
+
+What happens with Lifelink when a creature's power exceeds its blocker's toughness?
+
+Lifelink typically says:
+
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+
+Suppose I attack with a 5/5 creature which has Lifelink, and it's blocked by a 1/1 creature.
+Do I gain 1 life or 5?
+
+A:
+
+You will gain 5 life in that case.  Creatures assign and deal damage equal to their power in combat and do not "Pull their punches" if the blocker happens to have lower toughness.
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all
+...
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt. This is a change from previous rules. 
+
+Assign equal to power.
+Deal what was assigned.
+Size of defender does not factor into it.
+

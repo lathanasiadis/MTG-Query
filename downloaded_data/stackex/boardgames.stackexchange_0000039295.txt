@@ -1,0 +1,29 @@
+Q:
+
+Multicolored lands for a rainbow deck
+
+There are 10 two color combinations for land in magic. Black-white, black-blue, black-green, etc. For any one color, 4 of those 10 will contain that color. I.e. four of these two color combinations contain black. That's almost half. 
+My question, then, is why not run a rainbow (5 color) deck with twenty dual color lands, two from each color permutation? I assume for the sake of simplicity a 20 land 40 non-land split but the principal is the same. 
+One of the arguments against rainbow decks is that you can easily find yourself in a position where you don't have the land you need. But in this construction, 40 percent of lands will give you any single color, which seems pretty good to me. Am I missing something?
+
+A:
+
+This question is kind of the mirror image of this one: "Why would you want to play with a deck that had 3 or more colors in it in Magic?"
+Playing multi-color decks is desirable because it lets you make a powerful and versatile deck by cherrypicking the best cards (for your strategy) from multiple colors.
+So, why are 4- and 5- color decks so comparatively rare?
+
+A lot of the strongest spells of a color have deeper mana requirements.
+Make a list of your favorite powerful cards. A lot of them probably have costs like 2WW rather than 3W, huh? This drastically alters the math of consistent color access. If you look at this number-crunching article by Frank Karsten, you'll see he figures 12 sources are enough to consistently cast a 2C-cost spell on turn 3, but you need 19 sources to get the same quality of access to a 1CC-cost spell on turn 3. 19! 
+This is an active, purposeful design decision to make these cards easier to cast on-curve and on-time in a deck that's dedicated to those colors, and harder to include in a deck that only splashes a color.
+Cards are strongest when you play them on time. A mana base that's heavy on comes-into-play-tapped lands or requires casting land-selection spells like Borderland Ranger to set up your mana introduces notable lag before you can start playing spells that will really interact with your opponent.
+Opponents can disrupt your mana base. Consider how much tighter mana requirements become when you're playing against a deck with 2x Rishadan Port and 4x Wasteland.
+
+All these serve as a damper on the greediest multi-color decks. On top of that, because:
+
+The color's "pie slices" overlap (e.g. green or white can both play effective enchantment removal, so you only need one of those colors to get that ability in your deck).
+Not every color in a format will meaningfully support the specific synergies / strategies you're trying to exploit. (Maybe there just are no red cards worth playing in your midrange deck, even with perfect mana.)
+A stable 5-color manabase can lock you out of playing amazing utility lands like Academy Ruins.
+
+— there's often very little to gain from building a full four- or five- color deck instead of one that's "just" three colors.
+Exceptions, such as Chapin's Cloudthresher + Cruel Ultimatum Lorwyn control deck (example decklist), are typically the result of slower formats with multi-lands that support greater color depth than simple dual lands.
+

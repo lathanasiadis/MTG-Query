@@ -1,0 +1,12 @@
+Q:
+
+Yidris and Thran Temporal Gateway
+
+If I'm using Yidris, Maelstrom Wielder and I have Thran Temporal Gateway on the field, and I deal combat damage to a player with Yidris. Will using Thran Temporal Gateway's ability allow Yidris' s ability to trigger, because Thran Temporal Gateway doesn't use the text cast?
+
+A:
+
+Permanents put onto the battlefield via Thran Temporal Gateway are not cast and do not cascade.
+Casting a spell has a specific meaning - in short, it means putting the spell on the stack, selecting targets, and paying its mana and other costs. That is what's necessary to trigger cascade. After you cast a spell, it can eventually resolve and have its effect; permanent spells that resolve also result in that permanent being put on the battlefield.
+Thran Temporal Gateway bypasses the casting process. The permanent card in your hand never becomes a spell and is instead directly put on the battlefield as a permanent, as Gateway's ability resolves. That means that the spell casting event for that card doesn't happen, the card doesn't get cascade from Yidris, and even if the card had cascade originally, it would not trigger.
+

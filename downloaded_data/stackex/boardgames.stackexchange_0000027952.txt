@@ -1,0 +1,66 @@
+Q:
+
+What's the deal with the new Wastes land and the diamond symbol on it?
+
+One of the cards revealed for Oath of the Gatewatch is the basic land Wastes with a new diamond symbol instead of one of the existing mana symbols. We also saw Kozilek, the Great Distortion, which has two of that new symbol in the cost.
+What does the symbol represent? How does it work? Is it a color? Can I create it with an effect that says "add one mana of any color to your mana pool"? Will this symbol be errata'd onto any existing cards?
+What does Wastes do? Does it have any important differences from other basic lands?
+
+A:
+
+Short answer
+
+In a cost, the new diamond symbol {C} can only be paid with colorless, while {1} can be paid with any color or colorless.
+In an effect that adds mana to a mana pool, {C} means the same thing as {1}. Cards that are printed with "Add {1} to your mana pool" have received errata to add {C} instead (e.g. Unknown Shores).
+
+Likewise, cards that add {2}, {3}, etc have been updated to use the corresponding number of {C} symbols (e.g. Palladium Myr, Thran Dynamo)
+
+Colorless mana doesn't work any differently (colorless is still not a color, and you can't pick "colorless" if asked to pick a color).
+Wastes taps for 1 colorless mana. It's also Basic, so you can have more than 4 in a deck. It has no subtypes, so you can't pick "Wastes" if asked to choose a basic land type.
+
+The official Oath of the Gatewatch mechanics guide includes a detailed description of this.
+Long answer
+The diamond symbol
+The new diamond symbol is the new symbol for colorless mana, and it is written as {C} in text. Rule 107.4c says
+
+The colorless mana symbol {C} is used to represent one colorless mana, and also to represent a cost that can be paid only with one colorless mana.
+
+In an ability that generates mana (i.e. "add {C}"), it adds colorless mana to your mana pool, exactly as the abilities on Reliquary Tower and Ancient Tomb currently do. In a cost, like on the new Kozilek, it represents a mana cost that can only be paid with colorless mana. Kozilek costs {8}{C}{C}, so its cost can be paid with 8 mana of any type, and 2 mana that must be colorless. This exactly mirrors how colored symbols work in costs: a cost of {8}{G}{G} can be paid with 8 mana of any type and 2 mana that must be green.
+Rule 105 has the following subrules
+
+105.1. There are five colors in the Magic game: white, blue, black, red, and green.
+105.4. If a player is asked to choose a color, he or she must choose one of the five colors. “Multicolored” is not a color. Neither is “colorless.”
+
+Colorless is specifically not a color, and you cannot choose it when making mana of any color. Mark Rosewater (the Head Designer for Wizards) has stated this repeatedly in the context of Oath of the Gatewatch.
+The oracle text of every card that generates colorless mana has been updated to use {C} to represent colorless mana.
+And rule 107.4b says
+
+Numerical symbols (such as {1}) and variable symbols (such as {X}) represent generic mana in costs. Generic mana in costs can be paid with any type of mana. For more information about {X}, see rule 107.3
+
+So nothing about generic mana has changed. Costs with numeric and variable symbols can be paid with any type of mana, as it has always been.
+This change has no effect on mana cost reduction effects. Rule 117.7a says
+
+Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can’t affect the colored or colorless mana components of that cost.
+
+And every card that previously reduced a cost by a generic amount still has that effect. For example, Eye of Ugin still has the text
+
+Colorless Eldrazi spells you cast cost {2} less to cast.
+
+Wastes
+The complete text of the card Wastes is
+
+Wastes
+  Basic Land
+{T}: Add {C} to your mana pool.
+
+And rule 205.3i still says
+
+Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza’s.
+  Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
+
+So, Wastes has no land type, and there are no new basic land types. This means that cards like Coalition Victory don't work any differently than they did before.
+An additional important difference between Wastes and other basic lands is that to put Wastes into you limited deck (Draft or Sealed) you need to open them. They appeared twice as often as other common cards in Oath of the Gatewatch to make this easier.
+The fact that it did not add a new basic land type also means that you cannot choose "Wastes" as the basic land type for cards like Convincing Mirage or Crystal Spray.
+Some cards, like Walker of the Wastes, care about Wastes, but they specifically care about lands with that name, instead of lands with a specific type.
+I want to emphasize this point: the mana generated by Wastes is just colorless mana. It works exactly like any other mana source that generates colorless mana, so it does not count for Sunburst, or Converge, or anything else that counts colors. If you copy the mana with Doubling Cube, you get regular colorless mana. If you have a Wastes and a Reflecting Pool, they both just tap for regular colorless mana.
+

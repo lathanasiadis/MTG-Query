@@ -1,0 +1,18 @@
+Q:
+
+Why is Tolarian Kraken worded this way?
+
+Tolarian Kraken has this ability:
+
+Whenever you draw a card, you may pay {1}. When you do, you may tap or untap target creature.
+
+So if you choose to pay {1}, this causes a separate triggered ability to happen. Sparktongue Dragon is another example of this, but pretty much every other use I can find for “when you do” is in the reminder text for Madness or Conspire.
+Most often, whenever a card has an optional ability like this, it says “if you do”, which makes the rest of what happens simply part of the same ability, rather than a separate triggered ability. There are a large number of cards worded this way, such as Carrion Thrash.
+Is there a known reason that these 2 cards are worded differently than the rest? It is a functionally different, but most of the time it would work out the same. With this wording, you don’t have to choose targets for the second ability if you don’t choose to use the effect, but most of the time that’s going to be the same as choosing a target and then not choosing to use the effect anyway.
+Has there been anything written about why these cards are worded this way? Or is there a more obvious explanation that I’m missing?
+
+A:
+
+Waiting until after the cost is paid to choose the target is the big difference here.
+If the ability used "if you do", like on Throwing Knife, then an opponent who wanted to "save" their creature from the ability would have to do so before they even know if you are going to pay for it. That gives the ability the unintentional power of forcing your opponent to react to the possibility of paying the cost, without actually paying any cost. With the "when you do" wording, the opponent can react to your choice to pay the cost, making it more like an activated ability.
+

@@ -1,0 +1,22 @@
+Q:
+
+How does casting a card for its miracle cost interact with cost modifying abilities?
+
+If I reveal and cast a miracle like Temporal Mastery, Bonfire of the Damned or Entreat the Angels, When I am choosing a value for X, must it take into account effects like Thalia, Guardian of Thraben or Council of the Absolute?
+e.g. If I tap 6 mana to Miracle cast Entreat the Angels whilst Council of the Absolute is in play (naming Entreat the Angels), is X 4, or is X 6? Similarly, if I miracle Temporal Mastery under the same circumstances, does it cost only a single Blue mana?
+
+A:
+
+Yes, the cost is still increased or decreased. For your example, X would be 6, because Entreat the Angels for x=6 only costs you 6.
+
+117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” Note that some alternative costs are listed in keywords; see rule 702.
+
+117.9a Only one alternative cost can be applied to any one spell as it’s being cast. The controller of the spell announces his or her intentions to pay that cost as described in rule 601.2b.
+117.9b Alternative costs are always optional.
+117.9c An alternative cost doesn’t change a spell’s mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell’s mana cost still see the original value.
+117.9d If an alternative cost is being paid to cast a spell, any additional costs, cost increases, and cost reductions that affect that spell are applied to that alternative cost. (See rule 601.2e.)
+
+Note that you don't pay whatever mana you want, and then calculate what X is, though.. it's the other way around. You choose an X, and then pay that cost. In your example, you can choose X=6, which would normally cost you 8, but it is reduced to 6.
+
+107.3a If a spell or activated ability has a mana cost, alternative cost, additional cost, and/or activation cost with an , [-X], or X in it, and the value of X isn't defined by the text of that spell or ability, the controller of that spell or ability chooses and announces the value of X as part of casting the spell or activating the ability. (See rule 601, "Casting Spells.") While a spell is on the stack, any X in its mana cost equals the announced value. While an activated ability is on the stack, any X in its activation cost equals the announced value.
+

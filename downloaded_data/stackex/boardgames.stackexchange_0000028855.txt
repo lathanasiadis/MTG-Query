@@ -1,0 +1,22 @@
+Q:
+
+Do abilities like "becomes the target of a spell or ability, sacrifice it" happen even if the spell is countered?
+
+Do I need to sacrifice a creature with the ability "becomes the target of a spell or ability, sacrifice it" (e.g., Frost Walker or Illusionary Servant) if the spell or ability has been countered?
+
+A:
+
+Yes, you will still have to sacrifice the creature even if the spell that triggered it gets countered.
+Examples
+Let's use Frost Walker as an example. The following events happen:
+
+Your opponent casts Lightning Bolt, targeting Frost Walker.
+Frost Walker's ability triggers.
+You cast Counterspell, targeting Lightning Bolt.
+Counterspell resolves. Lightning Bolt is countered.
+Frost Walker's ability resolves. You sacrifice Frost Walker.
+
+Countering Lightning Bolt does not also counter Frost Walker's triggered ability. You could, however, use Stifle to counter the ability itself.
+Spellskite cannot save Frost Walker. Frost Walker triggers immediately upon being targeted. Frost Walker's ability does not care if you redirect the target to Spellskite.
+Standard Bearer can save Frost Walker, at least from spells that only have one target. If your opponent targets Frost Walker, you say "That's illegal. You have to target Standard Bearer." The game then rewinds to the point before your opponent cast the spell.
+

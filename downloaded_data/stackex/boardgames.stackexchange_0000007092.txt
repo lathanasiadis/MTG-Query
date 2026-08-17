@@ -1,0 +1,22 @@
+Q:
+
+If my creature with deathtouch and 0 power blocks one of my opponent's creatures, does my opponent's creature die?
+
+Deathtouch means that "any creature dealt damage by another creature with deathtouch is destroyed", but what if that creature with deathtouch is 0/1? I suppose a better title would be 'does a creature with 0 power deal damage in combat?', but it seems like deathtouch is the most prominent case where this would come into play.
+
+A:
+
+No. Deathtouch still requires that damage be dealt:
+
+702.2b Any nonzero amount of combat damage assigned to a creature by a source with deathtouch
+is considered to be lethal damage, regardless of that creature’s toughness.
+
+Here's the more general rule as well:
+
+119.8. If a source would deal 0 damage, it does not deal damage at all. That means abilities that trigger
+on damage being dealt won’t trigger. It also means that replacement effects that would increase the
+damage dealt by that source, or would have that source deal that damage to a different object or
+player, have no event to replace, so they have no effect.
+
+A corollary to all this is that a creature with deathtouch can only kill as many creature as it has points of damage to assign -- for instance, casting Lure on your 2/2 Acidic Slime doesn't let you wipe out your opponent's whole team, just two blockers.
+

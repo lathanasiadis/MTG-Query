@@ -1,0 +1,35 @@
+Q:
+
+How do "Maro" effects work when you cast your last card to pump them?
+
+If a creature's power and toughness are equal to number of cards in your hand (e.g. Maro), and if I play an enchantment from my hand giving that creature +3/+3 leaving no cards in hand, will it make the creature 0/0 before the enchantment resolves?
+
+A:
+
+Yes, the creature would die.
+When you cast a spell, you move it from your hand to the stack, and other players get the chance to react to that spell. State-based actions would cause the creature to die.
+Rules references:
+
+Casting Spells
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+
+That means the card goes from your hand to the stack and will no longer count toward Maro's ability. But even though it's 0/0 at this point, it's not quite dead yet.
+
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Every time, whenever a player gets priority, state-based actions are checked first:
+
+State-Based Actions
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions [..]
+
+704.5. The state-based actions are as follows:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+If the spell you cast was your last card in hand, and Maro goes to zero toughness, it will die as soon as you finish casting that spell. By the time it can resolve, Maro is already moved from the battlefield to the graveyard.
+Note that there are certain spells that require you to discard cards, then draw one or more, such as Windfall or Wheel of Fortune. Those cases are different. During the resolution of such spells, you temporarily go to zero hand cards as well, and Maro goes to 0/0 temporarily, but state-based actions are not checked during resolution, and Maro will not be destroyed because of such a spell:
+
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+

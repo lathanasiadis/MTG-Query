@@ -1,0 +1,41 @@
+Q:
+
+Why does Diregraf Colossus see itself in the graveyard?
+
+The release notes for Diregraf Colossus says:
+
+If Diregraf Colossus enters the battlefield from your graveyard, its first ability will count itself among the Zombie cards in your graveyard. Similarly, if it enters the battlefield at the same time as another Zombie card enters the battlefield from your graveyard, the ability will count that other Zombie.
+
+and its ability is:
+
+Diregraf Colossus enters the battlefield with a +1/+1 counter on it for each Zombie card in your graveyard.
+
+If it is entering the battlefield, how can it see itself in the graveyard?
+
+A:
+
+Diregraf Colossus's ability has a replacement effect.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . ” are replacement effects.
+
+This particular replacement effect requires information about the game (the number of zombies in your graveyard). This information is determined only once, when the effect is applied.
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. [...]
+
+So, when is the effect applied? In the case of replacement effects, they are applied when the event they are looking to replace would occur.
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event.
+
+And finally, for completeness, the event actually happens when the spell or ability resolves, as you follow the instructions written on the card. The following rule is a subrule of "resolving a spell or ability".
+
+608.2c The controller of the spell or ability follows its instructions in the order written. However, replacement effects may modify these actions. [...]
+
+Armed with these rules, let's walk through a scenario step by step to see what happens. Assume Anthony has Diregraf Colossus in his graveyard and no other zombies.
+
+Anthony casts Dread Return, targeting Diregraf Colossus.
+Both players pass priority, and so Dread Return begins to resolve.
+The first instruction says "Return target creature card from your graveyard to the battlefield."
+This instruction is modified by Diregraf's replacement effect. After applying the replacement effect, it reads "Return Diregraf Colossus to the battlefield from your graveyard with a +1/+1 counter on it for each Zombie card in your graveyard." At the same time that we apply the replacement effect, we must determine how many zombies are in our graveyard. Currently Anthony has one zombie in his graveyard,
+Now that we have applied the replacement effect, we can actually move Diregraf from the graveyard to the battlefield and put 1 counter on it.
+There are no other instructions to follow, so Dread Return is done resolving.
+

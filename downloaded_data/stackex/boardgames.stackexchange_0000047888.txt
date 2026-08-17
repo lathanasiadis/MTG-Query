@@ -1,0 +1,26 @@
+Q:
+
+Chandra, Awakened Inferno vs Gods Willing
+
+If Chandra, Awakened Inferno does its last ability for -x to my creature and I respond with Gods Willing to give my creature protection from red, does Chandra's -x to my creature fizzle?
+I guess the specific question also, does Chandra's ability considered to be red colored?
+
+A:
+
+Correct, protection from red would cause the ability to fizzle and your creature to survive.
+A creature with protection from red can't be targeted by abilities from a red source:
+
+702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+
+When someone activates a targeted ability, the player has to check twice whether the target is legal: once on activation, and again on resolution. If all targets of that ability become illegal between the checks, the ability "fizzles", i.e. it is removed from the stack without having an effect.
+
+Casting Spells
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires. [..]
+
+The rules for casting spells and activating abilities are the same as far as targeting is concerned.
+
+Resolving Spells and Abilities
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [..] If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. [..]
+

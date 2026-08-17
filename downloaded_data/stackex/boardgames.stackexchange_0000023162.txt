@@ -1,0 +1,27 @@
+Q:
+
+If Soulflayer exiles a Winged Sliver from the graveyard via delve does it gain flying?
+
+Soulflayer has delve and reads
+
+If a creature card with flying was exiled with Soulflayer's delve
+ability, Soulflayer has flying. The same is true for first strike,
+double strike, deathtouch, haste, hexproof, indestructible, lifelink,
+reach, trample, and vigilance.
+
+Winged Sliver reads
+
+All Sliver creatures have flying.
+
+My question is... does Soulflayer gain flying if a Winged Sliver that was in the graveyard is exiled?
+
+A:
+
+No, the Winged Sliver does not have flying but grants itself that ability along with all other sliver creatures. The first ruling on the Soulflayer page says that it does not happen.
+
+Creature cards that have abilities that grant the listed keyword abilities to themselves won’t count. For example, exiling a Battle Brawler (a creature with “As long as you control a red or white permanent, Battle Brawler gets +1/+0 and has first strike”) with Soulflayer’s delve ability won’t cause Soulflayer to have first strike, even if you control a red or white permanent.
+
+Also, for further clarification on the Winged Sliver page
+
+If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+

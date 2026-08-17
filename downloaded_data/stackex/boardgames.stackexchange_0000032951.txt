@@ -1,0 +1,35 @@
+Q:
+
+Does Heroic trigger on a static effect?
+
+War-wing Siren has the Heroic ability:
+
+Whenever you cast a spell that targets War-Wing Siren, put a +1/+1 counter on War-Wing Siren.
+
+Captain Of the Watch states:
+
+"Other Soldier creatures you control get +1/+1 and have vigilance."
+
+With Siren in play under my control, I cast Captain Of Watch. The Captain has an effect on Siren: +1/+1 and vigilance.  Does this count as casting a spell that targets Siren?  Should Siren get a +1/+1 counter?
+I see "Target" to mean the recipient of some spell or effect.
+
+A:
+
+No, the Siren does not receive a +1/+1 counter. Although your understanding of the word 'Target' makes sense in english, it has a rather specific meaning in Magic. 
+A creature is only targeted by spells or abilities that actually have the word 'target' on it. For instance, Giant Growth. From the Comprehensive rules:
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target [something],”
+
+The Siren needs to be identified as that 'target [something]' in order for Heroic to trigger. On instants and sorceries, this is spelled out; casting an Aura (ie Unholy Strength) on War-Wing Siren also triggers the Heroic ability, as they have an implicit target:
+
+114.1b Aura spells are always targeted. 
+
+Casting an equipment would not trigger the ability, as they enter play unattached and not targeting anything.  Their equip-ability is not the same as 'casting a spell', so it doesn't trigger Heroic. The same goes for other activated abilities with a target (Spikeshot Goblin does not trigger Heroic, also see this question).
+To look a little closer at what spells do and do not target the War-Wing Siren:
+
+Twiddle would trigger the Heroic ability. 
+Turnabout wouldn't, because the card doesn't target a creature, it targets a player. 
+Call to Glory would not trigger the Siren's Heroic ability, as it doesn't target anything.
+
+(Thanks to @diego for suggesting these cards)
+

@@ -1,0 +1,31 @@
+Q:
+
+Does Master of the Wild Hunt deal damage multiple times?
+
+The text on the Master of the Wild Hunt card:
+
+At the beginning of your upkeep, put a 2/2 green Wolf creature token onto the battlefield.
+
+Tap: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves.
+
+The text states that each wolf deals damage.  This implies that there are multiple damage sources.  Can all of this damage be prevented at once, or need it be prevented from each source individually?
+For example, look at Unbreathing Horde:
+
+Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
+
+If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.
+
+If multiple wolves deal damage to Unbreathing Horde simultaneously per Master of the Wild Hunt's activated ability, does it remove one +1/+1 counter per wolf, or just one +1/+1 counter?
+
+A:
+
+The text states that each wolf deals damage. This implies that there are multiple damage sources.
+
+This is correct, but it's not relevant.
+If you used Master of the Wild Hunt's second ability targeting an Unbreathing Horde, at most one counter would end up being removed no matter how many wolves you have.  All the wolves deal their damage simultaneously, so the Horde is only dealt damage once, even if the damage comes from multiple sources. Unbreathing Horde's replaces the receiving of damage, not the receiving of damage by a source.
+Compare
+"If Unbreathing Horde would be dealt damage,"
+with
+"If Unbreathing Horde would be dealt damage by a source,"
+Phantom Nishoba has a ruling confirming this.
+

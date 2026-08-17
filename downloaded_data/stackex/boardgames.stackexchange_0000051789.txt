@@ -1,0 +1,17 @@
+Q:
+
+Ordeal of Nylea and the stack
+
+I was playing MTG with my lady and came across this scenario:
+She had a creature with 2 +1/+1 counters, and 2 Ordeal of Nylea.
+She attacks with the creature, both triggers hitting the stack.
+I play Murder while the triggered abilities on the stack, killing the creature.
+Since the creature isn't around anymore, I believe the triggered abilities will fizzle, meaning she doesn't get the lands as no +1/+1 counters are placed as the creature is dead.
+Can anyone confirm my resolution?
+
+A:
+
+Your conclusion is correct: no counters will be placed, and the creature's controller will not get any lands.
+Strictly speaking, each Ordeal's first triggered ability does not "fizzle". They still resolve as always, but the actions they try to take are impossible so they don't actually do anything. The creature is dead, so no counters can be placed on it, and the Ordeal is already in the graveyard, so it can't be sacrificed.
+Since the Ordeal can't be sacrificed, its last ability cannot trigger, so the player can never get lands in a scenario like this.
+

@@ -1,0 +1,21 @@
+Q:
+
+If I block my opponent's Ornery Goblin with my Ornery Goblin, whose Goblin dies?
+
+Recently this situation happened to me on Magic: Arena. My opponent attacked with Ornery Goblin, and I blocked with my own Ornery Goblin. Surprisingly, my Goblin died while his did not.
+I don't understand why. Here's what I think should happen:
+
+He's the active player.
+He attacks, I block. Both Goblin's triggers go on stack, but mine resolves first, since he's the active player (CR 101.4).
+My trigger kills his Goblin.
+Since his Goblin is dead, it can't deal damage anymore, so my Goblin survives.
+
+Am I missing something or is this a bug?
+
+A:
+
+Both should die. This sounds like an Arena bug.
+Once an ability goes on the stack, removing the permanent that put it there doesn't stop it from resolving. The ability is now an entirely separate object that has no reliance on its source.
+This means both Ornery Goblins' abilities resolve, killing each other. Your assessment is otherwise entirely accurate including ability ordering—it just doesn't matter here that one kills the other first because they'll both die anyway.
+The only other thing I can imagine is they had a Mentor put a +1/+1 counter on their Ornery Goblin or something, boosting it to a 3/2 which could survive the ping damage from your goblin.
+

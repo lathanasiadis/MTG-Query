@@ -1,0 +1,30 @@
+Q:
+
+Does the game check how many creatures you have before a boardwide effect changes those creatures toughness? (MTG)
+
+Say I have Kaervek, the Spiteful and Endrek Sahr, Master Breeder on the battlefield and I cast Sibsig Muckdraggers, creating 9 1/1 thrulls that immediately die to Kaervek's effect.  Would the game force me to sacrifice Endrek Sahr in this case, and if so, would I be able to put him back in my hand with Sibsig's effect?
+
+A:
+
+How triggered abilities work
+First of all, what's important to handle a lot of the things in question here is how triggers and state-based actions work. A simplification of the relevant events is:
+
+if something meets an ability's trigger condition, that ability triggers (but is not put on the stack yet)
+state-based actions are checked
+triggers are put on the stack
+
+The relevant rules for this order are:
+
+117.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, "Handling Triggered Abilities.") However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn't yet been put on the stack is put on the stack. See rule 117.5.
+117.2d State-based actions happen automatically when certain conditions are met. See rule 704. They’re dealt with before a player would receive priority. See rule 117.5.
+
+What happens for this scenario
+With that out of the way, here's what happens in your scenario, assuming nothing else other than what you described happens:
+You cast Sibsig Muckdraggers, which triggers Endrek Sahr's first ability, which is put on the stack and will resolve to create 9 0/0 tokens (they would be 1/1 tokens, but their P/T get modified by Kaervek). This triggers Endrek Sahr's second ability, which is not put on the stack yet. State-based actions put the tokens into your graveyard (where they cease to exist), then Endrek Sahr's second ability is put on the stack and resolves, which will also put Endrek Sahr in the graveyard.
+This is further emphasized by one of Endrek Sahr's rulings:
+
+When the second ability resolves, Endrek Sahr will be sacrificed regardless of how many Thrulls you control at that time, even if it's less than seven.
+
+Finally, Sibsig Muckdraggers will resolve, and them entering the battlefield triggers their ability. Now that this ability is put on the stack, you must choose a target for it, which may be Endrek Sahr (since that creature is in your graveyard).
+So yes, you would have to sacrifice Endrek Sahr, and you will be able to put it back into your hand afterwards.
+

@@ -1,0 +1,24 @@
+Q:
+
+Unbreakable Formation vs. Cry of the Carnarium
+
+My opponent played Cry of the Carnarium in MTG Arena.  I immediately played Unbreakable Formation after.  The intended result was for my creatures to not die or get exiled, but they did.  Shouldn't Unbreakable Formation resolve, granting me indestructible until end of turn?
+
+A:
+
+The card Unbreakable Formation will not generally save your creatures from dying from Cry of the Carnarium, because the ability Indestructible does not save creatures from dying from toughness loss.
+The ability Indestructible is defined in rule 702.12b:
+
+A permanent with indestructible can't be destroyed. Such permanents aren't destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+The rule it references, 704.5g, is part of the State-based action rules:
+
+If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+The previous rule, 704.5f, says this:
+
+If a creature has toughness 0 or less, it's put into its owner's graveyard. Regeneration can't replace this event.
+
+As you can see, if a creature takes damage greater than or equal to its toughness, it is "destroyed", so Indestructible can stop it. But if a creature loses all of its toughness, it is just put into the graveyard, so Indestructible doesn't do anything about that.
+Magic Arena displays damage the same way it displays toughness loss, but they are not the same thing.
+

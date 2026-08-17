@@ -1,0 +1,21 @@
+Q:
+
+Does MTG have a card with a mana-generating ability that has a target and is thus not a mana ability?
+
+Just out of curiosity: The rules say:
+
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn’t have a target, it could add mana to a player’s mana pool when it resolves, and it’s not a loyalty ability. (See rule 606, “Loyalty Abilities.”)
+
+So, are there currently abilities on cards that do have a target, but could add mana on resolve and are no loyalty abilities, thus using the stack?
+I'm asking because until recently I falsely believed that all abilities that generate mana are mana abilities and are thus exceptions to the "abilities go to the stack" rule. But it wouldn't be MTG if rules didn't have exceptions to exceptions, so it'd be good to know which cards to look out for. Even if some of them are joke cards like Unglued it'd be nice to know them just for the sake of knowing.
+
+A:
+
+Yes, Deathrite Shaman is one such card.  One of its abilities: 
+
+{T}: Exile target land card from a graveyard. Add one mana of any color.
+
+In fact, its oracle page even addresses this ability:
+
+Because the first ability requires a target, it is not a mana ability. It uses the stack and can be responded to. (2016-06-08)
+

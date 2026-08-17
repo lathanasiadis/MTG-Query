@@ -1,0 +1,26 @@
+Q:
+
+What are Ulamog, the Ceaseless Hunger's abilities counted as?
+
+I have Ulamog, the Ceaseless Hunger and my fried has Viper's kiss:
+
+Enchanted creature gets -1/-1, and its activated abilities can't be activated.
+
+When Ulamog attcks is that an activated ability or or is it a creature spell that can be countered?
+
+A:
+
+It is neither. It is a triggered ability:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect].”
+
+Ulamog has two triggered abilities — one for when he's cast, and one for when he attacks — and indestructible, a keyword ability.
+Viper's Kiss has no effect on any of these abilities. It will give Ulamog -1/-1 making it a 9/9, but Ulamog will still exile cards.
+
+Spells are only ever cards (or copies of cards) that are on the stack. Abilities never count as spells.
+Activated abilities also have a specific formatting you can recognise them by:
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+An example of activated abilities is found on Elvish Mystic: note the presence of a cost (tap Elvish Mystic), colon :, and effect (add green mana). An activated ability has all three of these; an ability without these is not an activated ability.
+

@@ -1,0 +1,21 @@
+Q:
+
+What happens when I try to exile more cards from my library than there is in my library?
+
+If I use Golos, Tireless Pilgrim's activated ability, which starts:
+
+Exile the top three cards of your library...
+
+when my library has 2 or fewer cards, must I draw all 3 cards (and hence lose the game attempting to draw from an empty library) or can I just exile the 2 cards which are available?
+
+A:
+
+You don't lose the game until you try to draw a card that doesn't exist.
+
+104.3c If a player is required to draw more cards than are left in their library, they draw the remaining cards and then lose the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+Since Golos exiles cards it doesn't lose you the game, but that will probably happen on your next draw step anyway.
+You can now exile your 2 cards to Golos's ability:
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+

@@ -1,0 +1,17 @@
+Q:
+
+What's the cheapest way to buy a large number of Magic: the Gathering cards on Cardmarket?
+
+I need cards for my new EDH decks and I want to buy them on cardmarket.com. They have this neat feature called the Shopping Wizard, which does all of the work for you. Last time I needed around 60 cards and I ended up buying from four different sellers to get all the cards in the most cost-efficient way.
+The way the Shopping Wizard works is to try to combine low-cost cards in a way that minimizes both card cost and shipping costs. Since shipping costs tend to be fixed per seller, it is typically beneficial to have as few sellers/packages as possible.
+Problem is, the Shopping Wizard can only handle lists of up to 150 cards. And I need 250.  So I will have to use the power of the Shopping Wizard algorithm at least twice. But I don’t know how to proceed. I sorted the cards by price, with the most expensive card on the list at about 15€ and the cheapest one just 0,06€. My goal is to minimize the overall cost of this purchases (including shipping). So now I don’t know if I should start with the 150 most expensive or cheapest cards. (Or some other combination).
+Buying lots of really cheap cards usually results in few (or even just one) recommended sellers. Maybe I could get those cheap cards from someone else even cheaper, but less sellers means smaller shipping costs. A list with more expensive cards usually gets divvied up between multiple sellers. This obviously increases shipping costs, but if someone sells a card for way less than everyone else, it might sometimes be best to buy just one card from them.
+In an ideal situation, all 250 cards would be split into groups for cheapest total cost, and then I would just have 2 orders based on those groups. But since I can't know the groups, I want to minimize breaking up the groups and causing more packages & shipping cost.
+So my question is:
+What’s the cheapest way to buy more than 150 cards of varying price levels on cardmarket.com?
+
+A:
+
+There is no definitive answer to this. I've come across this problem myself and thought about it for quite a while to try to come up with a heuristic and/or reasoning.
+In the end it depends how much time you want to spend. I believe I ended up using the 150 most expensive cards (or rather the cards above the ~0.10€ to 0.20€ threshold because below that everything is irrelevant) and sent those to the Shopping Wizard. Then I went through those five sellers and checked every one for the other missing cards (saved in a second Wants list of course). Here you have to cross-check etc but sorting by price and name worked for me.
+

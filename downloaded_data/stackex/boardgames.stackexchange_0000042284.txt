@@ -1,0 +1,50 @@
+Q:
+
+How may it be possible to win and lose the game simultaneously?
+
+Take the following rule.
+
+104.3f If a player would both win and lose the game simultaneously, that player loses the game.
+
+How is it possible to do this, has there been a documented case of this happening?
+
+A:
+
+The rule exists "just in case". It is not actually possible to win and lose at the same time under current rules and with current cards.
+Ways to win/lose a game
+The rules define all the ways to win and lose a game:
+
+104.2a A player still in the game wins the game if that player’s opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+
+Since you can't lose the game when this rules makes you win, it's irrelevant to the question.
+
+104.2b An effect may state that a player wins the game.
+104.2c In a multiplayer game between teams, a team with at least one player still in the game wins the game if all other teams have left the game. Each player on the winning team wins the game, even if one or more of those players had previously lost that game.
+104.2d In an Emperor game, a team wins the game if its emperor wins the game. (See rule 809.5.)
+
+It doesn't explicitely say so, but "have left the game" is the same wording as in 104.2a, so I would assume the same restriction about not being able to lose the game  also applies. Either way, I don't see how this could be exploited to create a "win/lose at the same time" situation. As for Emperor games, if a single player can't win and lose at the same time, the team that player is on can't either, so it's not relevant to the question either.
+
+104.3a A player can concede the game at any time. A player who concedes leaves the game immediately. That player loses the game.
+
+No way to concede and win at the same time.
+
+104.3b - 104.3d
+
+The 3 state-based actions that make a player lose the game. There are more state-based actions for team games and special game modes that make a player/team lose.
+
+104.3e An effect may state that a player loses the game.
+
+So in summary, the only times when a player can win/lose the game are the result of a state-based action, the resolution of a spell, or when a player concedes, the last of which can have no other result than one player losing. Only state-based actions and spell/ability resolutions are potential sources of win and loss at the same time.
+You can not win and lose the game at the same time
+Two events that make a player win or lose happening at the same time means they all have to happen during a single state-based actions check, or they have to happen during the resolution of a single spell or ability. Events in any other situation are not simultaneous.
+
+State-base actions can only make a player lose, rule 704.5: 
+
+player has zero life or less
+10 or more poison counters on a player
+player attempted to draw from empty library
+several other ways to lose the game in multiplayer or special game modes such as Commander
+
+There are no cards that could make a player directly win and lose at the same time with a single resolution of a spell or ability to satisfy 104.2b and 104.3e at the same time. Such a card would have to include the terms "win" and "lose" in its ability text at the same time in one of its abilitites. None of the cards that satisfy this condition could be used to create a simultaneous win and loss for a player. Multiple spells/abilities cannot resolve at the same time, they use the stack.
+State-based actions checks and spell/ability resolutions can never happen at the same, so you can't win the game due to a spell/ability and lose at the same time to state-based actions.
+

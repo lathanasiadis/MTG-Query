@@ -1,0 +1,32 @@
+Q:
+
+Can instants be played after I decide not to block?
+
+My friend has a green Infect deck. When he declares a creature to attack and I allow it to go through unblocked, he suddenly plays all these Instants that 'pump' the creature up, and because of Infect, it's an instant loss most of the time. We solved that issue (without really understanding the full rules) that it wouldn't make sense to pump his creature up for an instant win without allowing me to block, although recently, my friend told me that 'Instants' can be played 'anytime' so once I allow a creature to deal me damage, technically, he's allowed to play all those Instants.
+I'm really confused about it all, and would like to get an answer once and for all for this.
+Also, once he has stacked all the pumps for his creature and attacks me (after I initially let it pass to hit my life because I did not expect the pumps) am I allowed to play Holy Day?
+
+A:
+
+I think the best way to answer your question is to give a brief outline of the rules regarding the game steps, and timing of playing spells and abilities
+Game Phases and Steps
+In a nutshell, here are the phases and steps in a turn of a game of Magic.
+
+Beginning (3 steps: Untap, Upkeep, Draw)
+Precombat Main
+Combat (5 steps: Beginning of Combat, Declare Attackers, Declare Blockers, Combat Damage, End of Combat)
+Postcombat Main
+Ending (2 steps: End Step, Cleanup Step)
+
+At the end of each step (except untap and cleanup*), any abilities that trigger at the start of that step are put on the stack, and then the active player (whoever's turn it is) receives priority.
+Priority means you can cast spells, activate abilities or play a land. (Keep in mind that casting non-instant spells, activating some abilities and playing lands can only be done if it's your turn, if it's a Main phase, and if the stack is empty.) If a player is done, they may pass priority. Then, the next player gets priority to play spells and activate abilities.
+When all players pass priority, any spells on the stack resolve. After each spell or ability resolves the active player receives priority again. He may play new fast effects (instant spells or activate abilities.)
+If the stack is empty and all players pass priority, the game moves to the next step or phase.
+* — Players don't receive priority during the Untap or Cleanup Step, with one exception during the Cleanup Step. Check the comprehensive rules 514 for more info.
+The Stack
+The stack is a holding area for spells and abilities that have been cast or activated (including pumping a creature or playing a spell like Holy Day.) After a spell has been played or an ability activated, it is put on the stack.
+Once everyone has passed priority, the last-played spell or ability on the stack resolves. It's like a stack of dishes or paper. You deal with the one on top first. After each spell or ability resolves, the active player receives priority again. When all players pass, the next spell on the stack resolves, and so on, until the stack is empty.
+Conclusion
+You always have a chance to respond to your opponent casting spells and activating abilities to pump his creature (ignoring Split Second.) And your opponent can choose to pump his creature during phase 1 & 2, but usually it is most advantageous to do it during the Declare Blockers step of the Combat phase, after blockers are declared.
+I hope that makes sense. I've tried to boil it down "When can I play instants?" to the essentials and a minimum of caveats and exceptions. Magic has many card interactions and rules to deal with these nitty-gritty details; browse the comprehensive rules if you really want to get into those!
+

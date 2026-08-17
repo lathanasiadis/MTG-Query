@@ -1,0 +1,22 @@
+Q:
+
+How does the Tribute mechanic work?
+
+Full disclosure, I am relatively new to the game and haven't experienced all the mechanics yet.
+There are a couple premade decks in the Born of the Gods set that use Tribute. We're a little hazy on how exactly it works...Is it simply a yes/no answer to paying tribute from the target player? Or is there a mana/health/whatever cost as well? It seems like some of the pay/don't pay choices are total no brainers.
+
+A:
+
+As a creature with tribute enters the battlefield, an opponent of your choice "may" place +1/+1 counters on the creature. The "may" means that he has 2 choices: do it, or don't do it. There is no "overpay", and no health or mana costs associated with this. Just read the reminder text literally.
+Also note that it is not a "target" opponent. Tribute doesn't target, meaning you could choose an opponent with hexproof.
+Here's an excerpt from the Born of the Gods new mechanics notes:
+
+As Pharagax Giant enters the battlefield, you choose an opponent. That opponent then decides whether to "pay tribute" by having Pharagax Giant enter the battlefield with two +1/+1 counters on it. If he or she does, then that's it—you've got a bigger Giant. If he or she decides not to pay tribute, then Pharagax Giant's enters-the-battlefield ability will trigger instead. Either way, it's good for you—and in the meantime, you get to watch your opponent sweat.
+
+And here's the comprehensive rules on it:
+
+702.103. Tribute
+
+702.103a Tribute is a static ability that functions as the creature with tribute is entering the battlefield. "Tribute N" means "As this creature enters the battlefield, choose an opponent. That player may have this creature enter the battlefield with an additional N +1/+1 counters on it."
+702.103b Objects with tribute have triggered abilities that check "if tribute wasn’t paid." This condition is true if the opponent chosen as a result of the tribute ability didn’t have the creature enter the battlefield with +1/+1 counters as specified by the creature’s tribute ability.
+

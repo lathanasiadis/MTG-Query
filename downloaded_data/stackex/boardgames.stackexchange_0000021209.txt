@@ -1,0 +1,33 @@
+Q:
+
+Blocking with First Strike + Deathtouch
+
+Rule 509.3 says:
+
+Third, for each blocking creature, the defending player announces that creature's damage assignment order, which consists of the creatures it's blocking in an order of that player's choice. (During the combat damage step, a blocking creature can't assign combat damage to a creature it's blocking unless each creature ahead of that blocked creature in its order is assigned lethal damage.) This turn-based action doesn't use the stack.
+
+Rule 702.2b says:
+
+Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature's toughness.
+
+And in Unhinged there are creatures with 1/2 power(for example Little Girl)(so basically it looks like there's no minimum damage a creature can deal).
+Now let's imagine I have monstrous Hundred Handed One on the battlefield(so it is a 6/8 creature that can block up to 100 creatures).
+Now assume I gave my monstrous Hundred Handed One First Strike and Deathtouch. During my opponents combat phase he declares 10 3/3 creatures without any abilities as attackers.
+So the question for this scenario:
+Would I be able to block them all dead? Or will I have to assign 3 damage to first creature and 3 damage to second creature? Or can I only assign minimal of 1 damage per creature that would kill 6 of the attacking creatures my opponent controls?
+
+A:
+
+107.1a You can’t choose a fractional number, deal fractional damage, gain fractional life, and so on. If a spell or ability could generate a fractional number, the spell or ability will tell you whether to round up or down.
+
+Normally, you must pick an integer number of damage. So in a normal game, a 6/8 Hundred Handed One with First Strike and Deathtouch only kills 6 of the blockers. The remaining four 3/3 survive to deal 12 damage to Hundred Handed One, killing it.
+In an Unhinged/Unglued game, 107.1a is modified.
+
+For right now (and I reserve the right to change this with future Un sets), whenever you choose a number, if that number is written as p/q in lowest terms, q must be 1 or 2. If you stopped taking math in high school, for any fraction the greatest legal denominator is 2. And if you've mentally repressed all math-related knowledge, the only fraction you can choose is {1/2} (and yes, 1{1/2}, 2{1/2}, etc. is fair game).
+
+Does this mean that while playing silver-bordered cards I can break up Pyrotechnics to deal {1/2} damage to eight creatures (trust me, I can come up with a reason)?
+
+Yes. Yes, you can.
+
+Hundred Handed One can now deal 1/2 damage to 12 creatures. In a Unhinged/Unglued game, and only in such a game, HHO will survive the scenario unscathed. It would take 15 3/3 attackers to kill HHO.
+

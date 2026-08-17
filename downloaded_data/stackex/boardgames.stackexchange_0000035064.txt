@@ -1,0 +1,22 @@
+Q:
+
+What happens while casting protection from Banishing Light?
+
+What would happen with this stack?:
+Player 1 plays Banishing light targeting player 2's creature.
+Player 2 plays Gods Willing on that same creature.
+What happens with player 1's enchantment?
+Does it do nothing because the target chosen is protected? Does it choose new target that doesn't have protection, since it isn't an enchant-aura? Or is it something else all together?
+
+A:
+
+Part of what will help make this clear is that Banishing Light doesn't get targets chosen at casting time. Here's how Banishing Light normally plays out:
+
+You cast Banishing Light. (No special choices are made. No target is chosen.)
+It resolves and enters the battlefield.
+Its enters-the-battlefield triggered ability goes on the stack, with a creature chosen for the target.
+That ability resolves and the creature gets exiled, to return when Banishing Light leaves the battlefield.
+
+If you play Gods Willing to give a creature protection in between steps 1 and 2, no target's been chosen yet, and the player must choose any other target during step 3. If there are absolutely no other legal targets to choose during step 3, the triggered ability can't go on the stack, so nothing happens — we skip step 3 and 4, and Banishing Light now just sits there uselessly.
+If you play Gods Willing to in between steps 3 and 4, you know what creature they're targeting with Banishing Light's triggered ability. If you give it protection, the ability can't resolve and will fizzle & be countered by virtue of having no legal targets left at resolution time. The player who controls Banishing Light doesn't get to pick any other creature; Banishing Light (again) just sits useless on the battlefield. Nothing gets exiled by it.
+

@@ -1,0 +1,13 @@
+Q:
+
+Can I counter a spell that can't be countered?
+
+Specifically, can I counter Dragonlord Dromoka with Voidmage Apprentice's triggered ability?
+
+A:
+
+No, you cannot counter Dragonlord Dromoka with Voidmage Apprentice.
+Dromoka cannot be countered at all, it doesn't matter what is trying to counter it.
+Also "When ~ is turned face up, ..." is a triggered ability. So flipping a card face up is a special action that doesn't use the stack, and once the card is face up its ability triggers and is put on the stack.
+If instead you were trying to counter something like Abrupt Decay that "can't be countered by spells or abilities." you still couldn't counter it because you would still be using an ability to try and counter it. The "by spells or abilities" rider is there on spells with targets so that if a spell has no legal targets it can still be countered by the game rules.
+

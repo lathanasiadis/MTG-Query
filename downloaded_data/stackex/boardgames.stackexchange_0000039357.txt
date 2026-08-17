@@ -1,0 +1,32 @@
+Q:
+
+What happens if the text of Hardened Scales is changed from "if one or more" to "if zero or more"?
+
+The card More or Less, from Unstable, has the text:
+
+Add or subtract 1 or one from a number or number word on target spell or permanent until end of turn.
+
+Suppose I use More or Less targeting Hardened Scales, which has the text:
+
+If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
+
+I choose the number word "one" in the condition of the replacement effect to change the text from "if one or more" to "if zero or more".
+When will this replacement effect apply? I know that when 0 damage would be dealt, the game treats that as no damage being dealt. But are there any rules that cover zero +1/+1 counters being placed? If not, conceivably I would put one +1/+1 on each creature I control each time a spell or ability doesn't put any +1/+1 counters on a creature I control. Is that really how it works?
+And furthermore, if that's how it works, does the replacement effect only apply to spells and abilities, or are there other game objects that the replacement effect would apply to, so that I would need to put +1/+1 counters on my creatures at times I might not have expected?
+
+A:
+
+There's a few clear options to handle Hardened Scales at "zero or more".
+Method 1, the black-bordered method: putting zero counters on something isn't a thing that happens; it's a non-event. If no counters were put, no counter-putting has occurred.
+However, we're dealing with the silver-bordered world, and in that case we should seek out more awesome options. If something wants to care about zero +1/+1 counters being put on things, we can decide that must now be a thing that can happen.
+There's two silver-bordered ways I think we can handle this. Method 2 below hardly works; method 3 I think works well.
+Method 2, counters-on-everything-always: Things which have nothing at all to do with putting +1/+1 counters on a permanent are recognised as putting zero counters on that permanent by Hardened Scales, which makes that thing put a +1/+1 counter on that permanent.
+The trouble with this method is "things" here can be anything based on what your group works out, from spells and abilities to even rules for progressing through phases and steps, to the several dozen state-based actions we check constantly. Depending on how wide you cast the net, it's fairly awesome but also proportionately unmanageable. Each turn through the game would put an arbitrary number of +1/+1 counters on everything, and make everything arbitrarily huge (but not infinitely huge). I don't recommend this because it's messy.
+Method 3, things that put zero counters on stuff: If something can put +1/+1 counters on things, and would put some number on a specific permanent or set of permanents, but that number works out to be zero, Hardened Scales at "zero or more" makes it one +1/+1 counter instead for those permanents. This is the method I recommend.
+This primarily affects two kinds of effects:
+
+Creatures that enter with a number of counters: if that amount would work out to zero, they enter with a +1/+1 counter. If Academy Elite enters while there's 0 cards in graveyards, it enters with a +1/+1 counter. If you devour no creatures for Bloodspore Thrinax, it enters with a +1/+1 counter. Endless One cast for {0} enters with a +1/+1 counter.
+Cards that put counters on things. If a creature with 0 power dies with Death's Presence out, you put a +1/+1 counter on a creature you control, and similarly Kresh the Bloodbraided would gain one +1/+1 counter from his own ability. Ezuri, Claw of Progress puts one +1/+1 counter on something when you have 0 experience counters. Lifecraft Awakening cast for X=0 puts a +1/+1 counter on something. A Bloodspore Thrinax that has no counters on it (maybe it was Aether Snapped) makes sure your creatures enter the battlefield with a +1/+1 counter on it, because it would give them 0 +1/+1 counters, which gets bumped up to one +1/+1 counter.
+
+This scenario is a bundle of edge cases, but it lets us work in a silver-bordered but manageable way.
+

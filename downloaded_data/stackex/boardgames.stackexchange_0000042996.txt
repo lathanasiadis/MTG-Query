@@ -1,0 +1,37 @@
+Q:
+
+Will Path of Mettle flip if I fullfill the conditions after declaring attackers?
+
+Say I have a board state with an unflipped Path of Mettle, a Duelist's Heritage, one creature with first strike/double strike/vigilance/haste and another creature with none of that.
+As  I head to combat, and declare attackers, Path of Mettle does not flip as the condition is not fulfilled:  
+
+Whenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.  
+
+Now Duelist's Heritage triggers, and I decide to give the creature without any of the keywords double strike. My question is/questions are:  
+
+Does Path of Mettle still flip? I am clearly still attacking with two creatures which fullfill the requirements.  
+If not, can I stack the triggers in such a way that it will flip? Like, I declare attackers, this triggers the check of Path of Mettle and the Heritage, and may I stack them in such a way that Path of Mettle flips?  
+
+A:
+
+No, because "whenever you attack" looks at the exact moment you're declaring attackers (not after).
+
+Path of Mettle will not transform in this situation. For it to transform, your attacking creatures must already have those qualities whilst being declared as attackers. It does not work to grant them those abilities just afterwards such as by Duelist's Heritage.
+This is because of the way triggered abilities work, especially "when (something) attacks" triggers. Basically:
+
+You declare attackers.
+Then, we check to see what abilities trigger.
+
+Duelist's Heritage saw a creature attack. It triggers.
+Path of Mettle did not see two creatures with those qualities attack. It does not trigger.
+
+Then people get priority, and eventually Duelist's Heritage gives something double strike.
+
+But Path of Mettle doesn't care after the check in step 2; its opportunity to have its ability triggered has already passed. It can't/won't trigger again if something later gains those characteristics, since it already made its check.
+
+For some comprehensive rules backing, we can see in the Declare Attackers step:
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+
+This one is pretty clear that Path of Mettle is looking for creatures that have those qualities whilst being declared as an attacker, not later.
+

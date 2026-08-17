@@ -1,0 +1,27 @@
+Q:
+
+How would Solemnity and Dark Depths interact?
+
+If I have Solemnity on the battlefield and someone plays Dark Depths, what happens? Dark Depths says that it enters with the ice counters, but could they even be placed on it in the first place?
+
+A:
+
+Dark Depths would enter the battlefield without counters and its ability would immediately trigger. Barring instant-speed removal for the land, that would result in a 20/20 token for that player.
+A permanent entering the battlefield with counters on it counts as those counters having been placed on that permanent:
+
+121.6. Some spells and abilities refer to counters being put on an object. This refers to putting counters on that object while it’s on the battlefield and also to an object that’s given counters as it enters the battlefield.
+
+When a permanent enters the battlefield "with N counters on it", that's a replacement effect that modifies how a permanent (Dark Depths in this case) enters the battlefield. 
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+However, Solemnity prevents that particular replacement effect from doing anything, so Dark Depths will simply enter the battlefield without counters. 
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+
+Finally, its game state-based triggered ability triggers the next time a player would gain priority.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. [..]
+
+Note that for Dark Depths to create the 20/20 token, it has to be sacrificed as its triggered ability resolves. If it has left the battlefield before that time, for example because it has been destroyed, then it can't be sacrificed and no token will be created.
+

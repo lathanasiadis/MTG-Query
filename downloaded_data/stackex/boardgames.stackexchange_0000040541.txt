@@ -1,0 +1,22 @@
+Q:
+
+When playing with Unstable cards when and by whom the distance metrics is chosen?
+
+I know this question might sound crazy but as defined on card Just Desserts the π is equal to the ratio of (let's suppose unit) circle's circumference to its diameter. But nowhere is specified how the distance is measured.
+As far as I know, there are many ways how the distance might be measured and by choosing the distance metrics the value of π might be chosen basically arbitrarily. In Euclidean metrics, it is of course 3.141592... but in Manhattan metrics, for example, π is equal to 4.
+Strangely enough, there exists metrics where π is infinite. Roughly speaking the metric is as follows: The point has 0 distance from itself, the distance between every other two points is the same and equals to 1. Therefore the unit circle contains all other points except its center and if we're assuming the space contains an infinite number of points, the value of π is by definition infinite.
+By whom and when is the metric chosen?
+
+A:
+
+π refers here to the mathematical constant that has the approximate value 3.14
+The reminder text on Just Desserts says
+
+It's a smidgen more than 3.
+
+and one of the rulings says
+
+If the damage from Just Desserts gets redirected to a player, use 3.14.
+
+On a more general note, when the symbol "π" is used to refer to a number in mathematics, it always refers to the ratio of the circumference of a circle to its diameter in Euclidean geometry. You can see this in the Wikipedia article, the Wolfram Mathworld definition, and others.
+

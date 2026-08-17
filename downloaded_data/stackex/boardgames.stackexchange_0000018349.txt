@@ -1,0 +1,42 @@
+Q:
+
+When is a battalion trigger considered "missed" at Competitive REL?
+
+At exactly what stage of combat would a Competitive REL judge change his ruling from "The trigger happens" to "Your opponent decides" to "The trigger was missed"?
+
+The trigger happens -> Your opponent decides -> The trigger was missed
+
+To help answer this question, I have enumerated a few stages of combat. Feel free to reference these in your answer. Please assume a clean slate - no judge warnings, no prior history of poor conduct, and a generally positive but strict attitude from both players involved.
+Declare Attackers Step
+
+My opponent declares Ash Zealot, Ash Zealot, and Legion Loyalist as attackers
+My opponent pauses for five seconds
+My opponent passes
+I pass
+
+Declare Blockers Step
+
+I block Legion Loyalist with Elvish Mystic
+My opponent pauses for five seconds
+My opponent passes
+I pass
+
+Combat Damage Step
+
+My opponent assigns first strike damage from the two Ash Zealots. He neglects to assign Legion Loyalist's damage.
+
+I shouldn't need to continue. Once we arrive at the combat damage step, the trigger has clearly been forgotten. If for some reason the trigger could still be "remembered" after first strike damage has already been dealt, please explain why.
+In a real game, players generally do not explicitly pass priority. Generally, one of the players will simply offer "Declare blockers?" If this would have an effect on the judge's ruling, please explain. I suspect that explicit priority passes would be more incriminating than shortcuts.
+Why am I asking this question?
+When I declare blockers, I need to determine if the trigger occurred without reminding my opponent while he still has a chance to "remember" it.
+
+A:
+
+The DCI Infraction Procedure Guide, describes very specifically how the judge should rule various infractions, and section 2.1 covers missed triggers. It describes both when a trigger is considered to be missed and what the penalty should be. In your case, Legion Loyalist's Battalion ability changes the game state in non-visible ways by giving abilities to creatures. Therefore, according to that document, its controller has to mention it the first time it would affect visible state or it is forgotten. In this particular case, that means that the trigger is considered forgotten if the player doesn't mention it by the time Legion Loyalist would deal first strike damage.
+When this happens, the judge is instructed to issue a warning only if the triggered ability's effect would be detrimental to its controller. Otherwise, they are not supposed to intervene unless they think the player is intentionally missing the triggers. This is one of those non-intervention casees.
+If a judge does intervene, the Additional Remedy subsection at the end of the missed triggers section describes how the game state may be corrected. In this case, the ability does not "specify a default action associated with a choice made by the controller" and is not "a delayed triggered ability that changes the zone of an object". The triggered ability creates an effect (granting abilities) so if that effect's "duration has already expired" (at the end of that player's turn), then play continues and the ability is ignored. Otherwise, the judge follows the final paragraph of that subsection and
+
+the opponent chooses whether the triggered ability is added to the stack. If it is, it’s inserted at the appropriate place on the stack if possible or on the bottom of the stack.
+
+The overall effect of this is that if a judge is called over in regards to this missed trigger, then if it is still the same turn, then the ability's controller's opponent (you) chooses whether the ability goes on the stack. Otherwise, you ignore it and move on.
+

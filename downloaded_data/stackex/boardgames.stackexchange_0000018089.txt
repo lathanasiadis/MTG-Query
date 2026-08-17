@@ -1,0 +1,22 @@
+Q:
+
+Do creatures summoned by a Planeswalker have summoning sickness?
+
+Elspeth, Sun's Champion has a loyalty ability which says:
+
+Place three 1/1 white soldier creature tokens onto the battlefield.
+
+When this ability is activated, do these soldiers have summoning sickness? I ask because Elspeth herself does not have summoning sickness when placed onto the battlefield.
+
+A:
+
+Yes, they'll have summoning sickness. Every creature experiences summoning sickness, without exception, unless something says it doesn't, such as having Haste. Elspeth herself doesn't experience Summoning Sickness because she isn't a creature - she's a  planeswalker.
+For an example of a Planeswalker that places creatures which do have Haste, see Xenagos, the Reveler.
+Summoning sickness comes from rule 302.6:
+
+302.6. A creatures activated ability with the tap symbol or the untap symbol in its activation cost cant be activated unless the creature has been under its controllers control continuously since his or her most recent turn began. A creature cant attack unless it has been under its controllers control continuously since his or her most recent turn began. This rule is informally called the "summoning sickness" rule.
+
+In short: Summoning Sickness means a creature can't attack, or activate abilities with a tap or untap symbol in their cost, until they've been under your control since your untap step.
+If a permanent on the battlefield is turned into a creature — e.g. you transform your Mutavault — it will suddenly start being affected by summoning sickness, if you haven't controlled that permanent since the beginning of your turn. For this reason, an alternate way to describe it is that everything has summoning sickness, but it only affects things if they're creatures.
+Creatures affected by summoning sickness can still be tapped by other things, though. You can cast Devout Invocation, for instance, and tap a creature that you only just summoned.
+

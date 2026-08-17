@@ -1,0 +1,25 @@
+Q:
+
+If Soulflayer is returned to play from your graveyard, does it retain abilities it was granted?
+
+The abilities for Soulflayer are...
+
+Delve (Each card you exile from your graveyard while casting this spell pays for 1.)
+
+If a creature card with flying was exiled with Soulflayer's delve ability, Soulflayer has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, reach, trample, and vigilance.
+
+...but if you play the card and exile a creature with Flying using Delve, then Soulflayer is put into your graveyard, then you return Soulflayer to the battlefield will Soulflayer still have flying?
+
+A:
+
+When it is in the graveyard, Soulflayer has none of those abilities, and it will not have them if it returns to the battlefield. When it is put into the graveyard, it becomes a card with no memory of its existence on the battlefield, and when it returns to the battlefield, it is a completely new creature.
+Rule 400.7 says
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+When you cast Soulflayer, you can exile cards from the graveyard to pay for its cost, and it keeps track of those exiled cards. While it is on the battlefield, it remembers those cards, and gives itself abilities based on what abilities those cards had. This falls under the third exception to that rule:
+
+400.7c If an ability of a permanent requires information about choices made as that permanent was cast as a spell, including what mana was spent to cast that spell, it uses information about the spell that became that permanent as it resolved.
+
+Once the Soulflayer leaves the battlefield, it forgets about its previous existence, including the cards exiled when it was cast. If it returns to the battlefield, it no longer has any associated exiled cards, so it doesn't give itself any abilities.
+

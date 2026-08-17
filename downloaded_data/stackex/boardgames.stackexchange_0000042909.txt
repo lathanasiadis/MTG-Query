@@ -1,0 +1,14 @@
+Q:
+
+Can cards that say "deal damage to any target" deal damage to a planeswalker?
+
+I have a card that says "whenever Karplusan Hound attacks, attacks, if you control a Chandra planeswalker, this creature deals 2 damage to any target." 
+Does this mean I can target a planeswalker?
+
+A:
+
+Yes, any target includes planewalkers
+The wording was a relatively recent change. Previously, very few damage-dealing spells and abilities could target planeswalkers directly. Instead, you redirected damage from targeted players to one of their planeswalkers at resolution.
+
+114.4. Some spells and abilities that refer to damage require “any target,” “another target,” “two targets,” or similar rather than “target [something].” These targets may be creatures, players, or planeswalkers. Other game objects, such as noncreature artifacts or spells, can’t be chosen.
+

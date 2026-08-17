@@ -1,0 +1,18 @@
+Q:
+
+Is older MTG Online client not supported any more?
+
+I have both older MTG Online III (version 3.4.82.414) and the very latest MTG Online client installed.
+The older one fails when running both Kicker.exe or  Renamer.exe since it tries to reach which seems unreachable 
+http://mtgodownload1.onlinegaming.wizards.com/mtgov3
+Is older MTG Online client not supported any more?
+
+A:
+
+No, it's no longer supported. They announced on June 26:
+
+... we'll be turning off access to the current Magic Online client (aka V3) on July 16.
+
+And on the day of posted this update.
+(And of course, if you try to download it, you can only get the new version - that ought to be a pretty good sign too.)
+

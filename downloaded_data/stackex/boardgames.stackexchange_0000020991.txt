@@ -1,0 +1,10 @@
+Q:
+
+Does an equipped creature become an artifact creature?
+
+Does a creature become an artifact creature when an artifact is equipped onto it or just a creature with an artifact on it?
+
+A:
+
+No, an artifact creature is specifically a creature that has "artifact" written in its type line. See Platinum Emperion for an example; it specifically says "artifact creature". A creature could also become an artifact creature through an effect that says it changes the type, such as Mycosynth Lattice. But attaching an equipment to a creature will not affect the creature's types unless that equipment specifically says something like "equipped creature is an artifact in addition to its other types" such as Silverskin Armor.
+

@@ -1,0 +1,27 @@
+Q:
+
+Can I pump my blocker after the attacker has chosen their order, before damage assignment?
+
+The answer to this question about blockers and summoning sickness, reminded me of a seldom treaded area of the combat phase, which has caused confusion in a number of games.
+When blockers are declared, the attacker chooses the order damage will be assigned to them. Then, they assign damage, assigning at least lethal damage to the first one in line, before moving on to the next, and so on.
+Can spells be cast between the ordering of blockers by an attacker, and the damage being assigned?
+for example, is blocking a  4/4 creature with 4 1/1 soldier tokens, and then casting Giant Growth on the "first in line" so the other 3 soldiers survive a legal play?
+
+A:
+
+In response to the comment, it is true that combat damage no longer goes on the stack.  However, the fact that combat damage no longer goes on the stack does not affect the answer to your question.  Assigning the order of blockers is part of the Declare Blockers step:
+
+509.2. Second, for each attacking creature that's become blocked, the active player announces that creature's damage assignment order, which
+  consists of the creatures blocking it in an order of that player's
+  choice. (During the combat damage step, an attacking creature can't
+  assign combat damage to a creature that's blocking it unless each
+  creature ahead of that blocking creature in its order is assigned
+  lethal damage.) This turn-based action doesn't use the stack.
+
+After that, you get priority, still during the Declare Blockers step:
+
+509.5. Fifth, the active player gets priority. Players may cast spells and activate abilities.
+
+So you can use Giant Growth to save all your soldier tokens.
+(Unless the attacking creature has Deathtouch.  In that case, one damage is considered lethal, so a 4/4 can kill four blocking 4/4 creatures.)
+

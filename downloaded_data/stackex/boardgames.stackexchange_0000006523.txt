@@ -1,0 +1,15 @@
+Q:
+
+Is the target for an ability part of the cost?
+
+Can I cast a Manic Vandal if there are no artifacts in play?
+Manic Vandal says
+
+When Manic Vandal enters the battlefield, destroy target artifact.
+
+A:
+
+You can't cast a spell unless it has legal targets.
+When a spell resolves, it will be countered if all of its legal targets are gone.
+However, your Manic Vandal spell (the thing that you cast to create Manic Vandal the creature) doesn't actually target. Instead, it just summons a creature. Then, after he enters the battlefield, Manic Vandal's ability -- "When Manic Vandal enters the battlefield, destroy target artifact" -- triggers, and you put the effect "Destroy target artifact" on the stack. If there are no valid targets, nothing is destroyed. But you still get to keep the Manic Vandal creature.
+

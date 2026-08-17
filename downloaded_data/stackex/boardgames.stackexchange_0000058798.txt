@@ -1,0 +1,19 @@
+Q:
+
+Why do Aura-Creatures Immediately Die?
+
+I found the below ruling for Encroaching Mycosynth:
+
+Encroaching Mycosynth's ability causes Auras to become artifacts. This makes it more likely that another effect (such as that of March of the Machines) will make those artifact Auras into creatures. An Aura that's also a creature can't enchant anything. It's unattached the next time state-based actions are checked, and then immediately put into its owner's graveyard as a second state-based action
+
+Why is it put into its owner's graveyard? If it were because it's a creature with zero toughness I would understand that, but March of the Machines would give it power/toughness equal to its Mana Value.
+
+A:
+
+This is a consequence of rules 704.5m and p:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+704.5p If a battle or creature is attached to an object or player, it becomes unattached and remains on the battlefield. Similarly, if any nonbattle, noncreature permanent that’s neither an Aura, an Equipment, nor a Fortification is attached to an object or player, it becomes unattached and remains on the battlefield.
+
+A creature can't be attached to anything, so it falls off, and an aura dies if it is not attached to anything.
+

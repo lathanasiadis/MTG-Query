@@ -1,0 +1,13 @@
+Q:
+
+"If a creature would enter the battlefield and it wasn't cast..."
+
+Can someone explain precisely what this means (i.e. all the technical details)? I'm referring to cards like Containment Priest and Hallowed Moonlight. I don't understand this mechanic at all.
+
+A:
+
+It means exactly what it says, if a creature would enter the battlefield and it wasn't cast it will get exiled instead. It doesn't matter how it was cast, or where it was cast from, as long as it was cast instead of just being put onto the battlefield.
+Some examples of things that will cause a creature to be exiled due to those abilities are Rise from the Grave and Æther Vial. These cards put creatures directly onto the battlefield without casting them, thus they will get exiled.
+Some examples of things that will not cause a creature to be exiled due to those abilities are casting your commander from the command zone, casting Gravecrawler from your graveyard using its ability, and casting cards with Suspend that had their last time counter removed.
+Note that Containment Priest specifies nontoken creatures, and Hallowed Moonlight does not. This means that the Priest will never exile token creatures and Hallowed Moonlight always will, since while you can cast a spell that produces tokens like Lingering Souls the tokens themselves were not cast.
+

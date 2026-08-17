@@ -1,0 +1,15 @@
+Q:
+
+Do you lose/gain any life when you drain yourself
+
+e.g. you activate Orzhova, the Church of Deals, targeting yourself. Do life gain conditions trigger (like Ajani's Pridemate) or not?
+(it's simultaneous, so you gain 0 net life, which triggers nothing, right?)
+
+A:
+
+You still get the life gain/loss trigger. Even though the net result of the ability is 0, triggers can be "created" (pending priority) in the middle of abilities resolving. 
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.2a Because they aren’t cast or activated, triggered abilities can trigger even when it isn’t legal to cast spells and activate abilities. Effects that prevent abilities from being activated don’t affect them.
+

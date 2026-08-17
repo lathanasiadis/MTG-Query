@@ -1,0 +1,14 @@
+Q:
+
+Does Equinox counter Desolation Angel if it's kicked?
+
+Can the ability granted by Equinox counter Desolation Angel if the angel is kicked. Or is it considered to be indirectly destroying lands as it requires it to enter the battlefield first? 
+
+A:
+
+No, Equinox cannot counter Desolation Angel. Equinox says
+
+Enchanted land has "{T}: Counter target spell if it would destroy a land you control."
+
+When a creature spell resolves, its only effect is to put the creature onto the battlefield. In the case of Desolation Angel, after it enters the battlefield its ability triggers. That ability is what would actually destroy the lands, and it is a separate game object from the Desolation Angel creature spell—and is in fact not a spell at all (it's an ability) so Equinox can't counter it. So, if you activate the ability granted by Equinox targeting a Desolation Angel spell, it will do nothing because the spell itself won't destroy any lands.
+

@@ -1,0 +1,31 @@
+Q:
+
+How serious is forgetting my life gain triggered abilities?
+
+I recently started playing a Soul Sisters / Martyr Life deck, and sometimes have problems remembering triggered abilities every time they're triggered.
+
+Whenever another creature enters the battlefield, you may gain 1 life. (1)
+Whenever another creature enters the battlefield, you gain 1 life. (2)
+Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate. (3)
+
+How serious of a problem is it if I forget any of these, possibly repeatedly (depending on environment)?
+
+From my reading of the Infraction Procedure Guide, Game Play Error — Missed Trigger, as trigger (2) is advantageous for me, it's not a warning (or even caution) if I forget them, even if repeatedly. My opponent has the choice of allowing the triggered ability to be put on (the bottom of) the stack when I remember them at some later point in time:
+
+… the opponent chooses whether the triggered ability is added to the stack. If it is, it’s inserted at the appropriate place on the stack if possible or on the bottom of the stack. (IPG)
+
+From the wording of triggers (1) and (3), I assume they are considered to have a default action (not taking the life gain/counter), and forgetting about them just means I don't get their effect (Comprehensive Rules 603.5):
+
+If the triggered ability specifies a default action associated with a choice made by the controller (usually "If you don't ..." or "... unless"), resolve it choosing the default option. (IPG)
+
+Is my understanding of the rules and how they're handled in a tournament correct?
+
+A:
+
+Your understanding of the missed triggers is correct. Since the required triggered ability (number 2) is only beneficial to you, there is no penalty for missing it.
+The other triggers do not work exactly how you think because they are covered by a slightly different part of the rule than you quoted. The first part of rule 603.5 says:
+
+Some triggered abilities' effects are optional (they contain "may," as in "At the beginning of your upkeep, you may draw a card"). These abilities go on the stack when they trigger, regardless of whether their controller intends to exercise the ability's option or not. The choice is made when the ability resolves.
+
+Those abilities always go on the stack and they do not have a default choice, so you must make the choice when they resolve. If you do not, it is a missed trigger like any other.
+

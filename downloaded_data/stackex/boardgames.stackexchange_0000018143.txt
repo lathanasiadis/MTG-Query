@@ -1,0 +1,39 @@
+Q:
+
+Are Magic: the Gathering Conspiracy cards colorless?
+
+What is the color of the following Magic conspiracy cards:
+
+Advantageous Proclamation
+Backup Plan
+Brago's Favor
+Double Stroke
+Immediate Action
+Iterative Analysis
+Muzzio's Preparations
+Power Play
+Secret Summoning
+Secrets of Paradise
+Sentinel Dispatch
+Unexpected Potential
+Worldknit
+
+A:
+
+Conspiracy cards (cards with the Conspiracy type) are colorless. They are not permanents, they cannot be played in decks, they only exist in the command zone*, and they never interact with cards, abilities, or effects that care about color.
+Rule 105.2 says
+
+An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame. An object's color or colors may also be defined by a color indicator or a characteristic-defining ability.
+
+and rule 202.2b says
+
+Objects with no colored mana symbols in their mana costs are colorless.
+
+Conspiracy cards do not have mana costs (in particular, no colored mana symbols), color indicators, or characteristic-defining abilities, so they do not have any color; they are colorless.
+
+* This was clarified in the Magic 2015 update:
+
+313.3. Conspiracy cards remain in the command zone throughout the game. They’re not permanents. 
+  They can’t be cast or included in a deck. If a conspiracy card would leave the command zone, it 
+  remains in the command zone. 
+

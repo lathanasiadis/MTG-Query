@@ -1,0 +1,39 @@
+Q:
+
+Combo question: urborg tomb of yawgmoth, torpor orb, kormus bell, dark depths = free Marit Lage?
+
+If I have the following in play:
+
+Urborg, Tomb of Yawgmoth
+
+Each land is a Swamp in addition to its other land types.
+
+Kormus Bell
+
+All Swamps are 1/1 black creatures that are still lands.
+
+Torpor Orb
+
+Creatures entering the battlefield don't cause abilities to trigger.
+
+And I play Dark Depths:
+
+Dark Depths enters the battlefield with ten ice counters on it.
+
+{3}: Remove an ice counter from Dark Depths.
+
+When Dark Depths has no ice counters on it, sacrifice it. If you do, put a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage onto the battlefield.
+
+What I am hoping happens is: The Urborg makes my Dark Depths also a swamp, so Kormus Bell makes it a creature, so then Torpor Orb makes its comes into play ability not trigger, so the Dark Depths will not enter play with any counters, allowing me to immediately sacrifice for 20/20 Marit Lage. Any reason that would not work?
+
+A:
+
+It won't work.  Dark Depths' "Dark Depths enters the battlefield with ten ice counters on it." ability is not a triggered ability; you can tell because it doesn't use the words "when," "whenever," or "at," which are part of the definition of "triggered ability" in the Comprehensive Rules:
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and include (and usually begin with) the word "when," "whenever," or "at." Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it’s countered, it resolves, or it otherwise leaves the stack. See rule 603, "Handling Triggered Abilities."
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+
+Instead, the ability is just a plain old static ability (specifically, a replacement ability, but that doesn't matter here).  Thus, Torpor Orb won't stop the ice counters from being placed on your Legendary Snow Creature Land — Swamp, and your combo won't work.
+Stick with Vampire Hexmage.
+

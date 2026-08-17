@@ -1,0 +1,23 @@
+Q:
+
+When a general goes to the graveyard in EDH, does his casting counter reset in the command zone?
+
+11) While a Commander is in the command zone, it may be cast. As an additional cost to cast a Commander from the command zone, its owner must pay {2} for each time it was previously cast from the command zone. (ie: it costs 6WW to cast for the third time.)
+
+In a game last night someone tried to allow their commander to go to the graveyard as a method of resetting the casting penalty from the command zone.  While I agreed that the general could be brought back from the graveyard through normal means and cast without the penalty, I disagreed that allowing the general to go to the graveyard reset the counter in the command zone.
+His argument was that it's in the graveyard, counters on a creature go away.  I argued the counter is not on the general at all, but rather is part of the state of the game/command zone.
+Who was correct?
+
+A:
+
+You were correct in the assumption that the tracking of casting cost is not a counter, but a separate attribute of the game.
+The official EDH rules state:
+
+While a Commander is in the command zone, it may be cast. As an additional cost to cast a Commander from the command zone, its owner must pay {2} for each time it was previously cast from the command zone. (ie: it costs 6WW to cast for the third time.)
+
+The Magic comprehensive rules state:
+
+903.10. A player may cast a commander he or she owns from the command zone. Doing so costs that player an additional {2} for each previous time he or she cast that commander from the command zone that game.
+
+Neither of these refer to "counters" at all - it's a static "every time you play this again, it costs {2} more."
+

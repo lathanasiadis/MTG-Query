@@ -1,0 +1,26 @@
+Q:
+
+What happens if multiple people can cast the same card?
+
+Scenario:
+Victor controls a Vedalken Orrery (You may cast nonland cards as though they had flash). It's Daniel's turn.
+Daniel swings with a Daxos of Meletis, not blocked.
+The triggered ability happens.
+
+Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.
+
+The top card is a Misthollow Griffin (creature that has You may cast Misthollow Griffin from exile.)
+Daniel can play it because of Daxos, Victor can play it because of it's ability + the Orrery.
+Who can cast it first?
+What if Daniel also controlled a Vedalken Orrery?
+
+A:
+
+If one player controls a Vedalken Orrery that player gets to cast the Griffin first, if both control an Orrery the player whose turn it is gets to cast it first.
+The Griffin gives you permission to cast it from a different location than normal (exile vs. hand), but doesn't change when you can cast it. Daxos also doesn't change when you can cast the exiled card, so without the Orrery normally you can only cast the Griffin during your Main Phase while the stack is empty.
+What happens is during the Combat Damage step Daxos's ability is put on the stack and resolves. After it resolves the Active Player (Daniel) gains priority, and can choose to cast spells/activate abilities at this time. So if he has an Orrery and wants to cast the Griffin he can. If he can't or doesn't want to cast the Griffin he will pass priority to the Non-Active Player (Victor) who will then get the chance to cast spells/activate abilities including the Griffin if he has an Orrery.
+
+116.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty.
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+

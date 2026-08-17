@@ -1,0 +1,32 @@
+Q:
+
+Interaction between Nivmagus Elemental and Rune Snag
+
+Recently the following situation popped up in a casual game and it was a bit confusing. I was wondering if someone here could help out. 
+
+Player T has 4 mana open and plays a 2 mana spell in his main phase
+Player G has a Nivmagus Elemental out and plays a Rune Snag to counter T's 2 mana spell; Player G has no Rune Snags in his graveyard
+T decides to pay the 2 mana required to not have his spell countered. 
+At this point G exiles his rune snag using Nivmagus Elemental to obtain two +1/+1 counters
+
+It seemed to me that this cannot happen, since either Rune Snag resolves and T pays two mana, or Nivmagus Elemental eats Rune Snag and T does not need to pay 2 mana since it never resolves.
+Does player T need to pay two additional mana to play his spell even if Nivmagus Elemental eats it? 
+
+A:
+
+You are correct, Player T should not have had to pay 2 mana.
+The decision of whether or not to pay 2 mana happens as part of Rune Snag resolving. Player G has 2 options:
+1) Let Rune Snag resolve, in which case Player T needs to pay 2 mana (or have their spell countered), but Nivmagus Elemental won't do anything, as Rune Snag will no longer be a valid target for the ability.
+2) Activate Nivmagus Elemental's ability while Rune Snag is on the stack, exiling Rune Snag. Player T will not have to pay 2 mana, because Rune Snag will never resolve.
+Note that option 1 will happen by default if player G does not specify otherwise. Player G has the right to respond to their own spell:
+
+116.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+
+However, they must specifically state that they wish to retain priority:
+(From the tournament rules):
+
+Whenever a player adds an object to the stack, they are assumed to be passing priority unless they explicitly announce that they intend to retain it.
+
+So if player G casts Rune Snag without saying anything, player T can simply say "ok" or "resolves" or "I'll pay the mana", and it will be too late for player G to use Ninmagus.
+This rule matters especially for Ninmagus in general; the player will always need to declare that they wish to retain priority if they want to ensure that they can use it.
+

@@ -1,0 +1,38 @@
+Q:
+
+Can I use the back face of a modal double faced card for abilities while the card is not on the battlefield?
+
+Can I use the back face of a modal double faced card for abilities while the card is not on the battlefield?
+For example, Valakut Awakening has the land Valakut Stoneforge on the back.
+
+Can I discard this card to pay for Seismic Assault?
+
+Can I find this card with Sylvan Scrying?
+
+Can I return this card from my graveyard to my hand with Life from the Loam?
+
+Can I play it as a land from my library using Oracle of Mul Daya or from my graveyard using Crucible of Worlds?
+
+A:
+
+In general, you cannot use the back face of a modal double faced card while it's not on the battlefield. The exception is that you can use the back face with abilities that would make it eligible to be played or cast from another zone.
+The relevant rule is:
+
+712.4a While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+
+There are also the card-specific rulings on modal double faced cards:
+
+If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land. (2020-09-25)
+
+If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. (2020-09-25)
+
+So, to address the specific examples:
+
+No. You can't discard Valakut Awakening as a land to Seismic Assault because it's not a land in while in your hand.
+
+No. You can't tutor for Valakut Awakening with Silvan Scrying because it's not a land while in your library.
+
+No. You can't target Valakut Awakening with Life from the Loam because it's not a land while in your graveyard.
+
+Yes.  Playing Valakut Stoneforge with Crucible of Worlds or Oracle of Mul Daya are the exception.  Crucible of Worlds allows you to play lands in general from your graveyard, and so you can use either side of the card that fits the criteria (in this case, Valakut Stoneforge).  Similarly, Oracle of Mul Daya allows you to play lands from the top of your library, and so it will work. Note that Oracle of Mul Daya is different from a card that checks if the top card of your library is a land, such as Feral Deceiver, which will not work with Valakut Stoneforge.
+

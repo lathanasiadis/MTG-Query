@@ -1,0 +1,21 @@
+Q:
+
+Sacrificing Sengir Autocrat and his Serfs at Same Time
+
+Say I have Sengir Autocrat with his 3 serfs out. Am I able to sacrifice him, his 3 serfs, and an additonal creature to pay for Westvale Abbey's transform ability? Or does his effect make it impossible to sacrifice him together with his tokens, as him leaving exiles all tokens leaving me with only 2 creatures (Sengir Autocrat and the additional creature) to sacrifice?
+
+A:
+
+Yes, you may sacrifice all three serf creature tokens to help pay Westvale Abbey's Costs.
+This is because Sengir Autocrat's second ability is triggered when he leaves the battlefield. By the time you've finished activating this ability, all your serfs have already been sacrificed to the Abby and are no longer on the battlefield to be removed.
+Let's break down the interaction step by step:
+
+You have a Westvale Abbey, Sengir Autocrat, 3 serf tokens, and a zombie token.
+You activate Westvale Abbey's ability, tapping it, paying five mana and sacrificing all 5 creatures. All the creatures goto your graveyard per comprehensive rules:
+
+701.15a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+
+With its costs paid Westvale Abbey's ability goes onto the stack.
+The game sees that Sengir Autocrat has left the battlefield, his ability goes onto the stack.
+Assuming no responses, the stack starts to resolve. Sengir Autocrat's ability resolves and checks for any Serfs you control, but they are already gone so nothing happens. Westvale Abbey's ability now resolves and you get your Profane Prince.
+

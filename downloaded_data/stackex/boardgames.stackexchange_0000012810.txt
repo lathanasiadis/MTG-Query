@@ -1,0 +1,48 @@
+Q:
+
+Do tokens ever go to the graveyard and can they be sacrificed or exiled?
+
+If I had a card that said something like, "Enchanted creature gets +1/+1 for every creature in your graveyard". Would that also apply to tokens which died in previous turns? Also if I play a card which says, return target creature from the graveyard then can I choose a token?
+Right now I use Dice to represent tokens, but not sure what to do once any of my tokens die. 
+Also for cards which say sacrifice a creature or exile a creature, would these apply to tokens?
+
+A:
+
+If I had a card that said something like, "Enchanted creature gets +1/+1 for every creature in your graveyard".
+
+There cannot be such a card.
+Since "creature" means "creature permanent" which means "creature card or token on the battlefield", and since a card or token cannot be in the graveyard and on the battlefield at the same time, the enchantment would never affect the attached object's power and toughness.
+The ability would likely read "Enchanted creature gets +1/+1 for each creature card in your graveyard" like Jarad, Golgari Lich Lord's, which means it wouldn't count any tokens since tokens aren't cards.
+
+Let's assume there's a card that has the ability "Enchanted creature gets +1/+1 for each creature card and each creature token in your graveyard".
+
+Would that also apply to tokens which died in previous turns?
+
+Tokens go to the graveyard just like a card would. However, they only stay there for a very short period of time. The next time State-Based Actions (SBAs) are performed, they will cease to exist.
+Tokens placed in the graveyard on a previous turn will have ceased to exist long ago.
+In fact, the effect checking for tokens in the graveyard wouldn't even see the tokens that died this turn except for an extremely short (and practically useless) period of time. The longest scenario might be when the tokens are put into the graveyard during the resolution of a spell or ability, because the SBAs will be only be performed after the spell or ability finishes resolving. It could matter if your opponent has Hidden Predators, but that's about it.
+
+if I play a card which says, return target creature from the graveyard then can I choose a token?
+
+There cannot be such a card.
+Again, creatures (aka creature permanents) cannot be found in the graveyard. It would be impossible to pick a legal target.
+The effect would read something like "Return target creature card from your graveyard to the battlefield". This excludes tokens since they aren't cards.
+You will never find "Return target creature card or token from your graveyard to the battlefield." for two reasons:
+
+Even if there was a token was in the graveyard when targets were chosen, it would have ceased to exists by the time the spell or ability resolved.
+A rule prohibits the tokens from changing zones once they've left the battlefield.
+
+110.5g A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+
+Right now I use Dice to represent tokens,
+
+It's a poor (and illegal) choice to use a die to represent a type of token since a die can't be tapped.
+
+but not sure what to do once any of my tokens die.
+
+Your tokens would move the graveyard, and soon after they will cease to exist. Most people don't bother physically moving them to the graveyard. Simply adjust the count.
+
+cards which say sacrifice a creature or exile a creature, would these apply to tokens?
+
+Yes. "Creature" means "creature permanent" which means "creature card or token on the battlefield".
+

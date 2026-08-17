@@ -1,0 +1,41 @@
+Q:
+
+Hypergenesis vs Containment Priest - How does it resolve?
+
+In an upcoming Legacy event near my residence, a friend of mine intends to play using an Hypergenesis deck.
+However, recently we have a certain abundance of Containment Priests in our region. This creature makes things with Hypergenesis a bit messy, since it can severely cripple its combo.
+I'm aware how Hypergenesis resolves triggered abilities. However, what is not clear to me is what happens in this scenario:
+Player A casts Hypergenesis using cascade/suspend/whatever. Player B doesn't counter or respond to it.
+
+Player A puts an Admonition Angel on the table. 
+Player B puts an Containment Priest on the table.
+Player A puts a random land on the table, lets say, a Mountain.
+Player B doesn't put anything on the table.
+Player A puts a random creature that doesn't trigger anything, like, let's say, Progenitus.
+Neither Player B or A puts anything else on the table, thus, Hypergenesis finishes resolving and is sent to the graveyard.
+
+Now, what's the end result of the table, after Hypergenesis resolves?
+
+Does Containment Priest exile Progenitus?
+Does the Landfall ability of Admonition Angel trigger?
+Does Containment Priest exile anything at all during Hypergenesis?
+
+A:
+
+Containment Priest exiles just Progenitus. Admonition Angel's landfall ability triggers once.
+Containment Priest's ability is a replacement effect (rule 614.1a says "Effects that use the word 'instead' are replacement effects."). Rule 614.4 says
+
+Replacement effects must exist before the appropriate event occurs—they can’t “go back in time” and change something that’s already happened. Spells or abilities that generate these effects are often cast or activated in response to whatever would produce the event and thus resolve before that event would occur.
+
+Admonition Angel enters the battlefield before Containment Priest, so it is not exiled. But by the time Progenitus would enter, Containment Priest is already on the battlefield, so Progenitus is exiled instead.
+
+Admonition Angel's Landfall ability (like any Landfall ability) is a triggered ability because rule 603.1 says
+
+Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and begin with the word “when,” “whenever,” or “at.” They can also be expressed as “[When/Whenever/At] [trigger event], [effect].”
+
+Rule 603.6d says
+
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. [Several exceptions that don't apply here].
+
+Like with Containment Priest, immediately after the Mountain enters the battlefield, the Admonition Angel is already on the battlefield, so its ability triggers.
+

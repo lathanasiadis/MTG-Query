@@ -1,0 +1,47 @@
+Q:
+
+Spend mana as though it were mana of any color and Sunburst/Converge
+
+There are some effects that allow players to spend mana as though it were mana of any color, e.g. Mycosynth Lattice.
+
+... Players may spend mana as though it were mana of any color.
+
+There are also cards that care about the colors of mana spent to cast them, notably Sunburst/Converge, and some others. e.g. Azorius Herald.
+
+When Azorius Herald enters the battlefield, sacrifice it unless {U} was spent to cast it.
+
+If I cast an Azorius Herald with {G}{G}{G}, can I spend it 'as though' it was {W}{U}{U} or similar, so that I don't have to sacrifice it?
+
+A:
+
+No, that does not work. Mycosynth Lattice lets you spend mana as though it were mana of any color, but the spell cares about what types of mana you actually used to cast it.
+Rule 609.4 says
+
+Some effects state that a player may do something “as though” some condition were true or a creature can do something “as though” some condition were true. This applies only to the stated effect. For purposes of that effect, treat the game exactly as if the stated condition were true. For all other purposes, treat the game normally.
+
+In this situation, that means that you can treat the mana you're spending as any color while paying a cost, but that effect doesn't extend to when you're resolving a spell or ability, and you want to check the colors spent.
+The card Celestial Dawn has a similar ability:
+
+You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.
+
+And there is an official ruling about it that applies to the situation in question:
+
+You may use a different color mana than the color required for spells and abilities that require a specific color. If you do, and the spell or ability checks the actual color of the mana, it can tell the difference.
+
+This conclusion is supported by a few rulings from the level 3 judge who runs the "Ask a Magic Judge" tumblr blog:
+
+How would Mycosynth Lattice work with converge spells - would "use mana as though it were mana of any color" satisfy "each color of mana spent"?
+
+Not very well.
+While you can spend colorless mana through the lattice as though it were any color, it’s still colorless mana as far as Converge is concerned.
+
+Mycosynth Lattice in EDH: spending colorless mana AS IF it were mana of any color doesnt break 903.9.... right?
+
+Correct.
+However, you’re still not spending mana of that color, so something like Sunburst or Firespout will know the difference.
+
+If I control Mycosynth Lattice, then cast Skyreach Manta spending WWWWW as though it were WUBRG, how many +1/+1 counters will the Manta enter the battlefield with?
+
+One.
+Sunburst always knows what you actually paid.
+

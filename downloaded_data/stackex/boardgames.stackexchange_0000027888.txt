@@ -1,0 +1,18 @@
+Q:
+
+Can an opponent bolt a mana-generating creature to stop me from generating mana?
+
+What happens if I tap a Llanowar Elves for its ability and the creature is destroyed in response with an Ultimate Price? And why? (a brief explanation will suffice)
+This may sound as a silly question but the opinion between my friends is divided. Some think that the green mana is generated and the others say that the mana is not generated.
+
+A:
+
+Your opponent would be better off waiting until later in your turn to kill your dork.
+Llanowar Elves has a mana ability. This doesn't go on the stack, and thus cannot be responded to.
+
+605.3b An activated mana ability doesn't go on the stack, so it can't be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+
+So your opponent doesn't even get the chance to bolt your creature before you get your mana. He can only bolt once he has priority, which presumably you won't pass until you perform whatever action it was you were tapping for mana for.
+But even if it were a card like Nettle Drone, the ability would go on the stack, and when it resolved the damage would still be dealt. The ability itself will never be countered solely on the actions of your opponent, short of a Stifle effect that specifically counters the ability. It would only get countered if it would have got countered anyway (lack of targets, illegal targets).
+So your opponent would be best off waiting to bolt your dude. You might play a creature that he'd rather bolt instead, or you might do something else that he might want to use the mana for. Once it's tapped, it would have to be untapped (something that -can- be responded to) and then he could bolt. If nothing else, he can bolt on end step.
+

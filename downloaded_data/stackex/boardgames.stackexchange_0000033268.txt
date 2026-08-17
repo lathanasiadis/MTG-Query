@@ -1,0 +1,19 @@
+Q:
+
+Multiple Ordeals of Nylea on one creature
+
+I have 2 counters on a creature, with 3 Ordeal of Nylea attached, and then attack, what in all (preferably step by step) happens next?
+
+A:
+
+The basic answer is that the creature gets 3 more counters (for a total of 5), you sacrifice all 3 Ordeals, and you search your library for 6 basic lands and put them onto the battlefield tapped.
+Step by step, here's what happens:
+
+You attack with the creature.
+Abilities that trigger when you attack are put on the stack. In this case, that is the first ability of each of the 3 Ordeals attached to the creature.
+The first ability of the first Ordeal resolves. You put a counter on the creature. It has 3 or more counters, so you sacrifice the Ordeal. The Ordeal's second ability triggers, and is put on the stack.
+Each player gains priority, and has an opportunity to respond.
+The second ability of the first Ordeal resolves. You search your library for 2 basic lands, and put them on the battlefield tapped.
+Each player gains priority, and has an opportunity to respond.
+Steps 3-6 repeat for each of the second and the third Ordeal. In each of those iterations, you put another counter on the creature, sacrifice that Ordeal, and search for 2 more lands.
+

@@ -1,0 +1,35 @@
+Q:
+
+Is Okk able to attack with a 1/1 goblin and a Goblin Piledriver in the first attack phase?
+
+Okk is a beefy goblin that can't attack if it's the biggest creature attacking. 
+
+Okk can't attack unless a creature with greater power also attacks.
+
+As the Active player, during the Declare attackers step (508.1), I choose to attack with Okk, a random 1/1 goblin, and Goblin Piledriver. I think that Goblin Piledriver provides me an out, because it is boosted for each other attacking goblin, in this case making it stronger than Okk.
+
+Whenever Goblin Piledriver attacks, it gets +2/+0 until end of turn for each other attacking Goblin.
+
+If I declare Goblin Piledriver, Okk, and another Goblin attacking, does that satisfy the restriction portion of 508.1c?
+
+A:
+
+You cannot do that.
+The Declare Attackers step breaks down like this:
+
+Declare your attackers.
+
+Choose what's attacking, and which player or planeswalkers they're attacking.
+Make sure you're obeying all restrictions and all requirements. If you are not, the declaration of attackers you've made is illegal. (We rewind and you reconsider what you're declaring.)
+Other stuff about paying costs, tapping the creatures, etc.
+
+The active player gets priority, all triggered abilities go on the stack that were triggered during attack declarations, people get the opportunity to cast spells and activated abilities.
+(then a whole bunch more stuff)
+
+You can read more about how this step functions on the MTG Wiki page for the declare attackers step.
+You might see the issue there:
+
+Goblin Piledriver needs to be at least a 5/2 in step 1 in order for you to be able to declare Okk as an attacker.
+Goblin Piledriver doesn't become a 5/2 until step 2 where its triggered ability can go on the stack and resolve. This is way past the point we've already made sure our attack declarations are all legal, and we're not allowed to "look ahead" to take this eventuality into account at the time we're assessing that our attack declarations are legal.
+Therefore in step 1, Goblin Piledriver is still just a 1/2, and we don't take into account how big it will be after attack declarations. Declaring Okk as an attacker would be a violated restriction and the declaration of attackers would be illegal.
+

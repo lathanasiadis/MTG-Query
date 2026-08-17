@@ -1,0 +1,20 @@
+Q:
+
+How would Solidarity of Heroes work with Heroic counter abilities
+
+I have built a Satyr and Centaur ramp deck that works on the heroic ability to boost counters with instant spells. I would like to know how Solidarity of Heroes would effect this ability as it states:
+
+Choose any number of target creatures. Double the amount of +1/+1 counters on each of them.
+
+My gut instinct would be that I control both the heroic ability and the effect that is placed on the stack by Solidarity of Heroes so I could choose which happens first. 
+So essentially could I target a Setessan Oathsworn with Solidarity, put two +1 counters on Oath with the heroic ability, then double the counters with Solidarity?
+My confusion lies with when Setessan is being targeted by the spell to double the counters that puts the heroic ability on the stack, then the spell resolves putting Solidarity on the stack which means it would possibly resolve first doubling zero counters...
+
+A:
+
+Yes, you can do this, but no, you don't choose the order, so you don't get to choose whether it happens or not.
+When you cast Solidarity of Heroes, you chose your targets, and once the spell is cast, anything it targets becomes targeted. This triggers heroic, which goes on the stack on top of Solidarity of Heroes. Heroic resolves, giving you 2 +1/+1 counters, and then Solidarity of Heroes resolves, doubling all counters on that permanent.
+Casting a spell:
+
+601.2c Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they'll wait to be put on the stack until the spell has finished being cast.
+

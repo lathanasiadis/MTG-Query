@@ -1,0 +1,22 @@
+Q:
+
+Is it possible to set up a board state where neither player can ever win or lose except by conceding?
+
+A Platinum Angel and Laboratory Maniac for both players would take care of most game endings but either one could be removed from play in a variety of ways. Mycosynth Lattice and Darksteel Forge would negate combat damage and destroy effects but not exile or sacrifice effects.
+Edit: Ideally, fo maximum troll the boardstate should be reachable with only one player working towards it.
+
+A:
+
+Arcanist Lupis already provided a fine answer, which works in most circumstances, but you said that you wanted "maximum troll", so I'll provide an alternative solution, which doesn't require Platinum Angel or Abyssal Persecutor (Please note that this solution requires an arbitrary amount of mana):
+
+Cast Temple Bell, Omen Machine, Auratog, and Hive Mind.
+Cast Deadeye Navigator and Dualcaster Mage, and soulbond them. 
+Cast Oblivion Ring, and exile your Omen Machine.
+Cast Enter the Infinite (which each player has to copy), then tap your Temple Bell. Each player now has every card in their library in their hand.
+Sacrifice Hive Mind to Auratog (This prevents our opponents from messing up our combo in step 7).
+Cast Worldfire.
+With Worldfire on the stack, cast Pull from Eternity on any permanents in exile that have the potential to impact the board state after the Worldfire resolves, such as suspended cards or a creature exiled with Flickerform. Use the Deadeye Navigator to flicker the Dualcaster Mage, and copy the Pull from Eternity as needed. Note that in the case of Flickerform, you will always receive priority after its ability resolves, so you can still target cards that were exiled while Worldfire was on the stack.
+Laugh maniacally (This step is very important!)
+
+When Worldfire resolves, your Oblivion Ring will be exiled, returning Omen Machine to the battlefield. The result? No players will have any cards in their hands, libraries, or graveyards. The only permanent in play will be Omen Machine, preventing players from losing the game via decking themselves. Assuming no phasing shenanigans, no player will be able to do anything, effectively locking everybody out of winning or losing the game.
+

@@ -1,0 +1,21 @@
+Q:
+
+Detailed MTG card List
+
+Is there a way to obtain a detailed list from WotC’s The Gatherer of magic cards? What I am looking for is a way to enter a list of magic cards and to get a print off of the card details in a nice rowed format, something that I can cut and copy directly into Sheets or MS Excel.
+Name  – Cost – Type     -  Text       -  P/T
+
+Name1 – 1W   – Creature – Flying      – 1/1
+Name2 –  U   – Instant  – Draw a Card – “”
+...
+
+I see one of the Gatherer’s default displays is Text only, but the layout it uses is very scattered and not copy-paste friendly. Any work-arounds for that are also acceptable answers.
+
+A:
+
+The most complete collection of card data I'm aware of is mtgjson, which offers a variety of data structuring to choose from, and has everything you asked for. It is used by a number of MtG-themed web pages, and due to its structure is well-suited for both applications, and purposes such as yours.
+However, to get it into a layout of your choice, you'd have to parse the data and write a script to output it, which might not be feasible for everyone.
+
+Another option would be Gatherer Extractor, a tool to extract pictures and text data from Gatherer (WotC's official card database) and according to that thread export as CSV or XML.
+Unfortunately, the thread I could find and download are dubious at best, and the Github page is quite dated, making it difficult at best to decide on the trustworthyness on either.
+

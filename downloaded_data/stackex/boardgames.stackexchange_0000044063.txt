@@ -1,0 +1,36 @@
+Q:
+
+Is there a functional difference between "all" and "each"?
+
+Take the two cards Fiery Cannonade and Golden Demise. 
+Fiery Cannonade reads:
+
+Fiery Cannonade deals 2 damage to each non-Pirate creature.
+
+Golden Demise reads (among other text):
+
+All creatures get -2/-2 until end of turn.
+
+I noticed that both could easily be rewritten to be consistent:
+
+Fiery Cannonade deals 2 damage to all non-Pirate creatures.
+
+or
+
+Each creature gets -2/-2 until end of turn.
+
+Is there a reason for the difference in wording, or any edge cases where the difference in wording would matter? MTG is usually high consistent for clarity, is this difference simply artistic choice of the writers?
+
+A:
+
+There is no functional difference between "each creature" and "all creatures" in MtG rules.
+The difference here is grammatical :
+ - "All" considers creatures as an ensemble
+ - "Each" considers all creatures in a group individually
+So an effect that is usually considered "global" will use "all" :
+ - Destroying a bunch of things -> Wrath of God
+ - Giving a group of creatures -X/-X -> Engineered Plague
+While effects that are relative to each permanent will use "each" :
+ - Dealing damage -> Deafening Clarion
+ - Giving some creatures +1/+1 or -1/-1 counters -> Song of Freyalise or Harbinger of Night
+

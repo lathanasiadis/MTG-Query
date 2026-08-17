@@ -1,0 +1,37 @@
+Q:
+
+Havengul Lich on Reassembling Skeleton - can the Lich cast itself for 1B this turn?
+
+Havengul Lich says
+
+1: You may cast target creature card in a graveyard this turn. When you cast that card this turn, Havengul Lich gains all activated abilities of that card until end of turn.
+
+While Reassembling Skeleton has
+
+1B: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
+
+So the question is, when I target Skeleton with Lich, does the Lich gain "return skeleton to battlefield" or "return lich to battlefield"? Would it be different if it said "return this card to battlefield"?
+
+A:
+
+When an object names itself, it always refers to itself, regardless of what its name actually is. For example, Cemetery Puca wouldn't work if that wasn't the case.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+201.4b If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of the first name in the gained ability that refers to the first object by name should be treated as the second name.
+
+So the ability would effectively be:
+
+1B: Return Havengul Lich from your graveyard to the battlefield tapped.
+
+Note that the name in the text only "changes" if it's the card referring to itself. For example, if a Centaur Courser (a vanilla creature) somehow entered the battlefield with Squadron Hawk abilities, you would still look for Squadron Hawks because it's merely looking for other similarly-named cards. Squadron Hawk is closer to Arachnus Spinner than it is to Reassembling Skeleton.
+
+That said, Havengul Lich would never be able to use Reassembling Skeleton's ability. The ability can only be used from the graveyard, but there's no way for the Lich to have that ability in the graveyard.
+The Lich cannot activate its builtin ability from the graveyard, so it can't gain the ability from the graveyard.
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+That means it would have to gain the ability on the battlefield and bring it to the graveyard, but that's not possible because permanents become a new objects when they move from the battlefield to the graveyard. Lich-card-in-graveyard would not have any abilities granted to Lich-permanent.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+

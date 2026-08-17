@@ -1,0 +1,21 @@
+Q:
+
+Can I tap a creature in response to it being tapped?
+
+My buddy uses Dromoka Dunecaster to tap my Humble Defector.  Can I in response activate Humble Defector's ability?
+
+A:
+
+You can't respond to "being tapped"; you can only respond to spells being cast and abilities being activated or triggered.
+And that's what you have here. Your opponent activated Dromoka Dunecaster's ability, after which you both get a chance to cast instants and activate abilities in response (i.e. before it resolves).
+You are free to activate Humble Defector's ability at this time[1][2]. Having been placed on the stack last, it will resolve first. When it resolves, it will have you draw two cards and then give your opponent control of Humble Defector.
+When Dromoka Dunecaster's ability then resolves, it does nothing[CR 609.3] since a permanent that's tapped can't be tapped[CR 701.17a].
+
+If it's your turn, due to the limitation imposed by the ability.
+
+Technically, your opponent gets first dibs since it's their ability to which you are responding[CR 601.2h]. That said, in a tournament setting, it's assumed that a player passes when they get priority in response to casting an spell or placing an ability on the stack unless they explicitly retain priority.
+
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+701.17a [...] Only untapped permanents can be tapped
+

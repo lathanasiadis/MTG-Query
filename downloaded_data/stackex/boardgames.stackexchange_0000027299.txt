@@ -1,0 +1,21 @@
+Q:
+
+How 'hard' is a Mindslaver lock?
+
+This is a Mindslaver Lock.
+
+Mindslaver controls an opponent's next turn — all actions and decision-making, short of conceding outright — completely.
+Ten mana (produced by the double-tower "UrzaTron", in this example) is used to cast and activate Mindslaver.
+Academy Ruins (and 1U to pay for the activation) is used to put Mindslaver back on top of the library, to be drawn and activated again next turn.
+Since resetting Mindslaver costs a draw step, no additional win condition is necessary: you'll eventually just deck your opponent (similar to how Stasis decks operate).
+
+This is one of the more powerful locks in competitive Magic (used in the Modern format, to be precise), since it denies your opponent the ability to attack, access their lands' mana, or cast any Sorcery-speed spells.
+But how absolute of a lock is it, exactly?
+Assuming the player who set up the Mindslaver lock is using all of their resources to maintain it (as shown in the graphic above), what recourse does the player under the lock have for escaping it once it's already in place?
+
+A:
+
+The primary threat to the Mindslaver player is a free instant that cannot be wasted. The simplest example is if the opponent starts out with no cards in hand, and then draws Temporal Mastery followed by Force of Will, and they have fewer than 12 lands. The Mindslaver player cannot afford to give the opponent an extra turn outside of the lock, and they can't waste the spells by countering the Temporal Mastery with the Force of Will. But even if they tap all of the opponent's lands, the opponent can still counter the Mindslaver on the following turn, and spend at least one turn outside of the lock.
+Here, you can replace Temporal Mastery with any blue spell that either has no legal targets during the opponent's turn or cannot be cast without severely damaging the lock. Alternatively, Force of Will can be replaced with another free counterspell such as Foil or Thwart. If the opponent is very lucky, they could even draw Commandeer and two blue spells that the Mindslaver player doesn't want cast. If the Mindslaver player is using all of their resources to maintain the lock, even Daze can break it. Even Pact of Negation would work, because the opponent would be able to choose to pay the cost on their turn.
+Note that of the spells mentioned, only Commandeer and Pact of Negation are Modern legal (along with Temporal Mastery, but that's kind of tangential).
+

@@ -1,0 +1,24 @@
+Q:
+
+Physical representation of static effects
+
+As has been discussed many times, a +1/+1 counter is a physical object placed on a card, and is totally distinct from a +1/+1 static effect buff from something like Glorious Anthem. Is there any accepted method for marking static effects in order to make the board more "readable"? I typically play casual kitchen table games, but I'm also curious about more serious settings.
+For example, with a Glorious Anthem on the board, I'll usually put a coin on each creature I control to represent the +1/+1 effect. If I cast a Nightmare (power and toughness equal to the number of swamps you control) with 5 swamps on the board, I'll stack 5 coins on the card and add more as I play more swamps. In games that also have potential for true +1/+1 counters, I'm very careful to keep separate the true counters from the static effect markers by stacking them in different corners of the card.
+Is there a better way I should be doing this? I find the marking of the static effects handy so I don't have to re-count all my swamps or triple check all my P/T values when attacking, blocking or anything else. On a scale of "never do this" to "useful among friends but not acceptable in tournament play" to "that's legit", where does this practice fall, and what are some other options?
+
+A:
+
+If you do need something physical, the important thing is that it be totally distinct from counters.
+My general suggestion would be a different type of marker, not placed on your creatures. This is especially true for anthems: they're pumping everything, so you only really want one indicator. For Nightmare, you could use a die next to the card, perhaps at the bottom since that's where power/toughness usually are. It'd best if you used something totally different from what you use for counters, e.g. a larger black die for Nightmare and smaller colored dice for counters. (You do see something like this in competitive games sometimes: a die for prowess triggers, or for Tarmogoyf power, but it's pretty much always off to the side for clarity.)
+But the problem with all these things is that you can get out of sync. If you play a swamp and forget to update your Nightmare, instead of helping you, that physical reminder is now misleading you. I suspect you'll end up periodically counting anyway just to be sure. In contrast, physical markers are great for counters because you naturally make them correct: something adds a counter, so you do. You don't have to manually tie two things together.
+And yes, I'd say that using coins on creatures for this is just asking for trouble, and I just wouldn't do it regardless of how casual the game is: it's not about formality, it's about not messing up. You have to take so much care to avoid mistakes, and if you do make them and end up adding counters instead of anthem-markers, there's not really a good way to sort out afterwards.
+
+As far as legality in tournaments, this can be an issue, but the Tournament Rules are naturally not specific; judges have some discretion. The underlying principle is that players are responsible for "maintaining a clear and legal game state." There's a bit about applying this to game markers:
+
+3.8 Game Markers
+Small items (e.g. glass beads) may be used as markers and placed on top of a player’s own library or graveyard as a reminder for in-game effects. These markers may not disguise the number of cards remaining in that zone nor completely obscure any card.
+Players using markers to represent in-game components (e.g. permanents) must have a way of clearly representing any in-game status, such as whether a permanent is tapped. Sleeves or card backs that appear similar to any player’s sleeves or card backs may not be used as markers. A tournament official may disallow the use of game markers that can cause confusion or that are deemed inappropriate or offensive.
+
+(emphasis mine)
+So, in the end it's up to the judges. If your physical representation of static effects is confusing your opponent, and they call a judge, the judge can ask you to stop using those markers. And if you make any sort of mistake due to confusion from those markers, you can face consequences just as you could for any mistake; you're always responsible for maintaining game state.
+

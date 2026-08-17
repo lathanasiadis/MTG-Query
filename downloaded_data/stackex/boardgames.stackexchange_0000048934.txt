@@ -1,0 +1,28 @@
+Q:
+
+Interaction with Grismold and Adarkar Valkyrie
+
+Setup
+Player A controls Adarkar Valkyrie, Grismold, the Dreadsower and a bunch of creature tokens.
+Player B casts Akroma's Vengeance.
+Question
+If Player A responds with Adarkar Valkyrie's tap ability and targets Grismold, will Grismold - after he returns to the battlefield - receive the +1/+1 counters from his triggered ability?
+
+A:
+
+No.
+The Grismold that returns to the battlefield is a completely different one from the one whose ability triggered and was about to get +1/+1 counters.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+400.7d is the exception that allows Grismold to return to the battlefield. But there is no exception that allows this new Grismold on the battlefield to know anything about the triggered ability that would be giving counters to the Grismold that left the battlefield.
+For extra clarification, Adarkar Valkyrie's ability creates a delayed trigger:
+
+603.7. An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain “when,” “whenever,” or “at,” although that word won’t usually begin the ability.
+
+603.7a Delayed triggered abilities are created during the resolution of spells or abilities, as the result of a replacement effect being applied, or as a result of a static ability that allows a player to take an action. A delayed triggered ability won’t trigger until it has actually been created, even if its trigger event occurred just beforehand. Other events that happen earlier may make the trigger event impossible.
+
+When Akroma's Vengeance resolves, both Grismold's triggered ability and the Adarkar Valkyrie delayed trigger will trigger. It doesn't matter which order you choose to order them on the stack; what matters is that "new Grismold" is not on the battlefield yet at the time that the triggering event (tokens being destroyed) happens, so it will be too late for new Grismold's triggered ability to do anything.
+

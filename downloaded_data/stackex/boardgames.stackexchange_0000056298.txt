@@ -1,0 +1,33 @@
+Q:
+
+Interaction between Athreos, God of Passage and Liesa, Forgotten Archangel [Midnight Hunt spoilers]
+
+Athreos, God of Passage has the following text.
+
+Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
+
+The recently spoiled Liesa, Forgotten Archangel has the following text.
+
+Whenever another nontoken creature you control dies, return that card to it's owner's hand at the beginning of the next end step.
+
+If I control one of each and one of my creatures dies, what happens?
+
+A:
+
+Exactly one of these abilities will return the card to your hand, depending on your opponent's choice.
+When your (non-token) creature dies, assuming your opponent doesn't pay the cost for Athreos, two things will happen:
+
+Athreos's ability returns the creature card to your hand.
+Liesa's ability creates a delayed triggered ability that will try to return the card to your hand at the end of the turn.
+
+Comp rule 603.7c defines exactly what happens in this case:
+
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it. (Note that if that object left that zone and then returned, it’s a new object and thus won’t be affected. See rule 400.7.)
+
+When the delayed triggered ability resolves, the card has been removed from your graveyard by Athreos's ability, so it will have no effect. This is true even if the same physical card has found its way back to your graveyard, because of rule 400.7:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+(There are nine exceptions to 400.7, none of which apply here - although 400.7d is the exception that allows Athreos's ability and Liesa's original ability to "see" the card in your graveyard in the first place.)
+So when your creature dies (assuming no one responds with a spell or ability, and there are no other triggers) your opponent decides whether to pay life or not. If they do, the card is placed in your graveyard and will return to your hand at the end of turn. If they don't, the card is placed in your hand immediately and Liesa's ability will have no effect.
+

@@ -1,0 +1,13 @@
+Q:
+
+Attaching equipment, when the equipment wasn't actually cast
+
+Lets say, I use a Genesis Wave, and I reveal an equipment. Can that equipment enter the battlefield 'automatically' attached to a creature already in play? Or does it just enter the battlefield, and I have to attach it by paying its equip cost during a main phase?
+(Secondary clarification, is it true I can't put auras/equips on creatures also revealed by genesis wave?)
+
+A:
+
+Equipments never enter the battlefield attached to a creature unless an effect specifically says that it does, no matter whether you cast it or put it onto the battlefield with a card like Genesis Wave.
+Aura Enchantments, on the other hand, always enter the battlefield attached to something. If you cast an Aura, it enters the battlefield attached to the object that was the target of the spell. If you put it directly onto the battlefield with a card like Genesis Wave, you choose at that time what object it attaches to. Just like casting an Aura, this choice is constrained by the "Enchant [something]" ability on the aura, so an aura with "Enchant Creature" can only be attached to a creature, whether or not it was cast.
+One caveat you should keep in mind is that Genesis Wave puts all of the permanents onto the battlefield simultaneously, so you cannot attach an aura from among those permanents to another one of those permanents. This is different from a card like Warp World, which puts Enchantments onto the battlefield after other cards so that you can attach those Enchantments to other permanents that it puts onto the battlefield.
+

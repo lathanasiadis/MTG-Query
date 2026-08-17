@@ -1,0 +1,31 @@
+Q:
+
+Can Grave Betrayal give me a Mutavault?
+
+Would Grave Betrayal give me a Mutavault? I'm guessing no, but enough rules have changed since Onslaught that I'm not going to guess.
+
+A:
+
+Yes, you get a Black Mutavault with a +1/+1 counter on it. It will not be a Zombie because non-creatures cannot have creature subtypes.
+
+Detailed Explanation
+First, you need to know why Grave Betrayal triggers.
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone [...]
+603.6d [...] Leaves-the-battlefield abilities will trigger based on [an object's] existence, and the appearance of objects, prior to the event rather than afterward.
+
+Mutavault was a creature prior to death, and so Grave Betrayal will trigger. The trigger doesn't care what Mutavault becomes after death. Second, you need to know how Grave Betrayal can still find the Mutavault in the graveyard even though it is a new object.
+
+603.6 Trigger events that involve objects changing zones are called "zone-change triggers." Many abilities with zone-change triggers attempt to do something to that object after it changes zones. During resolution, these abilities look for the object in the zone that it moved to.
+
+Third, you need to know why lands cannot have creature subtypes.
+
+205.3d An object can't gain a subtype that doesn't correspond to one of that object's types.
+
+Lastly, here is how the events actually unfold:
+
+An opposing Mutavault creature dies.
+Grave Betrayal triggers.
+Grave Betrayal's trigger resolves. It looks for Mutavault in the graveyard and finds it there.
+Mutavault returns to the battlefield under your control. It gains the color Black and a +1/+1 counter. It won't be a Zombie because Zombie is a creature subtype and Mutavault is not a creature at the moment.
+

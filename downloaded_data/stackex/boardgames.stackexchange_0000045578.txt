@@ -1,0 +1,26 @@
+Q:
+
+If the only attacker is removed from combat, is a creature still counted as having attacked this turn?
+
+I'm querying an effect which specifically removes creatures from combat altogether such as Reconnaissance or Spires of Orazca.
+If the only attacking creature is removed from combat by an effect like this, how does this attack or lack thereof interact with things like the Raid mechanic and Curious Obsession?
+Does it check "Was an attack initiated at all?" this turn or "Was an attack "successfully" made"? Does an effect like the above "prevent" an attack?
+I wondered this since burning the creature at any point after it has already been declared as an attacker still makes it count for "a creature attacked this turn".
+
+A:
+
+Declaring a creature as an attacker is a singular event that is not undone by later removing that creature from combat. For example, you will get the benefits of Raid and you will not have to sacrifice Curious Obsession in a turn during which all of your at least 1 attackers have been removed from combat.
+Note that effects like that of Spires of Orazca are not the only ways to remove a creature from combat. Simply destroying or exiling a creature also remove it from combat. 
+
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, or if it's an attacking or blocking creature that regenerates (see rule 701.14) or stops being a creature. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that's removed from combat stops being attacked.
+
+Effects like Raid or the 2nd ability of Curious Obsession do not care whether or not the attacking creature(s) were in combat the whole time, or that they dealt combat damage, or anything else. All that matters is that you have successfully declared at least one creature as an attacker this turn. 
+
+Declare Attackers Step
+
+[..]
+
+508.1m Any abilities that trigger on attackers being declared trigger.
+
+Note that there are effects that put a creature onto the battlefield "tapped and attacking". Creatures that have been put onto the battlefield this way do count as attacking creatures, but do not count as having been declared as attackers. In practice this doesn't matter for Raid or Curious Obsession because all those effects have a prerequisite of an already attacking creature, which would already satisfy Raid and CO. But it would matter for abilities that require a certain number of creatures to have been declared as attackers, such as Windbrisk Heights
+

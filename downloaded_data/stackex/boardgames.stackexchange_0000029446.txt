@@ -1,0 +1,20 @@
+Q:
+
+What happens if I cast disenchant in response to the triggered ability of animate dead?
+
+My opponent has Griselbrand in his graveyard and casts Animate Dead.
+It resolves, causing the triggered ability to go on the stack which would bring Griselbrand back to play. In response, I Disenchant Animate Dead.
+What happens?
+My friend believes it would be the same as the bouncing Oblivion Ring trick-- the triggered ability would still activate, causing Griselbrand to come out, but the aura would be gone before its "leaving the battlefield" trigger has anything to target: i.e. Griselbrand comes out and stays out, while Animate Dead goes to the graveyard.
+This sounds right. Is it?
+
+A:
+
+If you destroy Animate Dead before the creature card it enchants returns to the battlefield, the creature card will remain in the graveyard and never enter the battlefield.
+Read the text of Animate Dead carefully:
+
+When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead."
+
+If Animate Dead enters the battlefield, it triggers its ETB ability. If someone responds with a Disenchant to destroy it, then by the time the ETB resolves, the aura will no longer be on the battlefield and the ability does nothing on resolving.
+The Oblivion Ring trick you mentioned works only because its ETB ability does not have that condition.
+

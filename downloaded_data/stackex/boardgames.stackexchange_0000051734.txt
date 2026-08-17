@@ -1,0 +1,39 @@
+Q:
+
+MTG: Fiend Binder and wider implications of Rule 508.1d
+
+I am trying to figure out rule 508.1d - I initially got down this path whilst trying to figure out Fiend Binder's requirements.
+Fiend Binder's text says:
+
+Whenever Fiend Binder attacks, tap target creature defending player controls.
+
+My friend and I cannot decide whether this reads as an implicit "must" (since most cards will say "may" when something is optional), or an implicit "may." I argue that if all my creatures are tapped, or if I have no creatures on the battlefield, he cannot use Fiend Binder to attack with; he argues otherwise.
+To resolve this we turned to the rules, and I find 508.1d:
+
+The active player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature attacks if able, or that it attacks if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal.
+
+... so far so good, but then it says:
+
+If a creature can’t attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed.
+
+Which is downright weird...
+
+If there is a cost for attacking, the player doesn't have to pay that cost and can proceed anyway? What's the point then?
+the rule doesn't specify "mana cost" but I presume that is what it means, as opposed to a requirement, like "sacrifice a creature"?
+
+Is there any extra rule or resource that can add clarity?
+I really wish the card instructions conformed to RFC-2119 ...! :-P
+
+A:
+
+You're getting combat requirements mixed up with triggered abilities.
+Triggered abilities:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Now, you know that if there isn't any targets, there's a problem, but that's handled by:
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+
+So, if your opponent has no creatures, the ability triggers, but since there are no legal targets, it's immediately removed from the stack.
+

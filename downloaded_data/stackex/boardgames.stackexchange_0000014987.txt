@@ -1,0 +1,24 @@
+Q:
+
+What happens if a tribute effect has no valid target?
+
+What happens if I play a card that has a tribute ability with the word target in it, my opponent chooses not to pay the tribute, and ability that applies has no valid targets.
+Will the ability simply do nothing, can I not play the card because it will resolve illegally, or will my opponent be forced to pay the tribute?
+
+A:
+
+Your tribute creature will enter the battlefield. Your opponent may refuse tribute, and the ability responding to no tribute can be auto-countered if it has no targets, but that will not make the creature itself get countered.
+
+Will the ability simply do nothing, can I not play the card because it will resolve illegally, or will my opponent be forced to pay the tribute?
+
+You appear to have a misunderstanding of the mechanism of spells being auto-countered when they have no targets, and how that extends to creatures.
+Instants and sorceries get auto-countered if they have no valid targets for one reason: they (normally, or always AFAIK) place just one ability on the stack - a spell ability, which is the text on the card. If that spell ability gets auto-countered, the entire card might have no effect, because it's all the card did.
+However, creatures aren't a card that just have one single effect. When you're summoning a creature with tribute, you will do all of these things separately and independently:
+
+Summon the creature. This uses the stack, and the creature spell can be countered by e.g. Essence Scatter.
+Your opponent is offered the choice to tribute the creature. This doesn't go on the stack and can't be countered, since it's a static ability.
+If tribute wasn't paid, then when the creature enters the battlefield, place the ability triggered by not paying the tribute on the stack to resolve.
+
+#1 or #3 can be countered independently. If someone plays Essence Scatter on your Nessian Wilds Ravager, the entire creature card will go to your graveyard and #2 and #3 won't happen.
+However, if #3 gets countered (including by #3 having no legal targets), the creature is still going to enter the battlefield - it's already done so - and countering the individual ability has nothing to do with countering the card as a whole.
+

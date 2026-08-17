@@ -1,0 +1,27 @@
+Q:
+
+What happens to my cards exiled by an opponent's Oblivion Ring when they lose the game?
+
+My opponent in a multiplayer game had exiled 2 cards I controlled during a recent game with an Oblivion Ring like ability.  On my next turn I hit him for lethal.
+What happens when he loses the game? Do the 2 cards remain exiled or do they re-enter play under my control?
+
+A:
+
+Permanents exiled by Oblivion Ring stay exiled when its controller loses. To quote Ask a Magic Judge from March 16th 2018:
+
+deg99 asked: In multiplayer, if a card is banished with a card like Oblivon ring, and oblivion ring's controller loses, is the banished card returned to play?
+Judge: No because the separate return trigger never gets to go on the stack.
+
+This is because a player who's lost can't put any abilities on the stack—they're no longer in the game. From the multiplayer rules (where “an object” includes things like triggered abilities):
+
+800.4d If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack.
+
+(We can also reference March 30th 2013 for this situation.)
+The answer is different if Oblivion Ring's owner loses, but they weren't controlling the Ring at the time. Suppose Player A cast the Ring, and later Player B gains control of it. When Player A loses the game, their Oblivion Ring also leaves, and the exiled cards will come back. Quoting the judge again from March 14th 2015:
+
+mightym79 asked: What happens when the owner of an Oblivion Ring loses in a multiplayer game while another player controls it (e.g. because of Zedruu giving it away)? Does the permanent come back?
+Judge: Because Oblivion Ring’s controller is still in the game, the “leaves the battlefield” ability will trigger and resolve as normal, returning whatever was exiled.
+
+This situation is entirely because Oblivion Ring has a separate triggered ability that returns the permanent. This will occur the same way with any other permanent meeting that pattern, such as Detention Sphere or Fiend Hunter.
+If instead your permanents are exiled with Banisher Priest, Banishing Light, or any other card which says approximately “exile those cards until this permanent leaves the battlefield”, your permanents will return as the Banisher Priest leaves the battlefield. This is because the effect keeping them exiled simply ends.
+

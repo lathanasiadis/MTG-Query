@@ -1,0 +1,19 @@
+Q:
+
+Is it possible to win in MTG when you don't have enough cards in your library to complete your draw phase?
+
+I am confused about the following MTG rule:
+
+104.3c. If a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+The following scenario came up in a Magic game I played recently.
+My opponent had 3 untapped Howling Mines at the start of his turn. Each Howling Mine makes him draw an additional card during his draw phase, which means he needed to draw 4 cards. However, his library only had 1 card left in it.
+Is it possible for my opponent to win the game here? It seems like priority passes basically when my opponent does anything at all, so why does the rule not just say they lose the game immediately? What is the point of allowing them to draw the one card and then move on from the draw step to their first main phase?  I'm assuming there is some scenario in which they can still win, but I don't know what that could be.
+Me and my opponent are both new to Magic, so we actually assumed "priority" meant the next time it was my turn he would lose. We ended up letting him play out his whole turn and he actually beat me on that turn by playing a couple spells I couldn't stop. But after looking up what priority actually is I think I probably won?
+Thanks!
+
+A:
+
+Sure it's possible, but you'd need to win at instant speed. An example: your opponent has 3 life left, and you're holding a Lightning Bolt. Then when the Howling Mine triggers but before it resolves (which would kill you), you point Lightning Bolt at him and kill him. You could also do this on your upkeep, before the draw phase.
+Or are you asking why the rules says "he or she draws the remaining cards, and then loses the game the next time a player would receive priority" as opposed to simply "he or she loses the game the next time a player would receive priority"? That would be because it's possible to not lose the game even though you are supposed to lose. For example, if you are controlling Platinum Angel, then you don't lose for trying to draw from an empty library. In that case it makes sense for you to draw the remaining cards anyway.
+

@@ -1,0 +1,18 @@
+Q:
+
+If the only target of a spell is cloudshifted, is the spell countered?
+
+If a spell or ability is cast targeting a specific creature, would casting Cloudshift on the creature counter the spell or ability?
+
+A:
+
+Yes. (Assuming that the spell is targeting only the 1 creature in question.)
+When an object changes zones, as it does when you cast Cloudshift on it, it becomes an entirely new object. The object that the original spell was targeting no longer exists, and so the spell is countered for having an invalid target upon resolution.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are eight exceptions to this rule:
+
+(None of the eight exceptions apply here.)
+And the rules for what happens when a spell resolves:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal.
+

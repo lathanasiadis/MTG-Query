@@ -1,0 +1,21 @@
+Q:
+
+Does Olivia Voldaren's second ability still work if I steal her in response?
+
+Olivia Voldaren has the following for her second ability:
+
+{3}{B}{B}: Gain control of target Vampire for as long as you control Olivia Voldaren.
+
+Meanwhile, Merieke Ri Berit has this for her second ability:
+
+{T}: Gain control of target creature for as long as you control Merieke Ri Berit. When Merieke Ri Berit leaves the battlefield or becomes untapped, destroy that creature. It can't be regenerated.
+
+My opponent activates Olivia Voldaren's second ability, targeting a vampire. In response, I activate Merieke Ri Berit's second ability to steal Olivia Voldaren. Will my opponent still gain control of the vampire?
+
+A:
+
+This one is an edge case, so it's interesting. Yes, the second ability resolves, but as the player activating the ability no longer controls Olivia, the end result is similar to if it hadn't, as she is no longer under that player's control.
+There's a ruling on the gatherer page confirming this:
+
+If you activate Olivia Voldaren's last ability, and before that ability resolves you lose control of Olivia Voldaren, the ability will resolve with no effect. You won't gain control of the targeted Vampire.
+

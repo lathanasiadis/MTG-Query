@@ -1,0 +1,13 @@
+Q:
+
+Do face-down creatures with death trigger activate normally?
+
+If a face-down creature has a "When this dies [...]" effect (i.e. because of Ixidron), will that effect activate when it dies?
+
+A:
+
+Short answer: Yes, if it had one, but the creature lost that ability when it was turned face-down.
+
+"When this dies" is a leaves-the-battlefield ability [603.6c], and leaves-the-battlefield abilities trigger based on their existence, and the appearance of objects, prior to the event rather than afterward [603.3d].
+So it doesn't matter what abilities the creature would have if it was face-up or will have in the graveyard; all that matters is what ability it actually does have. Only leaves-the-battlefield abilities the face-down creature has just prior to dying will trigger when it dies. Normally, that wouldn't be any, but some cards (such as Cauldron Haze) could grant them some.
+

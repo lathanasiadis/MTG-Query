@@ -1,0 +1,17 @@
+Q:
+
+Are "Gods" indestructible even when they are not yet creatures?
+
+As long as the card Nylea, Keen-Eyed -
+(or the parallel red card, or Purphoros, Bronze-Blooded, or Athreos, Shroud-Veiled, or other specular cards, often with the subtype "God") -
+is not yet a creature, since his devotion to the indicated color has not yet reached the sufficient value, does he still possess the indestructible ability? I'll explain better.
+For example, since it's a card that's also an enchantment, could it be destroyed by a Disenchant as long as it's not a creature; or is the indestructible ability active even when it's not yet a creature?
+
+A:
+
+Yes, the Enchantment Gods are always indestructible, whether or not they are creatures.
+When the Gods stop being a creature due to insufficient Devotion, the only things they lose are the creature type, the creature-related subtype (God), and their power and toughness. Abilities of that object are not affected, even if they are abilities that wouldn't make sense on a non-creature, such as Trample. However, Indestructible isn't even a creature-only ability, as there are non-creatures with that ability, such as Darksteel Relic.
+
+208.3. A noncreature permanent has no power or toughness, even if it’s a card with a power and toughness printed on it (such as a Vehicle). [..]
+205.1a [..] If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. [..]
+

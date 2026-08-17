@@ -1,0 +1,19 @@
+Q:
+
+Do cards that say "all creatures" affect creatures with hexproof?
+
+When a creature or player has hexproof and a player casts a card such as Cleansing Nova:
+
+Choose one —
+
+Destroy all creatures.
+Destroy all artifacts and enchantments.
+
+Do creatures with hexproof die too?
+
+A:
+
+Yes, cards with "destroy all ..." don't target the permanents they affect, so Hexproof does not protect them from being destroyed.
+Generally speaking, if the word 'target' doesn't appear on the card, the spell or ability isn't targeting. Auras are an exception (see rule 114.1b), and sometimes the word 'target' is in the reminder text (e.g. the provoke ability).
+(There might be more exceptions, since Magic: The Gathering is an ever evolving game.)
+

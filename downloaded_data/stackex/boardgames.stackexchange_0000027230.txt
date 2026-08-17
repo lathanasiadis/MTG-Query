@@ -1,0 +1,42 @@
+Q:
+
+Does Aligned Hedron Network exile creatures that enter after it does?
+
+In conjunction to my previous question here, I created some confusion for myself. I want to know how this scenario would pan out:
+
+My opponent casts 2-3 huge creatures (say Eldrazi Devastator, Ruin Processor, and Ulamog, the Ceaseless Hunger)
+On my next turn, I play Aligned Hedron Network, exiling these three creatures.
+On my opponent's next turn, he is unable to destroy AHN.
+I play Ulamog's Despoiler, and choose to send Ulamog and Eldrazi Devastator to the Graveyard from Exile.
+
+After this process, if my AHN is still in play, will my Ulamog's Dispoiler be exiled? I think not, because of the text, "When Aligned Hedron Network enters the battlefield exile ...". However, the last bit threw me off "until Aligned Hedron Network leaves the battlefield."
+Which of these interpretations is correct?
+
+Until AHN leaves the battlefield, all creatures with power 5 or more are exiled whenever they enter the battlefield.
+All creatures on the field with power 5 or more at the time that AHN enters are exiled until AHN is destroyed.
+
+A:
+
+The second option is correct: the Aligned Hedron Network has a triggered ability, that exiles a set of creatures when it enters the battlefield. This exile effect lasts until the Network leaves the battlefield, at which time the creatures return to the battlefield. It does not continuously exile creatures that enter after it does.
+
+First, the rules describing Triggered Abilities, specifically 603.1, say
+
+Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and begin with the word “when,” “whenever,” or “at.” They can also be expressed as “[When/Whenever/At] [trigger event], [effect].”
+
+In the case of Aligned Hedron Network, the trigger condition is
+
+When Aligned Hedron Network enters the battlefield
+
+and the effect is
+
+exile all creatures with power 5 or greater until Aligned Hedron Network leaves the battlefield
+
+When the Aligned Hedron Network spell resolves, it enters the battlefield as a permanent and the ability triggers. That is the only time it happens, because it is the only time that the trigger condition is true.
+Then, the effect has the "until Aligned Hedron Network leaves the battlefield" clause. The rules regarding One Shot Effects say
+
+610.1 A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, putting a token onto the battlefield, and moving an object from one zone to another.
+
+610.3 Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+
+So, as soon as the Network leaves the battlefield, the objects it exiled return to the battlefield under their owners' control.
+

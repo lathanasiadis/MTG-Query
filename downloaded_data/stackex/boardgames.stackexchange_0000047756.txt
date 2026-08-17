@@ -1,0 +1,17 @@
+Q:
+
+Do Goblin tokens count as Goblins?
+
+I have a typically mono red Goblins deck. 
+My question, are tokens considered Goblins too?
+For example, I have 10 1/1 Goblin tokens put onto the battlefield by Krenko, Mob Boss. Can I use those tokens for Skirk Fire Marshal's ability?
+
+A:
+
+Yes, the tokens created by Krenko, Mob Boss are creatures with the subtype Goblin. That subtype is exactly what the word 'Goblin' on Skirk Fire Marshal is referring to, so you can use them. (They also count for Krenko, Mob Boss' ability if you activate it a second time. Goblin exponentation FTW!)
+The relevant rules are:
+
+110.5c A spell or ability that creates a token sets both its name and its subtype. If the spell or ability doesn’t specify the name of the token, its name is the same as its subtype(s). A “Goblin Scout creature token,” for example, is named “Goblin Scout” and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn’t change its subtype, and vice versa.
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+110.1. A permanent is a card or token on the battlefield.
+

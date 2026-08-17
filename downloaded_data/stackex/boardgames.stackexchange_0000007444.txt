@@ -1,0 +1,28 @@
+Q:
+
+Can I Birthing Pod a token to get a creature with a CMC of 1?
+
+From my understanding, the CMC (converted mana cost) of a token is 0.  When you sacrifice a creature with Birthing Pod it adds 1 to the CMC.  So, if I sacrifice a token (any token) to Birthing Pod, can I get a creature with a CMC of 1 from my deck?
+
+A:
+
+You are correct in the general sense. The CMC of almost any tokens is 0. The only exception is tokens copying other cards (e.g. Cackling Counterpart).
+The simplest reference is the Oracle rulings:
+
+6/1/2011  A token has a converted mana cost of 0, unless it is copying
+something else.
+
+6/1/2011  If a creature is copying something else, its converted mana
+cost is the converted mana cost of whatever it's copying.
+
+So, why do most tokens have CMC 0?
+
+110.5b ... A token doesn't have any characteristics not defined by the spell or ability that created it.
+Example: Jade Mage has the ability "{2}{G}: Put a 1/1 green Saproling
+creature token onto the battlefield." The resultning token has no mana
+cost, supertype, expansion symbol, rules text, or abilities.
+
+Normally, in Magic, the absence of a value isn't the same as "zero", but the definition of converted mana cost explicitly covers this situation:
+
+202.3a The converted mana cost of an object with no mana cost is 0.
+

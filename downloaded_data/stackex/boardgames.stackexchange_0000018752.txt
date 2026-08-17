@@ -1,0 +1,23 @@
+Q:
+
+Does exiling a creature after it has been destroyed or dealt lethal damage still count as if it "died"?
+
+I'm actually working on an alternative card set. While designing tribal mechanics, I have encountered a problem with a single thing: does a creature exiled after being destroyed (instead of being put into graveyard) still counts as if it "died"?
+So, let's imagine a situation:
+Sengir Vampire deals damage to target 3/5 creature. Then, to finish the creature I cast Pillar of Flame... so, instead of dying (being put into graveyard) the creature gets exiled.
+If Sengir Vampire dealt damage to a creature finished with Pillar of Flame, will he get +1/+1?
+
+A:
+
+No, Sengir Vampire does not get a +1/+1 counter.
+A creature dies when it moves from the battlefield to the graveyard. So, there are two different possibilities here. If the creature goes to the graveyard and then moves to exile, then it counts as dying. However, if it goes to exile instead of the graveyard, then it does not count as dying.
+In your particular case, Pillar of Flame says
+
+If a creature dealt damage this way would die this turn, exile it instead.
+
+The use of the word "instead" indicates that this is a replacement effect. So going to exile replaces going to the graveyard. Specifically, rule 614.6 says
+
+If an event is replaced, it never happens.
+
+The event of the creature dying is replaced by exiling the creature, so it never died.
+

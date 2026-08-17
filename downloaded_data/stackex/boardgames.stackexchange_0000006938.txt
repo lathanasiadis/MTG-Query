@@ -1,0 +1,17 @@
+Q:
+
+Undying vs first strike
+
+What happens when an undying creature dies being dealt damage by a creature with first strike in a combat?
+For example:
+If Nearheath Stalker blocks an Abattoir Ghoul and dies will he deal combat damage after returning to the battlefield? Will Abattoir Ghoul die after this battle?
+
+A:
+
+No, the creature returned to the battlefield by undying is considered a new creature because it changed zones (two times, from battlefield to graveyard and then back from graveyard to battlefield). It's not in combat, and won't deal combat damage to Abattoir Ghoul.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+  There are seven exceptions to this rule:
+
+This rule has some exceptions, but undying isn't one of them.
+

@@ -1,0 +1,17 @@
+Q:
+
+Can Emrakul's Evangel save me from "destroy all creatures"?
+
+My opponent played a "destroy all creatures" card. But I have Emrakul's Evangel on the field. Is there any way that if I use his ability so that some creature will survive?
+
+A:
+
+Unfortunately, no. If you use that ability in response to their spell, you still lose everything. Here's how it works, assuming nothing else happens:
+
+They cast Wrath of God (or some other card that destroys all creatures). It goes on the stack.
+You respond by activating Emrakul's Evangel's ability, sacrificing some number of creatures. It goes on the stack on top of the spell.
+The top thing on the stack resolves. That's Emrakul's Evangel's ability, so now you get your 3/2 Eldrazi Horror tokens.
+The next thing on the stack resolves. That's the Wrath of God. It destroys all creatures, including the 3/2 tokens you just created.
+
+If you want something to protect you from that kind of situation by giving you replacement creatures, it generally needs to be a triggered ability. For example, Abzan Ascendancy gives you Spirit tokens when your nontoken creatures die.
+

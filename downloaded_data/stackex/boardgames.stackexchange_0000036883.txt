@@ -1,0 +1,14 @@
+Q:
+
+How does lifelink affect indestructible creatures?
+
+My 4/4 lifelink creature is blocked by his 1/1 indestructible creature.
+How much life do I gain, if any?
+
+A:
+
+You will gain 4 life.
+Lifelink and indestructible have no special interactions with each other. Your 4/4 will deal 4 damage to the 1/1, and you will gain 4 life. This is the same as if your 4/4 had dealt damage to any other creature. It doesn't matter how much toughness the defending creature has, or whether it will eventually die.
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all.
+

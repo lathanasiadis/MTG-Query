@@ -1,0 +1,38 @@
+Q:
+
+When does showing a card in hand become free information?
+
+Say I'm playing a game, and I start to cast a spell at the wrong time (e.g. an enchantment when I could only cast an instant). As I reveal the spell, an opponent points out that it's an enchantment and I pull it back into my hand.
+Now, if this was two-headed giant and one opponent player saw that it was an enchantment while the other read its name, it would be free information for them to check the effect of the card based on its name.
+If, however, I pull the card back straight away and they know nothing about it (other than I want to cast it), am I obliged to reveal the card/provide details about it?
+Additionally, is this different if I accidentally reveal a card from my own hand, which the opponents glimpse, without any intention of casting?
+
+A:
+
+In a number of places in your question, it's not clear whether you are referring to the name of a card object or to the Oracle content for a card of a given name. These are very different things.
+
+When does showing a card in hand become free information?
+
+The name of a card in your hand is private information, save for two exceptions:
+
+If you are instructed to reveal a card (or all cards) in your hand, you must clearly communicate the names of the affected cards. Their names cease to be free information before anything else happens.
+If you are instructed to play with a card (or all cards) of your hand revealed, the names of the affected cards is free information. Their names cease to be free information the moment the effect ends.
+
+As I reveal the spell, an opponent points out that it's an enchantment and I pull it back into my hand.
+
+While the card was on the stack, it was in a public zone, and thus its name was free information. The moment the error was corrected, the card reverted to being in a hidden zone, and thus its name reverted to being private information.
+
+Now, if this was two-headed giant and one opponent player saw that it was an enchantment while the other read its name, it would be free information for them to check the effect of the card based on its name.
+
+No. The Oracle content for a card of a given name is derived information (not free information) at all times. At Regular REL, though, derived information is considered free information.
+
+If, however, I pull the card back straight away and they know nothing about it (other than I want to cast it), am I obliged to reveal the card/provide details about it?
+
+No, though the precise answer depends on what they asked.
+If they ask "What card was that?", you need not answer since it's private information (as answered above). You may even be allowed to lie about it!
+If they ask "What's a Giant Growth?", you need not answer since it's derived information. If you do answer, you must answer truthfully. They may request this information from a judge.
+
+Additionally, is this different if I accidentally reveal a card from my own hand, which the opponents glimpse, without any intention of casting?
+
+No.
+

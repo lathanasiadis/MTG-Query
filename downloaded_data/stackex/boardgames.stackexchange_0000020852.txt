@@ -1,0 +1,32 @@
+Q:
+
+How are M:TG cards printed in regards to the rarity of each card?
+
+I've seen pictures of the source sheets. They pack many different cards per plate, not one card repeated a hundread times in the same plate.
+Suppose that a set contains 300 cards and there are 3 plates with 100 cards each. If there are 100 rares, 100 uncommons, and 100 commons, I'd imagine that there is one plate with rares only, one with uncommons only, the third with commons only. Is this how they distribute the cards' rarities?
+
+A:
+
+Note that Wizards tends to be fairly secretive about the specifics of how their print runs work, and exactly what a print sheet looks like. We occasionally get articles like the one that Zags linked to showing an entire print sheet, but most of the information we 'know' about the print runs has to be inferred from answers Wizards employees give or mathematical analysis of print runs.
+Currently for a regular large expansion a set has 269 cards broken down as follows
+
+101 Commons
+80 Uncommons
+53 Rares
+15 Mythic Rares
+20 Basic Lands (5 Different Lands with 4 arts each)
+
+A sheet of cards is 11x11 (121 cards total) as far as we have been able to tell so far the sheets are split up as follows (Source)
+
+2 of each Rare + 1 of each Mythic
+2 each of 60 Commons + 1 extra Common
+3 each of 40 Commons + 1 extra Common (the same Common as on the previous sheet)
+3 each of 40 Uncommons + 1 Blank
+3 each of 40 Uncommons + 1 Blank
+6 of each Basic Land + 1 Blank
+
+For the 2 Common sheets they are printed in a 3:2 ratio so that every common has the same rarity. The one exception is the 1 extra Common which has a rarity of 5:6, so it is very slightly rarer that the other hundred commons. This 101st Common is generally an artifact or land depending on the set.
+These sheets are then printed so that the rarities are preserved both within and between each rarity, so each of the Uncommon sheets will be printed the same number of times so each Uncommon has the same likelihood of getting opened in a pack, and each of those sheets will be printed 3 times for every Rare/Mythic sheet that is printed.
+This ends up with a booster pack that has 1 Basic Land, 1 Rare or Mythic Rare (7/8 chance of Rare, 1/8 chance of Mythic Rare), 3 Uncommons, and 10 Commons (one of the Commons has a chance of being Foil, about 1/6 (Source))
+Note that all this information is about current large expansions. Small expansions have ratios that work out similarly. Special releases like the Commander decks, and other preconstructed decks have their own print runs (as Zags shows in their answer) and these cards are in addition to any cards in a normal print run, so for example any Rares in the Magic 2015 Intro Packs are more common than normal Rares that aren't in Intro Packs. Also as Zags also noted older sets had different print sheets where one card might appear on it 4 times, another card 5 times, and a third card 11 times (these numbers are based on Arabian Nights) Wizards has not done sheets for normal expansions like this for a while though.
+

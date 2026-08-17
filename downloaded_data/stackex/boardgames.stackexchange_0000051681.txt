@@ -1,0 +1,16 @@
+Q:
+
+Negative power & Chandra's Pyreling
+
+Scenario:
+I control Cavalcade of Calamity, three Tin Street Dodgers and Chandra's Pyreling enchanted with So Tiny. I have two cards in my graveyard. So now, my Chandra's Pyreling is -1/3. If I get it right, when I attack with all these creatures, Cavalcade's ability triggers four times, and in the result of that Chandra's Pyreling becomes 3/3 creature with double strike until the end of turn. Am I right?
+
+A:
+
+You are correct. From the complete rules:
+
+107.1b Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or a creature’s power and/or toughness.
+Example: If a 3/4 creature gets -5/-0, it’s a -2/4 creature. It doesn’t assign damage in combat. Its total power and toughness is 2. Giving it +3/+0 would raise its power to 1.
+
+So a negative power value is NOT treated as zero unless it's going to have a direct effect on the game like dealing damage. All other times (including your example), normal math is used, so 1 (initial power) minus 2 (so tiny) plus 4 ones (triggers) is 3.
+

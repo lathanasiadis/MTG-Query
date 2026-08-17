@@ -1,0 +1,25 @@
+Q:
+
+What are the rules for triggering abilities that cost mana?
+
+I like the Seedcradle Witch card:
+
+2GW: Target creature gets +3/+3 until end of turn. Untap that creature.
+
+Two questions:
+
+Given that I have the mana, can I use that ability during the turn I cast her?
+Can I use that ability during my opponent's turn?
+
+A:
+
+The ability you are asking about is called an “activated ability”, and it is important to not confuse it with a “triggered ability.” Activated abilities are never “triggered” as you suggest in your title. Rather, you simply choose to activate them and pay the required cost any time it is your chance to act, which is called having “priority.”
+From the Basic Rules:
+
+Activated Abilities
+
+An activated ability is an ability that you can activate whenever you want (like casting an instant), as long as you can pay the cost. Each activated ability is formatted in the same way: "Cost: Effect." For example, Inspired Sphinx is a creature with the activated ability "3U: Create a 1/1 colorless Thopter artifact creature token with flying." Some activated abilities contain the  (tap) symbol in their costs; this means that you must tap that card to activate the ability. You can’t activate this kind of ability if the permanent is already tapped or if it’s a creature with summoning sickness.
+
+So to answer your specific questions, yes, you can use this ability during the turn that you cast Seedcradle Witch, and you can use it on your opponent's turns. You can even use it multiple times on the same turn, as long as you have enough mana available to pay for it.
+If the ability included the tap symbol in the cost, then you would not be able to use it on the turn that you cast it.
+

@@ -1,0 +1,14 @@
+Q:
+
+What does the comma mean in a card effect's cost?
+
+Some cards, such as Lurking Informant, have a comma seperating 2 costs for an ability. What does that mean? Do I pay one of the costs or both to use the effect?
+
+A:
+
+It's a single cost and you pay both parts. From the Comprehensive Rules:
+
+602.1 Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+602.1a The activation cost is everything before the colon (:). An ability’s activation cost must be paid by the player who is activating it.
+Example: The activation cost of an ability that reads “{2}, {T}: You gain 1 life” is two mana of any type plus tapping the permanent that has the ability.
+

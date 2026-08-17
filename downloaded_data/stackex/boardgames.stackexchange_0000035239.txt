@@ -1,0 +1,27 @@
+Q:
+
+"Blocked or was Blocked By"
+
+Time to Reflect says:
+
+Exile target creature that blocked or was blocked by a Zombie this turn.
+
+It's completely and utterly clear what the intention of this card is. That you can exile a target if that target blocked a Zombie, or if that target was blocked by a Zombie
+However, what it says is that blocked or was blocked by a Zombie.
+Magic is a rules-lawyer, literal-text-interpretation game, and that sentence (on its own) does not link that blocked to a Zombie.
+If that sentence had been "return any creature that died or was blocked by a Zombie to hand, whatever zone it is currently in" then you would clearly allow it to target any creature that died for any reason whether or not it pertained to a Zombie.
+A) Is there a specific ruling clarifying this anywhere (there's no card-ruling on The Gatherer)?
+B) If not, then what would happen at an FNM or at a formal tournament if I tried to argue my case?
+
+A:
+
+The sentence on that card is to be read as "Exile target creature that (blocked or was blocked) by a Zombie this turn"; parentheses mine. Both "blocked" and "was blocked" are linked to "by a zombie". You can confirm that from the rulings at the bottom of the oracle page of Time to Reflect that you linked:
+
+Time to Reflect only cares that the second creature was a Zombie at the moment it blocked or became blocked by the target creature. If that Zombie has become a non-Zombie creature or left the battlefield, Time to Reflect can still target the first creature.
+
+The two other cards containing the phrase "blocked or was blocked" are Heat Stroke and Sea Troll. Heat Stroke in particular would not make sense if "blocked" and "was blocked" were not both connected to "this turn", because "blocked" would not have any limitation in time. Similar for Sea Troll and Time to Reflect; if "blocked" was meant to stand alone, it would still contain some sort of time limitation, even if was something like "this game".
+As for your second question regarding Time to Reflect, it can only target creatures. A creature is any object on the battlefield whose card types includes "creature" and that has values for its power and toughness. A creature card in the graveyard or anywhere else but the battlefield is not a creature, therefore it's never a valid target for Time to Reflect. Whenever you read a combination of card types without additional qualifiers, such as "creature", "land", "artifact enchantment" and so on, that is always shorthand for a permanent of those types, i.e. "creature permanent", "land permanent", "artifact enchantment permanent", and so on. Objects are permanents if and only if they are on the battlefield.
+
+110.1. A permanent is a card or token on the battlefield. A permanent remains on the battlefield indefinitely. A card or token becomes a permanent as it enters the battlefield and it stops being a permanent as it’s moved to another zone by an effect or rule.
+114.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can’t exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+

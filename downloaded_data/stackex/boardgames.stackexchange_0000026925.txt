@@ -1,0 +1,19 @@
+Q:
+
+Cloudshifting Angel of Serenity in the middle of combat
+
+I have a very specific situation in mind.  My friend attacks me with some flying creatures, one of which is Angel of Serenity.  Before I declare blockers, I cast a Moonmist and an Atarka's Command on my werewolves to block them.  My friend then plays a Cloudshift on Angel of Serenity; does her ability happen at that moment while we're fighting?  That is, does he exile three of my werewolves and remove the angel from combat?
+
+A:
+
+Your friend can play Cloudshift before or after you have declared blockers. Either way Cloudshift will resolve before the combat damage step. This means their Angel of Serenity is removed from combat, your friend may choose to exile up to three creatures, and any previously exiled cards are returned to their owner's hands.
+If I'm correct this is the order in which everything happens, assuming your friend casts Cloudshift after you declared blockers:
+
+Opponent casts Cloudshift targeting Angel of Serenity, this goes on the stack and it resolves (assuming no counter spells and no further combat tricks).
+Angel of Serenity gets exiled (is removed from combat) and its leaves the battlefield ability triggers. Then the Angel of Serenity card returns to the battlefield, creating a new instance of the Angel, and its enters the battlefield ability triggers. Both triggers then go on the stack in either order.
+As the enters the battlefield ability goes on the stack, opponent may choose up to three target creatures.
+Angel of Serenity's enters the battlefield ability resolves and the chosen target creatures are exiled.
+Angel of Serenity's leaves the battlefield ability resolves and any previously exiled creatures are returned to their owners hands. These are any creatures that were exiled when the original instance of Angel of Serenity entered the battlefield.
+
+When the stack is empty and both players pass priority you move to the combat damage step.
+

@@ -1,0 +1,55 @@
+Q:
+
+Interactions between Brainstorm and Miracles
+
+Suppose I'm playing UW Miracles in Legacy. During my opponent's turn, I cast Brainstorm,  and the first card that I draw is Entreat the Angels. If I choose to cast the card for its miracle cost, what order do the triggers resolve in?
+Does the Miracle trigger go on the stack immediately, before Brainstorm finishes resolving (ie. before I draw my other cards and then put cards back on my library)? Am I then able to pay the cost and create my angels in the middle of the Brainstorm? Or does the trigger wait until Brainstorm has finished resolving? What if I chose to put Entreat back on top of my library?
+
+A:
+
+You must reveal the card as you draw it in order to claim the miracle trigger.
+The trigger will go on the stack when Brainstorm finishes resolving.
+You can only cast the miracle card if it never left your hand before the trigger resolves.
+
+Here's how and why it works this way:
+
+You draw cards one at a time.
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+You reveal your first card "as you draw it," before putting it in your hand (if it's a miracle card).
+
+702.93. Miracle
+702.93a Miracle is a static ability linked to a triggered ability (see rule 603.10). “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”
+702.93b If a player chooses to reveal a card using its miracle ability, he or she plays with that card revealed until that card leaves his or her hand, that ability resolves, or that ability otherwise leaves the stack.
+
+Nothing else happens yet. Just keep the card revealed in your hand.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+Then you draw the rest of your cards and put some card from your hand back, as Brainstorm tells you to do.
+
+Once you're done with the Brainstorm actions, the miracle trigger actually goes on the stack.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority...
+
+Now you wait for the trigger to resolve. Players pass priority.
+
+After the miracle trigger resolves, you may cast the miracle card. If it has left your hand at all, you can't cast it for its miracle cost (even if you manage to put it back somehow).
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule [none of which apply.]
+
+So, in short:
+
+Draw card 1
+Reveal miracle
+Draw card 2
+Draw card 3
+Put back two cards
+Brainstorm finishes resolving (and is in the graveyard now)
+Stack miracle trigger
+Players get priority and can do stuff
+Miracle trigger resolves: now you get to decide whether to cast the spell
+
+Here's the same interpretation from a level 2 judge.
+

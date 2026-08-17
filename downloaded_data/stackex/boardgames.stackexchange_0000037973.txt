@@ -1,0 +1,31 @@
+Q:
+
+Sacrifice a dead creature?
+
+I have Plagued Rusalka and Grave Pact on the battlefield. 
+I use Plagued Rusalka's ability and sacrifice it for its cost in order to kill a 1/1 creature an opponent controls by giving it -1/-1. He controls two creatures altogether. 
+Can the opponent use the very creature I killed with the -1/-1 effect to sacrifice a creature as Grave Pact demands, or can he only sacrifice his second creature to fulfil the demand?
+Will one or two creatures on the opponent's side end up leaving the battlefield?
+
+A:
+
+Your opponent can sacrifice the targetted creature before the ability resolves
+The exact chain of events is this:
+
+You activate Plagued Rusalka's ability, choosing your opponents' 1/1 creature as a target
+While paying its costs, you sacrifice Plagued Rusalka itself, which triggers Grave Pact
+Plagued Rusalka's ability is put on the stack, and Grave Pact's ability is put on the stack on top of it - you do not get to choose the order because of the way triggered abilities work
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 116, “Timing and Priority.” The ability becomes the topmost object on the stack. [...]
+
+At this point, everything's been put on the stack, but nothing has resolved yet. Assuming no player takes any other actions, all objects on the stack will attempt to resolve one after another:
+
+Grave Pact's ability resolves, giving your opponent the choice to sacrifice any of their creatures
+If they chose the creature targetted by Plagued Rusalka's ability, that ability will be countered by the game rules when it would resolve for not having any legal targets, and no creature will get -1/-1 until end of turn. This is usually referred to as a spell or ability fizzling.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal.
+
+If they chose the other creature, the creature originally targetted will get -1/-1 until end of turn as expected, and put in the graveyard because of that.
+
+Assuming your opponent knows about the rules of the game, there's not a lot of incentive to not sacrifice the creature targetted by Plagued Rusalka here.
+

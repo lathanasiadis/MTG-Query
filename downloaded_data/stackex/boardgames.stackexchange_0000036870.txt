@@ -1,0 +1,16 @@
+Q:
+
+In multiplayer, in which order are replacement effects from different players applied?
+
+In multiplayer, in which order are replacement effects from different players applied ?
+Here's the situation : This is a 3 players game. 
+I control a random creature. Both my opponents control a single Kalitas, Traitor of Ghet. I cast a Damnation killing all creatures. Each of my opponents will get a token from the other player's Kalitas dying. But who will get the token for my creature ?
+I'd say the replacement effects are applied in turn order, so the next player will get the token, but I'm not sure.
+
+A:
+
+The order in which replacement effects are applied to an event is chosen by the player or controller affected. In this case, the event in question is your creature dying, so you choose which replacement effect applies first, and which opponent gets the token.
+The specific rule that covers this is rule 616.1:
+
+If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+

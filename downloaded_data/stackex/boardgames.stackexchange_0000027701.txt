@@ -1,0 +1,20 @@
+Q:
+
+How does Tarmogoyf interact with changelings?
+
+What would happen if you had a Mirror Entity (or any card with changeling) in your graveyard and a Tarmogoyf in play? Would Tarmogoyf's ability only count Mirror Entity as a shapeshifter type creature or a changeling type (every type)?
+
+A:
+
+Nothing special would happen, because Tarmogoyf doesn't care about the Changeling ability at all, or anything Mirror Entity does. Unless it's in a graveyard, in which case Tarmogoyf sees there's a Creature card in the graveyard, and becomes at least a 1/2 from that.
+Tarmogoyf's ability reads:
+
+Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.
+
+The card types are clarified in a ruling on Tarmogoyf you can see in Gatherer:
+
+The card types that can appear on cards in a graveyard are artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal.
+
+... which means Tarmogoyf's ability can make it an 8/9 at most. For {1}{G}, that's still a pretty big deal. (That clarification also shows up in the reminder text of Tarmogoyf's original Future Sight printing.)
+Simply put, it doesn't care about creature types, or the changeling ability. Creature cards don't count as "card types", they are subtypes — the part after the dash in the type line — and Tarmogoyf doesn't pay any attention to those at all. Every creature card just counts for one type: Creature. (Unless, y'know, they're an Enchantment Creature or Artifact Creature or they're Dryad Arbor, in which case they count for two types.) Also, Tarmogoyf only cares about cards in graveyards, while Mirror Entity's ability only affects creature permanents on the battlefield.
+

@@ -1,0 +1,22 @@
+Q:
+
+Who gets the tokens from Chasm Skulker?
+
+If a player takes control of your Chasm Skulker, then it dies while they control it, do they also get the tokens it creates?
+
+A:
+
+Yes, they get the tokens.
+Since they control the Chasm Skulker, they also control its triggered ability ("When Chasm Skulker dies..."). And then since they control the ability, they're the ones who follow the instructions to put tokens onto the battlefield.
+
+110.2a If an effect instructs a player to put an object onto the battlefield, that object enters the battlefield under that player’s control unless the effect states otherwise.
+112.8. The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability’s source when it triggered, or, if it had no controller, the player who owned the ability’s source when it triggered.
+
+In combination with 603.6d which is a bit long but essentially says that for death triggers like this one, you look before the creature died to see how the trigger works.
+
+603.6d. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to “look back in time” to determine if these abilities trigger.
+
+Note that they also own the tokens, since the tokens entered the battlefield under their control. This doesn't generally matter, but just in case!
+
+110.5a A token is both owned and controlled by the player under whose control it entered the battlefield.
+

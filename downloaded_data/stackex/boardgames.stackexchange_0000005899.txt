@@ -1,0 +1,17 @@
+Q:
+
+How does poison work in Commander?
+
+In Commander / EDH players have 40 life. In normal magic 10 poison counters results in a player being eliminated. Is it still 10 poison counters in Commander / EDH? 
+In Commander / EDH a player is eliminated if they receive 21 commander damage. If the commander does poison damage does this count double toward the poison threshold, or somehow different than normal poison counters?
+
+A:
+
+The Comprehensive Rules cover Commander rules (903) in about a page. It only lists one additional rule for winning/losing the game.
+Yes, 10 poison counters kills you in Commander.
+No, poison damage doesn't count double, Commanders that deal poison damage, deal damage as any other poison creature would deal damage.
+
+903.13. The Commander variant includes the following specification for winning and losing the game. All other rules for winning and losing the game also apply. (See rule 104.)
+903.13a A player that’s been dealt 21 or more combat damage by the same commander over the
+course of the game loses the game. (This is a state-based action. See rule 704.)
+

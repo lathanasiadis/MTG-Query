@@ -1,0 +1,27 @@
+Q:
+
+Does a creature with Lifelink provide lifegain equal to its power, or the defender's toughness?
+
+I have recently began playing a deck that has a number of creatures with lifelink in it.  I want to be certain I understand the mechanic and the following question occurred to me.
+Which damage total do you use to determine the life gain from lifelink?  I had assumed that if  a 3/3 creature with lifelink was blocked by a 2/2 creature that the life gain total would be 2, the maximum that the blocker can absorb before dying.  This seems to be incorrect, as when I read the example attached to CR 119.4c 
+
+[...] attacks with a 3/3 creature with wither and lifelink. It’s blocked by a 2/2 creature, [...]. The damage event starts out as [3 damage is dealt to the 2/2 creature, 2 damage is dealt to the 3/3 creature]
+
+Have I been short changing myself?
+
+A:
+
+Yes, you've been shortchanging yourself!
+
+702.14b Damage dealt by a source with lifelink causes that source's controller, or its owner if it has no controller, to gain that much
+life (in addition to any other results that damage causes).
+
+A creature with 10 power blocked by a creature with 1 toughness deals 10 damage to that poor little blocker.  Creatures with 10 power are not known for their discretion or moderation; they don't deal 1 damage on the grounds that that will be enough to do the job.  No, they smash that blocker into smithereens and leave behind a smoking crater!
+I think your confusion may arise from the old card Drain Life, whose text reads:
+
+Drain Life deals X damage to target creature or player. You gain life
+equal to the damage dealt, but not more life than the player's life
+total before Drain Life dealt damage or the creature's toughness.
+
+Drain Life is the exception though, not the rule; for lifelinkers the creature's toughness is irrelevant in determining how much life is gained.  (See also though Abattoir Ghoul, a recent card which offers a kind of new spin on the Drain Life idea.)
+

@@ -1,0 +1,29 @@
+Q:
+
+Do things on the stack or state-based effects resolve between first strike and normal combat damage?
+
+I have two examples of different scenarios that are confusing to me.
+First, if I have a 1/1 creature with first strike and deathtouch, and my opponent blocks it with a 2/2 creature, will my creature die? I can see two alternative ways this could play out and I'm not sure which is correct.
+
+My creature deals his first strike damage, immediately killing the opponent's creature before he is able to deal combat damage as a state-based effect.
+My creature deals his first strike damage, which would normally be lethal due to deathtouch, but state-based effects are not checked, and thus the opposing creature deals his damage and both die.
+
+I'm almost positive in this case that it's the first option above.
+What gets trickier is, for example, if a creature has first strike and a triggered ability "Whenever this creature deals combat damage to a creature, return that creature to its owner's hand."
+This is not a state-based effect, but rather uses the stack. Similar to above, there are two possibilities.
+
+My creature deals his first strike damage, and his triggered ability is placed on the stack. The stack waits to resolve until after all combat damage is dealt, so the opposing creature still kills mine.
+My creature deals his first strike damage, and his triggered ability is placed on the stack. Both players now gain priority between first strike and combat damage (which I don't think normally happens, thus my confusion). The stack finishes resolving, and the opponent's creature doesn't have a chance to deal damage.
+
+Can someone clarify this area of the rules?
+
+A:
+
+You're right about #1 in the first case, and #2 is correct in the second place.
+If any creatures have first or double strike, there are two combat damage steps. From the comprehensive rules about what happens within every combat damage step:
+
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, "Handling Triggered Abilities.")
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+To end 510.4, both players must pass priority until everything on the stack resolves. When the stack is empty, play proceeds to the next step, which will be a second Combat Damage Step (if the first was for first strike) or the End of Combat Step (normally).
+

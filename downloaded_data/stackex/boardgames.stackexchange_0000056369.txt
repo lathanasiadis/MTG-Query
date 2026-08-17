@@ -1,0 +1,28 @@
+Q:
+
+Off-turn Basri Ket and Blocking
+
+This is a question my friend posed to me the other day, that I'm stumped by.
+Let's say it's the opponent's turn and I have:
+
+The emblem from Teferi, Temporal Archmage: "You may activate loyalty abilities of planeswalkers you control on any player's turn any time you could cast an instant.".
+Basri Ket's -2 loyalty ability activated: "Whenever one or more nontoken creatures attack this turn, create that many 1/1 white Soldier creature tokens that are tapped and attacking."
+
+The opponent attacks with at least 1 non-token creature, causing me to put out that many tapped and attacking white soldier tokens. Can the opponent block them, assuming they have creatures they haven't used or attackers with vigilance?
+Normally I would say yes, but the rules say this [bolding mine]:
+
+506.2. During the combat phase, the active player is the attacking player; creatures that player controls may attack. During the combat phase of a two-player game, the nonactive player is the defending player; that player and planeswalkers they control may be attacked.
+
+509.1. First, the defending player declares blockers. This turn-based action doesn’t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 726, “Handling Illegal Actions”).
+
+As weird as it seems, given that only the defending player is allowed to assign blockers, it appears that the opponent would not be able to block, allowing me to freely use ninjutsu or similar abilities. Is this correct?
+Additionally, if I had Masako the Humorless or some way for my tokens to come in untapped, and used my attacking tokens to block, how would damage be assigned? Would the tokens deal damage to both the opponent and the attacking creature, or just one or the other?
+
+A:
+
+As per 506.2 as quoted in the question, you are the defending player in this scenario. 506.3b is now relevant:
+
+If an effect would put a creature onto the battlefield attacking under the control of any player except an attacking player, that creature does enter the battlefield, but it’s never considered to be an attacking creature.
+
+So your tokens enter the battlefield tapped, but are not attacking; the rest of your question now becomes moot.
+

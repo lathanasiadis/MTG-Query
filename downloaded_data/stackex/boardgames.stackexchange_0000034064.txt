@@ -1,0 +1,24 @@
+Q:
+
+Does Unbridled Growth provide two mana or one?
+
+The new Aether Revolt card Unbridled Growth reads:
+
+Enchanted land has "{T}: Add one mana of any color to your mana pool."
+
+Does this mean the enchanted land provides two mana?
+
+A:
+
+You don't get two mana. If you enchant a basic land (mountain, forest, etc.) then it now essentially has two abilities. For example, if you enchant a mountain, then it's as if that mountain now reads:
+
+{T}: Add {R} to your mana pool.
+  {T}: Add one mana of any color to your mana pool.
+
+So you can tap it for the first ability, or the second. You don't get to do both (just like you can't tap a creature to attack and use an activated ability).
+Alternatively, you might enchant a non-basic land. For example, also from Aether Revolt is the land Spire of Industry. If you enchant it with Unbridled Growth, then it's as if the card now reads:
+
+{T}: Add ◊ to your mana pool.
+  {T}, Pay 1 life: Add one mana of any color to your mana pool. Activate this ability only if you control an artifact.
+  {T}: Add one mana of any color to your mana pool.
+

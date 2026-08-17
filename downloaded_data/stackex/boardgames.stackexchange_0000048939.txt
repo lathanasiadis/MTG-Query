@@ -1,0 +1,19 @@
+Q:
+
+Titania's Song and Mycosynth Lattice
+
+How do Titania's Song and Mycosynth Lattice interact? What happens if Song enters the battlefield first, Lattice enters first, or they enter at the same time? Is there any circumstances under which all the lands would turn into 0/0s and die?
+
+A:
+
+Here is my current understanding, based on the Gatherer rulings for Opalescence
+
+This is the current interaction between Humility and Opalescence: The type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it’s finished applying. So if Opalescence, Humility, and Worship are on the battlefield and Opalescence entered the battlefield before Humility, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments. (Opalescence). Layer 6: Humility and Worship each lose their abilities. (Humility) Layer 7b: Humility becomes 4/4 and Worship becomes 4/4. (Opalescence). Humility becomes 1/1 and Worship becomes 1/1 (Humility). But if Humility entered the battlefield before Opalescence, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments (Opalescence). Layer 6: Humility and Worship each lose their abilities (Humility). Layer 7b: Humility becomes 1/1 and Worship becomes 1/1 (Humility). Humility becomes 4/4 and Worship becomes 4/4 (Opalescence).
+
+According to this ruling, the fact that Titania's Song removes abilities from artifacts is irrelevant. The continuous effects still happen. 
+So starting with layer 4, we have Mycosynth Lattice turning things into artifacts and Titania's Song turning things into creatures. Since Song has a dependency on Lattice (because it changes the set of things that Song effects), Lattice is always applied first regardless of timestamps. So they're both artifacts, and then become artifact creatures in layer 4.
+In layer 6, they both lose all abilities
+In layer 7, they become a 4/4 and 6/6 respectively, despite the fact that they lost their abilities in a previous layer.
+All lands will turn into 0/0s and die, regardless of timestamps.
+This seems like a weird result, but it's the best I can determine based on the rulings I've seen.
+

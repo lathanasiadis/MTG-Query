@@ -1,0 +1,14 @@
+Q:
+
+How does Esix, Fractal Bloom interact with Day of the Dragons
+
+Say I have Esix, 10 1/1 humans, and Mulldrifter on the battlefield. I cast Day of the Dragons. Do I get to replace the creation of 12 5/5 dragon tokens with 12 Mulldrifters and draw 24?
+My thinking is that the the Day of the Dragons' first ability is all one text box so the exile and token creation would happen at the same time without any checking between meaning that Esix would still be able to replace the token creation part. This seems similar in principal to having Master of Waves out and casting Flicker where the elementals don't die because the ability works all at once without checking state based actions.
+
+A:
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+
+You cast Day of the Dragons. The first line happens, and all your creatures are exiled. Then the second line happens, you create a bunch of dragons. At this point Esix is no longer on the battlefield, so its effect cannot happen. So the answer to your question is "no".
+Note state-based actions don't figure in this scenario. They do for Master of Waves because state-based actions are what makes the elementals die, but they don't for Day of the Dragons because state-based actions don't affect anything relevant. State-based actions are also not checked for while a spell is resolving; it is only checked after the spell resolves (see Glorfindel's answer here). A comparable scenario could be, you are on negative life but control a Platinum Angel which is keeping you from losing the game. Then you cast Flicker on your Platinum Angel. In this case the spell resolves completely first, and then only state-based actions are checked. You do not die while the spell is resolving and Platinum Angel is temporarily not on the battlefield; it only matters that you still control a Platinum Angel when the spell resolves.
+

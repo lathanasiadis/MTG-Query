@@ -1,0 +1,24 @@
+Q:
+
+Will Endless One still enter with X +1/+1 counters while Humility's in play?
+
+Humility says "all creatures lose all abilities and have base power and toughness 1/1" and Endless One comes into play with X +1/+1 counters.
+According to a comment in How to understand Humility once and for all, triggered abilities don't get triggered with Humility, but I'm thinking Endless One's ETB "ability" doesn't count because it's not a triggered ability? Because it doesn't say "when it enters the battlefield X +1/+1 counters are placed on it"?
+
+A:
+
+As of the Ixalan rules update, Endless One will not enter the battlefield with counters if Humility is on the battlefield. As other answers have mentioned, Endless One's ability is a replacement effect that modifies how it enters the battlefield. The new version of rule 614.12 says:
+
+Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+Applying this kind of replacement effect involves checking continuous effects that already exist. Humility's ability is one such continuous effect, and applying it removes the ability that would add the counters.
+The Ixalan Comprehensive Rules Update goes into some detail about how this rule changed, and it specifically mentions a similar situation:
+
+Humility causes creatures with modular to enter without their +1/+1 counters.
+
+For reference, the definition of Modular is
+
+Modular represents both a static ability and a triggered ability. “Modular N” means “This permanent enters the battlefield with N +1/+1 counters on it” and “When this permanent is put into a graveyard from the battlefield, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent.”
+
+The part of the Modular ability that affects how the permanent enters the battlefield has basically the same wording as Endless One's ability, so Endless One's ability is affected the same way by the rules change.
+

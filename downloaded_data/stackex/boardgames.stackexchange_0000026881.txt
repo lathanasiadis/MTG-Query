@@ -1,0 +1,16 @@
+Q:
+
+If Anafenza, the Foremost dies at the same time as another creature, will the other creature be exiled?
+
+Here is the situation: I have a Fetid Imp on the field, and my opponent has two Disowned Ancestors and Anafenza, the Foremost. Now I play Languish to give all creatures -4/-4.
+Is Fetid Imp exiled due to Anafenza's ability, or is it destroyed and sent to my graveyard as Anafenza dies at the same time?
+
+A:
+
+It will be exiled.
+
+Anafenza's relevant ability is not a triggered ability. It's a static ability that creates a continuous replacement effect.
+The effect from Anafenza's ability modifies the instruction "Put Fetid Imp, the two Disowned Ancestors and Anafenza into their owner's graveyard" because replacement effects must necessarily be applied before taking the action they replace, at which time Anafenza is still on the battlefield.
+This is confirmed by a ruling on Void Maw. Void Maw has the ability "If another creature would die, exile it instead", and the ruling reads "If Void Maw and another creature would be put into the graveyard from the battlefield at the same time, [...] the other creature is exiled."
+Also, @Vilmar points out this article, which specifically answers this question (in the "Anafenza and Day of Judgment" section).
+

@@ -1,0 +1,24 @@
+Q:
+
+Phytohydra vs Trample
+
+My friend and I were playing an epic game a few days ago (in the end, he smacked me for 117 damage, only 16 of it was trample, but I only had my Phytohydra out).  I'm kind of the rules guy in my circle, so, the way the Phytohydra's worded, I let the trample damage from his Liege of the Tangle through it the turn before. Now, I know there was no way for me to win after that point, but was I supposed to let the damage through like I did? or should it have completely massacred that LotT? 
+
+A:
+
+He still has to assign at least lethal damage to Phytohydra before any remaining trample damage can be assigned to the defending player.  The fact that the damage will be replaced later on when it is dealt and not actually be "lethal" does not change anything about how it is assigned.  Toughness - Damage Marked (minimum, no deathtouch) goes on the creature, then the rest can hit you.
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking
+creatures are assigned lethal damage, any remaining damage is assigned
+as its controller chooses among those blocking creatures and the
+player or planeswalker the creature is attacking. When checking for
+assigned lethal damage, take into account damage already marked on the
+creature and damage from other creatures that’s being assigned during
+the same combat damage step, but not any abilities or effects that
+might change the amount of damage that’s actually dealt. The
+attacking creature’s controller need not assign lethal damage to all
+those blocking creatures but in that case can’t assign any damage to
+the player or planeswalker it’s attacking.
+
+Bold added by me
+

@@ -1,0 +1,26 @@
+Q:
+
+Does Equinox take replacement effects into account?
+
+Suppose I control Umbra Mystic and a land that's also an Aura, possible through this convoluted method.
+An opponent casts a spell to destroy the creature the Aura land is attached to. With totem armor, the Aura land is to be destroyed instead. Can I tap another land enchanted with Equinox to counter that spell?
+My instinct is to say no, because the replacement effect adds a layer of indirection to the spell, such that the spell is not what destroys the land.
+Conversely, suppose that a spell would normally destroy a land, but replacement effects (such as regeneration, shield counters, Pyramids or Void Maw) will prevent that. Can Equinox counter that spell?
+My instinct here is also no, because the land will not be destroyed. But this seems to contradict my instinct for the previous case, because in that case we don't take replacement effects into account while in this case we do.
+
+A:
+
+From the Umbra Mystic rulings:
+
+If a spell or ability says that it would “destroy” a permanent enchanted with an Aura that has totem armor, that spell or ability is what causes the Aura to be destroyed instead. Totem armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability.
+
+So your instinct about the indirection isn't how totem armor is actually ruled. If your opponent casts Murder targeting your enchanted creature, totem armor isn't what would destroy the aura land. Totem aura would cause Murder to destroy the aura land.
+Thus, Equinox should be able to counter your opponent's spell in this case.
+
+Similarly, if the opponent tries to destroy one of your lands, and you have a replacement effect that would stop it, then the replacement effect changes the spell's effect to not destroy your land.
+From the Equinox rulings:
+
+When the activated ability resolves, determine whether the targeted spell would destroy a land if it resolved right then.
+
+In this case, if the targeted spell were to resolve right then, it would not destroy the land, due to whatever replacement effect is protecting it. Equinox would not be able to counter the spell.
+

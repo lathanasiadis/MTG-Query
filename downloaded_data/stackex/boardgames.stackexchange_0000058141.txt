@@ -1,0 +1,29 @@
+Q:
+
+How does Selesnya Guildgate work?
+
+I'm still learning the basics of Magic the Gathering; I was able to get some used cards in order to build my first deck, and I am thinking about building a green/white deck. One of the cards I got was Selesnya Guildgate, and had the following description:
+
+Selesnya Guildgate enters the battlefied tapped.
+(tap) Add [green] or [white] to your mana pool.
+
+I have a couple of questions on how to use it properly given the following scenario:
+Let's say I have three cards in my hand, Gladecover Scout, Champion of the Parish and Selesnya Guildgate, and it is my turn. I know in the card of Selesnya says is a land. The question is:
+
+Is it a colorless land? It doesn't have any specific color at the right top
+If I use Selesnya, can I cast either Gladecover Scout or Champion of the Parish at that moment since they only required one mana?
+Since Selesnya enters tapped, the ability will be triggered to add either a green or white mana. Does that mean I can search for a land from my library and then add it to my mana pool? Or does it mean that if I would have another land in my hand (given this example, I don't have one), would I have added to my mana pool? I think I've seen ability cards saying "search for a land from your library" or similar... but for Selesnya, it doesn't specify.
+
+A:
+
+There are several different things you have incorrect about the rules. First off, lands and mana are different things, see What is the difference between lands and mana? for more on that.
+You also seem to be mixing up triggered abilities and activated abilities. From the basic rulebook:
+
+Each triggered ability starts with the word “when,” “whenever,” or “at.” You don’t activate a triggered ability. It automatically triggers whenever the first part of the ability happens.
+
+An activated ability is an ability that you can activate whenever you want, as long as you can pay the cost. For example, Blood Bairn is a creature with the ability “Sacrifice another creature: Blood Bairn gets +2/+2 until end of turn.”
+Each activated ability has a cost, then a colon (“:”), then an effect.
+
+From this, you should see that Selesnya Guildgate has an activated ability, not a triggered ability. So it entering tapped will not cause its ability to do anything. Rather, if you want to use its ability, you have to pay the cost, which is tapping it. You cannot pay that cost if it is already tapped, so the fact that it entered tapped means that you can’t use it on the turn that you play it. That is the drawback that balances out the advantage of getting to choose from two different colors of mana; unlike a Forest which would only be able to produce one color (green).
+So if you have an untapped Selsnya Guldgate, then you could use that to cast either Gladecover Scout or Champion of the Parish. But if it is already tapped, like it is when you first play it, then you can’t use it to add mana this turn.
+

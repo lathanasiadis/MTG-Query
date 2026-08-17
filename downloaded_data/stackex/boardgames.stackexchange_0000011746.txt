@@ -1,0 +1,107 @@
+Q:
+
+Does the first spell from Possibility Storm go on the stack before being exiled?
+
+I'm staring at the card Possibility Storm coming out of Dragon's Gate and thinking about cards such as Hive Mind that would add some additional chaos. The wording on Possibility Storm says
+
+Whenever a player casts a spell from his or her hand, that player exiles it, then exiles cards from the top of his or her library until he or she exiles a card that shares a card type with it.
+
+This wording makes me think that the initial spell makes it onto the stack before being exiled, since when it is cast it would hit the stack. It doesn't use the replacement wording "instead," which might indicate that the original spell is never cast.
+Does Possibility Storm put the original spell on the stack before casting the second spell from the library? If so, does this mean that Hive Mind would trigger for the first card (assuming it was an instant or sorcery) because it was cast? Would it also create copies for the second card, since it is also cast?
+Quick note: I'm also assuming that a player couldn't use Replicate or Reiterate to copy the first spell since all effects of the Possibility Storm would need to happen before someone has priority to do so. The first spell would have been removed from the stack when it gets exiled, so someone wouldn't be able to sneak in a copy spell at that point. I'm also curious if I'm correct here, although it seems like if this is true, then Hive Mind wouldn't be able to sneak in a copy, either.
+
+A:
+
+Let's look at Reiterate first since it's simpler.
+Say you have a Possibility Storm on the 'field and you cast some arbitrary spell, Lightning Bolt. Here's how things would unfold without Reiterate.
+
+You cast Lightning Bolt.
+
+You put it on the stack.
+You activate mana abilities.
+You pay its cost.
+Possibility Storm's ability triggers.
+
+Possibility Storm's ability is put on the stack.
+Players get priority.
+Possibility Storm's ability resolves. Let's say you find Thoughtflare and choose to cast it.
+Players get priority.
+Thoughtflare resolves.
+
+You can cast Reiterate in response to Possibility Storm's triggered ability (step 3), but if you do, it will trigger Possibility Storm and get exiled, so you won't get to copy the spell.
+If you could somehow cast Reiterate from somewhere other than your hand (maybe with the help of Possibility Storm), this is how it would work out:
+
+You cast Lightning Bolt.
+
+You put it on the stack.
+You activate mana abilities.
+You pay its cost.
+Possibility Storm's ability triggers.
+
+Possibility Storm's ability is put on the stack.
+Players get priority.
+You cast Reiterate (from somewhere other than your hand) targeting Lightning Bolt.
+Players get priority.
+Reiterate resolves. Lightning Bolt is copied.
+Players get priority.
+Lightning Bolt-copy resolves.
+Players get priority.
+Possibility Storm's ability resolves. Let's say you find Thoughtflare and choose to cast it.
+Players get priority.
+Thoughtflare resolves.
+
+When it comes to Hive Mind and Replicate, we have two triggered abilities that trigger at the same time. When that happens, the abilities are added to the stack in APNAP order. If a player needs to add more than one ability to the stack, they place them in the order of their choice.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. [...]
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+
+Say you have a Possibility Storm on the 'field.
+Scenario 1
+
+He casts Gigadrowse on his turn, replicating it twice.
+
+Possibility Storm's ability and Replicate triggers.
+
+Replicate is put on the stack first (since he's the active player).
+Possibility Storm's ability is put on the stack.
+Players get priority.
+Possibility Storm's ability resolves. Let's say he finds Thoughtflare and chooses to cast it.
+Players get priority.
+Thoughtflare resolves.
+Players get priority.
+Replicate resolves: Two copies of Gigadrowse are added to the stack.
+Players get priority.
+Gigadrowse-copy-2 resolves
+Players get priority.
+Gigadrowse-copy-1 resolves
+
+Scenario 2
+
+He casts Gigadrowse on your turn, replicating it twice.
+
+Possibility Storm's ability and Replicate triggers.
+
+Possibility Storm's ability is put on the stack first (since you're the active player).
+Replicate is put on the stack.
+Players get priority.
+Replicate resolves: Two copies of Gigadrowse are added to the stack.
+Players get priority.
+Gigadrowse-copy-2 resolves
+Players get priority.
+Gigadrowse-copy-1 resolves
+Players get priority.
+Possibility Storm's ability resolves. Let's say he finds Thoughtflare and chooses to cast it.
+Players get priority.
+Thoughtflare resolves.
+
+Scenario 3
+
+You cast Gigadrowse, replicating it twice.
+
+Possibility Storm's ability and Replicate triggers.
+
+You control both Possibility Storm and Gigadrowse, so you decide the order they are placed on the stack. This becomes Scenario 1 or 2 depending on your choice.
+
+Same as Replicate applies to Hive Mind.
+

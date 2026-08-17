@@ -1,0 +1,16 @@
+Q:
+
+Casting a spell after a spell resolves?
+
+My question has to do with Ravenous trap.  Say my opponent casts Thought Scour targeting themselves.  Once the spell resolves they have two cards + thought scour itself in the graveyard this turn.  I want to prevent them from casting a Tasigur, the Golden Fang/Gurmag Angler.  Could I cast Ravenous trap right after thought scour resolves before they get a chance to delve their graveyard?
+
+A:
+
+In order to cast your Trap you must find a way to gain priority between the resolution of Thought Scour and the casting of Tasigur, as APNAP rules state your opponent gets priority (regardless of if the stack is empty or not).
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+However, Tasigur can only be cast at sorcery speed. So if you could get an ability to trigger off of Thought Scour, then your opponent would receive priority with an ability on the stack. When he passes priority to you, you can cast your instant speed Trap**. The easiest way I can think of to cause a trigger would be off of the cantrip. Something like Mind's Eye should do the trick, although I'm sure there are plenty of others.
+If you're unable to trigger an ability on the stack off of Thought Scour, then your opponent will be able to delve his graveyard to cast Tasigur.
+** - Yes, I passed up the opportunity to say "activate your trap card". Shame on me.
+

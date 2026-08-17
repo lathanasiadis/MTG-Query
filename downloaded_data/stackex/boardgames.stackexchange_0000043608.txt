@@ -1,0 +1,40 @@
+Q:
+
+How does Underrealm Lich interact with Sidisi when drawing multiple cards?
+
+Suppose I have Sidisi, Brood Tyrant out:
+
+Whenever one or more creature cards are put into your graveyard from your library, create a 2/2 black Zombie creature token.
+
+I also have Underrealm Lich:
+
+If you would draw a card, instead look at the top three cards of your library, then put one into your hand and the rest into your graveyard.
+
+I then play Concentrate:
+
+Draw three cards.
+
+Because of rule 120.2, I do this by drawing one card three times, each of which is replaced by Underrealm Lich's replacement effect:
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws. 
+
+So, three times I will look at the top three cards of my library, put one into my hand, and put the rest into my graveyard.
+Let's assume for simplicity that every card near the top of my library is a creature card. In this situation, does Sidisi create:
+
+only one zombie, because of the single "draw three cards" instruction putting creature cards into my graveyard, or
+three zombies, because of three separate instructions from Underrealm Lich putting creature cards into my graveyard?
+
+A:
+
+You get 3 Zombie tokens.
+Each card draw is processed separately from the others:
+
+120.6b If an effect replaces a draw within a sequence of card draws, the replacement effect is completed before resuming the sequence.
+
+As you already noted, you can only draw one card at a time:
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+The draw replacement effect ultimately causes you to move cards from your library to your graveyard ("move" for brevity). Since you can only draw one card at a time, and the replacement effects works on each draw individually in sequence, you also move 2 cards at a time, and Sidisi triggers on each of those moves.
+Since the card draw is the event that, together with Lich's replacement effect, ultimately triggers Sidisi's ability, consider an analogous situation: Underworld Dreams triggers on each card draw. If you were to draw 3 cards, you would get 3 separate damage events, as the ruling on that card's gatherer page confirms. Therefore, any ability that is triggered by a replacement effect that replaced a card draw would react the same way.
+

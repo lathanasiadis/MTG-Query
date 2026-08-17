@@ -1,0 +1,24 @@
+Q:
+
+Do you die instantaneously if your life total hits 0?
+
+Way back when, the first combo I built a deck around was
+
+Force of Nature
+with a
+Spirit Link
+on it. If, at the beginning of my upkeep, I have less than 8 life and I don't pay the upkeep, will I lose the game before the life gain kicks in?
+
+A:
+
+104.3b If a player’s life total is 0 or less, he or she loses the game the next time a player would    receive priority. (This is a state-based action. See rule 704.)
+
+When the Force of Nature damages you, Spirit Link's trigger goes on the stack. If, between sustaining the damage and getting 8 life back from Link, your life total hits 0, you'll die.
+This is confirmed by the Oracle text for Spirit Link:
+
+You only gain the life when the triggered ability resolves. If you are
+  reduced to zero life before the ability resolves, you will lose before
+  gaining the life.
+
+Luckily, you can avoid this problem by replacing Spirit Link with Lifelink.
+

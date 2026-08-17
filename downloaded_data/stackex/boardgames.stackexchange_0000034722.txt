@@ -1,0 +1,12 @@
+Q:
+
+Cast Pitfall Trap after opponent attacked with two creatures
+
+An opponent attacked me with two creatures and kill one of them somehow (say, combat damage). Can I kill the remaining creature casting Pitfall Trap using its alternative casting cost? 
+
+A:
+
+Pitfall Trap checks how many creatures are currently attacking, not how many were declared as attackers. And creatures that are removed from combat are no longer considered attacking creatures. Therefore if there were two creatures declared as attackers, but one was removed from combat somehow you can cast Pitfall trap for its alternative cost.
+
+508.1j Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+

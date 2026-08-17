@@ -1,0 +1,49 @@
+Q:
+
+Does Valakut do damage if Dryad of the Ilysian Grove is in play, but dies before the trigger resolves?
+
+Let's say my board is 5 Mountains, Dryad of the Ilysian Grove, and Valakut, the Molten Pinnacle. Now I play a Plains. Because of the Dryad, the Plains is also a Mountain, so Valakut triggers. While the trigger is on the stack, opponent kills the Dryad. Which of the following is right:
+
+Does Valakut deal 3 damage because I still control 5 real Mountains, or
+Does Valakut not deal 3 damage because no Mountain entered the battlefield?
+
+Relevant text of cards:
+
+Lands you control are every basic land type in addition to their other types. (Dryad of the Ilysian Grove)
+
+and
+
+Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to any target. (Valakut, the Molten Pinnacle)
+
+A:
+
+Refering to rule 603.4.
+
+A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability
+checks whether the stated condition is true. The ability triggers only
+if it is; otherwise it does nothing. If the ability triggers, it
+checks the stated condition again as it resolves. If the condition
+isn’t true at that time, the ability is removed from the stack and
+does nothing. Note that this mirrors the check for legal targets. This
+rule is referred to as the “intervening ‘if’ clause” rule. (The word
+“if” has only its normal English meaning anywhere else in the text of
+a card; this rule only applies to an “if” that immediately follows a
+trigger condition.)
+
+Note how only the condition is checked again as it resolves.
+Let's break these rules down to the text of Valakut.
+
+Whenever a Mountain enters the battlefield under your control
+[trigger event], if you control at least five other Mountains [condition], you may have Valakut, the Molten Pinnacle deal 3 damage to any target.[effect] (Valakut, the Molten Pinnacle)
+
+Therefore you playing the plains (which is also a mountain) causes the trigger event and the condition to be met. With valakut's ability on the stack, your Dryad is destroyed in response. This resolves with valakut's ability being on top of the stack as result.
+Now look at the rulings from the gatherer.
+
+If a Mountain you control leaves the battlefield between the time
+Valakut’s second ability triggers and the time it resolves, be aware
+if that was the Mountain that caused Valakut’s ability to trigger or
+not. If it was, Valakut’s count isn’t affected; if it wasn’t,
+Valakut’s count goes down by one.
+
+According to this ruling, the condition on Valakut is met and the damage is dealt.
+

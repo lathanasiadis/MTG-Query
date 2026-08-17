@@ -1,0 +1,35 @@
+Q:
+
+Gaining control of a creature while an Aura targeting it is on the stack
+
+It's my opponent turn.  I have Prophet of Kruphix on the battlefield, which means I can play creatures as though they had flash.
+My opponent plays Boonweaver Giant and chooses Spectra Ward, which goes on the stack as triggered ability (?)
+I play Hypnotic Siren with bestow to gain control of Boonweaver Giant in response to the triggered ability.  (I can do this during my opponent's turn because I control Prophet of Kruphix.)
+Does that mean that the stack looks like this?
+        TOP
+    Hypnotic Siren   \
+                     |
+  / Spectra Ward     | 1
+2 |                  |
+  \ Boonweaver Giant /
+
+        BOTTOM
+
+Will I gain control of Boonweaver Giant, and then it gets the Spectra Ward Aura under my control?
+Can someone tell me whether there is a mistake in this play?
+The rulings on Hypnotic Siren say:
+
+Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
+
+which does not apply to this situation because Boonweaver Giant does not have any Auras attached to it when I gain control of it with Hypnotic Siren.
+
+A:
+
+First, if Boonweaver Giant's triggered ability is on the stack, then Boonweaver himself is not on the stack. He has already entered the battlefield. Second, Spectra Ward should never have been placed on the stack. Boonweaver Giant's triggered ability is what actually gets placed on the stack. Your opponent doesn't have to make a decision until it resolves.
+With these corrections in mind, here is what your stack actually looks like:
+
+Hypnotic Siren (TOP)
+Boonweaver Giant's triggered ability (BOTTOM)
+
+Hypnotic Siren resolves. You gain control of Boonweaver Giant. Next, Boonweaver Giant's ability resolves. Your opponent may search for an aura and attach it to Boonweaver Giant. He may choose not to. If he does, he will control the aura attached to Boonweaver, and you will control Boonweaver.
+

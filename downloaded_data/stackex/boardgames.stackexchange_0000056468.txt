@@ -1,0 +1,22 @@
+Q:
+
+Is there a timing window to respond to auras returning to the battlefield from the graveyard?
+
+Let's say the board is:
+
+Me: Forest, Mountain
+Opponent: Spreading Seas in the graveyard, Replenish on the stack.
+
+When the Replenish resolves, can I take any game actions when I see which land my opponent is targeting with Spreading Seas (e.g., float green/red mana in response), or does the enchanted land immediately become an Island?
+
+A:
+
+No, there is no opportunity to act between the Replenish starting to resolve, and the Aura being on the battlefield attached to an object or player.
+Rule 303.4f says
+
+If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+This rule modifies how the Aura enters the battlefield, so it becomes attached to the chosen object or player as it enters the battlefield.
+
+It couldn't work any other way, because there is a state-based action that puts any Aura not attached to anything into the graveyard (704.5m), and state-based actions are checked any time a player gains priority. So, it is never possible in any situation to have priority with an unattached Aura on the battlefield.
+

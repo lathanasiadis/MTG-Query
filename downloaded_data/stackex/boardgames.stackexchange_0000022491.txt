@@ -1,0 +1,13 @@
+Q:
+
+Does Deathtouch apply to damage dealt via Fall of the Hammer?
+
+Does Deathtouch (from my creature) apply if Fall of the Hammer is used on an enemy creature?
+The rules say about deathtouch:
+
+The rule that causes creatures dealt damage by a source with deathtouch to be destroyed applies to any damage, not just combat damage.
+
+A:
+
+Deathtouch does in fact apply when Fall of the Hammer is used. Fall specifically says that the first target creature deals the damage, and that means that this is treated just like any other instance of a creature dealing damage to another. Deathtouch applies; Lifelink applies; everything that applies to a creature dealing non-combat damage applies to this.
+

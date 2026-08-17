@@ -1,0 +1,14 @@
+Q:
+
+Can I activate abilities in the middle of declaring blockers?
+
+The field is set up as such:
+Opponent has Aerial Responder (2/3), Sun Sentinel (2/2) and Child of Night (2/1) in play.
+I have Ravenous Harpy(1/3, +1/+1 counter) and Doomed Dissenter (1/1) in play.
+She attacks with all three of her monsters, I declare Doomed Dissenter as a blocker, then use Harpy's effect ({1}, Sacrifice another creature: put a +1/+1 counter on Ravenous Harpy) to sacrifice the doomed Dissenter.  This activates Doomed Dissenter's effect (When Doomed Dissenter dies, create a 2/2 black Zombie creature token), and then I finish declaring my blockers on the other two creatures.  If I'm thinking correctly that would mean that Child of Night stays blocked but takes no damage because the creature (Doomed Dissenter) died before combat, Sun Sentinel dies as a result of being blocked by the 2/2 Zombie creature token (who also dies) and Aerial Responder dies as a result of a twice pumped up Harpy.
+Was that legal or did I not think about a rule during all that, which would make that play illegal?
+
+A:
+
+No, that sequence of actions is not legal. You declare blockers all at once; you can't declare some blockers, then do something else, then declare other blockers. So, if you want to active the Harpy's ability, you have to either do it before declaring any blockers, or after declaring all of your blockers.
+

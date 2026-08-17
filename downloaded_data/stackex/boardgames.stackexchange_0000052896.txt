@@ -1,0 +1,25 @@
+Q:
+
+Why does Blood Moon remove abilities?
+
+According to the rulings on Gatherer, Blood Moon removes all abilities from nonbasic lands: a Forsaken Sanctuary will enter untapped, and will not tap for white or black.
+My question, though, is—why? The rules text says only that "nonbasic lands are Mountains", which seems like it sets subtypes, but doesn't do anything about abilities.
+I know that some abilities, like Forests tapping for green, are inherent to their subtype, so it makes sense that an Indatha Triome can no longer tap for green (the ability came from the Forest subtype, and it lost that). But I'm unclear on why changing a land's type removes abilities printed on the card itself.
+
+A:
+
+This appears to be rule 305.7, which I got from: Gamepedia.
+
+305.7. If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all
+abilities generated from its rules text, its old land types, and any
+copy effects affecting that land, and it gains the appropriate mana
+ability for each new basic land type. Note that this doesn’t remove
+any abilities that were granted to the land by other effects. Setting
+a land’s subtype doesn’t add or remove any card types (such as
+creature) or supertypes (such as basic, legendary, and snow) the land
+may have. If a land gains one or more land types in addition to its
+own, it keeps its land types and rules text, and it gains the new land
+types and mana abilities.
+
+Note, the old wording, on the original card in The Dark expansion uses "basic mountain."  My guess is that this rule was added after.
+

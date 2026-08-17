@@ -1,0 +1,33 @@
+Q:
+
+Question about priority and how spells would resolve
+
+Fleecemane Lion enters the battlefield from hand on the owners turn.
+Opponent casts Terminate on Fleecemane Lion.
+Owner of Fleecemane Lion makes it monstrous.
+This would make Terminate invalid correct? 
+Then following this, opponent casts Chaos Warp, again targeting Fleecemane Lion.
+Would chaos warp then resolve before the ability can complete and give it Hexproof? 
+Thanks for all your help!
+
+A:
+
+Here is the sequence of events.
+Fleecemane Lion is on the battlefield.
+Opponent casts terminate on Fleecemane Lion and passes priority.
+In response, owner activates Fleecemane Lion's monstrous ability (which can be done at anytime the owner has priority) and passes priority.
+At this point, the stack has on it (in top down order)
+
+Fleecemane Lion Monstrous
+Terminate targeting Fleecemane Lion
+
+Now your opponent, realizing that if this stack resolves, his terminate will do nothing, casts Chaos Warp and passes priority.
+
+Chaos Warp targeting Fleecemane Lion.
+Fleecemane Lion Monstrous
+Terminate targeting Fleecemane Lion.
+
+Two different things can happen next.  If you have enough mana, you can activate Fleeceman Lion's monstrous ability a second time.  If you do so, and this stack resolves, the Fleecemane lion will stay on the battlefield, and be monstrous.
+If you don't have enough mana, and have to let the stack resolve as it is above, then the Chaos Warp will resolve before Fleecemane Lion gets it's hexproof, and it goes into the deck.
+In both cases, the terminate will fizzle, as either the Fleecemane Lion will be off the battlefield, or have hexproof.
+

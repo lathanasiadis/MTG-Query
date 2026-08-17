@@ -1,0 +1,30 @@
+Q:
+
+Does cloning a card include color?
+
+If Clone (for instance) comes in as a copy of a black creature and attacks and is blocked by a creature that has protection from black, how does it resolve?
+What if the blocking creature has protection from blue?
+
+A:
+
+It's as if the physical Clone card was replaced with a copy of the card being copied.
+The Clone is black, so a blocker with protection from black will receive no damage. The blocker will still deal damage as normal.
+The Clone is not blue, so a blocker with protection from blue will both receive and deal damage as normal.
+(Its name isn't "Clone" anymore.)
+
+An object's color is determined by its mana cost and its color indicator.
+
+202.2. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+202.2e An object may have a color indicator printed to the left of the type line. That object is each color denoted by that color indicator. (See rule 204.)
+
+Becoming a copy of an object adopts the copied object's mana cost and its color indicator, replacing what the copier had.
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Note: Only "printed" values are copied. The effects of Effects changing the copied object color are not copied. For example, if the object being copied is a normally-green creature enchanted by an enchantment with "Enchanted creature is black", the copy will be green.
+
+Protection gives protection from being Damaged, Enchanted/Equipped/Fortified, Blocked and Targeted[CR 702.16].
+A blocker with protection from black can't be damaged by a black attacker.
+
+702.16e Any damage that would be dealt by sources that have the stated quality to a permanent or player with protection is prevented.
+

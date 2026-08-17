@@ -1,0 +1,16 @@
+Q:
+
+Doesn't damage occuring in the damage phase occur simultaneously?
+
+I was playing MtG Duels and was up against an opponent who had me down to 2 life.  They had a Perilous Myr so when it died would deal damage to me - sufficient to kill me.
+I had a Juggernaut down so was forced to attack, so decided to just attack with everything to see what the rule was (or the game thought the rule was).  I had sufficient damage to kill them regardless of what they blocked.
+I was pretty sure it would be a draw (dying/damage at the same time) or loss (their Myr's death would kill me before my attackers did damage) but despite their block and the Myr dying, I was granted the win.
+Was this a game bug and am I misunderstanding the stack?
+I thought all combat damage was dealt at the same time.
+Thanks in advance!
+NOTE: Despite being the computer version of the game, I felt people here much more able to help me with the rules (not game) question.  If this is misposted please let me know.
+
+A:
+
+All combat damage is dealt simultaneously. But the damage from Perilous Myr's trigger isn't combat damage, it is an unrelated triggered ability. All combat damage was dealt, which resulted in the Myr dying and your opponent being at 0 health. This also resulted in the Myr's ability triggering, but that trigger never even makes it to the stack, because state-based actions are checked before triggered abilities are added to the stack. When they are checked, your opponent loses for having 0 health.
+

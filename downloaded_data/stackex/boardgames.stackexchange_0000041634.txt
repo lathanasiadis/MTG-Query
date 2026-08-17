@@ -1,0 +1,58 @@
+Q:
+
+Baral, Chief of Compliance doubt
+
+Suppose I play Baral, Chief of Compliance with red mana available. The opponent responds with Lightning Bolt killing my Baral.
+Can I continue to combo getting a cost reduction from Baral on the stack or does the cost reduction end with the 3 damage from the Bolt?
+I believe it does because Baral hasn't resolved yet. In that case, is it a different situation if the opponent targets Baral after it has resolved, for example the following turn?
+
+A:
+
+If you play it right, you can cast one sorcery and a number of instants at a discount.
+
+Two key points before we start:
+
+Baral must be on the battlefield to be targeted by Lightning Bolt.
+Baral must be on the battlefield to provide its discount.
+
+Lightning Bolt targets a creature or a player. "Creature" means "creature permanent", which means "creature card or token on the battlefield". As such, Baral can only be targeted by Lightning Bolt when it's on the battlefield. In other words, Baral couldn't have been targeted by the Lightning Bolt while it was still on the stack.
+If your opponent specifically said they cast Lightning Bolt in response to Baral and proceeded to target Baral, they made a mistake.
+If they simply said they were casting Lightning Bolt, they were actually proposing the following shortcut:
+
+You pass priority to let Baral resolve.
+You pass priority after Baral resolves.
+They cast Lightning Bolt.
+
+You don't have to accept the entire shortcut. For example, let's say one of the spells you wanted to cast is a sorcery. You could let Baral resolve, and step in to cast the sorcery instead of doing step 2. (See [CR 719] for more on shortcuts.) The following would happen instead:
+
+You pass priority to let Baral resolve.
+You cast a sorcery (at a discount).
+
+Now, they have priority. Let's say they cast Lightning Bolt at this point. (They don't have to because you shortened their shortcut.) The stack:
+
+(top) Lightning Bolt
+(bottom) Your sorcery
+
+At this point, Lightning Bolt hasn't resolved, and thus hasn't dealt its damage yet. That means that instants cast in response to Lightning Bolt will benefit from the discount.
+
+(top) ...
+Your Instant #2
+Your Instant #1
+Lightning Bolt
+(bottom) Your Sorcery
+
+(You could also cast the instants one after the other instead of in response to each other. That would actually be a bit more natural.)
+Eventually, after Lightning Bolt resolves and before anything else happens, Baral will be moved to the graveyard and will no longer provide its discount. The continuous effects from static abilities apply at all times that the permanent generating it is on the battlefield or the object generating it is in the appropriate zone. And not a moment longer.[CR 611.3b]
+
+If I play Baral with red mana available, the opponent responds with Lightning Bolt killing my Baral
+
+Impossible. Your opponent must wait for Baral to resolve if they wish to target it with Lightning Bolt, so they can't cast the Lightning Bolt in response to you casting Baral.
+
+can I continue to combo getting a cost reduction from Baral on the stack or  I've got a feeling it does because Baral hasn't resolved yet.
+
+Baral static ability only works when Baral is on the battlefield. If Baral hasn't resolved yet, it doesn't provide a discount.
+
+does the cost reduction end with the 3 damage from the Bolt.
+
+Yes. It happens when Baral moves to the graveyard, which happens immediately after the damage is dealt.
+

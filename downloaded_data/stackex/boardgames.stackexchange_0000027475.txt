@@ -1,0 +1,20 @@
+Q:
+
+When can protection from creatures be played
+
+The other day I was in a situation where my opponent had 3 creatures on the board (4/4, 3/3, 1/1) and I had one creature on the board (6/6). My opponent attacked with all three creatures and I chose to block the 4/4 with my 6/6. Then my opponent played Divine Verdict on my 6/6 then also tried to play  Crypsis on the 4/4 that I blocked.
+Am I correct in assuming that it was too late for the protection from creature card to be played because the combat damage had already been done?
+
+A:
+
+They can play a card that gives their creature protection, but it is probably pointless if they are playing a card that destroys the blocking creature anyway.
+In the combat phase there are 5 steps
+
+Begining of Combat 
+Declare Attackers
+Declare Blockers
+Combat Damage
+End of Combat
+
+During each of these steps each player gains priority and can cast spells/activate abilities if they want to. In your example the card giving protection must be cast at the latest in the Declare Blockers step, because the first thing that happens in the Combat Damage step is combat damage being assigned, which would deal lethal damage to the 4/4 and send it to the graveyard. However casting the card giving protection is pointless since with the 6/6 being destroyed there is nothing that will deal damage to it. Even though Protection prevents blocking once a creature is blocked removing the blocker or giving the attack protection does not stop the attacker from being blocked.
+

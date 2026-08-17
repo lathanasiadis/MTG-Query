@@ -1,0 +1,16 @@
+Q:
+
+Does Blowfly Infestation create a loop with Hapatra, Vizier of Poisons?
+
+Does Blowfly Infestation create a loop with Hapatra, Vizier of Poisons?
+The card text is as follows
+'Whenever a creature is put into a graveyard from play, if it had a -1/-1 counter on it, put a -1/-1 counter on target creature.'
+When a token dies it goes to the graveyard and then disappears, so it looks like you keep generating a token and killing it.  Or does the generation of the creature allow you to cast in between.
+
+A:
+
+If there is a creature with 1 toughness on the battlefield when a creature with a -1/-1 counter dies, you can create an arbitrarily large number of enter the battlefield triggers as @gendolkari explains.
+This is an optional infinite loop and so the game won't end in a draw because you can always choose to end it by giving Haptatra the a -1/-1 counter from blowfly infestation.  If Haptara has more that 1 toughness, the loop will end because a creature does not die.  If Haptara has 1 toughness, the loop will end because her ability is no longer active.
+
+421.2. If the loop contains one or more optional actions and one player controls them all, that player chooses a number. The loop is treated as repeating that many times or until another player intervenes, whichever comes first.
+

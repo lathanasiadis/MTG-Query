@@ -1,0 +1,54 @@
+Q:
+
+Adventure cards and Feather, the Redeemed?
+
+Short Version:
+If I cast an adventure card targeting one of my creatures, while I have Feather, the Redeemed on the battlefield, am I required to return the card to my hand?  Or can I leave it in exile?
+Long Version:
+Adventure cards, let's use Faerie Guidemother, allow you to exile the card after casting the adventure, and to later cast it from exile.
+Comprehensive rules:
+
+715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as
+long as that card remains exiled, that player may cast it. It can’t be
+cast as an Adventure this way, although other effects that allow a
+player to cast it may allow a player to cast it as an Adventure.
+
+Feather, the Redeemed has the following text:
+
+Whenever you cast an instant or sorcery spell that targets a creature
+you control, exile that card instead of putting it into your graveyard
+as it resolves. If you do, return it to your hand at the beginning of
+the next end step.
+
+As these are both replacement effects, does how the card gets exiled for Feather matter?  Or do I get to choose how I move the card?  i.e. can I choose to leave Faerie Guidemother exiled, or can I choose to put her in my hand?
+
+A:
+
+Short answer:
+You can do either, your choice, but you have to pick if you intend to return it with Feather or have it exiled as on an adventure while the spell is being exiled, you can't have your cake and eat it too.
+Long Answer:
+Rule 715.3d creates a replacement effect for when the instant/sorcery resolves, as does Feather's text. Like most other replacement effects, the player gets to choose which order they apply, with some limitations. These limitations are covered in Rule 616.1 from the Comprehensive Rules:
+
+616.1 If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+616.1a If any of the replacement and/or prevention effects are self-replacement effects (see rule 614.15), one of them must be chosen. If not, proceed to rule 616.1b.
+616.1b If any of the replacement and/or prevention effects would modify under whose control an object would enter the battlefield, one of them must be chosen. If not, proceed to rule 616.1c.
+616.1c If any of the replacement and/or prevention effects would cause an object to become a copy of another object as it enters the battlefield, one of them must be chosen. If not, proceed to rule 616.1d.
+616.1d Any of the applicable replacement and/or prevention effects may be chosen.
+
+The effects are not self-replacement effects (616.1a), they don't change control of control of an object entering the battlefield (616.1b), and they don't cause an object entering the battlefield to become a copy of another object (616.1c) so 616.1d is what applies, making it your choice.
+Feather has 2 rulings on Gatherer that sound like they apply here, the first:
+
+If an instant or sorcery spell’s own effect instructs you to exile it or put it anywhere else, it won’t try to be put into your graveyard or exiled with Feather’s effect, so you won’t return it to your hand.
+
+This is talking about spells like Cyclical Evolution, View From Above or Redeem the Lost. The text on these cards tell you to put the card somewhere as part of the effect. Cyclical Evolution will be in exile suspended when it resolves, View From Above and Redeem the Lost might already be in your hand if you meet their conditions, and if not then they would be sent to your graveyard, and Feather can catch them. This is not what happens with Adventure spells, if it was every adventure would have to say "Exile [adventure half name], as long as it remains exiled, you may cast [creature half name] from exile." on it.
+The second is the one that does apply:
+
+If another replacement effect instructs you to exile an instant or sorcery spell, such as that of Dreadhorde Arcanist or the flashback keyword, you may choose to apply Feather’s replacement effect first. If you do, Feather’s delayed triggered ability will return that card to your hand.
+
+This ruling is really just applying the rules of 616.1 as explained above, since there are 2 replacement effects that don't fall into any of the special cases that must be chosen first, the player gets to choose whichever they want.
+For your second part of your question, you do have to choose which effect you apply as it happens, and the other replacement effect will not apply at all. An adventure exiled using Feather's replacement effect cannot be cast from exile, an adventure exiled under rule 715.3d will not return to your hand because of Feather. Unless you intend to cast the creature immediately, using Feather's effect is likely the better choice, as you will have the option to do either from the hand again.
+
+As a side note, a self replacement effect would be something like the Finale cycle of spells, where they say "if X is 10 or more" where the trigger condition and replacement are written as part of the effect they are replacing.
+If you see this coming up in MTG Arena and it is not giving you the choice, there is a gameplay setting to tell the game to auto choose replacement effect order, turning that off will allow you to pick for yourself which one to apply.
+

@@ -1,0 +1,18 @@
+Q:
+
+Can Wear / Tear destroy a Chalice of the Void with X=1?
+
+What happens with Wear / Tear when there's a Chalice of the Void with X=1? Does the Chalice recognize the Wear as having a casting cost of 2 or does it somehow see the Tear and a casting cost of 1?
+
+A:
+
+The Wear // Tear will not be countered
+As per the rules on Split cards:
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+708.3a Only the chosen half is evaluated to see if it can be cast. Only that half is considered to be put onto the stack.
+708.3b While on the stack, only the characteristics of the half being cast exist. The other half’s characteristics are treated as though they didn’t exist.
+
+Your fuse card will either have the CMC of three in all zones except the stack, it can also have a CMC of one or two depending on which part of the split card you use or also a CMC of three on the stack if you fuse it.
+It could very easily be countered if you try and destroy an enchantment with it but that is not part of your question.
+

@@ -1,0 +1,21 @@
+Q:
+
+Can you tap land for mana without using it, specifically I am playing with Omnath, Locust of mana
+
+So I play with Omnath, Locus of Mana, and I've been looking in the rules, but I can't find anything that explicitly forbids generating mana without using it. But there is nothing explicitly allowing it either. 
+Also can someone definitively tell me if I can tap land in a similar fashion during my opponents turn? I'd like to use it in combination with Seedborn Muse. It has a lot of potential but I wanna make sure what I am planning is legal.
+
+A:
+
+You may activate mana abilities (for example the mana abilities of lands) whenever you may activate other, non-mana abilities, in addition to when you pay a mana cost.
+Most mana-generating permanents, including most lands, have an ability that says something along the lines of "Cost: Add mana", where "cost" is usually the Tap cost. Those are mana abilities:
+
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 114.6), it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability.
+
+Activated mana abilities are a special case of activated abilities. You can activate a mana ability whenever you could activate a regular ability:
+
+605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2), with the following exceptions:
+
+One key difference between mana abilities and regular activated abilities is that you can activate mana abilities whenever you have to pay a mana cost. 
+In a nutshell, you may tap lands etc. for mana whenever you could cast spells and activate abilities, including during your opponent's turn.
+

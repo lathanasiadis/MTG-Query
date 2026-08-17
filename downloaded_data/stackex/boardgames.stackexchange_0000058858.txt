@@ -1,0 +1,21 @@
+Q:
+
+If I can infinitely shuffle my deck and can also look at the top card of my deck, can I short cut it to putting a card on top my deck?
+
+If I have the ability to shuffle my deck at will, and am able to look at the top card of my deck in-between each of the shuffles, would it be legal to short cut it to looking through my deck, selecting a card from it, shuffling the rest of my deck, and putting the selected card on top of it?
+Theoretically, if I can shuffle any number of times, the card I want would eventually end up as the top card of the deck. But this could potentially take a very large number of shuffles and a very long time, especially in a 100 card deck with only one copy of the desired card. So I was wondering if I could just propose the short cut of just finding the card, shuffling the rest of the library, and putting the card on top.
+While there are probably multiple scenarios for this to happen, my set up for it is: two Myr Galvanizer, enough myr mana dorks (ie Alloy Myr) to produce 3 mana, a Myr Mindservant, and a Mystic Forge.
+Use two mana from the Myr Dorks to pay for and activate the shuffle ability of the Mindservant. Use the Forge's ability to look at the top card of my library, if it's not the desired card, use the remaining 1 mana from the dorks to pay for and activate the ability of a Galvanizer, untapping the dorks, the Mindservant and the other Galvanizer. Repeat until top card of library is desired card.
+
+A:
+
+No, you cannot shortcut this.
+The rules governing shortcuts are in section 727 of the Comprehensive Rules. In particular, rule 727.2a describes how shortcuts can be proposed:
+
+At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+
+The bolded parts are the ones that disallow shortcuts like yours. The outcome of shuffling your library is unpredictable, and you need a conditional action: if the top card of the library is the one you want, stop, otherwise continue looping.
+
+At one time, there was a tournament-level deck that made use of a similar non-deterministic loop called Four Horsemen. In short, players would infinitely mill themselves with a combination of Basalt Monolith and Mesmeric Orb to get a specific combo set up, and then mill themselves repeatedly to execute the combo, with Emrakul, the Aeons Torn in the library to reshuffle and start over. The problem was that the initial setup could take arbitrarily many shuffles to get the right cards in the graveyard before Emrakul made you start over. Eventually, Magic judges ruled that not only can you not shortcut this combo, you cannot even play it out in general. It is easy to mill yourself, hit Emrakul, and go back to where you started, without making any progress toward completing the combo. And that can happen any number of times. As a result, the combo is now considered Slow Play. See this writeup by a judge for more details.
+In your proposed combo, there are only two meaningfully different game states: the card you are looking for is on top of your library, or a different card is on top of your library. If you shuffle, and the card that is now on top is not the one you want, the game state with respect to the combo has not changed, and is no closer to changing. So, your combo would probably get the same Slow Play ruling that Four Horsemen got.
+

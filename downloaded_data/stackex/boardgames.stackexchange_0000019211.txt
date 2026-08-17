@@ -1,0 +1,44 @@
+Q:
+
+If face down permanents have no abilities, why are they affected by "loses all abilities"?
+
+The Khans of Tarkir Release Notes say:
+
+If a face-down creature loses its abilities, it can’t be turned face up [...]
+
+This implies that Morph is an ability. However, the community here seems fairly certain that Morph is not an ability.
+
+Answer - Why is Morph not considered an ability?
+
+If Morph is not an ability, then how does losing all abilities prevent a face down permanent from being turned face up?
+
+A:
+
+the community here seems fairly certain that Morph is not an ability.
+
+Morph is an ability.
+
+702.36a Morph is a static ability that functions in any zone from which you could play the card it’s on [...]
+
+But the face-down permanent doesn't have it.
+
+707.2. Face-down spells and face-down permanents have no characteristics other than those listed by the ability or rules that allowed the spell or permanent to be face down. [...]
+702.36b To cast a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card, with no text, no name, no subtypes, and no mana cost. [...]
+
+This is confirmed by a ruling on Muraganda Petroglyphs.
+
+Muraganda Petroglyphs gives a bonus only to creatures that have no rules text at all. This includes true vanilla creatures (such as Grizzly Bears), face-down creatures, many tokens, and creatures that have lost their abilities (due to Ovinize, for example). [...]
+
+how does losing all abilities prevent a face down permanent from being turned face up?
+
+The special action that allows a face-down card to be turned face-up checks the morph cost of the card as if it were face-up.
+
+702.36d If you have priority, you may turn a face-down permanent you control face up. This is a special action; it doesn’t use the stack (see rule 115). To do this, show all players what the permanent’s morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn’t have a morph cost if it were face up, it can’t be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don’t trigger when it’s turned face up and don’t have any effect, because the permanent has already entered the battlefield.
+
+The effect suppressing the abilities of a face-down card with morph would continue to affect it once it's turned face-up too[1], so it wouldn't have a morph cost if it were face-up, so it cannot be turned face-up by the special action described in 702.36d.
+This is confirmed by the The Khans of Tarkir Release Notes.
+
+If a face-down creature loses its abilities, it can't be turned face up because it no longer has morph (or a morph cost).
+
+If the effect wouldn't affect the face-up permanent (e.g. "Permanents with no names lose all abilities" created by a static ability), then you could morph it.
+

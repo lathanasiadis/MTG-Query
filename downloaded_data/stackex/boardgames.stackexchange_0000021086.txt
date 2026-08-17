@@ -1,0 +1,44 @@
+Q:
+
+Can older cards that refer to a player/opponent ever be used on planeswalkers?
+
+Many older cards refer to players or opponents, e.g. "deal 3 damage to target player". Can any of these be used on planeswalkers, beyond the fact that you can simply attack them with creatures?
+For example:
+
+Would my opponent discard a card if Hypnotic Specter damaged a planeswalker they control?
+
+Would my opponent, the planeswalker, neither, or both amass poison counters from an unblocked Nafs Asp?
+
+Can Lightning Bolt target a planeswalker?
+
+Does Syphon Soul affect planeswalkers?
+
+Can Oasis prevent damage to a Planeswalker?
+
+Would Veteran Bodyguard be obligated to take damage being dealt to a planeswalker?
+
+Can a planeswalker gain loyalty from Healing Salve?
+
+Can Healing Salve prevent damage to a planeswalker?
+
+A:
+
+Planeswalkers are not players (or opponents), and they're never treated as players (or opponents). Don't think of them as players, and you'll be a lot less likely to get confused.
+There's pretty much just a single rule that make them seem a little similar to players: you can choose to attack your opponent and/or planeswalkers they control.
+Along with that, many cards will let you target a player or a planeswalker, e.g. Lava Axe says "target player or planeswalker", and Lightning Strike says "any target", which includes planeswalkers. (Note that thanks to some updates to the game, some older printings of cards may not make this clear, e.g. Lava Axe used to just say "target player", and Lightning Strike used to just say "target creature or player"; always check Gatherer for the current oracle text of a card if you need to be sure.)
+But that's it. None of that actually treats planeswalkers as players; it just lets something happen to them that's similar to what can happen to your opponents.
+There are no similar rules for any of the things you mentioned, so the direct answer to every one of your questions is no. There is definitely not a blanket revision from "target player" to "target player or planeswalker". (A ton of things that say "player" wouldn't even make sense for planeswalkers - sure, they can take damage, but they don't have hands, libraries, graveyards, or even life!)
+To address your questions in a little more detail (some things do still work, just not directly):
+
+Hypnotic Specter - no, attacking the planeswalker won't make your opponent discard. If you want your opponent to discard, attack them, not the planeswalker.
+Nafs Asp (poison counters) - no, planeswalkers can't have poison counters; if it deals damage to one it'll remove loyalty as usual. If you want to give poison counters to your opponent, attack them, not the planeswalker.
+Lightning Bolt - yes, it can target a planeswalker - it now says "any target". Again, note that older printings don't mention planeswalkers, but the current oracle text is updated.
+Syphon Soul - no, it doesn't deal damage to planeswalkers, just players.
+Veteran Bodyguard - no, it won't protect planeswalkers, since combat damage is dealt directly to the planeswalker and Veteran Bodyguard's effect never applies.
+Healing Salve (gaining loyalty) - no. It can't target planeswalkers, and planeswalkers can't gain life (only players have life).
+Healing Salve (preventing damage) - no, you can't target planeswalkers with it.
+
+Beyond oracle updates ("target player" to "target player or planeswalker" and similar), the only other way that older cards are likely to literally target a planeswalker is if they say something like "target permanent" or "target nonland permanent"; planeswalkers are permanents too, so for example Desert Twister can target and destroy planeswalkers, despite being printed in 1993!
+
+Note: I've entirely removed sections about the planeswalker redirection rule, which existed in the past but is no more. See the revision history if you're curious.
+

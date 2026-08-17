@@ -1,0 +1,21 @@
+Q:
+
+How do Snapcaster Mage and Cipher cards interact?
+
+Let's say I cast a card with Cipher from my graveyard with the help of Flashback (provided by Snapcaster Mage). Will I be encoding it on a creature instead of exiling it from the effect of Flashback?
+
+A:
+
+Yes. Cipher will continue to work as normal.
+
+Cipher exiles the card it encodes.
+
+Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.
+
+The relevant part of Flashback is the following replacement effect:
+
+If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.
+
+Flashback does absolutely nothing if you exile a card using Cipher because the card is not put "anywhere [other than exile]" when it leaves the stack. Cipher will continue to work as normal.
+If you chose not to encode the card, Flashback will cause it to be exiled instead of going to the graveyard.
+

@@ -1,0 +1,60 @@
+Q:
+
+Are "infinite loops" legal?
+
+With this question I intend to clarify whether the game situations in which "infinite loops" are created can be considered legal; and, if they are not, if there are formats in which they are legal.
+The example that can be built is that of the - well known - combo consisting of the Splinter Twin and Deceiver Exarch cards, which today is no longer possible to perform, due to the removal of Splinter Twin from the Standard and Modern formats, in which it is no longer legal. 
+A reconnaissance of the combo follows.  
+
+If you already have a Deceiver Exarch on the battlefield from the previous turn, you can enchant it with Splinter Twin;
+tapping the Deceiver, it is now possible to produce a token copying the Deceiver, and with Haste ability; 
+then, if the opponent does not play with the white color (or, if he does, hoping that he does not have a Disenchant in his hand with which respond to!),when the token enter the battlefield ,it is possible to choose one of the two triggered abilities of the just-created Deceiver-Token; 
+choosing to untap a permanent, the first Deceiver will be targeted (the original non-token one, the one enchanted with Splinter Twin), which in this way can be tapped again to produce a new token equal to the Deceiver;
+You can repeat this process indefinitely to produce as many tokens as you want;
+then,it is possible to attack the opponent to win the game.
+
+Hoping that all the above is correct (if not, please tell me where there may be a misunderstanding),  I think the procedure in question is able to be a good example of what I mean with the expression "infinite loop".  Or, in any case, I think it's a good way to define it:if there are better ones, a mention of them is welcome in the answer.
+Since this operation is today no longer possible - due to the removal of Splinter Twin from the two most recent formats - I wonder if this may be due to the possibility that this card has well demonstrated in producing "infinite loops".
+The reason for a possible ban of this kind of game actions may be due to the fact that, in order to make this action legal, one should be able to physically perform the "infinite loop": what is however impossible. Even if, obviously, the operation may be stopped at a certain point, for example by producing 300 tokens, of course, and therefore avoiding a real "infinite loop".      
+But there remains the obvious possibility, within this combo, of being able to make an infinite loop in this way.
+If the removal of the Splinter Twin card is due to this (and this reason only) then I wonder if - in Modern and Standard formats - other operations that can produce "infinite loops", or that in any case can be associated with them through the use of various cards:   
+1) are considered legal game actions; or
+2) are not considered legal game actions.
+In other words: are "infinite loops" legal or not?
+
+A:
+
+There's a lot of misconceptions in your question, so I'm going to try and go through all of them.
+
+1. Splinter twin isn't allowed in Standard because it rotated out of the format.
+Splinter twin was printed in Rise of the Eldrazi and Modern Masters 2015 Edition.  Neither of these sets have been allowed in Standard in years.
+
+2. Splinter Twin was not banned just because it can make an infinite damage combo.
+From the Banned and Restricted announcement.
+
+Antonio Del Moral León won Pro Tour Fate Reforged playing Splinter Twin, and Jelger Wiegersma finished third; Splinter Twin has won two of the four Modern Pro Tours. Splinter Twin reached the Top 8 of the last six Modern Grand Prix. The last Modern Grand Prix in Pittsburgh had three Splinter Twin decks in the Top 8, including Alex Bianchi's winning deck.
+Decks that are this strong can hurt diversity by pushing the decks that it defeats out of competition. They can also reduce diversity by supplanting similar decks. For instance, Shaun McLaren won Pro Tour Born of the Gods playing this Jeskai control deck. Alex Bianchi won our most recent Modern Grand Prix playing a similar deck but adding the Splinter Twin combination. Similarly, Temur Tempo used to see play at high-level events but has been supplanted by Temur Twin.
+We considered what one would do with the cards from a Splinter Twin deck with Splinter Twin banned. In the case of some Jeskai or Temur, there are very similar decks to build. In other cases, there is Kiki-Jiki as a replacement.
+In the interest of competitive diversity, Splinter Twin is banned from Modern.
+
+Splinter Twin was banned because too many decks were using Splinter Twin.  This was by no means the only infinite combo in format at the time, as replacing Splinter Twin with Kiki-Jiki, Mirror Breaker gave you the same outcome.  See also this article from Channel Fireball titled "10 Game-Winning Infinite Combos with Modern Horizons" which was all about new infinite combos introduced just with the Modern Horizons release.
+
+3. There is nothing illegal about the combo.  You may be playing an illegal deck if you're playing Modern with Splinter Twin in it, but there is nothing stopping the combo.
+Standard and Modern are only two MTG formats.  Using the Twin/Exarch combo would be illegal in Modern, but only because the Twin is banned and you would be playing with an illegal deck.
+The card is still legal in Commander, Vintage, and Legacy, and if you had both cards on the field in that format you can execute the combo.
+
+4. There is no such thing as "Infinite " in magic.
+What are commonly referred to infinite loops aren't actually infinite.  You are required to specify the number of times you would execute the loop in question, and you can't say "infinity times".  You can say whatever number you want, and the number can be arbitrarily high, but the number must be real.
+You can't start the Twin/Exarch combo and generate infinite tokens.  You can say you generate 300, a million, or a googolplex of tokens, but you can't say infinite.
+
+5. All infinite combos are legal, regardless of format, with one important exception (and even then, that exception is a tournament rule and nothing wrong with the cards themselves).
+If you can demonstrate a loop in Magic, the loop is legal.  For instance, using your example above, you could say
+
+I tap Exarch, creating a copy of Exarch.
+Token enters the battlefield, I use it's ETB ability to untap the original Exarch.
+The board state is the same as before step 1, but I have an extra Exarch on the battlefield.
+I repeat steps 1 and 2 50,000 times, giving myself 50,000 extra tokens.
+
+The only requirement is that the combo advances the board state.  You can't activate a loop that does nothing to advance the board state, as this is considered Slow Play and is a penalty in tournament formats.
+See also this article, also from Channel Fireball, titled "Nine Game-Winning Infinite Combos with Throne of Eldraine".
+

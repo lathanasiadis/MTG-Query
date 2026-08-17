@@ -1,0 +1,26 @@
+Q:
+
+How does Academy Manufactor apply to creature tokens of its listed types?
+
+What happens if I have Academy Manufactor out and I cast Cackling Counterpart targeting my own Parcel Myr, Goldhound, or Gingerbrute?
+A ruling on Parcel Myr states
+
+(...) Abilities that care about creating a Clue token, such as that of Academy Manufactor, will do nothing as Parcel Myr is put onto the battlefield. If you create a token that's a copy of Parcel Myr on the battlefield, such abilities will notice. (...)
+
+But that doesn't explain whether the replacement effect will change the copy of Parcel Myr into a noncreature Clue. Do I create a token that's a copy of Parcel Myr plus a Food token and a Treasure token, or ordinary noncreature Clue, Food, and Treasure tokens?
+
+A:
+
+Academy Manufactor's replacement effect applies to creating a token copy of any of those creatures being created, and instead of getting a copy of that creature, you will create a Clue, a Food, and a Treasure token each, none of which being any more than the basic version of that token.
+Academy Manufactor's ability is a replacement effect, which roughly means "if something would happen, it doesn't happen, and something else happens instead".
+This really is a better explanation than any rules quote would give in my opinion, however if you want to read further, there's this excellent page on magicjudges.org on the topic, and of course for completeness's sake, a relevant rules quote:
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities.
+
+Two conditions need to be true for the same permanent in order for Academy Manufactor's ability to apply:
+
+the permanent needs to be a token
+the permanent needs to have the Clue, Food, or Treasure artifact type
+
+Both happen to be true for the creatures mentioned, so this perhaps unusual interaction happens.
+

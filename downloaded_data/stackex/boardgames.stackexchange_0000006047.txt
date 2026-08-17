@@ -1,0 +1,43 @@
+Q:
+
+When must an Instant be played that prevents damage?
+
+Consider the card Harm's Way or similar. The Oracle text states:
+
+The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to target creature or player instead.
+
+When does this instant need to be cast to prevent a creature from dying? I guess the latest point by which it needs to be cast when blockers are assigned, if it were assigned later then it seems it would not longer be of any help.
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt. This is a change from previous rules.
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+
+A:
+
+Yep, in order to prevent a creature from dying in combat, the spell needs to be cast before combat damage is dealt. And the last opportunity to cast spells before combat damage is dealt is during the declare blockers step, just after blockers are actually declared.
+There is one exception: if any creatures with first strike or double strike are involved in combat, there will be a combat damage step to handle their damage, prior to the time when other non-first strike combat damage is dealt. As part of that combat damage step, you get a chance to play spells and abilities, which could include the Harm's Way. So you could get away with playing it later than the declare blockers step if there is a first striking or double striking creature in combat, as long as it's not the one you want to prevent the damage from.
+To make everything explicit, here's an outline of the combat phase:
+
+Beginning of combat step
+
+Play spells and abilities
+
+Declare attackers step
+
+Actually declare which creatures are attacking
+Play spells and abilities
+
+Declare blockers step
+
+Actually declare which creatures are blocking and how
+Play spells and abilities
+
+First strike combat damage step, only if creatures with first (or double) strike are involved in combat
+
+First strike combat damage is assigned and dealt
+Play spells and abilities
+
+Combat damage step
+
+Non-first strike combat damage is assigned and deal
+Play spells and abilities
+

@@ -1,0 +1,11 @@
+Q:
+
+Remove counters from creature after an effect like fling
+
+Let's say I have a 3/3 creature with two +1/+1 counters in it making it a  5/5. I then use an ability or spell like Fling that sacrifices a creature to deal damage equal to the sacrificed creatures power. Can I then use Ooze Flux to remove the counters from the sacrificed creature to create my Ooze token? And if I can would Fling continue to do 5 damage or would it be reduced to 3?
+
+A:
+
+No, you cannot do that.
+Sacrificing the creature is a cost to cast Fling. Casting a spell includes paying its costs, so once you have finished casting it, by the time you can do anything in response, the creature is already dead.
+

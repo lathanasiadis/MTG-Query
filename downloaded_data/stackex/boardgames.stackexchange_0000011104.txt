@@ -1,0 +1,26 @@
+Q:
+
+What does, "It can't be regenerated" mean?
+
+I destroyed my opponent's permanent with Putrefy, an Instant that reads: 
+
+Destroy target artifact or creature.  It can't be regenerated.  
+
+He returned it to the top of his library with Golgari Thug because it went to the graveyard (is it supposed to go to the graveyard?). Golgari Thug reads:
+
+When Golgari Thug dies, put target creature card from your graveyard on top of your library.
+
+So whats going on? I destroyed a card and I thought it cannot be regenerated.  When Putrefy says, "It can't be regenerated" is it actually a counter for a card that can be regenerated?  For example:  Opponent has Manor Skeleton that has: “{1}{B}: Regenerate Manor Skeleton”.  I target it with Putrefy. Is his Manor Skeleton's regenerate ability countered and does it go to the graveyard?
+Does, "It can't be regenerated" mean "It can not be regenerated from the graveyard", or does it counter a regeneration ability?
+
+A:
+
+Well, no. Regenerate has a very specific meaning. From the Comprehensive rules:
+
+701.12a If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.”
+
+So, what Golgari Thug did, was not regeneration. Instead, it put a creature from the graveyard on top of its owner's library. Regeneration would have stopped the creature from being destroyed and placed in the graveyard in the first place.
+Putrefy specifically prevents creatures from being regenerated after being destroyed by its effect. This doesn't counter regeneration (at least not in the MtG sense of the word), but prevents regeneration from happening. 
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can't happen, the "can't" effect takes precedence.
+

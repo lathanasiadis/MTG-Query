@@ -1,0 +1,13 @@
+Q:
+
+Can I sacrifice a permanent to pay an ability cost while the permanent's spell is still on the stack?
+
+At what point does a creature/artifact/whatever become a legal candidate for being sacrificed to pay an activation cost?
+For example, suppose I cast an artifact creature spell, and my opponent responds with an instant that would kill it (like a Lightning Bolt). I have an Atog that lets me sacrifice an artifact to give the Atog +2/+2. Can I use the artifact creature, even though the spell that "summoned" it has yet to resolve, to pay the Atog's ability's activation cost?
+
+A:
+
+A card on the stack is not a permanent, so you may not sacrifice it.
+When a card refers to a permanent type, like "artifact" or "creature," it refers only to permanents — meaning a card on the battlefield. Note that this includes the Lightning Bolt spell in your question — you can't sacrifice the creature until it is on the battlefield, but your opponent can't Bolt the creature until it is on the battlefield, either.
+Cards in other zones are referred to as cards — e.g. Unburial Rites: "Return target creature card from your graveyard to the battlefield." — or spells if they're on the stack — e.g. Essence Scatter: "Counter target creature spell." (Compare to Murder, which affects creatures on the battlefield: "Destroy target creature.")
+

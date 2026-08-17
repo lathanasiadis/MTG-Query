@@ -1,0 +1,12 @@
+Q:
+
+Can a blocking creature fight? How is damage dealt if it dies?
+
+As the title says, can a blocking creature fight? If so, what happens if the blocking creature dies before damage is dealt? How would damage be dealt during combat?
+Example: Creature A is a 2/2 and it is blocking creature B, which is also 2/2. Before combat damage, I cast an instant forcing creature A to fight creature C, another 2/2, so that both A and C die.
+
+A:
+
+If you cast such an instant after declaring blockers, the following will happen:
+Your creature A will fight creature C and they will both die. Creature B will still be blocked, and thus will not deal any damage to you unless it has trample.
+

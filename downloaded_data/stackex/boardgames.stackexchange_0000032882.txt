@@ -1,0 +1,18 @@
+Q:
+
+Counter Emerge Spell
+
+I have recently started playing MTG after a few years of inactivity. Decided to jump into Standard as I always loved the format because it was in my perspective a lot fairer for the newcomer.
+I used to play Esper control and today I faced a Temur Emerge deck. Now I was completely lost with the emerge mechanic. My opponent casted an Elder Deep-Fiend and when I prepared myself to counter it he said that I couldn't counter. He tried to explain to me everything but I was left with the same thought: "WTF". From everything I find I know that I cannot do anything about the casting cost, but why can't I counter the creature itself?
+Like I said, it's a new mechanic to me and for some reason the explanation I got didn't truly make sense to me.
+Can you guys shine some light into this matter?
+
+A:
+
+Your opponent was incorrect, you can counter creatures with Emerge. All Emerge does is gave the spell an alternative way of casting the spell, but you are still casting it.
+Your opponent may have gotten confused because even if you counter their emerged spell the cast trigger will still occur, and their creature is still sacrificed. In order to stop that you need a card like Summary Dismissal that specifically counters abilities.
+
+702.118. Emerge
+702.118a Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s converted mana cost.” Paying a card’s emerge cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.
+702.118b You choose which creature to sacrifice as you choose to pay a spell’s emerge cost (see rule 601.2b), and you sacrifice that creature as you pay the total cost (see rule 601.2h).
+

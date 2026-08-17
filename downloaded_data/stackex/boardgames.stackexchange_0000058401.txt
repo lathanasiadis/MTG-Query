@@ -1,0 +1,24 @@
+Q:
+
+How do Paradise Plume and Defiant Bloodlord interact if the first spell mentioned is used to cast the second
+
+Paradise Plume allows the caster to choose a color, spend a mana of chosen color, and whenever a spell of that color is played the controller may gain 1 life.
+Defiant Bloodlord is a creature that states whenever the controller gains life, target opponent loses that much life.
+My question: If I use Paradise Plume to cast Defiant Bloodlord (results in gaining 1 life), does the 1 life gained from using Paradise Plume to play Defiant Bloodlord trigger Defiant Bloodlord to make an opponent lose 1 life? Or is the life gained prior to Defiant Bloodlord entering the battlefield, resulting in no trigger?
+
+A:
+
+The latter. By the time Defiant Bloodlord enters the battlefield, the Paradise Plume effect will have triggered already.
+
+You cast Defiant Bloodlord, tapping Paradise Plume
+Paradise Plume's ability goes on the stack above Defiant Bloodlord
+The last item in resolves first, so you gain 1 life. Defiant Bloodlord is still on the stack ("in the process of being cast")
+Defiant Bloodlord resolves and enters the battlefield
+
+By the time Defiant Bloodlord enters the battlefield, Parasdise Plume's ability is no longer there, because it has already resolved. So your opponent doesn't lose 1 life.
+One of the rulings for Paradise Plume makes it clear that you gain the life before Defiant Bloodlord resolves:
+
+An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+
+If the ordering were different then yeah your opponent would lose 1 life.
+

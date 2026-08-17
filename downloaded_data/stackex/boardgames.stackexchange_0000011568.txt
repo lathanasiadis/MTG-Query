@@ -1,0 +1,23 @@
+Q:
+
+Can Conjurer's Closet be used to keep a stolen Commander?
+
+We had this situation come up in a game last night, and we think we stumbled upon the right answer, but we're not sure.
+So, Player A's Commander (Sliver Overlord) was stolen by Player B using a Zealous Conscripts. Player B also had a Conjurer's Closest in play. At the end of the turn Player B decided to use the Conjurer's Closet on the Sliver Overlord, with the idea that after it was 'blinked', it would permanently be under her control.
+But then we remembered that Player A can choose to have their Commander return to the Command Zone when it would be exiled or go to the graveyard, so that trick wouldn't work. (Player B ended up using it anyway, as Player A couldn't recast his general at that point.)
+Did we play this out correctly?
+
+A:
+
+You got it wrong, but this interaction is tricky. Sliver Overlord can be put in the command zone, but the ability of Conjurer's Closet will return it to the battlefield anyway.
+We follow the instructions in the triggered ability:
+1) "exile target creature you control": instead of putting it in the exile zone, we put it in the command zone. We don't first exile it, then put it in the command zone. The commander is directly put in the command zone.
+2) "return that card to the battlefield under your control": notice how this doesn't say "the exiled card". It says "that card". So we return the card from the command zone to the battlefield under player B control (because "your control" refers to player b, as he is the one who controls the triggered ability).
+The rule that allows this to happen is the same one that allows to return the card from exile in the first place:
+
+400.7g A resolving spell or activated ability can perform actions on an object that moved from one zone to another while that spell was
+  being cast or that ability was being activated, if that object moved
+  to a public zone.
+
+Here is a link to a similar ruling in Wizard's forum, about a commander and Cloudshift. Post 12 in that thread is from an official Net Rep, therefore that ruling is official.
+

@@ -1,0 +1,17 @@
+Q:
+
+What is the name of this red creature card
+
+In Magic the Gathering I played a guy that was using a mono - red goblin deck which exploited Impact Tremors ability with a certain creature that "blinks" out of the game when another spell is cast now I cant for the life of me remember the name of the card.
+I tried the card database on Magic wizards and got no luck. All that I can remember was that it was mono - red goblin creature of some sort. that had something a long the lines of this in its effect text:
+"Whenever a spell is cast remove (said creature) from the game until end of turn then return it to the battlefield".
+Can anyone help me out? I really want to obtain this card...
+
+A:
+
+The card you are looking for is Norin the Wary. I found this by searching on magiccards.info for
+
+c!r t:creature o:"Exile ~" o:return
+
+This searches for a mono-red (c!r) creature (t:creature) that has in its text "Exile [this creature]" and "return [to the battlefield]". That resulted in only two cards, and only one triggered on casting a spell.
+

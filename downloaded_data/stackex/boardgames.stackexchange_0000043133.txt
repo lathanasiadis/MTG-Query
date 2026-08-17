@@ -1,0 +1,25 @@
+Q:
+
+Can I use Nissa, Steward of Elements, to put out a creature with {X} in its mana cost onto the field?
+
+I've tried to find out the answer to this online, but haven't found anything that explicitly determines it.
+The exact situation is that I have a Nissa, Steward of Elements with 9 loyalty counters on it.
+I want to use her +0 ability to bring in a Hungering Hydra.
+What can I choose the X to be? Since she mentions "converted mana cost" can I choose X to be 8?
+The closest thing I've found for a ruling is the following ruling on Flash:
+
+If the creature has {X} in its mana cost, X is
+  considered to be 0.
+
+Does this apply to Nissa, even though she explicitly mentions converted mana costs (and Flash does not)?
+
+A:
+
+No, you cannot choose a value for X. In this situation X is always considered to be 0.
+Rule 107.3f says
+
+If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.
+
+Nissa's ability checks the converted mana cost of the card, then puts it directly onto the battlefield depending on that value. When you look at that card, it is in the library, not the stack, so X is 0 and Nissa sees a value of 1 for the CMC. Then you can put it on the battlefield, and since that is also not the stack, it will enter the battlefield with 0 +1/+1 counters.
+The quoted ruling for Flash has exactly the same reasoning: the card is not on the stack, so X is always 0. It has nothing to do with whether or not the card mentions "converted mana cost".
+

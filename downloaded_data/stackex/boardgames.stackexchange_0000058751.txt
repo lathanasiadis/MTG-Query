@@ -1,0 +1,15 @@
+Q:
+
+How does Tayam, Luminous Enigma interact with Phyrexian Altar?
+
+If I have three creatures that each have a vigilance counter on them, can I activate Tayam, Luminous Enigma by removing their vigilance counters and sacrificing them to Phyrexian Altar?
+
+A:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs.
+...
+
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+That means you have to activate Phyrexian Altar before paying the costs, and removing the counters is part of the costs. So what you propose won't work.
+

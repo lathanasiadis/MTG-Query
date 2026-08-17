@@ -1,0 +1,26 @@
+Q:
+
+Do I decide {X} for cards in my library for effects and abilities asking for a particular CMC?
+
+Suppose I have Yisan, the Wanderer Bard on the battleground with 5 verse counters.
+
+And then suppose I have something in my library with an {X} in the mana cost, like a Genesis Hydra.
+
+Do I get to play Genesis Hydra as though it were cast using {3}{G}{G}?
+I'm aware of rule 107.3.g, which reads:
+
+107.3g If an effect instructs a player to pay an object’s mana cost that includes {X}, the value of X is treated as 0 unless the object is
+  a spell on the stack. In that case, the value of X is the value chosen
+  or determined for it as the spell was cast.
+
+It's my understanding that Yisan's ability goes onto the stack. Does Genesis Hydra also go onto the stack, allowing me to choose {X}? Or ... ?
+
+A:
+
+There are two relevant (overlapping) rules for this situation:
+
+107.3f If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.
+202.3c When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+
+So, in this case, Genesis Hydra's CMC is always 2 when it is in your library, so you can only search for it if Yisan has exactly two verse counters. Then, if you do search for it and have it enter the battlefield, X is still considered to be 0, so it has no +1/+1 counters and dies immediately.
+

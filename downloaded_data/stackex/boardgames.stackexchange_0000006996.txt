@@ -1,0 +1,17 @@
+Q:
+
+Does the flanking provided by Slivers stack?
+
+If I was to play 2 Sidewinder Slivers would the 'All Slivers have flanking' ability stack causing creatures blocking my Slivers to get -2/-2 until the end of the turn or would it gain flanking twice but the second instance has no effect so creatures blocking my Slivers only get -1/-1 until the end of the turn?
+
+A:
+
+Each instance of Flanking triggers separately. After the stack resolves, creatures blocking will have -2/-2 until end of turn.
+The Rules:
+
+702.24. Flanking
+702.24a Flanking is a triggered ability that triggers during the declare blockers step. (See rule 509, "Declare Blockers Step.")
+  "Flanking" means "Whenever this creature becomes blocked by a creature
+  without flanking, the blocking creature gets -1/-1 until end of turn."
+702.24b If a creature has multiple instances of flanking, each triggers separately.
+

@@ -1,0 +1,39 @@
+Q:
+
+What is the Fling interaction with Removal?
+
+I'm trying to make a Sarkhan's Unsealing deck using G/R. How does the interaction work with Fling if say; 
+
+I play a creature
+The creature is targeted by removal when entering (Murder, Ixalan's Binding, Essence Scatter) 
+I play Fling sacrificing my creature
+
+Does the damage from Fling get priority and complete the action?
+
+A:
+
+It sounds like you're confused or have misconceptions about how spells are cast and resolved. That's fundamental to this issue so I suggest you read this answer about how casting and the stack works. Go check it out now, then come back here. The following will make more sense once you've done that.
+
+Let's first go through how this scenario plays out before we add Fling or removal:
+
+You cast your creature. In doing so, you put it on the stack. It's now a spell in the stack zone.
+One of the triggered abilities of Sarkhan's Unsealing triggers. We put that triggered ability on the stack. If it's the first ability you choose its target whilst doing this. The stack now looks like this:
+
+Sarkhan's Unsealing triggered ability (top)
+Your creature (bottom)
+
+Sarkhan's Unsealing's triggered ability resolves, dealing its damage.
+Your creature resolves, and then enters the battlefield.
+
+OK, so, let's add to this:
+
+Effects that reference a "creature" (not "creature card" or "creature spell") exclusively reference a creature permanent (card or token) on the battlefield.
+Effects that reference a "creature spell" exclusively reference a creature card on the stack.
+
+This means Fling, Murder, and Ixalan's Binding can only target your creature after step 4, once it's on the battlefield. Essence Scatter can only target your creature whilst it's a creature spell on the stack, i.e. after step 1 and before step 4.
+So what happens when we add those in?
+
+Essence Scatter: Your opponent can cast this spell after you finish casting your creature. They cannot cast it before step 2, because they do not receive priority yet. They can counter your creature, but they cannot counter Sarkhan's Unsealing nor stop it resolving. You'll deal your damage. You cannot Fling your creature in this scenario because it is not on the battlefield, it's on the stack.
+Murder: They can cast this only after step 4. You will already have your creature on the battlefield and the damage will have been dealt. You can cast Fling in response, and sacrifice it to deal damage.
+Ixalan's Binding is similar to Murder: they cast the spell, it enters the battlefield, its ability triggers targeting your creature, and  then you can Fling your creature in response. Note they can't do this in response while it's your turn: Ixalan's Binding isn't an instant and doesn't have flash.
+

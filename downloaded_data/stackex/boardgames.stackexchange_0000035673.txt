@@ -1,0 +1,14 @@
+Q:
+
+Magic the Gathering simple damage question
+
+I was taught by someone who changed the rules so he would always win. I've played with others but I keep getting different answers and the examples always have a creature with the same defense and block. 
+Based on the picture below would my 6/4 Craw Wurm with enchantment live or die against a 5/3 vampire? Please please please with cherries on top explain!!!!
+ 
+
+A:
+
+If you have a 6/4 Craw Wurm blocking a 5/3 Bloodrage Vampire, then both creatures will die after combat damage is dealt.
+In combat, after attacks and blocks have been declared, combat damage is evaluated all at once (except when dealing with First Strike or Double Strike, but that's not relevant here). In a situation like the one you have here, with one creature blocking a single attacking creature, each creature deals damage equal to its power to the other simultaneously. Then, after the damage has been dealt (or at any other time), if any creature has taken damage greater than or equal to its toughness, it dies.
+In this particular situation, the Craw Wurm deals 6 damage to the Bloodrage Vampire, and the Bloodrage Vampire deals 5 damage to the Craw Wurm. After this, the Craw Wurm has 4 toughness and has taken 5 damage, so it dies. And the Bloodrage Vampire has 3 toughness and has taken 6 damage, so it dies.
+

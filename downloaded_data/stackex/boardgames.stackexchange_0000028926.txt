@@ -1,0 +1,21 @@
+Q:
+
+Can I sacrifice a creature before the creature spell resolves?
+
+Here is the scenario:
+
+I cast a Goblin Piledriver.
+In response, my opponent casts the Instant Murderous Cut to destroy it.
+In response to that, I cast the Instant Collateral Damage intending to sacrifice the Piledriver before it can be destroyed and thus, deal damage to my opponent.
+
+Will the sacrifice work? i.e. Can I sacrifice Goblin Piledriver out from under Murderous Cut?
+
+A:
+
+You can, but not exactly in the way you think. 
+First, Goblin Piledriver has to resolve before it can be targeted with Murderous Cut. 
+Second, once the Murderous Cut is cast, it goes on the stack and hasn't resolved yet. 
+At that point, both players get priority, and you then could cast Collateral Damage. Now, what's important is that the sacrifice of Collateral Damage is a cost, which is paid as the spell is put on the stack. That means that your opponent can't target it with a spell (say, another Murderous Cut) before it gets sacrificed.
+You both pass priority. 
+Collateral Damage does its, well, damage, then Murderous Cut tries to cut your goblin, but it isn't there anymore, so it fizzles. 
+

@@ -1,0 +1,26 @@
+Q:
+
+Artisan of Forms and Gift of Immortality
+
+Artisan of Forms says:
+
+Heroic — Whenever you cast a spell that targets Artisan of Forms, you may have Artisan of Forms become a copy of target creature and gain this ability.
+
+Say I play a Gift of Immortality on it which says:
+
+Enchant creature. When enchanted creature dies, return that card to the battlefield under its owner's control. Return Gift of Immortality to the battlefield attached to that creature at the beginning of the next end step.
+
+Artisan of Forms' ability triggers and I make it a copy of another creature. Then my opponent destroys it. The way I would interpret the card is that Gift of Immortality will return Artisan of Forms to the battlefield in it's original form but it also seems plausible to me that it would still be a copy.
+In the event it does return to it's original form can Gift of Immortality still "find" Artisan of Forms to reattach given it is now a different creature?
+
+A:
+
+When a permanent that's a copy of something else leaves the battlefield, it immediately reverts to its original form as printed on the card. Anything that happened to it while it was on the battlefield has no influence whatsoever on it once it is in the graveyard or anywhere else (unless its effect says so). Artisan of Forms stops being a copy as soon as it leaves the battlefield, so how can it possibly still be one when it returns?
+This is usually termed as a card moving between zones "forgetting" everything about what it was.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+Gift of the Immortality can find the right card in the graveyard because of one of the exceptions, but the card will still have reverted back to its original characteristics.
+
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+

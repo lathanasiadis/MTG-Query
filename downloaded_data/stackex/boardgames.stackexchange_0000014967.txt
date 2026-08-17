@@ -1,0 +1,13 @@
+Q:
+
+Ensnaring Bridge and Cranial Plating
+
+Let's say that I have an Ensnaring Bridge in play, and no cards in my hand. My opponent has a 0/2 Ornithopter in play, and also a Cranial Plating (and some other artifacts to pump it up). Can he attack and then attach the Cranial Plating to the Ornithopter after announcing his attackers by using the "Attach" ability (The one for BB)?
+
+A:
+
+Yes, he can attach then, and yes, this does circumvent Ensnaring Bridge.
+Only the 'equip' ability is restricted to sorcery speed.
+The '{B}{B}: Attach Cranial Plating to target creature you control.' ability can be used anytime you have priority. That's why it's more expensive to use even though it has the same effect as Equip.
+Since the creature has already been declared as an attacker and correctly met the conditions needed to attack at that time (508.1c in the comprehensive rules), it has been declared as an attacker already, and suddenly failing to meet the conditions doesn't remove it from combat (506.4 and 506.4a). So all that mattered is the 'thopter was 0/2 when it attacked.
+

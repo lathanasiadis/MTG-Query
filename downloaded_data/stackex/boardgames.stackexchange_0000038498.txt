@@ -1,0 +1,15 @@
+Q:
+
+Flashback + Kess, Dissident Mage
+
+Is it possible to cast a card twice, first with Flashback AND then with Kess, Dissident Mage "play from graveyard" ability or vice versa? 
+Flashback says - You may play this card from your graveyard for the Flashback cost. Then remove it from the game.
+Kess say - you may cast instance or sorcery card from your graveyard. If it would go into the graveyard, exile it instead. 
+
+A:
+
+No, for the same reason that you can't cast a card from your hand twice. As part of casting a spell, you place the card being cast on the stack. The card would no longer be in the graveyard to be cast.
+
+601.2. [...] To cast a spell, a player follows the steps listed below, in order. [...]
+601.2a [...] a player first moves that card (or that copy of a card) from where it is to the stack. [...]
+

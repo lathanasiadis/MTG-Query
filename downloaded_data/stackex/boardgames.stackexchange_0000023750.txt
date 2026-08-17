@@ -1,0 +1,14 @@
+Q:
+
+Do effects that reduce a spell's casting cost also reduce its converted mana cost?
+
+If I have Grand Arbiter Augustin IV in play, can Zur the Enchanter's triggered ability pull a card like Æther Storm from my library, which would originally have a converted cost of 4, but which is lowered by the Grand Arbiter's ability?
+
+A:
+
+You can not find Æther Storm with Zur. This is because Augustin's cost reduction ability only effects casting the card, it doesn't apply at any other time. "White spells you cast cost 1 less to cast".
+Also, the only thing that can change the CMC of a card is chooseing the value of 'X' while casting it. This is because CMC is what is printed on the top right of the card, not what you actually pay for it.
+For example Divine Deflection costs {X}{W}, when you cast it you pick a value for X (let's say X = 5). That makes the CMC of the card 6 (5 from {X} + 1 from the {W}) even though with the Grand Arbiter out you only need to pay {4}{W} because of the cost reduction.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+

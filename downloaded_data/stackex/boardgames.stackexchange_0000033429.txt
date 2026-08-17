@@ -1,0 +1,25 @@
+Q:
+
+Harnessed Lightning combat
+
+This happened on MTGO.
+Opponent has Skyswirl Harrier.
+I have Salivating Gremlins.
+Its my turn.  I cast Renegade Freighter.  Salivating gremlins gains +2/+0.
+Battle: I attack with Salivating gremlins.  Opponent blocks with Skyswirl Harrier.
+I activate Harnessed Lightning from hand targeting Skyswirl Harrier, spending 3 energy.  Opponenet does not respond.  Harnessed Lightning resolves and both creatures die.  I'm confused.  Can you tell me why my Salivating Gremlins did not survive?
+
+A:
+
+Skyswirl Harrier has 3 power and 4 toughness.
+After Renegade Freighter enters the battlefield, Salivating Gremlines has 4 power and 3 toughness.
+Short other effects, creatures cause combat damage equal to their power, and can survive combat damage less than their toughness.
+Attacker, Salivating Gremlins is Declared. Blocker, Skyswirl Harrier is declared.
+Once you're able to cast a spell during the Declare Blockers step, you cast Harnessed Lightning, presumably spending 3 energy to do 3 damage to the Skyswirl Harrier. This is one short of lethal (4).
+Combat damage happens. Salivating Gremlins does 1 damage to Skyswirl Harrier, and 3 damage to the opponent because of trample. Skyswirl Harrier does 3 damage to Salivating Gremlins.
+Already having 3 damage marked on it for the turn, adding the 1 damage marks 4 for the turn, matching Skyswirl Harrier's toughness of 4. State Based Effects, Skyswirl Harrier dies.
+Salivating Gremlin has 3 damage marked on it for the turn, matching its 3 toughness. State based effects, Salivating Gremlins dies. 
+An important rule here is 702.19b:  
+
+The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. The attacking creature’s controller need not assign lethal damage to all those blocking creatures but in that case can’t assign any damage to the player or planeswalker it’s attacking.
+

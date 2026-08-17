@@ -1,0 +1,28 @@
+Q:
+
+What is the reason for cards stating "Until end of turn, you don't lose this mana as steps and phases end"?
+
+There are creature cards that allow for adding extra mana during a turn, such as Savage Ventmaw and Grand Warlord Radha. They state, respectively:
+
+Whenever Savage Ventmaw attacks, add {R}{R}{R}{G}{G}{G}. 
+
+Whenever one or more creatures you control attack, add that much mana in any combination of {R} and/or {G}. 
+
+This is all clear to me. These creatures add mana if a specific circumstance is met, check. But then, both cards continue with the following final sentence, which confuses me:
+
+Until end of turn, you don't lose this mana as steps and phases end. 
+
+What is the added meaning of this sentence? Doesn't mana by default stay "afloat" until the end of turn, making this sentence redundant? This is how (I'm pretty sure) I've played the game so far, with more experienced players. Or am I missing something here? 
+
+Related to this question, I wonder how cards like Llanowar Elves differ from the mentioned cards above when it comes to the "ending of steps and phases", while not stating that specifically in its text. 
+
+Note that this is a question regarding the rules, not designer intent. 
+
+A:
+
+In the Comprehensive Rules it says (emphasis mine):
+
+106.4. When an effect instructs a player to add mana, that mana goes into a player’s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player’s mana pool as unspent mana. Each player’s mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the Oracle™ card reference to no longer explicitly refer to the mana pool.
+
+So normally you do not keep mana across phases. Thus, for a card like Llanowar Elves, if you use its ability to tap and produce (G), but do not use it on that step, then it will vanish and you will have tapped it for no reason.
+

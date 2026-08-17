@@ -1,0 +1,20 @@
+Q:
+
+How does having multiple permanents with the same name affect those permanents' abilities?
+
+Many abilities in MTG use a permanent's name in the ability. Does this mean that if I have 2 copies of that permanent, the ability will affect both permanents?
+Activated ability example:
+Vector Asp - If I activate the ability of one of my Vector Asps, can I choose which of them gain infect until end of turn? Or will they both gain infect?
+Triggered ability example:
+Sin Collector - If I cast a second Sin Collector, when it enters the battlefield, will each Sin Collector trigger and allow me to exile a total of 2 cards instead of 1?
+
+A:
+
+No to all.
+When an ability uses the name of the card it is printed on, it actually just means "this object", not "an object that has this name".
+
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+So Vector Asp's text really means "{B}: This object gains infect until end of turn."
+In order to get the sort of effect you are thinking of, the ability would use the language "a card named [card name]". For example, Daru Cavalier. It says "you may search your library for a card named Daru Cavalier", which allows you to find any card with that name.
+

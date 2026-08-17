@@ -1,0 +1,16 @@
+Q:
+
+Can cards turned face-down by Ixidron be turned face up again?
+
+For example, assume that both my opponent and I have a face-up creature with Morph on the battlefield.
+I cast Ixidron and it enters the battlefield. 
+Can both creatures be turned face-up again later in the game, by paying the Morph cost, even though they weren't turned face-down "normally"?
+
+A:
+
+Yes, you can.
+It doesn't matter how a creature got turned face-down. All morph cares about is that the creature is indeed face-down. Face-down is a status like e.g. tapped/untapped.
+
+110.6. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+702.36a Morph is a static ability that functions in any zone from which you could play the card it’s on, and the morph effect works any time the card is face down. [..]
+

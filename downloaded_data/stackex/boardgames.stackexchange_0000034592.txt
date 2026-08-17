@@ -1,0 +1,17 @@
+Q:
+
+When a face-down permanent dies, do other cards responding to its death see its face-up side?
+
+Say if I have Scrap Trawler on the battlefield, which watches for when artifacts die. I have a manifested Colossus of Akros that dies while still just a manifested 2/2 creature. Per the rules, I turn it face up and put it in the graveyard face-up.
+Does it trigger Scrap Trawler's ability (and get considered an artifact that leaves the battlefield and enters the graveyard) or not?
+Does Colossus leave the battlefield as an artifact?
+
+A:
+
+It was a face-down creature when it left the battlefield, so it wasn't an artifact (creature) to trigger Trawler's ability.
+As for why that's the case:
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+

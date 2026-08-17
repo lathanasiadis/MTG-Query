@@ -1,0 +1,25 @@
+Q:
+
+How does Fuse work?
+
+If you have a card like Profit and Loss you get the Fuse special rule
+
+I'm a little unclear how it works?
+
+Do you have to cast both sides in the same turn?
+If you don't can you cast one of the spells twice?
+Can you discard the card after only playing one of the spells?
+
+A:
+
+No matter how you cast a Fuse spell, you're still casting the card as a single spell, and all the normal parts of casting a spell still happen. You pay mana, put it on the stack, it resolves, and it goes to your graveyard. You just get to choose as you cast it whether you're going to cast one of the sides or both. If you cast both sides, you're casting them together as a single spell all at once, not as two separate spells at two different times. Think of it as a spell that has three possibilities for its cost and effect(s): the left side, the right side, or both sides. But no matter what it's still one card, one spell. So:
+
+No, you don't have to cast both - the reminder text says "you may cast one or both".
+
+No, you can't cast one of them twice - the card doesn't say you can.
+
+The card goes to your graveyard after you're done, whether you cast both sides or just one. (You're not discarding it, though. You're putting it from your hand onto the stack, it resolves, and moves to your graveyard. "Discard" in Magic means specifically hand to graveyard.)
+
+Perhaps you were confused by the fact that it says "...from your hand" in the reminder text, making you think that you could somehow cast just one part of it out of your hand, leaving the other part there. But the reason it says "from your hand" is to clarify that you can't do this special Fuse thing when the card's somewhere else, for example if it's in your graveyard and has been given Flashback by Snapcaster Mage. (In that case, since Fuse doesn't apply, it acts like a normal split card - you can flash back either half, for its mana cost, ignoring the other half.)
+For more descriptions of how Fuse works, see its section in the official Mechanics of Dragon's Maze article.
+

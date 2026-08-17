@@ -1,0 +1,23 @@
+Q:
+
+Is there a maximum duration for MTG official matches?
+
+In MTG official tournaments, is there a maximum duration for matches?
+Or, can each match last as long as it takes to end the game normally (and therefore there are pauses, in case of particularly long games) ?
+If the first is correct, and therefore there is a maximum duration established before the start of the match, what could be the criteria for deciding who should be considered the winner in that case?
+
+A:
+
+The MAGIC: THE GATHERING® TOURNAMENT RULES are the authority here.
+The question of whether or not there is a time limit is covered by Appendix B. Essentially, there is no requirement, only a recommendation. In practice, most swiss rounds have time limits and most single-elimination rounds do not (though I have played in a tournament with timed single-elimination rounds once in my life).
+Section 2.5 covers what happens if a match ends due to time.
+
+If one player has won more games than the other, that player wins the match. Otherwise...
+In swiss rounds, the match is declared a draw.
+In single-elimination rounds, the winner is the player with the highest life total. If both players have the same life total, the game continues until someone loses due to having less life than the other.
+
+In single-elimination rounds, matches may not end in a draw. If all players have equal game wins at the end of
+  additional turns, the player with the highest life total wins the current game. In the event all players have equal
+  life totals (or are between games and the game wins are tied), the game/match continues with an additional statebased action: if a player does not have the highest life total, they lose the game. Two-Headed Giant teams are
+  treated as a single player for determining a game winner.
+

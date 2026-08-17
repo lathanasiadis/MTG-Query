@@ -1,0 +1,33 @@
+Q:
+
+Pillar of Flame, Blood Artist and Goblin Arsonist Trigger Ability
+
+Quick Question on these Spells
+Pillar of Flame, Blood Artist and Goblin Arsonist
+Lets say I cast pillar of flame on Goblin Arsonist or Blood Artist, would it still trigger their ability? From my understanding after being hit by Pillar of Flame the creature still dies but instead of going to the graveyard, it'll be exiled. Can anybody help me with this?Thanks!
+
+A:
+
+Pillar of Flames replacement effect prevents the other cards triggered abilities from triggering, because it replaces the put into the graveyard event with exile.
+Die is a new Magic 2010 keyword.
+
+"When [this card] is put into the graveyard from the battlefield"
+
+Pillar of Flame says:
+
+Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+
+When Pillar of Flame resolves, this is what the event looks like assuming it is targeting the goblin.
+
+Pillar of Flame deals 2 damage to [Goblin Arsonist].
+PoF's replacement effect is set up waiting to see if Goblin Arsonist dies this turn. "If [Goblin Arsonist] would [be put into the graveyard from the battlefield] this turn, exile it instead."
+State-Based Actions are checked, (see rule 704.5g)
+Goblin Arsonist would be destroyed because of State-Based Actions, but that event is replaced. The new event looks like:
+move [Goblin Arsonist] from the battlefield to [exile].
+
+Because Goblin Arsonist was never placed in it's owners graveyard, but instead was placed in exile, it never triggers the "dies" event.
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+701.6a To destroy a permanent, move it from the battlefield to its owner’s graveyard.
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the impossible instruction is simply ignored.
+

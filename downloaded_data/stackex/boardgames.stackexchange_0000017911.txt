@@ -1,0 +1,15 @@
+Q:
+
+Does a +1/+1 counter remove a -1/-1 counter?
+
+My opponent controls a Kulrath Knight. I control a 4/4 creature (with a -1/-1 counter on it, due to an earlier cast Black Sun's Zenith).
+If I use an ability to put a +1/+1 counter on my 4/4 creature, will the +1/+1 counter and the -1/-1 counter cancel each other out, or will I just have a creature with both a +1/+1 counter and a -1/-1 counter on it?
+In other words: Will my creature be able to block and attack or not?
+I don't believe the rules are 100% clear on that?! (rule 704,5)
+
+A:
+
+121.3. If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it as a state-based action, where N is the smaller of the number of +1/+1 and -1/-1 counters on it. See rule 704.
+
+Both counters will be removed as a state-based action (N=1). Your creature will be able to block and attack.
+

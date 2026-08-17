@@ -1,0 +1,22 @@
+Q:
+
+Why/how was Ajani's Pridemate ability made mandatory?
+
+I just viewed this question where Ajani's Pridemate was mentioned. I noticed a small but significant difference; on all printings, including the recent Core 2019 set, its card text says
+
+Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate.
+
+Yet its official Gatherer card text omits the "you may" part:
+
+Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.
+
+Why/how was this done? I can remember some rule changes happening soon after the card was released (e.g. Walking Atlas which became an artifact creature) but not on a card which was already in play for 8 years; Ajani's Pridemate made its first appearance in 2011.
+
+A:
+
+The ability was originally optional, and it was made mandatory with the release of Ravnica Allegiance. The Ravnica Allegiance Oracle changes update bulletin explains the reasoning behind both the original choice and the errata. The short answer is that changes in tournament policy, increased popularity of digital Magic implementations, and renewed popularity of the card made the errata desirable and worthwhile. The full explanation is quoted below:
+
+Ajani's Pridemate was originally printed under a tournament policy where missing any trigger, no matter how beneficial, always resulted in a Warning. Multiple Warnings would upgrade into a Game Loss. To avoid the problem, many cards with strictly beneficial triggers had those triggers made optional—it doesn't count as "missing" a trigger if it's a "may," you just chose not to do the thing.
+Then trigger policy changed. Nowadays, missing beneficial triggers doesn't get you a penalty, you just don't get the benefit (there's some nuance to this, but I'm leaving it simple here). We've left the cards that received "may" under the old policy alone under the general Oracle policy of minimizing functional changes, so Ajani's Pridemate was printed in Core Set 2019 with its "may."
+Ajani's Pridemate has since become heavily played in a popular Standard deck, and that deck's inclusion in the upcoming Challenger Deck series became the place to print the card with errata to remove the option, making the card look and read better on paper and improving the life of digital Magic players everywhere. There isn't an Oracle update scheduled for small supplementary products like Challenger Decks, and given the options of adding one or changing the card early, digital was the deciding factor and we're releasing the card's updated wording a little early.
+

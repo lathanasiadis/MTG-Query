@@ -1,0 +1,15 @@
+Q:
+
+Can I play a Sorcery or Instant without paying its mana cost, in any way?
+
+In Magic, there are creature cards with huge mana costs (like 15 for Emrakul, the Aeons Torn), that can hardly ever be paid in a normal game of Magic. Luckily, there are many ways to "cheat" creatures into play. There also cards that can put lands, enchantments or artifacts from the hand onto the battlefield.
+Sorceries are also sometimes extremely expensive. Is there any card in Magic that allows one to play a Sorcery or Instant without paying its mana cost?
+
+A:
+
+There are a number of such cards. Recently, Omniscience gave you permission to cast any spell (instant, sorcery, creature, whatever) from your hand without paying its cost.
+There are even entire mechanics based on it, such as Cascade, or the cycle of Hideaway lands.
+Epic Experiment is the instant/sorcery version of Genesis Wave, and Mind's Desire is its predecessor. Master of Predicaments was just released, and Oracle of Bones is recent. Sunforger is older, but one of the most powerful equipment for a R/W deck: not only is the instant you cast free, but you search your deck for it, rather than needing it in your hand.
+Heck, Planeswalker's Mischief lets you cast an instant or sorcery spell for free from your opponent's hand.
+Note that when you're casting a spell without paying its mana cost, {X} can only be 0, you must still pay any required additional costs, and if you want the effect of something that comes from paying an optional cost (eg, Kicker), you'll need to pay the optional cost. Effects which look at the mana you paid for the spell (such as the hybrid mana spells which care about the colors spent) will see that no mana was spent at all, and Trinisphere will still force you to pay {3}.
+

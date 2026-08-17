@@ -1,0 +1,30 @@
+Q:
+
+Do creatures with summoning sickness deal damage while blocking?
+
+I know creatures with summoning sickness can not attack unless they have haste. My brother is using this to his defense as if you use a 3/3 creature with summoning sickness to block an attack from a 2/2 creature then the 2/2 creature would not die because you are only blocking and not attacking back. 
+
+A:
+
+From the rulebook:
+
+Unlike other types of permanents, creatures enter the battlefield with “summoning sickness”: a creature can’t 
+  attack, or use an ability that has {tap} in its cost, until it has started your turn on the battlefield under your control. 
+  You can block with a creature or activate its other abilities no matter how long it’s been on the battlefield.
+
+Blocking is not "attacking back". Blocking creatures deal damage normally, whether they have summoning sickness or not. Again, the rulebook:
+
+After all blockers are chosen, combat damage is assigned. 
+  Each creature—both attackers and blockers—deals damage 
+  equal to its power.
+• An attacking creature that isn’t blocked deals damage to the 
+  player or planeswalker it’s attacking.
+• An attacking creature that is blocked deals damage to the 
+  blocking creatures. If one of your attacking creatures is 
+  blocked by multiple creatures, you decide how to divide 
+  its combat damage among them. You must assign at least 
+  enough damage to the first blocking creature in line to 
+  destroy it before you can assign damage to the next one in 
+  line, and so on.
+• A blocking creature deals damage to the attacker it’s blocking.
+

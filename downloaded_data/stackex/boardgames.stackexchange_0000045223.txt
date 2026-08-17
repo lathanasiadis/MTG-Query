@@ -1,0 +1,15 @@
+Q:
+
+If I can see the top card of the deck, does shuffling the deck change the game state?
+
+Follow up question to Can I mill an opponent who has Emrakul, the Aeons Torn by comboing until opponent's deck is stacked in an exact way?
+Suppose in addition to the mill combo I also have Lantern of Insight in play. In this case every time I shuffle the deck, I can see the top card changing. Does this mean I can execute the mill combo now without triggering slow play rules?
+
+A:
+
+No, seeing the top card is not enough to let you execute the combo. An article about the Four Horsemen combo that was referenced in answers to the linked question has a relevant section:
+
+There are also persistent questions about what qualifies as “the same game state”, and both players and judges have misapplied this. It’s not something that we could realistically codify; there are just too many variables. In general, though, returning to the same state means that the physical state of the game as it relates to the loop has reverted back to a previous state. So, if the iteration of the loop popped a Narcomeba into play, or did a point of damage to the player, that’s a change to the game state that’s directly related to the loop in question and the game is clearly advancing. If the player tapped an island halfway through just to “change” the game state, that’s not meaningfully advancing the game, as it’s not part of the looping process.
+
+It's important to note that the examples they give for changing the game state are actions or events that make meaningful progress towards ending the loop: there are a limited number of Narcomebas in the deck, and there is a limited number of damage a player can take before they lose. Even if the top card of the library changes from one shuffle to the next, that change doesn't meaningfully advance the game, so it shouldn't be considered a different game state for the purpose of deciding whether you can continue the combo.
+

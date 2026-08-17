@@ -1,0 +1,16 @@
+Q:
+
+Sacrificing an attacking creature that should die
+
+In a recent game, my opponent declared his attacker with a (5/5) creature and I declared my blocker with a (2/3). I then played an Instant to make my (2/3) into a (5/3). Then my opponent used an Instant to sacrifice a creature and draw a card. He then claimed that my creature should die because his (5/5) went against my (5/3).
+My question now is, shouldn't his creature have died and therefore not be able to sacrifice it anymore?
+Or is it still possible for him to do AND take the combat damage AND sacrifice his creature?
+
+A:
+
+He can either trade creatures, or he can sacrifice his creature, but not both.
+During the declare blockers step, after declaring blockers but before the combat damage, you have a chance to cast spells and activate abilities. If at this point he sacrifices his creature, then it will no longer be around in the combat damage step and won't deal any combat damage to the creature blocking it.
+If on the other hand he does nothing and lets combat damage happen, his 5/5 will have 5 damage marked on it and before he gets a chance to do anything, it will die. (Precisely, it will die when state-based actions are checked during the combat damage step just before players would get priority and be able to cast spells and activate abilities. By the time they get that chance, it's already dead.)
+
+As doppelgreener pointed out, a long time ago combat damage actually did use the stack and could be responded to. Back then, this meant those two creatures could put 5 damage on the stack to be dealt to each other like any other ability, and then before it was dealt one of them could be sacrificed, and the damage would still get dealt. That hasn't been true since 2009, but it's possible your opponent hasn't kept up with rules since then!
+

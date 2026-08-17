@@ -1,0 +1,20 @@
+Q:
+
+How does exiling cards for Delve work?
+
+Rite of Undoing reads:
+
+Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Return target nonland permanent you control and target nonland permanent you don't control to their owners' hands.
+
+Please clarify - to exile means to 'banish' from the game? Why would I do that to my own cards? If otherwise, does the {1} mean each card 'exiled' costs 1 mana each?
+Finally, if so, where do the cards go, hand, library, battlefield?
+
+A:
+
+Exile means move into the exile zone which, yes, pretty much means they're gone. There are some exceptions, e.g. the Eldrazi Processors, Pull From Eternity, but the idea is mostly that exile is just gone. It's a completely separate zone, not part of any other zone. (You mention hand, library, and battlefield; those are also zones, as are your graveyard and the stack, and the exile zone is separate from all of them.)
+But... that's not the important part of Delve. The important part is that you can cast spells cheaply! Each card you exile reduces the amount you have to pay by one mana. Have a bunch of cards in your graveyard you're not doing anything with? Exile them all, cast that Rite of Undoing for just one blue mana!
+The effect is so powerful that cards like Treasure Cruise and Dig Through Time had to be banned. It's quite easy to fill up your graveyard, and with that done, Treasure Cruise lets you draw three cards for just one mana, and Dig Through Time lets you look at seven and keep two for just two mana. Sure, the exiled cards are gone, but it's worth it!
+
+A couple side notes about exile: "exile" was originally written as "remove from the game" - see for example this older edition of Path to Exile. "Exile" is hopefully clearer; putting something into an exile zone with generally no way to interact with it is more specific than the vague "removed from the game". And in the rare cases in which something can come back, moving something from the exile zone sounds a lot nicer than returning something from being removed from the game. (AWOL from Unhinged makes fun of this whole deal.)
+

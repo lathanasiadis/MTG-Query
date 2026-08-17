@@ -1,0 +1,16 @@
+Q:
+
+Can 0 or negative power creatures deal direct damage?
+
+If I have a creature that has 0 or negative power and it has a Viridian Longbow attached to it, does it still deal 1 damage because of the effect the equipment gives it, or does it not because of the negative or 0 power?
+
+A:
+
+Magic: the Gathering cards usually mean exactly what they say, nothing more and nothing less.
+The power of a creature is only relevant when
+
+Dealing combat damage
+An effect explicitly mentions the power of that creature (albeit maybe hidden behind keywords, like "fight")
+
+The ability granted by Viridian Longbow doesn't mention the power of the equipped creature, so therefore it doesn't care. One damage is dealt regardless.
+

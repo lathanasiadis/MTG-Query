@@ -1,0 +1,31 @@
+Q:
+
+Sundial of the Infinite and "Sacrifice at the end of turn"
+
+The card Sundial of the Infinite allows you to abruptly end your turn. 
+What effect does Sundial of the Infinite have on cards like Incandescent Soulstroke which the card states 
+
+"Sacrifice it at end of turn"
+
+but gatherer.wizards.com states 
+
+"Sacrifice it at the beginning of the next end step"
+
+Would this creature still have to be sacrificed? And why the discrepancy between what the card actually says and what the rules text is on gatherer?
+
+A:
+
+Why is the card text different from the rules text on the Gatherer?
+The Gatherer text (typically referred to as Oracle text) has precedence over the card text. For all intents and purposes, you can ignore the text on Incandescent Soulstroke, and pretend that it actually says:
+
+[...] Sacrifice it at the beginning of the next end step.
+
+You might think, "Well if I can't trust what the card says, how can I play the game without looking up every single card?". Over time you will develop a feel for what common errata are. For example, "remove from the game" typically means "exile". At sanctioned tournaments, you are allowed to ask the judges for Oracle text. They will provide it to you.
+Does the creature have to be sacrificed even though I ended the turn?
+Incandescent Soulstroke sets up a delayed triggered ability. Delayed triggered abilities are basically abilities that will trigger at a later point, when their condition is met. For Soulstroke, that condition is "at the beginning of the next end step".
+Sundial of the Infinite ends the turn. When you end the turn, the rules say that you skip straight to the Cleanup step.
+
+715.1d The current phase and/or step ends. The game skips straight to the cleanup step; skip any phases or steps between this phase or step and the cleanup step. If an effect ends the turn during the cleanup step, a new cleanup step begins.
+
+Pulling this all together, if you skipped the end step by ending the turn, then the creature won't be sacrificed (yet). However, it will still be sacrificed during the next end step, whenever that comes. As a couple of commenters pointed out, a clever solution to this problem is to activate Sundial while Soulstroke's triggered ability is on the stack. The trigger will be removed from the stack as part of ending the turn, and it will never trigger again.
+

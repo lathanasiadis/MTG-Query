@@ -1,0 +1,25 @@
+Q:
+
+What happens if a creature has no toughness defined?
+
+Dominaria introduced Merfolk Trickster, which causes a creature to lose all abilities, without setting a power and toughness.
+What happens if a card such as Tarmogoyf loses all abilities? 
+Would Tarmagoyf become a 0/0 in this case, because a number not defined is treated as 0? Or would it possibly be a 0/1, because the printed toughness on the card is "*+1", and only the "*" part is undefined? What about a card like Boneyard Wurm, would it just become 0/0 (and thus die)?
+There seems to be a possible contradiction between the comprehensive rules and the Gatherer rulings. The Gatherer rulings say:
+
+If the target creature has power and toughness written as / with an ability that defines its power and toughness, it’s 0/0 when it loses all abilities. If its power and toughness are written as */*+1, it’s 0/1, and so on.
+
+Rule 208.5 deals with this situation:
+
+208.5. If a creature somehow has no value for its power, its power is 0. The same is true for toughness.
+
+It seems to me that a Tarmagoyf that loses all abilities has no toughness defined. It's toughness is written as "*/1+*", which according to 208.2, its toughness should be defined by its abilities.
+So, while it is clear that a */* creature will be a 0/0 if it loses all abilities; what happens to a */*+1? Is it 0/0 or 0/1?
+Also, I find it interesting, though not likely relevant, that Tarmogoyf is written "*/1+*" (with the 1 first), while the Gatherer ruling references cards that are "*/*+1" (with the * first).
+
+A:
+
+With the introduction of Vehicles in the set Kaladesh, this situation is now possible and explicitly covered by the rules.
+
+208.5 If a creature somehow has no value for its power, its power is 0. The same is true for toughness.
+

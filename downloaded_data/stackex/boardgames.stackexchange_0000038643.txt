@@ -1,0 +1,21 @@
+Q:
+
+Hostage Taker + Inspiring Statuary
+
+Hostage Taker reads:
+
+When Hostage Taker enters the battlefield, exile another target
+  creature or artifact until Hostage Taker leaves the battlefield. You
+  may cast that card for as long as it remains exiled, and you may spend
+  mana as though it were mana of any type to cast that spell.
+
+Inspiring Statuary reads:
+
+Nonartifact spells you cast have improvise.
+
+Can I pay {X} to summon the Hostage Taker's exiled permanent using Improvise (tap a artifact permanent to pay {1} of its cost) up to {0} cost. 
+
+A:
+
+No.  Hostage Taker says mana may be spent as though it were any type.  Improvise does not generate mana, and therefore cannot be used to pay for any mana-type specific parts of the cost.  Improvise may still be used to pay for the generic mana portion of the cost (if any).
+

@@ -1,0 +1,35 @@
+Q:
+
+How does Valakut work?
+
+Valakut, the Molten Pinnacle has an ability that says:
+
+Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.
+
+Going by the wording, it appears that Valakut triggers every time a mountain enters the battlefield, and then checks the number of other mountains at resolution.
+But then it has to deal 3 damage to a target.
+My questions are:
+
+Does Valakut put another ability on the stack when this happens? If so, what kind of ability is it?  Is it a triggered ability that can be copied with Strionic Resonator?
+If it's all the same ability, then does the controller of Valakut technically have to choose a target regardless of whether he has 5 other Mountains or not? So does a Valakut and one Mountain kill a Phantasmal Image?
+
+A:
+
+You've partially answered your own question here: there is a single ability, which checks something on resolution. But it in fact checks the condition before triggering and on resolution! The fancy thing going on here is often called an "intervening if clause". Here's the detailed sequence of events:
+
+Valakut sees a Mountain enter the battlefield, and says "maybe I need to trigger!" The game checks to see if you have at least five other mountains, and if you do, the ability triggers and is placed on the stack. You choose the target here.
+Maybe other things happen in response?
+The ability resolves.
+
+The ability checks again to see if you control at least five other mountains. (Maybe one got destroyed in the meantime?)
+Assuming you do, it deals three damage to the chosen target.
+
+Here's the relevant comp rule:
+
+603.4. A triggered ability may read "When/Whenever/At [trigger event], if [condition], [effect]." When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn't true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the "intervening 'if' clause" rule. (The word "if" has only its normal English meaning anywhere else in the text of a card; this rule only applies to an "if" that immediately follows a trigger condition.)
+
+A side note: Evolve is a prominent recent example of a triggered ability with an intervening if clause. It doesn't target, but in some cases it can be very relevant that the ability checks again on resolution.
+So for your specific questions:
+No, there's no second ability, just the triggered ability which happens to check for a condition twice. But the ability is a triggered ability, and you can copy the whole thing with Strionic Resonator. The original and the copy will still check the "if" clause when they resolve.
+If you don't have enough Mountains, you don't put the ability on the stack, so you don't choose a target, so no, you can't kill a Phantasmal Image with it.
+

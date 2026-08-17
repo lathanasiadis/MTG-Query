@@ -1,0 +1,18 @@
+Q:
+
+Does the 2nd ability of Teysa, Orzhov Scion trigger with mass destruction?
+
+Let's say Teysa, Orzhov Scion and my ten other black creatures are wiped out with "Wrath of God". Do then 10 white 1/1 Spirits appear on the battlefield even though Teysa has just been destroyed?
+Sounds pretty strong to me.
+Am I right?
+Thanks a lot.
+
+A:
+
+Yes, if Teysa, Orzhov Scion and 10 other black creatures all die at the same time, you get 10 Spirit tokens. Rule 603 covers how triggered abilities work:
+
+603.6c. Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren't limited to, "When [this object] leaves the battlefield, ..." or "Whenever [something] is put into a graveyard from the battlefield, ..." An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone "from anywhere" is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
+603.6d. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
+
+The ability is a leaves-the-battlefield ability and it existed before the creatures were destroyed, so the ability triggers.
+

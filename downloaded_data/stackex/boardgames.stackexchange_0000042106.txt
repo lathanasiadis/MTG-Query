@@ -1,0 +1,23 @@
+Q:
+
+Is it possible to use mirage mirror when your turn starts before upkeep step?
+
+For instance could you use Mirage Mirror on Venser's Journal, before your upkeep and get either 2 lots of life per card in your hand, or is it possible to mirror an opponents journal before your own upkeep step and receive its effects?
+
+A:
+
+No, that won't work.
+The reason for that is that the first time a player gets priority, i.e. the right to cast a spell or activate an ability, is after the upkeep has started. By that time, Venser's Journal has already triggered, and copying it at that time is too late to get another trigger.
+
+Beginning Phase
+
+501.1. The beginning phase consists of three steps, in this order: untap, upkeep, and draw.
+
+Untap Step
+
+502.3. No player receives priority during the untap step, so no spells can be cast or resolve and no abilities can be activated or resolve. [..]
+
+Upkeep Step
+
+503.1a Any abilities that triggered during the untap step and any abilities that triggered at the beginning of the upkeep are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+

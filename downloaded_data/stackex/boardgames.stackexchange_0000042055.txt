@@ -1,0 +1,16 @@
+Q:
+
+Can a countered creature be regenerated?
+
+After a creature is countered by a spell such as Counterspell can it regenerate. I was trying to counter my friend's Mortivore, but he said it could regenerate from that. So I need help trying to figure if he is lying or not.
+
+A:
+
+No, a creature cannot use Regenerate to avoid being countered.
+When your friend casts Mortivore, it goes on the Stack as a Spell.  It is not a Creature until the spell resolves and leaves the stack.
+Counterspell uses the Counter keyword action, which removes a spell from the stack.  This means the spell never resolves and does not have any effect.  In the case of a creature spell, the effect is to put a creature on the battlefield; if it is countered, the creature is never created.
+The abilities on a creature card (including regeneration) cannot be used until the card has finished being cast and become a creature on the battlefield*.  Therefore, Regenerate cannot be used while Mortivore is on the stack.
+Since Counterspell gets rid of Mortivore while it is still on the stack, your friend cannot use Mortivore's regeneration ability to avoid your Counterspell.
+Note: Even if you could use a regeneration ability from the stack, it still wouldn't apply here.  Regeneration only applies when a permanent would be Destroyed, which is different than being countered.
+*Except in certain exceptional cases, none of which apply here.
+

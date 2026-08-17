@@ -1,0 +1,28 @@
+Q:
+
+If I attack with 2 creatures that both have "All creatures able to block this creature do so", how are blockers determined?
+
+Say I have 2 creatures enchanted with Lure or 2 Taunting Elves attacking: Does my opponent get to choose which of their creatures blocks each one or do I? What if one of those attacking creatures also has flying but the other does not? If one of my opponent's creatures can block multiple creatures, must they block both?
+
+A:
+
+Comprehensive Rule:
+
+509.1c The defending player checks each creature he or she controls to see whether it's affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can't block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed.
+Example: A player controls one creature that "blocks if able" and another creature with no abilities. An effect states "Creatures can't be blocked except by two or more creatures." Having only the first creature block violates the restriction. Having neither creature block fulfills the restriction but not the requirement. Having both creatures block the same attacking creature fulfills both the restriction and the requirement, so that's the only option.
+
+Answers to your questions, as covered by this rule:
+
+Does my opponent get to choose which of their creatures blocks each one or do I?
+
+Nothing in the Lure ability says that you get to choose. The defender has to follow the maximum number of requirements without disobeying any restrictions.
+One of the restrictions on the defenders, barring any additional abilities, is that they may only block one creature. Therefore, the defender must block one of your attackers and may choose which one to block, as that fulfills the maximum number of requirements without disobeying the restriction of only being able to block one creature.
+
+What if one of those attacking creatures also has flying but the other does not?
+
+Obviously, if a defender is unable to block creatures with flying (that is a restriction) that defender must block the one it is able to block.
+
+If one of my opponent's creatures can block multiple creatures, must they block both?
+
+If a creature is able to block multiple creatures it must meet the maximum number of requirements that could be obeyed, therefore it must block both creatures if able. (Unless that blocker is something like an Anurid Swarmsnapper… as rule 509.1c states, the defender is not required to pay a cost to increase the number of requirements obeyed.)
+

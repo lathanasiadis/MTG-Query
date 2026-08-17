@@ -1,0 +1,27 @@
+Q:
+
+Confused by Magic the Gathering Arena trigger damage order (Revenge of Ravens)
+
+I was playing MTG Arena and I had a funny situation where my opponent had Revenge of Ravens (ROR). I attacked with a bunch of monsters and soon after died.
+Something similar happens in this video at 0:24
+https://www.youtube.com/watch?v=QtdqIZbeDss
+and I was puzzled at the order in which damage was assigned. Here's what the text says:
+
+Whenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life and you gain 1 life.
+
+So I would have thought that the damage due to the attacks would be assigned before the effects of ROR.
+But instead the opposite happened and as a result I died before my opponent like in the video. It felt very counter-intuitive to me given the text... because I died before any of my attacks ever even "happened".
+My question is are all enchantments related to combat triggered like this (ie the effects of the trigger are assigned before the combat damage is assigned). Or are there some enchantments whose effects are assigned after combat damage? Thanks.
+
+A:
+
+Revenge of Ravens works correctly. It deals damage as soon as creatures attack, before they deal combat damage.
+The combat phase is a multi-step process, it doesn't simply happen all at once. In the most simple terms, first the attacker declares the creatures which attack, then the defender declares the blocking creatures, then creatures deal combat damage.
+Between each of these steps, players can cast spells, and abilities like ROR can trigger and resolve. ROR triggers on that first step, when creatures attack, so it can absolutely kill the attacking player before any of their creatures can deal combat damage.
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat.
+
+The priority system determines which player, if any, can cast spells and activate abilities. The priority system also determines when spells and abilities on the stack resolve.
+
+117.3a The active player receives priority at the beginning of most steps and phases,
+

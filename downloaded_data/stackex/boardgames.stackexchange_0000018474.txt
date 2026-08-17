@@ -1,0 +1,16 @@
+Q:
+
+Can you untap an attacking creature to use its ability at the end of declare blockers?
+
+Looking at this question and this question, it seems like I can activate abilities after blockers are declared (and before damage is assigned).
+So if I'm attacking with Scourge of Skola Vale, can I untap it (say with Kiora's Follower) then tap it and sacrifice a creature to pump it with +1/+1 counters, thus doing extra damage?
+Would this also work if I'd given it vigilance before declaring the attack?
+
+A:
+
+Yes.
+
+Untapping it does not remove it from combat[CR 506.4, CR 506.4b]. Neither does tapping it to pay a cost.
+You get the chance to use abilities at the end of the Declare Blockers Step[CR 509.5]. The game will only advance to the next step once all of these has resolved and noone want to activate any others[CR 116.4].
+Damage is only calculated in a later step (the Combat Damage Step)[CR 510.2], so the +1/+1 counters added in the Declare Blockers Step will affect the damage dealt.
+

@@ -1,0 +1,15 @@
+Q:
+
+Is the bloodrush ability affected by cards that reduce casting cost?
+
+If I'm playing Wrecking Ogre, a spell with Bloodrush 3RR and have a Ruby Medallion out (all red spells cost 1 less to play) does this also affect the Bloodrush?
+In the same vein, can I use Smokebraider's ability ({T}: Add two mana in any combination of colors to your mana pool. Spend this mana only to cast Elemental spells or activate abilities of Elementals) to pay the Bloodrush on a Scorchwalker (which is an elemental creature)?
+
+A:
+
+Bloodrush is an activated ability that you can use from your hand. You are not casting the card when you use it. Thus, bloodrush is unaffected by any effects that modify casting costs.
+Cards that affect abilities, however, do affect bloodrush — as long as they can affect cards in your hand. E.g. Suppression Field will make all bloodrush cards more expensive to activate because it doesn't limit the scope of "activated abilities," but Training Grounds does not modify bloodrush costs because it is scoped to creatures you control (not creatures cards in your hand).
+In Smokebraider's case, the card specifies "abilities of Elementals," which means permanents with the Elemental type. This is clarified in the Oracle text:
+
+10/1/2007     The mana can't be spent to activate activated abilities of Elemental sources that aren't on the battlefield.
+

@@ -1,0 +1,33 @@
+Q:
+
+What does X mean in a spell's cost?
+
+What does the X in a spell's cost do? For example, Strength of the Tajuru has X in its cost. What do I need to do in order to cast that spell, and what happens with the X when it resolves?
+Note: If you need help understanding multikicker, see How does multikicker work?
+
+A:
+
+When you cast a spell with X in its cost, you decide how much X will be and then add that amount to the rest of the spell's cost when you pay it. When the spell resolves, you treat any "X" in the text box of the card as the chosen number.
+In the specific case of Strength of the Tajuru, you choose a number for X, then (assuming you don't kick it) you pay the chosen number mana of any color, plus 2 green mana. When the spell resolves, you add the chosen number of counters to the target creature.
+The basic rulebook has a description of X costs in the glossary:
+
+X, {X}—Some spells and abilities have effects
+  that change depending on how much mana
+  you use to pay for them. For example, Heat Ray
+  is an instant spell that costs {X}{R} and deals X
+  damage. If you paid {3}{R} to cast it, it would deal
+  3 damage. If you paid {6}{R} to cast it, it would
+  deal 6 damage.
+
+Rule 601.2b more specifically covers paying for spells with X costs:
+
+If the spell is modal the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it's being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2e). A player can't apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player's options when making these choices.
+
+When a card with {X} in its cost is in any zone other than the stack, the X is considered to be 0 for the purpose of any calculations. This is specified in rule 202.3b:
+
+When calculating the converted mana cost of an object with an Manax.gif in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack
+
+The one exception is permanents' abilities that need to know about their own mana costs, as rule 400.7c says:
+
+If an ability of a permanent requires information about choices made as that permanent was cast as a spell, including what mana was spent to cast that spell, it uses information about the spell that became that permanent as it resolved.
+

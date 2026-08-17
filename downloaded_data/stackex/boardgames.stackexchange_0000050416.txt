@@ -1,0 +1,30 @@
+Q:
+
+What is the difference between Kunoros, Hound of Athreos' graveyard abilities?
+
+Kunoros, Hound of Athreos has the following two static abilities.
+
+Creature cards in graveyards can't enter the battlefield.   
+Players can't cast spells from graveyards.
+
+Why does he have these two static abilities?  Wouldn't it be enough to indicate only the second of the two abilities?
+It is clear that it is, in the first place, a card that prevents players from using the Escape ability.
+   
+But I think there are other notable implications. 
+It is good to clarify the difference that this card implicitly indicates between:   
+
+"Creatures that come into play from the graveyard"
+"Spells cast from the graveyard". 
+
+I think it is appropriate that at least one valid example should be included in the answer, that makes it clear why the difference we are talking about is really important.
+
+A:
+
+The difference would be that not every card was a spell before it entered the battlefield.
+
+112.1. A spell is a card on the stack. [...]
+
+Spells are objects you put on the stack after casting them - normally from your hand, but occasionally from your graveyard, such as with Abandoned Sarcophagus. The second ability of Kunoros prevents that from happening.
+Other cards, such as Emeria, the Sky Ruin, will put creature cards in play without ever putting them on the stack, meaning they will never exist as spells. Kuronos's second ability does not apply to the Sky Ruin, but the first ability does and prevents even this ability from being useful.
+Note also that Kuronos's first ability does not prevent the Sky Ruin from casting cards from the graveyard, because it only explicitly defines that cards can't change from the graveyard to the battlefield zone.
+

@@ -1,0 +1,39 @@
+Q:
+
+The Scarab god and commanders
+
+If I use The Scarab gods activated ability on a commander (regardless of whose commander it is), if the owner of the legendary creature in question sends their commander back to the command zone will I still get the token copy? 
+The activated ability says
+
+{2}{U}{B}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.
+
+Pretty sure I do in this case since the replacement effect occurs AFTER I exile with the scarab god.
+
+A:
+
+Yes, you get the copy.
+400.7h (if moved to public zone) or 608.2g (if moved to hidden zone) allows the The Scarab Gods (TSG) to obtain characteristics to copy because it's still TSG that moves the card when the replacement effect is applied.
+
+Let's start at looking at what happens without the replacement effect.
+There are two instructions (verbs) to follow. First, The Scarab Gods (TSG) exiles the creature card. Then, the copy is made. TSG must be able to find the creature card in order to copy it, or else it wouldn't know what characteristics to give the copy. It's pretty obvious that it can (or the card would never work), but let's find out why.
+A fundamental rule of MTG dictates that an object moving from one zone (e.g. the graveyard) to another (e.g. exile) doesn't truly move. What actually happens is that the original object ceases to exist in old zone, and a new object is created in the new zone.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+But TSG can find the creature card in exile. How? Well, it's because of one of the aforementioned exceptions.
+
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. [...]
+
+So, because TSG is the one that placed the creature card in exile, it can find it there, and thus, can make a copy of the card (as it appears in exile).
+
+Now let's look at what happens with the replacement effect.
+Again, there are two instructions (verbs) to follow. First, The Scarab Gods (TSG) moves the Commander to the Command Zone (instead of exiling it). Then, the copy is made. 
+The key is that the replacement effect doesn't cause the Commander to move to the Command Zone; it causes TSG to move it there instead of exiling it. So, even though the Command Zone is not mentioned anywhere on TSG, 400.7h still applies, and the copy of the card (as it appears in the Command Zone) can be made.
+
+But what if a replacement effect similar to the one that allows Commanders to be placed in the Command Zone instead of exile allowed the card to be placed in a hidden zone (e.g. a library) instead of exile. Would the copy fail then?
+Well, The Scarab Gods (TSG) would not be able to find the card after it moved, so TSG wouldn't know its characteristics, and TSG wouldn't be able to make a copy of it, except for the following rule:
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 112.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+So even then, TSG would still be able to create a copy of the card (as it appeared in graveyard).
+

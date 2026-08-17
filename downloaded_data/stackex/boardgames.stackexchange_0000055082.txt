@@ -1,0 +1,24 @@
+Q:
+
+Can you sacrifice a permanent you don't control when explicitly allowed?
+
+I use Price of Loyalty to gain control of a creature with an attached Spare Dagger.
+This means, the creature I control has
+
+Whenever this creature attacks, you may sacrifice Spare Dagger. When you do, this creature deals 1 damage to any target.
+
+even though I don't control the Spare Dagger.
+May I actually sacrifice the Spare Dagger to get the effect?
+I had this situation in Arena, and I did not get the option to sacrifice. I am wondering if this is correct and why so.
+
+A:
+
+You may not sacrifice the dagger. Although Spare Dagger's ability would ordinarily allow you to sacrifice it, the rules prevent you from actually doing so: only a permanent's controller can sacrifice that permanent. If you're somehow given the opportunity to sacrifice something you don't control ... you just can't, because you're not its controller.
+That's baked into the rules for Sacrifice:
+
+701.17a. To sacrifice a permanent, its controller moves it from the battlefield directly to its owner's graveyard. A player can't sacrifice [...] a permanent they don't control.
+
+Arena didn't give you the opportunity to try to sacrifice the dagger because you wouldn't be able to. The actual controller may not sacrifice it either, because it is you that's offered the opportunity to sacrifice it.
+
+Note this would be different for some other equipment. This answer applies to Spare Dagger specifically because it grants the sacrifice ability to the attacking creature, which you control. If this were Throwing Knife, instead the ability would trigger for the controller, and the controller would get the opportunity to sacrifice the equipment they still control and choose the targets for the damage.
+

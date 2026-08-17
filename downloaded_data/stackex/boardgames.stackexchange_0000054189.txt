@@ -1,0 +1,13 @@
+Q:
+
+Clarification on Provoke the Trolls
+
+I'm not sure if I understand what Provoke the Trolls spell does correctly.
+If I cast this spell on Knight of Obligation and it resolves, does it basically mean that it becomes a 7/1 creature until end of turn (3 damage and +5/+0 until end of turn)?
+
+A:
+
+Yes, that's a reasonable simplification.
+To be more precise, it's a 7/4 with 3 damage on it. This may matter in the case of another card which wants to know the toughness of the creature like Abattoir Ghoul. If you attack with the Knight and your opponent blocks with the Ghoul, they'll gain 4 life, not 1.
+Also, resolving Provoke the Trolls is not enough; it needs to actually deal damage. If the damage is prevented, e.g. with Avacyn, Guardian Angel's first ability, it doesn't get the +5/+0 bonus.
+

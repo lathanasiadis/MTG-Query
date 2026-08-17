@@ -1,0 +1,16 @@
+Q:
+
+Can I use a fetch land to shuffle my deck while the opponent has Ashiok, Dream Render in play?
+
+Ashiok, Dream Render prevents the opponent from searching their library. This neutralizes cards like the fetch lands (like Polluted Delta). Would the land's controller still be allowed to activate it in order to shuffle their deck, without searching for the land?
+
+A:
+
+Yes, you can still activate the Delta's ability in order to shuffle your library, according to one of the rulings under the card in Gatherer:
+
+If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
+
+Note that the Polluted Delta says "Search your library" and not the very similar "You may search your library" like Civic Wayfinder; in that case, choosing to shuffle is not possible.
+
+If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
+

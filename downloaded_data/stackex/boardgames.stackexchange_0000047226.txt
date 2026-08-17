@@ -1,0 +1,20 @@
+Q:
+
+Will casting a card from the graveyard with Flashback add a quest counter on Pyromancer Ascension?
+
+Assume the following situation:
+I have Pyromancer Ascension in play with, let's say 0 counters on it. Faithless Looting is in my graveyard and I cast it for its flashback costs. Will the Ascension get a quest counter?
+
+A:
+
+You only get a quest counter if you have two Faithless Lootings in your graveyard when you use flashback.  See the card specific ruling:
+
+If you cast an instant or sorcery spell from your graveyard (due to an ability such as flashback, for example), Pyromancer Ascension’s first ability won’t trigger unless another card with the same name is in your graveyard.
+
+The reason for this is that when you cast one of them, it stops being in your graveyard and moves to the stack:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+Thus, when Pyromancer's first triggered ability checks its trigger, the copy you cast with flashback will be on the stack, not in the graveyard.
+

@@ -1,0 +1,30 @@
+Q:
+
+How do costs to attack work?
+
+Despite having what I feel is a fairly solid understanding of most rules and timings, I can't figure out Archangel of Tithes, and I'm clashing with intent and wording.
+Archangel of Tithes says "As long as Archangel of Tithes is untapped, creatures can't attack you or a planeswalker you control unless their controller pays {1} for each of those creatures." Some of this confusion affects other cards, like Oppressive Rays.
+Which of the following is correct?
+1: You have to pay every time you attack (as long as AoT is untapped), no matter what's happened previously. Because of AoT's wording, it doesn't mention that it has to happen each attack, nor does it put a duration on how long paying allows you to attack or block. However, is there a part of the rules I've missed that explains this? Can I pay the cost at any time, or does something in the rules make it trigger on each attack?
+2: You only have to pay once. This is a static effect that prevents a creature from attacking unless its owner has, at some point, paid, because there's no duration on the "unless".
+3: You have to pay at least once, but not any more until AoT becomes tapped and then untapped. Because "as long as it's untapped" puts a duration on the freedom-from-not-attacking.
+4: I have AoT completely misunderstood and you have to pay totally. Strictly by the wording, I could interpret AoT as meaning that I have to pay for all of my creatures. It says (creatures can't attack) unless (controller pays for each), so even if I want to attack with 1 of my 5 creatures I still pay 5. The alternate wording would be (each creature can't attack unless its controller pays 1).
+I feel like 1 is the intent, but I can't totally justify it based on its wording with my current rules knowledge.
+
+A:
+
+Your interpretation #1 is correct.
+Whenever a combat phase starts, you name all the creatures that you want to attack with (or have to). Then if the player (or controller of the planeswalker) you attack has an untapped AoT, you determine the total mana costs (1 per creature that is about to attack), then you choose whether or not to pay the mana costs. If you don't, none of the creatures can attack. If you do, they can. This process repeats in every combat phase, regardless of what you have done or not done in previous combat phases.
+
+508.1d The active player checks each creature he or she controls to see whether it’s affected by any requirements (effects that say a creature must attack, or that it must attack if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal. If a creature can’t attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed.
+508.1g If any of the chosen creatures require paying costs to attack, the active player determines the total cost to attack. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes “locked in.” If effects would change the total cost after this time, ignore this change.
+508.1h If any of the costs require mana, the active player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”).
+508.1i Once the player has enough mana in his or her mana pool, he or she pays all costs in any order. Partial payments are not allowed.
+
+The equivalent thing happens when you declare blockers while an enemy AoT is attacking.
+
+509.1c The defending player checks each creature he or she controls to see whether it’s affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can’t block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed.
+509.1d If any of the chosen creatures require paying costs to block, the defending player determines the total cost to block. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes “locked in.” If effects would change the total cost after this time, ignore this change.
+509.1e If any of the costs require mana, the defending player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”).
+509.1f Once the player has enough mana in his or her mana pool, he or she pays all costs in any order. Partial payments are not allowed.
+

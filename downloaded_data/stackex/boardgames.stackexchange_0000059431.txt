@@ -1,0 +1,13 @@
+Q:
+
+Ovika, Enigma Goliath: do free spells cause goblins?
+
+Suppose Ovika, Enigma Goliath is on the battlefield, an opponent casts some form of targeted removal(Path to exile) at it, in response the ovika player casts Fierce Guardianship for free.
+question is: what's the mana value of the counter spell on the stack?
+I think it's still 3 and would make 3 goblins from Ovikas triggered ability, right?
+
+A:
+
+The mana value of a spell is always calculated from the mana cost printed on the card, no matter what you actually spent to cast it.
+So yes, Fierce Guardianship always has a mana value of 3, and it will always cause Ovika to make 3 creatures. On the other hand, if a spell is printed with a mana value of 0, then Ovika will make no creatures, even if you spend mana to cast it.
+

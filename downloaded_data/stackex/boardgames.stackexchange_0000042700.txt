@@ -1,0 +1,20 @@
+Q:
+
+Do I draw cards from playing Lich at negative life?
+
+I have negative 10 life, such as due to Platinum Angel and I play Lich.  Lich says:
+
+As Lich enters the battlefield, you lose life equal to your life total.
+If you would gain life, draw that many cards instead.
+
+Does playing Lich in this situation cause me to draw 10 cards (by means of causing me to gain 10 life and then replacing that with card draw)?
+
+A:
+
+Nothing happens. You lose 0 life, which is the same as not losing any life. You don't draw cards.
+I think what you're imagining is "losing negative ten life" = "gain 10 life".  However, you cannot lose negative life.
+
+107.1b Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or a creature’s power and/or toughness.
+
+The first bolded section is pretty clear cut ("You can't [...] gain negative life") but the second part also explains the principle behind it. The principle is that when you're gaining life, you gain +number life, but the calculation sees you would gain -number life instead, so we replace the negative with 0: you gain 0 life.
+

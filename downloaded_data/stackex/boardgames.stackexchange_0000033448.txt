@@ -1,0 +1,19 @@
+Q:
+
+Do effects that can destroy a Commander and generate a token prevent the Commander from being put in the Command Zone?
+
+If the Commander is turned into a 3/3 monkey, or another type of token creature by a different effect, can it still be put in the Command Zone instead of in the graveyard?
+
+A:
+
+There are two different kinds of effects that are similar to the one described. One is a card like Pongify, which has this text:
+
+Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.
+
+If you cast Pongify on a commander, the commander is destroyed when the spell resolves, and its controller can choose to move it to the command zone at that time. Once the Pongify resolves, the Ape token exists as a completely separate creature from the commander.
+There are also cards like Turn to Frog, which has this text:
+
+Until end of turn, target creature loses all abilities and becomes a blue Frog with base power and toughness 1/1.
+
+If you cast Turn to Frog targeting a creature, it still counts as the same creature; it has just changed characteristics. But the property of being a commander is inherent to the card and doesn't change after the game begins, so that creature is still a commander, and can still be moved to the command zone when it is destroyed.
+

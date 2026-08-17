@@ -1,0 +1,17 @@
+Q:
+
+What happens if a blocking creature with flying loses flying?
+
+Lets say that both  my opponent and I both have a 1/1 white flying spirit. Now lets say I declare my spirit as an attacker, and my opponent declares their spirit as a blocker.  After they declare their spirit as a blocker I cast Turn to Frog, which causes their spirit to lose all abilities and become a 1/1 blue frog until end of turn.  What happens?
+
+A:
+
+Your creature is still blocked. The blue frog will still deal damage.
+If you cast Turn to Frog after attackers are declared, but before blockers are declared, your spirit can't be blocked by that creature.
+
+509.1b The defending player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
+Example: An attacking creature with flying and shadow can't be blocked by a creature with flying but without shadow.
+
+The check for evasion ability blocking restrictions is made before blockers are declared, but is not made again. If the attacker gains or loses evasion abilities it doesn't matter. It's not explicitly mentioned in that rule, but it logically follows that if the defender gains or loses the ability to block flying creatures after the block is declared, it doesn't matter.
+

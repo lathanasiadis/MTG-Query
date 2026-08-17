@@ -1,0 +1,21 @@
+Q:
+
+How much damage is dealt if a 1/1 creature blocks a 3/5 creature?
+
+If a 1/1 creature is enchanted with Druid's Call and is blocked or is blocking another creature that is a 3/5 creature, does it create 1 squirrel or 3 squirrels?
+
+A:
+
+The player will get 3 tokens.
+The amount of damage dealt is not limited by the affected creature's toughness (or planeswalker's loyalty, or player's life). There is no explicit rule stating this fact, but if you look at the definitions of the two kinds of damage (combat and spell/ability), there is also no rule making such a limitation:
+
+120.2a Damage may be dealt as a result of combat. Each attacking and blocking creature deals combat damage equal to its power during the combat damage step.
+120.2b Damage may be dealt as an effect of a spell or ability. The spell or ability will specify which object deals that damage.
+
+Damage dealt beyond a creature's toughness is called excess damage, which a few cards make an explicit reference to, but other than that, the amount of damage dealt is what it says.
+
+120.4a First, if an effect is causing damage to be dealt to a creature and that effect specifies that excess damage is dealt to another object or player instead, the damage event is modified to deal damage accordingly. Excess damage is damage greater than the creature’s toughness, taking into account damage marked on that creature and other damage being dealt to it at the same time as this damage. Any damage greater than 1 is excess damage if the source dealing that damage has deathtouch.
+
+From this rule you can also see that a creature can sustain any amount of damage, not just how much toughness it has.
+Note that if the 3/5 creature was attacking and also had trample, the attacking player could choose to deal some or all of the excess damage to the defending player. In that case, the defender would get a number of squirrels equal to the damage that was actually assigned and dealt to the 1/1.
+

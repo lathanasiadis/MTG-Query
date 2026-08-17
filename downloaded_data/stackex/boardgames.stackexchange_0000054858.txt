@@ -1,0 +1,36 @@
+Q:
+
+What is the minimal number of permanents which, in a finite number of turns, can create a copy of each of themselves?
+
+Consider the following (unlikely) scenario in a game of Magic the Gathering:
+
+You have X permanents on the battlefield, none of which have any counters on them (initially).
+There are no static effects in play which interfere with the abilities of your permanents (aside from any caused by your permanents themselves, if relevant).
+Neither you nor your opponents are casting any spells or playing any abilities from cards in hand.
+Your libraries are any finite size...you and your opponents can take any finite number of turns without the concern of milling yourselves out.
+
+Given this scenario, what is the minimal number of permanents, X, which are collectively capable of creating a copy of each of themselves within a finite number of turns? (X must be greater than zero)
+As an example, and an upper bound, considering the following set of permanents, giving X=10 :
+Helm of the Host
+Karn, Silver Golem
+Mirage Mirror
+Mirror Gallery
+4x Blinkmoth Nexus
+2x Inkmoth Nexus
+
+With 6 mana at our disposal, any of the lands can animate themselves and have the Helm equipped. So in 6 turns we've copied all our lands.
+Using Karn's animate ability, Mirage Mirror and Mirror Gallery can be copied the same way.
+Karn can be copied without needing to animate.
+Finally, to copy the Helm itself, we
+
+Have Mirage Mirror become a copy of the Helm (which does not die because the Mirror Gallery is suppressing the legend rule),
+Animate the original Helm with Karn, and
+Equip the Mirage-Mirror-Helm onto the original Helm.
+
+I'm certain we can do better by being more creative with the mana base. But how low can we bring it? And perhaps there's an entirely different mechanic that would meet the conditions?
+
+A:
+
+X=1
+Chronozoa completes the first iteration in 0 turn thanks to the 1st rule, then each other iteration in 3 turns.
+

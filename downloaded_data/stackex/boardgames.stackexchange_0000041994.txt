@@ -1,0 +1,28 @@
+Q:
+
+Deathbringer Regent and Phantasmal Image ETB Clause
+
+Deathbringer Regent is a dragon that reads
+
+When Deathbringer Regent enters the battlefield, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures.
+
+And Phantasmal Image:
+
+You may have ~ enter the battlefield as a copy of any  creature on the battlefield, except it’s an Illusion in addition to its  other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.
+
+My question is if I play Phantasmal Image copying a Deathbringer Regent, it does copy the ETB but does it also count as "cast from your hand" and destroy all other creatures if there are 5 or more other creatures?
+
+A:
+
+Yes, it will count as having been cast from your hand.
+It's important to note that a creature spell and the creature it eventually creates are different objects; putting a creature on the battlefield is the effect of a creature spell. If you cast a creature spell from your hand, and if an effect changes the characteristics of that creature as it enters the battlefield, the creature spell was still cast from the hand.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+608.3. If the object that’s resolving is a permanent spell, its resolution involves a single step (unless it’s an Aura). The spell card becomes a permanent and is put onto the battlefield under the control of the spell’s controller.
+
+Phantasmal Image's effect is a replacement effect.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+In your case, it replaces the effect "put a Phantasmal Image creature on the battlefield" with "put a copy of a particular Deathbringer Regent creature on the battlefield". All other things remain the same, in particular that the spell was originally cast from the hand.
+

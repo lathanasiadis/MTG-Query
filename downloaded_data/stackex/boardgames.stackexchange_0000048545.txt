@@ -1,0 +1,15 @@
+Q:
+
+When exactly does the commander tax get added?
+
+Does commander tax increase for each time the commander has been cast, or for each time it has been removed from the battlefield?
+For example, if an opponent would kill my commander but I manage to let it go back to my hand instead of the command zone, could I avoid that the tax increases? Or does it still count, because it died?
+
+A:
+
+Commander tax increases for each previous time it has been cast from the command zone.
+
+903.8.: A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. This additional cost is informally known as the "commander tax."
+
+Note that it has to be cast from the command zone specifically. Destroying a commander, or putting it into exile, doesn't influence this extra cost. So cards that place it into your hand, such as Command Beacon or Alley Evasion (in response to removal), are effective ways to omit the tax increase.
+

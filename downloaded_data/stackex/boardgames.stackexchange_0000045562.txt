@@ -1,0 +1,17 @@
+Q:
+
+Progenitor Mimic copying a creature with counters
+
+When Progenitor Mimic creates a copy of a creature like Nimbus Swimmer,  will Progenitor Mimic copy the counter that creature has on it?
+
+A:
+
+No, counters are not copied. The Progenitor Mimic, when copying a Nimbus Swimmer, would enter the battlefield as a 0/0 creature and immediately go to the graveyard.
+The Progenitor Mimic copies the Nimbus Swimmer's ability. However, X is zero everywhere except on the stack, so it will enter without +1/+1 counters and go to the graveyard the next time a player would gain priority.
+
+107.3f If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.
+
+The spirit of 107.3f is mirrored in the rules for copying objects. The value of X can be copied, but only when it's on a spell or ability on the stack.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object's characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

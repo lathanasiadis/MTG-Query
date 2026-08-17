@@ -1,0 +1,24 @@
+Q:
+
+When is a card returned to the owner's hand?
+
+I'm after some explanation on the rules returning a card to the owner's hand the question was raised by Darking Merfolk 
+Consider the scenario where I have Darting Merfolk in play
+
+My opponent plays Hand of Death
+
+I decide to tap an island and return the Merfolk to my hand. Is the card destroyed or is it returned to my hand? Is Hand of Death put in the graveyard?
+
+A:
+
+It would return to your hand.
+I don't have access to the MTG site to be able to cite the rulebook, but it's all down to the stack.
+The stack is played out in order, so new items go to the top of the stack and then the stack resolves from the top down. In this instance Hand of Death was cast and went on the stack, then you activated the Merfolk's ability which went above Hand of Death on the stack.
+When the spells and abilities on the stack resolve:
+
+Darting Merfolk's ability resolves, returning it to your hand.
+Hand of Death tries to resolve, but the card it targeted is no longer on the battlefield, and does not exist to be targeted.
+Hand of Death is countered and has no effect. (It goes to your opponent's graveyard.)
+
+I recommend reading up on the Stack, understanding it is vital to getting the most out of Magic: The Gathering: Guide to the Stack
+

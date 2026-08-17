@@ -1,0 +1,13 @@
+Q:
+
+Mutavault and effects
+
+when I have "Mentor of the Meek" and the "Mutavault"-land on the battlefield, and when I make Mutavault into a 2/2 creature, can I draw a card when I pay the mana cost for a creature entering the battlefield under my control?
+Same question applies to "Suture Priest". Can I gain life using Suture Priest's and Mutavault's abilities?
+Thanks friends!
+
+A:
+
+No. Permanents that are on the battlefield, but change their types, do not trigger enter-the-battlefield or leave-the-battlefield effects. The Mutavault is changed into a creature while it is on the battlefield, so it did not enter the battlefield as a creature and cannot trigger Mentor of the Meek or Suture Priest.
+Wizards of the Coast has made this rule an explicit ruling for other lands that become creatures, e.g. Celestial Colonnade, but it applies identically to any permanent that is on the battlefield and then changes its type: In all such cases, it does not enter the battlefield and so no enter-the-battlefield triggers of any kind will fire.
+

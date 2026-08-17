@@ -1,0 +1,22 @@
+Q:
+
+Does drawing a card in the draw phase use the stack, and related Laboratory Maniac shenanigans
+
+Situations we had tonight:
+Opponent has a Laboratory Maniac and an Abundance on the battle field.  I hold a terror in my hand with enough mana in untapped lands to cast it.
+S1) Opponent moves to draw phase and has zero cards in library.  Opponent chooses to draw a card.  Can I kill his maniac and win the game?  
+S2) Opponent has a Staff of Nin and 0 cards in library at beginning of upkeep.  He chooses to draw a card (as opposed to reveal), do I have a chance to respond with my terror?  Or can I not respond?
+Is it possible for me to beat my opponent in these situations with a well timed Terror?
+
+A:
+
+I wrote the question, and in the course of writing the question, I figured out the answer.  So, here's my stab at the answer.
+S1)  Drawing during the Draw Phase does not use the stack, so you cannot win in this situation.  You must kill the Maniac before the draw phase, but with no maniac on the table, Abundance will keep them from losing the game.
+This is covered in rule 504:
+
+Draw Step
+
+504.1. First, the active player draws a card. This turn-based action doesn’t use the stack.
+
+S2) Abundance is a replacement effect, so the decision about whether or not to use the abundance is made at the time of the draw.  Thus, if you kill the Maniac at anytime before Nin's draw occurs, your opponent can just chose to use abundance, to avoid losing the game.
+

@@ -1,0 +1,23 @@
+Q:
+
+What happens when you copy an Epic spell?
+
+You cast Eternal Dominion from your hand.
+With Eternal Dominion on the stack, you activate your max-level Echo Mage to make two copies.
+They resolve.
+
+Are the copies you just made Epic? (Meaning you'll get multiple Dominions next turn?)
+
+On your next upkeep, you activate Echo Mage again, targeting a copy of Eternal Domininion created by the Epic trigger.
+
+Are Echo Mage copies of an Epic-trigger-generated copy Epic or non-Epic?
+
+A:
+
+Copies made of the original spell by Echo Mage have the epic keyword, and so you do get multiple dominions/turn after.
+Copies made by the epic trigger do not have the epic keyword.  So, the answer to your second question is that Echo Mage copies of those copies are "non-Epic."
+
+Here's the salient rule that addresses why answer 2 is different from answer 1.
+
+702.49a Epic represents two spell abilities, one of which creates a delayed triggered ability. “Epic” means “For the rest of the game, you can’t cast spells,” and “At the beginning of each of your upkeeps for the rest of the game, copy this spell except for its epic ability. If the spell has any targets, you may choose new targets for the copy.” See rule 706.10.
+

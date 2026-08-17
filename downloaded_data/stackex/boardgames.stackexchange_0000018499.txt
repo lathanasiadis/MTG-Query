@@ -1,0 +1,15 @@
+Q:
+
+Will Exquisite Blood trigger even if the life loss eliminates the player
+
+We are trying to workout a ruling for a multi player game of mtg involving 8 players and a 1 player with an Exquisite Blood.
+So lets say there are eight players. Player #3 has Exquisite Blood. Player #5 hits player #8 for 100 damage. Player #8 dies and Exquisite Blood triggers (For 100).
+The confusion comes in for when Exquisite Blood resolves. As the opponent that lost 100 life not longer exists, will Exquisite Blood still resolve?
+
+A:
+
+Player #3 will gain 100 life.
+The fact that #8 is no longer in the game has no effect on Exquisite Blood's triggered ability. All of its effect was put on the stack when #8 lost 100 life. It does not require #8 to be in play when it resolves, because it does not check for any current information about that player. Even if it did, rule 800.4g would take effect:
+If an effect requires information about a specific player, the effect uses the current information about that player if he or she is still in the game; otherwise, the effect uses the last known information about that player before he or she left the game.
+Only effects that require a target are affected if that target is no longer legal or does not exist anymore; they would be countered in that case.
+

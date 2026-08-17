@@ -1,0 +1,20 @@
+Q:
+
+Copy Tokens and Clarion Ultimatum
+
+Is it possible to use Clarion Ultimatum to search for a permanent in my deck using a token created by something like Cackling Counterpart or Fated Infatuation as one of the chosen permanents?
+For example, if I cast Cackling Counterpart on my own Cavalier of Dawn, then cast Clarion Ultimatum, can I select the original Cavalier of Dawn, the token, and then get two more Cavaliers from my deck (and ultimately destroy up to two more nonland permanents on the field)?
+
+A:
+
+Yes, you can do that. When you copy an object, the name is copied as well:
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Tokens are not an exception here.
+
+111.3. The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token’s “text.”
+111.4. A spell or ability that creates a token sets both its name and its subtype(s). If the spell or ability doesn’t specify the name of the token, its name is the same as its subtype(s). A “Goblin Scout creature token,” for example, is named “Goblin Scout” and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn’t change its subtype, and vice versa.
+
+So normally the token would have a name defined by either the effect that created it or the type name, but because it was created as a copy in your case, the name was copied as well.
+

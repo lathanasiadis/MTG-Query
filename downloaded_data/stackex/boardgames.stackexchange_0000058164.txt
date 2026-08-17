@@ -1,0 +1,21 @@
+Q:
+
+Multiple instances of Modular
+
+Arcbound Mouser has Modular 1, with an additional Modular 1 given to it by Blaster, Combat DJ, so it enters with 2 counters. The rules state that each instance of Modular resolves separately. Does this mean that, when the Mouser dies, it gets two triggers to move two counters to other artifact creatures?
+
+A:
+
+Each instance of modular causes the targeted creature(s) to get the full amount of counters. In your case, you can choose one target artifact creature twice and give it four +1/+1 counters total, or two creatures for two +1/+1 counters each.
+Modular allows you to put the dead creature's counters on a target creature.
+
+702.43a Modular represents both a static ability and a triggered ability. “Modular N” means “This permanent enters the battlefield with N +1/+1 counters on it” and “When this permanent is put into a graveyard from the battlefield, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent.”
+
+Putting counters on a creature is not the same as moving them. Moving counters only works once, whereas putting them does not remove the counters from the source and can thus be done multiple times.
+
+122.5. If an effect says to “move” a counter, it means to remove that counter from the object it’s currently on and put it onto a second object. If either of these actions isn’t possible, it’s not possible to move a counter, and no counter is removed from or put onto anything. This may occur if the first and second objects are the same object; if the first object doesn’t have the appropriate kind of counter on it; if the second object can’t have counters put onto it; or if either object is no longer in the correct zone.
+
+122.8. If a triggered ability instructs a player to put one object’s counters on another object and that ability’s trigger condition or effect checks that the object with those counters left the battlefield, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object.
+
+So when the Mouser dies with two +1/+1 counters on it and two instances of modular, both instances of modular trigger on death. You may choose two different legal targets, or the same target twice, and each instances gives its target two +1/+1 counters.
+

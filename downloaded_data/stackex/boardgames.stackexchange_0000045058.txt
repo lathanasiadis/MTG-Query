@@ -1,0 +1,29 @@
+Q:
+
+Perplexing Chimera and control changing enchantments
+
+Perplexing Chimera can steal spells but gives control of itself to that player.  But if I enchanted with an enchantment that says "You control enchanted creature" (such as Hypnotic Siren) would that enchantment let me retain control of the Chimera after stealing spells and basically have infinite uses of the chimera's spell stealing?
+
+A:
+
+No, this is not how it works.  This is perhaps unintuitive since Perplexing Chimera's ability appears to be a "one-shot" effect, but by rule all control-changing effects are continuous effects, and these effects use a timestamp system to determine the final outcome (with the most recent effect winning out).  The control-changing effect from the aura can be overridden by Perplexing Chimera's own ability that also changes control.  
+See also Djinn of Infinite Deceits interacting with other control-changing effects which describes some other other unintuitive corner cases with control-changing effects.
+Relevant rules (emphasis mine):
+
+611.1. A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a
+  card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1b Layer 2: Control-changing effects are applied. 
+
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+613.8. One continuous effect can override another. Sometimes the results of one effect determine whether another effect applies or what another effect does.
+
+Example: Two effects are affecting the same creature: one from an Aura that says
+  “Enchanted creature has flying” and one from an Aura that says “Enchanted creature loses
+  flying.” Neither of these depends on the other, since nothing changes what they affect or
+  what they’re doing to it. Applying them in timestamp order means the one that was
+  generated last “wins.” The same process would be followed, and the same result reached, if either of the effects had a duration (such as “Target creature loses flying until end of turn”) or came from a non-Aura source (such as “All creatures lose flying”).
+
+As an aside, using an aura (like Hypnotic Siren's Bestow) to regain control of perplexing chimera you gave away is probably a bad idea.  You'd likely regain control of the chimera, but only because your opponent would steal your aura spell along with another of your permanents.  And pre-enchanting a chimera you already control is a waste since of resources since the timestamp system will override the aura.
+

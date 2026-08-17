@@ -1,0 +1,28 @@
+Q:
+
+How are requirements addressed during declaration as attackers?
+
+I'm making a Voltron commander with Khârn the Betrayer at the helm for some flavorful Khorne gameplay. The main objective to to pass the commander, Khârn, around and watch as people are forced kill each other with him. I've run into a curious question that my play group can't answer themselves. I have Errantry attached to Khârn the Betrayer.
+Here are my questions:
+
+How & when are requirements addressed during the declaration of attackers?
+
+What would happen is my opponent would declare another creature as an attacker because neither card prevents you from declaring other attackers. This would create an invalid board state and Khârn's "if able" would be checked. He is not able to attack because of the invalid board state and then not attack. Can he do this or does he have to attack with Khârn alone?
+
+Which requirement takes precedence "can only attack alone" +
+"must attack if able" or just "must attack if able"? Which is fulfilled first?
+
+I have a lot of goad in the deck for defense and to prevent Khârn from coming back at me. Do you fulfill Khârn's requirements first?
+
+A:
+
+If there are no other requirements or restrictions, the only legal attack declaration is to attack with Khârn and no other creatures.
+The two key rules for this are in the Declare attackers step rules:
+
+508.1c The active player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t attack, or that it can’t attack unless some condition is met). If any restrictions are being disobeyed, the declaration of attackers is illegal.
+508.1d The active player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature attacks if able, or that it attacks if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal. If a creature can’t attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed. If a requirement that says a creature attacks if able during a certain turn refers to a turn with multiple combat phases, the creature attacks if able during each declare attackers step in that turn.
+
+Restrictions are absolute: no attack declaration is legal unless it obeys all restrictions. Requirements are a little more flexible: you must obey as many requirements as you can without violating any restrictions. So, restrictions take precedence over requirements.
+Khârn's ability creates a requirement, because it says that Khârn attacks if able. Errantry creates a restriction, because it says that the creature cannot attack unless some condition is met. Errantry's restriction is obeyed either if the enchanted creature does not attack, or if the enchanted creature attacks and no other creatures attack. Khârn's attack requirement is obeyed if Khârn attacks. If there are no other requirements or restrictions, the only legal attack declaration is to attack with Khârn and no other creatures.
+If there are other requirements or restrictions in play, you have to evaluate in that situation what attacks maximize the number of obeyed requirements without violating any restrictions.
+

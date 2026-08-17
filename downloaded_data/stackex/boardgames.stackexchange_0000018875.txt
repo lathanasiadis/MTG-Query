@@ -1,0 +1,14 @@
+Q:
+
+Will Repercussion deal damage to a controller beyond a creature's toughness?
+
+Repercussion's text reads as follows:
+
+Whenever a creature is dealt damage, Repercussion deals that much damage to that creature's controller.
+
+So: if, for example, a 1/1 creature is dealt 10 damage with Repercussion in play, does its controller take 10 damage or 1?
+
+A:
+
+The controller takes 10 damage. A creature's toughness does not limit the damage it can take. Toughness just indicates how much damage is enough to destroy it.
+

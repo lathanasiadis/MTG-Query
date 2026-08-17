@@ -1,0 +1,20 @@
+Q:
+
+Can you sacrifice Fleshbag Marauder to Ashnod's Altar, when it comes into play, if you have no other creatures?
+
+Can you sacrifice Fleshbag Marauder to Ashnod's Altar, when it comes into play, if you have no other creatures? Would other players still be forced to sacrifice a creature?
+
+A:
+
+Yes, you can sacrifice Fleshbag Marauder before its ability resolves. Your opponent still has to sacrifice a creature.
+Fleshbag Marauder's ability is a triggered ability. When Fleshbag Marauder enters the battlefield, the ability goes on the stack and players have the opportunity to react to it with instant-speed abilities (such as Ashnod's Altar) and spells, and it exists independently of the source that created it. When it comes to resolving the ability, it will ignore impossible instructions (when you have no creatures at that point) and carry out the rest (opponent has to sacrifice one of theirs, if they have any).
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+113.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. [..]
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+Example: If a player is holding only one card, an effect that reads “Discard two cards” causes them to discard only that card. If an effect moves cards out of the library (as opposed to drawing), it moves as many as possible.
+

@@ -1,0 +1,61 @@
+Q:
+
+How do the +1/+1 tokens created when Hooded Hydra dies play during combat?
+
+Recently played w/ a deck that contained Hooded Hydra (morphed to +5/+5). I was attacked with 3, 5/5 trampling rhino tokens. I assigned Hooded Hydra to block first, effectively killing it.
+Enter the problem: Hooded Hydra's second effect which reads...
+
+When Hooded Hydra dies, create a 1/1 green Snake creature token for
+each +1/+1 counter on it
+
+How does this resolve from the non-active player's defending combat phase?
+My understanding goes:
+
+Death is instant
+
+That this effect is a trigger as when is included in the wording, and
+
+That Hooded Hydra's counters are created upon its death, instantly.
+
+So, thinking these things, I figured:
+
+Let Hooded Hydra take 5 damage and die,
+Immediately be able to put its 5, 1/1 tokens onto the stack
+Use them to defend against the next 5 damage
+
+All my tokens would die, of course, but they would effectively prevent the necessary damage that would mean me losing the game to trampling rhino tokens
+My opponent objected to my actions saying:
+
+Creature deaths only occur when things go to the graveyard, at the very end phase.
+Therefore, I could not create the 1/1 tokens, and would not be able to block the 5 damage to prevent my loss.
+
+I don't think that's correct. Hooded Hydra's card doesn't state the condition, "when sent to the graveyard... create 1/1 tokens". Anyway. Things got heated. And to keep things mellow, I let play go their way, died, and the game ended.
+So... What is the correct answer? Are any of my understandings of combat actions correct? Is my opponent correct? Were/are we both wrong? None of my rule reading has shed light on a firm resolution. Just lots more assumptions and possibilities.
+
+A:
+
+Your opponents are mostly right.
+What you're missing with this scenario are: combat steps, assigning damage, and triggered abilities.
+When anyone attacks with creatures, there are certain steps that are taken.  In general they are:
+
+Before Combat
+Declare Attackers
+Declare Blockers
+Damage
+
+In each combat step, the action is only taken once.  In other words, there is only one "At the beginning of combat".  The attacker selects all attackers at once, and then they are set. The blocker selects all blocks at once, then they are set. Damage happens all at once.
+In between and before each step, players get priority and triggers happen.
+So, in your scenario:
+
+Opponent declares 3 attacking rhinos
+You block with Hooded Hydra
+Damage happens
+
+You take 10 damage, hooded hydra takes 5
+Hooded hydra dies, and its death trigger goes on the stack
+Assuming nothing else happens, the death trigger resolves and 5 snakes are created
+
+Go to after combat (likely second main phase)
+
+So, because the snakes are created after you have your opportunity to block, they can't be used as blockers. But they are created immediately on the death of Hooded Hydra.
+

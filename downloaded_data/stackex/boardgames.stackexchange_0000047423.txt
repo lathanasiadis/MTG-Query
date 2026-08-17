@@ -1,0 +1,26 @@
+Q:
+
+How many times can you cast a card exiled by Release to the Wind?
+
+Release to the Wind has the following Text.
+
+Exile target nonland permanent. For as long as that card remains exiled, its owner may cast it without paying its mana cost.
+
+Is there a limit to the number of times you can cast it?
+
+A:
+
+Yes, that limit is one time.
+When a spell is cast, it moves to the stack and by then it fails to meet the "remains exiled" criterion mentioned by Release to the Wind. The Stack and Exile are different zones.
+
+Stack
+
+405.1. When a spell is cast, the physical card is put on the stack (see rule 601.2a). When an ability is activated or triggers, it goes on top of the stack without any card associated with it (see rules 602.2a and 603.3).
+
+Exile
+
+406.1. The exile zone is essentially a holding area for objects. Some spells and abilities exile an object without any way to return that object to another zone. Other spells and abilities exile an object only temporarily.
+406.2. To exile an object is to put it into the exile zone from whatever zone it’s currently in. An exiled card is a card that’s been put into the exile zone.
+
+Of course, if you'd cast another Release to the Winds on the same card, its owner will be able to cast it again.
+

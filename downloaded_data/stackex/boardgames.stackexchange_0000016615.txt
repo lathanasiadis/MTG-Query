@@ -1,0 +1,23 @@
+Q:
+
+When do you reveal the top card of your library with Courser of Kruphix and scry lands?
+
+I have Courser of Kruphix in play, and a scry land (say Temple of Plenty) on top of my library revealed. If I then play the land off my library using the Courser's ability, which of the following happens?
+
+I play the land, then reveal the top card of my library, then
+scry. Or,
+I play the land, then before revealing the new top card of my
+library, scry.
+
+A:
+
+You never get to choose to reveal the top card of your library. As soon as a card becomes the top card of your library (which happens when the previous top card, the land, was removed from your library to be put into play) it is revealed. It's not something you can respond to or choose to take other actions. It's a property of your library that must be maintained at all times.
+I would venture to say that option 2 would get you in trouble at a sanctioned event.
+There is a case that appears to break that rule. From the comp rules:
+
+If the top card of the player's library changes while a spell is being cast, the new top card won't be revealed and can't be looked at until the spell becomes cast.
+
+So if you're casting a spell, and it says something like "As an additional cost to cast ~, exile the top three cards of your library face down." You may not reveal those three cards before exiling them. The top one would stop being revealed as it goes face down, and the two below it stay face down (to both you and your opponents). For a brief moment, the top card is still face down, because the spell is still in the act of being cast - once the spell is actually cast (i.e. placed on the stack) the top card of your deck is revealed.
+However, do note that State-Based Actions (SBA) aren't checked/performed while the spell is being cast. SBA checks include "is the top card of my library revealed?" or "do any creatures have 0 toughness?" 
+Consider a creature with something like "Play with the top card of your library revealed. ~'s power and toughness are equal to the revealed card's mana cost". If you had no card revealed, the creature would die. By not performing state-based actions until the spell completes casting and the next top card revealed, you don't lose your (theoretical) creature even though its toughness temporarily drops to zero.
+

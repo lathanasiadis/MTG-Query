@@ -1,0 +1,17 @@
+Q:
+
+Can you cast adventures if you're able to cast creatures off the top of your library?
+
+For example let's say I have Elven Chorus in play and the top card of my library is Bonecrusher Giant. Can I cast Stomp (the adventure side of Bonecrusher Giant)?
+Similarly, if I have Johann, Apprentice Sorcerer in play and the top card of my libary is Bonecrusher Giant, can I cast Stomp (or Bonecrusher Giant directly)?
+
+A:
+
+Elven Chorus will allow you to cast Bonecrusher Giant but not Stomp. Johann will allow you to cast Stomp but not Bonecrusher Giant.
+Rule 601.3 and particularly 601.3e and its second example directly address this:
+
+601.3. A player can begin to cast a spell only if a rule or effect allows that player to cast it and no rule or effect prohibits that player from casting it.
+
+601.3e Some rules and effects state that an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to cast. These alternative characteristics replace the object’s characteristics for this determination. Continuous effects that would apply to that object once it has those characteristics are also considered.
+Example: Melek, Izzet Paragon says, in part, “You may cast instant and sorcery spells from the top of your library.” If you control Melek, Izzet Paragon and the top card of your library is Giant Killer, an adventurer creature card whose Adventure is an instant named Chop Down, you may cast Chop Down but not Giant Killer. If instead you control Garruk’s Horde and the top card of your library is Giant Killer, you may cast Giant Killer but not Chop Down.
+

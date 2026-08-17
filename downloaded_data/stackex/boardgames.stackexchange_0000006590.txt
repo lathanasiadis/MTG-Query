@@ -1,0 +1,25 @@
+Q:
+
+How does a Loyal Cathar react to Undying Evil?
+
+Loyal Cathar states:
+
+When Loyal Cathar dies, return it to the battlefield transformed under
+your control at the beginning of the next end step.
+
+Undying Evil states:
+
+Target creature gains undying until end of turn. (When it dies, if it
+had no +1/+1 counters on it, return it to the battlefield under its
+owner's control with a +1/+1 counter on it.)
+
+If I cast Undying Evil on Loyal Cathar and it dies, would it come back as a Loyal Cathar with a +1/+1, come back as its transformed self, come back transformed AND with the +1/+1, or some other combination that I'm not seeing?
+
+A:
+
+It would come back as Loyal Cathar with a +1/+1 counter on it.
+Undying Evil's triggered ability returns Loyal Cathar to the battlefield upon dying, Loyal Cathar's triggered ability sets up a delayed triggered ability that returns the card "at the beginning of the next end step".
+Loyal Cathar's normal return-to-battlefield trigger won't find the card in the graveyard when it resolves, so will fail to do anything.
+
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it. (Note that if that object left that zone and then returned, it’s a new object and thus won’t be affected. See rule 400.7.)
+

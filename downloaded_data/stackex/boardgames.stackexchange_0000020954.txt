@@ -1,0 +1,45 @@
+Q:
+
+Can I cast an instant in the middle of an ability resolving?
+
+Suppose my opponent has Nahiri, the Lithomancer and an equipment card on the battlefield, then uses Nahiri's +2 ability to create a 1/1 soldier and attach the equip to it.
+
++2: Put a 1/1 white Kor Soldier creature token onto the battlefield. You may attach an Equipment you control to it.
+
+Is it possible to cast an instant that would kill the soldier before the equipment is equipped, or does the entire action happen at once?
+
+A:
+
+It isn't possible. While the creation of the solider and the attaching of the equipment aren't simultaneous[CR 608.2c], you do not get priority (the permission to cast instants and other actions) in the middle of the resolution of a spell or ability.
+
+116.2e Resolving spells and abilities may instruct players to make choices or take actions, or may allow players to activate mana abilities. Even if a player is doing so, no player has priority while a spell or ability is resolving. See rule 608, “Resolving Spells and Abilities.”
+
+ 
+
+116.3. Which player has priority is determined by the following rules:
+
+116.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card during the draw step; see rule 703) have been dealt with and abilities that trigger at the beginning of that phase or step have been put on the stack. No player receives priority during the untap step. Players usually don’t get priority during the cleanup step (see rule 514.3).
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+
+Side notes:
+
+An existing Night of Souls' Betrayal would temporarily make the Soldier a 0/0, but it wouldn't kill it if an Equipment boosting toughness is attached to the Soldier by the ability. It survives because State-Based Actions (what moves a creature with non-positive toughness to the graveyard) aren't performed in the middle of the resolution of spells either.
+
+Even when you can cast a spell in the middle of a spell's or ability's resolution, as possible with Epic Experiment, it will still resolve when the stack unwinds as normal, not in the middle of the resolution of a spell or ability. For example,
+
+You cast Epic Experiment with X=2.
+Instants can be cast here.
+Epic Experiment resolves:
+
+You exile Shock and a Mountain from your library.
+You cast Shock.
+Put the Mountain in your graveyard.
+
+Instants can be cast here.
+Shock resolves.
+

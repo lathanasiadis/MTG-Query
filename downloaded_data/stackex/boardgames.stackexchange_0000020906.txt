@@ -1,0 +1,37 @@
+Q:
+
+When a spell targeting a creature with heroic gets countered, does heroic still trigger?
+
+Tethmos High Priest has the heroic ability:
+
+Whenever you cast a spell that targets Tethmos, return target creature card with converted mana cost 2 or less from graveyard to battlefield.
+
+Suppose Divine Favor is cast, targeting Tethmos. It is countered by Negate.
+The last sentence of 601.2c is:
+
+Any abilities that trigger when those players, objects, and/or zones
+become the target of a spell trigger at this point; they'll wait to be
+put on the stack until the spell has finished being cast.
+
+My interpretation of 601.2c is that Divine favor starts one stack, and when that stack gets resolved, another stack is processed that starts with the Tethmos heroic ability being triggered.
+So in this specific case where only one instant is cast (negate), Divine Favor gets negated and has no effect. However, the heroic ability does get triggered.
+Is this interpretation correct?
+Is it the case in general that heroic abilities do trigger even when the enchantment is countered?
+
+A:
+
+You are correct that the Heroic ability does trigger and successfully resolve, but your understanding about how and why it does is a little off.
+Fist of all, there is only one Stack. The Stack is a game zone just like the Battlefield or Exile, it is always there even if there are no abilities or spells in it.
+So what happens when you cast Divine Favor is you finish casting it targeting Tethmos High Priest and put it on the Stack. Then before either you or your opponent have a chance to do anything the priest's Heroic ability triggers and goes on the Stack. When you put the Heroic ability on the Stack you chose the target you want to return to the Battlefield. Once the ability is on the Stack and you pass priority your opponent has the opportunity to cast Negate, so the Stack now looks like this:
+
+(top)
+
+Negate (targeting Divine Favor)
+Heroic ability (targeting something in the Graveyard)
+Divine Favor (targeting the High Priest)
+
+(bottom)
+
+When the Negate resolves it will counter the Divine Favor, but as you can see the Heroic ability is already on the Stack, so it doesn't care that the reason it triggered isn't there anymore, it will still happily resolve.
+This is a generic case for all Heroic abilities, they only care that they were targeted by a spell, what happens to the spell after that doesn't matter.
+

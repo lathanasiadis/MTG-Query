@@ -1,0 +1,35 @@
+Q:
+
+Blood Moon and Arixmethes
+
+Spoilers for Commander 2018 have begun, and one card in particular has caught my attention:
+
+This card is like no other I know. What may be truly interesting is how it interacts with the enchantment Blood Moon:
+
+Here's a blog post about this by a level 3 judge. I don't agree. How I see this interaction is as follows:
+
+Blood Moon is on the battlefield. I cast Arixmethes.
+Arixmethes resolves and enters the battlefield. As it must exist on the battlefield with at least one slumber counter in order to be a land, Blood Moon does not see it until after it has entered the battlefield as a land, tapped, and with five slumber counters. So far, I agree with the blog post.
+Blood Moon finally recognizes Arixmethes as a nonbasic land. Arixmethes loses all subtypes and abilities and gains Mountain as a subtype (by Gatherer's second ruling on Blood Moon: "Nonbasic lands will lose any other land types and abilities they had.").
+The effect that makes Arixmethes a land as long as it has a slumber counter is an ability (the example for rule 112.2a is very similar: "Example: '[This creature] can't block' is an ability."). This effect is therefore lost, and Arixmethes is no longer a land.
+Immediately, Blood Moon begins ignoring Arixmethes. The ability that makes Arixmethes a land is regained, and Arixmethes becomes a land once more.
+Repeat ad infinitum.
+
+All of these happen too quickly for any player to do anything. The way I see it, Arixmethes and Blood Moon on the battlefield simultaneously will immediately end the game in a draw (unless, of course, Arixmethes has no counters).
+Is there an error in my thinking?
+
+A:
+
+The blog post is correct. What you're missing is the system that governs the order in which those effects are applied, commonly known as the "layer system", and officially known as Interaction of continuous effects
+Put simply, the layer system creates a fixed order in which continuous effects apply to an objects, so there are no loops like you think you're seeing, and there is a single fixed answer to how any set of continuous effects apply to an object.
+In this particular case, both of the effects modify the type of the object, so they both apply in the same layer. Then we have to consider timestamps and dependencies to determine the order in which to apply them. The relevant dependency rules say this:
+
+613.7. Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+  
+  
+613.7a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+613.7b An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they’re applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
+
+Before either effect is applied Blood Moon's effect has a dependency on Arixmethes' effect, because Arixmethes' effect changes what Blood Moon's effect applies to, specifically making it apply to Arixmethes. Arixmethes' effect does not depend on Blood Moon's effect, because applying Blood Moon's first will do nothing, because at that point in the evaluation, Arixmethes is not a land.
+So, we apply Arixmethes' effect first, then Blood Moon's effect, and we end up with the result described in the linked blog post: Arixmethes is a Legendary Land - Mountain that can tap to add {R} with no other abilities.
+

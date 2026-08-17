@@ -1,0 +1,29 @@
+Q:
+
+Converted mana costs of tokens and manlands
+
+So let's say I have a Pernicious Deed that lets you "destroy each artifact, creature, and enchantment with converted mana cost X or less". Do tokens (e.g. those produced by Sliver Queen) get destroyed? What about lands that are creatures thanks to, for example, Ambush Commander?
+
+A:
+
+A token that is created with characteristics defined in the effect generally has converted mana cost 0. The relevant rules are
+
+110.5b: A token doesn't have any characteristics not defined by the spell or ability that created it.
+202.3a: The converted mana cost of an object with no mana cost is 0.
+
+If a token is a copy of another permanent or card, then it has all of the characteristics of the original, including its mana cost. So, it's converted mana cost is the same as the converted mana cost of the original permanent.
+The relevant rule is:
+
+706.2: When copying an object, the copy acquires the copiable values of the original object’s characteristics... The "copiable values" are... mana cost...
+
+This can be modified by the copy effect. For example, the keyword ability Embalm is defined like this:
+
+702.127a: Embalm is an activated ability that functions while the card with embalm is in a graveyard. “Embalm [cost]” means “[Cost], Exile this card from your graveyard: Create a token that’s a copy of this card, except it’s white, it has no mana cost, and it’s a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery.”
+
+In this case, as mentioned above, the converted mana cost of the embalmed copy is 0.
+For permanents that have no mana symbols in their mana costs, their CMC is also 0.
+For this, the relevant rules are
+
+117.6: Some mana costs contain no mana symbols. This represents an unpayable cost.
+202.3: The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+

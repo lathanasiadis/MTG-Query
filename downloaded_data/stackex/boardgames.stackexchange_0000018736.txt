@@ -1,0 +1,12 @@
+Q:
+
+Does Grindclock's counter reset when it's activated?
+
+When a player taps the Grindclock ability to pull X cards from a player's library and place them in the graveyard, does the counter reset?
+
+A:
+
+In MTG, counters are physical markers that are counted, added and removed; they are not abstractions that store a number that can be manipulated. As such, it makes no sense to talk about resetting a counter; you want to know if the counters are removed.
+Nothing instructs you to remove the the counters, so you do not remove them. Just like attacking doesn't remove +1/+1 counters, using Grindclock's ability does not remove charge counters.
+Things that remove counters.
+

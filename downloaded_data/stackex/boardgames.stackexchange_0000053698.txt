@@ -1,0 +1,12 @@
+Q:
+
+If my creature is temporarily under my opponents control, and it dies, do they get the ‘when this creature dies’ effect or do I?
+
+If my opponent takes control of my creature with Act of Treason, or a similar spell, and the creature they take control dies, do I control the when this creature dies effects, or does my opponent?
+For example, my opponent takes control of my Roalesk, Apex Hybrid, with an act of treason, then kills it, does he get to proliferate twice or do I?
+
+A:
+
+Whoever controls a creature when it dies controls the triggered abilities that creature has that happen when it dies, just like any other triggered ability. Like most abilities that involve a creature dying, the game looks at the last known information for that creature while it was on the battlefield, in this case it cares about who controlled that creature when the ability triggered, not who's graveyard it goes into.
+To answer the specific question, since your opponent controlled it when Roalesk died, your opponent will get to proliferate twice.
+

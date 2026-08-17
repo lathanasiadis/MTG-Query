@@ -1,0 +1,38 @@
+Q:
+
+Will I lose the game if I dip below 0hp whilst there's a spell that'll heal me on the stack?
+
+Take the following situation
+
+I'm at 2 life, I cast Sphinx's Revelation for 2 life gain on the stack.
+My opponent casts something like Warleader's Helix which deals 4 damage to me
+I then cast another Sphinx's Revelation for 1 life gain.
+
+Stack wise my life would go like this:
+
+Start with 2 life
+Gain 1 life, for 3 total life
+Take 4 damage, go to -1 life
+Gain 2 life, ending in a total of 1 life.
+
+So I end up at 1 life, but at one point, my life total was -1. My question is this: Does the stack continue to be carried out until it's complete, or would the game end the moment my life becomes 0 or less?
+
+A:
+
+If I understand the situation you are describing correctly it is as follows:
+
+A player at 2 life casts Sphinx's Revelation with X = 2. this is put on the stack.
+His opponent responds by casting Warleader's Helix
+The initial player in turn responds by casting Sphinx's Revelation with X=1
+Both players pass priority until the stack is resolved or some other event occurs
+
+This being the case, the following would happen:
+
+Sphinx's revelation with X = 1 resolves, you gain 1 life to be on 3.
+State based actions are checked (technically, twice immediately in succession as both players pass priority) and everyone is still alive
+Warleader's helix resolves (because the players have initiated a shortcut of passing priority until the stack resolves), you take 4 damage to be on -1
+State based actions are checked. You are dead. the game ends.
+Nothing to see here, the game finished. Sphinx's revelation with x = 2 never happens.
+
+State based actions occur whenever a player would get priority, not just when the stack resolves.
+

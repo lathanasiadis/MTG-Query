@@ -1,0 +1,24 @@
+Q:
+
+Recasting Azor's Gateway after it has been returned to my hand
+
+Take the following situation:
+I have had Azor's Gateway in play and have exiled 4 cards with it. My opponent returns Azor's Gateway to my hand, and the next turn I recast it. 
+Will I be able to transform Azor's Gateway when I use it's ability one more time (making the total amount of cards exiled 5), or will the counter reset because Azor's Gateway will be a different 'object' after I've recast it? 
+In my opinion it would be the latter, but I haven't been able to find conclusive references to a situation like this in the rulebooks.
+
+A:
+
+It will have to start again.
+The exiled cards previously associated with Azor's Gateway are no longer associated with any object that still exists, so they're just normal exiled cards now.
+The relevant rule is the following:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+None of the exceptions apply. Also, this rule is related:
+
+406.6. An object may have one ability printed on it that causes one or more cards to be exiled, and another ability that refers either to “the exiled cards” or to cards “exiled with [this object].” These abilities are linked: the second refers only to cards that have been exiled due to the first. See rule 607, “Linked Abilities.”
+
+So Azor's Gateway can only track the cards exiled by its own ability (not the ability of "some other" Azor's Gateway).
+There are a number of ways Magic cards have been written to get around this. For example, Caller of the Untamed cares about cards that have been exiled by cards with a certain name, rather than its own object. Mairsil, the Pretender looks at exiled cards that have a certain type of counter on them.
+

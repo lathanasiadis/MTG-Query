@@ -1,0 +1,14 @@
+Q:
+
+Does casting Tainted Strike on a creature with toxic keyword cause both toxic and infect to trigger?
+
+When determining the effects of combat damage, given that toxic is defined as "Any time a creature with toxic deals combat damage to a player", does casting Tainted Strike on a creature with the toxic keyword allow both infect and toxic to give the defending player an arbitrary amount of poison counter?
+
+A:
+
+Yes, damage to a player from a creature with both Infect and Toxic will cause that player to gain the poison counters for both abilities.
+Rules 120.3b and g say
+
+120.3b Damage dealt to a player by a source with infect causes that source’s controller to give the player that many poison counters.
+120.3g Combat damage dealt to a player by a creature with toxic causes that creature’s controller to give the player a number of poison counters equal to that creature’s total toxic value, in addition to the damage’s other results. See rule 702.164, “Toxic.”
+

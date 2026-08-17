@@ -1,0 +1,14 @@
+Q:
+
+Hexproof on an opponent's creature
+
+If I play an enchantment which gives hexproof on an opponent's creature, whose spells is it protected from?  Does it gain protection from my spells because it's his creature, or from his spells because it's my enchantment?
+
+A:
+
+That depends on how the enchantment is worded.
+If the enchantment actually says "Enchanted creature has hexproof", like for example: Alpha Authority, then the enchanted creature will be untargetable by you after the enchantment resolves, but will still be targetable by your opponent. (Note that the creature having hexproof will not cause the enchantment to fall off.) That's because a creature with hexproof cannot be targeted by spells or abilities controlled by anyone other than the creature's controller.
+The same applies to equipment such as Mask of Avacyn. (Since you can only equip to creatures you control, this would only be relevant if you had a creature equipped with Mask of Avacyn, and an opponent later took control of this creature.)
+If, on the other hand, the enchantment says "Enchanted creature can't be the target of spells or abilities your opponents control," then things are a little different. This enchantment appears to do the same thing, except that in this case "your opponent" refers to the opponent of the enchantment's controller. So it actually has the opposite effect, and allows you to target the creature (since you control the enchantment), but not your opponent.
+An example of this is Canopy Cover.
+

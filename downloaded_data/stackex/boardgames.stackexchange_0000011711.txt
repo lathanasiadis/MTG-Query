@@ -1,0 +1,18 @@
+Q:
+
+Hypergenesis and Triggered abilities
+
+If an opponent casts (or cascades into) Hypergenesis, starting with the caster each player takes it in turns to put a Creature, Artifact, Land or Enchantment onto the Battlefield. This can be repeated any number of times, and as a result potentially lead to some confusion.
+1) I put an Emrakul, the Aeons Torn onto the battlefield, my opponent puts an Oblivion Ring onto the battlefield. Next, I put a Griselbrand onto the Battlefield, my opponent puts a Detention Sphere onto the battlefield. Finally, I put an Iona, Shield of Emeria onto the battlefield, My opponent puts an Island onto the battlefield. Can my opponent exile my Iona?
+2) I put a Goblin Matron onto the battlefield, can I fetch a Goblin Ringleader and put that onto the battlefield in the next round of Hypergenesis?
+
+A:
+
+When an ability triggers, all the game does is make a note of it. The triggered ability is only placed on the stack the next time a player would get priority. This is only after Hypergenesis has finished resolving.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+
+So 1) yes, and 2) no.
+

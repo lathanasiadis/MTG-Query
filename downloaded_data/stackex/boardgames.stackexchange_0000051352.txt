@@ -1,0 +1,22 @@
+Q:
+
+Should I mill myself if I have graveyard synergies in my deck, but haven't drawn them yet?
+
+It's well-established that one should usually choose to loot if one can. It's the strictly superior play, and there are only a few valid reasons not to do so.
+This question is about a different scenario. If I have cards that use the graveyard in my deck, but have not drawn them yet, under what circumstances should I mill myself? Concrete example:
+
+My board: 20 life, no cards in hand, no cards in graveyard, 40 cards in deck, lots of lands, a Hill Giant, Skull Prophet.
+Opponent's board: 20 life, no cards in hand, lots of lands, two Grizzly Bears.
+
+Right now neither of us can attack. If I do, he double blocks and I trade down. If he attacks I simply eat his creature. The board is stalled.
+It's the end of my opponent's turn. I have Survivors' Bond still in my deck, but I haven't drawn it yet. Should I activate Skull Prophet?
+I'm wondering if the answer is "yes" (because I can potentially mill good cards for Survivors' Bond), or "no" (because I can potentially mill the Survivors' Bond itself). If the answer is "it depends", then I'd like to know under what circumstances it becomes desirable - e.g. how many copies of Survivors' Bond vs. good creatures do I need in my deck before it's preferable to mill myself?
+Edit: Since this question became a HNQ, here's a nontechnical version.
+There are two zones for cards, "in the deck", and "in the graveyard". I have a deck of X cards, from which I draw a card every turn. There are Y copies of a card ("Survivors' Bond") in the deck that prefer cards to be "in the graveyard". Every turn I'm given the option to put two cards from my deck into the graveyard. Should I do it because it makes my Survivors' Bond better, or should I not do it because I could end up putting Survivors' Bond into the graveyard? If it depends on what X and Y are, for what parameter range does it become preferable?
+
+A:
+
+Let's assume the game will end within 13 turns. In those 13 turns, you will draw 13 cards, and since you have no information where the Survivors' Bonds are, the milling has no effect on how fast you draw one or how likely you are to draw one. If you don't mill at all, you will draw the top 13 cards; if you mill every turn, you'll draw the cards at positions divisible by three. (Well, if you're unlucky enough to mill all of them, you can stop milling of course.)
+Milling does however increase the value of a Survivors' Bond; without creatures, it's a dead card, and the more options you have, the better.
+So bottom line: always activate Skull Prophet.
+

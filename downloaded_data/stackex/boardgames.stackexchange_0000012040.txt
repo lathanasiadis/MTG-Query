@@ -1,0 +1,24 @@
+Q:
+
+Should we take good cards out for better cards while sideboarding (magic 2014 rules update)?
+
+It has been announced, among other changes, that you are allowed to increase the number of cards in your deck beyond 60 while side boarding. Meaning you can bring 5 cards in and not have to take 5 cards out.
+There are decks and match ups where some cards are just bad, and you want to take them out (e.g. removal against legacy storm combo). Some match ups you have plenty of sweet cards in your deck, you just have sweet cards in your sideboard too. In this situation, it can be very difficult to decide which cards are "least relevant" to the matchup, to cut in favour of the sideboard cards which have a much bigger impact.
+With the rules change, are we better off trying to keep our deck count to 60 wherever possible? or should the conventional wisdom be "cut the bad cards, bring in the good cards" and resultant card count being an afterthought?
+
+A:
+
+Short answer
+Yes.  You should take cards out to keep a 60 card deck size.
+Medium answer
+Yes.  It's always legal to play more than 60 cards.  But when you design a deck, you don't - you keep it to 60 as much as possible.  When you sideboard, you're redesigning your deck on the fly - and the same reasons that you kept it to 60 cards in the first place still apply.
+Long answer
+In a typical game (some highly specialised graveyard decks aside), you will only ever hold in hand and play a fraction of your deck - even in a game that goes to 13 turns (possible in casual but pretty unlikely in constructed), you will typically only have drawn 20 of your 60 cards - around a third of your deck.  
+The other two thirds, no matter how awesome the cards are, did you no good whatsoever.
+So Magic is won on the draw.  (After all, you win games not because you had great cards in your deck but because you had great cards on the battlefield.)  If you've designed the deck properly, it's based around a winning strategy and some key cards that support that.  You want to have as great a chance of drawing those winning cards as possible.
+The mathematics of card draw and distribution for Magic have been extensively studied.  (There's a pretty good article on the mathematics of card draw available.)  And one of the reasons for the 60-card minimum is that it makes your deck unpredictable.  Even if you have 4 of a key card in the deck, your chance to see one in the opening hand is just under 40%, and even by turn ten your chance is only 71.5%.  (And if you haven't drawn it by turn ten, you're probably never going to play it.)  
+Increasing the deck size by only one card - to 61 cards - immediately takes about 1% off both those chances.  So why harm your odds like that?  If the new card is better for your strategy than the increased odds of drawing one that you have four of, your should remove one of those four.  And if not, then you shouldn't be adding it.
+(A telling point is that all of the top players field exactly 60 card decks.  They don't have to; constructed rules permit more.  They choose to.)
+Some of the top players will occasionally play a 61 card deck.  They do this to protect against decking and to subtly adjust their probabilities.  But you can believe they plan for ages while considering the benefits of that 61st card, and they don't hesitate to remove it.  If you're still at a level where you're asking this, you probably shouldn't try it.
+So: Yes.  Keep to 60 cards.
+

@@ -1,0 +1,28 @@
+Q:
+
+Warkite Marauder and the timing for its effect
+
+Whenever Warkite Marauder attacks, target creature defending player controls loses all abilities and becomes a 0/1 creature until end of turn.
+What is the timing for this ability? Is it during assign attackers, where the defending player would be unable to activate an ability? Or would they be able to activate an ability and put it on the stack before their creature loses its abilities? I assume that Warkite Marauder is putting a triggered ability on the stack, or is this incorrect?
+
+A:
+
+Warkite Marauder's ability will trigger during the "declare attackers" step in the combat phase, and your opponent will be able to respond to it.
+The combat phase in each turn is divided into five steps:
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat.
+
+"When attack" abilities trigger when a creature is declared as an attacker, which is during "declare attackers".
+
+Declare Attackers Step
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. [...]
+508.2. Second, the active player gets priority. (See rule 116, “Timing and Priority.”)
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+508.2b Any abilities that triggered on attackers being declared or that triggered during the process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+So before the active player gets priority, Warkite Marauder's ability will be placed on the stack. At this point, the active player gets priority, and when they pass, the nonactive player will get priority, all while the ability is still on the stack.
+Note that placing the triggered ability on the stack requires declaring targets for it, so the defending player will know which creature is being targeted by the Marauder's ability when they respond. So they can respond by activating an ability of the creature that is being targeted, because the Marauder's ability has not yet resolved, so the targeted creature will still have its abilities.
+If the nonactive player passes; then the Marauder's ability will resolve, and the targeted creature will lose all abilities.This means that by the time blockers are declared in the combat phase, the targeted creature will already be a 0/1 with no abilities.
+

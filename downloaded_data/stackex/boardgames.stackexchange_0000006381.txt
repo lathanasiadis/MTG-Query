@@ -1,0 +1,51 @@
+Q:
+
+Why doesn't Undying trigger if a creature with +1/+1 counters dies from -1/-1 counters?
+
+From the Dark Ascension FAQ:
+
+If a creature with undying that has a +1/+1 counter on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, undying won't trigger and the card won't return to the battlefield. That's because undying checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+
+Why don't the counters cancel?  Could someone elaborate on this?
+
+A:
+
+Section 704 in the comp rules covers state-based actions. Both of these are on the big list of state-based actions:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can't replace this event.
+704.5r If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it, where N is the
+smaller of the number of +1/+1 and -1/-1 counters on it.
+
+State-based actions are resolved different from triggered abilities, in that they're only checked during the cleanup step and when it's time for a player to receive priority. They also don't use the stack. More importantly, whenever state-based effects are checked, all applicable ones resolve simultaneously:
+
+704.3. Whenever a player would get priority (see rule 116, "Timing the Priority"), the game checks for any of the listed conditions for
+state-based actions, then performs all applicable state-based actions
+simultaneously as a single event. ...
+
+So, if an effect puts enough -1/-1 counters on a creature to reduce its toughness to zero or less, you would both put the creature in the graveyard and cancel out the +1/+1 and -1/-1 counters at the same time.
+Note the wording of Undying as an ability:
+
+Undying (When this creature dies, if it had no +1/+1 counters on it,
+return it to the battlefield under its owner's control with a +1/+1
+counter on it.)
+
+When your creatures dies (and it's already in your graveyard), Undying triggers and looks at its last known state on the battlefield. Your creature died at the exact same time as it lost its +1/+1 counters, so it was never actually on the battlefield without a +1/+1 counter on it, which is why it doesn't come back.
+The issue here is that the informal way many players resolve the counters rule -- removing the necessary number of +1/+1 or -1/-1 counters while resolving the "apply counters" part of an effect -- ever-so-minutely doesn't match the formal procedure on canceling counters (which only occurs as a state-based action afterward). There are occasionally similar issues with indestructible as well: players often forget that damage dealt to an indestructible creature still stays "marked" on it until end of turn, which will cause it to die if it somehow loses its indestructibility.
+
+Note this counterexample, however, based on the fact that state-based actions can occur in multiple passes:
+
+704.3. ... If any state-based actions are performed as a result of a check, the
+check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on
+the stack, then the check is repeated. Once no more state-based actions have been performed as the
+result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player
+gets priority.
+
+Imagine I have a Geralf's Messenger with a +1/+1 counter on it and a Cemetery Reaper (which gives the Messenger +1/+1) on the battlefield.
+You cast Black Sun's Zenith for three.
+In this case, state-based actions resolve in two passes, like this:
+
+First, these two things happen simultaneously: Geralf's Messenger's counters cancel; Cemetery Reaper has a net toughness of -1, so it dies. Geralf's Messenger's toughness is 1 (base 2, +1 from the +1/+1 counter, +1 from the Reaper, -3 from the -1/-1 counters), so it doesn't die yet.
+Then, once Cemetery Reaper has left the field, we check state again. The Messenger's toughness is now 0, so it dies.
+
+So, now the Messenger's +1/+1 counters were cleaned up before it died, so Undying will trigger.
+

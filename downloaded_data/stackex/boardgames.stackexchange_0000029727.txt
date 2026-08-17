@@ -1,0 +1,20 @@
+Q:
+
+Magic The Gathering, Blinking the source of a transformation
+
+When the action that makes a card flip back-face up goes on the stack, I use a card ability like the Eldrazi Displacer to blink Archangel Avacyn
+After the "blink" resolves, the card I have on the battlefield now is no longer the source of the ability I have on the stack.
+In the ruling it says that
+
+112.7a. The source of an activated ability can perform an action even if it no longer exists.
+
+So, the Avacyn source of the triggered ability no longer exists, but it should be flipped bottom-face up.
+What will happen? Will a new object be created? Will the activated ability resolve without effect?
+
+A:
+
+If you blink Archangel Avacyn while its transform trigger is on the stack, the new Archangel object will not transform.
+You are correct in that the transform trigger will still resolve, even though its source object no longer exists. However, the Archangel that put the transform trigger on the stack was also the object to be flipped. When you blinked the original Archangel, the transform trigger lost track of that object. The transform ability will resolve, but it will not do anything.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. 
+

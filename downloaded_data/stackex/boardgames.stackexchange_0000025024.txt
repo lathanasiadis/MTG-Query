@@ -1,0 +1,14 @@
+Q:
+
+What happens to an unattached Aura?
+
+I haven't played magic in forever and I need some clarification on a rule.
+Let's say I cast Arrest on a creature my opponent controls. Then on his turn he returns the creature to his hand. Now I'm wondering what happens to my arrest,
+Does it get assigned to a new creature? or does it go to my graveyard since the target that got picked is now no longer valid?
+
+A:
+
+When the creature that the Arrest is attached to leaves the battlefield, the Arrest goes to your graveyard because it is not attached to anything. There are several conditional actions that you check every time anyone gets priority called State-based actions. One of those, specified in rule 704.5n is
+
+If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner's graveyard.
+

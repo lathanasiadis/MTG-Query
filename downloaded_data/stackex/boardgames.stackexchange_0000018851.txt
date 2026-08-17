@@ -1,0 +1,21 @@
+Q:
+
+Do deathtouch and deathtouch-like effects stop trample damage?
+
+My friend has a trample deck, and I have a Stinkweed Imp that says "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature."  Can a creature destroyed this way still deal trample damage?
+What if I block with a creature that actually has deathtouch?
+
+A:
+
+Yes, a creature destroyed by Stinkweed Imp will still deal trample damage. Basically, the sequence of actions in combat goes like this:
+
+Your opponent attacks with their creature that has trample.
+You block that creature with your Stinkweed Imp.
+All damage is resolved. This includes the damage dealt to and by Stinkweed Imp, and the trample damage to you. Because Stinkweed Imp dealt damage to a creature, its triggered ability goes on the stack.
+If there is 2 damage marked on Stinkweed Imp, it dies. Then your opponent gains priority with the triggered ability on the stack.
+The triggered ability resolves, and the creature with trample dies.
+
+If you replace Stinkweed Imp with a creature with deathtouch (Deadly Recluse, for example), steps 3, 4, and 5 are replaced with this:
+
+All damage is resolved. This includes the damage dealt to and by Deadly Recluse, and the trample damage to you. Because the creature with trample took damage from Deadly Recluse, it dies, no matter what it's toughness is (see rule 704.5h
+

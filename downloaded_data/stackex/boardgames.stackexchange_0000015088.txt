@@ -1,0 +1,30 @@
+Q:
+
+Cauldron of Souls and Wickerbough Elder
+
+How many counters does Wickerbough Elder get when returned to battlefield with Cauldron of Souls? Assume that it died with no counters on it and was targeted by Cauldron of Souls. I can't tell if gets two -1/-1 counters or one when returned to battlefield.
+Wickerbough Elder:
+
+Wickerbough Elder enters the battlefield with a -1/-1 counter on it.
+
+Cauldron of Souls:
+
+Choose any number of target creatures. Each of those creatures gains
+persist until end of turn. (When it dies, if it had no -1/-1 counters
+on it, return it to the battlefield under its owner's control with a
+-1/-1 counter on it.)
+
+A:
+
+It enters with 2 -1/-1 counters.
+
+Wickerbough Elder enters the battlefield with a -1/-1 counter on it.
+
+is equivalent to
+
+As Wickerbough Elder enters the battlefield, place a -1/-1 counter on it.
+
+Similarly, Persist is also an ability that redefines entering the battlefield (ETB) to add the placement of a counter on the card.
+Both are replacement effects that modify the same ETB event, so you apply them in the order of your choice.
+For the card in question, the first replacement effect applied redefines ETB to add the placement of a -1/-1 counter. The second replacement effect applied then further redefines ETB to add the placement of a -1/-1 counter. Two counters are now placed as it enters the battlefield.
+

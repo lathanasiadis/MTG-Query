@@ -1,0 +1,20 @@
+Q:
+
+Meteor Golem killing planeswalkers
+
+Meteor Golem's ability is "When Meteor Golem enter the battlefield destroy target nonland permanent".  Does Meteor Golems ability affect planewalkers, which count as players and not really creatures?
+
+A:
+
+Yes, Meteor Golem can target and destroy a planeswalker on the battlefield. The player is a "planeswalker" only in lore terms. As far as game mechanics are concerned, "planeswalker" has a defined meaning, and a planeswalker object is not a player and vice versa.
+A planeswalker in the mechanical sense is a type of object, a game entity that interacts with players and other objects:
+
+102.1. A player is one of the people in the game. [..]
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+A planeswalker is not a creature, as you already noted, but its own permanent type alongside creatures and others:
+
+110.4. There are five permanent types: artifact, creature, enchantment, land, and planeswalker.
+
+Therefore, if Meteor Golem can destroy a non-land permanent, then that does include a planeswalker on the battlefield.
+

@@ -1,0 +1,42 @@
+Q:
+
+Yarok and Animate Dead
+
+I've seen multiple viewpoints on Animate Dead while Yarok, the Desecrated is out, and just want to get a final answer. Does it Animate 2 creatures and then immediately die, thus activating any etb triggers those creatures may have? Do they not enter at all? Do they stay out? Does one stay out? Do Dance of the Dead and Necromancy work differently? What do they do differently?
+
+A:
+
+It would act more or less the same as if you did not have Yarok out.
+Animate Dead is still an Aura spell, which means that it is targeted; and you choose that target when you cast the spell, before it enters the battlefield:
+
+303.4a An Aura spell requires a target, which is defined by its enchant ability.
+
+So you must target a creature card in a graveyard. This target is not going to change or get doubled or anything like that by Yarok.
+Animate Dead does have a triggered ability that triggers when it enters the battlefield, so due to Yarok, this ability will trigger twice. The full effect of the ability that triggers is:
+
+When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead." Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.
+
+So that will trigger twice. This means there will be 2 copies of that ability on the stack, and they will resolve one at a time.
+When the first ability resolves, you will do these things in order:
+
+Animate Dead loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead."
+You return enchanted creature card to the battlefield under your control and attach Animate Dead to it.
+Then it sets up a delayed trigger for when Animate Dead leaves the battlefield.
+
+When the second ability resolves, you will still go through these steps in order, although certain things will now not function the same:
+
+Animate Dead loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead."
+
+Animate Dead didn't have the ability it's supposed to lose, so it won't lose anything. It will gain "enchant creature put onto the battlefield with Animate Dead" again, but having 2 of that ability is redundant.
+
+You return enchanted creature card to the battlefield under your control and attach Animate Dead to it.
+
+The enchanted creature card is already on the battlefield, and Animate Dead is already attached; so this instruction won't do anything extra.
+
+Then it sets up a delayed trigger for when Animate Dead leaves the battlefield.
+
+This will set up an additional delayed trigger, but that extra delayed trigger won't do anything special, because you won't be able to sacrifice the same creature twice.
+
+Day of the Dead is exactly the same; all the relevant wording is identical.
+Necromancy is different, however. Because it is not an aura spell, you do not choose a target as part of casting Necromancy. Instead, the triggered ability itself is what targets. This means that you will have 2 targeted triggered abilities on the stack, and you can choose a target for each ability when you put it on the stack. You could choose different targets for each one; which would allow you to return 2 creature cards to the battlefield. Necromancy will attach to the first one, then "move" and attach to the second one. The first one will remain, without Necromancy attached to it.
+

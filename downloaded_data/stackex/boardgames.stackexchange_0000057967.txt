@@ -1,0 +1,40 @@
+Q:
+
+What happens when Gideon, The Oathsworn mutates?
+
+Gideon, The Oathsworn has an ability that transforms it into a non-human creature. If we should mutate on Gideon while he is alive what would happen? Let's say we mutate the card with Boneyard Lurker.
+
+A:
+
+The Mutate ability always triggers. The permanent's characteristics during your turn and after the end of it depend on which card is on top. During your turn, it's always a 5/5 white Soldier, and also a planeswalker if Gideon is on top. At end of turn, if Gideon is on top, it stops being a creature and remains a planeswalker, otherwise it becomes a 4/4 Lurker. In subsequent turns, you may active the permanent's loyalty abilities even if the Lurker is on top.
+Mutate causes the two objects to merge:
+
+724.1. One keyword causes an object to merge with a permanent. See rule 702.140, “Mutate.”
+
+When you merge, you have to decide whether the merging spell goes on top or on the bottom of the permanent:
+
+724.2. To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card or copy that represented that object in addition to any other components that were representing it.
+
+The characteristics of that object are defined by the top object, except for its abilities which are added together.
+
+702.140e A mutated permanent has all abilities of each card and token that represents it. Its other characteristics are derived from the topmost card or token.
+
+724.2a A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)
+
+The layer system determines an object's characteristics. A merge is a copiable effect so it takes place in layer 1:
+
+613.1a Layer 1: Rules and effects that modify copiable values are applied.
+
+Gideon's +2 creates an effect that takes place in layers 4, 5, and 7, so it overwrites the merge effect:
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+If Gideon is on top, it's a Planeswalker named Gideon, the Oathsworn. However, its +2 effect is still active, so it's also a white 5/5 Soldier creature. At end of turn, the effect ends and it's only a planeswalker, except it still has the Lurker's abilities.
+If the Lurker is on top, the permanent has all the characteristics of a Lurker. However, the Gideon's ability is still active and overwrites all applicable characteristics, so it's a white 5/5 Soldier creature named Boneyard Lurker. At end of turn, the effect ends and it becomes a Boneyard Lurker as printed except it still has Gideon's loyalty abilities and retains the loyalty counters.
+Notably, in future turns you can activate Gideon's loyalty abilities even if the Lurker is on top, because loyalty abilities work on all permanents, not just on planeswalkers:
+
+606.3. A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn.
+

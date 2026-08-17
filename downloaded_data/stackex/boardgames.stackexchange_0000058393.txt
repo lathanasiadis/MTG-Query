@@ -1,0 +1,12 @@
+Q:
+
+Elesh Norn and 2/2 Creature + Aura Entering at the same time
+
+We have a Elesh Norn, Grand Cenobite in play and another player casts Triumphant Reckoning bringing back a 2/2 creature and an aura giving +1/+1. Can the creature now enter as a 3/3 and will it therefore survive? I couldn't find an answer to this anywhere else.
+
+A:
+
+Although Triumphant Reckoning explicitly forbids this interaction, Rise to Glory does allow a player to return a creature then an aura, so the aura could be attached to the creature.
+In that case, the 2/2 with an aura giving it +1/+1 would survive. The reason is that creatures with 0 toughness only die when state based actions are checked, which happens after the card has finished resolving. So even though there was a 0/0 on the battlefield, it's still valid for the aura to enchant it.
+You could also produce the same interaction with Rise to Glory reanimating a Hangarback Walker and an All That Glitters.
+

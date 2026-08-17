@@ -1,0 +1,16 @@
+Q:
+
+Does a face-down creature with morph retain its damage when it is turned face up?
+
+I have a face-down morph creature that has received 1 point of damage. If my opponent casts Shock or another thing to kill it, can I flip at that point to make the damage disappear or my card still have it (now flipped) until the end of my turn?
+
+A:
+
+After turning the creature face up, the damage is still marked on the creature, it doesn't somehow disappear. It's still the same creature, only in a different 'state'.
+
+120.6. Damage marked on a creature remains until the cleanup step
+707.8. As a face-down permanent is turned face up, its copiable values revert to its normal copiable values. Any effects that have been applied to the face-down permanent still apply to the face-up permanent.
+
+But if the creature has a high enough toughness (4 or more) or protection from red, it might still survive the Shock.
+Note that turning a creature face up doesn't use the stack, so an opponent cannot cast a Shock in response to turning a creature face up to kill it while it's still morphed.
+

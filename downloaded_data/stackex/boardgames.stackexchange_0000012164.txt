@@ -1,0 +1,81 @@
+Q:
+
+What is the proper way way to play Butcher of Malakir and Falkenrath Noble?
+
+I am not sure if I correctly understand what order the phases would be when playing Butcher of Malakir and Falkenrath Noble. 
+Also the description causes confusion as it basically says "if creature OR another creature" dies. Is this singular or plural, for example does "Whenever Falkenrath Noble or another creature dies" apply to all creatures that might die during this turn or if 5 creatures die then the affect only takes place once for "another creature"? 
+Scenario 1:
+
+It is a 3 player game. 
+One opponent attacks me with six 5/5 creatures. He has no other creatures on the battlefield. 
+I choose to block with six 1/1 creatures. So all my creatures will die. 
+
+Would all his creature would be sacrificed because of Butcher of Malakir, and he also loses 12 life at the end of his turn or as creatures are dying?
+Scenario 2:
+
+One opponent attacks me with six 1/1 creatures and has no other creatures on the battlefield. 
+I block with three 1/1 creatures. 
+
+Which of the following would happen:
+
+My three 1/1 creatures and three of his 1/1 creatures die due to the equal power/toughness, and because 3 of my creatures died then his other 3 creatures are sacrificed before they have a chance to attack me. 
+My three 1/1 creatures and three of his 1/1 creature die, but his remaining 3 creatures deal damage to me before they have to be sacrificed? 
+
+A:
+
+Scenario 1
+As the creatures are dying, more or less.
+
+Butcher of Malakir's ability triggers 6 times. Falkenrath Noble's ability triggers 6 times.
+You place the ability on the stack in the order you desire (since they're all yours): [Doesn't really matter]
+
+Butcher of Malakir's ability is put on the stack 6 times.
+Falkenrath Noble's ability is put on the stack 6 times targeting whoever.
+
+Falkenrath Noble's ability #6 resolves:
+
+The targeted player loses one life.
+You gain one life.
+
+Repeat step #3 for the other 5 instances.
+Butcher of Malakir's ability #6 resolves:
+
+The opponent sacrifice one of his 5/5s. Falkenrath Noble's ability triggers.
+
+Falkenrath Noble's ability is placed on the stack targeting whoever.
+Falkenrath Noble's ability resolves:
+
+The targeted player loses one life.
+You gain one life.
+
+Repeat steps #5-#7 for the other 5 instances.
+
+(If the other opponent has creatures too, there will be more triggers added in step #6.)
+So before moving from the Combat Damage Step to the End of Combat Step,
+
+One or more players lost a total 12 life (one at a time).
+You gained 12 life (one at a time).
+Each opponent sacrificed 6 creatures.
+
+Scenario 2
+It's #2 (you take damage) because all combat damage is dealt simultaneously[1].
+
+Simultaneously, 
+
+Your three 1/1s deal one damage to each of his 1/1s.
+Three of his 1/1s deal one damage to each of your 1/1s.
+The other three of his 1/1s deal one damage each to you.
+
+SBAs are performed simultaneously:
+
+You lose the game if you have non-positive life.
+Your 1/1s are destroyed. (Butcher of Malakir's ability triggers three times. Falkenrath Noble triggers three times.)
+His three 1/1s with one damage marked are destroyed. (Falkenrath Noble's ability triggers three times.)
+
+You put the nine triggered abilites on the stack in the order you desire.
+...
+
+Notes:
+
+All combat damage dealt by the creatures participating in that Combat Damage Step is dealt simultaneously, to be specific. Creatures with First Strike and creatures without participate in different Combat Damage Steps.
+

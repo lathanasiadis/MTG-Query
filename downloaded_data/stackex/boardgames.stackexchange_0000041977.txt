@@ -1,0 +1,24 @@
+Q:
+
+Reasoning for Soul Warden and Ajani's Pridemate interaction
+
+I play modern Soul Sisters and I understand that when I put an Ajani's Pridemate (or Archangel of Thune) down with a Soul Warden out, Ajani's Pridemate immediately gains a counter (and Archangel's trigger goes off as well). 
+I've had a few people at tournaments question this interaction and my understanding of how it works is a bit fuzzy, besides something regarding ordering the stack.  
+Why do the cards interact like this? It is more helpful if you can give me a response that I could explain to the person I'm playing against, so they also understand it. 
+
+A:
+
+It's pretty simple. Angel/Pridemate has to enter the battlefield to trigger Soul Warden. This means when the life-gain trigger resolves, the Angel/Pridemate will be able to see this and trigger themselves. So it's not actually a matter of specifically ordering the stack at all. It's actually just a chain of triggers.
+As a list of steps (assumes no responses from anyone):
+
+You have Soul Sister on the field
+You cast Angel/Pridemate
+All players pass priority
+Angel/Pridemate resolves and enters the field
+Sister's life-gain triggers because a creature entered your field
+All players pass priority
+Sister's trigger resolves and you gain 1 life
+Angel/Pridemate's ability triggers because you gained life
+All players pass priority
+Angel/Pridemate gets a counter
+

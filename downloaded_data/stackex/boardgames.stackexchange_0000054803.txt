@@ -1,0 +1,25 @@
+Q:
+
+“Repeat this process” infinite loop rulings
+
+I am theory crafting a deck for the new legendary planeswalkers/commander Grist, the Hunger Tide and I was wondering how his first ability works in an infinite loop. The scenario occurs when I force all creatures become insects using a card like Maskwood Nexus and then reducing my library to be just Vigor. I then activate Grist’s +1 ability and as far as I’m aware what would happen would be vigor gets milled and then when put into graveyard either the ability tried to mill again and then fails and once it resolve vigor is shuffled back in or vigor is automatically shuffled back in and it becomes an infinite loop. If it’s the first scenario then would I be correct in saying that if I had somehow created a working infinite loop that having a wincon such as Ayara, First of Locthwain or Impact Tremors on the field would not result in a victory and would instead end the game in a draw due to an infinite loop? Thanks :)
+
+A:
+
+No, you can't create an arbitrary number of tokens with Grist like that. Either the process stops after a finite number of steps, or the game is a draw.
+The specific example you gave does not work because Vigor shuffles back as a triggered ability. As long as a spell or ability "repeats this process", it's still resolving, and while it's resolving, no player gets priority and no triggered abilities enter the stack or resolve; they wait until the current item has finished resolving. So if your library consists of only Vigor, Grist's +1 will create a token, mill the Vigor, repeat once to create another token, and then stop resolving because there were no more cards to mill on the second pass. Then Vigor's ability enters the stack and can resolve to shuffle it back.
+
+117.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, “Handling Triggered Abilities.”) However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack. See rule 117.5.
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+If you use a creature card that shuffles back as a replacement effect, such as Darksteel Colossus, you can indeed make Grist's +1 go infinite, because replacement effects don't use the stack and happen immediately. However, in that case, again, the triggers from your win condition won't enter the stack or resolve. More importantly, there is no way to stop Grist from repeating the process, and the game is a draw as per the shortcut rules.
+
+722.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+I can't think of an example off the top which card(s) might do that, but even if you could make both the re-shuffle and the damage-dealing a replacement effect, it would still be a draw. That's because players die to damage only when state-based actions are checked, which again happens only whenever a player would get priority.
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [..]
+
+The only ways to guarantee the win with Grist's +1 would be either to stack enough creatures on top of your library and get enough damage triggers, or to find a win condition in a replacement effect, and the latter are quite rare. Most win conditions require state-based actions, or a spell/ability to resolve, neither of which can happen while you are going into an infinite loop, as discussed. The only ones I can think of that are even theoretically possible are Jace, Wielder of Mysteries and Laboratory Maniac.
+

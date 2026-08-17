@@ -1,0 +1,32 @@
+Q:
+
+Can Trait Doctoring be used to change words like "nonblack"?
+
+Trait Doctoring reads:
+
+Change the text of target permanent by replacing all instances of one
+color word with another or one basic land type with another until end
+of turn.
+
+Doom Blade, for instance, reads:
+
+Destroy target nonblack creature.
+
+Assuming I have Quicken or something to time it correctly, can I use Trait Doctoring to change "nonblack" to "nonred"?
+
+A:
+
+Yes, but not in your example.
+A ruling on gatherer for Trait Doctoring clearly supports changing 'nonblack' to 'nonred'
+
+4/15/2013     The type-changing effect can change part of a word such as
+  “nonblack” or “swampwalk” if the part of the word is being used to
+  refer to a color or basic land type.
+
+However, Trait Doctoring specifically says: 
+
+Change the text of target permanent by...
+
+Doom blade is a not a permanent.
+In order to change the color referenced on Doom Blade, you would need to use a card such as Sleight of Mind, that specifically says it can target spells. (See Steven Stadnicki's answer for more information about this combo)
+

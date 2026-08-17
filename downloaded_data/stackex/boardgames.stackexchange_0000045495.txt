@@ -1,0 +1,51 @@
+Q:
+
+What is wrong with Escaped Shapeshifter's original wording?
+
+Escaped Shapeshifter has an interesting functional erratum.
+The oracle text reads:
+
+As long as an opponent controls a creature with flying not named Escaped Shapeshifter, Escaped Shapeshifter has flying. The same is true for first strike, trample, and protection from any color.
+
+The part in bold ("not named Escaped Shapeshifter") is not printed on the card.
+I presume this text was added to avoid rules complications. So, what happens if it isn't there? Note, the added text can be circumvented by cards like Sakashima the Impostor that can copy creatures without copying the name (though this may not have been possible at the time the text was added).
+I guess this is the problem case: both players control an Escaped Shapeshifter. One player plays a creature with flying. Now both shapeshifters fly. The flying creature leaves the battlefield. Do the shapeshifters still fly?
+(I would also be interested in other problem cases that I might not be seeing.)
+
+A:
+
+There are three situations that are affected in meaningful ways by this wording change, all of which had different behavior with the old wording.
+In the first situation, two players each have an Escaped Shapeshifter, then one plays a creature with one of the named abilities (e.g. flying). Under the old ruling, both Escaped Shapeshifters would gain flying. With the new wording, only the Shapeshifter opposed to the creature that naturally has flying would gain flying. There is nothing really problematic rules-wise in this situation, but I suspect that the behavior with the old wording was a worse fit for the flavor of the card.
+The second situation is the one you describe, where you start with the same creatures as in the first scenario, and then the creature that naturally has flying goes away. With the old wording and the current rules, both Shapeshifters would lose flying. With the new wording, it is pretty clear that the opposing Shapeshifter would lose flying. This is a problematic scenario, because under the old wording it's not obvious to most players what would happen.
+In the third situation, two players each have an Escaped Shapeshifter, and one also has a creature with flying and the other also has a creature with first strike. With the old wording and the current rules, unintuitively, one Shapeshifter would gain only the ability the opposing creature has naturally, and the other would gain both abilities, and which one gets which depends on the order in which they entered the battlefield. With the new wording, each one only gets the ability that the opposing creature naturally has. This is the most problematic situation, because the old behavior is surprisingly asymmetrical and requires players to track an unusual piece of information: when the creatures entered the battlefield.
+
+To understand why this ability behaves this way under the old wording, we have to delve deep into the rules regarding the interaction of continuous effects. In Magic, evaluating the outcome of effects like this uses what is commonly known as the "layer system". In this case, the layers themselves are less important because the ability in question only operates on one layer: "Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can't have an ability". When applying multiple effects in the same layer, two subrules of that section apply:
+
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+613.7. Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+
+This dependency system is the way the rules rigorously represent the idea of "one Shapeshifter gains flying because the other Shapeshifter gains flying". The rule for deciding whether the dependency system applies is 613.7a:
+
+An effect is said to "depend on" another if (a) it's applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+Using the old wording, we can see a difference in how this would be evaluated in the two situations:
+
+Let's call the Shapeshifter controlled by the player with the flying creature Shapeshifter A, and the one controlled by the opponent Shapeshifter N. We can see that there is a dependency here: (a) they are both in the same layer; (b) if Shapeshifter N's effect is applied first then it gets flying from the creature that naturally has flying, which changes the outcome of applying Shapeshifter A's effect; and (c) the ability is not a characteristic-defining ability. The same is not true the other way around: applying Shapeshifter A's effect first will do nothing, which will have no effect on what Shapeshifter N's effect will do.
+
+In this case, if you apply either Shapeshifter's effect first, it gains no abilities because none of the opponent's creatures have any of the named abilities (yet), which means that it doesn't change what the other Shapeshifter's effect does. So, this fails the second condition and there is not a dependency.
+
+This case is similar to the first, except that the second condition is true in both directions. If you apply Shapeshifter A's effect first, Shapeshifter N also gains first strike. And if you apply Shapeshifter N's effect first, Shapeshifter A gains flying.
+
+Once there are dependencies, rule 613.7b describes how to apply the effects:
+
+An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they're applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
+
+With this we can see how the effects actually get applied in each situation.
+
+In the first situation, Shapeshifter A's effect depends on Shapeshifter N's effect, so we wait until after we apply Shapeshifter N's effect to apply Shapeshifter A's effect. Shapeshifter N sees an opposing creature with flying, so it gains flying. Then Shapeshifter A sees an opposing creature with flying, so it gains flying.
+
+In the second situation, there is no dependency, so we use the timestamp order. Whichever Shapeshifter entered the battlefield first sees no opposing creatures with the listed abilities, so it gains no abilities. Then the other Shapeshifter does the same.
+
+In the third situation, since each creature's effect depends on the other there is a dependency loop, so we end up using the timestamp order again. In this case, whichever Shapeshifter entered the battlefield first sees one opposing creature with one of the abilities, so it gains that ability. Then the other Shapeshifter sees two different creatures with different abilities that it can copy, so it copies both of them.
+

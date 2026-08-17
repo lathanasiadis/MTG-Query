@@ -1,0 +1,34 @@
+Q:
+
+How do continuous effects interact with the stack, your hand, and other zones?
+
+For example, Chief of the Foundry has an ability that says:
+
+Other artifact creatures you control get +1/+1.
+
+If I were to cast a 1/1 Artifact Creature it would enter the battlefield as a 2/2 due to the Chief of the Foundry's continuous effect.
+
+Am I correct that continuous effects do not normally apply to cards in your hand?
+
+Ex: I believe that in my hand that same Artifact Creature would be considered to be a 1/1.
+
+What would its power and toughness be on the stack?
+
+Ex: In response my opponent casts an instant that says:
+
+Counter target creature spell with power 1 or less.
+
+Would the Artifact Creature be a legal target for that counter spell?
+
+Would the Artifact Creature card be affected in other zones? (Graveyard, Library, Exile, etc.)
+
+A:
+
+The creature card would have 1 power and 1 toughness in all zones other than the battlefield
+
+609.2. Effects apply only to permanents unless the instruction’s text states otherwise or they clearly can apply only to objects in one or more other zones.
+
+The only things that can change a creature card's power/toughness off of the battlefield are Characteristic-Defining Abilities, like what Tarmogoyf has.
+
+208.2a The card may have a characteristic-defining ability that sets its power and/or toughness according to some stated condition. ... This ability functions everywhere, even outside the game. ...
+

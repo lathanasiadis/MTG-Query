@@ -1,0 +1,40 @@
+Q:
+
+Does Nyxathid trigger Sarkhan's Unsealing if my opponent has cards in hand?
+
+Say you have Sarkhan's Unsealing, and you play Nyxathid. Let's say your opponent has 4 cards in hand. Does any of Sarkhan's Unsealing's abilities resolve? 
+
+A:
+
+Nyxathid enters the battlefield as a 3/3, but is a 7/7 everywhere else.
+Nyxathid's two abilities are a replacement effect and a static ability that generates a continuous effect.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+Replacement effects that affect how a permanent enters the battlefield apply before the permanent enters the battlefield.
+
+614.12a If a replacement effect that modifies how a permanent enters the battlefield requires a choice, that choice is made before the permanent enters the battlefield.
+
+This means that Nyxathid's continuous effect can affect it as soon as it enters play.
+
+611.3c Continuous effects that modify characteristics of permanents do so simultaneously with the permanent entering the battlefield. They don’t wait until the permanent is on the battlefield and then change it. Because such effects apply as the permanent enters the battlefield, they are applied before determining whether the permanent will cause an ability to trigger when it enters the battlefield.
+Example: A permanent with the static ability “All white creatures get +1/+1” is on the battlefield. A creature spell that would normally create a 1/1 white creature instead creates a 2/2 white creature. The creature doesn’t enter the battlefield as 1/1 and then change to 2/2.
+
+So Nyxathid enters the battlefield as a 3/3.
+However, it is a 7/7 when you cast it.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+604.3. Some static abilities are characteristic-defining abilities. A characteristic-defining ability conveys information about an object’s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box) or overrides information found elsewhere on that object. Characteristic-defining abilities function in all zones. They also function outside the game.
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: (1) It defines an object’s colors, subtypes, power, or toughness; (2) it is printed on the card it affects, it was granted to the token it affects by the effect that created the token, or it was acquired by the object it affects as the result of a copy effect or text-changing effect; (3) it does not directly affect the characteristics of any other objects; (4) it is not an ability that an object grants to itself; and (5) it does not set the values of such characteristics only if certain conditions are met.
+
+While Nyxathid's static ability does affect its power and toughness, it does not define them, and thus it is not a characteristic-defining ability.  Those are the only static abilities that apply off the battlefield unless explicitly stated in the ability itself.
+So when you cast Nyxathid it is cast as a 7/7, which will cause Sarkan's Unsealing to trigger.  But if you had Where Ancients Tread in play, it would not be triggered by Nyxathid.
+Magic defines the P/T (power and toughness) of creatures with variable P/T in several ways
+Maro has a characteristic-defining ability (mentioned above in rule 604.3).  Maro always has a power and toughness equal to the number of cards in your hand no matter where it is.  If you have 7 cards in hand when you play Maro, it will trigger Sarkhan's Unsealing.  (Note that Maro can't be one of those 7, because by the time Maro's power is checked Maro has left your hand and entered the stack).  Generally speaking, if the P/T box reads */* (or */1+* then the creature has a characteristic-defining ability.
+Shanna, Sisay's Legacy has a P/T of 0/0 and an ability which gives her +1/+1 for each creature in play.  She works the same way Nyxathid does, albeit in the opposite direction.  Unless she is on the battlefield, she is a 0/0. (I suspect that this template will be replacing characteristic-defining abilities on most (or all) newer variable P/T cards, but I don't know for sure.)  Shanna will not trigger Sarkhan's Unsealing
+Hungering Hydra has a replacement effect that puts +1/+1 counters on it as it enters the battlefield, based on the value of X chosen when the Hydra was cast.  Even though X was defined when the spell was cast the counters don't appear until the spell resolves - while the Hydra is on the stack it is a 0/0 just like it is everywhere else that isn't the battlefield.  Hungering Hydra will not trigger Sarkhan's Unsealing
+Slime Molding creates an X/X Ooze creature token where X was chosen as the spell was cast.  Slime Molding isn't a creature spell.  It will not trigger Sarkhan's Unsealing.
+Finally, it's worth noting that variable tokens can be created in any of thses ways.  Voice of Resurgence creates Elemental creature tokens with characteristic-defining abilities based off of the number of creatures you control.  If the number of creatures you control changes later, so will the Elemental's power.  Oviya Pashiri, Sage Lifecrafter creates X/X Construct (artifact) creature tokens where X is the number of creatures you control when the ability is used.  In this case X is fixed at creation - later changes to the number of creatures you control will not change the Construct's P/T.
+Neither creature will trigger Sarkhan's Unsealing.
+

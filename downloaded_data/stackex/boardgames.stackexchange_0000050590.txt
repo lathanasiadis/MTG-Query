@@ -1,0 +1,17 @@
+Q:
+
+If a creature takes non-lethal damage, turns into a non-creature, and then back into a creature, does the damage remain?
+
+Sort of a follow-up to Can Hour of Devastation kill Heliod, Sun-Crowned?
+Let's say my opponent has two Benalish Marshal and Heliod, Sun-Crowned. I cast Hour of Devastation. Per murgatroid99's answer, Heliod survives.
+If my opponent next plays some flash creatures or enchantments that turn Heliod back into a creature, does it still have 5 damage marked on it (+ is no longer indestructible)?
+
+A:
+
+Yes, Damage is marked on a permanent even if it is not a creature.
+Comp rules:
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature.
+
+Heliod will also not be indestructible in the given scenario, since he was a creature while Hour of Devastation was resolving, which is all that HoD cares about. Changing or losing permanent types does not cause Heliod to regain indestructibility.
+

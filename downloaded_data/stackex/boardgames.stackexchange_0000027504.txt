@@ -1,0 +1,15 @@
+Q:
+
+Are two Indestructible creatures safe from each other, or do they somehow cancel each other out and destroy each other?
+
+My friend attacked with Colossus of Akros (Monstrous 20/20 indestructible) and I blocked with my Xenagos, God of Revels (6/5 indestructible). I believe that our creatures are safe since indestructible prevents them from dying by combat damage.
+My friend though believes that the indestructible ability would cancel each other out and his Colossus would destroy my Xenagos. Are there any rules that explains what happens in this situation?
+
+A:
+
+No, nothing like your friend's idea happens. Indestructible simply means they can't be destroyed, period. They can be exiled, returned to their owner's hand, sacrificed, have their toughness reduced to zero, shuffled into their owner's library, or even turned into frogs, but if anything tries to destroy them, including lethal damage, it just doesn't happen.
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren't destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+There's no secret "...unless..." clause in the rules like your friend believes. The only way to actually destroy an indestructible creature is to make it stop being indestructible; usually that means causing it to lose all its abilities, like if you turn it into a frog!
+

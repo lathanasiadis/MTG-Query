@@ -1,0 +1,22 @@
+Q:
+
+Can I sacrifice and regenerate Augur of Skulls multiple times in the same turn?
+
+Augur of Skulls has 
+
+{1}{B}: Regenerate Augur of Skulls.
+
+and 
+
+Sacrifice Augur of Skulls: Target player discards two cards. Activate this ability only during your upkeep.
+
+Can I sacrifice and regenerate Augur of Skulls multiple times in the same turn as long as I have the mana open? 
+
+A:
+
+No, that won't work
+Regeneration prevents the destruction of a permanent, but sacrificing a permanent is different from destroying it:
+
+701.16. Sacrifice
+701.16a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+

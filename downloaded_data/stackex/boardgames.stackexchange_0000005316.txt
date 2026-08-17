@@ -1,0 +1,31 @@
+Q:
+
+Who should I try to kill? Chandra or opponent?
+
+Here's a board state I faced today in a casual Constructed game:
+
+In case it's not clear from the picture, I have 1x Mausoleum Guard, 1x Doomed Traveler, and 2x Intangible Virtue, while he has 1x Stormblood Beserker (enchanted with Pacifism) and Chandra the Firebrand.
+What's the play? Should I send my guys after Chandra or hit my opponent directly? And why?
+What actually happened is this (spoilered for the curious):
+
+ 1. I reason that, all else being equal, I'll grind him down on the ground before he can ping me to death with Chandra's +1 ability. I
+ attack him, and he goes to 12.
+ 2. He plays a Stormblood Beserker, pings me for one with Chandra's +1 ability, and passes the turn to me. I am now at 8 life.
+ 3. I pass the turn back without attacking, planning on using men to block and upgrade them into flying tokens.
+ 4. On his turn, he uses Chandra's -2 ability to double a spell. He then casts Incinerate targeting me, which gets doubled and hits for 6.
+ Then he casts another Incinerate from his hand, and I lose.
+ Should I have seen this coming? Should I have attacked Chandra to remove the threat of her -2 ability?
+
+A:
+
+Depends on what's in the rest of your decks, really.
+Just generally speaking, a five-turn clock is too slow to justify sacrificing board position.
+I thought about ways to explain this in terms of drawing "outs", "control vs. beatdown" theory, &c., but I think it's actually simpler than that... Look at Chandra's -6 ability. 6 damage! If you race and both draw blanks, he will still win. With Chandra on the board, he actually has a faster clock than yours.
+Consider also why he played her. What did your opponent do last turn? Looks like he played Blackcleave Cliffs tapped, tapped all his basics for Chandra, then +1ed her up to 4 loyalty counters. He did all that stuff based on the same board state as you're seeing now: two creatures and two Intangible Virtues. He had two other cards in hand; these represent alternative options. So, why'd he choose to make this play? Presumably he played Chandra because the best line of play available to him includes Chandra; therefore, you should kill her to cut it off.
+It might be a fake-out to buy time, but...
+
+He's clearly not stalling for mana. He's already got six mana available to him: if he had something big hiding in his hand, he could've just played it already. It's safe to assume Chandra is part of his strongest line of play.
+It's possible that -- and this is highly unlikely with a red deck -- both cards in his hand are dead and he's stalling to try to draw some kind of "out" (a card that'll turn the board state in his favor or win the game outright so he doesn't have to care about board state anymore). However, having access to Chandra's copy effect makes many more of his potential topdecks into legitimate outs (e.g. the exact way he burned you out next turn). In this unlikely scenario, your best line of play is still to cripple his board and grind out a win.
+
+Since I did just end up mentioning "outs" anyway, I might as well throw in "control vs. beatdown" theory. Assuming you're playing Township Tokens and his deck isn't heavy with big stuff like Inferno Titan, you've got a stronger endgame. In this situation, you've also got the ability to claim a stronger board position, by killing Chandra. So, be the control deck! Don't let him keep a planeswalker around just because ignoring her makes your super-slow clock a little bit faster.
+

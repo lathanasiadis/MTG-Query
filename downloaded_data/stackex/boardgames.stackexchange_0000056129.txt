@@ -1,0 +1,22 @@
+Q:
+
+Rest in Peace and Ranar, the Ever Watchful interactions
+
+Ranar the Ever-Watchful creates a 1/1 flying token whenever "a spell or ability you control exiles one or more permanents from the battlefield"
+and Rest in Peace says "If a card or token would be put into a graveyard from anywhere, exile it instead."
+So I'm trying to figure out what "a spell or ability I control" means here for the sake of triggering Ranar's ability. I'm gathering that it doesn't trigger every time something is exiled by Rest in Peace because Rest in Peace's effect is a replacement effect; so it would need to be an effect or ability of a card I control that would cause something to get exiled by Rest in Peace's effect for Ranar to get triggered. But I'm also seeing some people say that cards like Blasting Station who's cost would cause a card to be exiled by Rest in Peace's effect also wouldn't work because it is a cost and not an effect.
+I'm curious if anyone might understand if or why that is; and also how killing my own creature with Skullclamp might work with this interaction?
+
+A:
+
+The original ability or event that would have caused the card to go to the graveyard is what matters; Rest in Peace is not seen as the "cause" of anything.
+The official rulings on Firesong and Sunspeaker say this:
+
+A spell causes you to gain life if its cost or effect instructs you to gain life or if an instruction in its cost or effect is modified by a replacement effect and the modified event includes you gaining life. If a spell’s cost or effect instructs a source with lifelink you control to deal damage, that spell causes that life gain as well.
+
+So if you control the original ability that caused the effect which Rest in Peace is replacing, then an ability you controlled "caused" a card to go to exile, so Ranar will trigger.
+In the case of Blasting Station, this works, because even though it is the payment and not the effect of the ability that caused the creature to die (and thus be exiled because of Rest in Peace), the ruling above states that if paying an ability's cost causes something to happen; the ability is said to have caused that thing to happen.
+In the case of Skullclamp, it would not work, because it was simply the state-based action that kills creatures with 0 toughness that caused the creature to die / be exiled. By the time the game is checking state-based actions, it doesn't care how or why the creature is at 0 toughness.
+Similarly, using Prodigal Sorcerer to damage a 1/1 creature would not trigger Ranar, but using Royal Assassin would, because in the former case, the state-based actions are what "killed" the creature, while in the latter case, it was Royal Assassin's ability.
+This was a difficult question, and it's taken me 3 separate versions of the answer to come to this conclusion! The rules never define the word "cause" even though it is used on a lot of different cards. Some rules such as 614.10 imply that replacement effects do "cause" things to happen. But I believe that the ruling on Firesong and Sunspeaker is pretty definitive; and I can't see any reason that the same ruling wouldn't apply to any card that uses the word "causes".
+

@@ -1,0 +1,26 @@
+Q:
+
+Are lands colorless?
+
+My opponent plays a vampire deck and has Vampire Nocturnus out. It says
+
+Play with the top card of your library revealed. As long as the top
+card of your library is black, Vampire Nocturnus and other Vampire
+creatures you control get +2/+1 and have flying.
+
+The top card of their library is a swamp. Does the swamp count as a black card (giving their vampires +2/+1 and flying), or is it colorless (meaning the vampires remain unbuffed)?
+
+A:
+
+The color of a card is determine by its mana cost and by its color indicator.
+As you can see from this search of the complete database of Magic cards, no land has a mana cost, and only one land has a color indicator, so all lands are colorless except for that one land, Dryad Arbor.
+
+202.2. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. [...]
+
+202.1b Some objects have no mana cost. This normally includes all land cards [...]
+
+202.2e An object may have a color indicator printed to the left of the type line. That object is each color denoted by that color indicator. (See rule 204.)
+
+Note that Commander has the separate concept of a card's color identity, which is not to be confused with a card's color (despite the names). Color identity counts all mana symbols appearing anywhere on the card. This concept is exclusive to commander, though, and while a swamp has a color identity of black, Swamps are still colorless.
+

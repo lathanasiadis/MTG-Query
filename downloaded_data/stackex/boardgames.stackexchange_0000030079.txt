@@ -1,0 +1,19 @@
+Q:
+
+How do pump spells interact with damage at end of turn?
+
+My friends recently got into a heated argument over a rules interaction. One player had a 2/2 creature, and responded to the opponent's Lightning Bolt targeting it with a Mutagenic Growth. The player casting Lightning Bolt claimed that the creature died later, because the pump spell wore off at the end step, but damage was not removed until the cleanup step. I am the most experienced player of our group and told him that is sort of right, but state based actions are not checked at that time, so the creature lives. What actually happens here?
+
+A:
+
+...the pump spell wore off at the end step, but damage was not removed until the cleanup step.
+
+There's your problem. "...until end of turn" actually means until the cleanup step - the actual end of the turn, not just the end step.
+
+Cleanup Step
+
+514.1 [discard to maximum hand size]
+514.2. Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+
+So the damage and the pump go away at the same time, and all is well.
+

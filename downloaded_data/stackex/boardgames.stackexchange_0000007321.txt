@@ -1,0 +1,13 @@
+Q:
+
+Where can I find a database with a list of all magic cards?
+
+I am going to write a program to manage my library of Magic cards and I am looking for a database file or list of all of the cards that have been released.  I know that the Gathering site is useful, but it limits the number of cards I can return in a search.  I would happily accept a spreadsheet file, database file, or even a text file.  
+The more information contained in the database, the better.  Having associated images would just be fantastic, but at this point I would settle for names and basic stats of the cards.
+
+A:
+
+as an alternative, you can also get the full set of cards in JSON format - including all sets, languages, printings and detailed information - from this website: http://mtgjson.com/
+This website also provided information to work with its associated site for serving images, found here: http://mtgimage.com. Unfortunately however, subsequently this website has been shut down by WotC.
+this websites appears to be designed specifically for developers, with explanations of what each property in the JSON objects means.
+

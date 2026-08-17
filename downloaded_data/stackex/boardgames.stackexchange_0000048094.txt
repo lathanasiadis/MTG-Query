@@ -1,0 +1,18 @@
+Q:
+
+Does Teferi, Time Raveler prevent casting spells for their madness cost?
+
+Teferi, Time Raveler's static ability reads:
+"Each opponent can cast spells only any time they could cast a sorcery."
+Madness rules state (emphasis added):
+
+502.24. Madness
+502.24a Madness represents two abilities. The first is a static ability of cards that functions while the card is in a player's hand. The second is a triggered ability that functions whenever the first ability is applied. The phrase "Madness [cost]" means "If a player would discard this card from his or her hand, that player discards it, but may remove it from the game instead of putting it into his or her graveyard," and "Whenever this card is removed from the game this way, until he or she passes next, he or she may play it any time he or she could play an instant as though it were in his or her hand by paying [cost] rather than paying its mana cost. When he or she passes next, he or she puts it into his or her graveyard."
+
+Teferi prevents opposing players from casting spells except when they could cast a sorcery. If someone discards into exile as the result of a spell or triggered/activated ability causing them to discard a card, they cannot cast a sorcery because the stack isn't empty.
+Am I correct in understanding that Teferi effectively disables madness for his controller's opponents while he's on the board?
+
+A:
+
+Yes, you are correct. Opponents can't cast cards by using the madness ability. Teferi, Time Raveler's restriction applies to madness as well. 
+

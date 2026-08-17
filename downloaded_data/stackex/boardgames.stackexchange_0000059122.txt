@@ -1,0 +1,32 @@
+Q:
+
+Chains of Mephistopheles versus ancestral recall
+
+There are four Chains of Mephistopheles in play. I have 5 cards in hand. I cast Ancestral Recall targeting myself.
+What happens?
+
+A:
+
+The Chains of Mephistopheles' replacement effects chain (heh), eventually causing you to discard your hand and mill two cards.
+Chains of Mephistopheles creates a replacement effect, which replaces one event (you draw a card other than the first of your draw step) with another (discard a card, then draw a card). Since the "draw a card" part of the new event can be replaced by other Chains, they do so. Each Chains effect, in order of your choosing, happens once per extra card drawn, but no more than once - they don't chain indefinitely.
+Relevant rules:
+
+614.11a If an effect replaces a draw within a sequence of card draws, all actions required by the replacement are completed, if possible, before resuming the sequence.
+
+That means each card draw of Ancestral Recall is handled in sequence. You don't draw 3 then start discarding/milling, you immediately start discarding for each card drawn.
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
+The original events are the Ancestral Recall card draws. Starting from there, you apply all the Chains, but only once each per card draw.
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. [..]
+
+616.2. A replacement or prevention effect can become applicable to an event as the result of another replacement or prevention effect that modifies the event.
+
+That means the replacement effects chain together, since the new event created by one Chains can be replaced by another Chains, as long as you had a card to discard and thus the first Chains caused a new card draw.
+The sequence of events is the following:
+You start out with 5 hand cards. On the first Recall draw, the 4 Chains will cause you to discard 4 of those cards and then draw one.
+You have 2 hand cards remaining. The second draw causes 2 Chains replacements. You discard those 2 hand cards and, since you have no more cards after the 2nd Chains, you mill 1 card for the third Chains. The fourth Chains does nothing because you didn't draw a card as a result of the third.
+You have no hand cards remaining. The third card drawn will cause you to instead mill 1 card from a Chains and the remaining 3 Chains do nothing.
+Overall, the result is that you draw 1 card, discard your hand, and mill another 2 cards.
+

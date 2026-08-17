@@ -1,0 +1,37 @@
+Q:
+
+Where does mana come from?
+
+So I am reading the rulebook of magic the gathering. I haven't played it but I am curious about the game. In the rule book, I didn't see how much mana you start off with. For example Naga Vitalist. 
+If you have one forest land card on the field can you summon her? My understanding was that you had to have 2 land cards on the field since she requires two mana. Do you start off with a certain number and type of mana in your mana pool? How much mana does a land produce and how is that determined?
+
+A:
+
+Mana is an abstract resource produced by abilities and spell[1], though most commonly by the intrinsic activated abilities of basic lands (e.g. Forest).
+
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. [...] A land with a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. [...]
+
+This means that every Forest has an ability that produces one green mana at the cost of tapping the Forest. 
+I say "green mana" instead of just "mana" because mana comes in each of the five colors, and it can also be colorless.
+Naga Vitalist's mana cost consists of 1 green mana and 1 generic mana. The generic mana cost can be met by paying mana of any color or colorless mana. So, to be able to cast Naga Vitalist, you will need to produce this much mana (e.g. by using the intrinsic abilities of two Forest).
+"Mana pool" refers to the mana you have produced but not yet used. It empties at the end of each step and phase, so you can't carry mana you produce on in turn into the next (for example).
+You can read more about it here.
+
+In the rule book I didn't see how much mana you start off with.
+
+You do not start with any mana, or even any means to obtain mana. You will need to play lands first.
+
+My understanding was that you had to have 2 land cards on the field since she requires two mana.
+
+Basically, yes, though they need to be untapped.
+
+Do you start off with a certain number and type of mana in your mana pool?
+
+No. In fact, it's constantly being emptied. Mana basically need to be produced immediately when needed.
+
+How much mana does a land produce and how is that determined?
+
+Each basic land produces one colored mana (white for Plains, blue for Islands, green for Forest, red for Mountains, black for Swamps) by tapping it.
+
+For example, Naga Vitalist's ability produces mana.
+

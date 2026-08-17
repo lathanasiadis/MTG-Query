@@ -1,0 +1,33 @@
+Q:
+
+Etrata, the Silencer and token creatures
+
+My opponent attacks me with Etrata, the Silencer. I have only token creatures in my battlefield. Does one of the tokens go into exile? Does my opponent have to shuffle Etrata into his library again?
+
+A:
+
+Yes, but it doesn't count towards losing the game because it's not a card.
+
+If Etrata’s ability exiles a token creature, it won’t count to determine whether three cards are exiled with hit counters.
+
+Creature tokens on the battlefield are creatures, so they are valid targets for Etrata's ability.
+When Etrata's ability resolves, the following happens:
+
+The targeted token is exiled.
+
+A hit counter is put on the now-exiled token.
+
+Token aren't cards,[CR 108.2] so you don't lose the game.
+
+Etrata is shuffled into its owner's library.
+
+Immediately after Etrata's ability resolves, the following happens:
+
+Tokens outside of the battelfield cease to exist as a State-Based Action.[CR 704.5d]
+
+108.2. When a rule or text on a card refers to a “card,” it means only a Magic card or an object represented by a Magic card.
+108.2b Tokens aren’t considered cards—even a card-sized game supplement that represents a token isn’t considered a card for rules purposes.
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [...]
+704.5. The state-based actions are as follows:
+704.5d If a token is in a zone other than the battlefield, it ceases to exist.
+

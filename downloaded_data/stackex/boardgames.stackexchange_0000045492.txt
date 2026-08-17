@@ -1,0 +1,22 @@
+Q:
+
+Can I kill an opponent in response to lethal activated abilities, and not take the damage?
+
+Here's the situation.
+Life totals: Not relevant
+Player 1: Activates Borborygmos Enraged (Discard a land card: Deal 3 damage to any target) enough times for lethal, aims damage at Player 2. Passes priority.
+Player 2: In response, uses Mirage Mirror's activated ability to copy Borborygmos Enraged, no responses. Activates the ability for lethal themselves, aims all damage at Player 1, no responses.
+Player 1 dies.
+Does Player 2 still live, or do the triggers persist after Player 1 loses the game?
+
+A:
+
+You will win; in a 2-player game, a player leaving the game for any reason means the remaining player wins immediately and the game is over, no matter the game state. In multiplayer, once a player has left the game, all cards they own and all non-card objects they control on the stack leave the game with him.
+
+104.2a A player still in the game wins the game if that player's opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+104.5. If a player loses the game, that player leaves the game.  [..]
+
+Additional rules for multiplayer, when one player leaves the game but the game still continues:
+
+800.4a When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time they left, priority passes to the next player in turn order who's still in the game.
+

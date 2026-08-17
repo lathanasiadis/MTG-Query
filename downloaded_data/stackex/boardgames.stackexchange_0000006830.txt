@@ -1,0 +1,28 @@
+Q:
+
+What happens when an Undying creature goes to the graveyard from the deck or hand?
+
+What happens when you discard a creature(with Undying) from your hand to the graveyard? Does it go to the Battlefield (without summoning sickness)?
+And what happens if I use Mulch and put all Undying creatures in the graveyard? The same?
+
+A:
+
+No, sorry.
+The fine print on the cards tell us what we need to know:
+
+Undying (When this creature dies, if it had no +1/+1 counters on it,
+  return it to the battlefield under its owner's control with a +1/+1
+  counter on it.)
+
+"Dies" refers to "goes to the graveyard from the battlefield." Thus, a creature card that is placed into the graveyard from any other zone doesn't trigger undying.
+Since Undying doesn't say anything specific about "summoning sickness" or haste, the regular rules apply. Namely:
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t    be activated unless the
+  creature has been under its controller’s control continuously since
+  his or her    most recent turn began. A creature can’t attack unless
+  it has been under its controller’s control    continuously since his
+  or her most recent turn began. This rule is informally called the
+  “summoning    sickness” rule.
+
+It doesn't matter where the creature came from: if it didn't start the turn no the field under your control, it still has "summoning sickness".
+

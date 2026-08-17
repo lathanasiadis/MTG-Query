@@ -1,0 +1,18 @@
+Q:
+
+Priority and timing between enchantments and instants
+
+If I have priority and cast an Unholy Strength on a just summoned 2/3 creature, then, passing priority, my opponent casts a Lightning Bolt on that creature, does my creature survive? The first spell that resolves is obviously the bolt, that deals 3 point of damage to the creature; but immediately after, will the 
+Unholy Strength resolve (giving +2/+1), allowing the creature to survive?
+
+A:
+
+It's not "immediately after" at all. Between the bolt resolving and the strength resolving, the game goes through a whole bunch of steps that are usually glossed over in casual play.
+
+State-based actions are checked and then performed. This includes, but is not limited to, destroying creatures with lethal damage dealt to them, and causing players with 0 or less life to lose.
+Repeat 1 until nothing new happens.
+Abilities that triggered during the resolution of the bolt (e.g. "Whenever this creature is dealt damage") and during steps 1 and 2 are put on the stack.
+Repeat 2 and 3 until nothing new happens
+Players gain priority and may play instants and spells with flash.
+If no player played anything, now the Unholy Strength resolves, sees that it has no valid target, and is removed from the stack to your graveyard with no effect.
+

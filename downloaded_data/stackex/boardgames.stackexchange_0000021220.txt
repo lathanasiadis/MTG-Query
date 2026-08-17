@@ -1,0 +1,26 @@
+Q:
+
+What does "cannot be countered" mean in MTG?
+
+Mistcutter Hydra says it "cannot be countered." What does that mean? Is it like saying that it cannot be blocked? Or it can not be stopped from being summoned this turn or what? I have no idea what this means.
+
+A:
+
+Cannot be countered means that your opponent(s) will not be able to counter this spell. In other words: this spell will hit the battlefield no matter what(except for a very few very rare cases described in the edit).
+If a card doesn't have Cannot be countered text, then a simple Counterspell can counter this spell, so that it will end up in graveyard instead of the battlefield
+EDIT
+As diego mentioned in the comment, there are some very rare cases when Cannot be countered can still get "countered"(even though it will not be countered as per definition(rule 701.5a), it can be returned back to the hand/exiled before it resolves). A couple examples would be Mindbreak Trap and Venser, Shaper Savant. 
+Mindbreak Trap can exile a spell before it resolves and Venser, Shaper Savant can return a spell back to its owner's hand before it resolves. Ruling of these 2 cards say:
+Mindbreak Trap:
+
+If a spell is exiled, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists. This works on spells that can't be countered, such as Terra Stomper.
+
+Venser, Shaper Savant:
+
+If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. The spell isn't countered; it just no longer exists.
+
+So with these 2 cards your opponent may actually "counter"(read: prevent spell from resolving) your cannot be countered spells.
+Rule 701.5a says:
+
+To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+

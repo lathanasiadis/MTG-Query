@@ -1,0 +1,16 @@
+Q:
+
+Does Laboratory Maniac's ability cause me to win before state-based actions are triggered?
+
+The situation: I have 9 poison counters and no card in my library, and I control a Laboratory Maniac.
+I cast Steady Progress, and I choose to proliferate the poison counters on me. Do I win the game due to Laboratory Maniac's ability before state-based actions would cause me to lose from having 10 poison counters?
+
+A:
+
+You would win because the Maniac's ability replaces the drawing a card with winning the game, so you win before SBA are checked and you lose the game due to having 10 poison counters.
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like “shields” around whatever they’re affecting.
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+Since the card draw is getting replaced with winning the game during the resolution of the spell you will win as the spell is resolving. Since you won the game during the resolution of the spell you never get to the point where the game checks SBAs (including losing the game due to having 10 poison counters)
+

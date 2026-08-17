@@ -1,0 +1,14 @@
+Q:
+
+Does Cascade look at CMC or mana cost payed?
+
+When casting a spell with Cascade, does it use the CMC of the spell with Cascade for reference of what it is looking for? Or does it use the mana cost that was payed. 
+For example, if I am to cast Maelstrom Wanderer with commander tax applied to him, so he costs 10 CMC instead of 8 CMC, would I reveal until I find a spell that costs less than 8 or 10 CMC?
+
+A:
+
+Cascade checks the converted mana cost of the spell, which doesn't include any additional costs or cost reductions.
+The definition of Cascade is in rule 702.84a:
+
+Cascade is a triggered ability that functions only while the spell with cascade is on the stack. “Cascade” means “When you cast this spell, exile cards from the top of your library until you exile a nonland card whose converted mana cost is less than this spell’s converted mana cost. You may cast that card without paying its mana cost. Then put all cards exiled this way that weren’t cast on the bottom of your library in a random order.”
+

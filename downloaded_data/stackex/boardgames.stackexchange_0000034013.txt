@@ -1,0 +1,52 @@
+Q:
+
+Hierarchy of dying - Is this Venn Diagram accuarate/complete
+
+UPDATE
+Latest version of diagram, based on feedback in Answers below.
+
+Original Question
+Considering a creature card that is currently on the battlefield, is the following diagram accurate?
+
+"Accurate" in the sense of determining triggers etc.:
+
+Indestructible doesn't prevent Sacrificing, or dying from reducing toughness, but does prevent death from damage.
+"Destroy Target Creature" doesn't require dealing damage.
+Everything mentioned so far does count for a "when dies" trigger.
+etc. etc.
+
+Are there anything missing that would fit nicely into the diagram?
+Are there other ways to leave the Battlefield?
+Suggested Text representation for use in answers:
+> Left the Battlefield
+>> Exiled
+>> Entered the Graveyard
+>>> Died
+>>>> Sacrificed
+>>>> Toughness-Damage <= 0
+>>>>> Dealt Lethal Damage [#1]
+>>>>> Toughness = 0
+>>>> Destroyed [Includes #1]
+
+A:
+
+The new rules changed for innistrad. Dies and Enters the Graveyard are now very similar (A creature “dies” if it is put into a graveyard from the battlefield; rule 700.4.). Dies now means "is put into a graveyard from the battlefield.” So I'd start by putting "dies" and "is put into graveyard" together.
+Toughness - Damage < = 0 makes little sense in that context (because it is completely arbitrary and has no in game analogue). 
+I'd just keep sacrificed, destroyed and 0 toughness as 3 entities inside "Died", with lethal damage inside destroyed, (and also add deathstrike inside destroyed). 
+Make the wording shorter too, it's obvious in context that lethal damage inside destroyed means it was destroyed by lethal damage. No need to say "dealt lethal damage".
+Edited: Deathtouch as a subset of death touch. Legend Rule as another way to Die / put creature in graveyard.
+
+Left Battlefield
+
+Exiled
+Died / Put into Graveyard
+
+Sacrificed
+Legend Rule (like Diego noted)
+0 Toughness
+Destroyed
+
+Lethal Damage
+
+Deathtouch (as Hackworth noted, Death Strike causes lethal damage)
+

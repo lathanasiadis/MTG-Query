@@ -1,0 +1,28 @@
+Q:
+
+Can a Thorncaster Sliver's ability have deathtouch?
+
+If I have a Thorncaster that has deathtouch, does its "1 damage to target creature or player" have deathtouch?
+At first I thought no.  Because the rules say "Combat Damage".
+But then I was reading on wiki.mtgsalvation.com/article/Deathtouch and one of the "Rulings" says:
+
+The rule that causes creatures dealt damage by a source with
+  deathtouch to be destroyed applies to any damage, not just combat
+  damage.
+
+I am not sure if these "Rulings" that are listed on that site are official.  I can't imagine them making them up, but I want to know for sure before I pursue deathtouching silvers with multiple Thorncast abilities.
+Because if this is true, then a few Slivers with Deathtouch and a Thorncaster out can clean out most blockers...
+So, does anyone know where I can access the "Official" rulings for deathtouch?  (Something I could show a judge to prove that it is allowed.)
+
+A:
+
+Thorncaster Sliver's ability works with deathtouch. (The ability doesn't have deathtouch; the Sliver has deathtouch.)
+You can go have a look directly in the comprehensive rules if you like - though generally (and in that case), wiki.mtgsalvation.com has copied the relevant part of the comp rules into the articles. As it says:
+
+702.2c A creature with toughness greater than 0 that's been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action.
+
+It doesn't say "combat damage" in that rule, just "damage" - so any sort of damage dealt by a creature with deathtouch to another creature causes that creature to be destroyed. This is all you should need to convince someone, especially a judge, who ought to be familiar with the rules in the first place. So yes, the combination of a pinging ability like Thorncaster's with deathtouch works how you want it to.
+If you need a reminder, it's right there on the card in the reminder text, at least in core sets: "(Any amount of damage this deals to a creature is enough to destroy it.)" Reminder text isn't actually official rules, but they would certainly have written "combat damage" there if it's what they meant.
+(You say "the rules say combat damage" - perhaps referring to 702.2b? But that's talking about the definition of lethal damage in the context of deathtouch, which matters when you're assigning damage to multiple blockers.)
+The rulings on those wiki pages aren't official per se, but I would expect they're generally correct, and many are probably copied from rulings on cards on Gatherer. Sometimes you'll find the same set of rulings copied onto many cards with the same keyword/ability, but I don't think that ever got done with deathtouch.
+

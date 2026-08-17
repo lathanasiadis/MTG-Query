@@ -1,0 +1,22 @@
+Q:
+
+How do sorcery spells resolve?
+
+I read somewhere that 
+
+Permanents and sorcery spells can only be cast during your own main phase when the stack is empty. 
+
+So 
+a) Do sorcery spells I cast resolve immediately after as I cast them (they    do not stack and resolve backwards?)
+b) If I cast two instant spells during my main phase, will they
+stack and resolve backwards (in the same way that multiple counter
+spell attacks stack on each-other and resolve backwards)?
+
+A:
+
+It sounds like you know that spells and abilities on the stack resolve in "first-in, last-out" order. However in the majority of cases, this rule will only become important when your opponent "responds" to your spell or ability, so that theirs will resolve first. This will come up frequently if your opponent has lots of instants in their deck (especially counterspells or removal spells). 
+When you cast a sorcery spell, it goes on the stack and your opponent has an opportunity to respond to it before it resolves. If they do, their response will resolve first because of the "first-in, last-out" nature of the stack. If they don't, your sorcery will resolve. 
+It is possible to respond to your own spells, but it is very rare that you would actually want to. It is generally preferable to just wait to see if the first resolves, then cast the second one. 
+In case a), you cannot respond to your sorcery with another sorcery because of the rule you linked. You must wait for the first one to resolve, then cast the second one. You could however respond with an instant, which would resolve before the sorcery. 
+In case b), you could indeed respond to your instant with a second instant, so the second one would resolve first. Alternatively you could wait for the first one to finish resolving, then cast the second one afterwards. 
+

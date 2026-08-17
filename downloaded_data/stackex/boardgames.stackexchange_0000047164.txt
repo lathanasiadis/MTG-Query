@@ -1,0 +1,35 @@
+Q:
+
+If Emrakul, the Aeons Torn somehow loses all abilities, and then dies, does it shuffle back into the deck?
+
+This is a follow-up question to Will a God Eternal enchanted with Deep Freeze shuffle back into the deck if it dies?
+Emrakul, the Aeons Torn has this line of text:
+
+When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.
+
+If Emrakul loses its abilities somehow (e.g., because of Humility, or if it were somehow enchanted by Deep Freeze), and then dies, does this effect still trigger to shuffle it back?
+I'm guessing yes in the case of Deep Freeze since presumably when it "enters the graveyard" it has regained all its abilities. This is in contrast to God-Eternal Oketra, whose ability triggers when it dies (not when it enters the graveyard). In the case of Humility, I'm guessing no, since Humility's text doesn't say it only affects creatures on the battlefield, and so presumably also affects creatures in the graveyard. 
+
+A:
+
+Yes, your graveyard will be shuffled back into your library.
+This is a bit of an unusual situation because it's a triggered ability using the unusual phrase “from anywhere”.
+Normally triggered abilities look at the current state of the game: we care only about what cards look like now. There's an exception made for a handful of triggered abilities that instead “look back in time”, which means we look at what the game state was like previously to determine whether and how any abilities trigger. The most common one is when a creature dies: in that case we look at the game state when the creature was last on the battlefield. Deep Freeze or Humility would remove all abilities from a creature, so that means usually a “When this creature dies” ability wouldn't trigger, so God-Eternals wouldn't shuffle back into your library.
+That's according to these rules (under the section Handling triggered abilities, emphasis added):
+
+603.10 Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions [based on the game state and continuous effects as they apply now.] However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+However, Emrakul's put-into-the-graveyard ability doesn't match any of these exception criteria. In particular it is never treated as a leaves-the-battlefield ability:
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone [...] An ability that triggers when a card is put into a certain zone “from anywhere” is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
+
+This means we don't look back in time for Emrakul's ability, as surprising as that might be. We just do the default: we look at Emrakul's state once it's in the graveyard.
+In the graveyard, Emrakul has all of its abilities intact. (Recall that Humility doesn't affect cards in the graveyard.) A trigger condition has been met—we know Emrakul has just been put into the graveyard—so we put that triggered ability on the stack. If it resolves, we shuffle your graveyard, probably including Emrakul, into your library.
+
+Additional notes
+
+If Yixlid Jailer is on the battlefield it will prevent Emrakul's ability from being triggered. This is because we check for Emrakul's triggered ability once it's already in the graveyard, but at that point it will have no abilities at all.
+There are also various ways to stop the ability from doing anything useful: you can counter the triggered ability or exile all cards from that graveyard before the ability resolves.
+Although Blightsteel Colossus has a similar effect it behaves differently because it is a replacement effect. If it loses all abilities on the battlefield then dies, it will be put into the graveyard and stay there. This is because we have to check the replacement effect in the previous zone before it reaches the graveyard, and on the battlefield the replacement effect doesn't exist.
+

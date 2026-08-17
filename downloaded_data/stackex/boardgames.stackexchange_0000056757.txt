@@ -1,0 +1,23 @@
+Q:
+
+Can I cast Rootgrapple via Leaf-Crowned Elder?
+
+Leaf-Crowned Elder has:
+
+Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Leaf-Crowned Elder, you may reveal it. If you do, you may play that card without paying its mana cost.
+
+Leaf-Crowned Elder is a Treefolk Shaman. Does it allow me to cast Rootgrapple, a Tribal Instant — Treefolk, from the top of my deck?
+I wouldn't have this doubt if it said subtype instead of creature type (in this case I'd know I can).
+
+A:
+
+Yes, Leaf-Crowned Elder's ability allows you to cast Rootgrapple.
+The term "creature type" is defined in rule 302.3:
+
+Creature subtypes are always a single word and are listed after a long dash: “Creature — Human Soldier,” “Artifact Creature — Golem,” and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+
+So, when Leaf-Crowned Elder's ability says "creature types", it is referring to creature subtypes.
+In addition, rule 308.2 explicitly states that tribal subtypes are the same as creature subtypes.
+
+Tribal subtypes are always a single word and are listed after a long dash: “Tribal Enchantment — Merfolk.” The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+

@@ -1,0 +1,107 @@
+Q:
+
+How does copying work with Storm?
+
+I control Pyromancer Ascension that has enough quest counters on it:
+
+Whenever you cast an instant or sorcery spell (...), you may copy that spell. You may choose new targets for the copy.
+
+I play Grapeshot. Suppose I've cast 3 spells this turn, so I will Storm 3 times if Grapeshot resolves normally. Pyromancer Ascension is going to copy it. Now what happens?
+
+Grapeshot goes on the stack Stormed thrice, then the copy goes on the stack Stormed 4 times.
+Both Grapeshot and the copy goes on the stack Stormed thrice.
+
+I'm not very familiar with the Storm mechanic or the copy mechanic. Please correct me if I'm totally wrong.
+
+A:
+
+Short answer: neither copy effect copies the copies made by the other. They only copy the one original spell.
+
+Consider a hypothetical enchantment, Super Cloven Casting, which says
+
+Whenever you cast an instant or sorcery spell, you may pay {1}. If you do, copy that spell. You may choose new targets for the copy.
+
+This specifies an ability that triggers whenever you cast an instant or sorcery spell.
+The storm ability also specifies an ability that triggers whenever you cast a spell with storm.
+So here is what happens when you cast Grapeshot with Super Cloven Casting in play:
+
+We start with an empty stack and 3 spells having been cast this turn - in other words, a storm count of 3.
+
+Stack: (empty)
+Storm count: 3
+
+You cast Grapeshot (put it on the stack, choose its target, pay its cost), and in the process, two abilities trigger: one from Grapeshot's own Storm, and the other from Super Cloven Casting. These go on the stack on top of Grapeshot, though you get to choose the order. It turns out not to matter, so I will choose one order to demonstrate.
+
+Stack:
+
+Super Cloven Casting triggered ability
+Storm triggered ability
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority (decline to cast or activate anything), so the top item on the stack resolves. This gives you the choice to pay {1}, and let's assume you do so, so it copies Grapeshot.
+
+Stack:
+
+Copy of Grapeshot (created by Super Cloven Casting)
+Storm triggered ability
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Note that the copy does not add to the storm count. When you copy a spell which was already cast, the copy does not count as being cast.
+Both players yield priority, so the top item on the stack resolves. This is a copy of Grapeshot. It deals one damage to its target.
+
+Stack:
+
+Storm triggered ability
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority, so the top item on the stack resolves. This creates a copy of Grapeshot for each other spell cast this turn: that'll be 3 copies.
+
+Stack:
+
+Copy of Grapeshot (created by Storm)
+Copy of Grapeshot (created by Storm)
+Copy of Grapeshot (created by Storm)
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority, so the top item on the stack resolves. This is a copy of Grapeshot. It deals one damage to its target.
+
+Stack:
+
+Copy of Grapeshot (created by Storm)
+Copy of Grapeshot (created by Storm)
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority, so the top item on the stack resolves. This is a copy of Grapeshot. It deals one damage to its target.
+
+Stack:
+
+Copy of Grapeshot (created by Storm)
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority, so the top item on the stack resolves. This is a copy of Grapeshot. It deals one damage to its target.
+
+Stack:
+
+Grapeshot
+
+Storm count: 4 including Grapeshot
+
+Both players yield priority, so the top item on the stack resolves. This is the original Grapeshot. It deals one damage to its target.
+
+Stack: (empty)
+Storm count: 4
+
+All together, there have been a total of 4 copies of Grapeshot and the one original Grapeshot, for a total of 5 damage.
+

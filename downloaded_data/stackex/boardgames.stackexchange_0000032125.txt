@@ -1,0 +1,24 @@
+Q:
+
+How much damage do I deal? (How is damage dealt if an attacker gains power as combat damage is being assigned?)
+
+My board:
+
+1 Vigor (If damage would be dealt to a creature you control other than Vigor, prevent that damage. Put a +1/+1 counter on that creature for each 1 damage prevented this way.)
+1 7/7 creature with Trample (Attacking)
+
+Opponent's board:
+
+1 1/1 creature (Blocking)
+
+I assign 1 damage to the blocker, and the rest of it (6) to my opponent. As our creatures take damage, Vigor's ability triggers and Garruk's Horde gets a +1/+1. How much damage does my opponent take: 6 or 7?
+Now to further convolute the question: what happens if the blocker was replaced with an Abuna Acolyte? Knowing that it could tap to prevent the 1 damage that I assign it, must I assign it 2 damage? If I only assigned it 1 damage and it tapped to avoid that damage, would it successfully block me? 
+
+A:
+
+You will only deal 6 damage to your opponent.
+This is because when determining how combat damage gets dealt the fist thing you do is assign damage based on the power of the creature (in this case 1 gets assigned to the blocking creature and 6 to your opponent), then after you decide how it is assigned it actually gets dealt. The fact that the creature gets bigger at the same time that it is dealing damage doesn't matter since it can only deal the damage it has assigned.
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+

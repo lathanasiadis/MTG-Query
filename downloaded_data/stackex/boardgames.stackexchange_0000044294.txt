@@ -1,0 +1,23 @@
+Q:
+
+Clarification of rulings on Carrionette
+
+It is my understanding that the individual card rulings on Gatherer are essentially clarifying comments.  i.e. they are "just" an application of the comprehensive rules to that specific card.
+With that in mind, the rulings for Carrionette state:
+
+A creature with Protection from Creatures can’t be targeted by this card’s ability.
+
+But, when Carrionette is in the graveyard, it is not a creature.  My guess is that rule 112 covers this somehow, but I'm not seeing it.
+
+A:
+
+'creature' is not only a permanent type, but also a card type. Rule 702.16a states:
+
+702.16a Protection is a static ability, written “Protection from [quality].”
+  ...
+  If the quality is a card type, subtype, or supertype, the ability applies to sources that are permanents with that card type, subtype, or supertype and to any sources not on the battlefield that are of that card type, subtype, or supertype. This is an exception to rule 109.2.  
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+(emphasis mine)
+so even though while a graveyarded Carrionette is not a creature by rule 109.2, it's still a card with type 'creature' which is sufficient for the protection ability.
+

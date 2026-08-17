@@ -1,0 +1,55 @@
+Q:
+
+Why do some cards say "choose target"?
+
+In Magic, most cards that interact with a specific card will target it.  For example, Giant Growth (emphasis is mine):
+
+Target creature gets +3/+3 until end of turn.
+
+There are lots of rules around targeting, and even abilities that interact with targeting, like hexproof and shroud.  Some cards sidestep these rules by having you "choose" a permanent without targeting it.  Of note, these cards can still effect creatures with shroud or hexproof.  For example, Azra Oddsmaker (emphasis is mine):
+
+At the beginning of combat on your turn, you may discard a card. If you do, choose a creature. Whenever that creature deals combat damage to a player this turn, you draw two cards.
+
+Additionally, the rules for targeting explicitly mention that targeting involves choosing:
+
+115.1. Some spells and abilities require their controller to choose one or more targets for them.
+
+So far, it seems like there are two intentionally different modes of selecting what a spell effects:
+
+Targeting (which implies choosing)
+Choosing without targeting.
+
+But then there are cards that say "choose target".  For example, Moonlight Hunt (emphasis is mine):
+
+Choose target creature you don’t control. Each creature you control that’s a Wolf or a Werewolf deals damage equal to its power to that creature.
+
+What is the purpose of the wording "choose target"?  Targeting already involves choosing, so why the double reference?
+
+A:
+
+The difference is in how the wording works in the entire spell or ability, and if text on that card needs to refer back to the target.
+Look at your examples, Giant Growth is very simple self contained effect, it makes you target a creature and applies an effect (+3/+3 until end of turn) to it. Moonlight Hunt on the other hand later refers to "that creature" in the second sentence where it applies the effect.
+The reason this was done was to be able to move the targeting instructions to the beginning of the spell, rather than in the middle or the end, to make the targeting clearer at the beginning. Moonlight Hunt could have been written the other way but it would be more awkward:
+
+Each creature you control that's a Wolf or Werewolf deals damage equal to its power to target creature you don't control.
+
+Moonlight Hunt is still relatively simple, but the targeting is at the end in that form and could be read as allowing different targets for each wolf/werewolf. It's even worse on other spells with the same structure, like Spark of Creativity:
+
+Choose target creature. Exile the top card of your library. You may have Spark of Creativity deal damage to that creature equal to the exiled card's converted mana cost. If you don't, you may play that card until end of turn.
+
+Would become
+
+Exile the top card of your library. You may have Spark of Creativity deal damage to target creature equal to the exiled card's converted mana cost. If you don't, you may play that card until end of turn.
+
+With the option of doing damage to a creature or playing the revealed card, it would be confusing to some people in this wording if you had to choose a target on casting Spark of Creativity or during resolution. Moving the targeting to the beginning of the spell makes it clear that there does need to be a creature to target and that you must choose that target when casting the spell, so the spell can't be used for the pseudo-draw without legal targets in play. (This would be true even if it had been written in the middle of the card, but it's less clear that way)
+
+Other spells like Giant Growth could have been written this way too, but it's unnecessary:
+
+Choose target creature. That creature gets +3/+3 until end of turn.
+
+Or Doom Blade:
+
+Choose target nonblack creature. Destroy that creature.
+
+There's no ambiguity removed, no improved clarity writing this way, and no need to split the targeting from the effect in the wording, particularly with the targeting already at (or almost at) the beginning of the spell.
+

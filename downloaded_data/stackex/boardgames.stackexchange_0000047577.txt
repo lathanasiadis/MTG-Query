@@ -1,0 +1,15 @@
+Q:
+
+How does Frenetic Sliver interact with the Unearth from Dregscape Sliver?
+
+If I Unearth a sliver with Dregscape Sliver's ability and then use Frenetic Sliver's ability, what happens when I win my coinflip? Does the sliver come back at the end of turn?
+
+A:
+
+A ruling on Dregscape Sliver on Gatherer says
+
+If a creature returned to the battlefield by the unearth ability would leave it for any reason, it’s exiled instead—unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the creature. If the spell or ability later returns the creature card to the battlefield (as Astral Drift might, for example), the creature card will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+
+So say you have an unearthed sliver and you activate the Frenetic ability of that sliver. If you win the coin flip, the ability will, in accordance with the above ruling, succeed in exiling and later returning the sliver.
+If you lose the coin flip, the sliver will be sacrificed according to the Frenetic ability, and go to exile instead of your graveyard as Unearth dictates, without coming back later.
+

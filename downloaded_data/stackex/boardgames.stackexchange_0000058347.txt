@@ -1,0 +1,22 @@
+Q:
+
+What happens when a card says you need two creatures to defend an attack?
+
+If a player attacks with Pyreheart Wolf which states
+
+each creature you control can't be blocked this turn except by two or more creatures
+
+how is damage calculated, or what happens more generally?
+
+A:
+
+The answer to your question as written is that Pyreheart Wolf itself makes no difference to how damage is calculated.
+Specifically, Pyreheart Wolf creates a restriction in terms of Comprehensive Rules (CR) 702.111b and 509.1b that the attacking creatures cannot be blocked except by two or more creatures:
+
+702.111b A creature with menace can’t be blocked except by two or more creatures.
+
+509.1b The defending player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+
+Once a legal declaration of blockers has been made, the game then proceeds as it always would through the players announcing damage assignment orders (CRs 509.2 and 509.3) and then to the combat damage step (CR 510). There is no difference in how damage is calculated because Pyreheart Wolf created a restriction; exactly the same process is followed as it would be if the defending player chose to block an attacking creature with two blocking creatures when no restrictions were in effect.
+(Aside: why am I referring to CR 702.111 "Menace" when Menace is not in the text printed on your card? The answer to this is because Pyreheart Wolf has been updated since it was printed, and Magic: the Gathering always uses the current "Oracle text" for a card as can be found at Gatherer; as you can see there, Pyreheart Wolf's text is now "Whenever Pyreheart Wolf attacks, creatures you control gain menace until end of turn.")
+

@@ -1,0 +1,19 @@
+Q:
+
+How do Sliver Overlord and Mirror Entity react together?
+
+If you activate Mirror Entity's ability to give all your creatures all creature types, can you then search for any creature in your library using Sliver Overlord's ability?
+I understand that you don't "control" your library, but you do control cards on the battlefield and stack. But when you search your library, does it not become part of your stack, or at least doesn't the card you find in it?
+Btw I stated "cards" because I know the word permanent means something else.
+
+A:
+
+Mirror Entity does not allow Sliver Overlord to find any creature
+"Creatures you control" always refers only to the Battlefield, never to cards in any other zone (those will be referred to as "Creature Cards").
+Mirror Entity interacts with Sliver Overlord in the following ways:
+
+Sliver Overlord can search for or gain control of Mirror Entity
+Mirror Entity can change the creature type of Sliver Overlord (and all other creatures (on the battlefield) you control) to all types.
+
+There are no other interactions between these two cards.
+

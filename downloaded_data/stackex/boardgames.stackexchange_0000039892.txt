@@ -1,0 +1,12 @@
+Q:
+
+How can I find all cards with flavor text from a certain set and colour?
+
+How can I find all the cards from the Khans of Tarkir block (Khans / Fate Reforged / Dragons of Tarkir) that have flavor text? Preferably, I'd like to search just red and black cards.
+
+A:
+
+A gatherer search for the vowels in flavour text with the block and colors you want selected in the gatherer advanced search feature will find you what you're looking for, since all english words must contain a,e,i,o,u or y. Here are all 146 red and/or black cards with flavour text from Khans block.
+Note that the colors are added as OR, meaning it has to be at least red or at least black, if they were added as AND it would only find colors that are both. The no other colors is added using the exclude unselected terms more color option. (so it won't find cards that are black and blue for instance)
+UPDATE - gatherer does have an issue in it's matching on empty spaces and block vs set matching. updated image and link for better
+

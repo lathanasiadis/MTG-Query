@@ -1,0 +1,21 @@
+Q:
+
+Endless flickering with Naru Meha?
+
+While looking at this Possibility Storm puzzle I wondered if it would be possible to do something along those lines:
+
+Tap the mana dork for 1 colorless, making it 7 total mana.
+Cast Supernatural Stamina on Naru Meha, Master Wizard.
+Cast Illusionist's Stratagem on one Academy Journeymage and the Arcanist, and on top of it cast Vicious Offering, sacrificing Naru Meha as its kicker.
+Naru Meha will return on the battlefield, its ETB will then copy Stratagem, the copy targeting Naru Meha again and the same Journeymage.
+Journeymage's ETB bounces one of the opponent's creatures.
+Repeat step 4 and 5, to end the loop use the same targets as in 3.
+Attack with the unused 4/3 Journeymage.
+
+Are these steps legal?
+The puzzle, again:
+
+A:
+
+The steps are legal.  The only thing you need to remember is to let Supernatural Stamina resolve in step 2 before proceeding to step 3 (otherwise Naru Meha won't come back).  Also, when you get to step 6 and are repeating the loop, you need to go back to step 4 and use the targets there, not step 3.  Also note that in a tournament setting you would need to explicitly state where you are retaining priority to cast multiple things in a row.
+

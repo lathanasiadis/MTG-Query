@@ -1,0 +1,66 @@
+Q:
+
+Which spells or abilities are affected by things that care about targeting?
+
+Note: this is intended to be a canonical question about whether or not a spell or ability targets so there are multiple sub-questions.
+
+Can Hexproof or Shroud save my creature from Wrath of God? What about a Cyclonic Rift that was cast for it's Overload cost?
+
+Does shroud prevent me from using the Monstrosity ability of a creature, or from giving it more counters with Proliferate?
+
+Can I cast an Aura Enchantment on one of my creatures with Shroud, or an opponent's creature with Hexproof? Or can I use the Equip ability to attach an equipment to one of my creatures with Shroud?
+
+Will Diffusion Sliver's ability trigger when my opponent plays Wrath of God? And will I have to sacrifice my Phantasmal Image if my opponent casts Nausea?
+
+Will Shroud or Hexproof prevent an opponent from choosing me with Stuffy Doll's ability?
+
+Will Hexproof keep one of my creatures from being affected by Sleep?
+
+If an Aura or Equipment is attached to a creature with Hexproof, does the Hexproof protect the attached permanent?
+
+Can Redirect change Burn Down the House to only target a single creature instead?
+
+A:
+
+The answer to all of these questions is no.
+Hexproof and Shroud only prevent "targeting"; there are many ways for a spell or ability to affect something without that something being a "target".
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+702.18a Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+
+The important thing here is to keep in mind that when Magic uses the word "target", it is using a specific rules-defined term; it is not just the English word that can mean "a thing you go after or attack".
+
+114.10a Just because an object or player is being affected by a spell or ability doesn’t make that object or player a target of that spell or ability. Unless that object or player is identified by the word “target” in the text of that spell or ability, or the rule for that keyword ability, it’s not a target.
+
+A spell or ability only targets the things it is affecting in the following 3 situations:
+
+It uses the word "target" in the text of the spell or ability.
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object and/or player.
+114.1c An activated ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object and/or player.
+114.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object and/or player. 
+
+It uses a keyword that has the word "target" in the rules text, such as "Equip".
+
+114.1e Some keyword abilities, such as equip and provoke, represent targeted activated or triggered abilities. In those cases, the phrase “target [something]” appears in the rule for that keyword ability rather than in the ability itself. (The keyword’s reminder text will often contain the word “target.”)
+
+It is an Aura spell, which by the rules are always targeted spells (targeting the object that you want to enchant).
+
+114.1b Aura spells are always targeted.
+
+(Note that Aura spells are only targeted when they are cast; if an Aura is entering the battlefield through some other means, it could be attached to a creature without targeting that creature).
+If a spell or ability is none of the above, it does not target, and thus is not affected by Hexproof or Shroud. Even if the spell or ability tells you to “choose” something. 
+For the specific questions/examples given:
+
+Wrath of God can destroy creatures with Hexproof or Shroud because it does not contain the word "target".
+Cyclonic Rift is normally targeted, but if it was cast for the Overload cost, then the word "target" is replaced with the word "each", so the spell as it exists on the stack doesn't contain the word "target".
+Monstrosity does not target the permanent it affects, because "target" does not appear in the rules text for it.
+Proliferate also does not use the word target in the rules text.
+You cannot cast an Aura Enchantment on a creature with Shroud, because Aura spells always target.
+You cannot use the Equip ability on a creature with Shroud, because the rules definition of Equip uses the word "target" (as you see in the reminder text for Equip).
+Diffusion Sliver's ability only triggers when a Sliver is targeted; which Wrath of God does not do.
+Phantasmal Image also only triggers when it is targeted, so it will not be affected by Nausea.
+You can still choose an opponent with Shroud with abilities such as Stuffy Doll which tell you to “choose”, because choosing isn’t the same as targeting.
+Sleep targets a player, not individual creatures. That means that creatures that player controls with Hexproof are still affected.  However, if the player themself has Hexproof, you cannot target that player. 
+Attached permanents are not protected by the Hexproof of the creature they are attached to, and can still be destroyed if a spell targets the attached permanent specifically (like Naturalize).  A card like Blastfire Bolt that targets the creature could not be used, though.
+

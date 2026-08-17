@@ -1,0 +1,14 @@
+Q:
+
+Can I counter a creature casted last turn?
+
+For example, My opponent cast a 10/10 creature and finish his turn (I have no cards), I draw a card and it is "Counterspell" I use it on his creature. Does his creature goes to the graveyard? or it happens nothing?
+
+A:
+
+You cannot use Counterspell on a creature in play.
+Creatures, artifacts, enchantments, and planeswalkers (and lands, but lands are not spells) are permanents.  That means that unlike instants and sorceries they stay on the battlefield once they are cast, rather than going directly to the graveyard. But once they are on the battlefield they are no longer considered spells, and can no longer be countered. 
+Speaking simply, a spell can only be countered immediately after it is cast.
+Going into more detail, spellcasting uses the stack.  The stack is a special zone where spells and abilities exist in while players react to them.  When you cast a spell or use or trigger an ability, instead of having an effect immediately it instead goes on the stack.  Then every player gets a chance to respond by playing instants, cards with flash, or using abilities. If they do, that spell or ability will go on the stack above the previous effect, and players get a chance to respond to the new effect.  Repeat as necessary until no players wish to add things to the stack, at which point the most recently added effect resolves.  For permanents, the effect simply moves the card onto the battlefield. Then the game checks for any triggered abilities that need to be added to the stack, and gives players another chance to respond.  Repeat until the stack is entirely clear of spells and abilities. 
+Counterspells target spells that are on the stack.  The Counterspell is put on the stack after the spell you are targeting, so the counterspell resolves first, at which point it removes the spell it's targeting from the stack and puts it in the graveyard. 
+

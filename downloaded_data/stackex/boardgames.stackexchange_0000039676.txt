@@ -1,0 +1,31 @@
+Q:
+
+Journey to Eternity and Thrashing Brontodon
+
+How would this interaction work?
+I've got a Thrashing Brontodon out, which has the ability
+
+{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.
+
+I enchant it with Journey to Eternity:
+
+When enchanted creature dies, return it to the battlefield under your control, then return Journey to Eternity to the battlefield transformed under your control.
+
+Is it legal to use Trashing Brontodon's ability targeting the Journey to Eternity attached to itself? If so, what happens?
+I'm assuming that it is legal and that the Journey to Eternity would return transformed but would love some clarity on this. 
+
+A:
+
+Yes, the Journey to Eternity will return to the battlefield transformed and the Thrashing Brontodon will also return to the battlefield.
+The exact sequence of events is as follows:
+
+You activate Thrashing Brontodon's ability targeting Journey to Eternity. While paying the cost, you sacrifice Thrashing Brontodon, which triggers Journey to Eternity's ability.
+
+Journey to Eternity is no longer attached to a creature, so it is put into your graveyard as a state-based action [CR 704.5m]
+
+Journey to Eternity's triggered ability goes on the stack on top of Thrashing Brontodon's ability.
+
+Journey to Eternity's ability resolves, returning Thrashing Brontodon to the battlefield and returning Journey to Eternity to the battlefield transformed.
+
+Thrashing Brontodon's ability starts to resolve, but it no longer has a legal target because the Journey to Eternity left the battlefield, so it fails to resolve [CR 608.2b]
+

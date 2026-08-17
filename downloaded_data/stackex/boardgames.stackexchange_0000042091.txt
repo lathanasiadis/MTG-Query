@@ -1,0 +1,17 @@
+Q:
+
+Why do some people use fetchlands in mono-colored decks?
+
+This is a list of a competitive deck that uses fetchlands in a mono-colored deck: Goblin 8 Whackers.
+I don't see the reason someone might build something like this, aside from a slight bluffing that you might be using another color aside from your main one.
+Is there an advantage to losing one life and fetching a mountain? Maybe to shuffle your deck?
+
+A:
+
+One reason is that it thins your deck.
+It is generally known that smaller decks work better than larger decks, which is why almost everyone uses the smallest legal size of 60 in constructed.
+Cards that draw you cards when you play them (cantrips such as Gitaxian Probe) turn your 60 card deck into an effectively 59 card deck. Fetchlands do the same thing. After using a fetchland, you have removed a card from your library.
+Note that unlike "draw a card", searching for a land specifically removes a land from your library. This means that you are more likely to draw a non-land card after you have used a Fetchland. So it effectively changes the land to non-land ratio of your deck slightly.
+So the deck in the example has 19 lands. If they were all Mountains, then after you play your first mountain (pretending you had 0 cards in hand or anywhere else), you would have a 18 out of 59 chance that the top card of your library is another Mountain. If instead you play a Bloodstained Mire first, and use it, then after that you have a 17 out of 58 chance that the top card of your deck is a Mountain. More chance of drawing non-lands instead.
+In that particular deck, the loss of life is not very relevant; that type of deck is hoping to win the game before the opponent can deal 16 or so damage to you. So having 20 life instead of 16 isn't going to save you. In a different type of deck, they might use Evolving Wilds or Terramorphic Expanse instead. They have the same deck-thinning effect, but instead of losing life, you would lose tempo because the fetched lands enter play tapped.
+

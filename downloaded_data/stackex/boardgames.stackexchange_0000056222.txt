@@ -1,0 +1,16 @@
+Q:
+
+Will a copy of Volo's triggered ability create another copy of the creature spell?
+
+If I copy Volo, Guide to Monsters triggered ability with Strionic Resonator after casting a unique creature, does the original triggered ability check "doesn’t share a creature type with a creature you control or a creature card in your graveyard" again on resolution? Will I have 3 creatures or 2?
+
+A:
+
+You will have 3 creatures.
+The trigger condition is not checked again upon resolution; the "Whenever you cast a creature spell that doesn’t share a creature type with a creature you control or a creature card in your graveyard" is only the condition that causes it to trigger in the first place.
+Certain trigger conditions are checked again upon resolution, but they have a specific wording:
+
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule.
+
+So if Volo, Guide to Monsters instead were worded such as "Whenever you cast a creature spell, if that spell doesn’t share a creature type with a creature you control or a creature card in your graveyard..." then in that case, the copy of the trigger would be checked again upon resolution and do nothing.
+

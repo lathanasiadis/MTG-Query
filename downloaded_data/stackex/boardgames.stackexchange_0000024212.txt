@@ -1,0 +1,26 @@
+Q:
+
+When does a sacrifice on entering the battlefield happen?
+
+My opponent plays Vexing Devil which states:
+
+When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to him or her. If a player does, sacrifice Vexing Devil.
+
+When does this sacrifice happen? Is he able to play Collateral Damage on the Vexing Devil before the sacrifice resolves? My current interpretation is that the sacrifice resolves instantly on entering the battlefield so the creature is never there to use Collateral Damage on, but we wanted to verify that this was correct.
+
+A:
+
+You do have a chance to cast Collateral Damage. Vexing Devil's ability is a triggered ability, so the ability goes on the stack when the creature enters the battlefield, and you can respond to it before it resolves. You can tell that it's a triggered ability by rule 603.1:
+
+Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+
+Here's how it plays out:
+
+You cast Vexing Devil.
+Vexing Devil resolves and enters the battlefield. Its ability triggers and goes on the stack.
+You cast Collateral Damage and sacrifice Vexing Devil.
+Collateral Damage resolves, and deals 3 damage to something.
+Vexing Devil's ability resolves. At this point, your opponent can choose whether or not to take the 4 damage. If they do choose to take the damage, you would sacrifice the Vexing Devil, but it is already dead.
+
+Note that there is no time to respond during step 5. Once an opponent chooses to take damage, the damage is dealt and you make the sacrifice without doing anything in between.
+

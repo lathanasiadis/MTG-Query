@@ -1,0 +1,28 @@
+Q:
+
+Does a Seeker of the Way affected by Arcbond deal one batch, or multiple sets, of damage?
+
+What follows is a question wrapped in a word problem. 
+Facing an opponent attacking with an undefined, yet non-lethal, number of 1/1 tokens, I block one of them with Seeker of the Way. Once I am able to cast a spell during the Declare Blockers step, I cast Arcbond targeting my Seeker of the Way. (Recognizing Process trigger and lifelink gained.) Combat damage happens.
+One damage is dealt to Seeker of the Way, triggering the Arcbond. Seeker of the Way deals 1 damage to each other creature, and each player. Lifelink causes me to gain life for each point of damage dealt.
+Now, for the purposes of accounting +1/+1 counters gained by a Ajani's Pridemate, is the damage dealt by Seeker of the Way one blot of damage to the all the creatures, or separate spats of damage done to each creature? Would the Ajani's Pridemate gain one counter, because I've gained life, or multiple counters, because I've gained life multiple times?
+
+A:
+
+I would say that Ajani's Pridemate only gets 1 counter.  
+
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes)
+
+And for damage:
+
+119.4. Damage is processed in a three-part sequence.
+
+119.4a First, damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, “Replacement Effects,” and rule 615, “Prevention Effects.”) Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.
+119.4b Next, damage that’s been dealt is processed into its results, as modified by replacement effects that interact with those results (such as life loss or counters).
+119.4c Finally, the damage event occurs
+
+In this case, there is a single source, and a single event of damage.  Yes, it's hitting multiple things, but it's only one event of damage. 
+Additionally, Gatherer says of Ajani's Pridemate:
+
+A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Ajani’s Pridemate’s ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+

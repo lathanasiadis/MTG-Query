@@ -1,0 +1,12 @@
+Q:
+
+Does Rupture Spire turn your Reflecting Pool on in time to pay for the Spire's ability?
+
+If I play a Reflecting Pool turn 1 and then a Rupture Spire / Transguild Promenade turn 2 does the spire turn on the Reflecting Pool in time to pay for the spire's activated ability?
+
+A:
+
+Yes, you can use the pool to pay for the spire.
+As the spire enters the battlefield, its ability triggers. That ability is then put on the stack, where it waits until all players have passed priority, just like anything else on the stack. Once it is time for that ability to resolve, the spire is definitely on the battlefield, which means that the pool can see it and the mana it could produce.
+Note that the spire doesn't "turn on" the reflecting pool per se. When you want to tap the pool for mana, it is the pool that will look around and see what lands you have available. The spire takes no active part in this interaction. If the pool can see the spire, it will be able to use the spire. Thinking about it like that might make it a bit easier to see why this will work.
+

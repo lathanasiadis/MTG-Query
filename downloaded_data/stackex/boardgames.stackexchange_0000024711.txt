@@ -1,0 +1,19 @@
+Q:
+
+How can I efficiently filter MagicCards.info searches down to cards castable with only certain mana colours?
+
+I've been constructing a green/white commander deck, and doing a lot of searches on MagicCards.info for its cards. To cut out all the cards I can't use, I've been using the search term c!gw to get just green and white cards. But I just realised that's a terrible way to search — it filters out all the off-colour hybrid mana cards!
+For example, a search of c!gw o:"enchant land" o:"mana pool" yields a lot of green/white land ramping enchantments. But it excludes Trace of Abundance, which costs {R/W}{G}, making it red and excluded from the search, despite being perfectly castable with just green and white mana and exactly the kind of card I want.
+Using a more inclusive filter of c:gw would also include lots of three-colour cards which I cannot cast.
+How can I filter a MagicCards.info search down to only those cards I can cast with particular mana colours? If my mana pool is exclusively green and white, is there a filter that will include cards I can cast with those colours, even if they're off-colour cards like Figure of Destiny and Trace of Abundance?
+(Colourless cards can be included or left out. They are simple enough to search for separately with c:c, or exclude from the search with -c:c.)
+(Also, it's been pointed out to me my group's been accidentally playing without the color identity rule. Doesn't matter! Still good. Question ahoy!)
+
+A:
+
+What you are asking for is effectively equivalent to "the mana cost does not contain {U}, {B}, {R}, {U/B}, {U/R}, or {B/R}" because those are all of the mana symbols that cannot be paid from your mana pool. This can be equivalently expressed by negating the expression that says "the mana cost contains any one of those symbols". So, the resulting query is
+
+-(mana>=u or mana>=b or mana>=r or mana>={U/B} or mana>={U/R} or mana>={B/R}) o:"enchant land" o:"mana pool"
+
+Note the - at the beginning that negates the bolded expression. As you can see, this does in fact list every card your search found, plus Trace of Abundance. It also incidentally includes colorless cards and cards with Phyrexian and colorless hybrid mana symbols (e.g. {UP} or {2/R}) because it is possible to play those without spending any mana of their colors at all.
+

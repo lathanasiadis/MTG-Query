@@ -1,0 +1,23 @@
+Q:
+
+Rescue from the Underworld on an unearthed creature
+
+With Sedris, the Traitor King on the battlefield, I pay the 2B cost to unearth a creature. Then I cast Rescue from the Underworld and sacrifice the card that was just unearthed. I understand that the creature will go to exile instead of in the graveyard, but will it still be returned to the battlefield later ? Do you know other cards that could "save" a unearthed creature to go into exile ? Thank you very much.
+
+A:
+
+You will get the card back after it goes to exile because it doesn't say to return the card from the graveyard, rather just return 'that card'. From the Gatherer rulings on Rescue from the Underworld:
+
+However, if the sacrificed creature is put into another public zone instead of the graveyard, perhaps because it’s your commander or because of another replacement effect, it will return to the battlefield from the zone it went to.
+
+The unearth creature going to exile instead of the graveyard is a replacement effect.
+Normally, effects cannot find objects that change zones. There are eight exceptions to this rule, and you found one of them:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are eight exceptions to this rule:
+  
+  
+[...]
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+
+Other ways of getting around the exile part of Unearth involve other cards that are worded like Rescue (specifically ones that do not specify the zone the card needs to be in to move), and ones that 'blink' or 'flicker' a creatures like Cloudshift that exile the creature and return it either immediately or at some time in the future.
+

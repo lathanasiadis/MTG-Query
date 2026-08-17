@@ -1,0 +1,18 @@
+Q:
+
+Will Journey to Eternity come back if the enchanted creature comes back as a land?
+
+I have a Golden Guardian on the battlefield and enchant it with a Journey to Eternity. I am also able to use the Guardian's activated ability to fight a 6/6 I control, killing the Guardian. When the Guardian dies, I want to return it flipped as a Gold-Forge Garrison. In this case, the creature that was enchanted isn't returning the battlefield as the first part of Journey to Eternity's triggered ability specifies. Does Journey to Eternity also return the battlefield and become Atzal, Cave of Eternity?
+
+A:
+
+Yes, you can get both cards to return transformed:
+Both Golden Guardian's and Journey to Eternity's abilities are triggered abilities. When the enchanted Guardian dies, both abilities trigger simultaneously, and the player who controls the abilities gets to choose which one will be put on the stack first.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+Then, after choosing what will be on the the stack in what order, you start resolving those abilities. If the enchantment's ability resolves first, it'll return the Guardian, not transformed, to the battlefield, and the Guardian's ability will be removed from the stack since it can't return the object to the battlefield, as it's already there.
+If you let the Guardian's ability resolve first, it will be returned transformed to the battlefield, and then the enchantment's ability will resolve. Since the enchantment's ability is not conditional to the enchanted creature being returned from the graveyard, it'll just not bring anything back, and the effect will keep resolving normally, and it will return to the battlefield transformed.
+
+603.6. Trigger events that involve objects changing zones are called “zone-change triggers.” Many abilities with zone-change triggers attempt to do something to that object after it changes zones. During resolution, these abilities look for the object in the zone that it moved to. If the object is unable to be found in the zone it went to, the part of the ability attempting to do something to the object will fail to do anything.
+

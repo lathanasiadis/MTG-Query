@@ -1,0 +1,36 @@
+Q:
+
+Which cards count as having been banned or restricted for Spike, Tournament Grinder's tutor ability?
+
+In the new unset, Unstable, Spike, Tournament Grinder can tutor for any current or previously banned or restricted card from outside the game.
+
+Specifically this ability:
+
+ϕϕϕϕ: Choose a card you own from outside the game that has been banned or restricted in a Constructed format, reveal that card, and put it into your hand. 
+
+Which cards are on that list, as of the last B&R announcement ( October 17, 2017 )?
+
+A:
+
+First of all, keep in mind that all Un-set questions are always up to interpretation, and may be played different by different playgroups. Although I try to be as precise as possible, due to the lack of official rulings, no definitive answer can be given.
+Currently Banned/Restricted Cards
+A list of currently banned cards can be found at the official Wizards pages. This is the most readable of all the online sources I'm aware of, and should also be the one that's kept up to date most reliably.
+Previously Banned/Restricted Cards in Common Formats
+I'm not aware of any official list specifically composed for this purpose, but there are other sources that more or less specific for this purpose will help with the search:
+
+Scryfall (a third-party card search engine) added a custom search tag for Spike-tutorable cards.
+The Timeline of Banned/Restricted Cards on the GamePedia MtG Wiki.
+A Reddit thread, trying to gather all cards by community effort (Malco's answer provides a copy of that list)
+
+Basically, you would be able to tutor for any card from these lists, provided that the list is accurate.
+Previously Banned Cards in Commander and Other Formats
+As the previously linked pages don't cover the Commander format, you may resort to the official changelog, which keeps track of bans, but doesn't provide any info prior to September 2009. Whichever logic you apply, going by that list will likely be the most sensible thing to do, simply because of its official origin. That said, there should be other threads you'll find, pointing you towards history further back in time, such as this one that has been suggested in the comments.
+Furthermore, there are many more widely played formats (such as Tiny Leaders) I could provide a link to, but the reality is that if you include all those formats in your definition of previously banned, some person will eventually just invent a format that bans every card but basic lands, and therefore will be able to tutor all cards.
+A Note on Ante Cards
+Ante cards are tutorable, but due to the way they function, they won't reap you any benefits, as confirmed by Mark Rosewater:
+
+Q: Can Spike, Tournament Grinder get ante cards?
+A: Ante no longer exists, so they aren’t usable.
+
+In other words, while you can tutor banned or restricted cards, you won't necessarily be able to use them due to the magnitude of changes to the rules over time. Then again, this would also be subject to different interpretations of Un-sets, as stated in the beginning, so your mileage may vary.
+

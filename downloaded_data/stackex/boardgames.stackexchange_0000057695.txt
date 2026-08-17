@@ -1,0 +1,33 @@
+Q:
+
+Does a stolen tapped card, untap after changing controllers?
+
+My brother played Agent of Treachery and stole my "tapped" creature card.
+The agent of treachery's text is as follows:
+
+Creature — Human Rogue
+Card Text:
+When Agent of Treachery enters the battlefield, gain control of target permanent.
+At the beginning of your end step, if you control three or more permanents you don't own, draw three cards
+
+Now he moved onto combat like immediately after and then untapped and tried using my creature to attack, and I said it can't attack because:
+
+It has summoning sickness,
+It is still tapped.
+
+He countered that the official Magic: The Gathering video game used this card and it let him attack right away. I said; well it's gotta either be tapped or summoning sickness for sure. We found out that yes it has summoning sickness. Once he found out, he decided it can't attack, attacked with a different creature but then also didn't fix his mistake of untapping.
+When my turn came around and I attacked with everything, he was 1 short of a blocker(my claim) and literally on 1hp. I said it was still tapped and couldn't block so hence: short by one. He says it get's untapped by stealing. I've found cards that let you steal and untap so if this particular card could do so, it would be put in the text. And upon hearing this argument he claims that he wouldn't have attacked on his turn because he knew he'd be short.
+I'm pretty sure I'm in the right here about it still being tapped, but if there's a specific rule that I can point him to, that'd be great.
+And what do you usually do when we find out about a rule change and upon hearing it would like to change previous turns. Is there any official rule about this? Or is it more of a case by case on how the players feel. Cuz in this case, letting him take back would result him in winning next turn, and him not able to take back results in me winning.
+
+A:
+
+Taking control of a creature does not inherently cause it to untap, and the creature does have summoning sickness during the turn in which control changed.
+Compare Agent of Treachery's ability with Act of Treason, which has this text:
+
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+
+Act of Treason specifically untaps the creature, because gaining control of it does not untap the creature. And it grants the creature haste because the creature would have summoning sickness otherwise.
+There's no specific rule that says that changing control of a creature doesn't untap it, there just isn't a rule that says that that does happen. But there is a blog post from a site run by some Magic judges which spells it out more clearly: When an object changes controller it does not untap unless the effect that causes this change in control specifically says to untap it.
+As for taking back previous decisions, that is not covered by the rules. It is something that players need to decide amongst themselves. If you ever encounter a situation like that in a tournament, you should call a judge, and the judge will make a determination based on the tournament rules.
+

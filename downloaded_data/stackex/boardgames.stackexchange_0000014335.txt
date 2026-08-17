@@ -1,0 +1,57 @@
+Q:
+
+What tap effect has precedence?
+
+Suppose I control Wellwisher:
+
+{T}: You gain 1 life for each Elf on the battlefield.
+
+And my friend controls Ballynock Trapper:
+
+{T}: Tap target creature.
+
+Whenever you cast a white spell, you may untap Ballynock Trapper.
+
+My question is who has precedence? Is there any way I can get my effect off and not be interrupted by his effect?
+If I also control Seedborn Muse...
+
+Untap all permanents you control during each other player's untap step.
+
+... Would that change who has precedence?
+I get the feeling that at least on my turn I would be able to use my abilities before he can use his, am I wrong on this?
+
+A:
+
+The short answer is that no matter what your opponent does with their Trapper, they cannot prevent you from activating your Wellwisher and gaining the life.
+The long answer involves explaining some of the key systems in the Magic rules.
+Magic resolves spells and abilities using a system called "the stack". When you cast a spell or ability, it goes on top of the stack, and then any player and put an instant or ability on the stack. Then once nobody puts anything else on the stack, the spells and abilities resolve from the top down. This allows player to respond to spells or abilities with other spells or abilities, and the response resolves first. More information can be found on the relevant wiki page.
+Magic also has a particular meaning for the word "priority", which is different from how you used it in the question. Basically, only one player gets priority at a time, and each player gets priority before any spell or ability resolves, to give each player the opportunity to respond. You gain priority very frequently, including at the end of almost every step of each player's turn, whenever a spell or ability is put on the stack, and whenever a spell or ability resolves from the stack.
+Whatever the situation is, either you have priority, or your opponent does. In the first case, the sequence of events looks like this:
+
+You activate your Wellwisher's ability. This consists of the following steps (often condensed into one action):
+
+You announce that your are activating the ability.
+You tap Wellwisher to pay for the cost of the ability.
+
+The ability is now activated and on the stack. You pass priority. Your opponent now has the opportunity to respond.
+Your opponent activates their Trapper's ability. This has a similar sequence of actions:
+
+They announce that they are activating the ability.
+They choose Wellwisher as the target of the ability.
+They tap their Trapper to pay for the cost of the ability.
+
+Now the Wellwisher's ability is on the stack, and the Trapper's ability is on top of it on the stack. Both players pass priority (this is often assumed to be the case when neither player announces any responses).
+The Trapper's ability resolves, and it taps Wellwisher. Wellwisher is already tapped, so this doesn't do anything.
+Both players pass priority again, and the Wellwisher's ability resolves. You gain a bunch of life.
+
+In the second case, where your opponent has priority, the sequence of events looks very similar:
+
+Your opponent activates his Trapper's ability, targeting Wellwisher and tapping the Trapper to pay the cost.
+The Trapper's ability is now on the stack and activated. Your opponent passes priority.
+You activate your Wellwisher's ability, tapping Wellwisher to pay the cost.
+Now the Trapper's ability is on the stack, and the Wellwisher's ability is on top of it on the stack. Both players pass priority.
+The Wellwisher's ability resolves, and you gain a bunch of life.
+Both player's pass priority again, and the Trapper's ability resolves, tapping Wellwisher. Wellwisher is already tapped, so this doesn't do anything.
+
+As you can see, it doesn't matter who activates their ability first. Either way, you can gain the life from Wellwisher.
+

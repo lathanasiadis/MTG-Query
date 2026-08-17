@@ -1,0 +1,15 @@
+Q:
+
+When resolving "destroy X when Y enters the battlefield", must I choose a target if the only available one is my own?
+
+Say that I cast a Viridian Shaman and there is only one artifact on the battlefield - my Sol Ring. Must I destroy my own artifact due to Viridian Shaman's trigger?
+
+A:
+
+Yes you must destroy your own artifact if it is the only one on the battlefield. If it were optional it would have the word 'may' in the ability like Acid Web Spider.
+When an ability triggers and it has a legal target it will always be put on the stack and a legal target chosen. Then when the ability resolves if it has a 'may' in it you can choose not to have its effect occur otherwise it does.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+603.5. Some triggered abilities’ effects are optional (they contain “may,” as in “At the beginning of your upkeep, you may draw a card”). These abilities go on the stack when they trigger, regardless of whether their controller intends to exercise the ability’s option or not. The choice is made when the ability resolves.
+

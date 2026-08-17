@@ -1,0 +1,28 @@
+Q:
+
+When does Zada, Hedron Grinder determine if a spell was cast only targeting Zada, Hedron Grinder?
+
+In trying to figure out where my head is at to day, here's the following.
+Player casts Soul's Fire, such that Zada, Hedron Grinder will do damage equal to its power to Zada, Hedron Grinder.
+Since a spell was cast that only targets Zada, Hedron Grinder, his triggered ability is placed on the stack on top of Soul's Fire.
+In response to the triggered ability, Player sacrifices Goblin Flectomancer, changing the targets of Soul's Fire, such that Zada, Hedron Grinder will do Damage equal to its power to the opposing Player. Goblin Flectomancer resolves.
+Triggered ability of Zada, Hedron Grinder tries to resolve. Will it check to see if the spell that was CAST only targeting Zada, Hedron Grinder still only targets Zada, Hedron Grinder?
+If it doesn't, or is satisfied that while the spell currently targets Zada, Hedron Grinder and the opposing player it was CAST only targeting Zada, Hedron Grinder, it will then create a copy of Soul's Fire for each other creature Player controls.
+Will the ability change only the first target, replacing Zada with another creature for each copy, or will it change both?
+
+A:
+
+Zada's ability will resolve, and each of the copies will only target the corresponding creature.
+First, when a triggered ability resolves, two conditions are checked to see whether it will continue to resolve. Rules 608.2a and 608.2b:
+
+If a triggered ability has an intervening “if” clause, it checks whether the clause’s condition is true. If it isn’t, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
+
+If the spell or ability specifies targets, it checks whether the targets are still legal. [...] The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. [...]
+
+Zada's ability has no intervening "if" clause, and no targets, so once it starts resolving, it will create the copies.
+The part of Zada's ability that changes the copies' targets says "Each copy targets a different one of those creatures." It does not say to set only one target; it simply says that the spell targets the creature. The most reasonable interpretation is that it sets all of the spells target to that creature. This is backed up by a ruling on Zada:
+
+If you cast an instant or sorcery spell that has multiple targets, but it’s targeting only Zada with all of them, Zada’s ability will trigger. The copies will similarly each be targeting only one of your other creatures. You can’t change any of the copy’s targets to other creatures.
+
+This ruling is only conditional on what the spell targets when it is cast, not what it targets when the ability resolves. So, any time a spell with multiple targets is cast targeting Zada, the copies each target only one creature, no matter what happened to the spell in between.
+

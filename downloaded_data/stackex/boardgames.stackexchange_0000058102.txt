@@ -1,0 +1,16 @@
+Q:
+
+If my Assault Suit is destroyed while my opponent controls the creature it is equipped to, does the creature return to my control at end of turn
+
+If I have a creature I own with Assault Suit equipped, then give control of that creature to my opponent during their upkeep, if they destroy assault suit (such as with Abrade) does the creature return to my control immediately, at the end of their turn, or never? Does this answer change if my opponent moves Assault Suit to another creature using Magnetic Theft?
+My hunch is that the effect of Assault Suit a continuous effect that is just applied to the creature at the beginning of my opponent's upkeep, and therefore is unaffected by the current status of Assault Suit (just like how like an Act of Treason effect). But confirmation would be useful
+
+A:
+
+The opponent controls the creature until the end of their turn, and then the creature returns to you, no matter what happens to the Assault Suit.
+Assault Suit's second ability says
+
+At the beginning of each opponent's upkeep, you may have that player gain control of equipped creature until end of turn. If you do, untap it.
+
+This is a triggered ability that, on resolution, creates a continuous control change effect with the duration "until end of turn". As soon as that ability resolves, the control change effect exists independent of what happens with Assault Suit.
+

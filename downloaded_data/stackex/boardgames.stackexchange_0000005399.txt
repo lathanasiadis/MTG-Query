@@ -1,0 +1,38 @@
+Q:
+
+Can a well-timed Twisted Image kill a player using Tree of Redemption?
+
+What happens if my opponent activates Tree of Redemption and I cast Twisted Image with the life-exchange ability on the stack?
+Looking at the comp rules, these seem most relevant:
+
+701.8a A spell or ability may instruct players to exchange something (for example, life totals or    control of two permanents) as part of
+  its resolution. When such a spell or ability resolves, if the
+  entire exchange can’t be completed, no part of the exchange occurs.
+Example: If a spell attempts to exchange control of two target creatures but one of those
+             creatures is destroyed before the spell resolves, the spell does nothing to the other
+             creature.
+112.7a Once activated or triggered, an ability exists on the stack independently of its source.    Destruction or removal of the source
+  after that time won’t affect the ability. Note that some    abilities
+  cause a source to do something (for example, “Prodigal Sorcerer deals
+  1 damage to    target creature or player”) rather than the ability
+  doing anything directly. In these cases, any    activated or triggered
+  ability that references information about the source because the
+  effect    needs to be divided checks that information when the ability
+  is put onto the stack. Otherwise, it    will check that information
+  when it resolves. In both instances, if the source is no longer in the
+  zone it’s expected to be in at that time, its last known information
+  is used. The source can still    perform the action even though it no
+  longer exists.
+
+Is the entire exchange ability countered because the Tree is dead by the time it resolves? Or do we use the "last known state" (toughness 0), thereby killing its controller?
+
+A:
+
+From the Oracle:
+
+9/22/2011 If Tree of Redemption isn't on the battlefield when the
+  ability resolves, the exchange can't happen and the ability will have
+  no effect.
+
+Which is consistent with the golden rule that if one rule says a thing can happen and another says it can't, can't wins.
+

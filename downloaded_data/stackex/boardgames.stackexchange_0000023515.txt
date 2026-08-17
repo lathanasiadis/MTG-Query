@@ -1,0 +1,26 @@
+Q:
+
+How to "dematerialize" a deck in the Magic Assistant card manager?
+
+(I'm hoping that a question about a utility related to Magic: The Gathering is on topic here, otherwise I apologize.)
+I am trying to organize my collection using the open source Magic Assistant program. Since much of my collection is already built into decks, I've created a number of them and added cards from the database. The remainder of my collection has been added into my "main" collection area, so every card I physically own is accounted for exactly once. Now, I want to break down a few of those decks and use the cards elsewhere, but I don't want to lose the card lists.
+It seems like I want to use something called a "virtual deck" here, but I'm not sure exactly how these work. I have figured out how to build a virtual deck from scratch, and later "materialize" it into a real deck. This moves the cards from "main" collection into the deck and converts it to a physical one. 
+What I can't figure out is how to go the other way and "dematerialize" a deck. I have a physical deck, and I want to move all the cards back into the "main" collection, but I don't want to lose the deck list. So far, everything I've tried has resulting in either:
+
+The card disappearing from the deck and moving back into my "main", or
+An extra copy of the card ending up in my collection.
+
+Is this something that's supported by Magic Assistant? If not, is there any way to do it manually, other than moving all the cards out and re-creating the virtual deck from scratch?
+
+A:
+
+It looks like you can accomplish this by doing the following:
+
+Open up the deck you want to convert.
+Select the entire list of cards.
+Right click and click Edit Card...
+Change the Ownership dropdown to "Virtual" and click OK.
+Copy the list of cards, and paste into the main collection.
+
+This will result in each card appearing as physically owned in the collection and virtually owned in the deck. If you do this, you may want to also modify the deck's properties to make it Virtual so that cards you add to it in the future will be virtual.
+

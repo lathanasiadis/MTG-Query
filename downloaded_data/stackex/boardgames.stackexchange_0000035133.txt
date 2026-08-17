@@ -1,0 +1,24 @@
+Q:
+
+What does "Return (card of the same name) from graveyard" mean?
+
+I'm a beginner when it comes to TCGs and MtG, and I've wondered what it means when a card says to return the same card from graveyard.
+For example, Haunted Dead (EMN) has:
+
+{1}{B}, Discard two cards: Return Haunted Dead from your graveyard to the battlefield tapped.
+
+Which got me thinking, "Wait, if Haunted Dead is in the graveyard, how can I use this ability, this ability of Haunted Dead?"
+Does this mean that even if there is no Haunted Dead in play (on the battlefield), I can activate this ability by paying the costs, searching for a Haunted Dead in my graveyard, and return it to the battlefield?
+Or does this mean that I can only use this ability with a Haunted Dead (which I control, on the battlefield) and return another Haunted Dead from the graveyard?
+In other words, I suppose, can abilities like this be activated whenever, or only when the creature is on the battlefield? (If it's the latter, doesn't that mean there's no reason to have 1 Haunted Dead in a deck since you can't use the ability?)
+
+A:
+
+That ability can only be activated when Haunted Dead is in your graveyard, and will only return the specific Haunted Dead whose ability was activated to the batttlefield.
+When a card refers to itself by name what it really means is 'this card', and not any other cards that may have the same name. If it effected other cards with the same name it would specifically say 'cards named X'.
+Normally an ability only works on the battlefield, however there are a few exceptions. The one that is relevant here starts that if an effect would move a card out of one zone and into another it can only be activated while the card is in the first zone.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+112.6k An ability whose cost or effect specifies that it moves the object it’s on out of a particular zone functions only in that zone, unless that ability’s trigger condition, or a previous part of that ability’s cost or effect, specifies that the object is put into that zone. The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone.
+

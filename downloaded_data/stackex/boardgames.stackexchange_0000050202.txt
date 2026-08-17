@@ -1,0 +1,73 @@
+Q:
+
+Why does Dryad of the Ilysian Grove grant all basic land types even if it loses all abilities?
+
+I got my Dryad of the Ilysian Grove turned into a fish (using Ichthyomorphosis) on an Arena draft. It's supposed to "lose all abilities", but I could see that the Dryad was still allowing me to get mana from any color. Isn't that considered a static ability? Same question for the "ability" that allows me to play an additional land.
+
+A:
+
+Dryad of the Ilysian Grove applies a type changing effect to all of your lands at layer 4, which takes effect before the Ichthyomorphosis removes the abilities of the Dryad at layer 6.  The ability to play an additional land would go away due to Dryad losing it's abilities and the additional land rule only taking effect after the layers are applied.
+
+The Layer System is one of the most convoluted parts of MTG and can seem confusing at times.
+
+Layers are one of the more difficult parts of the Comprehensive Rules to learn (613). They are often a bane to both players and beginning judges, but why do we have them? What do they do?
+Magic is a very complex game, with literally thousands of cards that have continuous effects. When these continuous effects start to pile up, we need to know how they interact. The rules for layers give us a structure to make sure that when the same three cards end up in play at a tournament in Japan, the result is the same as when it happens in Italy, the U.S., and Brazil.
+
+The rules for applying continuous effects is described in section 613 of the comprehensive rules.
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order.
+
+The ability
+
+Lands you control are every basic land type in addition to their other types.
+
+is a type-changing effect.
+
+Any effect which would add, change or remove types, subtypes or supertypes from the object you’re evaluating. These should be easy to spot, but they’re often thrown in as part of a larger ability.
+
+This applies at Layer 4, whereas ability adding or removing effects applies at Layer 6.
+
+Any effect which would add or remove abilities to an object you’re evaluating.
+
+Because of how layers work, the type changing ability of the Dryad applies before the Dryad loses his abilities.
+
+If a continuous effect (i.e. Dryad's land changing effect) has started applying in an earlier layer, it will continue to apply in later layers even if the ability that created that effect has been removed.
+
+This means that your lands are still every basic land type, even though the Dryad doesn't have that ability anymore.
+
+The ability
+
+You may play an additional land on each of your turns.
+
+is a modification of the game rules; specifically 305.2.
+
+305.2. A player can normally play one land during their turn; however, continuous effects may increase this number.
+
+This ability is applied after the regular layers are applied.  Since this is after the ability-removing effect, the ability disappears and doesn't do anything.  From the MTG Comprehensive Rules
+
+613.10. Some continuous effects affect game rules rather than objects. For example, effects may modify a player’s maximum hand size, or say that a creature must attack this turn if able. These effects are applied after all other continuous effects have been applied.  Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 601.2f. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 613.6 and 613.7)
+
+The Ichthyomorphosis effect from Layer 6 is applied before the effect that modifies game rules to allow you to play an additional land on your turn.  This ability disappears and thus doesn't allow you to play an additional land.
+So, ultimately, you have the following application of effects in your game.
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+
+All lands you control gain each of the subtypes: "Plains", "Island", "Forest", "Swamp", "Mountain" (from Dryad of the Ilysian Grove) and by extension of rule 305.6 gain the ability to tap for any color of mana (but not colorless, as "Wastes" is not a basic land type)
+Dryad of the Ilysian Grove is a Fish and loses all other subtypes (from Ichthyomorphosis)
+
+613.1e Layer 5: Color-changing effects are applied.
+
+Dryad of the Ilysian Grove is Blue and loses all other colors (from Ichthyomorphosis)
+
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+
+Dryad of the Ilysian Grove loses all other abilities (from Ichthyomorphosis), note that this does not effect the sub-type changing effect from Layer 4 but does affect the additional land rule that would be applied after Layer 7
+
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied.Effects that refer to the base power and/or toughness of a creature apply in this layer.
+
+Dryad of the Ilysian Grove has it's P/T set to 0/1 (from Ichthyomorphosis)
+
+After Layer 7
+
+Normally, the additional land rule would effect the game here, but as it was removed in Layer 6, it does not have any effect.  You cannot play an additional land each turn.
+

@@ -1,0 +1,18 @@
+Q:
+
+Will multiple Exquisite Archangels give me many extra chances, or just one?
+
+Let's say I've somehow managed to get two or more Exquisite Archangels out onto the battlefield:
+
+Something causes me to lose. Let's say it's just regular creature damage, and my life will reset just fine with no shenanigans.
+What happens? Do all Archangels get exiled at once, or do I exile just one and have one more chance left for each extra Archangel beyond that one?
+
+A:
+
+Only 1 Archangel gets exiled each time you lose. This is because the Archangel has a replacement effect, and when you have multiple replacement effects attempting to modify the same event you do it one at a time. The first Archangel replaces you losing with her effect. You are now no longer losing so the remaining Archangels don't have anything to replace so their effects do nothing.
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+616.1a-c These rules don't apply to this case.
+616.1d Any of the applicable replacement and/or prevention effects may be chosen.
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+

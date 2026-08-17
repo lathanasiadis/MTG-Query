@@ -1,0 +1,26 @@
+Q:
+
+When I cast a Cascade spell with Jodah, Archmage Eternal, do I cascade for 5 or the spell's original cost?
+
+I have a question regarding Jodah, Archmage Eternal and cascade mechanic. If I cast a 10 drop, but I cast it for WUBRG with Jodah, does cascade trigger for 10 or the 5 that I paid?
+
+A:
+
+10
+
+Let's look at Cascade.
+
+702.84a Cascade is a triggered ability that functions only while the spell with cascade is on the stack. “Cascade” means “When you cast this spell, exile cards from the top of your library until you exile a nonland card whose converted mana cost is less than this spell’s converted mana cost. You may cast that card without paying its mana cost. Then put all cards exiled this way that weren’t cast on the bottom of your library in a random order.”
+
+Cascade is dependent on the CMC, so let's look at that.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+
+Finally, the CMC is dependent on the mana cost, so let's look at that.
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the illustration.
+
+Whatever cost you actually paid to cast the spell is irrelevant; only what's printed on the card matters. Alternative costs, whether they are casting for {W}{U}{B}{R}{G} with Jodah or casting for free, do not change or replace the converted mana cost of the spell, as the following reminder rules tells us:
+
+117.9c An alternative cost doesn’t change a spell’s mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell’s mana cost still see the original value.
+

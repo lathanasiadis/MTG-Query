@@ -1,0 +1,24 @@
+Q:
+
+Do I choose my Annihilator sacrifices during resolution?
+
+It was suggested to me recently that Annihilator sacrifices (such as Emrakul, the Aeons Torn's) are only chosen during resolution, rather than while they're going on the stack.
+Do I choose those sacrifices during resolution? What part of the comprehensive rules backs that up?
+I can't find any clarity on the internet, in the rules, on the MTG Salvation wiki for Annihilator, or in the ability's rulings. It seems reasonable, but I'd like to know what's behind it. Plus, if I can choose and then later Cloudshift some stuff, all the better.
+
+A:
+
+Yes, you do choose what to sacrifice when the ability is resolving. You only choose 3 things when putting a triggered ability on the stack: modes, targets, and distributions. The choice of what to sacrifice to Annihilator is none of those things, so you make that choice during resolution instead.
+Rule 608.2d says that in the process of resolving an ability
+
+If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can’t choose an option that’s illegal or impossible, with the exception that having a library with no cards in it doesn’t make drawing a card an impossible action (see rule 120.3). If an effect divides or distributes something, such as damage or counters, as a player chooses among any number of untargeted players and/or objects, the player chooses the amount and division such that at least one player or object is chosen if able, and each chosen player or object receives at least one of whatever is being divided. (Note that if an effect divides or distributes something, such as damage or counters, as a player chooses among some number of target objects and/or players, the amount and division were determined as the spell or ability was put onto the stack rather than at this time; see rule 601.2d.)
+
+Rule 603.3c says
+
+If a triggered ability is modal, its controller announces the mode choice when he or she puts the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can’t be chosen. If no mode can be chosen, the ability is removed from the stack. (See rule 700.2.)
+
+603.6d says that the rest of the steps for putting a triggered ability on the stack follow the steps in 601.2c-d. Those rules say
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a buyback or kicker cost), or a particular mode, was chosen for it; otherwise, the spell is cast as though it did not require those targets. If the spell has a variable number of targets, the player announces how many targets he or she will choose before he or she announces those targets. In some cases, the number of targets will be defined by the spell’s text. Once the number of targets the spell has is determined, that number doesn’t change, even if the information used to determine the number of targets does. The same target can’t be chosen multiple times for any one instance of the word “target” on the spell. However, if the spell uses the word “target” in multiple places, the same object, player, or zone can be chosen once for each instance of the word “target” (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player can’t be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they’ll wait to be put on the stack until the spell has finished being cast.)
+601.2d If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
+

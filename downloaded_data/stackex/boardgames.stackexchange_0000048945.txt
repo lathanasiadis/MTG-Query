@@ -1,0 +1,29 @@
+Q:
+
+What requires MTG players to remind their opponents of “may” parts of effects?
+
+Section 3.7 of the IPG defines Tournament Error — Communication Policy Violation as follows:
+
+A player violates the Communication policies detailed in section 4 of the Magic Tournament Rules and the judge believes their opponent has taken an in-game action or clearly chosen not to act based on the erroneous information. This infraction only applies to violations of that policy
+  and not to general communication confusion.
+
+It goes on to list an example:
+
+A player casts Path to Exile, and forgets to remind their opponent that they have the opportunity to search for a basic land.
+
+Which parts of the IPG and the MTR require players to make such reminders if they do not wish to commit a CPV?
+
+A:
+
+The Magic Judge Blog version of that IPG section has a more detailed description of why those examples are problematic:
+
+In each of these examples, a player takes an action or fails to take an action in a way that is impacted by illegal communication. In the first example, the opponent makes a choice regarding the discard spell assuming that the player has three cards in their hand, while they actually have four. In the second, the player has violated section 4.7 of the MTR by keeping a creature with their lands, and the opponent assumes that the player has no blockers. In the third case, the player violates MTR 4.2 by assuming that the opponent chose not to search. In each case, it isn’t the illegal information that causes the infraction, but rather the opponent acting on the illegal information. If a player keeps their Llanowar Elf with their lands, but the opponent doesn’t make an attack assuming that the player has no blockers, then no infraction has occurred. However, judges should step in to clarify the board state before an infraction occurs.
+
+This is referring to the following statement in the Magic Tournament Rules section 4.2:
+
+During the resolution of one of their spells or abilities, a player may not assume their opponent has taken a shortcut. They must seek confirmation that a choice with no visible impact was taken.
+
+The explanation for that statement makes this very explicit:
+
+A player must make sure an opponent has chosen not to use an optional effect from their spell or ability. If a player casts Path to Exile on the opponent’s Grizzly Bears, and the opponent does not search for a basic land, they must be told that the spell allows them to do so. (Failure to do so may be a CPV).
+

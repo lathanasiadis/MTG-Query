@@ -1,0 +1,22 @@
+Q:
+
+If a permanent turns into a(nother) creature, has it entered the battlefield?
+
+I was playing a game last night with a guy who was playing a new Simic Gatecrash deck, and he claimed that if he made a land into a creature, it counted as entering the battlefield, thus triggering evolve (or other "enters the battlefield" abilities).
+I thought this was incorrect, being that the creature didn't actually enter the battlefield, it was just created.
+Which of us was right?
+
+A:
+
+"Enters the battlefield" means moving from a zone besides the battlefield into the battlefield. As you say, it didn't actually enter the battlefield - it didn't change zones, it just changed from one thing to another within a zone. So no, it doesn't trigger evolve.
+As for citations, well, there's a ruling explicitly for this land-becoming creature case on many of the lands that can become creatures (e.g. Celestial Colonnade):
+
+When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+
+I don't think the comp rules really say this explicitly; they say the battlefield is a zone, and "entering" a zone clearly means coming from outside the zone into the zone. For example, there's stuff like this:
+
+110.1. A permanent is a card or token on the battlefield. A permanent remains on the battlefield indefinitely. A card or token becomes a permanent as it enters the battlefield and it stops being a permanent as it's moved to another zone by an effect or rule.
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. ...
+
+Nothing explicit, but consistently "entering" a zone is used to mean changing zones into that zone.
+

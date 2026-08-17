@@ -1,0 +1,13 @@
+Q:
+
+Can an instant spell deal damage to a creature after responding with hexproof?
+
+For instance I want to cast Shock on Barkhide Troll during my main phase. Then my opponent can respond to it with Troll activated ability. 
+If I understand it correctly - he had to use Troll's Active Ability before my instant had targeted the creature. So it means my instant should deal the damage. 
+It is like when you want to use an ability which says "your creature can't be blocked until the end of the turn" and if you use such an instant after an opponent blocked your creature - an instant won't work because you had to use it when you assigned attackers
+
+A:
+
+No, the Shock will not deal damage if the target gains hexproof in response.
+The reason is that target validity is checked both while you are casting the spell and as the spell starts to resolve. If the target becomes invalid, say by gaining hexproof, before the spell resolves, the spell will not do anything to that target, and if all of the targets are invalid, the spell will not do anything at all.
+

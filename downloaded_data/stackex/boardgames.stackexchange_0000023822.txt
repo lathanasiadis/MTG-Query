@@ -1,0 +1,22 @@
+Q:
+
+What all does Blood Moon affect?
+
+1: If Blood Moon is on the battlefield, will Back to Basics, Burning Earth, etc. have any effect?
+2: What about Urborg, Tomb of Yawgmoth?
+3: Will a nonbasic with Wild Growth get an extra green mana?
+4: What about Awaken the Ancient on a nonbasic mountain?
+5: Can a nonbasic with Abundant Growth still tap for any color?
+
+A:
+
+Yes, the will work normally. Blood Moon only changes the subtype to mountain, it doesn't add the supertype "basic". "Mountain" as a card name and "mountain" as a subtype of land are different things.
+
+Urbog will have no effect. Urbog will be turned into a mountain, so it will lose its ability to make other lands into swamps. Urbog's effect depends on Blood Moon effect because of rule 613.7a, so Blood Moon effect is always applied first, and Urbog's ability is lost.
+
+Yes, that mana is added because of Wild Growht's ability. Blood Moon doesn't affect it.
+
+Awaken the Ancient can be played on a non basic land if Blood Moon is in the battlefield. If Blood Moon leaves the battlefield, Awaken the Ancient will be put in the graveyard (unless the original land had the moutain subtype, like Stomping Ground).
+
+Yes, the lands still have the extra ability granted by Abundant Growth.
+

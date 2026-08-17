@@ -1,0 +1,37 @@
+Q:
+
+How many counters does Kalonian Hydra get with two Corpsejack Menaces on the battlefield?
+
+Suppose I have 2 Corspejack Menaces on the battlefield. I play a Kalonian Hydra which is given haste by another effect, and decide to attack with it right away.
+How many counters are actually put on the Hydra by the time damage is resolved?
+One of the issues were if the Corpsejack Menace reacts to the Hydra being played. Since the Hydra comes into play with 4 +1/+1 counters on it, is that considered counters placed on it?
+And does one Corspejack Menace react to the other Corpsejack Menace?
+
+A:
+
+Both Corpsejack Menaces will double the counters, so if you would get 4 counters, you will now get 16 instead. (First doubled to 8, then doubled to 16). So in this case, the Hydra will enter with 16 counters, then when you attack, 16 more would get placed on it, which is doubled twice, so 64 more get placed on it, meaning that it is 80/80 when it attacks.
+Both questions are addressed in the rulings on Corpsejack Menace:
+
+If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead.
+
+If you control two Corpsejack Menaces, the number of +1/+1 counters placed is four times the original number. Three Corpsejack Menaces multiplies the original number by eight, and so on.
+
+The reason this works is described in rule 615:
+
+Interaction of Replacement and/or Prevention Effects
+
+615.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+615.1a If any of the replacement and/or prevention effects are self-replacement effects (see rule 613.14), one of them must be chosen. If not, proceed to rule 615.1b.
+
+615.1b If any of the replacement and/or prevention effects would modify under whose control an object would enter the battlefield, one of them must be chosen. If not, proceed to rule 615.1c.
+
+615.1c Any of the applicable replacement and/or prevention effects may be chosen.
+
+615.1d Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+Example: Two permanents are on the battlefield. One is an enchantment that reads “If a card would be put into a graveyard from anywhere, instead exile it,” and the other is a creature that reads “If [this creature] would be put into a graveyard from the battlefield, instead shuffle it into its owner’s library.” The controller of the creature that would be destroyed decides which replacement to apply first; the other does nothing.
+
+Note that entering the battlefield with counters is itself a replacement effect:
+
+614.12. Some replacement effects modify how a permanent enters the battlefield.
+

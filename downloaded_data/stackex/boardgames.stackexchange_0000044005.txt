@@ -1,0 +1,55 @@
+Q:
+
+What happens if multiple events combine into one (e.g. via damage redirection)?
+
+This is not a very practical question, I'm just seeking a better understanding of the rules. The rules define "events" quite loosely as "anything that happens in a game" (700.1). I am wondering if it is possible for a replacement effect to change one event so it combines with another (simultaneous) event. If this happens, I wonder what are the consequences for how replacement effects, prevention effects, and triggers are resolved. I have constructed a scenario that plausibly combines two events, but I would also be interested in other possible cases if this one doesn't work for some reason.
+Consider an attacking Flesh Reaver (a 4 power creature which has an ability that triggers whenever it "deals damage to a creature or opponent") that's enchanted to have trample. If it's blocked by two 2-toughness creatures, it's clear the ability triggers twice. (See rule 700.1 and its example, or consider a card like Matsu-Tribe Sniper which must trigger twice to work properly.) Then consider if the Flesh Reaver is blocked by only one 2-toughness creature so it deals damage to the blocker and the opponent. Its ability should still trigger twice.
+So, what happens if we redirect the damage from the creature to the player via Blood of the Martyr? Does the ability still trigger twice or now only once?
+What if there is another replacement or prevention affect? With Urza's Armor ("if a source would deal damage to you, prevent 1 of that damage."), does the ability prevent one of the trample damage plus one of the redirected damage, or just one overall?
+What if the defending player controls Empyrial Archangel (which redirects all damage from its controller to itself)? There are several interesting cases here if the events combine. If a replacement has already been applied to only part of a combined event can it be applied again (considering 614.5 which prevents replacement from applying more than once) to the whole event or to only part of the event? If it matters in what order we consider events, how do we choose the order? What does choosing an order even mean when events can combine?
+Case A:
+
+Apply Blood of the Martyr to redirect damage from the blocker to the player.
+Apply Empyrial Archangel's effect to redirect all the damage.
+Blood of the Martyr has already been applied to part of the damage. Does this mean it cannot be applied again at all to Empyrial Archangel?
+If we choose not to use Blood of the Martyr again, we have successfully redirected all the damage to the archangel by considering damage to the blocker first.
+
+Case B:
+
+Apply Empyrial Archangel's effect to redirect the trample damage.
+Apply Blood of the Martyr to redirect the damage from the archangel back to the player.
+Apply Blood of the Martyr to redirect the damage from the blocker to the defending player.
+Does Empyrial Archangel's effect apply to the damage redirected from the blocker, or can it not apply as the damage has been combined with damage that has already been redirected through the archangel?
+If not, we have successfully redirected all the damage to the defending player by considering the trample damage first. I think this is not possible if considering the events in the opposite order.
+
+Case C:
+
+Apply Empyrial Archangel's effect to redirect the trample damage.
+Apply Blood of the Martyr to redirect damage from the blocker to the defending player.
+Apply Empyrial Archangel's effect again to this redirected damage. (Surely this is possible even though the effect has already been used on the trample damage.)
+Can Blood of the Martyr now be applied to the Empyrial Archangel for only part of the damage, or is it blocked because Blood of the Martyr has already redirected some of the damage? (This is the weakest case, as we have already moved on from considering the event dealing the possibly-redirectable damage.)
+
+Rule 616 does not seem robust enough to cover such cases. Neither event contains the other (although they are contained inside a single larger "Flesh Reaver deals damage" event), so 616.2 does not apply. (Of course, one could invent a way for these things to work.) And, the events are initially separate, so it is not clear that 616.1 applies. Can 616.1 be interpreted to justify resolving simultaneous damage events together as part of a larger "one or more sources deal damage" event? (Does the APNAP clause imply that multiple events are considered together, or is there another reason for it?)
+I think the rules interactions are simpler if the events don't combine, but I couldn't find a rule that I thought justified keeping them separate.
+This answer suggests that redirection effects can cause damage events to combine, but whether the events combine or not doesn't matter much to the actual question asked there, and further implications are not considered.
+
+A:
+
+A Flesh Reaver that tramples over a smaller creature but gets the damage to the creature completely redirected to the defending player has its ability triggered only once. The damage packets don't recombine, because they were never split up between the creature and the defending player; the redirection effect of  Blood of the Martyr prevents the creature from being dealt damage in the first place. Therefore, damage prevention effects on the player controlling the Flesh Reaver apply only once.
+Damage of the same combat damage step is dealt simultaneously:
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. [..]
+
+As you already noted, a creature dealing combat damage to another creature is an event, one that is different from dealing to another creature or a player. However, since Blood of the Martyr is a replacement effect, that event never happens:
+
+603.2f An ability triggers only if its trigger event actually occurs. An event that’s prevented or replaced won’t trigger anything.
+614.6. If an event is replaced, it never happens.
+
+So what happens is that one Flesh Reaver deals 4 damage to one player in one "packet", and you get 1 trigger of Flesh Reaver's ability.
+
+119.4. Damage is processed in a three-part sequence.
+119.4a First, damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, “Replacement Effects,” and rule 615, “Prevention Effects.”) Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.
+
+This means first you replace damage dealing events, which causes the defending player to be dealt 2+2 damage. Those 4 damage are dealt as one event, then applicable abilities such as Flesh Reaver's trigger.
+Since you only get one Flesh Reaver trigger, Urza's Armor would only apply once, reducing the damage from 4 to 3.
+

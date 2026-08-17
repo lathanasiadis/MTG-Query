@@ -1,0 +1,26 @@
+Q:
+
+What does Leovold, Emissary of Trest & Teferi's Puzzle Box do to opponent's hands?
+
+Case 1:
+Player 1 has Leovold, Emissary of Trest and Teferi's Puzzle Box on the Battlefield.
+Player 2 starts with his draw phase and has one card in his hand.
+I think he puts his card on bottom of his library and draws a new one.
+However he is not able to take another.
+Case 2:
+Player 1 has Leovold and Teferi's Puzzle Box on the Battlefield.
+Player 2 starts with his draw phase and has no card in his hand.
+Therefore "nothing" happens with the Puzzle Box and he only draws a card. 
+Am I right or did I miss something? Do you feel this combo is that strong?
+
+A:
+
+Even though the phrase "beginning of the draw step" suggests otherwise, those abilities trigger after the turn-based action of drawing a card for the turn.
+
+504. Draw Step
+504.1. First, the active player draws a card. This turn-based action doesn’t use the stack.
+504.2. Second, the active player gets priority. (See rule 116, “Timing and Priority.”)
+
+Regardless how many cards Player 2 has in this case, they will draw a card, then Teferi's Puzzle Box triggers, eventually resolves, then has that player put all cards on the bottom of their library.
+Leovold, Emissary of Trest will prevent them from drawing any other cards, as they've already drawn a card this turn.
+

@@ -1,0 +1,15 @@
+Q:
+
+Ochran Assassin vs simultaneous First Strike and Non-First Strike blockers
+
+Ochran Assassin has deathtouch and the ability: "All creatures that are able to block Ochran Assassin do so". My opponent attacks with Ochran Assassin, and I am forced to block with a 3/3 creature with first strike, and a 3/2 with no abilities. Does my 3/3 first strike creature kill Ochran Assassin and send it to the graveyard before it can assign damage to (and kill) my 3/2?
+
+A:
+
+Yes, the assassin will die and both blockers will be fine. 
+Creatures with First Stike deal their combat damage before creatures without it do. These are 2 separate combat damage steps, with priority given and state-based actions checked between each. The assassin will have taken lethal damage and be sent to the graveyard before it ever would deal damage. Deathtouch doesn’t come into play. 
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+Note that this would work differently if instead of Deathtouch, it were an ability like Engulfing Slagwurm has, which destroys the blocking creature when it blocks; as opposed to waiting until combat damage. 
+

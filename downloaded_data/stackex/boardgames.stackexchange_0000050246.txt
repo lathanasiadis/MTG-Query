@@ -1,0 +1,22 @@
+Q:
+
+Can a mandatory trigger be missed?
+
+At Theros Beyond Death prerelease, I was playing with Furious Rise for the first time. It happened to me to forget about the card at the end of my turn and only remember at the beginning of the turn of my opponent, and saying so. He told me I had missed the trigger, and I didn't argue much as that was my fault. However I know this is not an optional trigger, I must exile the top card of my library at my end step. The only part that is optional is being allowed to play the exiled card.
+I didn't think about calling a judge at that time, but since that was a mandatory action and there wasn't lots of actions from both of us after the missed trigger, were we supposed to rewind and fix the game state? I only thought about the fact that by not exiling the card, I could not play it and was losing on card advantage so not fixing the game was "fair" to my opponent. However, I forgot that one card would could have been permanently exiled and the effect have changed much more the outcome of the game.
+How am I supposed to handle a mandatory effect without calling a judge? Were we supposed to rewind the game state to fix it if both had agreed?
+
+A:
+
+You should pretty much always call a judge when something weird like that happens. Don't think of this as starting a confrontation with the judge or with your opponent - judges are simply the experts in how to fix weird things, and in doing so such that both players will usually think they were treated fairly. That said, if you called the judge over, they would probably just put the missed trigger on the stack at that point. Here's the guidelines from the Judging at Regular Rules Enforcement Level (REL) document (emphasis added):
+
+[Triggered] abilities are considered missed if the player did not acknowledge the ability in any way at the point
+  that it required choices or had a visible in-game effect. If the ability includes the word “may,” assume the
+  player chose not to perform it. Otherwise, put the ability on the stack unless you think it would be too
+  disruptive - don’t add it to the stack if significant decisions have been made based on the effect not
+  happening! Unlike other illegal actions (which must be pointed out), players may choose whether or not to
+  point out their opponent's missed triggers.
+
+Since the trigger was mandatory and since no significant decisions had happened since, the bold line says that the ability should go on the stack when noticed.
+(At higher RELs, the Magic Infraction Procedure Guide has a lot more to say on how to handle missed triggers. You can read that yourself to see how your specific case would be handled in a Competitive setting, but ultimately calling over a judge and letting them handle it is the right move either way. By Tournament Rules, intentionally missing your mandatory trigger is Cheating at any REL.)
+

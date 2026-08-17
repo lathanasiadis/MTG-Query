@@ -1,0 +1,16 @@
+Q:
+
+Does a saga's ability resolve in time to save the saga?
+
+Suppose I have a Time of Ice and Opalescence on the battlefield. My Time of Ice (which is a creature) is at two lore counters and won't untap during my next turn because of my opponent's sleep.
+Does Time of Ice's third chapter ability return Time of Ice to my hand before it is sacrificed? 
+For some reason the rule on this isn't intuitive to me: it appears that the game waits until after a saga's final ability resolves to be sacrificed.
+
+A:
+
+You will get to return the Saga to your hand.
+
+714.4. If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.
+
+The bold part makes it so that as long as the "return to your hand" ability is on the stack; the state-based action that would make you sacrifice it doesn't do anything yet.
+

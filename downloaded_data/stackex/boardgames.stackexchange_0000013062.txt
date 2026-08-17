@@ -1,0 +1,48 @@
+Q:
+
+Why do mana abilities not go on the stack?
+
+Why this special treatment for mana-abilities? What are the design implications if they didn't go on the stack?
+
+A:
+
+I can think of three reasons:
+
+It would force arbitrary actions to be reversed.
+It would allow spells that haven't been fully cast to be countered.
+There are already plenty of opportunities to react.
+
+It would force arbitrary actions to be reversed
+Consider this rule:
+
+601.2 [...] If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast.
+
+Players can obtain mana in the middle of casting a spell[1][2]. If mana abilities used the stack, that means players would be able to cast spells in response. If the spell were to become unable to be cast, one would have to rewind all direct and indirect effects of those spells. Someone could have revealed private information, shuffled their library or lost the game as a result. How do you undo those?
+Not only that, it would also make it far more likely for a spell to become unable to be cast, something that should never happen.
+For example, consider this scenario where responding to mana abilities would be allowed.
+
+Alice only has a single creature on the 'field.
+Starts casting Altar's Reap.
+She activates a Swamp's ability.
+In response, Nancy casts Beacon of Destruction
+Nancy kills Alice's creature and shuffles her Beacon of Destruction into her library.
+Alice can no longer complete the casting of her spell (because she can't pay the additional cost), so the game rewinds to the start of the casting of the spell. Nancy needs to unshuffle her library to match the game state.
+
+It would allow spells that haven't been fully cast to be countered
+Players can obtain mana in the middle of casting a spell[1]. This happens after placing the spell on the stack[2]. A spell is a card on the stack (or a copy of spell), so it could be the legitimate target of a Cancel cast in response to activating mana abilities. That means one could counter a spell that han't been (fully) cast yet. That's just too complicated and messy to allow.
+
+There are already plenty of opportunities to react
+Activating mana abilities is not something someone one normally does for its own sake. It's done as part of something else, such as casting a spell. Allowing this to be interrupted would be detrimental to the game flow and would add confusion. There are plenty of other points at which players can respond.
+The earlier problems only surface when activating mana abilities when one would not have priority under the current rules. Could the game allow players to respond to the activation of mana abilities performed when a player has priority? Yes, but it would often be hard to distinguish whether an activation occurred before or during casting. It's far simpler to have mana abilities never use the stack rather that having the player try to figure out whether one can respond to a particular activation or not.
+
+Notes
+
+Or activating an ability. I'm only mentioning spells to keep it simple.
+The steps to casting a spell[1] are:
+
+601.2a) Place card on stack.
+601.2b-d) Make choices, including targets.
+601.2e) Determine total cost.
+601.2f) Activate mana abilities.
+601.2g) Pay the previously determined cost.
+

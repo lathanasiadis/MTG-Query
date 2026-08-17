@@ -1,0 +1,14 @@
+Q:
+
+How do Chatterfang, Saw in Half and Parallel Lives interact?
+
+If I have Chatterfang, Squirrel General and Parallel Lives on the battlefield under my control and then cast Saw in Half targeting Chatterfang, how many and what type of tokens will be created when Saw in Half resolves?
+
+A:
+
+You will get 4 Chatterfang tokens and no Squirrel tokens. 3 of the 4 Chatterfang tokens will go away due to the Legend Rule (but will still have entered the battlefield if anything cares about that).
+As you resolve, Saw in Half, you follow its instructions one at a time. Chatterfang is destroyed, and sent to the graveyard. Then you would create 2 Chatterfang tokens, but Parallel Lives has a static ability that creates a replacement effect, replacing the creating of 2 Chatterfang tokens with creating 4 Chatterfang tokens.
+Although Chatterfang also has a replacement effect that would replace creating a token with creating the token and creating a squirrel, there is no Chatterfang on the battlefield at the time you are creating a token here. The original one is in the graveyard and none of the token ones have been created yet. The new tokens will exist too late to do anything here:
+
+614.4. Replacement effects must exist before the appropriate event occurs—they can’t “go back in time” and change something that’s already happened.
+

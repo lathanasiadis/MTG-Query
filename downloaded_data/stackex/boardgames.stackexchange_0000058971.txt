@@ -1,0 +1,33 @@
+Q:
+
+How do adventure spells work with spell-cost modifications?
+
+Say my opponent has a Bonecrusher Giant in play and I target it with Soul Partition.
+
+Can my opponent cast Bonecrusher Giant's adventure side for 1R?
+If my opponent does cast the adventure side for 1R, does casting Bonecrusher Giant itself still cost 4R?
+If my opponent also has an Omniscience in play, do they still have to pay {2} to play Bonecrusher Giant?
+
+A:
+
+Your opponent could cast Bonecrusher Giant's Stomp adventure, but it would cost them {3R}.
+
+715.3. As a player casts an adventurer card, the player chooses whether they cast the card normally or as an Adventure.
+
+715.3a When casting an adventurer card as an Adventure, only the alternative characteristics are evaluated to see if it can be cast.
+715.3b While on the stack as an Adventure, the spell has only its alternative characteristics.
+
+And
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack.
+
+So your opponent will begin to cast the card, declaring that they are casting Stomp. When this goes on the stack, only the Stomp with the printed {1R} is what is on the stack. Then:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs.
+
+Soul Partition kicks in and increases the cost by {2}.
+When your opponent later cast Bonecrusher Giant, it will only cost {2R}, both because they are casting it per the adventure rules, not casting it per the Soul Partition rules, and because Soul Partition would no longer know anything about this card, as soon as it resolved and was exiled it became a new object (400.7).
+Omniscience only allows you to cast spells from hand without paying their costs, so it wouldn't help here. But if it did allow you to cast cards from anywhere without paying their costs, then they would still have to pay the increase for {2}. See the ruling on Omniscience:
+
+If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+

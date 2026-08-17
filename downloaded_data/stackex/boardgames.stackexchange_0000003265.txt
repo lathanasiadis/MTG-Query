@@ -1,0 +1,18 @@
+Q:
+
+Can someone explain the Damage on the Stack rule change?
+
+I played Magic: The Gathering when Unlimited first came out, and quit shortly after Antiquities were released. About a month ago I started playing again. 
+I was trying to find what the biggest changes are, and saw someone say the biggest difference was the elimination of Damage on the Stack. I've read the new rules and noticed a few differences, but am not sure what "Damage on the Stack" refers to as being different. Could someone explain what it was, and how it has been eliminated?
+
+A:
+
+Formerly, in combat, it would go something like this:
+Declare Blockers -> (Players can do stuff) -> Stack Damage -> (Players can do stuff) -> Damage resolves 
+This allowed players to do various combat "tricks." Some examples:
+You attack with a 2/2, and I block with my Mogg Fanatic. After damage was stacked, I could use Mogg Fanatic's activated ability, sacrificing him and dealing an additional 1 damage to your 2/2. This 1 damage, coupled with the 1 combat damage on the stack, would kill your 2/2.
+Under the new rules, this is not possible (and thus Mogg Fanatic has been significantly weakened). I could either deal the 1 combat damage to your 2/2, OR sacrifice him to deal 1 damage to any target. By sacrificing him, he no longer is alive to deal the combat damage; and I can't sacrifice him after damage because he would already be dead. From a "common sense" perspective, this seems more intuitive, and I think that's why they changed the rules. (Personally I liked Damage on the Stack better; it added more possibilities).
+Here's another example, just to be perfectly clear:
+Suppose you attack with a 2/2 and I block with a 2/2. Formerly, I could stack the combat damage, and then use a "bounce" card such as Unsummon or Boomerang to return my guy to my hand. The damage would then resolve; your guy would die, and mine would safely be in my hand.
+With the new rules, I can block your guy (preventing damage to me) and still bounce my guy to save him from death, but I do not get to also kill your guy. Thus, bounce effects have also been weakened.
+

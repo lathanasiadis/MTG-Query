@@ -1,0 +1,27 @@
+Q:
+
+Can a red spell (Sorcery, Instant, etc) affect a green creature?
+
+I have a red/green deck. Can I use my red spells on my green creatures, and my green spells on my red creatures?
+I am fairly new to MtG so I am sorry if this appears as a sort of nooby question.
+
+A:
+
+Yes, you can. If a spell targets a creature, unless it says otherwise, it can target any creature of any colour. The spell's own colour is simply a non-issue.
+Consider that if you did have to cast red spells on red creatures, or black spells on black creatures, Doom Blade would be completely useless, being a black spell which says:
+
+Destroy target nonblack creature.
+
+There are a few exceptions:
+
+That creature can't have Hexproof, unless it's your own creature. Hexproof means your opponents cannot target that creature with their spells or abilities, but you can do so just fine. Benthic Giant is an example of one such creature. If you control a Benthic Giant, you can target it with your own Auger Spree to make it temporarily an 8/1 creature, but your opponent can't cast their own Augur Spree on your Benthic Giant.
+The creature can't have Shroud. An example: Algae Gharial. It's an old mechanic which says the creature simply can't be targeted by spells or abilities, full stop - not even your own. You won't run into Shroud in newer cards, because it's been replaced by Hexproof.
+The creature can't have Protection from your spell's colour. A creature with protection from a colour cannot be targeted by spells of that colour. (Protection also does some other good things for you.) For example, Hand of Honor has protection from black, which means it can't be targeted by Doom Blade.
+
+Protection can do more than simply pick a colour. Petrified Wood-Kin, for example, can't be targeted by instants, and Azorius First-Wing can't be enchanted.
+
+The creature must otherwise not say it can't be targeted.
+
+And naturally, the creature has to be a valid target for the spell.
+The same principles apply to all spells. You can cast Fade into Antiquity on non-green enchantments, and so on.
+

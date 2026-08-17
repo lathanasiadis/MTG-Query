@@ -1,0 +1,21 @@
+Q:
+
+Is there a reason effects that introduce another combat phase also create another main phase?
+
+In Magic, there are a number of effects that create an additional combat phase. In any example I've seen, they either also create an additional main phase, or else they can only be cast/activated during combat (meaning the additional combat phase will happen, followed by the next main phase). Is there a reason for this? (Besides the reason of: the game designers designed it that way)
+A different way of phrasing my question could be: would something hinder the game from continuing if an effect caused combat to not be followed by a main phase? (For example, Precombat Main Phase -> Combat -> Postcombat Main Phase -> Additional Combat -> End Step)
+If not, has any justification been given for the apparent design rule that a main phase should always happen before the End Step?
+
+A:
+
+No, there is nothing preventing this from a rules perspective.  Maintaining the flow of the turn (as murgatroid99 mentioned) is probably why this template has been preserved over time, but the origin of this template comes from the fact that the early rules of the game did not support such a turn structure.
+Up through 5th Edition, combat did not have its own phase.  "Attacking" was an optional action that you could enter during your Main Phase.  Entering combat was essentially a special action a player could choose to take like playing a land.  As such, combat was wholly contained within a singular Main Phase, and combat was not standalone.  The very first card to do this kind of effect was Relentless Assault from Visions.  The relevant part of the original text was this:
+
+You may declare an additional attack during your main phase this turn.
+
+So this automatically functioned the way it does today since every combat happened within a Main Phase and would kick you back out to the Main Phase when they were complete.  When combat was promoted to its own phase in the Sixth Edition rules update and split up the Main Phase to pre- and postcombat, the card received a new printing with wording that would allow it to function the same under the new rules:
+
+You get an additional combat phase followed by an additional main phase this turn.
+
+After that, this kind of wording became the standard for effects that create additional combats in the turn.  Wizards tends to normalize templates for effects that are used on multiple cards so that players don't have to remember the slight differences between the different implementations, and this has been the basis for templating this particular effect from that point onward.
+

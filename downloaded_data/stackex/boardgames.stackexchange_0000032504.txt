@@ -1,0 +1,41 @@
+Q:
+
+If damage is redirected infinitely, does the game end in a draw?
+
+I have a creature enchanted with Pariah:
+
+All damage that would be dealt to you is dealt to enchanted creature
+  instead.
+
+I then play Blood of the Martyr:
+
+Until end of turn, if damage would be dealt to any creature, you may
+  have that damage dealt to you instead.
+
+The rules appear to say that this does not result in a draw, because according to Blood of the Martyr I "may" redirect the damage to me.
+
+104.4b If the game somehow enters a “loop” of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don’t result in a draw.
+
+Then, am I forced to give the damage to the creature? Do I have a choice to draw the game by choosing to give the damage to myself forever?
+
+A:
+
+These are replacement effects, and you can't apply any single replacement effect to any single event more than once. So, once you apply both effects, you stop, the damage is dealt, and the game continues.
+These are the relevant rules about Replacement Effects:
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like “shields” around whatever they’re affecting.
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+[...]
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace it.
+
+For example, say an effect would deal damage to you. Then you would resolve the effect as follows:
+
+First, only Pariah's effect applies. It's not optional, so we apply it, and the damage would now be dealt to the creature instead of to you.
+
+Now Blood of the Martyr's effect applies. This one is optional, so you can choose to have the damage dealt to you instead of the creature.
+
+Now, no matter what choice you made, all applicable replacement effects have now been applied. The effect resolved, and the damage is dealt either to you or to the creature, depending on the choice you made.
+

@@ -1,0 +1,21 @@
+Q:
+
+"Creature does not untap" on Mutavault
+
+I have a Mutavault on the battlefield, which has been animated so it is temporarily a 2/2 creature. My opponent has a Shipbreaker Kraken, which has the following monstrous ability:
+
+When Shipbreaker Kraken becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control Shipbreaker Kraken.
+
+If my opponent uses the monstrous ability while my Mutavault is a creature and taps it, will my Mutavault untap on my next upkeep (since it is no longer a creature)?
+
+A:
+
+No, it won't untap. "Those creatures" is not a check. It's just a nice way of saying "those objects that were targeted". Any later changes to the object's characteristics are irrelevant.
+
+608.2i If an ability’s effect refers to a specific untargeted object that has been previously referred to by that ability’s cost or trigger condition, it still affects that object even if the object has changed characteristics.
+Example: Wall of Tears says “Whenever Wall of Tears blocks a creature, return that creature to its owner’s hand at end of combat.” If Wall of Tears blocks a creature, then that creature ceases to be a creature before the triggered ability resolves, the permanent will still be returned to its owner’s hand.
+
+A note on "untargeted"
+It seems to me that "specific untargeted object" refers to phrases like "that something" or "those somethings", even if they are short for "that targeted something" or "those targeted somethings". The word "untargeted" is there to exclude "target something" and "target somethings" from being covered by 608.2i since targets are rechecked on resolution.
+There are two cards that cannot shorten "that targeted creature" to "that creature" without becoming ambiguous. "That targeted creature" does not target, so 608.2i does apply.
+

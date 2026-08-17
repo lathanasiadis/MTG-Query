@@ -1,0 +1,25 @@
+Q:
+
+Trigger order for sacrificing creatures
+
+I have Mazirek, Kraul Death Priest as my Commander.  If I sacrifice a creature using Ghoulcaller Gisa, which effect comes first,
+
+Putting Zombie tokens onto the battlefield
+
+or
+
+putting the +1/+1 counters on each creature I control?
+
+In other words, can I put the +1/+1 counters on the new Zombie tokens?
+
+A:
+
+You will always get the +1/+1 counters first, so your new tokens will not get the counters.
+Triggered abilities don't go on the stack until someone is about to get priority, which won't happen until Ghoulcaller Gisa's activated ability is already on the stack. So the Mazirek, Kraul Death Priest's triggered ability will go on the stack on top of the activated ability, and thus resolve first.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+So Mazirek's ability triggers the moment that you sacrifice a creature to pay the cost for Gisa's ability, but even though it has triggered it doesn't go on the stack yet. The rest of the process of activating an ability is still carried out, including putting that ability on the stack. Only then is  Mazirek's ability put on the stack.
+

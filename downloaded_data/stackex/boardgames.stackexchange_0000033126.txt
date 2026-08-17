@@ -1,0 +1,20 @@
+Q:
+
+Magic the Gathering: Chaining Instants during combat phase
+
+Say it's the start other player's combat phase, and I have Aethersquall Ancient out on the field, whose 2nd ability's cost is to spend 8 energy to bounce all other creatures besides it off the board. I have 5 energy. Could I cast Harnessed Lightning, an instant that gives 3 energy, and not spend any on its effect and instead spend the new total of 8 energy on the Ancient's ability before the blocking step?
+
+A:
+
+No, you Can't.
+Aethersqual Ancient's second ability has a limiting condition, specifically:   
+
+Activate this ability only any time you can cast a sorcery.
+
+To the best of my recollection, there is not a card in magic the gathering that will allow you to activate the ability. Refer to Vedalken Orrery on oracle for clarification, explaining why it doesn't work. 
+
+This applies only to casting spells. It does not, for example, change when you may activate abilities that can only be activated “any time you could cast a sorcery”.  
+
+Editorial: This is one of the occasions where the plain text on the card isn't sufficient. There are several cards that let you play a sorcery as though it had flash, yet it takes going to their oracle pages to find the above. Intuitively, if there is an effect that allows me to play a sorcery as if it had flash, and this ability is limited to only being activated if I can play a sorcery, than I should be able to activate the ability.
+You can cast Harnessed Lightning, and choose not to use any Energy, adding to your energy pool for eight total. However, when you go to activate the ability during the end of the Declare Attacakers step of your opponents turn, you will be trying to take an illegal action. Your opponent should stop you from doing so.
+

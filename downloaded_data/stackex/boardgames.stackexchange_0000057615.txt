@@ -1,0 +1,17 @@
+Q:
+
+Can Dauntless Bodyguard give a land indestructible if it was animated previously?
+
+Say I have a Shambling Vent. I animate it, then play Dauntless Bodyguard targeting it. At the end of turn, Shambling Vent returns to being a land. Next turn, opponent uses a land destruction spell on Shambling Vent. Can I sacrifice Dauntless Bodyguard to give Shambling Vent indestructible, thereby countering the land destruction spell?
+Relevant text of Dauntless Bodyguard:
+
+Sacrifice Dauntless Bodyguard: The chosen creature gains indestructible until end of turn.
+
+The question hinges on whether this ability still works given that Shambling Vent isn't a creature at the time Dauntless Bodyguard is sacrificed.
+
+A:
+
+Yes, it can. As long as the first ability of Dauntless Bodyguard resolved at a time the land was also a creature, it will track that permanent.
+
+700.7 If an ability of an object uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn’t the appropriate characteristic at the time.
+

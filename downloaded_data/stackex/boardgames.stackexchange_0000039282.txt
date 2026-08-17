@@ -1,0 +1,24 @@
+Q:
+
+Do I have to shuffle with Settle The Wreckage?
+
+Settle The Wreckage says:
+
+Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.
+
+I recently got this played against me on Magic Online, however I had just scryed a card I wanted to the top of my library and I didn't need any more land. As a result I did not want to look for land or shuffle my library.
+Magic online didn't give me any choice here though and shuffled my Negate away from me. Is that correct? By my reading of the card the entire second clause is a "may" so I should have had the option not to?
+
+A:
+
+You shouldn't have had to shuffle your library.
+This is actually a known bug in Magic Online. It is listed here as "Settle the Wreckage does not give the targeted player the option to not search their library."
+As for the rule itself... unfortunately there's no card ruling on Gatherer, but the rules of grammar should make this clear. If the card's intent were that the "may" applies only to searching the library, and not to the shuffling part, then the shuffling would have to stand alone as an instruction outside of the "may". It would look like this:
+
+That player [may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then] shuffle his or her library.
+
+The problem here is that "shuffle" would have to be "shuffles" for that to be grammatically correct. If the card did say "then shuffles his or her library", then it would be reasonably to interpret that as a separate instruction apart from the "may".
+So the only way for it to be grammatically correct is if it's:
+
+That player may [search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.]
+

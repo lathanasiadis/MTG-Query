@@ -1,0 +1,40 @@
+Q:
+
+Do abilities interrupt transform effects?
+
+I've recently had a debate with someone on how interrupting works for transform cards. Let's say I have just played an Ulrich of the Krallenhorde, and the opponent has a Scorpion God, as well as enough mana to put as many -1/-1 counters on Ulrich to kill him. If I interrupt his using of Scorpion Gods ability to play Waxing Moon, transforming Ulrich, will Ulrichs Transform effect be interruptible by further use of Scorpion Gods ability?
+
+A:
+
+Yes, your opponent will be able to kill your Ulrich.
+Whenever a spell is cast, or an ability is activated, it goes on the top of the stack. When both players pass priority, the top of the stack resolves. In this case, your opponent will be able to respond to your Waxing Moon spell by activating Scorpion God, and the -1/-1 counters will be placed on Ulrich, killing him before Waxing Moon ever resolves.
+The stack will look like this at each step:
+Step 1; opponent activates Scorpion God's ability 4 times, targeting Ulrich:
+
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+
+Step 2; you respond with Waxing Moon:
+
+Waxing Moon
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+
+Step 3; your opponent responds by activating Scorpion God's ability 4 times:
+
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Waxing Moon
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+Ulrich gets a -1/-1 counter
+
+Then, if neither of you do anything else, the stack will resolve from top to bottom. 4 steps down, Ulrich will go to the graveyard for having 0 toughness. Then Waxing Moon will be countered because it has no legal target (Ulrich is in the graveyard now). Then each of the 4 original activated abilities will be countered because they have no legal target.
+

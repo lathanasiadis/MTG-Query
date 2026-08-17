@@ -1,0 +1,20 @@
+Q:
+
+In what category of information are timestamps?
+
+In Magic the Gathering Competitive/Professional REL, there are four categories of information:  status, free, derived, and private.  Under which category of information do timestamps fall?
+If timestamp ordering is private information, then if two of Player A's objects with competing static abilities enter the battlefield simultaneously, Player B cannot find out which will take precedence until they actually affect the gamestate.  Player A could also lie about which order has been chosen.
+The same applies if timestamp ordering is derived information, except that Player A could not directly lie, but could refuse to communicate the order.  For all practical purposes, these two possibilities imply that Player A does not actually have to make a choice at the time the objects enter the battlefield.  This one also raises the question, "derived from what, exactly?"
+If timestamp ordering is free information or status information, then Player B, while resolving Inquisition of Kozilek, can ask Player A for the timestamp ordering of each card in Player A's hand.  It isn't unthinkable that the temporal order of cards in hand could be identified in this way; in Hearthstone, the hand is always ordered with cards to the left being older, and it doesn't break the game.  However, the problem is that Player A is unlikely to remember the order in which each card was drawn in many circumstances.
+None of these possibilities are obviously intuitive.  They all feel a bit weird.  In what category of information are timestamps?
+
+A:
+
+There is a simple answer here that resolves all of the conflicts: timestamps are free information if and only if it makes a difference to the current game state. Otherwise, it is private.
+The Magic tournament rules specify that free information includes "Details of current game actions and past game actions that still affect the game state". Any time timestamps are relevant to the game state, they are the result of a previous game action, which makes them details of previous game actions, so they must be public information in that case. Otherwise, timestamps are not included in the quoted category, so they are not free information, and since they do not fit any category of derived information, they must be private.
+Rule 613.3 says
+
+Within layers 2–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.8.)
+
+So, the timestamp of an object only matters if the object has a static ability that affects a layer that another active continuous effect also affects. Static abilities never function in the hand, so the timestamp of a card in hand never matters, so that information is private.
+

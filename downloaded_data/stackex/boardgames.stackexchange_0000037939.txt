@@ -1,0 +1,25 @@
+Q:
+
+When you use Cloudshift on Zada Hedron Grinder, do the creatures return simultaneously?
+
+When you use Cloudshift on Zada, Hedron Grinder does it resolve like Ghostway (simultaneously) or does each creature blink in order that the copy targeted them? I ask because if it resolves like Ghostway that's better in my opinion since allies entering simultaneously versus one at a time will trigger to a greater effect.
+Add-on: I am actually assuming each happens individually and so want more of a confirmation, but this actually raised another question about Otherworldly Journey and its interaction with Zada. Since Otherworldly Journey returns the creatures at the end step they would indeed return and trigger simultaneously correct? 
+
+A:
+
+Spells never resolve "simultaneously".  Every effect goes on the stack, and each effect resolves from the stack in order, one at a time.
+To quote the relevant rule regarding copies of spells (emphasis mine):
+
+706.10 To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack... A copy of a spell or ability is controlled by the player under whose control it was put on the stack....
+
+So when you cast Cloudshift targeting Zada, Zada's ability is triggered and produces a bunch of spell copies, each of which is targeting another one of your creatures.
+Even though all the spell copies were created at the same time, they still go on the stack and are resolved one after the other.  Since you control all the spells, you get to decide the order in which they go on the stack, and consequently the order in which they will resolve.  The Gatherer rulings for Zada say this specifically:
+
+You control all the copies. You choose the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
+
+The end effect of all of those spells is that each one of your creatures is exiled and then returned to the battlefield in the order you decide when you load up the stack with all those copies.
+Keep in mind, though, that this means each of your creatures finishes blinking before the next one starts.  That means that any "enters the battlefield" effects will go onto the stack and resolve before the next creature blinks. 
+ Also note that since each of the spells goes on the stack, your opponent has the option to respond with spells or abilities in between blinks.
+
+In the case of Otherworldly Journey, there are two sets of spells/abilities that trigger simultaneously.  Casting Otherworldly Journey works similarly to Cloudshift - all the spell copies go on the stack and resolve one at a time, exiling your creatures in the order you specify.  Then at the next end step, the second half of each Journey is triggered, producing a bunch more abilities that you can place on the stack in any order.  The order in which the creatures return does not have to be the same as the order in which they were exiled.
+

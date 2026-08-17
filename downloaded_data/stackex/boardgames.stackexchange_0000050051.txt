@@ -1,0 +1,22 @@
+Q:
+
+How does Ashiok, Dream Render interact with the Vigor/Hostility and Profane Memento cards?
+
+I have questions regarding this ruling on Ashiok, Dream Render:
+
+If Ashiok’s last ability targets an opponent, the cards put into their graveyard will be among the cards exiled by the ability. No player may take any actions between the time the cards are put into a graveyard and the time your opponents’ graveyards are all exiled.
+
+Suppose player A uses Ashiok, Dream Render's -1 loyalty ability to target player B. Player B puts the top four cards of their library into their graveyard. But:
+
+What if Player B puts Vigor or Hostility into their graveyard as part of those four? Would Vigor or Hostility be shuffled into player B's library?
+What if Player C has Profane Memento on the battlefield? Does player C gain life for each creature that that is put into the graveyard?
+
+The ruling states that a player does not get an action during Ashiok's loyalty ability, but are these effects player abilities?
+
+A:
+
+Vigor and Hostility will be exiled and not shuffled back. The controller of Profane Memento will gain life.
+The part about players not being able to take actions during the resolution of Ashiok's loyalty ability means that no player may cast spells, activate abilities, or take special actions such as playing a land. For all of these, priority, the right to do these things, is necessary. Players do not get priority during the resolution of spells and abilities.
+However, there are more kinds of abilities than just activated abilities. Vigor/Hostility and Profane Memento have triggered abilities that trigger automatically whenever their trigger condition is met. They can trigger anytime, even during the resolution of spells and abilities, and do not require anyone to have priority, so they will all trigger as soon as Ashiok's ability puts them into the graveyard.
+However, they only enter the stack (and can later resolve) after the current spell or ability has finished resolving. By that time, Vigor/Hostility have already been exiled, and their triggered abilities resolve without doing anything, because the creatures they are referring to, respectively, are no longer in the zone they were expected to be. Profane Memento's ability, on the other hand, does not care where the creature card that triggered it is right now, so when those Profane Memento's triggered abilities resolve, its controller will gain life.
+

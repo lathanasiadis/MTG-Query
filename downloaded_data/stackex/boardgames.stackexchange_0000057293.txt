@@ -1,0 +1,21 @@
+Q:
+
+Does Death Tyrant still create its zombie token if it dies in combat?
+
+Death Tyrant card has the following ability:
+
+Negative Energy Cone — Whenever an attacking creature you control or a blocking creature an opponent controls dies, create a 2/2 black Zombie creature token.
+
+We had a situation where the Death Tyrant was goaded into an attack, and it was blocked, and dealt enough damage to die. What we're not certain about - is whether it's ability above would still generate a zombie token for itself and any other attackers the player had that died in that combat round.
+Reading the rules, we wouldn't be surprised if it was either yes or no. We're just trying to figure it out for the next time.
+
+A:
+
+Yes, it would. Die / leaves the battlefield triggers go off of what the game state was like just before the triggering events, rather than what it is like just after.
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+All creatures that took too much combat damage in combat will die at the exact same time (not counting first strike, etc). So because Death Tyrant was on the battlefield at the moment all of those creatures died, its trigger still happens and resolves normally.
+

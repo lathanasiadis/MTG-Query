@@ -1,0 +1,25 @@
+Q:
+
+What is the interaction between Muraganda Petroglyphs and Humility?
+
+Are all my creatures 3/3 with both Humility and Muraganda Petroglyphs in play?
+
+A:
+
+Yes, they are. The reason for this is the layer system described in rule 613. The relevant portions are:
+
+613. Interaction of Continuous Effects
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+613.3a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+
+Let's look at a Giant Spider you have on the battlefield.
+In layer 6, Humility removes its Reach, which is important because it now qualifies for Muraganda Petroglyphs.
+Layer 7a is the value printed on the card, in this case 2/4.
+Then, layer 7b applies: Humility sets the power and toughness to 1/1.
+Then, layer 7c applies: this is Muraganda Petroglyphs' bonus, setting power and toughness to 3/3.
+

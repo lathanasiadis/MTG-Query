@@ -1,0 +1,34 @@
+Q:
+
+Parallax Wave & Commander
+
+Does 400.7h apply, when in EDH a commander gets exiled using Parallax Wave, then moved to the command zone and then later Parallax Wave leaves the battlefield?
+I suppose it's all about the wording, as per this question?
+
+A:
+
+If the commander's owner chose to return it to the command zone, it will stay where it is, per rule 607.2a:
+
+607.2a If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+If the commander isn't in the exile zone, it isn't subject to Parallax Wave's last ability.
+If it was returned to the command zone and ended up in exile (possibly because it was played and then exiled again) it still isn't affected because its current incarnation in exile wasn't put there by Parallax Wave.
+
+Rule 400.7h does not apply. It works on a subtly, but distinctly different template of ability.
+One example of an ability enabled by 400.7h is Reckless Impulse:
+
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+
+In this case, "those cards" needs to refer back to "the top two cards". But because of rule 400.7, this would not normally be possible, because when those cards were exiled, they became new game objects:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+400.7h allows Reckless Impulse and cards like it to maintain the connection between the cards they find in their original zone and the objects they become in exile.
+Parallax Wave, on the other hand, has two (relevant) abilities:
+
+Remove a fade counter from Parallax Wave: Exile target creature.
+
+When Parallax Wave leaves the battlefield, each player returns to the battlefield all cards they own exiled with Parallax Wave.
+
+The latter ability affects cards that are already in exile, so it does not need to remember their previous state. By rule 607.2a, all that matters is that a) they are in exile and b) Parallax Wave put them there.
+

@@ -1,0 +1,12 @@
+Q:
+
+How do undying triggers resolve against exile and other players reanimating my graveyard?
+
+So I play casually with a sacrifice and undying combo, which plays around with instant speed self sacrificing to avoid pesky control tactics. I'm wondering if it actually works how I think it does. Say I have a Geralf's Messenger that I just cast. I pass priority and my opponent attempts to exile it with Stasis Snare. In response, I pay Viscera Seer's cost to activate his ability sacrificing the messenger. It dies, comes back to the battlefield, does it's enter the battlefield thing, I scry 1, and then the Stasis Snare resolves. I get that typically when an object moves from one zone to another, it forgets what it used to be, but it had never left a public zone, so does 400.7g apply? Am I misinterpreting anything here?
+Additionally, my opponent once tried to outsmart my undeath by using the enchantment Grave Betrayal. Both the undying trigger and the Grave Betrayal trigger occur from the same event, but since I control the object(creature), I choose the ordering for the abilities, right? I wouldn't want to get off easy against my opponents just because of confusing wording.
+
+A:
+
+Your first example works as you want: the stasis snare doesn't exile your creature. When it moves between zones, unless otherwise stated, it and everything that targets it forgets that it was something else. Note that 400.7 says zone, not just public zone. 
+For your second example, you get to keep your creature. Grave Betrayal triggers at the beginning of the end step (technically, it creates a delayed trigger that triggers at the end step), while Undying triggers immediately. Once Undying resolves, it's back on the battlefield and is a different object than what Grave Betrayal is attempting to steal. 
+

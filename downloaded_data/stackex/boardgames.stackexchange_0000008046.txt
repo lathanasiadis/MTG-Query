@@ -1,0 +1,23 @@
+Q:
+
+Lifelink and fatal damage question
+
+My life is down to 1 and my opponent 4. I attack with a 4/4 lifelink creature, and my opponent answered with a Shock to deal two damage to me, will I lose or will lifelink save me first?
+
+A:
+
+You will die first.
+The attack phase is actually a series of steps, of which declaring the attacking creatures is only the second. After you have determined your attacking creatures, there are several opportunities for each player to play instant-speed spells (such as Shock) and abilities before the attacking creatures can deal their combat damage. So, unless you agreed to resolve combat first, if your opponent can reduce you to zero health or less, you will lose.
+For reference, these are the steps of the combat phase:
+
+At the end of the first main phase, when the stack is empty and all players have passed, combat starts. Every player can play spells and abilities now.
+You declare with which creatures you want to attack, if any. You tap them, they now count as attacking.
+Every player can play spells and abilities until the stack is empty and everyone passes. (This is where your opponent played Shock, which killed you right there).
+The defending player declares with which creatures to block, if any. They now count as blocking.
+Every player can play spells and abilities until the stack is empty and everyone passes.
+Combat resolution starts. First, all creatures with First Strike and/or Double Strike now deal their damage, simultaneously.
+Every player can play spells and abilities until the stack is empty and everyone passes.
+All creatures with Double Strike and all creatures who didn't deal damage in the first damage step deal damage now (this is where you would have killed your opponent with the 4/4 and gained 4 life).
+Every player can play spells and abilities until the stack is empty and everyone passes.
+Combat ends.
+

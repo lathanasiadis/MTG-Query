@@ -1,0 +1,17 @@
+Q:
+
+How many Tokens does Sidisi, the Brood Tyrant make when multiple creature cards enter the graveyard simultaneously?
+
+If two creature cards are placed in the graveyard by one card effect, will Sidisi, Brood Tyrant make one or two tokens?
+
+A:
+
+"Whenever one or more creature cards (...)" only triggers once even when you mill multiple creature cards at the same time, like when Sidisi enters the battlefield.
+If it was meant to trigger for each individual card, it would say: "Whenever a creature card (...)".
+See one of Sidisi, Brood Tyrant's rulings:
+
+9/20/2014: Any instruction, including Sidisi’s first ability, that tells you to put multiple cards from a library into a graveyard moves all the cards at the same time. For example, if Sidisi enters the battlefield and you put three creature cards into your graveyard, Sidisi’s last ability will trigger once and you’ll put one Zombie token onto the battlefield.
+
+Bear in mind, one effect can have multiple separate instructions to move cards to your library: in general, if it contains multiple sentences, each with its own self-milling instruction, each sentence is a different instruction, and each instruction will move all of its cards simultaneously.
+The current standard format doesn't seem to contain any examples of this, but imagine a Dampen Thought targeting yourself, spliced into another Dampen Thought, also targeting yourself. You'd wind up with, effectively, a spell saying: "Target player mills four cards. Target player mills four cards." — which will count as milling yourself twice, and trigger Sidisi twice.
+

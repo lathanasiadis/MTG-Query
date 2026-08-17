@@ -1,0 +1,30 @@
+Q:
+
+Does preventing damage prevent things like land destruction?
+
+For example, if a player plays Personal Sanctuary then plays Armageddon does the damage prevention mean they don't lose lands?
+
+A:
+
+No, for two reasons.
+
+If it doesn't say "deal(s) damage", it doesn't deal damage.
+It's only damage if it's the result of the "deal damage" keyword action. That means those words must appear in the rule or effect. Currently the only damage caused by the rules is combat damage. So if it's not combat damage, and if the effect doesn't use the words "deal damage", it's not damage.
+For example,
+
+In the Combat Damage Step, attacking and defending creatures deal damage. If any of that damage is directed to you, it will be nullified. You won't lose life (or gain poison counters if the attacking creature has Poison or Infect) if you don't block an attacking creature because you are protected from the damage that would cause you to lose life (or gain poison counters).
+
+A Lightning Bolt targeting you will have no effect.
+
+Armageddon destroys lands. It does not deal damage, so it's not affected by Personal Sanctuary.
+
+Sign in Blood causes lose of life. It does not deal damage, so it's not affected by Personal Sanctuary.
+
+"You" refers specifically to the player.
+Personal Sanctuary only protects you from damage. Your permanents are not protected.
+For example,
+
+A Lightning Bolt targeting you will have no effect.
+
+A Lightning Bolt targeting one of your creatures will deal damage as normal.
+

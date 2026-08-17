@@ -1,0 +1,19 @@
+Q:
+
+Can I use Moonlace to allow a Lightning Bolt to target a creature with protection from red?
+
+The action of casting a spell is only apparently simple.  There are many steps, and it is for this reason that I propose this question.
+Taking into account rule 601.2a only (without taking into account the several successive steps, by now, and in particular without referring to the choice of targets which is however essential), which reads
+
+To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+
+and using at the same time the blue rare card Moonlace, I wondered if it was possible, by keeping priority, to use the latter card to make another spell colorless before making my choice of its possible targets.
+For example, if I have a Lightning Bolt and I want to cast it on a creature with protection from red – e.g. Repentant Blacksmith – may I use Moonlace to make the Bolt colorless, thus allowing to legally target the Repentant Blacksmith – or, possibly, other cards that have the ability "protection from colored spells", too?
+The question is set in an open way, because at the moment I don't know if the action described is or is not possible, based on my current knowledge of the rules. In other words, thinking about the question by myself, I don't think it is possible to cast the Lightning Bolt first and then the Moonlace, since for a correct casting of the Lightning Bolt I think it is included the choice of the target, which cannot be legal since the creature is protected from red. On the other hand, casting Moonlace first is all the same wrong, because the spell that should target doesn't exist yet, and therefore this action would be illegal too, for the same reason. That's the reason why I said to refer to rule 601.2a only.
+The key to the question then is simply: is there someone knowing  any “sleight of hand” to grant devoid ability on Lightning Bolt, before his target is chosen - via Moonlace, or via any other ways, otherwise? And, if that kind of sleight does exist, what spell should I cast first? It is possible to cast two spells simultaneously?
+
+A:
+
+Moonlace only works on Lightning Bolt when it's a spell, i.e. an object on the stack. To get it there, you have to cast it, which includes specifying a legal target. As you indicated, Repentant Blacksmith isn't one.
+What would work is casting the Lightning Bolt on another target (e.g. your opponent), Moonlacing it so it becomes colorless, and then change the target with another card, e.g. Misdirection.
+

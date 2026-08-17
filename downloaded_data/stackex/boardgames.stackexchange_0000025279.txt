@@ -1,0 +1,18 @@
+Q:
+
+Are power and toughness "used up"?
+
+Let's say I get two creatures to fight. One is a 4/4 the other is a 1/1. The 4/4 destroys the 1/1, but does the 4/4 become effectively a 3/3, so that later in the combat step it will only be able to assign 3 damage? Or does it get its power back after the fight so it is effectively a 4/3 (a 4/4 with 1 dmg counter on it)?
+Or say a 4/4 attacks and a 3/3 blocks. Combat resolves, the 3/3 is dead and the 4/4 is now a 1/1, so if a 2/2 then fights the 1/1 (4/4) it dies? Or does the 4/4 just become a 4/1 after combat resolves?
+I'm just trying to understand whether power can be used up like toughness in a turn, or if it just assigns it for the fight or combat step then resets back to full power. I understand fight is totally different to combat.
+
+A:
+
+Toughness never gets used up. Damage doesn't change toughness (or power), and it doesn't use counters, it's simply marked on creatures. If a creature ends up marked with damage greater than or equal to its toughness, it dies. But the whole time, the creature still has its original toughness. You probably shouldn't even think of it as having its toughness effectively reduced; that might confuse you in other situations.*
+Similarly, power never gets used up. When a creature deals damage, whether fighting or in combat or any other way, its power doesn't change.
+If you look at the reminder text for fighting, or the full rules for it or combat damage, you'll see something like "...deals damage equal to its power." That's all that happens: the power dictates how much damage it deals. There's nothing about the power changing.
+In your first example, if you get a 4/4 and a 1/1 to fight, you end up with a 4/4 with one damage marked on it, and a dead 1/1. If subsequently that 4/4 gets into combat or fights again, it'll still deal four damage. It'll only take three additional damage to kill it, since it already has one marked on it. So for example, if it were blocked by a 3/4, they'd kill each other: it'd deal 4 damage to the 3/4, and the 3/4 would deal 3 damage to it, bringing it up to 4 damage, enough to kill it.
+Basically the same thing happens in your second example. If a 3/3 creature blocks a 4/4 creature, the 3/3 will take 4 damage and die, and the 4/4 will take 3 damage and live. It'll still be a 4/4, but it'll only take one additional damage to kill it. If it then fights with a 1/4, they'll kill each other: it'll deal 4 damage to the 1/4, and the 1/4 will deal 1 damage to it, which brings it up to 4 damage, enough to kill it.
+
+* For example, if you have a 4/4 that has 3 damage marked on it, your opponent can still use Valorous Stance ("Destroy target creature with toughness 4 or greater.") to kill it, since its toughness is still 4.
+

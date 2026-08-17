@@ -1,0 +1,71 @@
+Q:
+
+Athreos, God of Passage and Undying
+
+I am curious about how this scenario will play out:
+I have both Athreos, God of Passage and Geralf's Messenger in play and Geralf's Messenger dies (with no +1/+1 counters on it) .
+My guess is that it will work like this:
+
+Geralf's Messenger will leave the Battlefield (maybe even go to the graveyard?)
+Athreos, God of Passage's ability will trigger (and go on the stack?)
+The opponent that I target will have to choose to lose 3 life or put Geralf's Messenger back in my hand.
+If they lose 3 life, Geralf's Messenger will go back on the battlefield with a +1/+1 counter on it.
+If they choose not to lose 3 life, then Geralf's Messenger will go back to my hand.
+
+Does that sound right?  Basically I am trying to see if Geralf's Messenger will effect loss of 6 life before it is well and truly dead (as long as Athreos, God of Passage stays on the board).
+
+A:
+
+Basically I am trying to see if Geralf's Messenger will effect loss of 6 life before it is well and truly dead
+
+Nope. Undying actually makes it worse for you.
+I think your error is that you forgot about one of the key rules of MTG:
+
+400.7 An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+In this context, that means that when the Messenger leaves the graveyard, abilities that later try to move it from the graveyard won't find it since it doesn't exist anymore.
+
+Here's what happens:
+
+Geralf's Messenger dies (is moved from the Battlefield to the graveyard) for whatever reason.
+
+Both its undying ability and Athreos's triggered ability trigger.
+
+The abilities that triggered are placed on the stack in APNAP order. A player decides the order in which his abilities are placed on the stack.
+
+What happens next depends on the order in which you place the abilities on the stack.
+
+If you place the Undying ability on the stack first and Athreos's triggered ability second.
+
+Athreos's triggered ability resolves:
+
+Return it to your hand unless target opponent pays 3 life.
+
+Undying resolves:
+
+If it's still in the graveyard, return it to the battlefield under your control with a +1/+1 counter on it.
+
+So,
+
+If opponent pays 3 life, it ends up on the battlefield with a +1/+1 counter.
+Otherwise, it ends up in your hand.
+
+He shouldn't pay any life, forcing you to cast it again.
+
+If you place Athreos's triggered ability on the stack first and the Undying ability second.
+
+Undying resolves:
+
+Return it to the battlefield under your control with a +1/+1 counter on it.
+
+Athreos's triggered ability resolves:
+
+Target opponent may pay 3 life, but it doesn't matter if he does or not since the object to move no longer exists.
+
+So,
+
+If opponent pays 3 life, it ends up on the battlefield with a +1/+1 counter.
+Otherwise, it ends up on the battlefield with a +1/+1 counter.
+
+He shouldn't pay any life since it doesn't make a difference.
+

@@ -1,0 +1,39 @@
+Q:
+
+How can I find out when a specific comprehensive rule was introduced?
+
+I wrote this answer, and I feel like it would benefit (slightly - it's not exactly a crucial part of the answer) from knowing when rule 706.4 was introduced. I feel that if I can find out when a rule was introduced, I can more easily research why it was introduced, and then I can write a better answer.
+In general, how can I determine when a comprehensive rule was introduced?
+
+A:
+
+Rule 706.4 was originally created as rule 503.4, and seems to have appeared between 1999 and 2001 - I haven't found any copies of rules between those two. (The renumbering happened in the July 11, 2009 rules update, which renumbered basically all the rules.)
+
+If you have a really good idea when the rule you're looking for was introduced, Yawgatog's rules changes page (linked in murgatroid's answer) is great - for example, if you're looking for Bestow, just click on Theros and you'll see it among all the cleanly-presented diffs.
+If you have a good keyword to search for, you can try this rules history forum thread, which summarizes past rule changes. For example, you can quickly find infect under Scars of Mirrodin. Unfortunately this page only goes up to 2012.
+Failing those easy solutions, you can just binary search over past versions of the comprehensive rules, linked below.  Note that you can also do some smarter things - for example, you can download them all (and clean them up), and look for the pair where the diff matches what you're looking for. (I did this by making a git repository with a commit for each version of the rules, then using pickaxe search.)
+Past comprehensive rules
+While Wizards only links to the most recent version of the rules, all the old rules are still being served. I managed to find what looks like most of them since 1999.
+These links currently all work, and given how old they are, it seems likely that they'll keep working - but should they ever break, archive.org should have crawled all of them.
+These are all plaintext, except some in 2014, because Wizards only linked to docx and pdf versions then.
+1999-04-23
+2001-07-23 2001-09-24
+2002-02-20 2002-10-07
+2003-03-15 2003-07-01 2003-10-01 2003-12-01
+2004-02-01 2004-06-01 2004-10-01
+2005-02-01 2005-08-01 2005-10-01
+2006-02-01 2006-05-01 2006-07-15 2006-10-01
+2007-02-01 2007-05-01 2007-07-13 2007-09-07 2007-10-01
+2008-02-01 2008-05-01 2008-07-15 2008-10-01
+2009-02-01 2009-05-01 2009-07-11 2009-09-04 2009-10-01
+2010-02-01 2010-04-23 2010-06-18 2010-07-16 2010-10-01
+2011-02-04 2011-04-01 2011-05-01 2011-06-17 2011-07-15 2011-09-30
+2012-02-01 2012-05-01 2012-06-01 2012-07-01 2012-10-01
+2013-02-01 2013-05-01 2013-07-13 2013-09-27 2013-11-01
+2014-02-01 2014-05-01 (pdf docx) 2014-06-01 (pdf docx) 2014-07-18 (pdf docx) 2014-09-26
+2015-01-23 2015-03-27 2015-07-17 2015-09-26
+2016-01-16 2016-04-08
+
+For rules older than this, I couldn't find anything in a similar format. It looks like 1999 was the first time Wizards actually published clean plaintext rules like this.
+However, archive.org has a copy of the rules page as of April 1999. There are several links there, including the base Fifth Edition rules, in a frame-based view (kind of tough to use, but it works), as well as the updates for Mirage, Tempest, Urza's Saga, and Sixth Edition. With all of those taken together, you'd end up with the same rules as in the text-format rules from April 1999 linked above, but since they're split, you can see what was added in each step.
+

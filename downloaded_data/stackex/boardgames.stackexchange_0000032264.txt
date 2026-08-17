@@ -1,0 +1,18 @@
+Q:
+
+Can my opponent play a madness cost of 3 or below if "Brisela, Voice of Nightmares" is in play?
+
+Let's say I have a Brisela, Voice of Nightmares and my opponent tries to cast Voldaren Pariah for its madness cost of BBB.
+Would the rule in Brisela, "Your opponents can't cast spells with converted mana cost 3 or less" stop my opponent from doing that?
+
+A:
+
+No, Brisela will not prevent your opponent from casting Volarden Pariah for its madness cost.
+"Mana cost", and by extension "converted mana cost" specifically refers to the cost printed at the top of the card. The relevant rules are here:
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) [...]
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+
+So, Volarden Pariah always has a mana cost of {3}{B}{B}, and a converted mana cost of 5.
+

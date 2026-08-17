@@ -1,0 +1,23 @@
+Q:
+
+Nadir Kraken and Solemnity
+
+Say Solemnity and a Nadir Kraken are play. Obviously you won't get the counter. But will get the token.
+Basic FOL would suggest:
+P = "put a +1/+1 counter on Nadir"
+Q = create a 1/1 blue creature token"
+
+Given that (basic rules of conjunction):
+P & Q = 1 iif P = 1 && Q = 1
+
+P = 0, than the conjunction P & Q == 0, so neither will be created.
+Ovethinking? What would Garfield say?
+
+A:
+
+You get the token.
+
+609.3 If an effect attempts to do something impossible, it does only as much as possible.
+
+You're allowed to create the token.  You're not allowed to add the counter.  So you do what you're allowed.
+

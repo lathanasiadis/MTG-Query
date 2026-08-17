@@ -1,0 +1,13 @@
+Q:
+
+Is there any way my opponent can prevent me from winning in this situation?
+
+I have Judith, the Scourge Diva and Footlight Fiend in play, and have 1 life; my opponent has Dreadhorde Butcher and 2 life. They swing with the Butcher, I block with the Fiend, and they both die.
+At this point, my opponent's trigger goes on the stack first (since they're the active player), then mine (non-active player). My two triggers do two damage to my opponent, killing them before their own trigger can resolve and kill me.
+But now we're wondering—is there anything that could have made me not win in this situation? For example, could I have activated an ability or played an instant, changing who was the active player at the crucial moment? Or was their fate sealed as soon as I blocked?
+
+A:
+
+Considering only the cards mentioned, and assuming you chose the proper targets for the triggered abilities, your opponent is guaranteed to lose once you block with the Fiend.
+The active player is the player taking the current turn [CR 102.1], not the player with priority or anything like that. So in that entire sequence, there is no way for your opponent's triggered abilities to go on the stack on top of yours. As mentioned in the question, both of your abilities go on top of the stack and each deals 1 damage to the opponent, so they lose before their own creature's triggered ability can resolve.
+

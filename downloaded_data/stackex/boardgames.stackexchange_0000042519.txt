@@ -1,0 +1,21 @@
+Q:
+
+Do you have to pay the mana cost for cards exiled with Muse Vessel?
+
+Muse Vessel reads as follows:
+
+{3}, {T}: Target player exiles a card from their hand. Activate this ability only any time you could cast a sorcery.
+{1}: Choose a card exiled with Muse Vessel. You may play that card this turn.
+
+If the card exiled is a nonland card, do I have to pay its mana cost?
+
+A:
+
+Yes, you do.
+From the comprehensive rules (emphasis mine):
+
+701.13b To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.
+701.4a To cast a spell is to take it from the zone it’s in (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+
+Muse Vessel lets you play the card, which equates to casting a spell, but does not change the requirement to pay the cost for the spell.
+

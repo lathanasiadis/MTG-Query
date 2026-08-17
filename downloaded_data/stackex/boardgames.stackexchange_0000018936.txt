@@ -1,0 +1,27 @@
+Q:
+
+Is there an official rule on "setting up" your deck before play?
+
+It never occured to me that this might not be an action sanctioned for tournament, but me and my friends have always done it as long as I can remember.
+Every time before a new game, we look through our decks and separate the lands from the non-lands, shuffle the non-lands, and build a deck (assuming a 2:1 ratio of non-lands to lands) 2 non-lands then 1 land -- repeat until no cards are left. Then give a light shuffle and begin. This is used to ensure that there's no long strings of only land or no land.
+I've done a quick search for others doing this behavior but I can't seem to locate any reference to it. But based on a couple games in Magic online, I've noticed that quite frequently I'll mulligan a hand and then get back an unhealty ratio of lands to spells and I basically lose the game right away because of it. This leads me to think that the official tournament rules are that you just shuffle your deck and play.
+
+A:
+
+The Magic tournament rules have this to say (emphasis added):
+
+3.9 Card Shuffling
+Decks must be randomized at the start of every game and whenever an instruction requires it. Randomization is defined as bringing the deck to a state where no player can have any information regarding the order or position of cards in any portion of the deck. Pile shuffling alone is not sufficiently random.
+
+Per the Gilbert-Shanon-Reeds model, the number of riffle shuffles1 needed to properly randomize a deck can be expressed mathematically as a function of the base-2 logarithm of the number of cards in the deck2. For a 60-card deck, you would need nine riffle shuffles, while a deck with 40 cards in it (a Limited game, or a Constructed game that's been going for a bit) would need eight shuffles3.
+When your deck is properly randomized, nothing you have done to it prior to the randomization has any effect on the final permutation. If you're randomizing your deck correctly, the mana-weaving you and your friends are doing has nothing more than a psychological effect. Since it isn't affecting the outcome of the game, it's legal, although it wastes time.
+At Competitive and Professional Rules Enforcement Level (REL) tournaments, which use the Infraction Procedure Guide to determine penalties for various infractions, failing to properly randomize your deck can result in Tournament Error — Insufficient Shuffling. The penalty for this is a Warning assuming the error was unintentional (if the error is intentional, then it falls under Unsporting Conduct — Cheating). If you get the same Tournament Error a second time (or more), the Warning is upgraded to a Game Loss.
+At Regular REL tournaments (Friday Night Magic, prereleases, etc.: the type of tournaments most players attend), which use Judging at Regular REL (JAR) to guide judges in decision-making, "Inadequate Shuffling" falls under General Unwanted Behaviors. At Regular, the judge will most likely instruct you on proper shuffling technique and/or simply remind you to shuffle better or shuffle more. Only if you are consistently failing to properly shuffle your deck will you get Game Losses at Regular for the error.
+In a tournament, after shuffling your deck, you must present it to your opponent (with the implicit claim that you have randomized the deck). At Regular REL, your opponent may shuffle the deck, cut the deck, or even leave the deck as is, essentially trusting that you've randomized it correctly. At Competitive and Professional REL, your opponent must shuffle the deck you present them. If you do not feel comfortable with your opponent shuffling your deck (for example, if you see evidence of your opponent mistreating his own cards, while you have expensive Mythics etc. in your library), you can request a judge's assistance (although a judge may not have the time to oblige you every time the deck needs shuffling).
+At all levels of play, while mana-weaving isn't against the rules when followed by sufficient shuffling, it may raise red flags in the minds of your opponents and the judges and cause problems where there oughtn't be any. It is recommended that you do not do this at a tournament, even if you are shuffling correctly afterwards.
+Also note: a properly randomized deck will often have runs of only lands or only nonlands: there are many permutations of your deck where this is so, and a properly randomized deck will not have preference to one permutation over another. this is a point of consternation of many Magic Online players, who do not do a proper job of shuffling their paper cards and are befuddled by the properly shuffled digital decks, which do not have a near-uniform distribution of lands to nonlands, but are, in fact, random.
+
+The GRS model deals only with riffle shuffles, not other kinds of shuffling. Riffle shuffles are generally the most efficient, and other shuffling methods would require additional shuffles to achieve the same randomness.
+Sepcifically, 3/2 * log_2(n), where log_2 is the base-2 logarithm and n is the number of cards in the deck.
+A graph of the number of shuffles required: Wolfram Alpha
+

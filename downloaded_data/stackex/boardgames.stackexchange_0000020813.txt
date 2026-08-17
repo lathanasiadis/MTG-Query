@@ -1,0 +1,21 @@
+Q:
+
+How does Necromantic Selection work with Adarkar Valkyrie?
+
+Ran into this situation, and we were not sure how to resolve it.
+Player A has Adarkar Valkyrie on the battlefield, and an awesome creature, say Sun Titan. Adarkar Valkyrie has this ability:
+
+Tap: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.
+
+Player B casts Necromantic Selection, which reads
+
+Destroy all creatures, then return a creature card put into a graveyard this way to the battlefield under your control. It's a black Zombie in addition to its other colors and types. Exile Necromantic Selection.
+
+Player A responds to Player B casting Necromantic Selection by activating Adakar Valkyrie's ability, targeting the Sun Titan. Is it possible for Player B to get the Sun Titan instead of Player A?
+
+A:
+
+Player B will have the Sun Titan. Adarkar Valkyrie creates a triggered ability on the creature targeted that will trigger when the creature dies. Necromantic Selection will destroy the creature and return it to the battlefield all during its resolution. Only after that does the triggered ability created by the Adarkar Valkyrie go onto the stack. By this time the Sun Titan is already on the battlefield and cannot be returned to the battlefield so the due to this section of rule 603.6:
+
+During resolution, these abilities look for the object in the zone that it moved to. If the object is unable to be found in the zone it went to, the part of the ability attempting to do something to the object will fail to do anything. The ability could be unable to find the object [...] because it left the zone before the ability resolved ... 
+

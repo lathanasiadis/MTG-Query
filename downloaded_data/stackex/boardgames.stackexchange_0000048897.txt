@@ -1,0 +1,30 @@
+Q:
+
+Do players have to get priority the same number of times?
+
+I have a question regarding priority. Do players have to get it the same numbers of time during a step? I mean, for example, it's my turn, after declaring blockers, I get priority and decide to cast a spell. My opponent passes, and I get priority again, because all of players have to pass, right? And in this scenario I would have priority one time more than my opponent. Or maybe I don't get priority again?
+
+A:
+
+I* get priority and decide to cast a spell.
+
+Right after casting a spell (while it's still on the stack, waiting to resolve) you* get priority again before your opponent* does:
+
+117.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+
+If you pass and your opponent passes, the spell resolves and you* get priority again (assuming no triggered abilities trigger).
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+If you pass then, your opponent* gets priority again, and if he/she passes, the step ends:
+
+117.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+So you don't get priority anymore.
+
+Finally, an answer to the question in the title:
+
+Do players have to get priority the same number of times?
+
+No; if the active player casts a spell or activates an ability, they'll get priority one more time than their opponent; see the above scenario. I've marked the priority instances with an asterisk: three for you and two for your opponent.
+

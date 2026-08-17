@@ -1,0 +1,13 @@
+Q:
+
+When playing Edgar Markov, what is the definition of a "Vampire spell"?
+
+I'm quite new to MtG, so this may be a noob question. I play EDH/Commander with Edgar Markov as my commander. His text reads "Eminence - Whenever you cast another Vampire spell, if Edgar Markov is in the command zone or on the battlefield, create a 1/1 black Vampire creature token".
+Obviously this will trigger for vampire creature spells ("Vampire Cutthroat", ""Pulse Tracker", "Crypt Ghast" etc), but will it trigger for other spells? For instance, are instants like "Vampire's Zeal" and ""Vampire's Bite" or enchantments like "Mark of the Vampire" considered "Vampire spells"?
+I have a hunch that cards that contain the word "Vampire" in their name or type line are concidered vampire spells, but that cards with the word in their text box are not. Is this correct?
+
+A:
+
+A Vampire spell (for the purpose of Edgar Markov) is a spell which has the Vampire (sub)type; its name doesn't matter. You can find the type(s) in the bar between the picture and the rules text. Vampire Cutthroat is a "Creature - Vampire Rogue", so it counts; Mark of the Vampire is an "Enchantment - Aura", so it doesn't count.
+There are no non-creature spells which explicitly have the Vampire subtype, as this Gatherer search shows. There are non-creature spells which have all creature types thanks to the Changeling ability, such as Crib Swap; this search lists all 6 of them.
+

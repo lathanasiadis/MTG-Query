@@ -1,0 +1,14 @@
+Q:
+
+Does monocolored hybrid mana count within that color's identity?
+
+Is Beseech the Queen in my commander colors identity? My commander is Drana, Kalastria Bloodchief. 
+
+A:
+
+Yes, its color identity is black so you can play it in any deck that includes black in its commander's color identity (like Drana).
+A hybrid mana symbol grants the color of both sides of the symbol to the color identity of the card. However Beseech the Queen uses {2/B} hybrid symbols which are colorless and black. Since colorless is not a color black is the only color added to the cards color identity.
+
+107.4e Hybrid mana symbols are also colored mana symbols. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+

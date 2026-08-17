@@ -1,0 +1,25 @@
+Q:
+
+Does Livewire Lash trigger if a spell is countered by Chalice of the Void
+
+I have a creature equipped with Livewire Lash and my opponent has Chalice of the Void in play.
+I play a spell which targets the creature equipped with Livewire Lash but the spell is countered due to Chalice of the Void.
+Does the Livewire Lash still trigger even if the spell was countered?
+
+A:
+
+Yes, Livewire Lash will still be triggered. Here's how it'll go down:
+
+You place your spell on the stack, pick your targets (including that creature equipped with Livewire Lash), and pay for it. Casting's now done.
+
+That creature is now the target of a spell. Also, you've just cast a spell that the Chalice cares about. Both of you have a triggered ability to put on the stack. From this question, triggers go on the stack in APNAP order: active player first, then non-active player.
+
+The creature's Lash-granted ability, and the Chalice ability, will go on the stack. (If it's your turn, the Chalice ability will be on top, otherwise Lash will be on top. Either way, the effect is the same.)
+
+Now things will start resolving, if nobody does anything else.
+
+The two triggered abilities resolve in whichever order is applicable. Chalice's ability resolves, and counters the original spell. The creature's Lash-granted ability resolves, and its damage is dealt.
+(The spell would resolve here, but it was countered.)
+
+So go ahead and fire off spells like this if you find it's worth the damage.
+

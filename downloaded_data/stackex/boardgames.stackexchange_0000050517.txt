@@ -1,0 +1,18 @@
+Q:
+
+How Does Syr Konrad Interact With Living Death?
+
+I have two scenarios in which Syr Konrad, the Grim will be involved from two different perspectives, and I'm curious to see how Living Death will interact here.
+Scenario 1: Syr Konrad is in play with a full board of creatures for each player. I cast living death. I'm fairly certain he sees all the other creatures die with him, but does he also see the creatures being removed from the graveyard as per Living Death's temporary "exile" effect for the creatures that are about to be brought into play from the graveyard?
+Scenario 2: Same as above, except Syr Konrad is already in the graveyard. What does he see, if anything, once living death is cast in a board state full of creatures? My assumption tells me he doesn't trigger at all in this scenario but I am not 100% certain.
+
+A:
+
+Scenario 1: Syr does indeed see all. Living Death does three things in order, one after the other. First it exiles all creatures from graveyards. At this stage, Syr is on the battlefield, so he sees this happen, and triggers from the creatures leaving your graveyard. Next, all creatures are sacrificed. Syr does indeed see all creatures that die at the same time he does, and he triggers. This is explicitly mentioned on his Gatherer page:
+
+If one or more creatures die at the same time as Syr Konrad, its first ability triggers for each of those creatures.
+
+Finally, creatures are brought back from exile to the battlefield, but 1) Syr is in the graveyard, and 2) he doesn't care about that in the first place.
+Once Living Death is finished, all the triggers are put on the stack (once for each creature exiled from your graveyard, and once for each creature sacrificed, apart from Syr himself), and your opponents are probably quite unhappy with all the life they are about to lose.
+Scenario 2: Syr's ability only works while he is on the battlefield. And all creatures that go into or out of graveyards do so well before Syr enters the battlefield. So he won't trigger.
+

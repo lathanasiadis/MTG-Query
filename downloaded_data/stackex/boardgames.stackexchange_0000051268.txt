@@ -1,0 +1,16 @@
+Q:
+
+Prirority and triggered abilities
+
+When my opponent has a creature with triggered ability "At the beggining of each end step, this creature...." and it's my turn, what happens after this ability goes on the stack? Normally, I get priority at the beggining of each step, and here is the same?
+Does it simply go on the stack independently on my opponent and I get priority? 
+
+A:
+
+Triggers do go on stack the first time a player would get priority after their condition has been met, before that player gets priority. In this case that means the triggers will be on the stack before you get priority in the end step, but you will have a chance to act before they resolve.
+This timing is explicitly covered in the comprehensive rules:
+
+603.3 Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+If you wanted to do something before the ability was on stack, you would need to do it in your second main phase - by moving from that phase to the end step (by all players passing priority with the stack empty) you let these triggers go on the stack. As for it going on the stack independent of your opponent, it's your opponent who puts it on the stack, as far as the game is concerned, and makes any modal choices or targeting choices related to that triggered ability.
+

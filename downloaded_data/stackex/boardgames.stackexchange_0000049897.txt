@@ -1,0 +1,27 @@
+Q:
+
+How much mana does tapping a Forest make, with Nikya of the Old Ways & Nyxbloom Ancient?
+
+I have Nikya of the Old Ways out on the battlefield:
+
+Whenever you tap a land for mana, add one mana of any type that land produced.
+
+I play Nyxbloom Ancient:
+
+If you tap a permanent for mana, it produces three times as much of that mana instead.
+
+I tap a Forest. How much green mana do I make?
+Which of the following answers is correct?
+
+(1+1)x3=6
+1×3+1=4
+
+I'm confused about the order of the calculation. An explanation is much appreciated.
+
+A:
+
+Nikya's ability doesn't cause the Forest to produce {G}{G}; it still produces {G} and Nikya's triggered ability produces another one. You don't tap Nikya for mana, so Nyxbloom Ancient only applies to the original {G} from the forest and you make 4 green mana.
+Now, two Nyxbloom Ancients would stack, cf. the following ruling on Mana Reflection:
+
+The effects of multiple Mana Reflections are cumulative. For example, if you have three Mana Reflections on the battlefield, you’ll get eight times the original amount and type of mana.
+

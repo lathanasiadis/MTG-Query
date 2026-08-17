@@ -1,0 +1,19 @@
+Q:
+
+Does blinking a Planeswalker restore its loyalty?
+
+If I were to use a blink effect on a Planeswalker say after an ultimate (largest cost) Loyalty ability (and providing it still had Loyalty remaining), would its loyalty restore to the noted amount on the card?
+From what I remember, if a card is exiled, unless stated otherwise, all counters are removed.
+If this is so, when the planeswalker returns to the battlefield, would it then add the loyalty counters to match its noted amount back on the card?
+
+A:
+
+Yes, a planeswalker will return as if you had just played it, with full loyalty counters.
+Blinking a Planeswalker means to first exile it, which indeed removes all counters from it, and then returning it to the battlefield, with a number of loyalty counters on it equal to the loyalty printed on the card.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+209.1. Each planeswalker card has a loyalty number printed in its lower right corner. This indicates its loyalty while it’s not on the battlefield, and it also indicates that the planeswalker enters the battlefield with that many loyalty counters on it.
+
+It doesn't matter how or from where a planeswalker entered the battlefield, it will always gain as many loyalty counters as it has loyalty printed on it whenever it does enter the battlefield.
+

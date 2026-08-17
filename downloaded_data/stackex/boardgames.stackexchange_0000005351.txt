@@ -1,0 +1,23 @@
+Q:
+
+In Magic, can an ability target a permanent that is being sacrificed as part of that ability's activation cost?
+
+Suppose my opponent has a Darksteel Colossus in play, and I have Attrition and no creatures. During my turn I cast Act of Treason to gain control of the Colossus and attack with it. So far I haven't done anything controversial.
+Now, at this point what I want to do is sacrifice the Colossus to my Attrition, so that my opponent doesn't get him back at the end of the turn. However, Attrition's ability requires a target, and the Colossus is the only potential target on the battlefield. Is it legal to activate the ability and target the Colossus, even though I also want to sacrifice him as part of the ability's cost?
+In other words, can I target a creature with an ability, and also sacrifice that same creature as part of the ability's activation cost?
+(The ability won't resolve, of course, but that was never the real goal. Normally it would be better to target another of the opponent's creatures, but in this case he doesn't have any, so the Colossus is the only potential target.)
+
+A:
+
+Yes, you can target one of your permanents with a spell or ability, then sacrifice that permanent to pay for that very spell or ability.
+When casting a spell or activating an ability, you first put it on stack, then choose targets (the creature you are about to sacrifice), then pay all costs (sacrifice the creature).
+These are the relevant steps for casting a spell or activating an ability:
+
+602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires. [..]
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. [...]
+601.2h The player pays the total cost in any order. [..]
+
+So in a nutshell, first you determine targets, then you pay costs. If all targets (Darksteel Colossus in this case) are illegal by the time the ability would resolve, the ability will fail to resolve, but the sacrifice to pay for the ability was still legal.
+

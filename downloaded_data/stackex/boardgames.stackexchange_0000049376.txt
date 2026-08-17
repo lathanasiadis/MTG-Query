@@ -1,0 +1,44 @@
+Q:
+
+Lazav and Clever Impersonator
+
+Lazav, the Multifarious is activated to become a copy of Clever Impersonator, with Caged Sun out, so it doesn't die. It is now simply a 1/1 with the name, "Lazav, the Multifarious," Lazav's ability, and is legendary. I play Mercurial Pretender, choosing to have it enter as a copy of Clever Impersonator, and so I choose to have it enter as a copy of my opponent's Terastodon, with the intent of destroying some stuff. 
+
+Does the Mercurial Pretender turned Clever Impersonator turned Terastodon changing to a copy of certain cards "overwrite" the Legendary supertype from Lazav/Clever Impersonator? Pretty sure this is a yes, but just checking.
+If it is "entering the battlefield as a copy" of another creature, than wouldn't it have to enter the battlefield to be able to do anything specific to the creature? Specifically, the Mercurial Pretender would have to enter, become Clever Impersonator, and then, being on the battlefield already, would be unable to become Terastodon. Am I correct on this?
+
+A:
+
+The Mercurial Pretender will enter the battlefield as a copy of Terastodon, without Lazav's name, ability, or Legendary supertype.
+After Lazav's ability resolves, it is a 0/0 (plus the +1/+1 from Caged Sun) Legendary Shapeshifter Creature named Lazav, the Multifarious with the following text:
+
+You may have [this creature] enter the battlefield as a copy of any nonland permanent on the battlefield.
+{X}: Lazav, the Multifarious becomes a copy of target creature card in your graveyard with converted mana cost X, except its name is Lazav, the Multifarious, it's legendary in addition to its other types, and it has this ability.
+
+These characteristics are the result of the copy effect from Lazav's last ability, so they become its new copyable values. This is specified in rule 706.9:
+
+702.9a Some copy effects cause the copy to gain an ability as part of the copying process. This ability becomes part of the copiable values for the copy, along with any other abilities that were copied.
+
+[...]
+
+706.9c Some copy effects modify a characteristic as part of the copying process. The final value(s) for that characteristic becomes part of the copiable values for the copy.
+
+Mercurial Pretender's ability, and Clever Impersonator's, are enters-the-battlefield replacement effects. When applying replacement effects, you follow the process in rules section 616:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+[...]
+
+616.1c If any of the replacement and/or prevention effects would cause an object to become a copy of another object as it enters the battlefield, one of them must be chosen. If not, proceed to rule 616.1d.
+
+[...]
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+So, as the Clone enters the battlefield, you follow that process like this:
+
+Mercurial Pretender's replacement effect applies. You choose to copy the Lazav with the characteristics above. So, the Mercurial Pretender becomes a 0/0 Legendary Shapeshifter Creature named Lazav, the Multifarious with Clever Impersonator's ability and Lazav's activated ability, and the activated ability added by Mercurial Pretender's copy effect.
+
+Lazav's first ability (from Clever Impersonator) applies. You choose to copy Terastadon. So, this Lazav becomes a 9/9 Elephant Creature named Terastodon with Terastodon's ability. This copy effect overwrites all of the creature's characteristics, so it is no longer Legendary or named Lazav and it no longer has Lazav's ability.
+
+No more replacement effects apply, so the Terastodon enters the battlefield and its ability triggers.
+

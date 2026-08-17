@@ -1,0 +1,19 @@
+Q:
+
+Would Heartless Summoning reduce a spells colorless mana cost?
+
+If I had two Heartless Summonings on the battlefield, and I wanted to play Matter Reshaper, would it be free? Or would he cost one colorless mana. I checked the gatherer for Heartless Summoning for an answer, but it only referred to colored mana.
+
+A:
+
+Heartless Summoning and similar cost reduction effects like it only reduce the generic component of a mana cost. They do not reduce colorless or colored parts of the cost.
+The symbol in Heartless Summoning's ability specifically refers to a generic mana cost, as described in rule 107.4b:
+
+Numerical symbols (such as {1}) and variable symbols (such as {X}) represent generic mana in costs. Generic mana in costs can be paid with any type of mana. For more information about {X}, see rule 107.3.
+
+Rule 117.7 governs cost reduction, and 117.7a in particular covers reducing a cost by an amount of generic mana:
+
+117.7. What a player actually needs to do to pay a cost may be changed or reduced by effects. If the mana component of a cost is reduced to nothing by cost reduction effects, it’s considered to be {0}. Paying a cost changed or reduced by an effect counts as paying the original cost.
+
+117.7a Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can’t affect the colored or colorless mana components of that cost.
+

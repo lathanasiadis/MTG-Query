@@ -1,0 +1,40 @@
+Q:
+
+When two card texts confict, which takes priority?
+
+Let's suppose there are creatures in play and someone plays Humility.
+It's clear that all the creatures lose their abilities.
+How is this situation changed if True Conviction were in play?  Is the situation changed if True Conviction were played after Humility?
+Is the solution to this question that the card with the newest time stamp is in effect?
+
+A:
+
+How is this situation changed if True Conviction were in play?
+
+It doesn't.
+
+Is the situation changed if True Conviction were played after Humility?
+
+Yes. Each creature of the controller of True Conviction will be a 1/1 creature with Lifelink and Double Strike.
+
+Is the solution to this question that the card with the newest time stamp is in effect?
+
+Yes. Section 613. Interaction of Continuous Effects of the Magic Comprehensive rules describes the order continuous effects are applied.
+
+613. Interaction of Continuous Effects
+613.1. The values of an object's characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+613.1a Layer 1: Copy effects are applied. See rule 706, "Copying Objects."
+613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, "Text-Changing Effects."
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object's card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding and ability-removing effects are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+Humility is an ability-removing and power/toughness changing effect. True Conviction is an ability adding effect. Since both effects use the same layer 6 and aren't dependent upon one another, the order the effects are applied is done in timestamp order.
+Also note
+
+613.5. If an effect should be applied in different layers and/or sublayers, the parts of the effect each apply in their appropriate ones. If an effect starts to apply in one layer and/or sublayer, it will continue to be applied to the same set of objects in each other applicable layer and/or sublayer, even if the ability generating the effect is removed during this process.
+
+So the power changing effect of Humility will always be applied last, no matter what.
+

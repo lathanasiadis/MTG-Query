@@ -1,0 +1,22 @@
+Q:
+
+What is a quick way to test or simulate card strategies for deck building games?
+
+Dominion is the specific example I would like to play with but this certainly applies to any game that involves decks of cards being shuffled and drawn.
+I often see references to various simulations that people have run or built to test theories but whenever I dig through their code I seem to discover their simulation was custom-built for one or two test cases.
+The question I am asking: How are people making these simulations so quickly? I assume that there are a few preferred (or common) ways to do this seeing how many times I see people talking about their simulations. What is a good starter kit for me to learn how to do my own?
+Answers that will help: Specific languages, libraries, helpful mathematic formulae, links to projects, and typical pitfalls to avoid.
+
+A:
+
+I admit I don't have much experience in actually doing this, so I have no idea how well any of these actually work and can't make any guarantees myself. But I'm sure there are others who can, and these are probably some great starting points:
+dominion simulator python framework
+similar project
+vdom java simulator
+A sourceforge project
+Dominionsim is also mentioned here
+Here are some I found for Magic: The Gathering. Once again, I can't make any personal guarantees:
+MTG Studio (don't know if it actually supports simulations)
+Magic Workstation 
+If you are anyone else has more feedback on any of these, I'd love to here it!
+

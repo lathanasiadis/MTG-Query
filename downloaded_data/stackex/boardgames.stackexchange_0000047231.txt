@@ -1,0 +1,27 @@
+Q:
+
+Lifelink interaction with triggered abilities on creature's death
+
+I had this scenario with my wife and we couldn't figure out how to properly progress:
+1.) Wife declares attackers (creature names are irrelevant)
+2.) I declare blockers with one Vampire Nighthawk and two Epicure of Blood creatures.
+When damage is dealt, one of my Epicure of Blood will die due to her attacking creatures. However, it says: "Whenever you gain life, each opponent loses 1 life." Do both of my Epicure of Blood's trigger from lifelink despite one of them dying? Or does the triggered ability not occur due to it being dead and removed from the game before it can check if life gain occurred?
+My thought was that damage gets dealt, lifelink triggers, but only my remaining Epicure of Blood will trigger. Thanks for your help!
+
+A:
+
+Both creatures' abilities will actually trigger; it doesn’t matter that one dies.
+The key is that all damage is done simultaneously, and with Lifelink, the life gain happens simultaneous to damage dealt. So at the moment you gain life, both creatures are still alive, even though one of them has lethal damage now.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+The creature with lethal damage doesn’t die completely immediately; it dies the next time state-based actions are checked, which is before anyone would get priority. When state-based actions are checked, the abilities that were triggered then go on the stack. 
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated.
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+The creature will be dead by the time they go on the stack, but that doesn’t matter.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+

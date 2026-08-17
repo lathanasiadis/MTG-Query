@@ -1,0 +1,61 @@
+Q:
+
+How could you change what creature a creature with soulbond is paired with?
+
+I'm trying to make a custom card. It's a creature with soulbond. I would like it to be able to tap to change what it's paired with. I was thinking:
+
+{T}: Unpair this creature, then you may pair it with another unpaired creature you control.
+
+Is this the correct formatting? Is there a better way to do it? Does this idea even work within the rules?
+
+A:
+
+Currently the Soulbond rules don't have a specific precedent for ending a pairing of two creatures like this, but we can work one in.
+We need to format your ability slightly differently to take care of some things:
+
+Make sure this ability can only be used while it's paired, if that's what you want.
+Make it clear to players that the other creature gets unpaired as well.
+Use the portion of the Soulbond ability templating that's missing.
+
+First, point 3. I'm going to paraphrase part of rule 702.94a here slightly for the sake of readability:
+
+702.94a Soulbond is a keyword that represents two triggered abilities. “Soulbond” means:
+
+When this creature enters the battlefield, if you control both this creature and another creature and both are unpaired, you may pair this creature with another unpaired creature you control for as long as both remain creatures on the battlefield under your control
+Whenever another creature enters the battlefield under your control, if you control both that creature and this one and both are unpaired, you may pair that creature with this creature for as long as both remain creatures on the battlefield under your control.
+
+We'll need to take some of that boilerplate; the "as long as" stuff is important.
+It seems like you might want this unpair-repair ability to only work if the creature's already paired, but I could see it either way. We could ensure it only works if it's paired by borrowing Deadeye Navigator's ability-gain wording, but all those cards with similar wording grant the same ability to the paired creature. Because that doesn't happen here, using that wording would be confusing and should be avoided.
+I think templating from Hanweir Battlements is more appropriate.
+A version which works whether it's paired or not:
+
+{T}: If {this card} is paired to another creature, unpair them. Pair {this card} with another unpaired creature you control for as long as both remain creatures on the battlefield under your control.
+
+If you want it to work only when it's already paired, add this clause:
+
+Activate this ability only if {this card} is paired.
+
+An option for leveraging existing unpairing mechanics
+Currently 702.94e says:
+
+702.94e A paired creature becomes unpaired if any of the following occur: another player gains control of it or the creature it’s paired with; it or the creature it’s paired with stops being a creature; or it or the creature it’s paired with leaves the battlefield.
+
+You have some options here for fiddling around with this card to leverage existing un-bonding rules:
+
+Give this creature an ability that has it leave the battlefield temporarily and come back sooner or later. This also lets the Soulbond ETB do the rest of the hard work. For example, flicker it (similar to Deadeye Navigator, but using Acrobatic Maneuver's wording): "{1}{W}: Exile {this card}, then return it to the battlefield under its owner's control."
+Enable it to turn into a noncreature (a land, enchantment, or artifact).
+Give away control of the bonded creature to an opponent for some proportionate benefit. This is probably a Red or Black effect based on past cards that give away control. Cards like Humble Defector and Harmless Offering have your back here for templating.
+
+The ability that turns this card into a noncreature, or which gives away control of its paired creature, should reminder text similar to the following: ({this card} and the creature it is paired with both become unpaired.)
+In the second and third cases, you'll need to give it a means to re-pair itself again. Options include:
+
+{T}: If {this card} is unpaired, pair {this card} with another unpaired creature you control for as long as both remain creatures on the battlefield under your control.
+
+For either of the second cases, add this to the end of the ability that turns this card into a creature again or gives away control of the bonded creature:
+
+Then you may pair {this card} with another unpaired creature you control for as long as both remain creatures on the battlefield under your control.
+
+For the becomes-a-noncreature option, something like the following (suggested by diego):
+
+When {this card} becomes a creature, you may pair {this card} with another unpaired creature you control for as long as both remain creatures on the battlefield under your control.
+

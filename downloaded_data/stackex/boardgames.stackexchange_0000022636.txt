@@ -1,0 +1,18 @@
+Q:
+
+Does Hardened Scales interact with the undying mechanic?
+
+Would a creature with undying (like Young Wolf) get 2 +1/+1 counters instead of 1 when it dies if I had Hardened Scales out?
+
+A:
+
+Yes, Young Wolf would get 2 +1/+1 counters. The reminder text for Undying says
+
+When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.
+
+A ruling on the Hardened Scales Gatherer page says
+
+“Placed on a creature you control” includes that creature entering the battlefield with +1/+1 counters on it. If a creature would enter the battlefield with a number of +1/+1 counters on it while you control Hardened Scales, it enters with that many counters plus one.
+
+When Young Wolf returns to the battlefield from the graveyard, it enters the battlefield with a +1/+1 counter, so Hardened Scales makes it enter with 2 instead.
+

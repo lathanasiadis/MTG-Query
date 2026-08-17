@@ -1,0 +1,22 @@
+Q:
+
+Does activating Sensei's Divining Top make me miss my counterbalance trigger?
+
+I have Sensei's Divining Top and Counterbalance on the table, with plenty of mana. My opponent casts a spell (for the sake of argument, lets say they cast Naturalize).
+I say "In response, spin the top" i.e. Pay 1 mana to look at the top 3 cards of my library and put them back in any order.
+Have I missed my Counterbalance trigger?
+Clarification
+I am looking for an answer based on the Missed Triggers Policy that relates to tournament play of Competitive Rules Enforcement Level (REL) or higher. I would like to know whether, by activating my Divining Top without acknowledging the trigger, I have implicitly "chosen" not to reveal the top card of my library.
+
+A:
+
+There have been some changes to the MtG Tournament rules.
+
+Regular Rules Enforcement, there are really only two "rules." You aren't allowed to miss your own triggered abilities, and your opponent isn't required to remind you about them. The second one is a change that was put in at higher RELs a few months ago. Please note that this part applies only to triggered abilities. [...]
+The new rules require the controller of a triggered ability to "demonstrate awareness" of a trigger before certain times for different types of triggered abilities. If a player fails to do this, the triggered ability is considered missed. What counts as demonstrating awareness? Let's look at the four cases:
+
+Since you need to make a choice to reveal the top card of your library or not, this trigger is not considered missed at this time. Your opponent would likely need to ask, "Resolve?" with respect to their spell, and you would have to choose to pass, which would cause the trigger to become "missed".
+
+A triggered ability that causes a change in the visible game state (including life totals) or requires a choice upon resolution.
+The controller needs to acknowledge the change or choice before taking an action that he or she couldn't take before the ability would resolve. We want to make sure that the triggered ability is actually missed, so we allow for the possibility that you may cast instants or activate abilities in response. For example, if you attack with Geist of Saint Traft and then cast an instant before putting an Angel token onto the battlefield, the rules will assume that Geist's triggered ability is still on the stack. Only after you do something that necessarily has to be after the ability resolved, like attempting to assign combat damage, is the triggered ability considered missed.
+

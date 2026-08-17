@@ -1,0 +1,24 @@
+Q:
+
+Is it possible to wait for some cards to leave the stack to use them for delve?
+
+Imagine the situation:
+
+I am at 2 life;
+I have five Forests untapped in the battlefield;
+I have 4 Giant Growth and 1 Become Immense in my hand;
+I have a Brainstorm in my graveyard;
+I have a 1/1 creature with no abilities
+
+My opponent has 19 life;
+My opponent has a 2/2 creature with no abilities.
+
+I attack with my creature without casting any cards.
+My opponent doesn't block.
+Can I cast the 4 Giant Growths (+12/+12) using four of my five Forests and then cast the Become Immense (giving me a total of +18/+18) delving the four Giant Growth and the Brainstorm using the last Forest? 
+
+A:
+
+Yes, you can. After each spell resolves but before the next one on the stack, both players get priority. You can cast more instants or activate more abilities then. Become Immense is an instant, and you are able to pay the mana costs, so you can put it on the stack.
+A simpler way to look at this particular example is, you can cast Giant Growth (resolves), then Giant Growth (resolves), then Giant Growth (resolves), then Giant Growth (resolves), and with the stack empty, cast Become Immense. 
+

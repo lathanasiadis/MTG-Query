@@ -1,0 +1,15 @@
+Q:
+
+Spy Kit + Oddly Uneven: How can I determine what should occur?
+
+Suppose a creature is equipped with Spy Kit, and Oddly Uneven gets cast. Then in order to figure out whether the creature is destroyed, I need to determine whether the total number of words in all names of non legendary creatures is even or odd.
+What is the best way (i.e., simplest database query) to accomplish this?
+(This originally came up on Mark Rosewater's tumblr.)
+
+A:
+
+Having "all the names" does not mean the creature has one mega-name; it means it has multiple distinct names.
+Does it have a name with an odd number of words in it? Yes.
+Does it have a name with even number of words in it? Yes.
+Therefore, it will be destroyed no matter which mode is chosen.
+

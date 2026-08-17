@@ -1,0 +1,45 @@
+Q:
+
+Does Raving Dead deal damage before halving opponent's life?
+
+Does Raving Dead deal damage before halving opponent's life i.e. is two damage subtracted first?
+
+A:
+
+Yes, Raving Dead deals combat damage, then the defending player loses half their life total. This is explicitly stated in one of the official rulings for the card:
+
+The last ability triggers and resolves after combat damage has been dealt. For example, if an opponent has 17 life and Raving Dead deals 2 combat damage to him or her, he or she will end up at 8 life.
+
+The rules section regarding the Combat Damage Step has the following rules:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. [...]
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+510.3. Third, the active player gets priority. (See rule 116, “Timing and Priority.”)
+
+510.3a Any abilities that triggered on damage being dealt or while state-based actions are performed afterward are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+Raving Dead's ability says
+
+Whenever Raving Dead deals combat damage to a player, that player loses half his or her life, rounded down.
+
+So the ability triggers in the third part of the combat damage step, after damage has been dealt.
+
+More generally, trigger abilities always resolve after the event that caused them to trigger. The rules section regarding Triggered Abilities has the following rules:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect].”
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+
+So any triggered ability goes through the following process:
+
+First, the triggering event occurs.
+Second, the ability triggers.
+Third, the ability gets put on the stack (when a player would receive priority).
+Last, the ability eventually resolves.
+
+In this particular case, the triggering event is "Raving Dead deals combat damage to a player" and the effect (which happens) on resolution is "that player loses half his or her life, rounded down". Clearly, the triggering event must occur well before the ability's effect.
+

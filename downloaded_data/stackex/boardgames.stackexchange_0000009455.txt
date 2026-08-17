@@ -1,0 +1,19 @@
+Q:
+
+What happens when I copy Precursor Golem with Rite of Replication?
+
+I came across this issue with my friend a while ago and came up with many possible answers:
+How many golems will you get if you copy Precursor Golem with a kicked Rite of Replication?
+
+A:
+
+The short answer, assuming that your Precursor Golem still has (exactly) his two buddies with him: 28.  The sequence goes something like this:
+
+Rite of Replication (kicked) targets Precursor Golem.  Note that the text of Rite now effectively reads 'Put five tokens that are copies of target creature onto the battlefield', and the copies of Rite of Replication will all copy that version of the text.  (From rule 706.10: "A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs.")
+Precursor Golem's ability copies Rite and targets the 'lesser' golems (the ones without the 'make extra golems' ability); note that these copies of Rite go on the stack on top of the original Rite (this isn't relevant here, but can be if you kick another Rite!)
+The copies of Rite resolve, each one making an additional five 'dumb' golems; this puts 10 new golems into play.  You now have 1 Precursor Golem and 12 'dumb' golems.
+The original Rite resolves, making five additional Precursor Golems.  Each of the five 'make two dumb golems' abilities of these new Precursor Golems goes on the stack.  Right now you have 6 Precursor Golems and 12 dumb golems.
+The new Precursors' token-making abilities resolve, giving you 10 more dumb golems.  You end up with 6 Precursor Golems and 22 dumb golems.
+
+Beyond this - well, beyond this things get interesting.  The next step in the sequence - a second kicked Rite - brings you up to more than four million Golems; for the details, see https://docs.google.com/document/d/1L_FIQrjBdh5J66KKAT2JJ2gTx1KfbXJUfXrdydjzhrY/edit - which also goes into what happens if you kick yet a third Rite...
+

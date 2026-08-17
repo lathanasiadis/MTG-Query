@@ -1,0 +1,16 @@
+Q:
+
+If I use Reroute to change the target of an equip ability for an equipment my opponent controls, can I make the target one of my creatures?
+
+If my opponent uses the equip ability of a Lightening Greaves they control, and I target that ability with Reroute, whose creatures are legal targets for the equip ability?
+The Equip keyword explicitly says "Attach this permanent to target [quality] creature you control.", so my question is basically, does "you" in that ability in this instance mean the controller of Lightning Greaves, the Controller of the Equip ability as its on the stack (which is still my opponent) or does it mean the chooser of the target (me)? My hunch is that "you" refers to the controller of the equip ability on the stack, and because I am only modifying that ability I have to choose one of my opponents creatures, but that's not especially clear to me
+And yes I know that my opponent could just use the equip ability again, as they retain control of the equipment, so in this example its kind of a moot point. But there are other cases where it could be relevant, such as if the equipment in question was Colossus Hammer they might not have the mana to reuse the equip ability again during the same turn
+
+A:
+
+The Controller of the Equip ability as its on the stack (which is still your opponent)
+The legal targets of the equip ability do not change, you can only reroute to one of the creatures that could have been originally targeted by the ability.
+You when part of a spell or ability text means the controller of that spell or ability. The effect of reroute does not change the the controller of the equip ability of lightning Greaves, it just lets you change the target, because of that the you in the targeting restrictions still refers to the person who activated it. You is defined in rule 109.5 from the Comprehensive Rules (Emphasis mine):
+
+109.5 The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+

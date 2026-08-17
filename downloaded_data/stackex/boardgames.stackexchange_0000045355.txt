@@ -1,0 +1,25 @@
+Q:
+
+What is the source of redirected damage?
+
+When a card "redirects" damage, does the source of the damage change to the spell or effect causing it to be redirected, or is the original source still the source of the damage?
+Cards like: Reflect Damage or many of the 'En-Kor' creatures.
+Example 1: So someone Lightning Bolts (Red) my Shaman En-Kor (White) and I redirect it to my Kor Firewalker (which has protection from red).
+Example 2: What if one of my En-Kor creatures is redirecting combat damage to another creature while I have Tajic, Legion's Edge out?
+
+A:
+
+The comprehensive rules say
+
+Redirect (Obsolete)
+Some older cards were printed with the term “redirect” to indicate a redirection effect. Such cards have received errata in the Oracle card reference so they explicitly state that damage that would be dealt to one object or player is dealt “instead” to another.
+
+In other words, "redirect" doesn't actually exist in Magic any more. So let's take a look at your Shaman en-Kor. The oracle text says
+
+0: The next 1 damage that would be dealt to Shaman en-Kor this turn is dealt to target creature you control instead.
+
+So the three damage that the lightning bolt would deal to the shaman is instead dealt to the Firewalker. It is still dealt by the lightning bolt, and the shaman is still the target of the spell. But the damage hits the firewalker (and is promptly prevented due to protection).
+As for example 2, we can still follow the same argument that it's the same damage just dealt to a different creature than originally intended. Which means there is no reason the damage should stop being combat damage; it's still damage that an attacker or blocker deals in the damage step of combat as a direct result of being involved in said combat. However, in this case it's also explicitly addressed by the rulings on the shaman:
+
+When you redirect combat damage it is still combat damage.
+

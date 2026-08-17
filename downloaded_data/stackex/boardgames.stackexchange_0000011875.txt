@@ -1,0 +1,16 @@
+Q:
+
+Dark Confidant and split cards
+
+On my upkeep controlling a Dark Confidant I trigger revealing a card and losing life to it's cmc cost. What happens if I have a split card with 2 identifiable spells? Do I get to choose which one I would prefer to lose my life on?
+
+A:
+
+If it's somewhere other than on the stack or if it's fused, a split card's CMC is the sum of each half's CMC.
+
+708.4. In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+708.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and converted mana cost are determined from its combined mana cost.
+Example: Assault/Battery’s mana cost is {3}{R}{G}. It’s a red and green card with a converted mana cost of 5.  If you cast Assault, the resulting spell is a red spell with a converted mana cost of 1.
+
+708.4b is rather poorly worded. As the example shows, the mana cost and converted mana cost of a split card is only the combined mana costs or converted mana costs of its two halves when it's not on the stack or when it's fused.
+

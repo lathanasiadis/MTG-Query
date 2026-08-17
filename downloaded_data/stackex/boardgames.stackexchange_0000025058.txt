@@ -1,0 +1,23 @@
+Q:
+
+Do you always need to keep track of what cards have been drawn in a turn?
+
+Do you always need to keep track of what cards have been drawn in a turn?
+The reason I ask is because of Sylvan Library. While it's on the battlefield it's pretty obvious that you have to do it because you can put back any card you've drawn that turn back on top of your library.
+But what about when Sylvan Library is not on the battlefield? I can't find any rules about it. As far as I have known people are are allowed to shuffle the cards in their hand and I've seen it happen a lot as a tactic to confuse your opponent. But what about the following corner case situation:
+
+You have a Vedalken Orrery on the battlefield and no Sylvan Library
+In you upkeep you cast some spells that let you draw some cards
+You shuffle your hand a bit
+Still in your upkeep you cast Sylvan Library
+Sylvan Library triggers in your draw step
+
+Now what? you have no way of telling what cards you have drawn in your turn. This seems to suggest that at all time you need to set the cards you've drawn aside. Can anyone clarify this?
+
+A:
+
+If both players can't verify which cards were drawn that turn any unverified cards cannot be returned to the top of the library with Sylvan Library. If you think you might be playing a Library with Flash be sure to keep track of which cards you have drawn that turn.
+From the Magic Judge Rules Blog:
+
+Here’s the Official ruling that has been handed down for Competitive REL events where Sylvan Library is legal: “Players will not have an option to return a card that can’t be proven to have been drawn this turn.”
+

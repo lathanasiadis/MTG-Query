@@ -1,0 +1,59 @@
+Q:
+
+What can be played during an opponents turn?
+
+What types of cards can you play on another players turn / i.e. sorcery or enchantments? Or can only instants/flash be played?  
+It seems foolish to us as new players that every card other then land can be sent straight to graveyard by an instant counter spell card but can you cast a sorcery based counter spell card during an opponents turn? this basically tells me that you can simply make a deck of counter spells and the opposing player can't play anything but land.....
+
+A:
+
+When can I cast a spell?
+Basically:
+
+You can cast instants and flash spells — and activate abilities — whenever you have priority.
+
+You can cast other spells during your main phase, when the stack is empty (i.e. there are no other spells or ability waiting to resolve) and you have priority (see the next section).
+
+Some cards (e.g. Unexpected Results) will allow to cast spells at other times too.
+
+From the Comprehensive Rules:
+
+116.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty.
+702.8a Flash is a static ability that functions in any zone from which you could play the card it’s on.
+“Flash” means “You may play this card any time you could cast an instant.”
+
+There's no such thing as a Sorcery-based counter. It wouldn't work with the rules: you can only counter something when it's on the stack, and you normally can't cast a Sorcery spell when something else is on the stack.
+Priority (the short version)
+Priority is Magic's system for sequencing plays so that each player has time to think about their actions, when they need it. The most important things you need to know are:
+
+Each player must give the other the opportunity to respond.
+The active player always gets the first opportunity to cast something during the phases of his or her own turn.
+Once we've begun to resolve a spell or ability, we must follow all the instructions in order before we can do anything else. (For example, if you cast Duress on me, we must do these three things in sequence: I reveal my hand, you pick a card, I discard it. I can't interrupt the game to cast the Lightning Bolt you just picked.)
+
+See page 30 in the Basic Rulebook or section 116 in the Comprehensive Rules for a more detailed definition of priority.
+How do I fight a deck full of counterspells?
+Counterspells really aren't all-powerful. They're an important part of the game and central to some of the best decks, but, on their own, they really can't carry the day.
+
+Counterspells are reactive. I can't kill you with a counterspell. All I do is disrupt your plays. I need to do something else to actually capitalize on that.
+
+You can only counter something when it's on the stack. If I draw my Cancel a turn after you cast your Ember Swallower, there's nothing I can do; whereas if I draw a Doom Blade at any time, I can use just kill the creature.
+
+In order to counter something you play on your turn, I have to have mana available. That means not casting much stuff on my own turn. I can work around that by building a deck that has a lot of cards I can play at instant speed (like Doom Blade, Sphinx's Revelation, Restoration Angel), but there is an opportunity cost there.
+
+Counterspells are one-for-one. You play a card, I counter it. We're both down a card. That only keeps us at parity. I'll need something else to pull ahead.
+
+So, why do people play counterspells instead of just Doom Blades, then? Counterspells have several things going for them:
+
+Many counterspells can answer a broad variety of cards. Putting a few counters in my deck gives me the flexible cards that can interact with creatures, enchantments, sorceries, planeswalkers, &c.
+
+Countermagic cancel out death triggers and "enters the battlefield" abilities, and can beat cards with protective abilities like hexproof. Casting Doom Blade on a Thragtusk feels a lot like losing; countering one is much nicer.
+
+Most of the competitive decks that play counterspells play them as part of a general suite. They rely on countermagic for flexibility against a lot of deck types (such as decks that win without using creatures), but also use cards like Supreme Verdict, Doom Blade, and Wear // Tear because of the greater efficiency and timing flexibility that they offer.
+"Proactive" decks that really want to curve out efficiently are generally better off using discard spells (Duress, Thoughtseize) rather than counterspells. These allows you to you mess with an opponent's strategy — particularly a combo deck — on your own timetable rather than having to wait for them to cast their most important cards.
+This answer discusses some specific tactics you can use if you're having trouble against a deck with significant counterspells.
+"But my counterspell says it's a Sorcery!"
+
+There was an old Magic set called Portal. It was an attempt to create an easier-to-use introductory product for the game. This set didn't include Instants and really didn't talk about the stack. So instead they'd do stuff like print a Sorcery with special timing rules and bend over backwards to avoid using core game terminology like "counter," "target," and "spell."
+I don't recommend using Portal to learn Magic. I very, very much don't recommend it. The terminology is all messed up, the cards are terribly wordy and unclear, and you really won't learn most of what you need to learn to play actual Magic. It's easiest to learn basic Magic using recent sets and the Basic Rulebook (PDF), or playing one of the Duels of the Planeswalkers video game.
+Portal cards are playable in regular Magic, but you sort of have to read between the lines and figure out how the card is "really" supposed to be worded. (In general, when you see a card that's just like, "What the heck!?" you should look it up on Gatherer. Oftentimes you can find updated wording that's clearer than the original card text, as well as rulings that help explain common questions people have about the card.)
+

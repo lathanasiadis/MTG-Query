@@ -1,0 +1,17 @@
+Q:
+
+Volrath's Shapeshifter, Static Buffs, and Combat damage
+
+Inspired by this question.
+I have an Elvish Archdruid, a Volrath's Shapeshifter, and a Llanowar Elves on the battlefield.
+I attack with Elvish Archdruid and Llanowar Elves. My opponent blocks in such a way that Elvish Archdruid takes 2 combat damage and Llanowar Elves takes 1 combat damage.
+Does the Llanowar Elves survive through combat?
+
+A:
+
+Assuming nothing other than what is described happens (no first strike, no destruction spells cast, etc.), then yes, the Llanowar Elf will survive.
+After combat damage has been dealt, but before any players have an opportunity to play spells, State-Based Actions are checked. The Archdruid is "marked" as having received lethal damage and is to be destroyed. The Llanowar Elf has not received lethal damage, and is therefore not marked for destruction. Then all applicable SBA are performed, meaning the Archdruid is actually destroyed.
+Then SBA are checked again. This time, the Archdruid is on top of the graveyard, so the Shapeshifter boosts other elfs. So the Llanowar Elf is again 2/2, and has therefore not received lethal damage. It is therefore not marked for destruction. So when the SBA are performed, nothing happens.
+At this point the SBA didn't change the game state, so they are considered finished, and the game continues on to letting players put on the stack any triggered abilities that may have triggered since before the combat damage was dealt. If any triggered abilities were put on the stack, SBA are again checked, and if any of them happen, then triggered abilities are once again put on the stack. And so on, until there are neither any SBA nor triggered abilities left to put on the stack. Then, for the first time, does the active (attacking) player get priority and can activate abilities and cast (instant / flash) spells.
+There is no checking for lethal damage "between" the Archdruid boosting the Llanowar Elf, and the Shapeshifter doing the same.
+

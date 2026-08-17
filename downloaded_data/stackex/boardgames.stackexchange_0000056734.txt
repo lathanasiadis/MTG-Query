@@ -1,0 +1,20 @@
+Q:
+
+Can Jodah, Archmage Eternal and Morophon, the Boundless make a card cost 0?
+
+Jodah, Archmage Eternal's ability says that I may pay one of each color rather than pay a spell's original mana cost
+Morophon, the Boundless lets me choose a creature type and spells of that chosen type cost one of each color less to cast.
+Simply, if I choose Wizards with Morophon, and I choose to pay one of each color to cast a Wizard spell with Jodah, will that creature cost 0??
+
+A:
+
+Yes, that's correct. If the spell has the creature type you chose for Morophon, you can cast it for {0}—it will be free.
+To determine the total cost of a spell we follow rule 601.2f:
+
+601.2f. The player determines the total cost of the spell. [...] The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. [...] If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}.
+
+Jodah, Archmage Eternal provides an alternative cost for the spell of {W}{U}{B}{R}{G}.
+Morophon, the Boundless provides a cost reduction of (again) {W}{U}{B}{R}{G}.
+We choose to use Jodah's alternative cost, and we subtract Morophon's cost reduction from it. The total cost is reduced to nothing, making the spell cost {0}.
+So you get a free spell! Congratulations!
+

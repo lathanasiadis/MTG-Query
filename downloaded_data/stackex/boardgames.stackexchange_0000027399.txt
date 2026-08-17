@@ -1,0 +1,25 @@
+Q:
+
+Does Misthollow Griffin's from-exile ability work if it's exiled face down?
+
+Player A exiles their Misthollow Griffin face down with their Bane Alley Broker.
+
+Can player A cast that Misthollow Griffin from exile?
+
+If no, then:
+There are only 2 players, and player B subsequently takes control of player A.
+
+Can player B have player A cast the Misthollow Griffin that
+
+was exiled face down, since all (2) players can see it?
+
+A:
+
+No, you cannot play a face-down Misthollow Griffin from exile. The reason is that "face down" is a status of an object in the game. Even if, in practice, you happen to turn the physical card face-up, the game still considers it a face-down object.
+This is important because a face-down object has no characteristics, and in particular, no abilities - it's not really a "Misthollow Griffin" object, it's just a plain old "face-down featureless card" object. (CR 406.3)
+
+406.3. ...A card exiled face down has no characteristics, but the spell or ability that exiled it may allow it to be played from exile....
+
+The fact that one or more players are allowed to look at the card doesn't change the fact that it's considered a face-down object.
+That also addresses your second question: no matter who can look at the card, it's still considered a face-down card object with no characteristics, so it doesn't have the ability that allows it to be played from exile.
+

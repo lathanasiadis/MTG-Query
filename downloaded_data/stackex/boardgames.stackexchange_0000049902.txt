@@ -1,0 +1,17 @@
+Q:
+
+When can opponents react to the lifegain from the mana ability of Pristine Talisman?
+
+I have a Pristine Talisman on the board, alongside a Well of Lost Dreams. I activate the Talisman to add 1 mana and gain 1 life. Gatherer says 
+
+01.06.2011    Pristine Talisman has a mana ability. Its ability doesn’t use the stack and can’t be responded to.
+
+But is this true for the lifegain, too? Or can opponents react to the lifegain and e.g. destroy the Well before I can use the mana to draw a card?
+
+A:
+
+605.3b An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+405.6c Mana abilities resolve immediately. If a mana ability both produces mana and has another effect, the mana is produced and the other effect happens immediately. If a player had priority before a mana ability was activated, that player gets priority after it resolves. (See rule 605, “Mana Abilities.”)
+
+Pristine Talisman's ability resolves immediately (including the life gain, which is part of the resolution), and triggers the Well's ability which goes on the stack. That will be the first time your opponents can do anything, and destroying the Well is too late by then; its ability will resolve even if it is destroyed (rule 112.7a).
+

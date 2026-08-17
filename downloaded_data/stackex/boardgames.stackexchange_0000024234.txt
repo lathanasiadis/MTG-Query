@@ -1,0 +1,33 @@
+Q:
+
+Are there any other spells in bant colors that will cause Enduring Scalelord to go infinite?
+
+Are there creatures, artifacts, enchantments, etc that will make Enduring Scalelord go infinite in Bant?
+I'm building a Bant counters EDH deck and it'd be fun to have ES blow up in a couple of different ways. I have Progenitor Mimic in the deck and I know ES would also benefit from the Archangel of Thune/Spike Feeder combo.  I'm blanking on anything else that wouldn't just stop at 1 trigger.
+
+A:
+
+Yes. Cackling Counterpart and Battlegrowth are in Bant colors and combo with Enduring Scalelord.
+Can you teach me how to search for cards myself?
+Introducing the Gatherer's advanced search feature. We know that Enduring Scalelord goes infinite with itself. Let's try to find a clone in Bant colors. Here is what I started with:
+
+Color:
+Does NOT contain Black
+Does NOT contain Red
+Rules Text:
+Does contain "copy"
+Does contain "target creature"
+
+Tons of results. Let's try narrowing it down. Instants are nice if they are cheap, so let's see if we can find one.
+
+Card Type:
+Does contain Instant"
+
+Still a lot of false positives. I notice a lot of "copy target spell" cards. We don't want those.
+
+Rules Text:
+Does not contain "spell"
+
+Here is the final result. The top four cards are all three mana instant speed spells that can copy your Enduring Scalelord. Nice.
+I repeated this process to find Battlegrowth, but I'll leave the exact search as an exercise for you. Learning how to mine the Gatherer is far more valuable being handed a list of cards.
+

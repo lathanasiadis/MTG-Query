@@ -1,0 +1,19 @@
+Q:
+
+Does "Urborg, Tomb of Yawgmoth" work on lands in libraries?
+
+Legendary Land
+Each land is a Swamp in addition to its other land types.
+
+Does Urborg, Tomb of Yawgmoth work on lands in libraries?
+I.e., does it allow me to fetch any land using a Swamp-fetcher?
+
+A:
+
+No. Urborg, Tomb of Yawgmoth only affects lands on the battlefield, not in any other zone.
+Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn't include the word "card," "spell," "source," or "scheme," it means a permanent of that card type or subtype on the battlefield.
+
+Urborg affects objects with the type "Land". Since it doesn't use any of the mentioned words, that means that it affects permanents of type "Land" on the battlefield.
+

@@ -1,0 +1,39 @@
+Q:
+
+multiple lines in spell abilities - why new paragraph sometimes
+
+I have a question regarding the structure of rules text in regards to abilities and effects.
+Incinerate reads:
+
+Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.
+
+All of that text is on a single line.
+Remand reads:
+
+Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.
+Draw a card.
+
+Here, much like Incinerate, we seem to have a Spell Ability that generates a one-shot effect as well as a continuous effect - both on a single line.
+Remand differs, however, in that it seems to also generate a 2nd one-shot effect.
+This question is perhaps pedantic, but I'm trying to reconcile the following.
+Abilities generate one or more effects,
+
+609.1. An effect is something that happens in the game as a result of a spell or ability. When a spell, activated ability, or triggered ability resolves, it may create one or more one-shot or continuous effects.
+
+...but sometimes these effects are listed in separate paragraphs, as if they were themselves abilities (like alternate costs etc.), and sometimes these effects are listed in one paragraph and are seemingly sharing a subject, or "linked" in some way.
+I can find traces in the rules of linked abilities, but the sentences that begin each of the above cards' rules text seem more like linked-effects of a single ability (the spell ability), and I can't find anything mentioning that.
+What does the extra paragraph/line break signify?  Why is it there sometimes and not there others?
+According to the following, which calls out what paragraph breaks mean, Remand's 2nd paragraph could be interpreted (obviously incorrectly) as an "ability".
+
+112.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, "Keyword Abilities"), each paragraph break in a card's text marks a separate ability. 
+
+Does Remand generate 2 effects or 3 upon resolving the spell ability?
+
+A:
+
+The paragraph breaks are only there for clarity. You always do everything the card says, and there's nothing in the game that tries to count how many effects a spell had. That said, Wizards is pretty consistent about doing this for readability, I think in roughly the way you've noted.
+Incinerate is all in one paragraph because it's all related; the second sentence wouldn't make any sense without the first. It has a one-shot effect (dealing damage) and also creates a related continuous effect (no regeneration) that lasts until the end of the turn.
+Remand does two entirely separate things, so they split it up to make it read more easily. The first part is a one-shot effect (counter the spell) with a related replacement effect (if it's countered, return it to hand instead). The second part is another one-shot effect (draw a card). It would do exactly the same thing if the paragraph break were removed, though - and in fact, if it were the effect of an activated ability on a permanent instead of a spell on its own, it would presumably be written as one paragraph.
+The instructions you follow while resolving an instant or sorcery are spell abilities (112.3a), so in combination with 112.2c, I believe that technically means that Incinerate has one spell ability and Remand has two. I can't think of anything in the rules or the game that actually cares about that fact, though. The rules really only even mention spell abilities in a couple places where they need a phrase to specify that something is part of resolving a spell, like the first part of Cipher (the part that lets you encode the spell). Splitting abilities on paragraph breaks is far more important on permanents, where they might be activated or triggered abilities that really need to be clearly delineated. For example, on Dragon Tempest, it's important that the two paragraphs are separate abilities!
+Yes, linked abilities do exist, and two linked abilities are often put in multiple paragraphs (like Oblivion Ring). But the paragraph break isn't what makes something a linked ability. There are a variety of things that indicate a linked ability (e.g. "cards exiled with X") but only one mentions paragraph breaks and in fact requires them to be in the same paragraph to be linked (static abilities and triggered abilities in the same paragraph are linked). There's none of that going on here.
+

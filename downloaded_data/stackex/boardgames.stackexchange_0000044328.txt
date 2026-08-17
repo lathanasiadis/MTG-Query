@@ -1,0 +1,17 @@
+Q:
+
+Instant and sorcery lifelink multiplied by targets or just casting?
+
+If I give an instant or sorcery lifelink, like in the case of Firesong and Sunspeaker, and it hits multiple creatures, in the instance of Fiery Cannonade, would that be a lifelink value of 2, or 2 times however many creatures are effected?
+
+A:
+
+You gain life equal to the total damage you dealt; which in this case would be 2 for each non-Pirate creature.
+
+702.15. Lifelink
+
+702.15a Lifelink is a static ability.
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes). See rule 119.3.
+
+If Fiery Cannonade dealt 4 different creatures 2 damage each; then Fiery Cannonade dealt 8 damage. All that matters is how much total damage was dealt.
+

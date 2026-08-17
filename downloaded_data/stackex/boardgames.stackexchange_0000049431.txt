@@ -1,0 +1,30 @@
+Q:
+
+Activated effects after combat damage
+
+I am looking for some rules clarification on the sub steps during attacks. 
+Q1a- I am told that Reconnaissance can be used AFTER combat damage has been dealt to an opponent, thus granting your creatures a pseudo vigilance. Can this be done even without additional Combat-triggers to respond to? (Something about gaining priority after damage?)
+Q1b- Does the same rulings work with Berserk. To destroy unwanted creatures of my opponents after they deal damage?
+Q2- How does Berserk on one of your own creatures interact with Maze of Ith or Reconnaissance? Are you able to prevent a creature from being destroyed? Or will Berserk's effect still trigger because said creature is still marked as having attacked at all?
+
+A:
+
+Question 1A
+Reconnaissance can in fact be activated after combat damage. The reason for this is because after damage is dealt, all players receive priority before creatures are removed from combat.
+Question 1B
+Berserk contains the text 
+
+Cast this spell only before the combat damage step
+
+So you wouldn't be able to cast it after the creature deals damage regardless. This seems self explanatory to me, so if I'm missing part of your question's intent, please let me know.
+Question 2
+The gathering ruling on Reconnaissance reads, 
+
+Does not undo any effects that triggered on declaration of attackers or blockers.
+
+I interpret this to mean that anything that triggers or depends upon a creature having attacked will still be in effect. Regardless of if the creature is no longer attacking, it still has been declared as an attacker, meaning that the creature would still be destroyed by Berserk. Maze of Ith WOULD follow the same logic, except that it doesn't actually remove the creature from combat. Instead, it reads, 
+
+Untap target attacking creature. Prevent all combat damage that would be dealt to and by that creature this turn.
+
+Maze will have no impact on Berserk whatsoever, although it is worth noting that even if it removed a creature from combat, it still would not save a creature targeted by Berserk.
+

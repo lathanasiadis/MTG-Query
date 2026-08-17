@@ -1,0 +1,36 @@
+Q:
+
+Can a Counterspell basically counter more than one spell?
+
+I'm on my main phase.
+I cast a 2/2 creature, and want to enchant it in the same phase. 
+I cast the creature - no counterspell.
+I then want to cast a +3/+3 Aura enchantment on that creature, and then a second +2+2 enchantment on it.
+My opponent then casts Counterspell on my creature as his spell goes on the stack.  Are the enchantments also gone to the graveyard or were they not able to be cast in the first place?
+My way of seeing it was they couldn't have been cast because there was no creature to cast them on.  Otherwise, a counterspell basically counters three spells.  I sense I'm probably wrong but this seems broken.  
+
+A:
+
+This situation cannot happen as you have described it. In order to enchant a creature, the creature must already be on the battlefield. If your opponent wants to counter your creature, he must do so before it resolves.
+In casual games of Magic, you have to settle the confusion with your opponent and decide whether he meant to allow the creature to resolve. There are two possible outcomes:
+
+Your creature resolved, and your enchantment is on the stack waiting to resolve.
+Your creature is countered, and you did not cast your enchantment (yet).
+
+In tournament games, the two outcomes are the same, but this time the rules say that your opponent gets to choose.
+Example
+
+Andy: I cast Grizzly Bears.
+Nathan: ...
+Andy: I cast Oakenform, targeting Grizzly Bears.
+Nathan: When I get priority after you cast Grizzly Bears, I'll cast Counterspell, targeting Grizzly Bears.
+
+When you cast two spells in succession without asking your opponent if the first one resolves, you are actually suggesting a shortcut. Your opponent can choose to take priority after either spell. Silence cannot be used as an indicator that the game has moved forward.
+In this example, Andy played sloppily by assuming that Grizzly Bears resolved. Nathan has the option to accept the shortcut, or deviate from it by responding to Grizzly Bears (which he did).
+What can I do to prevent this from happening in the future?
+Simply ask if your creature resolves.
+
+Andy: I cast Grizzly Bears. Does it resolve?
+
+You'll learn to recognize when it is important to do this. It may be seen as an annoyance if you are constantly asking "Does my spell resolve?" when your opponent is completely tapped out with no cards in hand.
+

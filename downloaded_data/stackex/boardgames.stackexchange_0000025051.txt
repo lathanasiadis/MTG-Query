@@ -1,0 +1,16 @@
+Q:
+
+Does a permanent that was a creature until end of turn remain tapped after it stops being one?
+
+If a non-creature permanent turns into a creature until end of turn and attacks, does it remain tapped after it stops being one?
+For example, if I activate Sarkhan, the Dragonspeaker's first ability, then attack with him, and then end my turn, will Sarkhan remain tapped when he stops being a dragon?
+
+A:
+
+Yes: Being tapped/untapped is a part of the status of a permanent and is independent of its type (creature/not creature) or other characteristic.
+
+110.6. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+110.6a Status is not a characteristic, though it may affect a permanent’s characteristics.
+
+In your example, Sarkhan, the Dragonspeaker will remain tapped even after your turn ends.
+

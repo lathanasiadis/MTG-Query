@@ -1,0 +1,16 @@
+Q:
+
+If I copy a clone of a double-faced card, can the copy transform?
+
+From the rule change in MOM tokens can now transform. A clone of a double-faced card however cannot transform since it isn't doubled-faced.
+What happens then if I copy the clone? Will the token copy be able to transform or not?
+Let's say I have Spark Double enter as a copy of Arcee, Sharpshooter, and I then copy my Spark Double with Rite of Replication. Will the token copies of Spark Double be able to transform, and if so, will the resulting Arcee, Acrobatic Coupe be legendary or not?
+
+A:
+
+No, the token copy will not be a transforming token, because the object it is copying is not a transforming double-faced card or a transforming token.
+
+707.8a If an effect creates a token that is a copy of a transforming permanent or a transforming double-faced card not on the battlefield, the resulting token is a transforming token that has both a front face and a back face. The characteristics of each face are determined by the copiable values of the same face of the permanent it is a copy of, as modified by any other copy effects that apply to that permanent. If the token is a copy of a transforming permanent with its back face up, the token enters the battlefield with its back face up. This rule does not apply to tokens that are created with their own set of characteristics and enter the battlefield as a copy of a transforming permanent due to a replacement effect.
+
+The rules do not seem to specifically define "transforming permanent". However, everywhere else that "transforming" is talked about refers to "transforming double-faced card or transforming token". So it is a safe assumption that a "transforming permanent" must be either a transforming double-faced card or transforming token, which Spark Double is not. If you used Rite of Replication on Arcee instead, then the tokens would be transforming.
+

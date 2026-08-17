@@ -1,0 +1,23 @@
+Q:
+
+Does an Archetype affect summoning cost effects?
+
+If I have say an Archetype of Imagination:
+
+Creatures you control have flying.
+
+Creatures your opponents control lose flying and can't have or gain flying.
+
+and a Warden of Evos Isle:
+
+Creature spells with flying you cast cost 1 less to cast.
+
+Will a card that does not normally have flying receive the cost reduction or do they not gain flying until they reach the battlefield?
+
+A:
+
+No, Archetype of Imagination does not interact with Warden of Evos Isle.
+When Archetype, or any other card, refers to "creatures", it means creature permanents. So it does not affect creature cards or creature spells while they are in any other zone besides the battlefield. The relevant rule here is 109.2:
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn't include the word "card," "spell," "source," or "scheme," it means a permanent of that card type or subtype on the battlefield.
+

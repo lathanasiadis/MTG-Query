@@ -1,0 +1,13 @@
+Q:
+
+copying with Saheeli, Sublime Artificer
+
+If I turn an artifact into any creature for that turn that has an enter the battlefield effect, such as Vizier of the Scorpion, do I amass one? what if the artifact entered the battlefield that turn?
+
+A:
+
+A nontoken permanent “enters the battlefield” when it’s moved onto the battlefield from another zone. A token “enters the battlefield” when it’s created. See rules 403.3, 603.6a, 603.6d, and 614.12.
+
+Cards such as Vizier of the Scorpion say "When Vizier of the Scorpion enters the battlefield, [do something]". But in this case you are turning an artifact that has already entered the battlefield into Vizier of the Scorpion. Since the artifact has already entered the battlefield, the trigger doesn't happen. It doesn't happen even if the artifact entered the battlefield this turn. 
+To get the artifact to amass 1, you need to turn it into a copy of Vizier of the Scorpion before it enters the battlefield, i.e. while it's on the stack.
+

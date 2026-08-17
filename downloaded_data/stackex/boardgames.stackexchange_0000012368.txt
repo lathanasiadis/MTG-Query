@@ -1,0 +1,57 @@
+Q:
+
+What are the ramifications of turning a planeswalker into a creature?
+
+An answer on another question tells of a way to turn planeswalkers into creatures:
+
+Basically you start by playing the Mycosynth
+  Lattice
+  which turns all your permanents into artifacts, this includes
+  Planeswalker.
+Then you play March Of the
+  Machines
+  turning your Planeswalker into an artifact creature with power and
+  toughness equal to it's casting cost.
+
+What are the ramifications of doing this? In particular, I'm curious about the answers to the following sub-questions:
+
+Can the loyalty abilities still be activated?
+
+Can they be activated after the creature has attacked? (ie. during the 2nd main phase)
+
+Does the creature die if it's loyalty hits 0?
+Does the creature die if it has lethal damage counted on it?
+Can damage applied to the creature be directed to apply to the loyalty, on only counted as damage on the creature? (ie. counted against it's toughness)
+Since the permanent is still a planeswalker, can it still be attacked like a normal planewalker? (ie. a creature attacking the planeswalker instead of me, the player)
+
+Is there any other interesting fallout of converting a planeswalker into a creature that I'm missing?
+
+A:
+
+Can the loyalty abilities still be activated?
+  Can they be activated after the creature has attacked? (ie. during the 2nd main phase)
+
+Yes and yes. Nothing stops loyalty abilities from being activated just because Planeswalker is not the only type on the card. Actually, nothing stops a loyalty ability from being activated even if the permanent has not the Planeswalker type. Also, a loyalty ability doesn't include the tap simbol, so it doesn't matter if the creature is tapped or has summoning sickness.
+
+Does the creature die if it's loyalty hits 0?
+
+Yes: 
+
+704.5i If a planeswalker has loyalty 0, it’s put into its owner’s graveyard.
+
+Does the creature die if it has lethal damage counted on it?
+
+Yes:
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+Can damage applied to the creature be directed to apply to the loyalty, on only counted as damage on the creature? (ie. counted against it's toughness)
+
+It counts for both. So if the creature-planeswalker is dealt two damage, you remove two loyalty counters and mark two damage on it (remember that damage does not reduce thoughness).
+
+Since the permanent is still a planeswalker, can it still be attacked like a normal planewalker? (ie. a creature attacking the planeswalker instead of me, the player)
+
+Yes. Planeswalkers can be attacked by creatures. There is no exception in the rules for a planeswalker that is also a creature.
+
+As a wrap-up: to a permanent that is both a creature and a planeswalker, both rules for creatures and rules for planeswalkers apply.
+

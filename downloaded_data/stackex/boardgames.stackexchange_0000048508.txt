@@ -1,0 +1,31 @@
+Q:
+
+Can this sequence of events cause a commander to be permanently phased out?
+
+Suppose that you have a three-player Commander game. The players are Alice, Bob, and Carol. Bob's commander is Isamaru, Hound of Konda, a vanilla creature.
+On Alice's turn, she:
+
+Casts Dominate to gain control of Isamaru.
+Casts Song of the Dryads to turn Isamaru into a colorless Forest land (that's not a creature).
+Activates the first ability of Memnarch to permanently turn Isamaru into an artifact (an Artifact Land — Forest).
+Casts Bludgeon Brawl, turning Isamaru into an Artifact Land — Equipment Forest.
+Casts Grizzly Bears (a vanilla creature) and equips Isamaru to Grizzly Bears.
+Casts Reality Ripple to phase out Grizzly Bears. (Isamaru phases out indirectly per 702.25f.)
+Concedes the game.
+
+For reference:
+
+702.25f When a permanent phases out, any Auras, Equipment, or Fortifications attached to that permanent phase out at the same time. This alternate way of phasing out is known as phasing out “indirectly.” An Aura, Equipment, or Fortification that phased out indirectly won’t phase in by itself, but instead phases in along with the permanent it’s attached to.
+
+...
+
+702.25m In a multiplayer game, game rules may cause a phased-out permanent to leave the game or to be exiled once a player leaves the game. (See rules 800.4a and 800.4c.) If a phased-out permanent phased out under the control of a player who has left the game, that permanent phases in during the next untap step after that player’s next turn would have begun.
+
+Will Isamaru ever phase back in? That is, does the negative rule “An Aura, Equipment, or Fortification that phased out indirectly won’t phase in by itself” trump the positive rule “If a phased-out permanent phased out under the control of a player who has left the game, that permanent phases in during the next untap step after that player’s next turn would have begun.”? If so, is there any sequence of actions that would cause Isamaru to phase in? (Time and Tide won't do it because Isamaru is not a creature.)
+If Isamaru would phase in, then does the situation change if Alice casts Donate to give Isamaru back to Bob before casting Reality Ripple?
+
+A:
+
+I would say that Isamaru does phase back in. Rule 702.25m does not check whether a phased-out permanent would have otherwise phased back in, and it does not in any other way distinguish between direct and indirect phasing, so my interpretation is that it provides an additional way that phased-out permanents could phase back in separate from the direct and indirect phasing described in the other rules.
+The situation does change if Alice Donates Isamaru back to Bob before casting Reality Ripple. Rule 702.25m specifically applies to objects that phased out under the control of a player who as left the game. If instead Bob controls Isamaru when it phases out, then 702.25m never applies to Isamaru, and no rule instructs it to phase in, so it stays phased out forever.
+

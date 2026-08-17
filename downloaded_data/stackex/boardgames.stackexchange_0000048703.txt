@@ -1,0 +1,37 @@
+Q:
+
+Does Fires of Invention allow adventure instant and sorceries to be played for free?
+
+How does the new Fires of Invention card from Eldraine work with adventure cards such as Beanstalk Giant? Does it allow the adventure to be played for free and if so does it count the converted casting cost of the creature card that's in hand or that of the adventure instant or sorcery?
+
+A:
+
+You can cast the creature for free if you have at least as many lands as the creature's mana cost, and you can cast the adventure for free if you have at least as many lands as the adventure's mana cost.
+From the updated comprehensive rules:
+
+715.4. In every zone except the stack, and while on the stack not as an Adventure, an adventurer card has only its normal characteristics.
+
+This means that if you choose to cast the creature, the CMC is just the creature's CMC.
+Also,
+
+715.3b While on the stack as an Adventure, the spell has only its alternative characteristics.
+
+This means that if you choose to cast the Adventure, the CMC is just the Adventure's CMC.
+From the Throne of Eldraine Release Notes:
+
+When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, converted mana cost, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+
+So while the creature Beanstalk Giant  is on the stack; its CMS is 7; which would require you to have 7 lands to cast it for free.
+But while Fertile Footsteps is on the stack, it has a CMC of 3; requiring you to have 3 lands to cast it for free.
+Notably, the card is moved to the stack before you ever check to see what the cost is.
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. 
+
+...
+
+601.2b If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), they reveal those cards in their hand. If the spell has alternative or additional costs that will be paid as it’s being cast such as buyback or kicker costs (see rules 118.8 and 118.9), the player announces their intentions to pay any or all of those costs (see rule 601.2f). 
+
+And for completeness sake; we know that Fires of Invention creates an alternative cost because:
+
+118.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” Note that some alternative costs are listed in keywords; see rule 702.
+

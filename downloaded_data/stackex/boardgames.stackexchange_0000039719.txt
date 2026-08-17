@@ -1,0 +1,35 @@
+Q:
+
+Painter's Servant combo with Progenitus in library
+
+This question is related to this one. What happens when you have the Painter's Servant / Grindstone combo and your opponent has a Progenitus in his / her library? How do those abilities resolve?
+
+A:
+
+If your opponent has exactly one Progenitus card in their library, then they end up with every other card in their graveyard, and exactly that one Progenitus card for their library, and Grindstone ends at that point and play resumes.
+If your opponent has more than one Progenitus card in their library, the game ends in a draw due to an infinite loop. In a tournament, you'd take a game draw on your scoresheets and move to the next game with each other (if there is one).
+You may want to cast Lost Legacy naming Progenitus before doing this if you know they have at least one.
+How this happens
+To recap the Painter's Servant / Grindstone combo: every card will share a color, so activating Grindstone means we put every single card from the opponent's library into their graveyard.
+If either revealed card is Progenitus (or both cards!), Progenitus's rules instruct us to instead put Progenitus back into their library and shuffle their library, when Grindstone would otherwise put it into their graveyard. We do this during Grindstone's resolution because it's a replacement effect that tells us to resolve Grindstone slightly differently for this card.
+(This is different to doing this with Emrakul, whose triggered ability has to wait until the end of Grindstone's resolution to do anything.)
+What this means is we'll reach a point eventually where every non-Progenitus card has been removed from their library, and every Progenitus card has been put back. This is where it matters how many Progenituses there are.
+
+If there's just one Progenitus, events unfold like this:
+
+We reach their last two cards. We take their last non-Progenitus card, put it into their graveyard, and put a lone Progenitus back into their library. They have a library of one card, which we can't meaningfully shuffle. Grindstone saw they shared a color, so it told us to repeat this process.
+We take Progenitus out of their library. Grindstone has no second card to compare against, so it does not see two cards that share a color. Grindstone won't tell us to repeat the process. We put their Progenitus back into their library.
+Grindstone finishes resolving. Your opponent has a Progenitus card for their library. Play continues.
+
+If there's more than one Progenitus, we have to end the game in a draw:
+
+We've filtered out every non-Progenitus card from their library. They now have a pile of 2-4 Progenitus cards for their library.
+They take two Progenitus cards from their library. We reveal them, see they're both Progenitus, and see we have to put them back into their library and shuffle their library of 2-4 cards. They shared a color, so we repeat the process.
+They take two Progenitus cards from their library. We reveal them, see they're both Progenitus... put them back... repeat.
+Grindstone now repeats infinitely, effectively just telling someone to keep shuffling their library of 2-4 cards forever. The game cannot continue, and gameplay ends in a draw.
+
+Proposing a shortcut for this
+If you activate the Grindstone combo and your opponent reveals a Progenitus, they won't have to shuffle their library through every step. They could theoretically have to shuffle their library like fifty times, if Progenitus winds up back on top every single time somehow. This is a lot of unnecessary card damage and time wastage.
+In an informal setting, you could explain the infinite loop to them, and show them it means they'll dump every non-Progenitus card in their graveyard and then be left with all their Progenitus cards. Ask them to do that, and ask them to tell you how many Progenituses they will have left because if they have more than one, the game's about to end in a draw, and if they have only one, they'll leave that for their library.
+In a tournament setting, I'd call a judge over, tell them the situation, and ask them if handling it like this is OK. (I don't, myself, know how this would be handled in tournament rules enforcement levels.)
+

@@ -1,0 +1,29 @@
+Q:
+
+Magic The Gathering - Jace, Cunning Castaway's +1
+
+I'm confused by this ruling for Jace, Cunning Castaway:
+
+The delayed triggered ability created by Jace’s first ability can trigger more than once in a turn if creatures you control deal combat damage at different times in a turn (most likely because one or more has first strike) or if creatures you control deal combat damage to more than one player at once.
+
+I'm not sure because of it saying it can trigger more than once if creatures do combat damage at different times.
+If I activate Jace's +1 Ability and attack with two creatures, and both do combat damage in the same combat damage assignment step, do I draw two cards or one?
+If I attack with two double strike creatures and they both do combat damage, do I then draw four cards?
+
+A:
+
+You draw cards equal to the number of combat damage steps where your creatures have dealt damage.
+If you attack with any number creatures, none having first strike or double strike, there is only one combat damage step. The delayed trigger will be met once.
+If the creatures you control do damage during the first strike and the non-first strike combat damage step (eg. a creature with double strike or mix of creatures with and without first strike), the delayed trigger will be met twice.
+If you have multiple combat phases during the same turn, the delayed trigger will be met once for each non-first strike and first strike combat damage step that occurs. 
+Combat damage is dealt all at once (or in two steps if you have first/double strikers) instead of once per creature. To break it down (simplified) combat looks like this:
+
+Attacking Player declares attackers
+Defending Player declares blockers
+Combat Damage Step (Comp Rules 510):
+a. If at least one creature has First Strike or Double Strike, only creatures with first strike or double strike assign damage this step.
+b. Players announce how their creatures will assign damage (eg. Attacker is blocked by multiple creatures, trample etc.)
+c. All assigned damage is dealt simultaneously. (Jace's Ability Triggers here).
+d. If this Damage step was for first/double strikers only return to step 3.b but this time all creatures except first strikers get to assign damage. If not proceed to step 4.
+End of Combat Step
+

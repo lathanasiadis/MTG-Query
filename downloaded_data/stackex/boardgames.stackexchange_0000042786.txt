@@ -1,0 +1,18 @@
+Q:
+
+Is Haphazard Bombardment legal with fewer than 4 nonenchantment permanents under my opponent's control?
+
+Haphazard Bombardment is worded slightly, so I assume intentionally, different from cards I can find that seem similar. Particularly in that it doesn't target the chosen cards.  
+Granted this is unusual, but suppose my opponent on the draw missed 3 land drops and has only 3 land on the battlefield on my turn 6. Can I cast Haphazard Bombardment given there are only 3 things (specifically not targets) I can possibly choose? Or does it count as part of the cost that 4 nonenchantment permanents be chosen? My understanding is, if it said "choose 4 target nonenchantment permanents" and there were only 3 options, it would be uncastable. Is the same true without the "target"?
+If there are 4 or more options, I'm fairly confident I can't choose fewer but I'm unclear if I can get away with it when there aren't enough choices.
+
+A:
+
+Yes, you can cast Haphazard Bombardment even if there are fewer than 4 valid choices for its ability, and you put aim counters on permanents even if there are fewer than 4.
+Haphazard Bombardment's first ability is an "enters the battlefield" triggered ability. If you cast Haphazard Bombardment, the ability triggers after the spell resolves and becomes a permanent. Even if it did require you to choose targets, it would have no effect on whether you could cast the spell.
+The ability itself has no conditions that might prevent it from triggering or resolving. So it will trigger and resolve no matter what the board state is. Then when it resolves you choose the permanents to put counters on. Rule 609.3 says
+
+If an effect attempts to do something impossible, it does only as much as possible.
+
+So if it is impossible to choose 4 permanents you don't control, you choose as many permanents as possible and put counters on them.
+

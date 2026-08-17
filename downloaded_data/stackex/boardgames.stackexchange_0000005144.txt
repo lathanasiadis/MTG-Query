@@ -1,0 +1,11 @@
+Q:
+
+Would multiple Trepanation Blades Stack?
+
+I have a couple of Trepanation Blades, and I was wondering if the effect would stack if I have multiple equipped to one creature.
+
+A:
+
+Yes. When the equipped creature attacks, both triggers go on the stack at the same time (in an order of your choice), then are resolved one at a time.
+So, for example, I attack with an Invisible Stalker wielding two Trepanation Blades. Both triggers go on the stack. We resolve the first: spell, spell, land; the Stalker gets +3/+0 until end of turn. We resolve the second: spell, land; the Stalker gets +2/+0 until end of turn. Now my Stalker is a 6/1.
+

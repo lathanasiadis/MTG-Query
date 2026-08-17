@@ -1,0 +1,18 @@
+Q:
+
+Can I use Deathwind with Isochron Scepter?
+
+My question is twofold.
+1) Can I imprint Death Wind with Isochron Scepter
+2) If I can, what is the maximum -X/-X I can give a creature by imprinting Death Wind and tapping Iscochron Scepter?
+Thanks
+
+A:
+
+Yes, you can. When a spell is in your hand any {X} in its mana cost is interpreted as 0, so the card counts as having a CMC of 1.
+-0/-0, sorry. This combo isn't very lethal. Isochron lets you cast a copy of that card without paying its mana cost (and that's the only circumstances under which you're allowed to cast it; you don't get to opt to pay mana for it), and in these circumstances, {X} is always given a value of zero. That requirement to pick 0 is reflected in a ruling on Isohron Scepter:
+
+6/8/2016  If the exiled card has X in its mana cost, you must choose 0 as the value for X when casting it.
+
+At least it'll trigger Heroic and kill Phantasmal Bears.
+

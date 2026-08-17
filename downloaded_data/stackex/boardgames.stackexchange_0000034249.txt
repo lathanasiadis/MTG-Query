@@ -1,0 +1,29 @@
+Q:
+
+Double strike blocked by a double strike?
+
+I was recently playing magic the gathering with my brother and it so happened that at a point in a game we each controlled a 4/4 creature with double strike. We were wondering what would happen if one said creature were to block the other. Would they simply both die? I mean, they both, by definition, deal damage first.
+
+A:
+
+Normally, when one creature blocks another, each one simultaneously deals damage equal to its power to the other. Then, after that is done, the game checks each one to see whether it has taken enough damage to be destroyed. The abilities First Strike and Double Strike each add an additional step to combat where damage dealt by creatures with First Strike or Double Strike is dealt simultaneously, but before regular combat damage is dealt.
+In other words, it plays out like this (for illustrative purposes, I'm going to say that the creatures are 4/5 instead of 4/4):
+
+Declare Attackers Step:
+
+The active player declares their 4/5 creature with Double Strike as an attacker.
+
+Declare Blockers Step:
+
+The defending player declares their 4/5 creature with Double Strike as a blocker blocking the first creature.
+
+First Strike Combat Damage Step:
+
+Each creature deals 4 damage to the other.
+Creatures that have lethal damage die at this point and are moved to the graveyard, and wouldn't participate in the next combat step. In the original scenario, this means both creatures would die at this point because they have taken damage greater than or equal to their toughness. In this modified scenario, they each survive with 4 damage marked.
+
+Regular Combat Damage Step:
+
+Each creature deals 4 damage to the other again.
+Now both creatures have taken 8 damage with only 5 toughness, so they both die.
+

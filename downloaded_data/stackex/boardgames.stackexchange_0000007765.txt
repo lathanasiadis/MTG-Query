@@ -1,0 +1,17 @@
+Q:
+
+How does Mitotic Slime work with Devour?
+
+Say that I have a Mitotic Slime in play and then play Thromok the Insatiable. When I sacrifice the Slime due to Thromok's Devour ability, I get two 2/2 Slime tokens. Am I able to sacrifice those Slime tokens to Thromok as well, or do they not come into play until Thromok is completely resolved? Since the 2/2 Slime tokens make two 1/1 Slime tokens as well, could I potentially get seven devour triggers from this one creature?
+
+A:
+
+Thromok the Insatiable, or other Devour card has a static ability that modifies how that permanent enters that battlefield. Mitotic Slime has a triggered ability, which means that if it triggers during the resolution of another spell or ability (such as Devour, placing the Mitotic Slime in the graveyard), it must wait until the next time any player would receive priority before being put on the stack and finally resolving when both players pass in succession.
+Spells and abilities on the stack do not resolve immediately, so it would be impossible to sacrifice the Mitotic Slime and the tokens that it produces when the Die trigger resolves, before the Devour ability that initially caused the Die trigger finishes resolving. The Devour ability must finish resolving before any player receives priority.
+
+603.6e  Some permanents have text that reads "[This permanent] enters the battlefield with . . . ," "As [this permanent] enters the battlefield . . . ," "[This permanent] enters the battlefield as . . . ," or "[This permanent] enters the battlefield tapped." Such text is a static ability—not a triggered ability—whose effect occurs as part of the event that puts the permanent onto the battlefield.
+
+603.3  Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 116, "Timing and Priority."
+
+116.2a  Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, "Handling Triggered Abilities.") However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn’t yet been put on the stack is put on the stack. See rule 116.5.
+

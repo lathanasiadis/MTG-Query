@@ -1,0 +1,37 @@
+Q:
+
+How does The Ozolith work with Modular?
+
+The Ozolith has this ability:
+
+Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.
+
+Let's say I control Arcbound Worker, which has Modular 1:
+
+This creature enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.
+
+If I have two Arcbound Workers in play as well as The Ozolith, and one of the Arcbound Workers die, do both The Ozolith and the other Arcbound worker get counters? If not, which one does?
+
+A:
+
+The other Arcbound Worker and the Ozolith both get the counters.
+Functionally, The Ozolith is not actually moving counters around or taking those counters away. It is simply saying: “whatever counters that thing had as it died, put those kinds of counters on the Ozolith.” These are brand new counters, unrelated to the other ones, they just happen to be the same types and quantities. This is clarified in a ruling on The Ozolith itself:
+
+The Ozolith’s first ability doesn’t move counters off the creature that’s left the battlefield. Instead, it causes you to put a number of counters of each kind of counter that was on that creature onto The Ozolith. Notably, if you somehow control a second The Ozolith, each one will receive the same number and kinds of counters that were on the creature that left the battlefield. [...]
+
+This is also covered by rule 122.8, which was added specifically for the Ozolith:
+
+122.8. If a triggered ability instructs a player to put one object’s counters on another object and that ability’s trigger condition or effect checks that the object with those counters left the battlefield, the player doesn’t move counters from one object to the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object.
+
+Modular is similarly not moving the exact counters around or taking them away. In fact, the rules on Modular clarify that it comes with two abilities, one of which is this:
+
+When this permanent is put into a graveyard from the battlefield, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent.
+
+Just like the Ozolith, this isn't actually moving the counters themselves around, it just happens to be creating new, unrelated counters that happen to be the same type and quantity.
+So in this situation, we effectively have two abilities:
+
+Modular's ability, which functionally in this situation says “When Arcbound Ravager dies, because it had one +1/+1 counter on it, you may put one +1/+1 counter on another target artifact creature.”
+The Ozolith's ability, which functionally in this situation says: “When Arcbound Ravager dies, because it had one +1/+1 counter on it, put one +1/+1 counter on The Ozolith.”
+
+Both trigger, and both resolve, both handing out brand new counters to the Ozolith and any one artifact creature.
+

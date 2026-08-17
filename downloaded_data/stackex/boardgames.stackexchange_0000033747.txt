@@ -1,0 +1,24 @@
+Q:
+
+Can I play blessed alliance after damage resolves to make him sac a creature I didn't kill?
+
+I was reading over various questions and it occurred to me that I might not be using Blessed Alliance as effectively as I could be. Am I able to cast Blessed Alliance after damage has been resolved, but still during combat, to make my opponent sac a creature that has been declared as an attacker? I believe I can, as 510.3 says active player gets priority and 510.2 is damage is dealt, and state based actions will be checked before active player gets priority. 
+Therefore, the specific example I'm asking about is, if my opponent attacks with two creatures, one I can kill with my blocker and one I cannot, can I block the one I can kill, and after it dies cast Blessed Alliance to make him sacrifice the other? I believe 510.3 means that it is still the combat phase, and his other creature is still "attacking" as defined by the rules of the game, but I am unsure. 
+Can instants be played after I decide not to block? 
+I believe this question is also relevant, as the linked answer states that you can play instants during each of those phases, and end of combat is one. Are creatures that attacked still "attacking creatures" when I get priority at the end of combat?
+
+A:
+
+Yes this works how you want it to. Note however that the creature will die after it has already dealt its combat damage, so if you are trying to stop it from hitting you this would not work.
+The combat phase has 5 steps:
+
+Beginning of Combat
+Declare Attackers
+Declare Blockers
+Combat Damage
+End of Combat
+
+A creature becomes an 'attacking creature' during the Declare Attackers step and remains an 'attacking creature' until the Combat phase is over (or it gets removed from combat some other way). Thus you are able to use Blessed Alliance during either the Combat Damage or End of Combat steps to have your opponent sacrifice a creature that survived the damage dealing part of the Combat Damage step.
+
+508.1k Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+

@@ -1,0 +1,20 @@
+Q:
+
+Anje Falkenrath and Madness order
+
+Let's say I activate Anje Falkenrath to discard a card with madness. The madness card goes to exile instead. Do I get to draw a card before I decide to cast the madness spell? Do I get a choice to draw or cast first?
+
+A:
+
+The rulings below the card in Gatherer state:
+
+If you discard a card with madness to pay the cost of Anje’s activated ability, you’ll draw a card last. You may untap Anje before or after you choose whether to cast the discarded card, but not after you’ve chosen to cast it but before that spell resolves.
+
+(emphasis mine)
+Why? The first object on the stack is the 'draw a card' ability, and you pay for it by discarding the card. That causes both the triggered ability part of Madness (see below) and Anje's last ability to trigger, and you may choose in which order you put them on the stack:
+
+702.34a Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player’s hand. The second is a triggered ability that functions when the first ability is applied. “Madness [cost]” means “If a player would discard this card, that player discards it, but exiles it instead of putting it into their graveyard” and “When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn’t, they put this card into their graveyard.”
+
+Those abilities resolve first, while the 'draw a card' ability is still on the stack, and therefore drawing the card always happens last.
+If you expect it makes a difference in your decision to pay the Madness cost or not, consider putting the Madness ability on the stack first, followed by Anje's untap ability. The untap ability resolves first, which gives you the opportunity to activate Anje's second ability again, and the card draw from that activation will happen before you have to decide to pay the madness cost for the first discarded card. (Then again, maybe you expect the next card draw to matter, so I'm not sure it will make much of a difference.)
+

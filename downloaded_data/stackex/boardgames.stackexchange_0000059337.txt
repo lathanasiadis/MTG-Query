@@ -1,0 +1,19 @@
+Q:
+
+Would exiled cards from Gorex be usable after it dies?
+
+I'm curious how a card like Gorex, the Tombshell works when it says "choose a card at random exiled with Gorex".  Take a deck with 4 Gorex in it, does each one only pull from the creatures exiled specifically by that card, or does each one use all exiled cards done by any of the 4?  What if Gorex is my commander, does it include all exiled cards from every time the commander has been cast?
+
+A:
+
+No. Each Gorex can only choose from the cards which that specific Gorex exiled. If one Gorex leaves the battlefield and you recast that same card in any way, it's a new Gorex with its own set of exiled cards.
+Whenever text references its object by name, it only means the object it's on. That means that each Gorex can only choose from the cards it exiled, even if you somehow controlled multiple Gorexes at once or sequentially.
+
+201.5. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+When an object changes zones, it becomes a new object. It does not know that the previous Gorex object had cards exiled, even if it's represented by the same card.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [..]
+
+When a Gorex dies or otherwise changes zones, the cards still exiled by it become inaccessible no matter what (Exceptions exist but none specific to Gorex).
+

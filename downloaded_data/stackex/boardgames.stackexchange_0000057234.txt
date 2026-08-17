@@ -1,0 +1,33 @@
+Q:
+
+What cards work with Esix, Fractal Bloom?
+
+There are a few different forms of templating that cards that generate multiple tokens use and I'm not sure how each works with Esix, Fractal Bloom.
+
+Generate n tokens. Examples: Saproling Migration, Stolen by the Fae, Nest Invader. Surely all of these effects work to create n copies of a permanent where n is the how many tokens they create.
+Generate n tokens then generate m tokens (same line of text). Examples: Somberwald Beastmaster, Specimen Collector Tempt with Reflections. The question here is; are the tokens that are created separate instances of creating a token as far as Esix is concerned, or do I get to copy for each of these tokens?
+Generate n tokens then generate m tokens (different lines of text). Example: Sylvan Offering. I'm not sure if this would be any different than #2 because it's on separate lines, so I figured I should check.
+Generate n tokens (as separate activations of the same ability). Examples: Blaze Commando, Poppet Stitcher. Surely these only allow you to make copies only on their first activation, even if multiple activations are on the stack at once.
+
+There might be more ways to generate tokens that I haven't seen yet, but I think this covers most of it. I'm pretty confident about #1 and #4, but I'm not so sure about #2 and #3. The crux of the problem is what counts as a "time", so a link to the rules that govern what counts as a "time" for Esix (and other cards worded this way) would be helpful.
+
+A:
+
+To an extent, you have to use your own judgment when evaluating what counts as the same or separate events. The most relevant rule is rule 700.1:
+
+Anything that happens in a game is an event. Multiple events may take place during the resolution of a spell or ability. The text of triggered abilities and replacement effects defines the event they’re looking for. One “happening” may be treated as a single event by one ability and as multiple events by another.
+
+For an event like "you would create one or more tokens" as on Esix, the general rule is that a single instruction in a single sentence is one event, and multiple instructions are separate events. Line breaks within a spell don't matter here. They can make cards easier to read but they have no mechanical effect.
+So, based on that rule, the cards you listed that create tokens in a single event are:
+
+Saproling Migration
+Stolen by the Fae
+Nest Intruder (which only creates one token anyway)
+Somberwald Beastmaster
+Specimen Collector
+
+The others have multiple separate events that create tokens. In particular, if an activated or triggered ability creates a token, then even if multiple instances of that ability can be on the stack at the same time, they resolve as entirely separate events.
+One relevant ruling on Tempt with Reflections says
+
+After each opponent has decided, the effect happens simultaneously for each one who accepted the offer. Then, the effect happens again for you a number of times equal to the number of opponents who accepted.
+

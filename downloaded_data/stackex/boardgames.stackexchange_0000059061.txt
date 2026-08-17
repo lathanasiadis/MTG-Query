@@ -1,0 +1,40 @@
+Q:
+
+Does a phased-out Ring-bearer stop being the Ring-bearer when the Ring tempts you?
+
+When the Ring tempts you, a creature you control becomes the Ring-bearer and the previous Ring-bearer, if any, stops being it.
+
+701.52a Certain spells and abilities have the text “the Ring tempts you.” Each time the Ring tempts you, choose a creature you control. That creature becomes your Ring-bearer until another creature becomes your Ring-bearer or another player gains control of it.
+
+A designation, while not explicitely defined in the rules, is a marker inherent to an object or player. For example, see the definition of "Monstrous".
+
+701.31b Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify.
+
+The event of phasing itself does not remove the designation via 701.52a since it remains the same object and no change of control happens. The phasing rule 702.26d does not mention what happens to designations on phasing, but that can only mean that phasing does not affect them.
+
+702.26d The phasing event doesn’t actually cause a permanent to change zones or control [..] Counters and stickers remain on a permanent while it’s phased out. [..]
+
+For a rule to affect phased out permanents, the rule has to mention phased out permanents explicitely.
+
+702.26b If a permanent phases out, its status changes to “phased out.” Except for rules and effects that specifically mention phased-out permanents, a phased-out permanent is treated as though it does not exist. It can’t affect or be affected by anything else in the game. A permanent that phases out is removed from combat. (See rule 506.4.)
+
+The Ring-bearer rules don't mention phasing, so 701.52a is unable to remove the designation while the Ring-bearer is phased out.
+So the question is: Can a phased out permanent stop being the Ring-bearer, and what is the rules justification for it?
+
+A:
+
+Yes, a phased out permanent can stop being the Ring-bearer.
+Rule 701.52a says (with my emphasis):
+
+Certain spells and abilities have the text “the Ring tempts you.” Each time the Ring tempts you, choose a creature you control. That creature becomes your Ring-bearer until another creature becomes your Ring-bearer or another player gains control of it.
+
+Then rule 702.26f says (with my emphasis):
+
+Continuous effects that affect a phased-out permanent may expire while that permanent is phased out. If so, they will no longer affect that permanent once it’s phased in. In particular, effects with “for as long as” durations that track that permanent (see rule 611.2b) end when that permanent phases out because they can no longer see it.
+
+Technically, the part of the rule that makes a creature a Ring-bearer is not a continuous effect as defined in rule 611.1:
+
+A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+
+However, rule 702.26f establishes that something with a duration that affects a permanent can expire while the permanent is phased out, and that thing then does not affect that permanent after it phases in. There is no contradiction with rule 702.26b here, because the Ring-bearer rule is not directly acting on the phased-out permanent. Instead, it is only ceasing an existing action that was originally taken on a phased-in permanent.
+

@@ -1,0 +1,17 @@
+Q:
+
+How does Myr Welder interact with Prototype Portal?
+
+Lets say I have a Myr Welder on the battlefield. Within graveyards, there happens to be aPrototype Portal and a Sol Ring. Across the next few turns, I Imprint both Prototype Portal and Sol Ring onto my Myr Welder. From there, I activate the Imprinted Prototype Portal ability. What happens?
+My guess is that I must pay 5 mana and it will create a Prototype Portal AND a Sol Ring, but I know not the rulings that would lead to that conclusion. I have tried reading the page on Imprint and gatherer rulings for Myr Welder, but I did not fully understand what I was reading nor did I think I found the answer I needed.
+
+A:
+
+You cannot activate the ability from Prototype Portal because that ability is linked to Prototype Portal's first ability, so cards exiled in any other way don't count. Linked abilities in general are described in rules section 607, and the specific kind of abilities on Myr Welder and Prototype Portal are described in rule 607.2a:
+
+If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+In addition, one of the Gatherer rulings on Mairsil, the Pretender addresses this situation:
+
+If Mairsil gains an activated ability that’s normally linked to a non-activated ability of the card it came from, the ability Mairsil has isn’t linked to any ability. For example, if Mairsil exiles Prototype Portal, the activated ability creates no tokens at all; it doesn’t create Prototype Portal tokens.
+

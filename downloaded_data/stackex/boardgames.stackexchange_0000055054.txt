@@ -1,0 +1,39 @@
+Q:
+
+How do the replacement effects from Xorn and Academy Manufactor interact?
+
+Xorn and Academy Manufactor are both on the battlefield. I cast Thraben Inspector. How many of what tokens do I get?
+I see three possible options:
+
+one clue, one food, one treasure.
+one clue, one food, two treasures.
+two clues, two foods, two treasures.
+
+I guess the question really is, do the replacement effects "see" each other? I assume they do, but can't find a precise answer on the interwebs.
+
+A:
+
+The short answer is #2: A food, a clue and two treasures.
+Dealing with multiple replacement effects is covered by rule 616.1:
+
+616.1 If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the
+affected object’s controller (or its owner if it has no controller) or
+the affected player chooses one to apply, following the steps listed
+below. If two or more players have to make these choices at the same
+time, choices are made in APNAP order (see rule 101.4).
+...
+616.1d Any of the applicable replacement and/or prevention effects may be chosen.
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects
+that would now be applicable) until there are no more left to apply.
+616.1f While following the steps in 616.1a–d, one replacement or prevention effect may apply to an event, and another may apply to an
+event contained within the first event. In this case, the second
+effect can’t be chosen until after the first effect has been chosen.
+
+Since investigating makes a clue, the only replacement effect you can apply initially is the Manufactor's, giving you a clue, a treasure and a food.  Then you can apply Xorn's effect, giving you a clue, 2 treasures and a food.
+It doesn't happen repeatedly because of rule 614.5:
+
+614.5 A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
+So once you've used Manufactor's replacement effect on the investigate event, you can't use it again on that same investigate event.
+Xorn's additional treasure is still part of the same modified event that Manufactor has already modified, so it can't modify it again even if there are more things it could theoretically replace. Rule 614.5 has this example on it "A player controls two permanents, each with an ability that reads “If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.” A creature that normally deals 2 damage will deal 8 damage—not just 4, and not an infinite amount."
+

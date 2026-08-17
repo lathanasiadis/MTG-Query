@@ -1,0 +1,13 @@
+Q:
+
+Can Teysa, Orzhov Scion sacrifice itself and still use its 2nd ability?
+
+What happens if I sacrifice Teysa, Orzhov Scion along with two other "white and black" creatures (in order to remove another creature from the game) - do I still get my 2 spirit tokens from the other two sacrificed white and black creatures, even though Teysa as well was sacrificed at the same time?
+Or is it that when Teysa is sacrificed along with the other two, its 2nd ability doesn't count anymore?
+
+A:
+
+You will still get the 2 spirit tokens. This is because when creatures die (are put into the graveyard from the battlefield), the game checks what the state of things was just prior to the creatures leaving the battlefield to see if there is anything that needs to trigger.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger. 
+

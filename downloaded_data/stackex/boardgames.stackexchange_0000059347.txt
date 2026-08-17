@@ -1,0 +1,22 @@
+Q:
+
+When casting a spell that lets you distribute X +1/+1 counters among creatures you control, how do you submit less than X creatures?
+
+I cast Stolen Goodies, the adventure half of Picnic Ruiner:
+
+Distribute three +1/+1 counters among any number of target creatures you control.
+
+I controlled three creatures, but I only wanted to add counters to two of them. I selected the two creatures, but clicking submit did nothing. I spent most of my timeouts trying to submit the two creatures before I gave up and clicked the third, which automatically submitted all three.
+The next part of the spell was to determine how many counters to put on each creature. It automatically started each creature with 1, and clicking the down arrow wouldn't let me decrement it to zero, so I was forced to give each creature one.
+What am I missing here? Is it a bug, or did I just not understand how to use the interface?
+UPDATE:
+I played a bot match to recreate the scenario, and clicking the orange submit button with only two creatures highlighted does select the two creatures. I have to assume that I experienced a bug earlier. I accepted Hackworth's answer because he explains why I couldn't add zero counters to a creature I had selected.
+
+A:
+
+I could not reproduce your first issue. The second issue works correctly as per the rules.
+I could submit 1, 2, or 3 creatures at will and distribute the counters among them. You may want to submit that issue as a bug regardless.
+The second issue, that you could not decrease the number of counters to zero on any of the chosen creatures, was not a bug but a correctly implemented rule:
+
+601.2d If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
+

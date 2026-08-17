@@ -1,0 +1,49 @@
+Q:
+
+Athreos, God of Passage and Gift of Immortality
+
+With Gift of Immortality, if a creature is destroyed, it is returned to the battlefield and then at the next end phase Gift of Immortality is returned onto the creature.
+With Athreos, God of Passage, when a creature dies an opponent can choose for it to return to my hand or they lose three health.
+If when my monster equipped with Gift of Immortality dies, would Athreos' effect trigger, and if it does and they decide to return the card to your hand does it go to your hand because of Athroes or does it return to the battlefield because of Gift of Immortality?
+
+A:
+
+We're dealing with two triggered abilities here that trigger upon death and move the card around:
+
+Gift of Immortality's ability: When enchanted creature dies, return that card to the battlefield under its owner's control. Return Gift of Immortality to the battlefield attached to that creature at the beginning of the next end step.
+
+Movement: Graveyard → Battlefield
+
+Athreos, God of Passage's ability: Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
+
+Movement: Graveyard → Hand
+The important rules
+Both abilities attempt to move the card out of the same place. Because of rule 603.6, they're in a sort of race: the one to do the move first 'wins', whilst the other will fail to find the card in the graveyard and do nothing to it. Important part emphasised:
+
+603.6. Trigger events that involve objects changing zones are called "zone-change triggers." Many abilities with zone-change triggers attempt to do something to that object after it changes zones. During resolution, these abilities look for the object in the zone that it moved to. If the object is unable to be found in the zone it went to, the part of the ability attempting to do something to the object will fail to do anything. (ed: the rest snipped)
+
+From rule 603.3b, you get to define the order these two go on the stack, and thus you choose which one will resolve first and win the race.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order1, puts triggered abilities he or she controls on the stack in any order he or she chooses. (ed: the rest snipped)
+
+1 This refers to the "Active Player, Nonactive Player order" rule, defined in 104.4, and modified by 805.6 for teams. In short: the player/team whose turn it is puts their stuff on the stack, then the next player/team in turn order, and so on until everyone's done.
+Therefore: what happens depends on the order you choose.
+If you let Gift of Immortality resolve first...
+Put Athreos's ability on the stack first, and Gift of Immortality's ability last. They resolve in this order:
+
+Gift of Immortality's ability returns the card to the battlefield. Gift of Immortality will return attached to it later.
+Athreos's ability triggers. It will do nothing regardless of your opponent's choice, because it can't move the card.
+
+If you let Athreos's ability resolve first...
+Put Gift of Immortality's ability on first, and then Athreos's last. They resolve in this order:
+
+Athreos's ability offers your opponent a choice to pay 3 life, or do nothing.
+
+If they pay 3 life, the card stays in your graveyard. (They will probably not choose to do this, because it works out badly for them.)
+If they do not, it returns to your hand. (They will probably choose this.)
+
+Gift of Immortality's ability resolves.
+
+If the card's still in your graveyard, it moves to the battlefield, and Gift of Immortality will return attached to it later.
+If your opponent made it return to your hand, Gift of Immortality does nothing and becomes a benign card in your graveyard. It will not return from the graveyard even if you re-cast the card, because of rule 400.7: the newly summoned creature will be considered a new and different creature to the one the Gift of Immortality remembers. None of 400.7's exceptions apply here.
+

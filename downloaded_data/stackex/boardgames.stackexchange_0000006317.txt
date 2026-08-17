@@ -1,0 +1,13 @@
+Q:
+
+Am I forced to choose targets for "may" abilities?
+
+Lets say my opponent is attacking with Necropede and Phantasmal Dragon. There are no other creatures on the battlefield. I cast Doom Blade on the Necropede. Is my opponent forced to choose a target for Necropede's triggered ability even if he or she does/will not plan to put a -1/-1 counter on it?
+
+A:
+
+Regardless of whether or not the "may" ability is chosen by Necropede's controller, a target still must be chosen for Necropede's ability (assuming one exists).  Thus, Phantasmal Dragon will be chosen as a target and must be sacrificed, and Necropede's ability eventually fizzles.  See the following:
+
+603.5. Some triggered abilities’ effects are optional (they contain “may,” as in “At the beginning of your upkeep, you may draw a card”). These abilities go on the stack when they trigger, regardless of whether their controller intends to exercise the ability’s option or not. The choice is made when the ability resolves. Likewise, triggered abilities that have an effect “unless” something is true or a player chooses to do something will go on the stack normally; the “unless” part of the ability is dealt with when the ability resolves.
+114.1. Some spells and abilities require their controller to choose one or more targets for them. The targets are object(s), player(s), and/or zone(s) the spell or ability will affect. These targets are declared as part of the process of putting the spell or ability on the stack. The targets can’t be changed except by another spell or ability that explicitly says it can do so.
+

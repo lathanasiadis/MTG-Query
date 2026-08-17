@@ -1,0 +1,25 @@
+Q:
+
+Intentionally Not Announcing Triggered Abilities Until Just Before They Would Be Considered Missed
+
+In Magic the Gathering, the Infraction Procedure Guide details what it means for the announcement of a player's triggered ability to be missed, as a function of what category of effect the triggered ability has.  Are players expected to try to announce triggered abilities they control at the time they are put onto the stack (or failing that, to announce them as soon as they remember to do so), even while they would not yet be considered missed?
+For example, if the active player attacks with Bear Cub while controlling Cathedral of War, is it permissible for them to intentionally neglect to mention that Cathedral of War has been put onto the stack and resolved, in hopes that the non-active player will block the Bear Cub with a 2/3 in an attempt to destroy it, or would this warrant a UC-Cheating investigation for the active player if their intentions were known?  Suppose that the players have been articulating phases and steps carefully, so that we need not complicate the question with considerations of out-of-order sequencing/take backs/etc.  Does the analysis of when a triggered ability is missed define only when the controlling player is to be excused for unintentionally neglecting to announce it without penalty, or does it also allow the controlling player to intentionally neglect to announce the triggered ability until that time for strategic purposes?
+Finally, does it make a difference if the rule "a player who makes a play that may or may not be legal depending on whether an uncommunicated opponent’s trigger has been remembered has not committed an infraction; their play either succeeds, confirming that the trigger has been missed, or is rewound" enters the picture?  For example, in a similar scenario where the active player controls a triggered ability, are they allowed to strategically neglect to announce it if their strategy involves the non-active player performing an action that the active player knows to be illegal (but the non-active player could not know to be illegal without knowing that the trigger had been resolved already)?
+
+A:
+
+This would not qualify as cheating.
+In the example, Tower of War's Exalted trigger creates a continuous effect that modifies Bear Cub's power and toughness. These are not visible changes, so they are covered by the following part of the Missed Trigger section of the IPG:
+
+A triggered ability that affects the game state in non-visible ways: The controller must make the change known by the first time the change has an effect on the visible game state.
+
+Visible game state includes creatures moving between zones and life totals changing, so in most cases the player must announce it if it affects the result of combat. However, if for example the creature is blocked by a 1/1, or a 4/4, the outcome of combat does not depend on the exalted trigger, so the player would never need to announce it.
+The "Philosophy" part of the Missed Triggers section says this
+
+Triggered abilities are assumed to be remembered until otherwise indicated, and the impact on the game state may not be immediately apparent.
+
+In general, each player is responsible for being aware of the full game state, and they can ask questions or examine individual cards to make sure of it. If one player fails to account for another player's trigger, that is their own responsibility.
+The part about illegal actions doesn't change anything here because that section already indicates that a player that commits an illegal action in this way should not be penalized.
+
+One important assumption in this answer is that the board state is clear, and both players have easy access to the information about the triggered ability. If a player obfuscates the board state, such as by keeping a Cathedral of War together with other lands so that the opponent doesn't notice that it has another ability, then that would be a Communication Policy Violation. In that case intentionally not announcing the trigger could make the obfuscation look deliberate, which could result in an increased penalty.
+

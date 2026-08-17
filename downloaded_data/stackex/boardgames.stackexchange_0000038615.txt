@@ -1,0 +1,27 @@
+Q:
+
+Activating Field of Ruin's ability without a target
+
+The activated ability of Field of Ruin states:
+
+Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.
+
+Can I use this ability to make all players search out a basic land card even if the first part has no valid target, for example because there is no nonbasic land to destroy?
+I am assuming the period matters, and the next section is a different effect that is not contigent upon the first resolving.
+
+A:
+
+No, you won't be able to do that.
+Abilities aren't split into parts by colons, or anything of the sort. They have an activation cost, and everything behind it is one block of effect text that is to be treated as a single entity:
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+The rules for activating abilities are identical to the rules for casting spells:
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell (...). Those rules apply to activating an ability just as they apply to casting a spell. (...).
+
+And just like for spells, you can't activate them without declaring the maximum number of possible targets - in this case, one.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast (...)
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. (...) If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player can't be chosen as a target. (...)
+

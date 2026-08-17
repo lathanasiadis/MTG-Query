@@ -1,0 +1,19 @@
+Q:
+
+Will Karlov get multiple +1/+1 counters with Soul Warden when multiple tokens are created simultaneously?
+
+When I have Karlov of the Ghost Council and Soul Warden on the battlefield and I cast something like Lingering Souls, does Karlov get two +1/+1 counters twice since two spirits enter the battlefield or only once since I cast Lingering Souls once?
+The same thing applies to beautiful cards such as Conqueror's Pledge - does Karlov get two +1/+1 counters six times or only once?
+
+A:
+
+Soul Warden's ability reads:
+
+Whenever another creature enters the battlefield, you gain 1 life.
+
+When Lingering Souls resolves, there are two separate instances of "another creature" entering the battlefield, and so the ability triggers twice, and you gain 1 life twice in two separate events.  Thus, Karlov's ability will trigger twice, and he will gain four +1/+1 counters.  Likewise, using Conqueror's Pledge instead will net you 6 life and twelve counters.
+Compare rule 603.2c and its example:
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences. See also rule 509.4.
+Example: A permanent has an ability whose trigger condition reads, “Whenever a land is put into a graveyard from the battlefield, . . . .” If someone casts a spell that destroys all lands, the ability will trigger once for each land put into the graveyard during the spell’s resolution.
+

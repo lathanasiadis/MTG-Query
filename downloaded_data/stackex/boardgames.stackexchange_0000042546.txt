@@ -1,0 +1,16 @@
+Q:
+
+Do you lose the counters on Azor's Elocutors if it's returned to your hand?
+
+If Azor's Elocutors is returned to your hand do you lose your filibuster counters you had on it? I have tried to get this question answered before but no one is sure. 
+
+A:
+
+Yes, you lose the counters.
+
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+So the Elocutors that’s in your hand has nothing to do with the one you previously had on the battlefield.
+There is one card that overrides this rule: Skullbriar, the Walking Grave, but even that won’t keep counters in your hand. It really can’t, because the hand is a hidden zone. There would be no way of tracking which card it is that has the counters on it; keeping it separate from another card of the same name.
+

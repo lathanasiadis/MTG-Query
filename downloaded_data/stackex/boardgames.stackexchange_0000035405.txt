@@ -1,0 +1,36 @@
+Q:
+
+What is the difference between an "Effect" and an "Ability", and how do you identify one from the other?
+
+I know in Magic the Gathering that permanents (Creatures, Atrifacts, Enchantments, etc.) can have either Effects or Abilities that can change the game state in many ways (tap creatures, give a +1/+1 buff to all creatures etc.). There are also some cards that interact with others by modifying or removing their Abilities, such as Humility and Gift of Tusks, or cards that are triggered by being targeted by abilities like Cowardice. Through playing the game you can learn to kind of intuit which is which, but I would like to know what the actual definitions are.
+So the question is, what is an Ability and what is an Effect when it comes to Magic the Gathering?
+and more specifically,
+How can one quickly identify Ability from Effect during gameplay?
+
+A:
+
+BJ Myers' CR quote answers your question pretty well.
+An Ability is rules text on a card. With only a few exceptions, abilities all create effects.
+An Effect is either the result of a spell or ability being cast/activated/triggered (and then resolving), or is a "continuous effect", caused by abilities or spells (for example, see Glorious Anthem).
+There's more, though; Actions. Actions aren't effects, but they're still things that "happen". 
+
+Turn-based Actions happen at fixed points in the turn, and include you 
+untapping your permanents at the
+beginning of the turn, and declaring attackers/blockers. 
+State-based Actions are checked/executed every time a player would be
+given priority, and include removing creatures with lethal damage
+marked and losing the game.
+Special Actions are taken by players, and include playing lands and
+flipping morph creatures.
+
+Lastly, paying Costs. Aside from the obvious paying of mana, this includes tapping creatures for Convoke, the additional cost on Fling, or the exiling of cards on Grim Lavamancer's ability. Please note! Tapping lands/mana dorks to add mana to your pool is NOT paying a cost, even when you do it while casting a spell.
+Example One; I cast Fatal Push on my opponent's Goblin Guide. When it resolves, Fatal Push has the effect of destroying Goblin Guide.
+Example Two; I activate Grim Lavamancer's ability targeting a Goblin Guide, and it resolves. Here, an ability has been activated, and it's effect is dealing damage to the Goblin Guide. Then, as a state-based action, the game sees that Goblin Guide has lethal damage marked on it, and so it is destroyed. Note that Grim Lavamancer's ability didn't kill Goblin Guide; the action did.
+Example Three; My opponent casts Fling, targeting my Grim Lavamancer, sacrificing their own Goblin Guide. The spell Fling was cast, with the cost of sacrificing Goblin Guide, and the effect of dealing 2 damage to Grim Lavamancer. Just like example two, the game will see the damage marked on Grim Lavamancer and kill it as a state-based action.
+The distinction becomes important when cards look for "effects". The currently infamous example is the interaction between Kalitas, Traitor of Ghet and Anointed Procession.
+Kalitas has an ability that replaces "creature XYZ dies" with "creature XYZ is exiled and you get a 2/2 token". Anointed Procession's ability looks for effects that makes tokens, and doubles the number of tokens you get for them. Both of these abilities cause "replacement effects".
+So, let's modify our earlier examples. This time I also have Kalitas and Anointed Procession on the battlefield.:
+Example One; The spell Fatal Push has the "effect" of killing a creature. Kalitas replaces the effect "Goblin Guide dies" with "Goblin Guide gets exiled and I get a 2/2". Then, Anointed Procession sees the effect giving me a 2/2, and replaces it again, with "Goblin Guide gets exiled, and I get two 2/2s". Net Result: Goblin Guide is exiled and I create two 2/2 Zombie tokens
+Example Two; The ability of Grim Lavamancer has the "effect" of dealing 2 damage to Goblin Guide. Kalitas and Anointed Procession see nothing they can replace, so it occurs. The next time state-based actions are checked, the game sees that Goblin Guide is marked with lethal, and destroys it as a state-based action. Kalitas sees the action killing Goblin Guide, and replaces "Goblin Guide dies" with "Goblin Guide gets exiled and I get a 2/2". Anointed Procession doesn't see anything though, because the thing giving me a 2/2 is not an effect, it's an action. Net result: Goblin Guide is exiled, and I create one 2/2 Zombie token
+Example Three; My opponent casts Fling, sacrificing Goblin Guide. Kalitas sees the Goblin Guide dying, and replaces the effect "Goblin Guide dies" with "Goblin Guide gets exiled and I get a 2/2". Anointed Procession doesn't see this trigger though, because Goblin Guide wasn't killed by an effect, it was killed as part of a cost! Kalitas doesn't affect your own creatures, so the Grim Lavamancer dying will be unaffected when Fling resolves. Net result: Goblin Guide is exiled, and I create one 2/2 Zombie token. Fling has been cast
+

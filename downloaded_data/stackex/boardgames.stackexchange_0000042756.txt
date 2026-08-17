@@ -1,0 +1,19 @@
+Q:
+
+Precursor Golem + Saheeli's Artistry + non artifact golem
+
+Suppose I have a Precursor Golem and a non-artifact Golem, (let's say Moonglove Changeling) on the battlefield, and I target Precursor Golem with both modes of Saheeli's Artistry. What happens? The Changeling would be a valid target for half of the spell, but not the other half, so it's not clear to me whether it will be copied or not.
+
+A:
+
+The Saheeli's Artistry would not be copied to target a Moonglove Changeling.
+Rule 706.10 says
+
+To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. [...]
+
+and rule 706.10d says
+
+Some effects copy a spell or ability for each player or object it “could target.” The copies are put onto the stack with those targets in the order of their controller’s choice. If the spell or ability has more than one target, each of its targets must be the same player or object. If that player or object isn’t a legal target for each instance of the word “target,” a copy isn’t created for that player or object.
+
+Since the Moonglove Changeling isn't a valid choice for "target artifact", the copy of the spell is not created targeting it.
+

@@ -1,0 +1,25 @@
+Q:
+
+How does Confusion in the Ranks trigger itself upon entering the battlefield?
+
+Under the rulings for Confusion in the Ranks is this gem:
+
+12/1/2004
+Confusion in the Ranks triggers on itself entering the battlefield. If an opponent controls an enchantment, exchange Confusion in the Ranks for that enchantment.
+
+For some reason, I simply cannot wrap my brain around this.
+How does Confusion in the Ranks trigger itself when it comes into play?  I would have though that by the time it was already in play, it would be too late to trigger itself.
+Is there a particular ruling in the Comprehensive Rules that I'm just not seeing?
+
+A:
+
+Triggers look at the board state immediately after the spell resolves and moves from stack to battlefield.  The "event" is object of given type moved from stack (or other zone) to battlefield.  The state of the board is checked for triggers that see that event immediately after the event, and so there it is.  I guess there isn't really a better answer than, the comp rules say so, so here it is!
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters
+  the battlefield, . . . ” or “Whenever a [type] enters the battlefield,
+  . . .” Each time an event puts one or more permanents onto the
+  battlefield, all permanents on the battlefield (including the
+  newcomers) are checked for any enters-the-battlefield triggers that
+  match the event.
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions.
+

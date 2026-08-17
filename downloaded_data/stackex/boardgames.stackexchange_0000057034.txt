@@ -1,0 +1,37 @@
+Q:
+
+Ardenn, Intrepid Archaeologist with reconfigure
+
+I was curious what would happen if I tried to attach an equipped with reconfigure (like The Reality Chip) to a creature using the trigger from Ardenn, Intrepid Archaeologist.
+Would it attach since it is an equipment and if so would it still be a creature somehow?
+My best guess is that it would equip, but not be a creature just like when you'd reconfigure it, but I'm not sure.
+
+A:
+
+It will work. Any form of attach will work with creature equipment.
+This question has been answered by Jess Dunks on Twitter in reference to Sigarda's Aid, but the answer covered anything that attaches equipment. Jess is the General Rules Manager for Wizards of the Coast:
+
+Does Reconfigure have a static ability of "While attached, this isn't a creature" as implied by the reminder text? If so, does attaching The Reality Chip with Sigarda's Aid cause it to stop being a creature and stay attached?
+
+Yes, Sigarda's Aid works with reconfigure! Any effect that attaches a creature with reconfigure to another creature will cause it it to stop being a creature until it becomes unattached. This isn't technically a static ability, just part of the rules for reconfigure.
+
+Jess also answered a followup question about the 0 cost equip granted by Puresteel Paladin
+
+I have a follow up question. As the Reality Chip has Equipment typing, does that mean it can be equipped for 0 by Puresteel Paladin since Puresteel grants an alternative cost? Meanwhile, Bruenor Battlehammer's ability would not work (as it doesn't have an equip cost)?
+
+You have interpreted both of those results correctly, although to be very technical Puresteel Paladin grants a separate equip ability, not an alternative cost.
+
+While we haven't seen the official rules text coming to the CR update yet, this official source answer indicates that no matter how a creature equipment is attached to a creature, it will lose creature as long as it is attached, not only if done with its own reconfigure ability.
+
+Now that the set is out we have the relevant rules, 702.151 is the section on reconfigure:
+
+702.151 Reconfigure
+
+702.151a Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a
+sorcery.”
+702.151b Attaching an Equipment with reconfigure to another creature causes the Equipment to stop being a creature until it becomes unattached from that creature
+
+And there is a reference in 301.5, the equipment section of the rules for artifacts:
+
+301.5c An Equipment that’s also a creature can’t equip a creature unless that Equipment has reconfigure (see rule 702.151, “Reconfigure”). An Equipment that loses the subtype “Equipment” can’t equip a creature. An Equipment can’t equip itself. An Equipment that equips an illegal or nonexistent permanent becomes unattached from that permanent but remains on the battlefield. (This is a state-based action. See rule 704.) An Equipment can’t equip more than one creature. If a spell or ability would cause an Equipment to equip more than one creature, the Equipment’s controller chooses which creature it equips.
+

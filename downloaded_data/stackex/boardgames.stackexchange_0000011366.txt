@@ -1,0 +1,21 @@
+Q:
+
+Can non basic lands be tapped for colorless mana?
+
+For example, Evolving Wilds has a mana fixing ability, but it doesn't say you can tap it for mana. Other non-basic lands have a mana ability listed on the card. Should I assume that Evolving Winds cannot be tapped for mana?
+Basic lands don't have mana tapping abilities listed, but are assumed you can tap them for mana of the color they represent.
+
+A:
+
+No, you cannot tap non-basics for mana unless they have an ability that specifically says otherwise.
+Basic lands are handled with a special case in the rules:
+
+305.6 The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring
+  to one of these subtypes. A land with a basic land type has an
+  intrinsic ability to produce colored mana. (See rule 406, “Mana
+  Abilities.”) The land is treated as if its text box included,
+  “Tap.gif: Add [mana symbol] to your mana pool,” even if the text box
+  doesn’t actually contain text or the card has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}, for Mountains, {R}, and for Forests, {G}. See rule 107.4a. Also see rule 605, "Mana Abilities."
+
+http://wiki.mtgsalvation.com/article/Basic
+

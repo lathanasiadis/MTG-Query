@@ -1,0 +1,16 @@
+Q:
+
+Does the Heliod / Walking Ballista combo work with a 1/1 Ballista?
+
+I'm playing the Heliod, Sun-Crowned & Walking Ballista combo where Heliod is able to give +1/+1 to Walking Ballista when I gain life:
+
+Whenever you gain life, put a +1/+1 counter on target creature or enchantment you control.
+
+If my Walking Ballista only has one +1/+1 counter and I use its ability to target an opponent player, does the lifelink and consequent +1/+1 counter from Heliod save the Ballista from dying?
+
+A:
+
+No, it won't save Walking Ballista from dying. You have first to pay the cost "Remove a +1/+1 counter from Walking Ballista", and as soon as the ability goes on the stack, you regain priority and State-Based Actions are checked. Walking Ballista dies because of:
+
+[704.5f] If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+

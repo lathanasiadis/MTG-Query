@@ -1,0 +1,25 @@
+Q:
+
+Contaminated Ground vs. Blink of an Eye
+
+I have a tough ruling I need some help with: On my opponent's turn he played Contaminated Ground on my Island. I tapped that Island for blue mana in response. I then wanted to let the stack resolve and cast Blink of an Eye on Contaminated Ground before the end of the step. Rule 500.2 is what makes me believe this is possible. His sense is that after we both pass priority, the step ends and I won't have the mana to cast the spell. What's the actual ruling here?
+
+A:
+
+Yes, you will be able to cast Blink of an Eye in that sequence. The current step/phase does end when both players pass in succession, but whenever a spell or ability resolves, both players again receive priority, starting with the active player.
+The stack resolves one object at a time. After each resolution, there is a new round of priority that each player has to pass before the next object resolves or, when the stack is empty, the step/phase ends. Rule 500.2 also mentions this.
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+500.2. A phase or step in which players receive priority ends when the stack is empty and all players pass in succession. Simply having the stack become empty doesn’t cause such a phase or step to end; all players have to pass in succession with the stack empty. Because of this, each player gets a chance to add new things to the stack before that phase or step ends.
+
+So the sequence of play is:
+
+Your opponent casts Contaminated Ground and retains priority because of 116.3c.
+Opponent passes, and you tap the island for mana; this action doesn't use stack because it's a mana ability. Then you pass.
+Contaminated Ground resolves and turns your tapped Island into a Swamp. You have {U} in your mana pool. Your opponent receives priority because of 116.3b
+Your opponent passes priority to you. You play Blink of an Eye targeting Contaminated Ground. You retain priority because of 116.3c
+Both players pass, Blink resolves, and your opponent gains priority.
+Your opponent could for example cast Contaminated Ground again, or pass priority.
+When both players pass with the stack empty, the game advances to the next step/phase.
+

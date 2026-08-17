@@ -1,0 +1,26 @@
+Q:
+
+On-attack triggers and removal for attacking or tapped creatures
+
+My opponent controls creatures with on-attack triggers (e.g. Ulamog, the Infinity Gyre with its Annihilator trigger or Edgar Markov with its buff trigger).
+I have in my hand instant-speed removal that is concerned with (or targets) attacking or tapped creatures (e.g. Settle the Wreckage or Seal Away).
+My opponent attacks me with said creature(s). I think it goes as follows:
+
+my opponent declares attacks
+the creatures become "tapped" and "attacking", at the same time the on-attack triggers enter the stack
+Case 1: I cast Settle the Wreckage, nothing else happens, the creatures are exiled and their triggers leave the stack, everything else resolves.
+Case 2: I cast Seal Away, nothing else happens, the targeted creature is exiled, its triggers leave the stack, everything else resolves.
+
+Is that correct? Or do the on-attack triggers somehow come together with the attack before I get priority?
+
+A:
+
+their triggers leave the stack
+
+That's where your reasoning goes wrong. Once an ability is on the stack, it's 'separated' from the original object:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Pyromancer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it's expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+(Emphasis mine)
+Removing the source of the ability does not help countering the ability or removing it from the stack. You'd have to remove the player (see rule 800.4a) for something like this to happen. Of course, you can counter the abilities with cards like Stifle because you do get priority before they resolve.
+

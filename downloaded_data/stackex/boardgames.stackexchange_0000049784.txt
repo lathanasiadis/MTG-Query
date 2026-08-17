@@ -1,0 +1,22 @@
+Q:
+
+Is it still possible to assign combat damage, and return the creature back to its owner's hand?
+
+Since, in 2010, there have been changes in the rules, I would like to ask if what I'm reporting here – although fairly trivial – is still a possible action.
+If, during a combat phase, Savannah Lions is blocked by Whirlwind Adept, and therefore the latter suffered lethal damage, is it still possible to take it back to the owner's hand - for example, with an Unsummon - but after it has still dealt its amount of damage to the other creature?
+I ask this question because I know that the damage no longer goes on the stack, and the thing matters in lots of situations. 
+I must say that I have not understood well if this can concern even a seemingly simple case like this.
+So I wonder if, since I intend to assign Whirlwind Adept damage to Lions, but save the blocking creature too, you can cast an instant as Unsummon to still deal damage to the other creature, and - immediately after this - take the creature back into your hand before the Status Based Actions kill it.
+
+A:
+
+Yes, this is exactly one of the tricks which is no longer possible after the Magic 2010 rules changes (scroll down to 5) Combat Damage No Longer Uses the Stack). It's even mentioned explicitly:
+
+How can you Unsummon your creature and have it still deal damage?
+
+This didn't really make sense from a flavor perspective, and therefore they've fixed it:
+
+The Fix: As soon as damage is assigned in the combat damage step, it is dealt. There is no time to cast spells and activate abilities in between; the last time to do so prior to damage being dealt is during the declare blockers step.
+
+So you either have to Unsummon your creature before damage is assigned (but then the other creature survives as well) or both of them will die.
+

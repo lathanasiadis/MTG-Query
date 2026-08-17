@@ -1,0 +1,117 @@
+Q:
+
+MTG Cards that interact with each other by name
+
+So I know that Bogbrew Witch, Festering Newt and Bubbling Cauldron all name each other in their rules text and I was wondering if there are any other cards that do this as well. How can I find more cards like that? (A list would certainly be useful, but how to find them would be even more useful.)
+
+A:
+
+Creating a search query that returns all cards that reference other cards, without having false positives or false negatives is difficult, but I will show the kinds of things to search for to find some of them. All of these queries are using MagicCards.info
+
+o:named
+
+This is the most basic one, it searches for all cards with "named" in their card text. This generates a lot of false positives, mostly cards that refer to themselves like Accumulated Knowledge, cards that have someone name a card like Booby Trap, or ones that create tokens with names like Boris Devilboon.
+This part is always required, and will be left out of future queries for brevity.
+
+-o:~
+
+This removes any cards that have their own name in the text box. This creates some false negatives from things like Diligent Farmhand, but also removes a large number of false positives (It removes about 100 cards from the results).
+
+-o:"name a card"
+
+This removes any cards that have the text "name a card" in the text box. I don't think this creates any false negatives, but doesn't remove that many cards from the result (less than 20).
+
+-o:"token named"
+
+This removes any cards that have the text "token named" in their text box. Note that this only removes things with vanilla tokens (ie ones with no abilities), ones that have abilities like Wirefly Hive will still show up. It also removes the Helm of Kaldra since it produces a Kaldra token.
+Combining all of these into (with -is:silver-bordered to remove Un-cards)
+
+o:named  -o:~ -o:"name a card" -o:"names a card" -o:"token named" -is:silver-bordered
+
+We get a list of 18 cards, 3 are false positives, and several cards like the Helm of Kaldra that don't show up, but it gives you a starting place to work from.
+
+The Unspeakable
+
+Sift Through Sands
+Peer Through Depths
+Reach Through Mists
+The Unspeakable
+
+Kaldra
+
+Helm of Kaldra
+Shield of Kaldra
+Sword of Kaldra
+
+Nissa
+
+Nissa Revane
+Nissa's Chosen
+
+Empire Artifacts
+
+Crown of Empires
+Scepter of Empires
+Throne of Empires
+
+Spiders
+
+Arachnus Spinner
+Arachnus Web
+
+Scion of Darkness
+
+Dark Supplicant
+Scion of Darkness
+
+Spirit of Night
+
+Urborg Panther
+Feral Shadow
+Breathstealer
+Spirit of the Night
+
+Viashivan Dragon
+
+Kyscu Drake
+Spitting Drake
+Viashivan Dragon
+
+Alternate Timeline Weapon-makers
+
+Renowned Weaponsmith
+Heart-Piercer Bow
+Vial of Dragonfire
+
+Bant Angel
+
+Angels' Herald
+Empyrial Archangel
+
+Esper Sphinx
+
+Sphinx's Herald
+Sphinx Sovereign
+
+Grixis Demon
+
+Demon's Herald
+Prince of Thralls
+
+Jund Dragon
+
+Dragon's Herald
+Hellkite Overlord
+
+Naya Beast
+
+Behemoth's Herald
+Godsire
+
+Bursts
+
+Muscle Burst
+Diligent Farmhand
+Flame Burst
+Pardic Firecat
+

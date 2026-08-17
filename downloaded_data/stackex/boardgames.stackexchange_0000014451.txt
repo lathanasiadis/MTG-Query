@@ -1,0 +1,29 @@
+Q:
+
+Auras on creatures with protection
+
+I have a question about a new Born of the Gods card.  The card is called Silent Sentinel.  It has the text that says:
+
+Whenever Silent Sentinel attacks, you may return target enchantment
+card from your graveyard to the battlefield.
+
+I was listening to podcast Limited Resources episode 218 with Judge Joe Bono.  In that episode he says that Silent Sentinel could attach a Enchantment Aura to a creature that was protected from the color of the aura.  He then says that it would just drop off immediately. (This was right around the 1 hour mark in the show.)
+I got to thinking about this and I wondered if any of the effects of the Enchantment would have any effect before they dropped off.
+Here is an example to illustrate: My opponent has a White Knight in play. I have a Silent Sentinel in play along with 7 Swamps.  I have a Quag Sickness in my graveyard.
+In my combat phase, I attack with my Silent Sentinel.  This allows me to bring back a Quag Sickness from my graveyard.  I attach Quag Sickness to the White Knight.  (Note: Because bringing an aura back with Silent Sentinel it does not require targeting to attach it.  So it can attach to White Knight despite it having protection from Black).
+Now the arua will fall off right away, but before it falls off does any of the effects of it do anything?  (Meaning could it kill the White Knight.)
+If the Quag Sickness in this example does not do anything, is there a scenario that would?
+
+A:
+
+The Quag Sickness cannot be returned to the battlefield enchanting the White Knight.
+The relevant rule about Protection, 702.16c, says
+
+A permanent or player with protection can’t be enchanted by Auras that have the stated quality.
+
+and the relevant rule about Auras, 303.4f, says
+
+If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+This means that, since White Knight has protection from black and Quag Sickness is black, White Knight is not a legal object according to "other applicable effects".
+

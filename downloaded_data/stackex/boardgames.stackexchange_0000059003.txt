@@ -1,0 +1,25 @@
+Q:
+
+Replacement Effects Modifying Non-Effects
+
+In this video, it is explained that replacement effects do not transform non-effects into effects; an event such as a turn draw modified by a replacement effect is still a turn based action, not an effect.  This is in concord with the definition of replacement effects.
+However, this seems to contradict CR 614.16, which states that...
+
+Some replacement effects apply “if an effect would create one or more tokens” or “if an effect would put one or more counters on a permanent.” These replacement effects apply if the effect of a resolving spell or ability creates a token or puts a counter on a permanent, and they also apply if another replacement or prevention effect does so, even if the original event being modified wasn’t itself an effect.
+
+I would have expected such replacement effects to apply if and only if the original event being modified was itself an effect.  What is the reason for this apparent discrepancy?  Is the information from the video outdated, or is the CR quote a thing which literally only applies to token and counter creation because Wizards says so?
+
+A:
+
+There is no contradiction, and there is only apparently a contradiction because you paraphrased the statements that were made in the video you linked in ways that substantially changed their meaning. In particular, the video makes no reference to "effects", and that word is critical to the application of rule 614.16.
+The statements actually made in the video are accurate. To be specific, starting at the linked timestamp, the person in the video says
+
+Amy activates Words of Worship during her upkeep, and then goes to draw a card for her turn, while Nick controls Rain of Gore. What happens? So, in this case, it's just like with the lifelink example. Even though the Words of Worship is the thing that's causing Amy to have the instruction modified to become something that involves life gain, the Words of Worship isn't in fact causing Amy to gain life. Rather, what's happening is: there's a turn-based action in the game that makes Amy draw a card, and Words of Worship is modifying what happens as a result of this turn-based action in order to include some life gain. Rain of Gore is not going to kick in here, and that's because it only cares if a spell or ability Amy controls is going to cause her to gain life. In this case, there's a turn-based action that's causing Amy to gain life. And the fact that an ability Amy controls resulted in that turn-based action being modified to include some life gain, well, that's immaterial. The game doesn't care about that, because that's not the actual thing that's causing her to gain life. The thing that's causing her to gain life is the turn-based action, and therefore Rain of Gore cannot affect this event.
+
+For reference, Rain of Gore has the following text:
+
+If a spell or ability would cause its controller to gain life, that player loses that much life instead.
+
+Notably, the text of this replacement effect specifically checks whether the event is caused by a spell or ability. As the video describes, in a situation where an event that is not caused by a spell or ability is modified to include life gain, Rain of Gore cannot effect it.
+Rule 614.16 has no relevance to that example. As the first sentence of that rule indicates, it is only relevant to replacement effects that apply "if an effect would create one or more tokens" or "if an effect would put one or more counters on a permanent". There are only three cards that that rule applies to directly: Anointed Procession, Doubling Season, and Parallel Lives.
+

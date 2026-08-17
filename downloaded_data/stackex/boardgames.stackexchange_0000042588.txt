@@ -1,0 +1,28 @@
+Q:
+
+Is a vehicle still a vehicle if it's no longer an artifact?
+
+Let's pretend I have a vehicle (say, Smuggler's Copter) enchanted with a Siege Modification. This vehicle creature has not been crewed this turn. I also control a Neurok Transmuter and activate the second ability of the Transmuter, targeting the Copter.
+The Copter is a creature due to the Modification.  
+
+As long as enchanted permanent is a Vehicle, it’s a creature in addition to its other types.
+
+The Transmuter takes being an artifact away.
+
+Until end of turn, target artifact creature becomes blue and isn’t an artifact.
+
+Is the Copter still have the Vehicle type and therefore is a 6/3 blue creature? Or does not being an artifact mean not being a Vehicle, and therefore, the Copter is a blue permanent with no types, and the Modification falls off?
+
+A:
+
+The Smuggler's Copter will stop being a vehicle and a creature, and the Siege Modification will fall off.
+Rule 205.3g says
+
+Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).
+
+And rule 205.1a says
+
+Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+Once the artifact type is removed from the Smuggler's Copter, the vehicle subtype is no longer correlated with any of its remaining types, so the Vehicle subtype is removed for as long as the artifact type is removed. This means that Siege Modification's ability that makes the Copter a creature is no longer active, so it will also not be a creature. Since it is at that point neither a creature nor a vehicle, Siege Modification is not legally attached to it, so Siege Modification will go to the graveyard. Smuggler's Copter ends up as a typeless blue permanent.
+

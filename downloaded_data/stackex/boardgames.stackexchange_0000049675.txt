@@ -1,0 +1,16 @@
+Q:
+
+Can I cast an instant or activate an ability between "whenever a creature dies" triggers, if the creatures die at the same time?
+
+Let's say I'm playing Dark Prophecy, which has an ability which states
+
+Whenever a creature you control dies, you draw a card and you lose 1 life.
+
+and I have a Naturalize in my hand.
+Suppose I'm attacked, and lose 2 creatures in combat. Because of the combat damage I'll be taking, I can't afford to lose 2 extra life, but I can lose 1, and want the card draw. Can I cast Naturalize after letting it trigger just once, and destroy my own Dark Prophecy before it kills me?
+
+A:
+
+No, you cannot. 
+Creatures die as a state-based action, which means they all die at the same time. This means the triggers from Dark Prophecy go on the stack at the same time. Since these all occur as part of the state-based actions, you can't "interrupt" the placing of the triggers on the stack and either you will get 2 triggers of Dark Prophecy or 0, depending on when you cast Naturalize.
+

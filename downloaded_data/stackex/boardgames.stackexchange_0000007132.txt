@@ -1,0 +1,22 @@
+Q:
+
+Can a creature with protection from all colors be targetted with a damage spell when it is still on the stack?
+
+A friend of mine casts a card that has protection from all colors.
+I know that I can counter it, but can I simply kill it by dealing damage to it while it is on the stack?
+
+A:
+
+NO, you cannot.
+From the comprehensive rules:
+
+302. Creatures
+302.1. A player who has priority may cast a creature card from his or her hand during a main phase of his or her turn when the stack is empty. Casting a creature as a spell uses the stack. (See rule 601, "Casting Spells.")
+302.2. When a creature spell resolves, its controller puts it onto the battlefield under his or her control.
+
+Only when the spell resolves is the creature actually on the battlefield. You can counter it, because while on the stack that creature isn't actually a "creature" but a "creature spell".
+
+114.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can't exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+You can only damage a creature when it is already on the battlefield. Because that creature has protection from all colors, you cannot target it or deal damage to it with colored spells.
+

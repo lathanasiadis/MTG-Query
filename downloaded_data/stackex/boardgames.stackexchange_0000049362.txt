@@ -1,0 +1,12 @@
+Q:
+
+Am I allowed to have a creature have 0 toughness, but still assign combat damage?
+
+So basically, I have this card called Metropolis Sprite, and I was wondering, after blockers are declared, right before combat, can I use the ability multiple times to make it say a 3/0 or 4/-1 and have it still do damage, but die after?
+
+A:
+
+No
+You can activate Metropolis Sprite's ability one or more times before combat damage is dealt. However, after each use of the ability resolves (before damage is dealt), state based actions will be checked. When this happens the game will look to see if Metropolis Sprite has more that 0 toughness. If it doesn't, it will be put into the graveyard. Then, combat damage will be dealt. If Metropolis Sprite isn't on the battlefield at this point, it won't deal any damage.
+Similarly, if Metropolis Sprite is at 0 toughness (perhaps from a prior use of it's ability), there won't be a moment for you to activate its ability again. (IE, it's impossible to get Metropolis sprite to 4/-1 with just the creature's ability.)
+

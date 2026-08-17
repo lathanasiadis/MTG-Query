@@ -1,0 +1,21 @@
+Q:
+
+Can I activate an ability if that ability has no legal targets?
+
+If an opponent gains control of my turn using Cruel Entertainment could they spend all my mana on Phyrexian Reclamation if I don't have any creatures in my graveyard?
+
+A:
+
+The rulings on Cruel Entertainment state:
+
+While controlling another player, the controlling player makes all choices and decisions that the player being controlled is allowed to make or is told to make during that turn. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by a triggered ability or anything else.
+The controlling player can’t make any illegal decisions or illegal choices—that player can’t do anything that the player being controlled couldn’t do. The controlling player can’t make choices or decisions for that player that aren’t called for by the game rules or by any cards, permanents, spells, abilities, and so on.
+
+So it comes down to whether, if it were a normal turn, the player could choose to activate Phrexian Reclamation's ability despite there being no legal targets.
+Well, the comprehensive rules state that:
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 720, “Handling Illegal Actions”).
+
+Then it goes on to say that as part of activating the ability, the ability's controller must choose all relevant targets. Thus, if there are no legal targets for the ability, it is illegal to activate the ability and the game reverts back to the point just before the controlling player tried to activate it.
+However, suppose there is one legal target (i.e. creature in the active player's graveyard). Then the controlling player could activate the ability, paying the appropriate cost. Before it resolves, they can then activate the ability again, targeting the same creature (since it's a new instance of the ability, and the creature is still in the graveyard). They can then keep doing that as long as they have the mana/life to do so. Then, the topmost copy of the ability on the stack will resolve, putting that creature in the player's hand. All other copies of the ability will then try to resolve, but since their target is no longer legal, they will be countered with no effect - except that the mana and life used to pay the cost is gone.
+

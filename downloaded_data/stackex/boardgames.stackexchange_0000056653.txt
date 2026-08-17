@@ -1,0 +1,21 @@
+Q:
+
+Does the 'Disturb' keyword (and the transformed effect therein) interact with card effects that reduce the casting cost of spells?
+
+For example: I have Urza's Incubator on the table, and I declare Spirits as my creature type.
+I then want to cast Mirrorhall Mimic (A spirit creature) from my graveyard for its Disturb cost which reads: "You may cast this card from your graveyard transformed for its Disturb cost". In isolation, this would have it's spell cost reduced.
+What enters the battlefield however, is an Enchantment called Ghastly Mimicry, which would not be impacted by the spell cost reduction.
+Rule 712.7 states:
+
+If a transforming double-faced card is cast as a spell, it’s put on the stack with its front face up by default. If a transforming double-faced card is cast “transformed,” it’s put on the stack with its back face up.
+
+What I don't fully understand is this: The enchantment doesn't have a casting cost printed on it, so am I or am I not casting a Spirit creature that then transforms in to an enchantment and who's cost is reduced by the effect of Urza's Incubator.
+
+A:
+
+Even though there is no casting cost printed on the back (meaning it would normally be un-castable), you are still actually casting the back.
+First the spell goes on the stack (transformed).  Then you determine the cost.  Normally it would be impossible to cast since no cost is printed, but in this case, the cost is the disturb alternative casting cost.
+Since you are actually casting the back side, it is now an enchantment aura and so cost reductions for Spirit creatures do not apply.  Also, since you are applying one alternative cost, you can't apply any other alternative costs (e.g. "cast without paying any mana").
+
+When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+

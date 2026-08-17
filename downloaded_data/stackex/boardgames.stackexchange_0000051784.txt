@@ -1,0 +1,23 @@
+Q:
+
+Can I name cards that are not legal in the format I am playing?
+
+When using cards like Demonic Consultation or Spoils of the Vault can I name cards that exist but are not legal in the current format I am playing? For example, could I name a uncard like Booster Tutor or one of the conspiracy cards like Backup Plan which even if they were legal could never be in my deck?
+Also Demonic Consultation has a ruling saying you must name a card that exists in Magic, I assume this is also true for Spoils of the Vault, which is why I am specifically asking about if I can name cards that exist but are not in the current format I am playing.
+
+A:
+
+Yes.
+You must state the name of a card in the Oracle, but the card doesn't need to be legal in the format of the game being played.
+
+201.3. If an effect instructs a player to choose a card name, the player must choose the name of a card in the Oracle card reference. (See rule 108.1.) A player may not choose the name of a token unless it’s also the name of a card.
+201.3a If a player is instructed to choose a card name with certain characteristics, the player must choose the name of a card whose Oracle text matches those characteristics. (See rule 108.1.)
+Example: Dispossess reads, in part, “Choose an artifact card name.” The player can choose the name of any artifact card, even one that’s not legal in the format of the current game. The player can’t choose Island, even if an Island on the battlefield has been turned into artifact by some effect.
+
+Emphasis mine.
+This wasn't always the case. There used to be a requirement for the card to be  legal in the format of the game the player is playing. The rules were changed to remove this requirement when Guilds of Ravnica was released.
+
+We've removed the forgettable requirement that names chosen when choosing a card name must come from the format being played. This was originally added to protect players from accidental misnamings in tournament settings (for example, "Shackles" in Modern—you meant Vedalken Shackles, not the white Aura Shackles) but tournament policy has evolved to protect players in other ways (you may recall some arguments around naming "Borborygmos" in Modern that led to this evolution) so the game rules don't need to do this anymore. The game rules are generally agnostic to the format being played, so this is a nice change.
+
+Thanks to @murgatroid99 for pointing out the change.
+

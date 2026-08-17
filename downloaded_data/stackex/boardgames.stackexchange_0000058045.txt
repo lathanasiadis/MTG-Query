@@ -1,0 +1,29 @@
+Q:
+
+Why don't I get the choice of order of abilities of some permanents to maximise +1/+1 counters?
+
+This is regarding playing MTG:A, with the option "Auto Order Triggered Abilities" turned off.
+I have a green deck that utilises counters and multipliers.
+Three of the cards in question are:
+Branching Evolution - (If one of more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on it instead)
+Hardened Scales - (If one of more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead)
+Vorinclex, Monstrous Raider - (If you would put one or more counters on a permanent or player, put twice that many of each of those kinds of counters on that permanent or player instead)
+Now, I have the option turned on that allows me to select the order that abilities resolve in.
+If I do something that involves adding a +1/+1, I get the choice of which order Vorinclex and Branching Evolution resolve in, but, not Hardened scales - which I just can't understand.
+For example, if I did something to add a +1/+1 - I would like it to go, Hardened Scales (to go to 2), Branching Evolution (to go to 4), Vorinclex (to go to 8), however, it usually goes Branching Evolution (to go to 2), Vorcinclex (to go to 4), Hardened Scales (to go to 5).
+I've been playing MTG on and off for many years and this is something I can't find in the rules and I'm quite confused about.
+
+A:
+
+The effects from Hardened Scales, Branching Evolution and Vorinclex, Monstrous Raider are not triggered abilities; triggered abilities are defined by Comprehensive Rule 603:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+None of the three effects above meet that pattern so they are not triggered abilities. So what are they? The answer is they are replacement effects, defined by CR 614:
+
+614.1. Some continuous effects are replacement effects. [...]
+replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like “shields” around whatever they’re affecting.
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+This explains why Arena's "Auto Order Triggered Abilities" option has no effect on these. You instead want Arena's "Auto Choose Replacement Effects" option from the same place in the settings; selecting this will allow you to choose the order in which the effects are applied.
+

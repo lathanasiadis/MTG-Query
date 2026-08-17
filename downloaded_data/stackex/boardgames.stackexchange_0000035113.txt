@@ -1,0 +1,24 @@
+Q:
+
+Does Supernatural Stamina return a creature token to the board?
+
+Supernatural Stamina reads:
+
+Until end of turn, target creature gets +2/+0 and gains "When this
+  creature dies, return it to the battlefield tapped under its owner's
+  control."
+
+If I cast this on a creature token, and it dies (say through combat damage), will it return to the battlefield? Or will it disappear as soon as it dies?
+
+A:
+
+I'm sorry to disappoint you but a token won't return with Supernatural Stamina.
+This is because of the following rules: 
+
+110.5f A token that's phased out, or that's in a zone other than the battlefield, ceases to exist. This is a state-based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)
+
+So it will go in the graveyard, the trigger from Supernatural Stamina triggers and then once state based actions are checked the token ceases to exist. The trigger won't find the token and can't resolve.
+Note that a token can never leave any other zone than the battlefield due to the following rule, there is no way to bring it back.
+
+110.5g A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+

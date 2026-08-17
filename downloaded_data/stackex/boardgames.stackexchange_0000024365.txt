@@ -1,0 +1,22 @@
+Q:
+
+Anger of the Gods vs Manifest creatures
+
+Will Anger of the Gods exile a manifested creature regardless if it's an actual creature card?
+
+A:
+
+Yes, a face-down creature will be exiled instead of going to the graveyard, even if it would not be a creature card if it were face up.
+For the purpose of Anger of the Gods' ability, all that matters is that the permanent was a creature when it took the damage. To be specific, when Anger of the Gods resolves, it deals damage to each creature (possibly modified by replacement and prevention effects), and then creates a replacement effect for each creature it dealt damage to. Rule 608.2i says
+
+If an ability's effect refers to a specific untargeted object that has been previously referred to by that ability's cost or trigger condition, it still affects that object even if the object has changed characteristics.
+
+In this case, the "specific untargeted object" is "a creature dealt damage this way." So, for the rest of the turn, Anger of the Gods replaces death with exile for each permanent that was a creature when Anger of the Gods dealt the damage.
+In the situation from the question, play proceeds as follows (assuming for simplicity that the manifested creature is the only creature):
+
+Anger of the Gods resolves and deals 3 damage to the face-down creature. It then creates a replacement effect: if that object would die this turn, exile it instead.
+
+State-based actions are checked. The face-down creature has lethal damage marked on it, so it dies. Anger of the Gods' replacement effect applies, so it is exiled instead.
+
+This would still be true if it had a greater toughness and died later in the turn to other damage, or was destroyed by a Murder, or even if it got enchanted by Song of the Dryads and then died to a Strip Mine.
+

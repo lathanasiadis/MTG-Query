@@ -1,0 +1,35 @@
+Q:
+
+Does Conspiracy remove non-creature subtypes from a creature?
+
+This is inspired by this question, and specifically point 3 in this answer.
+
+Let's say I control a Gideon of the Trials and I've activated his second ability.
+
+0: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+
+Gideon is now a Legendary Planeswalker Creature - Human Soldier Gideon.
+I then cast Conspiracy naming, let's say, Dragon.
+From the rulings on Conspiracy
+
+Affected spells, cards, and creatures lose all of their other creature types.
+
+Does my Gideon lose his Gideon subtype?  Or because Gideon isn't a creature type he doesn't lose it from Conspiracy?  Does this change at all if Gideon is turned into a creature by other means (Mycosynth Lattice + March of the Machines or Enchanted Evening + Opalescence)?
+
+A:
+
+You would retain the Gideon subtype.
+Gideon is not a creature subtype, but rather a planeswalker subtype:
+
+205.3j Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, [...] Gideon, [..], and Yanling.
+
+205.3m Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are [long list that doesn't include "Gideon"]
+
+Setting the creature type would not interact with the planewalker type:
+
+205.3c If a card with multiple card types has one or more subtypes, each subtype is correlated to its appropriate card type.
+
+If Gideon had become a creature through means that didn't make him retain the planeswalker card type, then he would also lose the gideon subtype:
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+

@@ -1,0 +1,15 @@
+Q:
+
+Mirage mirror what happens when copying a creature
+
+If you use it to copy a creature and attack with it does it become tapped until next upkeep mirage mirror itself or revert back to to untapped artifact
+
+A:
+
+Mirage Mirror stays tapped until your next untap step.
+Mirage Mirror's ability creates a copy effect that copies characteristics, and being tapped/untapped is part of a permanent's status, not characteristics. Copy effects do not include the status of a permanent, so when the copy effect ends, it also doesn't revert the status.
+
+110.6. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+110.6a Status is not a characteristic, though it may affect a permanent’s characteristics.
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

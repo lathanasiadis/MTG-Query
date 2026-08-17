@@ -1,0 +1,15 @@
+Q:
+
+shapesharer and verdant force
+
+Say I have a Shapesharer copy an opponents Verdant Force. The Verdant Force puts a 1/1 green Saproling creature token onto the battlefield at the beginning of each upkeep. The Shapesharer becomes a copy of target creature until your next turn.
+So if I copy my opponents Verdant Force on my turn I'm going to assume that I only get one saproling token and not two? ie. I'd get one for his upkeep but not for mine?
+
+A:
+
+The earliest chance you would have to activate Shapesharer's ability is in the Upkeep step[1]. Since the beginning of your upkeep step has already gone by, the ability gained from Verdant Force will never get a chance to trigger on your turn[2].
+
+The Untap step comes first, but you do not gain priority during the Uptap step, so you do not get to activate abilities in the Untap step.
+
+If you have more than one Upkeep steps for some reason (e.g. Paradox Haze), and if you activated Shapesharer's ability in the first Upkeep step, the ability it gained from Verdant Force would trigger in the second and subsequent Upkeep steps.
+

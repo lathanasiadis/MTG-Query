@@ -1,0 +1,28 @@
+Q:
+
+If I sacrifice a creature for a spell and it creates a token, can I sacrifice that token for the spell too?
+
+I have to sacrifice multiple creatures to pay for an ability, e.g. Flashback - Sacrifice two creatures.
+How does the stack interaction work if I sacrifice one creature with an enters the graveyard effect that makes a token?
+My current reasoning is that the sacrificed creature enters the graveyard putting its token generating trigger on the stack.  This trigger resolves making the token which enters the battlefield. Can I now sacrifice the token to pay for the remaining creature sacrifice for the flashback which is still on the stack?
+
+A:
+
+Your reasoning is only partly correct: you can't use that extra token to help pay for the spell, because it won't exist yet. You have to sacrifice two creatures that you already have at casting time. If you want extra creatures and tokens to sacrifice, they have to be there first.
+That's because of the spell casting process. During that process, nothing else happens — no abilities get to happen or be used, with the exception of mana abilities, not even triggered abilities get to happen yet — and we follow steps that go like this for a Flashback spell:
+
+Announce you're casting the spell and put it on the stack: I'm playing Dread Return using Flashback.
+Make the choices you must make: It will target this creature card.
+Determine the cost: I need to sacrifice three creatures.
+You can use mana abilities, like those your lands possess, if you need to. That isn't relevant to this spell though.
+Pay that cost. I sacrifice this one, this one and this one.
+
+It's only after this entire process — by which time you need to have paid for the spell in full — that triggered abilities go on the stack. Someone gets priority, so we check for each triggered ability that could've just now happened, and put those on the stack after the spell.
+So, now, after you've paid for the spell, the stack will look like this:
+
+Top: A triggered ability that will create a token.
+Bottom: Dread Return.
+
+At this point, the token ability hasn't resolved yet, and it'll resolve before Dread Return does. But Dread Return's already there, cast, and has been paid for in full, and paying for it is ancient history. The token wasn't there, and still isn't even there yet, and couldn't possibly have been involved in paying the cost for Dread Return.
+Then if nobody does anything else (such as Voidslime the token ability, or Cancel Dread Return), you'll get your token, and then Dread Return will resolve.
+

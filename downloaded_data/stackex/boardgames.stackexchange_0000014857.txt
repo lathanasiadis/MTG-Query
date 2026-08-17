@@ -1,0 +1,36 @@
+Q:
+
+Are gods treated as creatures before they enter the battlefield?
+
+Gods, such as Purphoros or Mogis, are not creatures if your devotion is not high enough.
+Does this count when casting them? If, for example, an opponent tries to counter with Essence Scatter when the player casting a god doesn't have the required devotion, is the god a valid target?
+Or, if Purphoros is on the battlefield and the controller tries to cast another god, for which they don't have the required devotion, do opponents suffer the 2 damage?
+
+A:
+
+Yes. It always has the creature type when on the stack (though that makes it a creature spell or a creature card, not simply a creature).
+No. ETB abilities check the appearance of the object as it exists on the battlefield.
+
+The first question boils down to "When does As long as your devotion to red is less than five, Purphoros isn't a creature work?"
+If it were a characteristic-defining ability, it would function in all zones, including on the stack[CR 604.3]. Mistform Ultimus has such an ability. But Purphoros's isn't a characteristic-defining ability because it sets the type conditionally[CR 604.3a]. As such, it only works when the card is on the battlefield[CR 112.6].
+So, Purphoros has the creature type while on the stack regardless of your devotion, and Essence Scatter can target and counter it regardless of your devotion.
+
+The second question boils down to "When does Whenever another creature enters the battlefield under your control check the object's type?"
+First of all, it's not casting a creature spell that triggers Purphoros's ability; it's a creature entering the battlefield.
+We know the God is always a creature card on the stack, but it might not be on the battlefield, so the second question boils down to when does the triggered ability inspect the God's types. ETB abilities check the object as it exists immediately after it enters the battlefield to see if the ability triggered[CR 603.6d].
+In other words, Purphoros's ability checks if the God entering the battlefield is a creature as it exists on the battlefield, and that depends on the your devotion to the God's color. If it's low, it won't be a creature and your ability won't trigger.
+
+Referenced Rules
+
+604.3. Some static abilities are characteristic-defining abilities. A characteristic-defining ability conveys information about an object’s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box). Characteristic-defining abilities function in all zones. They also function outside the game.
+
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: (1) It defines an object’s colors, subtypes, power, or toughness; (2) it is printed on the card it affects, it was granted to the token it affects by the effect that created the token, or it was acquired by the object it affects as the result of a copy effect or text-changing effect; (3) it does not directly affect the characteristics of any other objects; (4) it is not an ability that an object grants to itself; and (5) it does not set the values of such characteristics only if certain conditions are met.
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+(The exceptions are all common sense, such that an ability that requires you to discard a card to activate only function in your hand.)
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. [...]
+
+(The exceptions are leaves-the-battlefield and similar abilities. Again, stuff that's obvious without knowing the rules.)
+

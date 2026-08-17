@@ -1,0 +1,25 @@
+Q:
+
+What's the order of resolution for "everybody discard" in MTG?
+
+Usually, in MTG, when you play a card that requires multiple players to do something, like "Each player sacrifices a creature", players make choices in "APNAP" (active player / non-active player) order (going around the table in normal turn order if it's multiplayer), and then the effect itself happens simultaneously.
+How does this work with hidden information? You'd still choose first, but when do you reveal the hidden information? Take, for instance, an "Everybody discard" effect (e.g. Liliana of the Veil): if I activate the ability, I'm supposed to choose a card first — do I immediately show my card to the other players, or do I set it aside face-down until everyone has made a pick?
+
+A:
+
+You go in AP-NAP order around the table to choose a card.  However, the actual act of discarding is considered simultaneous, which means the chosen cards are still in the hand, a hidden zone, until all are chosen.  It is perfectly fine to, for example, set the chosen card aside face down until everyone has chosen one.
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes
+  any choices required, then the next player in turn order (usually the
+  player seated to the active player‘s left) makes any choices required,
+  followed by the remaining nonactive players in turn order. Then the
+  actions happen simultaneously. This rule is often referred to as the
+  ―Active Player, Nonactive Player (APNAP) order‖ rule. Example: A card
+  reads “Each player sacrifices a creature.” First, the active player
+  chooses a creature he or she controls. Then each of the nonactive
+  players, in turn order, chooses a creature he or she controls. Then
+  all creatures chosen this way are sacrificed simultaneously.
+101.4a If an effect has each player choose a card in a hidden zone, such as his or her hand or library, those cards may remain face down
+  as they‘re chosen. However, each player must clearly indicate which
+  face-down card he or she is choosing.
+

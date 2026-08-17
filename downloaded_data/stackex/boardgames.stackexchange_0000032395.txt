@@ -1,0 +1,15 @@
+Q:
+
+Does Summary Dismissal Send a Transformed Card to the graveyard?
+
+If the transform ability of a card has triggered and then the opponent plays Summary Dismissal, what happens to the card that would have been transformed? Does it un-transform or go the graveyard?
+
+A:
+
+If Summary Dismissal is cast in response to an ability that transforms a card that ability will be countered and thus removed from the stack. Since the ability to would transform the card no longer exists the card will not transform (it will not un-transform since it never transformed in the first place). If it was an activated ability that was countered it can still be activated again assuming the costs for it can be payed a second time. If it was a triggered ability it will trigger again the next time its condition is met.
+If Summary Dismissal is cast after a card has transformed it will have no effect of the card at all since it only effects abilities that are currently on the stack, and can't do anything about ones that have already resolved.
+
+Only activated and triggered abilities on the stack are countered. Static abilities of objects remain unaffected, and activated and triggered abilities of objects may be activated or may trigger again later in the turn. Spells and abilities that have already resolved aren’t affected.
+
+Countering transform abilities should never cause a permanent to go to the graveyard, the closest thing I can find is cards like Accursed Witch that die and return to the battlefield transformed, in this case they would stay in the graveyard.
+

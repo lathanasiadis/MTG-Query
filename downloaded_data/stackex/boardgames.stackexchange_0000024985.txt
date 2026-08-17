@@ -1,0 +1,20 @@
+Q:
+
+Toughness and the Stack
+
+If a creature's toughness were to reach 0 before the stack is finished resolving, does it die, or does the stack finish. For example, if a Llanowar Elf had Gigantic growth cast on it and the growth was responded to by Dismember what would happen? Would Dismember bring it to 0 and Gigantic raise it to 3 before it could die? Or does it bite the dust?
+
+A:
+
+Yes, the creature would die as a State Based Action.
+
+704.1. State-based actions are game actions that happen automatically whenever certain conditions (listed below) are met. State-based actions don't use the stack.
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+So, the state based effects would get checked after Dismember resolves.
+Then, this SBA would happen
+
+704.5f If a creature has toughness 0 or less, it's put into its owner's graveyard. Regeneration can't replace this event.
+
+So, before the Giant Growth would get a chance to resolve, the Llanowar Elf would die.
+

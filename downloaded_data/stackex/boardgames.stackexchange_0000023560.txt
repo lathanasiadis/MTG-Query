@@ -1,0 +1,28 @@
+Q:
+
+Brutal Hordechief & Bloodthrone Vampire
+
+I have a timing question: Is it possible to attack with "Bloodthrone Vampire" and let's say 10 other creatures at the same time, while using BOTH abilities of "Brutal Hordechief" and therefore cause 30 damage with only 1 creature actually causing damage?
+In Detail:
+
+My opponent has 15 creatures on the battlefield.
+I attack with Bloodthrone Vampire and 10 other creatures. Since Brutal Hordechief is on the field, I cause 11 damage to my opponent due to Hordechief's first ability.
+Then I want to sacrifice 9 of my 10 other attacking creatures in order to give Bloodthrone Vampire +18/+18, causing another 19 damage to my opponent.
+Since I have used Hordechief's 2nd ability (spent 5 mana), all my opponent's creatures should have blocked the last of my 10 attacking creatures (the one I didn't sacrifice with my Vampire's ability).
+
+Therefore I caused 30 damage using Bloodthrone Vampire and Brutal Hordechief's first ability, right?
+Or is there a timing error somewhere along the way?
+
+A:
+
+Assuming you have Bloodthrone Vampire and 10 other creatures:
+
+You have successfully activated Brutal Hordechief's ability.
+During the declare attackers step you declare 11 attackers. Brutal Hordechief's ability triggers, you gain 11 life and the opponent loses 11 life.
+During the declare blockers step, you can choose how enemy creatures block since you activated Brutal Hordechief's second ability. You can choose all 15 creatures to block one of your 10 creatures.
+After this, you get priority and you can sacrifice 10 of your creatures to give your Bloodthrone Vampire +20/20. Assuming the opponent doesn't have anything to respond, Bloodthrone Vampire will deal 21 damage (for a total of 32 damage).
+
+Some extra strategy tips:
+Also note that you can deal even more damage if you choose not to sacrifice creatures with power more than 2 (and even 1 unless you fear your opponent can get rid of a group of small creatures).
+For example, say 2 out of 10 creatures are 1/1, 4 are 2/2 and 4 are 3/3. You can choose enemy creatures to block one of your 1/1 creatures, sacrifice them, and you will deal 5 damage with your vampire, 8 damage with your 2/2 creatures and 12 with your 3/3 creatures, with a total of 25 damage. Add 11 life loss to that - opponent loses 35 life this combat phase, and you still have 9 creatures alive if the game goes on.
+

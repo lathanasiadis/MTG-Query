@@ -1,0 +1,18 @@
+Q:
+
+Ordeal of Heliod and changing creature control
+
+Here is the situation that came up:
+Player 1 controls a creature enchanted with Ordeal of Heliod and two +1/+1 counters. On Player 2's turn, they cast Portent of Betrayal to take control of the creature, and then attack with it. The attack triggers the Ordeal, putting another +1/+1 counter on it. Now that it has three counters, it is sacrificed and a player gains 10 life.
+Which player sacrifices the enchantment and gains 10 life? The controller of the creature (Player 2) or the player who cast the enchantment (Player 1)?
+
+A:
+
+In Magic, "you" usually refers to the current controller of a permanent, spell, or ability.
+Changing control of a creature does not change control of the Auras or Equipment attached to it.
+
+Thus, when the Ordeal triggers, Player 1 (the player who cast the Aura) still controls it even though Player 2 (the player who cast Portent of Betrayal) now controls the creature it enchants.
+Note that you could even enchant an opponent's creature from the get go (since it says "Enchant creature," not "Enchant creature you control"). Some Auras are straight-up designed to be used this way (e.g. Pacifism), but sometimes even the ones that aren't can be used for clever tricks.
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+

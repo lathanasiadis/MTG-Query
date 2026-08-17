@@ -1,0 +1,28 @@
+Q:
+
+Goblin Razerunners counter and end step
+
+I have a couple of questions on Goblin Razerunners's  counter and end step abilities:
+
+If I pay the mana cost ({1}{R}) and then sacrifice a land, which are all needed to put a +1/+1 counter on Goblin Razerunners (making it a 4/5), does the counter expire at the end of my turn, thus, returning Goblin Razerunners to a 3/4?
+Assuming the answer my question above is, "No", during my subsequent turns can I pay the costs to increase my Goblin Razerunners' power and toughness again by +1/+1 again, which would make it a 5/6?
+
+Now, concerning the end step:
+
+Can I activate the end step ability during each one of my end steps, or only when I pay and sacrifice the lands necessary to increase the counters? 
+
+Thanks.
+
+A:
+
+You have a few different misunderstandings about the basics of abilities.
+Goblin Razerunners has 2 separate abilities on it. The first is an activated ability, and the second is a triggered abilitiy.
+Activated abilities are worded {cost}: {effect}. Triggered abilities are worded starting with When/Whenever/At {condition}. They automatically happen when the condition happens.
+An activated ability can be activated as many times as you would like, so long as you can afford to pay the activation cost. (Sometimes an ability will specifically limit this, by saying "activate this ability only once each turn", or other restrictions). So if you can afford to pay 2 mana and sacrifice a land multiple times, then you can activate Goblin Razerunners first ability multiple times. You can even do it repeatedly on the same turn. Each time you do, it will get another +1/+1 counter.
+At the beginning of your end step (at the end of each of your turns), the Golbin's second ability will trigger. When that ability resolves, it will give you the option to deal damage based on the number of +1/+1 counters it has. It doesn't matter how it got these +1/+1 counters; whether it was from the first ability, or any other way (Inspiring Roar).
+To answer your specific questions:
+
+Counters never go away unless something specifically makes them go away. So Goblin Razerunners will keep the +1/+1 counter after this turn.
+Unless stated otherwise, an ability can be activated any number of times, as long as you can afford it. So you can activate its ability as many times as you can afford and want to, giving it any number of +1/+1 counters. If you can get 10 mana and want to sacrifice 5 lands, you could give it 5 +1/+1 counters, all in the same turn, or across multiple turns.
+Goblin Razerunners' second ability is a triggered ability that will automatically trigger at the beginning of each of your end steps. You don't choose to activate it, though when the triggered ability resolves, you can choose whether or not to have it deal damage, because it says "may".
+

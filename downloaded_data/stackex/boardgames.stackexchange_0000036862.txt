@@ -1,0 +1,36 @@
+Q:
+
+When do you have to decide whether or not to use a "May" effect?
+
+I am thinking of building a discard deck and was looking for some clarification on a interaction that might pop up with "may" effects. I would like to know exactly when I need to decided whether or not a "may" effect is going to happen. An example for when this would make a difference...
+On my side of the board I have:  
+
+Waste Not
+Geth's Grimoire
+
+In my hand I have:  
+
+Duress
+
+And on top of my library is (but I don't know that yet):  
+
+Dark Deal
+
+My opponent has nothing on the board, and several cards in his hand including the Sorcery Lava Axe.
+My plan is to cast Duress on my opponent and have him discard Lava Axe. It is my understanding that both the Waste Not and Geth's Grimoire triggers would go on the stack simultaneously, allowing me to choose which one resolves first.
+Is it possible to resolve Waste Not first, draw a card, see Dark Deal and then decide not to draw a card off Geth's Grimoire's trigger? Or do I need to choose whether or not to draw a card for Grimoire before I see the result of the Waste Not draw?
+This would be advantageous to me since I could then cast Dark Deal without having to discard the card I drew off of Geth's Grimoire, and reap whatever benefits from Waste Not and Geth's Grimoire from my opponent's discarded hand.
+
+A:
+
+First of all, they only trigger simultaneously, but they're put on the stack in an order you choose the next time a player would receive priority. They will then resolve last-in-first-out.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. [...]
+
+This means that you choose the order of your abilities resolving, but you can't possibly know what card you'll draw yet. The only way you'll get to do what you want is to place Geth's Grimoire on the stack first so that it will resolve last.
+Abilities, like spells, usually only do things on resolution, and Geth's Grimoire's is no exception. When it's its time to resolve, you will already have drawn a card from Waste Not, and you know what it is, meaning during resolution of the ability, you may decide not to draw a card.
+
+603.5. Some triggered abilities’ effects are optional (they contain “may,” as in “At the beginning of your upkeep, you may draw a card”). These abilities go on the stack when they trigger, regardless of whether their controller intends to exercise the ability’s option or not. The choice is made when the ability resolves. [...]
+

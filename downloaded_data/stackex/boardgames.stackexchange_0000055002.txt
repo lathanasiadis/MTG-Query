@@ -1,0 +1,24 @@
+Q:
+
+Can you cheat out a card using Clone and Spy Kit?
+
+Say I had a Ornithopter with Spy Kit attached could I use Clone to make a Spy Kit? Does Clone target the name or the actual card?
+
+A:
+
+No, this does not work for multiple reasons.
+
+Clone copies a creature, it does not copy a name. Even you were allowed to use Clone as you suggest to create a "Spy Kit", it would be a "Spy Kit" that is a 0/2 creature with flying; it would not be a Spy Kit that's an artifact equipment with Spy Kit's ability.
+
+Characteristics caused by equipment and other static effects are not copyable.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The copiable values are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+So Spy Kit or any other equipments or auras would have no effect on what the Clone becomes.
+
+Spy Kit does not grant the name "Spy Kit" to the equipped creature. Spy Kit says:
+
+Equipped creature gets +1/+1 and has all names of nonlegendary creature cards in addition to its name.
+
+Note that it says "creature cards", so it would only give your Ornithopter the names of creature cards, and Spy Kit is not a creature card. So Ornithopter will have a lot of names, but Spy Kit will not be one of them.
+

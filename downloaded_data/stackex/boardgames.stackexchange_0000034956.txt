@@ -1,0 +1,16 @@
+Q:
+
+How is the rarity of cards in official preconstructed Commander decks determined?
+
+As far as I am aware, the rarity of Magic: The Gathering cards is determined by how many times a given card gets printed, relative to other cards in the same set. I believe the standard distribution is for every 120 cards, you get 1 mythic, 7 rare, 24 uncommon, and 88 common, with cards of a given rarity equally likely to appear. This, in turn, determines how likely you are to pull a given card from a randomized 15-card booster pack.
+Commander cards aren't sold in booster packs. The only way to obtain them is to buy one of the pre-built Commander decks. These decks have fixed deck lists, so every deck you buy has the same 100 guaranteed cards in it.
+However, the Commander cards do have different rarities. For example, the Commander 2016 card Army of the Damned is a mythic rare, while Windfall is an uncommon. These two cards both appear in the 2016 deck Entropic Uprising, and no others. In other words, when purchasing Commander decks, you will always get the same number of Army of the Damned as you do Windfall, but they are somehow different rarities.
+In addition, the distribution of rarities in the deck is off as well. Again, using Entropic Uprising as an example, there are 5 mythic rare, 33 rare, 26 uncommon, 15 common, and 20 land.
+How are these rarity levels determined if there is no randomness or normal distribution of cards in the set?
+
+A:
+
+You mention that each deck is a singleton deck, so each card is printed exactly as much as each other card within that product. This is true when considering just one deck, but if you look at multiple decks that are part of the same product (e.g. all of the C16 decks), cards at lower rarities are printed in more decks than cards at higher rarities. Common cards can be printed in 4 or 5 of the decks, while mythic rare cards are printed in only one of them.
+Rarity also has some meaning other than the print run frequency in sealed products. In particular, the Magic Online format Pauper allows only cards that have been printed at common. Similarly, the unofficial format Peasant is similar, but has slightly less restrictive deckbuilding rules and allows some uncommons. So, we can assume that power level plays a role in determining the rarity at which a card should be printed.
+In addition, Wizards' "New World Order" design philosophy, which has been in effect for several years, dictates that more complex cards should be printed at higher rarity levels. This is a less important consideration in decks of singletons, but it's likely that they continue to follow the same principles for consistency.
+

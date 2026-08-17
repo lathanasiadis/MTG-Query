@@ -1,0 +1,25 @@
+Q:
+
+Kalamax and Conspire
+
+Kalamax, the Stormsire reads
+
+Whenever you cast your first instant spell each turn, if Kalamax, the Stormsire is tapped, copy that spell. You may choose new targets for the copy.
+
+The wording for conspire is
+
+As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.
+
+This brings up this question: If I tap Kalamax as one of the creatures to conspire an instant, does his ability see that he is tapped for his ability to trigger?
+
+A:
+
+Yes, if Kalamax conspires to cast your first instant of the turn, you get 2 copies of that spell.
+Tapping Kalamax for conspire happens before the spell becomes cast, since it's an additional cost:
+
+702.77a Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. “Conspire” means “As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it” and “When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy.” Paying a spell’s conspire cost follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+By the time the spell becomes cast, Kalamax is tapped and its own ability will trigger.
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+

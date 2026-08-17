@@ -1,0 +1,24 @@
+Q:
+
+How does Golos, Tireless Pilgrim interact with double-faced cards?
+
+From the Ixalan set, we received double faced cards with lands on the back.  I believe they count as all types on both sides while not on the field.  Therefore:
+When Golos, Tireless Pilgrim activates his ETB and I pick Gold-Forge Garrison as my land, which side does it enter as?
+
+A:
+
+You can't pick a double-faced card that is a land only on the back
+Double-faced cards only count as their front face while not on the battlefield. From the rules on double-faced cards:
+
+711.4a While a double-faced card is outside the game, in a zone other than the battlefield, or on the battlefield with its front face up, it has only the characteristics of its front face.
+
+You cannot choose Gold-Forge Garrison as your land, as its front face is not a land.
+I think you're getting DFC rules mixed up with split cards, which do have the attributes of both halves while they're not being cast:
+
+708.4 In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.
+
+A double-faced card you chose would enter front face up
+A double-faced card always enters with its front face up unless it enters “transformed”. If you choose a double-faced card that is a land on its front face, like Westvale Abbey, Golos would not put it onto the battlefield transformed, so you would get the front face.
+
+711.8 A double-faced card enters the battlefield with its front face up by default. If a spell or ability puts it onto the battlefield “transformed,” it enters the battlefield with its back face up.
+

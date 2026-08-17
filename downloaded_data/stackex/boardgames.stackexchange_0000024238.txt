@@ -1,0 +1,37 @@
+Q:
+
+Can I shortcut a loop with conditional actions?
+
+I control Wirefly Hive, Filigree Sages, Darksteel Forge, and some means of making an arbitrarily large amount of mana. My opponent is at two million life, and there are ten minutes remaining on the clock.
+
+I activate Wirefly Hive's regular ability
+The ability resolves and I flip a coin
+If I win, I get a Wirefly
+I activate Filigree Sage's ability targeting Wirefly Hive
+The ability resolves and Wirefly Hive untaps
+
+I demonstrate my ability to make an arbitrarily large number of Wireflies. I also demonstrate my ability to make an arbitrarily large amount of mana. My opponent understands, but we call a judge anyway to ask if shortcut is legal.
+Does the judge allow me to shortcut making a million Wireflies?
+
+716.1a says that as long as both players understand the intent, I can use any "shortcut system" I want. My opponent understands my intent (to keep flipping coins until I make a million Wireflies), and so the shortcut is acceptable.
+
+The rules for taking shortcuts are largely unformalized. As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable.
+
+716.2a says that I cannot shortcut a loop with "unpredictable results" or "conditional actions". My loop contains conditional actions, so I cannot shortcut it.
+
+At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a nonrepetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+
+A:
+
+This loop definitely includes conditional actions, because when you have 999,999 Wireflies, when activate the ability and it resolves, you make the following choice:
+
+If the ability created a Wirefly, you stop
+Otherwise, you flip again
+
+Rule 101.2 says
+
+When a rule or effect allows or directs something to happen, and another effect states that it can't happen, the "can't" effect takes precedence.
+
+Therefore, the restriction in 716.2a overrides the allowance in 716.1a.
+In addition, if you assume that 716.1a effectively allows any shortcut that both players agree to, then the restrictions in 716.2a don't really make sense.
+

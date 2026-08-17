@@ -1,0 +1,37 @@
+Q:
+
+If I exile Rout with Narset's ability, when can it be cast?
+
+Let's say I control Narset, Enlightened Master and attack, exiling the top four cards of my library, including Rout (alt link). Rout's first ability states that I can cast it any time I could cast an instant by paying an additional {2}.
+I think I've narrowed this down to two possible scenarios:
+
+Rout's first ability defines an alternative cost (like Bestow or Overload) and thus can't be paid as I'm already casting it using an alternative cost ("without paying its mana cost").
+Rout's first ability is an optional additional cost (like Kicker) and can be paid to allow me to cast the spell any time I could cast an instant.
+
+Which, if either, of the above interpretations is correct?
+
+A:
+
+It's a cost increase, so you may use it in combination with Narset's alternative cost.
+
+The cost to cast a spell or activate an ability is calculated as follows[CR 601.2e]:
+total cost to cast
+= mana cost or alternative cost
+
+additional costs and other cost increases
+
+cost reductions
+
+Rout's ability adds to the total cost, so it's a cost increase. It's not an additional cost since it doesn't use the word "additional"[CR 117.8], so it's just an generic cost increase[1]. It's not an alternative cost since those replace the mana cost. Alternative costs usually include the phrase "rather than pay" or "without paying its mana cost"[CR 117.9].
+So, the total cost to cast is {2}. (Alternative cost of free, plus a cost increase of {2}.)
+
+Another example of a cost increase: Thalia, Guardian of Thraben.
+
+To my knowledge, there's nothing that distinguishes between additional costs and other cost increases. They're the same except in name.
+
+601.2e [...] The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. [...]
+
+117.8. Some spells and abilities have additional costs. An additional cost is a cost listed in a spell’s rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time that player pays the spell’s mana cost or the ability’s activation cost. A cost is an additional cost only if it’s phrased using the word “additional.” [...]
+
+117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” [...]
+

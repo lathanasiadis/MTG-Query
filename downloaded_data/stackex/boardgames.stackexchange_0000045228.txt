@@ -1,0 +1,30 @@
+Q:
+
+Overwhelming splendor ability
+
+Does Overwhelming Splendor get rid of static abilities like flying or in cases like Teysa, Envoy of Ghosts who has protection from creatures?
+
+A:
+
+Overwhelming Splendor will remove all the abilities you've mentioned.  There are a few abilities that continue to function while Overwhelming Splendor is being applied, but you're unlikely to find any of them useful.
+Overwhelming Splendor produces a continuous effect.  Magic has a multitude of continuous effects, some of which are conditional and some of which are contradictory.  
+In order to resolve things orderly, Magic uses the "layer system".  Types of effects are grouped together into layers.  Higher layers are evaluated with the effects of the lower layers already applied.  Inside a layer, effects are applied in timestamp order, meaning that a newer effect will override an older effect.
+The layers are:
+
+Copy effects
+Control-changing effects
+Text-changing effects
+Type-changing effects
+Color-changing effects
+Ability-adding effects, ability-remove effects, and effects that say an object can't have an ability
+Power and/or toughness changing effects
+
+Layer 7 has several sub layers which are not relevant for this discussion.  
+The important detail is layer 6, where abilities are added and removed.  This is where Overwhelming Splendor comes into affect.  This means that abilities which copy another permanent, steal another permanent (or give it away), or change its text, types, or color will apply, even if those abilities are then removed by Overwhelming Splendor.
+All other abilities on creatures affected by Overwhelming Splendor will have no affect.
+What if there are other continuous effects granting abilities?
+Then the results come down to timestamps.
+If I play Ethereal Armor on my creature and then you enchant me with Splendor, then my creature will gain first strike and then lose all abilities, and end up with no abilities.
+But if you play Splendor, and then I play Ethereal Armor, then first strike will be granted after abilties are removed, and as a result my creature will have first strike.
+Note, however, that a creature can never grant an ability this way, no matter when it was played.  Either the creature was played second, and loses its ability granting ability before it can be applied, or the creature was played first, and grants its abilities only for them to be immediately removed.
+

@@ -1,0 +1,31 @@
+Q:
+
+Can abilities that trigger when a permanent becomes targeted trigger multiple times from the same spell?
+
+Some abilities trigger whenever a (certain) permanent "becomes the target of a spell or ability." For example, Cephalid Illusionist says
+
+Whenever Cephalid Illusionist becomes the target of a spell or ability, put the top three cards of your library into your graveyard.
+
+Some spells can target the same permanent multiple times. For example, Seeds of Strength says
+
+Target creature gets +1/+1 until end of turn.
+
+Target creature gets +1/+1 until end of turn.
+
+Target creature gets +1/+1 until end of turn.
+
+If I cast Seeds of Strength with a single Cephalid Illusionist as all 3 targets, will its ability trigger once or three times?
+
+A:
+
+It will trigger once.
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a buyback or kicker cost), or a particular mode, was chosen for it; otherwise, the spell is cast as though it did not require those targets. If the spell has a variable number of targets, the player announces how many targets he or she will choose before he or she announces those targets. The same target can’t be chosen multiple times for any one instance of the word “target” on the spell. However, if the spell uses the word “target” in multiple places, the same object, player, or zone can be chosen once for each instance of the word “target” (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player can’t be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they’ll wait to be put on the stack until the spell has finished being cast.) Example: If a spell says “Tap two target creatures,” then the same creature can’t be chosen twice; the spell requires two different legal targets. A spell that says “Destroy target artifact and target land,” however, can target the same artifact land twice because it uses the word “target” in multiple places.
+
+After having chosen all targets for Seeds, all those creatures become targeted by Seeds.
+
+603.2d Some trigger events use the word “becomes” (for example, “becomes attached” or “becomes blocked”). These trigger only at the time the named event happens—they don’t trigger if that state already exists or retrigger if it persists. An ability that triggers when a permanent “becomes tapped” or “becomes untapped” doesn’t trigger if the permanent enters the battlefield in that state.
+  Example: An ability that triggers when a permanent “becomes tapped” triggers only when the status of a permanent that’s already on the battlefield changes from untapped to tapped.
+
+Although it can be inferred from 601.2c, this rule says that the Illusionist will not trigger more than once from being targeted by Seeds, because even if the number of times that the Illusionist has been chosen for Seeds mattered, it can only become a target of Seeds once. 
+

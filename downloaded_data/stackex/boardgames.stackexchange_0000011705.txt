@@ -1,0 +1,22 @@
+Q:
+
+How do Isochron Scepter and the Fuse mechanic interact?
+
+The split cards in the expansion set Dragon's Maze contain a new mechanic "Fuse". This mechanic allows you to cast both sides of the spell, a new option for cards of this type.
+Isochron Scepter allows you to imprint any instant card with casting cost 2 or less, and then produce copies of that card once per turn.
+The interaction of Isochron Scepter and instant split cards is a highly useful one, in that you can imprint a split card providing one side meets the requirements of Isochron Scepter, and then cast either side of the card using Isochron Scepter's linked ability.
+The fuse mechanic allows you to cast both sides of the card. How does this mechanic interact with Isochron Scepter? This is relevant so far to Turn // Burn and Far // Away.
+
+A:
+
+You cannot use Fuse.
+The reminder text reads "You may cast one or both halves of this card from your hand." The scepter allows you to cast a copy of the card from Exile. That it's not a card may or may not be relevant, but the addition of "from your hand" will surely be present in the rules, so it's pretty clear that Fuse cannot be used here.
+As such, it's as if you were casting a regular split card. You can cast either side (even if the mana cost of that side is more than two), but not both.
+
+UPDATE: The rules have been released, and the "from your hand" is indeed present in them.
+
+702.101a Fuse is a static ability found on some split cards (see rule 708, "Split Cards") that applies while the card with fuse is in a player’s hand. If a player casts a split card with fuse from his or her hand, the player may choose to cast both halves of that split card. This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.
+702.101b A fused split spell has two sets of characteristics and one converted mana cost. The converted mana cost of the spell is a number equal to the total amount of mana in its two mana costs, regardless of color.
+702.101c The total cost of a fused split spell includes the mana cost of each half. (See rule 601.2e.)
+702.101d As a fused split spell resolves, the controller of the spell follows instructions of the left half and then follows the instructions of the right half.
+

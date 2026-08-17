@@ -1,0 +1,19 @@
+Q:
+
+Enrage and damage calculation mid phase
+
+I attack with Bellowing Aegisaur and other creatures and they choose to block all of my creatures. 
+Would I, as the attacker, get to assign combat damage, and can choose Bellowing Aegisaur's attack to be first making its Enrage go into effect placing +1/+1 counters on my other creatures before their damage is calculated? 
+Conversely, if I block with it can I ask them to assign damage in order and if they choose Bellowing Aegisaur before some of my other blockers would they receive their counters before their damage calculation? 
+
+A:
+
+No, all damage is dealt simultaneously. 
+
+Combat Damage Step
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. 
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt.
+
+This would only work if the creature blocking Bellowing Aegisaur had first strike or double strike.
+

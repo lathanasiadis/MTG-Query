@@ -1,0 +1,26 @@
+Q:
+
+Is "create a token" the same as "put a token onto the battlefield" in Kaladesh?
+
+I'm looking at the new Kaladesh set, and there's the word "create", as in:
+
+Create two 1/1 colorless Servo artifact creature tokens. (from Servo Exhibition)
+
+Does that mean the same thing as:
+
+Put two 1/1 colorless Servo artifact creature tokens onto the battlefield.
+
+or is there some subtle difference I'm missing?
+(The fact that the Oracle Text for Raise the Alarm now uses "create" tells me that it probably means the same thing, but I'm not sure.)
+
+A:
+
+It's identical; it's just a new way of writing it introduced in Kaladesh. The release notes explain it:
+
+“Create” is a new term for an old concept: the act of putting a token onto the battlefield.
+[...]
+
+To create a token, put it onto the battlefield under your control.
+
+This new term doesn’t represent any functional change from tokens as you’ve known them. No rules for tokens or putting them onto the battlefield are changing other than the words used to present this game concept. The text of older cards that create tokens will be updated.
+

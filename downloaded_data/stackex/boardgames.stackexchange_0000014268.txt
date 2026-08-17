@@ -1,0 +1,16 @@
+Q:
+
+What happens to other Auras on a Creature enchanted with bestowing, when the Creature dies?
+
+Case in point:
+Ill-Tempered Cyclops has the Auras of (bestowed) Thassa's Emissary and Aqueous Form. 
+Then the Cyclops changes zone (returned to library, hand, gets exiled or moved to graveyard by any means necessary).
+Would I be correct to presume that the Aqueous Form goes to graveyard (like Auras do) and Thassa's Emissary stays on the battlefield as a creature (like Enchantment Creatures do)?
+(Questionable interpretation being that the Aqueous Form stays on the "new" creature of Thassa's Emissary)
+
+A:
+
+Aqueous Form goes to the graveyard.
+It doesn't attach to the newly-a-creature Thassa's Emissary, because it wasn't enchanting Thassa's Emissary - it was enchanting the Cyclops, which has left the battlefield.
+Bestow comes with exceptions that let Thassa's Emissary simply become an Enchantment Creature once it's no longer attached, but there's nothing saying that it brings with it its formerly bestowed creature's auras.
+

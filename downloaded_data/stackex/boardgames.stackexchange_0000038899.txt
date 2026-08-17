@@ -1,0 +1,33 @@
+Q:
+
+Are cloned cards considered as "tokens"?
+
+My question relates to 706. Copying Objects, more specifically 706.1 which states:
+
+706.1.: Some objects become or turn another object into a “copy” of a spell, permanent, or card. Some effects create a token that’s a copy of another object.
+
+Does this mean that a "copy" is not a "token"?
+The scenario was that I had an Anointed Procession which states:
+
+If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+
+Then I cast Clone which states:
+
+You may have Clone enter the battlefield as a copy of any creature on the battlefield.
+
+So my question is simply, would I only get one copy of that creature? Or 2 because it is a "token"?
+
+A:
+
+Clone has no interaction here with Anointed Procession. Clone does not make tokens, and it is not a token.
+Tokens are defined in rule 110.5:
+
+Some effects put tokens onto the battlefield. A token is a marker used to represent any permanent that isn’t represented by a card.
+
+In your situation, Clone is a card, not a token.
+In addition, the full text of the rule you mentioned, rule 706.1 is
+
+Some objects become or turn another object into a “copy” of a spell, permanent, or card. Some effects create a token that’s a copy of another object. [...]
+
+This is describing two different kinds of effects. Clone is the first kind of effect: it becomes a copy of a permanent. Some other effects will explicitly say that the create tokens, or they will create tokens with some specific keyword abilities or actions like Populate or Fabricate.
+

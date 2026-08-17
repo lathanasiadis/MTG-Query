@@ -1,0 +1,43 @@
+Q:
+
+Plague Spitter + Rite of Passage
+
+Scenario: I have a 2/2 creature and Rite of Passage on the battlefield. Then I play 2 Plague Spitters.
+What will happen at the beginning of my next turns upkeep?
+Will both Plague Spitters damage happen at the same time, or will Rite of passages triggered ability respond to each Plagues Spitter's damage in turn and thereby save the 2/2 creature?
+
+A:
+
+In Magic, when one event triggers multiple abilities simultaneously, you put all the triggers on the stack and resolve them one by one, sequentially.
+So, what's actually happening with the triggers is this:
+
+Both Plague Spitters' abilities trigger at the same time. Since you control both, you can put them on the stack in whatever order you choose. We'll say you put ability #1 on the stack first, then ability #2.
+
+Stack is: PS1, PS2.
+
+If nobody adds more stuff to the stack, we begin resolving abilities on the stack. Plague Spitter ability #2 at the top of the stack resolves and does 1 damage to each creature. You check to see if any creatures died, but they all have 2 toughness, so they don't. Also, the damage triggers Rite of Passage. You put the Rite of Passage triggers (one for each creature) on top of the stack. If there are three creatures, there are three separate triggers.
+
+Stack is: PS1, RoP1, RoP2, RoP3.
+
+(Note that the RoP triggers are on the stack, so none of your guys have +1/+1 counters yet, but they all do have one damage marked on them. If I Gut Shot one of your Plague Spitters right now, I could wipe your board using its death trigger.)
+
+All pass. We resolve RoP trigger #3.
+
+Stack is: PS1, RoP1, RoP2.
+
+All pass. We resolve RoP trigger #2.
+
+Stack is: PS1, RoP1.
+
+All pass. We resolve RoP trigger #1. (Now all your creatures have a +1/+1 counter on them.)
+
+Stack is: PS1.
+
+All pass. We resolve Plague Spitter trigger #1. The Plague Spitter does 1 damage to each creature. We check if any of them died. They all have three toughness now, because of the counters, so nope. Rite of Passage triggers again (for each creature).
+
+Stack is: RoP4, RoP5, RoP6.
+
+(Continue resolving RoP triggers.)
+
+You'll end up with a bunch of 4/4 creatures (2/2s with two +1/+1 counters each) with 2 damage marked on them.
+

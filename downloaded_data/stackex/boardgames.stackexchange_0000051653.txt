@@ -1,0 +1,29 @@
+Q:
+
+Are there cases where an Enchantment Aura effect remains on a creature when it is returned to owners hand?
+
+I had Lorescale Coatl on the battlefield, which has the ability:
+
+Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl.
+
+In response to this threat, my opponent used the Enchantment Aura Frogify on Lorescale Coatl:
+
+Enchanted creature loses all abilities and is a blue Frog creature with base power and toughness 1/1. (It loses all other card types and creature types.)
+
+On my next turn, I cast the creature Roaming Ghostlight with its ability:
+
+When Roaming Ghostlight enters the battlefield, return up to one target non-Spirit creature to its owner's hand.
+
+I used this ability to return Lorescale Coatl to my hand.
+This however created a discussion around which creature returned to my hand.  Should it be Lorescale Coatl with all its abilities or a blue Frog Creature?
+What is correct in this situation?  Your advice is as always highly appreciated.
+
+A:
+
+Comprehensive rules 400.7:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule [...]
+
+and none of the exceptions apply here. Therefore the object in your hand is the card Lorescale Coatl, and if you successfully cast it then it will be a "regular" Lorescale Coatl with its normal abilities.
+Related to this, Frogify itself will go into its owner's graveyard.
+

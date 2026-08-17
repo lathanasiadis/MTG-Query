@@ -1,0 +1,28 @@
+Q:
+
+Can items be added to the stack after it has started resolving?
+
+I've been working on streamlining the rules for the abandoned TvTropes TCG project, but the description of the "Stack" system confused me greatly since  the stack so rarely sees actual use in Magic (disclaimer: I am not a magic player, but I have passing familiarity with it, and have also recently been reading columns on it by the designers to help with this project), in opposition to the Yu-Gi_oh! chain system, which is central to countering in that TCG.
+Basically what happens in TvTCG is that once top item on the stack resolves, players get to respond to the action, resulting in a potentially "branching" stack (all players get to potentially counter an action in turn), whereas the YGO chain is strictly linear, once things start resolving they must all resolve before new items can be added.
+So my question boils down to: a) is the MtG stack "branched" in any comparable way? and b) is any comparison with the stack useful in regard of its obscurity in actual play?
+
+A:
+
+The stack in Magic is, well, a stack. Spells you cast, abilities you activate, and abilities that trigger based on some game action or change in state, go on the stack. The system used to determine who gets an opportunity to put something on the stack is known as priority in the formal rules. When one player passes priority, the other gets a chance to put things on the stack. When all players pass without adding anything to the stack, the topmost item (and only the topmost item) of the stack resolves, and priority passes around again, meaning players can put additional things on the stack after a part of it resolves.
+The most important additional rules are:
+
+Most types of cards (e.g. creatures) can only be played when the stack is empty and it's your main phase.
+You pay all costs (in mana and other required game actions, like sacrificing a creature) and make the relevant targeting decisions when you put something on the stack.
+Mana abilities (e.g. on land cards) resolve instantaneously without using the stack, to allow you to pay costs for things. This prevents a lot of bullshit minutiae that might otherwise occur anytime you tried to cast a thing.
+The stack is a game zone and things on the stack are game objects that can be affected by other spells and abilities (this is what allows counterspells to work).
+
+Historically, Magic used to use what was known as the "batch" system, which was similar to the stack, but all effects on the stack would resolve once players were done putting new things on it.
+Is the stack a rarely used in MTG? No. Serious players at any level need to understand priority and the stack.
+I'm assuming the statement that gave you that idea is designers saying "We don't like it when the cards talk about the stack." That's not because it's not a central part of game play. Rather:
+
+The goal is for newbies and really-casual players to understand the flow of the game without having to learn all the details.
+This is a part of the game where the rules tell you how to use the cards more so than the cards tell you how to use the rules, kinda like creature combat or drawing your opening hand, so the cards seldom need to mention these rules.
+The architecture for casting spells and activating abilities is so foundational to the game that a mechanic that mucks with the process is likely to be very risky and convoluted, design-wise.
+
+If you want to understand priority and the stack in full formal detail, you'll need to read the MTG comprehensive rules; these are not designed for learning the game, however. The easiest way to get a feel for how the MTG stack works is to play some rounds in the Duels of the Planeswalkers video game.
+

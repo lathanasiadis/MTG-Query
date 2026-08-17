@@ -1,0 +1,31 @@
+Q:
+
+What happens if you steal an Elixir of Immortality and then use it?
+
+In an EDH (Commander) game recently, Alice used Thada Adel, Acquisitor to steal an artifact out of Bob's deck, the Elixir of Immortality, and cast it.
+That artifact's ability says:
+
+{2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into your library.
+
+When Alice uses that ability, what happens to the artifact? Does it go into Bob's graveyard or get shuffled into Alice's library? Does Alice still even shuffle her graveyard into her library and gain 5 life?
+
+A:
+
+It goes into Bob's library (the owner of the card).
+From the Comprehensive Rules:
+
+400.3. If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its 
+  owner’s corresponding zone.
+
+There is also specific errata on the Elixir
+
+Elixir of Immortality - {1}
+  Artifact
+  {2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your
+  graveyard into their owner's library.
+This new wording correctly instructs the player as to what to do in
+  the case where the controller of the ability does not own Elixir of
+  Immortality.
+Please pass this information on to other interested parties who may
+  not have received it.
+

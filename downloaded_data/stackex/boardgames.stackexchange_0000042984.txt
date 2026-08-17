@@ -1,0 +1,17 @@
+Q:
+
+Does a dashed creature return to my hand at the end of the turn after an opponent takes control of it?
+
+If I dash a creature (e.g. Goblin Heelcutter) and my opponent activates the ability of Captivating Vampire on my dashed creature, will the creature still go back to my hand at the end of the end step?
+
+A:
+
+Yes, it will return to your hand.
+The dashed creature does not change zones at any time, so it's still the same object as it was when it entered the battlefield with dash. It doesn't matter who controls the creature, or if it's even a creature at all - as long as the object is still the same, dash will "find" it and return it to its owner's hand.
+
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+This is in contrast to when the creature is in a different zone when dash resolves, e.g. when it has died during that turn. It also doesn't return if it is on the battlefield but has been in another zone for any length of time, for example when someone Flickers a dashed creature, or if it dies from Dread Slaver. In those cases, your dash creature will be on the battlefield at the end of your turn, but it's a new object that will not be returned to your hand. 
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [..]
+

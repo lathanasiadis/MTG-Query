@@ -1,0 +1,12 @@
+Q:
+
+Is the CMC of a creature that is enchanted the cost of the enchantment and the creature combined?
+
+Just started playing MTG and I have a Filigree Familiar of 3 cost enchanted with Marked by Honor with a cost of 4. Does the CMC of the Filigree Familiar equal 3 or the combined cost of 7? My opponent is using the card Fragmentize to destroy the Filigree Familiar, but we aren't sure what the CMC is equal to.
+
+A:
+
+The CMC of Filigree Familiar is always 3. The only time the CMC of a card changes is if it has {X} in its mana cost and it is on the stack (in which case it is the chosen value for X, other wise X counts as 0).
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+

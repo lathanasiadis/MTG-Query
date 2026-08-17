@@ -1,0 +1,37 @@
+Q:
+
+Why doesn't Djinn of Wishes let me play a land on my opponent's turn?
+
+Djinn of Wishes has an activated ability with the effect:
+
+Reveal the top card of your library. You may play that card without paying its mana cost. If you don't, exile it.
+
+The rulings state that if you reveal a land, it can only be played if it is your turn and you haven't yet played a land this turn.
+I know that rule 305.3 states
+
+305.3. A player can’t play a land, for any reason, if it isn’t their turn. Ignore any part of an effect that instructs a player to do so.
+
+However, why doesn't the first Golden Rule override this?
+
+101.1. Whenever a card’s text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation.
+
+This sounds like an example of a card text directly contradicting the rules... the card text says "you may play the card", while the rules says "you cannot play the land".
+One might argue that 101.2 would apply here, but I don't think it does:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+First off, it's specific that it's only discussing an "effect" that states it can't happen, not a "rule or effect". Because "rule or effect" is used in the first part, and only "effect" is used in the second part, it seems that rules are purposefully excluded. Which makes sense to me because 101.1 already says that "effects" (which are written on cards) will override rules.
+And second, even if it did mean "rule or effect", then you just have a case of 101.1 clashing with 101.2 and it isn't clear which one would take priority.
+So...
+Why is 305.3 able to prevent Djinn of Wishes from playing a land out of turn? I would expect it to work if it said something like "this is an exception to 101.1", as sometimes the comprehensive rules do for other rules that contradict rules.
+Interesting to note that Djinn of Wishes does allow you to play a land during Combat, or your Upkeep; other times when you cannot normally play a land. In fact any time you play a land with its ability it is "special" timing, because whether it is your main phase or not, you don't have priority, and the stack isn't empty. Presumably the difference is that while the rules for lands only allows them to be played during your main phase, there is not a rule similar to 305.3 that says lands can only be played during your main phase.
+
+A:
+
+There are two parts to 305.3.
+The first part ("A player can’t play a land, for any reason, if it isn’t their turn.") is directly contradicted by Djinn of Wishes's activated ability's effect, so it's ignored.
+The second part ("Ignore any part of an effect that instructs a player to do so.") isn't contradicted by the effect.
+Since a player must ignore the effect's instruction to play a land when it's not their turn, they are never instructed to play a land when it's not their turn, so the rules aren't contradicted.
+
+Of note, the rules were different before Jul 13th, 2013. See the "Playing Additional Lands" section of Magic 2014 Core Set Rules Preview. Djinn of Wishes is specifically mentioned in the examples. This only shows that the ruling is in line with the intent of the game designers.
+

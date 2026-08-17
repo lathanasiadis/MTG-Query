@@ -1,0 +1,18 @@
+Q:
+
+Question about Liliana's Influence card
+
+Liliana's Influence
+says: "Put a -1/-1 counter on each creature you don't control. You may search your library and/or graveyard for a card named Liliana, Death Wielder, reveal it, and put it into your hand. If you search your library this way, shuffle it."
+Can i search for a card named Liliana Death Wielder even if there are no target creatures for put -1/-1 counters on them ?
+
+A:
+
+Yes.
+You can't cast spells without being able to choose a legal target for each target it requires. Liliana's Influence, however, doesn't require you to choose any targets.
+
+114.9a Just because an object or player is being affected by a spell or ability doesn’t make that object or player a target of that spell or ability. Unless that object or player is identified by the word “target” in the text of that spell or ability, or the rule for that keyword ability, it’s not a target.
+
+Because of that, you may cast the spell even without any creatures on the battlefield, likely ending up putting a -1/-1 counter on zero creatures.
+In the same way, you can cast this card without a card named Liliana, Death Wielder in your deck - you will still have to shuffle your library if you choose to search for her, though.
+

@@ -1,0 +1,22 @@
+Q:
+
+Suspend spells and outpost siege
+
+Let's say I have Outpost Siege in play with Khans chosen. I exile the top card of my library during my upkeep, that card being Wheel of Fate. Am I able to play Wheel of Fate for free, or is it exiled since I cannot play it without suspending it?
+
+A:
+
+It's stuck in exile.
+
+You can't suspend it.
+You can only suspend a card when in it's your hand.
+
+702.61a Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
+
+You can't cast it.
+Unless some alternative cost applies, casting Wheel of Fate is illegal because it would require paying an unpayable cost.
+
+117.6. Some mana costs contain no mana symbols. This represents an unpayable cost. An ability can also have an unpayable cost if its cost is based on the mana cost of an object with no mana cost. Attempting to cast a spell or activate an ability that has an unpayable cost is a legal action. However, attempting to pay an unpayable cost is an illegal action.
+
+The ability that triggers when the last time counter is removed from a suspended card provides an alternative cost ("without paying its mana cost"), but Outpost Siege doesn't provide an alternative cost.
+

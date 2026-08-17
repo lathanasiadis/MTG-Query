@@ -1,0 +1,33 @@
+Q:
+
+Can I exile a token from the graveyard?
+
+So if I had a token that died could I immediately exile it from the graveyard using Necrogenesis? I know that a token is only in the graveyard for an instant, but could I exile it in that instant? 
+
+A:
+
+Your question, literally, can be answered very simply: You cannot exile a token from a graveyard, because tokens that have left the battlefield cannot change zones:
+
+110.5g A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+
+This alone doesn't prevent you from using Necrogenesis's ability to get a saproling, though, because it doesn't prevent you from targeting it with the ability; the ability just wouldn't exile the token when it resolved. You still can't get the saproling for several reasons.
+You do not get priority before state-based actions are checked:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+The token ceases to exist as a state-based action:
+
+704.5d If a token is phased out, or is in a zone other than the battlefield, it ceases to exist.
+
+You do not have a chance to activate Necrogenesis's ability between the time the token enters the graveyard and the time it ceases to exist. Even if you somehow did have a chance to activate it, a token is not a "creature card", so it isn't a legal target for the ability:
+
+108.2. When a rule or text on a card refers to a “card,” it means only a Magic card. Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. Tokens aren’t considered cards—even a card that represents a token isn’t considered a card for rules purposes.
+
+Also, state-based actions are checked again after you activate the ability, because you receive priority again after:
+
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+
+A similar ability that could target a token in a graveyard (which does not currently exist) would still not work, because the token would cease to exist before you get priority again just after you activate it. It would no longer be an illegal target, and the ability would be countered if it had no legal targets remaining. In the case of Necrogenesis, the ability has only one target, so it would be countered. During resolution, this happens:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don’t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won’t happen.
+

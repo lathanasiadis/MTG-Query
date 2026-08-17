@@ -1,0 +1,29 @@
+Q:
+
+What happens to a spell if an oppenent runs out of mana while casting it?
+
+My friend and I were playing Magic the Gathering when he tried to summon Ghor Clan Rampager. He used all his mana to cast him, but in response I played Twiddle and tapped one of his lands. What would happen to his creature?
+
+A:
+
+What happens to a spell if an oppenent runs out of mana while casting it?
+
+That's impossible. There is no chance to spend mana between the point where one starts casting a spell and the point where one pays for it.[1]
+
+but in response I played Twiddle and tapped one of his lands.
+
+"In response to" means "after it has been cast but before it resolves". When Ghor Clan Rampager is cast, the lands have already been tapped and the mana has already been produced.[1]
+(Or did you mean in response to activating the land's ability? One cannot do anything in response to activating a mana source as it does not use the stack.)
+You would have to cast Twiddle before he casts Ghor Clan Rampager (which means before he even mentions he's going to cast it), but then he could just tap the land for mana in response to you casting Twiddle, so it would have no effect.
+
+Notes:
+
+The steps to casting a spell or activating an ability are:
+
+601.2a) Place card on stack.
+601.2b-d) Make choices, including targets.
+601.2e) Check if spell can legally be cast.
+601.2f) Determine total cost.
+601.2g) Activate mana abilities.
+601.2h) Pay the previously determined cost.
+

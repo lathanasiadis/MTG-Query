@@ -1,0 +1,28 @@
+Q:
+
+How does Hazoret's Undying Fury work with Aftermath cards?
+
+I cast Hazoret's Undying Fury, and of the four exiled cards, one of them is Appeal//Authority, which, according to the April rules change, now has a CMC of 3. I cast Appeal, placing it in my graveyard at resolution.* Can I now also cast Authority for free? The Gatherer rulings on this don't seem that clear to me. If it has a combined set of characteristics in any zone except the stack, then would Hazoret's Undying Fury see both halves as valid free casts? When Appeal//Authority moves from exile to the graveyard, does the zone change cause Hazoret's Undying Fury to see the card as a different object?
+*Note that I'm not asking whether the Aftermath half of a card can be cast from exile. It's clear in the Aftermath reminder text that it can't: 
+
+(Cast this spell only from your graveyard. Then exile it.)
+
+This is specifically asking whether after resolving the top half of an Aftermath card using Hazoret's Undying Fury a player could cast the Aftermath half from their graveyard for free.
+
+A:
+
+You can't cast Authority from the graveyard for free.
+Appeal//Authority is not in the graveyard when you are instructed to cast the cards Undying Fury exiled. If you haven't cast Appeal, it's in exile. If you have cast Appeal, it's on the stack.
+Keep in mind that Undying Fury only has you cast spells (which is to place it on the stack, make some choices, and pay its costs). They don't resolve immediately. The spell will only resolve when it's the top item on the stack after all players have passed priority in sequence, which can't happen before Undying Fury has finished resolving.
+The only way Appeal//Authority could be present in the graveyard when Undying Fury instructs you to cast it is if some replacement effect caused Undying Fury to place the card in the graveyard instead of in exile. This effect would be phrased "If a card would be exiled, put it in the graveyard instead." If such an effect existed and was applied, then you could cast either Appeal or Authority for free (but not both) since Undying Fury is the one that put it in the graveyard.[CR 400.7][CR 400.7h]
+You can't cast Authority from exile.
+Undying Fury could cast Authority from exile, except Aftermath forbids Authority from being "cast from any zone other than a graveyard",[CR 702.126a] and restrictions take priority over instructions.[CR 101.2]
+You can't cast Authority from the stack.
+Casting Appeal places the card on the stack. At this point, the Appeal//Authority card that Undying Fury exiled no longer exists as far as Undying Fury is concerned.[CR 400.7]
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+Example: If one effect reads “You may play an additional land this turn” and another reads “You can’t play land cards this turn,” the effect that precludes you from playing lands wins.
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+702.126a Aftermath is an ability found on some split cards (see rule 708, “Split Cards”). It represents three static abilities. “Aftermath” means “You may cast this half of this split card from your graveyard,” “This half of this split card can’t be cast from any zone other than a graveyard,” and “If this spell was cast from a graveyard, exile it instead of putting it anywhere else any time it would leave the stack.”
+

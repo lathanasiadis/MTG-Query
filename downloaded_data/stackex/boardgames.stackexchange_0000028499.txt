@@ -1,0 +1,20 @@
+Q:
+
+When do "when you cast this spell" effects resolve?
+
+If I cast Ulamog, the Ceaseless Hunger and target my opponent's two Plains on the board, does the exile effect resolve before my opponent has a chance to tap one of the lands to play Path to Exile? 
+My guess is that the cast effect would go on the stack & resolve prior to Ulamog being on the field and in play as a legal target for Path, but I'd like some confirmation to be certain.
+
+A:
+
+You can exile your opponents' Plains before Ulamog resolves, but you can't stop your opponent from getting mana from them. Assuming no one has anything else to do besides the things you mentioned, it'd go like this:
+
+You cast Ulamog.
+Ulamog's "when you cast..." ability triggers, and you target your opponents' two Plains.
+Your opponent taps both Plains for white mana, leaving it in their mana pool. (They float two white.)
+The triggered ability resolves, exiling both Plains.
+Ulamog resolves, entering the battlefield.
+Your opponent spends one of the white mana to cast Path to Exile.
+
+From your question it sounds like you might be thinking of lands and mana as being the same thing, but as that sequence of events pretty clearly shows, the lands are separate from the mana they produce.
+

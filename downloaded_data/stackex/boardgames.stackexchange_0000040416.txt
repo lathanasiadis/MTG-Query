@@ -1,0 +1,29 @@
+Q:
+
+How is the CMC of a spell obtained for Vial Smasher?
+
+Suppose I'm running a Vial Smasher the Fierce deck and I cast Blazing Shoal with X = 5. I've read in other answers to different problems that the converted mana cost of Blazing Shoal would be 7 while it is on the stack. I assume that then Vial Smasher's ability would trigger. Looking at Blazing Shoal, would the CMC be 7 or 2?
+
+A:
+
+Ruling
+
+11/8/2016    For spells with Variable Colorless in their mana costs, use
+  the value chosen for X to determine the spell’s converted mana
+  cost.
+
+The Comprehensive Rules
+
+202.3d When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the
+  stack, and X is treated as the number chosen for it while the object
+  is on the stack.
+
+So..X=5, making CMC 7.
+
+107.3f If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is
+  defined somewhere within its text.
+
+Clarification.
+In Magic there are no in-between zones. When you cast a spell it goes from your hand (hand zone) to the stack (stack zone). As long as it's in your hand it is not considered cast. When it leaves the zone of your hand it will at the same time enter the zone of the stack making it a spell that at that point will be considered cast.
+So whenever you cast anything that has an {X} in it, the X will become the amount you paid for it and move to the stack zone where {X} it will retain its value until it leaves the stack zone.
+

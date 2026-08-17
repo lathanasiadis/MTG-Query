@@ -1,0 +1,21 @@
+Q:
+
+If I flicker a creature that was first cast from my hand, does it ETB with the cast from hand trigger?
+
+Deathbringer Regent says
+
+When Deathbringer Regent enters the battlefield, if you cast it from your hand and there are five or more other creatures on the battlefield, destroy all other creatures.
+
+If I cast Deathbringer Regent from my hand and flicker it later when there are again five or more other creatures on the battlefield, will that ability trigger again?
+
+A:
+
+No, that ability will not trigger when you flicker Deathbringer Regent.
+The ability only triggers if it is entering the battlefield that time because it was cast from your hand. Once it is exiled and then enters the battlefield again, it is a new instance of the creature with no memory of being cast from your hand. This is a consequence of rule 400.7:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+[...]
+
+400.7c An ability of a permanent can reference information about the spell that became that permanent as it resolved, including what costs were paid to cast that spell or what mana was spent to pay those costs.
+

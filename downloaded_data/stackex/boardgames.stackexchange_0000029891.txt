@@ -1,0 +1,39 @@
+Q:
+
+What is the use of Swift Silence?
+
+So I have a red blue Guttersnipe deck that I personally love to use, but my friend and I keep running into this situation. In my hand for the purpose of explaining this say I have all Lightning Bolts and a Guttersnipe on the field. All he has available is a Swift Silence. Now since I know that he runs Swift Silence I will only play 1 lightning bolt in the ending phase before passing off priority. My friend will then also pass priority because he wants to stop the full combo with the Swift Silence.
+So what happens?
+
+Since he passed priority, Guttersnipe's ability which is on top of the
+stack will resolve but the Lightning Bolt won't. So when I play another Lightning Bolt on the stack he can than use Swift Silence to counter both Lightning Bolts and Guttersnipe's ability?
+Guttersnipe's ability resolves, I pass, then he passes again so the Lightning Bolt would resolve. I can than play another Lightning Bolt on top of the empty stack and start the loop over?
+When we let both Guttersnipe's ability and Lightning Bolt resolve since it is a empty stack would my turn then be over since I was doing this on my end step?
+
+However if I can just keep playing stuff using this loop what would Swift Silence ever be useful for other than say a Grapeshot?
+
+A:
+
+Assuming you play your Bolts right your opponent can counter at most 1 of them.
+This is what happens:
+
+You have priority, you cast Bolt, Guttersnipe triggers, you have priority again
+You pass priority, your opponent gains priority and can cast their counter if they want to, eventually they also pass priority
+Guttersnipes ability resolves, you gain priority, you pass priority
+Your opponent gains priority, again they can choose to cast their counter, eventually they pass priority back to you
+As long as it wasn't countered your Bolt resolves. You gain priority after it resolves and can cast another Bolt if you want to.
+
+If at anytime your opponent casts their counter the following is added to the previous steps:
+
+They have priority, they cast their counter spell, they still have priority and pass
+You gain priority, at this point you can choose to cast more spells if you want to, eventually you will pass priority
+The counter spell will resolve, your Bolt will be countered, you gain priority and can cast more Bolts if you want to
+
+A step or phase doesn't end until both you and your opponent have passed priority and the stack is empty.
+As you point out Swift Silence is best against Storm decks, and other decks that have multiple spells on the stack at the same time (like Hive Mind)
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+

@@ -1,0 +1,20 @@
+Q:
+
+How exactly does "fight" work?
+
+Of all keywords, fight is the most confusing to me.
+Whan creature X fights creature Y, do you only count plain power/toughness? How do you count enchantments, counters, static abilities of other creatures? Can you activate abilities? Can you cast instants?
+
+A:
+
+The Fight keyword action is defined in rule 701.10:
+
+701.10a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+701.10b If a creature instructed to fight is no longer on the battlefield or is no longer a creature, no damage is dealt. If a creature is an illegal target for a resolving spell or ability that instructs it to fight, no damage is dealt.
+701.10c If a creature fights itself, it deals damage equal to its power to itself twice.
+701.10d The damage dealt when a creature fights isn’t combat damage.
+
+The bolded sentence is the part that describes what it actually does.
+Power and toughness are calculated like usual, and, like with every other effect in the game, you can't cast spells or activate abilities while it is resolving. There has never been a card that cares about or uses a creature's base power or toughness.
+A Fight effect is a one-shot effect, which means that you will only see it on an activated or triggered ability. Both of those go on the stack, which means that you can respond to them with instants and abilities like anything else.
+

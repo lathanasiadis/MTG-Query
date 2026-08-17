@@ -1,0 +1,22 @@
+Q:
+
+Can I freeze a tapped creature?
+
+Suppose I have a Sharktocrab and my opponent has a Cavalier of Thorns in play. They attack with the Cavalier, and it becomes tapped. On my turn, I Adapt my Sharktocrab, putting a +1/+1 counter on it and causing its ability to trigger.
+Can I target their Cavalier with this ability, preventing it from untapping during their next untap step? Or is it an invalid target, because of rule 701.20a:
+
+To tap a permanent, turn it sideways from an upright position. Only untapped permanents can be tapped.
+
+(Emphasis mine.)
+Arena lets me do this, but it seems like it should be forbidden.
+
+A:
+
+This is legal because Sharktocrab is applying two unrelated effects to the same creature.
+Sharktocrab reads:
+
+Whenever one or more +1/+1 counters are put on Sharktocrab, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
+
+The first thing to note is the targeting restrictions. "Target creature an opponent controls" means that any creature your opponent controls can be targeted, regardless of its other characteristics.
+Then you do two things to the target creature: you tap it, and you prevent it from untapping.  But the "freeze" effect isn't dependent on the tap effect.  They are just both applied.  In the case of the tap effect, it will have no effect on already tapped creatures.  But the freeze effect gets applied anyways.
+

@@ -1,0 +1,66 @@
+Q:
+
+Do Thorncaster Sliver's triggered abilities go on the stack?
+
+I was guessing, since you actually target things instead of just dealing damage (similar to Hellrider), Thorncaster Sliver's triggered abilities would actually go on the stack.
+This came up in a separate game this past Friday when the Sliver deck attacked with two Predatory Slivers, one Thorncaster Sliver, and two Manaweft Slivers while his opponent had a Blood Artist as well as some 2/2.
+The reason this even came up was because, if the triggers went on the stack, you could target things so they resolve in the following order:
+
+Predatory Sliver targets Blood Artist, killing it.
+Predatory Sliver targets the 2/2, dealing one damage to it.
+Thorncaster Sliver targets the 2/2, killing it.
+and 5. Both Manaweft Slivers target the player, dealing one damage each to him.
+
+A:
+
+Triggered abilities always use the stack. That includes Thorncaster Sliver's and Hellrider's.
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and include (and usually begin with) the word "when," "whenever," or "at." Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it's countered, it resolves, or it otherwise leaves the stack.
+
+Here's what happens:
+
+You attack with five slivers. Five instances of Thorncaster Sliver's ability triggers
+You place the abilities on the stack in the order of your choice: (Best order used)
+
+You place PS#1's ability on the stack targeting the 2/2
+You place PS#2's ability on the stack targeting the 2/2
+You place TS's ability on the stack targeting the Blood Artist
+You place MS#1's ability on the stack targeting your opponent
+You place MS#2's ability on the stack targeting your opponent
+
+MS#2's ability resolves:
+
+Deal one damage to your opponent.
+
+MS#1's ability resolves:
+
+Deal one damage to your opponent.
+
+TS's ability resolves:
+
+Deal one damage to the Blood Artist
+
+The Blood Artist dies. Blood Artist's ability triggers.
+Your opponent places Blood Artist's ability on the stack targeting you.
+Blood Artist's ability resolves:
+
+You lose one life.
+Your opponent gains one life.
+
+PS#2's ability resolves:
+
+Deal one damage to the 2/2.
+
+PS#2's ability resolves:
+
+Deal one damage to the 2/2.
+
+The 2/2 dies.
+[Move on the Declare Blockers]
+
+Result:
+
+The Blood Artist and the 2/2 died.
+The opponent's life went down 2, then went up 1.
+Your life went down 1.
+

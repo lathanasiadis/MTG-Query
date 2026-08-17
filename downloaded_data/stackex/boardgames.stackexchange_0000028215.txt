@@ -1,0 +1,28 @@
+Q:
+
+MTG Myr Welder Exile question
+
+On the card Myr Welder it says two things.
+
+Imprint -- {T} : Exile target artifact card from a graveyard.
+Myr Welder has all activated abilities of all cards exiled with it.
+
+My question is about how it can have abilities if it's been exiled? IIRC being exiled means it it cast out of the play past the graveyard, never to return.
+Does it possibly mean it has the abilities of the cards it's exiled (tapping each time), while it remains in play, i.e. instead of "exiled with it" it should read "exiled by it"?
+
+A:
+
+Those two abilities are called Linked Abilities, which means the second one is referring to cards exiled by the first one. Specifically, rule 607.2a says
+
+If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+So, the second ability does in fact mean
+
+Myr Welder has all activated abilities of all cards that it has exiled.
+
+There's nothing wrong with the wording, though. The fourth definition of the word "with" on dictionary.com is
+
+by the use of; using
+
+In other words, they are saying that it has all of the activated abilities of cards "exiled [using] Myr Welder".
+

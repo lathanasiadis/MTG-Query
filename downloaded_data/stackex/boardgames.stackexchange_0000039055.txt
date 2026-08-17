@@ -1,0 +1,15 @@
+Q:
+
+When does Battalion count the number of creatures that attacked?
+
+Consider Mardu Ascendancy, Legion Loyalist, and another creature.
+The Loyalist and other creature are Declared as Attackers. Mardu Ascendancy sees at least one non-token attacker, and creates a 1/1 red goblin tapped and attacking.
+Does the Battalion Ability of Legion Loyalists account for the three creatures that are attacking, or only the two creatures I attacked with?
+
+A:
+
+Battalion is an ability word, and as such it only represents a regular triggered ability that triggers after attacking creatures have been declared. It triggers at the same time as Mardu Ascendancy (or would, if you were attacking with three or more creatures), and won't trigger again afterwards if you somehow managed to declare more attackers (which I don't think is possible, see next paragraph).
+That said, Battalion specifically cares about creatures actively declared as attackers, not just attacking creatures. So other than the timing issue, a creature put onto the battlefield attacking will never count towards the amount of creatures required to trigger Battalion.
+
+508.3a An ability that reads “Whenever [a creature] attacks, . . .” triggers if that creature is declared as an attacker. Similarly, “Whenever [a creature] attacks [a player or planeswalker], . . .” triggers if that creature is declared as an attacker attacking that player or planeswalker. Such abilities won’t trigger if a creature is put onto the battlefield attacking.
+

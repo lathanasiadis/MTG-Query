@@ -1,0 +1,31 @@
+Q:
+
+Can I cast adventures from my graveyard?
+
+Say I have a creature with Adventure in my graveyard, for example Murderous Rider, and something allowing me to cast creatures from my graveyard (for example Liliana, Untouched by Death ).
+Am I allowed to cast the adventure part of the card from my graveyard?
+What if I'm allowed to cast instant and sorceries instead of creatures?
+
+A:
+
+So this is what the Throne of Eldraine Release Notes have to say about this:
+
+If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
+
+This settles your first question. If you are allowed to cast creature cards (or Zombie cards in case of Liliana) you are not allowed to cast them as adventures.
+Moreover, in contrast to any other answer you have received, it seems you can cast your adventure card from the graveyard, if you are allowed to cast instants and sorceries from your graveyard, for example by the emblem of Jaya Ballard. I was pretty sure this is not how Wizards intends this to play out as well though, and I thought they will make use of this bit of text in the rules about casting a spell:
+
+601.3. A player can't begin to cast a spell unless a rule or effect allows that player to cast it. If that player is no longer allowed to cast that spell after completing its proposal, the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 721, "Handling Illegal Actions").
+
+Edit after rules update:
+The rules update clarified this rules interaction by adding rule 601.3e to the rule book:
+
+601.3e. If a rule or effect states that only an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to cast, those alternative characteristics replace the object's characteristics prior to determining whether the player may begin to cast it.
+Example: Garruk's Horde says, in part, "You may cast the top card of your library if it's a creature card." If you control Garruk's Horde and the top card of your library is a noncreature card with morph, you may cast it using its morph ability.
+Example: Melek, Izzet Paragon says, in part, "You may cast the top card of your library if it's an instant or sorcery card." If you control Melek, Izzet Paragon and the top card of your library is Giant Killer, an adventurer creature card whose Adventure is an instant named Chop Down, you may cast Chop Down but not Giant Killer. If instead you control Garruk's Horde and the top card of your library is Giant Killer, you may cast Giant Killer but not Chop Down.
+
+So, as it stands, it is legal to cast Chop Down with Jaya's Emblem from your graveyard. Note that in this case, the adventure card, if it is not countered, is exiled by its own ability, which means you could still cast the Giant Killer afterwards...
+Note though, that what the other answers said about finding instant cards is still valid. You won't be able to cast Chop Down (or Giant Killer) with the ability of Torrential Gearhulk or any other card that specifically targets a non-creature card in your graveyard, because in your graveyard, it is not an instant and it would thus be an illegal target. As murgatroid already mentioned, if a card that targets creature cards allows you to cast that card, this is not restricted to casting it as a creature spell, so in this case you could also cast the adventure, if it is an adventurer card.
+I think a lot of the confusion comes from the fact, that cards that allow you to cast instants from your graveyard specifically mention instant CARDS, which is the term usually used for instants in the graveyard (or anywhere except the stack). Instants on the stack are usually referred to as instant SPELLS (Technically there is a difference here since copies of instants are spells but not cards). In this case, the card is the object itself as it CHANGES ZONES. The rules clearly state now, that only the characteristics of the part of the card you actually want to cast matter at that point, which is counterintuitive, because it behaves like it's on the stack already, whereas usually, the oracle text would not refer to a spell as a card (even if it obviously also is a card on the stack).
+tldr: No for the first, Yes for the second question.
+

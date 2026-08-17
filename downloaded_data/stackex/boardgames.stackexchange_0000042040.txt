@@ -1,0 +1,16 @@
+Q:
+
+If two things say "You may pay (cost)" and I pay that cost once, do both things happen?
+
+If I own two Flameshadow Conjurings and play a Spawn Of Thraxes, both Flameshadow Conjurings would go on the stack. Once I choose to pay 1 red mana, do I get two copies or one? Since the rules text says "if you do" it seems like both cards would see I did and I'd get two copies.
+
+A:
+
+If you don't pay a mana the second time you are instructed "you may pay {R}", you do not get a second token.
+
+When the creature enters the battlefield, the abilities of both Flameshadow Conjuring trigger. You place them on the stack in the order of your choice.
+Only one spell or ability resolves at a time.
+First, the newest instance of Flameshadow Conjuring's ability on the stack resolves. As part of resolving, it gives you the option to pay a cost, and creates a token if you do. 
+Later, the other instance of Flameshadow Conjuring's ability resolves. As part of resolving, it gives you the option to pay a cost, and creates a token if you do.
+Neither of these abilities care about costs payed by similar abilities in the past. They just check if you payed the cost they gave you the option of paying.
+

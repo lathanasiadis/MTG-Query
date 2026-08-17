@@ -1,0 +1,29 @@
+Q:
+
+Graft illegal creature
+
+Does Graft's triggered ability use the stack?
+What happens to the +1/+1 counter if the creature that graft was offloading to gets removed? Does it stay on the Graft permanent?
+
+Example:
+Llanowar Reborn is on the board. A player summons a Nyx-Fleece Ram, Llanowar Reborn Graft ability gets triggered and the player decides to move the +1/+1 counter to the Nyx-Fleece Ram. A rival player Dismembers the Nyx-Fleece Ram.
+
+Can the rival player dismember in this case? (I assume so)
+What happens to Llanowar Reborn's +1/+1 counter?
+
+A:
+
+Yes, Graft is a regular triggered ability and can be responded to, for example by destroying the receiving creature before it gets the counter. If that happens, or the creature becomes unable to receive the counter for any other reason, the +1/+1 counter stays on the Graft permanent.
+Graft is a triggered ability:
+
+702.57a Graft represents both a static ability and a triggered ability. “Graft N” means “This permanent enters the battlefield with N +1/+1 counters on it” and “Whenever another creature enters the battlefield, if this permanent has a +1/+1 counter on it, you may move a +1/+1 counter from this permanent onto that creature.”
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+All triggered abilities (except triggered mana abilities) use the stack.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [..]
+
+If the creature that is about to receive the counter dies or otherwise becomes unable to receive the counter, the counter stays where it is, on Llanowar Reborn in your case:
+
+122.5. If an effect says to “move” a counter, it means to remove that counter from the object it’s currently on and put it onto a second object. If either of these actions isn’t possible, it’s not possible to move a counter, and no counter is removed from or put onto anything. This may occur if the first and second objects are the same object; if the first object doesn’t have the appropriate kind of counter on it; if the second object can’t have counters put onto it; or if either object is no longer in the correct zone.
+

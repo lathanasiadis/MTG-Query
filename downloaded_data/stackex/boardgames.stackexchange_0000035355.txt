@@ -1,0 +1,15 @@
+Q:
+
+Are Awoken lands actually instantly-dead 0/0's?
+
+I have some friends that play mtg, and one had an extremely good awaken/landfall deck. Then his dreams of succeeding with that deck were destroyed when a friend stated that technically, it's a 0/0 AFTER the +1/+1 counters are applied, rendering the deck useless. That deck was a fun challenge, and it hurts to have that deck taken apart after that comment. I would like to know whether or not awoken lands are a 0/0 after the +1/+1 counters.
+
+A:
+
+The Awoken land is 0/0 but the +1/+1 counters will give it a toughness greater than 0 so it won't die.
+
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+However these cards are worded in such a way that even if 704.4 wasn't true the land creature would still survive because the counters are added to the card before it becomes a creature.
+

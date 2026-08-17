@@ -1,0 +1,26 @@
+Q:
+
+What is the statistically favorable amount of lands for Yennett?
+
+Recently I have been brewing up Yennett, Cryptic Sovereign, as a commander deck. The deck was going well, with only 3 cards with even mana costs, and those being  Lightning Greaves, for protection, and Strionic Resonator and Helm of the Host, which serve to increase my statistical chance of hitting an odd card with Yennett's trigger.
+This was fine until I remembered that lands have an even converted mana cost, since 0 is considered even in magic. So now I run into a problem where to increase my chances past 60% or so, I need to decrease my land count. This can be compensated for by replacing lands with odd CMC mana rocks, but this still makes my deck low on lands and still dependent on them, as most of the mana rocks would end up at 3 CMC. To allow my deck to function, it needs Yennett on the field.
+This leads to a few questions:
+
+What is my optimal amount of lands to increase my chances to a consistent amount and still have the mana to make my deck function?  How few lands can I realistically go?
+What should I do to compensate for the lack of mana?  Which mana rocks are worth it?
+Can this be compensated for with library manipulation and draw such as Ponder, Brainstorm, and Portent?  If so, how many of these small cantrips must I run to make them effective?
+
+A:
+
+I think you're missing few key aspects of Yennett's ability.  Rules text (emphasis mine):
+
+If that card’s converted mana cost is odd, you may cast it without paying its mana cost. Otherwise, draw a card.
+
+This means that lands would go to your hand even if they didn't have 0 CMC because you can't cast lands as spells.  But you're also overlooking the fact that you would still draw the land into your hand even if you miss.  Drawing free lands is still good.  Less good than most free spells, but still good because you can guarantee your land drops.
+
+What should I do to compensate for the lack of mana?
+
+Don't do this.  You should not ever have a lack of mana.  Making sure you hit your land drops is important in Commander so that you can actually play the game.  I would not got below the typical advice of 35-39 lands for a 3 color deck depending on what you your curve looks like.  It's really hard to get to 5 mana with all three colors running much fewer than that.  
+I would not focus exclusively on 3-mana rocks even though you could get them for free with Yennett.  Mana rocks are at their most useful in accelerating your gameplan.  Once you already have Yennett on the field, does getting a free 3-mana rock really help you more than just guaranteeing your land drop for the turn?  And playing a pair of 2-mana rocks could help you get Yennett out on turn 4 instead of turn 5.  
+Also keep in mind that if you have a bunch of odd CMC spells, casting cards naturally out of your hand could leave you with awkward amounts of mana left over.  A few quality even CMC spells can fill the gaps and let you get more efficiency out of your mana.  For example, drawing a 2-mana counterspell is still useful, even if your opponents know you have it in your hand.
+

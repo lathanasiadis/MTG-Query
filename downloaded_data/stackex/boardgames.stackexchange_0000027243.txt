@@ -1,0 +1,74 @@
+Q:
+
+Rally The Ancestors and 3 Lilianas
+
+I cast Rally The Ancestors and bring back 3 Liliana, Heretical Healer and 2 Jace Vryn's Prodigy and 1 Clever Impersonator from the graveyard. How many zombie tokens can I get? Am I allowed to make the Jace die first? There's no other nonland permanents on the battlefield, do I have a target for Clever Impersonator?
+
+A:
+
+Short Answer
+You can only get 1 Zombie token. One Jace and 2 Lilianas die simultaneously. And the Clever Impersonator can't copy anything, so it dies immediately.
+The Details
+I'll go through those in reverse order: First, Clever Impersonator has a ruling that says
+
+If Clever Impersonator enters the battlefield at the same time as another permanent, it can’t become a copy of that permanent. You may only choose a nonland permanent that’s already on the battlefield.
+
+So, 3 Lilianas, 2 Jaces, and 1 0/0 Clever Impersonator enter the battlefield. Then state-based actions are checked. The specific relevant rules are
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+So, when you apply those, the result is that the Clever Impersonator dies from the first rule, and 2 of the Lilianas and 1 of the Jaces die. Then, the living Liliana's ability triggers 4 times (twice for the other Lilianas, once for the Jace, and once for the Clever Impersonator), and each of the others' trigger 3 times.
+Then, you have a total of 10 copies of that ability on the stack. However, we can ignore the ones from the dead Liliana. That's because she is no longer on the battlefield, so you can't choose to exile her, which means that you don't get a zombie. So we are left with the 4 abilities from the one that survived.
+First, one of the abilities resolves. You exile her and return her to the battlefield, and you get one Zombie token. Then the next one resolves. But the Liliana, Heretical Healer creature is no longer on the battlefield, so you can't exile her. So none of the rest of the abilities give you a Zombie. Liliana has a ruling that backs this up:
+
+If multiple nontoken creatures you control die, then Liliana, Heretical Healer’s ability will trigger that many times. However, since Liliana can be exiled and returned to the battlefield only once, only the first ability to resolve will create a Zombie token. The other abilities will resolve but won’t do anything.
+
+Liliana's Ability
+To see exactly why Liliana's ability works the way it does, we can break it down into parts. First, it is a Triggered Ability, with trigger condition
+
+Whenever another nontoken creature you control dies
+
+and effect
+
+exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, put a 2/2 black Zombie creature token onto the battlefield.
+
+Now, the effect part can be further split up. Rule 117.12 says
+
+Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does or doesn’t], [effect].” or “[A player] may [do something]. If [that player] [does or doesn’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does or doesn’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+This means that the ability's effect can be split into the cost:
+
+exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control
+
+and the (sub) effect:
+
+put a 2/2 black Zombie creature token onto the battlefield.
+
+This is important because rule 117.3 says
+
+A player can’t pay a cost unless he or she has the necessary resources to pay it fully. [...]
+
+Now, you might ask "What about the Lilianas in the graveyard? Why can't I exile them to get more Zombies?" The answer to that depends on a few different rules. Rule 112.6 says
+
+Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows
+
+(None of the exceptions apply). And the rules regarding zone-change triggers say
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren’t limited to, “When [this object] leaves the battlefield, . . .” or “Whenever [something] is put into a graveyard from the battlefield, . . . .” An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone “from anywhere” is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to “look back in time” to determine if these abilities trigger.
+
+From these rules, we can see that Liliana's ability only functions while she is on the battlefield, and it triggered based on her existence before she died.
+Then, rule 201.4 says
+
+Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+The use of the word "object" here is important, because rule 400.7 says
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule
+
+This means that the "Liliana, Heretical Healer" in the ability's text refers to the Liliana that was on the battlefield while the ability is on the stack, and that reference does not transfer to the object she becomes when she moves to the graveyard.
+Therefore, you can only choose to exile Liliana to get a Zombie if she is still on the battlefield, as a creature, when the ability resolves.
+

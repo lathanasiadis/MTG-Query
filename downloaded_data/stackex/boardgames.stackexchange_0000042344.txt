@@ -1,0 +1,21 @@
+Q:
+
+Does paradox engine activate its own ability
+
+keeping in mind Paradox engine ruling does it activate its own ability as its played if not explain please. The obvious answer is no but I've been thinking about it and maybe I'm wrong
+
+A:
+
+It does not. Paradox Engine has already been cast and resolved. Its ability, like the majority of abilities1, only has effect while it is on the battlefield which means it cannot see itself being cast and trigger. 
+The ruling that you're referring to:
+
+Paradox Engine's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+
+is just clarifying that its ability triggers on another spell being cast which means the stack will look like this immediately after a player has cast any spell:
+
+Paradox Engine's trigger on top
+The Spell being cast
+
+which allows players to respond to either the spell or Engine before either of them resolves.
+1:There are some abilities (such as Dredge, Cycling, or Bloodrush; or Bridge From Below to see a non-keyword graveyard Triggered ability) that require the card being in a specific zone to use, e.g. in your hand or in the grave.
+

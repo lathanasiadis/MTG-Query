@@ -1,0 +1,28 @@
+Q:
+
+Can I win in 1v1 if I stole someone else's platinum angel, would lose without it, then defeat them?
+
+While playing in multiplayer Commander, we came across this specific situation where I used Bribery on a player to steal his Platinum Angel.
+Later in the game, we are the two last players in play and my life total is 0 or less. Can I still win if my opponent lose the game or do I lose too? Considering that his Platinum Angel will be removed from the game according to the rules below as soon as he loses the game.
+
+800.4a. When a player leaves the game, all objects (see rule 109) owned by that player leave the game, any effects which give that player control of any objects or players end, and all spells and abilities controlled by that player on the stack cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game
+
+A:
+
+You'll win the game. Once your opponent leaves, and you're the last person standing, you win immediately. From the rules on Ending the Game:
+
+104.1. A game ends immediately when a player wins, when the game is a draw, or when the game is restarted.
+104.2. There are several ways to win the game.
+104.2a A player still in the game wins the game if that player’s opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+(...)
+104.5. If a player loses the game, he or she leaves the game. If the game is a draw for a player, he or she leaves the game. The multiplayer rules handle what happens when a player leaves the game; see rule 800.4.
+
+All of these in approximately reverse order mean the following:
+
+When a player loses, they leave the game. (We handle the processes around them collecting all their stuff in multiplayer games.)
+Once they leave the game and you're the only player left, you win. This happens immediately as they leave.
+Once you win, the game ends immediately.
+
+There is no time gap between any of these steps; they effectively happen simultaneously.
+You'd only lose if the game continued (for example due to a third player still being in the game), as we'd remove the platinum angel, check state-based actions, and determine that you lose for having 0 or less life. But since that wasn't the case for you, you've won! Congratulations.
+

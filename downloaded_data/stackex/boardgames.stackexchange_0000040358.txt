@@ -1,0 +1,27 @@
+Q:
+
+Cryptoplasm Counters
+
+If you were playing a Cryptoplasm (which can copy any creature on the battlefield at the beginning of your upkeep) and copy something like Lumberknot (who gains counters for any creature that dies), if you gain your own counters as a copy of Lumberknot would you lose those counters if you then change Crytoplasm to a copy of a different creature? 
+
+A:
+
+No, you don't lose them. Copying merely causes the object to acquire new characteristics, and changing an object's characteristics doesn't cause it to lose counters.
+
+There are only three instances when counters are removed from objects by the rules, and none of them are relevant to the current situation.
+
+Dealing damage to a Planeswalker removes loyalty counters.
+State-based actions cancel out +1/+1 and -1/-1 counter pairs by removing them.
+State-based actions remove extra counters when a permanent has a limit to how many of a given kind of counters it can have.
+
+That's it. Counters are never removed from objects except in those circumstances, to pay for costs (e.g. for Planeswalkers loyalty abilities), or by abilities that instruct you to move or remove them[1].
+Under normal circumstances, a counter are never removed from the object on which it is paced; it stays on the object until the object ceases to exist (at which point they cease to exist too).
+
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+
+This includes three keyword abilities that remove counters:
+
+Fading (fade counter)
+Suspend (time counter)
+Vanishing (time counter)
+

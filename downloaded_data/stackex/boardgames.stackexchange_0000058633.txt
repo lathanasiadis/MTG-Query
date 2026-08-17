@@ -1,0 +1,18 @@
+Q:
+
+Can Titania, Voice of Gaea be melded on the same turn that she is brought into play with Oath of Druids?
+
+If Oath of Druids brings Titania, Voice of Gaea into play under control of a player with Argoth, Sanctum of Nature in play and 4 lands in their graveyard, will Argoth and Titania meld into Titania, Gaea Incarnate on that turn?
+Both the Oath of Druids and the melding are triggered at the beginning of the upkeep, so the underlying question is: Is the beginning of the upkeep a window of time where one thing can trigger after another and cause other beginning of the upkeep effects to trigger, or is it like a chime that happens once/turn and wouldn't effect something that wasn't there during the sole triggering?
+
+A:
+
+No, Titania cannot meld during the upkeep when she enters the battlefield.
+The beginning of the upkeep is a single event, and the only triggered abilities that trigger at that time are the ones that already existed as the upkeep started. Rule 503.1 says
+
+503.1 The upkeep step has no turn-based actions. Once it begins, the active player gets priority. (See rule 117, “Timing and Priority.”)
+
+503.1a Any abilities that triggered during the untap step and any abilities that triggered at the beginning of the upkeep are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+It is possible to meld Titania on the same turn that she enters, using Paradox Haze.
+

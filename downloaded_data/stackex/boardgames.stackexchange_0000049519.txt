@@ -1,0 +1,22 @@
+Q:
+
+Do you get a counter for each Tempered Sliver on the battlefield
+
+I'm building my first sliver deck. 
+If I have two Tempered Slivers on the battle field and a Sliver I control deals damage to a player, would it get one +1/+1 counter or two. 
+My gut is telling me it would be just the one. 
+
+A:
+
+The sliver in case would, in fact, get 2 +1/+1 counters.
+
+This is because of rule 113.2c, which I quote, with the relevant bit emphasized:
+
+113.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability. If the object is not represented by a card, the effect that created it may have given it multiple abilities. An object may also be granted additional abilities by a spell or ability. If an object has multiple instances of the same ability, each instance functions independently. This may or may not produce more effects than a single instance; refer to the specific ability for more information.
+
+The part in bold font means that your slivers (including your Tempered Slivers) have, besides their other abilities, two instances of 
+
+"Whenever this creature deals combat damage to a player, put a +1/+1 counter on it". 
+
+Both instances will trigger independently, giving your slivers two +1/+1 counters.
+

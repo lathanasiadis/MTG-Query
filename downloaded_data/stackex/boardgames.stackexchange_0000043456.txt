@@ -1,0 +1,34 @@
+Q:
+
+Hadana's Climb / Winged Temple of Orazca - how to apply The Layer System?
+
+A friend and I were trying to work out how to apply the Winged Temple of Orazca's ability: "Target creature you control gains flying and gets +X/+X until end of turn, where X is its power."
+We're both quite new to MTG, so were wondering whether "where X is its power" meant:
+
+Power value printed on the creature card (aka Base Power); or,
+Power based on all combined effects currently applied to the creature.
+
+We settled on Power based on all combined effects. But since then, I found out about the Layer System aka Interaction of continuous effects. If I'm reading this correctly, it says that +1/+1 Counters are applied after the +X/+X ability of Winged Temple of Orazca (because the ability would come under "Effects that modify power and/or toughness" in Layer 7c, whereas Counters are Layer 7d)...
+Here's an example, listed by time of casting:
+
+Creature      Thrashing Brontodon           3 /  4  
+Aura          Oakenform                    +3 / +3
+Equipment     Short Sword                  +1 / +1
+Counters      from Hadana's Climb     3 x (+1 / +1)
+Ability       Winged Temple of Orazca      +X / +X where X is power
+
+So, if we assumed +X/+X is applied based on all combined effects, the Brontodon would be 10/11 at the point the Ability takes effect. So X would equal 10 and the Brontodon becomes 20/21.
+But, if the Counters aren't applied until Layer 7d - and the Aura, Equipment and Ability are all in Layer 7c - then the Brontodon is 7/8 at the point the Ability takes effect. X equals 7 and the Brontodon becomes 14/15. Then the three +1/+1 Counters are applied and the Brontodon ends up as 17/18.
+Is that a correct interpretation of the Layer System?
+
+A:
+
+Your Thrashing Brontodon will get +10/+10 and be a 20/21.
+
+611.2d If a resolving spell or ability that creates a continuous effect contains a variable such as X, the value of that variable is determined only once, on resolution. See rule 608.2g.
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 112.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+The affect of the Winged Temple of Orozca is calculated when you use its ability, and it does so looking at the power of the target creature after all existing affects are applied to it.
+Once the static affect is created, it will be applied in the layers exactly as you say.  But by that point the size of the bonus is fixed.
+Even if one of the other bonuses is removed (for example, a Naturalize on Oakenform), the +10/+10 from Orozca will remain.
+

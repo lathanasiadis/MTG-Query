@@ -1,0 +1,17 @@
+Q:
+
+Can I activate an ability on a card in my graveyard that returns its to my hand?
+
+Say I have Cage of Hands, Shackles or another card in my graveyard that has an activated ability that returns the card to its owner hand, but doesn't explicitly mention that it can be played from the graveyard. Can I play its activated ability while it's in my graveyard, or only while it's on the battlefield?
+
+A:
+
+Hackworth has it right, but I love me some Comprehensive Rules:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+112.6a to 112.6n then specify the exceptions to this rule, including:
+
+112.6k An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone, unless that ability's trigger condition, or a previous part of that ability's cost or effect, specifies that the object is put into that zone.
+  Example: Necrosavant says "{3}{B}{B}, Sacrifice a creature: Return Necrosavant from your graveyard to the battlefield. Activate this ability only during your upkeep." A player may activate this ability only if Necrosavant is in his or her graveyard.
+

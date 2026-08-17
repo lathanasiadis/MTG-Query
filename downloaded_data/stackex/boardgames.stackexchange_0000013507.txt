@@ -1,0 +1,32 @@
+Q:
+
+How do Strionic Resonator and Charmbreaker Devils interact?
+
+I'm working on a red instant and sorceries deck featuring Charmbreaker Devils. As I understand it, this ability:
+
+At the beginning of your upkeep, return an instant or sorcery card at random from your graveyard to your hand.
+
+is a triggered ability. So I should be able to use Strionic Resonator to copy it. How exactly does copying it work? Is there a chance that the same card in my graveyard is chosen twice, or will I always get two instants or sorceries back, as long as there are two to start with?
+
+A:
+
+You will get two cards.
+The following describes what happens, in order:
+
+Charmbreaker Devils's ability triggers.
+Charmbreaker Devils's ability is placed on the stack. [Stack: CD]
+You activate Strionic Resonator's ability targeting Charmbreaker Devils's ability.  [Stack: SR, CD]
+Strionic Resonator's ability resolves.
+
+Make a copy of Charmbreaker Devils's ability. [Stack: CD#2, CD#1]
+
+Charmbreaker Devils's ability #2 resolves.
+
+Return an instant or sorcery card at random from your graveyard to your hand. [Stack: CD#1]
+
+Charmbreaker Devils's ability #1 resolves.
+
+Return an instant or sorcery card at random from your graveyard to your hand. [Stack: -empty-]
+
+Whichever card was returned to your hand by #2 (step 5) will not be around when #1 resolves (step 6). You cannot obtain the same card from both (unless you cast it between step 5 and 6).
+

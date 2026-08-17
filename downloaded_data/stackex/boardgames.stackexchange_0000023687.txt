@@ -1,0 +1,22 @@
+Q:
+
+When testing a deck, what % of rejected hands is acceptable?
+
+Good deck construction minimizes luck. I am about to enter my first tournament (Pauper). In addition to testing my deck against other decks in actual games, I simulate initial hands and first few cards using deckbox.org to help to fine tune it.
+It is clear from simulation that I would have to mulligan at least a quarter of my hands. I would assume that beyond a certain mulligan percentage, a deck cannot possibly be competitive in a Pauper tournament. 
+While there may be special cases where a mulligan does not confer much of a disadvantage, let's assume for the purpose of this question that this deck is average in the sense that each time the initial hand is decreased by a card, it hurts chances of winning quite a bit.
+Beyond what percentage of hands requiring mulligan would a deck be considered non-competitive? If someone has actually studied this question statistically, please provide a link to the study.
+
+A:
+
+It really depends on the format, your deck, and the current meta.
+It also depends on why you're mulliganing:
+
+If you need to mulligan due to land percentage (too many/few), you need to fix your deck.
+If you need to mulligan because you have no creatures, it might be an issue, but that depends on how much you need them [Which in turn depends on what kind of deck your opponent is running]
+If you need to mulligan because you don't have a certain card in hand... How important is that card?  [It's probably OK to mulligan for a one-drop Enchantment* or a Layline (Which aren't pauper-legal), as long as it's worth losing the Card Advantage]
+
+The best way to test it is to just build the deck, and see what happens.
+*I have one Modern deck that sometimes has to mulligan down to three or two cards in hand.
+As long as I'm not up against an aggro deck, I can still win with an opening hand of [Island, Quest for Ula's Temple].
+

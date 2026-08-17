@@ -1,0 +1,30 @@
+Q:
+
+What does an Evil Twin of an opponent's Essence of the Wild look like?
+
+Let's say I have an Evil Twin entering the battlefield under my control, and my opponent controls an Essence of the Wild. I choose the Essence as the creature that the Twin will copy.
+When the Evil Twin enters the battlefield, what will it look like? What abilities will it have?
+More importantly, when I cast a Diregraf Ghoul after all that, what will it look like? What abilities will it have? Does it enter the battlefield tapped or untapped?
+
+A:
+
+First, the Twin enters the battlefield as a modified copy of the Essence. It's a green 6/6 Avatar named “Essence of the Wild” that costs 3GGG and has two abilities. These are:
+
+“Creatures you control enter the battlefield as a copy of [this] Essence of the Wild.”
+“UB, T: Destroy target creature with the same name as this creature.”
+
+It's not blue or black, and it's not a Shapeshifter.
+When the Diregraf Ghoul would come into play, two replacement effects are relevant. One is a copy effect that causes it to become Essence of the Wild, and one is a regular effect that causes it to become tapped. Rule 616.1 specifies that the copy effect is applied first. Once the copy is applied, the creature no longer has Diregraf Ghoul's text, so the tap effect ceases to exist and is never applied.
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object‘s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+[...]
+616.1c If any of the replacement and/or prevention effects would cause an object to become a copy of another object as it enters the battlefield, one of them must be chosen. If not, proceed to rule 616.1d.
+616.1d Any of the applicable replacement and/or prevention effects may be chosen.
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+Diregraf Ghoul comes into play as a copy of your evil Essence of the Wild. It has all the characteristics of your evil Essence, including the destroy-same-name ability and the name “Essence of the Wild”. This is because characteristics modified by a copy effect are themselves copyable (706.9a). It has none of the characteristics of Diregraf Ghoul. It's not black, and it's not a Zombie.
+
+706.9a Some copy effects cause the copy to gain an ability as part of the copying process. This ability becomes part of the copiable values for the copy, along with any other abilities that were copied.
+
+You now have two copies of Essence of the Wild, both with the extra ability granted by Evil Twin. Your opponent's Essence probably doesn't have long to live!
+

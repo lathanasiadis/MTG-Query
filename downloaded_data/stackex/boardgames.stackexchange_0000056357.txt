@@ -1,0 +1,16 @@
+Q:
+
+Do permanents phase out with Spectral Adversary even if it leaves the battlefield?
+
+I cast Spectral Adversary:
+
+When Spectral Adversary enters the battlefield, you may pay {1}{U} any number of times. When you pay this cost one or more times, put that many +1/+1 counters on Spectral Adversary, then up to that many other target artifacts, creatures, and/or enchantments phase out.
+
+It enters the battlefield, then the "kicker" goes on the stack. In response my opponent shocks my creature. Can I still pay 1U and phase out a permanent?
+
+A:
+
+Yes, you can still pay for that ability's cost even if Spectral Adversary is no longer on the battlefield.
+Once an ability is activated or triggered, it exists independent of its source. If the creature leaves the battlefield, the ability will stay on the stack and it will still resolve as usual.
+In this case, the main ability just asks you to pay a cost. There are no targets so it won't fail to resolve as a result of not having targets. So, there's nothing stopping it from resolving. The ability that triggers after you pay that cost targets the permanents that you want to phase out, so whether it resolves depends only on whether those targets continue to be valid.
+

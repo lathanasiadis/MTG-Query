@@ -1,0 +1,34 @@
+Q:
+
+Chained to the Rocks and shocklands
+
+Chained to the Rocks says:
+
+Enchant Mountain you control.
+When Chained to the Rocks enters the battlefield, exile target creature an opponent controls until Chained to the Rocks leaves the battlefield. (That creature returns under its owner's control.)
+
+Does mountain in this instance mean a card that is named "Mountain" or a card with a mountain sub-type? For example Sacred Foundry has the sub-type "Mountain Plains". Could I enchant this land with Chained to the Rocks?
+
+A:
+
+A permanent with the Mountain land type. Sacred Foundry can be enchanted with Chained to the Rocks.
+
+"Mountain" could mean mean two things:
+
+An object whose name is "Mountain". e.g. Mountain
+An object which has the land (sub)type "Mountain". e.g. Mountain and Sacred Foundry
+
+When a card refers to something that can be a name or a type, it always refers to the type[1]. As such, Chained to the Rocks looks for objects with the land type "Mountain".
+For example,
+
+A Mountain does have that type. It can be enchanted by Chained to the Rocks.
+A Mountain enchanted by Contaminated Ground does not have that type. It is a Land, it is a Basic, and it is a Swamp, but it is not a Mountain (despite having that for name). It cannot be enchanted by Chained to the Rocks.
+A Sacred Foundry does have that type. It can be enchanted by Chained to the Rocks.
+A Boros Guildgate does not have that type. It is a Land, and it is a Gate, but it is not a Mountain. It cannot be enchanted by Chained to the Rocks.
+
+For references to permanents, this is covered by 109.2.
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+The same is understood to apply for references to non-permanents, though this is not explicitly stated in the rules.
+

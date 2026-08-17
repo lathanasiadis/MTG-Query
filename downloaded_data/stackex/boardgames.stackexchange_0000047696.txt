@@ -1,0 +1,18 @@
+Q:
+
+Why is exile often an intermediate step?
+
+When card text says to place a card into exile, and then do something else with that card, what is the purpose of putting it into exile temporarily?
+For example, cards often either let your draw from your library into exile, or remove cards from a graveyard into exile, and then cast them from exile. Dire Fleet Daredevil for example.
+As someone who did not play for many years, this seems wordy and over complicated.  I find myself reading such cards 2 or 3 times before mentally connecting the trigger to the end result without the seemingly pointless intermediate step of exiling cards.
+I assume this is a common practice now to avoid some overpowered combo or weird condition.  I'd like to have a better understanding of what the rule/card designers accomplish/prevent by having exile as an intermediate step.
+Note, I am not asking for an explanation of what exile does in general, nor am I asking why a player would prefer to exile over destroy.
+
+A:
+
+Exiling a card before allowing an action does a couple things:
+
+It protects the cards from interactions until it is cast.  If the Dire Fleet Daredevil has targeted a card, you want it to be uninteractable by the owner until you decide to cast it (assuming it wasn't removed in response to the trigger). If it wasn't exiled, it could be removed from the graveyard (e.g. shuffled into library) before being cast, preventing you from casting the card. 
+It acts to remove the card from the game.  This is more relevant for graveyard exile than deck exile, where it's more a use-it-or-lose-it situation. Even in the Daredevil scenario, if you never cast the card, it's still exiled.
+It makes the card public information.  This applies more to deck exile.  It would be "harder" (read "near-impossible") to keep track of which card you exiled if you got to put the card into your hand.  Even if the card is not face-up, it's still in a separate area.
+

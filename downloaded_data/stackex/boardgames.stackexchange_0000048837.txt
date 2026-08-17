@@ -1,0 +1,23 @@
+Q:
+
+Getting priority after putting a spell on the stack
+
+I have a two questions connected with priority and stack:
+
+It's my turn, during the combat phase, after the declaring blockers step. Blockers are declared. At the Combat Damage step, I get priority and I pass. My opponent gets priority and decides to put a spell on the stack. Can I respond to him, adding my spell to the stack?
+And generally, do I always get a chance to respond after spell is put on a stack, independently from the situation?
+Can I hold priority during opponent's turn?
+By hold i mean for example when my opponent in his turn cast an instant, i decide to respond, and now basically he would get priority again, and my question is can i hold it by telling that i hold and cast second instant after first one. I know that there is possibility to do it. 
+
+A:
+
+Yes, you can always respond when another player casts a spell or activates an ability. Steps or phases where players get priority only end if all players have passed priority in succession and the stack is empty. You will also get priority on opponents' turns.
+The active player is the player whose turn it is.
+
+116.3. Which player has priority is determined by the following rules:
+116.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card during the draw step; see rule 703) have been dealt with and abilities that trigger at the beginning of that phase or step have been put on the stack. No player receives priority during the untap step. Players usually don’t get priority during the cleanup step (see rule 514.3).
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, they announce what mana is there. Then the next player in turn order receives priority.
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+

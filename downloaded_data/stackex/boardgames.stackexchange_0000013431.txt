@@ -1,0 +1,11 @@
+Q:
+
+Which comes first: Illness in the Ranks or Cathars' Crusade?
+
+Suppose I have an Illness in the Ranks out and my opponent has a Cathars' Crusade out. If 1/1 creature token comes into play under the opponent's control, does the token die due to the effects of Illness or does it get the counter first before Illness's effect activates?
+
+A:
+
+It will die.
+Illness in the Ranks creates a continuous effect, which applies constantly. From the moment the token enters the battlefield, it has -1/-1. Cathars' Crusade, on the other hand, has a triggered ability, signified by the word "whenever" in its text. When the token enters the battlefield, that triggered ability goes on the stack. Before it can resolve and add a +1/+1 counter, the token dies. (Players get priority, so state-based actions are checked first, and since the token has zero toughness, it dies.)
+

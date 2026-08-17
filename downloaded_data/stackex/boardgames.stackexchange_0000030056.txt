@@ -1,0 +1,30 @@
+Q:
+
+How much does Vryn Wingmare increase the cost of my Bring to Light by?
+
+Say my opponent has a Vryn Wingmare on the battlefield.  When I cast Bring to Light:
+
+Do I pay 1 extra for the Bring to Light?
+Do I pay 1 extra for the (noncreature) spell I find?
+Both?
+If #2 applies and I pay with 5 colors, can I search a 6 CMC spell?
+If there was a sixth color of mana, would I be able to get a 6 CMC spell ( or 7 CMC, given the answer to #4)?
+
+A:
+
+What does it cost?
+You will end up paying 7 mana total, 6 for Bring to Light and 1 for the spell you find with it.
+What happens is you cast Bring to Light you determine the cost of paying the spell, in this case the mana cost + the cost increase so you will pay 6 total mana for it. Then when Bring to Light resolves you go through the cost determination for the new spell, in this case the alternative cost from bring to light + the cost increase so you will pay {1} for the second spell.
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can’t be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes “locked in.” If effects would change the total cost after this time, they have no effect.
+
+What can I search for?
+As for what you can search for, the Wingmare does not effect the CMC of cards, only the cost to cast them. So if you pay 5 different colors you can find a spell with a CMC of up to 5 (and not up to 4 if the Wingmare effected it). If you are playing with Un-cards so there are 6+ colors you could search for cards with a CMC of 6 assuming you have a way to add colors like pink to your mana pool.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+202.4. Any additional cost listed in an object’s rules text or imposed by an effect isn’t part of the mana cost. (See rule 601, “Casting Spells.”) Such costs are paid at the same time as the spell’s other costs.
+
+From the Gatherer Rulings on Bring to Light:
+
+If there are any alternative or additional costs to cast a spell with a converge ability, the mana spent to pay those costs will count. For example, if an effect makes sorcery spells cost {1} more to cast, you could pay {W}{U}{B}{R} to cast Radiant Flames and deal 4 damage to each creature.
+

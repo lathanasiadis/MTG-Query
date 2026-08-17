@@ -1,0 +1,20 @@
+Q:
+
+What are the mechanical differences between Adapt and Monstrosity?
+
+If we compare Incubation Druid with Ill-Tempered Cyclops, we see respectively:
+
+Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)
+
+Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+
+Now I'm curious about the mechanical differences between the two abilities.
+I can think of one difference: Monstrosity has more flexible prerequisites than Adapt: A non-monstrous creature could have other counters on it already (from a different source) and still become monstrous, while a non-adapted creature couldn't become adapted if it already has a counter on it.
+Are there more mechanical differences between Adapt and Monstrosity?
+
+A:
+
+In practice, there is little difference between Adapt on Monstrosity, but there are minor differences.
+As you already pointed out, Monstrosity and counters are independent. You can make a creature monstrous even if it already has +1/+1 counters on it, whereas you can't adapt a creature that already has +1/+1 counters on it.
+On the flip side, many monstrous creatures (such as Stormbreath Dragon) have a triggered ability that triggers when it becomes monstrous. Since an object can only become monstrous once, you can get that trigger at most once per object. Some adapt creatures (such as Growth-Chamber Guardian) have a triggered ability that triggers whenever +1/+1 counters are placed on it. This can happen any number of times: most commonly once through the adapt ability, but also through any other means of putting a +1/+1 counter on that creature.
+

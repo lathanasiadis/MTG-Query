@@ -1,0 +1,53 @@
+Q:
+
+In what order are replacement effects chosen with respect to damage prevention?
+
+How are replacement effects handled in multiplayer? Here's a concrete example.
+
+Player A, B, and C are seated around the table. It is Player A's turn.
+Player A has a Furnace Of Rath (double all damage), and Hostility (prevent damage to opponents, and create 3/1 tokens instead) in play.
+Player A casts Volcanic Fallout (2 damage to each creature and player).
+Player B responds with Hallow (prevent all damage from spell, gain life equal to damage prevented).
+No one has any more responses, no other permanents are in play.
+
+What possible different life totals and 3/1 tokens are generated when the stack resolves?
+Who gets to make the choice(s)?
+Do the possibilities change if Player B or Player C are the active player? What are
+the possible results?
+
+A:
+
+One of the rulings for Furnace of Rath states:
+
+If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, "Prevent the next 4 damage that would be dealt to target creature or player this turn." Suppose a spell would deal 5 damage to a player who has cast Mending Hands targeting himself or herself. That player can either (a) prevent 4 damage first and then let Furnace of Rath double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
+
+This ruling is the result of Comprehensive rule 616.1
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object's controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+There are some caveats under rules 616.1a-e which specify when some effects must be applied first, but I don't see that they apply in this particular case.
+So therefore, since each player and their creatures are taking damage, they each get to decide the order to apply the replacement effects. They decide how the damage will be applied to them and their creatures in APNAP order.
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player's left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the "Active Player, Nonactive Player (APNAP) order" rule.
+
+There are three replacement effects. I will summarize:
+
+Furnace of Wrath: Double the damage.
+Hostility: Prevent damage to opponent, get 3/1 token for each 1 damage.
+Hallow: Prevent all damage, gain life
+
+This means there are six possible orders the replacement effects are applied. If Hallow is applied first, the order of the next two effects is irrelevant. Each player gets to choose the order the effects are applied, and they are applied simultaneously! So it doesn't really matter who's turn it is, although that might affect each player's choices.
+Volcanic Fallout does 2 damage to each creature and each player. I will use Y as the number of creatures the selecting player controls. Each player chooses the order they are applied to themselves and their creatures, so here's the possible results for replacement effects:
+
+123: 4 tokens if player B or C, 4Y life (4 + 4Y life if player A)
+132: 0 tokens, 4 + 4Y life
+213: 2 tokens if player B or C, 4Y life (4 + 4Y life if player A)
+231: 2 tokens if player B or C, 2Y life (2 + 2Y life if player A)
+312 or 321: 0 tokens, 2 + 2Y life
+
+Player A, presumably, wants to maximize the number of tokens generated so will choose order 123. Player B will presumably want to minimize the number of tokens and maximize their life gain so will choose 132. Player C, presumably, doesn't want tokens and wants to minimize player B's life gain so will choose 312 or 321.
+But if damage is applied simultaneously, we have contradictory results! What happens? The key is CR 616.1. Player A has no control over the order of replacement effects for the damage taken by his opponents, so unless, for some reason, Players B or C want him to get tokens, he won't. Even if Player A chooses order 123, that order only applies to the damage applied to Player A and the creatures controlled by Player A.
+Therefore Player A should choose order 231, 312 or 321.
+Basically it's as if Volcanic Fallout was split into three spells, and each player chooses the order that the damage applied to them and their creatures is prevented and doubled. The amount of life gained by player B will be determined by the number of creatures on the board, as this will affect everyone's decision.
+Whew! I hope I interpreted this right! A real head-scratcher.
+

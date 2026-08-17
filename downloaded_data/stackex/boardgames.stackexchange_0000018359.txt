@@ -1,0 +1,37 @@
+Q:
+
+In what order do single spells or abilities that target multiple targets trigger?
+
+When a spell (for example, Dauntless Onslaught) that targets more than a single target, if both of them have a reaction (Heroic, for example) to being targeted which happens first? The specific case I'm wondering about is if I have a Vanguard of Brimaz and a Phalanx Leader, the order in which they are triggered matters because the newly created creature token may or may not have the +1/+1 counter that Phalanx Leader could give it, though this is something that could happen with any spell or ability that has multiple targets, where there are multiple thigns that could be triggered in some way by the effect of the spell.
+
+A:
+
+Vanguard of Brimaz and Phalanx Leader trigger on the spell being cast. There's only one spell being cast, so their abilities trigger simultaneously. The next time a player would get priority, you get to place the triggered abilities on the stack in the order you desire. (If the abilities of more than one player triggered simultaneously, each player starting with the with active player would place their abilities on the stack in the order of their choice.) They resolve in the opposite order (last in, first out), so you'd place Phalanx Leader's ability on the stack first.
+
+You cast Dauntless Onslaught targeting Vanguard of Brimaz and Phalanx Leader. Simultaneously,
+
+Vanguard of Brimaz's ability triggers.
+Phalanx Leader's ability triggers.
+
+Phalanx Leader's triggered ability is placed on the stack.
+Vanguard of Brimaz's triggered ability is placed on the stack.
+Vanguard of Brimaz's triggered ability resolves:
+
+Put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield.
+
+Phalanx Leader's triggered ability resolves:
+
+Put a +1/+1 counter on each creature you control.
+
+Dauntless Onslaught resolves:
+
+Vanguard of Brimaz and Phalanx Leader get +2/+2 until end of turn.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. [...]
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+

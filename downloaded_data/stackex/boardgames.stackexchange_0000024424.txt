@@ -1,0 +1,77 @@
+Q:
+
+Multiple permanents entering the battlefield simultaneously and “Enter the Battlefield” effects
+
+There are many cards that can put multiple permanents onto the battlefield simultaneously, such as Scapeshift, Living Death, or Pyxis of Pandemonium.  How do these interact with the following types of abilities?
+
+As [this permanent] enters the battlefield...
+You may have [this permanent] enter the battlefield as...
+[This permanent] enters the battlefield with...
+When [a permanent with certain characteristics] enters the battlefield...
+
+Justification
+There have been many questions already about particular instances of this situation.  This question is intended to be a canonical question and answer to all questions such as:
+What happens when multiple Canker Abominations enter the battlefield simultaneously?
+How does Valakut trigger with a card like Harrow or Scapeshift putting multiple mountains into play?
+Cards entering the battlefield simultaneously and "Enter the Battlefield" effects
+Do creatures that enter the battlefield at the same time see each other enter?
+Pyxis of Pandemonium and 'enters the battlefield' abilities
+Note to moderators: three of these five questions have already been marked as duplicates pointing to this one.  Can we do the same for the remaining two?
+
+A:
+
+The replacement effects (As [this permanent] enters the battlefield, You may have [this permanent] enter the battlefield as..., and [This permanent] enters the battlefield with) will look at the state of the battlefield before the group of permanents enters.
+The triggered abilities (When [a permanent with certain characteristics] enters the battlefield) will trigger for all eligible permanents entering the battlefield.  This is true even if the ability is on one of the permanents that is entering the battlefield.
+
+Examples
+If you use Scapeshift to find several copies of Valakut, the Molten Pinnacle, some mountains, and several copies of Vesuva, you will have a group of lands entering the battlefield simultaneously.  Vesuva's ability is a replacement effect, and so can only copy lands on the battlefield before the group of lands enters (so if you sacrificed all of your lands to Scapeshift, Vesuva would only be able to copy an opponent's land).  Meanwhile, Valakut has a triggered ability.  All of the Valakut abilities will trigger for all of the mountains entering the battlefield.  If the Valakuts happen to be mountains as well, such as due to Prismatic Omen, they will trigger their own and each others abilities.
+If you use Living Death, any instances of Clone that come back to life will have no valid copy targets and Canker Abomination will be a 6/6, since both of these are replacement effects.  Meanwhile, Goldnight Commander has a triggered ability, and so will give all of your creatures +1/+1 until end of turn for each creature besides himself that entered the battlefield.
+
+Rules Justification
+The behavior of the triggered abilities comes from the following core rules:
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, "When [this object] enters
+the battlefield, ..." or "Whenever a [type] enters the battlefield,
+..." Each time an event puts one or more permanents onto the
+battlefield, all permanents on the battlefield (including the
+newcomers) are checked for any enters-the-battlefield triggers that
+match the event.
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered
+abilities he or she controls on the stack in any order he or she
+chooses. (See rule 101.4.) Then the game once again checks for and
+resolves state-based actions until none are performed, then abilities
+that triggered during this process go on the stack. This process
+repeats until no new state-based actions are performed and no
+abilities trigger. Then the appropriate player gets priority.
+
+The behavior of the replacement effects comes from the following core rules:
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only
+once, when the effect is applied
+614.1c Effects that read "[This permanent] enters the battlefield with ... ," "As [this permanent] enters the battlefield ... ," or
+"[This permanent] enters the battlefield as ... " are replacement
+effects.
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the
+permanent itself if they affect only that permanent (as opposed to a
+general subset of permanents that includes it). They may also come
+from other sources. To determine which replacement effects apply and
+how they apply, check the characteristics of the permanent as it would
+exist on the battlefield, taking into account replacement effects that
+have already modified how it enters the battlefield (see rule 616.1),
+continuous effects generated by the resolution of spells or abilities
+that changed the permanent’s characteristics on the stack (see rule
+400.7a), and continuous effects from the permanent’s own static abilities, but ignoring continuous effects from any other source that
+would affect it.
+614.12a If a replacement effect that modifies how a permanent enters the battlefield requires a choice, that choice is made before the
+permanent enters the battlefield.
+614.4. Replacement effects must exist before the appropriate event occurs—they can’t “go back in time” and change something that’s
+already happened. Spells or abilities that generate these effects are
+often cast or activated in response to whatever would produce the
+event and thus resolve before that event would occur.
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes
+any choices required, then the next player in turn order (usually the
+player seated to the active player’s left) makes any choices required,
+followed by the remaining nonactive players in turn order. Then the
+actions happen simultaneously. This rule is often referred to as the
+“Active Player, Nonactive Player (APNAP) order” rule.
+

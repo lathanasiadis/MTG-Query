@@ -1,0 +1,21 @@
+Q:
+
+How does the ability of Bloodthirsty Aerialist resolve with other life link creatures?
+
+Scenario:
+I have Bloodthirsty Aerialist and a Blood Burglar on the board. I attack with both and both get a blocker assigned to them.
+Does Bloodthirsty Aerialist's ability trigger before damage because of Blood Burglar's Lifelink? As in does Bloodthirsty Aerialist get a +1/+1 counter on it before the damage is done against the blocker?
+
+A:
+
+The scenario unfolds as follows:
+
+You declare bloodthirsty Aerialist and Blood Burglar as attackers.
+Your opponent declares blockers for these creatures.
+All damage is dealt. At the same time, Blood Burglar's lifelink causes you to gain 2 life.
+Bloodthirsty Aerialist's ability is triggered and goes on the stack (but doesn't resolve yet).
+State based actions are checked. If either of these creatures have enough damage on them to die, they are put into the graveyard.
+Bloodthirsty Aerialist's ability resolves (assuming players pass priority). If Bloodthirsty Aerialist is not on the battlefield, the ability does nothing. If the creature is on the battlefield, it gets a single +1/+1 counter.
+
+Bloodthirsty Aerialist will only deal 2 damage to the creature that blocks it, and if it is dealt three damage, the +1/+1 counter won't be placed on it in time to save it from dying.
+

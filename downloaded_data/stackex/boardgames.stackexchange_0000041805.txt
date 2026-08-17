@@ -1,0 +1,20 @@
+Q:
+
+Could you use Twincast to counter Cryptic Command?
+
+If your opponent casts Cryptic Command to tap all your creatures and draw a card, can you use Twincast to counter it and draw a card?
+
+A:
+
+From the Twincast's rulings:
+
+If the spell Twincast copies is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. You can’t choose a different one.
+
+From Comprehensive Rules (thanks ikegami):
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). [...]
+
+(Emphasis mine.)
+So, no.
+Twincast has the same modes that your opponent chose. If they chose tap and draw, Twincast will also tap and draw.
+

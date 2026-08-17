@@ -1,0 +1,32 @@
+Q:
+
+Sinuous Striker query around pump in reaction to combat/defending
+
+So I heard a while ago that damage doesn't kill creatures, state based actions kill creatures. Not relevant but this was a judge who said it.
+So I wanted to ask, is it possible for someone to attack with say a 4/4 Bitterblade Warrior and me to declare 2/2 Sinuous Striker as a defender then attacking opponent casts a spell or combat trick on another minion or maybe does nothing in this example, then I say before damage is dealt to pump the Sinuous Striker by two to be a 4/0 so that it's damage is enough to kill the 4/4 Bitterblade Warrior. Does a State based action check happen before damage is dealt or is the move I'm talking about legal to do at this stage? The finer points of movement between phases still eludes me as I'm getting my head around it. 
+If anyone can explain this as clearly as possible (as opposed to just saying 'no you can't do that') I would be quite grateful, I'm looking to also learn about phasing and how it works here and how each steps resolves as the stack steps through the corresponding actions.
+From my own perspective this is how I imagine it would work:
+
+Combat starts
+Attacker declared
+Blocker declared
+Nothing from the opponent like spells etc,
+Defender gets priority to respond before damage and pumps creature
+Damage is then resolved
+State based action happens then it sees the 4/4 attacker and the 2/2 defender are now 4/0 and 4/-4 respectively ergo they both die as their toughness is 0 or less.
+
+A:
+
+Sinuous Striker will die without dealing combat damage.  Your opponent's creature will remain blocked, but will not be destroyed.
+
+The problem with this combo is that there is no way to activate Sinuous Striker's ability without state-based actions being checked immediately afterwards.  State-based actions are checked immediately after any ability resolves.
+Let's assume that the Declare Attackers Step is complete.  Here is the order of events:
+
+You declare that your Sinuous Striker will block your opponent's creature.509.1
+The active player (your opponent) gets priority.509.4
+Your opponent passes, giving you priority.116.3d
+You activate Sinuous Striker's ability twice.  You and your opponent both pass (twice) allowing both of those abilities to resolve.  Sinuous Striker is now a 4/0 creature.
+The active player (your opponent) will get priority after the spell resolves,116.3b so a check for state-based actions is triggered.704.3
+Sinuous Striker is destroyed by a state-based action.704.5f
+Combat damage is assigned.510.1  Your opponent's creature remains blocked510.1c but takes no combat damage.
+

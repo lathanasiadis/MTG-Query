@@ -1,0 +1,18 @@
+Q:
+
+Can I use pump spells with Fighting?
+
+In a "fight," can "pump" spells be used?
+As an example, I have my 2/2 fight my opponent's 4/4, then I add a +3/3 pump to my 2/2. Would his 4/4 die to my now 5/5?
+
+A:
+
+This depends on the order in which spells are played. I'm assuming you know about the stack: When spells are played or effects are triggered, they are placed on the top of the stack. When no player wants to add spells or effects to the stack, the stack gets resolved top-to-bottom; in effect in reverse order of placing things on it.
+Having said that, I also assume that with "fight" you are not referring to regular combat but to spells that pit two creatures against each other. Then it matters in what order spells are played:
+
+You play Giant Growth on your creature, the stack resolves and you now own a 5/5. You or your opponent set up a 'fight' between your 5/5 and his 4/4. Your creature survives, his dies.
+Your opponent casts a fight-spell on his 4/4 and your 2/2. While that's still on the stack, you react with an instant to make your 2/2 a 5/5. Same result.
+You cast a Giant Growth on your 2/2 and your opponent reacts with a fight-spell pitting your Grizzly Bears against his 4/4. In this instance, the Giant Growth hasn't resolved yet, and the 4/4 will win the duel, killing your 2/2. Giant Growth will fizzle when it resolves because its target is no longer legal.
+
+On a side note, in the last scenario you could react to the fight-spell with another Giant Growth if you have a second spell in your hand and the mana available.
+

@@ -1,0 +1,22 @@
+Q:
+
+What happens if Perplexing Chimera is used on a Storm spell?
+
+Perplexing Chimera is a newly spoiled card with the rules text:
+
+"Whenever an opponent casts a spell, you may exchange control of
+Perplexing Chimera and that spell. If you do, you may choose new
+targets for the spell. (If the spell becomes a permanent, you control
+that permanent.)"
+
+If a player exchanges control of Perplexing Chimera with Tendrils of Agony or Grapeshot, who controls the storm copies?
+
+A:
+
+The player who cast the Stormy spell.
+There's two scenarios :
+Bob is Chimera's controller, Alice casts a spell with Storm ability.
+a. It's Bob's turn when Alice casts Brain Freeze. Active player's triggered abilities go on the stack first (thanks to the rule 101.4 known as "Active Player, Nonactive Player (APNAP) order"), then do his Alice's. So Storm is resolved first, Alice is still the spell's controller at that time so she gets the copies, and Chimera's ability resolves and Bob get the original Brain Freeze.
+b. It's Alice's turn and she casts Grapeshot. Storm triggered ability is placed on the stack, Alice controls the ability while it's on the stack, and then Chimera's ability is placed on the stack. Chimera's ability resolves, Bob get the control of the original Grapheshot, but the Storm ability is already on the stack, and is still controlled by Alice, so she gets the copies.
+TL;DR : you can't resolve Chimera's ability before Storm goes on the stack.
+

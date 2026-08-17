@@ -1,0 +1,29 @@
+Q:
+
+Destroying a permanent with ability "as long as this card is on the battlefield"
+
+Example scenario is: 
+
+P1 plays a creature like Skilled Animator that says: 
+
+When Skilled Animator enters the battlefield, target artifact you control becomes an artifact creature with base power and toughness 5/5 for as long as Skilled Animator remains on the battlefield.
+
+P1 has an artifact, so it becomes a creature with base power and toughness 5/5
+P1 goes to attack with at least the artifact 
+P2 plays an instant card that deals enough damage to the Skilled Animator to kill him. But the artifact creature is not blocked
+
+What happens to the artifact/creature? Does it still deal combat damage, or does the instant resolve first, killing Skilled Animator, and causing the artifact to lose its creature status before dealing damage?
+
+A:
+
+Provided that Player 2 sequences correctly, the artifact will cease being a creature before combat damage is dealt.
+The situation that you're describing would play out like this:
+
+Player 1 declares attackers, including the artifact creature.    
+After attackers are declared, both players will receive priority. Player 2 can use their instant now to kill the Skilled Animator. At this point, the artifact is no longer a creature. This will cause it to be removed from combat, per rule 506.4 (emphasis mine):  
+
+A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, or if it’s an attacking or blocking creature that regenerates (see rule 701.12) or stops being a creature. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that’s removed from combat stops being attacked.
+
+The declare blockers step begins. After Player 2 declares their blockers (if any), both players will receive priority again. At this point, Player 2 can use their instant again, with the same effect.  
+The combat damage step begins, and damage is dealt. After damage is dealt, both players will receive priority again. At this point, Player 2 can use their instant; however, at this point, it's too late to prevent the damage, as it has already been dealt. 
+

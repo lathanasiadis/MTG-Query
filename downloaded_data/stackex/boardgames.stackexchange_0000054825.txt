@@ -1,0 +1,23 @@
+Q:
+
+Magic The Gathering: Indestructible vs damage and -1/-1 effect
+
+If I give my 1/1 creatures +3/+3 in response to my opponent getting Demon of Dark Schemes out, then my opponent cast Blasphemous Act and I give my creatures indestructible. Will my creatures live or will they die?
+
+A:
+
+They live.
+Damage doesn't change its toughness, it's "marked" on a creature. See 120.5 - when state-based actions are checked, that's how and when the creature would be destroyed by lethal damage.
+so the way it sounds like this happens:
+
+you have some 1/1s
+your opponent casts Demon of Dark Schemes
+in response, while Demon of Dark Schemes is on the stack, you do something to give your creatures +3/+3.
+no response from anyone. +3/+3 resolves, your 1/1s are 4/4s
+no response from anyone. Demon of Dark Schemes resolves. Your 4/4s are now 2/2
+your opponent casts Blasphemous Act
+in response, you give your creatures indestructible until end of turn
+no response from anyone, your creatures are indestructible
+no response from anyone, Blasphemous Act resolves; 13 damage is dealt to your 2/2 indestructibles
+before the next player gets priority, damage is checked as a state-based action. your 2/2s are indestructible, they ignore this check (see 702.12b).
+

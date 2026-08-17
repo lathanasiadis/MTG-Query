@@ -1,0 +1,26 @@
+Q:
+
+Smite vs creature with trample
+
+Scenario is  a 10/10 with trample attacks. Defender blocks with a 1/1 and plays smite 
+My understand was that in order for smite to work, the attacker must be blocked. If the attacker is blocked, then isn't damage already assigned? 
+Would the defending player take 9 damage and the 1/1 is destroyed? Or would the destroyed creature not deal any damage? 
+
+A:
+
+The attacking creature will die, the blocking creature will survive, and the defending player will not take damage. If you destroy a creature before the combat damage step, or otherwise remove it from combat, it will not deal combat damage. There is an opportunity after declaring blockers to play spells like Smite to accomplish that.
+Combat has the following steps:
+
+Beginning of Combat
+Declare Attackers
+Declare Blockers
+Combat Damage
+End of Combat
+
+In each step, after taking the relevant turn based actions, such as declaring attackers or blockers, or dealing combat damage, each player gains priority, which is the opportunity to take actions such as casting spells and abilities. This means that the defending player can cast Smite during the declare blockers step, before the combat damage step begins.
+The important thing, in this particular situation, is that combat damage is both assigned and dealt in the combat damage step, and no players gain priority in between those two actions. This is described in the following rules regarding that step:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. [...]
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+510.3. Third, the active player gets priority. (See rule 116, “Timing and Priority.”)
+

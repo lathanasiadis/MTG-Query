@@ -1,0 +1,17 @@
+Q:
+
+Does Soul Link give life twice in combat and fighting?
+
+Soul Link says:
+
+Enchant Creature
+Whenever enchanted creature deals damage, you gain that much life.
+Whenever enchanted creature is dealt damage, you gain that much life.
+
+If the enchanted creature is blocking, does the player gain life from the both the dealing of damage and the takng of damage at the same time?  I would think so since damage is dealt simulateously and there is no reference to "either/or" in the oracle text.
+
+A:
+
+Yes, you are correct. When damage is dealt, 2 separate triggered abilities trigger. You will choose the order in which to put them on the stack, and then each one will resolve.
+An example: Your Soul Link is enchanting a 3/3 creature, which is blocking a 1/1 attacker. When damage is dealt, your creature will deal 3 damage, and be dealt 1 damage. 2 abilities will trigger: "gain 3 life" and "gain 1 life". You will put them both on the stack, and get a total of 4 life.
+

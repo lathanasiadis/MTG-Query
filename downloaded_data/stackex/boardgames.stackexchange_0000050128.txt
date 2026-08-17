@@ -1,0 +1,21 @@
+Q:
+
+Can Hour of Devastation kill Heliod, Sun-Crowned?
+
+Hour of Devastation says:
+
+All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.
+
+Let's say my opponent has Heliod, Sun-Crowned and four Healer's Hawk in play. This hits the Devotion threshold, so Heliod is a creature. Now I cast Hour of Devastation to clear the board. 
+Does Heliod die because it's a creature that has taken 5 damage + no longer indestructible, or does Heliod survive because the Healer's Hawks dying makes it no longer a creature (Devotion not met) and so no amount of damage can kill it?
+
+A:
+
+Heliod will die in this situation.
+The key is that state-based actions are evaluated simultaneously. After the spell resolves, Heliod and each Healer's Hawk all have 5 damage marked on them. Then state-based actions are evaluated, and all of those creatures die at the same time. There is no time when Heliod has the damage marked but is not a creature.
+This is all covered by rule 704.3:
+
+Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+The answer is actually different if the Healer's Hawks are replaced with 2 or 3 Benalish Marshal, which has the ability "Other creatures you control get +1/+1.". In that case, when evaluating state-based actions, the Benalish Marshals have lethal damage marked and die, but Heliod does not because he has more than 5 toughness. Then state-based actions are evaluated again and Heliod is no longer a creature so again he does not die.
+

@@ -1,0 +1,17 @@
+Q:
+
+Gaining and losing life at the same time
+
+I have a question about a specific scenario involving life loss and gain.
+Say I have 3 life left, the creature Soulcage Fiend on the battlefield, and also the enchantment Exquisite Blood on the battlefield.  
+Now say my opponent kills Soulcage Fiend with some instant, would I lose the game? Or does the gain of life happen first, keeping me at 3 life when all is said and done?
+
+A:
+
+The word "whenever" usually means that the card triggers, which goes on the stack.
+From the Oracle Text for Exquisite Blood:
+
+If you and an opponent both lose life simultaneously, and this causes your life total to become 0 or less, you'll lose the game before Exquisite Blood's triggered ability can resolve.
+
+You would lose the game.
+

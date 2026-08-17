@@ -1,0 +1,17 @@
+Q:
+
+Can a continuous effect that gives haste wear off?
+
+For example, let's say I have a Thopter Engineer which has the ability:
+
+Artifact creatures you control have haste. 
+
+I then cast an Artifact Creature. If my opponent were to cast Lightning Strike targeting Thopter Engineer in response, it would go on top of the stack and resolve first, destroying Thopter Engineer.  The Artifact Creature would then resolve, enter the battlefield, and not have haste.
+Otherwise if I cast the Artifact Creature with no response, it resolves, enters the battlefield, and gains haste thanks to Thopter Engineer's continuous effect.  What would happen if I passed priority after this and my opponent decided to then cast Lightning Strike on my Thopter Engineer?
+Would the Artifact Creature keep haste and be able to attack during combat that turn? Or would it lose haste due to the continuous effect no longer applying and not be able to attack?
+
+A:
+
+The Artifact Creature would lose haste if the Engineer was destroyed because it is a continuous effect from a static ability whose source has disappeared. As you mentioned, this means the creature will be unable to attack this turn.
+The one difference in your two scenarios is that in the second one, if the Artifact Creature had an activated ability with the tap or untap symbol in its cost, it could use that ability in response to the Lightning Strike being cast against the Engineer.
+

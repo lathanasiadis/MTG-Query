@@ -1,0 +1,16 @@
+Q:
+
+Are +1/+1 counters different from +1/+1 effects?
+
+Is a +1/+1 counter I get from, say Unleash or Undying different than +1/+1 from something like Spear of Heliod or Master of Waves?
+
+A:
+
+Yes, effects that grant +1+/1 are very different than +1/+1 counters.
+For Spear of Heliod, you have a static ability with a continuous effect that grants +1/+1.
+For Undying, you have a triggered ability with a one-shot effect that grants a counter that grants +1/+1.
+Notice the difference between what grants the +1/+1. It's the effect granting the +1/+1 in one case, and it's the counter in the other case. This matters because the +1/+1 will only be granted as long as the granter exists.
+The +1/+1 from the continuous effect will last as long as the continuous effect exists. In the case of the effects from static abilities, that's as long as the card with the static ability is on the battlefield. In the case of effects created by the resolution of a spell or ability, that's as long as stated (e.g. "until end of turn"), or indefinitely if a duration isn't stated.
+The +1/+1 granted by the counter will last as long as the counter exists. These normally go away when the permanent on which they reside ceases to exist, although there are cards that can  manipulate counters (e.g. Clockspinning), and granting a -1/-1 counter will cause both the +1/+1 and the -1/-1 counter to be removed.
+Another difference is that counters are represented by physical objects (e.g. glass beads or dice used as counters), but effects aren't represented physically.
+

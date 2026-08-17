@@ -1,0 +1,12 @@
+Q:
+
+Do Ensnaring Bridge and Tortoise Formation work together?
+
+I would like to use Tortoise Formation to temporarily disable the effect of Ensnaring Bridge.  My question therefore is: does that combo allow my creatures to attack, even if there are no cards in my hand?
+
+A:
+
+No, Tortoise Formation has no interaction with Ensnaring Bridge.
+Shroud only prevents a creature from being the target of a spell or ability. That is the only thing shroud does. Only spells or abilities that specifically use the word "target" have targets (with a few pseudo-exceptions, chiefly Auras and Equip abilities, for which the word "target" occurs in the official rules but is not usually printed on the card). If a spell or ability does not use the word "target", then shroud has no effect.
+Ensnaring Bridge's ability does not use the word "target", so playing Tortoise Formation will not allow your creatures to get around the Bridge's restriction.
+

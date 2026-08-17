@@ -1,0 +1,23 @@
+Q:
+
+How can we have a permanent without a controller?
+
+The comprehensive rules use at several points the phrasing:
+
+109.5. [...] or its owner (if it has no controller)
+
+What are the most common cases where a permanent has no controller?
+I thought it might be during multiplayer when someone loses, but it does not seem to be the case.
+
+A:
+
+The full text of rule 109.5 says this:
+
+The words "you" and "your" on an object refer to the object's controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it's on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
+
+This rule is about objects, a broad category of things in the game that, as the rule shows, includes permanents, cards, spells, abilities on permanents cards and spells, and other things. Some objects, like permanents and spells, always have controllers. Others, like cards in exile, do not have controllers, because the concept of "control" isn't defined for that zone. Rule 109.4 says this explicitly:
+
+Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren't controlled by any player. See rule 108.4. There are five exceptions to this rule: [...]
+
+The only other usage in the rulebook of "owner (if it has no controller)" is in the Glossary definition of "You, Your", which is basically a summary of rule 109.5.
+

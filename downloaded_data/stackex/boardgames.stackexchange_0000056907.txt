@@ -1,0 +1,19 @@
+Q:
+
+Does Karn Liberated's Ultimate allow you to change your Commander
+
+After reading the answers to this question, a thought popped into my mind: if Karn Liberated's ultimate restarts the game, and declaring one of the Legendary Creatures in your deck as a Commander is a part of the process of starting the restarted game, could you choose a different Legendary Creature from your deck as your Commander for the restarted game?
+For instance, if you were originally playing a deck that used Maelstrom Wanderer as your Commander, and you had Intet the Dreamer as one of the cards in your deck, could you declare Intet as your new Commander after Karn restarts the game?
+If you can, do you need to respect the color identity of all the cards in your deck when you do so, since it sounds like you don't check deck legality during Karn's restart process? For instance, if the Maelstrom Wanderer deck also included Tanazir Quandrix, could you declare them as your new Commander, even though you have Red cards in your deck?
+
+A:
+
+No, you cannot change your commander when you restart the game.
+As mentioned in the question, the Commander deck construction rules are defined in terms of the chosen commander. This means that choosing the commander is part of deck construction. A player may construct a deck that can be played with a choice of multiple commanders, but from a rules perspective they have really constructed multiple decks  that are composed of the same cards but have different commanders. So, changing commanders in this situation would be like switching to a different deck, which is also not allowed.
+In addition, the companion and comander commander game start procedures in rules 103.2b and c are as follows:
+
+103.2b If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and they may do so only if their deck fulfills the condition of that card’s companion ability. (See rule 702.139, “Companion.”)
+103.2c In a Commander game, each player puts their commander from their deck face up into the command zone after having the opportunity to reveal a card with a companion ability and before shuffling. See rule 903.6.
+
+The companion rule instructs the player to make a choice in this procedure: they can choose any card with the companion ability that they own from outside the game, and they can choose not to reveal a card at all. In contrast, the commander rule does not instruct players to make any choices. It simply moves the card that has already been designated as the commander into a different zone. This procedure should be followed when Karn's ability is activated, and each commander should be placed into the command zone unless it was exiled with Karn. This is also mentioned in Karn's rulings.
+

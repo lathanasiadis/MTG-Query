@@ -1,0 +1,26 @@
+Q:
+
+Jace's Erasure with Prosperity
+
+If I have a Jace's Erasure (Whenever you draw a card, you may have target player mill 1) out and cast Prosperity (Each player draws X cards), since we both draw at the same time, for each card drawn would it be
+
+I draw, I can make opponent mill, opponent draws
+
+or
+
+Opponent draws, I draw, I can make opponent mill
+
+Also, if I have Jace's Erasure and instead my opponent casts Prosperity, does the outcome change?
+
+A:
+
+The order of events in this case is as follows:
+
+Prosperity resolves
+Resolve the text on the card in its entirety, so each player draws X cards.
+Jace's Erasure's ability is triggered once for each card drawn, but we wait until the resolution of Prosperity is complete before putting the triggers on the stack.
+The triggered abilities of Jace's Erasure resolve one at a time, and you mill cards from your opponent's library one at a time as they do.
+
+Summary:
+You both draw, then you mill the cards from your opponent's library. Changing whoever cast the spell does not affect this outcome.
+

@@ -1,0 +1,16 @@
+Q:
+
+Magic: The Gathering Sorcery vs Activated Abilities
+
+The question I have is for a hypothetical situation where even though rules state(if I read correctly) that activated abilities are in their own unique stack to their owner. Player A plays a field wipe card like say Whelming Wave or Evacuation—can player B tap their creatures in response to the target player to deal damage and kill them before either card resolves? Or, is it simultaneous or does the wipe go off?
+I'm relatively new, so I'm curious. The opposing player can really go "In response to that" and make it meaningless? It's fine if it's a rule, but it defeats the purpose of strategic play, of disabling such things because they didn't do it first. If it's considered on top like a counter to my card, it makes sense, but if the stack is supposed to be unique, outside, not on top of an already resolving card, then I'm not sure what to think by the way it reads. 
+
+A:
+
+There is one stack, that all spells and abilities use (with the exception of special actions and mana abilities). In your specific example, player A casts Whelming Wave, and once they finish casting it, it's on the stack. Then, player B activates their creature's ability "in response" to the Whelming Wave, meaning "while the Whelming Wave is on the stack". That ability goes on the stack on top of the Whelming Wave. Then the ability resolves, and the ability does whatever it does. Finally, the Whelming Wave resolves, and, the creatures are returned to their owners' hands. If, however, the resolving ability killed player A, the Whelming Wave would immediately leave the game with its controller, and it would never resolve.
+This can happen because abilities can be activated at instant speed; in this case, they can be activated in response to other spells or abilities. Rule 112.3b says
+
+Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]” A player may activate such an ability whenever he or she has priority. Doing so puts it on the stack, where it remains until it’s countered, it resolves, or it otherwise leaves the stack. See rule 602, “Activating Activated Abilities.”
+
+Notable exceptions are the Equip and Outlast abilities, which can only be activated at sorcery speed.
+

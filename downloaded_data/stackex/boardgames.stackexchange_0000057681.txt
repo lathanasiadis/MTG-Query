@@ -1,0 +1,38 @@
+Q:
+
+Do Primal Vigor and Corpsejack Menace paired with Mycoloth create an infinite +1/+1 counter loop?
+
+Ok so I'm pretty sure that the enchantment Primal Vigor:
+
+If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+
+with Corpsejack Menace:
+
+If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
+
+would activate each other's abilities infinitely if a card like Mycoloth:
+
+Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
+
+is played. Am I right or does this not work?
+
+A:
+
+No, this does not work.
+Both Primal Vigor and Corpsejack Menace have replacement effects, not triggered abilities.
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
+When counters would be placed on a creature, such as with Mycoloth, both the static abilities of Primal Vigor and Corpsejack Menace see this happening, and replace it with a new event. You will end up with 4 times as many counters as you would have had normally.
+Specifically, you would choose the order to apply the replacement effects:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply
+
+Say you play Mycloth and sacrifice 1 creature, so you would get 2 counters. You choose Corpsejack Menace first, so "put 2 counters on the creature" is replaced with "put 4 counters on the creature". Now Primal Vigor's ability still has a "place counters" effect happening that it can replace. So it replaced "put 4 counters on the creature" with "put 8 counters on the creature". You end up with 8 total counters, because now there are no more replacement effects available to apply.
+Note that for it to work the way you suggest, you would need a triggered ability, which would be worded something like this:
+"Whenever one or more +1/+1 counters are placed on a creature, you may place that many +1/+1 counters on that creature."
+If you did control a card with this triggered ability (no such card exists), then you wouldn't even need a second card with the same ability... just placing a single counter on a creature would cause that ability to trigger, and then the resolution of that triggered ability would cause that ability to trigger again. Forever, or as many times as you wish. Having 2 separate cards with that ability would not be meaningfully different from having just 1 such card.
+Enduring Scalelord is a very similar example; because it says "another creature", it would not infinitely trigger by itself, but if you have 2 of them then they each trigger the other as many times as you want.
+

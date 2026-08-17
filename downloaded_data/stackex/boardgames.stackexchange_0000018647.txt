@@ -1,0 +1,27 @@
+Q:
+
+Does a heroic trigger still resolve if the heroic creature is gone?
+
+Having read When does Heroic trigger? I think the answer is yes, but I'd just like to double check:
+I have Akroan Crusader and I cast Nyxborn Rollicker for its bestow cost so my stack looks like (LIFO):
+
+heroic trigger (token creature)
+Rollicker
+
+My opponent then casts Disperse on my crusader:
+
+Disperse targeting crusader
+heroic trigger (token creature)
+Rollicker
+
+That's the final play, so after the stack resolves the creatures I should have are a 1/1 red soldier with haste (token) and a Nyxborn Rollicker. Is that correct?
+
+A:
+
+Yes. Abilities still resolve if the creature that created them is gone*, or cards like Torch Fiend would be a little bit useless. This is because of the following rule:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. [...]
+
+So in this case: your Akroan Crusader gets targeted by a spell, and puts a triggered ability on the stack. Even if the Crusader goes away, the ability still resolves. Then your Nyxborn Rollicker enters the battlefield as a creature instead, since its target is gone.
+* Other stuff can make it fail to resolve, such as if the ability has targets and all its targets are now illegal - see rule 608.2b. But the originating creature dying won't do anything to prevent the ability from resolving.
+

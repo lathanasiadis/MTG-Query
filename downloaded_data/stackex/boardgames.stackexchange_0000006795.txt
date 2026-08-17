@@ -1,0 +1,32 @@
+Q:
+
+Can the "Sacrifice (this card):" activated ability be placed back on the stack?
+
+This is a broad question so for simplicity I will use Seal of Fire and Naturalize.
+Scenario 1: Common exchange- creating a baseline.
+
+Player A uses Naturalize on Seal of Fire 
+Player B Sacrifices SoF in response. SoF is highest on the stack and goes off first. 
+This leaves Naturalize without a valid target.
+
+Scenario 2: Complicated exchange- Is this legal?
+
+Player B Sacrifices SoF.
+In response Player A targets it with Naturalize.
+SoF is on the stack and it's ability has not resolved. Player B (as above) sacrifices SoF in response to the Naturalize. 
+
+Can Seal of Fire be placed back on the stack by re-activating its ability, potentially with a new target?
+
+A:
+
+No, your second example is not possible using the game rules.
+Player A cannot target SoF with Naturalize, because it is currently in the graveyard. If they wanted to target the SoF, they need to do so when they had priority. Player A cannot prevent the SoF from being sacrificed for its ability anyway, since the ability exists independently of the source that created it. Seal of Fire says, "Sacrifice Seal of Fire: Seal of Fire deals 2 damage to target creature or player." It is an activate ability whose [Cost] is "Sacrifice Seal of Fire." If Player B paid the cost to activate SoF, it would no longer be on the battlefield by the time the Active Player received priority.
+
+112.3b Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]” A player may activate such an ability whenever he or she has priority. Doing so puts it on the stack, where it remains until it’s countered, it resolves, or it otherwise leaves the stack. See rule 602, “Activating Activated Abilities.”
+116.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+It is not possible to sacrifice a permanent twice. After you sacrifice a permanent, it is placed into its owner's graveyard.
+
+701.14a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+

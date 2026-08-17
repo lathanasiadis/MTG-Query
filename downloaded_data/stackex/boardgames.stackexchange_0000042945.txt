@@ -1,0 +1,22 @@
+Q:
+
+Why does Cryptbreaker need to specify "untapped" Zombies?
+
+The card Cryptbreaker has the following ability:
+
+Tap three untapped Zombies you control: You draw a card and you lose 1 life.
+
+Why is it necessary to specify that the three Zombies must be untapped? You can't tap an already tapped creature, or use tapped creatures to pay a tap cost. MtG cards usually have a very good economy of words, so why include this seemingly unnecessary text? Would the card function differently in any circumstance if it just said "Tap three Zombies you control"?
+
+A:
+
+You are correct that the word is unnecessary; it would function the same without.
+There are various times that MTG adds extra words for the sake of clarity; even when they have no effect on functionality.
+A very common example are cards such as Aetherstorm Roc, which use the wording "Aetherstorm Roc or another creature enters the battlefield under your control..."
+This could have simply been written "Whenever a creature enters the battlefield under your control" for the exact same effect. But there would be some less experienced players that would not know if it should count itself or not. The longer wording makes this explicit.
+"Tap an untapped creature you control" works the same way. If it simply said "Tap a creature you control", then you wouldn't be able to activate it without actually tapping an untapped creature, due to the rule:
+
+701.20a To tap a permanent, turn it sideways from an upright position. Only untapped permanents can be tapped.
+
+However, the extra word helps make it clear that this is the case. Especially due to the fact that a "tap target creature" ability can in fact target a tapped creature, some people would wonder what stops them from choosing tapped creatures to pay the activation cost for "tap a creature you control".
+

@@ -1,0 +1,18 @@
+Q:
+
+If Realmwright is removed from the battlefield, do the changed lands remain dual colored?
+
+I just came by Realmwright and it didn't give any discussion on whether the changed lands are permanently changed or not if the creature leaves the battlefield.
+Does anyone have any info on this?
+
+A:
+
+The short answer is no, they'll lose whatever type they're given when Realmwright leaves the battlefield. The reason is that Realmwright has a static ability that creates a continuous effect that dictates that the lands are of the given type:
+
+112.3d Static abilities are written as statements. They're simply true. Static abilities create continuous effects which are active
+  while the permanent with the ability is on the battlefield and has the
+  ability, or while the object with the ability is in the appropriate
+  zone. See rule 604, "Handling Static Abilities."
+
+Since Realmwright's ability is the source of the continuous effect giving the lands the specified type, the effect will end as soon as Realmwright leaves the battlefield.
+

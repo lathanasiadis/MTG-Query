@@ -1,0 +1,14 @@
+Q:
+
+Can a Bristling Hydra activate Hexproof when an instant is cast?
+
+I summoned the Bristling Hydra and it was killed instantly before I declared I was making it Hexproof. Could I have prevented it's death if I had said it was Hexproof before the other player cast his spell?
+The additional reason for asking this is due to the energy production of the card and the energy requirement for playing the ability.
+When bristling hydra resolves it provides 3 energy and the ability requires 3 energy therefore this question has some additional implications about how the spell could potentially resolve i.e. does the energy resolve in time for the player to use the ability or do you need an additional source of energy
+
+A:
+
+Bristling Hydra is a bit tricky, because it has a triggered ability for when it enters the battlefield, that gives you energy. Making it hexproof also costs energy. If you had no energy before summoning it, your opponent could kill it in response to the "Enters the battlefield" trigger, and you wouldn't have the energy to activate its ability and make it hexproof in response.
+However, if you had gotten energy from a different source earlier, you could activate its ability to make it hexproof in response.
+(Also, if your opponent waited for the ETB trigger to resolve and give you energy, THEN cast a spell to kill it, you'd be able to pay energy to make it hexproof in response, although it seems unlikely that they would do that, seeing as it's a pretty bad play).
+

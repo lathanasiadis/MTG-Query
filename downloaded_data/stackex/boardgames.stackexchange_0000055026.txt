@@ -1,0 +1,23 @@
+Q:
+
+Can Tawnos, Urza's Apprentice be used to name two cards for Phyrexian Revoker? Or for Stuffy Doll?
+
+I have Tawnos, Urza's Apprentice as my commander for a deck I'm building. And looking over Phyrexian Revoker I wondered if I could copy its ability and name a second card as it comes down to lock down 2 potential threats. And since Stuffy Doll is written the same way, Could you name 2 players and have them both linked to Stuffy Doll?
+
+A:
+
+No, that does not work. Those abilities are not activated or triggered abilities, so Tawnos can't copy them.
+Phyrexian Revoker and Stuffy Doll have abilities that start with
+
+As [card name] enters the battlefield...
+
+These are replacement effects, as specified in rule 614.1c:
+
+Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+Tawnos's ability's effect says
+
+Copy target activated or triggered ability...
+
+So it doesn't copy replacement effects. Replacement effects do not go on the stack, so other cards can't copy them either except by copying the whole creature.
+

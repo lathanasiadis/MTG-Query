@@ -1,0 +1,22 @@
+Q:
+
+Does Herald of Secret Streams work with +1/+0 or +0/+1 counters?
+
+I have Herald of Secret Streams, with his ability
+
+Creatures you control with +1/+1 counters on them can't be blocked.
+
+Say I were to put +1/+0 or +0/+1 on a creature, would Herald's ability still apply or does it have to be a +1/+1?
+
+A:
+
+No, it has to be a +1/+1 counter. A counter is a very specific thing, see the comprehensive rules:
+
+121.1a A +X/+Y counter on a creature or on a creature card in a zone other than the battlefield, where X and Y are numbers, adds X to that object’s power and Y to that object’s toughness. Similarly, -X/-Y counters subtract from power and toughness. See rule 613.3.
+
++1/+0 and +0/+1 counters do not magically combine into +1/+1 counters; the only counters that affect each other are +1/+1 counters and -1/-1 counters:
+
+121.3. If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it as a state-based action, where N is the smaller of the number of +1/+1 and -1/-1 counters on it. See rule 704.
+
+Note that +X/+Y counters other than +1/+1 and -1/-1, like +1/+0 and +0/+1, are very rare; those boosts mostly happen as temporary effects (i.e. a target creature gains +1/+0 until end of turn). This is entirely different from a counter.
+

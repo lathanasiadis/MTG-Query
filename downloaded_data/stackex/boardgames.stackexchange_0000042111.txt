@@ -1,0 +1,23 @@
+Q:
+
+How do multiple Raging Rivers interact?
+
+Raging River requires players to divide their creatures into a "left" and "right" pile when the active player attacks:
+
+Whenever one or more creatures you control attack, each defending player divides all creatures without flying they control into a "left" pile and a "right" pile. Then, for each attacking creature you control, choose "left" or "right." That creature can't be blocked this combat except by creatures with flying and creatures in a pile with the chosen label.
+
+What happens if the attacking player controls multiple Raging Rivers? I can see 3 scenarios happening:
+
+Multiple RRs are redundant, only the last one to resolve matters.
+Each RR adds an additional pile, one pile for each (ordered) distribution of "lefts" and "rights". Would also make the most sense flavor-wise - n parallel rivers makes for n+1 "lanes" between the rivers.
+Each RR doubles the number of piles, one pile for each distribution of lefts and rights.
+
+A:
+
+Your third option is the right one. What will actually happen is that each Raging River will trigger separately, and as each one resolves, the defending player makes a left and a right pile (independent of what has been done on previous resolutions), and for each time, you go through all your attacking creatures and give them additional restrictions of the type "This creature can't be blocked by that creature".
+Example: You have one attacking creature, your opponent has two non-flyers, and there are two Raging Rivers in play. The first River resolves, and your opponent makes one creature left and the other creature right. You choose "left", so the right creature can't block.
+Then the second River resolves. Your opponent divides the same way, and this time you choose "right", so the left creature can't block. In total, none of his creatures can block yours, because the first River hinders the right creature, and the second River hinders the left creature.
+In practice, this means that the net effect of several Rivers (say X of them) is your third option: the defending player divides his non-flyers into 2^X piles, one for each sequence of "left" and "right" which is X long (for X=2, that's the four groups "left-left", "left-right", "right-left" and "right-right"). For each attacking creature, you pick one such sequence, and only the defending creatures corresponding to that sequence (as well as flyers) will be able to block that creature.
+However, it is important to note that the Rivers do not actually interact directly in any way to double the number of effective piles. It's just a side effect of the separate triggers from each of them. It's not actually one big effect with 2^X piles, but many small effects with two piles each. This may be relevant in case you control other things which trigger as you declare attackers, and you for some reason want to interleave the resolutions.
+It's also important for the order in which choices are made, which may be relevant if your opponent has 2^X or more non-flying blockers. Your opponent does the first division into two piles, then you decide which can't be blocked by which. Then your opponent may use that information to inform his next pile division, and so on. This is conceivably advantageous to your opponent compared to directly dividing into 2^X piles. Theoretically it makes no difference if you only have one attacker. But if you have two or more attackers, knowing whether you chose the same or different modes for your attackers might affect how your opponent wants to divide the piles in the second go.
+

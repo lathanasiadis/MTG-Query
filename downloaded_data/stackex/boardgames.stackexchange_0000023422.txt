@@ -1,0 +1,16 @@
+Q:
+
+How is damage dealt when a creature is blocking multiple creatures?
+
+Let's say I have a Wall of Essence and a Brave the Sands on the battlefield. My opponent has two Mardu Woe-Reapers on the battlefield. Based on Brave the Sands description I can block both Woe-Reapers, but does that also mean my Wall of Essence will be destroyed since the accumulated power of the two Woe-Reapers is four?
+
+A:
+
+Yes, your Wall of Essence can block both Mardu Woe-Reapers. And yes, the combined power of the Woe-Reapers will destroy the Wall of Essence.
+Here's how combat proceeds in this situation:
+
+Combat starts. The Declare Attackers Step starts, and your opponent declares both Mardu Woe-Reapers as attackers.
+The Declare Blockers Step starts, and you declare your Wall of Essence as a blocker of both Woe-Reapers.
+The Combat Damage Step starts. Each unblocked creature deals damage equal to its power to the defending player, each blocked creature deals damage equal to its power divided among its blockers, and each blocking creature deals damage equal to its power divided among the creatures it is blocking. In total, this means that each Woe-Reaper deals 2 damage to the Wall.
+State Based Effects are checked. The Wall has 4 damage marked on it and 4 toughness, so it dies as a state based effect.
+

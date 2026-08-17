@@ -1,0 +1,30 @@
+Q:
+
+Using Huatli, Radiant Champion ability on another Huatli, Radiant Champion
+
+Say I already have a Huatli, Radiant Champion out. If I cast a second Huatli, Radiant Champion can I use the original Huatli's plus 1 ability to target the new Huatli?
+Or does the original, or whichever one I choose, die immediately?
+
+A:
+
+No you may not use one Huatli, Radiant Champion to put loyalty counters on a different Huatli, Radiant Champion.
+As a refresher, the loyalty ability you referrer to in your question reads:
+
++1: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.
+
+There are several reasons that you can not place the loyalty counters onto the new Huatli. The main reason is that whenever a card uses its card name in the rules text box, it is only referring to that particular card and not other cards that might share a name with it. This is covered in the comprehensive rules here:
+
+201.4.: Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+Now beyond this rule there is one other that makes it so that you can not do this, State Based Actions and more specifically something called the legend rule.
+
+704.5j: If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+State Based Actions (SBA) are special in magic in that they are checked automatically each time a player receives priority, they do not belong to any player, and they do not use the stack. This means that when SBAs are checked no player has a chance to respond to them, not even with instants or abilities. 
+So what that means for your example is that after you cast your second Huatli, Radiant Champion, you must immediately choose one of them and send the other to your graveyard. This will be done before you get the chance to use one of Huatli's loyalty abilities.
+So even in the hypothetical situation Huatli had the ability:
+
++1 Put a loyalty counter on target Planeswalker for each creature you control.
+
+You still would be unable to activate the ability before the other Huatli is put into your graveyard (and therefore not a valid target).
+

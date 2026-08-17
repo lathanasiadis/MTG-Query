@@ -1,0 +1,30 @@
+Q:
+
+God-Pharaoh's Statue and Finale Of Promise
+
+I am bringing forward a case to the judges of Magic. Was I screwed by Magic Arena, or do I not know how to play?
+
+Opponent has a God-Pharaoh's Statue. 
+I play a Finale of Promise with X = 2. I pick a Shock and a Chart a Course.
+
+Now as the jury can clearly see, both of my picked spells are below the converted mana cost of 2. Also as the Finale of Promise states "You may cast up to one target instant card and or up to one target sorcery card from your graveyard each with converted mana cost X or less without paying their mana costs.
+So the spells trigger, I play my shock. I then go to play my chart a course and the game asks me to pay mana to play it. Of which I have none. Shouldn't this spell be free as stated by Finale of Promise?
+
+A:
+
+When you cast a spell without paying its mana cost, you are still required to pay any additional costs that other effects might impose.
+This is reflected in one of the rulings on Finale of Promise:
+
+If you cast a card “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Spark Harvest, you must pay those to cast the card.
+
+Basically the formula for a spell cost is as follows:
+
+601.2f [...] The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order.
+
+Choosing to cast a spell without paying its mana cost is an alternative cost, one that treats the cost of the spell as {0}. But God-Pharaoh's Statue still increases that cost by {2}, meaning your spells are not actually completely free: you are not forgoing all mana costs, you are just forgoing the initial mana cost of the spell before cost increases apply.
+In order to cast Finale of Promise for X=2 targeting two spells while God-Pharaoh's Statue is out, you will pay 10 mana total ({8}{R}{R}). Finale will cost {2}{R}{R} normally plus another {2} from the Statue, then you must pay {2} for one of the free spells, then {2} for the other free spell.
+Both of those spells are still definitely legitimate choices for Finale of Promise. Shock still has a converted mana cost of 1, and Chart a Course still has a converted mana cost of 2, because the converted mana cost formula does not factor in any cost increases or reductions we might face when actually casting the card:
+
+202.3 The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+Example: A mana cost of {3}{U}{U} translates to a converted mana cost of 5.
+

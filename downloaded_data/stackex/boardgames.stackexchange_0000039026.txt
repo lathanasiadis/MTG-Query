@@ -1,0 +1,22 @@
+Q:
+
+If I change the text of a permanent while its ability is on the stack, does the ability change?
+
+Say my opponent activates an Acorn Catapult's ability targeting me, and I respond by casting Sleight of Mind targeting the Acorn Catapult and changing the word "green" to "white". When Acorn Catapult's ability resolves, do I get a white Squirrel token or a green Squirrel token? In other words, is the text of a permanent's ability based on the text of the permanent when the ability is activated, or when the ability resolves?
+
+A:
+
+Green.
+
+If you had let the ability resolve before casting Sleight of Mind, you would surely have no doubt that the squirrel would remain green. This is because tokens are objects with their own characteristics.
+The same goes for abilities on the stack. They are full-fledged objects with their own characteristics.
+
+602.2a The player announces that he or she is activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+
+ 
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 116, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+Just like changing the text of an object has no effect on the tokens it has previously created, changing the text of an object has no effect on the abilities that were previously created from it because they are separate objects with their own characteristics.
+In your example, nothing caused the characteristics of the ability to be changed, so it will produce a green squirrel.
+

@@ -1,0 +1,43 @@
+Q:
+
+Is "this way" defined in the rules?
+
+I was looking at Etali, Primal Storm, and one of the rulings listed surprised me; the card didn't work the way I thought it would based on the wording.
+The ability:
+
+Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of nonland cards exiled this way without paying their mana costs.
+
+And the ruling:
+
+Any cards not cast, including land cards, remain in exile. They can’t be cast on later turns, even if Etali attacks again.
+
+I expected "cards exiled this way" to mean "cards exiled by Etali, Primal Storm's ability". Meaning that if I exiled a card by attacking this turn, and exiled a second card by attacking next turn, then both those cards would have been "exiled this way".
+However, based on that ruling, it seems that "exiled this way" means "exiled by the resolution of the current instance of this ability".
+Either of the two readings seem like they are valid interpretations based on the English meaning of the words. So it there a comprehensive rule that backs up that ruling; where "this way" is defined?
+It would be really nice if all Gatherer rulings included a citation for a comprehensive rule that backs up the ruling.
+
+A:
+
+No, “this way” is defined nowhere in the comprehensive rules. This specific kind of interaction also doesn't get spelled out explicitly in the rules for exile, resolving spells & abilities, effects, zones, etc. (Though there are some relevant touchstones.)
+However, understanding Etali's behaviour doesn't come down to that definition. Etali works the way it does as a result of being a one-shot effect: it exiles some cards, then allows you to cast them, and that offer doesn't apply in future. You may only choose to follow up on this one-shot effect during that ability's resolution.
+For you to be able to access cards from prior turns, one of two things would have to happen:
+
+The one-shot would have to reference all cards exiled with Etali so far, which would mean the following wording:
+
+Whenever Etali, Primal Storm attacks, exile the top card of each player's 
+  library, then you may cast any number of cards exiled with Etali, Primal Storm without paying their mana costs.
+
+Alternately, you'd have to be granted a continuous effect to be able to cast those cards later.
+
+In case 2, the effect would have to carry a duration. Kheru Spellsnatcher and Hostage Taker both exile a card as a one-shot effect, then immediately also set up a continuous effect that allows you to cast that card for as long as it remains in exile (that's the duration). Alternately, the continuous effect can be provided by a static linked ability, as found on Nightveil Specter or Hedonist's Trove.
+This means Etali could also be written one of two other ways, which would let you cast its spells at any time:
+
+A one-shot that sets up a continuous effect (like Kheru Spellsnatcher):
+
+Whenever Etali, Primal Storm attacks, exile the top card of each player's library. For as long as those cards remain in exile, you may cast them without paying their mana costs.
+
+A one-shot with a static linked ability providing the continuous effect (like Nightveil Specter):
+
+Whenever Etali, Primal Storm attacks, exile the top card of each player's library.
+You may cast cards exiled with Etali, Primal Storm without paying thier mana costs. 
+

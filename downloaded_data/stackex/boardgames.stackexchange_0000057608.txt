@@ -1,0 +1,16 @@
+Q:
+
+Controlling an opponent's Cosima, God of the Voyage
+
+If I gain control of an opponent's Cosima, God of the Voyage and exile it on upkeep who chooses to return Cosima when a land enters the battlefield? What if I Clone an opponent's cosima? Will the clone gain Cosima's abilities in exile and enter with +1/+1 counters if it returns?
+
+A:
+
+The answer to both of these scenarios hinges on the somewhat unusual way Cosima's ability works. Cosima has one triggered ability that exiles itself and then grants the object it became in exile (which is a different game object than it was on the battlefield) a second triggered ability. This second ability is what gives Cosima voyage counters and returns it to the battlefield, and it does so independently of the first ability that granted it.
+
+In your first scenario, when Cosima's first ability triggers and exiles it, the change of control effect ends and it becomes a new game object. Cards in exile don't have controllers, only owners, so Cosima's owner becomes the controller of its second ability when it triggers, and is the player referred to by "you may...".
+Because Cosima's owner is the controller of the ability placing it on the battlefield, they're also the controller of the permanent that it becomes.
+
+In your second scenario, the Clone has a copy of Cosima's first ability. When it triggers and the Clone is exiled, it stops being a copy of Cosima, but it still grants the same second triggered ability that Cosima would, which gives it counters and brings it back in the usual way.
+If the Clone's controller returns it to the battlefield, they may choose a creature for it to copy as usual. This may be Cosima (if it's still around) or something else. Either way, it gains X +1/+1 counters and its controller draws X cards.
+

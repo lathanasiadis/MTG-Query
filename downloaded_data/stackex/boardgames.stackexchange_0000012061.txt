@@ -1,0 +1,27 @@
+Q:
+
+When can you cast Flash after casting Collective Voyage?
+
+After you've cast Collective Voyage, do you wait for everyone to pay and then respond with Flash, or do you have to respond immediately?
+
+A:
+
+MtG works by a system of timing and priority. The Active Player, player whose turn it is, can cast Sorceries when the stack is empty during their first or second Main Phase. After casting a spell and paying the required costs, including mana costs, the spell waits on the stack for all players to pass priority, then the top object on the stack resolves.
+Casting Collective Voyage for one {G} mana places it on the stack, and then priority is returned to you.
+
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+
+You may choose to cast Flash before Collective Voyage resolves, in response to it, since Instants may be cast anytime you have priority and you have the required costs including mana cost {1}{U} to cast the spell. In this case, it would resolve first.
+
+116.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty.
+
+You may also choose to wait until after Collective Voyage resolves, when you will receive priority again to cast spells and activate abilities. In this case, it would resolve afterward.
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+During the resolution of Collective Voyage, players may not cast spells, but may activate mana abilities to search their library for land cards. The order of how much to pay is written on the card, starting with the player who cast Collective Voyage and continuing clockwise. After all players have decided how much to pay, the lands are placed on the battlefield simultaneously and Collective Voyage is placed in its owner's graveyard (having resolved).
+
+116.1d A player may activate a mana ability whenever he or she has priority,whenever he or she is casting a spell or activating an ability that requires a mana payment, or whenever a rule or effect asks for a mana payment (even in the middle of casting or resolving a spell or activating or resolving an ability).
+

@@ -1,0 +1,15 @@
+Q:
+
+Is a countered flashback spell exiled?
+
+If I flashback Past in Flames and it is countered by Cancel, is it exiled or put back into my graveyard?
+
+A:
+
+If you counter a spell cast for its Flashback cost from the graveyard, it gets exiled. The rule that covers flashback is 702.33a, and it says
+
+Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player's graveyard and the other that functions while the card is on the stack. "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack." Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+
+Countering a spell normally sends it to the graveyard (or, in some cases, exile, its owner's hand, or their library), but the flashback ability makes it go to exile instead.
+It's worth noting that if a counterspell says to exile the spell it's countering (like Spelljack, for example), and then does something with it after it's exiled, that still happens. That's because if the spell is getting exiled anyway, the flashback ability doesn't change anything.
+

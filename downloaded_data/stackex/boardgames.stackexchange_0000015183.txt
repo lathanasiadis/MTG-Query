@@ -1,0 +1,20 @@
+Q:
+
+What are the limitations on using a Planeswalker's loyalty abilities?
+
+I assume I can only use a loyalty ability once per turn, is that right?
+Otherwise it'd seem to me that Planeswalkers would be hideously broken. And I assume that if you used the +1 ability that the 0 ability can't be utilized - that it's not "use each loyalty ability once per turn" but rather "use only one loyalty ability once per turn".
+Also, can I use them the turn I cast a planeswalker?
+
+A:
+
+When you have basic questions like this about how cards work, the basic rules are a good place to start. Here's the section about planeswalkers, which directly answers your main questions.
+
+Planeswalker
+Planeswalkers are powerful allies you can call on to fight by your side. You can cast a planeswalker only at the time you could cast a sorcery. They’re permanents, and each one enters the battlefield with the number of loyalty counters indicated in its lower right corner.
+Each planeswalker has loyalty abilities that are activated by adding or removing loyalty counters from the planeswalker. For example, the symbol {+1} means “Put one loyalty counter on this planeswalker” and the symbol {-3} means “Remove three loyalty counters from this planeswalker.” You can activate one of these abilities only at the time you could cast a sorcery and only if none of that planeswalker’s loyalty abilities have been activated yet that turn.
+Your planeswalkers can be attacked by your opponent’s creatures (if so, you can block as normal), and your opponents can damage them with their spells and abilities instead of damaging you. Any damage dealt to a planeswalker causes it to lose that many loyalty counters. If a planeswalker has no loyalty counters, it’s put into your graveyard.
+
+So yes, one ability per turn per planeswalker. If you've got more than one, you can use them all up to once, though. You can even, say, use one Vraska's ability then play another Vraska (sending the first to the graveyard, due to the uniqueness rule) and use it.
+And yes, you can use it the turn you cast it - there's nothing here saying you can't. (The "summoning sickness" restriction is something that specifically applies to creatures.)
+

@@ -1,0 +1,32 @@
+Q:
+
+If I move X from one hand to another using his tap ability, when does he untap?
+
+This is a question I've seen come up in several circles now, including a game I just played.
+From the Unstable FAQ, we know that we can activate X's tap ability in anyone's hand to move him to anyone else's hand, from question 6 in X's section:
+
+In multiplayer games, can I move X from one opponent's hand to another's?
+Yes, you can. While X is in an opponent's hand, you can activate its middle ability. This is unusual, as normally tap abilities can't be activated from a player's hand. But X's first ability says you can, so you can.
+
+So X is tapped and moved to someone else's hand.
+When does he untap? Does he untap in the untap step of the person who owns X, or the person whose hand X is in?
+
+A:
+
+X enters a person's hand untapped, so we never actually have to worry about a "when" for untapping him. (This means, if you have the mana available, you can just pass him between peoples' hands repeatedly in quick succession.)
+This is because X changes zones. When a card changes zones, the typical rule is 400.7 in the rules for Zones:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule: [none of them apply here]
+
+So when X enters a new hand, the fact it was tapped in a different hand doesn't matter anymore: it's now untapped, since that's the default state of cards in hands.
+This is the same rule that lets us flicker a permanent and see it enter the battlefield untapped again.
+(It's weird that when it comes down to it, I and others have forgotten about this rule. It seems X just does something so absolutely, fundamentally weird, we totally forget about zone-transition rules for a while in discussing this situation.)
+In case of being stuck in the one hand...
+Spells like Stifle and Disallow can counter abilities, which would leave X in the hand they were in — and if we follow the symbol, they're in that hand and tapped.
+There's two primary approaches we can go with:
+
+X untaps in the untap step of whomever's hand it is. This is just like how they'd untap all permanents they control, whether or not they own them — a permanent they stole or that was Donated to them untaps in their step, not the owner's.
+X never untaps. The untap step doesn't instruct us to untap things in our hand, so we don't untap X ever. The owner will be limited to either (a) casting X out of that hand to put it in someone else's, or (b) only using X's second activated ability in that hand.
+
+Since this is the silver-bordered world, and Maro advises us to prefer to do awesome things when we can, I suggest using the first of those options.
+

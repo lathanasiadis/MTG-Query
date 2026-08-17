@@ -1,0 +1,31 @@
+Q:
+
+Order of triggered abilities - will the abilities on the stack resolve after the player who owns the ability loses?
+
+Let's say in a three-player game, Alice and Bob are playing Poison-Tip Archer. It's a 2/3 creature with:
+
+Whenever another creature dies, each opponent loses 1 life.
+
+Carol has 10 1/1 Saproling tokens in play.
+All of them are 10 life, and someone plays Tremor:
+
+Tremor deals 1 damage to each creature without flying.
+
+So all 10 Saprolings would die, triggering both Poison-Tip Archer's abilities 10 times - enough for everyone on the table to die (20 lives lost for Carol, 10 for each Alice and Bob).
+Will this be a tie? Is there an order in which the triggers are resolved that may make someone win? Does the result depend somehow on who is the active player?
+Edit: Will it make a difference if the Poison-Tip Archer's would also die by the same effect (ie, play Wildfire - doing 4 damage to each creature instead of Tremor's 1)?
+
+A:
+
+The Comprehensive Rules say:
+
+405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+800.4a When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time they left, priority passes to the next player in turn order who’s still in the game.
+
+Without loss of generality, suppose the turn order is Alice->Bob->Carol->...
+
+If it's Alice's turn, her triggers are put on the stack first, then Bob's. Bob's triggers will resolve first, making Alice and Carol lose the game simultaneously. By rule 800.4a, Alice's triggers will leave the stack, leaving Bob alive and kicking at 10 life (this is important if there's someone else still in the game).
+If it's Bob's turn, the reverse happens: Alice's triggers will resolve first, killing Bob and Carol and leaving Alice alive.
+If it's Carol's (or somebody else's turn), Alice is before Bob in turn order and situation 1. applies.
+

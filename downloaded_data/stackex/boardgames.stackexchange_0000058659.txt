@@ -1,0 +1,12 @@
+Q:
+
+If my opponent sacrifices a creature in response to me attempting to attach an aura to it, does the aura fizzle, or can I choose a new target?
+
+The specific board state I have is as follows: I am attempting to attach a Lignify to my opponents Conspicuous Snoop, and in response, with Skirk Prospector on top of his library, he sacrifices Conspicuous Snoop through Skirk Prospector, through Conspicuous Snoop. What happens to my Lignify now? I chose Conspicuous Snoop as the target of the aura, but now the target is gone. Does the Lignify fizzle and go to the grave? Or can I choose a different creature to target with it? And if it does fizzle, has it still been cast, so that my Sythis, Harvest's Hand still activates?
+
+A:
+
+The aura fails to resolve, and goes to your graveyard.
+An aura is a spell with a target, and like any spell with the target, if its target is no longer valid as it starts to resolve, it fails to resolve and goes to the graveyard (commonly referred to as "fizzling"). You cannot change its target unless a card specifically allows you to.
+Sythis does see you casting the spell. Casting a spell is the process of declaring that you are casting it, choosing targets and other things, and paying its costs. Sythis's ability triggers as soon as you do that, before anyone even gets a chance to respond by doing something like sacrificing the target.
+

@@ -1,0 +1,20 @@
+Q:
+
+Under which controller does a stolen permanent come into play after being exiled?
+
+Here's what I did on MTG Arena:
+Opponent exiles my The Immortal Sun with Hostage Taker, then plays it.
+On my turn, I cast Ixalan's Binding targeting Immortal Sun, and then Demystify my own Ixalan's Binding. The Immortal Sun then entered the battlefield under my control.
+Question 1: I thought it might work, that's why I tried it, but I don't understand why it worked. I read the rulings of Ixalan's Binding, and couldn't find something that could explain why it returned from exile under its owner's control, and not under the last controller's control. Can anyone explain the rulings behind this?
+Question 2: Would flickering a stolen permanent work the same?
+
+A:
+
+Immortal Sun enters the battlefield under your control because Ixalan's Binding creates a special one-shot effect that has its own rules treatment. When flickering an object as a regular one-shot effect, its subsequent controller depends on the card used to flicker; both "you", the controller of the effect, and "the permanent's owner" are possible, and are always specified by the card.
+Ixalan's Binding doesn't specify under whose control the permanent returns to the battlefield, so by default it's the owner of the exiled permanent, namely you:
+
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3b An object returned to the battlefield this way returns under its owner’s control unless otherwise specified.
+
+For Flicker effects, it depends on the specific card/effect that does the flickering, both variants are possible: you, or the owner, who may or may not be you
+

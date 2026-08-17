@@ -1,0 +1,17 @@
+Q:
+
+Will my opponent lose from his own Plague Spitter enchanted with Soul Link, if the Plague Spitter deals him lethal damage?
+
+My opponent is at 1 life. He controls a Plague Spitter and 2 other creatures (1/1 tokens). In his second main phase, he puts Soul Link on the Plague Spitter and passes the turn.
+In my turn I do nothing that changes his board.
+Will my opponents die in his next upkeep phase, due to the 1 damage dealt by the Plague Spitter, or will he be able to gain life from his other creatures (and me) taking damage before he takes damage?
+
+A:
+
+He dies. Soul Link's ability is a triggered ability, meaning that when the Plague Spitter deals damage, the life-gaining ability is placed on the stack. Before it resolves, state based actions are checked and players get priority. During the state based action check he will be at 0 life, and lose the game.
+The similar card Spirit Link has a ruling on Gatherer that supports that:
+
+You only gain the life when the triggered ability resolves. If you are reduced to zero life before the ability resolves, you will lose before gaining the life.
+
+If he had used Lifelink instead, the creature would have had lifelink. That changes the way damage is dealt, so that the controller of the creature gains life as simultaneous part of the damage dealing. He would have survived in that case.
+

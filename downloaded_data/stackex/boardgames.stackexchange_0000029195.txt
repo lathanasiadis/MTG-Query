@@ -1,0 +1,14 @@
+Q:
+
+Do death triggers still happen if I am at 0 or less life after combat damage?
+
+Here's the situation: I'm the defending player and being attacked for lethal damage.  I block with all my creatures but still would take enough damage to bring me to 0.  Among my blocking creatures are two Zulaport Cutthroats.  After combat damage is assigned and I go to less than 0, would I still gain the life from my creatures dying via the Cutthroats?
+
+A:
+
+Here's what happens:
+
+Combat damage is assigned and dealt - no stack
+Your life total is set to (less than) 0, creatures that were dealt lethal damage are moved to the graveyard. Cutthroat;s ability is placed on the stack X times, once for each creature that died.
+Before Cutthroat's triggered ability can resolve however, you have already died because coming to 0 life or less is a state-based effect. Whatever's on the stack doesn't resolve anymore.
+

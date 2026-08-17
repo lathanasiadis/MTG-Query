@@ -1,0 +1,20 @@
+Q:
+
+Will a God Eternal enchanted with Deep Freeze shuffle back into the deck if it dies?
+
+God Eternals such as God-Eternal Oketra have an effect which says:
+
+When God-Eternal Oketra dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
+
+Deep Freeze on the other hand says the enchanted creature loses all abilities. Does that mean that if God-Eternal Oketra is enchanted by Deep Freeze, and then dies, it will not shuffle back?
+
+A:
+
+You're right, it won't shuffle back.
+I can see why one would think it does; when a creature dies, auras on it die as well. God-Eternal Oketra will enter the graveyard unenchanted, so it 'seems to have' its third ability again, and it should trigger, right? No:
+
+112.6. ... Abilities of all other objects usually function only while that object is on the battlefield. ...
+
+There follows a list of exceptions, e.g. "An object’s ability that modifies how that particular object enters the battlefield functions as that object is entering the battlefield.", but leaving the battlefield (by dying or by being exiled) is not one of them.
+So the third ability functions only on the battlefield (or more precisely, it's a special case of 603.10a; the game looks backs to the state on the battlefield), and while it's on the battlefield, it's still enchanted and loses all abilities due to Deep Freeze.
+

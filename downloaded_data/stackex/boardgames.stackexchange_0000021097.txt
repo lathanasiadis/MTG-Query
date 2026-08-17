@@ -1,0 +1,15 @@
+Q:
+
+Can a card effect make a creature block one that it otherwise could not?
+
+Nature Shields Its Own is an Archenemy scheme that creates a blocking creature (green plant) any time the Archenemy is attacked and the attack is not blocked. We ran into a few issues last night playing this scheme in a game. The Archenemy was attacked by a flying creature as well as one with protection from Green. Neither was blocked, and a plant was created blocking each. The part we did not understand was whether the plant tokens could actually block the attackers.
+Do abilities that say "Create creature X blocking attacking creature Y." allow X to block Y even if normally X could not be declared as a blocker?
+
+A:
+
+Yes, the creatures will still be blocked by tokens. See the ruling on Nature Shields its Own:
+
+The Plant token blocks the attacking creature even if the block couldn't legally be declared (for example, if the attacking creature has flying).
+
+This is because things like flying and protection only affect the declare blockers step. The prevent a creature from being declared as a blocker. But Nature Shields its Own kicks in at the end of the declare blockers step; it is not affected by evasion abilities.
+

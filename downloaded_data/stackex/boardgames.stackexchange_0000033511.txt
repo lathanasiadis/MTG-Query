@@ -1,0 +1,26 @@
+Q:
+
+Can Gearseeker Serpent's cost be reduced below two mana if exiled by Gonti, Lord of Luxury?
+
+I see in the wizards rules explanation for Gearseeker Serpent that it says the cost cannot be reduced below {U}{U}. However, isn't this considered an alternative cost (because of Gonti, Lord of Luxury) and with any mana allowed to cast it, can now be reduced below two if I have more than 5 artifacts in play?
+Could you help me understand how this works out?
+
+A:
+
+The Serpent will cost at least {2} to cast
+The effect of Gonti does not make anything an alternative cost. An example of a card that grants alternative costs would be Fist of Suns.
+
+117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” Note that some alternative costs are listed in keywords; see rule 702.
+
+All Gonti does is that it allows you to pay the non-generic part of the card's mana cost with any type of mana.
+
+117.7a Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can’t affect the colored or colorless mana components of that cost.
+
+Therefore, the Serpent's ability (which is equivalent to "Affinity for artifacts") reduces the amount of mana you have to pay for it to {U}{U}, and Gonti makes it so you can pay {2} instead. The mana cost of the Serpent remains {5}{U}{U}, and can never change, because it's a characteristic of the card. Gonti does not change the mana symbols on the card it exiled, only how you may pay for them.
+The steps involved in casting a spell that are relevant here are cost reduction, followed by paying the cost:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can’t be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes “locked in.” If effects would change the total cost after this time, they have no effect.
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+601.2h is where Gonti's ability takes effect, whereas the Serpent's ability affects 601.2f
+

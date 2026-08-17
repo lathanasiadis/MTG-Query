@@ -1,0 +1,24 @@
+Q:
+
+Gaining control of an opponent's hideaway land
+
+Suppose my opponent plays a hideaway land (e.g. Spinerock Knoll) and then I gain control of it with Zealous Conscripts.
+
+Can I look at the card that was exiled face down with the hideaway land?
+What happens if I attempt to use Spinerock Knoll's ability to cast the exiled card, and I find that it has mandatory additional casting costs that I am unable to pay?
+
+A:
+
+Hideaway is defined in the rules as:
+
+702.74a Hideaway represents a static ability and a triggered ability. “Hideaway” means “This permanent enters the battlefield tapped” and
+  “When this permanent enters the battlefield, look at the top four
+  cards of your library. Exile one of them face down and put the rest on
+  the bottom of your library in any order. The exiled card gains ‘Any
+  player who has controlled the permanent that exiled this card may look
+  at this card in the exile zone.’”
+
+(Remember that the reminder text is only a condensed summary of the actual rules.  It rarely has all the nuances of the rules to handle weirder situations.)
+Since the rules state "Any player who has controlled the permanent that exiled this card may look at this card in the exile zone", you can look at the exiled card.  There isn't a way you could start casting the card and not know about what is required to cast it.
+Also, the last ability of Spinerock Knoll says you may cast the exiled card.  So as that ability resolves, you have the option of casting the card (or not).  If you can't pay all the costs to cast the spell at that time, you can't cast it and the ability from Spinerock Knoll still resolves (it just didn't do anything useful for you).
+

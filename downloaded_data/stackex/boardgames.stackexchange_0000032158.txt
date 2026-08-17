@@ -1,0 +1,26 @@
+Q:
+
+Does Unsubstantiate work on graveyard or exiled cards?
+
+Unsubstantiate says, "Return target spell or creature to its owner's hand." 
+It seems to me like it should allow you to return it from the graveyard.
+
+A:
+
+It does not return cards from graveyard or exile. 
+"Spell" only refers to a card when it is on the stack:
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, "Casting Spells"), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner's hand. (See rule 405, "Stack.") A spell remains on the stack as a spell until it resolves (see rule 608, "Resolving Spells and Abilities"), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, "Spells, Abilities, and Effects."
+
+And it cannot target a creature in the any such zone because "creature" refers to a permanent in this instance which means it must be on the battlefield:
+
+114.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can't exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+If a spell or ability does intend to target something in graveyard or exile it will mention the zone specifically and refer to the target as a card:
+
+108.2a In the text of spells or abilities, the term “card” is usually used to refer to a card that’s not on the battlefield or on the stack, such as a creature card in a player’s hand. The term “card” can also refer to a card in any zone that’s moving “from anywhere.” On rare occasions, the text of a spell or ability may refer to a nontoken permanent as a “card . . . on the battlefield.” For more information, see section 4, “Zones.”
+
+For example Treasured Find reads:
+
+Return target card from your graveyard to your hand. Exile Treasured Find.
+

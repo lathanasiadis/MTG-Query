@@ -1,0 +1,15 @@
+Q:
+
+Are converted mana cost and mana value the same thing?
+
+Enthusiastic Mechanaut reduces the cost of artifact spells by 1 colorless mana. Jhoira, Ageless Innovator allows you to tap her, add 2 ingenuity counters to Jhoira, and put an artifact card with mana value less than or equal to the number of ingenuity counters on Jhoira. I'm looking for clarification on whether converted mana cost and mana value are the same thing. For example:
+I have an untapped Jhoira, Ageless Innovator with no innovation counters on it and 1 Enthusiastic Mechanaut on the battlefield, and I have 1 Simian Simulacrum in my hand. Can I tap Jhoira, adding 2 ingenuity counters to it, and put Simian Simulacrum onto the battlefield from my hand? I see 2 likely options:
+
+Mana value and mana cost are the same, so an Enthusiastic Mechanaut lowers Simian Simulacrum's cost (and therefore mana value) to 2 colorless mana. Therefore, a Jhoira with 2 ingenuity counters can successfully place the Simian Simulacrum directly onto the battlefield.
+Mana value and mana cost aren't the same, so an Enthusiastic Mechanaut lowers Simian Simulacrum's cost to 2 colorless mana, but mana value stays the same. Therefore, a Jhoira with 2 ingenuity counters cannot successfully place the Simian Simulacrum directly onto the battlefield.
+
+A:
+
+The answer is neither of those: while "mana value" is simply the modern term for "converted mana cost", Enthusiastic Mechanaut doesn't change the mana value of your cards, it just lets you cast them more cheaply.  Note, for instance, that if you use Jhoira, Ageless Innovator's ability, you haven't cast anything; even when casting a cost-reduced spell, though, the mana value doesn't change.
+The term "mana cost" is a different but related thing, which refers to the amount of mana (quantities and colors) printed in the top right of the card.  Once again, though, while Enthusiastic Mechanaut lets you pay less when you cast the spell, its mana cost, which is the printed value, hasn't changed.
+

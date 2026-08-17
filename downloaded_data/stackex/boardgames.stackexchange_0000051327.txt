@@ -1,0 +1,30 @@
+Q:
+
+Do I have to pay the Equip cost each turn to equip a creature with an Artifact Equipment?
+
+In Magic: The Gathering, once I have cast an Artifact - Equipment and then paid the Equip cost to place it on a creature, does it come off the creature at the end of my turn?
+Must I pay the Equip cost each turn to attach it to the same creature?
+
+A:
+
+No, you would only pay the equip cost again if you wish to equip it to a different creature. There is no rule that causes equipment to automatically fall off each turn.
+
+702.6. Equip
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+702.6b For more information about Equipment, see rule 301, “Artifacts.”
+702.6c “Equip [quality] creature” is a variant of the equip ability. “Equip [quality] [cost]” means “[Cost]: Attach this permanent to target [quality] creature you control. Activate this ability only any time you could cast a sorcery.” This ability doesn’t restrict what the Equipment may be attached to.
+702.6d An “equip [quality] creature” ability is an equip ability, and an “equip [quality] creature” cost is an equip cost. Any effect that modifies how or whether a player may activate an equip ability of an object affects “equip [quality] creature” abilities of that object. Any effect that increases or reduces an equip cost will increase or reduce a “equip [quality] creature” cost.
+702.6e If a permanent has multiple equip abilities, any of its equip abilities may be activated.
+
+In order for equipment to automatically "fall off" at the end of the turn, 702.6a would basically need to read "Attach this permanent to target [quality] creature you control until the end of turn."
+The full rules for equipment are here, but really the real rules support for the answer is simply the fact that no such rule exists that would cause something to become unequipped at the end of the turn.
+
+301.5. Some artifacts have the subtype “Equipment.” An Equipment can be attached to a creature. It can’t legally be attached to anything that isn’t a creature.
+
+301.5a The creature an Equipment is attached to is called the “equipped creature.” The Equipment is attached to, or “equips,” that creature.
+301.5b An Equipment is cast and enters the battlefield just like any other artifact. An Equipment doesn’t enter the battlefield attached to a creature. The equip keyword ability attaches the Equipment to a creature you control (see rule 702.6, “Equip”). Control of the creature matters only when the equip ability is activated and when it resolves. Spells and other abilities may also attach an Equipment to a creature. If an effect attempts to attach an Equipment to an object that can’t be equipped by it, the Equipment doesn’t move.
+301.5c An Equipment that’s also a creature can’t equip a creature. An Equipment that loses the subtype “Equipment” can’t equip a creature. An Equipment can’t equip itself. An Equipment that equips an illegal or nonexistent permanent becomes unattached from that permanent but remains on the battlefield. (This is a state-based action. See rule 704.) An Equipment can’t equip more than one creature. If a spell or ability would cause an Equipment to equip more than one creature, the Equipment’s controller chooses which creature it equips.
+301.5d An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with “gains” or “has”), the equipped creature’s controller is the only one who can activate that ability.
+301.5e An ability of a permanent that refers to the “equipped creature” refers to whatever creature that permanent is attached to, even if the permanent with the ability isn’t an Equipment.
+

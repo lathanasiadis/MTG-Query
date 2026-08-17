@@ -1,0 +1,32 @@
+Q:
+
+In a game that just involves Unstable cards, does it ever actually matter that Just Desserts deals π damage instead of 3?
+
+The Unstable card Just Desserts says
+
+Just Desserts deals π damage to target creature. (π is the ratio of a circle’s circumference to its diameter. (It’s a smidgen more than 3.))
+
+And the Unstable FAQ further elaborates that
+
+If you ever have to calculate Just Desserts, you have my permission to use 3.14.
+
+In most situations, this has the same outcome as if it just dealt exactly 3 damage: a creature with 3 toughness will die if hit by Just Desserts or by a Lightning Bolt. A creature with 4 toughness will not die from either. So, in a game with just Unstable cards, such as Unstable limited, does it ever really make a difference that Just Desserts deals π damage instead of 3?
+I think it would be best to ignore cards that can be brought into the game by Spike, Tournament Grinder and Summon the Pack because they expand the card pool well beyond Unstable.
+
+A:
+
+There are a few ways in which it matters that Just Desserts deals π damage instead of 3.
+The simplest is the card's interaction with each other. A single Just Desserts has about the same effect as a single Lightning Bolt. But 8 Just Desserts deal a total of about 25.13 damage, while 8 Lightning Bolts only deal a total of 24 damage.
+In addition, in combination with Super-Duper Death Ray, it can result in non-integer damage being dealt to a player. Hitting a creature with 4 toughness with Just Desserts then Super-Duper Death Ray deals π damage to the creature's controller. This alone doesn't make a big difference: 0.86 life keeps you alive just as well as 1 life does, because every other source of damage has integer values. Of course, Just Desserts interacts with itself here too, so doing this enough times will result in the player taking at least 1 more damage than they would if Just Desserts only dealt 3 damage.
+Other than that, if any cards care about how much life you have, this could make a difference. One context in which it may matter exactly how much life you have is a cost that involves paying life. Rule 117.3 says
+
+A player can’t pay a cost unless he or she has the necessary resources to pay it fully. For example, a player with only 1 life can’t pay a cost of 2 life, and a permanent that’s already tapped can’t be tapped to pay a cost. See rule 202, “Mana Cost and Color,” and rule 602, “Activating Activated Abilities.”
+
+In the context of this card, this means that a player with 0.86 life can't pay 1 life, and more generally a player with N+0.86 life can't pay N+1 life. There are two cards in Unstable with costs that include paying life: Spike, Tournament Grinder and Everythingamajig F. So, a player with just 0.86 life can't pay for Everythingamajig's second ability, and a player with just 1.86 life can't pay life for any of Spike's Phyrexian mana costs. These could matter if the player had Rules Lawyer for example, and would survive having 0 life.
+There is also a planeswalker in the set, Urza, Academy Headmaster, so that damage could be redirected from the player to Urza. Mark Rosewater has ruled in the past that half counters exist, so it would make sense that with Just Desserts, other fractions can exist too. So Urza can have N + 0.86 loyalty counters. Rule 117.3 comes into play here: you can't pay for a cost unless you pay it fully, so you can't activate Urza's second ability unless he has at least 1 entire loyalty counter, and you can't activate his third ability unless he has at least 3 entire loyalty counters.
+There is also another way in which Urza can be affected here: One of Urza's possible ultimate abilities says
+
+Create X 2/2 white Cat creature tokens, where X is your life total.
+
+Unfortunately, I don't actually know what happens here. There do not seem to be any good rulings about handling fractional creature tokens.
+

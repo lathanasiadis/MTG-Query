@@ -1,0 +1,23 @@
+Q:
+
+How do continuous effects interact with "enters the battlefield" triggers?
+
+At what point do creatures entering the battlefield begin to be affected by enchantments and abilities of creatures already on the battlefield?
+For example, Mentor of the Meek's ability triggers when creatures of power 2 or less enter the battlefield.
+If I play a 2/2 creature while Honor of the Pure is in play does the Mentor's ability trigger?
+Similarly if I play a 2/2 human creature while Mayor of Avabruck is in play (face up) does the Mentor's ability trigger? (It clearly has no effect if the card is transformed (face down) and the Mentor's ability would trigger.)
+
+A:
+
+If I play a 2/2 creature while Honor of the Pure is in play does the Mentor's ability trigger?
+
+No.
+
+Similarly if I play a 2/2 human creature while Mayor of Avabruck is in play (face up) does the Mentor's ability trigger? 
+
+No.
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don’t apply before the permanent is on the battlefield, however (see rule 603.6d). 
+
+Note the ramifications if there is a continuous effect that reduced the power of creatures. You could draw a card if you played a 3/3 creature and Night of Souls' Betrayal was in play.
+

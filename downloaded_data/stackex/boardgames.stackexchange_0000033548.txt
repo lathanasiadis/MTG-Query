@@ -1,0 +1,24 @@
+Q:
+
+Can I have two similarly-named legendary creatures on the field?
+
+If I have two different Ulamogs, can they both be on the field? They both share Ulamog as part of their name, but their entire names are different. 
+
+One is Ulamog, the Ceaseless Hunger, while the other is Ulamog, the Infinite Gyre. Does legend rule carry across instances like this, or would it only apply if I had two of either of them on the field?
+
+A:
+
+Legendary permanents trigger the Legend Rule only if they have the same exact name.
+Ulamog, the Ceaseless Hunger and Ulamog, the Infinite Gyre have two different card names, so you can have both out simultaneously (even though they're both variants of Ulamog, lore-wise).
+
+201.2. A card’s name is always considered to be the English version of its name, regardless of printed language.
+201.2a Two objects have the same name if their names are identical.
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+Planeswalker cards used to have a slightly different uniqueness rule:
+
+306.4. Previously, planeswalkers were subject to a “planeswalker uniqueness rule” that stopped a player from controlling two planeswalkers of the same planeswalker type. This rule has been removed and planeswalker cards printed before this change have received errata in the Oracle card reference to have the legendary supertype. Like other legendary permanents, they are subject to the “legend rule” (see rule 704.5j).
+
+This used to be the case if you, for example, controlled Ajani Goldmane and Ajani Steadfast. One of them would die, not because they have similar names, but because they both have the same planeswalker type, Ajani.
+The planeswalker uniqueness rule has been removed with the Ixalan rules update. All planeswalkers have received errata to be legendary, they follow the regular legendary rule now, and their planeswalker type does no longer matter for uniqueness.
+

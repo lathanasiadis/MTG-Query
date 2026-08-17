@@ -1,0 +1,14 @@
+Q:
+
+In what order are cost reductions applied?
+
+Suppose I control a Blossoming Tortoise, Agatha of the Vile Cauldron, and a land creature with an activated ability that costs {2} (e.g. an animated Witch's Clinic). If Agatha applies before Tortoise, the ability will be free! But if Tortoise is applied before Agatha, the ability will cost {1} because Agatha can't reduce the cost to {0}. Which order should I apply them in?
+
+A:
+
+Whatever order you choose.
+
+601.2f [...] Some effects may increase or reduce the cost to pay, or may provide other alternative costs. [...] If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can’t be reduced to less than {0}.
+
+In the example given, you can simply choose to apply Agatha before Tortoise.
+

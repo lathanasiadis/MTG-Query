@@ -1,0 +1,22 @@
+Q:
+
+If Storm Herald leaves the battlefield before the Auras it returns, are they still exiled?
+
+If the following things happen in order...
+
+I cast Storm Herald, returning an Aura from my graveyard attached to a creature
+Before the next end step, Storm Herald leaves the battlefield
+Before the next end step, the Aura leaves the battlefield (into a zone other than exile)
+
+...what happens? To put it another way: is the text on Storm Herald "If those Auras would leave the battlefield, exile them instead of putting them anywhere else" a continuous effect, or rules text that applies only while the creature is on the battlefield? The card has a ruling that clarifies what happens if another effect exiles a returned Aura, but not what happens if it is destroyed or returned to its owner's hand.
+
+A:
+
+It doesn't matter what happens to Storm Herald after its ability has triggered. The auras it returns will be exiled no matter what.
+Since the Herald's ability is all one paragraph, it's all part of the same ability.
+
+113.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability.[..]
+
+The triggered ability creates a delayed triggered ability. This happens even if Herald leaves the battlefield before the ability resolves.
+If the auras being exiled would depend on Herald being alive, the exiling part would be its own ability with its own paragraph and wording.
+

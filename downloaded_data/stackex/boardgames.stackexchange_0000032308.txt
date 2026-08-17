@@ -1,0 +1,23 @@
+Q:
+
+How should Bone Splinters and Mirrorwing Dragon work?
+
+When playing Magic Duels, my opponent had a Mirrorwing Dragon as his only creature and I cast a Bone Splinters on it, sacrificing one of my three creatures. 
+The following occurred:
+1) The game copied Bone Splinters (once) - I assume from Mirrorwing Dragon (the game is non-specific)
+2) One of my two remaining creatures was targetted by the Bone Splinters copy and destroyed.
+3) I was left with a single creature (of the original 3) and my opponents Mirrorwing Dragon was destroyed.  My remaining creature did not have hexproof or protection from black.
+Is this how this should've worked?
+
+A:
+
+If you cast a spell on a Mirrorwing Dragon as its only target, that spell will be copied for and target each of your creatures.
+
+Whenever a player casts an instant or sorcery spell that targets only Mirrorwing Dragon, that player copies that spell for each other creature he or she controls that the spell could target. 
+
+"Her or she" refers to the caster of the spell. See also the first ruling on the gatherer page for Mirrorwing Dragon:
+
+The copies are only created targeting creatures that the spell’s controller controls. Copies are not created for all creatures on the battlefield, and the affected creatures may be controlled by a different player than the controller of Mirrorwing Dragon. Notably, if you cast Murder targeting your opponent’s Mirrorwing Dragon, your creatures will each get a Murder, not your opponent’s.
+
+Alternatively, since you said that "he killed one of my creatures*", you may be confusing the creature sacrifice cost of Bone Splinters with its effect. After the sacrifice, however, the spell would still be copied for each of your creatures.
+

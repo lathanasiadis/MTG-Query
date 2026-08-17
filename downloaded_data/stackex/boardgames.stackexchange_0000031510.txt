@@ -1,0 +1,17 @@
+Q:
+
+Assigning damage less than power
+
+Is it possible to assign damage to a single blocking creature that is less than the attacking creature's power? If so, it is possible to assign less than lethal damage?
+Suppose I attack with a big 20/20 creature, and my opponent blocks with Saber Ants (Whenever Saber Ants is dealt damage, you may put that many 1/1 green Insect creature tokens onto the battlefield). I don't want to give him 20 tokens, so can I just assign 3 damage and not the rest? Maybe I want to keep his Ants alive for some reason - can I assign less than lethal damage?
+
+A:
+
+The attacker has to assign all combat damage to creatures blocking each of his or her creatures.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. [..]
+
+One notable exception to that rule is if the attacking creature has the trample ability. In that case, you only have to assign lethal damage (3 in your example) to the creature(s) blocking it, and the rest may be assigned to the defending player or the blocking creatures as you want.
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. [..]
+

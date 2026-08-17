@@ -1,0 +1,14 @@
+Q:
+
+Does casting a copy of a spell count count for "whenever you cast a spell" triggers?
+
+Do effects that instruct me to cast a copy of a spell (e.g. Spelltwine, Isochron Scepter, Elite Arcanist) trigger "whenever you cast a spell" abilities, as found in Prowess, Charmbreaker Devils, etc?
+I'm conscious that copying a spell on the stack (a la Pyromancer's Goggles) doesn't count as casting that spell, but I'd like to be clear on whether casting a copy counts.
+
+A:
+
+If the effect instructs you to "cast" a spell or card, then you are casting the spell. You have to follow the instructions for casting a spell, and it triggers any "whenever you cast a spell" abilities.
+Rule 706.12 says
+
+An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a–h of rule 601, “Casting Spells,” and then the copy becomes cast. Once cast, the copy is a spell on the stack, and just like any other spell it can resolve or be countered.
+

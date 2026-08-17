@@ -1,0 +1,20 @@
+Q:
+
+Does Day of Judgment remove hexproof / shrouded creatures?
+
+Possible Duplicate:
+Does Wrath of God really destroy creatures with shroud? 
+
+Does this:
+
+or other similar cards remove any hexproof / shrouded creatures?
+
+A:
+
+Yes.  Since the creature is not targeted, but is being affected by a global property neither hexproof nor shroud offer any protection.
+
+702.17a Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+In both cases "not being targeted" is the key.
+

@@ -1,0 +1,25 @@
+Q:
+
+Do I get to order the outcome of a voting card on the stack in the way I want?
+
+If I play Cirdan the Shipwright its ETB triggers and everybody votes. If I receive no votes and have Consecrated Sphinx in hand, do I get to order the results of the vote in such a way, that I may put it into play first and get to draw a bunch of cards of it?
+
+A:
+
+No, you cannot make this happen; this is due to the way the card is worded:
+
+Whenever Círdan the Shipwright enters the battlefield or attacks, each player secretly votes for a player, then those votes are revealed.
+Each player draws a card for each vote they received.
+Each player who received no votes may put a permanent card from their hand onto the battlefield.
+
+I've reformatted the text slightly to make it clear what happens:
+
+Everybody votes (in APNAP order, not that it matters here as the votes are secret)
+Draws happen for each player (in APNAP order)
+Permanents go onto the battlefield (in APNAP order)
+
+For what you want to happen, it would need to be worded something like "Each player draws a card for each vote received, or if they received no votes, may put a permanent card onto the battlefield from their hand".
+Note this is covered in the first ruling on Gatherer:
+
+After the votes are revealed, first the player whose turn it is draws a card for each vote they received, then each other player in turn order does so. Then, if the first player received no votes, they may put a permanent card from their hand onto the battlefield. Then each other player in turn order does the same.
+

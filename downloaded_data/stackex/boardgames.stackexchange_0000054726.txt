@@ -1,0 +1,17 @@
+Q:
+
+Why did a triggered ability trigger after the creature holding it died?
+
+In Arena, I had Fynn, the Fangbearer and another creature with deathtouch in play. My opponent had one creature with at least 3 power. I attacked with both creatures; my opponent blocked Fynn with their creature, killing them both, while my other creature damaged the opponent. Immediately afterward Fynn's ability triggered and my opponent received two poison counters.
+Why did that happen? The closest I can find is rule 603.10 relating to looking back in time, but a creature dealing combat damage to a player is not listed in the exceptions.
+
+A:
+
+The triggered ability actually triggered before Flynn died, not after.
+This happened because Fynn doesn't die immediately; it only dies when state-based actions are checked. Simultaneously, Fynn was dealt damage and your opponent was dealt damage by a creature with deathtouch. This event caused Fynn to trigger; as Fynn was still on the battlefield and was an "object that exists immediately after an event" to quote rule 603.10. In other words, Fynn triggered because Fynn was still on the battlefield at the moment the damage was dealt and immediately afterwards.
+Before the next player gets priority, state-based actions are checked, and Fynn will die because it has at least as much damage as toughness. But it's ability has already triggered by that point, it just hasn't gone on the stack or done anything yet.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+

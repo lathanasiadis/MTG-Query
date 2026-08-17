@@ -1,0 +1,23 @@
+Q:
+
+Controlled Creature returns to which hand?
+
+Opponent has taken takes control of my Metalwork Colossus. The card has an ability that states:
+
+Sacrifice two artifacts: Return Metalwork Colossus from your graveyard to your hand.
+
+Who can sacrifice two artifacts to get Metalwork Colossus to his hand - me, the owner, or my opponent, the controller?
+
+A:
+
+That ability can only be activated while the Metalwork Colossus is in your graveyard, to return it to your hand. Your cards in general cannot be be in any other player's graveyard or hand.
+Rule 400.3 says
+
+If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its owner’s corresponding zone.
+
+and the rules regarding abilites have these subrules that describe when you can activate that ability:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+112.6k An ability whose cost or effect specifies that it moves the object it’s on out of a particular zone functions only in that zone, unless that ability’s trigger condition, or a previous part of that ability’s cost or effect, specifies that the object is put into that zone. The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone.
+

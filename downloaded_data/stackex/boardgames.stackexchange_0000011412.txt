@@ -1,0 +1,17 @@
+Q:
+
+Can I target an indestructible creature with a 'destroy target creature' spell?
+
+Of course the spell won't resolve, but is the indestructible creature a legal target for a spell with the effect "destroy target creature"?
+For example, can I target Gideon, Champion of Justice, animated by its second ability, with Rapid Hybridization?
+
+A:
+
+Yes, Indestructible creatures are legal targets for spells/abilities that say "destroy target creature."
+The spell actually does resolve, but when it attempts to destroy the creature rule 700.4 prevents it from happening. The requirements for a "legal target" for a spell must be a permanent, unless the spell/ability specifies otherwise. Indestructibility does not modify the rules for targeting, unlike the rules for protection (702.15b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality).
+You can target Gideon with Rapid Hybridization, and when it resolves it will fail to destroy Gideon and will create 3/3 frog owned by Gideon's controller.
+
+114.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can’t exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+700.4. If a permanent is indestructible, rules and effects can’t destroy it. (See rule 701.6, “Destroy.”) Such permanents are not destroyed by lethal damage, and they ignore the lethal-damage state-based action (see rule 704.5g). Rules or effects may cause an indestructible permanent to be sacrificed, put into a graveyard, or exiled.
+

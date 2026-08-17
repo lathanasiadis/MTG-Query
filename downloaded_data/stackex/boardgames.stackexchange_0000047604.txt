@@ -1,0 +1,26 @@
+Q:
+
+Interaction between Leyline of Anticipation and Teferi, Time Raveler
+
+With the reprint of LeyLine of Anticipation in Core Set 2020, the interaction with Teferi, Time Raveler came to mind and I couldn't figure out what is right.
+If I have the Leyline and my opponent has Teferi, may I cast spells during my opponent's turn?
+
+A:
+
+Leyline of Anticipation won't help you; you will only be able to cast spells on your turn, in your main phases, when the stack is empty.
+
+307.5. If a spell, ability, or effect states that a player can do something only “any time they could cast a sorcery,” it means only that the player must have priority, it must be during the main phase of their turn, and the stack must be empty. The player doesn’t need to have a sorcery they could cast. Effects that would preclude that player from casting a spell or casting a sorcery don’t affect the player’s capability to perform that action (unless the action is actually casting a spell or casting a sorcery).
+
+So "any time they could cast a sorcery" does not mean literally "is it possible to cast a sorcery under the current game conditions". Instead, it means "could they cast a sorcery under the default rules of the game".
+When you also have Leyline of Anticipation, you normally are allowed to cast a spell any time you have priority:
+
+304.5. If text states that a player may do something “any time they could cast an instant” or “only as an instant,” it means only that the player must have priority.
+
+However, because this conflicts with the restriction on Teferi, the restriction takes precedence:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+This is confirmed by a ruling on Teferi, Time Raveler:
+
+If an effect allows opponents to cast spells any time they could cast an instant (for example, if your opponent also controls a Teferi, Time Raveler and activates his +1 loyalty ability), the restriction of Teferi’s first ability takes precedence over that permission.
+

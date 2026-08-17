@@ -1,0 +1,22 @@
+Q:
+
+If there are two or more abilities that go off on the upkeep, can a creature's activated ability go off preventing the second?
+
+I have Sheoldred, Whispering One and the Eldrazi Monument in play. At the beginning of my upkeep, I sacrifice a creature to pay the upkeep for the Monument. My plan was to bring it back out using Sheoldred's ability, but my opponent has a Scavenging Ooze. He taps one green and exiles the sacrificed creature when it hits the graveyard. Is he able to exile my creature after the sacrifice but before the Sheoldred ability activates?
+
+A:
+
+If you sacrifice a creature to Eldrazi Monument's ability, you can't bring that creature back with Sheoldred during the same upkeep. But if you could, then your opponent would be able to stop you using Scavenging Ooze.
+As your upkeep step starts, the first thing you do is put all abilities that trigger at the beginning of your upkeep on the stack. You can choose what order they are put on the stack, so you can have Eldrazi Monument's ability resolve before Sheoldred's ability. However, you also have to choose the target for Sheoldred's ability when it is put on the stack, so Sheoldred can only return a creature that was already in the graveyard before you sacrifice a creature to Eldrazi Monument.
+It would work differently with a slightly different ability. Consider this ability:
+
+At the beginning of your upkeep, return target a creature card from your graveyard to the battlefield.
+
+In this case, the ability does not have a target, so you do not choose which creature to return until the ability resolves. Then the situation plays out like this:
+
+You put the alternate Sheoldred ability and the Eldrazi Monument ability on the stack.
+The Eldrazi Monument ability resolves, and you sacrifice a creature.
+At this point, both you and your opponent have another chance to respond before the alternate Sheoldred ability resolves. Your opponent activates the Scavenging Ooze's ability targeting the creature you sacrificed.
+The Scavenging Ooze's ability resolves, and the creature is exiled.
+The alternate Sheoldred ability resolves, and you can return a creature from your graveyard to the battlefield. You can't return the creature you sacrificed, because it has been exiled, but you can choose a different creature, if there is one available.
+

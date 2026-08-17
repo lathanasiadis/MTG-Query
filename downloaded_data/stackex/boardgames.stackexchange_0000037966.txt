@@ -1,0 +1,17 @@
+Q:
+
+Taking counters from Hangarback Walker with Fate Transfer
+
+If I cast Fate Transfer onto Hangarback Walker taking it's counters, does it just die or create Thopters?
+
+A:
+
+Hangarback Walker will die without creating any Thopter tokens.
+After Fate Transfer resolves, Hangarback Walker has no counters on it, making it a 0/0 creature.  At this point, state-based action 704.5f is applied, sending the Walker to the graveyard.  This triggers the Walker's ability, which checks the number of counters that were on Hangarback Walker immediately before it left the battlefield.  Since that number was zero, no tokens are created.
+
+This is in contrast to the situation described in the Gatherer rulings:
+
+If enough -1/-1 counters are put on Hangarback Walker at the same time to make its toughness 0 or less, the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Thopter tokens you get. For example, if there are three +1/+1 counters on Hangarback Walker and it gets four -1/-1 counters, you’ll get three Thopter tokens. That’s because Hangarback Walker’s triggered ability checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+
+The key difference between the two situations is the manner in which the tokens were removed.  If Hangarback Walker is "killed" via -1/-1 counters, there are actually two state-based actions at play: 704.5f, which sends creatures to the graveyard if their toughness is 0 or less, and 704.5r, which "cancels out" +1/+1 and -1/-1 counters.  Since all state-based actions are applied simultaneously, the Walker loses its counters and goes to the graveyard at the same time, meaning that the Walker still had its counters before it left the battlefield.
+

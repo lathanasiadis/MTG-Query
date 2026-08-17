@@ -1,0 +1,14 @@
+Q:
+
+Cabal Therapy trick in response to Shock
+
+Let's say my opponent plays a Shock. In response,
+can I cast Cabal Therapy to get rid of it?
+As in Counterspell or such. Please give me the full ruling on this card
+
+A:
+
+That will not work. There are multiple issues with trying to do that.
+First, once a player casts a spell, that spell is on the stack. Cards such as Counterspell and Redirect interact with spells on the stack. Cabal Therapy removes cards from an opponent's hand; it does not interact with the stack. So, if you were to cast Cabal Therapy in response to your opponent casting Shock and you name "Shock", you can make them discard every copy of Shock that is still in their hand, but it would have no effect on the Shock that they already cast.
+Second, Cabal Therapy is a Sorcery. This means that in general, you cannot cast it in response to anything. There are some cards that change that, such as Leyline of Anticipation and Vedalken Orrery.
+

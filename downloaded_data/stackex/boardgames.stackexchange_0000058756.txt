@@ -1,0 +1,21 @@
+Q:
+
+Multiple fight triggers on one creature
+
+So with Tolsimir, Friend to Wolves forcing entering wolves to fight, if I make 4 2/2 wolf tokens and send all at an 8/8 I know they won't all fight it at once. But would the 8/8 still die? Was wanting to use him as my commander but I might have to switch for the other version for my token tribal.
+
+A:
+
+Yes, if 4 2/2 creatures fight a single 8/8 creature, they will all die.
+The "fight" keyword is defined in rule 701.12a:
+
+A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+
+So, in this situation, here's what happens:
+
+4 2/2 wolf creature tokens are created. Tolsimir's ability triggers 4 times.
+The first triggered ability resolves, and one wolf fights the 8/8. The wolf deals 2 damage to the 8/8 and the 8/8 deals 8 damage to the wolf. The 8/8 now has 2 damage marked on it, and the wolf dies.
+The second triggered ability resolves, and there is another fight. The 8/8 now has 4 damage marked on it, and another wolf dies.
+The third triggered ability resolves, and there is another fight. The 8/8 now has 6 damage marked on it, and another wolf dies.
+The fourth triggered ability resolves, and there is another fight. The 8/8 now has 8 damage marked on it, so it dies, and the last wolf also dies.
+

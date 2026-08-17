@@ -1,0 +1,20 @@
+Q:
+
+Can undying retrigger a second time if its +1/+1 is cancelled out by non-lethal infect damage?
+
+A 1/1 Glistener Elf and 1/1 Young Wolf are in combat. The Young Wolf has died before, but thanks to its undying ability came back with a +1/+1 counter on top of it.
+Glistener Elf dies, Young Wolf receives a -1/-1 token. This, if I'm not mistaken, cancels out the +1/+1 token and the Young Wolf is now presumed not to have any counters on it. Does this mean that if I attack with another Glistener Elf and Young Wolf blocks, its undying ability will trigger again and cause the Young Wolf creature to come back a second time?
+(For future visitors: I found a related question explaining why lethal infect damage wouldn't retrigger the ability a second time. My question is about non-lethal infect damage.)
+
+A:
+
+Yes, if the Young Wolf loses its +1/+1 counter and later dies, its undying ability will trigger and it will return to the battlefield again.
+The Undying ability is defined in rule 107.92a:
+
+Undying is a triggered ability. “Undying” means “When this permanent is put into a graveyard from the battlefield, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.”
+
+It checks whether the creature had +1/+1 counters at the time that it died. It doesn't matter if the creature previously had any +1/+1 counters.
+For completeness, the -1/-1 counters added by the Glistener Elf because of its Infect ability do remove the +1/+1 counter on Young Wolf, as mentioned in the question. This is specified in rule 122.3:
+
+If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it as a state-based action, where N is the smaller of the number of +1/+1 and -1/-1 counters on it. See rule 704.
+

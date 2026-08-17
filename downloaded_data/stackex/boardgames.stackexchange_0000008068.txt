@@ -1,0 +1,30 @@
+Q:
+
+What first turn kill in multiplayer FFA provides the best ratios?
+
+People love to figure out first turn kills in Magic: the Gathering, and have been around since the beginning, when someone threw together a deck with Channel, Black Lotus, Fireball, Mountain. Pulling off a first turn kill in multiplayer is much harder, because you need to do much more damage to your opponents.
+Assume the following:
+
+You have 4 opponents.
+Legacy Banned List.
+You get to determine every card you draw (including starting hand).
+Your opponents take no actions. (goldfish).
+
+What is the maximum amount of total life loss that is possible? Not sure of the best way to rank submissions, perhaps fewest cards used, least mana used, most life loss, or least expensive cards. Perhaps an average of those values.
+
+A:
+
+False Cure deck - I used to have a Vintage version of this deck, using proxies for all the expensive cards in the deck.
+
+Play Overgrown Tomb ($14)
+Cast 1xDark Ritual ($1)
+Cast 1xFalse Cure ($1.50)
+Cast 4xSkyshroud Cutter ($0.10) for alternate casting cost.
+
+First Skyshoud Cutter causes opponents gain 5 life (25 life), False Cures and opponents lose 10 life. Remaining 3 Skyshroud Cutter's do the same.
+
+7 Cards (AVG 22.9 life/card). Cheating a little since we are giving opponents life
+6 Mana (AVG 55.3 life/mana), or using CMC instead 8.42
+40 * 4 life = 160 total
+$14 + $1 + $1.50 + 4x$0.10 (approximate $16.90 total, AVG 9.47 life/$) (Prices by TCGPlayer.com, 5th lowest Near Mint price)
+

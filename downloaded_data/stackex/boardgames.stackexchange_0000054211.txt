@@ -1,0 +1,14 @@
+Q:
+
+Why Valki returns stolen card even after the transformation?
+
+Why Valki returns stolen cards even after the transformation? It is obvious, why Valki returns the stolen cards without the usage of its activated ability. But after becoming a copy of one of the stolen cards Valki loses its text with "... until Valki leaves the battlefield"?
+
+A:
+
+Whenever a card references itself by name, it means "this object".
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+This means that Valki's first ability refers to the card presently represented by Valki, God of Lies, not one named that. It'll still be the same object even if it changes its name or characteristics somehow, such as with its activated ability.
+

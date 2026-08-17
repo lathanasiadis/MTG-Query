@@ -1,0 +1,31 @@
+Q:
+
+Effects depending on an impossible effect?
+
+Sometimes, when a spell or ability resolves, part of what it does is impossible to do. In these cases, the following rule applies:
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+I understand that. But what if some effects on the card depend on what you did, when you didn't do what you couldn't do. Most of these effects will not do anything, because you cannot do anything with a card you couldn't reveal from an empty library. But some have effects that you could still perform.
+An example: Merfolk Branchwalker reads:
+
+When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
+So what if this effects resolves, when you have an empty library? Obviously no card is not a land card, but is the +1/+1 counter put on it? Or is this effect just skipped because it depends on an effect that could not be done? What about cards that care about any values (cmc, power,...) the card has? Are they just interpreted as 0?
+Some other examples include Counterbalance and Candles of Leng. There might be examples outside of effects that affect the top of your library, but I didn't find any unclear ones.
+
+A:
+
+If a creature explores an empty library, the creature gets a +1/+1 counter and nothing more happens. There is no general answer to what happens with multiple, partially impossible instructions.
+The relevant rules of the explore mechanic are:
+
+701.39a Certain abilities instruct a permanent to explore. To do so, that permanent’s controller reveals the top card of their library. If a land card is revealed this way, that player puts that card into their hand. Otherwise, that player puts a +1/+1 counter on the exploring permanent and may put the revealed card into their graveyard.
+
+You can't reveal a card because there are none remaining in the library. Therefore, no land card has been revealed, so you can't put it in your hand and you continue resolving the ability with the "otherwise" instructions. Note that the "otherwise" condition refers to both the "card" and "card type: land" requirements that both have to be true to make you take the first branch of the instructions. 
+In the second branch, you do as much as possible: You put a +1/+1 counter on the creature and, since you didn't reveal a card, can't choose to put the revealed card into your graveyard, so nothing happens on that instruction.
+It would have been possible to word the second branch so that the creature gets a counter if and only if you actually put a card into the graveyard, i.e. the creature would not get a counter on exploring an empty library. In that case, it would get another instruction branch nestled into the second branch:
+
+Otherwise, you may put the revealed card into your graveyard. If you do, put a +1/+1 counter on this creature.
+
+Because of the flexibility of the rules, it's impossible to give a general answer as to what happens when there are multiple instructions and some of them are impossible. It always depends on the wording of the card(s) involved.
+

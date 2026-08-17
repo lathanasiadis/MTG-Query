@@ -1,0 +1,15 @@
+Q:
+
+Absorbing damage with Planeswalker
+
+If my opponent attacks my planeswalker (who has 1 loyalty counter) with two creatures (power 1 and 3 respectively), can I absorb the attack of the creature with power 3 with my planeswalker and only take one damage to my health? Or do I treat it like the creature has trample and take three damage to my health?
+
+A:
+
+Neither. Treat your planeswalker as if they are a separate player, one that you can use your creatures to block for. If there is trample damage when your block, that damage goes to your planeswalker, not you. If you don't block (or do block and there's trample) and that damage is more than enough to kill your planeswalker, then your planeswalker dies, and no damage is dealt to you. Damage never tramples over onto you from an attack at your planeswalker. From the comprehensive rules (emphasis mine):
+
+510.1b An unblocked creature assigns its combat damage to the player or planeswalker it's attacking. If it isn't currently attacking anything (if, for example, it was attacking a planeswalker that has left the battlefield), it assigns no combat damage.
+
+Update:
+With the printing of Thrasta, Tempest's Roar, "Trample over Planeswalkers" is now a variant of trample - creatures with this would do any extra damage beyond enough to kill the planeswalker to the defending player. As of right now this only exists on Thrasta, creatures with regular trample are not changed.
+

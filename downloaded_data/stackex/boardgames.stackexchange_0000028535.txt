@@ -1,0 +1,17 @@
+Q:
+
+Blocking multiple creatures with multiple creatures
+
+Let's say I have a two 2/2s (A and B) and also Brave the Sand.
+my opponent attacks with two 2/2s (C and D)
+And C is blocked by A and B and D is also blocked by A and B.
+Can I assign damage in such a way that A deals 1 damage to C and 1 damage to D and B also deals 1 damage to C and 1 damage to D?
+I believe you choose for each creature how they assign damage and you can only assign damage to the second creature if the first creature has lethal damage assigned. Does this mean that this must be true at the end of all assignments or when I first decide for creature A how he assigns damage, and then he has to assign 2 damage to the first creature.
+
+A:
+
+You can split the damage any way you like, as long as you follow the damage assignment order. The correct end result of the damage assignment is all that counts.
+
+510.1d [..] If it’s blocking two or more creatures, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocking creature to divide its combat damage. However, it can’t assign combat damage to a creature that it’s blocking unless, when combat damage assignments are complete, each creature that precedes that blocked creature is assigned lethal damage.
+  [..]
+

@@ -1,0 +1,51 @@
+Q:
+
+Informing opponents of outdated card text
+
+When a player is using cards printed with less than the latest Oracle text, to what extent are they obligated to inform opponents about this? To provide a contrived example:
+
+P1 casts Ceta Disciple, with a printing that does not include the Merfolk type
+P2 allows the spell to resolve
+P2 casts Thoughtseize, sees six cards including a Lord of Atlantis, chooses to discard something else
+P1 plays the lord and attacks with Ceta Disciple. P2 blocks with a 1/2.
+
+If P2 never asks a question and takes Ceta Disciple's text at face value, is there a point in this exchange at which P1 is obligated to point out that the creature is a Merfolk?
+
+A:
+
+No, players are not obliged to provide strategic information or the latest Oracle wording their opponents, at least not without being asked.
+The rules to consult in this case are the Tournament Rules. There are several things to consider with this question.
+Does the merfolk player have to assist with the power/toughness calculation of a card in their hand?
+Let's start with section 4.1, Player Communication, about the nature of the information in question:
+
+Free information is information to which all players are entitled access without contamination or omissions made by their opponents. If a player is ever unable or unwilling to provide free information to an opponent that has requested it, they should call a judge and explain the situation. Free information consists of:
+• The name of any visible object. [..]
+
+The name of the card is not under dispute, it's Ceta Disciple.
+
+Derived information is information to which all players are entitled access, but opponents are not obliged to assist in determining and may require some skill or calculation to determine. Derived information consists of:
+• All characteristics of objects in public zones that are not defined as free or status information. [..]
+
+A Ceta Disciple on the battlefield is an object in a public zone. Its power/toughness are not free or status information (such as life points). Therefore, it's derived information. The opponent is not required to assist in the calculation of those values, and especially not when the Ceta Disciple is not even on the battlefield and therefore yet unaffected by the Lord.
+From whom can you request the current Oracle wording of a card?
+Section 3.6, "Card Identification and Interpretation", says:
+
+Players have the right to request access to the official wording of a card they can describe. That request will be honored if logistically possible. The official text of any card is the Oracle text corresponding to the name of the card. Players may not use errors or omissions in Oracle to abuse the rules. The Head Judge is the final authority for card interpretations, and they may overrule Oracle if an error is discovered
+
+This imposes a duty on the tournament judges, not on one's opponent, so the opponent is in the clear. In any case a player has to actively request that information. Nobody is obliged to provide it unprompted.
+Does using an outdated print of a card constitute obfuscation?
+The fact alone that many printed cards are outdated and do not have a up-to-date print, such as Ceta Disciple itself, already suggests that using such cards in a tournament setting is unproblematic. Players may even draw over their cards to a large extent while still remaining tournament legal. Section 3.3 Authorized Cards says:
+
+Artistic modifications are acceptable in sanctioned tournaments, provided that the modifications do not make the card art unrecognizable, contain substantial strategic advice, or contain offensive images. Artistic modifications also may not cover or change the mana cost or name of the card.
+
+The Merfolk player could paint over the type line of their cards and it would be a legal modification. Using a printed card that is out of sync with its current Gatherer wording is not obfuscation in any way. In fact, Wizards themselves have printed numerous, tournament-legal cards that contain no gameplay information at all except the card name and mana cost, the minimum required information as described above.
+May the opponent lie about the Oracle wording of Ceta Disciple when asked?
+This might be a tricky one. The characteristics of a card in hand other than its name are at most derived information (the hand is not a public zone, but it's a publicly known information in your scenario) as discussed above, so the opponent does not have to provide information about it. However, if they do give information and it's wrong (e.g. because they lied about it, which would seem most likely in this case), it might well be unsporting conduct, or even cheating, with various penalties attached.
+Again section 4.1 Player Communication:
+
+A player should have an advantage due to better understanding of the options provided by the rules of the game, greater awareness of the interactions in the current game state, and superior tactical planning. Players are under no obligation to assist their opponents in playing the game. Regardless of anything else, players are expected to treat opponents politely and with respect. Failure to do so may lead to Unsporting Conduct penalties.
+
+I suspect this situation is not treated specifically in the rules because the MTR rightly assume that, because players have a right to request the full Oracle wording of that card from judges, it should not be possible to misrepresent the Oracle wording of a card.
+So when a player lies about information they are not required to provide, is that (legal) bluffing, does it cross into unsporting conduct (not legal), or even cheating to gain an advantage (very illegal)? I would suspect that the Rules Enforcement Level (REL) would also factor in here. At the lowest level, such as for Friday Night Magic, bluffing in this manner against a less experienced player should be punished as Unsporting Conduct. At the highest levels, even though the stakes are greater, the expectations towards player experience are even greater, and it might pass as a legal bluff.
+However, luckily for me, this last part is a hypothetical anyway. As for the core question: if the opponent doesn't ask, nobody is required by the rules to provide this piece of information on their own. If a player doesn't ask and makes a strategic error, it's on that player.
+

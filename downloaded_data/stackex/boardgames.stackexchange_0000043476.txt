@@ -1,0 +1,16 @@
+Q:
+
+Which dual lands count as having the name of their respective basic land types for certain effects?
+
+For example, let's take a look at Arbor Elf, which has the ability "T: Untap target Forest"
+Which types of dual lands count as a Forest and thus can be untapped by Arbor Elf?
+Is there a comprehensive heuristic I can use for this? I've never actually seen the rule anywhere and these lands never mention that fact, nor have I seen it in errata or card rulings. But apparently it's a thing because I heard it mentioned in forums and cards that mention basic lands have worked on some dual lands before in MTGA.
+
+A:
+
+There's an assumption you're making that's a bit off here, that assumption being that you are looking for something by name. Voltaic Key has the ability ", : Untap target artifact." that does not untap a card named artifact, but a card with the type artifact.
+In the case of Arbor Elf, untap target forest refers to cards with the subtype forest, Dual lands such as Breeding Pool and Scattered Groves both have forest on their type line, and can be targeted. Even a few single colored non basic lands like Dryad Arbor and Sapseep Forest count, as they have forest in their type line.
+We can see this method more clearly in cards like Nissa's Pilgrimage, which specifies basic forests, or Cabal Stronghold which specifies basic swamps. Specifying the supertype basic in addition to the subtype forest/swamp/etc means you can only find this info on the type line, though they could have said lands named forest or lands named swamp and got roughly the same result.
+In addition to cards like this, there are effects that change the type of land, or turn things into lands, effects like Urborg, Tomb of Yawgmoth would make all lands swamps, so they would count for anything that looks at swamps, such as Cabal Coffers, and Life and Limb makes all creatures with the subtype saproling into forests (and vice versa) turning them all into creature land - saproling forest.
+Currently there are 25 cards that are printed as forests, 2 of these are the basic lands (regular and snow covered) the other 23 are non-basics. For the other 4 basic land types, there are: 23 Plains, 23 Islands, 23 Swamps, and 23 Mountains. Generally these cards exist in cycles that have the same number of each, Dryad Arbor and Murmuring Bosk are the 2 exceptions, forests without a matching cycle in other colors.
+

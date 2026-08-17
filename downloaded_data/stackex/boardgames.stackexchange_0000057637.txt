@@ -1,0 +1,28 @@
+Q:
+
+Does Valakut do damage if Dryad of the Ilysian Grove is in play, but dies before the trigger resolves? Take 2 (I did not understand the explanation)
+
+Stumbled upon an old question regarding Valakut and Dryad of Ilysian Grove, Link is below:
+Does Valakut do damage if Dryad of the Ilysian Grove is in play, but dies before the trigger resolves?
+I am not quite following the ruling (Not a judge, just a lowly L0). In this case the effect is checked as it is being placed on the stack and also as it resolves.
+In ruling 613.5 it states - The application of continuous effects as described by the layer system is continually and automatically performed by the game. All resulting changes to an object’s characteristics are instantaneous.
+I would have thought that because the plains stops being a mountain due to dryad being destroyed, Valakut's trigger would not resolve. I understand the ruling with the mountain leaving the battlefield etc, but not quite this. I also understand another thread where Dryad loses all abilities but because losing ability is applied at layer 6 and type changing ability is applied at layer 4, even though dryad loses all abilities the lands are still every type. Thread as below:
+Why does Dryad of the Ilysian Grove grant all basic land types even if it loses all abilities?
+Do explain why if Dryad dies as lands enter, when Valakut trigger resolves the it still does damage?
+Thank you
+
+A:
+
+Yes, Valakut, the Molten Pinnacle will still do damage, but only if there are still 5 other mountains in play without Dryad of the Ilysian Grove's ability.
+I'll lay out three examples:
+
+Player has Valakut with 5 Mountains, 1 Forest and Dryad and plays a Forest. The land enters as all land types and Valakut triggers, putting the ability on stack. Someone destroys Dryad before the trigger resolves, the trigger sees 5 mountains still in play, and so it deals 3 damage.
+
+Player has Valakut with 4 Mountains, 1 Forest and Dryad and plays a Mountain. The land enters and is naturally a mountain so Valakut triggers, putting the ability on stack. Someone destroys Dryad before the trigger resolves. When the trigger resolves, it sees 5 mountains, but only 4 of them are 'other' than the one that caused the trigger, so no damage is dealt.
+
+Player has Valakut with 3 Mountains, 2 Forests and Dryad and plays a Mountain. The land enters and is naturally a mountain so Valakut triggers, putting the ability on stack. Someone destroys Dryad before the trigger resolves, so the trigger does not see 5 mountains in play when it resolves, so no damage is dealt.
+
+The trigger conditions on a triggered ability are only ever evaluated when they happen, a land entered the battlefield and when it entered it was a mountain. The second condition is called an intervening if clause, it forms part of the trigger condition but also is checked on resolution. This is laid out in rule 603.4 of the comprehensive rules.
+
+603.4 A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule. (The word “if” has only its normal English meaning anywhere else in the text of a card; this rule only applies to an “if” that immediately follows a trigger condition.)
+

@@ -1,0 +1,18 @@
+Q:
+
+Can players respond before vehicles are declared as blockers?
+
+My question concerns players receiving priority.
+My opponent has a Void Stalker, and attacks with a flying creature. I have a creature with protection from blue and a flying vehicle. During the declare blockers step, I crew my vehicle.
+Is there a time between me crewing my vehicle and declaring it as a blocker where my opponent could void stalker's ability to shuffle my vehicle back into my deck?
+
+A:
+
+Yes, your opponent can respond.
+When you activate your vehicle's ability, the ability will go on the stack.
+
+117.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+Once all players pass, the ability will resolve.  Then players recieve priority again, and you won't move to the Declare Blockers step until all players have passed priority.
+As a side note, if you are crewing your vehicle in the Declare Blockers step, you're doing it too late.  The action of declaring attackers or declaring blockers is the first thing that happens in that step, and you recieve priority afterwards. 
+

@@ -1,0 +1,15 @@
+Q:
+
+How does Energy Field interact with effects that say you lose life?
+
+How does Hissing Miasma affect a player protected by Energy Field if their creatures are attacking?
+Additionally, how does Tainted Remedy affect Energy Field if same player does something to gain life?
+
+A:
+
+In both cases Energy Field does nothing because both Hissing Miasma and Tainted Remedy cause loss of life and not damage, so Energy Field can't prevent it.
+Damage to players causes them to lose life (assuming the source doesn't have infect), but loss of life isn't always damage.
+
+118.2. Damage dealt to a player normally causes that player to lose that much life. See rule 119.3.
+118.3. If an effect causes a player to gain life or lose life, that player’s life total is adjusted accordingly.
+

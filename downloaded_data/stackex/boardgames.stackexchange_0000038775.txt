@@ -1,0 +1,18 @@
+Q:
+
+Can multiple copies of Fraying Sanity activate at once?
+
+In theory, let's say I have several copies of Fraying Sanity on several different players. Would multiple copies of Fraying Sanity activate at once or does one copy activate first, then another?
+
+A:
+
+Regardless of the number, Fraying Sanitys will resolve sequentially.
+In Magic, no two things can resolve at the same time, they must be put on to the stack and then resolve in last in first out order.
+When multiple activities trigger at the same time, the active player gets to choose the order in which effects they control go onto the stack. This is covered in the Comprehensive rules here:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+So, when you have multiple copies of Fraying Sanity that you control (as in the example in your question), you get to choose the order in which they resolve each end step. One thing to note is that if you have multiple Fraying Sanitys on the same player, the ones resolving afterwards will take into account how many cards have entered the graveyard by previous Fraying Sanity effects. This is covered in the special rulings on the gatherer page:
+
+The value of X is determined only as Fraying Sanity’s triggered ability resolves. For example, if three Fraying Sanity Auras are attached to one player who had four cards put into his or her graveyard this turn, X will be four for the first ability to resolve, eight for the second, and sixteen for the third.
+

@@ -1,0 +1,51 @@
+Q:
+
+Does an ability that refers to the name of the ability’s card have to refer to that instance of the card?
+
+The Question:
+I believe I’m right here, but I wanted to get some consensus before I rely on it in a game: Can I apply the ability: "{U}: Untap Soliton" to a different Soliton than the one that activated the ability?
+The Brief
+I’ve been looking for an infinite mill combo using Soliton for a long time, and have been unable to find one, but I have come close. I now have a plan that will at least allow me to mill a player so much that it doesn’t matter that I can’t get the infinite mana needed to make the loop unending.
+The Steup:
+
+Soliton has the ability:
+
+{U}: Untap Soliton
+
+Stern Mentor has the ability to Soulbond, and if soulbonded has the ability:
+
+{T}: Target player puts the top two cards of his or her library into his or her graveyard
+
+If soulbonded to Stern Mentor, Soliton will also have the ability:
+
+{T}: Target player puts the top two cards of his or her library into his or her graveyard
+
+In a simple set up, of one Soliton soulbonded to one Stern Mentor, I can tap Stern Mentor and mill for two, then tap Soliton and mill for a further two, then pay one blue mana to untap Soliton, then tap Soliton to mill for two and so on… Assuming I have ten blue mana free this will allow me to mill for 24.
+The Issue:
+If I have two sets of Stern Mentor soulbonded to Soliton I can’t mill for any more than if I had just the one set because I am restricted by the amount of mana I have.
+The Plan:
+I also have several Illusionist’s Bracers. These have the ability:
+
+Whenever an ability of equipped creature is activated, if it isn't a mana ability, copy that ability. You may choose new targets for the copy.
+
+Now I had originally hoped to clone Soliton’s ability onto an island card and create an infinite mana combo, but then I realised that if I cloned the ability: "{U}: Untap Soliton" onto something else the ability would still be "{U}: Untap Soliton", and I couldn’t untap the same Soliton that had just been untapped.
+I’m hoping that I can apply that ability to my other Soliton, that way, if I have two sets of Soliton equipped with Illusionist’s Bracers and soulbonded to Stern Mentor, I can tap one to mill, clone the mill ability inherited from Stern Mentor, do the same for the other set, then untap one Soliton and clone the ability across to the other.
+This will allow two to be untapped for the price of one.
+If we disregard cloning the ability inherited from the Stern Mentor this would up the mill to 44, but with the inheritance it would up the mill to 92. With 20 mana spare that we be upped to 184, that can be spread across as many players as I like.
+
+A:
+
+The untap Soliton isn't a targeted effect; it only untaps the Soliton which used it. When a card's name is used it really means [THIS-CARD]. If it said U:Untap target creature named Soliton, then you could untap any Soliton, but it just says Untap Soliton, which translates as Untap ~this card~.
+You will still clone the ability though, and one will resolve before the other allowing you to untap your Soliton, then tap it to mill 2 cards, clone the mill ability to mill 2 more cards, then untap it again, and mill 4 more cards! So you get 8 cards for 1 mana instead of 2 cards for 1 mana.
+If you start with a tapped Soliton, it works like this:
+
+U:Untap Soliton added to stack
+Bracer's Fires, adding a second untap Soliton to the stack (Has to be the same card)
+Let one untap resolve, stack still has 1 untap pending
+tap soliton to add mill 2 cards to the stack
+a second mill 2 cards added to the stack
+4 cards are milled, then pending untap fires, soliton is untaped
+tap soliton again, add mill 2 cards to stack
+bracers add a second mill 2 cards
+4 cards are then milled, stack empty.
+

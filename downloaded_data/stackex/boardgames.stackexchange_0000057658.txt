@@ -1,0 +1,19 @@
+Q:
+
+What number is so large that one would never wish to have named a larger number?
+
+When Magic the Gathering players create infinite resource combos, they often name numbers such as 1 million, 1 billion, or 1 trillion.  Usually this results in Player A creating that many permanents, gaining that much life, etc.
+Obviously if Player B can also create an infinite combo to produce a counteracting resource (more attackers than Player A's blockers, more damage than Player A's life, etc.), then the original number can always be out-enumerated.  However, it seems plausible to me that Player A could even be in danger if Player B's combo is not infinite.  For example, if Player B could double a creature's power every turn for 40 turns, then it could easily wipe away 1 trillion life with a single attack, nevermind that it could have been attacking each turn along the way.  Player A might be able to survive attacks and doublings over 120 turn by naming 1 duodecillion, which sounds like more than enough turns to cover any game of Magic.  However, if Player B could double their creature's power multiple times per turn, then this still may not be enough.  In fact, if each turn Player B could create a new copy of the source which doubles their creature's power, then greater-than-exponential growth could be achieved.  Here my intuition is that a Googol life may not be enough to guarantee Player A indefinite safety, while a Googolplex may be, but is impractical to work with.
+How quickly is it possible for Player B to deal life loss to Player A, using any non-infinite combination of cards?  Of course, I am not only interested in the life case, but also in the cases of creating an arbitrary number of permanents, or other resources, which may have different thresholds for safety.  For each type of resource an infinite combo that does not win a game outright can create, what number is so large that it is virtually impossible to regret not naming a larger number?
+
+A:
+
+There isn't one.
+The question you're asking is a bit like asking this:
+
+My friend and I can both eat infinite numbers of hotdogs. What number of hotdogs do I have to eat such that my friend can't then eat a bigger number of hotdogs?
+
+There is no such number. Your friend can always choose a bigger number: they can choose the number you chose plus one, or squared, or times/plus any arbitrary number. I could pick an immense number like Graham's number, and they can just name Graham's number plus one. That's by the nature of how infinity works—there's always a bigger number.
+You're proposing a scenario in which both my opponent and I might have access to infinite combos. (Using a finite amount of cards, but that's true of every deck.) If I have an infinite combo to gain an arbitrary amount of life during my turn, but my opponent has an infinite combo to attack with arbitrarily many creatures or deal arbitrary much damage to me, they can always pick a larger number than I picked. That's just how it works.
+Once your opponent has an infinite combo they've probably won. The exception is if you can completely negate whatever they can do infinitely: e.g. they can do infinite Grapeshot, but you have Protection of the Hekma. There's no out-infinity-ing them on the defensive side.
+

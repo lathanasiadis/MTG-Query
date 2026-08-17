@@ -1,0 +1,39 @@
+Q:
+
+If my opponent Confiscates my permanent and I can cast my own Confiscate, should I target my permanent or their Confiscate?
+
+There exist a number of auras that allow a player to take control of a permanent on the board. The earliest of these to my knowledge is Confiscate, but my question applies to any of these effects assuming they have legal targets.
+The context is that you and your opponent are both playing Confiscate effects and your opponent has taken control of your MVP (most valuable permanent). It's now your turn and you have the mana available to cast your own Confiscate (or equivalent). Because control effects are applied in timestamp order, you can regain control of your permanent by targeting it—but you could also regain control of your MVP by targeting the opponent's aura.
+Are these targets necessarily equivalent? If not, is there any compelling reason to consider targeting the opponent's aura instead of your own stolen permanent?
+
+A:
+
+Are these targets necessarily equivalent?
+
+No. There do exist cases where these targets are not equivalent, though you shouldn't necessarily expect to encounter them in an arbitrary match.
+
+Is there any compelling reason to consider targeting the opponent's aura instead of your own stolen permanent?
+
+Yes, there is! In short, you should default to stealing their aura because it results in your controlling more permanents and their controlling fewer. Generally speaking, unless a permanent includes some kind of explicit drawback, you're usually better off taking it away from your opponent.
+There are a few broad categories of effects where this choice becomes relevant:
+Sacrifice-based removal
+If an effect would require you and/or your opponent to sacrifice a permanent (or specifically an enchantment), you typically will have more options when you control more things to sacrifice. Likewise, taking away your opponent's permanents provides them with fewer options.
+Of these, Dromoka's Command is an example of a cheap, flexible, Modern-legal spell that you might reasonably expect to show up in a deck with reasonable access to green and white mana.
+In fact, that's probably the single most important interaction in this answer because of how powerful and popular a sideboard card Dromoka's Command can be, relative to all the rest of the weirdness I'm about to get into. If you're not interested in the quirky stuff, but you kept reading anyway after my short summary, here's a second chance to quit while you're ahead!
+Costs involving permanents or enchantments
+Some cards allow players to sacrifice permanents in order to gain some benefit; e.g., as an activation cost, an additional cost of casting a spell, or a drawback for some under-costed creature (in the tradition of Lord of the Pit). If you're playing any such cards, you should be aware of the opportunity to acquire an extra resource by targeting the opponent's aura instead of the stolen permanent. Perilous Research comes to mind, being both on-color and potentially on-theme for a deck with Confiscate effects.
+Another classic and particularly relevant example is Auratog, which can pump itself by "eating" enchantments you control. If your opponent has stolen your Auratog, go ahead and target their aura; if your opponent isn't savvy enough to sacrifice it in response, you'll end up with some free food!
+(There are also other types of cost that are relevant but not really worth exploring in detail; Sphere of Safety, for example, which was reprinted in Commander 2016.)
+Arbitrary permanents as useful resources
+There are certain matchups where you just want to control as many permanents as possible. Smokestack forms the basis for the "Stax" archetype of prison decks, a matchup where every permanent becomes a useful resource. While these decks do exist, they're not likely to play Confiscate effects because they are designed to operate on very few resources and these effects are always relatively expensive. If you did find yourself in such a situation, unlikely as it might be, you would certainly benefit from having the extra permanent to sacrifice. (Other symmetric effects, like Pox and Smallpox, do not affect all permanents.)
+One other interesting example is Terastodon. If you control its enters the battlefield (ETB) effect, you can destroy both Confiscates and get yourself two "free" elephant tokens—but only if you attached your aura to theirs, and not to the permanent they stole. (If your opponent is playing the Terastodon then it doesn't matter what your Confiscate was attached to, their best play either way is probably to just destroy your Confiscate and regain control of your MVP.) This is an interaction I probably wouldn't expect to come up outside of a cube draft with support for a blue-green deck that ramps into expensive bombs.
+Effects that count permanents you control
+The notable mechanic here is Devotion, which counts up colored mana symbols in permanents a player controls. There are five specific cards which, if either you or your opponent are playing them, would incentivize you to take control of their Confiscate. Master of Waves is a reasonable finisher in a mono-blue control list—exactly the sort of deck that might consider running an expensive but very powerful controlling effect like Confiscate.
+The "counting permanents" category also includes at least one case where you would definitely want to let your opponent retain control of their Confiscate: Balancing Act. This card heavily incentivizes you to control fewer permanents than your opponent. Traditional Balance effects (including the Modern-legal Restore Balance) don't affect non-creature, non-land permanents, though, so you're not likely to ever be punished by this.
+On the other hand, Cataclysm—and, by extension, Cataclysmic Gearhulk in Modern—does affect enchantments. Despite their superficial similarity to Balance effects, you want to control your opponent's Confiscate if a Cataclysm is on the way, for essentially the same reasons given in the "sacrifice-based removal" section.
+There are more cards that count permanents for various reasons, like Touch of the Eternal and Myojin of Seeing Winds, where you probably want to control the aura. Unless you've built a deck around the interaction, though, these are extreme corner cases.
+Magical Christmasland
+Finally, one amusingly esoteric interaction that you'll never see in a game—but if you did, you'd probably never see it coming: If the stolen permanent is a creature with power 7 or greater, your opponent could counter your Confiscate with Not of This World, despite being tapped out, if and only if you choose to target the creature instead of the opponent's Confiscate effect.
+P.S. Analysis of scenarios involving Damping Engine is left as an exercise to the reader. ;)
+P.P.S. If your opponent has access to bounce or blink/flicker effects, they can always come out ahead no matter what you targeted. There are things for them to consider about tempo and mana efficiency but this post is long enough as it is without adding an analysis of what is essentially an independent decision; the only thing worth mentioning is that certain cards are restricted in what they can bounce, which reinforces (in a very minor way) the general point that you are typically better off taking control of their Confiscate.
+

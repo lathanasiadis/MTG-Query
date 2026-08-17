@@ -1,0 +1,30 @@
+Q:
+
+Can a permanent be both green and colorless?
+
+Let's start with the obvious; I know the rules say an object can't be both green and colorless:
+
+105.2. An object can be one or more of the five colors, or it can be no color at all.
+105.2c A colorless object has no color.
+
+However, there might be exceptions:
+
+101.1. Whenever a card’s text directly contradicts these rules, the card takes precedence.
+
+The situation that I want is for Magic to create a sensible interpretation for the sentence "colorless green ideas sleep furiously".  I'm most of the way there:
+
+Well of Ideas is the "ideas"
+Opalescence makes it a creature
+Sleep can now affect it, making it "sleep"
+Furious Bellow can now target it making it's sleep "furious"
+Moonlace and Prismatic Lace can make it colorless and green respectively
+
+The problem is there isn't a way for it to be green and colorless at the same time.  Is there any card that has been printed that can get me there?  I'm open to creative solutions as this is obviously not a competitive deck.
+For example, if there are no abilities like "XXX counts as colorless in addition to any colors that it has", are there name changing effects that could put "green" in the name?
+
+A:
+
+It is logically impossible for a card to both have a color and be colorless, according to the definition provided in rule 105.2c.
+If you broaden your criteria for what matches your objective, one option is to use a creature with Devoid that has green in its cost, such as Blisterpod. A card like that is actually colorless, but the play constraints that its cost creates are more similar to green cards than to most other colorless cards.
+You can also put the color in the name. The card Spy Kit gives a creature the names of every non-legendary creature card. There are no cards with the word colorless in their name, but there are 4 non-legendary creatures with the word "Green" in their names. A creature equipped with Spy Kit will have all of those names.
+

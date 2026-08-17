@@ -1,0 +1,21 @@
+Q:
+
+Search for card and put it into play. What if the card is already in hand?
+
+Let us assume I use 
+Behemoth's Herald's ability to search for a card named Godsire. If Godsire can be found in the library the situation is clear. But what if no Godsire is in the library and I have Godsire in my Hand? Can I still use Behemoth's Herald's ability to put Godsire onto the battlefield at no mana cost?
+The official rules on searching (Comprehensive Rules, Section 701.17, Aether Revolt, January 20 2017) do not seem to answer this question. But I guess it is also relevant that the words "and" and "it" appear in the card's ruletext.
+
+A:
+
+When instructed to search your library, you can only search your library. If the card you're looking for isn't in your library, you can't find it. You can't search zones other than your library for the card.
+Rule 701.17a says
+
+To search for a card in a zone, look at all cards in that zone (even if it’s a hidden zone) and find a card that matches the given description.
+
+The relevant part of Behemoth's Herald's ability says
+
+Search your library for a card named Godsire and put it onto the battlefield.
+
+"Your library" is the zone that you are instructed to search, so you can look at cards in your library. And "card named Godsire" is the description of the card you are trying to find, so you can only find cards named "Godsire" in your library.
+

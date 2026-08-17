@@ -1,0 +1,39 @@
+Q:
+
+Crimson Hellkite vs Telekinetic Sliver + Darkheart Sliver
+
+If player A taps his Telekinetic Sliver to tap an opponent's Crimson Hellkite, the opponent can pay 2 red mana (he can pay X, but lets say he pays two) and tap the Crimson Hellkite to put the effect "Crimson Hellkite does two damage to target creature" on the stack.
+Now what if a player has a Darkheart Sliver in play and wants to sacrifice his Telekinetic Sliver to gain three life?  Can he do it?  Does this go on the stack too, and resolve first?
+Does the opponent's ability on the stack then fail because there's no target anymore?
+Is player A then unable to tap the Crimson Hellkite because it is already tapped?
+Is this the correct way to resolve this?  If not, what would be the possible scenarios (for simplicity, assume there are only these three creatures in play, no cards left in players's hands and only basic lands on the table)?
+I'm a bit confused by this:
+
+"Each player chooses the order in which his or her triggered abilities are put on the stack"*
+
+and I've no idea at all if it applies or not to the above scenario.
+
+A:
+
+If player A taps his Telekinetic sliver to tap opponent's Crimson Hellkite, the opponent can pay 2 red mana (he can pay X, but let say he pays two) and tap the Crimson Hellkite to put on the stack "Crimson Hellkite does two damages to target creature".
+
+Correct.
+
+Now what if player has a Darkheart sliver in play and wants to sacrifice his Telekinetic sliver to gain three life? Can he do it? Does this goes on the stack too and resolve first?
+
+Yes.
+
+And then the opponent's ability on the stack fails because there's no target anymore?
+
+Yes.
+
+And then player A cannot tap the Crimson Hellkite because it is already tapped?
+
+The ability played by Player A will still resolve, it just won't change anything, since as you say, the Hellkite is already tapped.
+
+"Each player chooses the order in which his or her triggered abilities are put on the stack"
+
+There are no triggered abilities in the scenario you outlined. They were all activated abilities. This line does not apply. See 603.1 in the comprehensive rules: 
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+

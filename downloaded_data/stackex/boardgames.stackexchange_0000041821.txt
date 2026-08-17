@@ -1,0 +1,20 @@
+Q:
+
+Mimeoplasm on Enemy Commanders in Grave
+
+If I were to use The Mimeoplasm to exile an enemy's commander that's in their graveyard (let's say The Scarab God), and the Scarab God's owner chooses to return it to the Command Zone instead of letting it be exiled, does The Mimeoplasm still enter as a copy of The Scarab God? While the Mimeoplasm's ability to exile The Scarab God was activated, does The Scarab God not actually being exiled negate that ability?
+
+A:
+
+The Mimeoplasm does enter as a copy of the chosen card even if it doesn't actually end up in exile.
+This is the full text of The Mimeoplasm's ability: 
+
+As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.
+
+The first thing to note is the "If you do" clause in the second sentence. This means that "you may exile two creature cards from graveyards" is actually a cost, as specified in rule 117.12:
+
+Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does, doesn’t, or can’t], [effect].” or “[A player] may [do something]. If [that player] [does, doesn’t, or can’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does, doesn’t, or can’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+The other important bit here is the last sentence. As long as you choose to pay the cost of exiling the cards, the action is performed even if the cards don't actually end up in exile.
+In addition, The Mimeoplasm's ability refers to "those cards" instead of "the exiled cards" or otherwise explicitly looking at the exile zone. This means that the cards don't need to be in exile for The Mimeoplasm to become a copy of one or get the counters.
+

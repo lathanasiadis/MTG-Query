@@ -1,0 +1,27 @@
+Q:
+
+What should be used to represent creature tokens when the printed token card isn't available?
+
+Many spells or abilities cause one or more creatures to join the battlefield (i.e. 1/1 white Soldier creature tokens, 3/3 green Beast creature tokens, etc.). These token cards are not included with the cards that require them.
+What do MtG players use instead to represent token creatures?
+A quick search shows you can buy packs of such cards, but I'm wondering what convenient ways exist to represent these tokens without actually having to buy more cards?
+
+A:
+
+I can cover what is legal and what is common, and you can hopefully determine what is "convenient". The MTG Tournament Rules dictate that you clearly represent your board state. This means:
+
+You must be able to represent the tapped state of your token
+You must be able to differentiate types of tokens
+Tokens must not be in the same sleeves as the deck you are playing
+
+This is under Section 3.8 of the Tournament Policy
+
+[...] Sleeves or card backs that appear similar to any player’s sleeves or card backs may not be used as markers. [...]
+
+Notably, if you are playing without sleeves, you may not use an unsleeved Magic card as a token
+
+I see no reason to ignore these rules for casual play. They aren't very limiting.
+The most common legal method of representing a token, for those lacking the actual token card, is a plain face down card. Any card. If you control multiple types of tokens, it must be clear to both players which cards represent which tokens.
+Some players use dice to represent tokens. Depending on what kind of dice you use, it can be difficult or impossible to tell whether a particular token is tapped or untapped. It's also unclear whether a "2" means "two tokens" or "one 2/2 token". You can overcome this by using dice that don't have rotational symmetry and by communicating clearly. I still advise against it because there are easier, clearer options (my opinion).
+Representing a large number of tokens individually may not be feasible. In these cases, you can group tokens that have the same status using a single card with a numeric counter placed on top. Every token in the group must be identical. If some are tapped, or if some have summoning sickness, represent them as a separate group.
+

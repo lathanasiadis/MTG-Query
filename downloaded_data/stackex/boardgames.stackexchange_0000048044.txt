@@ -1,0 +1,14 @@
+Q:
+
+Timing/Stack question about abilities triggered during combat
+
+Helm of the Host states: at the beginning of combat create a creature token.  Is there a stack to put this on and resolve, or is there no way for your opponents to respond to this triggered ability, or cast some other spell? A similar question regarding Sigiled Sword of Valeron. That happens later in the combat phase: 'Whenever equipped creature attacks, create a 2/2 white Knight creature token with vigilance that's attacking.' Is there a stack where this goes, allowing your opponent to respond?
+
+A:
+
+Yes, both are triggered abilities and can be responded to, e.g. countering them with Stifle. If the ability triggered, it's too late to counter the ability by destroying the source with e.g. Naturalize. Even though the artifact is gone before the ability resolves, the ability itself is now a different 'object' and won't be affected by this.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+603.2b When a phase or step begins, all abilities that trigger “at the beginning of” that phase or step trigger.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+

@@ -1,0 +1,16 @@
+Q:
+
+Can a creature with hexproof be targeted in a graveyard?
+
+I am constructing a commander deck with Meren of Clan Nel Toth.   Can it target creature in graveyard that has hexproof or shroud to return to hand/battlefield? The specific card in my hand is one I want to put in from pure nostalgia from back when I played more frequently..  (Blastoderm)
+
+A:
+
+Hexproof and Shroud cause no problems for targeting creature cards in graveyards.
+Hexproof and Shroud only have an effect on permanents on the battlefield. In other zones they do nothing. This is specified in these rules for Hexproof and Shroud:
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+702.18a Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+
+In addition, Hexproof wouldn't be a problem anyway because Meren only targets cards in your own graveyard, and Hexproof doesn't stop you from targeting things you control.
+

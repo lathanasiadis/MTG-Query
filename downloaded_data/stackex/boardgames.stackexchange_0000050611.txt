@@ -1,0 +1,29 @@
+Q:
+
+My opponent used Huatli's ability with a creature that had died. Was that allowed?
+
+Recently, I played a match where a player used a card that killed off everyone’s creatures above a certain power, including one of his own. Immediately after that card, when no other card was played by anyone else and in the same turn, he used a Planeswalker ability from Huatli, the Sun's Heart to regain the life points from the same creature he sacrificed.  
+Is that allowed since he activated the ability after?
+
+A:
+
+No, that won't work. If your opponent's creature has died, your opponent no longer controls it, and Huatli's ability will not see it.
+If your opponent wants to get the life for the creature that would die from the sweeper, he has to activate Huatli before casting the sweeper.
+Once your opponent has cast the sweeper (MtG slang for a spell or ability that damages/destroys/exiles etc. multiple permanents), it's on the stack and nobody can respond to it with a planeswalker's loyalty ability: 
+
+113.5. Some activated abilities are loyalty abilities. Loyalty abilities follow special rules: A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn [..]
+
+The sweeper resolves and kills all applicable creatures. A creature that dies moves to the graveyard:
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+Objects in the graveyard have no controller:
+
+109.4. Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren’t controlled by any player.
+
+"Creatures" is shorthand for "creature permanents", and permanents can only exist on the battlefield:
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+Therefore, when Huatli's loyalty ability selects the greatest toughness among creatures you control, it only looks at your creatures on the battlefield.
+

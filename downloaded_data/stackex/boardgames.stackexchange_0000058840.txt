@@ -1,0 +1,25 @@
+Q:
+
+How does Bolt Bend interact with Cycling triggers?
+
+I was playing Lotus Field Combo in pioneer, and I cycled Vizier of Tumbling Sands:
+
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
+When you cycle Vizier of Tumbling Sands, untap target permanent.
+
+Targeting Lotus Field to untap.
+My opponent cast Bolt Bend:
+
+This spell costs 3 less to cast if you control a creature with power 4 or greater.
+Change the target of target spell or ability with a single target.
+
+Targeting the cycling ability on Vizier of Tumbling Sands. My question is if this is possible, since the ability did not untap the field, rather the trigger did. Cycling the card triggered the text "When you cycle Vizier of Tumbling Sands, untap target permanent", which untapped my Lotus Field.
+
+A:
+
+Vizier of Tumbling Sands' ability "When you cycle Vizier of Tumbling Sands, untap target permanent." is a triggered ability, as defined in rule 603.1:
+
+Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Like any triggered ability, it is an ability that goes on the stack after it triggers, and can be responded to and interacted with. And that ability has a single target, the permanent to untap, making it a valid target of Bolt Bend. The opponent cast Bolt Bend targeting that triggered ability, and redirected it to target something else.
+

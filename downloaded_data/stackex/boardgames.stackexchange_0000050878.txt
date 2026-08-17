@@ -1,0 +1,22 @@
+Q:
+
+How do Yarok, the Desecrated and Doubling Season interact?
+
+If you control Doubling Season and Yarok, the Desecrated, how do the triggers work for +1/+1 counters from ETB effects and loyalty counters from planeswalkers? Counters in general?
+
+A:
+
+Doubling Season and Yarok, the Desecrated have no direct interaction. Doubling Season's ability creates a replacement effect. It is not a triggered ability on which Yarok's ability could trigger.
+As per this Q&A, Doubling Season affects permanents as they enter the battlefield with counters already placed. These static abilites create replacement effects, which are different from triggered abilities. Yarok only affects affects triggered abilities.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Replacement effects have a variety of wordings. The most common wordings that apply to permanents are:
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+614.1d Continuous effects that read “[This permanent] enters the battlefield . . .” or “[Objects] enter the battlefield . . .” are replacement effects.
+614.1e Effects that read “As [this permanent] is turned face up . . . ,” are replacement effects.
+
+These are affected by Doubling Season if they involve placing counters on a permanent, but do not trigger Yarok.
+If counters are placed on an object due to a triggered ETB ability, Yarok will double that ability, and Doubling Season will double both effects, for example if you choose the +1/+1 counters on Knight of Autumn
+

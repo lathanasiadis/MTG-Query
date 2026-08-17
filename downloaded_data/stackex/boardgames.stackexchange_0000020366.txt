@@ -1,0 +1,12 @@
+Q:
+
+Will double strike trigger cipher twice?
+
+Say I am playing with a creature that has double strike (e.g. Two-Headed Cerberus), and I cipher Hidden Strings to it. This allows me to tap/untap up to 2 target permanents whenever the creature deals combat damage to a player.
+If my creature then attacked a player and wasn't blocked, and he took the double strike damage, would I then be able to tap/untap 2 target permanents twice? In effect tap/untap 4 target permanents?
+I am asking this because my friends and I play with a few different ciphers and have had arguments about this a few times.
+
+A:
+
+Cipher triggers whenever the encoded creature deals combat damage to a player. An unblocked creature with double strike will deal combat damage to the player twice; once in the "first strike" combat damage step, and again in the regular combat damage step. As a result, if an encoded creature with double strike is not blocked, you will be able to cast the encoded card twice.
+

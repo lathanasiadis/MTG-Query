@@ -1,0 +1,22 @@
+Q:
+
+Does an ability that increase the number of creatures affect the instant or sorcery that triggers it?
+
+(For example) Talrand, Sky Summoner has the ability:
+
+Whenever you cast an instant or sorcery spell, put a 2/2 blue Drake creature token with flying onto the battlefield.
+
+If I have cast an instant or sorcery that relies on the number of creature I control, for example Massive Raid, does that number increase by one?
+I guess I'm asking what the order of resolution is.
+
+A:
+
+Short answer: the creature created by Talrand, Sky Summoner counts for Massive Raid.
+Long answer:
+The result would depend on the wording, There isn't a general rule.
+Spell are cast and then, after players have had the chance to play spell or abilites in response, resolve.
+When a spell is cast, it is put on the stack, its total cost is paid and targets are choosen (a few other things happen, I have just put the more important things that affect this situation).
+When a instant or sorcery spell resolves, its instructions are followed in order (again, this is a simplification, but the more precise rules don't matter in this situation).
+Talrand, Sky Summoner triggers when a spell is cast, not when a spell resolves. Triggered abilities are put on the stack when a player would get priority. Players get priority before Massive Raid resolves (priority is the system that allow players to play spells and abilities), so the triggered ability is put on the stack and resolves before Massive Raid resolves. Therefore, the drake created will count for Massive Raid.
+If you want a detailed explanation of how the stack and priority work, you can read this answer: https://boardgames.stackexchange.com/a/6019/2474
+

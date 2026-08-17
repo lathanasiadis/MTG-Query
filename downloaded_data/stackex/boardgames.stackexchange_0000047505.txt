@@ -1,0 +1,38 @@
+Q:
+
+What exactly "triggers an additional time" in the interaction between Afterlife and Teysa Karlov?
+
+I'm pretty new to MTG and just have built my first commander deck around Teysa Karlov. One of her passive abilities is:
+
+If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+My deck features a lot of cards with death triggers, such as: 
+
+Afterlife N. (When this creature dies, create N 1/1 white and black Spirit creature tokens with flying.)
+
+Let's say Teysa is on the battlefield and a creature of mine that has "Afterlife 2" dies, such as Ministrant of Obligation: what exactly gets triggered an additional time?
+I see two options:
+
+"Afterlife" triggers an additional time, so Afterlife 2 becomes Afterlife 3
+"Afterlife 2" triggers an additional time, so 2x Afterlife 2
+
+Which interpretation is correct and why?
+
+A:
+
+Option 2, you will get 2x Afterlife 2.
+The thing that triggers an additional time is "that ability", based on the wording of Teysa Karlov. And "that ability" in this case is "Afterlife 2". So "Afterlife 2" triggers an additional time, meaning that on the stack you get both "Afterlife 2" and "Afterlife 2".
+The first interpretation would require seeing Afterlife 2 as an ability that triggers twice, and then triggering 3 times instead. But nothing about Afterlife 2 is an ability that triggers twice. It is an ability that triggers once, and just happens to have an effect that involves the number 2.
+This hinges on the definition of a triggered ability:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Whatever the number "afterlife" is; afterlife itself is a triggered ability:
+
+702.134. Afterlife
+
+702.134a Afterlife is a triggered ability. “Afterlife N” means “When this permanent is put into a graveyard from the battlefield, create N 1/1 white and black Spirit creature tokens with flying.”
+
+From the wording on the Afterlife rules, you can see that under normal circumstances, when a creature with Afterlife 2 dies, only 1 ability would trigger and be put on the stack. That ability would cause 2 tokens to be created when it resolves.
+Teysa Karlov makes this 1 ability trigger an additional time (triggering twice instead of once). So you get 2 separate instances of "create 2 tokens" on the stack, instead of the normal 1. You would choose the order that they are placed on the stack, though because they are identical to each other, the order is meaningless. Then each of them would resolve independently.
+

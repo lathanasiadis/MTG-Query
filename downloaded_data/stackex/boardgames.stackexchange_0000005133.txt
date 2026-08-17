@@ -1,0 +1,22 @@
+Q:
+
+What happens if a player exiles Wurmcoil Engine when it dies with Mimic Vat?
+
+My guess is that the player who controlled Wurmcoil Engine doesn't get the tokens because Mimic Vat's exile resolves first and the creature doesn't land in the graveyard. Am I correct?
+
+A:
+
+Your interpretation is incorrect.
+Each card has a triggered ability. The current oracle rules are:
+Wurmcoil Engine
+
+When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.
+
+Mimic Vat
+
+Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard.
+{3},{T} : Put a token onto the battlefield that's a copy of the exiled card. It gains haste. Exile it at the beginning of the next end step.
+
+So both triggered abilities go on the stack when the non-token Wurmcoil Engine dies. What is confusing you is that they do not immediately resolve. (See section 603 of the Comprehensive Rules.) Technically, whoever has priority puts their triggered ability on the stack first, but in this case, it doesn't matter much.
+Therefore, the controller of the Wurmcoil Engine gets the two artifact tokens and the controller of the Mimic Vat may have the Wurmcoil Engine imprinted on their Mimic Vat. If they choose to do so, the Wurmcoil Engine card is exiled and any other imprinted card is returned to the owner's graveyard.
+

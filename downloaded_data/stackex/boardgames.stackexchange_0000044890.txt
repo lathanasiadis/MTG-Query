@@ -1,0 +1,21 @@
+Q:
+
+To whom do I return stolen cards?
+
+With Molten Primordial I've taken a creature from opponent 2, which had been previously taken from and is owned by opponent 1. When I lose control of it at end of turn to which opponent does it go?
+
+A:
+
+Control-changing effects work in a system of layers, with the latest one being active. When the currently active effect expires, the previous effect takes over. In your case, where player 2 gained control via Empress Galina, the creature would return to player 2.
+The rules governing the interaction of continuous effects are, in part, as follows:
+
+Interaction of Continuous Effects
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+613.1b Layer 2: Control-changing effects are applied.
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). [..]
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+The timestamp reflects the order in which an object entered the battlefield or the ability that created the effect resolved. The effect of your Molten Primordial would have the latest timestamp, as far as control-changing effects on the creature are concerned. That's why it is applied last and overrides all other control-changing effects.
+That means that previous control-changing effects are still on that creature if they didn't expire yet, they are just all overridden by the latest one. That means that if player 2's control-changing effect is still active by the time the turn and Molten Primordial's effect ends, player 2's effect takes over and the creature switches to player 2's control. If player 2's control-changing effect also has ended by that time, player 1 gets control back, because that's the default.
+

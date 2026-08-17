@@ -1,0 +1,16 @@
+Q:
+
+Can I cast a "counter" on a spell that cannot be countered?
+
+If there is a spell in the stack that can't be countered, can I still play a counter spell on it? and if so, will it resolve?
+For example, let's say that the opponent plays Emrakul, the Aeons Torn, can I play  Remand on it? and would I draw a card?
+
+A:
+
+Yes, you can, the same way you can "try" to destroy indestructible permanents. It is still a legal target, the countering effect just doesn't happen.
+See the gatherer rulings for Emrakul:
+
+Emrakul can be targeted by spells that try to counter it (such as Lay Bare). Those spells will resolve, but the part of their effect that would counter Emrakul won’t do anything. Any other effects those spells have will work as normal.
+
+As a spell or ability resolves, as long as all targets are valid (so it isn't itself countered), it will try to do as much of its effects as it can. Drawing a card isn't conditioned on the countering being successful, so as long as Remand resolves, you get to draw a card.
+

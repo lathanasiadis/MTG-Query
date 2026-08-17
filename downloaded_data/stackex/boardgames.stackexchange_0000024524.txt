@@ -1,0 +1,28 @@
+Q:
+
+Will Rings of Brighthearth + The Chain Veil let me use Chain Veil's ability more than once?
+
+I have a question in regards of using The Chain Veil's Activated Ability:
+
+{4}, {T}: For each planeswalker you control, you may activate one of its loyalty abilities once this turn as though none of its loyalty abilities have been activated this turn.
+
+Can I use Rings of Brighthearth copying ability
+
+Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy.
+
+to use Chain's ability more than once in one turn?
+
+A:
+
+Yes. The sequence would/could be as follows:
+
+You activate The Chain Veil, and put its ability on the stack.
+The ring's triggered ability triggers, and is put on the stack.
+(after all players pass priority) The triggered ability resolves, you are given the choice to pay 2 and copy the ability, and the copy is placed on the stack.
+(players pass priority) The copied effect resolves.
+(players pass priority) The original effect resolves.
+
+A ruling from Gatherer confirms that The Chain Veil's ability can be repeated, i.e. each effect allows an additional loyalty ability to be played, on top of the single normal use.
+
+Each additional time The Chain Veil’s last ability resolves will allow you to activate a loyalty ability of each planeswalker you control an additional time. For example, if you activate The Chain Veil’s last ability, untap it, then activate it again, you can activate a loyalty ability of a planeswalker you control three times that turn.
+

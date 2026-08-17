@@ -1,0 +1,15 @@
+Q:
+
+If a "Protection from" effect negates damage, is it still considered "damage dealt"?
+
+If I have a Justice ("Whenever a red creature or spell deals damage, Justice deals that much damage to that creature's or spell's controller.") and a Thermal Glider (which has "protection from red") in play, and my opponent attacks with some red creature (say, a Goblin Chariot; 2/2).
+I can choose to block with my Thermal Glider, and its protection from red will prevent the damage and it will survive the encounter.
+But will Justice's ability trigger? Did the red creature "deal damage" even though all the damage was reduced to zero?
+
+A:
+
+No, damage which is prevented is not dealt at all.
+
+615.1a Effects that use the word “prevent” are prevention effects. Prevention effects use “prevent” to indicate what damage will not be dealt.
+615.6. If damage that would be dealt is prevented, it never happens. [...]
+

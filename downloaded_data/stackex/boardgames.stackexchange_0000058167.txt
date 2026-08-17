@@ -1,0 +1,17 @@
+Q:
+
+When copying a creature with Prototype, does it retain the prototyped stat line?
+
+For example, if you have a Phyrexian Fleshgorger prototyped on the battlefield, would casting Cackling Counterpart, targeting the fleshgorger, create a 3/3 or a 7/5?
+
+A:
+
+In this case, you would create a 3/3.
+Per the Brother's War Comprehensive Rules Changes article,
+
+When you copy a prototyped spell or permanent, the copy is also prototyped.
+
+Rule 719 (which handles prototype cards) says the same:
+
+719.3d If a permanent that was a prototyped spell is copied, the copy has the alternative power, toughness, and mana cost characteristics of the permanent and not the normal power and toughness characteristics of the card that represents that permanent.
+

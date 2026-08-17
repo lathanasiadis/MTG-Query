@@ -1,0 +1,21 @@
+Q:
+
+Does "whenever a creature attacks" count for each attacker separately?
+
+Hissing Miasma is an enchantment that says:
+
+Whenever a creature attacks you, its controller loses 1 life.
+
+Does the attacker lose one life per attacking creature?
+
+A:
+
+Yes (though they will be lost one at a time).
+
+There's a rule specifically covering this:
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences. See also rule 509.4.
+
+If your opponent attacks you with an Elf and a Bear, two instances of the event "a creature attacks you" occurred (the Elf attacked you, and the Bear attacked you), so the ability will trigger twice.
+You will place these on the stack where they will resolve one at a time, each causing him to lose one life (for a total of two).
+

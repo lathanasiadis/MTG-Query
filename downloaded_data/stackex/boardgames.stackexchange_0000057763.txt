@@ -1,0 +1,15 @@
+Q:
+
+Choose new modes for a copy
+
+Can I choose new modes when I copy a spell whith modes.
+For example, I copy a Cryptic Command with a Reverberate, can I choose new modes for my copy of Cryptic Command?
+
+A:
+
+No, when you copy a spell, you also copy all choices made for the original.
+
+707.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). [..]
+
+Of course, this does not include choices you make on resolution, for example when you copy Akroma's Blessing. But Cryptic Command's choice is a choice of modes, so the copy will have the same modes and you only get to choose new targets if you want.
+

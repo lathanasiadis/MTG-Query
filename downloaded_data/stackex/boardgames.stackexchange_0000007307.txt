@@ -1,0 +1,25 @@
+Q:
+
+How does trample interact with damage prevention effects and indestructible blockers?
+
+Say I have a 4/4 creature with trample. I attack, and my opponent blocks with a...
+
+0/1 creature that is indestructible: Does my 4/4 trampler's extra 3 damage carry over even though the blocking creature wasn't dealt lethal damage? Does the situation change if my 4/4 trampler also has infect?
+0/1 Creature that cannot be dealt damage: Can I even deal lethal damage to it?
+0/1 Creature with protection from my creature's color: Can I deal damage to it at all?
+
+When does the damage carry over to my opponent? I made all of these hypothetical creatures 0/1 for simplicity's sake. I know the creatures actually linked to are slightly different, but I believe this will simplify the answers.
+
+A:
+
+Damage assignment ignores damage prevention and damage-modifying effects. Just look at toughness, previous damage marked, and deathtouch to figure out how to allocate trample damage (or damage in a group block).
+Here's the most relevant bit of comp rules:
+
+510.1c ... When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures
+that’s being assigned during the same combat damage step, but not any
+abilities or effects that might change the amount of damage that’s
+actually dealt.
+
+In other words, you only have to assign damage that would be lethal -- based on the creature's toughness adjusted for any damage already marked on it, or 1 point of deathtouch damage -- without adjusting for other game rules like damage prevention, damage multipliers, or indestructibility. So my 4/4 can trample right over your Fog Bank as if it were any other 0/2; the Wall just won't die in the process.
+As a side note, since there seems to be a bit of confusion about this in the question: protection is a damage prevention effect. So don't go blocking any Excruciators with your Kor Firewalker if you want him to live.
+

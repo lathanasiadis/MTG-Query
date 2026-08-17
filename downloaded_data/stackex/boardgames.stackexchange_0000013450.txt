@@ -1,0 +1,21 @@
+Q:
+
+How would first strike and deathtouch interact with multiple blockers in this scenario?
+
+How exactly would the following work?
+I have a creature with first strike and deathtouch, it's enchanted to be able to block any number of creatures (Entangler). Lets say its a 2/2 and it blocks five 3/3's - what exactly would happen?
+Suppose the same creature is instead enchanted with Lure:
+
+All creatures able to block enchanted creature do so.
+
+Lets say I attack with that 2/2 and my opponent has five untapped 5/5's that are forced to block. Again, what exactly happens?
+I'm hoping to build a green/white/red deck based off of these combos but I'm a little confused about the mechanics of it all.
+
+A:
+
+You would only be able to destroy two of the blocking creatures.  For deathtouch to have an effect, you must do damage to a creature. On the plus side, an attacker with deathtouch only needs to assign one damage to each blocker.  In your scenario, your creature is only a 2/2, and so even with a team of blockers, only two damage can be shared among them.
+Based on your scenario's here is the change needed to leave your creature alive yet destroy all blocking or attacking creatures: your Entangler must be at least a 5/1.  I say a 5/1 because toughness can't be 0 and you must be able to deal at least 1 damage to all blocked or blocking creatures. Using a card such as Giant Growth would allow your creature to live assuming it has both first strike and death touch.  Without the first strike as long as you have 1 power for all attacking or blocking creatures you would be able to take them out as well.
+
+702.2b Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature’s toughness. See rules 510.1c–d.
+704.5h If a creature has toughness greater than 0, and it’s been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+

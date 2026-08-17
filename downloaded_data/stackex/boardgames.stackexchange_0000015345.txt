@@ -1,0 +1,45 @@
+Q:
+
+When can you keep priority?
+
+In Magic the gathering you have the concept of priority. This gives every players a chance to respond to every one's spells. But I knew you could keep priority between spells. Playing a spell and without passing priority (and without this spell to resolve), play another.
+Until now, I was okay with that and understood it but I thought it was only for instant speed.
+In this Video, at 4m15, Reid Duke explain a play with Kor Spiritdancer and an Aura spell. He said : "You go Kor Spiritdancer and without passing priority you cast an Aura...". This making him draw a card even if his opponent has a response to Kor Spiritdancer. 
+My question is, if it is possible to keep priority between non-instant spells, when can you keep priority? What is the rules for that? In my exemple, why did the Kor Spiritdancer resolved? what if his opponent wanted to counterspell it?
+Thanks in advance.
+
+A:
+
+I believe you have slightly misunderstood the explanation in the video, and you misunderstand how priority works and the difference between instants and noninstant spells (from the Comprehensive Rules: "A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty"; what happens next is the same for both types).
+In the video, Reid is explaining how to draw a card before losing your Kor Spiritdancer to any creature destruction effects (such as Doom Blade, which he mentioned by name). Your opponent may not cast any creature destruction effects until 1) the creature exists (i.e. the spell has resolved) and 2) the opponent has priority.
+The mtgsalvation wiki has the text of the priority rules; here 116.3 and 116.4 are particularly important:
+
+116.3. Which player has priority is determined by the following rules:
+  
+116.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card
+  during the draw step; see rule 703) have been dealt with and abilities
+  that trigger at the beginning of that phase or step have been put on
+  the stack. No player receives priority during the untap step. Players
+  usually don't get priority during the cleanup step (see rule 514.3).
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives
+  priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player's mana pool, he or
+  she announces what mana is there. Then the next player in turn order
+  receives priority.
+
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability
+  on top of the stack resolves or, if the stack is empty, the phase or
+  step ends.
+
+The sequence Reid is describing works like this:
+
+Cast Kor Spiritdancer and pay its costs; it is now on the stack.
+You still have priority (116.3c); pass it to your opponent (116.3d).
+Your opponent may do something, e.g. counterspell. Let's say that they don't do anything. They pass priority (116.3d again).
+Kor Spiritdancer resolves (116.4). You now have priority again (116.3b).
+Cast an Aura; it goes on the stack and Kor Spiritdancer's triggered ability (whenever you play an Aura spell card, you may draw a card, goes on the stack).
+You may now pass priority, and now your opponent may cast some instant or activate some ability that removes the creature from play, but you still got one card draw.
+
+Note that if you have some way to play auras at instant speed (e.g. the aura has flash, you have a card like Vedalken Orrery in play), you can cast multiple auras in succession without passing priority, although of course none of them will resolve before your opponent has a chance to play creature removal.
+

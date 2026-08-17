@@ -1,0 +1,16 @@
+Q:
+
+When can I cast Glyph of Destruction?
+
+Glyph of Destruction was originally worded: "Target wall you control gains +10/+0 when blocking." To me, that indicates that you could cast it any time, i.e. outside of combat.
+However, the Gather wording is:
+
+Target blocking Wall you control gets +10/+0 until end of combat. Prevent all damage that would be dealt to it this turn. Destroy it at the beginning of the next end step.
+
+Since Gatherer now says "Target blocking Wall", does that mean I have to declare the Wall as a blocker before I cast the Glyph? I'm trying to come up with some Glyph/Fling shenanigans for a deck and I need to know if I have to block before I use this trick.
+
+A:
+
+Yes, your wall has to be declared a blocker before you can target it with that glyph. Your wall remains a blocker (and thus a legal target) until the end of that combat phase, though you'll have to target it before the Combat Damage step if you want it to actually deal that +10 damage in combat.
+A creature is only considered blocking or attacking once it is declared as such, and ceases to be those things once combat is over. There is no such thing as a blocking or attacking creature outside of combat.
+

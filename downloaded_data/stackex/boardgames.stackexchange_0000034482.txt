@@ -1,0 +1,13 @@
+Q:
+
+Why first strike wouldn't work in a single fight?
+
+I've been playing on Android Magic 2015 game and noticed that first strike damage aren't dealt in a single fight (with Hunt the Weak for example).
+Is this a bug in the game or is there a rule that prevent first strike to apply in this case?
+
+A:
+
+First Strike has no involvement in Fights.
+First Strike applies to actual Combat, i.e. the stuff that takes place during the Combat Phase, where you and your opponent(s) nominate creatures to attack and block. First Strike and Double Strike both introduce a second Combat Damage step that takes place before the usual one.
+However, Fight doesn't involve any of that. Fight is an effect which just means what it says on the tin: "Each deals damage equal to its power to the other." Get their Power values, and they both deal that much damage to each other simultaneously, and that's it. This is more akin to, say, Aethertorch Renegade's activated ability in which it deals damage, than the combat damage step.
+

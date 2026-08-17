@@ -1,0 +1,21 @@
+Q:
+
+Commanders with at least four colors in their color identity
+
+I am looking for a list of all legendary creatures with the number of colors in their color identity equal to or greater than four. 
+In Gatherer I can only get a list using the mana colors in the cost of the cards. For example: WUBRG spells.
+I would really appreciate if someone can help me with this. 
+
+A:
+
+The four-color commanders in Commander 2016 were a big deal because there weren't any before. (People sometimes use the Nephilim, but they're not actually legendary.) So, there are the five-color ones you already know how to find, and the five from Commander 2016.
+It's not too hard to go through all the possibilities to confirm this, but since there's only one result for each query, these searches all currently redirect right to the card:
+
+WUBR
+WUBG
+WURG
+WBRG
+UBRG
+
+If someday they print some more, those queries will find them! But don't hold your breath; there's not a lot of design space in four-color cards. Since they're good for commander but not for standard, if they ever do make more, there's a good chance it'd be in a commander set (but not too soon after the current one).
+

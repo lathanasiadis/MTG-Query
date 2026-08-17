@@ -1,0 +1,28 @@
+Q:
+
+Can I use strive to target the same object more than once?
+
+I have a question about the new mechanic Strive from Journey into Nyx.
+Could I use the pay the strive cost to target the same object more than once with the spell, or can I only target any particular object once per card?
+
+A:
+
+You can only target a creature once with a Strive spell. Taken from the Journey Into Nyx Release Notes, emphasis mine:
+
+You can't choose
+the same target more than once for a single strive spell.
+
+Those who want a more detailed explanation should continue reading. From rule 114.3.
+
+114.3 The same target can't be chosen multiple times for any one instance of the word "target" on a spell or ability.
+
+Twinflame has the following text.
+
+Strive — Twinflame costs 2R more to cast for each target beyond the
+first.
+
+Choose any number of target creatures you control. For each of them, put a token that's a copy of that creature onto the battlefield. Those tokens have haste.
+
+The first occurrence of the word "target" is only there to define how much the spell costs. Per rules 114.1a-e, we only care about the phrase target [something].
+The second part, "Choose any number of target creatures", has one instance of the word target, and so you may not target the same creature twice.
+

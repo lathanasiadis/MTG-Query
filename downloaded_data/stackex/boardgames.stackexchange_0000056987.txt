@@ -1,0 +1,20 @@
+Q:
+
+Responding to "Repeat this process"
+
+I am looking into building a Grist, the Hunger Tide deck, and had a question about the "Repeat this process" ruling. If I had a creature like Viscera Seer out, could I activate Grist's +1, create an insect, mill an insect, and then before the process repeats sacrifice the 1/1 to scry? Or would I not be able to sacrifice until the process has ended? If I could, I could dig much deeper with Grist giving me a lot more value.
+
+A:
+
+No, you can't respond to an ability which loops itself like this. Repeating the process is still part of that same ability resolving, and no one gets priority until after a spell or ability has finished resolving. There's several Comprehensive Rules references that cover different aspects (emphasis mine):
+
+117.1 Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+
+117.2e Resolving spells and abilities may instruct players to make choices or take actions, or may allow players to activate mana abilities. Even if a player is doing so, no player has priority while a spell or ability is resolving. See rule 608, “Resolving Spells and Abilities.”
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+608.2g If an effect gives a player the option to pay mana, they may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, they do so by following the steps in rules 601.2a–i, except no player receives priority after it’s cast. That spell becomes the topmost object on the stack, and the currently resolving spell or ability continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
+
+If Grist had said to copy the ability instead of repeating the process, that would be different, since the copy of the ability would be separate on the stack, but repeating the process can't be responded to until the ability has fully resolved, like any other ability.
+

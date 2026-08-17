@@ -1,0 +1,35 @@
+Q:
+
+Can I give a creature First Strike in order to prevent it dealing any damage that combat?
+
+This is getting into some nitpicky corners of the rulebook.
+First Strike damage and normal combat damage are dealt at separate times, and I believe there is a chance between the two resolving to play instants and other effects.
+Does this mean that Swift Justice (for example) can be used to cause a creature to deal no combat damage in a turn?
+
+First Strike damage is assigned and resolved (my opponent's creature does not have first strike, and therefore deals no combat damage during this step).
+I cast Swift Justice on my opponent's creature.
+Normal combat damage is assigned and resolved (my opponent's creature does have First Strike, and therefore deals no combat damage during this step).
+
+Does this work if there are no creatures in combat that have First Strike normally? (i.e. Do we skip the First Strike damage step if no creatures have First Strike?)
+
+A:
+
+Long story short, no: you can't give a creature First Strike after the first strike combat damage step in order to stop it dealing damage.  It will deal its damage as soon as it gets a reasonable window of opportunity.
+Here's the relevant portions of the Comprehensive Rules:
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins,
+  the only creatures that assign combat damage in that step are those
+  with first strike or double strike. After that step, instead of
+  proceeding to the end of combat step, the phase gets a second combat
+  damage step. The only creatures that assign combat damage in that step
+  are the remaining attackers and blockers that had neither first strike
+  nor double strike as the first combat damage step began, as well as
+  the remaining attackers and blockers that currently have double
+  strike. After that step, the phase proceeds to the end of combat step.
+702.7c Giving first strike to a creature without it after combat damage has already been dealt in the first combat damage step won't
+  prevent that creature from assigning combat damage in the second
+  combat damage step. Removing first strike from a creature after it has
+  already dealt combat damage in the first combat damage step won't
+  allow it to also assign combat damage in the second combat damage step
+  (unless the creature has double strike).
+

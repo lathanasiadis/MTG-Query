@@ -1,0 +1,87 @@
+Q:
+
+Can Dismember kill my Gloryscale Viashino after I cast Armadillo Cloak?
+
+I have a Gloryscale Viashino creature on the board. I cast the spell Armadillo Cloak to enchant this creature. My opponent responds playing Dismember.
+His intention is to kill my creature before it gets the bonus from the enchantment and before it gets +3/+3 (Armadillo cloak is a multicolored spell). Here is the rules text from Gloryscale Viashino:
+Whenever you cast a multicolored spell, Gloryscale Viashino gets +3/+3 until end of turn.
+I think that he cannot kill my creature, because he already got the +3/+3 from its ability when I cast the spell, not when it resolves. This means that my Gloryscale Viashino should be 6/6 before Dismember resolves. What is the correct ruling here?
+
+A:
+
+Your opponent can kill your creature, because he can respond to the trigger that gives it +3/+3 until end of turn. Here's the sequence of actions:
+
+You cast Armadillo Cloak, putting it on the stack. Then the triggered ability from Gloryscale Viashino goes on the stack.
+
+Stack:
+
+triggered ability
+Armadillo Cloak
+
+Gloryscale Viashino is a 3/3.
+
+Your opponent casts Dismember.
+
+Stack:
+
+Dismember
+triggered ability
+Armadillo Cloak
+
+Gloryscale Viashino is a 3/3.
+
+Both players yield priority (decline to cast anything), so the top item on the stack resolves.
+
+Stack:
+
+triggered ability
+Armadillo Cloak
+
+Gloryscale Viashino is a -2/-2. It gets put in the graveyard for having 0 or less toughness.
+
+Both players again yield priority, so the top item on the stack resolves. That's the triggered ability, but it doesn't do anything because Gloryscale Viashino is no longer in play.
+
+Stack:
+
+Armadillo Cloak
+
+Both players again yield priority, so the top item on the stack resolves - or would resolve, except that it's a spell with an illegal target, so instead Armadillo Cloak gets countered.
+
+For educational purposes, here's what could happen if your opponent cast Dismember at the wrong time (for him):
+
+You cast Armadillo Cloak, putting it on the stack. Then the triggered ability from Gloryscale Viashino goes on the stack.
+
+Stack:
+
+triggered ability
+Armadillo Cloak
+
+Gloryscale Viashino is a 3/3.
+
+Both players yield priority, so the top item on the stack resolves. This is the triggered ability which pumps the Viashino.
+
+Stack:
+
+Armadillo Cloak
+
+Gloryscale Viashino is a 6/6.
+
+Your opponent casts Dismember.
+
+Stack:
+
+Dismember
+Armadillo Cloak
+
+Gloryscale Viashino is a 6/6.
+
+Both players yield priority, so the top item on the stack resolves.
+
+Stack:
+
+Armadillo Cloak
+
+Gloryscale Viashino is a 1/1.
+
+Both players again yield priority, so the top item on the stack resolves. This time, the target of Armadillo Cloak is still legal, so it resolves as normal.
+

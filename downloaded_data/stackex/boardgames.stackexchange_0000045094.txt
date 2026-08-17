@@ -1,0 +1,17 @@
+Q:
+
+Void Winnower against Sunforger
+
+Does the use of Sunforger's unattach ability negate the ability of Void Winnower and let me use spells with an even converted mana cost?
+
+A:
+
+No you can not cast CMC 0, 2 or 4 spells with Sunforger while your opponent controls a Void Winnower.
+Sunforger's ability gives your CMC 4 or less spells an alternate cost, but it doesn't actually change their CMC.
+
+117.9: Some spells have alternative costs. An alternative cost is a cost listed in a spell's text, or applied to it from another effect, that its controller may pay rather than paying the spell's mana cost. Alternative costs are usually phrased, "You may [action] rather than pay [this object's] mana cost," or "You may cast [this object] without paying its mana cost." Note that some alternative costs are listed in keywords; see rule 702.
+117.9c: An alternative cost doesn't change a spell's mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell's mana cost still see the original value.
+
+So even though you aren't actually paying for the spell, Void Winnower's ability still sees it as an even Mana Cost and prevents you from casting it.
+Interesting side note brought up by @ikegami in the comments: Even though you can't actually cast the spells, you can still attempt to use Sunforger's ability, so if you will be able to pay RW, unattach Sunforger, look through your library, then shuffle it. Might be useful if you need to shuffle your library for some reason (ie. you control an Experimental Frenzy and have a land stuck on top). 
+

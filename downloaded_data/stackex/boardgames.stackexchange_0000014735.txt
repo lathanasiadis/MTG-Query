@@ -1,0 +1,27 @@
+Q:
+
+Show and Tell and permanents that target other permanents
+
+Say I cast Show and Tell. I put down Angel of Despair and my opponent puts down Crystalline Sliver. "When Angel of Despair enters the battlefield, [you] destroy target permanent". Crystalline Sliver gives all slivers shroud so can I destroy slivers with Angel of Despair's ability?
+If Crystalline Sliver entered the battlefield first I couldn't but if it entered the battlefield second, after Angel of Despair did, I could. But what if they enter into the field at the same time?
+Also, in this same vein, what if my opponent plays Gilded Drake? Can my opponent target my Angel of Despair with his Gilded Drake?
+
+A:
+
+can I destroy slivers with Angel of Despair's ability?
+
+No.
+The order[1] doesn't matter. Triggered abilities are only placed on the stack when a player would get priority, which is only after Show and Tell has finished resolving. By that time, every player's cards have already been placed on the battlefield, so the Angel's ability is unable to target Slivers.
+
+Can my opponent target my Angel of Despair with his Gilded Drake?
+
+Yes.
+When the abilities are placed on the stack once a player would get priority (when Show and Tell finishes resolving), they are placed on the stack in APNAP order. The following happens afterwards:
+
+As the Active Player, you place your triggered abilities on the stack first. You choose target for the Angel's ability at this point.
+Your opponent now gets a chance to place his triggered abilities on the stack. He chooses a target for his Drake's ability at this point.
+Drake's ability resolves.
+Angel's ability resolves.
+
+The choices is made in APNAP order, but the card are are placed on the battlefield simultaneously. (There's a ruling on Show and Tell confirming this.)
+

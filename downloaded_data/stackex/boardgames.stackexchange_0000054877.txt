@@ -1,0 +1,24 @@
+Q:
+
+If a sorcery causes a creature of mine to deal damage to target creature or player, do I have to then tap my creature?
+
+If I were to cast a sorcery like Rabid Bite, does that tap my creature after the damage is dealt or can I use it in my attack phase too? Can I still use it to defend? What about the sorcery Prey Upon?
+
+A:
+
+Neither effects cause your creature to become tapped.
+Tapping a creature to attack is a specific part of the creature attacking and actually has nothing to do with the damage dealt.  This is the reason why Vigilance works the way it does.  There is nothing intrinsic about tapping and damage being dealt.  Rabid Bite would explicitly have to say
+
+"Tap target creature you control.  It deals damage equal to its power to target creature you don't control."
+
+Specifically with Fight, you can read from the Innistrad release article which explicitly says that the creatures do not become tapped.
+
+For a creature to fight another creature, each deals damage equal to its power to the other. A few finer points:
+
+The damage is dealt simultaneously, and it is dealt by the creatures themselves, so abilities like deathtouch, lifelink, and infect will work as normal.
+Damage dealt while fighting is not combat damage, so abilities like first strike won't have any effect.
+Fighting doesn't cause the creatures to become tapped.
+Only creatures can fight.
+No more than two creatures can fight.
+If a creature somehow fights itself, it will deal damage to itself equal to its power twice simultaneously.
+

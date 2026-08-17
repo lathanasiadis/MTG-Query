@@ -1,0 +1,21 @@
+Q:
+
+Resolution of abilities triggered by combat damage
+
+I'm attacking with 20 creatures. My opponent blocks one with a creature with lifelink triggering an ability that says whenever they gain life their opponent loses that much life.
+The damage I'm dealing is enough to kill my opponent even after they gain life from lifelink, does the ability proc happen before or after the rest of my creatures hit?
+
+A:
+
+Opponent dies, you survive.
+Combat damage resolves all at once (other than first strike or double strike), so any abilities that player owns will leave the game with them. The game goes in this order:
+
+Declare attackers step: you declare attackers; 20 creatures.
+Declare blockers step: they declare that their one creature with lifelink will block and will choose the attacking creature it will block.
+Move to the combat damage step.
+All first strike damage, and the first part of double strike damage, is dealt.
+All remaining combat damage is dealt. This is where their creature with lifelink will both deal damage to your creature and gain them life. The lifegain ability is triggered, but does not yet go on the stack.
+We check state-based actions. Creatures die from combat, and the opponent loses the game for having 0 or less life and leaves the game. (If you're the only player left, you immediately win the game and the game ends.)
+We check for abilities to put on the stack. The opponent has already left the game, so their triggered ability will never go on the stack.
+Players receive priority and play continues.
+

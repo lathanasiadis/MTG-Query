@@ -1,0 +1,17 @@
+Q:
+
+Kruphix and Omnath, what color is the mana
+
+Both Kruphix, God of Horizons and Omnath, Locus of Mana stop unused mana from emptying from your mana pool at the end fo each step. Omnath only works for green and keeps it green, while Kruphix works for all, but makes it colorless. If I have both on the field at the same time, which one takes priority? Do I get to pick?
+If I have 2 blue mana, 1 white mana and 2 green mana at the end of a step, do I get to keep 5 colorless or 2 green and 3 colorless?
+
+A:
+
+You would have 2 green and 3 colorless.
+Kruphix creates a replacement effect that applies to unused mana that would empty from your mana pool. But the text on Omnath modifies to normal game rules:
+
+101.1 Whenever a card’s text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation.
+
+So because of the currently modified rules, the green mana doesn't empty at all, therefore the replacement effect doesn't happen for the green mana, only for the other colors.
+If you had only green mana in your pool, Kruphix's ability wouldn't kick in at all, because nothing "would empty from your mana pool".
+

@@ -1,0 +1,21 @@
+Q:
+
+Deathtouch/Monstrosity Interaction
+
+Alice has a Wildfire Cerberus and a Bow of Nylea, and Bob has a tapped 3/3 Beast token.
+Alice attacks with the Cerberus, and activates its Monstrosity. In response, Bob targets the Cerberus with Vanish into Memory.
+When everything resolves, will Bob still have his Beast token?
+
+A:
+
+It depends on if Vanish into Memory is cast before or after the Monstrous ability resolves.
+If Vanish into Memory is cast in response to the Monstrosity ability then the Beast will survive because when the ability resolves the Cerberus is no longer on the battlefield to trigger, and thus doesn't deal damage.
+Gatherer Ruling:
+
+An ability that triggers when a creature becomes monstrous won’t trigger if that creature isn’t on the battlefield when its monstrosity ability resolves.
+
+If Vanish into Memory is cast in response to the triggered ability the the Beast will die because the ability uses Last Known Information to determine if the Cerberus had deathtouch. Basically the game looks back in time to how the Cerberus last existed on the battlefield to determine effects of the damage like deathtouch.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+702.2e If an object changes zones before an effect causes it to deal damage, its last known information is used to determine whether it had deathtouch.
+

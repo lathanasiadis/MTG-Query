@@ -1,0 +1,15 @@
+Q:
+
+Responding to Plague Engineer
+
+If I have a lot of 1/1 Goblins on the battlefield and my opponent casts Plague Engineer can I save them all by responding with Fatal Push on the Plague Engineer or does the -1/-1 effect occur before I can kill Plague Engineer? Sorry, I seem to be struggling with a very basic rule here.
+
+A:
+
+You cannot.
+From the ruling on Gatherer for Plague Engineer:
+
+The choice of creature type is made as Plague Engineer enters the battlefield. Players can’t respond to this choice. The -1/-1 effect starts applying immediately.
+
+The reason this is the case is because plague engineer's ability is static. You can't respond to the choice of creature type because it's not an ETB trigger. For as long as the engineer exists on the battlefield his ability is in effect, and he needs to be on the battlefield in order to target him, so once you are able to target him your goblins have been dead for a while.
+

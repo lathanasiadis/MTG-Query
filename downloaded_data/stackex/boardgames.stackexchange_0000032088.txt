@@ -1,0 +1,19 @@
+Q:
+
+In MTG, can you counter a spell that requires cards to be revealed after they are revealed?
+
+My friend and I had a very long (and incredibly close) Commander duel last night which I barely won, and one of many crucial moments hinged on a counterspell I used.
+My friend and I both are basically out of creatures.  They cast Jarad's Orders, and search their library for two creatures.  They decide on Sheoldred, Whispering One and another creature, and want Sheoldred to enter the battlefield, so they can retrieve the other later.  I have plenty of swamps, so obviously I am displeased with this.  In response, I cast Countersquall after they have chosen the creatures, revealed them, and decided where they were going.
+Was this incorrect?  Was it too late at that point for me to do something about it?  Because honestly, were it not for that counter, I might very well have lost.  I got wrecked in the previous two matches we had so I don't feel too bad, but I want to be upfront with them.
+Thank you for any help.
+
+A:
+
+This was incorrect. When a player casts a spell, it goes on the stack, and then each player has a chance to respond to it by casting other things, such as Countersquall, before the spell resolves.
+When both players pass, then the top spell of the stack resolves, which is when you follow the instructions on the card*. So by the time your opponent was searching for cards, you would have had to already passed and chosen not to respond to or counter Jarad's Orders.
+*To add some details for full accuracy: There are some instructions on cards that come into play before a card resolves. Especially:
+
+Additional or alternate costs - Some cards have additional costs for casting;  in the case of Draconic Roar, your opponent would reveal the card as part of casting the spell, before it resolves. This is because it's part of the cost.
+Targets - You choose all targets for a spell as part of the casting process. So if your opponent casts a Lightning Bolt, you will know what he is trying to do damage to before you decide if you want to counter it or not. But note that the cards found with Jarad's Orders were not targets, because the card doesn't use the word "target".
+Modes - For cards that have multiple options of how they can be used, this choice is made while casting the spell. See Healing Salve.
+

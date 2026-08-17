@@ -1,0 +1,18 @@
+Q:
+
+Does Hallowed Burial search all libraries for creature cards and put them on the bottom too?
+
+Looks like most things I've read just assume it's only from the battlefield but the wording says all creatures. Does "all creatures" always only refer to active creatures because they're not creatures until in play, just creature cards?
+
+A:
+
+“Creatures” (and “creature”) specifically means a creature permanent on the battlefield. So it will not affect creature cards anywhere else. 
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+And 
+
+609.2. Effects apply only to permanents unless the instruction’s text states otherwise or they clearly can apply only to objects in one or more other zones.
+
+In order to refer to objects in other zones; an effect would specifically use the word “card” and specify the zone. See Birthing Pod for an example. 
+

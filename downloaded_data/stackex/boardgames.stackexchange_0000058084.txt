@@ -1,0 +1,23 @@
+Q:
+
+Who owns tokens?
+
+If I hit someone with Blim, Comedic Genius, should I count treasure tokens they control as unowned permanents? What if I gave them the tokens with Forbidden Orchard?
+
+A:
+
+The token is owned by the player who created it:
+
+111.2. The player who creates a token is its owner. The token enters the battlefield under that player’s control.
+
+If you use Forbidden Orchard, the target opponent is the one who creates the token, so they are the owner.
+Note that this depends on using the current oracle wording of Forbidden Orchard:
+
+target opponent creates a 1/1 colorless Spirit creature token
+
+Under the older wording that's printed on older editions of the card, it instead says that you "put... into play under your opponent's control", which means you would be the one who created it. But "create" didn't exist as a keyword back then, it was added later.
+
+701.6. Create
+
+701.6a To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.
+

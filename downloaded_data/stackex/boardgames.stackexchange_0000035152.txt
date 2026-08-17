@@ -1,0 +1,18 @@
+Q:
+
+Block creature then remove from game
+
+Simple question, yet unclear to me:
+Someone attacks with a spirit creature, let's say a 2/2. I block with lets say two creatures, each 1/1.
+Then the attacker plays Essence Flux, removed his attacker from the game to return it as a 2/2 mi a +1/+1 counter on it.
+
+Will the attacking spirit survive because of the +1/+1 counter?
+Will it still kill the two blockers?
+What if it wasn't a spirit and is removed and returns - will it die because of the damage from the blockers?
+
+A:
+
+When the creature returns to the battlefield it has no memory of anything that happened earlier in the game. This means that it is no longer attacking, and thus is no longer being blocked by the defending player's creatures. This also means that it will neither deal nor receive combat damage, so neither it nor the defender's creatures will die.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule: [none of the exceptions apply to this case]
+

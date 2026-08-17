@@ -1,0 +1,28 @@
+Q:
+
+Can i get infinite mana from Krark-Clan Ironworks and Welding Jar?
+
+If i play Krark-Clan Ironworks and Welding Jar, can I sacrifice the Jar to activate the Ironworks, and then use its ability to regenerate itself? If so, this process could be repeated infinitely, to generate an infinite amount of mana?
+
+A:
+
+No, for several reasons:
+
+Regeneration doesn't prevent sacrifice. Only death due to damage or a "destroy" effect.
+
+Here's a quote from the MTG basic rules:
+
+Sacrifice
+
+To  choose  one  of  your  permanents  on  the  battlefield
+and  put  it  into  its  owner’s  graveyard.  You  can  sacrifice
+only  permanents  you  control.  Sacrificing  a  permanent
+is different from destroying it, so the permanent can’t be
+regenerated. You can sacrifice a permanent only if a spell
+or ability tells you to, or if it’s part of a cost.
+
+Timing. I know what you're thinking here: triggered and activated abilities (except mana abilities) use the stack. But their costs (the stuff before the ":") are paid when you put the ability on the stack, not when you resolve the ability. So sacrificing the Welding Jar to the Ironworks or to itself isn't something you can interrupt or preempt in any way. (Though an existing replacement effect, such as Rest in Peace, might change what happens.)
+
+Thus, there is no way to "respond" to the sacrifice after you've initiated it. Nor can you sacrifice the Jar to activate two different abilities at the same time, since each cost must be paid in full independently.
+(If you'd like a rules reference, look at page 9 of the basic rules: to cast a spell or activate an ability, you pay the costs, then put it on the stack, allowing for responses.)
+

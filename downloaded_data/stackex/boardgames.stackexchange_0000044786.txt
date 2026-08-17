@@ -1,0 +1,17 @@
+Q:
+
+When does Sarkhan's Unsealing check power?
+
+Suppose I have Sarkhan's Unsealing out, and exactly 7 cards in hand (including Tishana), and I cast Tishana, Voice of Thunder. Which mode of Unsealing will trigger?
+My reasoning is that when you cast Tishana, you have to put her on the stack first, so she will be a 6/6 when Sarkhan's Unsealing checks her power. But I could see it go either way, so I wanted to get a more definite answer for clarity.
+More generally, when precisely does the power get "locked in" for the purpose of determining whether Sarkhan's Unsealing triggers? For example, suppose I crack a bunch of Chromatic Spheres to refill my hand while casting Tishana. What happens then?
+
+A:
+
+The creature spell's power gets locked in for Sarkhan's Unsealing immediately after you have finished casting the spell, which includes paying costs. The final step of casting a spell, described in rule 601.2i, says
+
+Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+Since this is the point where the ability triggers, it is also the point where characteristics are checked for the purpose of determining which ability triggers.
+So, in the original scenario, Tishana will be seen as having 6 power, and the first ability on Sarkhan's Unsealing will trigger. If you refill your hand to 7 or more cards while activating mana abilities to pay the cost, then it will be seen as having that much power and the second ability will trigger instead.
+

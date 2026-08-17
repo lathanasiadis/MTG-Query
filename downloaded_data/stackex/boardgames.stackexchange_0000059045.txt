@@ -1,0 +1,15 @@
+Q:
+
+Can a creature that "loses indestructible until end of turn" gain indestructible later that turn?
+
+I attacked with a 4/4 creature. The opponent blocked with a 1/1. Before combat damage was assigned, they cast Smite the Deathless on my 4/4, dealing it 3 damage, and causing it to lose indestructible until end of turn. If I then cast Orcish Medicine (which can give indestructible until end of turn) on the 4/4 before combat damage is assigned, can it gain indestructible?
+
+A:
+
+Yes.
+
+113.10c If two or more effects add and remove the same ability, in general the most recent one prevails. See rule 613 for more information about the interaction of continuous effects.
+
+Basically, to summarize at a high level what 613 says, an object’s abilities and other attributes will be determined by starting with what’s printed on the card; and then applying each effect that changes that one at a time. Removing indestructible and adding indestructible both happen in the same layer, so they are applied in timestamp order.
+Because Orcish Medicine happened after Smite the Deathless, its effect will be applied after and wins.
+

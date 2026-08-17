@@ -1,0 +1,34 @@
+Q:
+
+What's the definition of a quality?
+
+While reading through the comprehensive rules in mtg, I came across this:
+
+112.12. ... if an effect states a quality of [an] object (“[creature] can’t be blocked,” for example), it’s neither granting an ability nor setting a characteristic
+
+This was the first mention of object qualities, so I wanted to know what constitutes a quality and discovered there is no definition given in the comprehensive rules, or that I missed it.
+Rule 112.12 gives this example:
+
+Example: Muraganda Petroglyphs reads, “Creatures with no abilities get +2/+2.” A Runeclaw Bear (a creature with no abilities) enchanted by an Aura that says “Enchanted creature has flying” would not get +2/+2. A Runeclaw Bear enchanted by an Aura that says “Enchanted creature is red” or “Enchanted creature can’t be blocked” would get +2/+2.
+
+In the example, I'm not sure why "can't be blocked" is a quality and "flying" is not. (Rule 112.12 precludes qualities from being abilities, and flying is an ability, so it's not a quality). So what does this rule mean when it mentions 'quality'?
+
+A:
+
+You are mixing two different things up quite a bit.
+What is a quality?
+You will only see "quality" get used in the Comprehensive Rules, and it gets used in context under its normal English meaning: it is some kind of attribute, characteristic, or property of a thing. Don't try to find a specific set of things about cards that is a "quality", because there isn't one; the word has no special meaning in the game and the rules are just using it in the normal English sense. For example, when the rules talk about Hexproof, they also talk about "Hexproof from white/black" as seen on the Knights of Grace and Malice:
+
+702.11d “Hexproof from [quality]” is a variant of the hexproof ability. “Hexproof from [quality]” on a permanent means “This permanent can’t be the target of [quality] spells your opponents control or abilities your opponents control from [quality] sources.” A “hexproof from [quality]” ability is a hexproof ability.
+
+Here they could equally write "Hexproof from _____". However they are instead using "quality" as a placeholder word that lets them easily and clearly reference whatever goes in the blank. That doesn't make "quality" be a special limited set of things in the rules though, they are just using an English word for its English meaning.
+This is unlike words like "ability" and "characteristic". Those do have a specific definition in the rules (rules 112 and 109.3, respectively). There are limited sets of things that are "abilities" and "characteristics" and we can point to them and say "that is an ability according to this part of the rules" and "that is not an ability", etc.
+"Quality" is not defined like these words, it is just an English term.
+Muraganda Petroglyphs has nothing to do with qualities as such
+
+In the example, I'm not sure why "can't be blocked" is a quality and "flying" is not. So what is the definition of a quality?
+
+Flying is an ability. That ability is granted to the creature by the aura. The creature now has an ability. Therefore, Muraganda Petroglyphs will not give it +2/+2, because it is not a creature with no abilities.
+"Enchanted creature can't be blocked" is not granting an ability, it is just a rules modification of how things can interact with that card. "Enchanted creature is red" is likewise granting it an ability, it is setting its color.
+If you're trying to understand what is/isn't a quality in hopes of understanding Muraganda Petroglyphs, you're on a wild goose chase: instead you need to understand abilities. An ability is rules text on a card, including static keyword abilities such as flying, and things may grant creatures those abilities temporarily or permanently.
+

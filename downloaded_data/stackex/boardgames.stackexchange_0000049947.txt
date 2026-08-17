@@ -1,0 +1,18 @@
+Q:
+
+Who draws a card from Curious Obsession?
+
+If I have enchanted an opponent's creature with Curious Obsession, which player draws the card after damage is dealt?
+
+A:
+
+The creature's controller draws the card.
+This is because Curious Obsession grants the draw ability to the creature:
+
+Enchanted creature [...] has “Whenever this creature deals combat damage to a player, you may draw a card.”
+
+The “you” here refers to the controller of whatever object the ability is on (CR 109.5). The ability is on the creature, so the creature's controller will be drawing the card.
+This is contrast to Curiosity which will cause the aura's controller to draw a card, because the ability is on the aura itself.
+
+109.5 The words “you” and “your” on an object refer to the object’s controller. [...] For a triggered ability, this is the controller of the object [that the ability is on] when the ability triggered, unless it’s a delayed triggered ability.
+

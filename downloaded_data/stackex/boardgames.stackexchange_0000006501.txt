@@ -1,0 +1,34 @@
+Q:
+
+When my creature enters the battlefield as a copy of another creature, will its "enters the battlefield" abilities trigger?
+
+The card Phyrexian Metamorph says:
+
+You may have Phyrexian Metamorph enter the battlefield as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.
+
+Other cards like Clone and Spark Double have similar abilities.
+If I understand the rules text correctly, abilities of copied creatures that will trigger when the creature enters the battle field will trigger for the copy as well. In my current case the target is a Geist Honored Monk, which has:
+
+When Geist-Honored Monk enters the battlefield, put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+
+If I copy this creature with Phyrexian Metamorph, do I get the tokens as well?
+
+A:
+
+You certainly do.  Per the Gatherer rulings:
+
+Any enters-the-battlefield abilities of the copied permanent will
+  trigger when Phyrexian Metamorph enters the battlefield. Any "as
+  [this] enters the battlefield" or "[this] enters the battlefield with"
+  abilities of the chosen permanent will also work.
+
+The section in the Comp rules seems pretty clear on this, as well:
+
+706.5. An object that enters the battlefield “as a copy” or “that’s a copy” of another object becomes a  copy as it enters the battlefield.
+  It doesn’t enter the battlefield, and then become a copy of that 
+  permanent. If the text that’s being copied includes any abilities that
+  replace the enters-the-battlefield  event (such as “enters the
+  battlefield with” or “as [this] enters the battlefield” abilities),
+  those  abilities will take effect. Also, any enters-the-battlefield
+  triggered abilities of the copy will have a  chance to trigger.
+

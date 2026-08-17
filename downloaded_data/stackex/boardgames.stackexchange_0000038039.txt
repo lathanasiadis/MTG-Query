@@ -1,0 +1,69 @@
+Q:
+
+How likely is it to get a complete set of commons from a single booster box?
+
+I am looking at getting into MTG again. Thinking about just playing pauper and maybe some EDH. However it's kind of fun opening packs. My thoughts are I buy a box at the release of a set and just use it to build play sets of the commons.  Sell off everything else except perhaps a couple cards that may work with EDH or something. Not asking if this is the cheapest way, just whether or not it would be viable to get a full common play set from a single box or maybe two. 
+
+A:
+
+The exact value is difficult to calculate. This is due to the print runs of the cards - the 74 commons have "print runs" of 5 to make the printing easier. There are hundreds of these, but the fact that no pack contains the same cards does complicate the calculation.
+I did throw together a pack simulator to test this and it ran in the background. Below is the output after 10 million trials. The highest was 200 packs and the lowest was 45. On a different run (of about 22 million trials) I was able to get a playset in only 44 trials. This run I've let go for 35 million trials and it was only able to get that 45, although eventually I got so unlucky I needed 215 packs on one of them. The last 17 million trials have not changed the min and max, though. I don't expect them to be changing any time soon.
+Thus I think it's safe to say you are never going to get a playset from a single booster box.
+I modified it to check the number of boxes and found a very consistent: 2 boxes were sufficient 39.2% of the time, three boxes 58.8% of the time, and four boxes sufficient 2.0% of the time. Five boxes were only necessary on 0.03% of runs but that was consistent far far into the tens of millions of trials.
+If you want to play it safe, buy 3 boxes - you'll have them all 98% of the time.
+new max: 72 on trial: 2
+new max: 77 on trial: 3
+new max: 81 on trial: 4
+new low: 72 on trial: 6
+new max: 87 on trial: 9
+new max: 88 on trial: 10
+new low: 65 on trial: 21
+new max: 92 on trial: 25
+new low: 64 on trial: 31
+new max: 95 on trial: 42
+new max: 108 on trial: 64
+new low: 61 on trial: 78
+new max: 115 on trial: 80
+new max: 116 on trial: 110
+new max: 119 on trial: 146
+new low: 60 on trial: 153
+new low: 59 on trial: 162
+new low: 58 on trial: 222
+new low: 56 on trial: 296
+new low: 55 on trial: 607
+new low: 53 on trial: 744
+new max: 140 on trial: 2928
+new low: 51 on trial: 6183
+new max: 156 on trial: 9309
+new low: 49 on trial: 49366
+new max: 162 on trial: 60593
+new max: 170 on trial: 112123
+new low: 48 on trial: 117347
+hit trial: 500000
+new low: 47 on trial: 830525
+hit trial: 1000000
+new max: 186 on trial: 1307797
+hit trial: 1500000
+hit trial: 2000000
+hit trial: 2500000
+hit trial: 3000000
+hit trial: 3500000
+new max: 195 on trial: 3563925
+hit trial: 4000000
+hit trial: 4500000
+hit trial: 5000000
+hit trial: 5500000
+hit trial: 6000000
+new max: 198 on trial: 6005659
+hit trial: 6500000
+new low: 46 on trial: 6614767
+hit trial: 7000000
+hit trial: 7500000
+hit trial: 8000000
+new low: 45 on trial: 8015142
+new max: 200 on trial: 8333263
+hit trial: 8500000
+hit trial: 9000000
+hit trial: 9500000
+hit trial: 10000000
+

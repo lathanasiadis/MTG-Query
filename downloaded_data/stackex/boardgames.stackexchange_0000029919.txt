@@ -1,0 +1,49 @@
+Q:
+
+Will transforming Thing in the Ice with a token-summoning spell bounce my tokens?
+
+Thing in the Ice:
+
+Thing in the Ice enters the battlefield with four ice counters on it.
+
+Whenever you cast an instant or sorcery spell, remove an ice counter from Thing in the Ice. Then if it has no ice counters on it, transform it.
+
+Flips into Awoken Horror:
+
+When this creature transforms into Awoken Horror, return all non-Horror creatures to their owners' hands.
+
+Gisa's Bidding says:
+
+Put two 2/2 black Zombie creature tokens onto the battlefield.
+
+If Thing in the Ice has 1 counter on it and I cast Gisa's Bidding then does the Thing transform before or after the Zombies are summoned?
+In other words:
+
+Cast Spell
+Trigger Awoken Horror
+Horror Transforms
+Spell resolves.
+
+Result: 2 zombies and Awoken Horror on the board
+or
+
+Cast Spell
+Spell resolves.
+Trigger Awoken Horror
+Horror Transforms
+
+Result: The transformation bounces the zombies and being tokens they disappear.
+Which of these is correct and why?
+
+A:
+
+You'll wind up with your Awoken Horror plus two zombies. Awoken Horror will not bounce your zombies, because the whole transformation/bouncing process will happen while Gisa's Bidding is still on the stack.
+Here's the process, assuming players do nothing but keep passing priority after you cast Gisa's Bidding:
+
+You cast Gisa's Bidding. It goes on the stack.
+You have cast a sorcery spell. Thing in the Ice's triggered ability goes on top of the stack. (In case it's unclear, "when you cast" triggers happen right after you've cast the spell, before it resolves.)
+Thing in the Ice's ability resolves: you remove an ice counter from it, and since it has none left, you transform it as instructed and turn it over to its back face.
+Awoken Horror has transformed, and its triggered ability goes on top of the stack.
+Awoken Horror's ability resolves, and bounces all non-Horrors.
+Finally, Gisa's Bidding resolves and gives you two 2/2 zombies.
+

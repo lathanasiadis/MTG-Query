@@ -1,0 +1,40 @@
+Q:
+
+Can I use a flicker effect to stop an opponents blocker from blocking
+
+Pretty much what the title says. Supposing I have the ability to flicker an opposing blocker, can I force damage past it?
+To give a concrete example:
+Suppose my opponent has:
+
+1 untapped vanilla creature on the battlefield
+1 life
+No lands on the battlefield
+No cards in hand.
+1 Enchantment saying, "In your upkeep, you win the game".
+
+And I have:
+
+1 haste-y creature on the battlefield
+Flicker of Fate in hand (flicker and creature, for 1 white + 1 generic).
+Two untapped plains on the battlefield
+
+It's my first main phase.
+Can I use flicker to prevent their blocker from blocking and win the game?
+If so, exactly what is the timing?
+
+A:
+
+No, you can't prevent a block with a flicker effect, unless your creature has trample.
+If you flicker the creature before it is assigned as a blocker, your opponent can just assign it as a blocker during the declare blocker step of the combat phase. If you flicker it after it has been declared as a blocker, it will be removed from combat, but your attacker will still count as being blocked.
+
+506.4. A permanent is removed from combat if it leaves the battlefield [..]
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+When it comes to the combat damage step, blocked creatures will deal their damage to creatures blocking it - there is no creature to deal damage to in this case, so your creature deals no damage at all.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. [..]
+
+Exception: If your creature had trample, it would deal its combat damage to the defending player.
+
+702.19c If an attacking creature with trample is blocked, but there are no creatures blocking it when damage is assigned, all its damage is assigned to the player or planeswalker it’s attacking.
+

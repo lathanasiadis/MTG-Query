@@ -1,0 +1,17 @@
+Q:
+
+What happens if a target for removal becomes ineligible after a card has been cast?
+
+When you have a card like Complete Disregard which reads "Exile Target Creature with power 3 or less", as I understand it, it becomes untargetable if the opponent's creature power increases thanks to a pump spell like Brute Strength.
+But what if the Disregard is already on the stack and targeting; and they respond with Brute Strength? I'm pretty sure (and my opponent with Brute Strength was certain) that it won't exile the creature, but I don't know which rule states this, and there's no gatherer ruling on the spell.
+
+A:
+
+At resolution, Complete Disregard will instead leave the stack and be put into its owner's graveyard without doing anything, because all its targets have become illegal.
+Targeting spells and abilities check the legality of their targets twice; once as you put them on the stack, and again just before they resolve. If all their targets have become illegal at the time of the second check, it doesn't resolve at all.
+If some, but not all, of its targets become illegal before the second check, the spell or ability resolves but does not affect or obtain information about those illegal targets.
+
+Resolving Spells and Abilities
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.11), those effects don’t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won’t happen.
+

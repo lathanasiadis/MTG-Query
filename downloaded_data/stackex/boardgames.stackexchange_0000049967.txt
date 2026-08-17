@@ -1,0 +1,24 @@
+Q:
+
+Responding to a dynamic value trigger which could change the same value
+
+If I attack with a Thundering Djinn, and in response to its trigger with something that would draw me additional cards (let’s say +2 cards and have only drawn your Draw step prior.).
+Will the damage of the Djinn’s ability increase by the new drawn amount? Or will it only use the value of card prior to the trigger going on the stack?
+
+A:
+
+It would include any cards drawn before the ability resolves.
+There are only a few specific things that are set when an ability is put on the stack: Modes, targets, choices required in order to cast a spell or activate an ability (what value to chose for "X" for example; which doesn't actually apply to triggered abilities). The amount of damage it deals is not determined until the ability resolves.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. 
+
+603.3c If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can’t be chosen. If no mode is chosen, the ability is removed from the stack. (See rule 700.2.)
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d.
+
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires.
+601.2d If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
+
+And under Resolving Spells and Abilities:
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 113.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+

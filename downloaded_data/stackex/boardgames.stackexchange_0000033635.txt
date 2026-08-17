@@ -1,0 +1,16 @@
+Q:
+
+Jace memory adept 0 ability with less than 10 cards
+
+If I activate Jace, Memory Adept's 0 ability (Target player puts the top ten cards of his or her library into his or her graveyard.). What happens if the target player has less than 10 cards in his library? Does he lose the game? Or does he lose the game on next draw step? Or the ability doesn't work?
+
+A:
+
+The player has to put as many cards as possible, up to 10, into his or her graveyard. He will lose the game whenever he tries to draw from an empty library
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+An empty library is not a loss condition; only drawing a card from one is. Jace's 0 ability does not make the player draw cards, it only puts them into the graveyard.
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, he or she loses the game.
+

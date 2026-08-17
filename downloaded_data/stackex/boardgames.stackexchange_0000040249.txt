@@ -1,0 +1,26 @@
+Q:
+
+What happens with excess damage from a blocked creature
+
+If you play and your opponent attacks you with a 5/5 creature, and you block with a 1/1, your creature dies, but does the extra 4 damage from the opponent just go to waste? Or does it do damage to your lifetotal? This is of course when the opponents creature doesnt have trample.
+
+A:
+
+The 5/5 deals 5 damage to the 1/1, and the 1/1 deals 1 damage to the 5/5.
+There would be no point to Trample if the extra damage spilled over.
+
+The attacker needs to assign all of the power of its attacking creatures.
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all.
+
+In this scenario you presented, the only creature to which the attacker can assign the attacking creature's power is the single blocker.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocked creature to divide its combat damage. However, it can’t assign combat damage to a creature that’s blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. An amount of damage that’s greater than a creature’s lethal damage may be assigned to it.
+
+A creature deals as much damage as it assigned (with no regard for the toughness of the creature being damaged), so the 5/5 deals 5 damage to the 1/1.
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+The extra damage dealt isn't necessary "wasted". Some abilities (such as Lifelink) care how much damage was dealt.
+If the attacking creature had trample, the attacker could assign its excess damage to you instead of the blocker.
+

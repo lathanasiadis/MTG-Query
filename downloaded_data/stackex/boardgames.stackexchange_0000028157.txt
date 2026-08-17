@@ -1,0 +1,13 @@
+Q:
+
+Triggered ability of another card when two legendary creatures with the same name enter to the battlefield at the same time
+
+If I have a Temur Ascendancy and a Savage Knuckleblade in the battlefield then I use See the Unwritten and put 2 Dragonlord Atarka into the battlefield. Do I draw one card or two cards?
+I know that only one Dragonlord Atarka would trigger the damage ability and I should sacrifice one. But what happens with Temur Ascendancy?
+
+A:
+
+From See the Unwritten, two creatures with a power greater than or equal to 4 have entered the battlefield. Each is sufficient to trigger the conditional statement of Temur Ascendancy's triggered ability, creating two effects that can be placed on the stack. You get the option, twice, to draw a card.
+You're wrong about Dragonlord Atarka: in order for it to trigger the Legendary rule, the second creature must enter the battlefield. Since it has entered the battlefield, the triggered effect occurs to be put on the stack. Reference: 
+You've simultaneously created 4 effects, two draw effects and two damage effects. As the controller, you decided the order in which they enter the stack.
+

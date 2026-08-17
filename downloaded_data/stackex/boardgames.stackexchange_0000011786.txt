@@ -1,0 +1,17 @@
+Q:
+
+Can I have multiple copies of a creature with Cipher?
+
+As far as I understand, Cipher works like so: when a card that contains Cipher is cast, you encode it onto a spell on the battlefield, like a creature for example. Every time that creature attacks and deals damage to a player, a copy of the encoded creature is made.
+If the opponent does not have anything to block a flying creature I've encoded, and for 3 turns straight I can deal damage with the creature that was encoded, does it result in 3 copies? Can you only make one copy?
+
+A:
+
+Cipher copies the encoded spell, not the creature - have another look at the reminder text:
+
+Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of this card without paying its mana cost.
+
+"This card" is referring to the card it's printed on, the spell with cipher. So if for example you cast Last Thoughts (allowing you to draw a card) and encode it on a creature, each time that creature deals combat damage to a player, you get to re-cast Last Thoughts for free (and draw another card). This can happen as many times as you can manage to deal combat damage to a player with the creature.
+I should also point out: you can only encode it onto a creature, not anything else on the battlefield. (And, I know it sounds pedantic, but there's no such thing as a spell on the battlefield - things on the battlefield are called "permanents", a word you'll see on some cards.)
+Hopefully this makes more sense to you than copying the creature - you're encoding the spell onto the creature, tying them together, so that the creature can cause the spell to be cast again.
+

@@ -1,0 +1,23 @@
+Q:
+
+Why are Tabernacle at Pendrell Vale and Pendrell Mists worded differently?
+
+Tabernacle says the following:
+
+All creatures have "At the beginning of your upkeep, destroy this
+  creature unless you pay 1."
+
+Pendrell Mists says the following:
+
+All creatures have "At the beginning of your upkeep, sacrifice this
+  creature unless you pay 1."
+
+So one says "destroy" and one says "sacrifice". That seems surprising. If so then indestructible creatures would be immune to Tabernacle's effect whereas they would not be immune to Pendrell Mists effect. And similarly, Sigarda, Host of Heron would protect you against Pendrell Mists whereas it wouldn't against Tabernacle of Pendrell Vale.
+Is this assessment correct?
+
+A:
+
+That is completely correct.
+Indestructible and regeneration prevent/replace destruction but not sacrifices.
+Sigarda prevents sacrifices but not destruction.
+

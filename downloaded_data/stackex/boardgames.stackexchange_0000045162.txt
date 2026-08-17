@@ -1,0 +1,51 @@
+Q:
+
+What happens in the event of a standoff in Magic?
+
+What happens in a game of magic if neither player can win or lose?
+Examples:
+
+Both players have empty libraries and control Dragon Appeasement on an otherwise empty board.
+
+One player controls Platinum Angel and Abyssal Persecutor and neither player has a way to remove either from the battlefield.
+
+Both players have empty libraries and control some lands and Words of Worship on an otherwise empty board.
+
+Both players have some lands and a copy of Beacon of Immortality, but no other way to win.
+
+One player has an empty library, only lands on the battlefield, and only Nexus of Fate in hand, which they are using to prevent themselves from being milled.
+
+A:
+
+There are several variants of this situation that are quite different in the rules reasoning and outcome.  In all cases, the situation is a loop.
+
+720.1b Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a "loop"). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken.
+
+Case 1: players cannot win or lose the game because of mandatory abilities
+The game is a draw.
+Example 1: both players have empty libraries and control Dragon Appeasement on an otherwise empty board.
+Example 2: one player controls Platinum Angel and Abyssal Persecutor and neither player has a way to remove either from the battlefield.
+In this case, the game is a draw.  The game will eventually reduce to each player being able to do nothing but pass the turn.  This is a loop of mandatory actions.
+
+720.4. If a loop contains only mandatory actions, the game is a draw.
+
+Case 2: players cannot win or lose the game because of optional abilities
+The game is a draw.
+Example 1: both players have empty libraries and control some lands and Words of Worship on an otherwise empty board.
+Example 2: both players have some lands and a copy of Beacon of Immortality, but no other way to win.
+In this case, the game will eventually reduce to a loop of both players activating the ability that keeps them alive and then passing the turn.  This is a loop of optional actions that spans multiple turns.  The comprehensive rules do not cover the subject, so we need to go to the tournament rules*.  The tournament rules allow for multi-turn optional loops to be continued indefinitely and this causes the game to be a draw.  From the Tournament Rules section 4.4:
+
+Loops may span multiple turns if a game state is not meaningfully changing. Note that drawing cards other than the ones being used to sustain the loop is a meaningful change. If two or more players are involved in maintaining a loop across turns, each player chooses a number of iterations to perform, or announces their intent to continue indefinitely. If all players choose to continue indefinitely, the game is a draw.
+
+Case 3: only one player has an optional ability and is using it to forestall inevitably losing
+The player with the optional ability loses.
+Example 1: one player has Dragon Appeasement and the other has Words of Worship
+Example 2: one player has an empty library, only lands on the battlefield, and only Nexus of Fate in hand, which they are using to take infinite turns where they do nothing other than cast Nexus of Fate.
+This is different from case 2 because only one player is involved in maintaining the loop.  From the Tournament Rules section 4.4:
+
+If one player is involved in maintaining the loop, they choose a number of iterations. The other players, in turn order, agree to that number or announce a lower number after which they intend to intervene. The game advances through the lowest number of iterations chosen and the player who chose that number receives priority.
+...
+A player may not 'opt-out' of shortcutting a loop, nor may they make irrelevant changes between iterations in an attempt to make it appear as though there is no loop. Once a loop has been shortcut, it may not be restarted until the game has changed in a relevant way. Proposing loops as an effort to use up time on the clock is Stalling.
+
+* The Tournament Rules specify: "Information in this document may contradict (or have information not contained in) the Comprehensive Rules. In such cases, this document takes precedence."
+

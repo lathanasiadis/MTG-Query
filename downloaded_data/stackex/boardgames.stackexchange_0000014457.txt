@@ -1,0 +1,56 @@
+Q:
+
+Penalty For Skipping Priority
+
+Sometimes when I pass my turn, my opponent simply untaps and, if nothing triggers during upkeep, they draw. This can be a major headache for me when I want to cast Mana Short after my opponent untaps but before he or she draws a card.
+What is the penalty for skipping priority at competitive REL? At a regular REL event?
+Assume that
+
+The card was drawn and has already touched the players hand, such that no judge could tell it apart from the cards already in that player's hand
+My last spoken words were "Pass turn"
+I had 2-3 seconds of time between untap and draw during which I could have said something but failed to do so
+
+The situation is frustrating because I do not want to tell my opponent, "Hey, I have something to do during your upkeep. Now I pass my turn." That gives away my plan.
+If the answer is "You should speak up faster!" that's fine, as long as the answer contains a respectable source (a judge's ruling, the comprehensive rules, etc.).
+
+A:
+
+Nothing/Warning for both you and your opponent at a Competitive REL or Regular REL event.
+The rules at Regular Rules Enforcement Level (REL) events (such as Friday Night Magic, Game Days, and Prereleases) has a more relaxed/friendly atmosphere, and does not use the Infraction Procedure Guide. The Infraction Procedure Guide has no Game Play Errors that match your situation and the closest matching Common Issue from the Regular REL is:
+
+A player makes an in-game error not mentioned above - This will cover the bulk of player errors, and we will usually leave the game as it is. Fix anything that is currently illegal (e.g. an Aura enchanting an illegal permanent) and continue the game. If the error was caught quickly and rewinding is relatively easy, you may choose to undo all the actions back to the point that the illegal action happened. This can include returning random cards from the hand to the library to undo card draws (though don't shuffle the library if you do this) and reversing various other actions (such as untapping permanents and declaring attackers or blockers). Don't go crazy with this!
+
+In general, they just leave the game as it is. It is probably fairly common that people just skip upkeep when nothing triggers during the upkeep. In the relaxed environment, judges are there to be friendly and educate, not to hand out violations. At the Competitive level though, if any violation occurred, it would have to be the generic ones Game Play Error/Failure to Maintain Game State, and both you and your opponent are guilty of each one respectively.
+
+Now, within "game errors" there are four specific categories of warnings that the offending player can get. However, because bothplayers are now responsible for maintaining a legal game state, if one player gets a warning for one a game error, the opponent will receive a warning from the special fifth group, which is "Failure to maintain game state." [...]
+
+Game Play Error - This is the "everything else" category, so any game errors that don't fall under the first three categories land here. So this is where we're talking about things like accidentally playing a card for the wrong mana cost, forgetting to attack with a creature that must attack each turn, etc.
+
+Failure to maintain game state - This is the special fifth group, which is the warning a player gets for not noticing that the opponent made a game error.
+
+The MtG Tournment Rules note the following regarding shortcuts:
+
+Tournament Shortcuts
+
+A tournament shortcut is an action taken by players to skip parts of the technical play sequence without explicitly announcing them. Tournament shortcuts are essential for the smooth play of a game, as they allow players to play in a clear fashion without getting bogged down in the minutia of the rules. Most tournament shortcuts involve skipping one or more priority passes to the mutual understanding of all players; if a player wishes to demonstrate or use a new tournament shortcut entailing any number of priority passes, he or she must be clear where the game state will end up as part of the request. [...]
+
+A player is not allowed to use a previously undeclared tournament shortcut, or to modify an in-use tournament shortcut without announcing the modification, in order to create ambiguity in the game.
+
+You opponent used a Tournament Shortcut that was previously undeclared. They should have informed you that they wished to proceed to the Draw Step, possibly by saying, "Draw step? I wish to skip the Upkeep Step and proceed to the Draw Step." You failed to maintain the game state, by not being quick enough to interrupt your opponents draw in the time your opponent untapped and waited an additional 2-3 seconds.
+
+A player may not request priority and take no action with it. If a player decides he or she does not wish to do anything, the request is nullified and priority is returned to the player that originally had it.
+
+You should not request priority during your opponents Upkeep unless you plan to take an action.
+
+Certain conventional tournament shortcuts used in Magic are detailed below.
+
+The statement "Go" (and equivalents such as "Your turn" and "Done") offers to keep passing priority until an opponent has priority in the end step. Opponents are assumed to be acting then unless they specify otherwise.
+
+A judge could issue you both a Warning. Your opponent needs to explain that they want to proceed to the Draw Step. You need to maintain the game state so your opponents errors are caught early before they can give you/him an advantage. Additional remedies are also a possibility.
+
+Additional Remedies
+
+If the error was discovered within a time frame in which a player could reasonably be expected to notice the error and the situation is simple enough to safely back up without too much disruption to the course of the game, the judge may get permission from the Head Judge to back up the game to the point of the error. Each action taken is undone until the game reaches the point immediately prior to the error. Cards incorrectly placed in hand are returned to the location in the zone from which they were moved (if the identity of the incorrectly drawn card is not known to all players, a random card is returned instead). Once the game is backed up, it continues from that point.
+
+In the future, you might want to take a little longer before you announce, "Your Turn," until you have decided whether you want to play Mana Short next turn during your opponent's Upkeep. This way you can interrupt them when they reach for their deck, and not give them any advantage (if they have a Split Second card) nor you an advantage if a judge decides to return a random card to the top of their library (possibly a Counterspell). Repeatedly receiving warnings for the same violation (skipping an upkeep, or failing to maintain the game state by not interrupting a draw) can result in an upgraded penalty.
+

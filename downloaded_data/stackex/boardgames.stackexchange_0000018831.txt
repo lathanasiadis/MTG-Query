@@ -1,0 +1,17 @@
+Q:
+
+Can a single Myr Servitor save itself when sacrificed to Eldrazi Monument?
+
+I have Eldrazi Monument and Myr Servitor on the board. Is the following play legal?
+
+My upkeep begins.
+Eldrazi Monument and Myr Servitor trigger at the same time, so I put the Servitor's ability on the stack first.
+I resolve the Monument's effect by sacrificing the Servitor.
+I resolve the Servitor's effect by returning it to play.
+
+A:
+
+No.  Myr Servitor's ability has an intervening "if" clause ("if Myr Servitor is on the battlefield"), and whether this clause is true is checked both when the ability triggers and when it tries to resolve.  By the time it tries to resolve, the Myr Servitor won't be on the battlefield, and so the ability won't do anything.
+
+603.4. A triggered ability may read "When/Whenever/At [trigger event], if [condition], [effect]." When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the "intervening ‘if’ clause" rule. (The word "if" has only its normal English meaning anywhere else in the text of a card; this rule only applies to an "if" that immediately follows a trigger condition.)
+

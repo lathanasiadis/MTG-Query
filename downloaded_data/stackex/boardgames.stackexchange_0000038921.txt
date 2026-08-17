@@ -1,0 +1,34 @@
+Q:
+
+Can a Thallid create saprolings at end of combat phase and still kill attacker
+
+Scenario:
+I have Thelon of Havenwood and a Thallid with 9 spore counters.
+My opponent attacks with a 10/10 and I block with my Thallid (also 10/10).
+I want to block and kill his 10/10, and then create 3 saprolings before Thallid hits the graveyard.
+My assumption is that during Combat Damage Step I assign 10 points of damage to my opponents creature, as his creature assigns 10 to my Thallid.
+Then during the End of Combat Step I can activate it's ability to create saprolings because damage was already assigned. 
+Am I correct?
+
+A:
+
+You are not able to assign 10 points of damage and create the saprolings.
+During the combat damage step, no player receives priority so there is no chance to activate Thallid's ability in between damage being assigned and the creatures being moved to their respective graveyards.
+To break it down step by step.
+
+Your opponent's 10/10 trample is attacking, and you assign a 10/10 Thallid as a blocker.
+Combat Damage Step starts, Your opponent announces his creature will assign 10 damage to your Thallid. You announces that the blocking Thallid will deal 10 damage to his creature(510.1).
+Combat damage is dealt as per 510.2 (emphasis mine):
+
+510.2.: Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+State-based actions see that both creatures have damage marked on them equal to their toughness, so both creatures are destroyed.
+After the creatures have been moved to the graveyard the active player (Your Opponent) will get priority. Once they pass priority, you may now cast spells and activate abilities, however you can see that Thallid is now in your graveyard so you may not create the Saprolings.
+
+So, gameplay-wise for your specific example, you have two choices:
+
+After you declare the 10/10 Thallid as a blocker (or anytime before I suppose) you activate Thallid's ability, removing 9 counters and creating 3 Saporlings. Your opponent's Creature will now be trampling over your (now) 1/1 Thallid.
+Results: You will take 9 damage, your Thallid will die, your opponent's creature will survive, and you will have 3 fresh Saporlings.
+After you declare the 10/10 Thallid as a blocker you do nothing.
+Results: Both creatures will die, you will have no loss of life, you get no Saporlings.
+

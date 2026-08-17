@@ -1,0 +1,38 @@
+Q:
+
+What happens to an Inkmoth Nexus that has had Tezzeret, Agent of Bolas' -1 ability used on it?
+
+From my initial expectations I'd expect otherwise, but I was recently told at a tournament that an activated Inkmoth Nexus that had been the target of Tezzeret, Agent of Bolas' -1 ability ("Target artifact becomes a 5/5 artifact creature.") would cease being a vanilla 5/5 artifact at the end of the turn when Inkmoth Nexus' ability ends. I was planning on using Revoke Existence, but my plans were quashed.
+Was this correct? Without looking at layers or anything, I'd assume appears Tezzeret, Agent of Bolas' ability (which is persistent) would remain active after Inkmoth Nexus' ends, and that on the next turn it would remain a vanilla 5/5 artifact creature.
+
+A:
+
+Whoever gave you the ruling was mistaken.
+According to level 4 judge Chris Richter, the Inkmoth Nexus will remain a 5/5 artifact creature land but will lose flying, infect, and its Blinkmoth subtype after the turn ends.
+Some more details on what happens afterward:
+
+When the turn ends, the animation effect from the Inkmoth Nexus will
+  end. When this happens, the Nexus will be become a 5/5 artifact
+  creature land. This Nexus will still have the normal abilities of an
+  Inkmoth Nexus, the mana ability and the ‘animation’ activated ability,
+  as well. But this permanent will not have flying or infect at this
+  point. This is because Inkmoth Nexus’ animation ability has a duration
+  that lasts until the end of turn, while the animation effect from
+  Tezzeret’s ability does not. The animation effect from Tezzeret’s
+  ability will last as long as that permanent remains in play. If no
+  other effects are applied, then this Nexus will look like this (a 5/5
+  artifact creature land with Nexus abilities) for the rest of the game
+  or as long as this Nexus remains in play.
+However, you may just want to use additional animation effects on this
+  Nexus for strategic reasons. If the Inkmoth Nexus’ animation activated
+  ability resolves again, then this permanent will become an 1/1
+  artifact creature land with both flying and infect. It is a 1/1
+  creature again for the same reason as why it became a 5/5 earlier, the
+  power and toughness setting portion of the Nexus’ effect is applied in
+  timestamp order and overrides Tezzeret’s effect that makes it a 5/5.
+  And, just as earlier, you can use Tezzeret’s ability again as well.
+  Doing so will make this permanent into a 5/5 creature with both flying
+  and infect. Then, as before, at the end of turn when the Inkmoth
+  animation effect wears off it will become a 5/5 artifact creature
+  land.
+

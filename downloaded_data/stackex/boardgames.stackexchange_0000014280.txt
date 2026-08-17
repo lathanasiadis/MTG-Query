@@ -1,0 +1,17 @@
+Q:
+
+questions about shapesharer
+
+Shapesharer is a creature (shapeshifter) with changeling (this card is every creature type at all times) that, for 2U, states "Target Shapeshifter becomes a copy of target creature until your next turn."
+This makes me wonder several things.
+
+Say you have Coat of Arms in play. Coat of Arms says "each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it". So let's say you have two Shapesharer's in play. Shapesharer A gets +1/+1 because it shares the sliver type with Shapesharer B, it gets +1/+1 because it shares the elf type with Shapesharer B, +1/+1 because it shares dragon type, etc. So it seems two Shapesharer's in play with a Coat of Arms could make each one have infinite power and toughness? Of course if that's the case than it seems like Shapesharer's would each also simultaneously be Legends and kill each other.
+Say you cast a creature and that creature has summoning sickness. It seems like Shapesharer could copy that creature and that the summoning sickness wouldn't copy over so you could use that creatures abilities on the turn it was cast, albeit with a different creature. Is that correct?
+Does Shapesharer still retain the Changeling ability after it's copied another creature?
+
+A:
+
+No.  Coat of Arms says "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it" — it counts the number of matching creatures, not matching creature types.  If Creature A and Creature B share more than one creature type, each one is still a single creature, and they (indirectly) grant each other only +1/+1 through Coat of Arms.  (Also note that Legend hasn't been a creature type since 2004, so Shapesharers don't automatically kill each other.)
+Yes, assuming that the Shapesharer itself doesn't have summoning sickness at the time of the copy.  Summoning sickness is determined only by how long a creature has been under a player's control, and turning one creature into a copy of another does not change who controls what.
+No (unless of course it's copying another changeling).
+

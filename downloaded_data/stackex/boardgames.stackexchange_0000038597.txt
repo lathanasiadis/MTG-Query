@@ -1,0 +1,22 @@
+Q:
+
+Mirage Mirror - does copy suffer from summoning sickness?
+
+The card Mirage Mirror states:
+
+{2}: Mirage Mirror becomes a copy of target artifact, creature,
+  enchantment, or land until end of turn.
+
+If Mirage Mirror becomes a copy of a target creature that does not have summoning sickness until owner's next turn, does the copy suffer from summoning sickness becomes it becomes a copy of a creature?
+
+A:
+
+No, summoning sickness is not a copyable value
+Copiable values
+The copiable values of an object are its name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and loyalty. These values are usually copied exactly as printed. However, copy effects do respect changes to those values resulting from other copy effects, face-down status, and some effects that set a creature's power or toughness. The last are only considered if they have the wording "as [the object] enters the battlefield" or "as [the object] is turned face up".
+Additionally, for objects on the stack (that is, spells or effects that have not yet resolved), copies also copy any choices made while casting it, such as mode, targets, or additional or alternate costs that were paid. Many, but not all, effects that copy spells allow the controller of the copy to choose new targets for that copy.
+Information not copied
+Counters on the object being copied and objects attached to it, such as Auras or Equipment, are not copied.
+The collective status of the original object is also not copied. Unless otherwise stated, the copy will be created untapped, unflipped, face-up, and phased-in. This leads to an important distinction and oddity regarding copies of face-down creatures. A copy of such a creature will acquire the copiable values of the original face-down creature, and become a 2/2 colorless, costless, nameless, subtypeless creature, but it will instead be face-up. Such a copy is unable to morph, and never acquires the face-up characteristics of the original creature.
+source
+

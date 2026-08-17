@@ -1,0 +1,43 @@
+Q:
+
+How does Lurrus' graveyard ability work with morph creatures?
+
+I am working on a commander deck with Lurrus of the Dream-Den as my commander, and I am trying to make sure I understand all the edge cases for what Lurrus allows you to play from the graveyard. The rulings on the gatherer have been helpful, but I don't see a clear ruling about morph creatures.
+The essence of my question is: Clearly I can use Lurrus' ability to play a creature card like Frontline Strategist, but can I pay 3 to cast it as a morph creature?
+There is a ruling about alternative costs:
+
+If [the spell] has an alternative cost, such as a mutate cost, you may cast it for that cost instead.
+
+I am pretty sure this means I can play Frontline Strategist for its morph cost, but because the morph cost is 3, there is some room for interpretation. Should I be reading this ruling as "you may cast the spell for its alternative casting cost, regardless of that cost, so long as the mana value of the spell is 2 or less", or "you may cast the spell for its alternative casting cost, so long as that cost is 2 or less"?
+
+A:
+
+You can use Lurrus to cast any permanent card with Morph face down, and to cast permanent cards with mana value 2 or less using any alternative cost.
+Lurrus's ability says
+
+Once during each of your turns, you may cast a permanent spell with mana value 2 or less from your graveyard.
+
+Rule 702.37a says
+
+Morph is a static ability that functions in any zone from which you could play the card it’s on, and the morph effect works any time the card is face down. “Morph [cost]” means “You may cast this card as a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost.” (See rule 708, “Face-Down Spells and Permanents.”)
+
+and 202.3a says
+
+The mana value of an object with no mana cost is 0, unless that object is the back face of a transforming double-faced permanent or is a melded permanent.
+
+and rule 601.3e says
+
+601.3e Some rules and effects state that an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to cast. These alternative characteristics replace the object’s characteristics for this determination. Continuous effects that would apply to that object once it has those characteristics are also considered.
+
+Example: Garruk’s Horde says, in part, “You may cast creature spells from the top of your library.” If you control Garruk’s Horde and the top card of your library is a noncreature card with morph, you may cast it using its morph ability.
+
+When casting a spell with morph face down, it has no mana cost, which means that it has a mana value of 0 and always matches Lurrus's requirement of "mana value 2 or less". Because of rule 601.3e, even if the card has a greater mana value, you can cast it because casting it face down makes it match the requirement.
+So, not only does Lurrus allow you to cast Frontline Strategist face down from your graveyard, it even allows you to cast a high mana value card such as Akroma, Angel of Fury face down from your graveyard.
+
+Alternative costs are simpler: an alternative cost does not affect the mana value of a spell, as stated in rule 118.9c:
+
+An alternative cost doesn’t change a spell’s mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell’s mana cost still see the original value.
+
+So, you can cast any permanent card in your graveyard with a printed cost that matches Lurrus's requirement, and you can use any alternative cost to cast it, even if the alternative cost totals more than 2 mana.
+In fact, the {3} you pay to cast a Morph spell is an alternative cost defined by the Morph ability itself.
+

@@ -1,0 +1,26 @@
+Q:
+
+Exert, untap with spell, tap and attack. Does it untap?
+
+Say I have a Pride Sovereign, and I pay one plains, tap it and exert it.  I then cast Prepare and untap it, so I can attack.
+I tap my cat, and attack.
+It is now my next turn.  Does Pride Sovereign untap?  Although it has untapped since being exerted, exert says:
+
+an exerted creature won't untap during your next untap step.
+
+A:
+
+It does not untap.
+To exert a permanent, you choose to have it not untap during your next untap step.[CR 701.37a] Period. Its status when it was exerted is irrelevant.[1] Changes to its status after it was exerted are irrelevant. Unless the creature ceases to exist at some point before your next untap step, it won't untap during your next untap step.
+Blinking the creature (e.g. using Cloudshift) shakes off the exertion, but only because the creature with which you are left is a brand new object that's never been exerted.[CR 400.7]
+
+The complete rules regarding Exert:
+
+701.37. Exert
+701.37a To exert a permanent, you choose to have it not untap during your next untap step.
+701.37b A permanent can be exerted even if it’s not tapped or has already been exerted in a turn. If you exert a permanent more than once before your next untap step, each effect causing it not to untap expires during the same untap step.
+701.37c An object that isn’t on the battlefield can’t be exerted.
+701.37d “You may exert [this creature] as it attacks” is an optional cost to attack (see rule 508.1g). Some objects with this static ability have a triggered ability that triggers “when you do” printed in the same paragraph. These abilities are linked. (See rule 607.2g.)
+
+You can exert a creature will it's untapped. For example, this happens when attacking with a Battlefield Scavenger that's been given Vigilance.
+

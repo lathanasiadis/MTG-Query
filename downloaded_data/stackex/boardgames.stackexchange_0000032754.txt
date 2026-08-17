@@ -1,0 +1,13 @@
+Q:
+
+Meaning of "it's still a land"
+
+When a land turns into a creature, but the effect that did that says "it's still a land", does that mean it can still produce its original mana? Or does it only have the Land type as an additional type?
+
+A:
+
+When a land becomes a creature (or any other permanent type) but is still a land, it retains all subtypes associated with being a land it may have had previously, such as "Mountain" or "Plains". If the rider that says "It is still a land" were not there, it would lose those types. The main reason this is significant is that each of the land types comes with the ability to tap for the appropriate colour of mana, so if you lose the subtype "Mountain", for example, you can no longer tap for red mana.
+Example 1: Suppose you turn a basic mountain into a plant creature, and it is still a land, as in your original question. Its type-line now reads: Basic Land Creature - Mountain Plant. It can still tap for red mana, because it is still a mountain.
+Example 2: Suppose you turn the basic mountain into a plant creature, but this time it is not still a land (I'm not sure if there are any cards that work like this, but it is possible). The type-line now reads: Creature - Plant. It has no activated abilities, as tapping to add red mana is something associated with being a mountain, and this creature is no longer a mountain.
+Example 3: Suppose you turn a nonbasic land with the ability "T: Add C to your mana pool" (that is, you can tap it for colourless mana) into a plant creature, but this time, it is not still a land. You end up with the type-line: Creature - Plant, but it still has the tap ability to add colourless mana.
+

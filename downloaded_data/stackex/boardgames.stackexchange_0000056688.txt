@@ -1,0 +1,25 @@
+Q:
+
+Creature abilities in magic
+
+I'm pretty new to MTG, I was playing with a friend and a question came up as to when I can activate a creature's ability. He used an instant spell that would do 3 damage to my 1/1 Red Elemental which was equipped with Mask of Immolation. This has the text:
+
+Equipped creature has "Sacrifice this creature: It deals 1 damage to any target."
+
+Three related questions:
+
+When and in what cases can you use a creature's ability?
+Could I use a creature ability to anticipate a spell or an instant?
+Do ability copy cards work to copy creatures' abilities?
+
+A:
+
+Activated abilities (any ability with a : in the text, separating its cost from its effect) can be activated any time you could cast an instant, which includes in response to another spell or ability.
+Some activated abilities have the text "activate only as a sorcery", usually at the very end. This means that particular ability can only be cast when you could cast a sorcery: when it's your turn, in your main phase, and there aren't any other spells or abilities on the stack (i.e., you can't activate it in response to something).
+In this case, Mask of Immolation doesn't have any such wording, so you're free to activate the ability in response to any spell or ability that you like. Sacrificing a creature to an ability like this when it's going to die anyway is a very common play.
+
+For completeness's sake, creatures have two other kinds of abilities: triggered abilities (which have a triggering clause like "when..." or "whenever...") and static abilities, which don't have an activation or a trigger. Triggered abilities happen in response to their trigger, whenever that happens, and static abilities are active all the time. In either of these cases, whether you could cast a sorcery is irrelevant.
+
+Some cards, like Battlemage's Bracers or Lithoform Engine, let you copy abilities. To explain what these do, we need to draw a distinction between the ability on the creature and the ability on the stack. When you activate an ability, it creates a new "object" on the stack that draws its characteristics from whatever the ability was on. From that point on, they're independent of each other. The ability on the stack is what gets copied, and the copy resolves the same way as the original. The ability on the creature isn't changed.
+For instance, say you have a creature with "R: ~this~ gets +1/+0 until end of turn". When you activate it, you pay R and the ability "this gets +1/+0 until end of turn" is put on the stack. If you used Lithoform Engine to copy that ability, there would be two instances of "this gets +1/+0 until end of turn" on the stack. The creature itself would still have its regular ability, not a copy of it. The next time you activate it, it will just get +1/+0.
+

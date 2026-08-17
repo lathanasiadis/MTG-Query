@@ -1,0 +1,34 @@
+Q:
+
+Which "enters the battlefield" effects happen first, cards that are entering, or cards already on the battlefield?
+
+A couple scenarios:
+
+Cloudfin Raptor with evolve is at 0/1
+Satyr Grovedancer (1/1) enters the battlefield causing Cloudfin Raptor to evolve to 1/2
+Put the counter from Satyr Grovedancer on Cloudfin Raptor making it 2/3
+
+or
+
+Cloudfin Raptor is already at 1/2
+Satyr Grovedancer enters the battlefield and I put the 1/1 counter on it making it 2/2
+Cloudfin Raptor evolves to 2/3
+
+Are either or both of these scenarios valid and why?
+
+A:
+
+First Scenario
+When the Satyr Grovedancer enters the battlefield, the Grovedancer's ability goes on the stack unconditionally and the Cloudfin Raptor's ability goes on the stack because it has lower power than the Grovedancer, and these abilities go on the stack in any order you choose. The order is important, though:
+If you put the Raptor's ability on top of the stack, it will resolve first. When it resolves, it checks that it has lower power or toughness than the creature that entered (the Grovedancer). This is true, so you put the counter on it. Then the Grovedancer's ability resolves and you put another counter on the Raptor
+If you put the Grovedancer's ability on top of the stack, it will resolve first and you put a counter on the Raptor. Then the Raptor's ability resolves, but by that time it doesn't have lower power or toughness than the Grovedancer, so it doesn't get a counter
+Second Scenario
+In this case, when the Grovedancer enters, its ability goes on the stack like before, but the Raptor's ability does not go on the stack because the condition for putting it on the stack (it has lower power or toughness than the entering creature) is not true. Then only the Grovedancer's ability resolves, so you get to put a single +1/+1 counter on either creature.
+The primary rule that governs how both of these scenarios play out is 603.4:
+
+A triggered ability may read "When/Whenever/At [trigger event], if [condition], [effect]." When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn't true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the "intervening 'if' clause" rule. (The word "if" has only its normal English meaning anywhere else in the text of a card; this rule only applies to an "if" that immediately follows a trigger condition.)
+
+Note that this rule applies because the exact wording of the Evolve ability is
+
+Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.
+

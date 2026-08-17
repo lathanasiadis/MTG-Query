@@ -1,0 +1,20 @@
+Q:
+
+Why don't I get an chance to respond to the Extinction Event choice?
+
+Extinction Event reads
+
+Choose odd or even. Exile each creature with converted mana cost of the chosen value.
+
+Why can't I respond to my opponent's choice of odd/even, for example by activating my Witch's Oven? Making this choice is the part of the spell so once the player chooses, shouldn't I be able to react as it still should be on the stack? Is this just an Arena bug?
+
+A:
+
+You cannot react to the even/odd choice in Extinction Event because that choice is made during the spell's resolution.
+In general, you don't make all kinds of choices while casting a spell. As specified in rules 601.2b-d, you choose modes, splices, other cost modifiers, targets, and how to divide or distribute an effect among targets. Any other choice, like even/odd in Extinction Event, doesn't happen until the spell resolves.
+While the choice on Extinction Event may look similar to a modal choice, a modal choice specifically requires you to choose from a list of actions, so an instruction to "choose" other things is different.
+
+This fact is also mentioned in a Gatherer ruling on Extinction Event:
+
+You choose odd or even while Extinction Event is resolving. Players can’t take any actions between the time you make that choice and the time some creatures go extinct.
+

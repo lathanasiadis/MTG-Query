@@ -1,0 +1,32 @@
+Q:
+
+Can I cast a spell after a certain part of the stack is resolved in MTG?
+
+Let's say my opponent plays a spell like Fireball. It is put on the stack. I cast a Snapcaster Mage in response. My opponent does nothing in return. The Snapcaster Mage resolves first and it seems like I can play any card in my graveyard now like a Mana Leak to counter the fireball.
+Can I really do this after the resolving of spells on the stack has begun? Or must the stack be empty before I can put new spells on it?
+
+A:
+
+Initially I forgot that Snapcaster Mage has Flash. Oops.
+Yes you can do this. The resolution goes like this.
+
+Fireball is cast, put on the stack.
+In response, you put Snapcaster Mage on the stack. (Which you can only do, of course, because it has Flash and can be cast as an instant.)
+You put nothing more on the stack, your opponent declines to put anything else on the stack.
+Because both players pass priority, stack starts resolving in Last In First Out order. Snapcaster Mage resolves.
+Triggered ability of Snapcaster Mage is put on the stack. You choose Mana Leak as the target.
+Both players pass priority. Last effect on stack resolves, Mana Leak gains flashback.
+As Mana Leak is an instant (IMPORTANT) you can now pay the flashback cost (in this case same as the casting cost) to put Mana Leak on the stack.
+Both players pass priority. Mana Leak resolves.
+Your opponent must now pay {3} or Fireball is countered.
+
+The important bit to remember is that yes, as usual, you can put spells/effects on the stack at any time even after spells have started to be resolved, as long as said spells/effects can be cast at "instant speed", not "sorcery speed".
+The comprehensive rule which answers your question "Can I really do this after the resolving of spells on the stack has begun?" is 116.3. which determines when players have priority and I will paraphrase:
+
+Active player gets priority at the beginning of steps and phases (after "beginning of" triggered abilities are put on the stack.)
+Active player gets priority after a spell/ability on the stack resolves.
+A player gets priority after they put a spell/ability on the stack.
+If a player passes priority, the next player in turn order receives priority.
+
+So the priority rules make it clear that there is always a chance to respond even after spells on the stack start resolving.
+

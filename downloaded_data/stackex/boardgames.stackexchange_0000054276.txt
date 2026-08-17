@@ -1,0 +1,12 @@
+Q:
+
+Does Complete Disregard check a creature's power or base power?
+
+I've been playing Magic with my boyfriend and I wanted to cast Complete Disregard (CD) targeting one of his creatures, but my question is, does CD work with base power or with power after alterations?
+Specifically: the creature I wanted to target was Impostor of the Sixth Pride acting as a Sliver creature, with Cleaving Sliver giving it +2/+0 and also with a +1/+1 counter on it. Now, I am pretty sure that the +2/+0 obtained from Cleaving Sliver matters more than the +1/+1 counter, still, would Complete Disregard work on it?
+
+A:
+
+No, Complete Disregard won't work (and incidentally you can't target the Impostor, since it's not a legal target). Complete Disregard, like almost* all other cards simply cares about the actual power; the base power doesn't matter. Both buffs (+2/+0 from Cleaving Sliver and the +1/+1 counter) alone would be enough to raise the Impostor's power above 3, so that it ... wait for it ... completely disregards Complete Disregard.
+*: the few cards for which this is not the case explicitly mention 'base power' and/or 'base toughness' (example), and as @murgatroid99 notes, they all change the base power/toughness, they do not check it.
+

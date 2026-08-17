@@ -1,0 +1,26 @@
+Q:
+
+Mairsil, the Pretender Out of Battlefield abilities
+
+Does Mairsil, the Pretender ability work on activated abilities that are not reliant on being on the battlefield?
+Or is his second ability only in effect while he-himself is on the field?
+For instance Yuriko, the Tiger's Shadow activated keyword Commander ninjutsu? Or Reassembling Skeleton?
+(If either is a bad example please use a better example of an activated ability usable from another zone, hand, graveyard, etc.) 
+
+A:
+
+Unless otherwise specified, static abilities like the second ability of Mairsil, the Pretender function only while the card is on the battlefield.
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement
+  effects. These effects are active as long as the permanent with the ability remains on the battlefield
+  and has the ability, or as long as the object with the ability remains in the appropriate zone, as
+  described in rule 112.6.
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack.
+  Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows: [...]
+
+To clear up some confusion: All abilities that aren't spell abilities, activated abilities or triggered abilities are static abilities and are subject to the rules I mentioned above. But there are some exceptions to rule 112.6 that define which abilities might be effective even outside the battlefield. Some examples are:
+
+Characteristic-defining abilities (like "This card is all colors.")
+Abilities that say that say that they function in a specific zone.
+Abilities that modify the deck-building rules (like "A deck can have any number of cards named Relentless Rats.")
+

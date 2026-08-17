@@ -1,0 +1,12 @@
+Q:
+
+How do cost reducers affect costs that include XX?
+
+How does Mass Manipulation work with Hinata, Dawn-Crowned? How does the mana reducing ability interact with the XXUUUU mana cost?
+
+A:
+
+The cost reduction is applied to the total cost, which is determined by substituting your choice of X into the cost on the card.
+In the case of Mass Manipulation and Hinata, Dawn-Crowned, you would first choose a value N for X and N targets. Then Hinata's ability would reduce the cost by {N} because the spell has N targets. The result is that the spell would cost {N}{U}{U}{U}{U}.
+The steps for casting a spell are described in rules section 601.2. Choosing the value of X happens in step 601.2b, choosing targets happens in step 601.2c, and calculating the total cost happens in step 601.2f.
+

@@ -1,0 +1,15 @@
+Q:
+
+Sacrificing a creature with 0 toughness
+
+1/1 goblin, with Skullclamp attached, making its P/T 2/0 so it dies. Could it be sacrificed using Goblin Bombardment to deal 1 damage?
+
+A:
+
+No, you don't have the opportunity to sacrifice that goblin. Every time someone would receive priority, just beforehand, state based actions are checked and carried out. One of these state based actions is:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+Priority has to be obtained to be able to activate Goblin Bombardment's ability. By this point, state based actions have already been checked and the goblin is in its owner's graveyard.
+For all intents and purposes in this scenario, you might as well consider the goblin to have died instantly as soon as you put the Skullclamp on.
+

@@ -1,0 +1,25 @@
+Q:
+
+Does Sutured Ghoul count cards exiled by other effects, such as suspended creatures?
+
+As Sutured Ghoul says
+
+As Sutured Ghoul enters the battlefield, exile any number of creature cards from your graveyard.
+Sutured Ghoul's power is equal to the total power of the exiled cards and its toughness is equal to their total toughness.
+
+The text says the exiled cards, so does only count on cards that are exiled by himself, or does every exiled creature counts?
+The oracle does not mention any reference to this:
+
+22/09/2011    If any of the creature cards you exile has a characteristic-defining ability that defines its power and/or toughness, that ability will apply. For example, if Dungrove Elder is exiled this way, its power and toughness while it’s in exile are equal to the number of Forests you control, and Sutured Ghoul’s power and toughness will change as the number of Forests you control changes. If the characteristic-defining ability can’t be applied (for instance, it relies on a choice made as the card enters the battlefield), then use 0.
+22/09/2011    In zones other than the battlefield, Sutured Ghoul’s power and toughness are each 0.
+22/09/2011    You can’t have Sutured Ghoul exile itself, even if it’s entering the battlefield from your graveyard.
+
+A:
+
+It only counts cards exiled by the first ability, because they are Linked Abilities.
+
+Linked Abilities
+
+607.1. An object may have two abilities printed on it such that one of them causes actions to be taken or objects or players to be affected and the other one directly refers to those actions, objects, or players. If so, these two abilities are linked: the second refers only to actions that were taken or objects or players that were affected by the first, and not by any other ability.
+607.2a If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+

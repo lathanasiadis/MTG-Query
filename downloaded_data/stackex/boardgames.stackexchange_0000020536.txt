@@ -1,0 +1,20 @@
+Q:
+
+What happens when more than one creature dies causing a trigger
+
+Overseer of the Damned is a creature with the ability "Whenever a nontoken creature an opponent controls dies, put a 2/2 black Zombie creature token onto the battlefield tapped"
+Now, lets say 3 of my opponent's creatures die simultaneously, either through combat, spells, or sacrificing. Could I put the triggered ability on the "stack" so to say in order to get 3 2/2 black zombies (one for each non token creature that died that my opponent controlled), or am I forced to put one and only one despite 3 creatures dying?
+
+A:
+
+If an ability triggers each time a creature dies, then it triggers once for each creature that died, not just for each event where one or more creatures died.
+Rule 700.1 says
+
+Anything that happens in a game is an event. Multiple events may take place during the resolution of a spell or ability. The text of triggered abilities and replacement effects defines the event they’re looking for. One "happening" may be treated as a single event by one ability and as multiple events by another.
+
+in addition, rule 603.2c says
+
+An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.
+
+In this particular case, that means that even though the creatures died at the same time, they count as different events for the purpose of triggers that look for individual deaths.
+

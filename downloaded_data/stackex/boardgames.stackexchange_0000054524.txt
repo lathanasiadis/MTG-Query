@@ -1,0 +1,23 @@
+Q:
+
+Controlling an Artifact Creature - Aura with Equip, can the permanent equip itself?
+
+For clarity's sake, I'll start by explaining the process in which you get such a permanent.
+I control Mairsil, the Pretender with an Gliding Licid, Lightning Greaves (can be any Equipment), and Cultivator's Caravan (can be any card with Crew) in exile (all with cage counters on them).
+I activate the ability Mairsil gained from Gliding Licid making her into an Aura, she will retain the Equip and Crew abilities (becaus of how Gliding Licid's ability is worded).
+Mairsil is now an Aura with "Enchant creature", "Equip 0", and "Crew 3" (irrelevant abilities are excluded). Since the Equip ability states that you "Attach this permanent to target creature you control", and since the Mairsil Aura can be attached to creatures, I assume this means that I can re-equip Mairsil to other creatures I control.
+I now crew my Mairsil Aura, Mairsil will now be an "Artifact Creature - Aura" (Crew retains subtypes right?).
+Now we're finally here, is there anything stopping me from equipping Mairsil to herself?
+
+A:
+
+Yes, Rule 301.5c stops you from equipping Mairsil after Crew resolves:
+
+An Equipment that’s also a creature can’t equip a creature. An Equipment that loses the subtype “Equipment” can’t equip a creature. An Equipment can’t equip itself. An Equipment that equips an illegal or nonexistent permanent becomes unattached from that permanent but remains on the battlefield. (This is a state-based action. See rule 704.) An Equipment can’t equip more than one creature. If a spell or ability would cause an Equipment to equip more than one creature, the Equipment’s controller chooses which creature it equips.
+
+Also, Rule 303.4d covers the Aura case separately:
+
+An Aura can’t enchant itself. If this occurs somehow, the Aura is put into its owner’s graveyard. An Aura that’s also a creature can’t enchant anything. If this occurs somehow, the Aura becomes unattached, then is put into its owner’s graveyard. (These are state-based actions. See rule 704.) An Aura can’t enchant more than one object or player. If a spell or ability would cause an Aura to become attached to more than one object or player, the Aura’s controller chooses which object or player it becomes attached to.
+
+So, after Crew resolves, becoming a creature will unattach Marisil from whichever creature it was previously attached to, and then Marisil will go to the graveyard.
+

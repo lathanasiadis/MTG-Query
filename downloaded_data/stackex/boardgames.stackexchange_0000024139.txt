@@ -1,0 +1,15 @@
+Q:
+
+The Comeuppance of Commeuppance
+
+So this came up in a game of Commander the other day. Player A has Purphoros, God of the Forge in play without the 5 red devotion to make him a creature. They then cast Tempt with Vengeance, spending 20 for X.
+In a bid to turn a losing situation into a win Player B casts Comeuppance to prevent the damage and turn it back on player A. Player A responds in kind with their own Comeuppance while Purphoros' 20 triggers are still on the stack.
+As far as I can tell this will cause an infinite loop where the two instances of Comeuppance each prevent and then attempt to re-deal the damage back and forth between A and B, with no exit condition.
+What happens in this case? I was led to believe that causing an infinite loop results in a game loss, but if this is the case, which player is considered responsible for the loop since it required them both to cast Comeuppance?
+
+A:
+
+Since Purphoros doesn't have enough devotion to make him a creature there is indeed a loop, but it's not a loss for any player, but a draw:
+
+104.4b If a game that’s not using the limited range of influence option (including a two-player game) somehow enters a “loop” of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don’t result in a draw.
+

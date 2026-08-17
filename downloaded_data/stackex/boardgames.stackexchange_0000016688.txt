@@ -1,0 +1,29 @@
+Q:
+
+How does Humility affect Bestowable creatures?
+
+Humility says each creature loses it's abilities.  So how does that work with bestowable creatures? Normally, for auras, as I understand it, it depends on the timestamp that the aura vs. the humility came into play. But bestowable creatures are creatures still I think.
+
+A:
+
+As long as a creature card with Bestow is enchanting a creature, it is an Aura Enchantment and not a Creature. So, Humility will not affect it.
+The rules for Bestow and type changing say
+
+702.102a Bestow represents two static abilities, one that functions while the card with bestow is on the stack and another that functions both while it’s on the stack and while it’s on the battlefield. “Bestow [cost]” means “You may cast this card by paying [cost] rather than its mana cost.” and “If you chose to pay this spell’s bestow cost, it becomes an Aura enchantment and gains enchant creature. These effects last until one of two things happens: this spell has an illegal target as it resolves or the permanent this spell becomes, becomes unattached.” Paying a card’s bestow cost follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.
+205.1a Some effects set an object's card type. In such cases, the new card type(s) replaces any existing card types.
+
+This means that the Bestow ability removes the Creature type from the object as long as it is in effect.
+The rule for how continuous effects interact says:
+
+613.1. The values of an object's characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1a Layer 1: Copy effects are applied. See rule 706, "Copying objects."
+613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, "Text-Changing Effects."
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object's card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can't have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+So, the static ability that turns Bestow creatures into Auras is applied before Humility's ability, so Humility will not affect those permanents. Any other relevant effects of Bestow Auras, like granting abilities to the creature they enchant, interact with Humility just like normal Auras would.
+

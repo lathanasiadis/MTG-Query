@@ -1,0 +1,24 @@
+Q:
+
+How to interrupt a loop with multiple players?
+
+Assume there are three players, Alice, Bob, and Chris. The turn order is Alice, then Bob, then Chris, with it currently being Alice's turn.
+Alice has a loop that can infinitely create creatures, two creatures on the field, and 20 life.
+Bob has a Leyline of Anticipation on the field and a Deadly Tempest, and is planning on casting it when Alice has twenty creatures on the field to deal 20 damage to her.
+Chris has a Fumigate in hand and plans to use it on his turn to gain a lot of life and clear the board. Chris also has a Soul Warden and an Aethersphere Harvester on the field.
+Alice proposes a shortcut to do her loop a hundred times. Bob wants there to be at least 20 creatures on Alice's board (but wants to minimize this number to minimize how much life gain Chris's Soul Warden gains him), so he proposes to stop at only eighteen loops. If Chris weren't in the game, Alice would be required to accept this new loop (despite the fact that she just got information about Bob's plan). However, Chris and Alice both want Alice to stay alive (at least for now), so Chris proposes only seventeen loops (after which he uses Soul Warden to crew Aethersphere Harvester). Crewing the vehicle does nothing to stop Alice from resuming her combo, but both players just got information about Bob's hand, which causes her to not put another creature on the field.
+Is this legal, or does Chris have to provide some kind of 'legitimate response' to interact with Alice's loop, other than the fact that Bob gave away information by proposing a stop to the loop?
+Edit: Or is my understanding of the order in which players propose shortcuts wrong?
+
+A:
+
+The described situation is perfectly legal. These loops are governed by rule 720, concerning the taking of shortcuts.
+CR720.2a, b and c explain how shortcuts are to be taken:
+
+720.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+720.2b Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where they will make a game choice that’s different than what’s been proposed. (The player doesn’t need to specify at this time what the new choice will be.) This place becomes the new ending point of the proposed sequence.
+720.2c Once the last player has either accepted or shortened the shortcut proposal, the shortcut is taken. The game advances to the last proposed ending point, with all game choices contained in the shortcut proposal having been taken. If the shortcut was shortened from the original proposal, the player who now has priority must make a different game choice than what was originally proposed for that player.
+
+Notice the emphasized sentence: that player, in your situation, is Chris. Since Chris was the one who suggested the fewest number of iterations for Alice's loop, when he receives priority, he must take an action that is different from the action originally proposed by Alice for the shortcut.
+As you can see, as long as it is a different action from the one originally proposed, it doesn't matter what action that is. Once that action (in your case, crewing the Aethersphere Harverster) has been taken, play continues normally in turn order. Alice can then propose a new shortcut to continue her loop if she wishes to do so, but that action is not required.
+

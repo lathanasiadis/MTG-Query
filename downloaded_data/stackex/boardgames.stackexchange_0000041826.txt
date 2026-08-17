@@ -1,0 +1,23 @@
+Q:
+
+What happens if I turn an animated Thespian's Stage into another land during combat?
+
+I have Thespian's Stage in play copying Raging Ravine. I animate Thespian's Stage, give it vigilance in some way, and attack. My opponent flashes in Ambush Viper and blocks. I decide I don't want to trade. Can I activate Thespian's Stage to copy a non-animated land and get out of combat that way? What happens to the damage?
+Gatherer doesn't say anything about this - only that I need to activate the animation costs after Thespian's Stage has copied a land.
+
+A:
+
+No, you cannot turn it into another land to remove it from combat.  The issue is due to layers.
+Layer 1 is copy effects (Thespian's Stage).
+Layer 4 is type changing effects (Raging Ravine's ability).
+Since it is still the same object, both layers are applied in order.  So, for layer 1 you have a Thespian's Stage that is copying a Raging Ravine that is copying a land (say, a Forest).  Then you apply the type changing effect in layer 4 that turns it into a 3/3 creature.
+So, you'd end up with a 3/3 Creature Land - Forest (with a +1/+1 counter from attacking as Raging Ravine)
+
+613.1a Layer 1: Copy effects are applied. See rule 706, “Copying Objects.”
+613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, “Text-Changing Effects.”
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+

@@ -1,0 +1,62 @@
+Q:
+
+Do creatures that enter the battlefield at the same time see each other enter?
+
+Let's say I have Goldnight Commander on the board. He is a 2/2 that says:
+
+Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.
+
+I play a Thatcher Revolt. It says:
+
+Put three 1/1 red Human creature tokens with haste onto the battlefield. Sacrifice those tokens at the beginning of the next end step.
+
+The sacrifice portion is not important to this question. What is important is how these two cards interact with each other.
+Playing this card in my first main phase, assuming no counters or other shenanigans by my opponent, I will have my Commander and 3 tokens on the battlefield. What will happen in terms of the power/toughness of my tokens and Commander?
+Option A
+The tokens will be 1/1 each. They don't see each other come in at all. The Commander is 3/3, as one "enter the battlefield" trigger happens.
+Option B
+The tokens will be 1/1. They don't see each other come in at all, because they weren't on the battlefield to see any of the triggers. The Commander is 5/5, as he saw three "enter the battlefield" triggers occur.
+Option C
+The tokens will all be different, with one being 3/3 as he saw the other two come in, one being 2/2 as he saw only the last one come in, and 1/1 as the last one saw none come in.
+Option D
+The tokens will all be 4/4, as three creatures entered the battlefield this turn.
+I am obviously hoping for this option. It may be supported by a ruling on Goldnight Commander that says, emphasis mine:
+
+The creature that entered the battlefield will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves.
+
+The key being the ability resolving. So my thought is thus:
+
+Thatcher Revolt goes on the stack.
+Thatcher Revolt resolves, and three separate "enter the battlefield" triggers go on the stack as the three humans enter the battlefield as 1/1.
+The last (it is a stack) "etb" trigger resolves. This puts an ability from Goldnight Commander on the stack. This resolves and the humans are now all 2/2.
+The next "etb" trigger resolves. This puts a new ability from Commander on the stack, and resolves with the humans being 3/3.
+The first "etb" trigger finally resolves, puts a Command ability on the stack, which resolves putting the humans at their final state of 4/4.
+
+Option E
+The tokens will all be 2/2.
+
+Thatcher Revolt goes on the stack.
+Thatcher Revolt resolves, and one single "enter the battlefield" trigger goes on the stack.
+The "etb" trigger resolves. This puts an ability from Goldnight Commander on the stack. This resolves and the humans are now all 2/2.
+
+I would really like to have a complete understanding both of the result and how this result is calculated by the game engine.
+
+A:
+
+Summary: Option D is spot on. All three of your 1/1 are now 4/4 until end of turn (and your Commander is 5/5 until end of turn).
+
+The question has nothing to do with whether the tokens see each other enter the battlefield or not.* It's about how many creatures are on the battlefield when each of the triggered abilities resolve.
+The game unrolls as follows, starting with Thatcher Revolt's resolution:
+
+Thatcher Revolt places three creatures on the battlefield simultaneously. Goldnight Commander's ability triggers three times. [CR 603.2][CR 603.2c]
+As a player is about to receive priority, you place Goldnight Commander's ability on the stack three times. [CR 603.3]
+The third instance of Goldnight Commander's ability resolves: Creatures you control get +1/+1 until end of turn.
+The second instance of Goldnight Commander's ability resolves: Creatures you control get +1/+1 until end of turn.
+The first instance of Goldnight Commander's ability resolves: Creatures you control get +1/+1 until end of turn.
+
+Three continuous effects were created by a triggered ability. They will only affect the creatures that existed when the abilities resolved [CR 611.2c], but all three of the 1/1s were on the battlefield when they resolved.
+So all three of your 1/1 are now 4/4 until end of turn (and your Commander is 5/5 until end of turn).
+
+* — To answer your title question, yes. If you had two creatures with a triggered ability such as "When another creature enters the battlefield, ...", they would see each other entering the battlefield. This is codified by CR 603.6d: "Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. [...]"
+For example, if two Goldnight Commander entered the battlefield simultaneously, both of their abilities would trigger [CR 603.6d], and both would end up getting +2/+2 until end of turn.
+

@@ -1,0 +1,23 @@
+Q:
+
+Where does a card that is recast with Rebound end up after resolution?
+
+The "Rebound" ability found on some cards has this reminder text:
+
+If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from Exile without paying its mana cost.
+
+This means that, if I cast, for example, Blessed Reincarnation, and I decide to use his Rebound ability, the card will be replayed from exile.
+The question is then the following: from the text of the cards, with regard to the Rebound ability, it is not clear whether, once the card is used for the second time - thanks to the rebound ability - the card in question ends up in the graveyard, or returns to Exile, this time definitively.
+So for example, once Blessed Reincarnation's Rebound ability is used, -
+1) this card will go into permanent exile; or,
+2) this card will go to its owner's graveyard.
+
+A:
+
+The card will go to the graveyard if you cast it from exile with Rebound.
+When a spell represented by a card has finished resolving, then by default the card goes to its owner's graveyard. 
+
+608.2k As the final part of an instant or sorcery spell’s resolution, the spell is put into its owner’s graveyard. As the final part of an ability’s resolution, the ability is removed from the stack and ceases to exist.
+
+Since Rebound only applies to a spell when you cast it from your hand, it does not apply when you cast it from exile, so it doesn't get exiled as it resolves. Since no other effect takes place, it goes to the graveyard as normal.
+

@@ -1,0 +1,16 @@
+Q:
+
+Does Wild Onslaught put counters on Hallar, the Firefletcher before or after it's ability triggers
+
+If I have a Hallar, the Firefletcher in play with no +1/+1 counters on it, and I cast Wild Onslaught and pay it's kicker cost would Hallar, the Firefletcher get the two +1/+1 counters from Wild Onslaught before or after Hallar, the Firefletcher's ability triggers?
+
+A:
+
+Hallar's ability will resolve first, dealing 1 damage.
+Triggers that react to a spell being cast trigger at the end of the spell-casting process. By the time Hallar's ability triggers and goes on the stack, Wild Onslaught is already on the stack and will resolve second.
+
+Casting Spells
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+

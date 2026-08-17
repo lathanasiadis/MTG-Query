@@ -1,0 +1,16 @@
+Q:
+
+Teferi's Time Twist on creature with +1/+1 counter
+
+If I control a River Sneak with a +1/+1 counter on it and then play Teferi's Time Twist targeting my River Sneak would the river sneak return as a 4/4 or a 3/3?
+
+A:
+
+The River Sneak enters the battlefield as a 2/2 because it will have only a single +1/+1 counter on top of its base 1/1 stats. Rule 122.2 says
+
+Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+
+Teferi's Time Twist moves the permanent into exile, then back onto the battlefield. As it moves into exile, the counter(s) it originally had on the battlefield disappear. Teferi's Time Twist specifically puts a +1/+1 counter on the creature, so it enters with that single counter, for total stats of 2/2.
+
+Teferi's Time Twist says that the creature enters the battlefield "with an additional +1/+1 counter on it". This counter is in addition to any other counters the creature would enter with for other reasons. Barkhide Troll, for example, will enter with a +1/+1 counter because of its own ability, plus an additional counter because of the effect from Teferi's Time Twist.
+

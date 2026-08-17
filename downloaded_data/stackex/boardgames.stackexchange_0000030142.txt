@@ -1,0 +1,34 @@
+Q:
+
+Can infinite scry 1 be shortcut by searching through your deck?
+
+One of my standard decks is a 4-Color Rites deck.  It has a few combos where infinite "dies" triggers are used.  One of them involves having a Catacomb Sifter in play with a Brood Monitor and an Eldrazi Displacer.
+The combo involves sacrificing the 3 scions created by the Brood Monitor, which creates 3 "scry 1" triggers from the Catacomb Sifter and adds 3 colorless mana to your pool.  The mana just created then is used to activate the Eldrazi Displacer's ability to flicker the Brood Monitor.  The Brood Monitor then enters the battlefield and it's triggered ability causes it to create 3 new Eldrazi Scions.  This can be repeated infinitely, creating an infinite number of scry 1 triggers.
+At regular REL events like FNM, I describe this to my opponents and ask if I can just cut to the card I'm looking for as long as I keep my deck in order.  At competitive REL events would this be an appropriate shortcut to propose?
+Another question: if the infinite triggers were scry 2 or more, then could you stack your deck as well? Are you allowed to just grab your deck and cut/stack it as a shortcut or is that not an appropriate shortcut for all RELs?
+
+A:
+
+An Official Ruling (requires a Judge Apps account to view) by high-level tournament judges explicitly says that you can take those shortcuts:
+
+A player with the ability to scry 1 ‘infinitely’ may shortcut this action by examining the library without reordering it and cutting it to a specific location. A player with the ability to scry 2 or more infinitely may shortcut this action by rearranging her library in any way she likes, but she must do so quickly. Players are not required to know the mathematics or technical steps behind this.
+
+Technically, by the definition in the Comprehensive Rules, each of those situations would actually involve two shortcuts. The rule that's relevant here is 726.2a:
+
+At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+
+The highlighted part is what makes this tricky. Technically, you can't say "I scry until I see a particular card", but we can work around that.
+Scry 1
+In the case where you can only Scry 1 a number of times, and you want to search your deck for a particular card and cut to have that card on top, you would use two shortcuts to technically make this work:
+
+Scry 1 N times, where N is the number of cards in your library, and choose to put the card on the bottom each time. This is functionally equivalent to looking at your entire library without changing its order.
+
+Choose a card with K cards on top of it, then Scry K and choose to put the card on bottom each time. This is equivalent to cutting the deck just above the card you are looking for.
+
+Scry 2+
+This case is a little more complicated. When you want to stack your deck, you're not just scrying a certain number of cards to the bottom; you're taking a large number of steps of reordering two cards at a time to eventually end up at the desired order. But it still can be done according to the rules using these shortcuts:
+
+Scry 2 N/2 times (rounded up), where N is the number of cards in your library (or enough to see your whole library), and choose to put the cards on the bottom each time. As in the first case, you have to know the current order of your library to deterministically make the next shortcut.
+
+Technically, to be fully compliant with the rules, here you would lay out exactly the sequence of scrys you would do to get the order you want (like "Put the top card on bottom, then put the second from top card on bottom, then put the top card on bottom, etc."). Unfortunately, working out that sequence and reciting it would probably take as long as just doing it manually, which would probably count as slow play. However, it's likely that your opponent would accept "Now that I know the order of my library, I could give a sequence of scrys to arbitrarily reorder my deck, so I would like to skip that and just stack my deck".
+

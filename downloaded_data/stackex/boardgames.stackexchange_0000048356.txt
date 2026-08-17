@@ -1,0 +1,14 @@
+Q:
+
+Galepowder Mage and Wormfang Manta interaction
+
+So, I have a question about triggers. 
+Can someone please explain the interaction between Galepowder Mage and Wormfang Manta? If I go to declare attack, using the mage to target Manta do I take my extra turn after I pass my current turn and then skip my the turn after that? Or does the Manta just nullify both of it's abilities when it comes back?
+
+A:
+
+You won't get any significant benefit from doing this. You will get an extra turn, and then you will skip that extra turn, and the turn order will proceed as though you never had that extra turn.
+An instruction to "skip your next turn" creates a replacement effect that has you skip the next turn you would take. So even though that effect is created after you get the extra turn, you still skip the extra turn. This is specified in rule 614.10:
+
+An effect that causes a player to skip an event, step, phase, or turn is a replacement effect. “Skip [something]” is the same as “Instead of doing [something], do nothing.” Once a step, phase, or turn has started, it can no longer be skipped—any skip effects will wait until the next occurrence.
+

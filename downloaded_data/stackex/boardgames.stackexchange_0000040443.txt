@@ -1,0 +1,24 @@
+Q:
+
+MTG Trapjaw Tyrant vs Butcher of Malakir and tokens
+
+I have a question about interaction between Trapjaw Tyrant's enrage ability and Butcher of Malakir's sacrifice ability. I was playing a multiplayer EDH game with friends and one of them had the Butcher of Malakir out and the other had the Trapjaw Tyrant. A spell was cast that dealt 3 damage to all creatures. Damage is dealt to the Trapjaw activating enrage, and tokens die triggering butcher's ability.
+My thoughts were this:
+The active player is the owner of the Trapjaw. On the stack, he chooses to exile the Butcher of Malakir. My thought was that he chooses the Butcher, then priority is passed to the owner of the Butcher of Malakir, his ability triggers and is put on the stack. As things resolve, everyone has to sacrifice due to the Butcher of Malakir, then the butcher is exiled under Trapjaw's enrage.
+The active player thought that he can exile the Butcher prevent his ability to go on the stack so that he would not have to sacrifice from killing the tokens. We got into a debate and I became unsure about how everything resolved after that and wanted to clarify who was correct?
+
+A:
+
+The description you wrote is very similar to what happens, but there are some minor differences. Here's the actual exact sequence of events, starting with the spell.
+
+The spell resolves, dealing 3 damage to each creature. The Trapjaw Tyrant's triggered ability triggers.
+State-based actions are evaluated. Each creature that was dealt lethal damage dies. The Butcher of Malakir's ability triggers for each other creature its controller controls that dies this way.
+All of the triggered abilities that triggered this way are put on the stack, starting with the active player's triggered abilities. Targets for these abilities are chosen at this time.
+The active player gains priority for the first time in this process, and players can start responding to the abilities or allowing them to resolve.
+
+The end result is that all of the abilities trigger and resolve, creatures need to be sacrificed to the Butcher's ability, and in the end, the Butcher will be exiled by the Trapjaw Tyrant.
+There are a couple of caveats to be aware of here:
+
+If the active player sacrifice Trapjaw Tyrant to Butcher of Malakir's ability before the Tyrant's ability resolves, the Butcher will not be exiled at all because the "until Trapjaw Tyrant leaves the battlefield" period has already ended.
+Other than that, the outcome isn't much affected by who is the active player, or which ability is on top of the stack. Once abilities go on the stack, they exist independent of their source. So even if the Butcher is exiled while its abilities are still on the stack, those abilities will still resolve, and still force players to sacrifice creatures.
+

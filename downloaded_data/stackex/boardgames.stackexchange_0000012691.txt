@@ -1,0 +1,12 @@
+Q:
+
+Cumulative Upkeep on the Stack
+
+If I have Glacial Chasm, Power Conduit, and Coretapper out, during my upkeep can I wait for the cumulative upkeep on Glacial Chasm to go on the stack, activate Power Conduit to remove the age counter on the Chasm, and then move that to Coretapper in the form of a +1/+1 counter?
+If I cannot, how would all of that interact? Would I have to pay 2 life per turn, but as long as I moved them it wouldn't be any more than that?
+
+A:
+
+No, not quite. The age counter isn't actually placed on Glacial Chasm until the cumulative upkeep trigger resolves. When it resolves, as part of the same triggered ability, you must then pay two life for that counter or sacrifice Chasm. You can't remove the counter before you have to pay two life for it because you don't get priority while an ability is resolving. 
+You can, however, remove each counter immediately after the cumulative upkeep trigger resolves, meaning you pay only pay two life per turn indefinitely.
+

@@ -1,0 +1,17 @@
+Q:
+
+Use Mana twice for the same spell by untapping?
+
+If your commander has an ability to untap card and you use it for untapping Mana, can you use it to pay for 6 Mana while there is only five in your pool.it was Estrid, the Masked untapping an enchanted land.
+
+A:
+
+Yes, you can tap a land for mana again in the same turn if it becomes untapped.
+When you can tap a land for mana, it always has some variation of "{T}: Add ..." as its ability, where {T} is the tap symbol. That is an activated ability. Activated abilities always follow the "cost: effect" pattern. Generally, you can activate an activated ability as often as you want, as long as you can pay its cost every time.
+When you tap a land for mana, the mana it produces goes into the "mana pool", a temporary storage for your mana. Then, when you untap that land, you can pay the cost of its mana-generating ability again (i.e. tapping the land), and you will get another mana.
+That means, if you have 5 lands, tap them for mana, and untap one of the lands, you can tap that land again to get 6 mana total.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+602.1a The activation cost is everything before the colon (:). An ability’s activation cost must be paid by the player who is activating it.
+106.4. When an effect instructs a player to add mana, that mana goes into a player’s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player’s mana pool as unspent mana. Each player’s mana pool empties at the end of each step and phase, and the player is said to lose this mana. [..]
+

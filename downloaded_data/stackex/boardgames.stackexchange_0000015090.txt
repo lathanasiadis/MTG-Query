@@ -1,0 +1,19 @@
+Q:
+
+What happens when a creature enchanted with Soul Link would deal lethal damage to a player?
+
+Player A has 3 life left. Player B attacks with a Dauthi Marauder that has been enchanted by Player A's Soul Link. Does player B win, or does nothing happen?
+On the one hand, "whenever" makes it sound like the trigger (dealing damage) and the effect (healing damage) happen simultaneously.
+On the other hand, combat damage doesn't go on the stack, while most other things do. So, possibly the combat damage is dealt, state-based actions are checked, and now it's too late for the Soul Link effect to heal player A.
+If anyone knows which way is correct, my thanks!
+
+A:
+
+Soul Link's ability is a triggered ability. From the comprehensive rules:
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously.
+...
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack.
+
+State-based checks occur before the triggered ability is resolved, so Player A loses before gaining life from the Soul Link.
+

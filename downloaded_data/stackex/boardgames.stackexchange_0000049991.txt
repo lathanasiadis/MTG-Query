@@ -1,0 +1,20 @@
+Q:
+
+Casting Emry, Lurker of the Loch with Gilded Goose & food tokens
+
+Emry, Lurker of the Loch costs 1 generic mana less for each artifact I control. Gilded Goose can turn my food tokens into mana.
+Let's say I have Goose, food token, and a land in play. Emry is supposed to cost 2 mana, but after I sacrifice the food token Emry costs 3 mana. I can pay two mana, but not three. Can I cast Emry or not? 
+
+A:
+
+Yes, you can cast Emry this way.
+As you are casting a spell, you have an opportunity after you calculate the final cost but before you pay the cost to activate mana abilities. If you activate the Gilded Goose's last ability at that time, then the Food token gets factored in to the calculation of Emry's cost and you get the mana from sacrificing it to spend on the cost to cast Emry.
+In the rules section about casting spells, the final few steps of casting a spell are as follows:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can’t be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes “locked in.” If effects would change the total cost after this time, they have no effect.
+
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+Example: You cast Altar’s Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell’s total cost is “locked in” before payments are actually made, you pay {B}, not {1}{B}, even though you’re sacrificing the Familiar.
+

@@ -1,0 +1,23 @@
+Q:
+
+Master of Cruelties Spiteful Returned Combo
+
+If I enchanted Master of Cruelties with Spiteful Returned, would this create a potential one–hit combo?
+If your opponent doesn't block it, then the Master of Cruelties would drop your opponent to 1, and then the Spiteful Return as an enchantment would deal 2 damage. 
+
+A:
+
+This would not work how you want it to. Because of the timing for the different triggers in this scenario.
+There are 5 parts of the combat phase:
+
+Beginning of Combat
+Declare Attackers
+Declare Blockers
+Combat Damage
+End of Combat
+
+The trigger from Spiteful Returned triggers is "Whenever Spiteful Returned or enchanted creature attacks", this means that it will trigger during the Declare Attackers step. While the Master's trigger is "Whenever Master of Cruelties attacks a player and isn't blocked", this means that it will trigger during the Declare Blockers step long after the trigger from the Returned has been put on the stack and resolved.
+
+508.3a An ability that reads “Whenever [a creature] attacks, . . .” triggers if that creature is declared as an attacker. Similarly, “Whenever [a creature] attacks [a player or planeswalker], . . .” triggers if that creature is declared as an attacker attacking that player or planeswalker. Such abilities won’t trigger if a creature is put onto the battlefield attacking.
+508.3d An ability that reads “Whenever [a creature] attacks and isn’t blocked, . . .” triggers during the declare blockers step, not the declare attackers step.
+

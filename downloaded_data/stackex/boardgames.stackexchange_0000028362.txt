@@ -1,0 +1,33 @@
+Q:
+
+If a card becomes cloned while another text-modifying effect is on the stack, what is the result?
+
+Here is the scenario:
+
+I have Shapesharer and Quicksilver Elemental in play.
+I activate and resolve Artificial Evolution to make Quicksilver Elemental a Shapeshifter.
+I activate Quicksilver Elemental's ability to have it gain the activated abilities of some other 3rd creature (doesn't matter which.)
+While that is on the stack,  I target Quicksilver Elemental with Shapesharer's ability, making it a copy of some other 4th creature (doesn't matter which.)
+
+Is the end result that Quicksilver Elemental becomes a copy of creature 4 with the abilities of creature 3 tacked on, as I intend?
+
+A:
+
+Your stack after step 4 is (top to bottom):
+
+Shapesharer's activated ability
+Quicksilver Elemental's activated ability
+
+Shapesharer's ability resolves first. Quicksilver becomes a copy of Creature 4. Per rule 706.3, Quicksilver's abilities become those of Creature 4. This also means that Quicksilver loses its original ability.
+
+706.3. The copy’s copiable values become the copied information [...]
+
+Quicksilver's ability resolves second. Quicksilver (who is now a copy of Creature 4) gains all activated abilities of Creature 3 until end of turn. It does not lose any abilities it already had. The fact that Quicksilver changed names before the ability resolved does not matter per rule 201.4.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+The result is that Quicksilver will end up a copy of Creature 4 with the abilities of both Creature 3 and Creature 4, but not its own original ability.
+If Quicksilver were to become a copy of another creature, it would still retain the abilities of Creature 3. This is because the effect granting it abilities is not a copiable characteristic (per rule 706.2), and thus is not overwritten when it becomes a copy of something else.
+
+706.2. [...] The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied
+

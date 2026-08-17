@@ -1,0 +1,32 @@
+Q:
+
+Nahiri, the Lithomancer + Skullclamp + Cathar's Crusade
+
+The following situation came up in an EDH game and I'm not sure what is supposed to happen. I control a Cathars' Crusade, Nahiri, the Lithomancer and a Skullclamp on the battlefield.
+I activate Nahiri's +2 and equip the Skullclamp to the 1/1 Kor token that is created. Does the 1/1 get the passive +1/+1 bonus from Cathars' Crusade before or after the Skullclamp gets equipped? This determines whether I get to kill my own token to draw cards or not.
+
+A:
+
+You will lose your token because the equipment is attached when instructed, but triggered abilities use the stack. On the plus side, you will be able to draw cards.
+
+You activate Nahiri's +2. It goes on the stack.
+[Players get priority]
+Nahiri's +2 resolves:
+
+Put a 1/1 white Kor Soldier creature token onto the battlefield. Cathars' Crusade's ability triggers.
+You may attach an Equipment to the Kor Soldier at this point. Say you attach Skullclamp to it.
+
+The Kor Soldier with Skullclamp equipped dies here. Skullclamp's triggered ability triggers.
+Cathars' Crusade's ability and Skullclamp's triggered ability are placed on the stack in the order of your choice. The order doesn't matter here, so say you place Skullclamp's triggered ability on the stack first.
+[Players get priority]
+Cathars' Crusade's ability resolves:
+
+Put a +1/+1 counter on each creature you control.
+
+[Players get priority]
+Skullclamp's ability resolves:
+
+Draw two cards.
+
+Glorious Anthem would have saved your token since the token would be affected by Glorious Anthem's continuous effect at all times both are on the battlefield.
+

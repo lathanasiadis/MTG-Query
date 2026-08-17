@@ -1,0 +1,12 @@
+Q:
+
+Does transforming a card thats been temporarily stolen remove its target status from it?
+
+Ok so let's say you've stolen a creature from an opponent with Zealous Conscripts.  You then play Mystic Reflection and then flicker it with Ghostly Flicker, which puts it back onto the battlefield under your control, and transformed into a Blightsteel Colossus.  Since it is no longer the Target creature from Zealous Conscripts, would it still return to its opponent's control?
+
+A:
+
+You do keep the creature, but not because of Mystic Reflection.
+Whenever an object changes zones, it becomes a completely new object, with no memory of its previous existence (other than some exceptions that don't apply here). In this case, Ghostly Flicker moves the creature to exile then back to the battlefield. Once that happens, it is no longer "the creature that was taken by Zealous Conscripts" and it is instead "a new creature that entered the battlefield under your control". So, there is no previous controller for it to return to. You just control it.
+Mystic Reflection doesn't matter here because changing an object's characteristics doesn't change which object it is, and that is the thing that matters for an effect like on Zealous Conscripts. In fact, if you used an effect like True Polymorph to turn the creature into a Blightsteel Colossus without it leaving the battlefield, it would still return to the opponent's control at the end of the turn.
+

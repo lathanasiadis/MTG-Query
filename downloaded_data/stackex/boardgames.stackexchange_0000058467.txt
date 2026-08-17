@@ -1,0 +1,20 @@
+Q:
+
+How do Elesh Norn, Mother of Machines and Spark Double interact?
+
+When Spark Double enters the battlefield and wants to copy a planeswalker, but the trigger triggers an additional time (e.g. because of Elesh Norn, Mother of Machines), does the first copy of a planeswalker leave loyalty counters for the second copy trigger of a planeswalker. Does it add up, the loyalty counters, in case of double trigger?
+
+A:
+
+Spark Double's ability is not a triggered ability and so does not profit from Elesh Norn, Mother of Machines' ability.
+Spark Double's copying ability is not a triggered ability:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+It is a static ability with a replacement effect:
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+As such, it does not benefit from "triggers another time" abilities.
+Also, if several Spark Doubles copy the same planeswalker, even if they enter the battlefield at the same time, each copy will get the full amount of loyalty counters.
+

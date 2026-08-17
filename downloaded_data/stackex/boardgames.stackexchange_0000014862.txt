@@ -1,0 +1,25 @@
+Q:
+
+If a creature planeswalker is dealt damage by a creature with infect, what happens?
+
+If a planeswalker than has been turned into a creature (not a planeswalker that turns itself into a creature with "prevent all damage" like Gideon) takes Infect damage, what happens?
+I know that Infect damage is applied as -1/-1 counters, and I know that the planeswalker will have both damaged marked on it, as well as have it's loyalty reduced, but what I'm unsure of is if the -1/-1 counters further reduce the loyalty or if they only impact the power / toughness.
+As a follow-on, do the -1/-1 counters stay on the planeswalker when it is no longer a creature? And if so, could this be used to prevent a Gideon from using it's "become a creature" ability (or at least kill it if it does)?
+
+A:
+
+Loyalty counters are different and separate from the -1/-1 counters produced by infect. -1/-1 counters affect power and toughness only. If an infected Planeswalker reverts to a non-creature, the -1/-1 counters will have no effect. They will remain until otherwise removed, or until the permanent changes zones.
+Non-creature Planeswalker vs Infect Damage
+
+Lose loyalty equal to the infect damage per rule 119.3c.
+Do not gain infect counters. Rule 119.3d only applies to creatures.
+
+Creature Planeswalker vs Infect Damage
+
+Lose loyalty equal to the infect damage per rule 119.3c.
+Gain -1/-1 counters equal to the infect damage per rule 119.3d.
+
+Example
+Gideon, Champion of Justice has five loyalty counters and five -1/-1 counters. If he resolves his zero ability to become a creature, Gideon will die the next time state-based actions are checked.
+Planeswalkers are not subject to the same state-based action where a player with ten poison counters automatically loses the game. Planeswalkers cannot gain poison counters.
+

@@ -1,0 +1,19 @@
+Q:
+
+Does kicker make my spell multicolor?
+
+An opponent was playing with a Rewards of Diversity, which makes him gain 4 life each time one of his opponents plays a multicolored spell.
+I played Probe ({2}{U}) and paid the kicker cost (an extra {1}{B}).
+Does Probe count as a multicolored spell? Does my opponent gain 4 life?
+
+A:
+
+No.  Probe is not a multicolored spell, regardless of whether it was kicked.
+The color of a card is based solely on the mana cost defined in the top-right corner.  Using a Kicker ability (or anything else that modifies the cost of the card) does not change the color of the card.
+
+Relevant entries from the comprehensive rules (emphasis mine):
+
+105.2. An object can be one or more of the five colors, or it can be no color at all. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame. An object’s color or colors may also be defined by a color indicator or a characteristic-defining ability. See rule 202.2.
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the illustration.
+202.4. Any additional cost listed in an object’s rules text or imposed by an effect isn’t part of the mana cost.
+

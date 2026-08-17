@@ -1,0 +1,16 @@
+Q:
+
+Can I pay a "when this attacks, you may pay energy" cost multiple times?
+
+So say I have an Aetherstream Leopard and I have 10 energy counters to spend, when I attack with it can I spend all 10 energy counters to give it a +20/+0?
+And same thing with an Aether Swooper, spend 10 energy counters when attacking to create 5 servos?
+
+A:
+
+What you have there are examples of triggered abilities. They say "Whenever [this card] attacks, ..." and this means that the moment you declare them as attackers, the ability triggers once and only once, and it's put on the stack.
+When the ability resolves you follow the text of the ability: you either pay the mentioned energy cost or you don't. You don't have the option of paying it several times in a single trigger because the ability doesn't say you do. And it doesn't trigger multiple times because "Whenever [this card] attacks, ..." is specifically a simplification of "When you declare [this creature] as an attacker, ...".
+You would have been able to pay an arbitrary amount of energy if either of the following had been the case:
+
+If the ability were an activated ability. Activated abilities look like "Cost: Effect". So if the swooper had had "[2 energy symbols]: Create a 1/1 artifact servo token", you could've created an army at any time, provided you had enough energy.
+If the triggered ability had explicitly let you pay as much energy as you wanted. If the leopard had had "Whenever Aetherborn Leopard attacks, pay any amount of [energy symbol]. Aetherborn Leopard gets +2/+0 for each [energy symbol] spent this way" you could've pumped it to be as large as you wanted, provided you had enough energy.
+

@@ -1,0 +1,20 @@
+Q:
+
+If I target my own Rancor with a Terastodon will the effect still take place and give me a 3/3 elephant token?
+
+If I target my own Rancor with a Terastodon will the effect still take place and give me a 3/3 elephant token?
+I ask this question because there is a ruling on Terastodon that says:
+
+If a targeted permanent has indestructible or regenerates, its controller won't get an Elephant token for it. Similarly, if the targeted permanent is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, its controller won't get an Elephant token for it.
+
+So I suppose the question is, does the effect of Rancor returning to its controller's hand count as a replacement effect?
+
+A:
+
+Yes, you will still get the 3/3 Elephant token when you destroy your Rancor with your Terastodon.
+Rancor's ability is not a replacement effect, it is a triggered ability. The ability triggers and moves Rancor to your hand after it has already moved to the graveyard. The relevant rule is 112.3c:
+
+Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and include (and usually begin with) the word "when," "whenever," or "at." Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it's countered, it resolves, or it otherwise leaves the stack. See rule 603, "Handling Triggered Abilities."
+
+So, when your Terastodon's ability resolves targeting Rancor, a few things happen. First, your Rancor is destroyed (and moved to the graveyard) and you get an Elephant token. Then, when the ability has finished resolving, you get priority and Rancor's third ability is put on the stack. Finally, Rancor's ability resolves and it moves from the graveyard to your hand.
+

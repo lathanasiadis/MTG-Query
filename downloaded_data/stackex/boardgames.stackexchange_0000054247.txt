@@ -1,0 +1,21 @@
+Q:
+
+Can one choose a card with Bestow when searching for an Aura?
+
+Sovereigns of Lost Alara says "you may search your library for an Aura card that could enchant that creature".
+Could it find a card with Bestow (that can be cast as an Aura), e.g. Ghostblade Eidolon?
+
+A:
+
+No.
+In your deck, cards with Bestow are just normal Enchantment Creatures because that's what is written on the type line.
+The Bestow ability only functions in zones that the card cast be cast from (normally your hand). Bestow does nothing at all to a card in your library.
+
+702.102. Bestow
+
+702.102a Bestow represents a static ability that functions in any zone from which you could play the card it’s on.
+
+Even if the Bestow ability did function, Bestow doesn't change your card into an aura unless it is put onto the stack stack by casting it using the Bestow cost.
+
+702.102b As a spell cast bestowed is put onto the stack, it becomes an Aura enchantment and gains enchant creature. It is a bestowed Aura spell, and the permanent it becomes as it resolves will be a bestowed Aura.
+

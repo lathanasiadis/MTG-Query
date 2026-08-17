@@ -1,0 +1,27 @@
+Q:
+
+Does Silent Gravestone stop eternalize
+
+I have Silent Gravestone in play, does that stop creatures from using embalm or eternalize?
+
+A:
+
+No. (Mostly)
+Silent Gravestone's abilities read
+
+Cards in graveyards can't be the targets of spells or abilities.
+{4}, {T}: Exile Silent Gravestone and all cards from all graveyards. Draw a card.
+
+The first ability prevents targeting in much the same way Hexproof and Shroud do.  So do embalm and eternalize target?
+Embalm is defined as follows:
+
+702.127a [...] “Embalm [cost]” means “[Cost], Exile this card from your graveyard: Create a token that’s a copy of this card, except it’s white, it has no mana cost, and it’s a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery.”
+
+Eternalize is defined as follows:
+
+702.128a [...] “Eternalize [cost]” means “[Cost], Exile this card from your graveyard: Create a token that’s a copy of this card, except it’s black, it’s 4/4, it has no mana cost, and it’s a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery.”
+
+There is no mention of targeting in embalm and eternalize, therefore Silent Gravestone's ability won't affect them.
+Generally speaking, an ability that only affects the card it is on doesn't target, while abilities that affect other cards do (unless it's affecting all cards of a specific type, like Silent Gravestone)
+That said, Silent Gravestone's second ability will prevent players from embalming or eternalizing any of the creatures it exiles.
+

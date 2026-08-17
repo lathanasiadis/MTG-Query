@@ -1,0 +1,15 @@
+Q:
+
+Can I trigger an end of turn effect with another end of turn effect?
+
+Say I have a Crested Sunmare, Essence Warden, and Angelic Accord out on the field and I have gained 3 life this turn. Crested Sunmare triggers, creating a 5/5 horse token. This triggers Essence Warden and gives me 1 life. Can I now create an angel token? Is the new life gain from Essence Warden still on the "current turn" or will it be on the next turn (ie. I will be able to create another horse on the next turn's end step)?
+
+A:
+
+In general, all of these end step abilities trigger at the same time, and may be able to influence each other. In this specific scenario, gaining life during your end step will not cause Angelic Accord to create angel tokens.
+Abilities that trigger "at the beginning of your/each end step" all trigger at the same time, and you can choose to put them on the stack in any order. However, Angelic Accord's triggered ability has what is called an "intervening if" clause, which means that if the condition isn't met, it doesn't even go on the stack in the first place (Crested Sunmare's ability works like that too, but that's not immediately relevant). So by the time Crested Sunmare's ability and then Essence Warden's abilities trigger and resolve, Angelic Accord's ability already failed to trigger, so it's too late to try to meet its condition.
+
+Is the new life gain from Essence Warden still on the "current turn" or will it be on the next turn (ie. I will be able to create another horse on the next turn's end step)?
+
+If an ability triggers from some event happening, the triggered ability resolves in the same step as the event that triggered it (the untap step is an exception, but that's not relevant here). In this situation, the Crested Sunmare's ability triggers and resolves in the end step, so the Essence Warden's ability also triggers and resolves in that same end step. At that point it's still the same turn as when that step started, and not the next turn.
+

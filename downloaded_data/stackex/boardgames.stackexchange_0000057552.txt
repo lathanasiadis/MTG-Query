@@ -1,0 +1,22 @@
+Q:
+
+Myrkul + Palisade Giant how does it work?
+
+I was going through my cards as I worked on a Myrkul, Lord of Bones commander deck and saw my Palisade Giant. Does the giant's effect:
+
+All damage that would be dealt to you and other permanents you control is dealt to Palisade Giant instead.
+
+work if it has been turned into an enchantment by Myrkul?
+
+Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that’s a copy of that card, except it’s an enchantment and loses all other card types.
+
+A:
+
+No, Palisade Giant's damage redirection effect will not work if it is not a creature.
+
+614.9. Some effects replace damage dealt to one creature, planeswalker, or player with the same damage dealt to another creature, planeswalker, or player; such effects are called redirection effects. If either creature or planeswalker is no longer on the battlefield when the damage would be redirected, or is no longer a creature or planeswalker when the damage would be redirected, the effect does nothing. If damage would be redirected to or from a player who has left the game, the effect does nothing.
+
+This stems from a more general rule:
+
+120.1a Damage can’t be dealt to an object that’s neither a creature nor a planeswalker.
+

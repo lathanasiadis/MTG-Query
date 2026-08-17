@@ -1,0 +1,27 @@
+Q:
+
+Can a creature be set up to regenerate and still deal combat damage?
+
+Regeneration has passed through several changes in its rulings. It now says that after the regen has been resolved, creature must tap and be removed from combat. This means a lot, and it is quite different from the old MTG ruling: for instance, old cards (just like Clay Statue, and many others) are almost completely obsolete. But it is better to take a modern card to make examples, and questions about it. 
+If Skithiryx, the Blight Dragon has been blocked by a 5/5 flying creature, his controller has 2 options:
+
+Leave the dragon fight and deal his 4 infect damages to the 5/5 blocker, but Skithiryx dies too, since its controller has chosen to do not regenerate it; or,
+Regenerate Skithiryx, and therefore remove it from the combat – but this means that dragon isn’t able to deal his 4 infect damages to the flying blocker.  
+
+Is all this example correct? 
+
+A:
+
+We are able to regenerate Skithiryx and assign combat damage. Option 2 is not accurately depicting how regenerate works.
+When we use an ability or spell that says "regenerate (some creature)", we are not then and there performing the regenerate procedure (tap it, remove it from combat, remove damage marked on it). Instead, we're applying a sort of shield. Next time the creature dies, the shield gets used up and the regenerate procedure happens.
+Specifically, Regeneration is a replacement effect that replaces the next time the creature would be destroyed. You can read about it in the comprehensive rules under rule 701.14.
+It's a bit confusing and that's part of why regenerate has faded away.
+In the case of Skithiryx, this is what will typically happen in your example:
+
+I attack with Skithiryx. You block it with your 5/5.
+At the end of the blocking step, before combat damage happens, I activate Skithiryx's regenerate ability. Nothing happens now, but the regeneration shield is made.
+We advance to combat damage. Simultaneously, your 5/5 deals 5 damage to Skithiryx, then Skithiryx assigns 4 infect damage to your 5/5.
+Immediately after combat damage, state-based actions are checked. Skithiryx has lethal damage marked on it and so would be destroyed. The regeneration shield we created is now applied and expended: we tap Skithiryx, remove all combat damage from it, and remove it from combat (which hardly matters since combat is almost over at this stage).
+
+So ol' Skithy deals its damage and survives, and you now have a 1/1 flier.
+

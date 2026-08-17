@@ -1,0 +1,22 @@
+Q:
+
+How to tell which old cards can deal damage to planeswalkers
+
+In the Dominaria rules update, they got rid of the planeswalker redirection rule, where non-combat damage dealt to a player could be redirected to a planeswalker that player controlled.  As a result of this a number of cards (such as Lightning Bolt) have been given errata so that they can now deal damage to planeswalkers.
+Obviously the current oracle text is the source of truth for which cards can and can't deal damage to planeswalkers now, but is there a simple set of rules for which cards were changed so that you do not need to look this up every time in casual play?
+
+A:
+
+The Dominaria Frame, Template, and Rules Changes article has the set of rules they used to decide which cards to errata (under the "Planeswalker Redirection Rule" section).  To summarize:
+
+"target creature or player" --> "any target" (ex. Lightning Bolt)
+"target player"/"target opponent" --> "target player or planeswalker" (ex. Lava Spike and Jeskai Charm).  Exception: the text is unchanged if the amount of damage is calculated by using information about that player or objects they control (ex. Sudden Impact or Jovial Evil)
+Everything else has not changed, except for Vial Smasher the Fierce, which can optionally damage any planeswalker that player controls.
+
+Spells that deal damage to a player and then do something else to at least one permanent that player controls (like Bonfire of the Damned) have been additionally patched: “that player controls” → “that player or that planeswalker’s controller controls”. 
+These rules do not apply to cards printed in or after Dominaria. For example, Gravitic Punch cannot target planeswalkers as it was printed post-errata. You can tell that a card was printed before Dominaria if it meets one of these criteria:
+
+It has a copyright date of 2017 or earlier.
+It was from the Rivals of Ixalan set, which has the set code RIX and this set symbol: 
+It was from the Masters 25 set, which has the set code A25 and this set symbol: 
+

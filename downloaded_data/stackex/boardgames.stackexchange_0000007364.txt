@@ -1,0 +1,33 @@
+Q:
+
+Can I counter a land-creature?
+
+Say my opponent plays Dryad Arbor. Can I counter it with a Cancel from my hand? I know that lands can't be countered because they don't go on the stack, but what about land-creatures?
+
+A:
+
+The short answer is that Dryad Arbor can't be countered because it can only be played as a land, not a spell. Here's the supporting statement from the card's Oracle rulings:
+
+Dryad Arbor is played as a land. It doesn't use the stack, it's not a
+  spell, it can't be responded to, it has no mana cost, and it counts as
+  your land play for the turn.
+
+And the card's reminder text:
+
+(Dryad Arbor isn't a spell, it's affected by summoning sickness, and
+  it has "{T}: Add {G} to your mana pool.")
+
+If you prefer rules over rulings, let's start with the rule saying you can't counter land:
+
+305.1. ... Playing a land is a special action; it doesn't use the stack (see rule 115). Rather, the player simply puts the land onto the
+  battlefield. Since the land doesn't go on the stack, it is never a
+  spell, and players can't respond to it with instants or activated
+  abilities.
+
+Moreover, you'll want to note this section of the comp rules:
+
+305.9. If an object is both a land and another card type, it can be played only as a land. It can't be cast as a spell.
+
+Essentially, this rule is saying that the Land card type overrides the normal behavior of the various spell card types.
+This rather esoteric rule isn't actually required for Dryad Arbor to work the way that it does -- simply having no listed mana cost would mean that you can't play it like a normal spell, while being of the Land type would allow it to be played as a land. My best guess as to why it's there is that the original multi-typed lands, Mirrodin's artifact lands, were much more "land" than "spell," so this was codified in the rules for playing them. I take it as not so much saying that a land with a mana cost would still be uncastable as precluding the existence of such a card altogether.
+

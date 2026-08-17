@@ -1,0 +1,20 @@
+Q:
+
+Can Equinox counter a spell that would destroy a land only because of replacement effects?
+
+Suppose I control Umbra Mystic and a land that's also an Aura.
+(Note that I could find no combination of cards that could actually create an Aura land, so this question may just be pie in the sky. I did find a convoluted way to create an Equipment land but that's probably not relevant.)
+An opponent casts a spell to destroy the creature the Aura land is attached to. With totem armor, the Aura land is to be destroyed instead. Can I tap another land enchanted with Equinox to counter that spell?
+My instinct is to say no, because the replacement effect adds a layer of indirection to the spell, such that the spell is not what destroys the land.
+
+A:
+
+No, your instinct is correct.
+There are 2 relevant gatherer ruling on Equinox:
+
+Equinox will not counter a spell which would indirectly cause destruction of one of your lands.
+
+Equinox will not counter a spell that deals damage to an animated land, even if it would deal more damage than the land's toughness. This is because the spell itself does not destroy the land directly. The land is destroyed by a game rule.
+
+In your example, the spell your opponent cast to destroy the creature is not what would destroy the aura; the totem armor ability's replacement effect is.
+

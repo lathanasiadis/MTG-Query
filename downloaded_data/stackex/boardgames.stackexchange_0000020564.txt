@@ -1,0 +1,31 @@
+Q:
+
+Enchantment and other continuous effects priority
+
+I have read a lot of questions about the priority in the stack and the triggered abilities.  However, I would like to validate my understanding of the continuous effects priority rule.
+
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+Here's a scenario:
+
+Player A has a plain.
+
+Player B cast a Phantasmal Terrain on it and change it to a swamp.
+At this point, the plain will end up as a swamp
+
+Player A use a Gaea Liege ability to turn it into a forest.
+At this point, the plain will end up as a forest
+
+Player B also cast a Phantasmal Terrain on it and change it to a island.
+At this point, the plain will end up as an island
+
+Once again, player A use his Gaea Liege ability to turn it into a forest.
+At this point, the plain will end up as a forest
+
+Is my logic ok?
+
+A:
+
+Yes, that is entirely correct. Whenever a continuous effect comes into existence, it gets a timestamp, which represents when it came into existence relative to other effects. And, all of those effects you described affect Layer 4, so as you surmised, the order in which they are applied depends on when they were created.
+It's important to note that at the end of this sequence, there are 4 continuous effects modifying the land's subtype. Whenever you want to figure out what the land's subtype is, you apply all of the effects in order. This is important because it means that when one of the effects stops applying, you just remove it from the list. For example, if Gaea's Liege leaves the battlefield, the land will be an island.
+

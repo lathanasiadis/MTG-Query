@@ -1,0 +1,26 @@
+Q:
+
+Can you respond to a mandatory action loop?
+
+I was thinking about triggered abilities that form a mandatory loop. For example, an opponent loses a life which triggers the enchantment 'Exquisite Blood' causing you to gain a life which triggers Vizkopa Guildmage's 2nd ability which causes the opponent to lose a life whenever you gain life which would trigger Exquisite Blood, etc.
+It appears that once this starts, you cannot cast until the loop ends. Is this right?
+
+A:
+
+Both Sanguine Bond's and Vizkopa Guildmage's abilities are triggered abilities (you can tell because they begin with the word "whenever"). They go on the stack and can be responded to. You could, for example, end the loop by casting Naturalize to destroy Sanguine Bond.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect].
+[Instructions (if any).]”
+
+What may have confused you are the rules regarding loops that contain only mandatory actions:
+
+719.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+719.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+Unfortunately, 719.4 is poorly worded. The game does not draw the moment that you enter a loop containing only mandatory actions. You and your opponent both have an opportunity to interrupt the loop at the point of your choice. Only when you both choose to do nothing does the game draw.
+As pointed out by a few others, Sanguine Bond and Vizkopa Guildmage alone do not qualify as "a loop containing only mandatory actions". Eventually one player will lose the game. This covered by the rules on taking shortcuts:
+
+719.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices [...]. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. [...]
+
+However, if you add Phyrexian Unlife to the mix, and neither you nor your opponent do anything to interrupt the loop, then the game will draw.
+

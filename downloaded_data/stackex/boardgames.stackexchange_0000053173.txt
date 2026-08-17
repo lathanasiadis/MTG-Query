@@ -1,0 +1,23 @@
+Q:
+
+If I cast Path to Exile on Leonin Arbiter, can the owner search without paying {2}?
+
+Leonin Arbiter says:
+
+Players can't search libraries. Any player may pay {2} for that player to ignore this effect until end of turn.
+
+If I cast Path to Exile on the Arbiter, its controller would usually be able to search for a basic land. Arbiter makes it so that they can't search the library unless they pay {2}, but the Path also removes Arbiter, and once it's no longer on the battlefield presumably its effect doesn't apply anymore. Can the Arbiter's controller search for a basic land or not?
+
+A:
+
+Leonin Arbiter's ability stops working immediately when it's exiled, even during the resolution of a spell or ability. If you exile it with Path to Exile, Leonin's controller may search their library whether or not they paid the cost this turn.
+Leonin Arbiter's ability is a static ability that modifies the game rules.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+It creates its effect while Leonin Arbiter is on the battlefield. As soon as the Arbiter has left the battlefield, it stops working. Spells and abilities resolve all their steps in the order written.
+
+608.2c The controller of the spell or ability follows its instructions in the order written. [..]
+
+So by the time Path of Exile's resolution comes to the "search your library" step, Leonin Arbiter is already exiled, its ability no longer applies, and its controller may search their library.
+

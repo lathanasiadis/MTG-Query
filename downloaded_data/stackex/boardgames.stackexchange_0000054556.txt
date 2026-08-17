@@ -1,0 +1,31 @@
+Q:
+
+If Conclave Mentor & Spike Feeder enter the battlefield at the same time, does the Spike Feeder get three +1/+1 counters?
+
+Conclave Mentor:
+
+If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on that creature instead.
+
+Spike Feeder:
+
+Spike Feeder enters the battlefield with two +1/+1 counters on it.
+
+If I find these two creatures with Collected Company and put them into play at the same time, does the Spike Feeder enter the battlefield with two +1/+1 counters, or three?
+I'm guessing three for the same reason Valakut, the Molten Pinnacle sees every other Mountain entering the battlefield at the same time after a Scapeshift, but it apparently doesn't work that way on MTGO.
+
+A:
+
+No, the Spike Feeder will not "see" the Conclave Mentor, and it will not get the extra counter.
+Both of these creatures' effects are replacement effects. The wordings of replacement effects are described in the subrules of rule 614.1. Conclave Mentor's is covered by 614.1a, and Spike Feeder's is covered by 614.1c:
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+In particular, Spike Feeder's replacement effect modifies how it enters the battlefield, so the details of how that works are described in rule 614.12:
+
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+The last clause is the important one here: replacement effects from other cards can only apply to a permanent entering the battlefield if those effects already exist. Replacement effects modify an event before it happens, so if another permanent is entering the battlefield at the same time (Conclave Mentor, in this case), it is not actually on the battlefield yet so its abilities don't exist yet.
+
+This works differently from Valakut because Valakut's ability is a triggered ability. Triggered abilities are checked for after an event occurs, while replacement effects are applied before the event happens.
+

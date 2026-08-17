@@ -1,0 +1,24 @@
+Q:
+
+Can multiple Thorncaster Slivers grant multiple copies of the same ability?
+
+If I have two Thorncaster Slivers, does their effect stack? That is, do the other slivers I have get the "1 damage" ability twice?
+If not, why? What rule makes it so they can't have the ability twice?  If I had a different card with same ability would they get it twice? What if the different card had a slightly different wording? Or caused 2 damage instead of 1?
+In what situations would a creature be allowed to have two copies of the same ability (if ever)?
+
+A:
+
+Yes, they will have two copies of the ability:
+
+112.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that
+  may be strung together on a single line (see rule 702, “Keyword
+  Abilities”), each paragraph break in a card’s text marks a separate
+  ability. If the object is not represented by a card, the effect that
+  created it may have given it multiple abilities. An object may also be
+  granted additional abilities by a spell or ability. If an object has
+  multiple instances of the same ability, each instance functions
+  independently. This may or may not produce more effects than a single
+  instance; refer to the specific ability for more information.
+
+Two copies of the triggered ability will mean two damage whenever a sliver attacks.
+

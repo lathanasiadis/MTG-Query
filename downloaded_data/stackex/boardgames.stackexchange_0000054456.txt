@@ -1,0 +1,21 @@
+Q:
+
+Can Ghired, Conclave Exile and Helm of the Host go infinite?
+
+So in a Commander match a buddy threw down Helm of the Host and Ghired, Conclave Exile. He attached the equipment to his Commander and swung out. Given the cards' rules texts, what goes onto/off of the stack and does this interaction would result in an infinite combo?
+
+A:
+
+No. Ghired does not go infinite with Helm of the Host. Whenever ~ attacks abilities trigger when those creatures are declared as attackers - You will be able to attack with the original Ghired and the token created by Helm of the Host, both of which will trigger populate, but the tokens that those populate abilities create will not have their abilities trigger.
+Each turn you can more than double the number of Ghired creatures you have, and gain 4/4s from his enters the battlefield, but the populate abilities on those new tokens will not trigger. This is covered by rule 508.2a and 508.3a of the comprehensive rules (emphasis mine):
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+
+508.3a An ability that reads “Whenever [a creature] attacks, . . .” triggers if that creature is declared as an attacker. Similarly, “Whenever [a creature] attacks [a player or planeswalker], . . .” triggers if that creature is declared as an attacker attacking that player or planeswalker. Such abilities won’t trigger if a creature is put onto the battlefield attacking.
+
+It is also in the rulings for Ghired on gatherer (emphasis mine):
+
+Although the token is an attacking creature, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won’t trigger when it enters the battlefield attacking.
+
+Since the tokens were not declared as an attacker, but forced in attacking, the populate does not trigger.
+

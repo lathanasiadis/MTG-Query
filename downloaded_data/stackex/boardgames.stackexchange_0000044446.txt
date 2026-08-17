@@ -1,0 +1,16 @@
+Q:
+
+Would March of the Machines make artifacts trigger creature enter the battlefield effects?
+
+I am wondering if I had a March of the Machines in play and played a Boros Signet, would it trigger a 'creature enters the battlefield' effect?
+
+A:
+
+Yes, it would. The Comprehensive Rules say:
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don’t apply before the permanent is on the battlefield, however (see rule 603.6d).
+  Example: If an effect reads “All lands are creatures” and a land card is played, the effect makes the land card into a creature the moment it enters the battlefield, so it would trigger abilities that trigger when a creature enters the battlefield. Conversely, if an effect reads “All creatures lose all abilities” and a creature card with an enters-the-battlefield triggered ability enters the battlefield, that effect will cause it to lose its abilities the moment it enters the battlefield, so the enters-the-battlefield ability won’t trigger.
+
+(emphasis mine)
+Your situation is identical to the example but with 'land' replaced by 'artifact'.
+

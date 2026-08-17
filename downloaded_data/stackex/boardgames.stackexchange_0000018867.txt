@@ -1,0 +1,22 @@
+Q:
+
+Would stealing control of my opponent's commander with Control Magic and killing it let me maintain control of it?
+
+If I played Control Magic and enchanted Marath, Will of the Wild, then took off the 3 counters, would Marath return to my opponent's command zone or would I retain control and have the option of casting him for his mana cost?
+
+A:
+
+No, you won't retain control. Your enchantment will fall off and go to your graveyard, and Marath will go to your opponent's graveyard or command zone.
+The primary reason is that when a creature changes zones, this rule kicks in:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Also, whenever a creature dies, it moves to its owner's graveyard - not its controller's. You don't become Marath's owner, just its controller temporarily. (There are lots of different rules covering the situations a creature might  die, but they all handle it the exact same way.)
+When Marath dies, he (she? I don't know) is going to move to his owner's graveyard like any other creature. If Marath is your opponent's commander, your opponent has the option to instead move him to the command zone.
+
+903.11. If a commander would be put into its owner’s graveyard from anywhere, that player may put it into the command zone instead.
+
+Either way, Marath changes zones. From the perspective of your Control Magic enchantment, the creature it enchanted has vanished completely, and so the enchantment goes to your graveyard. It doesn't move with Marath, just like how cards don't stay enchanted when they move to your graveyard. Elsewhere, in another zone, a brand new object called Marath, Will of the Wild appears, with no relation to the creature the enchantment once enchanted.
+Your opponent regains total control of Marath, and can cast him from the command zone as usual (if your opponent chose to move him there, instead of to their own graveyard).
+Even if you manage to take "permanent" control of Marath (e.g. with Perplexing Chimera), you still don't own him, and he'll return to your opponent's graveyard or command zone when he dies. Control of Marath is returned to your opponent completely thanks to 400.7 and business as usual resumes.
+

@@ -1,0 +1,14 @@
+Q:
+
+What happens when a 5/5 blocks a 6/4?
+
+I was playing MTG with my friend. I attacked with a 6/4 and he blocked with a 5/5. He says my 6/4 should die because its toughness is less than its block even though my creatures attack (a 6) is bigger than his creatures toughness (5).
+
+A:
+
+Unless one of those creatures has First Strike or Double Strike, they will deal combat damage simultaneously. The following will happen:
+
+Your 6/4 will deal 6 damage to your opponent's 5/5. (Note that 6 ≥ 5.)
+At the same time, your opponent's 5/5 will deal 5 damage to your 6/4. (Note that 5 ≥ 4.)
+State based actions kick in, see that both creatures have damage greater than or equal to their toughness, and both creatures die.
+

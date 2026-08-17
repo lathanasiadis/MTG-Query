@@ -1,0 +1,33 @@
+Q:
+
+Can Cancel counter a creature on the battlefield?
+
+Say, I have Cancel, which is an Instant, on my hand. It can counter any spells. 
+The opponent has had a creature, for example Ajani's Pridemate, on the battlefield for several turns attacking and blocking.
+Can I use my Cancel onto Ajani's Pridemate and send it to the graveyard (or to its owner's hand)?
+
+A:
+
+A creature on the battlefield is no longer a spell.
+(as Gendolkari says)
+Once your opponent's Ajani's Pridemate makes it onto the battlefield, there is nothing Cancel can do to stop it's reign of attacking and blocking terror.  Here are the step by step actions that were taken, including the only time your Cancel can hope to stem the tide of destruction caused by Ajani's cat friend.
+
+Your opponent chooses to cast Ajani's Pridemate from their hand.
+They place Ajani's Pridemate onto the table and says "I cast Ajani's Pridemate" to explicitly indicate that they are casting the spell, rather than accidentally dropping it onto the table. The spell is now "on the stack".
+They pay any costs involved in casting the spell (mana cost, and any additional costs such as sacrificing a creature for Fling).
+Your opponent, having not explicitly stated they are retaining priority implicitly passes priority to you. The spell is in the process of being cast, but has not yet resolved. It is still a creature spell on the stack.
+
+At this point, if you do nothing, the creature spell will resolve, it will make it onto the battlefield, and your Cancel will not be able to do anything about it. This is your first and last chance to prevent the otherwise inevitable cat invasion.
+After your opponent passes priority, with the spell on the stack, you gain priority, and have the opportunity to cast any and all instants, or cards with flash, or activate any abilities of creatures you control for which you can pay the costs. This includes your Cancel.
+
+You gain priority and with it the opportunity to cast Cancel targeting the Ajani's Pridemate spell on the stack.
+You do so, your Cancel goes on the stack above Ajani's Pridemate.
+You implicitly pass priority.
+Your opponent has nothing else they can do, and so must state "Cancel resolves" or something equivalent, indicating that they too pass priority without doing anything.
+The top card of the stack resolves, this is your Cancel. Cancel's effect happens, removing Ajani's Pridemate from the stack and sending it to the graveyard.
+Everything is fine, the world is once again safe from marauding cat men.
+
+I recognise the above is a long-winded and thorough answer to your question, and the majority of it is overkill for the interaction that you are asking about. However, it should give you some insight into the complexity of the game. We should be clear, there are games where every one of these steps is absolutely critical to the victory of a player, and doing things at the exact right time can make the difference between winning and losing.
+TL;DR
+The only time your Cancel can target the Ajani's Pridemate is the moment when they pay mana to cast it from their hand. At this point, before it officially enters the battlefield (even though it may be physically "on" the battlefield i.e. the table), you always have an opportunity to say "No, because I cast Cancel". After that moment, it would be too late.
+

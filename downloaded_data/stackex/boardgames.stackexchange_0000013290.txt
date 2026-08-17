@@ -1,0 +1,43 @@
+Q:
+
+How many illusions will Lightning Bolt and Wild Ricochet get rid of?
+
+My opponent has a number of illusion creatures on the board. Let's just say they're Phantasmal Bear.
+I cast a Lightning Bolt on one bear. I then respond to my own bolt with a Wild Ricochet, which gives my original bolt a new target, and copies the bolt.
+Assuming my original bolt targeted Bear A, and I redirected it to Bear B, and I target Bear C with the copied bolt, are all three bears sacrificed by my opponent? When does that sacrifice have to take place?
+
+A:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with
+  the word "when," "whenever," or "at." They can also be expressed as
+  "[When/Whenever/At] [trigger event], [effect]."
+
+The bear's ability is a triggered ability.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that's not a card the next time a player would
+  receive priority. See rule 116, "Timing and Priority." The ability
+  becomes the topmost object on the stack. It has the text of the
+  ability that created it, and no other characteristics. It remains on
+  the stack until it's countered, it resolves, a rule causes it to be
+  removed from the stack, or an effect moves it elsewhere.
+
+After you cast the lightning bolt, you are a player and you get priority, bear A's sacrifice ability is put on the stack. You still have priority. You cast the ricochet.
+So the stack looks like this:
+
+Wild Ricochet
+BearA Sacrifice
+Lightning Bolt
+
+Then if everyone passes, wild ricochet resolves. As it resolves you choose to target bears B and C.
+Now the stack looks like this:
+
+BearB/C Sacrifice
+BearB/C Sacrifice
+(copy) Lightning Bolt
+BearA Sacrifice
+Lightning Bolt
+
+If all players pass priority after each ability resolves then the bears would be sacrificed in the order you see on the stack.
+Between each sacrifice ability resolving, priority passes and players can add to the top of the stack.
+So yes all three are sacrificed, and none of them are actually dealt any damage.
+

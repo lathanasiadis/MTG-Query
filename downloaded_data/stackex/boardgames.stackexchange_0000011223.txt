@@ -1,0 +1,18 @@
+Q:
+
+How does priority work in these cases?
+
+I understand the ruling that when a Planeswalker resolves the player controlling the walker can activate its ability without their opponent getting priority in between. 
+Are there any other rules that take on priority that are important?
+How does priority work for these circumstances?
+
+A player's sorcery spell resolves. Does the player have the priority to do something else knowing that there is no ETB effect to consider, or does it go to the opponent who gets to do something after the sorcery resolves?
+If an opponent controls a triggered ability that triggers on their opponent's upkeep, and that player also has an upkeep effect, who determines arrangement of the stack if multiple triggered effects happen?
+
+A:
+
+After any stack-using effect(spell, ability, or otherwise) resolves, or whenever any player would get priority, the Active Player, (the player who's turn it is) gets priority first, and then the NonActive Player gets priority after the active player passes priority.
+A player may put any number of spells onto the stack before they pass priority.  
+If multiple sources controlled by both players would trigger an effect at the same time, they're put on the stack in APNAP order. The Active player puts effects from his sources on the stack first, and he chooses the order for his own effects.  After all of the active player's effects have gone onto the stack, than the Non-active player can put his effects onto the stack, and he can chose the order in which they go onto the stack.  
+This results in the Non-active player's spells resolving first.  
+

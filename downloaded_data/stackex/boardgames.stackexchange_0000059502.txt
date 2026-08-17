@@ -1,0 +1,23 @@
+Q:
+
+Wayta Trainer Prodigy & Non-straight forward damaging effects
+
+Wayta, Trainer Prodigy is a pretty easy card to understand. If something being dealt damage would cause an ability to trigger it happens twice. So effects like Polyraptor would create two copies from one damage source. Rite of Passage+Creature would add 2x +1/+1 counters, and Stuffy Doll would deal 2 damage instead of 1.
+How does Wayta interact with cards like Marauding Raptor?
+Marauding Raptor has a damaging component, and an effect based on if damage done & creature type match, but it's not worded as straight forward as traditional Enrage cards. Do these two interact, assuming the initial triggering effect is a 3/3 Vanilla Dinosaur?
+Additionally: Does Wayta care about "Excess Damage", and when those effects trigger?
+Most cards that use the "Excess Damage" mechanic have clauses specifying they only affect opponent creatures, or they're non-permanents. Wayta does not care about those cards. One outliner is Maarika, Brutal Gladiator (Zangief). If some effect allowed Maarika under your control to somehow over-damage one of your other creatures, causing you to sacrifice a permanent, would Wayta also be able to double that effect?
+(Something you normally wouldn't want to happen, obviously. This is the only example currently, being a permanent and doesn't specify opponent-creatures. If there are better examples please mention them.)
+
+A:
+
+Wayta does not interact with Marauding Raptor.
+Wayta only doubles the triggers of abilities that trigger off your creature being dealt damage. However, the ability of Marauding Raptor is triggered by another creature entering the battlefield. The +2/+0 effect is part of that ability's effect itself, conditional on the damaged creature being a Dinosaur. It's not a triggered ability itself.
+
+113.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability. [..]
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+Wayta does interact with Maarika.
+When your Maarika deals damage to a creature you control, the resulting damage event has one of your creatures receiving damage. That causes Wayta to double the event. Excess damage only factors into this insofar as it determines whether or not Maarika triggers at all.
+

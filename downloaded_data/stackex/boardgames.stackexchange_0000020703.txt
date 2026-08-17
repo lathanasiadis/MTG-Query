@@ -1,0 +1,32 @@
+Q:
+
+What happens if I must attack with two creatures, but am only allowed to attack with one?
+
+I'm a little confused about what happens when the enchantment Dueling Grounds and Juggernaut. 
+Juggernaut must attack each turn if able. Dueling Grounds only allows one creature to attack each turn. What happens if a player has multiple Juggernauts and Dueling Grounds in play?
+
+I'm thinking there are a couple options here. The first is that rule 717.1 applies, which reads:
+
+717.1. If a player takes an illegal action or starts to take an action but can't legally complete it, the entire action is reversed and any payments already made are canceled. [...]
+
+This rule would indicate that both Juggernauts become untapped and neither are declared as attackers. If this is the case, is the whole Declare Attackers step reversed? The illegal action occurs as part of rule 508.1 at the beginning of the game:
+
+508.1. First, the active player declares attackers. This turn-based action doesn't use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 717, "Handling Illegal Actions"). (emph. mine)
+
+Because the player declares two attackers as part of 508.1, but the player isn't allowed to, this seems to indicate that the game returns to pre-508.1 conditions. But if this is the case, does the player get to declare another attacker?
+
+My intuition tells me that the Active Player must declare both Juggernauts as an attack, which is illegal and is reversed, sending the phase back to the beginning of Declare Attackers. At this point, they could declare one of the two Juggernauts as an attacker. However, this is an inordinately complicated interaction, and I have very little confidence that I'm right.
+Could somebody possibly clarify what happens in this situation?
+
+A:
+
+You have to declare one of the Juggernauts as attackers. You cannot declare both of them as attackers. The important rules that you missed are under 508.1:
+
+508.1c The active player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't attack, or that it can't attack unless some condition is met). If any restrictions are being disobeyed, the declaration of attackers is illegal.
+
+508.1d The active player checks each creature he or she controls to see whether it's affected by any requirements (effects that say a creature must attack, or that it must attack if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal. If a creature can't attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed.
+
+If you declare both Juggernauts as attackers, it would violate the Dueling Grounds restriction, so it would be illegal per 508.1c. If you declare neither as an attacker, you are following 0 of the 2 relevant requirements, so it would be illegal per 508.1d.
+However, if you declare one of the Juggernauts as an attacker, then no restrictions are disobeyed, so it passes 508.1c, and 1 requirement is obeyed, which is the maximum number that could be obeyed with Dueling Grounds on the battlefield. That makes it a legal attack.
+It's important to remember that when the rules say that a choice is illegal, it doesn't mean "you should go back and make a choice"; it means "you never should have made this choice". Rule 717 is there to handle the case where you broke a rule and the game state is fixable. There is never a case where you must make an illegal choice.
+

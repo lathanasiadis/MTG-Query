@@ -1,0 +1,24 @@
+Q:
+
+Does killing a face-down morph trigger the death triggers printed on the card?
+
+Consider a card like Ashcloud Phoenix (or, for that matter, any card with a death triggers that's turned face down by an Ixidron).
+
+When Ashcloud Phoenix dies, return it to the battlefield face down.
+
+If I play my Phoenix face down as a morph creature, and it gets killed (say, by a Lightning Bolt), what happens next? Do I get to return it to the battlefield face down, or will it just stay dead in my graveyard?
+
+On the one hand, it was face down when it left the battlefield, and thus had no abilities.
+On the other hand, it enters my graveyard "face up."
+
+So, does its graveyard trigger apply?
+
+A:
+
+Ashcloud Phoenix's ability does not trigger, and it stays in the graveyard.
+Rule 603.6d says
+
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities... will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
+
+Since the phoenix did not have the ability before it was destroyed, the ability does not trigger.
+

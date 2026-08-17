@@ -1,0 +1,37 @@
+Q:
+
+How does Rite of the Raging Storm work in Two-Headed Giant?
+
+A while back, some friends and I played a Two-Headed Giant game. During that game I played a Rite of the Raging Storm, and I want to check if how we played it was accurate:
+
+During each team's upkeep, both team members would each get a 5/1 Lightning Rager token, so each team had two 5/1's available each turn.
+The Lightning Ragers of the enemy team could not attack our team, as the "you" in the first ability applied to our team as a whole.
+
+Safe to say we were able to deliver 10 damage every turn with our Lightning Ragers and theirs sat there uselessly... hence me wanting to check we played it out correctly.
+Did we handle that right?
+
+A:
+
+You played that partially correctly. Each player does get their own trigger to get a Lightning Rager token. However, your opponents' Lightning Ragers can attack your teammate.
+Rule 810.7 says
+
+The Two-Headed Giant variant uses the combat rules for the shared team turns option (see rule 805.10). This is a change from previous rules.
+
+Then rule 805.10b says
+
+As the declare attackers step begins, the active team declares attackers. For each attacking creature, the attacking team announces which defending player or planeswalker that creature is attacking. The active team has one combined attack, and that set of attacking creatures must be legal as a whole. See rule 508.1.
+
+So, the Rite of the Raging Storm only prevents those Lightning Ragers from attacking you, but it doesn't apply if your opponents declare that they are attacking your teammate.
+The change mentioned in rule 810.7 happened in the Dominaria Comprehensive Rules change, and that article has this to say about the change:
+
+Here's the big Two-Headed Giant change—we're no longer dealing with "attack the team, use some mental gymnastics to figure out the defending player." Now you simply attack players or planeswalkers, not the team.
+This results in a handful of changes: Propaganda effects are worse, but prevention effects can be used sensibly. Plainswalkers and planeswalkers both behave pretty much the same, except you can't attack one player and call the other your defending player. Saboteur triggers ("when this deals combat damage . . . can be anticipated more meaningfully.
+
+Note: Regarding the upkeep triggers: the rules for Two-Headed Giant do not directly address "at the beginning of..." triggers, but a ruling on Ghirapur Orrery confirms that "at the beginning of each player's upkeep" triggers for each player, not each team:
+
+In a Two-Headed Giant game, Ghirapur Orrery’s second ability triggers for each player on a team separately. If one player has cards in hand, it can still trigger for the other player.
+
+This is notably different from a trigger condition that says "at the beginning of each upkeep"; Sun Droplet, for example, has this ruling:
+
+In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+

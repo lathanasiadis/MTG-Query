@@ -1,0 +1,11 @@
+Q:
+
+Does "When enter on the battlefield" trigger heroic?
+
+When a Satyr Grovedancer enters on the battlefield and I choose a creature with heroic to recieve the a +1/+1 counter, does it trigger the heroic? I don't think so because the heroic says explicitly that when a spell targets that creature but I would like to check.
+
+A:
+
+No. Heroic abilities trigger whenever you cast a spell that targets this object. Creature spells (e.g. Satyr Grovedancer) do not target. Satyr Grovedancer has a triggered ability that targets, but abilities aren't spells.
+In contrast, Gossamer Phantasm has the ability When Gossamer Phantasm becomes the target of a spell or ability, sacrifice it. Targeting Gossamer Phantasm with Satyr Grovedancer's triggered ability would trigger Gossamer Phantasm's. (Gossamer Phantasm's will resolve first.)
+

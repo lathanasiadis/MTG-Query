@@ -1,0 +1,32 @@
+Q:
+
+When is a creature's toughness calculated
+
+At what point is a creature's toughness calculated? If I have Korozda Guildmage where I can sacrifice a creature and put X 1/1 token creatures onto the battlefield, where X is the sacrificed creature's toughness.
+If I have a creature that is 4/4 and cast Giant Growth to give it +3/+3 then sacrifice it? Do I get 4 tokens or 7?
+Also what if my 4/4 creature was dealt 2 combat damage before I sacrificed it? Do I get 2 or 4 creatures?
+Finally, what about counters? If my 4/4 had a +1/+1 do I get 4 or 5 tokens?
+
+A:
+
+At what point is a creature's toughness calculated?
+
+It's continually calculated. The real question is when does Korozda Guildmage's ability check the creature's toughness.
+Korozda Guildmage's ability checks the creature's toughess as it resolves because it's not needed before then [CR 107.3e]. Since the creature no longer exists at that point, last known information is used [CR 112.7a]. Effectively, that means the total toughness of the creature at the time it was sacrificed is used.
+
+If I have a creature that is 4/4 and cast Giant Growth to give it +3/+3 then sacrifice it? Do I get 4 tokens or 7?
+
+7. Giant Growth increases the toughness of a creature.
+
+Also what if my 4/4 creature was dealt 2 combat damage before I sacrificed it? Do I get 2 or 4 creatures?
+
+4. It's a 4/4 with 2 damage marked on it. Damage does not reduce toughness. (Well, damage from a source with wither or infect can reduce toughness, but only indirectly, by virtue of giving -1/-1 counters.)
+
+Finally, what about counters?
+
++1/+1 counters, -1/-1 counters and any other similar counters affect toughness.
+
+If my 4/4 had a +1/+1 do I get 4 or 5 tokens?
+
+5. Effects that modify toughness (such as Giant Growth's or Glorious Anthem's) modify toughness.
+

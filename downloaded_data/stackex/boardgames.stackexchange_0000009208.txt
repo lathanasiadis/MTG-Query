@@ -1,0 +1,40 @@
+Q:
+
+Is it possible to counter cards that boost a creatures power during the combat phase?
+
+For example, if someone attacks with a 3/3 creature, and you have a 5/5 creature that will ultimately block and destroy his creature.
+If they boosts their creature with a +3/+3 spell, can you counter the spell?
+If they boost their creature with an equipment card, during his combat attack phase, can you counter that?
+What, if anything, does this have to do with the "Stack"?
+
+A:
+
+It depends on what he's doing, and what you have available.
+If your opponent has a card like Serra Avenger, which is a 3/3, and he attempts to cast Giant Growth, giving the avenger +3/+3 until end of turn, then you can counter that with a spell like Cancel or by activating the ability of Judge's Familiar (assuming he can't or chooses not to pay the cost associated with the familiar). Otherwise, the aveneger, now a 6/6, will swallow a 5/5 in combat.
+Note that he can cast the Giant Growth during his attackers step, or during your blockers step (after you've declared blockers). Consider the following scenario:
+
+Him: delcare attacks
+
+Him: declare Aveneger as attacker
+
+You: block with Thundermaw Hellkite, a 5/5
+
+Him: cast Giant Growth on Avenenger
+
+Result: Aveneger, 6/6 lives, has 5 damage on it, and Hellkite is dead
+
+It's important to note that this is not equipment, but an instant speed spell. Equipment plays by different rules: here's how those scenarios might play out.
+If your opponent has a card like Manaforce Mace then he can't equip that during his combat phase, because he can only attach it at sorcery speed. But if you had three basic land types, then you'd have +3/+3 allowing you to take out the Hellkite in the above scenario. Note that this wouldn't really be a surprise like the Giant Growth would be, because you'd have to do this during combat.
+If your opponent has a card like Cranial Plating then he could equip that during his combat phase with the activated ability. You can counter this only if you have something that allows you to counter abilities (not spells), for example Stifle
+Another option would be something that allows equipment at instant speed, like Brass Squire. You could do this:
+
+Him: delcare attacks
+
+Him: declare Aveneger as attacker
+
+You: block with Thundermaw Hellkite, a 5/5
+
+Him: tap Brass Squire, attaching Manaforce Mace (which was already on the field, not from your hand, and assuming you have 3 basic land types) to Avenger.
+
+Result: Aveneger, 6/6 lives, has 5 damage on it, and Hellkite is dead
+

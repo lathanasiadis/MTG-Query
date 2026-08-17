@@ -1,0 +1,27 @@
+Q:
+
+In response to Meren's end of turn trigger, could I sacrifice a creature?
+
+When the end of my turn comes around, Meren of Clan Nel Toth lets me target a creature in my graveyard to either bring back to the battlefield or return to my hand. In response to this trigger being put on the stack, could I sacrifice a creature with something like Ashnod's Altar or High Market, thus killing it and sending to the graveyard and being able to be targeted by Meren of Clan Nel Toth's ability?
+The reason I am asking is so to see if I can flicker a creature with Conjurer's Closet, then sacrifice it, then reanimate it with Meren of Clan Nel Toth.
+
+A:
+
+You cannot sacrifice a creature in response to Meren's triggered ability and then bring that creature back with the ability, but you can sacrifice a creature at any time before that in the turn and bring it back with the ability.
+For all abilities and spells, including triggered abilities like on Meren, you choose targets as part of the process of putting the spell or ability on the stack. So by the time you have a chance to respond, the target is already set. In the situation you describe, the sequence of events plays out like this:
+
+The end step begins. Meren's ability triggers.
+You put Meren's ability on the stack. As part of the process of doing that, you choose the target, which has to be a creature card that is in your graveyard at this time.
+You gain priority, which means that you have a chance to respond. At this time you can sacrifice a creature.
+Meren's ability resolves and it returns the creature chosen in step 2 to the battlefield or your hand.
+
+Adding in a Conjurer's Closet doesn't really change anything, but that situation plays out like this:
+
+The end step begins. Meren's ability and Conjurer's Closet's ability both trigger.
+You put Meren's ability on the stack first. As part of the process of doing this, you choose the target, which is a creature card that is in the graveyard at this time.
+You put Conjurer's Closet's ability on the stack second, on top of Meren's ability. As part of this process, you choose the target, which is a creature you control.
+You have a chance to respond with both abilities on the stack.
+Conjurer's Closet's ability resolves. It exiles the creature chosen in step 3, then returns it to the battlefield.
+You have a chance to respond to Meren's ability. At this time you can sacrifice a creature.
+Meren's ability resolves and it returns the creature chosen in step 2 to the battlefield or your hand.
+

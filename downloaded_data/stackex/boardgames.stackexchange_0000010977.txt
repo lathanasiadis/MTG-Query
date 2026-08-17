@@ -1,0 +1,28 @@
+Q:
+
+Is this card worded correctly and balanced?
+
+I created this card recently and just want to make sure that it's balanced and that its ability is worded correctly/functionally:
+
+Wojek Lionheart (1)RW
+  Creature - Human Soldier [Uncommon]
+  First strike
+  Wojek Lionheart may block while tapped and blocks each turn if able.
+"The people may rise against us, but that does not excuse me of my oath to defend them."
+  2/1
+
+Is there a better way to word that second ability?
+
+A:
+
+While the way you have the ability worded is 'proper', normally they give a creature this mechanic in the form of Vigilance. In this way, the card may be tapped by some external source and then made unable to block, but will not be unable to block because he attacked last turn (which is the most common reason he would become tapped). To have a creature that cannot be evaded by tapping him significantly increases his power level, but as noted in the comments greatly increases his complexity. I find it hard to justify the complexity increase for the increase gained when such an elegant alternative exists.
+On a related note:
+Being attack heavy is very much red's thing. It is part of red's color pie to force opponents to block (flavor wise, that's being so aggressive they simply must defend themselves), not very much in red's color pie to block themselves. Simply put, red is not a very block-happy color. Boros (the guild of this card) is very haste heavy,
+I would compare your card to Truefire Paladin if you're looking for recent examples of similar creatures.
+As far as tweaking it to make it red, I would do one of the following:
+
+Make it cost RW and make it First strike, vigilance, ~ attacks each turn if able. ~ blocks each turn if able.
+Make it First strike, vigilance, haste.
+
+Bottom line: adding red does not encourage it to block. Adding red would make it much less likely to be able to block. If you want to keep the tap-blocking mechanic, I would make it cost 1WW.
+

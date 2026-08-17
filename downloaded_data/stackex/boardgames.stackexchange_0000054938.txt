@@ -1,0 +1,26 @@
+Q:
+
+Why does Blood Moon kill Urza's Saga?
+
+I've seen this happen on Magic Online and I don't get why. Shouldn't Blood Moon just turn Urza's Saga into an Enchantment Land - Mountain? Why does it kill the Saga instead?
+Only thing I can think of is that Blood Moon makes Urza's Saga reach its third chapter, but I don't see why that would be the case. The Saga dies instantly once Blood Moon enters the battlefield, not on the next main phase too.
+Relevant cards:
+
+Urza's Saga
+Blood Moon
+
+A:
+
+(Basically cribbing from this Ask-the-Judge post on Facebook)
+Blood Moon causes Urza's Saga to become a Mountain; this is setting a land's subtype to a basic land type, so is covered by Comprehensive Rule 305.7:
+
+If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. [...] Setting a land’s subtype doesn’t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have.
+
+This means that Urza Saga loses all its chapter abilities, but notably does not lose the Enchantment type and Saga subtype. CR 714.2d now applies:
+
+A Saga’s final chapter number is the greatest value among chapter abilities it has. If a Saga somehow has no chapter abilities, its final chapter number is 0.
+
+and now the state-based action from 714.4 applies:
+
+If the number of lore counters on a Saga permanent is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.
+

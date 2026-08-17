@@ -1,0 +1,26 @@
+Q:
+
+Is it possible to cast 2x Final Payment while sacrificing just one creature?
+
+Situation:
+
+Player A controls 2 creatures.
+Player B controls 1 creature.
+Player B plays 1x Final Payment and declares his creature as additional cost.
+Before resolving the spell, Player B plays another Final Payment, once again declaring his creature as additional cost.
+
+What happens here?
+
+Option 1: Only the second Final Payment is executed since the additional costs for the previously casted spell aren't paid.
+Option 2: Both creatures of Player A are destroyed while Player B only sacrificed one creature.
+
+I suppose it's option 1 but we had a draft the other day where my opponent claimed that option 2 would be correct.
+
+A:
+
+Step 4. is not possible; sacrificing the creature is part of the cost of the spell, so it is done while the spell is cast, not when it resolves. Player B just cannot play the second Final Payment and the card stays in his/her hand; only the first Final Payment is executed.
+
+117.8. Some spells and abilities have additional costs. An additional cost is a cost listed in a spell's rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time they pay the spell's mana cost or the ability's activation cost. Note that some additional costs are listed in keywords; see rule 702.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a-d) and determination and payment of costs (rules 601.2f-h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, "Handling Illegal Actions").
+

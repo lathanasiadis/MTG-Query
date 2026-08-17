@@ -1,0 +1,14 @@
+Q:
+
+Can I bring Blightsteel Colossus back to my graveyard before it gets shuffled into my library?
+
+If I discard a Blightsteel Colossus and the "Shuffle into library" trigger goes on the stack, can I, in response, do something to bring it back from my graveyard before it gets shuffled, such as by Cloudshifting Sharuum the Hegemon?
+
+A:
+
+No. Brightsteel Colossus does not have any triggered abilities. Those start with "when", "whenever", or "at". Its last ability is a static ability that creates a replacement effect. You can tell because it uses "instead". It changes what it means to discard Brightsteel Colossus. Brightsteel Colossus never enters the graveyard when it is discarded.
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and include (and usually begin with) the word “when,” “whenever,” or “at.” Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it’s countered, it resolves, or it otherwise leaves the stack. See rule 603, “Handling Triggered Abilities.”
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like “shields” around whatever they’re affecting.
+614.6. If an event is replaced, it never happens. A modified event occurs instead [...]
+

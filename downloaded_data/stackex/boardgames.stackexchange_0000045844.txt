@@ -1,0 +1,26 @@
+Q:
+
+Oath of Teferi targeting Oath of Teferi?
+
+So I know that ETB happens before the legendary rule kicks in, and you have to choose a target for sacrifice before ETB. So if I play a new Oath of Teferi, I first choose to sacrifice the old Oath of Teferi, then target Oath of Teferi for exile until , then would the legendary rule fail? And if so, can I just sit there and juggle the Oath of Teferi's until I find a better target for it?
+
+A:
+
+No.
+
+So I know that ETB happens before the legendary rule kicks in
+
+Well, the ability triggers as soon the object enters the battlefield, but nothing else happens just yet. Specifically, it's not placed on the stack just then, so its targets aren't picked just then.[CR 116.2a]
+The next time a player would get priority, state-based actions are first performed, and then triggered abilities are added to the stack.[CR 704.3]
+
+State-based actions (SBAs) are what enforce the Legend Rule. As such, you need to move one of the Oaths to the graveyard before the new Oath's triggered ability is placed on the stack, and therefore before the triggered ability's target is chosen.
+
+Even if we pretend SBAs are performed after triggered abilities are placed on the stack, the answer is still no.
+Once the old Oath is moved to the graveyard, it becomes a new object. Objects don't really move between zones; it's more accurate to say that they cease to exist, and a new object is created in the new zone. This means that when the triggered ability gets to resolves, it wouldn't be able to find the Oath you targeted since it doesn't exist anymore.[CR 400.7]
+Instead of resolving, the ability would be removed from the stack with no effect because it only has illegal targets.[CR 608.2b]
+
+116.2a Triggered abilities can trigger at any time, including while a spell is being cast, an ability is being activated, or a spell or ability is resolving. (See rule 603, "Handling Triggered Abilities.") However, nothing actually happens at the time an ability triggers. Each time a player would receive priority, each ability that has triggered but hasn't yet been put on the stack is put on the stack. See rule 116.5.
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step's first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule: [None are relevant here]
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word "target," are now illegal, the spell or ability doesn't resolve. It's removed from the stack and, if it's a spell, put into its owner's graveyard. Otherwise, the spell or ability will resolve normally. Illegal targets, if any, won't be affected by parts of a resolving spell's effect for which they're illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don't apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won't happen.
+

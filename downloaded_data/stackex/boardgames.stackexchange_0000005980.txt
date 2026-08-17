@@ -1,0 +1,34 @@
+Q:
+
+What general strategy exists for countering a white swarm/pump deck?
+
+A white swarm/pump deck is a deck with a lot of small, inexpensive white creatures that are subsequently improved by enchantments such as Honor of the Pure or other bonuses.
+The goal of this deck is to kill off the opponent before they can develop their strategy.
+What deck types are effective in countering this sort of deck?
+
+A:
+
+"Kill off the opponent before they can develop their strategy" is the standard gameplan of aggro decks. The question "How to prevent being overrun in the early game?" addressed some general aspects of dealing with aggro decks.
+One way to deal with aggro is to play like a control deck: force your opponent onto your timetable by dedicating your early plays to negating his, while the natural momentum of playing land every turn moves the game closer towards your big endgame strategy. This article explores this idea in detail.
+Among creature-based aggro decks, the "classic" white weenie deck is notable for several qualities:
+
+Poor reach: What white distinctly lacks is the ability to get damage in despite a board stall. At best, you've got flyers, which still compare unfavorably to red's direct burn.
+Good creatures: White's low-curve creatures, like Champion of the Parish and Blade Splicer, tend to have excellent stats and combat-enhancing abilities.
+Strong answers: White has some of the easiest access to multifaceted removal, with cards like Path to Exile, Disenchant, and Oblivion Ring. In most formats, white also has at least some powerful hosers, like Grand Abolisher and Leonin Arbiter.
+
+The lack of reach means that creature damage is pretty much this deck's only way to win (whereas against red decks you also have to worry about cards like Shrine of Burning Rage even after you've set up adequate creature defense). Therefore, your main goal is to deny your opponent the ability to attack profitably.
+The typical tools used by control to combat creature-based aggro are:
+
+Sweepers like Supreme Verdict are one of your most effective tools. These are really strong because you can set back several turns of your opponent's development with one spell, but often you need support from other cards to avoid getting hammered long enough to use them. In the early game, 2-for-1 spells like Arc Trail are like cheaper sweepers. Since this is traditionally creature aggro's biggest weakness, you can expect a well-built deck to have some way to reduce the impact — for example, like Doomed Traveler, Boros Charm, and Moorland Haunt.
+Spot removal and counterspells are the classic answers to individual threats. 1-for-1 removal isn't great against big gangs of cheap guys, but, in this case, its value generally increases with the number of anthem effects your opponent plays (since their decks are running fewer net creatures). One advantage of counterspells over removal is that you get to stop nasty ETB abilities (e.g. Blade Splicer, Stoneforge Mystic) and you can handle spells that create multiple creatures (e.g. Midnight Haunting) more easily; generally players don't run a lot of counterspells against aggro decks because removal is more efficient and doesn't constraint your timing nearly as much, though.
+Blockers are handy for reducing incoming damage. Ideally you'd like to be able to kill some of their creatures every time they attack, but sometimes just a few turns of chumping is sufficient (which is why Timely Reinforcements and Kitchen Finks are great cards).
+Bounce and life gain essentially force your opponent to spend a turn making the same attack or summoning the same creature he used last turn. These aren't as effective as straight-up destruction but are often available more cheaply or in colors your deck can more easily use. Life gain is best when it's attached to something else, so that you're not just giving your opponent a free turn to develop a superior board position.
+
+Which you should play generally depends on your deck, since you'll want to pick cards that are useful to you in many different situations. Sweepers work best when they don't constantly destroy your own guys, for instance, while even aggro decks make use of some spot removal to clear the way for their attackers or pick off particularly nasty utility creatures.
+When playing against anthem effects like Honor of the Pure, generally it's more useful to kill creatures than to remove the anthem. The exception is when the pump-up is super-significant, either due to the size of the buff (e.g. Tempered Steel, True Conviction) or the volume of creatures receiving it (like Intangible Virtue in a deck that's routinely creating 3-4 tokens a turn; ideally you want to shut down the token maker, though). If your opponent is running Swords, those are usually worth directly removing as well.
+...
+There are times when this advice doesn't apply:
+
+When your deck is faster than your opponent's. If that's the case, you can "race" instead of adopting a control posture. Do note that some white decks include several control-oriented cards like Timely Reinforcements and Day of Judgment in their sideboards, allowing them to play control against faster aggro opponents.
+When you opponent isn't actually trying to swarm you with creatures. With access to a "deeper" card pool, like Legacy and Modern, a critical volume of powerful utility creatures allows mono-white to run in a rather untraditional aggro-control kind of style normally more common in blue decks (U/W, Bant, RUG). I'm assuming that's out of scope for this question, though.
+

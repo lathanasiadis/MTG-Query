@@ -1,0 +1,26 @@
+Q:
+
+What happens when I copy a creature whose characteristics change before the copy resolves?
+
+If I cast a spell to copy a target creature and then a second spell is put on the stack, say one which changes the creature to a 0/1 red Weird. What creature does the copy spell create?
+
+A:
+
+Only the printed text will be copied, unless the other spell was also a copy effect. It doesn’t matter if another effect changes the to-be-copied creature’s stats or abilities.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+This works this way because of the layer system that controls how different continuous effects work together. When determining what an object currently looks like, the copy effect is applied first, and the other changes made are applied after. 
+
+Interaction of Continuous Effects
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1a Layer 1: Copy effects are applied. See rule 706, “Copying Objects.”
+613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, “Text-Changing Effects.”
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+

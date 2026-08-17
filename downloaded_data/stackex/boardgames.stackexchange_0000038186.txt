@@ -1,0 +1,15 @@
+Q:
+
+Token copies with Scarab God
+
+If I control The Scarab God and I activate his second ability and target Consuming Aberration is the token copy a 4/4 or is it still equal to the number of cards in my opponents' graveyard?
+
+A:
+
+It is a 4/4.
+Because The Scarab God's copy ability sets the power and toughness, the characteristic defining ability of Consuming Aberration is not copied.
+
+706.9d When applying a copy effect that doesn’t copy a certain characteristic, retains an original value for a certain characteristic, or modifies the final value of a certain characteristic, any characteristic-defining ability (see rule 604.3) of the object being copied that defines that characteristic is not copied. If that characteristic is color, any color indicator (see rule 204) of that object is also not copied.
+
+Example: Quicksilver Gargantuan is a creature that reads, “You may have Quicksilver Gargantuan enter the battlefield as a copy of any creature on the battlefield, except it’s still 7/7.” Quicksilver Gargantuan enters the battlefield as a copy of Tarmogoyf, which has a characteristic-defining ability that defines its power and toughness. Quicksilver Gargantuan does not have that ability. It will be 7/7.
+

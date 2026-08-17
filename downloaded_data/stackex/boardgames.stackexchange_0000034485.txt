@@ -1,0 +1,20 @@
+Q:
+
+Living End/Living Death (EDH)
+
+I have a Mazirek, Kraul Death Priest and Yahenni, Undying Partisan on the battlefield and I cast Living End. Pretend every player has 5 creatures, and there are 4 players (including me).
+Do the abilities of Mazirek or Yahenni trigger after the Living End resolves or do the abilities disappear?
+For example:
+I cast Living End and sacrifice five creatures including Mazirek/Yahenni my three opponents each sacrifice five creatures as well.
+So do the abilities of Mazirek or/and Yahenni go on the stack and if so do they resolve and put counters on the appropriate creatures?
+
+A:
+
+For Mazirek, your creatures that started in your graveyard, and are placed on the battlefield by Living End would get 19 +1/+1 counters after Living End resolves.  The gatherer page even says:
+
+If a permanent is sacrificed to pay a cost of a spell or ability, Mazirek’s ability will resolve before that spell or ability. Conversely, if a permanent is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Mazirek’s ability is put onto the stack.
+
+For Yahenni, the ability will trigger (and be put on the stack after Living End resolves), but won't do anything since Yahenni is no longer there.
+
+If Yahenni and a creature an opponent controls die simultaneously (perhaps because they fought or were in combat together), Yahenni won’t be on the battlefield as its triggered ability resolves. It can’t be saved by the +1/+1 counter that would have been put on it.
+

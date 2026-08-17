@@ -1,0 +1,25 @@
+Q:
+
+Is it possible to copy a land with Mimic Vat that is turned into creature by an enchantment?
+
+I am considering creating a deck which utilizes a strange combo if it can be done.  It uses Mimic Vat in combination with Awaken the Ancient.
+I want to make it so that when my land, which is a 7/7 giant with haste (that's still a land), is sent to the graveyard I can copy it with Mimic Vat's imprint ability.
+
+Is it possible to do this? (Awaken the Ancient's is sent to the graveyard separately, and it's ability is what is making the Mountain a creature?
+
+When Mimic Vat creates the token copy, will it be a 7/7?
+
+A:
+
+When a non-creature card such as a land is put into a graveyard from play and it is a creature when it dies, you can use Mimic Vat to exile it, and create tokens later.
+When you do this, you will create tokens of the card that was exiled, Mountain, not the creature that it was when it died.
+One of the rulings on the Gatherer page says:
+
+You may exile a noncreature card with Mimic Vat's first ability. For example, if a nontoken artifact that's become a creature is put into a graveyard from the battlefield, Mimic Vat's first ability triggers and you may exile that card.
+
+With regards to whether the triggered ability will still trigger, even though Awaken the Ancient stops enchanting the Mountain when it dies, rule 603.6d says
+
+Leaves-the-battlefield abilities... will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward.
+
+This means that since the Mountain was still a creature before it left the battlefield (and caused the Aura to become unattached), it does trigger Mimic Vat.
+

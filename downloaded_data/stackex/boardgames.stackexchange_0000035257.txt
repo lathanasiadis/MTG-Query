@@ -1,0 +1,15 @@
+Q:
+
+Question about Sparring Mummy card
+
+Sparring Mummy says: "When Sparring Mummy enters the battlefield, untap target creature." Am I forced to untap a target creature?
+
+Can I cast this card if on the battlefield there are no creatures ?
+Can I cast this card and choose not to untap any creatures if there are any ?
+
+A:
+
+You can cast the creature just fine, since nothing prevents you from casting the creature here (rule 601.3 specifies when you can cast spells and when you can't, however its triggered abilities aren't part of what govern its "castability").
+Its ETB ability isn't optional, but it's still highly unlikely for that to be negative for you. Note that the ability only mentions target creature, not target tapped creature, meaning  that you may target Sparring Mummy itself, or any other untapped creature, with the ability, even though on resolution, if the creature is still untapped, it won't do anything.
+In general, keep in mind that you only have to follow instructions in a very procedural manner in MtG, and never have to "look into the future" to determine what would probably happen - the worst that can happen is that an ability will be countered by the game rules (for example because the creature you targeted with Sparring Mummy's ability was returned to its owners hand), but that never keeps you from choosing that creature as a target in the first place, or even casting it.
+

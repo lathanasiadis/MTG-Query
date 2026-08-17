@@ -1,0 +1,18 @@
+Q:
+
+Animated Urborg and Humility
+
+We all know that a really messed up rules situation must involve a Humility. So here we go. 
+This site discusses the scenario when an Urborg, Tomb of Yawgmoth becomes animated (e.g. via Nissa, Worldwaker), while a Humility is on the board.
+The author of the mentioned article comes to the conclusion that all lands are now swamps, yet Urborg itself cannot be tapped for mana, since it has lost all its abilities to Humility.
+What I don't understand is: Urborg looses its rules text saying that each land is now also a Swamp. So why do the lands continue to be Swamps? Would they loose their Swamp type if Urborg left play?
+
+A:
+
+The lands continue to be Swamps because of the layer system. The layer system, described in section 613 of the comprehensive rules, is one of the most complex parts of the rules to understand and remember correctly. But basically, what it says is that when multiple continuous effects are being applied, (Such as Urborg's effect and Humility's effect), there is an order in which the different types of effects are applied.
+Urborg's effect, as a Type-Changing Effect, is applied in layer 4. After it has been applied, (and all lands are now swamps in addition to their other types), layer 6 is applied, which is Ability Adding or Removing Effects, including the effect from Humility that removes the ability from animated Urborg.
+Every time the game-state changes, these layers are re-applied to get the new current state of things. But whenever they are re-applied, Urborg's effect is applied before Humility's effect.
+And yes, if Urborg left play, then the layers would be re-applied, and now there is nothing to change the lands into Swamps, so they would lose their Swamp type.
+There is a good explanation of the layer system here.
+I think an important key to understanding this is realizing that it's not so much that the other lands "lose their Swamp type" when Urborg leaves play (or when Urborg loses it's ability). Rather, it's that whenever the game-state changes, everything is re-evaluated, starting from what's printed on the card and adding the layers one at a time. So as opposed to the lands "losing" the Swamp type, they simply no longer have it added again.
+

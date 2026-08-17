@@ -1,0 +1,34 @@
+Q:
+
+What happens if a permanent is made to gain and then lose an ability, or vice versa?
+
+Rayami, First of the Fallen is on the battlefield, and currently has hexproof due to a creature exiled by her effect.
+The opponent then activates Shadowspear to remove hexproof.
+My questions are:
+
+Would Rayami lose hexproof?
+
+If so, and a second hexproof creature is exiled with her effect, would she regain hexproof?
+
+If she didn't have hexproof before the Shadowspear activation, then a hexproof creature is exiled with her effect, does she gain hexproof?
+
+A:
+
+Rayami will not regain hexproof from their own ability until end of turn
+All effects granting or removing abilities to creatures (and other permanents) are continuous effects, governed by the Layer system described in rule 613.  Specifically, these are ability-adding and ability removing effects, applied in Layer 6.
+
+613.1f Layer 6: Ability-adding effects, keyword counters, ability-removing effects, and effects that say an object can’t have an ability are applied.
+
+As these are both applied in the same layer, rule 613.7 determines how they are applied.
+
+613.7. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+This means, for example, if I had a creature with hexproof, and then Shadowspear removed that hexproof, I could give that creature hexproof again with Ranger's Guile and it would gain hexproof, but my opponent could remove that hexproof with another activation of Shadowspear.
+If Rayami applied a continuous effect to grant an ability every time a creature was exiled, then they would regain hexproof the way you described.  But that's not how Rayami works.
+Rayami has two abilities - a replacement effect that exiles creatures that die, and a static ability that grants a continuous effect granting abilities.  The timestamp for this continuous effect is Rayami's - the moment when Rayami entered the battlefield.  Changes to which cards are exiled with blood counters doesn't affect this timestamp.  Therefore, additional creatures dying will not grant Rayami hexproof if Shadowspear has already been activated this turn.
+Thus, the answers to your questions are:
+
+Yes
+No
+No
+

@@ -1,0 +1,45 @@
+Q:
+
+Can one draw their commander to the command zone, and would that be a draw?
+
+Let us assume my commander somehow makes it to the top of my library (for example by the effect of Nephalia Academy) and when forced to draw it I instead want to put it in the command zone (for any reason).
+From the rules:
+
+903.9. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or library from anywhere, its owner may put it into the command zone instead.
+
+This seems to imply that one can, instead of putting ones commander in the hand, put the commander in the command zone from the library by a draw effect. Now this creates some questions for me:
+
+Is the card drawn known to the player during the draw, or only after the draw?
+Subsequently, if the top card is only presumed to be the commander, but is actually not, can the player be aware of this while drawing the card?
+Does the replacement of the destination replace the whole draw effect, or just a part of it? Is the card still drawn, even though it didn't go to the hand?
+Or, in other words: At which point during the draw action does the replacement of the destination occur?
+
+P.S: This question can also be read as How does a draw work?, as rule 120 doesn't seem to cover details such as in the above questions.
+
+A:
+
+Yes, you can replace drawing your commander by moving it to the command zone instead.
+J. Sallé's answer already covers all the details about why drawing counts as putting the card into your hand from anywhere, which is what 903.9 lets you replace.
+The answer hinges on the question of whether or not you can know that a card is your commander even when it is in a hidden zone. I found a post from the EDH Rules Committee saying that yes, it does:
+
+Been following this one with some interest to see what people thought. Here's my thinking in writing the rule, and the outcome of discussing it with some of the MTG rules gurus (who don't set the rules for EDH per se, but do realize what does/doesn't work within the rules).
+Generalness was explicitly made a property and not a characteristic because, among other things, characteristics can be copied and overwritten by effects and we don't want Generalness being either copied or overwritten. 
+paperwarrior's point about properties not being defined in the CR is correct. Technically, the closest term to what we want is 'status'... which is things like tapped, flipped,or facedown. Most players however, especially casual players like much of the EDH playerbase, aren't familiar with the magic definition of status... so using that term wouldn't be productive. That's the model we use for Generalness... similar to statuses it's a feature of the cardboard itself. Status flags can only be changed/copied explicitly by effects (so a copy of a tapped creature doesn't become tapped as a result), and statuses can be preserved across zone changes if the rules say so (which they do in the case of Generalness).
+So, what are the outcomes of this model? For the most part they're what we want but the various rules gurus all agreed that the result in the "face down exile" case is unique. Long story short, the location of a General is known to all players at any time no matter which zone it's in, or whether it's face down/face up. That includes being in the library or face-down from something like Tuck+Grimoire Thief, and it means a player has the option to Command-zone their General instead of it being exiled face down.
+This behavior dovetails, as mentioned, with the common approach of putting a general in a unique sleeve. And while it's unique for a card's position to remain known across SBA checks, there are some related precedents in the CR where a card's location remains known in the library during the resolution of a spell (extremely arcane precedent)
+So what changes does this mandate for players? Not many... it only comes up in corner case scenarios. The only trick is shuffling. Shuffling is considered an atomic action in magic... it's indivisible and the player is not aware (technically) of any intermediate states. The deck goes from unshuffled, to shuffled, and the position of every card is randomized. So knowledge of the General's starting position shouldn't have any impact on the shuffling process. To implement that, a player shuffling his or her General into a deck in a different sleeve should take some steps to make sure he/she doesn't know where the General is going to end up. The easiest way to do so is usually a "blind cut" or two. 
+(If the General is in an identical sleeve, there are other minor steps players can take to make sure it doesn't get "lost in exile")
+So, long story short:
+
+Generalness is more like a status than a characteristic, however we just call it a 'property' to match player intuition.
+The location and identity of a General is known to all players at all times, no matter what its status/effects/location. 
+It's only relevant in corner cases, but this is the implementation which causes the least rules headaches.
+
+This is a ruling outside of the Comprehensive Rules; but Commander was designed from the beginning to be a more casual format; where the rules were originally created outside of the Comprehensive Rules, and only added in there later.
+I believe that this rule also can logically follow from CR 903.10a:
+
+903.10a A player that’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
+
+In order to know if you have been dealt 21 or more combat damage by the same commander, you have to know if a given object is a commander or not. The rules don't mention anything about a player having to reveal a card to prove that it is a Commander, rather you simply lose the game when dealt 21 combat damage.
+So if you do not allow for it to be always known which card is the Commander, you could have a situation where a player has lost the game, but no one knows that that player has lost the game. 707.5 allows me to look at my own facedown permanent, but it doesn't require me to, and it doesn't allow other players to do so.
+

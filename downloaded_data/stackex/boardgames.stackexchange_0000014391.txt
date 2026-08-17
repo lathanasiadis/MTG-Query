@@ -1,0 +1,40 @@
+Q:
+
+How does Perplexing Chimera work with multiple triggers on the stack?
+
+Perplexing Chimera is a new card in Born of the Gods. It reads as follows
+
+Enchantment Creature - Chimera
+
+Whenever an opponent casts a spell, you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell. (If the spell becomes a permanent, you control that permanent.)
+
+3/3
+
+As I understand it, the following can happen if I have a Chimera on the battlefield:
+
+My opponent casts some spell (say Shock), and it goes on the stack.
+The Chimera's ability triggers. It is put on the stack.
+My opponent really wants his Shock to resolve, so in response he casts Lightning Strike on my Chimera to kill it before its ability resolves. This is put on the stack.
+The Chimera's (which is still under my control) ability triggers again. It is put on the stack.
+
+At this point, nothing else happens and we start resolving the stack.
+
+The Chimera's ability resolves. I choose to perform the swap. I choose my opponent as the target of the Lightning Strike. My opponent gets control of the Chimera.
+Lightning Strike resolves. My opponent takes 3 damage
+??????
+
+What happens next? Does the ability on the stack fail to resolve? Who (if anyone) gets to choose to use the Chimera's ability on the stack?
+
+A:
+
+Quoting directly from the Born of the Gods Release Notes:
+
+In some unusual cases, you may not control Perplexing Chimera when its triggered ability resolves (perhaps because the triggered ability triggered again and resolved while the original ability was on the stack). In these cases, you can exchange control of Perplexing Chimera and the spell that causes the ability to trigger, even if you control neither of them. If you do, you'll be able to change targets of the spell, not the spell's new controller.
+
+Note that, because both Perplexing Chimera and Shock are controlled by your opponent when the first triggered ability resolves, exchanging their control doesn't change anything by itself, but it does give you (yes, you, even though you still don't control anything) the option to change the Shock's target.
+I'd also like to quote another item in the section on Perplexing Chimera which addresses a misconception you seem to have:
+
+You make the decision whether to exchange control of Perplexing Chimera and the spell as the triggered ability resolves.
+
+That is, the triggered ability goes on the stack regardless of whether you want to make the exchange at that time; you don't decide whether or not to do the exchange until the ability resolves.
+

@@ -1,0 +1,20 @@
+Q:
+
+Redirecting Enrage Damage
+
+If I have a Shaman en-Kor and creature with Enrage (For this instance lets says it's a 0/2 with Enrage). An opponent casts a spell which would deal 2 damage to all creatures.
+I used the Shaman's (0) redirect ability twice to direct the damage to my Enrage-Creature. Would enrage...:
+
+... Enrage trigger just once since all damage is dealt to it at once
+... Enrage trigger twice because of damage from two different sources.
+... Enrage trigger twice because of damage from the spell, then the triggered ability of the shaman hits it?- And can you respond with an instant in-between the damage?
+... Enrage trigger three times total. Once from the spell damage, then twice more since the Shaman's ability redirected two instances?
+
+I've found this question/answer but it skirts around the answer I am looking for:
+What's the timing on Warrior en-Kor's damage redirection?
+
+A:
+
+The Enrage triggered ability only triggers once.
+An instruction like "[This card] deals 2 damage to each creature" deals all of its damage simultaneously in a single damage-dealing event. The Shaman's redirection effects modify that event to deal 4 damage to the creature with enrage and 0 to the Shaman, but the result is still just one event, which only triggers the Enrage ability once.
+

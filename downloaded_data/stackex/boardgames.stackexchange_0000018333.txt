@@ -1,0 +1,28 @@
+Q:
+
+sacred mesa and activated abilities between untap and upkeep
+
+Sacred Mesa says "At the beginning of your upkeep, sacrifice Sacred Mesa unless you sacrifice a Pegasus." It also has an activated ability:
+
+1W: Put a 1/1 white Pegasus creature token with flying into play.
+
+My question is..  so let's say you use 2W to cast it. Then on your next turn you have your untap phase and your upkeep phase. Can you create a 1/1 white Pegasus token between your untap and upkeep phases to prevent Sacred Mesa's self-sacrifice clause from triggering?
+
+A:
+
+Simple Answer
+You can save Sacred Mesa by creating a Pegasus in response to Sacred Mesa's triggered ability.
+Detailed Answer
+Strictly speaking, you can't create a Pegasus between your untap step and your upkeep step because you don't have an opportunity to do so. The beginning of your turn has the following sequence of events:
+
+Your untap step:
+
+You untap your permanents
+
+Your upkeep step:
+
+Abilities that trigger at the beginning of the upkeep go on the stack
+You gain priority.
+
+You can only cast spells and activate abilities when you have priority, so the first opportunity to do so is during your upkeep, when the ability is on the stack though. This still lets you save your Mesa, though, because you can respond to the triggered ability by activating Mesa's activated ability. Because the activated ability went on the stack last, it will resolve first, and you will have your Pegasus before you need to sacrifice one.
+

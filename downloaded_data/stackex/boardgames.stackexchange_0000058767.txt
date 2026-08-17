@@ -1,0 +1,18 @@
+Q:
+
+Does moving counters "put" counters on destination?
+
+I'm particularly trying to figure what interaction there is between Shalai and Hallar and Forgotten Ancient.
+Specifically, Forgotten Ancient says during my upkeep I may move counters to another creature.  Moving doesn't require targeting, so I wanted to make sure that it won't run afoul of other situations too.  If I move counters from Forgotten Ancient to another creature, will that count as putting the counters on the second creature and thus trigger the damage ability of Shalai and Hallar?
+Similarly, I assume Branching Evolution would see it the same way and would let me double the number of moved counters and then do the damage, correct?
+I presume so, but I want to make sure of that.
+
+A:
+
+Yes, moving counters puts counters on an object.
+This is stated in rule 122.5:
+
+If an effect says to “move” a counter, it means to remove that counter from the object it’s currently on and put it onto a second object. [...]
+
+This means that it will trigger any effect that checks for counters being put on objects such as Shalai and Hallar, and any ability that modifies counters being put on an object will modify that event, such as Branching Evolution.
+

@@ -1,0 +1,13 @@
+Q:
+
+Helm of the Host on Rakdos the Showstoper
+
+I'm wondering if you put Helm of the Host on Rakdos, the Showstopper would his coin flip trigger when the copy enters the battlefield?
+
+A:
+
+Yes, a copy retains all abilities of the original card except any modifications specifically noted on the source that created the copy.  In the case of the Helm, the copy is not Legendary if the original is.  When the creature token "enters the battlefield" it's ability will trigger.
+Rule:
+
+706.5. An object that enters the battlefield “as a copy” or “that’s a copy” of another object becomes a copy as it enters the battlefield. It doesn’t enter the battlefield, and then become a copy of that permanent. If the text that’s being copied includes any abilities that replace the enters-the-battlefield event (such as “enters the battlefield with” or “as [this] enters the battlefield” abilities), those abilities will take effect. Also, any enters-the-battlefield triggered abilities of the copy will have a chance to trigger.
+

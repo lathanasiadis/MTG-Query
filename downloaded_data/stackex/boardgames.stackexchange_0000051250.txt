@@ -1,0 +1,26 @@
+Q:
+
+Taranika, Akroan Veteran's ability
+
+When Taranika, Akroan Veteran's ability triggers and I untap another creature, can I declare this creature as an attacker as well? Or maybe attackers are already declared? What happens here? 
+
+A:
+
+No, it is too late to declare another attacker; the triggered ability won't even trigger until it's too late, and after it triggers it must go on the stack and resolve.
+From the rules:
+
+Declare Attackers Step
+
+508.1. First, the active player declares attackers. This turn-based action doesn’t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 725, “Handling Illegal Actions”).
+
+508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, and each one must either have haste or have been controlled by the active player continuously since the turn began.
+[...]
+508.1m Any abilities that trigger on attackers being declared trigger.
+
+508.2. Second, the active player gets priority. (See rule 117, “Timing and Priority.”)
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+508.2b Any abilities that triggered on attackers being declared or that triggered during the process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn’t matter. (See rule 603, “Handling Triggered Abilities.”)
+
+This does mean that you can target another creature that attacked along with Taranika, to untap that creature and also buff it.
+

@@ -1,0 +1,21 @@
+Q:
+
+How do multiple Underrealm Liches interact?
+
+If I have more than one Underrealm Lich on the battlefield and I draw a card, do they both trigger? Would it be the same as if I drew two cards with one Lich? Would one trigger cancel the other one out? Would I look at the top six cards and only choose one? Please Help!
+
+A:
+
+It would be the same as if you only had one.
+Underrealm Lich does not "trigger". It has a static ability that generates a replacement effect; it does not have a triggered ability. 
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+So when you would draw a card, you have two different replacement effects that are trying to replace that card draw. You get to choose which one you apply:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. 
+
+Once you have replaced the draw using one Lich or the other; the other Lich now has nothing to do:
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+

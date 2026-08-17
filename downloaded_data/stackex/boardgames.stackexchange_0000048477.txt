@@ -1,0 +1,18 @@
+Q:
+
+Does equipping an equipment go on the stack?
+
+Say we're in a game of MTG Commander/EDH. I already have Lightning Greaves on the battefield from the previous turn.
+I begin my main phase and I play my commander (Let's say it has no abilities or ETB effects for simplicity).
+No one responds.
+I then activate lightning greaves to equip it to my Commander creature. Can someone play a destroy spell like Murder in response?
+So does that mean Murder is on top of the stack, and my equip is at the bottom? No other responses from other players. The stack then tries to resolve. My creature is destroyed and my artifact effect cannot resolve. Thus my commander did not get Shroud.
+Is this correct?
+
+A:
+
+Equip is a regular activated ability. It goes on the stack and can be responded to. If it didn't resolve yet, the targeted creature is not yet equipped and does not benefit from the equipment in any way.
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. [..]
+

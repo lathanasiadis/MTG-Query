@@ -1,0 +1,14 @@
+Q:
+
+When does Hushwing Gryff prevent abilities from triggering?
+
+Can you play a Hushwing Gryff as the last card from resolving Eureka and stop abilities from triggering? Or does it only prevent the triggers of creatures put into the battlefield after it?
+
+A:
+
+All enters-the-battlefield abilities on permanents that entered the battlefield before Hushwing Griff entered will trigger. Hushwing Griff will only stop the abilities of permanents that are put into play after it.
+Eureka describes a sequence of events: each player, in turn order, puts permanents into play. Any triggered abilities on those permanents will trigger (or not) based on the state of the game as it enters. This is confirmed in a ruling by a level 2 judge in this forum post.
+An article on Gathering Magic has a more directly relevant explanation involving humility:
+
+Eureka and Hypergenesis however both work a bit differently, as they allow players to take turns putting cards onto the battlefield. This means that there is a window for a permanent to exist on the table without Humility in play, even if it is the second card that enters the battlefield from this effect. So, if Angel of Despair is put in by the active player and the ability triggers. Non-active player puts Humility into play, there has been a period of time where Angel of Despair exists without Humility, although no future creatures that come into play off this spell will have abilities trigger, Angel of Despair's ability will trigger and can even target Humility. This works because while the ability has triggered, it cannot be put on the stack until a player can receive priority, which cannot happen until either Hypergenesis or Eureka has finished resolving.
+

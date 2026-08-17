@@ -1,0 +1,21 @@
+Q:
+
+If I have an Equipment equipped to something and it's enchanted by Ensoul Artifact, how is that handled?
+
+Imagine I have an Equipment attached to something, e.g. a Chariot of Victory on a Runeclaw Bear. I then enchant that equipment with Ensoul Artifact.
+Would the Equipment card still grant its effects to the creature it was attached to? Additionally, would it still be able to attack? Or is it treated more like an enchanted creature?
+
+A:
+
+An Equipment Creature can't be attached to anything, so there is no Equipped Creature to which to grant a boon. If a Chariot of Victory was animated using Ensoul Artifact, it would not grant First Strike, Trample and Haste to anything, much less itself.
+
+301.5a The creature an Equipment is attached to is called the “equipped creature.” The Equipment is attached to, or “equips,” that creature.
+
+It's impossible to use the Equip ability of Creature Equipment.
+
+301.5c An Equipment that’s also a creature can’t equip a creature. [...]
+
+If for some reason an Creature Equipment is attached to an object or player, it will cease to be when State-Based actions are performed.
+
+704.5q If a creature is attached to an object or player, it becomes unattached and remains on the battlefield. Similarly, if a permanent that’s neither an Aura, an Equipment, nor a Fortification is attached to an object or player, it becomes unattached and remains on the battlefield.
+

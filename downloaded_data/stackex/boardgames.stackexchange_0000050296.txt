@@ -1,0 +1,37 @@
+Q:
+
+Does showing my opponent I have an effective win condition qualify as improperly determining a winner?
+
+This question is focused on the tournament rule, IPG 4.3 Unsporting Conduct — Improperly Determining a Winner.
+Two players playing the Bant Nexus of Fate combo deck meet each other in a round. This deck wins by ticking up Teferi, Hero of Dominaria to the ultimate, exiling all the opponent's permanents, and then passing until the opponent loses to decking. The lock will beat just about anything. Anything, that is, except an opponent with their own copies of Nexus of Fate. Now they can also discard their Nexus to handsize and never deck out.
+Let's assume Alice is executing the lock and Bob is discarding to hand size. Bob suggests a draw, since Alice is apparently incapable of winning. Alice says she has a win condition in her deck that will let her win regardless (say, Approach of the Second Sun), but she hasn't drawn it yet. Bob is reluctant to concede before seeing the win condition.
+Are any of these allowed?
+
+Bob says "I'll concede if you show me a win condition". Alice searches her deck and shows Bob the Approach of the Second Sun. Bob concedes.
+Bob says "I'll concede if you show me a win condition". Alice gets her decklist slip and shows it to Bob (this actually gives up equity since Bob knows what to play around better now). Bob concedes.
+Bob says "I'll concede if you show me a win condition". Alice says she can't do this legally without violating the "improperly determining a winner" rule. Bob concedes anyway. Later he finds out Alice lied, and she doesn't have a win condition maindeck.
+
+Finally: if #2 is legal but Alice doesn't want to do it (since it gives up equity), how can she legally demonstrate that she has a win condition in her deck?
+
+A:
+
+The key phrase in that rule is in the first sentence:
+
+A player uses or offers to use a method that is not part of the current game (including actions not legal in the current game) to determine the outcome of a game or match.
+
+Importantly, it is not a violation of this rule to take an action that is legal in the current game to determine a winner. For example, Magic Tournament Rule 3.12 says in part
+
+players may choose to reveal their hands or any other hidden information available to them, unless specifically prohibited by the rules.
+
+So, it would be perfectly legal to determine a winner by having a player reveal a card from their hand.
+
+Regarding the specific examples:
+
+At that time, Alice is not legally allowed to search through her deck, so determining the winner that way would violate that rule.
+The decklist slip is not part of the game, so using it to determine the winner that way also violates that rule.
+Alice's statement that she cannot legally show a win condition is correct. Bob is allowed to choose to concede at any time. Alice is allowed to lie about the existence of a win condition, according to the commentary on Magic Tournament Rule 4.1:
+
+Private information is the catchall category for everything that is not free or derived information. For example, the contents of hidden zones (i.e., library and hand) and the identity of face-down cards in public zones are considered private information. Players are allowed to give their opponents false information about the contents of a hidden zone. ...
+
+So, every part of this example is perfectly legal.
+

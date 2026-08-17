@@ -1,0 +1,21 @@
+Q:
+
+Playing Multiple Lands in One Turn
+
+I know that for the most part you can only play one land per turn. However I also know that it is possible to put multiple lands onto the field with the effects of certain spells. I want to know if there are any limitations or certain situations where you cannot do this. I am especially curious about lands that have a tap ability to add land to your mana pool (such as New Benalia or Boros Guildgate). Can I play a land from my hand and use their abilities to get two land per turn?
+
+A:
+
+Cards don't "add land to your mana pool." They add mana to your mana pool. The little symbols in card text and casting costs represent mana, which you get from tapping your lands (or from other cards like Elvish Mystic, Darksteel Ingot, and Seething Song), not the lands themselves.
+New Benalia's ability, "{T}: Add {W} to your mana pool," is actually the same as the ability of a basic Plains card.
+From the Comprehensive Rules:
+
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the
+words “basic land type,” it’s referring to one of these subtypes. A land with a basic land type has
+the intrinsic ability “{T}: Add [mana symbol] to your mana pool,” even if the text box doesn’t
+actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for
+Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}.
+
+If you have New Benalia and a Plains on the battlefield, you can tap both to make two white mana (like the casting cost for a Precinct Captain), just like if you had two Plains.
+Cards that actually put more land into play say things like "Search your library for a basic land card and put that card onto the battlefield tapped" or "You may play an additional land this turn" (e.g. Evolving Wilds and Explore).
+

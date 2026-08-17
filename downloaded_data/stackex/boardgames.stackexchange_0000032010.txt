@@ -1,0 +1,38 @@
+Q:
+
+Questions on banding and combat damage
+
+Question 1
+I attack with a Benalish Hero and a Lord of the Pit banded together, and my opponent blocks with 3 10/10's. Can I assign all 30 damage to the hero and have the Lord survive?
+
+Question 2.1
+I attack with the Lord and my opponent blocks with a 5/5 and 4 1/1's. I choose to first deal 5 damage to the 5/5, then 1 damage to two of the 1/1's. Can my opponent wait until I've selected this damage assignment to play Heal and save his 5/5? 
+
+Question 2.2
+If he can not save his 5/5 with heal in Question 2, why would I ever choose to assign more than lethal damage to the first blocker during damage assignment?
+
+A:
+
+For this question, it's important to note that damage assignment happens in the Combat Damage step, but damage assignment order happens in the Declare Blockers Step.
+Main Question
+You will be able to assign all damage to the Benalish Hero and save Lord of the Pits.
+First of all, the rule that allows you (as the attacking player) to assign combat damage, rather than the defending player:
+
+702.21k During the combat damage step, if a blocking creature is blocking a creature with banding (...), the active player (rather than the defending player) chooses how the blocking creature’s damage is assigned. That player can divide that creature's combat damage as he or she chooses among any number of creatures it's blocking. This is an exception to the procedure described in rule 510.1d.
+
+This allows you to ignore the damage assignment order that's set by the defending player ¹ ²
+
+509.3. Third, for each blocking creature, the defending player announces that creature's damage assignment order, which consists of the creatures it's blocking in an order of that player's choice. (...)
+
+¹ http://magicjudge.tumblr.com/post/75765284769/explain-banding-now
+² https://www.youtube.com/watch?v=BU552Z7PeAc
+
+Question 2.1 and 2.2
+As for part 2.1 of your question, banding isn't part of the question whatsoever, you don't get the benefit of 702.21k. Damage assignment happens a step further ahead, but you will have to assign the damage assignment order right after being blocking by those creatures. Assuming your choice is "5/5, then 1/1, then 1/1, then 1/1, then 1/1", your opponent will know that you intend to kill the 5/5. After declaring blockers and assigning the damage order, there is a round of priority:
+
+509.5. Fifth, the active player gets priority. Players may cast spells and activate abilities.
+
+So they may cast Heal after knowing what you intend to do. Heal will prevent the next damage dealt to a creature, not actually increase it's toughness, so assigning 5 damage to it will be enough to justify the "deal lethal damage" requirement. This means that you get the choice of dealing 5 damage or more to the 5/5, but you will have to deal 6 damage to it to actually cause it to be destroyed.
+This is a great example of why it's useful to assign more damage than a creature has toughness at times.
+Another possibility is that the second creature you're blocking is a Phyrexian Obliterator or a similar card that you want to avoid at all costs that it's being dealt damage. There are a lot of other good reasons in a game as complicated as Magic, and listing more would likely overcomplicate the issue, as I believe this scenario covers the most interesting one.
+

@@ -1,0 +1,12 @@
+Q:
+
+Does Experiment Kraj's passive ability work while he is dead?
+
+Let's say I have Experiment Kraj in my graveyard while I have a Reassembling Skeleton on the battlefield with a +1/+1 counter. Can I pay 1B to return Kraj from the graveyard to the battlefield tapped?
+
+A:
+
+No, you can't. Kraj's static ability is only active when it's on the battlefield; in the graveyard it does exactly nothing. Therefore it does not have the Skeleton's ability and can't 'reassemble'.
+
+113.3d Static abilities are written as statements. They’re simply true. Static abilities create continuous effects which are active while the permanent with the ability is on the battlefield and has the ability, or while the object with the ability is in the appropriate zone. See rule 604, “Handling Static Abilities.”
+

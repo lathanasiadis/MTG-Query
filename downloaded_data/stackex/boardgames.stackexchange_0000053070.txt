@@ -1,0 +1,30 @@
+Q:
+
+Can my opponent tap lands for mana when I have Sen Triplets on the battlefield?
+
+I have been wracking my brain, trying to come up with interesting ways to use Piracy.
+
+UU, Sorcery
+Until end of turn, you may tap lands you don't control for mana. Spend this mana only to cast spells.
+
+With Sen Triplets in play, target opponent can't activate abilities of their permanents:
+
+This turn, that player can’t cast spells or activate abilities and plays with their hand revealed.
+
+Since tapping a land for mana is an activated ability (activation cost is T:), then does this mean that the opponent can't tap their lands?
+If so, can I then cast Piracy to use their lands to generate mana in addition to my own, safe in the knowledge that when I pass priority, the opponent won't just tap their lands?
+Bonus: Further, if I have Strionic Resonator in play, then could I do so to multiple opponents in a multiplayer game, by copying the Triplets' triggered ability?
+
+A:
+
+Yes, activated mana abilities are regular activated abilities as far as Sen Triplets are concerned, and the chosen opponent(s) can't activate them. You can copy Sen Triplets' ability with Strionic Resonator, and you can choose another opponent with the copy, allowing you to tap lands from all chosen opponents with Piracy.
+
+605.1. Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules.
+
+605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2) [..]
+
+As soon as Sen Triplets' ability has resolved, your opponent can't tap lands or activate any other mana ability, and if you cast Piracy later that turn, you can be sure that the opponent can't tap their lands in response. They could, of course, tap their lands and other mana-producing permanents in response to the Sen Triplets ability on the stack, especially if they know you are running Piracy.
+Sen Triplets' ability is a triggered ability, so it can be copied by Strionic Resonator, and you can choose another opponent for the copy.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+

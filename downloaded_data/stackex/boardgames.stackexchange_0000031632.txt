@@ -1,0 +1,15 @@
+Q:
+
+"Would draw" with "Can't draw"
+
+Folks, I would like to know if an effect like "players can't draw cards" prevents/cancel effects like "if you would draw a card, instead do X".
+Because I wouldn't draw a card anyway, the effect does not takes place?
+For a concrete example, think on Maralen of the Mornsong with Forbidden Crypt.
+
+A:
+
+Can't beats can. So when something tells you to draw a card (say the beginning of your draw step), and Maralen telling you that you can't draw cards you do not get to draw a card. Since you are not drawing a card the Crypt's replacement effect doesn't have a chance to apply.
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+614.7. If a replacement effect would replace an event, but that event never happens, the replacement effect simply doesn’t do anything.
+

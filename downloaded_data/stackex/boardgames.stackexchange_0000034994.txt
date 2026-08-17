@@ -1,0 +1,13 @@
+Q:
+
+Are token creatures considerd as a creature spell?
+
+Are token creatures considerd creature spells? For instince when I use Drana's Chosen tap effect combined with Zendikar Resurgent would it allow me to draw a card?
+
+A:
+
+No.
+A creature token IS a creature, but that has nothing to do with your combo in this case. Tapping Drana's Chosen is activating an ability, it is not casting a spell. These are two completely different things.
+If Zendikar Resurgent triggered on "whenever a creature enters the battlefield" instead, then a creature token entering would count.
+The title of your question shows that you have mixed up two very different concepts: a creature spell (or, creature card on the stack) and a creature are not the same thing. A spell exists only on the stack, while a creature is a permanent that exists only on the battlefield. So a token, which can be a creature, can't be a spell. A spell could create tokens, but that doesn't mean that a spell can be a token or a creature.
+

@@ -1,0 +1,33 @@
+Q:
+
+What happens when creature has two mutually exclusive restrictions on what can block them?
+
+What happens if I equip my Juggernaut
+
+Juggernaut can't be blocked by Walls.
+
+with a Prowler's Helm
+
+Equipped creature can't be blocked except by Walls.
+
+or if I enchant my Charging Rhino
+
+Charging Rhino can't be blocked by more than one creature.
+
+with a Purphoros's Emissary?
+
+Enchanted creature gets +3/+3 and has menace.
+
+From this very detailed answer, I'd say they're both unblockable, but I'm wondering if the word "except" allows the blocker to block if he or she satisfies the "except" condition.
+
+A:
+
+In both cases, the end result is that they cannot be blocked. When Juggernaut says "can't be blocked by Walls", it means "can't be blocked by creatures that are Walls" and when Prowler's Helm says "can't be blocked except by Walls", it means "If a blocker is declared for this creature, that blocker has to be a Wall". So the end result is that the opponent can't legally declare anything to block that Juggernaut.
+The second instance has the same conclusion. Charging Rhino's ability means "no more than one blocker can be declared for this creature" and Purphoros's Emissary's ability means "if blockers are declared for this creature, there have to be 2". The result is that the only legal number of blockers for that creature is 0.
+The relevant rule is 509.1b, which is part of the procedure for declaring blockers (emphasis added):
+
+The defending player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
+
+Basically, since a block is illegal if any restriction is disobeyed, if two restrictions put together restrict all creatures from blocking, then no creature can block.
+

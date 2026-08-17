@@ -1,0 +1,15 @@
+Q:
+
+Do I have to "choose" when not targetting?
+
+This is related to this question, but without the targeting. Let's say I have Penance and Narset, Enlightened Master on the battlefield, my opponent having nothing but (colorless) lands. It's my turn, combat phase, I attack with Narset, and with her triggered ability still on stack I want to activate Penance in order to put a non-creature, non-land from my hand on top of my library to free cast with Narset.
+Do I have to choose Narset for Penance's damage prevention?
+
+A:
+
+If Narset is the only Red or Black source you will have to choose her when the ability resolves if you activate Penance. The only way you could not make a choice is if there are no Red or Black sources to choose, but you would still be able to activate the ability. Note that the source you choose doesn't have to be something that will ever deal damage, it can be something like Doom Blade or Aggravated Assault.
+
+608.2d If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can’t choose an option that’s illegal or impossible, with the exception that having a library with no cards in it doesn’t make drawing a card an impossible action (see rule 120.3).
+
+119.7. The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect that’s waiting to apply, or by a delayed triggered ability that’s waiting to trigger (even if that object is no longer in the zone it used to be in); or, in certain casual variant games, a face-up card in the command zone. A source doesn’t need to be capable of dealing damage to be a legal choice. See rule 609.7, “Sources of Damage.”
+

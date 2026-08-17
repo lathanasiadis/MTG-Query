@@ -1,0 +1,40 @@
+Q:
+
+Removing a Commander permanently
+
+So I was thinking of ways to get rid of Commanders other than destroying and exiling them. I found that some cards just plain out remove creatures and other permanents from game entirely. I was wondering if its possible to remove them that way because it's not like it went to the graveyard or exile. 
+
+A:
+
+As @Dopplegreener mentions, all cards that said "remove ... from the game" has been errataed to say "exile ...".
+The problem with getting rid of a commander permanently is rule 903.9:
+
+903.9. If a commander would be exiled from anywhere or put into its owner's hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+This rule lets the commander's owner put it back to the command zone no matter what happens.  Well, almost no matter what happens.
+
+Ways to Nullify a Commander
+
+The rule doesn't apply to phasing.  If you phase out a commander, such as with Vanishing, and have Stasis in play, their commander will be out of play until stasis is removed (phasing happens during the untap step, so Stasis prevents their commander from phasing in).  You can also have the commander out of play for most of the game without using Stasis by activating Vanishing as soon as their commander phases back in (their commander will exists for only a brief window at the beginning of some upkeeps).
+If you take over their turn, such as with Mindslaver, and exile their commander on their turn, such as with Unmake, you chose whether or not to apply the replacement effect and can choose to have the commander be exiled rather than go to the command zone.
+You can turn their commander into something else, such as with Song of the Dryads or Imprisoned in the Moon.  (Note that causing a commander to lose all abilities, such as with Lignify, isn't sufficient to nullify the commander against some decks, as a commander with no abilities is still a commander and can still deal commander damage.)
+You can prevent them from casting their commander, such as with Meddling Mage
+You can take control of their commander, such as with Empress Galina (your friends might not play with you if this is your commander) or Aethersnatch (it pains me that Commandeer doesn't work on most commanders; it can only target the few planeswakers that say "can be your commander").
+You can eliminate the player that owns the commander, such as with Door to Nothingness.  When a player leaves the game, all objects owned by that player leave the game.
+
+At the end of the day though, short of eliminating the player, you can't permanently prevent someone from accessing their commander1.  Any permanents you use to lock down their commander can be destroyed.  Any other tricks you pull can be negated through some combination of Pull from Eternity, Elixir of Immortality, Mastermind's Acquisition, and Brand.  There is always a way to get a card back, no matter where it has gone, unless it's owner has been eliminated from the game.
+1. @ThomSmith found a way to permanently prevent a player from accessing a commander but it requires you to concede the game.
+
+Joke Answers
+There are a handful of cards not legal in the format2 that can either permanently remove a commander or that deserve honorable mentions:
+
+The silver-bordered cards AWOL and Look at Me, I'm the DCI can put their commander into a zone not referenced by any other card in Magic.
+Bronze Tablet (an ante card, not legal in any format) is one of the few cards that can change ownership of a permanent, nullifying rule 903.9.
+During a subgame of magic, from Shahrazad or Enter the Dungeon, a commander is only available to a player if it was in the command zone at the start of the subgame ("719.2c As a subgame of a Commander game starts, each player moves their commander from the main-game command zone (if it's there) to the subgame command zone.") or if they pull a card from outside the game ("719.4. All objects in the main game and all cards outside the main game are considered outside the subgame (except those specifically brought into the subgame).")
+If you make their commander a copy of the silver-bordered Chaos Confetti (such as by animating Chaos Confetti with March of the Machines and then using Cytoshape), take control of their turn (such as with Mindslaver) and activate the Chaos Confetti ability on their commander, you could destroy their commander card permanently (by ripping it to pieces).
+Using the silver-bordered R&D's Secret Lair, you can remove cards from the game by playing an older version of a spell that exiles (such as Unmake) and ignoring the errata that changes this text to "exile".
+If their commander is Mirko Vosk, Mind Drinker or Hokori, Dust Drinker, you could attempt to claim ownership of it via the silver-bordered Ashnod's Coupon (you'd probably need a judge to rule on this one).  If drink ever becomes a creature type, Ashnod's coupon will gain additional potency via cards such as Amoeboid Changeling and Unnatural Selection.
+The silver-bordered Spike, Tournament Grinder lets you use any of these other banned cards (if only it weren't banned as well).
+
+2. Some of these cards were briefly legal between Dec 1, 2017 and Jan 15, 2018.
+

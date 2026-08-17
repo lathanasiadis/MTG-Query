@@ -1,0 +1,21 @@
+Q:
+
+Effect of Pixie Guide in Planechase
+
+In planechase, what is the effect of cards like Pixie Guide and Barbarian Class on rolling the planar die?
+Rule 901.9d mentions triggered abilities, which doesn't match what happens as it is not a triggered ability.
+
+901.9d Rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result of a die roll, including ones that compare the results of that roll to other rolls or to a given number, ignores the rolling of the planar die. See 706, “Rolling a Die.”
+
+But you also can't ignore the lowest because there is nothing to compare. So with rule 901.9d, would that mean I do not role any additional dice?
+
+A:
+
+With Pixie Guide or Barbarian Class, you will only roll one planar die.
+The second sentence of rule 901.9d refers to "any effect", which is a broader category than triggered abilities and includes the replacement effects on those two cards. The way those effects "ignore the rolling of the planer die" has been clarified by the MTG rules manager @Dunkatog on Twitter in this conversation:
+
+@PeteroUPC: @dunkatog: How does Pixie Guide handle rolling a planar die?  What does it mean to "ignore the lowest roll" of a planar die?
+@Dunkatog: The planar die is ignored for any effect that cares about the numerical value of a result (including comparative value).
+@PeteroUPC: To be clear, does that mean that Pixie Guide's effect does not turn, e.g., rolling one planar die into rolling two planar dice and "ignor[ing] the lowest roll", whatever that means?
+@Dunkatog: That’s correct. You won’t roll an additional planar die.
+

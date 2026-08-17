@@ -1,0 +1,24 @@
+Q:
+
+Would "destroying" Wurmcoil Engine prevent its tokens from being created?
+
+I attacked with Wurmcoil Engine and my friend blocked with Stinkweed Imp which has the ability "Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature." My friend argues that it destroys Wurmcoil Engine and does not "die" and is instead moved directly into the graveyard. I argue that the tokens will still be created because the creature hits the graveyard and no matter how it got there, it still counts as a "death" so it gets the tokens. We're still confused, what's the rule?
+
+A:
+
+Destroying Wurmcoil Engine will definitely cause it to create tokens.  Destroying something causes it to go to the graveyard, and "when Wurmcoil Engine dies" means "when Wurmcoil Engine is put in the graveyard from the battlefield":
+
+701.7a To destroy a permanent, move it from the battlefield to its owner's graveyard.
+700.4. The term dies means "is put into a graveyard from the battlefield."
+
+On top of that, destroying Wurmcoil Engine is the most common cause of its tokens being created.  Your friend is probably thinking of "destroying" a creature as something different from "dealing it lethal damage", but dealing lethal damage to a creature literally causes that creatrue to be destroyed:
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed.
+
+This rule is really important because it is why "indestructible" prevents creatures from dying to lethal damage.
+If you want to prevent Wurmcoil Engine from creating tokens, you need to do one of the following:
+
+Have Wurmcoil go somewhere other than the graveyard, such as with Path to Exile or Unsummon
+Remove Wurmcoil's abilities, such as with Ovinize
+Prevent the trigger from resolving, such as with Trickbind
+

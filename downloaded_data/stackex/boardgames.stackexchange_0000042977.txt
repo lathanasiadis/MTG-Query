@@ -1,0 +1,24 @@
+Q:
+
+(MTG) Can Trespasser’s Curse revive a player?
+
+After I died, one of my opponents that I previously enchanted played a creature which supposedly heals me by one. Does that cause me to come back to life with one hp? If not, why not?
+
+A:
+
+You will not be revived.
+First of all, any enchantments that you own will leave the game at the same time you do:
+
+800.4a. When a player leaves the game, all objects (see rule 109) owned by that player leave the game[...]
+
+So if you had enchanted your opponent with Trespasser's Curse, that enchantment would go away as soon as you lose, and your opponent would no longer be enchanted by it.
+And in addition to not getting any benefit from your enchantments, there is no effect in the game that could cause you to gain life once you have left the game. If another player has an effect such as Triskaidekaphobia, when it says "each player gains 1 life", "each player" does not include you.
+From the comprehensive rules:
+
+102.1. A player is one of the people in the game. The active player is the player whose turn it is. The other players are nonactive players.
+
+(Emphasis mine)
+You are not in the game, because you have left the game:
+
+104.5. If a player loses the game, that player leaves the game.
+

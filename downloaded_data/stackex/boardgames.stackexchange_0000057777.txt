@@ -1,0 +1,24 @@
+Q:
+
+What happens in MTG if I remove the ability of a card that is exiling one of my cards
+
+If my opponents has played a card such as Deputy of Detention that exiles X amount of my permanents, what would happen if I played Merfolk Trickster that removes all abilities of Deputy of Detention?
+
+A:
+
+Deputy of Detention's ability would still resolve and function normally. You would have to, among others, destroy or exile the Deputy to prevent the effect from exiling your permanents.
+Deputy of Detention's ability is a triggered ability that triggers when the Deputy enters the battlefield. You can't affect the Deputy with the Trickster before the Deputy has entered the battlefield, and afterwards, it's too late. Once the ability has triggered, the ability that is created on the stack functions independently of its source.
+
+113.7a Once activated or triggered, an ability exists on the stack independently of its source. [..]
+
+Even if you remove the Deputy's abilities through Merfolk Trickster in response to the trigger, it doesn't matter. You'd just remove the ability after it has already done its job, which is to create an ability on the stack. That ability on the stack will still resolve and exile its targets until the Deputy that created it leaves the battlefield.
+You can, however, prevent your permanents from being exiled. The most common way is to remove the Deputy from the battlefield before its ability resolves, such as by destroying or exiling the Deputy. In that case, the ability still resolves (it's independent of the Deputy, remember) but it won't do anything to your permanents:
+
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+
+Deputy of Detention's ability is such a one-shot effect.
+
+610.3b If a resolving triggered ability creates the initial one-shot effect that causes the object to change zones, and the specified event has already occurred before that one-shot effect would occur but after that ability triggered, the object doesn’t move.
+
+The Deputy says that the targeted permanents are exiled "until Deputy of Detention leaves the battlefield", and 610.3b says that if the Deputy has already left the battlefield before its ability has exiled its targets, nothing is exiled at all.
+

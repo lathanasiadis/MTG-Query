@@ -1,0 +1,19 @@
+Q:
+
+Does "[card name] or another [type]" require [card name] to be in the proper category?
+
+Inspired by this other question, what happens if a card such as Ivy Lane Denizen has Nim Deathmantle equipped; so that it is not green?
+When you play a green creature such as a Grizzly Bears, will Denizen's ability trigger? In other words, does "another green creature" stop working when Denizen is not itself a "green creature"?
+Similarly, if you control a Conspiracy, with "Bear" named as the type, will Lantern Scout's ability trigger when it enters the battlefield? It says "Whenever Lantern Scout or another Ally enters the battlefield under your control..." Does this imply that Lantern Scout must be an Ally in order to trigger?
+One more example, perhaps more simple than the others. You control Anafenza, the Foremost, and it has vigilance due to whatever. When you attack with it, are you still able to put a counter on "another target tapped creature you control"? Or does "another target tapped creature" imply that Anafenza must be tapped in order for there to be "another tapped" creature?
+The only rule I can find dealing with this isn't helpful:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+It doesn't define anything about the word "another"; or how to handle triggering events with an "or" in them.
+
+A:
+
+The rules do not explicitly cover this, but in Magic card templating, the phrase "another [characteristic]" is consistently used to mean "an object that is [characteristic] and is not this object". So, in all of these cases the ability will trigger whether or not the object itself has the mentioned characteristic.
+In general, this doesn't come up in rulings, but Ephara, God of the Polis, for example, has an ability that refers to "another creature", and there is no indication that it only functions while Ephara is a creature.
+

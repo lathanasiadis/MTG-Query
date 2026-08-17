@@ -1,0 +1,25 @@
+Q:
+
+How does Fist of Suns work with my Commander?
+
+I am working on a deck that features Progenitus as my Commander and started looking at Fist of Suns. Besides just being good because of the large number of high cost spells in the deck, I was curious how this worked with my Commander on every cast beyond the first. And honestly, I'm not entirely sure how to word this question.
+For each cast of the Commander, the mana cost is increased by 2 colorless. The Fist of Suns Oracle text says
+
+You can't pay more than one alternative cost for a spell.
+
+Does the additional colorless cost added after the first casting of a Commander count as alternative costs? Can I use Fist of Suns to make the cost of Progenitus WUBRG every time, or just the first time it is cast? I know that it can't be cast for WUBRG plus the additional colorless, since it seems unreasonable to combine mana costs like that.
+
+A:
+
+Fist of Suns only replaces the mana cost. The mana cost is the cost written in the top-right corner of the card [CR 202.1]. You seem to think it's the total cost or the portion of the total cost payable using mana, but that's not the case.
+Fist of Suns doesn't replace any additional costs or cost increases, so you still have to pay the Commander tax.
+In game terms,
+
+Fist of Suns provides an alternative cost [CR 117.9].
+The Commander tax is an additional cost [CR 903.10].
+
+total cost to cast the second time
+= mana cost or alternative cost + additional cost and cost increases - cost reductions [CR 601.2e]
+= alternative cost ({W}{U}{B}{R}{G}) + additional costs ({2})
+= {W}{U}{B}{R}{G}{2}
+

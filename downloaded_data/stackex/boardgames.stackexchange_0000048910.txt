@@ -1,0 +1,16 @@
+Q:
+
+How does Golos work with cards that increase mana costs?
+
+Let's say I activate Golos, Tireless Pilgrim's ability while there is a Sphere of Resistance out. Do I have to pay 1 mana for each of the cards that are spells that I play from Golos?
+
+A:
+
+Yes, you have to pay 1 mana in this case. Golos' ability introduces a so-called 'alternative cost':
+
+118.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.” ...
+
+The exiled card's original mana cost is waived, but not the additional costs like the one from Sphere of Resistance:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. ...
+

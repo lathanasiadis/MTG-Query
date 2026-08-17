@@ -1,0 +1,27 @@
+Q:
+
+Constricting Sliver + Hibernating Sliver interaction
+
+If a sliver comes into play while Constricting Sliver is in play, and then with the exile ETB effect on the stack, the sliver is returned to hand with Hibernation Sliver's ability, is the target of the exile effect exiled with no chance of returning to the battlefield or does it immediately return to the battlefield?
+
+A:
+
+The (attempted) exiled creature will never leave the battlefield.
+This is because the exile ability only works if the sliver causing it is still on the battlefield when it resolves. As per the Gatherer rulings:
+
+If a Sliver leaves the battlefield before its enters-the-battlefield ability resolves, the target creature won’t be exiled.
+
+This is covered under One-shot effects in the comprehensive rules:
+
+610.2.: Some one-shot effects create a delayed triggered ability, which instructs a player to do something later in the game (usually at a specific time) rather than as the spell or ability that’s creating the one-shot effect resolves. See rule 603.7.
+610.3.: Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3a: If the specified event has already occurred when the initial one-shot effect would cause the object to change zones, the object doesn’t move.
+
+Lets break down your interaction:
+
+You control a Hibernation Sliver and a Constricting Sliver. You opponent controls a Runeclaw Bear.
+You play a Sliver creature, Constricting Sliver's given effect triggers. You target your opponents Bear.
+You then return that Sliver creature to your hand using Hibernation Sliver's given ability. The stack is now (hibernation) return effect on top of (constrict) exile effect.
+Your opponent has no responses, the stack starts to resolve.
+First your sliver leaves the battlefield. Next the exile effect checks to see if the Sliver is still on the battlefield, and fails to find it. The exile ability does nothing, the Runeclaw Bear is not moved and remains on the battlefield under your opponents control.
+

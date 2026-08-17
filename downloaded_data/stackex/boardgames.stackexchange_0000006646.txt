@@ -1,0 +1,40 @@
+Q:
+
+What happens if the target of equipping dies?
+
+My opponent plays the living weapon Lashwrithe. Afterwards he spends 4 life to equip it to his Vault Skirge. While doing this, I kill his Vault Skirge with a Galvanic Blast.
+What I think will happen:
+
+He loses 4 life
+His Germ token under the living weapon dies
+His Vault Skirge dies
+His Lashwrithe lies around as equipment ready for the next try
+I smile
+
+Is this correct? Does equipping use the stack to enable such a maneuver? And does the Germ token really die if equipping goes ill, or does the equipping never take place because it has no valid target and the Germ lives happily ever after?
+Edit: Changed the damage spell to Galvanic Blast, because I obviously require an instant and not a sorcery. Thx for pointing that one out.
+
+A:
+
+The Lashwrithe stays equipped to the Germ, but your opponent doesn't get his 4 life back.
+Here are the rules for the Equip keyword:
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means ‘[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+
+When your opponent wants to equip the Lashwrithe to the Skirge, he activates its Equip ability by placing the ability on the stack, choosing its target, and paying its activation cost. He then passes priority to you, hoping that the ability will resolve. However, you respond by casting a Galvanic Blast, which resolves and kills the Skirge.
+(You can't use a Red Sun's Zenith here, because Zenith is a Sorcery. You can only cast it during your main phase when the stack is empty, but right now it's your opponent's main phase and the stack isn't empty.)
+When the Equip ability starts to resolve, it first checks to see if its targets are still valid:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that‘s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability‘s effect for which it is an illegal target can‘t perform any actions on that target or make that target perform any actions. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+
+Because the Skirge is gone, the Equip ability has lost track of its only target, and is countered by rule 608.2b instead of resolving. Because the ability doesn't resolve, no effect moves the Lashwrithe, so it stays where it was.
+So, here's the corrected summary:
+
+He has lost 4 life
+His Germ token remains alive
+His Vault Skirge is dead
+His Lashwrithe remains equipped to the Germ
+You smile a little bit
+
+Note that if you wait until after the Lashwrithe is equipped, and then kill the Skirge, the Germ will already be dead. However, since the equipped Lashwrithe will increase the Skirge's toughness, you'll probably need something stronger than a single Galvanic Blast.
+

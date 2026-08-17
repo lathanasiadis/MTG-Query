@@ -1,0 +1,64 @@
+Q:
+
+Llawanor Elves Trampled on desert Oasis. Act of God or Force of Nature?
+
+Suppose the defending player has an untapped Oasis in play, a Circle of Protection: Green, and an untapped 1/1 Llanowar Elves, which has just been assigned to block a strong creature with trample, such as Force of Nature. Let's throw Lifelink on the Force of Nature as well.
+In what order do all the following resolve?:
+
+Attack declared
+Blocker declared
+Blocker assigned damage
+Attacker deals damage
+Blocker dealt damage
+Trample-over damage calculated
+Trample-over damage dealt
+Defending player loses life
+Attacking player gains life
+Damage prevented by CoP if used
+Blocker dies
+Blocker placed into graveyard
+Blocker no longer regenerate-able
+One damage prevented to Blocker by Oasis
+
+Key sub-questions that bring this to mind:
+
+at the time when 7 trample damage is dealt to defending player, are Llawanor elves, having received fatal damage, still in play?
+how much damage is actually dealt to the elves, 1 (their toughness) or 8 (Force of Nature's power)?
+what is the source of the trample damage to the defending player?
+if defending player uses CoP, is Lifelink activated?
+
+A:
+
+Very simply, if the defending player activates the Circle of Protection choosing the Force of Nature, they lose no life, the attacking player gains 7 life, and the blocking Llanowar Elves dies. Alternatively, the attacking player can leave the Llanowar Elves alive and gain no life. Specifically, combat proceeds like this:
+
+The Declare Attackers Step begins.
+
+The active player declare Force of Nature as an attacker.
+
+The Declare Blockers Step begins.
+
+The defending player declares Llanowar Elves as the single blocker for Force of Nature. 
+The defending player taps Llanowar Elves for one mana, activate their Circle of Protection: Green choosing the Force of Nature, and activate Oasis targeting the Elves. This is their last opportunity to do those things before damage is dealt.
+
+The Combat Damage Step begins.
+
+The active player chooses how to assign Force of Nature's damage. If they're smart, they assign all of the damage to Llanowar Elves, because all of the damage assigned to the defending player will be prevented.
+The defending player chooses how to assign Llanowar Elves' damage. The only choice is to assign a single point to Force of Nature.
+Combat damage is dealt simultaneously. Force of Nature deals 7 damage to Llanowar Elves after 1 is prevented, and the active player gains 7 life. Llanowar Elves deals 1 damage to Force of Nature.
+The active player gains priority and Llanowar Elves dies as a state based action because it has lethal damage.
+
+Alternatively, step 3 could have gone like this (highlighting what's different)
+
+The Combat Damage Step begins.
+
+The active player chooses how to assign Force of Nature's damage. They assign 1 damage to Llanowar Elves and 7 damage to the defending player.
+The defending player chooses how to assign Llanowar Elves' damage. The only choice is to assign a single point to Force of Nature.
+Combat damage is dealt simultaneously. Force of Nature deals no damage to Llanowar Elves after 1 is prevented, no damage to the defending player after Circle of Protection's ability prevents it, and the active player gains no life. Llanowar Elves deals 1 damage to Force of Nature.
+The active player gains priority, and nothing dies as a state based action.
+
+Of course, the active player could also assign any amount of damage between 2 and 7 to Llanowar Elves and gain a corresponding amount of life.
+As Ivo Beckers points out, if the Llanowar Elves somehow gained Banding, the defending player would choose how the Force of Nature's damage is assigned, which would allow them to choose the alternate option and save the Elves.
+The rules for Trample specify exactly how Trample modifies damage assignment. Specifically, 702.19b says
+
+The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. The attacking creature’s controller need not assign lethal damage to all those blocking creatures but in that case can’t assign any damage to the player or planeswalker it’s attacking.
+

@@ -1,0 +1,27 @@
+Q:
+
+Does turning a card face up cause it to lose any counters it had on it?
+
+If a card is played face down for some reason, like Guardian Shield-Bearer:
+
+Megamorph 3G (You may cast this card face down as a 2/2 creature for 3. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
+
+When Guardian Shield-Bearer is turned face up, put a +1/+1 counter on another creature you control.
+
+Let's say I play Guardian face down, and then I get a card that says I can put a +1/+1 counter on one of my creatures. I choose to put it on my face-down Guardian to make it a 3/3.
+When I turn Guardian up, does it lose the +1/+1 counter, since it is transforming (or rather, morphing) into a new creature? What about enchantments or other things attached to it?
+What type of creature is the 2/2 when it is face down? Just a "Creature" type creature?
+
+A:
+
+Any enchantments or counters that were on the creature when it was face down will remain when it is turned face up. The creature never changed zones. It is still the same object.
+Morphs and Manifests have the "Creature" card type, but no subtypes.
+
+701.31a, 702.36a It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost.
+
+When it gets turned face up, it just regains its normal characteristics, but it is otherwise the same object:
+
+702.36e Any time you have priority, you may turn [a morphed card] face up. The morph effect on it ends, and it regains its normal characteristics.
+
+Transform means something special and is not what happens with morphed cards. I like to say "morph" and "turn it face up".
+

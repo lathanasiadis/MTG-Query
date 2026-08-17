@@ -1,0 +1,25 @@
+Q:
+
+If I "play" a card, does it count as casting it?
+
+Fires of Invention has this line of text:
+
+You can cast spells only during your turn and you can cast no more than two spells each turn.
+
+Golos, Tireless Pilgrim has this line of text:
+
+2WUBRG: Exile the top three cards of your library. You may play them this turn without paying their mana costs.
+
+If I activate Golos's ability with Fires of Invention on the battlefield, do the non-land cards that I play count as spells for Fires of Invention?
+My intuition says "yes", making these two cards a nonbo. However, Magic's wording is very strict, e.g. "put [card] into your hand" is different from "draw", so I'd like to make sure that "play" and "cast" are indeed the same thing, with the only difference being that I can "play" a land, but cannot "cast" it. 
+
+A:
+
+In the case of Golos, "play them this turn" means that you can either cast them if they are spells, or play them as lands, whichever is appropriate (subject to normal rules of the game and other cards in play). For example, you can't use Golos to play an extra land that turn, and you can't use Golos to cast more than 2 spells if Fires of invention is in play.
+So in your case your intuition is right.
+
+Casting Spells
+
+601.1. Previously, the action of casting a spell, or casting a card as a spell, was referred to on cards as “playing” that spell or that card. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to “casting” that spell or that card.
+601.1a Some effects still refer to “playing” a card. “Playing a card” means playing that card as a land or casting that card as a spell, whichever is appropriate.
+

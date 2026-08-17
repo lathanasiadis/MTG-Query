@@ -1,0 +1,14 @@
+Q:
+
+Why do Treasure tokens need to be tapped?
+
+I was just pondering the design of the Treasure token as a mechanic and wondering why its text is "Tap, Sacrifice this artifact: Add one mana of any color."
+Couldn't it just be "Sacrifice this artifact: Add one mana of any color." instead? What constraint or value does the tap requirement add other than adding slightly more text to all the cards that have explainer text for what a Treasure token is?
+
+A:
+
+It's to prevent "double tapping" the token for two mana when used in conjunction with other abilities, most notably Improvise but also things like Urza, Lord High Artificer. Without the tap constraint on the Treasure, you can tap the treasure for one mana with Improvise and then sacrifice it for another mana.
+Gold tokens do exist without the tap requirement, but R&D found them to be too powerful:
+
+The Gold tokens were problematic with the improvise mechanic from Aether Revolt, so we had to add a tap and change the token’s name.
+

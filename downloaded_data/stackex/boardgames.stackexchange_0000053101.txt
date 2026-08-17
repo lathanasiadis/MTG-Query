@@ -1,0 +1,43 @@
+Q:
+
+Can Coastal Wizard bounce multiple other creatures?
+
+I have been thinking about other ways to abuse the Aphetto Alchemist and Illusionist's Bracers combo.
+
+Aphetto Alchemist {1}{U}
+Creature — Human Wizard 1/1
+{T}: Untap target artifact or creature.
+Morph (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+
+Illusionist's Bracers {2}
+Artifact — Equipment
+Whenever an ability of equipped creature is activated, if it isn't a mana ability, copy that ability. You may choose new targets for the copy.
+Equip {3}
+
+I stumbled across Coastal Wizard.
+
+Coastal Wizard {2}{U}{U}
+Creature — Human Wizard 1/1
+
+{T}: Return Coastal Wizard and another target creature to their owners' hands. Activate this ability only during your turn, before attackers are declared.
+
+Can I tap Coastal Wizard (before I declare attackers) to target an opponent's creature, then hold priority, tap Aphetto Alchemist to untap Coastal Wizard and itself (with the Illusionist's Bracers trigger), allow the two untap abilities to resolve, then tap Coastal Wizard again to target another creature an opponent controls?
+If I can and do, when Coastal Wizard's two activated abilities on the stack resolve, do both return an opponent's creature to hand, even though Coastal Wizard has already left the battlefield after the second activation resolves?
+
+A:
+
+Yes, that combo works.
+For the first part of your answer, whether you can activate Coastal Wizard multiple times, yes you can:
+Whenever you, as the active player, cast a spell/activate an ability, or whenever a spell or ability has resolved, you receive priority:
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+117.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+
+That means you can keep activating abilities as long as you want before anything resolves. That allows you to stack your abilities in any order you like. When any of the Aphetto Alchemist's abilities resolves and your Coastal Wizard becomes untapped, you receive priority and can activate Coastal Wizard again, before any of its previous activations resolves. At the end of it all, you have 3 Coastal Wizard activations on the stack.
+For the second part of your question: Since returning Coastal Wizard is an effect of its ability, not a cost, you only return it on resolution. Since returning the Wizard and the targeted creature are independent effects (no intervening if-clause), it doesn't matter if the Wizard is no longer on the battlefield by the time the ability tries to return it. The targeted creature will be returned anyway.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+Note though that if all targets of your various Coastal Wizard abilities all became illegal by the time they resolve, for example through Veil of Summer, the abilities would all be removed from the stack because all their targets became illegal, and you wouldn't have to return your Wizard either.
+

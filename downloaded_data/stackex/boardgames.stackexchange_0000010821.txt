@@ -1,0 +1,32 @@
+Q:
+
+Infinite loop where where both players choose to continue the loop
+
+Yesterday, I was playing a casual game and I had a Stasis, Kismet, and Chronatog, causing my opponent to have to keep drawing, while I kept skipping my turn, with the intent of decking him.
+My opponent, however, had Emrakul, the Aeon's Torn in his deck, and he can discard that every turn he draws it to shuffle his graveyard back into his library.
+Who, ultimately, is required to stop choosing to continue this loop?  Do I have to stop skipping my turn with Chronatog? Or does my opponent have to stop discarding Emrakul?
+
+A:
+
+First, let's make it clear that the game doesn't force a draw.
+
+104.4b [...] Loops that contain an optional action don’t result in a draw.
+
+Let's also make it clear that the two players are individually doing something acceptable:
+
+716.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+It's their combined actions that create a weird scenario, and boy it's a weird one. The closest rules for resolving this are:
+
+716.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+
+And from the Infraction Procedure Guide (used in tournaments with a REL above regular),
+
+It is also slow play if a player continues to execute a loop without being able to provide an exact number of iterations and the expected resulting game state.
+
+In a casual setting, you should mutually accept a draw.
+In a competitive setting, I think you'd be at the mercy of a judge. Neither of those is a rules is a perfect match, so a judge should probably do nothing at all, but they're close enough that he might decide to meddle (invoking either or both of those rules).
+The latter rule was applied to a deck with Emrakul that self-milled. This of course, is a different situation, since both players are involved in extending the game.
+The first rule is close enough that it might be enforced. The game state after the second graveyard shuffle is not 100% identical to the game state after the first graveyard shuffle because Chronatog's opponent has a different hand, but a judge might rule that it is close enough to enact 716.3, forcing you to stop Chronatog's opponent from discarding Emrakul. I doubt it, though.
+Wizard's Rules Q&A forum has many judges, including one capable of giving official answers (Natedogg).
+

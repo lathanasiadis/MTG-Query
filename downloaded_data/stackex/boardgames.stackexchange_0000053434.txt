@@ -1,0 +1,26 @@
+Q:
+
+MTG reactive play denied in MTG Arena
+
+I played MTG Arena today and I attacked with Zulaport Duelist on which my opponent reacted with Stomp adventure of Bonecrusher Giant and instead of letting me change my Duelist for Zareth it simply passed to damage and destroyed Duelist. I encountered a lot of bugs in Arena so far but I'm thinking this might be right but don't know why, since Zareth ability is instant speed.
+
+A:
+
+Though not exactly the same, Zareth San's ability is very similar to Ninjutsu, and even referred to here.
+702.48c states:
+
+A ninjutsu ability may be activated only while a creature on the
+battlefield is unblocked (see rule 509.1h). [...]
+
+And when we follow up on 509.1h, we see that
+
+An attacking creature with one or more creatures declared as blockers
+for it becomes a blocked creature; one with no creatures declared as
+blockers for it becomes an unblocked creature. This remains unchanged
+until the creature is removed from combat, an effect says that it
+becomes blocked or unblocked, or the combat phase ends, whichever
+comes first. A creature remains blocked even if all the creatures
+blocking it are removed from combat.
+
+Since you added that your opponent cast Stomp during the declare attackers step, it wasn't determined yet whether your duelist is blocked or not. Therefore you weren't able use Zareth San's ability.
+

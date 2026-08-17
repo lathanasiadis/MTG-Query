@@ -1,0 +1,20 @@
+Q:
+
+What makes a good alternative to flipping a coin for 50/50 randomness?
+
+I'm building a coin-flip themed Commander deck, and I realise I'm going to be flipping potentially dozens of coins every turn deeper into a match.
+What would be a good alternative to flipping an actual, physical coin that fits the following criteria?
+
+Can be done many times quickly.
+Serial, not parallel (not doing many at once, but many in order).
+Requires minimal maths/mental effort.
+Isn't "messy"; flipping a coin risks losing it across the room or under a table. I'd like to avoid similar issues.
+Is a truly random 50/50 proposition.
+
+Bonus points for fun and aesthetically pleasing answers.
+
+A:
+
+Use a coinflip app, or physical 4- or 6-sided dice (calling odd/even or above/below half instead of heads/tails).
+Both solutions fulfill all your criteria. You can further secure dice against falling off with a dice bowl or cup. Dice have the additional advantage of parallel flips, should the need arise despite your stipulation.
+

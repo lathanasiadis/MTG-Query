@@ -1,0 +1,23 @@
+Q:
+
+What happens when I cast a spell incorrectly?
+
+If I cast a spell which then turns out to be un-playable, what happens to my spell? E.G.:  Casting a spell on something that has Hexproof and can't be targeted in the first place. Do I simply place my spell back in my hand? Do I untap the lands used to pay for that spell?
+
+A:
+
+If The Spell Never Had Any Legal Targets
+You cannot cast a spell that requires a target unless there is a legal target for the spell.
+If you try to cast a spell that requires a target, and discover that there is no legal target for that spell, it is considered an illegal action.
+The comprehensive rules on handling illegal actions:
+
+729.1 If a player takes an illegal action or starts to take an action but can’t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. Each player may also reverse any legal mana abilities that player activated while making the illegal play, unless mana from those abilities or from any triggered mana abilities they caused to trigger was spent on another mana ability that wasn’t reversed. [...]
+
+So, you would essentially "rewind" the game state, untapping your lands and returning the card to your hand.  Unfortunately, this misplay does mean that your opponent has earned some free information (i.e. they now know one of the cards you have in your hand).
+If The Spell's Target Becomes Illegal After Casting It
+In this case, your spell has already been cast, because you chose its target while casting it and at that time the spell had a legal target, but during the resolution of the spell, that target is discovered to no longer be legal.  This can happen, for instance, if the card Ranger's Guile is cast in response to your spell, giving the target of your spell Hexproof.
+When your spell is resolving, it checks again to see if the target is still legal.  In this case, since the creature now has Hexproof, it will be determined that the target is not legal, and the spell will go to the graveyard and have no effect.  You will not untap your lands.  You simply lose that mana and that spell's effect; similar to if your spell was countered.
+The relevant section of the comprehensive rules states (under the heading "Resolving Spells and Abilities"):
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will resolve normally.
+

@@ -1,0 +1,26 @@
+Q:
+
+If Rhonas's power is less than 4 but you control a creature with power 4 or greater, can he attack or block?
+
+I was playing a game of standard where the other player had Rhonas the Indomitable on the board, and I enchanted it with Illusory Wrappings, but he controlled a Honored Hydra. Can Rhonas still attack or block? Because the way I read the card it states another creature, which means according to me that it is also dependent on Rhonas's power.
+
+A:
+
+Yes, Rhonas can attack and block regardless of its own power.
+
+You're asking if 
+
+Rhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater.
+
+means
+
+Rhonas the Indomitable can't attack or block unless you control at least two creatures with power 4 or greater, and Rhonas the Indomitable is one of them.
+
+or
+
+Rhonas the Indomitable can't attack or block unless you control a creature with power 4 or greater that's not Rhonas the Indomitable.
+
+It's the latter. The point of that wording is to prevent Rhonas turning on its own power. You don't check if Rhonas actually meets the criteria. Quite the opposite, you only look at the other objects in the game.
+In Magic, the phrase "another thing" always means "a thing other than this player or object". In this scenario, the phrase means "a creature with power 4 or greater, other than Rhonas the Indomitable".
+They control another creature with power 4 or greater (a creature with power 4 or greater that's not Rhonas), so they can attack and block with Rhonas.
+

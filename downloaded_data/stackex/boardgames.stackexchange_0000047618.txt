@@ -1,0 +1,29 @@
+Q:
+
+What happens when I sacrifice a creature when my Teysa Karlov is on the battlefield?
+
+Let’s say my commander Teysa Karlov is on the battlefield, ready for action. Then, I sacrifice Resolute Watchdog. What happens? Can I give one or two creatures indestructible? 
+The relevant details of Teysa and the Watchdog, respectively:
+
+If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+1, Sacrifice Resolute Watchdog: Target creature you control gains indestructible until end of turn. 
+
+According to my more experienced friend my creatures need to die for Teysa to work. But doesn't sacrificing count as dying too, since they go to the graveyard? 
+
+Related:
+
+What exactly "triggers an additional time" in the interaction between Afterlife and Teysa Karlov?
+
+A:
+
+Resolute Watchdog's ability is an activated ability not a triggered one, so it isn't affected by Teysa at all.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event],
+[effect]. [Instructions (if any).]”
+
+As an addendum, sacrificing a creature (typically) counts as it dying, so your friend is wrong.  So sacrificing a creature could potentially cause Teysa's ability do something.
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+

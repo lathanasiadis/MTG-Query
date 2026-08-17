@@ -1,0 +1,14 @@
+Q:
+
+Can Welding Jar target itself?
+
+We had this issue come up in a game last night, and we weren't sure how to handle it. Player A had Welding Jar and another artifact in play. Player B cast Naturalize targeting the Welding Jar. In response, Player A sacrificed Welding Jar to regenerate itself.
+Is this possible to do? I understand that Welding Jar is going into the graveyard either way, as sacrificed creatures can't be regenerated, but can Welding Jar legally target itself with it's own ability?
+EDIT: If this seems non-sensical, let's assume that Player A has something in play like Furnace Celebration that gives them a benefit for sacrificing the Welding Jar.
+
+A:
+
+Welding Jar can target itself.
+When you cast a spell or activate an ability, you choose targets (601.2c) before paying costs (601.2g). So the Welding Jar is still on the battlefield when it's time to choose targets, and is a valid target for its own ability.
+That ability will fizzle, of course, since you've already put Welding Jar in the graveyard by the time it would resolve.
+

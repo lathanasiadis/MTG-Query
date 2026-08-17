@@ -1,0 +1,23 @@
+Q:
+
+Does Memory Erosion trigger even if a spell gets countered?
+
+Player A has the enchantment Memory Erosion on the battlefield.
+Player B casts Dark Banishing on Player A's creature, and Player A uses Counterspell on it, so the Dark Banishing is countered.
+Will Memory Erosion still take effect, even though the spell has been countered? Or does the spell need to resolve first for Memory Erosion's abilty to take effect?
+
+A:
+
+Memory Erosion triggers when an opponent casts a spell, not when they resolve the spell. Memory Erosion's triggered ability will already be on the stack before Player A even has the chance to cast their counterspell.
+The stack will look like this:
+
+~TOP~
+Counterspell (targeting Dark Banishing)
+Memory Erosion triggered ability
+Dark Banishing (targeting a creature)
+~BOTTOM~
+
+When Counterspell resolves, Dark Banishing will be removed from the stack and placed in its owner's graveyard, as will Counterspell itself, leaving Memory Erosion's triggered ability alone on the stack. Memory Erosion's ability will then resolve once both players pass priority again, and Player B will place the top 2 cards from his library into his graveyard.
+Note: Because objects on the stack don't resolve until both players pass priority, Player A could potentially opt to wait for Memory Erosion's trigger to resolve before casting Counterspell. Player A would get to see what two cards are put into the graveyard and based on that extra information, may decide whether countering Dark Banishing is still worthwhile. (For example, Player B might "mill" a card with Flashback that Player A wants to counter even more than Dark Banishing, so he would hold on to his Counterspell.)
+In short: Yes, Memory Erosion will still work, even though the triggering spell was countered.
+

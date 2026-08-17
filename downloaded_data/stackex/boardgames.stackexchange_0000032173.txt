@@ -1,0 +1,18 @@
+Q:
+
+Response to Selvala, Heart of the Wilds triggered ability
+
+Can you increase the power of a creature that entered the battlefield in response to the triggered ability of Selvala, Heart of the Wilds in order to draw the card? For example, suppose you have out Selvala and a 4/4, and you summon another 4/4 and cast Giant Growth in response to the trigger. Would that work and let you actually draw a card?
+
+A:
+
+Yes, you can change the creature's size in response to the ability in order to draw a card.
+Rule 603.4 says
+
+A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn’t true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the “intervening ‘if’ clause” rule. (The word “if” has only its normal English meaning anywhere else in the text of a card; this rule only applies to an “if” that immediately follows a trigger condition.)
+
+The "if" condition in Selvala's ability appears at the end of the ability, so it is not an "intervening 'if' clause". This means that the creature's power is only checked when the ability resolves.
+This is confirmed by a ruling about Selvala in the Conspiracy: Take the Crown release notes:
+
+The new creature's power is compared to the power of each other creature on the battlefield as the first ability resolves. If another creature has the same or higher power than the new creature's power, no one may draw a card.
+

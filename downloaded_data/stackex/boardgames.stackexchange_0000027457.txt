@@ -1,0 +1,23 @@
+Q:
+
+Does guiltfeeder still cause loss of life if it's killed by an instant after attacking?
+
+If an opponent attacks me with Guiltfeeder, and I destroy it with an Instant after it has been declared an Attacker, what happens?
+
+Fear
+
+Whenever Guiltfeeder attacks and isn't blocked, defending player loses 1 life for each card in his or her graveyard.
+
+Since it has been destroyed, it's impossible to declare blockers against it, but the ability is still on the stack (I think?), so I'm not sure what the outcome is.
+
+A:
+
+The ruling on Guiltfeeder makes this pretty clear:
+
+An ability that triggers when something "attacks and isn't blocked" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+
+If it's destroyed after declaring attackers but before declaring blockers (or lack thereof), there won't be any loss of life.
+The ability doesn't go onto the stack until the declare blockers step (and then only if it's still attacking and unblocked). So if it's already dead by then, the ability never goes on the stack.
+If for some reason someone wants it dead before combat damage, but wants the loss of life to happen, they could kill it during the declare blockers phase, after the ability triggered. At that point the ability would still resolve as normal, even with the Guiltfeeder gone.
+In any case, either the ability has triggered and will cause loss of life, or it hasn't triggered at all. There's no odd in between state where it triggers then changes its mind, as your question suggests.
+

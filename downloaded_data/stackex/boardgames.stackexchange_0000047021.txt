@@ -1,0 +1,45 @@
+Q:
+
+Do Bolas's Citadel and Experimental Frenzy take reduced mana cost into account?
+
+I am wondering how reduction in converted mana cost affects Bolas's Citadel or Experimental Frenzy, which have the following abilities:
+Bolas's Citadel:
+
+You may look at the top card of your library any time.
+You may play the top card of your library. If you cast a spell this way, pay life equal to its converted mana cost rather than pay its mana cost.
+{T}, Sacrifice ten nonland permanents: Each opponent loses 10 life.
+
+Experimental Frenzy:
+
+You may look at the top card of your library any time.
+You may play the top card of your library.
+You can't play cards from your hand.
+{3}{R}: Destroy Experimental Frenzy.
+
+Let's say I have some of these cards in play:
+
+Ugin, the Ineffable: “Colorless spells you cast cost {2} less to cast.”
+Tezzeret, Master of the Bridge: “Creature and planeswalker spells you cast have  affinity for artifacts. (They cost {1} less to cast for each artifact you control.)”
+Jhoira's Familiar: “Historic spells you cast cost {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)”
+The Immortal Sun: “Spells you cast cost {1} less to cast.”
+
+Would they reduce the converted mana cost of cards played off the top of the library this way?
+
+A:
+
+No, mana cost reductions have no effect on Bolas's Citadel alternative cost. Furthermore, Bolas's Citadel and Experimental Frenzy have no interaction.
+All the cards you listed reduce the mana cost of spells. Since you pay an alternative life cost for Bolas's Citadel, those effects are irrelevant here. The CMC of a card has a clear definition:
+
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. [..]
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+Example: A mana cost of {3}{U}{U} translates to a converted mana cost of 5.
+
+The rules for casting spells, especially calculating the total cost of a spell, are:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. [..]
+601.2h The player pays the total cost in any order.
+
+So for example, when you want to play a card with CMC 5 with Bolas's Citadel, you determine the alternative cost of 5 life and zero mana cost. Then the mana cost reductions try to reduce that mana cost, but it's already at zero and the reductions have no effect.
+As a hypothetical, if Bolas's Citadel could take mana cost reductions into account, it would have to be worded something like "Instead of paying that spell's mana cost, you may pay that much life instead." In that case, mana cost reductions would apply in 601.2f, and Bolas's Citadel would take effect in 601.2h.
+As for Experimental Frenzy, EF does not offer or mandate an alternative cost like Bolas's Citadel does. With EF, you simply play the spell as you would from your hand, and all mana cost reductions apply. You have to choose whether or not you use BC to play the top card of your library.
+

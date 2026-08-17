@@ -1,0 +1,19 @@
+Q:
+
+Do permanents reenter the battlefield tapped with Brago, King Eternal?
+
+Let's say I have Brago, King Eternal, and a tapped artifact on the field, and I deal combat damage to the enemy player. Brago's ability reads:
+
+Whenever Brago, King Eternal deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.
+
+So, using Brago's Ability, I exile and return the artifact I control. Would it still be tapped, or would it return untapped?
+
+A:
+
+Permanents changing zones have no memory of their previous state (meaning tapped or untapped):
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [...]
+
+Due to Brago's ability not invoking any additional state changes to the blinked cards, they will enter the battlefield as they normally would. This means that a Sol Ring will enter the battlefield untapped, while a Worn Powerstone would enter the battlefield tapped.
+Note that other cards, such as Eldrazi Displacer, do set the state of the card re-entering the battlefield, so those cards will always enter the battlefield tapped.
+

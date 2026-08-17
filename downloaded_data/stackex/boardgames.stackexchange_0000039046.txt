@@ -1,0 +1,22 @@
+Q:
+
+Can Willbender be used when Dark Salvation is cast?
+
+Can Willbender be used when Dark Salvation is cast?
+I only ask as it mentions the word target twice.
+
+A:
+
+Depends on how it was cast.
+The spell asks you to select 1 target player and 0-1 target creatures:
+
+Target player creates X 2/2 black Zombie creature tokens, then up to one target creature gets -1/-1 until end of turn for each Zombie that player controls.
+
+If you cast it without targeting a creature, then it has only one target and may be retargeted by Willbender. If you decide to use the creature-removal part of the spell, then it has two targets and is not a valid target for Willbender's ability.
+Willbender's abilities does not add or subtract targets, so you cannot target a token-generating Dark Salvation to use it as removal (you can, however, steal the tokens).
+Here's a bit of relevant comp rules that Michael Politowski pointed out in the comments (emphasis added):
+
+114.8c An object that looks for a “[spell or ability] that targets only [something]” checks the number of different objects or players that became the target of that spell or ability when it was put on the stack (as modified by effects that changed those targets), not the number of those objects or players that are currently legal targets…
+
+Thus, if you're playing EDH and your opponent has a morph in play, I very much suggest using Dark Salvation to its full effect so you don't get Willbender'd. Because the first rule of EDH is "It's Always a Willbender."
+

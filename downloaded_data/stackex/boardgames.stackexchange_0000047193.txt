@@ -1,0 +1,23 @@
+Q:
+
+Is Simic Ascendancy triggered by Awakening of Vitu-Ghazi?
+
+Does Awakening of Vitu-Ghazi trigger the ability of Simic Ascendancy?
+Awakening of Vitu-Ghazi says:
+
+Put nine +1/+1 counters on target land you control. It becomes a legendary 0/0 Elemental creature with haste named Vitu-Ghazi.
+
+So either the land gets the +1/+1 counters and afterwards becomes a creature.
+Or it becomes a creature and then receives the +1/+1 counters. 
+To me the last assumption seems correct because it is irritating to me to be able to put +1/+1 counters on a land.
+
+A:
+
+The two actions (adding counters and the permanent type change) are two different steps of the same spell. That means they're executed separately:
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+
+There's no rule prohibiting +1/+1 counters on a non-creature permanent. For example, the land Llanowar Reborn enters the battlefield with a +1/+1 counter.
+So unfortunately Simic Ascendancy wouldn't trigger, as the counters are put on the land while it's not a creature yet.
+Simic Ascendancy would trigger if the land was already also a creature prior to the spell resolving: for example, casting Awakening a second time on the same animated land, or casting it on a land that was animated by Nissa, Who Shakes the World.
+

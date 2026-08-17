@@ -1,0 +1,13 @@
+Q:
+
+What happens when I blink a Manic Scribe multiple times?
+
+If I have a Manic Scribe and 2 Momentary Blinks, is it possible to use Momentary Blink on Manic Scribe multiple times, and if so, does his ability trigger again?
+
+A:
+
+What you are describing is possible, but I will go over various interpretations of what you described. We will assume that you already have a Manic Scribe on the battlefield.
+The most likely way you will accomplish what you're trying to do is by casting Momentary Blink on the scribe, letting the spell resolve so it can come back and trigger its "enters the battlefield" ability, and then casting your second Momentary Blink on it. This will cause it to leave and re-enter twice, triggering its ability twice, and overall making each opponent put 6 cards in their graveyard.
+You could also cast Momentary Blink on it, then hold priority and cast the second Momentary Blink on it before the first one resolves. This is a Bad Idea, because after one of them resolves, the other will not have a valid target and be countered (fizzle) on resolution (as the scribe left the battlefield and came back, so is a new object). Then, you wasted one of your blinks! Your opponent will only put 3 cards into their graveyard, because Manic Scribe only entered the battlefield once.
+Manic Scribe has a triggered ability that triggers on your opponent's upkeep (if you have Delirium) in addition to the one that triggers when it enters the battlefield, however you cannot cause this trigger to repeat in the same way. Your opponent's upkeep happens and the trigger is put on the stack. At this point, if you blink the scribe, it will leave and re-enter, and the "enters the battlefield" trigger will go on the stack too, but there is no way to get a second "beginning of upkeep" trigger to occur. 
+

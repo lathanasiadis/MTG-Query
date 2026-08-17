@@ -1,0 +1,20 @@
+Q:
+
+Solemnity + chronozoa = Infinte Loop = Draw?
+
+I'm building a Solemnity deck. What will happen if, with solemnity in play, I cast a Chronozoa?
+
+Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+When Chronozoa dies, if it had no time counters on it, create two tokens that are copies of it.
+
+Is the game a draw?
+
+A:
+
+The exact rule for vanishing, very similar to what's in the reminder text, says:
+
+When the last time counter is removed from this permanent, sacrifice it.
+
+If you have a Solemnity in play, no time counters are ever put on Chronozoa. You don't put some on then remove them, you just never put any on. So you never trigger that ability.
+If you wanted to create an infinite loop here, you just need to add a way to repeatedly destroy/sacrifice the Chronozoas. If you wanted a voluntary loop that you could stop at any time, so that you can just make a zillion Chronozoas without forcing a draw, any free sacrifice outlet would work. If you for some reason want the game to be a draw, you'd need something forced, like a few copies of Curse of Death's Hold or Heartless Summoning so that your Chronozoas are 0/0 and die immediately.
+

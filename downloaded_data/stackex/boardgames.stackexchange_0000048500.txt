@@ -1,0 +1,23 @@
+Q:
+
+What happens if I double Meddling Mage's 'enter the battlefield' trigger?
+
+Let's say I play Meddling Mage while I have Panharmonicon out. What happens? Do I get to name two cards that can not be cast? Or does the second card I name overwrite the first one?
+
+A:
+
+Nothing happens; you can't double Meddling Mage's 'enter the battlefield' trigger since it doesn't have one.
+But then... what is the thing that happens as the Mage enters the battlefield? Well, it's a replacement effect:
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+while triggered abilities are always worded differently (at least in Oracle, but Meddling Mage is modern enough):
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+The rulings below Panharmonicon also note this:
+
+Abilities that apply “as [this creature] enters the battlefield,” such as choosing a creature to copy with Clone, are unaffected.
+
+In most Magic games, the difference between these kind of replacement effects and triggered abilities can be neglected, but not in this particular case. Another difference is that after Meddling Mage starts to resolve and it's on the battlefield 'banning' a specific card, nobody gets priority so you can't sneak in a final casting of the named card - you'd have to do so while the Mage is still on the stack.
+

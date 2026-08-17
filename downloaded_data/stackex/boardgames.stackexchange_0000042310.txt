@@ -1,0 +1,24 @@
+Q:
+
+Cost increase and suspend
+
+During a recent game, my opponent Suspended two Rift Bolt in the same turn. Then, during my turn, I played a Damping Sphere.  
+The way we resolved it, is that at the next turn, my opponent payed 1 for the second Rift Bolt.
+I'm not sure if this is correct, because the rule text for supspend says that when you remove the last suspend counter you cast the spell without paying its mana cost. 
+So, to me, it sounds like even if the cost was increased, one still does not need to pay for it.  
+What's the correct thing to do?
+If actually one needs to pay for the second suspended spell, what would happen if he can't?
+
+A:
+
+The first Rift Bolt costs {0} to cast, and the second costs {1}.
+
+The total cost to cast a spell
+= mana cost or alternative cost
++ additional costs and cost increases
+- cost reductions
+Suspend allows spells to be cast for the alternative cost of "free". Cost increases, such as the one from Damping Sphere, still apply.[1]
+If you can't cast it (because you can't or choose not to produce the mana for it), it will remain exiled indefinitely.
+
+Only Trinisphere modifies the total cost.
+

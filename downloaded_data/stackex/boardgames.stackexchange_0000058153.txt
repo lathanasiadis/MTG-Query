@@ -1,0 +1,25 @@
+Q:
+
+Why Ninjutsu doesn't trigger targeted ability
+
+I added a Stormchaser Drake to my ninjutsu deck hoping to get some free card draw. This did not work.
+I'm assuming it is either the ninjutsu resolves before the creature gets to do the triggered card draw or the cost of returning an unblocked creature does not actually target the returning creature with the ninjutsu creature spell.
+What is the relevant rule for why it did not work?
+
+A:
+
+Stormchaser Drake only triggers on being targeted by a spell. Ninjutsu is neither a spell, nor does it target anything.
+First, Stormchaser Drake only triggers when it is targeted by a spell. Being targeted has a defined meaning in Magic. If a spell or ability does not have the word "target" in its text somewhere, it does not target anything (except aura spells, which always target something) and can't trigger Stormchaser Drake.
+
+115.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object and/or player.
+
+Ninjutsu does not have the word "target" in its text, so it doesn't target the creature it returns.
+
+702.49a [..] “Ninjutsu [cost]” means “[Cost], Reveal this card from your hand, Return an unblocked attacking creature you control to its owner’s hand: Put this card onto the battlefield from your hand tapped and attacking.”
+
+Second, Stormchaser Drake only triggers when it is targeted by a spell, but Ninjutsu is an ability. You activate it from your hand superficially similar to a spell, but that doesn't make it a spell.
+
+112.1. A spell is a card on the stack. [..]
+
+702.49a Ninjutsu is an activated ability that functions only while the card with ninjutsu is in a player’s hand. [..]
+

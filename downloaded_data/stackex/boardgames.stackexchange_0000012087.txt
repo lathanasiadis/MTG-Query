@@ -1,0 +1,41 @@
+Q:
+
+Does a player with a recurring action need to remind other players each time it would take affect?
+
+For example, when using Sulfuric Vortex does its owner need to remind each player at the beginning of their upkeep to take the damage? Or is a case of, if its owner forgets to tell you, then you do nothing?
+Similar question for Falkenrath Noble: if I forget to gain a life and forget to target a player to lose a life then does the ability never take effect? When is it too late - the next player's upkeep? The end of my turn?
+
+A:
+
+The word to look for is may.  For example, the rules text for Bred for the Hunt says:
+
+Whenever a creature you control with a +1/+1 counter on it deals
+  combat damage to a player, you may draw a card.
+
+If a triggered ability says "may", It's up to the owner of the ability to draw a card. If he forgets, that's too bad for him.
+The rules text for  Sulfuric Vortex says:
+
+At the beginning of each player's upkeep, Sulfuric Vortex deals 2
+  damage to that player.
+
+It says "deals damage" instead of "you may have Sulfiric Vortex deal 2 damage".  Without the "may", it's not optional. The Infraction Procedure Guide says:
+
+You aren't allowed to miss your own triggered abilities, and your
+  opponent isn't required to remind you about them.
+
+So not announcing the trigger is a rules infraction.  If you do forget a trigger in a casual game (regular rule enforcement):
+
+If a triggered ability is forgotten (or any other game error is made)
+  and the error is discovered later, players should alert the judge. The
+  judge will try and fix the error if possible and, if not, the game
+  will just continue.
+
+The responsibility for announcing the trigger lies with the player who owns the ability.  While other players are not required to announce the trigger, it's a good idea to do so.  If the owner notices two rounds later, it will be applied retroactively.
+Official tournaments are different (competitive and professional rule enforcement):
+
+What the judge will do when you miss your triggers:
+  your opponent gets to decide whether he or she wants the trigger to
+  happen or not.
+
+That makes for more competitive but less enjoyable games.
+

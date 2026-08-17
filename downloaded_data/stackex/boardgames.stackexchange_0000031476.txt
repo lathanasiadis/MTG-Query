@@ -1,0 +1,35 @@
+Q:
+
+Does lifelink apply before life loss during combat damage?
+
+Let's say for example I'm at 1 life.
+My opponent attacks with two creatures and I'm about to block one,
+but my blocker has lifelink that would make me gain more life than I lose.
+Do I still die due to the unblocked attacker or do I gain life before that?
+
+A:
+
+You gain life from lifelink at the same time as you lose it from the attacking creatures, and you will survive.
+You gain life as soon as your creature deals damage, there is no delay:
+
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes). See rule 119.3.
+119.3f Damage dealt by a source with lifelink causes that source’s controller to gain that much life, in addition to the damage’s other results.
+
+All combat damage is dealt at the same time during the combat damage step, assuming there is no first strike or double strike involved:
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+After combat, the active player gets priority and can cast spells etc.; before a player gets priority, state-based actions are checked. Players can lose the game from having zero or less health only when those actions are checked:
+
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [..]
+704.5a If a player has 0 or less life, he or she loses the game.
+
+By that time, combat damage has already been dealt and you have more than 0 life.
+Note that there are some cards that cause life-gain as a triggered ability rather than through lifelink. They are superficially similar, but have a lot of differences too.
+As an example, your creature didn't have lifelink but was instead enchanted with Armadillo Cloak. This would result in the following differences:
+
+The life gain would be put on the stack as a triggered ability. It would resolve after the combat damage step, at which point you would already have lost.
+Multiple Armadillo Cloaks on the same creature stack, while lifelink doesn't.
+Armadillo Cloak always gives life to the Cloak's controller, no matter who controls the enchanted creature, while lifelink always gives life to the creature's controller, no matter how it got lifelink.
+

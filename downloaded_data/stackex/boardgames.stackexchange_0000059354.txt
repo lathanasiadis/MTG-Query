@@ -1,0 +1,30 @@
+Q:
+
+Playing Leyline of the Void followed by Helm of Obedience: what happens?
+
+Say in classic game, I play Leyline of the Void or any card with a similar effect.
+Say I then play Helm of Obedience, and my opponent has no cards with a relevant effect.
+My opponent will then proceed to exile their entire library, but once their library is empty, Helm of Obedience does not stop resolving and in fact will never stop according to the card text.
+I argue that an infinite loop with only mandatory actions is created, and the game ends in a draw according to rule 421.4:
+
+421.4. If the loop contains only mandatory actions, the game ends in a draw. (See rule 102.4b.)
+
+Some people on the internet argue that instead, the effect of Helm of Obedience ends when there are no cards left to put in the graveyard because the effect cannot resolve, but rulings on HoO say
+
+10/1/2008     If an effect like that of Leyline of the Void prevents cards from being put into your opponent's graveyard, the process described in the first sentence of Helm of Obedience's effect will never stop. Your opponent's entire library will be exiled, even if X is 1.
+
+The phrasing "never stops" should indicate that the effect is, in fact, infinite, but the ruling does not actually cover the case when there are no cards to exile left, simply that this interaction is as described in this post, so which is it?
+
+A:
+
+No, the game would not end in a draw. This is due to the wording on Helm of Obedience:
+
+Target opponent mills a card, then repeats this process until a creature card or X cards have been put into their graveyard this way, whichever comes first.
+
+and 609.3:
+
+If an effect attempts to do something impossible, it does only as much as possible.
+
+Once the opponent's deck is empty, Helm of Obedience will attempt to make them mill a card, but they can't because their library is empty, so the text following (the 'then' portion), doesn't happen either. This means it does not repeat any further and stops.
+A similar situation where you simply use Helm of Obedience with X = 2 on an opponent with 1 land card in their library would have the same effect. They would put the land card into the graveyard, but because they then have no cards in their library, the 'repeat' portion would fail at the 'mill a card' and stop.
+

@@ -1,0 +1,32 @@
+Q:
+
+Can someone Bioshift counters off a creature after combat damage has been assigned?
+
+A friend has a Primordial Hydra with 10 +1/+1 counters on it, giving it trample.  I block it with a Vampire Nighthawk, causing it to die. My friend then uses Bioshift to take the counters off "in response to it taking lethal damage".
+A: Can he do this?
+B: Would my creature die and I take the remaining damage if he does it?
+
+A:
+
+No he can not do this.
+Damage does not use the stack.
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how
+  each blocking creature assigns its combat damage. This turn-based
+  action doesn't use the stack. A player assigns a creature's combat
+  damage according to the following rules:
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No
+  player has the chance to cast spells or activate abilities between the
+  time combat damage is assigned and the time it's dealt. This is a
+  change from previous rules. 
+
+Then once the damage is assigned and SBA are checked, IE it goes to the grave yard, then players have priority.
+
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, "Handling Triggered Abilities.")
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+So at the time he wants to move the counters the creature would be dead and gone.
+EDIT: In response to B:
+Since the nighthawk only has a toughness of 3, in step 510.1 your friend would assign 3 damage to the nighthawk and 7 damage to you if the hydra was 10/10 with trample.
+When it comes to trample you only ever have to assign lethal damage to the blocker before you assign damage to the player the blocker is blocking.
+

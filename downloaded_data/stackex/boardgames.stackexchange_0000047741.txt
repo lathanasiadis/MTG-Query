@@ -1,0 +1,15 @@
+Q:
+
+Does Evolution Sage proliferate Blast Zone when played?
+
+When Evolution Sage is in play, it proliferates my board every time a land is dropped. When I drop Blast Zone, it enters with 1 counter on it and then triggers the Sage. So after that the Blast Zone should have 2 counters, right?
+
+A:
+
+Yes, it does. Blast Zone's ability modifies how it comes into play, so it's a replacement effect, and not a trigger ability like Evolution Sage's. It doesn't use the stack, and when Evolution Sage's ability resolves, it will have a counter you can proliferate.
+If Blast Zone's ability would have read
+
+When Blast Zone enters the battlefield, put a charge counter on it.
+
+you would have to choose which ability triggered first, because you control both abilities; if you'd then choose Blast Zone's ability, Evolution Sage's ability would resolve before Blast Zone's and it would not receive an extra charge counter. But again, that is not the case.
+

@@ -1,0 +1,22 @@
+Q:
+
+How does Imprinting and the affinity work together?
+
+I'm currently working on a artifact deck (casual). I am thinking of imprinting Somber Hoverguard on Soul Foundry. But how do I dertermine the imprint cost, and will the activation cost of Soul Foundry change as the numbers of artifacts change on my battlefield?
+
+A:
+
+You don't get any benefits from Affinity.
+
+The activation cost of Soul Foundry's activated ability is based on the Converted Mana Cost (CMC) of the imprinted card, and Somber Hoverguard's CMC is 6.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. [...]
+
+Affinity doesn't affect the mana cost. It's a cost reduction that reduces the cost to cast the spell, not its mana cost. To paraphrase 601.2e,
+
+cost to cast a spell
+  = mana cost or alternative cost
+  + additional costs and cost increases
+  - cost reductions
+

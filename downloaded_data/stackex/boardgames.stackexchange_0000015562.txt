@@ -1,0 +1,16 @@
+Q:
+
+What are the characteristics of a flip card in my library?
+
+Are the characteristics of a flip card in my library determined by both faces or just the front face?
+For example, can I use an Enlightened Tutor to fetch Sasaya, Orochi Ascendant? Enlightened Tutor searches for enchantments and artifacts. If Sasaya is only an Enchantment after she's flipped, does that count?
+
+A:
+
+In your library, a flip card has only the characteristics of the top half of the card. You cannot use Enlightened Tutor to find Sasaya, Orochi Ascendant, because
+
+In every zone other than the battlefield, and also on the battlefield before the permanent flips, a flip card has only the normal characteristics of the card. (CR 709.2, emphasis added)
+
+(From 709.1a and 1b, the top half defines the "normal characteristics", and the bottom half defines the "alternative characteristics".)
+Basically, until it's actually flipped, the card/spell acts as if the flip version wasn't printed on it, so neither the tutor nor the enchantress will ever do anything with it (since it's not an enchantment either when you cast it).
+

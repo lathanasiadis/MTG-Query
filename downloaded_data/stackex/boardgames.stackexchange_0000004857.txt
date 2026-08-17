@@ -1,0 +1,141 @@
+Q:
+
+How can a blue control deck be made more efficient?
+
+It seems like my games last a long time and I don't do that much damage. Is that what it's supposed to feel like when using a control deck? How can I win more efficiently?
+Here is my deck:
+Lands
+19x Islands
+1x  Glacial Fortress
+1x  Terramorphic Expanse
+
+Artifacts
+1x  Adaptive Automaton
+1x  Scepter of Empires
+1x  Throne of Empires
+1x  Isochron Scepter
+2x  Elixir of Immortality
+3x  Kraken's Eye
+
+Blue Creatures
+1x  Wall of Frost
+1x  Augury Owl
+1x  Zephyr Sprite
+2x  Aether Adept
+2x  Aven Fleetwing
+4x  Skywinder Drake
+3x  Belltower Sphinx
+1x  Phantasmal Image
+
+Blue Spells
+4x  Mind Control
+4x  Cancel
+4x  Unsummon
+4x  Ice Cage
+2x  Jace's Erasure
+2x  Negate
+2x  Mana Leak
+2x  Sleep
+1x  Ponder
+
+A:
+
+This answer may have gotten a little out of hand... what can I say, I'm procrastinating ;-) plus I couldn't resist a chance to share my love of control decks.
+
+It seems like my games last a long time and I don't do that much damage, is that what its supposed to feel like when using a counter deck?
+
+Well, do you mean you're not doing much damage quickly, or not doing much damage at all? In the latter case, that's a problem because you never get to kill your opponent, but the former case is exactly how a control deck is supposed to work. Your game plan is to establish control over the game: get to the point where you can counter, destroy, exile, or otherwise eliminate any spell or permanent that poses a threat to you. Once you do that, it doesn't matter how you win or how long it takes you to do it (although there is something to be said for not letting your opponents get bored).
+Of course, the downside of playing a control deck is that you can get overwhelmed in the first few turns of the game, before you're able to establish control. So to make a good control deck, you need to make every card count in the early game. For one thing, that means using lots of cheap counterspells. I notice that you've got a couple of cards in the deck which aren't Standard-legal, so I'm assuming you're drawing from the entire Magic card pool, and in that case the #1 most important spell you should be playing is the original Counterspell. Mana Leak is probably the other staple of most good counterspell decks. I see you have a couple Mana Leaks already, but I'd suggest "upgrading" to 4 of each card if you can get them. Beyond that, you want an assortment of different kinds of counterspells for different situations:
+
+Cheap or alternate-costed counterspells to support you through the first couple of turns:
+
+Daze
+Foil
+Force of Will
+Force Spike
+Mental Misstep
+Spell Pierce
+Spell Snare
+
+Utility counterspells that have side effects:
+
+Cryptic Command
+Discombobulate
+Dismiss
+Dismal Failure
+Dissipate
+Forbid
+Lay Bare
+Mana Drain
+Miscalculation
+Quash
+Rewind
+Trickbind
+
+X spells for versatility:
+
+Condescend
+Disrupting Shoal
+Logic Knot
+Spell Burst
+
+Some of these are rare and really expensive ($$, not mana, e.g. Force of Will is probably a $150-ish card), so I gave you a bunch of choices. There are others as well, which you can find on Gatherer, but these are the ones I'd consider most potentially useful for a mono-blue deck.
+In some cases you can choose between different counterspells in each group based on which of their side effects is most useful to your deck, or what you expect to play against, or what you're able to acquire, but generally for a counter-heavy deck you'd probably want 2-4 from the first list (that is, 2-4 slots in your deck), 4-5 from the second list, and optionally 1 or 2 of the X spells. Combined with 4 Counterspell and 4 Mana Leak, that gives you 15-20 counters total.
+The next thing to think about is your removal. You won't be able to counter every spell, so you need some way of dealing with permanents that sneak through the cracks. Unfortunately, blue isn't very good at this, so if you want to stick to one color, you're not going to have access to the best removal options. One of the best blue cards available to deal with permanents is Capsize, which lets you repeatedly bounce a permanent until you're able to counter its spell. You'll probably also have to dip into artifacts, for things like Nevinyrral's Disk or Ratchet Bomb. Since creatures tend to be the most annoying permanents, it's fine to include a couple of creature control cards like Mind Control or Sleep (note that usually only one or the other of these will be good, depending on what kind of deck you're playing against: Mind Control against big creatures, Sleep against weenies), but I wouldn't go overboard on them. I think your current decklist uses too many of these, since they're not that useful against decks that can do things without creatures, and besides, that's what the counterspells are for.
+Another key component of any good control deck is card drawing and filtering. The reason here is that, since your deck is so focused on preventing your opponent from doing stuff, you always need to have at least as many counterspells or removal spells as they have action spells, and in order to make sure of that, you need access to more cards than your opponent. Recently, planeswalkers have been doing well at this; in particular, any of the three versions of Jace:
+
+Jace Beleren
+Jace, the Mind Sculptor (still rather expensive despite being banned, but it's really good)
+Jace, Memory Adept
+
+Back in the day, Whispers of the Muse and Accumulated Knowledge were popular choices for card draw. These days, people mostly use Preordain and Ponder. You can supplement those with Azure Mage, which is not only reusable but also gives you a creature to attack or block with. Of course there are many other choices, which you can look up on Gatherer.
+Finally, you need to figure out a way to win. Again, since it shouldn't matter what your deck does once you have control, you need to think about what will be best at protecting you in the early game. Belltower Sphinx is not bad if you're pursuing a mill strategy, though it is a little expensive. The thing to keep in mind here is that once you've fit in the counterspells, the removal, the card draw, and of course lands, there's not going to be much room left in your deck for win conditions, so you need to pick a win condition that basically ends the game as soon as you cast it, or does double duty by also filling one of the other roles in your deck (such as Azure Mage, which helps you draw cards while also being a creature, or the Worldwake man lands - but those are all double-colored).
+
+With that in mind, let's look at your decklist:
+
+Lands
+
+19x Islands
+1x  Glacial Fortress
+1x  Terramorphic Expanse
+
+With no white cards, there's no reason to include Glacial Fortress, and since you only have one color of mana, Terramorphic Expanse is pretty useless as well - unless you also have Halimar Depths, then it lets you shuffle away unwanted cards. Also, counterspell decks are pretty mana-intensive, so you should have a lot more than 21 lands; I'd suggest around 26. You can include some specialty lands that help with the aspects of your game plan, such as Halimar Depths (filtering), Quicksand (removal), or Stalking Stones (win condition), but for mana production I'd stick with just Islands.
+
+Artifacts
+
+1x  Adaptive Automaton
+1x  Scepter of Empires
+1x  Throne of Empires
+1x  Isochron Scepter
+2x  Elixir of Immortality
+3x  Kraken's Eye
+
+Throne of Empires is a great win condition because it can produce a whole swarm of creatures while only taking up a single slot in your deck. Other than that, most of these are probably not helping you. Isochron Scepter can have a neat interaction with cheap counterspells but I don't see it being that useful most of the time, since running out of cards should not be your problem.
+
+Blue Creatures
+
+1x  Wall of Frost
+1x  Augury Owl
+1x  Zephyr Sprite
+2x  Aether Adept
+2x  Aven Fleetwing
+4x  Skywinder Drake
+3x  Belltower Sphinx
+1x  Phantasmal Image
+
+For these, think about what creatures can advance your game plan, like Azure Mage (as I mentioned above). Most of these creatures don't really do much to help you out there. Aether Adept is sort of removal-like, but usually your opponent can just replay the creature you bounced on the next turn, and then all you got is a 2/2 for 3 mana and perhaps a turn off from being attacked. While that's not bad, it's not particularly exciting either. Phantasmal Image is particularly iffy because your opponent has a surefire way to destroy it which your counterspells can't even stop. I'd leave it out unless you have something really cool for it to copy.
+
+Blue Spells
+
+4x  Mind Control
+4x  Cancel
+4x  Unsummon
+4x  Ice Cage
+2x  Jace's Erasure
+2x  Negate
+2x  Mana Leak
+2x  Sleep
+1x  Ponder
+
+Again, I think you have too many Mind Controls. You only want to be stealing your opponent's biggest and best creatures; it should be something that really makes it worth spending 5 mana to get it. Most things are better off being countered. Unsummon seems lackluster for the same reason as Aether Adept, and Ice Cage for the same reason as Phantasmal Image. Jace's Erasure is okay if you're pursuing a mill strategy, but it doesn't do anything else to directly help you, so I think you can do better.
+

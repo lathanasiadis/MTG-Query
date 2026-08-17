@@ -1,0 +1,21 @@
+Q:
+
+Who controls negative enchantments?
+
+If a player casts e.g. Waterknot on enemy creature, who is the controller of the Waterknot? And in case the enchantment on enemy creature has activated abilities, who can activate them? The enchantment owner, or creature controller?
+I am asking because of River's Rebuke. What happens to enchantments on creatures the player controls when River's Rebuke is cast on them? Do they go to owner's graveyard or hand?
+
+A:
+
+The player who played the enchantment controls it, no matter what it is attached to.
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn’t change control of the Aura, and vice versa. Only the Aura’s controller can activate its abilities. However, if the Aura grants an ability to the enchanted object (with “gains” or “has”), the enchanted object’s controller is the only one who can activate that ability.
+
+Which means that rule 110.2a applies to it
+
+110.2a If an effect instructs a player to put an object onto the battlefield, that object enters the battlefield under that player’s control unless the effect states otherwise.
+
+So if you play a Waterknot on your opponent's creature and then play River's Rebuke, the Waterknot will go to your graveyard.
+If you play a Waterknot on your opponent's creature and your opponent plays River's Rebuke, then the Waterknot will return to your hand.
+If you play a Waterknot on your own creature, and your opponent plays River's Rebuke, then both the Waterknot and your creature will return to your hand.
+

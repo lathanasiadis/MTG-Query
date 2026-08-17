@@ -1,0 +1,22 @@
+Q:
+
+Can I counter Rite of Replication by destroying the copied creature?
+
+Let's say my friend casts Rite of Replication on one of his creatures. Right after that, I play an instant--Flesh to Dust--and destroy his creature. Would that counter the sorcery?
+If not, would I have to cast the instant right when he casts Rite of Replication?
+Or say something like "before you cast that spell I'm destroying your creature..."
+
+A:
+
+Yes, the Rite of Replication would fail if you destroy the creature it's targeting. It plays out like this:
+
+Your opponent casts Rite of Replication targeting their creature.
+
+You cast Flesh to Dust in response to Rite of Replication.
+
+Your Flesh to Dust resolves, and their creature dies.
+
+Your opponent's Rite of Replication tries to resolve, but since the creature it targeted is no longer on the battlefield, it doesn't resolve because of rule 608.2b, which says
+
+If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal [...] If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard.
+

@@ -1,0 +1,31 @@
+Q:
+
+Targeting instants with aftermath in a graveyard
+
+Situation: I have a Dire Fleet Daredevil on the stack and my opponent has an Aftermath instant (e.g. Spring // Mind) in their graveyard. 
+Questions: 
+
+I assume that they can cast the their Aftermath in response to Dire Fleet Daredevil?
+Can then cast it after I have targeted it (meaning that it is not a valid target and so the ability fizzles)?
+Mind has the ruling:
+
+Once you’ve started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can’t try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+
+If I can somehow give Dire Fleet Daredevil flash and I cast it in response to my opponent casting Mind, then I assume I can't target Spring // Mind?
+Are there any differences to these questions if the card in the graveyard has Flashback instead of Aftermath?
+
+Bonus question: Can I cast Spring? Or Mind? Or both?
+
+A:
+
+Yes, any instant that can legally be cast, including aftermath or flashback instants in the graveyard, can be cast in response.
+Yes, you target the card in graveyard once Dire Fleet Daredevil enters the battlefield, until it resolves you haven't exiled the card, and the opponent can respond with any legal play, including using the aftermath, which causes the Dire Fleet Daredevil ability to fizzle due to lack of targets.
+Correct, the card needs to still be in the graveyard to be targeted by Dire Fleet Daredevil, once the card has moved to the stack, it is no longer in the zone that daredevil can target. 
+No differences between flashback and aftermath, or even retrace(You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
+
+BONUS: You actually can't use mind however with Dire Fleet Daredevil. The ruling on Dire Fleet is:
+
+The effect of Dire Fleet Daredevil doesn’t change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+
+And the aftermath half of cards can only be cast from your graveyard, so it's illegal for you to cast from exile, you can however cast the Spring half, since you target the card with Dire Fleet, not half of the card.
+

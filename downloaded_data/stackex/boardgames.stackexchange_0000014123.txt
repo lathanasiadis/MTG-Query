@@ -1,0 +1,26 @@
+Q:
+
+How does Double Strike work with Trample?
+
+Player A has a Wrecking Ogre (4/4 double strike) and decides to use the Bloodrush ability of Ghor-Clan Rampager, so now the Wrecking Ogre is a 7/7 with Double Strike + Trample.
+If Player B decides to block it with 3 2/2 creatures, on the first combat, Wrecking Ogre's power will be down to 1/1,and that 1/1 will go to the player because it has trample.
+My concern is about the second strike of wrecking ogre. Since there are no more blockers, will it deal 7/7 damage or 1/1 damage?
+And if wrecking ogre is blocked by 2 5/5 creatures? Will it be dead before it can attack again? Will the Trample and Double Strike will be useless?
+
+A:
+
+It's power and toughness never change. It's never 1/1 or 1/7 or 7/1. It's 7/7 throughout. It merely gains marked damage.
+In the first Combat Damage Step, the Ogre assigns 7 damage. It will assign and deal 2 damage two each of the 2/2[1] (and kills them) and 1 to the player.
+In the second Combat Damage Step, the Ogre assigns 7 damage. It will assign and deal 7 damage the player.
+If the damage it did the second step was reduced by the damage it did in the first step, it would never deal any in the second as a creature always deals its power in damage.
+
+and if wrecking ogre is blocked by 2 5/5 creature?
+
+Only creatures with First Strike or Double Strike participate in the First Strike combat damage step.
+Assuming these 5/5 have neither,
+
+First strike combat damage step: Ogre deals 5 to one 5/5 (and kills it) and 2 to the other (which survives with 2 damage).
+Normal strike combat damage step: Ogre deals 3 to the remaining 5/5 (and kills it) and 4 to the defender. The 5/5 deals 5 to the Ogre (which survives with 5 damage).
+
+It's possible to assign more, but there's rarely a reason to assign more than the minimum.
+

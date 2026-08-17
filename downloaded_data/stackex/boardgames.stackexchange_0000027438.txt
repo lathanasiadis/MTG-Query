@@ -1,0 +1,27 @@
+Q:
+
+Protection from color vs hexproof
+
+If I have a prevent all damage from a green source and I am attacked with a creature who is black green and the opponent has paid for its hexproof ability, will I still be protected?
+
+A:
+
+The damage is still prevented.
+The scenario you describe seems to be one in which your opponent controls Reaper of the Wilds and you control either Circle of Protection: Green or Rune of Protection: Green. The rule describing Hexproof, 702.11b, says
+
+“Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+The key word here is "target". Hexproof only prevents spells and abilities from targeting the creature, not from affecting them in general. Targets are described in rule 114, and rule 114.1d says
+
+An activated ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object, player, or zone. The target(s) are chosen as the ability is activated; see rule 602.2b.
+
+Now, if we look at the damage prevention cards, we see that Circle of Protection: Green says
+
+{1}: The next time a green source of your choice would deal damage to you this turn, prevent that damage.
+
+and Rune of Protection: Green says
+
+{W}: The next time a green source of your choice would deal damage to you this turn, prevent that damage.
+
+Neither of those uses the word "target", so neither of them targets the source they are affecting. This means that Reaper of the Wilds' Hexproof does not stop them from preventing the damage.
+

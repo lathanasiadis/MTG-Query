@@ -1,0 +1,16 @@
+Q:
+
+* Power/Toughness and other effects
+
+Having spent time reading the wonderful answers here on the marvels of layers, I thought I'd throw another one in the mix...
+I have an empty board, 7 mana, and a Daxos, Blessed by the Sun and Harmonious Archon in hand. I can cast both, but I want to maximise the outcome.
+My understanding says that if I play the Archon first followed by Daxos, he will have 4 toughness, or more if I increase devotion. If I do it the other way, he will have an unchangeable 3 toughness.
+This is predicated on my assumption that Daxos' toughness effect is a continuous effect that is determined in the same layer as the Archon. Is this correct?
+
+A:
+
+No, he will be 3 either way.
+Daxos's ability is a Characteristic-Defining Ability, as defined in 604.3a: It defines the power/toughness, it is printed on the card, it doesn't directly affect the characteristics of other objects, it is not granted to itself, and it is not only set conditionally.
+As described in 613.3, Layer 7a is where Characteristic-Defining Abilities are set.  Effects that set power/toughness to a specific number that are not Characteristic-Defining are set in Layer 7b.  As such, Daxos's ability will always apply first, then Harmonious Archon will always overwrite it.
+It is also worth mentioning that while Layer 7 has multiple sublayers, 613.2 specifies that in Layers 1-6 that Characteristic-Defining abilities are always applied before any other effects.
+

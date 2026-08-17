@@ -1,0 +1,23 @@
+Q:
+
+Do subtype changes remain after a card is transformed?
+
+Say I have an Olivia, Mobilized for War on the field, who has this ability:
+
+Whenever another creature enters the battlefield under your control,
+  you may discard a card. If you do, put a +1/+1 counter on that
+  creature, it gains haste until end of turn, and it becomes a Vampire
+  in addition to its other types.
+
+I play a Werewolf and discard a card to pay for Olivia's ability. The Werewolf is also a Vampire now.
+A turn passes without anybody playing spells, so the Werewolf transforms. Is it still a Vampire? Or is it only the subtypes written on the card's new face?
+
+A:
+
+Yes.
+From the Comprehensive Rules:
+
+711.7. When a double-faced permanent transforms, it doesn't become a new object. Any effects that applied to that permanent will continue to apply to it after it transforms.
+
+So your Werewolf will keep its Vampire subtype.
+

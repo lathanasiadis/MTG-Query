@@ -1,0 +1,23 @@
+Q:
+
+Triggered abilities: Whenever a creature deals damage
+
+I have among others the following two permanents in play under my command:
+Derevi, Emyrical Tactician, which has "Whenever Derevi, Empyrical Tactician enters the battlefield or a creature you control deals combat damage to a player, you may tap or untap target permanent."
+And a creature enchanted with Presence of Gond, which reads "Enchant creature. Enchanted creature has "{T}: Put a 1/1 green Elf Warrior token onto the battlefield."
+Now I am not certain if the following reasoning is correct:
+If I attack with four creatures and all deal damage to my opponent, then Derevi's ability is triggered four times, and four instances of "You may tap or untap target permanent" go onto the stack.
+The comprehensive rules state for the combat damage step:
+
+510.3. Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, "Handling Triggered Abilities.")
+
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+I.e. I get priority while those four Tap-Untap-abilities are still on the stack. I activate the Make-Token-ability of the creature enchanted with Presence of Gond and it goes on top of the stack. When all pass priority, this one resolve and a token enters the battlefield, when all pass priority again (assuming nothing triggered when the token entered the battlefield), the first of the Tap-Untap resolve and I can untap the enchanted creature. While I have priority I tap it again for another token. Rinse and repeat.
+Does this work? Can I make this way five tokens (with the enchanted creature ending up tapped)?
+
+A:
+
+Yes, you can do that. Each creature you control that deals damage to a player triggers the ability and puts another copy on the stack. Then after each triggered ability resolves, each player gets priority, so you can again tap your enchanted creature to put another token into play.
+Note that you must choose the targets for each instance of the triggered ability when they are put on the stack. Importantly, this means that if the enchanted creature is destroyed in the middle of this process, then the rest of the untap abilities still on the stack fail to resolve, and you can't use them to tap or untap anything else.
+

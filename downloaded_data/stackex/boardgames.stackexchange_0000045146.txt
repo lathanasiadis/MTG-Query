@@ -1,0 +1,13 @@
+Q:
+
+How does commander damage interact with cards that prevent you from losing the game?
+
+If you have take the last 21 commander damage from a single commander and play a card that prevents you from losing, what happens when that card stops protecting you? Example being Angel's Grace or Stunning Reversal. 
+
+A:
+
+The rule that makes you lose the game from commander damage is one of the State-based actions (specifically, rule 704.5v). These are checked every time any player gains priority. The two cards you mentioned interact with this in different ways:
+
+Angel's Grace stops you from losing for a specific duration within the game (this turn). During that duration you won't lose the game for that reason or any other. As soon as that duration ends, the next time state-based actions are checked you will lose the game, because you still have 21 commander damage.
+Stunning Reversal replaces a single time that you would lose the game. In that case, after you take the 21st point of damage the state-based action in question applies, and Stunning Reversal's effect replaces it and you follow its instructions, and then state-based actions are immediately checked again and you still have 21 commander damage so you lose the game.
+

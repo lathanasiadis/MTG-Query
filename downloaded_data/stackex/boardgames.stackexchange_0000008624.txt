@@ -1,0 +1,35 @@
+Q:
+
+Ponder: to shuffle or not to shuffle
+
+You know the situation. You need something specific: a land, say, or a removal spell, so you play Ponder. You find the thing you're looking for. Hooray! Unfortunately, the other two cards that Ponder shows you are completely useless at this point in the game, so if you put the card you want on top and draw it, you're guaranteeing yourself two dead draws afterwards. On the other hand, if you shuffle, you might have better draws on the upcoming turns, but you leaving it up to randomness whether you draw the card you need right now.
+What do you do? What factors do you take into account in order to decide the correct play?
+
+A:
+
+In general, the only time it is worth it to shuffle your deck is if you are looking for a land card. When you are looking for removal, a win condition, or more than a single threat card, you are usually better off keeping the cards that Ponder reveals. This question essentially boils down to a probability question. The deciding factors are:
+
+How likely are you to draw the specific card you are looking for if you shuffle?
+How soon do you need to draw the specific card?
+How likely are you to improve your draw if you shuffle?
+Do you have in hand a way to search for the specific card, or to shuffle your library? (I would assume that you didn't, otherwise the question is moot. i.e. If you had another Ponder in hand, Polluted Delta, or some other means to shuffle your library then you should keep the revealed cards.)
+
+Except for the specific probability, the only real controlling factor here is how soon you need to draw the specific card. The gray area here though, is what exactly do you mean by need and dead draw? Are the "dead draws" 1/1 chump blockers, can you survive for 3 turns if you keep this draw? I will make some assumptions about what those dead draws likely are, and run some calculations using the Hypergeometric Distribution function to give a general idea what the best course of action is.
+Probability
+Looking for Land and Ponder reveals a Land, and 2 other "useless" cards (high converted mana cost).
+At one extreme, you might have kept a hand of a single land card and hoped that Ponder would help you find at least another one. In a 24 land deck, if you choose to shuffle, you have a 44% chance of immediately drawing  the land. After three draws, you only have a 17% of not getting any land, and a 41% chance of getting two or more land. The fourth draw looks even better for shuffling, with a 60% chance of getting 2+ land, and keeping the useless cards only having a 45% chance of 2+ land.
+That extreme case is not very likely though. Usually, you will mulligan a hand with fewer than 3 land. If instead we examine Turn 3, casting Ponder to find the 4th land. If you shuffle, you have a 42% chance of immediately drawing a land. The remaining calculations have very similar percentages as the extreme case. Late game, after drawing a quarter of the deck, perhaps you are looking for your 6th land so that you can cast some game winning spell. Obviously, if you have already drawn the "winning" spell, you should probably just keep the cards since Ponder revealed the one land card you were looking for. If you haven't drawn the winning spell, the odds that you don't draw your 6th land by your third draw are only about 18%, which drops to only 10% on the forth draw. Once again shuffling is the best move, because not only is it unlikely that you won't draw your 6th land, you also have an increased chance of drawing your game "winning" spell (about 32%).
+Looking for Removal and Ponder reveals removal, and 2 Lands. For one extreme, we will assume Turn 2, two lands drawn, 4x copies of Swords to Plowshares (StP).  If you shuffle, the odds of drawing StP are only 8%:1st draw and 21%:3rd draw. In fact, the odds of drawing removal after shuffling only exceeds 50% on your 8th draw. Clearly, if you need removal any time soon you shouldn't shuffle (Considering you start at 20 life, a 3/x or larger creature will kill you in 7 turns).
+In a more likely scenario, lets assume you have 8x copies of removal in your deck, it is Turn 4, you have drawn and used one removal spell and are looking one of the remaining 7 (these could be targeted removal, or WoG). In this situation, if you shuffle you have a 14%:1st draw, 25%:2nd draw, 33%:3rd draw, and >55%:5th draw. When you compare these results with the certainty of drawing the removal you need immediately, you are likely better off keeping the cards and the 2 "useless" cards. If you can last +5 turns before you need removal, you might want to shuffle.
+Looking for a Win Condition and Ponder reveals the win condition, and 2 Lands. The win condition will be a card that completes a combo, some sort of fattie with evasion, or an instant win card. We will assume that you have drawn enough lands already, so that is why the cards are dead draws. Since it is a rather obvious choice to keep the cards if all you need is one copy of the "win condition", the chart below will examine the increase/decrease in odds of drawing 2+ copies if you decide to shuffle. Only after you have drawn half your deck, and when 20% of the cards left in the deck are win cards, are the odds equal or better that you have drawn 2+ win cards. When you take into account the fact that keeping the cards ensures you get one of those win cards immediately, you nearly always should keep the cards Ponder reveals.
+        |  2 |  4 |  6 |  8 |Win Cond
+        +----+----+----+----+--------+
+      50| -2%| -4%| -4%| -3%|
+      40| -2%| -4%| -4%| -2%|
+      30| -2%| -4%| -2%| +3%|
+      20| -3%| -1%| +5%|+12%|
+      10| -1%|+12%|+17%| -- |
+ Library|
+
+Another possibility is that Ponder revealed a single threat, and 2 Lands. What you would really prefer at this point, is any threats in your deck. If you shuffle, you have the possibility of getting fewer dead land draws. In this situation, you are interested in the odds of drawing 1 or fewer lands in the top three cards (2 lands within the top 3 would be the same situation a third of the time). The situations where it would be worth it to shuffle are extremely unlikely, as 60% or more of the deck needs to be land.
+

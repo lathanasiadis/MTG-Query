@@ -1,0 +1,18 @@
+Q:
+
+Duress at instant speed in response to Counterspell
+
+So when playing MTG I had down Vedalken Orrery, and I was playing a creature and my opponent counters my creature. In response I play Duress, as Vedalken allows you to cast spells as if they have flash, which is basically instant speed. Can I Duress his Counterspell?
+
+A:
+
+No. Once a spell has been cast, it's no longer in hand but on the stack, so you can't make your opponent discard it any more.
+As part of the spellcasting process, the card moves from the hand to the stack; the stack is a zone like the hand, battlefield, etc.. Once a spell has been successfully cast, it's no longer in hand and cannot be discarded any more, since the definition of "discard" requires the card to be in hand. You would have to play Duress before your opponent plays the Counterspell.
+
+400.1. A zone is a place where objects can be during a game. There are normally seven zones: library, hand, battlefield, graveyard, stack, exile, and command.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.  [..]
+
+701.8a To discard a card, move it from its owner’s hand to that player’s graveyard.
+“Discard.”
+

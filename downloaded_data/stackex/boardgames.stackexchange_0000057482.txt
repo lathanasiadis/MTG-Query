@@ -1,0 +1,43 @@
+Q:
+
+Martyrdom: how many instances of damage?
+
+Martyrdom was errata’d, and its current oracle text seems to have significant functional differences compared to its printed text: it now redirects damage 1 by 1, instead of all at once.
+I have an enrage creature in play, let’s say Polyraptor. An opponent attacks with a 10/10 and a 20/20. I declare no blocks, cast Martyrdom targeting my raptor, then activate the Martyrdom ability 30 times, targeting myself. How many damage triggers would this cause? 1, 2, 5, 30?
+
+A:
+
+This will cause one damage trigger.
+The activated ability created by Martyrdom creates a replacement effect upon resolution. This is indicated by the word "instead", as indicated in rule 614.1a. Specifically, it is a damage redirection effect, as described in rule 614.9. Rule 614.4 says
+
+Replacement effects must exist before the appropriate event occurs—they can’t “go back in time” and change something that’s already happened. Spells or abilities that generate these effects are often cast or activated in response to whatever would produce the event and thus resolve before that event would occur.
+
+So, the way a player uses Martyrdom is by activating the ability any number of times before a damage event occurs. The resulting replacement effects will be applied to the damage event, redirecting damage up to the number of times the ability was activated.
+For the trigger itself, Polyraptor has a ruling on Gatherer that is very relevant here:
+
+If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+
+More generally, all combat damage within a single combat damage step is dealt simultaneously, as stated in rule 510.2. Damage redirection effects such as on Martyrdom change which object or player the damage is dealt to, but the resulting damage is still dealt simultaneously.
+
+Here's how it plays out in detail:
+
+The active player (AP) attacks with the 10/10 and the 20/20.
+The non-active player (NAP) declares no blocks.
+During the declare blocks phase, NAP casts Martyrdom targeting their Polyraptor.
+NAP activates the ability created by Martyrdom 10 times targeting the first attacking creature and 20 times targeting the second attacking creature, creating a total of 30 damage redirection effects.
+The game moves to the combat damage step, and both attacking creatures assign damage equal to their power to NAP.
+The damage is dealt:
+
+The initial damage event is "the two attacking creatures deal 10 and 20 damage respectively to NAP".
+Replacement effects are applied, in the process described in rule 616.1:
+
+NAP chooses one of the available replacement effects and applies it, redirecting one point of damage from one of the two attacking creatures to Polyraptor instead of NAP.
+This process repeats until there are no more applicable replacement effects.
+
+The resulting damage event is "the two attacking creatures deal 10 and 20 damage respectively to Polyraptor".
+Polyraptor takes 30 damage. Polyraptor's ability triggers once.
+
+State-based actions are checked. Polyraptor has taken lethal damage, and dies.
+Polyraptor's trigger is put on the stack.
+Polyraptor's trigger resolves, creating one copy of Polyraptor (using last-known copyable information).
+

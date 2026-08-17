@@ -1,0 +1,28 @@
+Q:
+
+Additional Turns and Emrakul, the Promised End
+
+When the round time expires in a sanctioned event, the current turn plus 5 additional turns are completed before a game still in progress is a draw.
+Emrakul, the Promised End has the text:
+
+When you cast Emrakul, you gain control of target opponent during that player's next turn. After that turn, that player takes an extra turn.
+
+If Emrakul, the Promised End was cast in the additional turns, how would the controlled turn and extra turn be counted?
+Example for clarity: Player A casts Emrakul, the Promised End targeting Player B on turn 1 in additional turns. Is turn 2 Player B being controlled and turn 3 Player B's extra turn?
+
+A:
+
+It doesn't matter who controls the turns or if there are extra turns, five additional turns are taken in total (assuming nobody wins before that).
+So if the Andy casts Emrakul on the first extra turn targeting Nathan the turns will end up being like this:
+
+Andy (casts Emrakul)
+Nathan (controlled by Andy)
+Nathan (controlled by himself)
+Andy
+Nathan
+
+From the Magic Tournament Policy:
+
+2.5. End-of-Match Procedure
+If the match time limit is reached before a winner is determined, the player whose turn it is finishes his or her turn and five additional turns are played in total. This usually means that one player takes three turns and the other two, but a player taking extra turns may affect this. (...)
+

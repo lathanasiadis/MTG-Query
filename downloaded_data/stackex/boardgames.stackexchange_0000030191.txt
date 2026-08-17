@@ -1,0 +1,18 @@
+Q:
+
+Are there any nonland Plains?
+
+There's a card called Emeria Shepherd that reads (among others, emphasis mine)
+
+Landfall - Whenever a land enters the battlefield under your control, return target nonland permanent card from your graveyard to your hand. If that card is a Plains, you may return that nonland permanent card to the battlefield instead.
+
+Is there a nonland permanent card that is a plains?
+
+A:
+
+Your text is slightly off.  It's actually:
+
+Whenever a land enters the battlefield under your control, you may return target nonland permanent card from your graveyard to your hand. If that land is a Plains, you may return that nonland permanent card to the battlefield instead.
+
+So, it's referring to the land that triggers landfall, not the nonland permanent you're targeting in your graveyard. 
+

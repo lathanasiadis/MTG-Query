@@ -1,0 +1,14 @@
+Q:
+
+Is "Blessed Reversal" treated as a single life gain event?
+
+When playing Blessed Reversal is it treated as a single life gain event regardless of how many creatures are attacking? Or is each "3 life" treated as a separate event.
+I'm asking because with Heliod, Sun Crowned "Whenever you gain life, put a +1/+1 counter on target creature or enchantment you control." So if 10 creatures attack and I play Blessed Reversal, do I get 10 counters or 1 counter?
+
+A:
+
+Blessed Reversal is one lifegain event, even if more than one creature is attacking you. Heliod will create only one +1/+1 counter.
+The term "each creature attacking you" is a number that is determined when Blessed Reversal is resolved. The lifegain is a single one-shot effect and will trigger Heliod only once, if at least one creature is attacking you on resolution.
+There are lifegain effects that create multiple "packages" of lifegain when you are attacked, such as Righteous Cause. Righteous Cause has a triggered ability that triggers individually for each creature that has been declared as an attacker.
+It all depends on the wording though - there are also enchantments that create only one lifegain package for attacking creatures, such as Orim's Prayer.
+

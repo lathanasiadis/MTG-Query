@@ -1,0 +1,23 @@
+Q:
+
+Abilities with the "until" clause and the stack
+
+If an effect or ability (are these two different cases?) lasts "until" a certain effent occurs, does this "delayed" condition use the stack? For example:
+
+I remove the Banishing Light is there a trigger placed on the stack afterwards? Or is the permanent placed on the battlefield while the spell/ability which removed the banishing light resolves?
+
+A:
+
+If Banishing Light leaves the battlefield, the card it had been exiling returns immediately.
+The "enters the battlefield" ability of Banishing Light uses the stack. When it successfully resolves, it creates a one-shot effect that exiles the targeted permanent, and another one-shot effect that happens as soon as the event happens; in this case, when Banishing Light leaves the battlefield. 
+
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+
+This is not to be confused with a triggered ability, which would indeed go on the stack. Banishing Light could be worded to use a triggered ability to return the card, but it wasn't. Some earlier cards with the same idea as BL but with a triggered ability to end the effect do exist, the canonical example being Oblivion Ring. 
+An effect is just something that happens because of a spell or ability. Only spells and abilities go on the stack. It's important to separate spells, abilities, and their effects.
+
+609.1. An effect is something that happens in the game as a result of a spell or ability. When a spell, activated ability, or triggered ability resolves, it may create one or more one-shot or continuous effects. Static abilities may create one or more continuous effects. Text itself is never an effect.
+
+When the ability created by BL has finished resolving, it has created two effects: One that exiles the target, and another that returns it later, when the condition is met. Both happen without them using the stack. Only the triggered ability from BL entering the battlefield uses the stack.
+For example, if you had a spell that reads "Destroy all enchantments, then destroy all creatures", where the destruction effects are separate and BL has exiled a creature, then the exiled creature would return immediately after all enchantments are destroyed, then the creature would be destroyed by the "destroy all creatures" part of the spell.
+

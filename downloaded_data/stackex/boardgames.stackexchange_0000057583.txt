@@ -1,0 +1,41 @@
+Q:
+
+How does Myrkul, Lord of Bones interact with Feign Death
+
+Myrkul, Lord of Bones says:
+
+Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that card, except it's an enchantment and loses all other card types.
+
+Feign Death says:
+
+Until end of turn, target creature gains "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."
+
+If I have a creature on the battlefield, and I target that creature with Feign Death, then it dies, can I target it with Myrkul? If I do, what happens? Options I can see:
+
+The Feign Death spell fizzles and I get the enchantment token.
+The Myrkul trigger fizzles and I get the creature back from feign death.
+The creature is exiled instead of sent to the graveyard, then returns from feign death and also gives the enchantment token from Myrkle.
+Somehow, neither work.
+I simply cannot target the creature with Myrkul.
+
+Which of these would happen?
+
+A:
+
+You can get exactly one of the effects. You choose which one you get.
+First, both of these effects are triggered abilities. When the specified event happens, in this case when the creature dies, the abilities trigger and then are put on the stack. You choose the order they go on the stack, and that determines the order they resolve in. Once the first one resolves the other one doesn't work, so that is how you choose which effect to get.
+You can also put Myrkul's ability on top of the stack and then choose not to exile the card as the ability resolves. Then Feign Death's ability will work. This is the same outcome as putting Feign Death's ability on top of the stack.
+
+Rule 603.3b is the one that says that you choose the order of the abilities:
+
+If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two-part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn’t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the stack in any order they choose. Then the game once again checks for and performs state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+The main reason that only the first ability to resolve works is rule 400.7b and 400.7d:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+[...]
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+Each ability triggers when the creature dies (moves from the battlefield to the graveyard), so they can find the card in the graveyard. But each ability also moves the card out of the graveyard into another zone, so the other ability can't find and act on the card in whichever new zone it moves to.
+

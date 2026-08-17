@@ -1,0 +1,28 @@
+Q:
+
+Do auras and equipment stay on cards if they stop being creatures?
+
+Ojutai Monument can be turned into a creature card until end of turn. If I attached enchantments or equipment to it, would they stay attached even when the card turns back into a non-creature artifact?
+Reasoning for yes
+
+The card is not leaving the battlefield, so the cards attached wouldn't either.
+
+Reasoning for no
+
+How would a simple artifact gain the effects only a creature could have?
+
+A:
+
+Equipment will fall off, and Auras most likely will as well.
+Equipment can only be attached to creatures. If it finds itself attached to a non-creature permanent, like when the Ojutai Monument turns back into a plain old non-creature artifact, that's illegal, and it'll be detached.
+
+301.5. Some artifacts have the subtype “Equipment.” An Equipment can be attached to a creature. It can’t legally be attached to an object that isn’t a creature.
+
+704.5p If an Equipment or Fortification is attached to an illegal permanent, it becomes unattached from that permanent. It remains on the battlefield.
+
+If an Aura says "Enchant Creature" on it, that means it can only be attached to creatures. So if it finds itself attached to a non-creature artifact instead, that's illegal, and it's put into its owner's graveyard. If on the other hand the enchantment said "Enchant permanent" (e.g. Take Possession) it'd be able to stay attached.
+
+702.5a Enchant is a static ability, written “Enchant [object or player].” The enchant ability restricts what an Aura spell can target and what an Aura can enchant.
+
+704.5n If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+

@@ -1,0 +1,17 @@
+Q:
+
+MTG: Is there a lower-limit for life total?
+
+If I am playing a game where I have a card in play that makes it so I don't lose from loss of life, and go to -1 life, would I need to gain 2 life in order to be safe without the anti-loss card anymore, or does the negative 'reset' to 0 after damage effects and cards on the stack resolve?
+
+A:
+
+You can go into negative life totals. If that doesn't cause you to lose, subsequent events still affect your life total normally: you could gain life back to zero or above, and losing more life will push you further negative.
+The rulings on Beacon of Immortality confirm this:
+
+2/1/2007  If you double a negative life total, you do the real math.  A life total of -10 becomes -20.
+
+7/15/2007     Beacon of Immortality's effect counts as life gain (or life loss, if the life total was negative) for effects that trigger on or replace life gain (or life loss).
+
+So yes, if you're at -1 life, you'd need to gain 2 life to get back to 1 life and be safe without whatever was keeping you from losing.
+

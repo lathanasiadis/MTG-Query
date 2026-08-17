@@ -1,0 +1,20 @@
+Q:
+
+How does deathtouch work?
+
+What if you have a creature 1/5 and it attacks a 2/2 death creature does the 1/5 die or is deathtouch activated upon death
+
+A:
+
+First off, a creature cannot attack another creature. You can only attack players or planeswalkers, at which point your opponent can choose which creatures to block with. For the purpose of answering the question about deathtouch; I will assume that we are talking about a 1/5 attacking creature being blocked by a 2/2 creature with deathtouch.
+From the MTG Quick Start Guide:
+
+deathtouch—A creature dealt damage by a
+  creature with deathtouch is destroyed
+
+The 1/5 will die because it was dealt damage by a creature with deathtouch. The 2/2 deathtouch creature will have 1 damage, and will not die unless it is dealt another damage by something else before the end of the turn.
+Note that this works whether it is combat damage from attacking/blocking, or other damage such as cards with the Fight keyword or cards that have an ability that deals damage. 
+This death occurs almost immediately, at the same time death due to a creature taking more damage than it has toughness would occur. This is a state-based action, which happens automatically each time a player would receive priority. From the comprehensive rules:
+
+702.2b A creature with toughness greater than 0 that’s been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action.
+

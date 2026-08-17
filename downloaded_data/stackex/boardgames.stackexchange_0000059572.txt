@@ -1,0 +1,18 @@
+Q:
+
+Neheb, the Eternal and lifelink
+
+Let's say I control a Neheb, the Eternal and attack my opponent with two 2/2 creatures. My opponent blocks one of those creatures with a 2/2 that has lifelink. When my postcombat main phase begins, does Neheb give me two mana or zero mana?
+I searched the comprehensive rules, and this seemed to be the only section relevant to my question:
+
+120.3a Damage dealt to a player by a source without infect causes that player to lose that much life.
+120.3f Damage dealt by a source with lifelink causes that source’s controller to gain that much life, in addition to the damage’s other results.
+
+This makes it sound like my opponent will simultaneously lose two life and gain two life, meaning that I expect to get two mana from Neheb. But I wanted to double-check that there isn't some sort of "canceling out" of the damage and lifelink that causes my opponent to in fact lose zero life.
+
+A:
+
+The life loss does happen, and you do get mana from Neheb's ability.
+Rule 122.3, regarding the cancellation of +1/+1 and -1/-1 counters, sets the precedent that cancellation of opposite effects only happen when explicitly stated by a rule. There is no rule that explicitly states that life gain and life loss events cancel out so that they don't count, so that is not what happens.
+Each of the effects described in 120.3a and 120.3f happens separately and simultaneously, so both the life gain and life loss events are considered to have occurred for anything that cares about them, and Neheb's ability does grant mana as a result.
+

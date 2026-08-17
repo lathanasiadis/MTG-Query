@@ -1,0 +1,21 @@
+Q:
+
+Is Metallic Mimic the chosen creature type when it enters the battlefield?
+
+If I have Thalia's Lieutenant in play and resolve a Metallic Mimic choosing "Human" does Thalia's Lieutenant get a +1/+1 counter?
+
+A:
+
+Yes
+Metallic Mimic
+
+As Metallic Mimic enters the battlefield, choose a creature type.
+Metallic Mimic is the chosen type in addition to its other types.
+
+When you are asked to do something "As X enters the battlefield", you are doing it immediately before it enters. This does not use the stack; when Metallic Mimic resolves you choose a type and it enters as that type, triggering any appropriate ETBs, and no one can do anything in between you choosing the type and Mimic hitting the battlefield.
+If it instead read:
+
+When Metallic Mimic enters the battlefield, choose a creature type.
+
+Then it would be a triggered ability; Metallic Mimic would enter the battlefield as a "Shapeshifter", this ability would be put on the stack, and when it resolved you'd get to choose a type (like "Human") and it would become that type. Thalia's Lieutenant's ability would not be triggered.
+

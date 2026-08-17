@@ -1,0 +1,18 @@
+Q:
+
+How does casting a spell while casting a spell affect priority?
+
+So, in this question, a process for casting a spell while you're in the middle of casting another spell is described, and the consensus in the answers is that it works, and allows you to cast a second spell while you're in the process of casting a second spell.
+What I want to know is how this affects the passing of priority. Normally, when you cast a spell, you complete the process of casting a spell, and it is put on the stack before passing priority to your opponent.
+However, in this case, you interrupt this process by casting a second spell, which would normally require you to pass priority to your opponent before the first spell's casting process can resume, right? How would the fact that you have a partially-cast spell affect the priority passing?
+Would your opponent be able to affect the first spell with counterspells before you've finished casting it? Does your second spell become uncountable because you can't pass priority until the first spell has finished being cast? Do you finish casting both spells before passing priority with both of them on the stack?
+
+A:
+
+You don't do anything with priority after casting the "inner" spell.
+It doesn't really matter that you're casting the spell in the process of casting another spell. There are many different ways that you could end up casting a spell during the resolution of another effect, and in all of those cases, you are not using priority to cast the spell, so you don't pass priority when you finish casting it. This is stated in the last step of casting a spell, rule 601.2i:
+
+Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+In the linked scenario, the player casting the spell did not have priority before casting it because they were in the middle of resolving the activated ability of Selvala, Explorer Returned.
+

@@ -1,0 +1,16 @@
+Q:
+
+Double strike and trample, dealt lethal damage during first damage step. Does the rest go through?
+
+I have a 6/6 double strike, trample dealing damage to a 6/6 first strike, indestructible. As the double striker dies during the first damage, does the rest of the remaining 6 damage go through, or does it fizzle?
+
+A:
+
+No, it does not. Your creature will not be alive during the second damage step, it will be in the graveyard and not able to deal damage.
+Normally double strike would work this way, if all blockers of the double striking creature are dealt lethal damage in the first strike step, the regular damage step tramples onto the player completely. However in your case your double striker was also dealt lethal damage during the first strike step. Between these steps state based actions are checked, and rule 704.5g gets applied.
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+This causes your double striker to be destroyed and move to the graveyard. The regular damage step will begin and, assuming there's only those two creatures involved in combat, there will be no creatures on the battlefield attacking to assign any damage during this step, so no damage is done.
+If the creature that was blocking your 6/6 was instead a 5/6 first strike, indestructible, your double striker would live through the first strike damage step and would assign all 6 points of it's power for the regular damage step to the defending player, as the blocker already has lethal damage marked on it, even though it didn't die due to indestructible. It wouldn't need to do any damage to the blocker again.
+

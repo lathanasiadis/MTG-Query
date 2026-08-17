@@ -1,0 +1,22 @@
+Q:
+
+What does "All creatures attack if able" mean in this context?
+
+I have the Aura Public Enemy. Its Oracle text is:
+
+Enchant creature 
+All creatures attack enchanted creature's controller each combat if able.
+When enchanted creature dies, draw a card.
+
+What is meant by "All creatures"? If I enchant one of my own creatures, would my other creatures attack me? Or is it impossible that my own creatures could attack me?
+
+A:
+
+What is meant by "All creature[s]"?
+
+All creatures means exactly what it says: every creature on the battlefield. The crucial point though is "if able", and you are correct in thinking that creatures controlled by a player can never attack that player (or planeswalkers that player controls). Quoting Comprehensive Rule 506.2:
+
+During the combat phase of a two-player game, the nonactive player is the defending player; that player and planeswalkers they control may be attacked.
+
+(my emphasis). There is similar wording in 506.2a for multiplayer games. As your creatures are not able to attack you, they do not have to and are free to attack your opponent(s) and/or their planeswalkers.
+

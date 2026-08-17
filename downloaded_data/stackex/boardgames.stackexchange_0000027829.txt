@@ -1,0 +1,12 @@
+Q:
+
+Will double strike still do anything if I Cloudshift my blocker?
+
+My friend attacks with a creature with double strike (e.g. Boros Swiftblade). I block with a creature, then I Cloudshift it. Do I or my creature take any damage from the double strike?
+
+A:
+
+If you cast Cloudshift during the Declare Blockers Step, specifically rule 509.5, than your creature will not suffer combat damage (506.4), but the Creature with Double Strike is still considered Blocked for the Combat Damage Step. It will assign no damage for either the first strike or normal combat damage portions.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+

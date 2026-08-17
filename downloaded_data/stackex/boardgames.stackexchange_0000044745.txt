@@ -1,0 +1,17 @@
+Q:
+
+Does Humility stop all creatures from being able to morph?
+
+This question is related to this one. Does Humility stop all face-down creatures from being able to morph?
+
+A:
+
+Yes, it stops morph:
+
+702.36e Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn’t use the stack (see rule 115). To do this, show all players what the permanent’s morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn’t have a morph cost if it were face up, it can’t be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don’t trigger when it’s turned face up and don’t have any effect, because the permanent has already entered the battlefield.
+
+(emphasis mine)
+Humility makes a creature lose all abilities, including morph and its cost, which is part of the ability itself:
+
+702.36a Morph is a static ability that functions in any zone from which you could play the card it’s on, and the morph effect works any time the card is face down. “Morph [cost]” means “You may cast this card as a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost.” (See rule 707, “Face-Down Spells and Permanents.”)
+

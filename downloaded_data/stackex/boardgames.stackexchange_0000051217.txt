@@ -1,0 +1,31 @@
+Q:
+
+Mutate and replacement effects (Example, Darigaaz Reincarnated) and triggered abilities (ex: Sigil of the New Dawn)
+
+How does mutate exactly work with any replacement effects?
+For example, lets say I have 2 creatures Mutated on top of Darigaaz Reincarnated, when that creature dies, 
+A. Darigaaz returned with the mutated creatures on top of him, as 1 being/permanent (I feel this is likely)
+B. Darigaaz returns with the other 2 creatures, but as 3 permanents 
+C. Darigaaz returns alone (but, doesn't mutate count the other 2 creatures as being part of him?)
+Also, how does a creature with mutations interact with something like Sigil of the New Dawn?
+
+A:
+
+You would get to exile and put an egg counter on all merged creatures, but only return Darigaaz eventually. While you control Sigil of the New Dawn and a mutated creature dies, the Sigil triggers once and you may return all the cards that made up the mutated creature by paying 1W.
+Mutating causes permanents to merge, and to combine all the abilities of those permanents into the resulting creature:
+
+702.139c As a mutating creature spell resolves, if its target is legal, it doesn’t enter the battlefield. Rather, it merges with the target creature and becomes one object represented by more than one card or token (see rule 721, “Merging with Permanents”). [..]
+702.139e A mutated permanent has all abilities of each card and token that represents it. [..]
+
+When a merged permanent leaves the battlefield, it leaves as exactly one object, no matter how many permanents are merged into one:
+
+721.3. If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone.
+
+Because of Darigaaz' ability, the appropriate zone is the exile plus egg counters, and all components of the merged creature are exiled that way. The egg-removing and return-to-battlefield effect only apply to Darigaaz, since it's a separate ability that only applies to the Darigaaz card, no longer to the previously merged cards.
+As for Sigil of the New Dawn, the Sigil can track all of the components as they die:
+
+721.3c If an effect can find the new object that a merged permanent becomes as it leaves the battlefield, it finds all of those objects. (See rule 400.7.) If that effect causes actions to be taken upon those objects, the same actions are taken upon each of them.
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+The Sigil triggers once, because only one creature died (721.3). If you pay the 1W of that triggered ability, you return all the creature cards that made up the mutated creature.
+

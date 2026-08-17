@@ -1,0 +1,25 @@
+Q:
+
+What is the difference between state-based effects and effects on the stack?
+
+Being new to MTG, I've learned that abilities from spells go to the stack and resolve in reversed order of their placement on the stack. But I haven't heard of the term state-based effects until reading Do things on the stack or state-based effects resolve between first strike and normal combat damage?
+
+My creature deals his first strike damage, immediately killing the opponent's creature before he is able to deal combat damage as a state-based effect.
+
+Do state-based effects refer to combat damage and creature stats, such as the amount of remaining health of the creature? And do stack-effects—if that's how it's called—refer to all triggered abilities by any spell? Am I misinterpreting and/or missing something?
+I'm uncertain whether my deductions are correct, so a clear definition of state-based effects and stack-effects (including source for further reading) is much appreciated. 
+
+A:
+
+Generally, if you want to learn about the rules in-depth, you can check the current, official rules, either the basic rulebook, or the comprehensive rules that include everything but are intended to be read to look up specific details rather than from beginning to end.
+State-based actions are a set of rules that are automatically checked throughout the game, specifically whenever a player would gain priority (the right to take actions like casting spells, playing lands, etc.). Among others, they make players lose to lack of life points, cause creatures to die to lethal damage or zero toughness, make you put identical legendaries into the graveyard, and kill auras that are not attached to anything. They cannot be reacted to in any way. You can find the full list of state-based actions in section 704 of the Comprehensive Rules.
+Spells and abilities on the stack (not effects) are just that. As you noted, they resolve in reverse order and have effects such as dealing damage or drawing cards. Whenever a spell or ability has finished resolving, the active player (the player whose turn it is) gets priority, which, as mentioned above, causes state-based actions to be checked first.
+Abilities are represented by the text on cards. The four types of abilities are 
+
+Spell ability: an effect that happens as an instant or sorcery spell resolves
+Activated ability: pay a cost do put an ability on the stack
+Triggered ability: creates an ability on the stack whenever a specific event happens
+Static ability: creates a continuous effect that is always active
+
+Spell abilities only appear on instants and sorceries, and while instants and sorceries can have all four types of abilities, the overwhelming majority of instants and sorceries have only spell abilities. Other objects such as permanents on the battlefield can have activated, triggered, or static abilities.
+

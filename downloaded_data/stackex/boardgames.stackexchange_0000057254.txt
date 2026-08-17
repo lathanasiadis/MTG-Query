@@ -1,0 +1,28 @@
+Q:
+
+Does Imoti, Celebrant of Bountry give creatures with cascade and additional cascade trigger?
+
+If I have Imoti, Celebrant of Bounty on the battlefield which has the static ability
+
+Spells you cast with mana value 6 or greater have cascade.
+
+and I cast Maelstrom Wanderer which has cost {5}{G}{U}{R} and the triggered abilities
+
+Cascade, cascade
+
+do I get three cascade triggers from Maelstrom Wanderer?
+
+A:
+
+Yes, it will have the cascade ability three times and thus give you three Cascade triggers.
+When an effect says something “has” an ability, or some things “have” an ability, it is granting those things that ability:
+
+113.1a. [...] Abilities can also be granted to objects by rules or effects. (Effects that grant abilities usually use the words "has," "have," "gains," or "gain.")
+
+Effects can only add abilities or remove abilities, and effects like this add them. This is in addition to whatever it already has, which is possibly other instances of that same ability.
+We also know Cascade stacks, of course, since that's how Maelstrom Wanderer can have it twice to begin with.
+
+702.85c. If a spell has multiple instances of cascade, each triggers separately.
+
+It has Cascade twice, and is granted Cascade a third time by Imoti.
+

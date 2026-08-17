@@ -1,0 +1,27 @@
+Q:
+
+Can you stop casting a spell?
+
+Ok, I was playing an EDH game with my friend and I had 8 mana available to me. In order for me to win the game, I had to destroy one of his permanents with a Spine of Ish Sah (7 mana). Now I planned to play a Mana Vault (1 mana and produces 3 mana) so that I'd have enough mana for a Spell Crumple (3 mana) to protect my Spine of Ish Sah.
+How I played the turn out is I try to cast Spine of Ish Sah, but I forgot to play Mana Vault first. By the time I've realized that I forgot a very important part in my plan, I've already tapped for 5 mana. At this point I stop tapping for mana and I am unable to pay for the Spine of Ish Sah and it should return to my hand (where I cast it from) and my lands should untap (rule 717). My opponent said that's not the game works. He says that since I started paying for the spell, I have to finish paying for the rest of it. Now, is my friend correct, that if you pay for part of a spell, if you are able to pay for all of the spell, then you must finish paying its cost?
+Answer must have rules referencing this.
+
+A:
+
+Your friend is right, though he should let you do it anyway outside of a tournament.
+
+You cannot be forced to produce mana to pay for a spell.
+
+117.3c Activating mana abilities is not mandatory, even if paying a cost is.
+
+And if a spell becomes uncastable, its casting is undone.
+
+601.2 [...] If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast (see rule 717, “Handling Illegal Actions”). [...]
+
+So it would seem that you can choose to abort the casting of any spell by not producing the mana required to cast it (assuming your mana pool doesn't already have the necessary mana in it).
+BUT
+When this came up on Wizards's Rules Q&A board recently, it was declared[1] that the intention of the rule is to handle the situation where the casting of a spell becomes illegal after it has started being cast (and possibly other situations), but it's not meant to be used to voluntarily rollback the casting of a spell. While the rule can be used to avoid casting a spell at all, you are committed to completely cast a spell you've decided to cast.
+So, deciding to abort casting your spell wouldn't be legal in a tournament, and my friends wouldn't allow any such douchebag rule lawyering in casual. (They could very well allow me to rollback the action if I asked, but not because of 601.2.)
+
+By general consensus among the rules-saavy, by bimmerbot (a very level-headed level 2 judge), and confirmed by Natedogg (the only person on that board capable of making official rulings).
+

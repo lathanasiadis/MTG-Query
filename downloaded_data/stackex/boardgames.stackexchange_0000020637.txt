@@ -1,0 +1,52 @@
+Q:
+
+Does the attack or defender decide the order of damage assignment to blockers?
+
+I read from the comprehensive rules guide that there is a damage assignment order, but I've always played the game as if there was a blocking order. Here is the relevant text:
+
+509.2. Second, for each attacking creature that's become blocked, the active player announces that creature's damage assignment order, which
+  consists of the creatures blocking it in an order of that player's
+  choice. (During the combat damage step, an attacking creature can't
+  assign combat damage to a creature that's blocking it unless each
+  creature ahead of that blocking creature in its order is assigned
+  lethal damage.) This turn-based action doesn't use the stack. Example:
+  Vastwood Gorger is blocked by Llanowar Elves, Runeclaw Bear, and Serra
+  Angel. Vastwood Gorger's controller announces the Vastwood Gorger's
+  damage assignment order as Serra Angel, then Llanowar Elves, then
+  Runeclaw Bear.
+
+My interpretation of this is that I can attack with a 3/3 and the opponent can block with a 1/1 and a 4/4. I could make it deal the damage to the 1/1 first, and there is no blocking order such that the opponent can't say the 4/4 blocks first and 1/1 blocks second.
+Is this accurate?
+
+A:
+
+By the very rule you quoted (and the one directly following it):
+
+You choose the damage assignment order of attacking creatures you control. (CR 509.2.)
+Your opponent chooses the damage assignment order of blocking creatures he controls. (CR 509.3.)
+
+Simple Example
+You: "I attack with Centaur Warrior."
+Opponent: "I block with Jeskai Student and Disciple of Phenax."
+You: "I will assign damage to Jeskai Student first, followed by Disciple of Phenax."
+You: "Damage?"
+Opponent: "Sure."
+Note: There was no need for your opponent to declare a damage assignment order, because each of his blockers are only blocking one attacker. Centaur is assumed to be first in line.
+Centaur Warrior must deal at least lethal damage to Jeskai Student before dealing any damage to Disciple of Phenax. You are not allowed to change the order at this point. Therefore, Centaur deals all 3 points of damage to Student. Student and Disciple each deal 1 point of damage to Centaur.
+Centaur and Disciple live. Student dies.
+Intermediate Example
+You: "I attack with Ash Zealot."
+Opponent: "I block with Elvish Mystic and Runeclaw Bear."
+You: "I will assign damage to Runeclaw Bear first, followed by Elvish Mystic."
+You: "First Strike Damage?"
+Opponent: "Sure."
+You: "Bear dies. Second Strike damage?"
+Opponent: "I'll cast Giant Growth on my Elvish Mystic."
+You: "Ok it resolves. Second Strike damage?"
+Opponent: "Sure."
+Ash Zealot deals damage in the first damage phase. Zealot must deal at least lethal to Runeclaw Bear before moving on to Elvish Mystic. Therefore, Zealot deals all 2 points of damage to Runeclaw Bear.
+At this point, you both get the chance to play spells and activate abilities. Your opponent takes this chance to make his Elf larger with Giant Growth. We then move to the second damage phase. Runeclaw Bear is already dead and so cannot deal damage. Ash Zealot already dealt its damage. Elvish Mystic is the only creature than will deal damage, and so it deals 3 point of damage to the Zealot.
+Mystic lives. Zealot and Bear die.
+Special Notes
+Some abilities modify, or provide exceptions to, the rules for attacking and blocking. For a particularly complicated example, read about an old mechanic called Banding.
+

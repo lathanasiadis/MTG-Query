@@ -1,0 +1,42 @@
+Q:
+
+What actions constitute passing priority?
+
+I played in my first PTQ (and got top 8!) a few weeks ago and received a warning for missing a trigger.
+The situation was as follows:
+It's game 3 of the last swiss round.  I pass the turn with a Krallenhorde Howler after attacking, playing two creatures, playing an Evolving Wilds, and cracking it.  I'm searching through my deck for a one-of basic so since it will take me a minute to find it and shuffle, I tell my opponent what I'm getting and to go ahead and take their turn while I search and shuffle.  They immediately untap, upkeep, draw, play a land, and then pass the turn.  I find the land, finish shuffling, and my opponent cuts.
+This is where the issue happens, I put my hands on my lands, look at the board, and before untapping anything, point out that the Howler flipped back to a Duskwatch Recruiter on his upkeep and then said that on my upkeep it's going to flip back again.  I have not verbally indicated passing priority or said anything up to this point.  He called a judge, gave me a warning for a missed trigger.
+That was the only warning I got in all of the rounds of that tournament so it didn't matter (and I won that game anyway).  My question is, did I imply passing priority by touching my lands?
+In general, what verbal and non-verbal actions constitute passing priority at Competitive REL?
+
+A:
+
+I disagree with the ruling made by the floor judge. I also disagree with upgrading the penalty to a warning.
+Ruling
+First, let's get some terminology down:
+
+You are the controller of the trigger.
+I interpret "action" to mean "game action". For example:
+
+Resting your hands on your lands is not a game action.
+Untapping your lands is a game action.
+Silence is not a game action.
+Saying "Sure." is a game action.
+
+The following is an excerpt from the Infraction Procedure Guide:
+
+Players may not cause triggered abilities controlled by an opponent to be missed by taking game actions or otherwise prematurely advancing the game. During an opponent’s turn, if a trigger’s controller demonstrates awareness of the trigger before they take an active role (such as taking an action or explicitly passing priority), the trigger is remembered.
+
+What this says, quite clearly, is that your opponent cannot cause you, the controller, to miss a trigger by drawing a card, playing a land, or otherwise advancing the game without your active consent. You never assumed an active role before remembering the trigger. Therefore, you didn't miss it.
+This is reinforced in the Tournament Rules:
+
+Triggered abilities are considered to be forgotten by their controller once they have taken an action past the point where the triggered ability would have an observable impact on the game.
+
+If your opponent had said "Draw?" and you respond with a "Sure.", then you have assumed an active role by explicitly passing priority. In that case, the trigger is definitely missed.
+Penalty
+Missed triggers should only be upgraded to a warning if the trigger is considered detrimental to its controller. The game state is not a factor in determining this. As noted in the IPG:
+
+Upgrade: If the triggered ability is usually considered detrimental for the controlling player the penalty is a Warning. The current game state is not a factor in determining this, though symmetrical abilities (such as Howling Mine) may be considered usually detrimental or not depending on who is being affected
+
+According to an L2 judge on Reddit, neither side of Duskwatch Recruiter is considered "generally detrimental". It may be situationally detrimental, but according to the IPG, the judge awarding the penalty should not be using the board state as a factor in determining whether the trigger is detrimental.
+

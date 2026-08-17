@@ -1,0 +1,20 @@
+Q:
+
+Is "Fighting" considered "attacking"?
+
+When it comes to creatures under the influence of "Target creature you control fights target creature you don't control", are they, or the initiating creature, considered "attacking"?
+In my specific scenario, I played a Savage Punch, targeting my Summit Prowler and my opponent's Longshot Squad. She then played the instant Kill Shot, which reads "Destroy target attacking creature.", targeting my Prowler and therefore the stack resolves making my Savage Punch null.
+So I guess all in all, does the keyword 'attacking' change this at all or was this a correct resolution?
+
+A:
+
+No, attacking has nothing to do with "fighting"; the only similarity between the 2 is that they both involve creatures dealing damage. A creature is only considered an "attacking" creature if it is declared as an attacker during the combat phase.
+
+508.1j Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it's removed from combat or the combat phase ends, whichever comes first.
+
+Therefore, your opponent was not allowed to do this.
+Note also that neither creature in this situation is "initiating" anything. You as the player who cast Savage Punch initiated the "fight", but there's no difference between your creature and your opponent's creature in terms of one of them being the "attacker" and one the "defender". They are simply both creatures that were targeted for the fight.
+Also note that even though a fight causes creatures to deal damage to each other, this damage is not "combat damage":
+
+701.10d The damage dealt when a creature fights isn’t combat damage.
+

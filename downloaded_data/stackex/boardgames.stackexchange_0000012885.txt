@@ -1,0 +1,24 @@
+Q:
+
+Countering the enchanting of a creature
+
+I'm on my main phase.
+I cast a 1/1 creature, and want to enchant it in the same phase.
+My opponent has an enchantment with the ability to pay one mana to give 1 damage to creature or player.
+I cast the creature - no counterspell. 
+I then want to cast a +3/+3 enchantment on that creature.
+Can my opponent "counter" that enchantment by using said ability to give my creature 1 damage in response to me casting the enchantment. I think he can, but I'm not sure.
+
+A:
+
+Yes, your opponent can deal 1 damage to the 1/1, destroying it before the Aura resolves. This will counter the Aura on resolution, since it doesn't have a legal target to enchant.
+Auras are an enchantment sub-type. When cast, they require a legal target of the type of permanent (or sometimes player) that they will enchant.
+
+303.4a An Aura spell requires a target, which is restricted by its enchant ability.
+114.1b Aura spells are always targeted. These are the only permanent spells with targets. An Aura's target is specified by its enchant keyword ability (see rule 702.5, "Enchant"). The target(s) are chosen as the spell is cast; see rule 601.2c. An Aura permanent doesn't target anything; only the spell is targeted. (An activated or triggered ability of an Aura permanent can also be targeted.)
+
+Since Auras are targeted spells, if the creature they were targeting is destroyed, then all of the spells targets are illegal and the Aura spell is countered on resolution and is placed in its owner's graveyard.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. [...] The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal.
+608.3a If the object that's resolving is an Aura spell, its resolution involves two steps. First, it checks whether the target specified by its enchant ability is still legal, as described in rule 608.2b. (See rule 702.5, "Enchant.") If so, the spell card becomes a permanent and is put onto the battlefield under the control of the spell's controller attached to the object it was targeting.
+

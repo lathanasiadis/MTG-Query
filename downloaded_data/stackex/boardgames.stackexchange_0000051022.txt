@@ -1,0 +1,34 @@
+Q:
+
+Explanation of Selvala, Explorer Returned's ruling?
+
+Selvala, Explorer Returned has the following ruling:
+
+If you activate Selvala's ability while casting a spell, and you discover you can't produce enough mana to pay that spell's costs, the spell is reversed. The spell returns to whatever zone you were casting it from. You may reverse other mana abilities you activated while casting the spell, but Selvala's ability can't be reversed. Whatever mana that ability produced will be in your mana pool and each player will have drawn a card.
+
+I have 2 questions about this ruling.
+
+Does this mean that, in conjunction with rule 121.8,
+
+121.8 If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i). While face down, it’s considered to have no characteristics. The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it’s being drawn, it’s revealed after the spell becomes cast or the ability becomes activated.
+
+if you are unable to cast the spell, and it returns to your hand, the cards drawn off the parley ability are kept face down... permanently? In my interpretation, even if you were to recast the spell, since it changed zones, it would have no knowledge of it's previous self, and therefore would not allow the cards to be seen. Is this correct?
+
+Why does this happen? What rulings indicate that the spell should be "un-cast," and is this a unique case? Or is there a precedent with another ruling that does the same?
+
+A:
+
+Your rule 121.8 is out of date. The current version says this:
+
+If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i) or until the casting process is reversed (see rule 725, “Handling Illegal Actions”). While face down, it’s considered to have no characteristics. The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it’s being drawn, it’s revealed after the spell becomes cast or the ability becomes activated.
+
+As for why casting the spell is reversed like that, that is covered in the rules that describe the process for casting a spell. Rule 601.2 says
+
+To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal ; the game returns to the moment before the casting of that spell was proposed (see rule 725, “Handling Illegal Actions”).
+
+Rule 725.1 says this:
+
+If a player takes an illegal action or starts to take an action but can’t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. Each player may also reverse any legal mana abilities that player activated while making the illegal play, unless mana from those abilities or from any triggered mana abilities they caused to trigger was spent on another mana ability that wasn’t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, caused a library to be shuffled, or caused cards from a library to be revealed.
+
+The quoted section is why Selvala's ability can't be reversed along with the rest of the casting process.
+

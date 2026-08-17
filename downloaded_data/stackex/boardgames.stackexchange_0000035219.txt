@@ -1,0 +1,21 @@
+Q:
+
+Can an Aetherborn Marauder take +1/+1 counters off a creature that didn't have them (but has P/T to spare)?
+
+So my brother play Aetherborn Marauder. He wants to move three +1/+1 counters from a 4/4 with no previous interaction with any +1/+1 counters. I insist that a +1/+1 counter must have been put on it first, and that its base P/T are not applicable due to the use of the word "counter". 
+Anyone able to quote the rulebook for this one?
+
+A:
+
+From the rules : 
+
+121.5. If an effect says to “move” a counter, it means to take that counter from the object it’s currently on and put it onto a second
+  object. If the first and second objects are the same object, nothing
+  happens. If the first object has no counters, nothing happens; the
+  second object doesn’t get a counter put on it. If the second object
+  (or any possible second objects) is no longer in the correct zone when
+  the effect would move the counter, nothing happens; a counter isn’t
+  removed from the first object.
+
+Your Aetherborn Marauder doesn't get any counter if the target of its ETB ability doesn't have counters when the ability resolve.
+

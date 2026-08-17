@@ -1,0 +1,29 @@
+Q:
+
+What is the mana value of Smelt//Herd//Saw?
+
+The card Smelt//Herd//Saw from Magic: the Gathering has the cost of R/5G/1B.
+What is its mana value? Possibilities I see include:
+
+1: the mana value on the face of the card
+6: the highest mana value of any of its split parts
+7: the sum of the mana value of the first two split parts
+9: the sum of the mana value of all 3 split parts?
+
+The Comprehensive Rules do not have a ruling for multiple split cards.
+
+A:
+
+The mana value of Smelt//Herd//Saw would be 9.
+Smelt//Herd//Saw is a test card that is not legal or intended for serious play:
+
+Playtest cards aren't legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of casual games. Cube may never be the same.
+
+The comprehensive rules don't have explicit rules for split cards with more than two faces because there are no such tournament-legal cards. However, modifying the existing rules for split cards is straightforward:
+
+For many playtest cards, you'll need to make a generous assumption that basic game rules will be updated to allow them to work.
+
+709.4b The mana cost of a split card is the combined mana costs of its two halves. A split card’s colors and mana value are determined from its combined mana cost. An effect that refers specifically to the symbols in a split card’s mana cost sees the separate symbols rather than the whole mana cost.
+
+The logical modification would be to combine not "its two halves", but "all of its faces" or similar, making you add the mana values of all its faces together for an MV of 9 outside the stack.
+

@@ -1,0 +1,13 @@
+Q:
+
+Can I save my spark trooper with a delayed flicker?
+
+What exactly defines the beginning and end of a specific step? Because I'm wondering if my logic seems solid enough.
+I'm thinking of trying to avoid the sac requirement on my Spark Trooper by using Voidwalk or the ability of Mistmeadow Witch or the like. This way I hope that when he comes back to the field since all the initial actions that stated at the beginning of the end step resolve, it is thus no longer the beginning of said step meaning I can hopefully bypass the sac requirement when he re-enters and thus use spark trooper repeatedly without having to revive him.
+
+A:
+
+It doesn't matter when the beginning or end of a specific step is. The rules state that any permanents that trigger during the End Step, do not trigger until the next end step. This means that if you exile Spark Trooper with Mistmeadow Witch in response to the sacrifice trigger, it will be removed until your opponents EOT, and you won't have to sacrifice it until your next end step. Voidwalk, due to it being a Sorcery, would require you casting it during the Second Main Phase, so you would need to save the targeted Spark Trooper at the end of your opponents turn as well.
+
+513.3. If a permanent with an ability that triggers "at the beginning of the end step" enters the battlefield during this step, that ability won't trigger until the next turn's end step. Likewise, if a delayed triggered ability that triggers "at the beginning of the next end step" is created during this step, that ability won't trigger until the next turn's end step. In other words, the step doesn't "backup" so those abilities can go on the stack. This rule applies only to triggered abilities; it doesn't apply to continuous effects whose durations say "until end of turn" or "this turn." (See rule 514, "Cleanup Step.")
+

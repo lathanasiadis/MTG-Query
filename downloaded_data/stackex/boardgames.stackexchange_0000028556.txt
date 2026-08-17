@@ -1,0 +1,27 @@
+Q:
+
+Exile then return Jace, Vryn's Prodigy?
+
+Jace, Vryn's Prodigy has the text
+
+If there are five or more cards in your graveyard, exile Jace, Vryn's Prodigy, then return him to the battlefield transformed under his owner's control.
+
+What is the point of exiling him and then returning him?
+
+A:
+
+There are 2 aspects to this question:
+
+Why is it necessary at all to include extra actions, why not just transform Jace?
+
+Answer: If Jace was simply transformed from creature to planeswalker, he would not get his 5 loyalty counters and would go to the graveyard as a state-based action. A planeswalker only gets the initial loyalty counters when the permanent that represents it enters the battlefield as a planeswalker.
+It's also in the card's rulings, indirectly:
+In some rare cases, a spell or ability may cause one of these five cards to transform while it’s a creature (front face up) on the battlefield. If this happens, the resulting planeswalker won’t have any loyalty counters on it and will subsequently be put into its owner’s graveyard.
+
+To solve problem 1, why exile Jace instead of taking all required steps manually? 
+
+To fully "reset" a creature so that nothing can continue affecting the planeswalker or generally cause confusion, you would have to take care of many things: Remove all counters, unattach auras (there are "enchant permanent" auras that do not fall off automatically) and equipments, end permanent effects that would continue to be active after transformation such as change of controller and color, remove effects such as Cipher, and so on; finally you would have to add 5 loyalty counters manually. 
+Exiling and returning the creature transformed takes care of all of these issues at once, and, maybe most importantly in this context, it also takes care of any future issues that could crop up from new mechanics and interactions. 
+Furthermore, solving these issues explicitly would require much more rules text on the card. 
+In conclusion, the answer is From a rules perspective it's one possible solution that produces a functional planeswalker, and from a design perspective it's the most elegant and future-proof way of doing so.
+

@@ -1,0 +1,18 @@
+Q:
+
+Can Disallow prevent me from crewing a vehicle?
+
+It is my turn and I have Veteran Motorist and an Aethersphere Harvester on the battlefield.
+Entering the declare attackers phase I announce/tap my motorist to crew the harvester. In response my opponent plays Disallow to counter my crewing the harvester.
+Does this prevent me from crewing the harvester?
+
+A:
+
+Yes, Disallow will prevent you from crewing your vehicle: your vehicle will not become a creature, and the creatures you tapped to pay the crew cost will remain tapped.
+From the comprehensive rules on Crew:
+
+702.121a Crew is an activated ability of Vehicle cards. “Crew N” means “Tap any number of untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn.”
+
+This is an activated ability with a cost of tapping creatures and an effect of turning the vehicle into a creature. It's a legal target of Disallow, so we can prevent its effect from resolving.
+Note that even despite the crew ability being countered, Veteran Motorist's ability would still trigger (because you tapped it to pay a crew cost), and the vehicle will still receive +1/+1 until end of turn. If you manage to turn the vehicle into a creature later this turn, that +1/+1 will start to apply.
+

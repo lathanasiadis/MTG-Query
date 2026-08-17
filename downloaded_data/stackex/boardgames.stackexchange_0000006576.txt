@@ -1,0 +1,16 @@
+Q:
+
+Brink of Disaster timing
+
+Brink of Disaster says:
+
+Enchant creature or land.
+When enchanted permanent becomes tapped, destroy it.
+
+If you enchant something like Shrine of Burning Rage, and it's owner goes to tap and sacrifice it, would Brink of Disaster trigger before the sacrifice, or is the cost for the Shrine paid all at once?
+
+A:
+
+You pay all the costs during the activation of an ability, as an action that doesn't use the stack.
+After the Shrine's ability has gone on the stack, Brink of Disaster's trigger will go on the stack on top of it (meaning it will resolve first). There's no permanent for it to destroy, though.
+

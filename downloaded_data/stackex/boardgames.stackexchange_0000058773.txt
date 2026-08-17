@@ -1,0 +1,37 @@
+Q:
+
+If an "until end of turn" effect ending causes an ability to trigger, on whose turn does it trigger?
+
+Suppose Alice owns and controls Geth, Thane of Contracts and Vraan, Executioner Thane.
+It is her opponent (Bob's) turn. Bob plays Act of Treason, taking control of Geth, then plays Clackbridge Troll, causing Alice to create three 0/1 goat tokens under her control.
+Bob ends his turn. Act of Treason's ends and Geth returns to Alice's control. The next time state-based actions are checked, the goats will have zero toughness and die, which will trigger Vraan's ability.
+When is Vraan's trigger put on the stack? Is it...
+
+Still in Bob's end phase, before discarding to hand size?
+Still in Bob's end phase, after discarding to hand size?
+In Alice's upkeep phase, before untapping?
+In Alice's upkeep phase, after untapping but before drawing?
+
+A:
+
+The answer is B, during Bob's End Phase, after discarding to hand size.
+The "ending phase" (Comprehensive Rules 512) is the last phase of the turn, and consists of two steps: end and cleanup.
+The "end step" (CR 513) is where "at the beginning of the next end step" triggers occur, and is (usually) the last opportunity players have to perform any action before the next player's turn start
+The "cleanup step" (CR 514) is where everything happens in your situation; I'll highlight the relevant parts:
+
+514.1 First, if the active player's hand contains more cards than their maximum hand size (normally seven), they discard enough cards to reduce their hand size to that number. This turn-based action doesn't use the stack.
+514.2 Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all "until end of turn" and "this turn" effects end. This turn-based action doesn't use the stack.
+514.3 Normally, no player receives priority during the cleanup step, so no spells can be cast and no abilities can be activated. However, this rule is subject to the following exception:
+
+514.3a At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put on the stack (including those that trigger "at the beginning of the next cleanup step"). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
+
+So in your scenario, the following occurs:
+
+Bob discards to hand size
+"Until end of turn" effects end, Geth returns to Alice's control
+Geth's static ability gives all Alice's other creatures -1/-1. State based effects are checked, and the goats die
+Vraan's "Whenever one or more other creatures you control die" trigger goes on the stack (assuming it didn't trigger earlier this turn due to some other creature dying; Vraan's trigger has a "only once per turn" restriction).
+Players receive priority
+Vraan's trigger resolves and drains 2 life.
+Once the stack is empty and all players pass, another cleanup step begins (just in case Bob drew cards and needs to discard back down to 7 again, or in case other things trigger based on Vraan's life drain).
+

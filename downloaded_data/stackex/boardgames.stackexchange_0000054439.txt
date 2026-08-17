@@ -1,0 +1,19 @@
+Q:
+
+Can I activate Multani, Yavimaya's Avatar on the battlefield?
+
+Multani, Yavimaya's Avatar's activated ability doesn't require having to declare any targets, and it only cost {1}{G} and returning two lands to hand. The ability doesn't say Multani has to be in the yard. Is there any rule or thing I'm missing that prevents me from activating the ability, returning the lands, and then the ability doing nothing?
+
+A:
+
+You won't be able to active Multani on the battlefield. See Comprehensive Rules 113.6k:
+
+113.6k An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone, unless that ability's trigger condition, or a previous part of that ability's cost or effect, specifies that the object is put into that zone.
+Example: Reassembling Skeleton says "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped." A player may activate this ability only if Reassembling Skeleton is in his or her graveyard.
+
+Multani states:
+
+(1)(G), Return two lands you control to their owner's hand: Return Multani from your graveyard to your hand.
+
+Since it says it is returning from your graveyard, you can't active unless it is in your graveyard.
+

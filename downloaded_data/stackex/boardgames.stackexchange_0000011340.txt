@@ -1,0 +1,31 @@
+Q:
+
+what is a storage counter on a land card and how do you use it?
+
+I have a card called Calciform Pools. It uses something called a storage counter. What is it and how do you use it?
+Card Text:
+
+Tap: Add {1} to your mana pool.
+
+{1}, Tap: Put a storage counter on Calciform Pools.
+
+{1}, Remove X storage counters from Calciform Pools: Add X mana in any combination of {w} and/or {B} to your mana pool.
+
+A:
+
+Most counters in MTG don't do anything by themselves. Their function is defined by the text of various cards which use them or place them. The names of the counters are a bit like creature types — they don't have any stand-alone rules significance but cards interact with them.
+The exceptions are:
+
+"+X/+Y" counters (normally +1/+1 and -1/-1, but some really old cards have other kinds), which modify a creature's power and toughness.
+Poison counters: a player who has ten or more poison counters loses the game.
+
+In the case of Calciform Pools, the  "storage counters" are there to be used for its second and third ability.
+
+{1}, Tap: Put a storage counter on Calciform Pools.
+
+This lets you slowly "charge up" the land. If you have untapped mana on your opponents end step, you can spend some of it to put a storage counter on the Pools. 
+
+{1}, Remove X storage counters from Calciform Pools: Add X mana in any combination of {w} and/or {B} to your mana pool.
+
+This lets you "release" all of the mana you've stored up. The extra cost of 1 colorless is there to encourage you to take out a bunch of mana all at once. Note that you don't have to tap pools to activate this ability, so you can use Pools' first mana ability to pay the 1 colorless if you want to. You can also activate this ability multiple times per turn if you have 1 mana floating around to pay for it.
+

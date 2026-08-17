@@ -1,0 +1,27 @@
+Q:
+
+Why does playing Rancor on Gossamer Phantasm send Rancor to the graveyard?
+
+I was playing Magic 2014 (the videogame) and I played the enchantment Rancor
+
+Enchanted creature gets +2/+0 and has trample. When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.
+
+on an opponent's Gossamer Phantasm
+
+When Gossamer Phantasm becomes the target of a spell or ability, sacrifice it.
+
+I was hoping I would recover the Rancor card on my hand when the Gossamer Phantasm sacrifice was resolved, but somehow the Rancor card ended up on my graveyard.
+I was wondering if this was a bug or it was a misunderstanding of the rules, if so, what's the rule that made this possible?
+
+A:
+
+When you cast a spell (in this case your enchantment, Rancor), it is put on the stack. Then, triggered abilities are checked and possibly being put on the stack. This happens here, as casting an Aura targets a permanent, and Gossamer Phantasm's ability triggers when that permanent is being targetted.
+The stack resolves from the top, also called last-in-first-out, meaning the Phantasm's triggered ability will resolve first. Assuming nothing else happens, you have to sacrifice the permanent.
+When it is Rancor's turn to resolve, like any spell, it checks whether any of its targets are still legal. Because all of Rancor's targets (only the Phantasm) aren't in the zone that they used to be anymore, it doesn't have any legal targets, and therefore fails to resolve, which means that instead of being put on the battlefield, it's being put into the graveyard.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. (...) If all its targets, for every instance of the word "target," are now illegal, the spell or ability doesn't resolve. It's removed from the stack and, if it's a spell, put into its owner's graveyard. (...)
+
+Now, Rancor has an ability that says "When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.". The ability text already gives it away - since Rancor wasn't on the battlefield at the time it was being put into the graveyard, the trigger condition isn't satisfied, and Rancor is put into your graveyard as normal.
+
+Excuse me for not providing a complete list of relevant rules here, as this scenario involes a ton of them, and most are more easily explained in words (or so I hope) than in rules text. Generall speaking, you might want to familiarize yourself with how the stack works, as this kind of interaction happens a lot in MtG, and most of them are resolved by very basic rules.
+

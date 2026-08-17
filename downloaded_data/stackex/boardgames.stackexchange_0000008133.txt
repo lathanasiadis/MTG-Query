@@ -1,0 +1,25 @@
+Q:
+
+Does Goblin Arsonist's ability deal 2 damage when there are two in play?
+
+Does having two Goblin Arsonist on the battlefield cause their ability to deal 2 damage when one dies?
+
+A:
+
+No, it deals 1 damage
+Whenever you see a card's own card name within the the rules text of a card, it isn't referring to all cards with that name. It is referring to itself. I believe at one point, the Oracle text replaced this self reference with ~this~ (or perhaps, the database allowed searching using "this"). You can think of the triggered ability in that way:
+
+When [~this~] dies, you may have it deal 1 damage to target creature or player.
+
+From the Comprehensive Rules:
+
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+If you were looking for abilities that would trigger multiple times, you need cards that trigger "Whenever a Goblin ...". These cards only care about the creature subtype in question. For example:
+
+Boggart Mob - Whenever a Goblin you control deals combat damage to a player, you may put a 1/1 black Goblin Rogue creature token onto the battlefield.
+
+Boggart Shenanigans- Whenever another Goblin you control dies, you may have Boggart Shenanigans deal 1 damage to target player.
+
+Two Shenanigans won't trigger off of themselves, because of the another, but both will trigger when another Goblin permanent is sent to the graveyard from the battlefield. (Note: Boggart Shenanigans will do 1 damage twice, which is not the same thing as to deal 2 damage once.)
+

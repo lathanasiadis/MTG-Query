@@ -1,0 +1,22 @@
+Q:
+
+Can I play Marrow Shards in my second main phase in MTG?
+
+Is it possible to play Marrow Shards in the second main phase after combat is completed? Marrow Shards says:
+Marrow Shards deals 1 damage to each attacking creature.
+My opponent played this card only to do the same damage with his Rage Extractor. I think he is allowed to do this, because there are no prerequisites like a valid target or something like that. If this is really possible, what happens to creatures that attacked in the combat phase? Do they still count as attacking creatures and so take damage from the spell?
+
+A:
+
+You are correct: the spell doesn't target and has no restriction about when you can cast it, so you can cast it outside of combat to do "nothing" (i.e. just to trigger the Rage Extractor).
+Casting it on your second main phase won't damage any creatures, since creatures are only "attacking" for the duration of the combat phase. Once the opponent has made a valid selection during the "declare attackers" step,
+
+508.1j Each chosen creature still controlled by the active player becomes an attacking creature. It    remains an attacking creature
+  until it’s removed from combat or the combat phase ends,    whichever
+  comes first. See rule 506.4.
+
+Note that there are still opportunity to cast Marrow Shards after damage is dealt but before combat ends:
+
+During the combat damage step, after damage is dealt.
+During the end of combat step.
+

@@ -1,0 +1,12 @@
+Q:
+
+Redirecting counterspells to Redirect itself
+
+If I cast Redirect on a some kind of counter spell can I choose the Redirect as new target for the counterspell?
+
+A:
+
+Yes.  From the Gatherer rulings:
+
+If you cast Redirect targeting a spell that targets a spell on the stack (like Cancel does, for example), you can’t change that spell’s target to itself. You can, however, change that spell’s target to Redirect. If you do, that spell won’t resolve when it tries to resolve because Redirect will have left the stack by then.
+

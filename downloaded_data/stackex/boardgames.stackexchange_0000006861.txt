@@ -1,0 +1,39 @@
+Q:
+
+How does metalcraft work in Two-Headed-Giant?
+
+I'm playing Two-Headed-Giant and have a creature with metalcraft. I control 1 artifact and my teammate controls 2. Does my creature's metalcraft ability 'trigger'? 
+I know metalcraft says "if you control 3 or more artifacts", but since THG obscures the idea between player and team so much I'm having trouble figuring our what 'you' refers to in this case.
+
+A:
+
+In a word, no.
+Players do not share control of permanents in Two-Head Giant.
+In addition, with the exception of "attacking player" and "defending player," all of the referents in THG are the same as regular Magic. "You" is you. "Target player" and "target opponent" refer to a single player. "Your opponents" are two players, individually.
+Here are the relevant comp rules:
+
+810.5. With the exception of life total and poison counters, a team’s resources (cards in hand, mana,    and so on) are not shared in the
+Two-Headed Giant variant. Teammates may review each other’s    hands
+and discuss strategies at any time. Teammates can’t manipulate each
+other’s cards or    permanents.
+810.7b Any one-shot effect that refers to the “defending player” refers to one specific defending    player, not to both of the
+defending players. The controller of the effect chooses which one the
+spell or ability refers to at the time the effect is applied. The same
+is true for any one-shot effect    that refers to the “attacking
+player.”
+Any characteristic-defining ability that refers to the " “defending player” refers to one specific    defending player, not to
+both of the defending players. The controller of the object with the
+characteristic-defining ability chooses which one the ability refers
+to at the time the nonactive    players become defending players.
+All other cases in which the “defending player” is referred to actually refer to both defending    players. If the reference involves
+a positive comparison (such as asking whether the defending    player
+controls an Island) or a relative comparison (such as asking whether
+you control more    creatures than the defending player), it gets only
+one answer. This answer is “yes” if either    defending player in the
+comparison would return a “yes” answer if compared individually. If
+the    reference involves a negative comparison (such as asking
+whether the defending player controls    no black permanents), it also
+gets only one answer. This answer is “yes” if performing the
+analogous positive comparison would return a “no” answer. The same is
+true for all other cases    that refer to the “attacking player.”
+

@@ -1,0 +1,16 @@
+Q:
+
+Can you choose not to assign damage to a second blocker?
+
+In a game of Magic, I attack with a 5/5, indestructible, trample. My opponent blocks with a 2/3 and a 2/2. 
+He hopes the 2/2 will die because of an effect when that creature dies. 
+Can I choose to just sink my five damage into the first creature and not touch the second
+
+A:
+
+You can always assign more than lethal damage to a creature. In your example, you can assign five damage to the 2/3 and not touch the 2/2.
+
+510.1c A blocked creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If it’s blocking exactly one creature, it assigns all its combat damage to that creature. If it’s blocking two or more creatures, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocking creature to divide its combat damage. However, it can’t assign combat damage to a creature that it’s blocking unless, when combat damage assignments are complete, each creature that precedes that blocked creature is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. An amount of damage that’s greater than a creature’s lethal damage may be assigned to it.
+
+The Judge's Corner has a great video that covers the specific scenario in your question and more.
+

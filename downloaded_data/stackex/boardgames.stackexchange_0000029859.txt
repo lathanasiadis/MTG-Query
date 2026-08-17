@@ -1,0 +1,12 @@
+Q:
+
+What happens when a non-token creature loses all abilities, is exiled, then returns?
+
+So I was playing with some friends and we ran into a problem. My opponent had a creature with both hexproof and indestructible.
+I drew and played Polymorphist's Jest. I then attacked with my creature, which had Voidwalk encoded on it. It wasn't blocked, so I cast Voidwalk with his currently blue frog creature as the target and exiled it. Now, I know exiled tokens immediately die or cease to exist, but what would happen to his creature? Would it return or simply be gone?
+
+A:
+
+Polymorphist's Jest does not create tokens, it only changes the stats and characteristics of the creature's controlled by the targeted player. It is still the same game object as far as Magic is concerned.
+Under the circumstances presented in your question, your opponent's creature would be 'flickered' (magic slang for exiled and then returned to the battlefield) and when it returned it wouldn't be a 1/1 frog anymore, it would be whatever the face up of whatever card was returned.
+

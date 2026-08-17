@@ -1,0 +1,16 @@
+Q:
+
+Laquatus's Champion and Torpor orb
+
+I have a Laquatus Champion who entered the battlefield while there was a Torpor Orb on the field (and thus it's first ability didn't trigger). What happens when it then leaves the battlefield ?
+The second ability reads "When Laquatus's Champion leaves the battlefield, that player gains 6 life." But which player gains life is chosen in the first ability (in this case it never happened).
+My guess is the ability doesn't trigger/can't resolve and nobody gains life, but I'm not sure.
+PS : a similar situation may happen if all players have shroud when the Champion comes into play.
+
+A:
+
+You are correct that nothing will happen. The Champion's abilities are what are called Linked Abilities, and the second one depends on choices made from the first one. Since nothing was targeted by the first ability there is nothing for the second one to reference.
+Think of it like Fiend Hunter since the first ability didn't exile anything there is nothing for it to return when it leaves the battlefield, the Champion works the same way but with life.
+
+607.1. An object may have two abilities printed on it such that one of them causes actions to be taken or objects or players to be affected and the other one directly refers to those actions, objects, or players. If so, these two abilities are linked: the second refers only to actions that were taken or objects or players that were affected by the first, and not by any other ability.
+

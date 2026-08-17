@@ -1,0 +1,27 @@
+Q:
+
+Butcher of Malakir timing
+
+I control Butcher of Malakir and Sakura-Tribe Elder and my opponent controls no creatures. They cast Duplicant targeting my Butcher of Malakir. If I react by sacrificing Sakura-Tribe Elder, does he has to sacrifice Duplicant?
+
+A:
+
+Here is how it goes down:
+Your opponent casts Duplicant, putting it on the stack. You both let it resolve(*), so it enters the battlefield. The Duplicant's ability triggers, and is put on stack, targeting the Butcher.
+Before the ability resolves, you sacrifice the Tribe Elder and put its ability on the stack. The Butcher triggers, and its ability is put on stack. The stack now looks like this, from top to bottom:
+
+Butcher's ability
+Tribe Elder's ability
+Duplicant's ability
+
+Assuming no more interference, the Butcher's ability will pop off the stack first, requiring your opponent to sacrifice a creature (which has to be the Duplicant). Then you get to search your library for a basic land card and put it into play tapped. Then the Butcher is exiled from the Duplicant's ability (which is unaffected by the Duplicant's fate).
+
+(*) Say you sacrifice the Tribe Elder while the Duplicant is on the stack instead of letting it enter the battlefield first. Then after the Butcher's ability has triggered and been put on the stack, the stack looks like this:
+
+Butcher's ability
+Tribe Elder's ability
+Duplicant
+
+As before, first the Butcher's ability triggers. Since your opponent controls no  creatures, nothing happens. Then you get to search your library for a basic land card and put it into play tapped.
+Then the Duplicant enters the battlefield, and its ability triggers. Your opponent targets the Butcher, and assuming no other interference, the Duplicant's ability triggers, exiling the Butcher and making the Duplicant a 5/4 Artifact Creature - Vampire Warrior Shapeshifter.
+

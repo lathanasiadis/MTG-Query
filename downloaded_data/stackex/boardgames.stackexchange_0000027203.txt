@@ -1,0 +1,15 @@
+Q:
+
+Does Void Winnower prevent casting spells for even alternative mana costs?
+
+I was talking to a friend who said he played a game of Magic over the weekend. He said his opponent played a Void Winnower but it was okay because he was holding a Sheer Drop in hand.
+When the Void Winnower attacked, he chump blocked in and then on his turn he cast Sheer drop which only has a CMC of 3, but he said he cast it for the Awaken cost which is 6 cmc
+I thought by using the Awaken cost, the CMC would now be 6 and so Void Winnower's ability would prevent it? Is anyone able to give me a definitive answer?
+
+A:
+
+The only time the converted mana cost of a spell changes is if is has an {X} in the cost and the spell is currently being cast. So Sheer Drop will always have a CMC of 3 regardless of if the Awaken cost is paid, or if anything else changes the actual amount of mana paid.
+
+202.3. The converted mana cost of an object is a number equal to the total amount of mana in its mana cost, regardless of color.
+202.1. A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the illustration.
+

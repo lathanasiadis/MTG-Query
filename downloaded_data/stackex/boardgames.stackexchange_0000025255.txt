@@ -1,0 +1,22 @@
+Q:
+
+How much damage does Acolyte of the Inferno's ability deal?
+
+Acolyte of the Inferno has this ability:
+
+Whenever Acolyte of the Inferno becomes blocked by a creature, it deals 2 damage to that creature.
+
+Does that mean it deals 2+current power to blocking creature?
+
+A:
+
+No, it does exactly what it says: it deals two damage. This ability will trigger in the declare blockers step, when your opponent declares a blocker for the Acolyte.
+If the creature isn't already dead from that two damage, then in the combat damage step, it will also deal damage equal to its power to the blocking creature. (Of course, if the blocking creature has first strike, it would kill Acolyte of the Inferno before it got to deal its combat damage.) So in some cases the total damage dealt will be two plus its power, but it can also easily be just two damage.
+A creature's power is the amount of damage it'll deal when it deals combat damage, to your opponent or a blocking creature when you've attacked, or to your opponent's attacking creature when you've blocked. Any abilities like this are completely independent of the creature's power.
+Beyond that, if a card cares about a creature's power, it'll explicitly say so. For example, Tail Slash:
+
+Target creature you control deals damage equal to its power to target creature you don't control.
+
+There's also the "fight" mechanic, for example on Savage Punch; when two creatures fight, each deals damage equal to its power to the other creature.
+Some creatures even have abilities built in that do things like this, for example Spikeshot Elder. But again, everything like this explicitly mentions the creature's power.
+

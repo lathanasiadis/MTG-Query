@@ -1,0 +1,48 @@
+Q:
+
+How to calculate the power level of a Commander deck?
+
+I've been playing Magic casually for almost half a year now, mostly in the multiplayer Commander format. Regularly, I hear people talk about the power levels of decks. Especially when I'm playing with someone new, they ask me "what power level are we playing?" My response usually is something like "I don't know".
+After asking around and looking online, I've learned the following details—please correct me if I'm wrong.
+Power Level
+I've heard a couple parameters so far that influence the power level of a deck:
+
+the amount of win conditions (e.g. bomb cards, infinite combos)
+the ease of manipulating chances to play those win conditions (e.g. tutor cards)
+flexibility in removing threats from opponents (e.g. single target removal, and the ease of having them in hand when needed)
+having certain staple land and mana cards
+
+So far this has been helpful, but whenever I ask how exactly they come to the conclusion of their deck's power level, I usually receive a shrug and/or blank stare (or find articles that beat around the bush). I've asked multiple people at different gamestores, but found no clear reasoning so far, so I get the sense it's more of a gut feeling than a clear calculation.
+Question
+Is there a tier system of some sort? If possible, I would like to see clear and concrete pointers for how to calculate the power level of any deck. If this is ultimately a gut feeling based on certain parameters, a guide for rating my decks with this gut feeling is much appreciated.
+Example
+For clarity, an example might work. Let's say I have Samut, Voice of Dissent as my commander. The primary win condition is smashing face for commander damage, making her stronger with equipments and auras, with the help of some big trampling creatures. There's quite some ramping options, but there's hardly any card draw in the deck. There's one potential infinite combo in there with Godo, Bandit Warlord and Helm of the Host, and about four removal cards for dealing with threats from creatures, enchantments or artifacts. The deck contains a couple of land fetchers (such as Renegade Map, Traveler's Amulet, but no tutor cards.
+
+In case it matters for answering this question, I'm mostly interested in:
+
+Commander
+casual play (winning is not my main goal)
+multiplayer
+
+A:
+
+Power level is very subjective, and its main purpose is to communicate gameplay expectations.
+I personally think that trying to create a very refined algorithm for grading power levels misses the point of what the power level is trying to achieve.  Power level is based mostly on comparing decks to each other.
+Because Commander is mostly a casual, multiplayer format, power level is simply a discussion to help maintain player parity to ensure interactive and enjoyable gameplay.  It's to prevent someone's janky Pirates win with treasure deck from being completely obliterated by a well-tuned Prossh Food Chain combo deck.  While both those decks are playing Commander, they're arguably playing different games.  The power level is a discussion tool to manage expectations and make sure no one feels left out of this long, multiplayer game.
+To that end, the parameters I've heard for determining power level are much less specific than the ones you've posited in the question. The concepts I use to estimate power level are as follows:
+
+Raw power of win conditions
+Consistency
+Speed
+
+Some of your criteria in the question fall into these broad categories.  For example, the presence of Commander staple ramp cards help improve both the consistency and speed of the deck.  Immediate win-conditions like Expropriate or Craterhoof Behemoth have good raw-power.  Having a single combo that is easily disrupted by your opponents' removal lowers the consistency of your deck.
+Comparing decks is just making sure that games are fun and reasonably competitive instead of being one player playing solitaire and everyone one else just watching.  So I wouldn't worry about getting the exact numbers in your rating system as long as the decks are close.  That being said, my 0-10 rating system, that I based on advice from The Command Zone (a podcast about Commander), is as follows:
+
+0-1: It's hard to consciously bring yourself to make a deck this actively bad unless you're going for an off-beat theme like "griffon tribal."
+2-3: These decks might be a jumble of rares (and not necessarily good ones) that someone had in their collection.  The commander exists to provide the color identity needed to play all of these favorite cards, even though many do not synergize with each other.  Consistency is typically low because there is no coherent idea for the deck.
+4-5: Most of the Commander pre-constructed deck are at this power level.  There are some themes in the deck, but maybe the deck just plays slowly due a lack of ramp.  Possibly there are too many ideas going on at once, or maybe the win-conditions are just not very powerful.
+6-8: These decks have a very clear game plan.  They are pretty efficient and/or flexible.  Research and refinement of deckbuilding is likely.  Upgraded pre-cons and decks that have gone through experimentation and updating typically are around here.  The financial costs of these decks can be higher due to the expense of consistent, faster mana bases or sought-after singles that are high impact.
+9-10: These decks are built to win.  They are competitive-tier (CEDH) decks that are very fast and very consistent.  Often, these decks use expensive cards (like Mox) to help speed up the deck even more.
+
+Based on your brief description of your Samut beatdown deck, I'd estimate it at about 5 depending on how consistent it is.  The strategy sounds a bit fragile because it appears all-in on combat and lacks card draw, but it sounds like it has plenty of threats and ways to deal damage.
+

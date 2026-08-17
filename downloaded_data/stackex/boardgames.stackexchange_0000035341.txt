@@ -1,0 +1,21 @@
+Q:
+
+Why does the Humility/Opalescence interaction work?
+
+There's a ruling on Opalescence that explains the interaction with Humility (as mentioned in this question).
+However, I'd like an explanation of why this is the case. I get that, due to the layers, the type-setting applies first.
+However, ability-adding/removing applies before power/toughness. Why do Humility and Opalescence both set power and toughness after Humility has removed the abilities from both cards?
+Is it that, once you start applying some of a single ability, you apply the entire ability, even if that application happens across multiple layers? If this were so, the interaction only occurs because Opalescence "gets in early" by setting type, which means that it will still finish being applied after Humility removes its ability?
+
+A:
+
+You are correct on both points.
+
+The entire ability will be applied in the appropriate layer, as mentioned in the first part of Opalescence's gatherer ruling :
+
+[...] the type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it's finished applying. [...]
+
+Opalescence's type-setting ability works because it's applied in an earlier layer (layer 4) than Humility's abilities-removing (layer 6).
+
+Edit : Also works because Opalescence's doesn't affect itself, as Benjamin Cosman mentioned.
+

@@ -1,0 +1,19 @@
+Q:
+
+When does Skullcage have its effect activated?
+
+I am new to Magic, so forgive me if this is common knowledge.
+Does the opponent's draw step happen before or after the Skullcage condition is checked?
+
+A:
+
+Skullcage triggers during your opponent's upkeep step, which is before their draw step. The order of steps in a Magic turn is
+
+Untap
+Upkeep
+Draw
+Precombat Main
+Combat
+Postcombat Main
+End
+

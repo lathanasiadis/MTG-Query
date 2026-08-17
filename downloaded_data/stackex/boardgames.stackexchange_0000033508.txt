@@ -1,0 +1,18 @@
+Q:
+
+Does Precursor Golem let me target all golems in the graveyard?
+
+Assuming I had Precursor Golem (and many other golems) in my graveyard, if I use Refurbish on Precursor Golem, would it return all my golems from the graveyard to the battlefield?
+
+A:
+
+No, that wouldn't work.
+Unless a permanent's ability specifically states otherwise (e.g. Carrionette), or the ability would only make sense when activated in another zone (e.g. Bloodsoaked Champion), abilities only work while that permanent is on the battlefield.
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+112.6b An ability that states which zones it functions in functions only from those zones.
+
+Also, when Precursor Golem says "Golem" without further qualifiers, as for example in "a single Golem", then the wording is shorthand for "Golem permanent", an object on the battlefield with the Golem subtype.
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+

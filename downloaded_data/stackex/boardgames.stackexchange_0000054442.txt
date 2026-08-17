@@ -1,0 +1,26 @@
+Q:
+
+MTG - Does this do an infinite combo? Devil's play + Sevinne Chronoclasm + Geistblast from graveyard + Twinning Staff
+
+The situation:
+
+I cast Devil's Play for x = 3.
+I cast Geistblast for its copy effect from my graveyard.
+Sevinne, the Chronoclasm triggers on the 1st cast from graveyard instant/sorcery - I get 1 extra geistblast, targeting the devil's play
+Twinning Staff triggers - I get another Geistblast targeting the devil's play
+I now have 3 geistblasts that copy devils play . So I get 4 instances of devils play
+Twinning staff triggers again. I now have 3 possibilities:
+
+A) - Devil's play gets copied only one additional time, for a total of 5. Because twinning staff reads: "If you would copy a spell one or more times, instead copy it that many times plus an additional time". Devils Play will get copied 3 times by the 3 geistblasts, thus it has already been copied 'one or more times'.
+B) - Each of the 3 geistblasts is a new trigger for twinning staff so I get 3 extra copies of those 3 geistblasts for a total of 7 devils plays
+C) - If B is true and A is false, then I could also make the "Sevinne geistblast" target the original geistblast for an infinite loop of "copy geistblasts". However, this infinite loop gets me no profit. But, because I have twinning staff out, each time a "copied geistblast", targets the original geistblast, twinning staff triggers, netting me 2 geistblasts each time. Half of them go towards the infinite loop, the other half go to Devil's play for infinite damage.
+Which of these options is correct?
+
+A:
+
+No, because Geistblast is not cast. Its ability
+
+{2}{U}, Exile Geistblast from your graveyard: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
+
+is an activated ability, not an alternative casting cost. Therefore Sevinne is not triggered and your chain falls apart at step 3.
+

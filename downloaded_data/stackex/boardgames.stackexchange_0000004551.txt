@@ -1,0 +1,17 @@
+Q:
+
+In MTG, Can Rhox redirect its damage when it blocks?
+
+My opponent blocks my creature with a Rhox, and instead of dealing damage to the attacker, would prefer to deal that damage to me. Does Rhox's ability work that way? 
+The same ability can also be seen on cards such as Thorn Elemental.
+
+A:
+
+Unfortunately the answer is "no".  The text on these cards, and others like them, is 
+
+"this creature may assign its combat damage as though it weren't
+  blocked"
+
+It's obvious what this means when the creature is attacking - if it weren't blocked it would deal damage directly to the player.
+When blocking, it's academic whether "the creature may assign its combat damage as though it weren't blocked".  The only permissible place to assign a blocker's combat damage, ever, is to the creature it's blocking.  As such, Rhox and Thorn Elemental's special abilities have no effect while they're on defensive duty.
+

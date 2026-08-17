@@ -1,0 +1,30 @@
+Q:
+
+What is the justification of the card type Tribal in Magic the Gathering?
+
+Many players and fan designers have been forever frustrated by the fact that in MtG, "Tribal" is a card type instead of a supertype. Having been digging at this for a while, I have to a conclusion: there is literally and absolutely no rule justification for this.
+The only argument that was ever offered is "subtypes must be associated with a card type, not a supertype". He re's a typical formulation from today. Tabak has never explained it any further despite many pressing attempts t getting a better answer.
+However, this only begs the question, because this itself has no rule-based justification whatsoever other than (if you squint really hard) the fact that Tarmogoyf and a few, select cards would be functionally altered. However since a) they forgot about THAT when creating tribal in the first place and b) this would be a minute amount of disruption to older cards compared to what happened by eliminating damage on the stack or mana burn. (And you'd think they'd jump at the chance to rein in Tarmo a little without actually altering cards or the banned and restricted list.)
+So, I ask of you: come up with a rule problem (and as I made it clear above, a card whose power subtly changes is not one!) or contradiction that arises out of making Tribal a supertype. Please. Please tell me Wizards have a reasoning instead of just stubbornly pretending they didn't make a patently idiotic design mistake and then tried to cover it with what amount to "because we say so".
+An example of a rule issue would be if it could somehow cause a creature to have undefined power or toughness, or cause an instant/sorcery to be face-up on the battlefield, both situation which templating and rules carefully thread around to prevent their possibility.
+Yes the question is ranty because Tabak has been frustratingly stubborn on this issue, but it's still a legitimate rules question.
+
+A:
+
+I don't know if you'd consider these "rules issues" or not; they're certainly not as bad as an instant on the field, but the rules as currently worded don't allow for subtypes to be associated with supertypes. If you make Tribal a supertype and start messing around with an object's types,things don't work out the same way; see the following examples. Maybe they could have done these rules differently, maybe not, but it's not just a matter of declaring Tribal to now be a supertype instead of a card type.
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+205.1b Some effects change an object’s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object’s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase “in addition to its types” or that state that something is “still a [type, supertype, or subtype].” Some effects state that an object becomes an “artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes.
+
+Take a Tribal Artifact and make it a (non-artifact) land with Song of the Dryads. If Tribal were a supertype, would it keep its creature type(s)?
+Since its new type doesn't support creature types, no. It's still Tribal but loses its creature types.
+
+205.3d An object can’t gain a subtype that doesn’t correspond to one of that object’s types.
+
+Take a Tribal Artifact and give it a second creature type. Since the new creature type doesn't correspond to one of its types, it doesn't gain it.
+
+205.4b An object’s supertype is independent of its card type and subtype, even though some supertypes are closely identified with specific card types. Changing an object’s card types or subtypes won’t change its supertypes. Changing an object’s supertypes won’t change its card types or subtypes. When an object gains or loses a supertype, it retains any other supertypes it had.
+
+Remove the Tribal supertype from a permanent somehow and it keeps its creature types since removing supertypes doesn't change subtypes, but it can't have creature types without the Tribal, so does it or doesn't it have creature types?
+

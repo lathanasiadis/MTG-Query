@@ -1,0 +1,35 @@
+Q:
+
+Dictate of Erebos and Bestowed creatures
+
+Bestow is a mechanic with the following reminder text:
+
+(If you cast this card for its bestow cost, it’s an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+
+Dictate of Erebos has the following effect:
+
+Whenever a creature you control dies, each opponent sacrifices a creature.
+
+Consider the following case:
+
+My opponent controls a Dictate of Erebos
+
+I control a Creature which has, as an Aura attached to it, a card with Bestow (in my case, an Underworld Coinsmith with Hopeful Eidolon as an Aura)
+
+I control a single other creature, which I want to avoid sacrificing (in my case, a Doomwake Giant)
+
+A single effect kills two of my opponent’s creatures (in my case, the Doomwake Giant’s Constellation effect triggered while he had two 1/1s)
+
+I choose, as my first sacrifice, the Creature enchanted with the Bestowed card (in my case, the Underworld Coinsmith above)
+
+In this situation, does the Bestowed card (e.g. the Hopeful Eidolon above) revert to being a Creature in time for me to choose it as the next sacrifice?
+Or does it only revert to being a Creature after all triggered instances of Dictate of Erebos have resolved, forcing me to sacrifice the creature I want to save (e.g. the Doomwake Giant above)?
+
+A:
+
+You may sacrifice Underworld Coinsmith, and then you may sacrifice Hopeful Eidolon.
+Whenever a creature dies, all of its enchantment(s) become unattached. Normally, they would be sent straight to the graveyard as a state based action. However, enchantments with Bestow immediately become a creature instead due to rule CR 702.102a. The commonly used slang terminology for this action is "falls off".
+Triggers from Dictate of Erebos resolve one at a time. If you sacrifice Underworld Coinsmith to the first trigger, then Hopeful Eidolon immediately "falls off" and is ready to be sacrificed to the second trigger.
+
+702.102a If you chose to pay this spell’s bestow cost, it becomes an Aura enchantment and gains enchant creature. These effects last until the permanent this spell becomes becomes unattached.
+

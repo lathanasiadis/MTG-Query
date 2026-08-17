@@ -1,0 +1,19 @@
+Q:
+
+Can I sacrifice a creature that I lost control of after activating its ability?
+
+My opponent controls a Rootwater Hunter enchanted with Charisma and I control a Tar Pitcher. 
+I tap Tar Pitcher to sacrifice it to deal 2 damage to my opponent. In response, my opponent taps Rootwater Hunter to deal one damage to Tar Pitcher. 
+My opponent's ability resolves first, he gains control of my Tar Pitcher. Tar Pitcher's ability is still on the stack. I referenced this question so I know it tries to resolve but I am no longer in control of that creature to sacrifice it. Is Tar Pitcher successfully sacrificed and 2 damage dealt?
+
+A:
+
+This doesn't work as described because by the time your opponent has priority to activate the Rootwater Hunter the Tar Pitcher is already in the graveyard. This is because in order to put an ability on the stack you need to pay all of the costs associated with it before your opponent gets priority, in this case that involves sacrificing the Tar Pitcher.
+The rules for activating abilities share the same rules as casting spells, excerpts of the relevant rules are
+
+601.2e The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs.
+601.2g The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can't be paid.
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast.
+
+Just substitute ability for spell and you can see that you pay all of the costs before the ability is actually counted as played by the game.
+

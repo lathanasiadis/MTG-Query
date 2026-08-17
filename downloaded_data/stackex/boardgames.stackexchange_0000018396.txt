@@ -1,0 +1,17 @@
+Q:
+
+Does Phytotitan return to the battlefield when it first died and then was exiled?
+
+I have a question regarding Phytotitan, it's a 7/2 creature wich states:
+
+When Phytotitan dies, return it to the battlefield under its owner's control tapped at the beginning of his or her next upkeep.
+
+If Phytotitan dies and afterwards is exiled from the graveyard, does it still return to the battlefield?
+
+A:
+
+No, it won't return. When Phytotitan dies, its ability triggers, and then when that ability resolves, it sets up a separate, delayed triggered ability that will automatically go off at the beginning of the owner's next upkeep. That delayed triggered ability is "watching" the Phytotitan card in the graveyard. If the card changes zones (such as by getting exiled), then the delayed triggered ability loses track of it, so when the delayed ability resolves, it won't find the Phytotitan and thus won't return it.
+This applies even if Phytotitan is removed from the graveyard and then put back, by the way. The delayed triggered ability only tracks the card as long as it stays put in the graveyard, and if the card is moved elsewhere, the ability stops tracking.
+
+603.7c. A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it. (Note that if that object left that zone and then returned, it’s a new object and thus won’t be affected. See rule 400.7.)
+

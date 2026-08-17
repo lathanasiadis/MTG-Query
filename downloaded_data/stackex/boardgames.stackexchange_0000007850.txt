@@ -1,0 +1,21 @@
+Q:
+
+How do you calculate the likelihood of drawing certain cards in your opening hand?
+
+In Magic, at the start of the game, you draw 7 cards. How would you calculate the likelihood of drawing a specific card in your opening hand?
+For example, let's say I have a 60 card deck, and I'm running 4 Birds of Paradise. What is the percent chance that I will have at least one Bird in my opening hand?
+
+A:
+
+The calculation you are looking for is called a Hypergeometric Distribution. This calculated your chances of drawing a particular number of "successes" from a population, without replacement.
+
+Population Size: 60 cards
+Successes in Population: 4 Birds of Paradise
+Sample Size: 7 cards
+Successes in Sample: 1 (the minimum number we want to draw)
+Results: 39% chance of drawing at least 1 Birds of Paradise.
+
+In the Hypergeometric Distribution calculator linked above, that result is represented in the Cumulative Probability: P(X ≥ 1) field: the chance of drawing greater than or equal to 1.
+The online calculator will also give you the odds of drawing greater than that many successes in the sample (6%, the P(X > 1) result), and exactly that number (33%, the Hypergeometric Probability: P(X = 1) result).
+You can see the calculation on the Wikipedia page, or searching math.stackexchange.com for Hypergeometric Distribution. Unfortunately, this site doesn't support math formatting. (Note: You will also need to know how to calculate binomial coefficients (and factorials).
+

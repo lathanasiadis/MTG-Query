@@ -1,0 +1,32 @@
+Q:
+
+When is the game state checked for "Whenever you cast [...]" triggers?
+
+When you cast a creature for its bestow cost:
+
+When you begin casting, it is a Creature spell
+
+We know this because Steel Golem prevents Bestow creatures from being cast
+
+When you pay the alternative cost, it becomes an Aura spell
+When it gets placed onto the stack, it is an Aura spell
+
+Bestow triggers things like Prowess. See Matt Tabak's ruling on this subject. However, it does not trigger things like Karametra, God of Harvests' triggered ability. See the ruling on Karametra herself. The Karametra case is confusing to me, because at one point, you were casting a Creature spell, and at another point, you were casting an Aura spell. It seems like both should trigger. So my real question...
+At exactly what points during the casting of a spell do triggered abilities check to see if they triggered?
+
+A:
+
+A spell is cast and will trigger any 'on cast' triggers when all of the steps of casting the spell are complete and it is on the stack
+
+601.2h. Once the steps described in 601.2a-g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time.
+
+At that point it only matter what the spell currently is. The game does not look back to the steps of playing the spell to see what it was at various points during the process.
+Here are the steps required to cast a spell, detailed in 601. Casting Spells:
+
+Announce (and place on stack) 
+Choose (modes) 
+Target  How (to divide) 
+Total (costs)  
+Mana (abilities, activate) 
+Pay (costs)
+

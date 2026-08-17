@@ -1,0 +1,28 @@
+Q:
+
+Marionette Master + Mana Tokens (Gold, Treasure, etc.)
+
+The card Marionette Master states:
+
+Whenever an artifact you control is put into a graveyard from the battlefield, target opponent loses life equal to Marionette Master’s power.
+
+Are Ixalan Treasure tokens, Tezzerat Ethereum Cells, etc. considered "put into graveyard" when tapped for mana and sacrificed.
+
+A:
+
+Yes.
+"Artifact" means "artifact permanent", which means "artifact card or token on the battlefield".
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+110.1. A permanent is a card or token on the battlefield. [...]
+
+To sacrifice a permanent, it is moved to the graveyard.
+
+701.15a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. [...]
+
+In fact, you can't sacrifice an object unless it's a permanent you control.
+
+701.15a [...] A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. [..]
+
+So if you have sacrificed an artifact token, you have put an artifact you control into a graveyard from the battlefield, so your Marionette Master's triggered ability will trigger.
+

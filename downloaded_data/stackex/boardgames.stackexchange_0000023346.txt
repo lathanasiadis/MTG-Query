@@ -1,0 +1,25 @@
+Q:
+
+Can I counter a creature by invalidating the target of its “comes into play” effect?
+
+For example, consider Akoum Boulderfoot. It says:
+
+When Akoum Boulderfoot enters the battlefield, it deals 1 damage to target creature or player.
+
+At what point does the player have to decide on the target? Specifically, is the following sequence of events correct?
+
+Player announces the casting of Akoum Boulderfoot and declares my 1/1 creature the target
+I cast Unsummon on my 1/1
+Akoum Boulderfoot resolves, but its target is invalid, so the spell fizzles.
+
+Or is the following sequence correct?
+
+Player announces the casting of Akoum Boulderfoot
+I cast Unsummon on my 1/1
+Akoum Boulderfoot resolves, enters the battlefield, and then the player chooses a valid target
+
+A:
+
+Easy answer is the second scenario you propose. Akoum Boulderfoot's ability is a triggered ability, with the trigger for the ability being 'Akoum Boulderfoot has entered the battlefield'. Targets for spells and abilities are chosen when the spell or ability is put onto the stack. Triggered abilities do not go on the stack until the trigger for the ability is true. Permanents are not actually on the battlefield until the spell resolves.
+Answer to your primary question though is no, you can't counter a creature by invalidating the target of its 'come into play effect', due to the come into play effect not going on the stack until the creature has fully resolved.
+

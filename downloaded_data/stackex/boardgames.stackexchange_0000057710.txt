@@ -1,0 +1,19 @@
+Q:
+
+Does Pyxis of Pandemonium trigger Pact Boon?
+
+Player A has a Pyxis of Pandemonium. Player B has Prosper, Tome-Bound as a commander. Would the second ability of Pyxis trigger Pact Boon on Prosper Tome Bound?
+
+A:
+
+No, Pyxis of Pandemonium does not trigger Prosper, Tome-Bound because you don't play the cards through Pyxis.
+"Playing a card" as required by Prosper has a specific meaning in Magic.
+
+601.1a Some effects still refer to “playing” a card. “Playing a card” means playing that card as a land or casting that card as a spell, whichever is appropriate.
+
+When you cast a permanent spell and it resolves (or play a land), it does enter the battlefield, but the reverse is not true: permanents can enter the battlefield in many ways other than playing them. When a permanent enters the battlefield through Pyxis, it entered because Pyxis' effect said so. It was not cast (or, in the case of lands, played) and so does not trigger Prosper's Pact Boon.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [..]
+
+116.2a Playing a land is a special action. To play a land, a player puts that land onto the battlefield from the zone it was in (usually that player’s hand). [..]
+

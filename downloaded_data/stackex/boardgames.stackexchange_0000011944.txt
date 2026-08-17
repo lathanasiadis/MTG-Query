@@ -1,0 +1,33 @@
+Q:
+
+How do Lazav, Dimir Mastermind and Vigor work together in Magic the Gathering?
+
+Say I have Lazav, Dimir Mastermind and Vigor on the battlefield and Vigor dies. Lazav's ability triggers and I have him become a copy of Vigor. Does he now apply Vigor's ability to himself as well, since the ability says: "other than Vigor"?
+
+A:
+
+Nope, when an ability on an object refers to itself by name it means "this object."
+
+201.4b If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of
+  the first name in the gained ability that refers to the first object
+  by name should be treated as the second name. 
+Example: Quicksilver
+  Elemental says, in part, “{U}: Quicksilver Elemental gains all
+  activated abilities of target creature until end of turn.” If it gains
+  an ability that says “{G}: Regenerate Cudgel Troll,” activating that
+  ability will regenerate Quicksilver Elemental, not the Cudgel Troll it
+  gained the ability from. 
+Example: Glacial Ray is an instant with
+  “splice onto Arcane” that says “Glacial Ray deals 2 damage to target
+  creature or player.” If it’s spliced onto a Kodama’s Reach, that
+  Kodama’s Reach deals 2 damage to the target creature or player.
+Example: Dimir Doppelganger says “{1}{U}{B}: Exile target creature
+  card from a graveyard. Dimir Doppelganger becomes a copy of that card
+  and gains this ability.” Dimir Doppelganger’s ability is activated
+  targeting a Runeclaw Bear card. The Doppelganger becomes a copy of
+  Runeclaw Bear and gains an ability that should be treated as saying
+  “{1}{U}{B}: Exile target creature card from a graveyard. Runeclaw Bear
+  becomes a copy of that card and gains this ability.”
+
+If the name were to be used literally, the text would read "a creature you control not named Vigor" instead of "a creature you control other than Vigor".
+

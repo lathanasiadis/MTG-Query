@@ -1,0 +1,17 @@
+Q:
+
+doublestrike blocking with kusari-gama
+
+I have a 4/4 creature with double strike and equipped with Kusari-Gama. I get attacked by a 5/5 and 3 2/2's. I block the 5/5 with my 4/4. Do I take damage from the 2/2's even though they die in the first strike phase?
+
+A:
+
+You will take damage, because the creatures don't die
+If a creature without first strike or double strike is killed during the first strike step, it will not deal damage.  It is not on the battlefield during the regular damage step, therefore it cannot deal damage.
+However, Kusari-gama does not work the way you think it does.  Kusari-gama reads
+
+Whenever equipped creature deals damage to a blocking creature, Kusari-Gama deals that much damage to each other creature defending player controls.
+
+In the scenario you've presented, your double striking creature is dealing damage to an attacking creature.  Therefore, Kusari-gama's effect is not triggered, and no damage is dealt to the attacking 2/2s.  Since the 2/2s do not actually die in the first strike step, and they were not blocked, you take damage from them.
+Were you to use a card like Brigid, Hero of Kinsbaile to deal damage to the attacking 2/2s at any point before they deal damage, then they would die and you would not take damage.
+

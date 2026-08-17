@@ -1,0 +1,21 @@
+Q:
+
+If my opponent tries to resolve a triggered ability out of order, did they miss their opportunity to do so?
+
+My opponent controls a tapped Nettle Sentinel, and has cast 1 copy of Glimpse of Nature this turn.
+They then play an Elvish Visionary, and in response I do nothing.
+The stack starts to resolve and my opponent draws 2 cards which is evidence the Glimpse of nature and Elvish Visionary have resolved.
+They then move to untap their Nettle Sentinel. In this instance because the abilities on the stack would be resolving out of order, did they miss the Nettle Sentinel's triggered ability or is this covered by out of order sequencing?
+
+A:
+
+Before examining the merits, let's keep in mind that it's a very natural out of order sequencing since he could end up doing draw-untap-draw otherwise.
+The limit on out of order sequencing is:
+
+An out-of-order sequence must not result in a player prematurely gaining information which could reasonably affect decisions made later in that sequence.
+
+If he hesitates after drawing but before untapping, he's clearly in error. Out-of-order sequencing is not an excuse for doing something you forgot to do earlier.
+On the other end of the spectrum, if he says "I draw two and untap" and proceeds to do so, it's clearly ooos and not a problem.
+So what if he silently proceeds to draw two and untap? It's undeniable that information is gained, but that's not sufficient to prevent ooos. It comes down to whether the draw reasonably affects whether Nettle Sentinel the player untaps the Sentinel or not, and there's no guidelines for determining this.
+Drawing probably doesn't affect his choice — it's hard to imagine that he'd decide whether he'd untap or not based on what he drew — so it's probably ok. 
+

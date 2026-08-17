@@ -1,0 +1,18 @@
+Q:
+
+Can I tap Rupture Spire to pay for its own ability with an Amulet of Vigor in play?
+
+Assuming I stack the abilities correctly can I get the Rupture Spire untapped in time to pay for its own ability with an Amulet of Vigor?
+
+A:
+
+Yes, you can.
+When Rupture Spire enters the battlefield, 2 different abilities trigger. The next time someone (usually you) you would gain priority, you put both of those abilities on the stack, in an order you choose.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose.
+
+Choose to put Rupture Spire's ability on the stack first, with Amulet of Vigor's on top. Amulet of Vigor's ability will resolve first, untapping Rupture Spire. 
+Then Rupture Spire's ability will resolve, at which point you are free to tap Rupture Spire for the 1 mana you need to pay.
+A key point here is that Rupture Spire's ability doesn't do anything until it resolves; it does not require mana payment ahead of time.
+You also have priority between Amulet of Vigor's ability resolving and Rupture Spire's ability resolving. You could just tap Rupture Spire at this time and float the 1 mana until Rupture Spire's ability resolves. Either of these would result in the same net effect. It's just like the difference between tapping a Mountain and then casting Lightning Bolt; or beginning to cast Lightning Bolt and tapping a mountain to pay for it when you get to the pay costs part of casting.
+

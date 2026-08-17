@@ -1,0 +1,18 @@
+Q:
+
+When controlling an opponent's turn after casting "Emrakul, the Promised End", who is "target opponent"?
+
+Say that I am playing a 1v1 limited game and I have just cast an Emrakul, the Promised End, and I am currently controlling my opponent's turn. If I cast (from my opponent's hand) Voldaren Pariah, and sacrifice three of my opponent's creatures to flip Voldaren Pariah, then the back side of Voldaren says:
+
+When this creature transforms into Abolisher of Bloodlines, target opponent sacrifices three creatures.
+
+Who can the "target opponent" be in this situation - must it be me, or can it also be the opponent that I am currently controlling?
+
+A:
+
+You are only controlling that players actions, nothing changes about which player controls various objects or who the various players' opponents are. So when they activate that ability (it doesn't matter if you control them or not) you are the one that will have to sacrifices creatures when the triggered ability resolves.
+
+712.3. Only control of the player changes. All objects are controlled by their normal controllers. A player who’s being controlled during his or her turn is still the active player.
+102.2. In a two-player game, a player’s opponent is the other player.
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+

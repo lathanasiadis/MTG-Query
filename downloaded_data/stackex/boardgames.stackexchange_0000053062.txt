@@ -1,0 +1,27 @@
+Q:
+
+Does stonecoil serpent count as entering battlefield when paying X=0?
+
+Currently building a Purphoros, God of the forge deck and I'm wondering if his ability is triggered when I pay x=0 for Stonecoil Serpent or does it go straight to the graveyard without entering the battlefield?
+
+A:
+
+Stonecoil Serpent does enter the battlefield as a 0/0 (causing Purphoros's ability to trigger), then dies immediately.
+The exact events in order in case you want them:
+
+Stonecoil Serpent enters the battlefield. Purphoros's ability triggers but is not put on the stack yet (603.2).
+After Serpent resolves, you would normally get priority. Since a player is about to get priority, state-based actions are checked (704.3).
+Serpent dies by state-based actions (704.5f).
+State-based actions are checked again; none are relevant so now the ability is actually put on the stack (704.3).
+State-based actions are checked one more time and then you get priority and the game proceeds normally.
+
+The relevant parts of the rules cited above:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated.
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard.
+

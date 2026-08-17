@@ -1,0 +1,20 @@
+Q:
+
+Can Riveteers Overlook go in a red and black Commander deck?
+
+Can I include Riveteers Overlook (or other similar cards) in a Commander deck with a red and black Commander? I know the rules regarding color identity, but Riveteers Overlook specifically names Mountain, Swamp, and Forest land types:
+
+When Riveteers Overlook enters the battlefield, sacrifice it. When you do, search your library for a basic Swamp, Mountain, or Forest card, then put it onto the battlefield tapped, then shuffle and you gain 1 life.
+
+Does this include the associated colors in the card's color identity, or can I use this to fetch a Swamp or Mountain and ignore the Forest keyword?
+I know that this rule exists:
+
+903.5d A card with a basic land type may be included in a Commander deck only if each color of mana it could produce is included in the commander’s color identity.
+
+But as the card does not have the basic land type I did not know if this rule affected it.
+
+A:
+
+You can play Riveteers Overlook in any commander deck.
+When rule 903.5d says "A card with a basic land type", it is referring to a card with a basic land type in its type line. This includes the standard basic lands, plus some non-basic lands such as Blood Crypt. Riveteers Overlook does not have any basic land types in its type line; it just mentions them in its text box, so it is not affected by that rule and it can be played in a commander deck with a commander of any color identity.
+

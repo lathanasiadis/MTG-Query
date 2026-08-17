@@ -1,0 +1,16 @@
+Q:
+
+interaction between Fiery Emancipation and trample
+
+I had Fiery Emancipation (which triples damage) on the battlefield, and attacked my opponent with a 4/1 creature with trample. My opponent had 6 life and blocked with a 5/6 creature.
+I believed that Fiery Emancipation would triple the damage to 12 thus allow me to win the game due to the 6 excess damage being applied to my opponent, thanks to trample. However, my opponent took no damage. What am I not understanding?
+
+A:
+
+Damage was probably calculated correctly, combat damage assignment does not take into account effects like Fiery Emancipation.
+When you assign combat damage, effects that modify how much damage is actually dealt (such as Fiery Emancipation) are not taken into account. Assuming the defending creature had no damage assigned to it already, you have to assign all 4 of your damage to it, and none to the defending player. After all damage has been assigned, damage is actually dealt, and only now is it modified by Fiery Emancipation. The defending creature will take 12 damage, while your opponent takes none.
+
+510.1c [..] When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. [..]
+
+Basically, you assign damage as though Fiery Emancipation was not on the battlefield at all. Dealing and modifying the damage happens after damage assignment, not before.
+

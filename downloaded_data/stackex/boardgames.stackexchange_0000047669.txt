@@ -1,0 +1,15 @@
+Q:
+
+Sacrifice blocking creature before damage is dealt no longer working (MtG Arena)?
+
+So the following happened to me just now in MtG Arena. I declared a Dauntless Bodyguard as blocker for a creature and then sacrificed it before damage was dealt. As I'm used to in tabletop magic, this would result in the attacking creature not dealing any damage right? However in Arena, the attacking creature for some reason just switched target to my life points directly (which actually did cost me the game).
+Was there any change in rules or did I just always play it wrong on paper?
+
+A:
+
+This is correct; the creature is blocked and won't deal combat damage to you (unless it had trample). The timing is important though; you need to sacrifice it when you have priority during the Declare Blockers step (which happens after declaring blockers).
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+702.19c If an attacking creature with trample is blocked, but there are no creatures blocking it when damage is assigned, all its damage is assigned to the player or planeswalker it’s attacking.
+

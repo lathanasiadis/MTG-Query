@@ -1,0 +1,13 @@
+Q:
+
+Do the rules of multiple copies of a card stack?
+
+For example, the Chief of the Foundry grants +1/+1 to other artifact creatures I control. If I have two copies of Chief of the Foundry in play, does that mean all other artifact creatures I control get +2/+2 and do they then grant each other +1/+1 since they are "other" artifact creatures?
+
+A:
+
+You are correct in your interpretation. Each static ability is separately applied from each other, so they stack.  
+It's not directly talking about abilities stacking, but:
+
+112.2c An object may have multiple abilities. If the object is represented by a card, then aside from certain defined abilities that may be strung together on a single line (see rule 702, “Keyword Abilities”), each paragraph break in a card’s text marks a separate ability. If the object is not represented by a card, the effect that created it may have given it multiple abilities. An object may also be granted additional abilities by a spell or ability. If an object has multiple instances of the same ability, each instance functions independently. This may or may not produce more effects than a single instance; refer to the specific ability for more information. #
+

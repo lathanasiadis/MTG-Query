@@ -1,0 +1,17 @@
+Q:
+
+Does attacking creature take damage when playing instant "Ride Down" before combat damage but after blockers declared
+
+If I attack with a 4/4 and am blocked with a 4/4
+Can I play an instant before combat damage, Im pretty sure I can so
+If I play Ride Down to destroy their blocker
+Does my attacking creature still take 4 damage and die?
+I know the damage won't go to the player (Unless I was a 5/4 because Ride Down also grants trample) because my creature is still technically blocked
+But does it still take damage from the destroyed creature?
+
+A:
+
+Once blockers are declared, any player can then play instants or effects before any damage is applied.
+In your particular case, no, your creature does not take damage.  It would only take damage if the blocking creature was still in play, and Ride Down destroys it.
+You are incorrect on the other portion however.  The Trample keyword lets any damage above and beyond what's applied to the blocker be applied to the player.  Since there is no longer a blocker to apply damage to, all attacking damage is applied to the player you attacked.  Your creature would still be considered "blocked" for the purposes of other cards, but all damage would get through.
+

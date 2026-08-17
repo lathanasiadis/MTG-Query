@@ -1,0 +1,15 @@
+Q:
+
+How is Riddlemaster Sphinx's identifier greater than the number of cards in the set?
+
+I was indexing my Magic: The Gathering inventory recently and I found a card from M19 that's identifier is 287/280.
+
+As far as I know, the second number is the amount of cards in a set, and the first is the identifier of that specific card, but that begs the question, how can this card's identifier be greater than the number of cards in the set?
+I also noticed this for the M20 version of the same card, which has the identifier 317/280.
+Am I wrong about the meaning of the second number, or are the Core Sets an exception somehow?
+
+A:
+
+Card numbers up to and including 280 (in M19) are those which appear in booster packs. Card numbers above 280 are those which are part of the set, but you won't get from a booster pack - in the specific case of Riddlemaster Sphinx, this is because it was in the mono-blue starter deck.
+(As it so happens, this is the same for M20)
+

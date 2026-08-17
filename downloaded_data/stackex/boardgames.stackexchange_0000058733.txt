@@ -1,0 +1,26 @@
+Q:
+
+How are the replacement effects of lands such as Breeding Pool applied?
+
+I am not sure how many replacement effects the rules text of lands such as Breeding Pool apply, and what options are available for applying them.
+Suppose the active player controls an untapped Archelos, Lagoon Mystic and attempts to put a Breeding Pool into play.  Which of the following accurately describe the situation?
+
+Breeding Pool has one replacement effect, roughly stated, "Replace Breeding Pool entering the battlefield with either the player paying 2 life and Breeding Pool entering the battlefield, or Breeding Pool entering the battlefield tapped."  Thus there are a total of two replacement effects to be applied to this event.  The player chooses which replacement effect to apply first and which to apply second, and whenever they apply Breeding Pool's replacement effect, they also choose which of its two options to apply.
+
+Breeding Pool has two replacement effects, but only one is immediately available.  Breeding Pool's replacement effect to enter tapped is "unlocked" if and when the player applies its life-paying replacement effect and chooses not to pay.  Thus there are a total of two or three replacement effects to be applied to this event, depending on the choice made for Breeding Pool's life-payment replacement effect.  One legal option would be for the player to first apply Breeding Pool's life-paying replacement effect, choosing not to pay, then apply Archelos's replacement effect, and finally apply Breeding Pool's replacement effect to enter tapped.
+
+Breeding Pool has two replacement effects, both immediately available.  Breeding Pool's replacement effect to enter tapped, if it has not yet been applied, "disappears" if and when the player applies its life-payment replacement effect and chooses to pay.  It's life-payment replacement effect, if it has not yet been applied, "disappears" if and when the player applies its replacement effect to enter tapped.  Thus there are a total of two or three replacement effects to be applied to this event, depending on the choices made.  The legal options for the player here seem similar to those in #2, but I believe they may differ in more complicated situations involving multiple players' replacement effects.
+
+A:
+
+Breeding Pool has one replacement effect.
+Breeding Pool's ability says
+
+As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+
+The part that says "...you may pay 2 life. If you don't..." is a cost, as defined in rule 118.12:
+
+Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does, doesn’t, or can’t], [effect].” Or “[A player] may [do something]. If [that player] [does, doesn’t, or can’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does, doesn’t, or can’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+When you are applying Breeding Pool's replacement effect, you choose whether to pay the cost of 2 life. If you do, nothing happens, and if you don't, the land enters the battlefield tapped.
+

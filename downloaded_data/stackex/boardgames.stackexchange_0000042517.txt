@@ -1,0 +1,21 @@
+Q:
+
+Does token creation count as successfully casting a summon spell?
+
+My opponent wants to spam/create 500 goblin tokens while Soul Barrier is in play, does he take 1000 damage from Soul Barrier or do tokens when created not count as a creature summoning when generated.
+
+A:
+
+No, creating a token is not the same thing as casting a spell.
+First, be sure to always go off of the Oracle wording, which for older cards will often be different than what is printed on the card. Soul Barrier actually says:
+
+Whenever an opponent casts a creature spell, Soul Barrier deals 2 damage to that player unless they pay {2}.
+
+The idea of "summoning" a creature has no rules meaning in MTG; the only question is if he cast a creature spell or not.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+
+A creature spell is simply a spell with the creature type. 
+So if you cast Siege-Gang Commander, then you have cast a creature spell, and the triggered ability of Soul Barrier will trigger.
+When Siege-Gang Commander enters the battlefield, and its triggered ability creates 3 Goblin tokens, that has nothing to do with casting a spell. That is a triggered ability that creates tokens when it resolves; it will not trigger Soul Barrier's ability again.
+

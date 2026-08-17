@@ -1,0 +1,24 @@
+Q:
+
+What happens if I exile an HOU God from the graveyard?
+
+The Gods from Hour of Devestation (The Scorpion God, The Locust God and The Scarab God) have the following clause: "When [God Name] dies, return it to its owner's hand at the beginning of the next end step.
+If I were to kill a God, then exile it from its owners graveyard (for example using The Scarab God's activated ability), does it still return to its owners hand at the beginning of the end step? The card did die, which fufils the clauses requirement, but I'm not sure if it still happens when the creature is exiled.
+
+A:
+
+Those Gods have the following Gatherer ruling:
+
+If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+
+That means if you put one of those God cards into your library, or exile it, or return it to the battlefield or to your hand, the ability won't return it to your hand.
+This is because of the way objects are handled when they move between zones:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the battlefield”) can find the new object that it became in the zone it moved to when the ability triggered, if that zone is a public zone.
+
+Rule 400.7 means usually nothing can keep track of a card as it moves between zones. However, since this triggered ability is that exception, it's able to keep track of that God card as it moves into the graveyard, and it will be able to find it there at the end of the turn.
+However, if that God moves anywhere else, this ability can no longer find that God because the ability has lost track of where that God is. It can't find it anywhere in the graveyard, and the God card now in exile (as far as it cares) is something completely different to the card it's looking for.
+(If the God moves back your graveyard, such as via your opponent's Ulamog's Nullifier, it's once again a different object to the one the ability is looking for and it will still not be returned to your hand.)
+

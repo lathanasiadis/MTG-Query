@@ -1,0 +1,33 @@
+Q:
+
+What happens if a double-faced card that is copying a different double-faced card transforms?
+
+We are getting Metamorphic Alteration in M19. What if I enchant my Delver of Secrets, copying my opponents Nicol Bolas, the Ravager. Then I pay the cost on my Bolas (previously a Delver) to activate his transform ability.
+What will happen? I can think of 3 possibilities:
+
+My Delver is exiled and the aura goes to the graveyard.
+My Delver is transformed, aura goes to the graveyard, but the Delver transforms into Insectile Aberration
+My Delver is transformed, aura goes to the graveyard, and the Delver transforms into Nicol Bolas, the Arisen
+
+A:
+
+It is #2, you will end up with an Insectile Abberation.
+A few different rules at play here. First off, your Delver of Secrets is only copying The Ravenger side of Nicol Bolas, it doesn't have any relationship to The Arisen:
+
+706.8. When copying a double-faced permanent, a face-up meld card, or a melded permanent, only the copiable values of the face that’s currently up are copied. 
+
+When you exile your creature, the aura will not go with it, simply because the aura is a separate permanent. It will sit on the battlefield for a moment, but go straight to the graveyard next time state-based actions are checked:
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+And we know the object no longer exists because:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+(None of the exceptions apply).
+So what you have is an instruction to return your card to the battlefield, transformed. You can do this:
+
+701.27a To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced cards can transform.
+
+So you turn the object formerly known as Nicol Bolas, The Ravenger, over so that its other face is up, and return it to the battlefield.
+

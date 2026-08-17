@@ -1,0 +1,17 @@
+Q:
+
+If I rebound Seasons Past what happens?
+
+Narset Transcendent can give any sorcery or instant rebound.
+Seasons Past says "put on bottom of owners library".
+What happens if I rebound Seasons Past and then cast it?
+
+A:
+
+If you give Seasons Past rebound it will still be placed on the bottom of your library. It will not be exiled and thus can not be cast during your next upkeep. 
+The rule for rebound says (emphasis mine): 
+
+702.87a Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. “Rebound” means “If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.
+
+"Instead of" creates replacement effect that exiles the card in place of it going to the graveyard. Since Seasons Past is never put into the graveyard that event won't be replaced. 
+

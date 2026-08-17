@@ -1,0 +1,23 @@
+Q:
+
+What happens if Kokusho, the Evening Star dies under someone else's control?
+
+I cast Kokusho, the Evening Star. My opponent plays Hijack and gains control over Kokusho untill end of turn. In that turn Kokusho dies in combat. Question: who gains life and who loses life? 
+
+A:
+
+The player who controlled Kokusho as it died gains the life, and each of their opponents loses life.
+Whenever a permanent refers to "you", it means its current controller, and whenever a card refers to "opponents", it means its current controller's opponents. In other words, card text should be interpreted from the point of view of the controller. The specific rule that covers this is rule 109.5:
+
+The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). [...]
+
+Kokusho's triggered ability is controlled by the player who controlled Kokusho before it died because of some of the triggered ability rules:
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren’t limited to, “When [this object] leaves the battlefield, . . .” or “Whenever [something] is put into a graveyard from the battlefield, . . . .” (See also rule 603.10.) [...]
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+So, in summary Kokusho's ability is a "leaves-the-battlefield ability", because it triggers when Kokusho leaves the battlefield. So, it "looks back in time" when it triggers, which means that it triggers based on its appearance before it died. This includes its controller.
+

@@ -1,0 +1,25 @@
+Q:
+
+Can I stack Miracle and other "at the beginning of of your draw step" triggers however I want?
+
+I control Howling Mine. At the beginning of my draw step, I draw Temporal Mastery. Can I stack the Miracle trigger and then the Howling Mine trigger, such that I draw my second card before the Miracle trigger resolves?
+
+A:
+
+You can order the triggers as you like.
+
+Draw Step
+
+504.1. First, the active player draws a card. This turn-based action doesn’t use the stack.
+504.2. Second, any abilities that trigger at the beginning of the draw step and any other abilities that have triggered go on the stack.
+
+702.93. Miracle
+702.93a Miracle is a static ability linked to a triggered ability (see rule 603.10). “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”
+
+You first draw the normal card. If you want to play it for its Miracle cost, you reveal it.
+Then  Howling Mine and Miracle goes on the stack at the same time. Since you control both triggers, you can arrange them as you like.
+Then you get priority and afterwards the stack starts resolving.
+Note that if another player controlled the Howling Mine, you would have to place them on the stack in turn order, starting with you.
+
+405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.
+

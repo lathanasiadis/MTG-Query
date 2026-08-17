@@ -1,0 +1,13 @@
+Q:
+
+What is a creature's power when it has some equipment equipped?
+
+I would like to use Rite of Consumption by sacrificing a creature that is using equipment (e.g. that has a +1/+2 bonus). Is the creature's power then increased by the equipment effect, and thus available for the Rite of Consumption?
+
+A:
+
+Yes - spells like Rite of Consumption check the last known information on the most recent public zone (in this case, the battlefield, where the equipment will be attached when that power is checked).
+From the comprehensive rules:
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself or a target that's become illegal, the effect uses the current information of that object if it's in the public zone it was expected to be in; if it's no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object's last known information. See rule 112.7a. If an ability states that an object does something, it's the object as it exists -- or as it most recently existed -- that does it, not the ability.
+

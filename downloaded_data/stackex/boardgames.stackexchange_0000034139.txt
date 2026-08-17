@@ -1,0 +1,15 @@
+Q:
+
+If Dragonlord Silumgar dies during combat, when does the creature he stole change control?
+
+I play Dragonlord Silumgar and take control of the only creature my opponent has.
+On my next turn I swing with Silumgar and the other player's creature I took control of. That player casts Divine Verdict targeting Dragonlord Silumgar and destroys him.
+Now, does the creature I took control of return to the other player before combat damage has been dealt, or at the end step?
+
+A:
+
+The control over the creature changes immediately.
+As the ability text on Dragonlord Silumgar states, the change of control effect ends as soon as you lose control of Silumgar, which also happens when Silumgar gets destroyed. A creature that changes control is removed from combat, which means, among others, that it will deal no more combat damage during that combat phase.
+
+506.4. A permanent is removed from combat if it leaves the battlefield, if its controller changes, [..] A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. [..]
+

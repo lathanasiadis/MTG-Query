@@ -1,0 +1,21 @@
+Q:
+
+Identical creatures entering the battlefield
+
+If I have two cards called Sin Collector in hand and I play my first, Sin Collector (A). I use its triggered ability.
+"When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card."
+Now, I play Sin Collector (B), I use B's triggered ability.
+But now my question. Does Sin Collector (A)'s ability trigger again as well? 'Sin Collector' entered the battlefield again, right?
+
+A:
+
+Nope, nothing weird like that happens. When a card's rules text uses that card's name, it's referring to just that specific object, not anything else that happens to have the same name. Think of it as shorthand for "this particular Sin Collector", if you like. Here's the relevant comp rule:
+
+201.4. Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+If a card is really referring to other cards with that name, it will use a phrase like "a card named X" or "all cards named X". This isn't necessary too often, but for example, Avarax says:
+
+When Avarax enters the battlefield, you may search your library for a card named Avarax, reveal it, and put it into your hand. If you do, shuffle your library.
+
+The first "Avarax" there is the card referring to itself; "card named Avarax" is of course another one.
+

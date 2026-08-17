@@ -1,0 +1,31 @@
+Q:
+
+Can I respond to my infinite loop by casting a creature spell?
+
+Can I respond to my own triggered infinite loop with Sporemound and Life and Limb by casting Acidic Slime to destroy Life and Limb or by paying to activate Gobbling Ooze ability to destroy Sporemound?
+
+A:
+
+You may cast an instant spell to end the loop as you describe.
+You may activate an ability to end the loop as you describe.
+But you may not cast a creature spell (unless it has Flash).
+
+The following is the loop in detail:
+
+[You play a Forest or something]
+
+Sporemound's ability triggers.
+
+You place Sporemound's ability on the stack.
+Player's get priority.
+Sporemound's ability resolves.
+
+You create a 1/1 green Saproling creature token that enters as a 1/1 green Forest Saproling land creature token.
+
+Sporemound's ability triggers.
+
+Goto 2.
+
+In step 3, you get to cast a spell or activate an ability in response to Sporemound's triggered ability. These will resolve before step 4 (because the last thing added to the stack resolves first). Step 4 will still happen (since the ability was added to the stack in step 2), but step 5 won't happen if Sporemound's ability doesn't trigger (e.g. because it's not there, or because the created Saproling didn't enter as a land), thus breaking the loop.
+Note that the stack isn't empty in step 3, so the only spells you can cast are instant spells and spells with Flash, so casting Acidic Slime is out. Activated abilities of creatures are fine, though, so activating Gobbling Ooze is possible.
+

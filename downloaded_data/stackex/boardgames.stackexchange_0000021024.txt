@@ -1,0 +1,35 @@
+Q:
+
+Are (un)tapped permanents still legal targets for "(un)tap target permanent" effects?
+
+So I noticed that many cards with tap-effects ship with a clause specifying that they can only be used on untapped permanents, such as Earthcraft and Crackleburr.
+So here's my question:
+Doesn't that imply that, given the right situation, one can legally tap an already tapped permanent?
+I'll give an example of the kinda scenarios this is relevant for: Can Tamiyo, the Moon Sage activate her first ability when no untapped cards are around? Or, thinking untap-effects, could I bounce a forest with Scryb Ranger even when there isn't a tapped creature available?
+Notice that, unlike the previous batch of examples, the wording on these lacks the clause restricting their use to un/tapped permanents - does that mean that they aren't?
+Any kind of clarification would be greatly appreciated here.
+
+A:
+
+If it's a permanent, it's a valid target for "target permanent". Period[1].
+
+You cannot untap a permanent that's not tapped.
+
+701.17b To untap a permanent, rotate it back to the upright position from a sideways position. Only tapped permanents can be untapped.
+
+This has consequences[2], but not for Tamiyo.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+The confusion stems from the fact that players intuitively know they cannot choose to do something impossible. This is indeed a rule.
+
+608.2d [...] The player can’t choose an option that’s illegal or impossible, with the exception that having a library with no cards in it doesn’t make drawing a card an impossible action [...]
+
+However, while you are forbidden from choosing to do something impossible, there's nothing impossible about activating Tamiyo's ability. It's of no consequence that the ability involves actions that cannot be performed if the ability were to resolve immediately after being activated.
+
+As usual, cards can override the rules. For example, abilities such as Shroud, Hexproof and Protection can prevent a permanent from being targeted.
+You are required to pay a cost completely[CR 117.3], so a cost that requires you to untap something that isn't tapped can't be payed.
+For example, the untap symbol means "Untap this permanent". Because you can't untap a permanent that isn't tapped, you can't pay the cost of Puresight Merrow's ability when Puresight Merrow isn't tapped.
+For example, If you want to untap a tapped permanent so it can attack, and you use an instant that reads "Tap or untap target permanent.", and someone untaps it in response, you would be force to tap it when your ability resolves (because you can't chose to do something impossible.) That's why that type of ability is phrased "You may tap or untap target permanent."
+For example, If you have an ability whose effect reads "You may untap an opponent's land. If you do, do X.", you can't do X if the opponent has no tapped lands.
+

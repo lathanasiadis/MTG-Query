@@ -1,0 +1,21 @@
+Q:
+
+Stacking combat triggers with Raffine, Scheming Seer
+
+I have 3 opponents and attack one of them with Raffine, Scheming Seer and a Grizzly Bears equipped with Blade of Selves.
+If I stack the triggered abilities such that Blade of Selves' resolves before Raffine's does, do I have a creature connive for 2 or for 4?
+Another way to phrase this question is, is X determined for this kind of triggered ability when the ability is triggered, or when it resolves? If it is determined at the time of triggering, I would have a creature Connive for 2, but if its determined on resolution, I would have a creature Connive for 4 (because I have 3 attacking Grizzly Bears instead of 1).
+
+A:
+
+You can have a creature connive for 4.
+Raffine's ability has this text:
+
+Whenever you attack, target attacking creature connives X, where X is the number of attacking creatures
+
+This is handled by rule 107.3c, which says
+
+If a spell or activated ability has an {X}, [-X], or X in its cost and/or its text, and the value of X is defined by the text of that spell or ability, then that’s the value of X while that spell or ability is on the stack. The controller of that spell or ability doesn’t get to choose the value. Note that the value of X may change while that spell or ability is on the stack.
+
+So, the value of X will update while the ability is on the stack, which means that if you stack it as specified, it will have the value 4 as the ability resolves.
+

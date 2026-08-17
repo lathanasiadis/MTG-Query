@@ -1,0 +1,35 @@
+Q:
+
+MTG. Using goblin chirurgeon's ability only for sacrifice
+
+I had a Goblin Sharpshooter, sixty-some goblin tokens, and a Goblin Chirurgeon on the field (all with haste). My opponent had an enchantment that kept me from directly attacking him (2 life or {W} for each attacker), so I wanted to use my Chirurgeon's ability ("Sacrifice a Goblin: Regenerate target creature") to kill a creature which will untap my Sharpshooter. Do I NEED a regenerate target to sacrifice a goblin?
+
+A:
+
+Yes, you must choose a valid target when activating a targeting ability. The ability says "target creature", so you must target a creature. Any creature will do[1]. Fortunately, you have plenty of valid targets (i.e. creatures), including your Goblin Sharpshooter and Goblin Chirurgeon (or even the token you are sacrificing, although that won't save it).
+The following describes what happens in detail:
+
+Activate Goblin Sharpshooter activated ability targeting your opponent.
+Goblin Sharpshooter activated ability resolves
+
+Goblin Sharpshooter deals one damage to your opponent.
+
+Activate Goblin Chirurgeon's ability targeting Goblin Sharpshooter, sacrificing a token.
+
+Goblin Sharpshooter's triggered ability triggers.
+
+Goblin Sharpshooter's triggered ability is placed on the stack.
+Goblin Sharpshooter's triggered ability resolves.
+
+Untap Goblin Sharpshooter.
+
+Goblin Chirurgeon's ability resolves.
+
+Goblin Sharpshooter gains a regeneration shield.
+
+Repeat.
+
+Regenerating a creature grants it a shield that replaces its destruction the next time it would be destroyed that turn, if any. There's no requirement that you think it will be needed.
+
+Unless an ability prevents it (e.g. "Protection from Red").
+

@@ -1,0 +1,21 @@
+Q:
+
+Can you enchant yourself with an aura that enchants a permanent?
+
+I'm relatively new to MTG so maybe I'm way off, but I can't find any conclusive answers nor official rulings on the following:
+If one can enchant a permanent,
+and a planeswalker is considered a permanent,
+and the player is considered a planeswalker...
+Can you enchant yourself? It sounds ridiculously overpowered (you could do such insane things as turn yourself into an indestructible artifact) but I can't find any real reason you wouldn't be able to
+
+A:
+
+The player is a "planeswalker" only in lore terms. As far as game mechanics are concerned, "planeswalker" has a defined meaning, and a player is not a planeswalker.
+A planeswalker in the mechanical sense is a type of object, a game entity that interacts with players and other objects:
+
+102.1. A player is one of the people in the game. [..]
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+110.4. There are five permanent types: artifact, creature, enchantment, land, and planeswalker.
+
+So when an aura can enchant a (type of) permanent, then that does not include players, and vice versa. There are auras that can enchant players, but the aura will always say so specifically. Here are all auras that can enchant players, and here are all auras that can enchant planeswalkers.
+

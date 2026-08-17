@@ -1,0 +1,22 @@
+Q:
+
+Do people commonly play collectible card games without shuffling?
+
+I was watching the Garfield lecture on luck last night, and he mentioned that Magic eventually adopted a discard rule for the first hand drawn if it was a "dud", so that defeat is not so dependent on luck of the draw.
+By contrast, in my Jyhad playing days, during which I amassed quite a collection of cards, I tested a no-shuffle rule, where competitors, having access to the same library of cards, could arrange their decks in any desired sequence. This actually resulted in satisfying gameplay, in that hidden information and complexity still resulted in a state where outcomes were indeterminate. 
+My question is:
+
+Are there any formal variants of collectible card games that allow deck arrangement as opposed to shuffling?
+
+A:
+
+There are variants of Magic that remove deck shuffling and other sources of non-determinism, but they also make other major modifications that make the game very different from normal Magic.
+One example is 3-Card Blind, in which any number of players each submit a deck containing 3 cards. Gameplay is as normal, except that attempting to draw from an empty library does not result in a loss, and players have an unlimited number of basic lands outside the game that they can play. The players do not play out games, instead each pairwise matchup is analyzed to determine which player would win on the play and on the draw with perfect play.
+
+If you look at regular Magic, with decks and otherwise normal gameplay, removing shuffling would have cascading effects on the rest of the game.
+Combo decks become a lot more powerful when the card order is determined in advance. A land combo deck will do a lot better if they can guarantee that their opening hand contains Dark Depths, Thespian's Stage, and Urborg, Tomb of Yawgmoth. A Goblin Charbelcher deck will be a lot more consistent if the opening hand always contains a land, 3 fast mana sources, Goblin Charbelcher, and Lion's Eye Diamond. A Death's Shadow player would (probably) like nothing more than to have 4 Street Wraiths in their top 10 cards.
+Starting with a shuffled deck also generally requires that the distribution of cards in the deck matches the distribution of cards in a good opening hand, but this is not so with stacked decks. Some cards are balanced around this fact. Mind Funeral, for example, becomes a lot more powerful in a format where players will generally play fewer lands, and keep them near the top of their libraries. Trench Gorger is a lot better when you can have 40 lands and put them all of the bottom of the library without mana flooding every game.
+Search effects are balanced around the fact that you shuffle afterwards. It would change the effect to be able to choose which card to remove from the sequence without modifying anticipated future draws. Scry effects in decks with search effects would becomes stronger, while cards like Brainstorm become weaker.
+If you want to avoid all of these kinds of problems, you would have to remove every card that searches the library (e.g. Diabolic Tutor), or requires shuffling (e.g. Green Sun's Zenith or Ulamog, the Infinite Gyre), or cares about libraries being shuffled (e.g. Psychic Surgery) or is balanced around library order being unknown (e.g. anything with Cascade), or is balanced around card distribution being within a certain range (e.g. Mind Funeral), and probably others that I haven't thought of. And you would also want to remove any one- or two-turn combos, to avoid moving from the randomness of shuffled libraries to the randomness of the coin flip that determines who plays first. Removing that much of the card pool would have an unpredictable effect on how the remaining cards are balanced against each other.
+And there are further balance issues on the rules side that would need to be considered. Does it still make sense to have 20 life, and a minimum of 60 cards in the library, and 7 cards in the opening hand? Should deck size still have just a minimum, and not a maximum? Is the second player's extra draw still necessary to balance the first turn advantage? Is it sufficient?
+

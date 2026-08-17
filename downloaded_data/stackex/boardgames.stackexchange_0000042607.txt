@@ -1,0 +1,23 @@
+Q:
+
+Can you sacrifice a creature to pay the cost of its ability?
+
+Whisper, Blood Liturgist has the ability to sacrifice 2 creatures, and then return something from the graveyard. Since abilities stay on the stack even if the permanent is removed, can you sacrifice this card and another to activate the ability?
+
+A:
+
+Yes.
+The only implicit limit to Sacrifice is that the object being sacrificed must be permanent you control.
+Since you control the Whisper, Blood Liturgist with the ability you are activating, and since it's a creature, it can be sacrificed. A ruling confirms this:
+
+Whisper can be one of the creatures sacrificed to activate its ability.
+
+The ability will continue to exist on the stack after Whisper's demise, and will go on to resolve. If anything needs information about the source of the ability (e.g. if the target of the ability gains Protection), last known information will be used.
+
+Note that the creature you sacrifice will be sacrificed as part of paying the cost. This happens after the target is chosen, so they won't be in the graveyard when the target is chosen. Therefore, they can't be selected as the target.
+
+Neither sacrificed creature can be the target of Whisper’s ability.
+
+701.16a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent they don’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+

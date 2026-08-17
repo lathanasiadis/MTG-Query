@@ -1,0 +1,18 @@
+Q:
+
+Meaning of and/or in Magic The Gathering
+
+Mass Manipulation says:
+
+Gain control of X target creatures and/or planeswalkers.
+
+If I choose X = 1, can I target one creature and one planeswalker (having two targets in total)?
+Or does it mean that I have to choose X targets in total?
+This feels weird to me because if it's the latter case, why not simply write "or"? It would be less confusing to me.
+
+A:
+
+"Target creatures and/or planeswalkers" means that each of the X targets has to be a creature, a planeswalker, or both. It has no bearing on the number of targets.
+If Mass Manipulation allowed you to target X creatures as well as X planeswalkers, it would mention "X" again. It would read something like "Gain control of X target creatures and X target planeswalkers".
+If the text said "or" only, it could be misunderstood in that all of the targets have to be the same type, i.e. only creatures or only planeswalkers, which would be incorrect.
+

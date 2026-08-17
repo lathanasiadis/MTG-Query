@@ -1,0 +1,38 @@
+Q:
+
+If a protection effect "doesn't remove Auras", can auras that are not cast be placed on the permanent?
+
+The card Spectra Ward has this ability:
+
+Enchanted creature gets +2/+2 and has protection from all colors. This effect doesn't remove Auras.
+
+The rulings on the card say that you can't cast more Auras targeting the creature:
+
+Although Auras that are already attached to the creature aren’t affected by Spectra Ward, the enchanted creature can’t be the target of further Aura spells that have one or more colors.
+
+But what happens if an Aura enters the battlefield some other way (from the effect of Enduring Ideal, for example)? Can that Aura be attached to a creature with Spectra Ward already attached?
+
+A:
+
+Yes, the Aura can still be attached, as long as the ability doing the attaching doesn't target or is from a colorless source.
+
+Protection from a quality normally gives protection from DEBT.
+
+Damaged: Can't be damaged by a source with the stated quality.
+Enchanted/Equiped/Fortified: Can't be Enchanted, Equipped or Fortified by an permanent with the stated quality.
+Blocked: Can't be blocked by a creature with the stated quality.
+Targeted: Can't be targeted by a spell with the stated quality or by an ability from a source with the stated quality.
+
+Spectra Ward's ability provides a neutered form of Protection. Auras are not prevented from Enchanting the protected permanent by the Protection provided by Spectra Ward.
+
+702.16m Some Auras both give the enchanted creature protection and say “this effect doesn’t remove” either that specific Aura or all Auras. This means that the specified Auras can legally enchant that creature and aren’t put into their owners’ graveyards as a state-based action. If the creature has other instances of protection from the same quality, those instances affect Auras as normal.
+
+This means:
+
+You can't cast a colored Aura targeting the permanent protected by Spectra Ward. (It's protected from being targeted.)
+Colored Auras already attached to the permanent won't fall off. (It's not protected from being enchanted.)
+You can attach a colored Aura the permanent protected by Spectra Ward.
+For example, Enduring Ideal isn't hindered by Spectra Ward. (The permanent to which the Aura is being attached isn't protected from being enchanted, and the ability doesn't target.)
+For example, Bruna, Light of Alabaster's ability will still work even if it's protected by Spectra Ward. (It's not protected from being enchanted, and the ability doesn't target.)
+However, Aura Finesse would not be able to attach an Aura to a creature protected by Spectra Ward because the creature is protected from being targeted by Aura Finesse.
+

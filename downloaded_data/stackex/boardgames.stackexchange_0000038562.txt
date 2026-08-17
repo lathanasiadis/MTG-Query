@@ -1,0 +1,27 @@
+Q:
+
+Mirrorweave on Double Faced Cards
+
+I understand a good number of rules, but there is still one that I can't find the answer to:
+Let's say I have a Civilized Scholar and Ulrich, Uncontested Alpha in play.
+I activate Mirrorweave or Cytoshape and target the Civilized Scholar. Ulrich, Uncontested Alpha become a copy of Civilized Scholar.
+I understand the example in rule 711.5.
+
+Rule 711.5
+Only permanents represented by double-faced cards can transform. (See rule 701.26, “Transform.”) If a spell or ability instructs a player to transform any permanent that isn’t represented by a double-faced card, nothing happens.
+Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.
+
+This means that Ulrich will be a copy of the Scholar even after he flips. And another rule does allow me to use Ulrich as Civilized Scholar to discard a creature and flip him. But does Ulrich get his transform triggers? Or are these triggers missed because Ulrich's name is still Civilized Scholar?
+I'm trying to break the game here. =P
+I want to tap Ulrich as Scholar, discard a creature, untap, flip, trigger fight, tap, discard a creature, untap, flip, trigger buff, and repeat. This should result in Ulrich eating every creature in play, growing bigger and bigger, to prepare for a lethal swing. All in one turn.
+
+A:
+
+Ulrich will be a copy of Civilized Scholar, so you can use Civilized Scholar's ability to transform it, repeatedly if you have some way to untap it. But the triggered abilities will not trigger.
+First, in the rules section about Copying objects, rule 706.2 says
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics [...]. The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics).
+
+So, once the Mirrorweave targeting Civilized Scholar resolves, Ulrich becomes a copy of Civilize Scholar, which means that it has the name, mana cost, rules text, etc. of Civilized Scholar. Importantly, it no longer has Ulrich's values for those characteristics, and in particular it no longer has Ulrich's abilities.
+Then, once you activate and resolve the ability, the card will physically transform and untap, but it will still be a copy of Civilized Scholar. This means that it still doesn't have Ulrich's abilities, so those abilities won't trigger.
+

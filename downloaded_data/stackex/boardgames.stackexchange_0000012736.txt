@@ -1,0 +1,29 @@
+Q:
+
+Does Goblin Test Pilot hit a Planeswalker?
+
+To my understanding, after it hits the player, the person in control of the Goblin gets to decide whether it hits the player or planeswalker, but I could be way off. How would it work?
+
+A:
+
+Whenever you do damage to a player outside of combat, you can decide to redirect that to one of that player's planeswalkers instead. This is explained better than I can by Wizard's cust-help:
+
+If a source you control would deal noncombat damage to an opponent,
+  you may have that source deal that damage to a planeswalker that
+  opponent controls instead. This is a redirection effect: you choose
+  whether to redirect the damage as the redirection effect is applied,
+  and it's subject to the normal rules for ordering replacement effects.
+  The player affected by the damage chooses the order in which to apply
+  such effects, but the controller of the source of the damage chooses
+  whether the damage is redirected. Note that this redirection can't be
+  applied to combat damage.
+
+For example, although you can't target a planeswalker with Shock, you can target your opponent with Shock, and then as Shock resolves,
+  choose to have Shock deal its 2 damage to one of your opponent's
+  planeswalkers. If you do, two loyalty counters are removed from that
+  planeswalker.
+You can't choose to split the damage between a player and a planeswalker. In the Shock example above, you couldn't have Shock deal
+  1 damage to the player and 1 damage to the planeswalker.
+If a source you control would deal damage to you, you can't have that source deal that damage to one of your planeswalkers instead.
+In a Two-Headed Giant game, damage that would be dealt to a player can't be redirected to a planeswalker his or her teammate controls.
+

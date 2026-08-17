@@ -1,0 +1,24 @@
+Q:
+
+Does transforming a card trigger an enters the battlefield effect?
+
+When a card transforms to its back face, does it trigger an enter the battlefield ability?
+In most cases (maybe all), when a card is flipped, it's exiled and returned to the battlefield so it triggers. But what would be triggered if card is just flipped?
+For example, when Chandra, Fire of Kaladesh is flipped to Chandra, Roaring Flame, does it trigger Oath of Chandra second ability?
+
+A:
+
+Transforming a card doesn't cause enter the battlefield effects to trigger.
+Transforming a card is explained in the comprehensive rules under rule 701.26. More specifically:
+
+701.26a To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced cards can transform. (See rule 711, “Double-Faced Cards.”)
+
+When transforming a double faced card (Rule 711) it never leaves the battlefield in the first place.
+
+The exception to this standard way of transforming are the 5 Planeswalkers from magic Orgins. In order to function properly they have additional rules text on each card that modifies how they transform, for instance Chandra has (emphasis mine):
+
+If Chandra has dealt 3 or more damage this turn, exile her, then return her to the battlefield transformed under her owner's control.
+
+The Magic Origins Planeswalkers need to leave and Enter the Battlefield in order to get their Loyalty counters, as all Planeswlakers are treated as if they have "This permanent enters the battlefield with a number of loyalty counters on it equal to its printed loyalty number." in their rules text (306.5b). If they transformed normally they would never receive their loyalty counters and would then die.
+In your specific example since Chandra the Roaring Flame is being exiled and then returning to the Battlefield transformed, Oath of Chandra's ability will trigger.
+

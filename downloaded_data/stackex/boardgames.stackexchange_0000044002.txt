@@ -1,0 +1,18 @@
+Q:
+
+Does Underrealm Lich's replacement effect activate Gaea's Blessing's triggered effect?
+
+While considering an off brand Golgari deck, I'm looking closely at Underrealm Lich and Gaea's Blessing.
+Underrealm Lich's first ability is a replacement affect that turns your draws into a very Sultai/Golgari themed choose a card and fill the graveyard effect.
+If Gaea's Blessing is among the three cards that Underrealm Lich lets me look at, and I don't choose it, will the activated effect of Gaea's Blessing trigger?
+
+A:
+
+Yes, Gaea's Blessing will trigger
+
+701.15b Revealing a card doesn’t cause it to leave the zone it’s in.
+...
+701.15d Some effects instruct a player to look at one or more cards. Looking at a card follows the same rules as revealing a card, except that the card is shown only to the specified player.
+
+Revealed cards are considered to be in the zone they were revealed from.  Therefore, when Underrealm Lich's ability causes you to look at cards and then put them in the graveyard, they have moved from the library to the graveyard, triggering Gaea's Blessing.
+

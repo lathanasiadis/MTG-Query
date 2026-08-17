@@ -1,0 +1,14 @@
+Q:
+
+Tidehollow Sculler and Ruin Processor
+
+If I play Tidehollow Sculler and remove a card from the game then I play a Ruin Processor to put that card to the graveyard, would my opponent return the card from graveyard to hand when Tidehollow Sculler dies?
+
+A:
+
+No, it would not return to your opponent's hand that way.
+The reason for that is that the previously exiled card is no longer in exile. It explicitly says that it moves the card from exile to opponent's hand, but the card is no longer in exile by that time, so it's trying to do something impossible.
+Also, the object represented by that card stops existing when it changes zones, and a new object is created, represented by the same card. There are some exceptions that allow objects to be tracked across zones, but none of them apply here.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+

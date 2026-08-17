@@ -1,0 +1,24 @@
+Q:
+
+Is an artifact paid ability considered a spell?
+
+I happen to be one lucky man who managed to get Erebos, God of the Dead, Demon's Horn, and Staff of the Death Magus. All three were in play, but Erebus was not a creature yet as I didn't have enough devotion. His ability though, (pay one black and one colorless mana and pay 2 life: draw a card) doe's it count as a spell when I activate it, and therefore gain back the 2 life I lost from Demon's Horn and Staff of the Death Magus?
+EDIT:
+Looking at the MTG Rulebook says (some) abilities go on the stack (as spells do)
+
+A:
+
+No, it is neither a spell nor black. Neither Demon's Horn's ability nor Staff of the Death Magus's ability will trigger when you activate Erebos's activated ability.
+
+Spells are cards on the stack (and copies thereof). While activated abilities  are very similar to spells, they are not spells.
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) A spell remains on the stack as a spell until it resolves (see rule 608, “Resolving Spells and Abilities”), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, “Spells, Abilities, and Effects.”
+111.1a A copy of a spell is also a spell, even if it has no card associated with it. See rule 706.10.
+111.1b Some effects allow a player to cast a copy of a card; if the player does, that copy is a spell as well. See rule 706.12.
+
+Furthermore, while Erobos is black, the ability on the stack has no color.
+
+602.2. [...] Activating an ability follows the steps listed below, in order. [...]
+602.2a The player announces that he or she is activating the ability. [...] That ability is created on the stack as an object that’s not a card. [...] It has the text of the ability that created it, and no other characteristics. [...]
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. [...]
+

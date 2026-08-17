@@ -1,0 +1,15 @@
+Q:
+
+If I block a creature with afflict and my blocker kills that creature, will I still take afflict damage?
+
+My opponent controls Neheb, the Eternal (a 6/5 creature with afflict 3), and attacks me with it. If I block Neheb with a creature that will kill it, will I still take damage from afflict?
+
+A:
+
+Yes, you still lose life from Afflict
+You even do so long before your opponent's creature dies - Afflict is a triggered ability that triggers when a player declares a blocker for that creature. What happens to that creature afterwards is irrelevant to this ability. Also note that it's not damage, but loss of life.
+
+702.129a Afflict is a triggered ability. “Afflict N” means “Whenever this creature becomes blocked, defending player loses N life.”
+
+So, in your Declare Blockers step, Afflict triggers, eventually resolves, and causes you to lose 3 life. Following that step is the Combat Damage Step, in which your creature will deal lethal damage to your opponent's creature.
+

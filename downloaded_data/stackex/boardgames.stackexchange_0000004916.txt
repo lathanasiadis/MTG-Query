@@ -1,0 +1,27 @@
+Q:
+
+Timings of Mana Costs vs Mana Payments
+
+If I have 7 lands and a Wild Cantor (or another creature that sacrifices to produce mana, e.g. an Eldrazi Spawn token) in play, and there are no other creatures on the battlefield, can I cast Blasphemous Act?
+I seem to have hazy memories that a Wild Cantor didn't interact particularly well with cards with Convoke, so I was wondering if it was a similar story here...
+
+A:
+
+From my interpretation, it should work.
+
+601 Casting Spells
+601.2e The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can't be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes "locked in." If effects would change the total cost after this time, they have no effect.
+601.2f If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, "Mana Abilities"). Mana abilities must be activated before costs are paid.
+Example: You cast Altar's Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell's total cost is "locked in" before payments are actually made, you pay {B}, not {1}{B}, even though you're sacrificing the Familiar.
+
+So first you determine and lock the mana cost, then you can activate mana abilities, then you have to pay the mana cost.
+As for the definition of a Mana Ability:
+
+Mana Abilities
+
+605.1a An activated ability is a mana ability if it meets three criteria: it doesn't have a target, it could put mana into a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
+
+The cantor meets all 3 criteria, so its ability is a mana ability. Therefore, you should gain both the cost reduction and the mana through saccing.
+As for why a cantor should not play nicely with Convoke, I don't know - do you have an authoritative source that it really doesn't work? "Tapping a creature" is an optional, additional cost by Convoke, and after tapping for convoke you should still be able to sac the Cantor with its mana ability.
+Here is an explanation why the cantor can only reduce convoke spells by 1. However, that does not affect my answer to your actual question. The subtle difference between the two is that Blasphemous Act has a cost reduction, which is locked after you determined it. Convoke, OTOH, offers an alternative way of paying the mana costs and requires you to tap creatures to pay for its cost. You can announce to tap the cantor, but once you sacced it for mana, you can of course no longer do so, and the game rewinds to before you announced Blasphemous Act.
+

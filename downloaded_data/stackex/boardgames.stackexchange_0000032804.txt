@@ -1,0 +1,16 @@
+Q:
+
+Enchantments vs Instants in Combat Phase
+
+Say I had a Raid Bombardment. And I swung with a 1/1 creature, say Goblin Bushwhacker. 
+Say I wait for the defender to declare blockers, and then use a pump spell, say Brute Force? Would Raid Bombardment still trigger? Or would Goblin Bushwhacker no longer fulfil the requirement for a less than 2 creature?
+
+A:
+
+As long as your creature had a power 2 or less when it attacked it doesn't matter what happens to it after that.
+From the Gatherer Rulings for Raid Bombardment:
+
+The power of the attacking creature is checked only when the ability triggers. Once it triggers, Raid Bombardment will deal 1 damage to the defending player even if the creature’s power changes before the ability resolves.
+
+Also, Raid Bombardment triggers during the Declare Attackers step, and will resolve before your opponent gets a chance to declare blockers.
+

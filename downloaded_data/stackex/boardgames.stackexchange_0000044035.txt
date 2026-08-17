@@ -1,0 +1,10 @@
+Q:
+
+Can an ability that returns a creature to hand save it from an ability that would exile it?
+
+So I was playing a friend and he had a Lantern Spirit on the field. I used a card ability to exile it, but he said he could pay that one blue mana to put it back in his hand. I'm pretty sure that's not legal, but I couldn't prove it wasn't, so I let him (it was OK in the end I completely crushed him). Does anyone know where the rules regarding this kind of thing are?
+
+A:
+
+When you put the exile ability of your card (call it E) on the stack, your opponent gets priority and will be able to react by playing e.g. an instant or in this case, any card abiltity which can be played as an instant. Lantern Spirit's ability is such an ability; it will be put on the stack as well, and unless you react on it (e.g. with another instant), it will resolve before E. This is a bit counterintuitive (unless you're a programmer and heard about stacks before) - why should an ability/spell which is cast later resolve earlier? – but this is how Magic works. Lantern Spirit will return to its owner's hand and E will (if Lantern Spirit is its only target) 'fizzle', i.e. have no effect, because its target has already changed zones. It won't exile the card from its owner's hand.
+

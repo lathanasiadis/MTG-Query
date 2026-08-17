@@ -1,0 +1,20 @@
+Q:
+
+Surveil and Blood Operative
+
+If you surveil a Blood Operative into your graveyard can you immediately use its triggered ability to return it to your hand?
+
+Whenever you surveil, if Blood Operative is in your graveyard, you may pay 3 life. If you do, return Blood Operative to your hand.
+
+I heard that it would "see" the surveil and trigger even though it wasn't in the graveyard until the actual resolution of surveil but I'd like to confirm that and understand what the relevant rule is.
+
+A:
+
+Yes, Blood Operative's ability will trigger if you put it into your graveyard as the result of a surveil action. The L3 judge who runs the Ask a Magic Judge tumblr blog explains it better than I can:
+
+Triggered abilities that look for a specific action to happen trigger after that thing has happened. (They can’t trigger before since it hasn’t happened yet.) Normally, the thing that’s happening is relatively instantaneous, such as entering the battlefield or dying, but this also holds true for events that take more time, such as scrying or surveiling. This means that triggers like Blood Operative’s that trigger when you surveil won’t trigger until the surveil action is complete, but more importantly the game won’t check to see which cards that have relevant triggers will trigger until after the event as well.
+
+The specific rule they are referring to is 603.10:
+
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule... [none of those exceptions apply]
+

@@ -1,0 +1,27 @@
+Q:
+
+Teferi, Time Raveler vs Creaturelands
+
+Let's say I have a Teferi, Time Raveler in play.
+
+My opponent animates an Inkmoth Nexus and attacks me.
+I cast Suspend on the Inkmoth Nexus, exiling it with 2 time counters.
+2 turns later I still have Teferi, Time Raveler in play when the last time counter is removed from Inkmoth Nexus.
+
+My opponent cannot cast Inkmoth Nexus, but can it be played through the Teferi and if yes does it have haste?
+
+A:
+
+Lands are not spells, so Teferi has no effect on them. This is spelled out (no pun intended) in rule 305.1:
+
+Playing a land is a special action; it doesn’t use the stack (see rule 116). Rather, the player simply puts the land onto the battlefield. Since the land doesn’t go on the stack, it is never a spell,
+
+Per rule 702.61a (Suspend), you can suspend lands and play them (emphasis mine):
+
+When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled.
+
+Note that if suspend instructed you to cast the card, it wouldn't work on lands, because you can't cast lands. But it instructs you to play the card, which you can do. This is subject to the usual 1/turn limit for lands, and can only be done on your turn.
+Because Inkmoth Nexus is played as a land, not cast as a creature, it does not gain haste from suspend. Continuing rule 702.61a (emphasis mine):
+
+If you cast a creature spell this way [using suspend], it gains haste
+

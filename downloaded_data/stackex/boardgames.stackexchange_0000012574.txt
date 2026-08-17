@@ -1,0 +1,66 @@
+Q:
+
+When do copied abilities on a creature go away?
+
+If I have a Phantasmal Image that enters the battlefield copying the abilities of another creature, when does that creature stop having the abilities of the copy?
+When it enters the graveyard, do "when this creature enters the graveyard" effects occur?
+If I copy a creature with scavenge, can I scavenge my Phantasmal Image after it has died?
+
+A:
+
+It will keep its abilities as long as it doesn't leave the battlefield. When it leaves the battlefiel, it is considered a new object:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+There are seven exceptions to this rule:
+400.7a Effects from spells, activated abilities, and triggered abilities that change the characteristics of a permanent spell on the
+stack continue to apply to the permanent that spell becomes.
+400.7b Prevention effects that apply to damage from a permanent spell on the stack continue to apply to damage from the permanent that spell
+becomes.
+400.7c If an ability of a permanent requires information about choices made as that permanent was cast as a spell, including what mana was
+spent to cast that spell, it uses information about the spell that
+became that permanent as it resolved.
+400.7d Abilities that trigger when an object moves from one zone to another (for example, “When Rancor is put into a graveyard from the
+battlefield”) can find the new object that it became in the zone it
+moved to when the ability triggered, if that zone is a public zone.
+400.7e Abilities of Auras that trigger when the enchanted permanent leaves the battlefield can find the new object that Aura became in its
+owner’s graveyard if it was put into that graveyard at the same time
+the enchanted permanent left the battlefield. It can also find the new
+object that Aura became in its owner’s graveyard as a result of being
+put there as a state-based action for not being attached to a
+permanent. (See rule 704.5n.)
+400.7f If an effect grants a nonland card an ability that allows it to be cast, that ability will continue to apply to the new object that
+card became after it moved to the stack as a result of being cast this
+way.
+400.7g A resolving spell or activated ability can perform actions on an object that moved from one zone to another while that spell was
+being cast or that ability was being activated, if that object moved
+to a public zone.
+
+Therefore, in the graveyard, it won't be a copy anymore, so you can't scavenge it.
+Leaves-the-battlefield triggered abilities will work, because the game looks for the characteristics of the object on the battlefield. For example, persist will work.
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent
+leaves the game because its owner leaves the game. These are written
+as, but aren’t limited to, “When [this object] leaves the battlefield,
+. . .” or “Whenever [something] is put into a graveyard from the
+battlefield, . . . .” An ability that attempts to do something to the
+card that left the battlefield checks for it only in the first zone
+that it went to. An ability that triggers when a card is put into a
+certain zone “from anywhere” is never treated as a
+leaves-the-battlefield ability, even if an object is put into that
+zone from the battlefield.
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous
+effects that exist at that time are used to determine what the trigger
+conditions are and what the objects involved in the event look like.
+However, some triggered abilities must be treated specially.
+Leaves-the-battlefield abilities, abilities that trigger when a
+permanent phases out, abilities that trigger when an object that all
+players can see is put into a hand or library, abilities that trigger
+specifically when an object becomes unattached, abilities that trigger
+when a player loses control of an object, and abilities that trigger
+when a player planeswalks away from a plane will trigger based on
+their existence, and the appearance of objects, prior to the event
+rather than afterward. The game has to “look back in time” to
+determine if these abilities trigger.
+
+However, remember that abilities like the one in Emrakul, the Aeons Torn are not Leaves-the-battlefield abilities, because they tigger when the permanent is put on the graveyard from anywhere, not only from the battlefield. Therefore, that ability won't work if you copy Emrakul.
+

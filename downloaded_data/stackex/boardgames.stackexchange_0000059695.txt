@@ -1,0 +1,18 @@
+Q:
+
+What cards discount Ninjutsu?
+
+Thinking about making a Satoru Umezawa deck, wondering what are some good discount options for ninjutsu ability.
+I know about Silver-Fur Master, but I was wondering if Cloud Key will work too?
+
+A:
+
+Silver-Fur Master and Zirda, the Dawnwaker are the only cards that reduces Ninjutsu costs.
+Ninjutsu is an activated ability that cards have while they are in your hand. Cloud Key does not reduce Ninjutsu costs because it reduces the cost to cast a spell, not the cost to activate an ability.
+Silver-Fur Master specifically affects Ninjutsu abilities, and Zirda affects all activated abilities that aren't mana abilities. All other ability cost reduction effects have restrictions that make them not apply to Ninjutsu.
+Many cards that reduce activated ability costs refer to something like "activated abilities of creatures". "Creatures" in this case refers to creature permanents, not creature cards in any other zones, because of rule 109.2:
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t refer to a specific zone or include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+Since they don't affect creature cards in your hand, they don't reduce Ninjutsu costs.
+

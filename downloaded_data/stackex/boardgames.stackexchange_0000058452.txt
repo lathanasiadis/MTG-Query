@@ -1,0 +1,20 @@
+Q:
+
+Token Copies VS From Anywhere Triggered Abilities
+
+Worldspine Wurm is copied by the token-creating effect of Sublime Epiphany.  Later, the token dies.  Will the triggered ability, "When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library" trigger and get put onto the stack?
+It's clear that the token's other triggered ability, "When Worldspine Wurm dies, create three 5/5 green Wurm creature tokens with trample" will go off successfully, as this LTB triggered ability can look back in time to when the token was on the battlefield.  It's also clear that a Glasspool Mimic copying Worldspine Wurm would get only the LTB triggered ability and not the "from anywhere" triggered ability, since immediately after Glasspool Mimic was put into a graveyard, the game would see the printed characteristics of the card, effectively overwriting the characteristics it had as a copy, and thus its rules text would no longer include the "from anywhere" triggered ability.
+Returning to the initial question, the token does exist in the graveyard at the time the "from anywhere" triggered ability would trigger (state based actions would not have been performed yet after the token was moved), and in contrast with Glasspool Mimic, it is not obvious that the token has any printed characteristics that could overwrite the rules text it had on the battlefield.  Does it become some sort of "default token" with "default characteristics" while in the graveyard awaiting state based actions (and thus the "from anywhere" triggered ability would not trigger), or does it still have its copied characteristics (and thus the "from anywhere" triggered ability would trigger)?
+
+A:
+
+Yes, the token's "put into the graveyard from anywhere" ability will trigger.
+The token's "printed text" is effectively the copied characteristics of Worldspine Wurm. It does not have some other set of characteristics that are modified by a continuous copy effect, the way Glasspool Mimic does. This is a consequence of rule 111.3:
+
+The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token’s “text.” The characteristic values defined this way are functionally equivalent to the characteristic values that are printed on a card; for example, they define the token’s copiable values. A token doesn’t have any characteristics not defined by the spell or ability that created it.
+
+In this case, the token's characteristics are defined as a copy of Worldspine Wurm's characteristics.
+To close the loop, the token does exist in the graveyard long enough for its ability to trigger, as stated in rule 111.7:
+
+A token that’s in a zone other than the battlefield ceases to exist. This is a state-based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)
+

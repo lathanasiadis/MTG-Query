@@ -1,0 +1,12 @@
+Q:
+
+When are suspend card counterable
+
+When can you counter a suspend card (when it is suspended or when the final time counters get removed) and would I need to play a counterspell (counter a spell) or a stifle (counters an ability) to do so?
+
+A:
+
+When you move a suspend card from your hand to the exile zone, you are performing a special action, much like playing a land. This cannot be stopped by a Counterspell, nor even by a card like Stifle.
+Each of your subsequent upkeeps, a triggered ability removes a time counter. This can be stopped by a card like Stifle. (Note: Stifling the "remove a counter" trigger won't permanently stop the spell, you will simply delay the spell by a turn.)
+When the final time counter is removed, another triggered ability (which can also be the target of Stifle and friends) will cast the suspended spell upon resolution. At that point, the spell will finally be on the stack, and a legal target for cards such as Counterspell.
+

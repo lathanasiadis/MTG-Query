@@ -1,0 +1,18 @@
+Q:
+
+What happens if The Grand Calcutron leaves the battlefield after players hand cards have already become programs?
+
+When The Grand Calcutron enters the battlefield, each player's hand becomes a program (an ordered row of revealed cards).
+Players can only play the first card of their program.
+If a card would be put into a player's hand from anywhere, that player reveals it and places it anywhere within his or her program instead.
+At the beginning of each player's end step, if that player's program has fewer then five cards, he or she draws cards equal to the difference.
+
+Assuming The Grand Calcutron enters the battlefield, it's first ability triggers and eventually resolves, and later in the game, it leaves the battlefield again - what happens to the cards in a player's program? Where will cards be put from this moment forward that would be put in a player's hand? Are there any other special interactions?
+
+A:
+
+Mark Rosewater, the Un-set rules manager, has answered this question directly:
+
+What happens to a program without the Grand Calcutron? Does it returns to hand? Can I play cards from it? Do I still need to follow the order?
+If The Grand Calcutron every leaves play, the cards in the program return to your hand.
+

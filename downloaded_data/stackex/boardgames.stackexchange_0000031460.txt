@@ -1,0 +1,16 @@
+Q:
+
+Does killing Might Sliver before damage affect other slivers' power and toughness?
+
+I got quite confused on what exactly happens in this situation:
+Opponent is attacking, he does so with three (3/3) creatures.
+I declare blockers, which would be two unimportant (1/1) Slivers and a Might Sliver (2/2). The Might Sliver has a static ability: "All Slivers get +2/+2", so in fact I have two (3/3)'s and one (4/4) creature to block with.
+If, after the blockers are declared and before the damage is dealt, the opponent destroys the Might Sliver with an instant (Murder), will my Slivers retain the +2/+2 bonus until damage is dealt, so I would lose three creatures, while he loses two, or is it lost and my defense crumbles and my defenders are all killed?
+
+A:
+
+The ability from Might Sliver is a static ability: it functions as long as Might Sliver is on the battlefield.  When the sliver leaves the battlefield (dies in this case), its ability also goes with it.  Your other creatures loose the power/toughness increase. 
+At the time that your opponent played the instant, it was still in the Declare Blockers step.  During that step, you declare blockers, then both players have a chance to play instants before combat damage. Once your Might Sliver is dead, your other Slivers are 1/1 when you choose to move to damage. 
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+

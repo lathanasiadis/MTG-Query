@@ -1,0 +1,19 @@
+Q:
+
+Can an enchantment tutor find me auras?
+
+Would I be able to use cards such as Enduring Ideal to search for Auras?
+If so can I then attach them to a creature when they enter the battlefield?
+
+A:
+
+Yes and yes, assuming the aura enchants creatures, you couldn't attach say Abundant Growth to a creature, though you would be able to attach it to any land in the same way if you fetch it with Enduring Ideal.
+Enduring Ideal searches for any enchantment, and aura is a subtype of enchantment. When an aura enters the battlefield with no target, you are able to attach it to any legal object.
+It's worth noting that this means you don't target when you put an enchantment into play this way, so you can power up a creature you have with shroud using an enchantment, or Arrest an opponent's shroud or hexproof creature using this. This doesn't help when a creature has protection from that aura's color, as 702.16c prevents auras from attaching based on protection, it does not care about targetability like shroud and hexproof.
+From the comprehensive rules:
+
+303.4f If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+702.16c A permanent or player with protection can't be enchanted by Auras that have the stated quality. Such Auras attached to the permanent or player with protection will be put into their owners' graveyards as a state-based action.
+
+This effect is a big part of how Zur the Enchanter EDH decks play, he grabs an enchantment and puts it on himself as soon as he attacks so the effects are there before blockers and damage.
+

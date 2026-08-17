@@ -1,0 +1,14 @@
+Q:
+
+When a permanent is being made to copy another, does it count as entering the battlefield?
+
+I want to cast Polymorphous Rush on a strong creature on my battlefield so that my Hamletback Goliath's ability will trigger.  The creature that will become the copy is already on the battlefield, but when it becomes a copy of the strong creature, will this trigger my Hamletback Goliath's ability?
+For reference, Hamletback Goliath reads:
+
+Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature's power.
+
+A:
+
+No, it will not trigger the Goliath since nothing is entering the battlefield, a creature is just changing characteristics.
+What you can do, however, is wait for a new creature to enter the battlefield and trigger the Goliath. With the trigger on the stack, you can then Polymorphous Rush the triggering creature, and the Goliath will get counters based on the new power. This is because the Goliath's ability doesn't check to see what the power of the creature is when it enters, it checks as the ability is resolving.
+

@@ -1,0 +1,17 @@
+Q:
+
+In what kind of deck is Aether Vial good?
+
+I'm pretty much a beginner at deck building, and I'm toying around with a Modern GR Shaman tribal deck. It's too slow to be competitive, but there are a lot of options and things to try out.
+I find it hard to decide whether Aether Vial is good in it, and what adjustments I should make to the deck if I decide to include it. Aether Vial seems like an awesome card at first sight (putting creatures on the board for free, at instant speed, for an initial 1 mana? Huh?) but I note that very few competitive decks run it.
+Arguments against and for I can think of: by itself, it doesn't do anything yet, and having multiple in your starting hand means you probably have too few creatures. You can only use it for creatures with the right CMC, and you can only add counters, not remove them. On the other hand, it does save mana that can be left up for other things, and instant speed is nothing to sneeze at. My creatures have CMC of 1, 2, 3, 4 (too spread out?) but I don't have many 1-drops, and Vial is one, so that helps. Those are things I see. But I can't decide.
+What kind of reasoning should I use to decide whether Aether Vial is worth it in any given Modern deck?
+
+A:
+
+Obviously Aether Vial does best in a creature-heavy deck where many of the creatures have low CMC. Having to tick up a Vial to 3 or 4 means waiting 3 or 4 turns before it gives you any value.
+In addition to the points you listed above, one advantage that you missed is that creatures put into play by Vial are not cast, and therefore sidestep counterspells and related effects.
+This property also enables the Vial to break symmetry on effects that prevent players from casting spells, or affect the costs to cast spells: (e.g., Trinisphere, Standstill, Sphere of Resistance, Rule of Law).
+Multiples are not completely redundant: in addition to being able to vial in multiple creatures per turn, you can hold the vials at different number of counters, for creatures with different CMC.
+I would say the reason you don't see it more often in competitive play is that simply putting more creatures on the board isn't always that strong of an effect. Many decks with lots of cheap creatures are on an aggro plan, and so Vial is both tempo loss and card disadvantage. The positive benefits of Vial accrue over multiple turns, so it does the most work in a deck that wants somewhat longer games, and also has lots of cheap creatures, preferably with redundant synergy (e.g., Fish).
+

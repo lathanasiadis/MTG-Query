@@ -1,0 +1,27 @@
+Q:
+
+MTG: creature and enchantment triggered to opposite effects
+
+The situation is my Mortus Strider has been enchanted with Unholy Indenture.
+The creature has 
+
+when it dies, return it to his owner’s hand
+
+The enchantment says
+
+When enchanted creature dies, return that card to the battlefield under your control with a +1/+1 counter on it.
+
+Who gets the creature? Me or my rival?
+Does the creature ability trigger before or after enchantment? 
+
+A:
+
+Assuming you control both the Mortus Strider and the Unholy Indenture, you get to choose which ability will resolve first. If your opponent controls the Unholy Indenture, it depends on whose turn it is.
+The position of spells and abilities on the stack decide the order in which they resolve. Players can only cast one spell at a time, so their order is never in question. However, multiple abilities can trigger at the same time. When that happens, there are rules how to determine their position on the stack:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose. [..]
+
+"APNAP" means "active player, non-active player". The "active" player is the one whose turn it is. If multiple players make a choice at the same time, the active player makes the first choice, followed by all others in turn order.
+Therefore, assuming you control both the Mortus Strider and the Unholy Indenture, you get to choose the order of these abilities on the stack. You put the ability you want to resolve first on top of the stack.
+If you control only one of those two and your opponent controls the other, then the order depends on whose turn it is. If it's your turn, you put the ability of the object you control on the stack first, and your opponent's ability second. Therefore, your opponent's ability will resolve first. If it's your opponent's turn, the opposite happens.
+

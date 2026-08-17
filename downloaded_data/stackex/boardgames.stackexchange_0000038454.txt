@@ -1,0 +1,23 @@
+Q:
+
+Does "target Merfolk" imply "target Merfolk creature"?
+
+The new Ixalan card "River Heralds' Boon" says:
+
+Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.
+
+The subtype "Merfolk" can apply to non-creatures, including Merrow Commerce and Aquitect's Will. My reading of Comp Rules 114.2 is that an Aquitect's Will on the stack is not a legal target for the Boon, but what about Merrow Commerce? (Yes, I know it will normally be useless to put a +1/+1 counter on an enchantment. Maybe you're planning to cast Opalescence later on. Whatever.)
+Could you target a creature and a Merrow Commerce, and put counters on each of them?
+
+A:
+
+Yes, you can target either a Creature - Merfolk or a Tribal - Merfolk, and put +1/+1 counters on them. Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+And rule 308.2 says
+
+Tribal subtypes are always a single word and are listed after a long dash: “Tribal Enchantment — Merfolk.” The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+
+So, any spell that refers to an object just by a creature subtype is talking about a permanent of that subtype. And since the Creature and Tribal types share the same set of subtypes, an object that is referred to just by creature type can be either a creature or a tribal permanent.
+

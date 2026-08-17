@@ -1,0 +1,30 @@
+Q:
+
+MTG Arena: Current shuffler (and matchmaker) functionality and rules
+
+Bit on a rant intro, not necessary to understand the question. There is a heated debate between Arena players if (not) is the card shuffler (and matchmaker) rigged. I myself experienced very strange phenomenon. When I played on my PC, I was getting very poor draws with my Mono Red Deck and my win ratio was around 55%. However, when I swapped to playing on my laptop (first&new installation, this time not through Epic, but directly through WotC) I was getting incredibly lucky draws for roughly 50+ games easily getting 85% win ratio, most of the time being on the play and I would say getting favorable match-ups. I'm pretty sure about the win ratios and the quality of the hands (I used a tracker), the rest can really be my perspective. Anyways, I did not put too much thought into it back then.
+Important part: However, today I came across this post about lands in the opening hand. Also this reddit post shows pretty thoroughly that the shuffler is not really random. I went and read some WotC forum posts and found people claiming that match maker altered their opponent picks according to their win ratio, providing (alleged) stats from trackers.
+I'm okay with the shuffler and potentially matchmaker being 'rigged', to provide better game experience but only as long as the functionality is clear and public. Does anyone know of verified, up-to-date source which describes the shuffler and matchmaker rules, so one can play around it? So far I found nothing except small pieces of potentially outdated info or unfounded theories.
+
+EDIT: I wonder if it was all my poor explanation or also people skim reading too much and ignoring comments but I intended this question purely as a search for information behind the shuffler/matchmaker. I think this is NOT opinion based and it feels to me that many people when see thread discussing shuffler/matchmaker automatically presume it is just salt mine thread, hence the vote for closing the question for being 'opinion based'. Anyways to sump up what I learned so far from comments and otherwise are:
+
+Every time you shuffle in BO1, shuffle is done twice and the hand with the number of lands more representing the actual ratio of lands in your deck is chosen as your hand. This means it is extremely good to mulligan. This is very helpful to me because I avoided mulligan a lot in a fear of getting hand without lands or flooded by them, playing sub-optimal hands.
+Fisher Yates is used for permutations. I also read Mersenne Twister is somehow involved, maybe for picking up the random numbers in Fisher Yates. Even though Mersenne Twister is not really very good at being random, I guess it is sufficient for this but I wonder if choosing a seed which would be unique for each id could somehow lead into what I experience. Anyway this is just a thought.
+As for a matchmaker the only thing I noticed myself and also picked up from the threads I skimmed over and I'm confident enough to call without statistics is mirroring. You will face mirrors of your deck more often then it is represented in meta and people like CovertGoBlue who plays MTGA every day for hours claims to see this empirically too.
+The following IS ONLY MY OBSERVATION but as this question is being voted to be closed as opinion based I think I will plug this in. I feel that MTGA deliberately 'tests' your deck. BTW I don't consider this to be a bad thing. I feel like it happens more than often that when picking new deck or running streak of wins or losses I run into very obscure cards which are either intended as a counters or a very favorable match-ups for me. I played Gruul yesterday running into mirrors, green, rogues, white aggro, black control, 0 Dimir's control. As soon as I switched to Cycling I get Ashiok's Erasure, which just shuts cycling with its little variability of cards which you actually play and who even plays this card anymore, and Dimir's control against. Like camaaan. :D I'm okay with it, but if this is random then what are the odds. There are many other theories and I don't want to be too much of a tin foil hatter but the only thing I'm trying to say here is: I do think that some meta table similar to this one but much more detailed, maybe even for specific cards, pair of cards or something is actually being built behind the scenes and it is somehow used to balance the gameplay further than just giving you mirrors more often. And again, I don't mind. Making the experience more balanced IS GOOD but I'm only trying to figure out its inner workings to understand if you should play more focused decks or more broad ones and so on.
+
+A:
+
+On the surface, 85% win rate over 50 games compared to 55% win rate over (??) games is statistically significant.
+But, the danger of doing a single variate statistical analysis (which is rampant in modern discourse) is you aren't examining investigating other potential causes.
+For Arena, specifically, I have found the following to have significant impact in my win rates.
+
+Time of day.  In my time zone, if I play between 10 am and 3 pm my win rates are significantly higher than if I play between 5 pm and 10 pm.
+Event.  You haven't indicated event.  If I am on the "play" queue, I often win at much  higher rates than if I'm on the "standard ranked" queue.  I suspect other events have similarly higher variability.
+Rank:  My win rates in gold on the Best of 1 ladder are vastly higher than my win rates in Platinum.
+Play Queue:  My son likes brewing decks and playing on the play queue.  His win rate is very low (he is a fan of jank) if he plays a lot, and I start playing on the play queue, I win all the time.
+The Selection Effect: (Credit to Phillip Kendall) No one posts if they change computers and see no impact.  In 2019 there were 3 million active players of Arena, the probably that at least one of them changes computers and saw variations of this size is non-trivial
+.
+
+I'm sure I've missed others.
+

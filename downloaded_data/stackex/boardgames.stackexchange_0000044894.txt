@@ -1,0 +1,13 @@
+Q:
+
+What happens to spells on the stack when a player leaves the game?
+
+Let's say, in a multiplayer late-game (3+ players) I want to cast/activate anything during another players turn. Everyone is rather low on life, and in response to my spells/abilities on the stack another player reduces the life of the player whose turn it currently is to 0 or below, because of which he loses the game.
+It is obvious, that anything that player controls/owns is taken from the stack and the battlefield and his turn ends immediately. But what happens to my stuff on the stack? Does it fizzle or still resolve?
+
+A:
+
+No, the turn continues as normal, without that player.
+
+800.4i If a player leaves the game during their turn, that turn continues to its completion without an active player. If the active player would receive priority, instead the next player in turn order receives priority, or the top object on the stack resolves, or the phase or step ends, whichever is appropriate.
+

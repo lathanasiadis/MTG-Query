@@ -1,0 +1,20 @@
+Q:
+
+Who gets to use a reanimated Gamekeeper's ability?
+
+I was playing a clunky Gamekeeper build of mine against a Legacy Reanimator deck when the following situation occurred:
+I had a Leyline of the Void in play (don't know if it's relevant). I had a Gamekeeper in my own graveyard which my opponent reanimated with Animate Dead. I destroyed the Gamekeeper with a Slaughter Pact.
+Who gets to use Gamekeeper's ability?
+
+A:
+
+Your opponent. Leyline of the Void has no bearing in this situation, because the Gatekeeper is going to your (its owner's graveyard).
+
+400.3. If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its owner’s corresponding zone.
+
+When an object refers to you, it means its controller.
+
+Card Text: When Gamekeeper dies, you may exile it. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and put all other cards revealed this way into your graveyard.
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+

@@ -1,0 +1,29 @@
+Q:
+
+What happens if I become an illegal target of Cruel Entertainment?
+
+Cruel Entertainment is a card from Commander 2016 that says:
+
+Choose target player and another target player. The first player controls the second player during the second player’s next turn, and the second player controls the first player during the first player’s next turn.
+
+Let's say this is cast, and I'm one of the targets. While Cruel Entertainment is still on the stack, I give myself hexproof by flashing in Aegis of the Gods or something similar. The other player is still a valid target, so the spell resolves — but what happens when it does?
+
+Do I still control the other player in their next turn?
+Does the other player still control me in my next turn?
+
+There aren't any Gatherer rulings about this scenario attached to the card — all the rulings but the first two just talk about how controlling a player works.
+
+A:
+
+Nothing happens at all as the spell resolves. Neither player controls the other.
+Under 608: Resolving spells and abilities comes these rules:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [...] If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won’t be affected by parts of a resolving spell’s effect for which they’re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don’t apply to illegal targets.
+
+Since one of the players is an illegal target:
+
+that player can't be made to control the other player.
+that player can't be made to be controlled by the other player.
+
+Both players retain control of their own turns as normal and the spell has no actual effect on anything.
+

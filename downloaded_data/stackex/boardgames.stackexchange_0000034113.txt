@@ -1,0 +1,10 @@
+Q:
+
+Can you sacrifice a creature you block with to fulfill Annihilator?
+
+Lets say someone is blocking an Eldrazi with annihilator. Can they sacrifice a creature they blocked with to count as one of the things sacrifice with annihilator? 
+
+A:
+
+Annihilator happens before blocks.  When the attacking player declares attackers, the Annihilator trigger goes on the stack.  The defending player has to resolve it first.  Then the phase can move to the Declare Blockers step.  If you still have a creature at that point, you can block. 
+

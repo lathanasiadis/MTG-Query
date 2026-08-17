@@ -1,0 +1,18 @@
+Q:
+
+What happens if 7 Soldiers block a Phyrexian Obliterator?
+
+This is a situation I am confronted with more often than I want to. My opponent attacks me with his Phyrexian Obliterator (5/5). The card says:
+Trample;
+Whenever a source deals damage to Phyrexian Obliterator, that source's controller sacrifices that many permanents.
+I have a lot of small creature tokens available to block with, lets take 7 Soldier tokens to make it simple. They are all 1/1. My opponent has 4 Mutagenic Growth in his deck and I have reason to believe that he has one of those in his hands.
+The situation forces me to block, otherwise I would die. Lets assume I only have 1 life left.
+I decide to declare all 7 Soldier tokens as blockers, so that I survive even if he uses a Mutagenic Growth. The question is what happens if he does not boost it and I am blocking the 5/5 creature with 7 Soldiers.
+If I would block with a single 7/x creature, I would deal 7 damage and I would be forced to sacrifice 7 permanents afterwards. But what about the 7 individual creatures? Do they still deal 7 damage or do they deal only deal 5? I am afraid the answer is 7, because they all deal damage at the same time, but I am not confident about my interpretation.
+
+A:
+
+The Phyrexian Obliterator takes 7 damage.
+Besides first strike and double strike (which create a separate combat damage phase for first-strike damage), all creatures exchange combat damage simultaneously. So the Phyrexian Obliterator takes all 7 points of damage even though it only has 5 toughness.
+To add insult to injury, its triggers go on the stack after state-based actions are checked (meaning it and 5 Soldiers are dead), so you'll have to sacrifice 7 permanents in addition to the 5 tokens you lost blocking it.
+

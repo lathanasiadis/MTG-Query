@@ -1,0 +1,25 @@
+Q:
+
+Can regeneration save my creatures from Turn // Burn?
+
+I have a creature with regeneration. My opponent responds to me activating regeneration with the Turn side of Turn // Burn.
+Can I then activate regeneration again to make it a 0/1 weird with regeneration?
+
+A:
+
+Yes, you can activate an activated ability as often as you can pay its activation cost.
+But you don't need to. The ability will still resolve even if the creature no longer has the ability when it resolves.
+For example, say the creature in question is a Dutiful Thrull.
+
+Your opponent casts Shock targeting your Dutiful Thrull.
+In response, you activate its ability.
+In response, he casts Turn.
+Turn resolves: The Dutiful Thrull is now a 0/1 red Weird with no abilities.
+Dutiful Thrull's ability resolves: A regeneration shield is placed on Dutiful Thrull.
+Shock resolves: It deals two damage to the 0/1 Dutiful Thrull.
+SBAs are performed: The creature would be destroyed, but the regen shield kicks in. Dutiful Thrull is tapped, removed from combat and all marked damage is removed.
+
+You could activate Dutiful Thrull's ability a second time between steps 3 and 4, which will give it a second shield for later on in the turn.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. [...]
+

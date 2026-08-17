@@ -1,0 +1,15 @@
+Q:
+
+Is a creature turned face down with Ixidron still affected by Halls of Mist?
+
+The card Halls of Mist says that a creature cannot attack if it attacked during its controller's last turn. Does Ixidron turning the creature face down affect Halls of Mist, therefore allowing the creature to attack, even though it attacked last turn? Effectively, does turning a creature face down alter effects applied to the creature beforehand?
+
+A:
+
+A creature that is turned face down is still the same object, so effects still apply to it and rules modifications like on Halls of Mist track it as the same creature.
+Being face up vs face down is a status as defined in rule 110.5:
+
+A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+
+Like tapping or untapping a creature, turning a creature face up or face down doesn't make it a different creature or make effects lose track of it.
+

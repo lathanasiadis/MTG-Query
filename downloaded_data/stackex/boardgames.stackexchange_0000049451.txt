@@ -1,0 +1,13 @@
+Q:
+
+Does Lich's Mastery let me spend down to negative life with Bolas's Citadel?
+
+Could I possibly use Lich's Mastery with Bolas's Citadel? Since I have the condition "you cannot lose the game", theoretically couldn't I go negative with my health by using BC to play cards from my library?
+
+A:
+
+You cannot pay life that you don't have, even if you wouldn't lose the game. So, Lich's Mastery doesn't help you cast cards using Bolas's Citadel, and using them together is probably a bad idea because of the "Whenever you lose life..." trigger on Lich's Mastery.
+The most important rule here is rule 119.4:
+
+If a cost or effect allows a player to pay an amount of life greater than 0, the player may do so only if their life total is greater than or equal to the amount of the payment. If a player pays life, the payment is subtracted from their life total; in other words, the player loses that much life. (Players can always pay 0 life.)
+

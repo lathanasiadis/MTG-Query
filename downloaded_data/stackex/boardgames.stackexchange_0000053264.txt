@@ -1,0 +1,16 @@
+Q:
+
+Do I lose if I have an empty library and cast Brainstorm?
+
+Brainstorm says "Draw three cards, then put two cards from your hand on top of your library in any order."
+If I have no cards in my library when I cast Brainstorm, do I lose? I imagine so - it feel pretty weird if I don't - but apparently state-based actions aren't checked during spell resolution, and by the time Brainstorm resolves I no longer have an empty library, so just checking.
+
+A:
+
+You will still lose, even though your library will not be empty when you lose.
+You will fully resolve Brainstorm, including drawing as many as you can from your library (none in this case), and then putting 2 cards onto your library. After Brainstorm resolves, state-based actions will be checked, including this one:
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, he or she loses the game.
+
+So because you had made an attempt to draw a card from a library with no cards in it, you will lose, even though your library now has cards in it.
+

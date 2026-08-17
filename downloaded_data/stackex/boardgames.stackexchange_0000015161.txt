@@ -1,0 +1,35 @@
+Q:
+
+Can Guttersnipe hit Planeswalkers?
+
+Guttersnipe's ability states:
+
+Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.
+
+Now, Planeswalkers are classed as "Players". I found this ruling that someone's interpreted:
+
+306.7. If noncombat damage would be dealt to a player by a source controlled by an opponent, that opponent may have that source deal that damage to a planeswalker the first player controls instead. This is a redirection effect (see rule 614.9) and is subject to the normal rules for ordering replacement effects (see rule 616). The opponent chooses whether to redirect the damage as the redirection effect is applied.
+
+Does this mean Guttersnipe can hit a Planeswalker that opponent's controlling instead?
+
+A:
+
+As of the Dominaria rules update, no. The planeswalker redirection rule you cite has been removed, and so dealing damage to "each opponent" means literally that, just player(s), no planeswalkers involved.
+It now reads:
+
+306.7. Previously, planeswalkers were subject to a redirection effect that allowed a player to have noncombat damage that would be dealt to an opponent be dealt to a planeswalker under that opponent’s control instead. This rule has been removed and certain cards have received errata in the Oracle card reference to deal damage directly to planeswalkers.
+
+In that spirit, many cards which said "target player" have been changed to read "target player or planeswalker", many which said "target opponent" now say "target opponent or planeswalker", and many which said "target creature or player" now say "any target".
+Cards like Guttersnipe that wouldn't be so trivial to update have generally been left alone.
+
+For posterity, the original pre-Dominaria answer follows.
+Yes, you can redirect Guttersnipe's damage to a planeswalker, due to the rule you cited. (That's an actual rule, not a ruling or someone's interpretation.) Guttersnipe is dealing noncombat damage to a player, you are that player's opponent, you control the Guttersnipe, and you may therefore redirect the damage.
+But saying "planeswalkers are classed as 'players'" is only going to get you into trouble. They are not players. They're, well, planeswalkers. There are a few things you can do that make them feel like players: you can redirect damage like this, and you can choose to attack them or your opponents with your creatures. But they aren't players. If a card actually says "player", it means a player, not a planeswalker.
+Some examples:
+
+A burn spell like Lightning Strike ("...deals 3 damage to target creature or player") can only target a player. You may end up redirecting the damage, effectively using it on their planeswalker, but you still have to target your opponent. If they have a Witchbane Orb ("You have hexproof"), you can't target them, so you can't cast the spell in the first place.
+Gray Merchant of Asphodel ("...each opponent loses X life...") doesn't do anything to your opponents' planeswalkers - you can't redirect loss of life. Similarly, you can't somehow use life gain on a planeswalker.
+Dreadbore ("Destroy target creature or planeswalker.") doesn't do anything to players.
+
+Most of the time things are pretty obvious anyway - for example you're not too likely to think a planeswalker can draw cards and try to use Opportunity on it. But you can avoid the chance of confusion by just remembering what you can do (attack and redirect damage) rather than thinking of planeswalkers as players.
+

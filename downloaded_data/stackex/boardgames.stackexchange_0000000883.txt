@@ -1,0 +1,21 @@
+Q:
+
+How does Infect interact with Lifelink?
+
+When a creature with Infect and Lifelink puts poison counters on a player, does the controlling player gain life? Do all abilities that trigger on combat damage still occur?
+A link to an official ruling would be helpful.
+
+A:
+
+Yes, the creature's controller will gain life.
+Infect and Lifelink are both abilities that modify how damage is dealt. They're not exclusive in any way; they just mean that the damage dealt has some effects different to what damage normally does. They can happily coexist.
+
+119.3b Damage dealt to a player by a source with infect causes that player to get that many poison counters.
+  ...
+  119.3f Damage dealt by a source with lifelink causes that source's controller to gain that much life, in addition to the damage's other results.
+
+The damage is still damage in every way. So it'll still trigger an Ophidian Eye, get doubled by Furnace of Rath, get prevented by Samite Healer and so on.
+The Scars of Mirrodin FAQ document says:
+
+Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+

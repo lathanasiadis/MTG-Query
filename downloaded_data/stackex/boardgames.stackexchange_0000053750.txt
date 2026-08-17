@@ -1,0 +1,10 @@
+Q:
+
+MTG Arena: Enter battlefield ability denied by killing the creature causing it?
+
+I played Acquisitions Expert in MTG Arena. My opponent reacted with Stomp adventure of Bonecrusher Giant and killed the Acquisitions Expert. Even though I saw my Acquisitions Expert's ability still being on the stack after Stomp resolved, Acquisitions Expert's ability did not resolve and opponent did not have to discard a card. Why did this happen? I just can't figure it out.
+
+A:
+
+It should have resolved. But a crucial part of that would be knowing how many creatures were in your party when it resolved. If the Acquisitions Expert was the only one and was dead when the ability resolved, the ability won't do anything useful (reveal 0 cards and discard 1 out of 0 cards means discard nothing).
+

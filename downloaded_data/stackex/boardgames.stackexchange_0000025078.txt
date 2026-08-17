@@ -1,0 +1,11 @@
+Q:
+
+Does Double Strike mean you count as Attacking twice?
+
+Does Narset, Enlightened Master's ability trigger twice if she has double strike, since she has an ability that says "When (she) attacks"?
+
+A:
+
+No.
+The trigger, "Whenever ~ attacks" means "Whenever ~ is declared as an attacking creature". A creature with double strike will deal damage in the two combat damage steps, but will only be declared as an attacker once per turn. (Normally, unless some other effect is creating additional combat phases.)
+

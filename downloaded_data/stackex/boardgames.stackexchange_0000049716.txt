@@ -1,0 +1,31 @@
+Q:
+
+Will Sigarda, Host of Herons and Armor of Thorns cause infinite cleanup steps?
+
+If my opponent has a Sigarda, Host of Herons in play, and I play Armor of Thorns as though it had flash and then Donate it to my opponent, will the game lock up at end of turn due to an infinite loop of cleanup steps?
+Relevant abilities:
+
+Sigarda, Host of Herons
+  Spells and abilities your opponents control can't cause you to sacrifice permanents.
+Armor of Thorns
+  You may cast Armor of Thorns as though it had flash. If you cast it any time a sorcery couldn't have been cast, the controller of the permanent it becomes sacrifices it at the beginning of the next cleanup step.
+
+Relevant rules:
+
+514.3a At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger “at the beginning of the next cleanup step”). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
+
+I think that this question rests on who controls the ability that causes Armor of Thorns to be sacrificed.  Is it my ability because I cast Armor of Thorns, or is it my opponent's ability because they control Armor of Thorns?
+
+A:
+
+The sacrifice does not happen; but this does not cause more than one extra cleanup step.
+
+603.7b A delayed triggered ability will trigger only once—the next time its trigger event occurs—unless it has a stated duration, such as “this turn.” If its trigger event occurs more than once simultaneously and the ability doesn’t have a stated duration, the controller of the delayed triggered ability chooses which event causes the ability to trigger.
+
+This shows that once the delayed trigger happens at the beginning of the next cleanup; it will not trigger again after that. Preventing the sacrifice from happening doesn't change the fact that the trigger still happened.
+Sigarda, Host of Herons does prevent the player from having to sacrifice Armor of Thorns, because the controller of the delayed triggered ability is the player who originally cast Armor of Thorns:
+
+603.7d If a spell creates a delayed triggered ability, the source of that delayed triggered ability is that spell. The controller of that delayed triggered ability is the player who controlled that spell as it resolved.
+
+So there will be a second cleanup step because something triggered during the cleanup step, but there is no trigger that occurs at the beginning of the second cleanup step.
+

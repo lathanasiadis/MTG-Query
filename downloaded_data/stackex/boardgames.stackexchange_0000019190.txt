@@ -1,0 +1,22 @@
+Q:
+
+Putting cards into your hand while the top of library is revealed
+
+Anthony has Courser of Kruphix on the field. He begins resolving Dig Through Time.
+While Dig Through Time is resolving, must the top card be kept separate from the other six?
+I'm thinking that Anthony's opponent should know what happens to the top card because it is revealed. What I don't understand is how a judge could enforce this. Anthony could easily shuffle the cards around in his hand before choosing two of them (and in practice, most people who I've seen cast Dig Through Time do mix up the cards before finally settling on two of them).
+What I think the rules allow for (emphasis on the part I made up):
+Anthony leaves the top card revealed and separate while browsing through the other six, which remain hidden. He chooses two out of the seven and puts them into his hand. If Anthony chooses the top card, his opponent will know because it was kept revealed and separate.
+I'm playing this deck at an invitational in two weeks and I need to know how to do this properly so that I can give the least amount of information to my opponents while not cheating.
+
+A:
+
+Actually, I would argue that Anthony's opponent should not know where the revealed card ends up. When you manipulate cards in a hidden zone, what happens is not free or derived information. See rule 400.2 (emphasis mine)
+
+400.2. Public zones are zones in which all players can see the cards' faces, except for those cards that some rule or effect specifically allow to be face down. Graveyard, battlefield, stack, exile, ante, and command are public zones. Hidden zones are zones in which not all players can be expected to see the cards' faces. Library and hand are hidden zones, even if all the cards in one such zone happen to be revealed.
+
+So I would think while resolving Dig Through Time, and supposing X is on top of the library, the steps are:
+(1) Look at the top seven cards of your library. [X is revealed at this point]
+(2) Put two of them into hand and the rest on the bottom of the library in any order. [flip X over, perform this action, then reveal the new top card of the library]
+Since the choices made for (2) above do not fall under the categories of free or derived info (library is still a hidden zone, see 400.2 above), I don't see why Anthony's opponent should know what happened to X.
+

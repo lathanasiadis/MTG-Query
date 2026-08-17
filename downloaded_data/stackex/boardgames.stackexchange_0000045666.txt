@@ -1,0 +1,47 @@
+Q:
+
+Why is the card Earthcraft banned in legacy?
+
+A similar card called Cryptolith Rite never did anything in legacy why is Earthcraft banned. Now I do understand you can tap summoning sick critters to the Earthcraft, but it can only untap basic lands so it cannot give you rainbow mana as the rites do, I do think they are comparable in power level, I really cannot understand that ban.
+
+A:
+
+It is an infinite combo with Squirrel Nest.
+Even though this probably is the main reason why Earthcraft remains banned, it isn't the reason why it was originally banned. To clear up the confusion, we need to take a look at the history of Earthcraft bannings:
+
+1999
+March
+Standard: Dream Halls, Earthcraft, Fluctuator, Lotus Petal, Recurring Nightmare, and Time Spiral are banned. Memory Jar is banned retroactively in mid March.
+...
+September
+Extended: Dream Halls, Earthcraft, Lotus Petal, Mind Over Matter, and Yawgmoth's Will are banned.
+...
+2003
+March
+Vintage: Berserk, Hurkyl's Recall, and Recall are unrestricted.
+Earthcraft and Entomb are restricted.
+Legacy: Berserk, Hurkyl's Recall, and Recall are unbanned.
+Earthcraft and Entomb are banned.
+...
+2004
+September
+Vintage: Braingeyser, Doomsday, Earthcraft, and Fork are unrestricted.
+
+From: https://mtg.gamepedia.com/Banned_and_restricted_cards/Timeline
+One of the reasons why Earthcraft is so broken (not in Legacy, but in Standard), is it was used to create infinite tokens with Wild Growth and Sacred Mesa. Wizards tried to fix all the fast combo decks with one go in the B/R announcement in March 1999.
+Mark Rosewater posted this article on February of 2003. There is a explanation how Earthcraft was originally designed:
+
+Earthcraft (banned in Extended) – This card started as a simple idea. Ley Druid was an interesting green creature. How about an enchantment that gives the Ley Druid ability to all your creatures? The original card looked like this:
+Earthcraft
+Enchantment
+Each creature you control gains “: Untap target basic land.”
+At first glance, this might seem like the same card, but there is one key difference. The original version text spliced the ability onto creatures. This is important because it prevented endless loops since new creatures that were created would have "summoning sickness" and thus couldn’t be used to untap more lands to play additional creatures. (A quick aside – the term "summoning sickness" is no longer in the rules, but there is no new term to describe what "summoning sickness" used to mean and I refuse to use the term "doesn’t have haste" or "has been under your control since the beginning of your most recent turn" or whatever, so I have rebelliously used the term "summoning sickness." So there!)
+Why the change? Well, I happen to dig up the design notes from our database and discovered the culprit: JLM. (JLM, by the way, is Joel L. Mick, who at different times used to be Magic Lead Designer and Magic Brand Manager. The cards Jalum Tome and Jalum Grifter are both named after him. He was also the model for the art of Jalum Grifter. At the time of this note, he was Magic Lead Designer.)
+3.05 JLM Stop the needless text splicing. Word as “Tap an untapped creature you control: Untap target land.”
+3.07 MR We should examine whether or not this needs to only affect basic lands.
+I prefer basic lands.
+I think Joel’s wording is more complicated.
+The last two notes weren’t signed but were by either Bill Rose, Mike Elliott, William Jockusch, or Henry Stern. As you can see, while I’m not responsible for the de-splicing of the card, if left to my own devices you might see Vintage players using this card to untap Tolarian Academy or Gaea's Cradle.
+
+Earthcraft is considered a broken card, even though it's not even close in power level as some of the other cards in the banlist. Unbanning probably won't change anything in the Legacy format, but it could make decks like Enchantress and Elves more powerful.
+

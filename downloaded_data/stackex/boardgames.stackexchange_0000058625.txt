@@ -1,0 +1,19 @@
+Q:
+
+Does a land with Landfall trigger itself?
+
+If I already have Ashaya, Soul of the Wild in play, and I play a creature that has a landfall ability, such as Lotus Cobra, does the creature "see" itself and trigger its own landfall ability, similar to cards that say "When [Cardname] or another creature enters the battlefield..." o?
+
+A:
+
+Yes, a creature will trigger its own landfall when it enters as a land.
+In your scenario, your creatures are also lands. Ashaya's ability is a static ability, which is always true. There is no delay, and your creatures enter the battlefield as lands.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+Permanents see themselves entering the battlefield and will trigger all applicable abilities when they do.
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters the battlefield, . . . “ or “Whenever a [type] enters the battlefield, . . .” Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+
+Permanents see themselves entering the battlefield and trigger all applicable abilities, so creatures entering as lands will trigger their own Landfall ability.
+

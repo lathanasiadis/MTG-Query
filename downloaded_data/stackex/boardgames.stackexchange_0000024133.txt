@@ -1,0 +1,44 @@
+Q:
+
+What can I do about uncounterable spells?
+
+I cast Fling, sacrificing my only creature to kill my opponent.  My opponent responds with Last Word, which will win the game the other way.  Last Word says "This spell can't be countered."  What else can I do about it besides countering it to prevent my plans from being foiled?  (I'd really like to have the last word here.)
+
+Historic Note: before of the April 2018 rules change, uncounterable spells with targets used to actually have different wording (still visible on the printed cards) implying that they still could be countered.  For example, Last Word said:
+
+Last Word can't be countered by spells or abilities.
+
+Meanwhile Akroma, Angel of Fury said:
+
+Akroma, Angel of Fury can't be countered.
+
+A:
+
+There is now no way to "counter" an uncounterable spell, but you can achieve the same effect by preventing it from resolving.  The easiest way to do this is to cause all of its targets to be invalid:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process.  If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard.
+
+There are 2 ways to do this:
+
+Change the target of the uncounterable spell.  You can prevent Last Word from resolving by changing it's target, such as via Redirect.  By using Redirect to change Last Word to target Redirect, Last Word will not resolve, as described in this ruling:
+
+If you cast Redirect targeting a spell that targets a spell on the stack (like Cancel does, for example), you can’t change that spell’s target to itself. You can, however, change that spell’s target to Redirect. If you do, that spell won’t resolve when it tries to resolve because Redirect will have left the stack by then.
+
+Make the targeted object a new object.  If the targeted object is a spell, you can use Ertai's Meddling will bring your spell back later when their spell is no longer on the stack.  If the targeted object is a permanent (such as a creature targeted by Inescapable Blaze), exiling it and returning it to the battlefield (such as with Momentary Blink) will cause it to become a new permanent and no longer targeted by the spell.
+
+As far as uncounterable spells in general (like Thrun, the Last Troll), there are a few other ways you can deal with them while they are on the stack (none of which are technically countering):
+
+You can exile the spell, such as with Time Stop, Mindbreak Trap, or Ertai's Meddling.
+You can return the spell to their hand, such as with Venser, Shaper Savant.
+You can tuck the spell with Commit.
+You can steal the spell with Æthersnatch or Commandeer.
+In multiplayer games, defeating a player removes all of that player's spells from the stack.  Door to Nothingness is the ultimate counterspell.
+
+Finally, in the case described in the question about Last Word and Fling, you could Twincast the Fling, and have a copy that is not countered.  The copy of Fling uses the additional costs paid for the original spell.
+
+Historic Note: before the April 2018 rules change, uncounterable spells like Last Word had wording like "Last Word can't be countered by spells or abilities."  Rule 608.2b used to have the spell be countered by game rules if all its targets were invalid on resolution.  The only functional difference is for cards that care about what has been countered, notably Multani's Presence
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. ... The spell or ability is countered if
+  all its targets, for every instance of the word “target,” are now
+  illegal.
+

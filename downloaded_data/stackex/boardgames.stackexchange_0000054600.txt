@@ -1,0 +1,32 @@
+Q:
+
+Can Selective Adaptation be used to get equipment or enchantments?
+
+Selective Adaptation, a green sorcery, says:
+
+Reveal the top seven cards of your library. Choose from among them a card with flying, a card with first strike, and so on for double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. Put one of the chosen cards onto the battlefield, the other chosen cards into your hand, and the rest into your graveyard.
+
+Will this work for equipment and auras? For example, Basilisk Collar says
+
+Equipped creature has deathtouch and lifelink.
+
+If I understand keywords correctly, Basilisk Collar gives Lifelink to equipped creature, but it doesn't have lifelink.
+So - can I put Basilisk Collar on the battlefield with Selective Adaptation?
+
+A:
+
+Basilisk Collar gives lifelink to equipped creature, but it doesn't have lifelink.
+
+Correct, therefore Selective Adaptation cannot fetch Basilisk Collar. For example, if an unequipped Basilisk Collar is animated with Karn, the Great Creator's +1 ability:
+
++1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
+
+the collar itself won't have deathtouch.
+While Selective Adaptation can't fetch Basilisk Collar itself, there are some non-creature non-vehicles which have either indestructible or hexproof and therefore can be fetched with Selective Adaptation, for example:
+
+Darksteel Axe, an indestructible equipment
+Lotus Field, a hexproof land
+Nine Lives, a hexproof enchantment
+
+(Credit to mreux and the Scryfall folks for the query!)
+

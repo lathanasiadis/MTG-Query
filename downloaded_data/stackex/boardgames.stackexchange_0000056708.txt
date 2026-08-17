@@ -1,0 +1,44 @@
+Q:
+
+Sphinx of the Second Sun & Aggravated Assault
+
+Say I control a Sphinx of the Second Sun. At the beginning of my post-combat main phase an additional beginning phase is added after that main phase. Now I activate Aggravated Assault during my post-combat main phase and get an additional combat phase and post-combat phase.
+The ruling on the Sphinx states clearly that
+
+If multiple phases are added to the same point in your turn, the most
+recently created phase happens first.[...]
+
+Thus, as I understand it, the added combat phase and post-combat main phase would take place before the additional beginning phase (adding a second additional beginning phase). Most importantly, since Aggravated Assault can only be activated at sorcery speed, I can't use the land which is untapped during my additional untap steps to chain combat phases, post-combat phases and beginnings phases into eternity.
+Most other people seem to argue that the beginning phase would happen before the combat phase, or at least before the additional post-combat main phase, hence chaining phases forever should work. Which is correct?
+
+A:
+
+You are correct here. Phases are added into the turn order the way you describe. So when activating Aggravated Assault once in the post-combat main phase your entire turn's phases will look like this:
+
+Beginning (normal)
+Pre-Combat Main (normal)
+Combat (normal)
+Post-Combat Main (normal)
+Combat (added by AA)
+Post-Combat Main (added by AA)
+Beginning (added by sphinx in AA post-combat main)
+Beginning (added by sphinx in normal post-combat main)
+Ending Phase (normal)
+
+This ordering of extra phases is covered by rule 500.8 in the Comprehensive Rules (emphasis mine):
+
+500.8 Some effects can add phases to a turn. They do this by adding the phases directly after the specified phase. If multiple extra phases are created after the same phase, the most recently created phase will occur first.
+
+As you said, since AA can only be activated at sorcery speed (on your turn, in your main phase, when the stack is empty), it can't be used until the Sphinx trigger has already resolved in your post-combat main phase. It will add the second combat phase before the added beginning phase - it cannot be used to gain infinite phases if you need that untap for the mana. Also note that the multiple beginning phases will happen back-to-back, with the most recently added phase happening first.
+
+If you had 10 mana to spend, you could make it work by activating AA twice:
+
+Post-Combat Main (normal)
+Combat (added by 1st AA)
+Post-Combat Main (added by 1st AA)
+Beginning (added by sphinx in 1st AA post-combat main)
+Combat (added by 2nd AA)
+Post-Combat Main (added by 2nd AA)
+
+These 6 phases can form a loop if you activate AA twice every cycle. You get the creature untap twice in phase 4, and not at all in phase 6, but you get a full untap step as part of phase 7 (normally this won't matter unless there's effects that modify what untaps in an untap step like Intruder Alarm or Bind the Monster)
+

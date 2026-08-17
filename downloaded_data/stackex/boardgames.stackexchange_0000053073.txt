@@ -1,0 +1,50 @@
+Q:
+
+Still blocked *by that creature* if removed from combat?
+
+I've read:
+
+If a blocking creature leaves the battlefield, is the attacker still blocked, or will it damage the opponent?
+
+My question is about effects which occur when a creature "blocks or is blocked by" another creature, but regeneration is in the mix.
+Specifically, I'm looking at Venom plus Regeneration.  I know that regenerating a creature removes it from combat, and I know if the regenerated creature had been assigned as a blocker, the creature it blocked remains blocked after regeneration (i.e. it doesn't damage the defending player unless it has trample).
+But, does the blocked creature remain blocked by the regenerated creature such that Venom's ability will trigger?  Or in the other direction, if I attack with a creature using Venom and Regeneration, if I regenerate it would the blocking creature(s) still be destroyed?
+Follow-up: If the answer is "no" I would imagine that Venom plus Elvish Scout (plus Lure or Tempting Licid) would still work to destroy all blockers, since Elvish Scout doesn't mention removing from combat, only untapping...or does untapping remove from combat anyway?  Would vigilance make the combo work?
+
+A:
+
+Let's look at Venom's Oracle text, because that makes this a little easier to understand:
+
+Whenever enchanted creature blocks or becomes blocked by a non-Wall
+creature, destroy the other creature at end of combat.
+
+That text sets up a delayed triggered ability.
+
+603.7. An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain
+“when,” “whenever,” or “at,” although that word won’t usually begin
+the ability.
+
+The delayed trigger for Venom is "at the end of combat" so when the end of combat happens, you destroy the creature that blocked the one enchanted with Venom.
+
+603.7b A delayed triggered ability will trigger only once—the next time its trigger event occurs—unless it has a stated duration, such as
+“this turn.” If its trigger event occurs more than once simultaneously
+and the ability doesn’t have a stated duration, the controller of the
+delayed triggered ability chooses which event causes the ability to
+trigger.
+
+Venom's ability doesn't state that the creature being destroyed must be a blocking creature, so it doesn't matter if it left combat (because of regeneration or otherwise).  Even if it did, it wouldn't matter because of rule 603.7c:
+
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However,
+if that object is no longer in the zone it’s expected to be in at the
+time the delayed triggered ability resolves, the ability won’t affect
+it. (Note that if that object left that zone and then returned, it’s a
+new object and thus won’t be affected. See rule 400.7.)
+Example: An
+ability that reads “Exile this creature at the beginning of the next
+end step” will exile the permanent even if it’s no longer a creature
+during the next end step. However, it won’t do anything if the
+permanent left the battlefield before then.
+
+So the short answer to your question is, as soon as the blocking happens, the other creature is going to be destroyed at the end of combat regardless of if it leaves combat.  Regenerating before the end of combat will not save it from being destroyed (an additional regeneration can save it from the delayed trigger's destroy effect though).  And yes, using something like Elvish Scout + Lure + Venom is a good way to make a one sided board wipe.
+Also look at the rulings on Cockatrice (https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=108912) to see a similar type ruling about needing to possibly regenerate twice to survive combat.
+

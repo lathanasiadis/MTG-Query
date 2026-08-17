@@ -1,0 +1,13 @@
+Q:
+
+If a spell is countered, do on cast effects still get triggered?
+
+If I cast a spell that has an "on cast" effect, does the effect still trigger even if the spell is countered? For example, if I play Ulamog, the Ceaseless Hunger and it gets countered by a counter spell, do I still get to exile 2 target permanents? 
+
+A:
+
+Yes. A player doesn't have a chance to cast a counterspell until after you have finished "casting" your spell, and any "when cast" triggers are triggered and put on the stack. At that point, a player could counter your spell, but the triggered ability is still there as a completely separate thing.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+

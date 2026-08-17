@@ -1,0 +1,28 @@
+Q:
+
+Does Brain in a Jar let you cast a Sorcery at Instant speed?
+
+This question is about the wording on a new card Brain in a Jar:
+
+{1}, {T}: Put a charge counter on Brain in a Jar, then you may cast an instant or sorcery card with converted mana cost equal to the number of charge counters on Brain in a Jar from your hand without paying its mana costs.
+
+Does this mean that we can cast a sorcery at instant speed? On an opponents turn?
+
+A:
+
+Yes, Brain in a Jar allows you to cast a sorcery at any time that you can resolve the ability, even during your opponents' turns. But technically, you're not even casting it "at instant speed". When a spell or ability instructs you to cast a spell, you go through the process of casting the spell while that spell or ability is resolving. Doing so completely ignores the standard timing restrictions of non-instant spells.
+The reason this works is that the rules don't actually restrict when non-instant spells can be cast. They actually just allow you to cast the spell at certain times. So, the rule for Instants, 304.1, says
+
+A player who has priority may cast an instant card from his or her hand.
+
+And the rule for Sorceries, 307.1, says
+
+A player who has priority may cast a sorcery card from his or her hand during a main phase of his or her turn when the stack is empty.
+
+As you can see, the rules do not by default allow you to cast sorceries in as many situations as it allows you to cast instants, but neither rule says that those are the only times when you can cast those spells.
+So, when you activate Brain in a Jar's ability, it essentially says "you can also cast an instant or sorcery (with a particular CMC) during the resolution of this ability".
+Remember that if a spell explicitly says that you can only cast it at a certain time, or that you can't cast it at a certain time, Brain in a Jar does not allow you to avoid that restriction. So, Brain in a Jar does not allow you to cast Berserk after the combat damage step.
+This difference between rules that allow you to cast spells at certain times and text that restricts when you can cast spells is the reason that cards that let you cast spells like Bring to Light have rulings like this one:
+
+If you cast the exiled card, you do so as part of the resolution of Bring to Light. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored, but other restrictions (such as “Cast [this card] only during combat”) are not.
+

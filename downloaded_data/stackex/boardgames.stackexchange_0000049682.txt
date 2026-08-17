@@ -1,0 +1,19 @@
+Q:
+
+Can you 'tap an untapped artifact you control' if it doesn't have a tap ability of its own?
+
+The text of Zahid, Djinn of the Lamp states that it is possible to cast it by paying an alternative cost {3}{U}, plus tapping an artifact.
+However, it is necessary to specify that the artifact in question must allow its specific "to tap", otherwise the operation cannot be performed.
+However, all of this at least in my opinion, which could certainly not coincide with what we all call "the truth", about this particular situation.
+For example, you can cast Zahid by tapping Tormod’s Crypt, or Fountain of Youth, because these cards can be tapped to perform their specific activated abilities.
+However, in my opinion it is not possible to cast Zahid by tapping, for example, Ivory Tower, or Black Vise, since these cards are always active and have no tap symbol on their text.
+As a limit situation, it would be possible to cast Zahid also by tapping Howling Mine, as the latter card text clearly specifies that this card can be tapped, even if there is no "tap" symbol on the card.
+Is this correct?
+
+A:
+
+An artifact is either tapped or untapped. An untapped artifact is a resource that can be used, as long as you have a card that says it can use it.
+An artifact with an activated ability that uses the tap symbol can use its own "untapped-ness". A card that says "tap an untapped artifact you control" can use the "untapped-ness" of any artifact you control, and the abilities on the artifact doesn't affect this in any way (unless you come across one that says it cannot be tapped).
+Each tapping of an artifact can only be used to pay for the cost of one spell or ability. So you can't tap Tormod's Crypt for Zahid, and then sacrifice it for its own ability. You will have to wait to sacrifice it until it's untapped again so that you can tap it for its own ability. If you have abilities that trigger on an artifact being tapped, then nothing stops multiples of those from triggering, though.
+As for artifact creatures (or any other creature for that matter) with summoning sickness (specifically, one that hasn't been under your control since the beginning of your most recent upkeep), this only stops the creature from doing two things: attacking, and using abilities with the tap symbol as a cost. It does not stop it from being tapped in any other way.
+

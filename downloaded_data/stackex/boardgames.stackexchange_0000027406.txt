@@ -1,0 +1,22 @@
+Q:
+
+Ordering triggers
+
+Hey I have yet another question from my esper rally deck.
+My opponent is at 3 life. I have no more cards in my library and no creatures in play. My graveyard has Nantuko Husk, Zulaport Cutthroat, 2 Grim Haruspex. I cast Rally The Ancestors for 3. Can I win via Zulaport Cutthroat triggers before decking myself?
+If I can win, could I still win if instead of Nantuko Husk I had 3 Fleshbag Marauder in the graveyard?
+
+A:
+
+You can win, if you are careful with the triggers. Remember, when multiple abilities trigger at the same time, you get to choose what order to put them on the stack. The key here is to sacrifice creatures in response to the Grim Haruspex trigger so that it never resolves.
+Specifically, after Rally The Ancestors resolves, you can win by doing the following:
+
+Sacrifice one of the Grim Haruspex with the Nantuko Husk's ability. One Grim Haruspex ability triggers, along with Zulaport Cutthroat's ability. Put the Grim Haruspex's ability on the stack first.
+Allow the Zulaport Cutthroat's ability to resolve. Your opponent is at 2 life, and the Grim Haruspex's ability is on the stack.
+Sacrifice the other Grim Haruspex. Zulaport Cutthroat's ability triggers again.
+Allow the Cutthroat's ability to resolve. Your opponent is at 1 life, and the Grim Haruspex's ability is still on the stack.
+Sacrifice the Nantuko Shade. Zulaport Cutthroat's ability triggers a third time.
+Allow the Cutthraot's ability to resolve. Your opponent goes to 0 life, and you win the game with the Haruspex's ability still on the stack.
+
+You cannot win if the Nantuko Husk is replaced with 3 Fleshbag Marauders. In that situation, once Rally the Ancestors resolves, you will have 3 triggered abilities from the Fleshbag Marauder on the stack. Then, you can do nothing but let one of them resolve. When it does, no matter which creature you sacrifice, you put on the stack 1 Zulaport Cutthroat trigger and at least 1 Grim Haruspex trigger. This means that you will have to let a Grim Haruspex ability resolve before you have the opportunity to sacrifice another creature.
+

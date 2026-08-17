@@ -1,0 +1,33 @@
+Q:
+
+When is my last opportunity to turn a manifested Kytheon face up and still cause his trigger?
+
+I have 3 creatures that have attacked, one of which is a manifested Kytheon, Hero of Akros. Assuming he will survive combat, when is my last opportunity to "un-manifest" him from a 2/2 and still receive his planeswalker flip trigger? Can I do it after damage, or do I have to do it after blocks, or even as far back as before I declare attackers?
+
+A:
+
+The only restriction is that you have to do it before the End of Combat step, so you can do it after damage is dealt.
+When Kytheon's ability says "if Kytheon, Hero of Akros attacked..." it means "if this creature attacked...". Specifically, rule 201.4 says
+
+Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+and rule 701.31a says
+
+"Manifest [a card]" means "Put [that card] onto the battlefield face down." That permanent is a 2/2 creature with no text, no name, no subtypes, and no mana cost. That permanent is a manifested permanent as long as it's face down. The effect defining its characteristics works any time the card is face down and ends when it's turned face up.
+
+The point here is that Manifest is an effect that changes the creature's characteristics, including its name, but it's still the object that "Kytheon, Hero of Akros" refers to.
+Rule 110.6 says
+
+A permanent's status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+
+and rule 701.31b says
+
+Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what its mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. If the card representing that permanent isn't a creature card or doesn't have a mana cost, it can't be turned face up this way.
+
+As both of these indicate, when a manifested creature is turned face up, it is the same object that it was when it was face down.
+Finally, rule 511.1, the rule describing the End of Combat step says
+
+First, all "at end of combat" abilities trigger and go on the stack.
+
+Therefore, as long as Kytheon's ability exists when the End of Combat step starts, and you met the requirements, it will trigger and Kytheon will flip. The last time you gain priority before the End of Combat step is during the Combat Damage step, after damage is dealt, so that is your last opportunity to turn Kytheon face up and have the ability trigger.
+

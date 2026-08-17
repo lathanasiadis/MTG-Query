@@ -1,0 +1,51 @@
+Q:
+
+Question about the MTG stack
+
+So recently in a four way battle a weird situation came up that I would like clarification on. This was casual as it gets so I'm not concerned about the outcome; I just want to learn from the situation to play my deck better.
+Anyways here's the setup: It is currently my turn, and I plan on playing three spells this turn: starting with Insult, then Lightning Strike, and then another Lightning Strike. During this I am also dealing damage to the remaining two players due to Electrostatic field, which brings one opponent down to 6 life.
+In the midst of all this, specifically between my first and second Lightning Strike, that player taps Tree of Redemption, a monster that switches his life total with it's toughness (13). So that stack would be Insult, LS, Monster tap, LS (I'm assuming). Due to the double damage on Insult for the turn would the first resolved LS deal 6 damage, effectively killing that player? Would this also mean his tap to switch his monsters toughness with his life works because it's still on the stack? Thanks for any help hopefully this makes sense.
+
+A:
+
+I'm assuming here that the player you've named Tree began this exchange with 9 life and Dino began with 18.  That means the sequence will most likely go something like this:
+
+You cast Insult
+Electrostatic Field triggers.  It's triggered ability is placed on the stack above Insult, so the stack is currently:
+
+Electrostatic Field trigger
+Insult
+
+Each player passes priority.  Electrostatic Field's ability resolves and does one damage to each of your opponents.  This reduces Tree to 8 life and Dino to 17.  Insult is now the only thing on the stack.
+Each player once again passes priority.  Insult resolves creating a continuous effect that doubles damage for the rest of the turn.
+You cast Lightning Strike targeting Tree.
+Electrostatic Field triggers again.  No one has a chance to act between you casting Lightning strike and Field's ability being put on the stack.  The stack is now:
+
+Electrostatic Field trigger
+Lightning Strike
+
+From here, there are a couple ways things could play out depending on when Tree acts.  I'll go over the most likely scenario:
+
+Each player passes priority.  Field's trigger resolves dealing 2 damage to each opponent due to Insult's continuous effect.  This reduces Tree to 6 life and Dino to 15 life.  Lightning Strike is now the only thing on the stack.
+Tree activates Tree of Redemption, placing it's activated ability on the stack.  The stack now looks like this:
+
+Tree of Redemption's ability
+Lightning Strike
+
+You cast another Lightning Strike targeting Tree.
+Electrostatic Field Triggers again.  The stack is now:
+
+Electrostatic Field trigger
+Lightning Strike
+Tree of Redemption's ability
+Lightning Strike
+
+Each player passes priority.  Electrostatic Field's ability resolves, dealing 2 damage to each opponent.  This reduces Tree to 4 life and Dino to 13 life.  The stack is now:
+
+Lightning Strike
+Tree of Redemption's ability
+Lightning Strike
+
+Each player passes priority again.  Lightning Strike resolves, dealing 6 damage to Tree due to Insult's continuous effect.  Tree is reduced to -2 life and loses the game.  All objects owned by them immediately disappear from the game.  This includes all of their permanents on the battlefield as well as the Tree of Redemption ability they own on the stack.  That leaves only your other Lightning Strike on the stack.
+Each remaining player passes priority.  Lightning Strike tries to resolve, but it no longer has a target.  Since it has no target it is moved to your graveyard without resolving (often referred to as "Fizzling").
+

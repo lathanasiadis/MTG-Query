@@ -1,0 +1,72 @@
+Q:
+
+Does Skyward Eye Prophets get an extra use of its ability because it has vigilance?
+
+So I was playing some commander with a friend and lent him my Derevi, Empyrial Tactician deck, which had Skyward Eye Prophets in it which basically taps to do a Coiling Oracle. He claimed that somehow because Skyward Eye Prophets has vigilance, he can cheat out an extra use with it while attacking, and I don't really understand how this works. Could someone please explain it? 
+I'm not sure if i'm just misunderstanding the vigilance keyword ability in general, but my understanding is the creature just doesn't tap when it attacks. I don't really think what he was doing works but he's much more experienced than me so I'm not really sure.
+
+A:
+
+Your friend is either playing incorrectly or explaining things poorly. Something sounds seriously muddled up. I'm going to explain how things could legally happen here, then explain the mistakes that could be getting made.
+Also, you're right: vigilance simply means "attacking doesn't cause this creature to tap." It doesn't do any untapping, it simply makes declaring an attacker not tap it in the first place.
+The Combat Phase
+As a quick reminder, let's go through how the combat phase works:
+
+Beginning of Combat Step. "At the beginning of combat" abilities trigger, then players have a chance to cast spells and activate abilities. 
+Declare Attackers Step.
+
+The attacking player chooses any number of creatures they control that they wish to declare as attackers. Those creatures must be untapped at this point — you can't attack with a tapped creature. They choose which player or planeswalker those creatures are attacking, then tap all their declared attackers except the ones with vigilance.
+Any triggered abilities just triggered go on the stack (e.g. Territorial Hammerskull) then players can cast spells and activate abilities.
+
+Declare Blockers Step.
+
+The defending player(s) choose any number of untapped creatures to declare as blockers (including none), then assign them legally as blockers to specific attackers.
+Any triggered abilities just triggered go on the stack (e.g. Pride Guardian) then players can cast spells and activate abilities.
+
+Combat Damage Step. Players say how damage will be assigned, then all of it is assigned simultaneously. Then we do triggered abilities again (e.g. Daring Saboteur) and players can cast spells and activate abilities again.
+End of Combat Step. One last chance to cast spells and activate abilities before it stops being combat and creatures stop counting as attacking/blocking (e.g. Divine Verdict).
+
+How this can legally happen
+Let's call your friend Sam, and Skyward Eye Prophets just "SEP".
+
+Sam has Derevi out on the battlefield already.
+Declare attackers step: Sam attacks with SEP.
+Declare blockers step: The defender cannot or does not block SEP.
+During that step, Sam knows they're in the clear. Sam taps SEP for its ability and resolves it.
+Combat damage step:
+
+SEP deals combat damage.
+Derevi's triggered ability lets Sam choose to untap SEP. Sam does so.
+Sam uses SEP's ability again, tapping it.
+
+You can see none of that involves "cheating out an extra use while attacking" exactly, and none of it has much to do with Vigilance (other than Vigilance didn't make Sam tap SEP as an attacker). Sam just entirely normally gets an extra use out of dealing combat damage if they choose to untap SEP.
+In fact, Sam could get lots of uses out of SEP at that stage: for each creature of theirs that deals Combat Damage whilst Derevi is out, they can choose to untap SEP, and activate its ability each time. (Understanding how that works would require a good understanding of the stack & priority. If you're not familiar with those concepts, I recommend reading this answer, which helped me understand them when I was new.)
+But none of those are "cheating out an extra use while attacking".
+The mistakes that could be being made here
+Your friend could be doing things 100% by the rules, just explaining things poorly.
+Your friend could also be mistaken about how the rules work. If so, you and/or your friend could be thinking a combination of any/all of these.
+
+✘ Incorrect: Vigilance causes a creature to untap.
+
+✔ Correct: Vigilance just causes it to not tap as attackers are declared, as we covered earlier.
+
+✘ Incorrect: Tapped creatures can be declared as attackers (which then untaps them if they have Vigilance).
+
+✔ Correct: Only untapped creatures can be chosen as attackers during the Declare Attackers step.
+
+✘ Incorrect: If you attack with a creature (and tap it), all of its abilities with a {T} (tap symbol) in the cost are also activated simultaneously.
+
+✔ Correct: Doesn't happen. You usually have to choose between "tap for that ability" or "tap as an attacker" during your turn. Part of the beauty of a creature with Vigilance and a tap ability (such as SEP, or Vona, Butcher of Magan) is you can attack with it and then also use its {T} ability.
+Some creatures (like Frenzied Goblin) have a triggered ability of the format: "When (this creature) attacks, you may pay (cost). If you do, (stuff happens)." These you can use as a part of attacking, because it's just a triggered ability (see step 2.2 above) and you can pay that cost to have the stuff happen.
+
+✘ Incorrect: You can pay two costs with the same payment. If I'm tapping a creature to attack, I can also use that tapping to pay a cost of {T}! Also, I can activate the abilities of both Fathom Fleet Firebrand and Frontline Devastator with the same 2 mana: I am paying 2 mana, therefore I activate all abilities that involve paying 2 mana.
+
+✔ Correct: You cannot pay two costs with the same payment. You choose one thing to do, then pay the cost for that one thing. Then you may choose other things to do, and pay those costs. But all the costs are paid separately to each thing. (Much like you cannot buy a $5 lunch from ten different shops with the same $5 bill.)
+
+✘ Incorrect: Damage happens instantly as soon as I declare an attacker.
+
+✔ Correct: There's a Combat Phase process to follow, and attackers don't deal their damage until near the end of that process.
+
+In general, also bear in mind M:tG is a game with strict steps we move through one after the other: turn structure occurs in specific steps, so do the concepts of the stack and priority. We can't go wibbly-wobbly with the steps without breaking the rules, and those steps keep things pretty orderly.
+When in doubt about something complex somebody's doing, ask them to explain about the sequence of events that allow them to do it, and make sure it makes sense to you at each step and that it isn't breaking any game rules. There's been several times someone's tried to do something that didn't seem right, and through asking for that explanation, I either learned how it worked, or we spotted that some part of the sequence meant they couldn't actually do that thing they were trying to do. (Not out of cheating, mind — this is a complex game sometimes, and when it does get complex we can all do with a hand keeping things working right.)
+

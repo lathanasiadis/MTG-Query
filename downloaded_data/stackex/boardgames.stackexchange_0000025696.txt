@@ -1,0 +1,15 @@
+Q:
+
+Does the newly implemented Scry Rule change the way we play Magic: the Gathering?
+
+At Pro Tour Magic Origins, Wizards decided to implement a new rule, dubbed the Scry Rule. This rule stated that after mulligans (if any) had been taken, any player with fewer cards than the original amount of cards in hand is allowed to scry 1 before the game starts. This rule seemed to be widely praised by many MTG players, and is to be added to the Comprehensive Rulebook come Battle for Zendikar Pre-release.
+My questions are, does this make the game more fair for players who take mulligans? Does this somehow give an advantage to a player who decides to mulligan an iffy hand and draws a better, but not stellar, hand?
+Most importantly, does this new rule change the general mulligan strategy of MTG?
+
+A:
+
+In general, the mulligan strategy is unchanged: you should mulligan when the expected outcome for a mulligan is better than the expected outcome otherwise. The effect of the new rule is in giving a boost to the expected outcome for a mulligan.
+As the rules currently stand (the new scry after mulligan rule will not be implemented until the Battle for Zendikar prerelease), one should mulligan a 7-card hand when the probability of winning is lower than that the expected probability of winning with a random 6-card hand.
+Having the option to scry can only improve the probability of winning with a random 6-card hand, because you have the option of leaving the top card on top (yielding the same sequence of draws as if you didn't scry) or putting the top card on the bottom of library (presumably because it is worse than the average card in the deck). Since the expected probability of winning with a random 6-card hand under the new mulligan rule cannot be lower than under the old rule, one would expect more mulligans to take place, because the "cost" of a mulligan is decreased. That is, the threshold for a "bad" 7-card hand is higher than it was before.
+Exactly how much better a random 6-card hand gets would depend on the particulars of the deck being played. I would guess that very redundant decks (e.g., burn) would benefit little from the new rule because card advantage is more important, whereas decks the rely on strong synergies (e.g., combo) would benefit more from the improved card selection.
+

@@ -1,0 +1,15 @@
+Q:
+
+Can I double Furnace Scamp's triggered ability damage with a 3-counter Quest for Pure Flame?
+
+Assuming I have a Quest for Pure Flame with 3 quest counters on them and my Furnace Scamp deals combat damage to an opponent, can I then sacrifice my Quest in time to double the Scamp's triggered ability damage?
+
+A:
+
+Yes, you can use the Quest for Pure Flame's ability to double the damage from the Furnace Scamp's triggered ability.
+When the Furnace Scamp deals combat damage, both its triggered ability and the Quest's triggered ability go on the stack. For this to work, you have to put the Quest's triggered ability on top of the Scamp's ability. Then, do the following:
+
+Let the Quest's ability resolve. The Quest now has four counters.
+With the Scamp's ability still on the stack, activate the Quest's second ability and let that ability resolve. Now, for the rest of the turn, damage dealt by sources you control is doubled.
+Now let the Scamp's ability resolve. Since the Quest's ability has already resolved, the damage is doubled.
+

@@ -1,0 +1,18 @@
+Q:
+
+How does Goad interact with Archangel of Tithes?
+
+A new card Disrupt Decorum says: Goad all creatures you don't control. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)
+Now, I know if you have to pay a cost to attack with a creature, you don't have to attack with it. 
+However, if you are unable to attack all non-goad players, your creature must attack the goad player (if able).  
+So, if Player A goads my creature, and Player B has an Archangel of Tithes untapped (As long as Archangel of Tithes is untapped, creatures can't attack you or a planeswalker you control unless their controller pays 1 for each of those creatures. ...), can my creature not attack at all, or does it attack Player A? 
+
+A:
+
+They must attack the goading player.
+With Goad there are 2 requirements, one for if they are able to attack, and one for who they attack. When determining if an attack is legal you need to make sure it fulfills as many requirements as possible (without violating any restrictions like the Angel's preventing attacks) First are they able to attack? Second can they attack a player other than the one that goaded them? 
+In this case the creatures are able to attack, but there are no  players other than the one that goaded them they can attack. Since they are able to fulfill one of the requirements (the must attack) they do so even if it means violating another one (not attacking the goading player if able). Not attacking would fulfill fewer requirements so it is not a legal attack, and attacking the player with the Angel would violate a restriction so it is also not legal.
+From the Commander 2017 Release Notes:
+
+If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. It the creature can't attack any of those players but could otherwise attack, it must attack an opposing planeswalker (controlled by any opponent) or the player who goaded it.
+

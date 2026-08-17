@@ -1,0 +1,33 @@
+Q:
+
+What happens to a permanent I gained control over using Agent of Treachery, and I leave a multiplayer game?
+
+Let's say Alice took control over Bob's Leyline of Abundance using Agent of Treachery, and then Alice leaves a multiplayer game. What happens with Leyline of Abundance? According to rule 800.4a
+
+800.4a. When a player leaves the game, all objects (see rule 109) owned by that player leave the game, any effects which give that player control of any objects or players end, and all spells and abilities controlled by that player on the stack cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game.
+
+I thought the permanent would be exiled, but there is a ruling on Agent of Treachery that states
+
+Agent of Treachery’s effect lasts indefinitely. It doesn’t wear off during the cleanup step, and it doesn’t expire if Agent of Treachery leaves the battlefield. In a multiplayer game, it does expire if you leave the game.
+
+Which I assume means that the controlled permanent goes back to Bob. However, looking at a similar card Beguiler of Wills, which also takes control of a permanent (creature), there are no special rules that state "In a multiplayer game, it does expire if you leave the game.". Which means that the controlled creature will be exiled when Alice leaves the game (according to ruling 800.4a if I am not mistaken).
+Here are some similar questions:
+
+Do I lose control of a creature if the aura which granted me control of it is destroyed?
+In MTG, what happens when a player loses in multiplayer?
+
+A:
+
+When a player leaves the game, all objects (see rule 109) owned by that player leave the game, any effects which give that player control of any objects or players end, and all spells and abilities controlled by that player on the stack cease to exist.
+
+(emphasis mine)
+So Alice's control of the Leyline ends, and Bob controls it again. The Leyline won't be affected by
+
+Then, if there are any objects still controlled by that player, those objects are exiled.
+
+This sentence rarely matters, but as @Hackworth notes in the comments, Command the Dreadhorde is one of those situations. The Rulings under that card mention it as well:
+
+In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creatures and planeswalkers you control from Command the Dreadhorde’s effect are exiled.
+
+Regarding Beguiler of Wills, you can think of the Rulings in Gatherer as a sort of FAQ about the card. All Rulings can be traced back to the Comprehensive Rules; apparently Wizards didn't feel the need to add it. The situation is the same as with Agent of Treachery; the 'stolen' creature won't be exiled but will once again be controlled by its owner.
+

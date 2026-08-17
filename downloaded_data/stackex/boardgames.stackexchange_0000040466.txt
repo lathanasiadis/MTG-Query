@@ -1,0 +1,19 @@
+Q:
+
+Can you cast a card with Madness multiple times when it is discarded?
+
+If a card has madness and I have discarded it to exile, can I cast it multiple times or only once?
+
+A:
+
+Once.
+Let's start with the definition of Madness.
+
+702.34a Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player’s hand. The second is a triggered ability that functions when the first ability is applied. “Madness [cost]” means “If a player would discard this card, that player discards it, but exiles it instead of putting it into his or her graveyard” and “When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn’t, he or she puts this card into his or her graveyard.”
+
+When you "discard the card to exile", its second ability triggers. When its second ability resolves, it allows you to cast the card. The ability only triggers once, so you may only cast the card once.
+To be able to cast an exiled card multiple times, you'd need something like Isochron Scepter. There are two differences:
+
+The ability Isochron Scepter provides to allow you to cast the spell is repeatable.
+Isochron Scepter has the player cast a copy of the card rather than the card itself. Keep in mind that the first step of casting a spell is to move it to the stack.[CR 601.2a] Casting a copy of the card allows the card to stay exiled.
+

@@ -1,0 +1,23 @@
+Q:
+
+When a creature dies and later returns to the battlefield, does it keep +1/+1 counters?
+
+If I have a Bloodcrazed Hoplite that's been given +1/+1 counters from its heroic ability, and then it's killed by an enemy creature, and then I cast a spell that returns it to the battlefield, does it still have the +1/+1 counters on it?
+
+A:
+
+No, it does not keep the +1/+1 counters. Specifically, rule 121.2 says
+
+Counters on an object are not retained if that object moves from one zone to another. The counters are not "removed"; they simply cease to exist. See rule 400.7.
+
+and rule 400.1 says
+
+A zone is a place where objects can be during a game. There are normally seven zones: library, hand, battlefield, graveyard, stack, exile, and command. Some older cards also use the ante zone. Each player has his or her own library, hand, and graveyard. The other zones are shared by all players.
+
+So, when the Hoplite dies, it moves from the battlefield to the graveyard, and its counters disappear.
+More generally, rule 400.7 says
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+It has exceptions, but none apply here. The Hoplite that you return to the battlefield counts as a completely new creature with no memory of its previous existence on the battlefield.
+

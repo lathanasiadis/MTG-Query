@@ -1,0 +1,27 @@
+Q:
+
+Not enough cards for both players when casting Wheel of Fortune
+
+What happens if both players have only 3 cards in their library and I cast Wheel of Fortune (Each player discards his/her hand and draws seven cards) ?
+Is it any different if one player has 1 card and the other player has 3 ?
+
+A:
+
+Here are the relevant Comprehensive Rules:
+
+104.3c If a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+Nothing happens until a player would get priority, so the order in which the players drew the cards doesn't matter.
+
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+
+All the SBAs are performed simultaneously.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [...]
+
+All the players would lose simultaneously if it were not for the following exception:
+
+104.4a If all the players remaining in a game lose simultaneously, the game is a draw
+
+In both cases, the game ends in a draw. Because the rules pay no attention to what's happening during the spell's resolution, having more cards doesn't protect you in this case. As soon as state-based actions are checked (i.e. after the spell resolves) you both lose the game at the same time and it's therefore a draw.
+

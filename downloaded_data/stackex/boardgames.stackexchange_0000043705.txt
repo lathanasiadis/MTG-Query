@@ -1,0 +1,27 @@
+Q:
+
+Minds Aglow with X is 100 while Nekusar, the Mindrazer is on the field
+
+An Opponent has Nekusar, the mindrazer out and then casts Minds Aglow (join forces, each player draws that many cards) and pays 100 mana into it.
+He claims that the damage would be dealt before everyone decks out. 
+However, I think all the card draw is one effect and thus is done first, milling everyone simultaneously before the damage triggers go on the stack.
+Obviously he could have just paid 40 mana (at risk of other players paying more into it).
+Any confirmation that I am right?
+
+A:
+
+You are correct, the players would lose do to a mill effect before Nekusar, the Mindrazer would do any damage.
+Nekusar's triggered ability only goes on the stack the next time a player would receive priority. Before this happens, state-based actions would be checked, and players who were unable to draw would lose.
+During the resolution of Minds Aglow, players draw cards. This triggers Nekusar:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+Once Minds Aglow is completely done resolving, the active player gets priority. But before he does, state-based actions are checked.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+
+So not only do players lose before Nekusar's ability resolves, they would lose before they could even have a chance to do something like counter the ability, or cast anything else. Once Minds Aglow starts to resolve, there are no more chances to do anything.
+

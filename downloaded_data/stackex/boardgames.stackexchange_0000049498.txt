@@ -1,0 +1,15 @@
+Q:
+
+Do creatures with Defender have summoning sickness?
+
+Say I put down 2 Fog Banks during my turn, and once my turn ends would I be able to block creatures with trample, and cancel the effects of trample? Meaning that Fog Bank doesn't get destroyed, and no trample damage gets dealt to me?
+
+A:
+
+Creatures with defender have summoning sickness, there's no exception for them.
+But that doesn't affect how Fog Bank interacts with creatures with trample. Yes, if you play Fog Bank it will be able to block the next (opponent's) turn, but when a creature with trample is blocked by Fog Bank, it only needs to assign 2 damage (Fog Bank's toughness) to Fog Bank, and the rest will still 'trample over' to you.
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began. A creature can’t attack unless it has been under its controller’s control continuously since their most recent turn began. This rule is informally called the “summoning sickness” rule.
+
+Note that that rule doesn't say anything about blocking.
+

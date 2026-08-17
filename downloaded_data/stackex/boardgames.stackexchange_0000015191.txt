@@ -1,0 +1,21 @@
+Q:
+
+Hammer of Purphoros doesn't let me destroy my opponent's lands; why is that exactly?
+
+The text on Hammer of Purphoros reads:
+
+Sacrifice a land: Put a 3/3 colorless Golem enchantment artifact creature token onto the battlefield.
+
+I know that this doesn't allow me to destroy my opponent's lands but I would like to know why. What wording would allow me to do that? "Destroy target land"?
+
+A:
+
+"Sacrifice" and "Destroy" are 2 separate things, though they both result in sending a permanent to the graveyard. You can only ever sacrifice a permanent that you control:
+
+701.14. Sacrifice
+
+701.14a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+
+And you are correct about the second part, a card like Pillage would let you destroy an opponent's land.
+"Sacrifice" happens only when an ability tells you to "sacrifice" something (or keywords whose rules require sacrificing, such as Annihilate). "Destruction" can happen either from abilities that say "destroy", or from state-based effects such as a creature having taken too much damage. Things like "Indestructible" can prevent Destruction, but not Sacrificing.
+

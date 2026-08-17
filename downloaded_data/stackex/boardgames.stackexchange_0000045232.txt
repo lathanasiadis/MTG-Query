@@ -1,0 +1,15 @@
+Q:
+
+What happens if both players misunderstand the game state until it's too late?
+
+Let's take two players, Alice and Bob. Alice has a Tarmogoyf. She asks Bob what card types are in his graveyard. Bob fans out his graveyard, they do the math, and conclude Alice's Tarmogoyf is 5/6.
+Alice attacks, Bob blocks, and Alice casts Temur Battle Rage. That turns the Tarmogoyf into a lethal double striking trampler. Bob goes into the tank to see how he can possibly avoid dying, and then he notices that the Tarmogoyf is actually 4/5. In other words they miscounted, and not only does he survive, Alice dies in the counterattack. Oops.
+What happens now? Can Alice rewind the attack? If so, what happens to the fact that she revealed she's holding Temur Battle Rage? I imagine the answer to this question depends on what the REL level is; if so I'm interested in all RELs.
+
+A:
+
+First, players should never rewind game actions on their own; they should always call a judge to resolve problems like this.
+In the particular situation you describe, it is ambiguous whether any rule was actually broken. In this scenario, Tarmogoyf's power and toughness are derived information (see section 4.1 of the Magic Tournament Rules), and both players calculated it incorrectly based on all relevant information. The communication rules do prohibit misrepresenting free or derived information, but it is not really clear if that rule is broken here.
+At any level, a judge could reasonably determine that a game rule was violated, or that it was a simple game play mistake that the players have to live with. The Judging at Regular REL document provides for remedies for "player errors", so it would be reasonable for a judge to choose to rewind the game to the point where the error in calculation was made.
+Higher REL levels are governed by the Infraction Procedure Guide; at that level if the judge thinks a rule was broken, it would be handled based on section 3.7: Tournament Error — Communication Policy Violation. That would result in a warning for whichever player(s) are found to be in violation of that rule, and a possible recommended remedy is to rewind actions taken based on the erroneous information. How far they rewind would probably depend on who is found to have violated the rule.
+

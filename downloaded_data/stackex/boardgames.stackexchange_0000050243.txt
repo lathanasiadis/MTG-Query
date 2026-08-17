@@ -1,0 +1,27 @@
+Q:
+
+MTG Layer System - Does adding a basic land type to a land grant the mana ability at layer 4 or layer 6?
+
+This question was inspired by this question involving the interaction between Dryad of the Ilysian Grove, Ichthyomorphosis, and lands.
+In the original question, OP asked why his lands could tap for any color in spite of the fact that the Dryad had lost all its abilities.  This was, of course, due to the layer system, because the Dryad added the basic land types to all of it's controller's lands in layer 4 and then the Dryad later lost it's abilities in layer 6.
+However, in writing the answer, I found myself wondering about the abilities of the lands themselves.  I was wondering if the lands gain the abilities to tap for any color at layer 4, when they become all basic land types, or at layer 6, when abilities are added and removed from cards.  This distinction doesn't change the answer to the linked question in any way, due to rule 613.5.
+
+613.5. If an effect should be applied in different layers and/or sublayers, the parts of the effect each apply in their appropriate ones. If an effect starts to apply in one layer and/or sublayer, it will continue to be applied to the same set of objects in each other applicable layer and/or sublayer, even if the ability generating the effect is removed during this process.
+
+However, we all know Magic is an extremely complicated game sometimes, and there could be an edge case where the abilities being intrinsic to the basic land type or added at layer 6 could potentially effect the game state.
+Obviously, the Dryad's type-changing ability starts to apply in layer 4, and doesn't stop applying even though it is removed in layer 6, but does the intrinsic ability for basic lands to tap for their corresponding color appear at layer 4 or layer 6?
+I can see one of two possibilities.
+
+The ability to tap for mana is intrinsically tied to the basic land type.  A swamp doesn't gain abilities at layer 6 because Swamps tap for {B}.  Therefore, if you change a land into a Swamp via a type-changing effect, it gains the ability at that layer.
+
+A land having a basic land type is a continuous effect, and part of that continuous effect includes adding mana abilities.  If a land is a swamp, then at layer 6 it gains the ability to tap for {B}, because abilities are added at layer 6.
+
+A:
+
+When a card has one of the five basic land types it simply intrinsically has a corresponding mana ability:
+
+305.6 The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring to one of these subtypes. A land with a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}.
+
+This isn't granted by the layer system because the layer system is about interaction of continuous effects (and in fact exists inside the rule section named the same). The intrinsic ability isn't granted by a continuous effect; it's just granted by the rules as a matter of fact based on the card type. A card granted a basic land type simply has that ability as soon as it gains the type (at layer 4).
+A basic land can lose all abilities though, in which case it would lose these abilities in layer 6.
+

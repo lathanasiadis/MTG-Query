@@ -1,0 +1,18 @@
+Q:
+
+Does Dovescape counter Enchantment Creatures?
+
+I am really curious, does Dovescape counter enchantment creatures (such as Archetype of Aggression), or because they are also a creature, bypass it due to "noncreature spells" being part of it?
+
+A:
+
+Expanding on Erik's correct answer.
+
+205.2b Some objects have more than one card type (for example, an artifact creature). Such objects satisfy the criteria for any effect that applies to any of their card types.
+
+Dovescape checks as a spell is being cast that that spell lacks the creature type. A spell with both enchantment and creature fulfills both types, so is not non-creature. (It is both fully a creature spell, and fully an enchantment spell)
+Also good to note: a very similar case is called out specifically in Bestow's ruling:
+
+702.102c The check for whether a spell can legally be cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e.
+  Example: Aether Storm is an enchantment with the ability “Creature spells can’t be cast.” This effect doesn’t stop a creature card with bestow from being cast for its bestow cost because the spell is an Aura enchantment spell, not an enchantment creature spell, when the game checks whether the spell is illegal.
+

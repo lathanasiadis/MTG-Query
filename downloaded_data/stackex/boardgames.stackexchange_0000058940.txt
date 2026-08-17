@@ -1,0 +1,44 @@
+Q:
+
+Are there any MTG cards which test for first strike?
+
+Are there any Magic cards which test for first strike? I’m thinking of something like “Destroy target creature with first strike” or “Creatures with first strike get +1/+1 until end of turn”.
+
+A:
+
+Four cards specifically check for first strike:
+
+Kwende, Pride of Femeref has "Creatures you control with first strike have double strike."
+Tresserhorn Skyknight has "Prevent all damage that would be dealt to Tresserhorn Skyknight by creatures with first strike."
+Path of Mettle has
+
+When Path of Mettle enters the battlefield, it deals 1 damage to each creature that doesn’t have first strike, double strike, vigilance, or haste.
+Whenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.
+
+Momentum Rumbler has
+
+Whenever Momentum Rumbler attacks, if it doesn’t have first strike, put a first strike counter on it.
+Whenever Momentum Rumbler attacks, if it has first strike, it gains double strike until end of turn.
+
+A several cards gain or grant a variety of keyword abilities based on the abilities other creatures or creature cards have, including first strike:
+
+Akroma, Vision of Ixidor
+Cairn Wanderer
+Concerted Effort
+Escaped Shapeshifter
+Kathril, Aspect Warper
+Majestic Myriarch
+Odric, Lunarch Marshal
+Thunderous Orator
+
+Several cards exile or otherwise remove cards, and then gain a variety of keyword abilities that those cards have:
+
+Animus of Predation
+Death-Mask Duplicant
+Eater of Virtue
+Rayami, First of the Fallen
+Soulflayer
+Urborg Scavengers
+
+I found these using the Scryfall searches o:/creature.*with.*first strike/, o:/that.*have.*first strike/, o:/if.*has.*first strike/, and o:/as long as.*has.*first strike/. You could replace "first strike" with other keyword abilities in those searches to find cards that care about those keyword abilities.
+

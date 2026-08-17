@@ -1,0 +1,29 @@
+Q:
+
+What happens when a reanimated creature returns from exile?
+
+Let's say I bring a creature (the canonical Runeclaw bear) into play from an opponent's graveyard using one of the "enchant creature in a graveyard" cards (Necromancy, or Animate Dead, or Dance of the Dead).
+Now the Runeclaw Bear is exiled (by a Bishop of Binding, say).  Since it leaves the game, Necromancy goes to my graveyard, right?
+Later, the Bishop of Binding expires.  Thus, the Bear should return from exile.  Under my control, now independently of Necromancy?
+And what about "when Necromancy leaves the battlefield, that creature’s controller sacrifices it"?  Does that simply fizzle?
+
+A:
+
+In the examples you provide, yes, exiling and returning the creature will make it a "regular" creature again that no longer requires the enchantment to live. However, it will return to the battlefield under its owner's control, not yours.
+You are correct in most of your assumptions. When a creature enchanted with Necromancy etc. leaves the battlefield, Necromancy no longer enchants a legal target and is put into its owner's graveyard as a state-based action.
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+As its death trigger, it tries to make you sacrifice the creature it enchanted, but since that creature object no longer exists (it becomes a new object on zone change), that sacrifice simply doesn't happen. When the previously-enchanted, now exiled creature returns to the battlefield, it becomes a new object again, with no relation to its former existence. At that point, Necromancy is long gone and has no more effect on the Bear.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [..]
+
+The bear returns under its owner's control, i.e. your opponent's:
+
+610.3. Some one-shot effects cause an object to change zones “until” a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3b An object returned to the battlefield this way returns under its owner’s control unless otherwise specified.
+
+Note that there are a few reanimation effects that prevent the order of events as described. For example, the reanimation effect of Isareth the Awakener exiles the Runeclaw Bear when it would leave the battlefield. Even though Bishop of Binding would also exile the creature, Isareth's exile effect replaces the Bishop's, which means the Bishop's never happens, and thus the Bishop leaving the battlefield would not cause the Runeclaw Bear to return.
+
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. [..]
+

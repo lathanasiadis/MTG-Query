@@ -1,0 +1,21 @@
+Q:
+
+Does sacrificing a permanent cancel its effects, or do they still resolve?
+
+I read here that tapped permanents can be sacrificed, but if a permanent creates an effect before it is sacrificed, does the effect still resolve or is it cancelled?
+The reason I want to know is that I use Orcish Lumberjack to sacrifice a Forest that I also tap for {G}.
+Is a sacrifice equivalent to bury or destroy in that all three put the permanent in its owner's graveyard? Does sacrifice have any special side effects on the sacrificed permanent and any effects it has created?
+
+A:
+
+If a permanent does an effect before it is sacrified (ie a land tapped for mana or a creature tapped for a special ability), does this effect is canceled by the sacrifice?
+
+No. In general, once an ability has been activated or triggered, it does not get "canceled" for any reason. There are two exceptions:
+
+It is explicitly countered (for example, by the card Cancel, pun intended)
+If the ability has targets, and if all the targets are gone or invalid when the ability resolves, then it is implicitly countered. Remember that the thing that caused the ability to happen is not a target. Targets are only the things that you explicitly choose because the ability's text includes the word "target."
+
+Ultimately, is a sacrifice equivalent to burry or destroy, or has it special side effects on the sacrified target and its effects?
+
+Nope. The only thing involved in sacrificing a permanent is that you put it in the graveyard. However, keep in mind that regeneration does not prevent this from happening - in other words, if you regenerate a permanent, and then sacrifice it, it still goes to the graveyard. This differs from being destroyed: if you regenerate a permanent, and then it gets destroyed, the regeneration replaces the destruction so that the permanent doesn't go to the graveyard after all.
+

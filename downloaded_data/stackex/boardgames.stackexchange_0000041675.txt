@@ -1,0 +1,35 @@
+Q:
+
+Can Firesong and Sunspeaker deal damage to Planeswalkers?
+
+Is this the the equivalent of "new lightning bolt" effect due to rule change on planeswalker damage?
+Let me explain below the question and confusion.
+The new Buy-a-box promo, Firesong and Sunspeaker, has an effect that spells out “target creature or player”. Is this the first card where we have to remember that the effect excludes planeswalkers, i.e. we don't replace the text with “any target” since it's printed after the planeswalker damage redirection rule change?
+Channel Fireball's article Understanding the Dominaria Rule Changes and Sagas says:
+
+Now, imagine they print a card like this:
+
+New Lightning Bolt
+New Lightning Bolt deals 3 damage to target creature or player.
+
+This card explicitly excludes planeswalkers, but, if you don’t know when it was printed, you have no way of knowing. If New Lightning Bolt and old Lightning Bolt are both in your hand, they’ll have the exact same printed text, but one will work very differently. It’s not going to confuse any established players, but I can see how it could confuse someone who’s not already enfranchised.
+
+A:
+
+In early March, the release notes were accidentally published in Simplified Chinese, and Wizards of the Coast responded to that leak by publishing the release notes in all languages. In the release notes, the section about the planeswalker damage redirection rules change includes the following paragraph:
+
+Cards printed in the Dominaria set that deal damage to creatures and/or players but not to planeswalkers (such as the Planeswalker Deck card Chandra, Bold Pyromancer and the promotional card Firesong and Sunspeaker) require targets as written even though similar cards have received errata.
+
+In addition, the release notes list the text of Firesong and Sunspeaker as follows:
+
+Firesong and Sunspeaker (Buy-a-Box Promotional Card)
+  4RW
+  Legendary Creature – Minotaur Cleric
+  4/6
+  Red instant and sorcery spells you control have lifelink.
+  Whenever a white instant or sorcery spell causes you to gain life, Firesong and Sunspeaker deals 3 damage to target creature or player.
+
+and includes this ruling
+
+The last ability of Firesong and Sunspeaker can't target a planeswalker.
+

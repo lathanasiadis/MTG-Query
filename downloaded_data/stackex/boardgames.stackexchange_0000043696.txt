@@ -1,0 +1,27 @@
+Q:
+
+How will spells resolve MTG
+
+So I have 1/2 creature, opponent uses shock to kill it, then I answer with my giant growth and opponent responds with another shock. Will my creature survive or die?
+which spells will resolve first.
+I cast giant growth on 1/1 creature and enemy responds with shock. Will my creature take 2 damage first because shock is on top of a stack or will giant growth give +3/+3 to that creature until shock hits it?
+
+A:
+
+Your creature will die, if your opponent plays correctly.
+Here's your opponent's correct line of play in detail.
+Opponent plays Shock.  Shock is on the Stack.  Your opponent decided to do nothing else (also known as "passes priority") and you get a chance to respond.  You do, by casting Giant Growth.  You have nothing else to do, so you pass priority.  Your opponent gets a chance to respond before any spells resolve.
+The stack is now:
+
+Giant Growth
+Shock
+
+Your opponent casts Shock, and passes priority, and the stack looks like:
+
+Shock
+Giant Growth
+Shock
+
+You pass priority (i.e. you have nothing else you can do.)  Spells resolve one at a time, the most recently cast spell resolving first.
+Your opponent's Shock does two points of damage to your creature.  Your creature dies, before your Giant Growth resolves.
+

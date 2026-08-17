@@ -1,0 +1,12 @@
+Q:
+
+Can Reveillark bring itself back from the graveyard?
+
+Can Reveillark's leaves-the-battlefield ability target itself?
+For example, let's say its power and thoughness are turned to 0: it is destroyed (so its ability triggers) and its power is 2 or less (so it can be a target).
+
+A:
+
+Reveillark cannot target a Reveillark card in the graveyard, including itself. While it is in the graveyard, it has its printed characteristics, including 4 power. There are currently no cards that can change the power or toughness of a creature card in a graveyard. So, once it is in the graveyard, it is not a legal target of its own ability, even if it had power 2 or less while on the battlefield.
+However, there is a way to get a very similar effect. If you have a Clone, for example, copying a Reveillark, and the Clone dies, it will have power 0 while in the graveyard, and it will be a legal target for the triggered ability. So it can bring itself back, and copy the Reveillark again, effectively achieving the same outcome that you are looking for.
+

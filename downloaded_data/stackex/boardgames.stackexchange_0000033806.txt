@@ -1,0 +1,37 @@
+Q:
+
+Order of resolution on same player controlled cards
+
+I have a Cathars' Crusade in play. I then play Zealous Conscripts. If my opponent's permanent I gain control of is a creature, does this creature also receive the counter from Cathar's Crusade?
+
+A:
+
+You have the opportunity to choose whether or not that creature gets a +1/+1 counter. It comes down to how you order these two triggered abilities involved.
+We'll examine giving it the +1/+1 counter first, then examine what you can do differently to makes sure it doesn't receive a counter.
+To be clear for those readers who may not be certain: when you take control of your opponent's creature, it will not count as (re-)entering the battlefield, and so does not trigger Cathar's Crusade itself.
+Making sure it receives the counter
+
+You cast Zealous Conscripts.
+
+You and your opponent pass priority (in theory), and then Zealous Conscripts resolves and enters the battlefield.
+
+Because someone now receives priority, we check for any triggered abilities that now have to go onto the stack. Zealous Conscripts entering the battlefield has caused two abilities to trigger: that of Cathar's Crusade, and that of Zealous Conscripts. Because they triggered simultaneously, you may put them in whatever order you like:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order,[note below] puts triggered abilities he or she controls on the stack in any order he or she chooses.
+
+You choose to place Cathar's Crusade's ability beneath, and Zealous Conscripts' ability on top (the top one resolves first).
+
+You resolve Zealous Conscripts' ability. Your opponent's creature comes under your control.
+
+Cathar's Crusade's ability resolves and places a +1/+1 counter on each creature you control, including the one you took from your opponent.
+
+If the creature survives to be returned to its owner, it will return with its +1/+1 counter still on it. How nice of you! (This could be a totally appropriate gift to an ally in a multiplayer free-for-all game.)
+Making sure it doesn't receive the counter
+At step 4 above, we'll make a different choice.
+
+You choose to place Zealous Conscript's ability on the bottom, and Cathar's Crusade's ability on the top of it.
+Cathar's Crusade's ability resolves first. It grants a +1/+1 counter to each creature you control, which at this point is just Zealous Conscripts and whatever else you already had.
+Zealous Conscript's ability resolves, and you take control of your opponent's creature. It gets no counter.
+
+Note: "APNAP" stands for "active player, nonactive player(s)". APNAP order means the active player does their thing, then each nonactive player in turn order. (In a 1v1, that just means one opponent is the NAP.) The active player is whoever is currently having their turn.
+

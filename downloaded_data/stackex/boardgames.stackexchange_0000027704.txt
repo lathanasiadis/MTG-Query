@@ -1,0 +1,42 @@
+Q:
+
+Do commanders "die" if they go to the command zone instead?
+
+If my commander would die and I opt to move it to the command zone instead of the graveyard, does it cause a "when a creature dies" ability trigger?
+An example would be Fool's Demise. If my opponent puts that on my commander, and then does lethal damage to it, would they get my commander or could I put it in my command zone?
+I'd love any answer, but my playgroup needs an actual rule. So I would love a supporting rule citation.
+
+A:
+
+Yes, commanders can trigger “dies” triggers as they head to the command zone
+This new rules change was announced on June 7, 2020 and became active in the Commander rules circa the release date of Core Set 2021. I'll explain the rules basis later, but to summarise the new rules:
+
+If your commander would be put into the graveyard or exile, you can opt to send it to the command zone. If you do, it will hit your graveyard or exile and then be put into the command zone the next time state-based actions happen. Abilities will see that it died or got exiled, so your commander dying can trigger death triggers (its own or those of other cards).
+If your commander would be put into your hand or library, you can opt to send it to the command zone. If you do, it goes there instead of your hand or library. It will never actually be put into your hand or library and cards will not see it enter those zones.
+
+This means:
+
+If Elenda, the Dusk Rose is your commander and dies, you can send her to the command zone, and her death trigger will still go on the stack to give you Vampire tokens.
+Dark Prophecy will see your commander die, even if you send your commander to the command zone.
+Kresh the Bloodbraided will see peoples' commanders die and will get +1/+1 counters equal to the power of that commander as it last existed on the battlefield.
+Azorius Aethermage will not see your commander return to your hand if you opt to send your commander to the command zone.
+If your commander dies and you send it to the command zone, many “dies” triggers that expect to see it in the graveyard will lose track of it. For example, Dread Slaver can't return a commander to the battlefield it killed if the commander's owners sent it to the command zone. This is because the commander is no longer in the graveyard, and Dread Slaver can't return creatures that are no longer there.
+
+Note that you're only given the option to move your commander out of the graveyard/exile to the command zone once—the very next time state-based actions are checked. In simple terms, this will be immediately after the spell/ability that put them there resolves, or if they died from combat damage, immediately after things die from combat. In both cases, you'll do this before any triggered abilities go on the stack and before anyone has any opportunity to cast spells and activate abilities.
+If you don't move your commander to the command zone then, they'll be stuck where they are until you find another way to move them. You won't have indefinite permission to move them out from then onwards.
+The rules didn't always work this way. Prior to this date, if you wanted to send a commander to the command zone instead of graveyard or exile, it would never reach graveyard or exile first and nothing would see it die or get exiled. The rules for putting a commander into its owner's hand/library haven't changed though.
+What's the rules basis for it working this way?
+A commander being sent to your graveyard or exile is now handled by a state-based action instead of a replacement effect.
+The new state-based action is as follows:
+
+If a commander is in a graveyard or in exile and that card was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone.
+
+This means if your commander dies, you put it into the graveyard as normal. The next time state-based actions are checked, you can move it to the command zone. This state-based action will take place before any triggers go on the stack as a result of your commander dying. But those triggered abilities have already been triggered, and will still go on the stack the next time they have a chance to do so.
+Your commander heading to your hand or library is still handled as a replacement effect:
+
+If a commander would be put into its owner’s hand or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event.
+
+If you cast Rescue on your commander and choose to send them to the command zone, then because this is a replacement effect, Rescue functionally reads “Put target permanent you control into the command zone” — the “return to your hand” event is replaced and never happens.
+
+For those interested, you can view the Commander rules both before and after the change on the Wayback machine: its content before this change was archived on June 18, and its content with the change was archived on August 18.
+

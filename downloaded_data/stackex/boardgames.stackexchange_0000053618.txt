@@ -1,0 +1,11 @@
+Q:
+
+Does Abandoned Sarcophagus exile Rebuild if I cast it?
+
+I have recently built a cycling commander deck and have a question about an interaction between Abandoned Sarcophagus and Rebuild. If I have Abandoned Sarcophagus on the battlefield and cast Rebuild, is Rebuild exiled from Abandoned Sarcophagus's ability or does Abandoned Sarcophagus's ability not apply because the Abandoned Sarcophagus has been returned to my hand?
+
+A:
+
+Rebuild will go to the graveyard, not exile, because the Abandoned Sarcophagus has already been returned to your hand.
+The most important thing to note here is that Abandoned Sarcophagus's second ability is a replacement effect. You can tell because it uses the word "instead" [CR 614.1a]. This means that it applies at the time that the event it replaces occurs. In this case, that event is Rebuild going to the graveyard. By the time Rebuild finishes resolving and goes to the graveyard, it has already returned Abandoned Sarcophagus to your hand, so that replacement effect no longer exists and it no longer moves the Rebuild to exile.
+

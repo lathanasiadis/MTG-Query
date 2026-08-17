@@ -1,0 +1,14 @@
+Q:
+
+Effect dependencies and ability adding/removing effects
+
+I have an abstract question about MTG comprehensive rules, regarding 613. Interaction of Continuous Effects.
+Suppose I have some active continuous effects A, B, C (given in timestamp order) in layer 7. Suppose A depends on C: rule 613 tells me I need to apply the effects in the following order: B, C, A.
+Now a new continuous effect D is created in layer 6, which removes all abilities from the object that contains the static ability that is producing effect C. After an event occurs, I reevaluate the game state. I have 4 continuous effects, A, B, C and D. Rule 613 tells me to sort them so: D, B, C, A. But right after I apply effect D to the game state, effect C becomes inactive. 
+My question is: am I supposed to continue applying the remaining effects in the initial order (B, A), or am I supposed to re-sort them into A, B as the dependency that forced B to come before A no longer exists?
+
+A:
+
+Never mind, I shouldn't be reading comprehensive rules late at night...
+613.7c After each effect is applied, the order of remaining effects is reevaluated and may change if an effect that has not yet been applied becomes dependent on or independent of one or more other effects that have not yet been applied.
+

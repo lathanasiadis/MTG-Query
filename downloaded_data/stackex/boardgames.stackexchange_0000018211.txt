@@ -1,0 +1,14 @@
+Q:
+
+polymorphist's jest and emrakul
+
+Polymorphist's Jest says each creature target player controls loses all abilities and becomes a blue Frog with a base power and toughness 1/1. My question is...  how would this work with Emrakul? Like let's say a player attacks with Emrakul, you cast Polymoprhist's Jest and then lightning bolt Emrakul.
+My assumption is that the defending player would still have to sacrifice six permanents because the attack is earlier in the stack.
+And when Emrakul hits the graveyard does it go into the graveyard and stay there or does the graveyard still get shuffled into the library?
+
+A:
+
+Defending player will still have to sacrifice 6 permenants, and Emrakul and the rest of the graveyard will still be shuffled into the controller's graveyard.
+Anailator still happens, not exactly because the attack is earlier in the stack like you say ("the attack" doesn't go on the stack). But as soon as Emrakul is declared as an attacker, the "when attacks" ability triggers and goes in the stack. After that, it doesn't matter what happens to Emrakul. Best to kill it in the beginning of combat step.
+It still gets shuffled back in because that trigger happens "when it is put into the graveyard". And by that time, it's back to normal, sitting in the graveyard with its abilities. Note that if it said "when Emrakul dies..." instead, then it would NOT be shuffled back in, because when it dies triggers care about the state of the object as it was on battlefield, and the ability didn't exist in the battlefield.
+

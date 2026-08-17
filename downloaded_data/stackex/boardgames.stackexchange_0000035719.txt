@@ -1,0 +1,29 @@
+Q:
+
+Untapping a Creature that has "does not untap during its controller's untap step"
+
+If I have a creature enchanted by Ice Over
+
+Enchant artifact or creature
+Enchanted permanent doesn't untap during its controller's untap step.
+
+Can it be untapped with Initiate's Companion?
+
+Whenever Initiate's Companion deals combat damage to a player, untap target creature or land.
+
+If it can untap, does Ice Over go away?
+
+A:
+
+Can it be untaped with Initiate's Companion?
+
+Yes. Ice Over only prevents the enchanted permanent from untapping during its controller's untap step. Players don't get priority during the Untap step, so this only prevents the normal untapping of permanents at the start of your turn. It doesn't prevent the permanent from being untapped at any other time (e.g. by Twiddle or Initiate's Companion).
+If Ice Over's second ability was "Enchanted permanent can't be untapped", it would be a different story. I can't find such a card.
+
+If it can untap, does Ice Over go away?
+
+No. Ice Over can legally enchant untapped creatures.
+In contrast, Entangling Vines has "Enchant tapped creature", so untapping the creature it enchants would cause it to fall off.[CR 303.4c]
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+

@@ -1,0 +1,19 @@
+Q:
+
+Magic the gathering changing creature types
+
+So me and a couple friends were playing a hand of MTG. While doing so, I played a card called Seraph Sanctuary which has the ability
+
+Whenever an Angel enters the battlefield under your control, you gain 1 life.
+
+While playing an Angel card, however, one of the friend's used an ability to change the Angel's creature type to none at all during its casting. However the card reads Target creature. Does this imply that the Angel has to be in play before the creature type is changed? Because if you use it as an instant, it takes place before the angel is ever cast as per the "last played first to resolve" rule, so the angel won't technically even exist before the type is changed to nothing, therefore I believe it to be an illegal target for the creatures ability to change a creature type to none. I need to know the exact ruling if this is a legal move or if someone owes me an apology
+
+A:
+
+"Creature" (used as a noun) means "creature permanent", which means "creature permanent or token on the battlefield".
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+110.1. A permanent is a card or token on the battlefield. [...]
+
+So, for example, Amoeboid Changeling's abilities can only target objects on the battlefield, so Seraph Sanctuary's second ability would already have triggered before you could even activate one of Amoeboid Changeling's abilities.
+

@@ -1,0 +1,18 @@
+Q:
+
+Can I destroy a Planeswalker before its abilities are used?
+
+If my opponent casts say an Elspeth, can I then Hero's Downfall that Planeswalker before any abilities are used? 
+I think my question boils down to: are planeswalker abilities sorcery or instant speed?
+
+A:
+
+You can only activate a planeswalker ability as a sorcery (when the stack is empty and it is your main phase). However, if your opponent casts a planeswalker, and it resolves, then he regains priority, which means that he will have the chance to activate an ability of his planeswalker before you can destroy it. You can cast Hero's Downfall in response, but that ability will already be on the stack and destroying the planeswalker won't stop it.
+However, if there is an ability that triggers on a planewalker entering the battlefield, then it is different. In this case, the triggered ability will go on the stack before your opponent has a chance to activate a loyalty ability, and you can cast Hero's Downfall while that trigger is on the stack.
+Here is a quote from the basic rules:
+
+Planeswalker
+Planeswalkers are powerful allies you can call on to fight by your side. You can cast a planeswalker only at the time you could cast a sorcery. They’re permanents, and each one enters the battlefield with the number of loyalty counters indicated in its lower right corner.
+Each planeswalker has loyalty abilities that are activated by adding or removing loyalty counters from the planeswalker. For example, the symbol {+1} means “Put one loyalty counter on this planeswalker” and the symbol {-3} means “Remove three loyalty counters from this planeswalker.” You can activate one of these abilities only at the time you could cast a sorcery and only if none of that planeswalker’s loyalty abilities have been activated yet that turn.
+Your planeswalkers can be attacked by your opponent’s creatures (if so, you can block as normal), and your opponents can damage them with their spells and abilities instead of damaging you. Any damage dealt to a planeswalker causes it to lose that many loyalty counters. If a planeswalker has no loyalty counters, it’s put into your graveyard.
+

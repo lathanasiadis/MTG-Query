@@ -1,0 +1,29 @@
+Q:
+
+Anticipate in response to instant
+
+So I was playing in a standard tournament for fun the other day, I was playing red white black mardu warriors against white blue control.
+I played Crackling Doom forcing him to sacrifice his only creature after he assigned his blocker.
+He responded to my Crackling Doom by playing an Anticipate. He then proceeded to look at the top three cards, took one (which was a counterspell or something, whatever it was, it countered my Crackling Doom), he said that he could play it on the stack after having drawn it.
+I said that he couldn't, but he proceeded to tell me like 3 times it was on the stack, but he didn't believe me. Doesn't the Anticipate have to resolve before he can even look at his top three cards?
+
+A:
+
+He can do that. And Anticipate does have to resolve before he can look at his top 3 cards. When he played Anticipate in response to your Crackling Doom, it went on top of the stack, with Crackling Doom under it. The stack resolves from top to bottom, so his Anticipate would resolve first. After it resolves, he still has a chance to cast more instants while Crackling Doom is still on the stack.
+These are the specific steps that happened:
+
+You have priority; you cast Crackling Doom. You pass priority.
+He has priority. He casts Anticipate.
+You both pass priority, causing the top spell on the stack to resolve.
+After Anticipate resolves, you as the active player get priority again. You could cast an instant here; in this case you pass priority.
+He has priority, he casts an instant that he got from Anticipate.
+You both pass priority, causing his new instant to resolve.
+You both pass priority again. If Crackling Doom is still on the stack (if his spell isn't a counter spell), NOW Crackling Doom resolves.
+
+The specific rules about this:
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+116.3c If a player has priority when he or she casts a spell, activates an ability, or takes a special action, that player receives priority afterward.
+116.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player's mana pool, he or she announces what mana is there. Then the next player in turn order receives priority.
+116.4. If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+

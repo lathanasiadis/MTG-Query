@@ -1,0 +1,16 @@
+Q:
+
+MTG instant "Expedite" - can I resolve second spell ability if I cannot resolve the first?
+
+The instant, Expedite says the following:
+
+Target creature gains haste until end of turn.
+Draw a card.
+
+If there are no creatures on the battlefield (or at least none under my control), am I required to resolve the first ability in order to resolve the second?
+
+A:
+
+If there are no creatures on the battlefield, you cannot cast the spell at all. You need to choose all of the specified targets to cast a spell. If the only creatures on the battlefield are under other players' control, you can cast the spell targeting one of those creatures. If you do, that creature will gain haste until end of turn and you will draw a card. The downside of doing that can be mitigated by casting the spell after combat or targeting a creature that would not benefit from haste.
+If you cast the spell and the targeted creature no longer exists when the spell begins to resolve, the spell will go directly to the graveyard and you will not resolve any of its abilities. This is not because of resolving the spell's abilities in order, but rather a rule about spells with targets.
+

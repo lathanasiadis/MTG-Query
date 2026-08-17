@@ -1,0 +1,28 @@
+Q:
+
+Humble and losing ALL abilities: Does this affect creatures with equipped artifacts?
+
+Humble causes a creature to become 0/1 and lose all abilities.  If the target creature has an artifact equipped, giving it +1/+1, before this instant is played, does the target lose any benefits applied from the artifact?
+
+A:
+
+Short Answer
+The creature will be a 1/2.
+Long Answer
+The Comprehensive Rules define a layer system. When multiple effects need to be applied, the layer system describes the order in which they happen. Humble sets the base power and toughness to 0/1 in layer 7b.
+
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied.
+
+Since the equipment modifies the power and toughness by giving the creature +1/+1, we know that it applies in layer 7c*.
+
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+
+We know that 7b applies before 7c because of rule 613.3.
+
+613.3. Within layer 7, apply effects in a series of sublayers in the order described [...]
+
+7b comes before 7c. Therefore, the example creature is first set to 0/1, then modified to 1/2.
+Trivia
+In the Magic 2015 Update Bulletin, the word "base" was added to cards like Humble. This was supposed to make it clear to players that it applies before other effects that might modify power and toughness. Prior to Magic 2015, cards like Humble still worked the same way, but it was less obvious. In other words, it was a nonfunctional change aimed solely at improving clarity.
+*The phrase "Equipped creature gets +1/+1" is an ability of the equipment, not an ability granted to the creature. If the equipment said "Equipped creature gains 'This creature gets +1/+1'", then it would actually be applied in Layer 6 instead.
+

@@ -1,0 +1,26 @@
+Q:
+
+Why doesn't Authority of the Consuls prevent the goblin token from Den of the Bugbear from attacking?
+
+While playing on Arena, I had 3 life left and an Authority of the Consuls on the board. My opponent had a Den of the Bugbear on the board and paid the one red and 3 colorless mana so that it became a creature and attacked.
+The Den of the Bugbear ability
+
+Whenever this creature attacks, create a 1/1 red Goblin creature token that's tapped and attacking
+
+triggered, created a goblin token. This in turn triggered my Authority of the Consuls:
+
+Creatures your opponents control enter the battlefield tapped.
+
+I then lost because the created Goblin token also attacked. Why was the Goblin token able to attack, when it was tapped? It was clearly affected by my Authority of the Consuls since I gained one life. I know that "comes into play attacking" is not the same as haste but as far as I know a tapped creature cannot attack.
+
+A:
+
+The Goblin token is already attacking, so it doesn't need to be able to attack, and it's already tapped, so Authority of the Consuls doesn't do anything relevant anyway.
+The specific sequence of events goes like this:
+
+The opponent activates Den of the Bugbear, making it a creature for the turn.
+Combat starts, and the opponent declares Den of the Bugbear as an attacker. Den of the Bugbear is now an attacking creature. This triggers the ability that it gained when it became a creature.
+The Den of the Bugbear's ability resolves, creating a Goblin token that is tapped and attacking. This Golbin token is now also an attacking creature. Authority of the Consuls also makes it enter the battlefield tapped, but it already enters tapped so that doesn't make a difference. This also triggers Authority of the Consuls' second ability (for completeness).
+Authority of the Consuls' second ability resolves, and you gain 1 life.
+The rest of combat plays out as usual, with Den of the Bugbear and the Goblin token as the attacking creatures.
+

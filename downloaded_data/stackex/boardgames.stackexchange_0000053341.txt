@@ -1,0 +1,28 @@
+Q:
+
+Does Containment Priest exile Dryad Arbor?
+
+Containment Priest has this effect:
+
+If a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.
+
+Dryad Arbor is a Land Creature — Forest Dryad. If I play Dryad Arbor as my land for the turn does it get exiled by Containment Priest?
+A strict reading of the rules indicate "yes", but it's very weird (since playing a land is apparently a special action that cannot be responded to) so I'd like to check.
+
+A:
+
+You can't cast a land, only play it:
+
+Cast
+To take a card from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. See rule 601, “Casting Spells.”
+
+601.1a Some effects still refer to “playing” a card. “Playing a card” means playing that card as a land or casting that card as a spell, whichever is appropriate.
+
+305.1. A player who has priority may play a land card from their hand during a main phase of their turn when the stack is empty. Playing a land is a special action; it doesn’t use the stack (see rule 116). Rather, the player simply puts the land onto the battlefield. Since the land doesn’t go on the stack, it is never a spell, and players can’t respond to it with instants or activated abilities.
+
+That means Dryad Arbor isn't cast, and Containment Priest's ability will exile it.
+
+since playing a land is apparently a special action that cannot be responded to
+
+That's right, but the rules talk about a situation when an opponent would like to cast/activate something that would resolve before the land enters the battlefield. Aether Flash would trigger for Dryad Arbor too.
+

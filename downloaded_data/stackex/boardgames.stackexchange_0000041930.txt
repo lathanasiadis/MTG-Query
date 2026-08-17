@@ -1,0 +1,12 @@
+Q:
+
+Can Burst of Strength save a creature that's already about to die?
+
+During a game I cast Fall of the Hammer (an instant) to kill my opponent's 2/2 Young Wolf. I targeted my Torch Fiend, which would've killed the Young Wolf. (Torch Fiend has 2 power.) He then also cast an instant, Burst of Strength to give his wolf +1/+1. Would this save the wolf, or is he unable to save the wolf since the wolf is already dead? I've searched this a million times in thousands of different ways and couldn't find a direct answer.
+
+A:
+
+Fall of the Hammer doesn't just kill something as soon as you say you're casting it. It goes on the stack. At that point, your opponent gets to choose what to do. If they do nothing, and let Fall of the Hammer resolve, then their Young Wolf dies like you said. But if they respond by casting Burst of Strength, that goes on the stack on top of Fall of the Hammer. It will then resolve first, making their Young Wolf a 3/3, and then Fall of the Hammer will resolve, with your Torch Fiend dealing only two damage, not enough to kill the Young Wolf.
+So: no, Burst of Strength can't save a creature that's already dead, but the creature wasn't already dead here. It was still right there on the battlefield, and your opponent did something to prevent it from dying.
+I would suggest making sure you're familiar with the stack before you run into many more situations like this one. The answers to this question might be a good starting point to read: In plain English, how does casting spells and using creature abilities work with the stack and priority?
+

@@ -1,0 +1,37 @@
+Q:
+
+Can I use the Graft ability even if the creature giving the counter only has one?
+
+So say I have Simic Initiate under my control and I cast Cytoplast Manipulator. The former’s Graft ability triggers and I choose to move its only counter onto the entering creature. Is that how that works? I’ve always thought that Simic Initiate would just die from it but my friend told me that, as it leaves the battlefield before the ability resolves, its no longer a legal graft.
+
+A:
+
+Simic Initiate's ability would be rather close to useless if that were the rule. The counter moves as the ability resolves, not after.
+We do have  704.122.5. which says
+
+If an effect says to “move” a counter, it means to remove that counter from the object it's currently on and put it onto a second object.
+
+This could be interpreted as saying that there's a moment in which the counters have been removed from Simic Initiate, but haven't been added to Cytoplast Manipulator yet. However, we have
+
+608.2f Some spells and abilities include actions taken on multiple players and/or objects. In most cases, each such action is processed simultaneously.
+
+So while 704.122.5.says that moving counters consists of two different actions. 608.2f says those actions are taken simultaneously.
+We also have the question of why Simic Initiate would die. We have that one state based action is:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+And when are state based actions checked?
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+And when do players receive priority?
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+There's nothing that gives anyone priority while an effect is resolving, only after it resolves. Between the Simic Initiate losing its counter and Cytoplast Manipulator receiving it, no one receives priority, and no state based actions are checked.
+On top of this, we have
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time wont affect the ability.
+
+So even if Simic Initiate were to die from its counter being removed, the effect of giving a counter to Cytoplast Manipulator would still take place.
+

@@ -1,0 +1,18 @@
+Q:
+
+Casting Goblin Matron with Plague Engineer on the battlefield
+
+If my opponent has Plague Engineer on the battlefield, with Goblin as the chosen creature type and I cast a Goblin Matron (1/1, when enters the battlefield search for a Goblin card), I know that I would lose the Matron on resolution but can I search for a Goblin? I presume/hope I can. 
+
+A:
+
+Yes, you can. The Goblin Matron enters the battlefield, and her ability will trigger then, and even though she's gone by the time the ability resolves, that doesn't matter.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+There's no such rule as 'whenever the source of an ability dies, the ability is countered'. Actually, somewhere else is mentioned that
+
+113.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+A similar situation (with an activated ability and a spell to destroy the source) was asked about in Can I use Naturalize to "counter" an activated ability?
+

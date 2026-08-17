@@ -1,0 +1,15 @@
+Q:
+
+Do I get copy of my opponents creature with Helm of the Host?
+
+I know I can't equip Helm of the Host to my opponents creatures. The scenario I was wondering about was, if I somehow get control of my opponents Trostani Discordant, like with The Eldest Reborn, I equip it on my first main phase. At the beginning of my combat step, I get another copy. In the end step, Trostani triggers and my opponent gains control of it, still equipped with Helm. What happens next? I would think, that on my opponents combat step nothing happens (since I am the controller of the Helm), and that I get another copy on my combat step, but I am not sure.
+
+A:
+
+Yes, that all works the way you expect. You will get copies of your opponent's creature at the beginning of your combat step.
+The most relevant rule here is rule 301.5d:
+
+An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with “gains” or “has”), the equipped creature’s controller is the only one who can activate that ability.
+
+So, even after you no longer control the creature, you still control the equipment and it stays attached to the creature.
+

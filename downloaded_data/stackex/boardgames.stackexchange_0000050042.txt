@@ -1,0 +1,32 @@
+Q:
+
+What happens if the Heliod/Spike Feeder combo meets the Heliod/Walking Ballista combo?
+
+Alice's board: Heliod, Sun-Crowned, Spike Feeder equipped with Swiftfoot Boots
+Bob's board: Heliod, Sun-Crowned, Walking Ballista, 2 mana to activate Heliod
+The turn prior, Alice played the infinite life combo and went to "infinite" life. By the rules she can't actually go to infinite life, just some very high but finite number (let's say 1 Googol). Then she passed the turn. Bob played Walking Ballista for 2, activates Heliod, and starts shooting. What happens now?
+
+Bob: shoot you for one? (Alice says OK) Gain life, pump my Ballista, shoot you for one? (Alice says OK) Loop 1 Googol times?
+Alice: OK, after your 1 Googol activations, with the 1 Googolth activation on the stack, I activate my Spike Feeder and gain 2 life?
+Bob: Okay, after you gain two life, shoot you 1 Googol times?
+Alice: In response, gain 1 Googol life?
+
+... and repeat.
+Looks related: What happens if both players have the ability to pump their creature an unlimited number of times? However the two infinite combos above might never lead to the same state, e.g. Bob can say "I shoot you half a Googol times", and it's not clear what life total Alice has afterwards (if she survives).
+
+A:
+
+It depends on which creature has more counters
+Say the Ballista has 4 counters, the Spike has 2.
+Bob activates their Ballista (3 counters left).  While the trigger is on the stack:
+Alice activates their Spike (1 counter left).  While the trigger is on the stack:
+Bob activates their Ballista (2 counters left).  
+Alice cannot activate her Spike again, or it will die and she will have no combo.  She's forced to let Bob resolve his Ballista trigger and his lifegain trigger.
+Before Alice's Spike trigger resolves, Bob activates their Ballista again (2 counters left).  
+As you can see, Bob's combo is running, and Alice's is stuck.  Bob can kill Alice.
+On the other hand, if the Spike had more counters than the Ballista, then Bob will lose his ability to run his combo before Alice does, and Alice will always be able to gain more life than Bob deals.
+If the Spike and the Ballista have the same number of counters, whomever starts activating their combo first will lose the race.  If Alice activates her Spike before Bob activates his Ballista, then he can kill her.  But if he activates his Ballista first, Alice will survive.
+Of course, the Ballista combo also generates an arbitrarily large sum of life for Bob, so he is motivated to activate it anyways (since Alice already has a large lifetotal).
+
+Notes: Letting the activated ability resolve and then activating your own ability on top of Heliod's triggered ability achieves the same result as if you had interrupted the activated ability.
+

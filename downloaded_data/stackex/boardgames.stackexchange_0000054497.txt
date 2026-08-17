@@ -1,0 +1,26 @@
+Q:
+
+Does the Ward keyword trigger Baral's card draw clause?
+
+Ward, the new keyword introduced in Strixhaven, counters spells and abilities that target that creature unless you pay a cost.
+
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+
+Now, Baral, Chief of Compliance says this:
+
+Whenever a spell or ability you control counters a spell, you may draw a card. If you do, discard a card.
+
+Does the Ward keyword count as an ability for the purposes of Baral's draw ability?
+
+A:
+
+Yes, this is confirmed by the Strixhaven mechanics guide:
+
+Ward is a triggered ability.
+
+More generally, a triggered ability is defined as (Comprehensive Rules 603.1):
+
+Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+The reminder text for Ward meets that pattern; while reminder text formally has no bearing on the game, it is intended to be helpful and it would be very unhelpful for the reminder text to meet the pattern of a triggered ability without being one.
+

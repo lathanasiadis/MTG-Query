@@ -1,0 +1,35 @@
+Q:
+
+Is it possible to move auras with the equip ability?
+
+Let's say my field is:
+
+a bear creature
+an elf creature
+an aura (for completeness sake: it gives flying to the enchanted creature)
+Mycosynth Lattice
+Bludgeon Brawl
+
+The aura is enchanting the bear.
+The aura has "Equip {x}" granted by Bludgeon Brawl.
+If I was to activate the Equip ability targeting the elf, what would the aura be attached to?
+
+Which creature would have the +x/+0 and flying?
+Would the answer be the same if the aura could only enchant a land?
+
+A:
+
+An easy way to get an answer will be to look at Bludgeon Brawl's Gatherer tips:
+
+While Bludgeon Brawl is on the battlefield, an Aura enchantment that somehow becomes an artifact in addition to its other types will also become an Equipment. Any of its abilities that refer to either "enchanted creature" or "equipped creature" refer to the creature it's currently attached to. It can be attached to other creatures using its equip ability. If you try to attach the Aura Equipment to a creature it can't legally be attached to, it remains where it is. If the creature it's attached to becomes an illegal permanent for it to enchant, the Aura Equipment will be put into its owner's graveyard as a state-based action.
+
+This is governed by a bunch of rules, but the gist is: you can equip the aura on another legal target, and it will give both the aura and equipment bonuses (it will be attached to a new object).
+As for the second part, an Aura which can only enchant a Land will be moved to graveyard if the Land it was enchanting isn't also a creature, because an Equipment can only be attached to a creature. Basically, "enchanting" and "equipped" mean the same - attached to an object. And since the attachment is not legal anymore, the Aura will be moved to graveyard as SBA.
+
+303.4b The object or player an Aura is attached to is called enchanted. The Aura is attached to, or “enchants,” that object or
+player.
+301.5a The creature an Equipment is attached to is called the “equipped creature.” The Equipment is attached to, or “equips,” that creature.
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+And if the current Land it is enchanting is a legal target (it is a creature as well), you may only attach (equip) the Aura-Equipment to another Land if it is a legal target, otherwise it will not move and stay attached to the current Land.
+

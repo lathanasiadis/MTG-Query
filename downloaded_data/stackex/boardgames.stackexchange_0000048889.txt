@@ -1,0 +1,21 @@
+Q:
+
+Armory Automaton and Dowsing Dagger/Sword of the Animist
+
+What happens if I cast Armory Automaton and equip to it Dowsing Dagger and/or Sword of the Animist that an opponent controls?
+
+When Armory Automaton attacks while equipped with Sword of the Animist, will I or my opponent search for a land?
+When Armory of Automaton deals damage to an player while equipped with Dowsing Dagger, will I or my opponent get control of Lost Vale
+
+More generically, if the equipment says "When equipped creature attacks, do XXX" (where XXX is draw a card, gain life, put counters etc) - Who will do it, me or my opponent?
+
+A:
+
+The term 'you' in an object's text always refers to that object's controller. Since your opponent remains as the controller of the equipments Armory Automaton attaches to itself, your opponent will continue to receive their effects.
+The ability that triggers off Dowsing Dagger and Sword of the Animist respectively are on that equipment, not on the creature. Therefore, these abilities look for the controller of the equipment:
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+Note that there are equipments with different wordings that directly grant abilities to the equipped creature, such as Avarice Amulet. In that case, the granted ability would look at the Armory Automaton's controller, which would be you, even though the equipment itself is still controlled by your opponent.
+Also note that if you attach e.g. Sword of the Animist as a result of the Automaton's "attack" trigger, the Sword's own "attack" trigger does not trigger in that same attack, because it had to be attached already.
+

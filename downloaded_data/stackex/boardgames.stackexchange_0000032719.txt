@@ -1,0 +1,19 @@
+Q:
+
+Borborygmos Enraged's ability around dying in combat
+
+I attack with Borborygmos Enraged. My opponent blocks with a 6/6 (which means Borborygmos will die). When Borborygmos Enraged deals damage to the player, I assume I still reveal the top 3 cards and put lands into my hand as part of the triggered ability. Am I able to use the "Discard a land card" ability with the new cards I draw with the triggered ability or is he dead and I can't use that ability?
+
+A:
+
+The ability triggers, but you can't use these lands to activate Borborygmos Enraged's ability
+The ability triggers when Borborygmos Enraged deals combat damage, even if at the same time it's dealt lethal damage itself. State-based actions see lethal damage marked on it and destroy it, causing it to go into your graveyard. The ability is then put on the stack and you get priority, but since Borborygmos Enraged isn't on the battlefield anymore, you can't activate it's ability.
+If nothing else happens, the triggered ability will resolve and possibly reveal an amount of lands you may put into your hand.
+
+Relevant Rules
+
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. (...)
+510.3. Third, the active player gets priority. (...)
+510.3a. Any abilities that triggered on damage being dealt or while state-based actions are performed afterward are put onto the stack before the active player gets priority (...)
+704.3. Whenever a player would get priority (...), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. (...) Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. (...)
+

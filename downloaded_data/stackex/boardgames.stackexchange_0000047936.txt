@@ -1,0 +1,19 @@
+Q:
+
+Necroskitter and creatures dying because of placing -1/-1 counters
+
+Necroskitter has the ability to return creatures your opponents control under your control if they die with a -1/-1 counter on them.
+Sound perfectly fine to me, but I read here that when an undying creature with a +1/+1 counter on it dies through an effect which places enough -1/-1 counter on it, state base action is checked and the last information was, that it had a +1/+1 counter on it, so undying won't trigger.
+Is this the same for Necroskitter? If there is a 1/1 creature and I play mtg:Black Sun's Zenith for X = 1 and place a -1/-1 counter on it, that state based action doesn't see a -1/-1 counter and Necroskitter won't trigger?
+Tl;dr: If I place a -1/-1 counter on a 1/1 creature will I get it with Necroskitter? If yes, why does the game see the -1/-1 counters placed on the creature?
+
+A:
+
+If it's a regular 1/1 creature, it will die and you'll get it back with Necroskitter, since when it dies it had a -1/-1 counter on it, so it qualifies.
+If it's a 1/1 creature with a +1/+1 counter and 1 normal damage already, it will get a -1/-1 counter; that -1/-1 counter 'merges' with the +1/+1 counter, which would make them both vanish at the same moment the creature leaves the battlefield.
+
+608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 113.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+The 'creature' referred to by Necroskitter is expected to be on the battlefield; creature cards in graveyards can't have -1/-1 counters on them. So last known information will be applied; it 'sees' a creature with a -1/-1 counter (and a +1/+1 counter) on it, so you'll get it back with Necroskitter.
+It's essentially the same situation as Why doesn't Undying trigger if a creature with +1/+1 counters dies from -1/-1 counters?, the answer there explains the timing in great detail.
+

@@ -1,0 +1,17 @@
+Q:
+
+Responding to a Triggered Ability, multiple times
+
+My opponent is at 3 life and has a Dread on board. I have a Fungal Plots, and a Slimefoot, the Stowaway, a 1/1 green Saproling token, and 8 mana open.
+
+I attack with my token, and he blocks. My token dies, triggering Slimefoot's effect.
+When Slimefoot's triggered effect resolves, this damage triggers Dread's effect.
+In response to Dread's triggered effect, I use Slimefoot's token generation activated ability twice.
+Then once those token generation effects resolve but before Dread's ability does, I use Fungal Plots to sac those tokens, triggering Slimefoot's effect two more times, for lethal.
+
+Is my understanding of the rules correct that I can make this line of play?
+
+A:
+
+Yes. Every time something on the stack resolves, there's another round of priority before the next thing resolves, so you can activate your creatures' abilities before the "destroy Slimefoot, the Stowaway" effect resolves.
+

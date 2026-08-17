@@ -1,0 +1,43 @@
+Q:
+
+How is legality of blockers determined?
+
+Lure says:
+
+All creatures able to block enchanted creature do so.
+
+I know that players cannot be forced to pay extra costs (via War Cadence for example) in order to make a creature a legal blocker, but what about other conditions.  If Stormblood Berserker enchanted with Lure is attacking me and I control two 1/1 creatures, how does the game view their legality as blockers?  Looking at each creature individually, neither are able to block.  Everything I've found says they both have to block, but I can't find a comp rule or official ruling.
+
+A:
+
+In the instance provided (Lure + "cannot be blocked except by two or more creatures"), you are required to block the Stormblood Berserker with your 1/1s.
+The vanilla 1/1s are only conditionally able to block, but you must fulfill the maximum number of requirements1 that does not violate any restrictions2 when blocking.
+Supporting rules (emphasis mine):
+
+509.1. First, the defending player declares blockers. This turn-based action doesn't use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 717, "Handling Illegal Actions").
+
+Let's assume I'm the blocking player, and go through these steps one by one.
+
+509.1a The defending player chooses which creatures that he or she controls, if any, will block. The chosen creatures must be untapped. For each of the chosen creatures, the defending player chooses one creature for it to block that's attacking him, her, or a planeswalker he or she controls.
+
+So first, I declare blockers. I declare no blockers.
+
+509.1b The defending player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+
+My vanilla 1/1s are under the restrictions provided by Stormblood Berserker, but declaring no blockers does not violate the restriction - the declaration of zero blockers is not illegal (yet).
+
+509.1c The defending player checks each creature he or she controls to see whether it's affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can't block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed.
+
+This is the key piece - are my 1/1s under the requirement to block or not? Individually, they are both required to block if able. However, they are not individually able - this seems to imply that they do not have to block, and zero blockers would be acceptable. 
+However, with zero blockers, "the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions" - thus, "the declaration of blockers is illegal."
+I cannot legally declare zero blockers, because I haven't met the maximum number of requirements that could be obeyed without disobeying any restrictions. The that maximum number can be achieved by declaring two (or more) blockers for Stormblood Berserker, and until I declare each other-wise legal creature as a blocker, my declaration of blockers will be illegal.
+EDIT: Alex P points out that 509.1c includes a great example:
+
+Example: A player controls one creature that “blocks if able” and another creature with no abilities. An effect states “Creatures can’t be blocked except by two or more creatures.” Having only the first creature block violates the restriction. Having neither creature block fulfills the restriction but not the requirement. Having both creatures block the same attacking creature fulfills both the restriction and the requirement, so that’s the only option.
+
+While the requirement is different, it's a similar circumstance - achieving the maximum number of requirements forces the creatures to block.
+
+From the comp rules:
+[1]: Requirement: An effect that forces one or more creatures to attack or block. See rules 508.1d and 509.1c.
+[2]: Restriction: An effect that precludes one or more creatures from attacking or blocking. See rules 508.1c and 509.1b.
+

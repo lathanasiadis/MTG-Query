@@ -1,0 +1,30 @@
+Q:
+
+MTG: Can you have a commander that has all five colors but the deck has one or more colors missing?
+
+As a joke, me and my buddy's wanted to make decks without our favorite colors, but I wanted us to use five color commanders and just not insert our favorite colors, they agreed but I was curious if this actually could work or would the deck have to have all the colors the commander has regardless.
+
+A:
+
+You do not need to use every color your commander allows (apart from the fact that your commander itself automatically uses every color it allows). Rule 903.5 details the additional rules regarding deck construction that are relevant in Commander:
+
+903.5. Each Commander deck is subject to the following deck construction rules.
+
+903.5a Each deck must contain exactly 100 cards, including its commander. In other words, the
+minimum deck size and the maximum deck size are both 100.
+903.5b Other than basic lands, each card in a Commander deck must have a different English name.
+903.5c A card can be included in a Commander deck only if every color in its color identity is also
+found in the color identity of the deck’s commander.
+Example: Wort, the Raidmother is a legendary creature with mana cost {4}{R/G}{R/G}.
+Wort’s color identity is red and green. Each card in a Wort Commander deck must be
+only red, only green, both red and green, or have no color. Each mana symbol in the
+mana cost or rules text of a card in this deck must be only red, only green, both red and
+green, or have no color.
+903.5d A card with a basic land type may be included in a Commander deck only if each color of
+mana it could produce is included in the commander’s color identity.
+Example: Wort, the Raidmother’s color identity is red and green. A Wort Commander
+deck may include land cards with the basic land types Mountain and/or Forest. It can’t
+include any land cards with the basic land types Plains, Island, or Swamp.
+
+There is nothing here that says every color of the color identity of the commander must be used by the rest of the deck.
+

@@ -1,0 +1,26 @@
+Q:
+
+In what order does Scale Blessing place counters?
+
+I have two creatures in the field:
+
+2/2 creature
+2/2 creature with 2 +1/+1 counters on it,
+
+I then play Scale Blessing. Does it work on the creature that has more than one +1/+1 counters on it? With the result being:
+
+2/2 creature w/ +2/+2
+2/2 creature w/ +2/+2
+
+? Please help!
+
+A:
+
+You'll end up with a 2/2 with two +1/+1 counters, and a 2/2 with three +1/+1 counters.
+There are two separate things to do, in the order they're written on the card:
+
+Bolster 1: put a +1/+1 counter on the 2/2 that doesn't have any counters yet. (It's your creature with the least toughness.) You now have one creature with one counter, and one with two. It's good for you that the bolster comes first, because next...
+Put a +1/+1 counter on each creature that has a +1/+1 counter on it. It says "each creature that has a +1/+1 counter on it", not "exactly one +1/+1 counter", so that's both of your creatures! Now you have one creature with two counters, and one with three.
+
+It's true that the reminder text for bolster is at the very end, but it's just a quick explanation of what bolster means. The actual text instructing you to bolster 1 is is the first thing on the card, so it's the first thing you do.
+

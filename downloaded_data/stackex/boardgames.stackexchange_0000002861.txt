@@ -1,0 +1,61 @@
+Q:
+
+In MTG, what happens when Sakashima the Imposter copies Halcyon Glaze?
+
+If I cast Sakashima the Imposter, copying Halcyon Glaze, what happens?
+My guess is that Sakashima becomes a 4/4 Enchantment Creature - Illusion until the end of the turn (that's the current state of Halcyon Glaze) with Halcyon Glaze's text ("Whenever you play a creature spell...").
+So, Sakashima would revert to a 3/1 with Halcyon Glaze's text at the end of the turn. This means that on future turns, if I cast a creature spell, Sakashima would again become a 4/4.
+Something about that doesn't seem quite right, however. What actually happens?
+
+A:
+
+A relevant paragraph from the MtG Comprehensive Rules:
+
+706.2. When copying an object, the copy acquires the copiable values of
+  the original object's characteristics
+  and, for an object on the stack,
+  choices made when casting or
+  activating it (mode, targets, the
+  value of X, whether it was kicked, how
+  it will affect multiple targets, and
+  so on). The "copiable values" are the
+  values derived from the text printed
+  on the object (that text being name,
+  mana cost, card type, subtype,
+  supertype, expansion symbol, rules
+  text, power, toughness, and/or
+  loyalty), as modified by other copy
+  effects, by "as . . . enters the
+  battlefield" and "as . . . is turned
+  face up" abilities that set
+  characteristics, and by abilities that
+  caused the object to be face down.
+  Other effects (including type-changing
+  and text-changing effects), status,
+  and counters are not copied. Example:
+  Chimeric Staff is an artifact that
+  reads "{X}: Chimeric Staff becomes an
+  X/X artifact creature until end of
+  turn." Clone is a creature that reads,
+  "You may have Clone enter the
+  battlefield as a copy of any creature
+  on the battlefield." After a Staff has
+  become a 5/5 artifact creature, a
+  Clone enters the battlefield as a copy
+  of it. The Clone is an artifact, not a
+  5/5 artifact creature. (The copy has
+  the Staff's ability, however, and will
+  become a creature if that ability is
+  activated.) Example: Clone enters the
+  battlefield as a copy of a face-down
+  Grinning Demon (a creature with morph
+  {2}{B}{B}). The Clone is a colorless
+  2/2 creature with no name, no types,
+  no abilities, and no mana cost. It
+  will still be face up. Its controller
+  can't pay {2}{B}{B} to turn it face
+  up.
+
+I think that what this implies is that Sakashima does NOT become a 4/4 creature when copying a creatured-up Halcyon Glaze, but rather an enchantment with Halcyon Glaze's rules text.  So you'd have to cast another creature to turn enchantment-Sakashima into a 4/4 flyer.  I don't think he'd revert to being a 3/1 at end of turn; he'd stay a noncreature enchantment until returned to hand with Sakashima's ability.
+Essentially the key issue here is about what the Magic rules like to call "copiable values". The switched-on Glaze is a valid thing for Sakashima to copy, because it's a creature in play, but its switched-on status is not a copiable value. So Sakashima just becomes a switched-off Glaze, with all the extra characteristics as defined in the Sakashima rules text.
+

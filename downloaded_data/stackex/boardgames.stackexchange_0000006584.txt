@@ -1,0 +1,20 @@
+Q:
+
+What happens if you sacrifice a creature brought back with Postmortem Lunge?
+
+Let’s say I have a creature in the graveyard.  I then cast Postmortem Lunge, which reads
+
+Return target creature card with converted mana cost X from your
+graveyard to the battlefield. It gains haste. Exile it at the
+beginning of the next end step.
+
+Then, after bring the creature back, I sacrifice it, or it dies some other way.  At the end of my turn would Postmortem Lunge exile it out of my graveyard?
+
+A:
+
+This card has the following Oracle ruling:
+
+If the creature is no longer on the battlefield at the beginning of the next end step, it won't be exiled.
+
+This is an instance of general principle: when an effect states that a card moves from one zone to another, if the target card is no longer in the starting zone when the effect resolves, then the effect is countered. In this particular case, Postmortem Lunge creates a delayed trigger which implicitly expects its target to be on the battlefield when it resolves, since that's where the card last put that creature. If the target is no longer on the battlefield, then the effect is countered.
+

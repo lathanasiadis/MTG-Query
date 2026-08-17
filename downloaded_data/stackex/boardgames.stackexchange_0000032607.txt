@@ -1,0 +1,33 @@
+Q:
+
+Does an Ebonblade Reaper holding a Quietus Spike kill players?
+
+Ebonblade Reaper:
+
+Whenever Ebonblade Reaper attacks, you lose half your life, rounded up.
+  Whenever Ebonblade Reaper deals combat damage to a player, that player loses half his or her life, rounded up.
+
+Quietus Spike:
+
+Whenever equipped creature deals combat damage to a player, that
+  player loses half his or her life, rounded up.
+
+An Ebonblade Reaper hits a player while equipped with a Quietus Spike. Assuming no other effects, does the player lose the game?
+My interpretation:
+
+Ebonblade Reaper deals 1 combat damage to a player.  
+The Reaper and Quietus Spike triggered abilities are put onto the stack.  
+Each effect causes that player to lose half their life.
+That player loses.
+
+A:
+
+No, it doesn't work like that. The triggers decide how much damage to do when they resolve, not when they're put onto the stack.
+So if your opponent were at 21 (to make things simple) it'd go like this:
+
+Ebonblade Reaper deals 1 damage, putting them at 20. Both triggers go on the stack.
+The first of the triggers resolves, making them lose 10 life, putting them at 10.
+The second of the triggers resolves, making them lose 5 life, putting them at 5.
+
+You do get to pick what order the triggers go on the stack, but it doesn't really matter, since they're doing the same thing.
+

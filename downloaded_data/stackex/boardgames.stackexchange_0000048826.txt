@@ -1,0 +1,15 @@
+Q:
+
+When casting a spell with Cascade, when do the exiled cards go on the bottom of the library?
+
+Say I cast Bituminous Blast and with cascade I exile Angrath, the Flame-Chained then Vampiric Tutor. Can I use Vampiric Tutor to search for Angrath, or is Angrath still exiled until Vampiric Tutor resolves?
+
+A:
+
+The cards are put on the bottom of the library as part of the Cascade ability. Any spells cast as part of the Cascade ability are on the stack at that point, so they will resolve after putting the cards on the bottom of the library. So in this situation, yes, you can search for Angrath with the Vampiric Tutor.
+The Cascade ability is defined in rule 702.84a:
+
+Cascade is a triggered ability that functions only while the spell with cascade is on the stack. “Cascade” means “When you cast this spell, exile cards from the top of your library until you exile a nonland card whose converted mana cost is less than this spell’s converted mana cost. You may cast that card without paying its mana cost. Then put all cards exiled this way that weren’t cast on the bottom of your library in a random order.”
+
+The instruction to cast the spell here works just like casting a spell at any other time: you put it on the stack, make all of the relevant choices, and pay the cost. And just like any other time you cast a spell, everyone gets an opportunity to respond before it resolves. This opportunity comes after the Cascade ability finishes resolving, which includes putting the exiled cards on the bottom of the library.
+

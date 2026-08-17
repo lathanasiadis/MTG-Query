@@ -1,0 +1,21 @@
+Q:
+
+Which US states have the highest Magic: the Gathering participation?
+
+How can I determine which US states have the highest Magic: the Gathering participation? To make the question less subjective, we'll define participation as any of the following:
+
+Number of Friday Night Magic participants
+Number of [some major series of tournaments] participants
+Total amount of Magic: the Gathering product sales
+
+Do any of the popular tournament organizers report on stuff like this? Does Wizards report on the amount of product sold per state, or the number of FNM participants per state? Is there a centralized place where I can find turnouts for Grand Prixs or Star City Open tournaments? Just to be clear, these are supplementary questions, and I am not expecting an answer to all of them.
+I ask this question because last weekend was States. I think that the players in states with high participation are likely to play better decks than players from other states. This may be a poor way to gauge deck quality, but for a player who wants to be on the bleeding edge of meta (sometimes), I think it is at least better than using decklists from tournaments two weekends ago.
+At least in Texas, the number of players allowed at States was capped. I'm not sure if the cap is the same in every state, or whether the cap simply depended on the venue that was available, or whether the cap was predetermined based on a history of participation in that state.
+When I click on any of the States events on starcitygames.com, I can view the top eight decklists for that area. However, there is no indicator that I can find of the total number of players in that event. I also tried to Google average Grand Prix turnout by state, and could only find scattered articles about record turnouts in various locations across various years.
+
+A:
+
+As one might guess it seems the states with the largest number of Magic players are also the ones with the largest populations.
+I am assuming that the number of players in a state is directly correlated with the number of judges in that state. To get the number of judges in each state I used the WotC Judge Center tools to find all of the Level 1+ judges in the US that had a state listed (37 out of 3067 judges in the US didn't have a state listed).
+The top 5 states by number of judges are (in order): California, Texas, Florida, New York and Illinois. These also happen to be the top 5 states by population (in the same order). Once you get past the top 5 only Colorado has the same exact ranking for both (#22), but most of the others are fairly close between the lists. You can find the data I used in this Google Sheets document.
+

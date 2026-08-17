@@ -1,0 +1,25 @@
+Q:
+
+New Transform Rules and Archangel Avacyn
+
+Archangel Avacyn says (in addition to other abilities): "When a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep".
+Since the triggered ability isn't the actual transform ability, but instead creates a delayed triggered ability, if you put it on the stack while another trigger wants to transform Avacyn, will she transform back? (e.g. Non-Angel died. Go to upkeep, another non-Angel dies. Will she transform back on the next upkeep?)
+
+A:
+
+No, Avacyn will not transform again at the following upkeep.
+The new rule 701.25e says
+
+If an activated ability of a permanent tries to transform that permanent, the permanent transforms only if it hasn't transformed since the ability was put onto the stack. The same is true for triggered abilities of a permanent that aren't delayed triggered abilities. If a delayed triggered ability of a permanent tries to transform that permanent, the permanent transforms only if it hasn't transformed since that delayed triggered ability was created.
+
+Avacyn's ability creates a delayed triggered ability, so the last clause is the relevant one. So, the situation you describe plays out like this:
+
+A non-Angel creature dies. Archangel Avacyn's triggered ability goes on the stack.
+Archangel Avacyn's triggered ability resolves, and creates a delayed triggered ability.
+At the beginning of the next upkeep, the delayed triggered ability goes on the stack. 
+Another non-Angel creature dies. Archangel Avacyn's triggered ability goes on the stack.
+Archangel Avacyn's triggered ability resolves, and creates a second delayed triggered ability.
+The original delayed triggered ability resolves. Archangel Avacyn has not transformed since that delayed triggered ability was created, so Archangel Avacyn transforms into Avacyn, the Purifier.
+At the beginning of the following upkeep, the second delayed triggered ability goes on the stack.
+The second delayed trigger resolves. Avacyn has transformed since the second delayed triggered ability was created, so she does not transform, and remains Avacyn, the Purifier.
+

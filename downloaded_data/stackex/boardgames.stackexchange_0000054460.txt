@@ -1,0 +1,15 @@
+Q:
+
+If Scourge of Fleets returns creatures with toughness 3 or less, do my vampires at (4/4) get returned to my hand when Thirsting Bloodlord return?
+
+I played Savage Gorger a few turns ago making it a (3/3) before I played Thirsting Bloodlord (3/3) which gives other vampires I control +1/+1, making my Savager Gorger (4/4). If my friend had 3 islands and just played Scourge of Fleets that would return creatures with toughness 3 or less, would my Savage Gorger return to my hand?
+My friend believes that returning my creatures with toughness 3 or less would include returning Savage Gorger because it would be (3/3) without Thirsting Bloodlord (which also just got returned).
+I thought the stack would happen simultaneously rather than Thirsting Bloodlord getting returned, making Savage Gorger become (3/3) again, and then returning Savage Gorger because it was 3 toughness.
+
+A:
+
+Your Savage Gorger would remain on the battlefield.
+Scourge of Fleets returns all applicable creatures at the same time. What creatures are applicable is only checked once, not continuously: when the ability resolves. What happens afterwards as a consequence of one or more creatures bouncing does not matter to Scourge of Fleets' ability, because its effect is a one-shot effect.
+
+610.1. A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, creating a token, and moving an object from one zone to another.
+

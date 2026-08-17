@@ -1,0 +1,27 @@
+Q:
+
+Can my opponent respond to an "enters the battlefield" ability?
+
+I played Shadowborn demon. It has the ability
+
+When Shadowborn Demon enters the battlefield, destroy target non-Demon creature.
+
+Can my friend play Fall of the Hammer on the target creature that would be destroyed to have it deal damage to my Shadowborn Demon, or would his creature be destroyed because of the ability?
+
+A:
+
+Both things happen. First, your opponent's creature will deal damage to Shadowborn Demon (thanks to Fall of the Hammer); then the Demon's ability will kill the creature — even if Fall of the Hammer already killed your demon.
+When Shadowborn Demon enters the battlefield, you get to choose a target for its ability. The ability then goes on the stack, just like spells do when you cast them. (Check out the MTG Basic Rulebook for more information about the stack and casting spells.)
+While the Demon's ability is on the stack, your opponent can respond to it by activating abilities or casting Instant spells, including Fall of the Hammer.
+So, now the stack looks like this (most recent thing on top; that's why it's a "stack"):
+
+(top)
+Fall of the Hammer
+Shadowborn Demon's "destroy" ability
+(bottom)
+
+When nobody else has more actions (you could respond to Fall of the Hammer by casting Giant Growth on your Demon, for instance), we resolve what's on the stack.
+So, the Fall of the Hammer happens first, allowing your opponent's creature to deal damage to the Shadowborn Demon. If this is enough damage to kill your Demon (for example, the opponent's creature is an Arbor Colossus), you'll put the Demon into your graveyard.
+After you're done resolving Fall of the Hammer, you'll resolve the Demon's ability, destroying your opponent's creature. Even if your Demon is already dead, though, the opponent's creature will be destroyed. That's because the "destroy target non-demon creature" ability doesn't directly depend on your Demon if you've already put it on the stack.
+So, your opponent's creature will damage your demon first (potentially killing the Demon, if it was a lot of damage), and then afterward the creature will be destroyed.
+

@@ -1,0 +1,17 @@
+Q:
+
+If a permanent is tapped, are enchantments on it also tapped?
+
+Say I have a Forest in play enchanted with Utopia Sprawl. Opponent has a Mesmeric Orb in play, which has this text:
+
+Whenever a permanent becomes untapped, that permanent's controller mills a card.
+
+On my turn I tap the Forest for mana. On my next turn when the Forest untaps, do I mill one card or two?
+Intuitively I'm guessing one card, but I'm not aware of any rule that says it should be one card, so I'd like to check.
+
+A:
+
+No, each permanent individually can be tapped or untapped; tapping or untapping a permanent does not tap or untap any enchantments on it. Similarly, tapping or untapping an aura enchantment does not affect the permanent it is enchanting.
+
+110.5. A permanent’s status is its physical state. There are four status categories, each of which has two possible values: tapped/untapped, flipped/unflipped, face up/face down, and phased in/phased out. Each permanent always has one of these values for each of these categories.
+

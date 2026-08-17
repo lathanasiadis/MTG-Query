@@ -1,0 +1,21 @@
+Q:
+
+What happens when target of an activated ability becomes illegal (in this particular situation)?
+
+I have a Hunting Kavu, and the opponent attacks with a Craw Wurm.
+I decide to use the Kavu's activated ability, in order to exile both creatures.
+But, in response to this, the opponent casts a Jump on the Wurm, which obtains flying this way.
+My question is then as follows: since the target of Kavu's activated ability has become illegal, what happens to both creatures?
+
+The Wurm remains on the battlefield, while the Kavu goes to exile anyway;   
+Both creatures remain on the battlefield.
+
+A:
+
+It's 2: both creatures remain on the battlefield.
+Hunting Kavu's ability has only one target, the attacking creature. It's not a target itself. Since the ability does no longer have any valid targets, it doesn't resolve:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will resolve normally.
+
+So the Hunting Kavu will survive as well.
+

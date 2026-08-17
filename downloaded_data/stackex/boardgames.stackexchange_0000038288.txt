@@ -1,0 +1,29 @@
+Q:
+
+Does devoid make a card's color identity colorless in Commander?
+
+Certain Battle for Zendikar Eldrazi cards have:
+
+Devoid (This card has no color.)
+
+According to a video by Mark Rosewater, that means regardless of the colored mana required to cast the card, the card itself is colorless. 
+So then, just like the example with Extort: even though there are color mana symbols in the reminder text, those do not count towards color identity. 
+Given this, if I have a colorless Commander (e.g. Kozilek, the Great Distortion, Ulamog, the Ceaseless Hunger, Karn, Silver Golem, etc.), can I include Devoid cards - as they are colorless? I checked various sources and seem to come up with equal support pro and con. The last line of 105.2 reads: 
+
+An object’s color or colors may also be defined by a color indicator or a characteristic-defining ability.
+
+Devoid is such a defining ability... 
+
+A:
+
+No, the reason that you cannot use Devoid cards in a Commander deck with a colorless commander is that a card's "color" is not the same thing as it's "color identity". "Color identity" dictates what cards that can go in your Commander deck, not "color".
+Devoid changes a cards color.
+
+105.2. ...An object is the color or colors of the mana symbols in its mana cost...
+
+Devoid does not affect the card's color identity.
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+If the rules text for Devoid said "This card's color identity is colorless" then things would be different.
+

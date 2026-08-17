@@ -1,0 +1,15 @@
+Q:
+
+How does Repercussion interact with Solphim, Mayhem Dominus?
+
+With Repercussion and Solphim, Mayhem Dominus, if I deal 3 damage to a creature with Lightning Bolt and Dominus doubles that, does it get doubled again when Repercussion deals 6 damage to the creature's controller?
+
+A:
+
+Correct, Repercussion would deal 12 damage to the creature's controller.
+Solphim applies a replacement effect to noncombat damage. Replacement effects can apply only once to any given event, so Ligthning Bolt will deal 6 damage to the target creature, causing Repercussion to deal 6 to its controller.
+
+614.5. A replacement effect doesn’t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace that event.
+
+However, the damage from Repercussion is its own event which Solphim can replace again, for a total of 6 damage to the targeted creature from Lightning Bolt and 12 damage to the creature's controller from Repercussion.
+

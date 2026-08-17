@@ -1,0 +1,12 @@
+Q:
+
+Do spells targeting creatures work on token creatures?
+
+My friend has Mystic Confluence and tried to target a token creature to be returned to the owner's hand. I have read that token creatures are considered creatures, but why would you be able to put a token creature into a hand since you can't necessarily spend mana to play it from your hand. 
+
+A:
+
+Token creatures are creatures, so they can be targeted and affected by anything that refers to "creature(s)". If a token is returned to a player's hand, it disappears, so it doesn't matter that they wouldn't be able to cast it. This is stated in rule 111.7:
+
+A token that’s in a zone other than the battlefield ceases to exist. This is a state-based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)
+

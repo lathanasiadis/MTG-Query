@@ -1,0 +1,39 @@
+Q:
+
+How does Companion work after sideboarding?
+
+I've asked around among friends and also Reddit but we've not reached a consensus: How does Companion work after sideboarding?
+I can find the following relevant rule snippets.
+
+Your companion's deckbuilding rule applies only to your starting deck, which is the deck you begin play with each game. It won't consider any cards in your sideboard, so those cards don't have to follow the deck-building rule.
+
+(Source: Ikoria: Lair of Behemoths mechanics)
+
+In Magic: The Gathering, a match is a multiplayer game or a two-player series of games (usually best-two-of-three) played in a tournament. 
+
+(Source: https://mtg.gamepedia.com/Match, referencing the official rules)
+I cannot find the concept of a "starting deck" being mentioned anywhere in the rules.
+Reading the above snippets makes me believe that in games following sideboarding a Companion card cannot be chosen as the Companion for that game if any of the cards in the new deck obtained after sideboarding violate the Companion requirements.
+Is this correct?
+
+A:
+
+Your interpretation seems valid.
+The Ikoria: Lair of Behemoths mechanics rule snippet you quote addresses this directly.
+
+Your companion's deckbuilding rule applies only to your starting deck, which is the deck you begin play with each game.
+
+The comprehensive rules currently don't directly address any issue of a "starting deck". However, the "deck" referred to in rule 103.1 is a pretty solid candidate. 103.1. At the start of a game, each player shuffles their deck so that the cards are in a random order. 
+Each player may then shuffle or cut their opponents’ decks. 
+The players’ decks become their libraries.
+The wording is probably intended to prevent confusion due to card interactions from the other part of your quote.
+
+It won't consider any cards in your sideboard, so those cards don't have to follow the deck-building rule.
+
+You choose your companion before starting the game, as per the same article.
+
+Just before the game begins, reveal your chosen companion to all players. Once during the game, you may cast your chosen companion from your sideboard.
+
+So if your starting deck contains only cards of CMC 3 or greater, you can choose Keruga, the Macrosage as your companion. After the game begins and your deck becomes your library, if you cast the Research half of Research//Developement (legally over CMC 3 as per rule 202.3d) and shuffle some 1 or 2 CMC cards from your sideboard into your library, it shouldn't affect the legality of your chosen companion. Similarly, some companions could make your library not match the criteria even if your deck did. A copy of Lutri, the Spellchaser in a deck and one in your sideboard with all other cards of different names would be perfectly legal. 
+However, newer players may not realize "deck" does not equal "library" and the additional wording "starting deck" may be intended to mitigate confusion.
+

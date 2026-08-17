@@ -1,0 +1,17 @@
+Q:
+
+Do Combat Celebrant and Helm of the Host give me infinite combat phases?
+
+I have a Combat Celebrant equipped with a Helm of the Host. At the start of combat on my turn, Helm of the Host creates a token copy of my Combat Celebrant. I attack with the copy, exerting to gain another combat phase. After damage, I move to another combat phase.
+Here's where the wording on the Helm has me questioning the next steps. I assume another token will be created, and I can repeat the exert and the additional combat phases. But the Helm specifies that the token is created at "the beginning of combat on your turn...." Do each of these additional combat phases create another beginning of combat trigger?
+
+A:
+
+Yes, you will have as many combat phases as you want.
+When Combat Celebrant's ability resolves, you get an additional combat phase.
+Rule 506.1 defines what steps the combat phase contains:
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. [...]
+
+As you can see, I've emphasized that the combat phase begins with a "beginning of combat" step, during which cards such as Helm of the Host will trigger. Since you'll be getting another Combat Celebrant from the trigger, which will in turn be exerted to give you another combat phase, you'll get an arbitrary number of combat phases as long as nothing disrupts the sequence "Helm trigger resolves > Combat Celebrant is exerted > new combat phase".
+

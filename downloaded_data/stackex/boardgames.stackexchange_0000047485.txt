@@ -1,0 +1,24 @@
+Q:
+
+Will Roalesk, Apex Hybrid, trigger Sharktocrab twice?
+
+Sharktocrab reads 
+
+Whenever one or more +1/+1 counters are put on Sharktocrab, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
+
+If I were to put two +1/+1 counters on it at once, by playing Vivien of the Arkbow, then its ability would only trigger once.
+But what about Roalesk, Apex Hybrid, which reads
+
+When Roalesk dies, proliferate, then proliferate again.
+
+The first ability is placing a counter on Sharktocrab, just like when I use Vivien. But the Roalesk then places another counter separately. Would Sharktocrab therefore trigger twice?
+
+A:
+
+Yes, it would.
+Even though no one gets priority in between the instructions "proliferate" and "then proliferate again"; each instruction is still a separate instance, and Sharktocrab's ability will trigger after each of them.
+Abilities trigger as soon as the relevant event happens; they don't wait to trigger until an entire ability is done resolving.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+

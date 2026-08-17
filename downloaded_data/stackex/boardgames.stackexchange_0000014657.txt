@@ -1,0 +1,26 @@
+Q:
+
+Can I cast cost-less cards like Living End with Dream Halls?
+
+I think the title is self-explaining :)
+Can I cast cost-less cards like Living End with Dream Halls by discarding a black card ?
+
+A:
+
+Yes.
+Living End has a mana cost of "unpayable".
+Dream Halls introduces an alternative cost of "discard a card that shares a color with the spell".
+total cost
+= (mana cost or alternative cost) + (additional costs and cost increases) - cost reductions
+= discard a card that shares a color with the spell
+
+117.6. Some mana costs contain no mana symbols. This represents an unpayable cost. [...]
+
+117.6a [...] If an alternative cost is applied to an unpayable cost, including an effect that allows a player to cast a spell without paying its mana cost, the alternative cost may be paid.
+
+Just in case there's any doubt, Living End is black.
+
+204.2. An object with a color indicator is each color denoted by that color indicator.
+
+(It had a characteristic-defining ability when it was printed, but it now has a color indicator. Characteristic-defining abilities work in all zones, so the answer would have been the same before the change.)
+

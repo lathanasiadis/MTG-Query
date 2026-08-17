@@ -1,0 +1,40 @@
+Q:
+
+Does preventing damage also prevent poison?
+
+ 
+These two cards were played against my poison deck. 
+His reckoning is that I cannot put -1/-1 counters on the creature as it prevents all combat damage and infect uses damage.
+He also says that as the white card prevents damage this would stop him from getting poison counters. 
+Is he right ? can anyone cite me some official rules to clarify this ? 
+
+A:
+
+Your friend is correct, he can prevent Wither and/or Infect damage just like regular damage.
+The reason for that is that damage and damage effects are separate things. That difference is usually not important because in most situations, the steps to get from one to the other are walked over and the correct outcome is intuitively clear.
+So, here's how it works in detail in case difficulties arise:
+Most importantly, damage is just a number with a source. It knows nothing of life points, loyalty or -1/-1 counters.
+At first, prevention and replacement effects happen. The damage number is increased, decreased, or the whole damage effect is replaced entirely.
+Only after that step does damage have an actual effect.
+When a source without wither or infect deals damage to a creature, the effect of that damage is that the affected creature gets that much damage marked on it; if the damage was dealt to a player, that player loses that much life.
+When a creature with Infect and/or Wither deals damage, the effect of the damage is that that many -1/-1 counters are placed on the creature or; in case of Infect only, the player gets that many poison counters, loses life otherwise.
+Damage dealt to a planeswalker will always result in that many loyalty counters being removed from it.
+In any case, damage prevention effects like you cited above simply reduce the damage before the effect happens, so the effect is reduced accordingly.
+
+119 Damage
+
+[...]
+
+119.3a Damage dealt to a player by a source without infect causes that player to lose that much life.
+119.3b Damage dealt to a player by a source with infect causes that player to get that many poison counters.
+119.3c Damage dealt to a planeswalker causes that many loyalty counters to be removed from that planeswalker.
+119.3d Damage dealt to a creature by a source with wither and/or infect causes that many -1/-1 counters to be put on that creature.
+119.3e Damage dealt to a creature by a source with neither wither nor infect causes that much damage to be marked on that creature.
+
+[...]
+
+119.4. Damage is processed in a three-part sequence.
+119.4a First, damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, "Replacement Effects," and rule 615, "Prevention Effects.") Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.
+119.4b Next, damage that's been dealt is transformed into its results, as modified by replacement effects that interact with those results (such as life loss or counters).
+119.4c Finally, the damage event occurs.
+

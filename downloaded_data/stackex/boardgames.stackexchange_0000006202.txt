@@ -1,0 +1,36 @@
+Q:
+
+Building a mana base for WGB Tokens in Standard
+
+So Wizards heard my prayers and has given me something to make my favored W/G tokens deck even better. Unfortunately, those somethings are black:
+
+Dark Ascension isn't out yet, so we can't brew with full information, but I'm already working on a decklist for the upgraded WBG tokens. All of the following are strong candidates for inclusion in the deck (though some of them will eventually have to be cut):
+Name                        Cost
+=================================================
+Doomed Traveler             W
+Accorder Paladin            1W
+Honor of the Pure           1W
+Intangible Virtue           1W
+Gather the Townsfolk        1W
+Midnight Haunting           2W
+Lingering Souls             2W, 1B flashback
+Fiend Hunter                1WW
+Hero of Bladehold           2WW
+Sorin, Lord of Innistrad    2WB
+Geist-Honored Monk          3WW
+Gavony Township             {T} 2WG ability
+Vault of the Archangel      {T} 2WB ability
+
+The first thing to notice about this list is that it's very nearly mono-white, with three different cards costing WW. The second is that we actually have more B than G (though there's a little more G in the sideboard, as I'll probably continue siding in Autumn's Veil, and either Naturalize or Ray of Revelation.)
+Now the W/G tokens deck had a very reliable manabase, what with having Razorverge Thicket, Sunpetal Grove, and Avacyn's Pilgrim available. Building WBG is quite a bit trickier: the only W/B land in standard is Isolated Chapel, unless Dark Ascension gives us another rare land cycle, which seems unlikely. How would you go about it? Or are we perhaps better off dropping Gavony (the only maindeck G) and going just WB?
+
+A:
+
+This is functionally a mono-color deck with some "color splash".
+You don't need any color but white early on, so you can forgo playing Scars-block "fast duals" in favor of the appropriate "buddy duals", which are Isolated Chapel and Sunpetal Grove. If almost all your other lands are Plains, it's going to be pretty easy to get them to always come into play untapped.
+However, if the green is mostly an afterthought, I would play Swamps before I run Woodland Cemetery. This is because you need more black than green, and it's nice to have lands that come into play untapped. Also, a couple of Swamps in your deck ensure that an opponent can't use Ghost Quarter to color-screw you out of casting Sorin.
+Your mana base could easily support green splash, but I think Gavony Township might be too much of a "win more" card in this deck, since you've got so many other pumping effects going already. Township doesn't really start doing its thing until the late game, and my suspicion is that getting there in the first place means your opponent is likely using lots of removal to keep your creatures off the field. Initially, I was thinking that I'd prefer to have access to Moorland Haunt (to generate more Spirits) rather than Gavony Township (which is useless if I have no guys to pump up), and sideboarding in blue countermagic against Day of Judgment and Ratchet Bomb. However, with the full Dark Ascension set spoiled, I'm not thinking you're better off with green to support:
+
+Ray of Relevation to answer Curse of Death's Hold and your opponent's anthems in the mirror.
+Garruk Relentless as another token-maker and an Overrun effect.
+

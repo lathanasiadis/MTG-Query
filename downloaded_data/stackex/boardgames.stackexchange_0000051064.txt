@@ -1,0 +1,23 @@
+Q:
+
+Interaction between Vilis, Broker of Blood and Phyrexian Delver
+
+I resolve a Phyrexian Delver etb targeting Vilis, Broker of Blood. My question is whether the life lost as a part of the Phyrexian Delver etb will then cause Vilis's "Whenever you lose life, draw that many cards" effect to trigger. In a broad sense, because the return to battlefield and lose life effects are part of the same effect, do they happen at the same time? Or because they are written in an order, that they happen in an order?
+
+A:
+
+They happen in the order they are written, so you will get to draw cards.
+
+Resolving Spells and Abilities
+  
+  
+608.2. If the object that’s resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. 
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+
+and
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+So at the time that you are losing life, Vilis, Broker of Blood is already on the battlefield; it's triggered ability triggers just as if it had been there even before Phyrexian Delver was resolving.
+

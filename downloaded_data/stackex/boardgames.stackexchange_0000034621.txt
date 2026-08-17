@@ -1,0 +1,23 @@
+Q:
+
+Can a Colorless commander use cards with the {C} symbol on them?
+
+Hope of Ghirapur has no assigned color, but I want to use it as a general. Can I use cards that are colorless that require Wastes in the deck, for example Deceiver of Form?
+
+A:
+
+Quoting from the Commander rules:
+
+Cards in a deck may not have any colours in their color identity which are not shared with the commander of the deck. (The identity of each card in the deck must be a subset of the Commander's)
+
+Colorless isn't a color, and since Deceiver of Form doesn't have any additional color symbols in its rules text, you are allowed to play it.
+Examples of cards you're not allowed to play in a deck with a colorless color identity Commander:
+
+Culling Drone (black color identity because of its mana cost, regardless of Devoid)
+Boros Signet (red and white color identity because of mana symbols in the rules text)
+Elbrus, the Binding Blade (black color identity because of its color indicator on the back face)
+
+You also won't be able to use any lands with a basic land type, such as a Swamp, due to this rule:
+
+Lands whose type includes swamp, island, plains, forest and/or mountain (basic lands, shocklands, dual lands, Shadowmoor special-basics, etc) also have the corresponding color identity. (...)
+

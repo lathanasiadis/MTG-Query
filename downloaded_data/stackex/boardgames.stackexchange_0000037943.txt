@@ -1,0 +1,21 @@
+Q:
+
+Timing of the activated abilities of creatures
+
+I have a card with the following ability:
+
+{T}: Target creature you control gains protection from the color of your choice until end of turn.
+
+If a white card like Pacifism has been attached to the creature, am I able to tap the creature in order to give it protection from white and thus removing the white spell?
+
+A:
+
+Yes, you can do that. In fact, you don't need to do it in response. If at any time the creature with Pacifism on it gets protection from white, the Pacifism will no longer be legally attached to the creature, so the Pacifism will "fall off" and go to the graveyard.
+The rules for protection include these:
+
+702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+702.16c A permanent or player with protection can’t be enchanted by Auras that have the stated quality. Such Auras attached to the permanent or player with protection will be put into their owners’ graveyards as a state-based action. (See rule 704, “State-Based Actions.”)
+
+So, if your opponent casts Pacifism targeting a creature, and you activate the creature's ability, then Pacifism can't target the creature anymore, so it will be countered. If you activate the ability after the Pacifism is attached to the creature, the Pacifism will no longer be legally attached to the creature, so it will be put into its owner's graveyard.
+The situation is slightly different if the "pacify" effect in question is a card like Arrest that says that the creature's "activated abilities can't be activated". In that case, once it is attached to the creature, the creature won't be able to activate the ability that grants protection, so in that case you would need to activate the ability in response to the aura spell.
+

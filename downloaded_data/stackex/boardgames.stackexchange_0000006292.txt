@@ -1,0 +1,17 @@
+Q:
+
+In EDH/Commander, what is the 'color identity' of a double-faced card?
+
+The official deck construction rules for Commander (nee EDH) at http://mtgcommander.net/rules.php say that 'A card's colour identity is its colour plus the colour of any mana symbols in the card's rules text.'  How does this apply to dual-faced cards with faces of different colors, such as Civilized Scholar / Homicidal Brute out of Innistrad or Elbrus, the Binding Blade / Withengar Unbound from Dark Ascension, where the color of the transformed face of the card is different from the color of the 'main face'?  The spirit of the rules would seem to suggest that these cards are the colors of both faces for deck construction purposes, but not only are these spells always cast as the front face, the front face is the only one 'seen' in other game zones: for instance, when the card's in the library, you could find Elbrus by searching your library for an artifact, but you couldn't find Withengar Unbound by searching your library for a creature card.  Could Elbrus then, for instance, be played in any Commander deck, or just one with a (partly) Black general?
+
+A:
+
+Yes, both sides of DFC count towards its color identity.
+
+903.4c The back face of a double-faced card (see rule 711) is included when determining a card's color identity.
+Example: Civilized Scholar is the front face of a double-faced card with mana cost
+{2}{U}. Homicidal Brute is the back face of that double-faced card and has a red color
+indicator. The card's color identity is blue and red.
+
+So, Elbrus can only be used in a Commander deck where Black is part of your Commander's color identity.
+

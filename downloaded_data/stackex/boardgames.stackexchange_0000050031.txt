@@ -1,0 +1,15 @@
+Q:
+
+What happens when Teysa Karlov is equipped with Helm of the Host?
+
+What happens when you equip Helm of the Host to Teysa Karlov? Do the Teysas trigger each other making infinite copies of the death trigger? My thinking is that it says: when a triggered ability is caused by death, copy it. Is that ability copied by the other Teysa or is the original ability just copied again? So instead of one Blood Artist trigger, would I get 3? Or would I just win the game doing infinite damage?
+
+A:
+
+You get one more trigger for each Teysa Karlov you have. So if you have 2 Teysa Karlov, you get 3 triggers.
+From the Rulings on the Gatherer page:
+
+1/25/2019 — If you somehow control two Teysas, a creature dying causes abilities to trigger three times, not four. A third Teysa causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on. This also means that if you control Teysa and cast a second one, an ability that triggers when it dies due to the “legend rule” triggers three times.
+
+It works this way because Teysa Karlov's ability is a replacement effect, and replacement effects can only apply to an event once. When a death trigger occurs, one Teysa sees it and replaces it with two death triggers, then the other Teysa sees it and replaces it with three death triggers. Both Teysas have now applied their replacement effects to this one event and can't apply additional times, so they won't loop infinitely.
+

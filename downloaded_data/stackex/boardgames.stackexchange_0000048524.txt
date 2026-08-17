@@ -1,0 +1,34 @@
+Q:
+
+Gather Specimens on Meddling Mage
+
+You cast Meddling Mage which has you name a card as a replacement effect. An opponent responds with Gather Specimens which takes control of Meddlig Mage as a replacement effect. Who gets to name the card?
+
+Do you get to decide who, by ordering the effects?
+You always have to name the card (the "you" is locked in when you cast it)?
+Or is it something else?
+
+A:
+
+Your opponent gets to name the card, because his replacement effect always comes first.
+From the Gatherer rulings on Gather Specimens:
+
+The Gather Specimens replacement effect is applied before any other replacement effects that would also modify how the creature enters the battlefield. These are usually worded “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with.” For example, if your Gather Specimens has resolved, then the following things are true: -- If a creature with devour would enter the battlefield under an opponent's control, you choose and sacrifice your creatures as it enters the battlefield under your control. -- If Voice of All would enter the battlefield under an opponent's control, you choose a color as it enters the battlefield under your control. 
+
+The reason for this:
+It is important to note that you do not name a card when you cast Meddling Mage. You name a card as it enters the battlefield. This naming cannot be responded to; it's not something that ever goes on the stack.
+When Meddling Mage would enter the battlefield, there are two different replacement effects to apply: Meddling Mage's effect which causes a card to be named; and Gather Specimens which causes it to enter under your opponent's control instead.
+Normally, you would get to choose the order:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. 
+
+However, in this case you don't get the choice:
+
+616.1b If any of the replacement and/or prevention effects would modify under whose control an object would enter the battlefield, one of them must be chosen. If not, proceed to rule 616.1c.
+
+and then 
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+So first you must choose to apply the Gather Specimens' replacement effect. Now there is a new event, Meddling Mage entering the battlefield under your opponent's control. At this point it's no different than if your opponent had cast Meddling Mage. When it would enter the battlefield under his control, he applies the Meddling Mage replacement effect and names a card.
+

@@ -1,0 +1,19 @@
+Q:
+
+What do I do if mandatory actions will inherently take a very long time to resolve? (Splinter Twin + Tyrant of Discord example)
+
+Basically, if a game is already out of time, and we're within the resolution of a stack, yet the resolution will take an obnoxiously long time, what would the ruling be in a competitive environment where the tournament will have to wait for the resolution? Note that this isn't an infinite effect and thus not a draw, it's not unsportslike conduct - stalling because the game is already at time and that rule is for trying to drag a game to time, and I can pick any number of twins I want, it's my right to use that shortcut to pick an arbitrary number. Don't necessarily focus on deconstructing the example (but feedback on that is welcome), help me out on what the resolution would be.
+
+Here's an example:
+Let's say I'm going off with my Splinter Twin combo. I have at least 1 land and a bunch of other permanents. I create a very, very large number of tokens (let's say 10^1000).
+My opponent uses Aether Vial to vial in Tyrant of Discord. The resolution of the Tyrant's "enters the battlefield" trigger will take an extremely long amount of time to compute. Consider that we'll be randomly picking copies until a land gets sacrificed, which could mean all my creatures get sacrificed one by one, or possibly none of them do (the land gets randomly picked first).
+What are the rules for game time here? Random number generators can't even handle numbers that large, but let's assume we have some way to handle this. I can choose an arbitrarily large amount of Twins to create here. What are the rules for resolving this situation? Even if the game goes to time, 5 turns will not pass, this will take place within one turn's stack, and it's not an infinite loop so the game cannot be declared a draw. Is it acceptable to spend, for example 5 hours, if not several days resolving this effect?
+Assume the number is just obnoxiously large enough that it actually takes a computer several hours to spit out a result.
+
+A:
+
+If such situation as described by you really applies, only the judge can help in this situation. 
+I have various examples how a judge handled alike situation, but most of them had one thing in common: It ended in a draw.
+The examples that didn't, had in common that the player determined a way to shorten the "choose randomly" process. Here it becomes quite tricky.
+In the end the judge with the right authority does have the last word on this and it cannot be generally determined for all tournaments. This is an example of a gap in between the rules that propably needs some fixing for a fair ruling.
+

@@ -1,0 +1,29 @@
+Q:
+
+Death Wind and Irradiate are able to send indestructible creatures to the Graveyard?
+
+Cards like Death Wind or Irradiate are able to destroy a creature, also preventing any creature's regeneration ability.
+But, obviously, both of them are not able to send to the graveyard a creature with indestructible, probably because their effect ends at the end of the turn, as indicated by the text of the two cards, too.
+The situation is different when a creature with indestructible, for example Ulamog, the Infinite Gyre, has several -1/-1 counters, which in the end lead the creature in question to permanently have a value 0 for its toughness.  
+For example, when Ulamog has 10 or more -1/-1 counters on it, due to a card like Soul-Scar Mage, Ulamog will go to the graveyard.
+This last strategy seems to be one of the rare solutions capable of killing a creature with indestructible.
+Without prejudice to the obvious differences between the two types of cards that are capable of giving -X/-X to creatures, however, some analogies remain.
+Assuming that the above is all correct - since it is likely that it may not be so at all - then the question is as follows:
+What is the reason - strictly technical - that allows the -X/-X counters to send an indestructible creature to the graveyard, while a -X/-X effect that lasts until the end of turn is not able to do this?
+
+A:
+
+Assuming that the above is all correct
+
+Unfortunately, it's not. There are several ways for state-based actions to put a creature into its owner's graveyard; the ones relevant for this situation are:
+
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+Indestructible only prevents the latter:
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+So Death Wind and Irradiate are able to kill indestructible creatures. They don't 'destroy' creatures like Terror does; that card doesn't work against indestructible creatures.
+Another option to combat indestructible creatures is to exile them instead. White has some options for this like Swords to Plowshares and Path to Exile.
+

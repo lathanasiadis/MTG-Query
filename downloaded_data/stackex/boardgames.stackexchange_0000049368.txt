@@ -1,0 +1,14 @@
+Q:
+
+Use of Instants During Combat Phase
+
+I declare Grizzly Bears as an attacker. My opponent moves to declare blockers, and decides to block the bears with an Air Elemental. Looking at the creature’s power and toughness, I notice my bears are going to die, so I cast Titanic Growth in order to make my bears more powerful. But, in response to my last spell, opponent casts Shock in order to kill the bears before the titanic growth resolves. In such a situation, do the Bears deal their 2 damage to Air Elemental, as the fight has been done just the same, or do the bears go directly to the graveyard without dealing their damage to the blocking creature?
+
+A:
+
+The Grizzly Bears don't deal combat damage to the Air Elemental
+Assuming no more instants or abilities are added to the stack after Shock, the stack will resolve. 
+First, Shock will resolve, causing your bears to die. 
+Then, Titanic Growth will resolve: it can't find the creature you targeted, so it effectively does nothing.
+Finally, since the stack is empty and players have passed priority, we move to combat damage. There are no attackers, so no combat damage is dealt.
+

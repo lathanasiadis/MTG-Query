@@ -1,0 +1,11 @@
+Q:
+
+Does Solemn Offering affect auras?
+
+Solemn Offering reads "Destroy target artifact or enchantment", but can it affect auras that are attached to something? I've been searching around but haven't been able to find out one way or the other.
+
+A:
+
+Yes. It can target any permanent with the Enchantment type, be it a plain old Enchantment, an Enchantment - Aura, a Legendary Enchantment Artifact, or an Enchantment Creature. Same goes for artifacts: it can destroy equipment, for example.
+Aura is a subtype of enchantment, and something which says "target enchantment" doesn't care about subtypes, just that the permanent it targets has enchantment as a type. This is similar to the fact that something which says "destroy target creature" can target any creature, whether it's a Creature - Elf or a Creature - Ooze.
+

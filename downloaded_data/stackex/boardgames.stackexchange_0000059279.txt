@@ -1,0 +1,18 @@
+Q:
+
+How can I search for all sweepers?
+
+I'm looking for a search that captures all sweepers on Scryfall. Simply "Destroy all creatures" misses sweepers such as:
+
+Languish (gives creatures -x/-x)
+Farewell (exiles)
+Terminus (puts on bottom of library)
+Oblivion Stone (destroys permanents that don't meet a particular condition)
+Hour of Revelation (destroys all nonland permanents)
+
+I'm especially interested in sweepers that can kill planeswalkers.
+
+A:
+
+One option is to use Scryfall Tagger. The tags are manually applied, so they may be incomplete or inaccurate, but they are useful for vague concepts like this. In particular, the tags sweeper-creature, sweeper-planeswalker, and sweeper-permanent are relevant to your question.
+

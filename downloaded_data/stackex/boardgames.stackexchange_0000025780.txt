@@ -1,0 +1,16 @@
+Q:
+
+How can I search MagicCards.info for an exact color identity match?
+
+My friends and I are experimenting with various potential Commander decks at the moment — we're drafting far more than we're playing, for a mix of practice, learning, and fun. This means it's semi-regular we'll look up a new commander for certain colours.
+Searching for mono- or dual-colored commanders is fine with the colour identity search, using ci:r t:legendary t:creature for monocolored red commanders, or the same legendary creature filter with ci:wum for white/blue commanders.
+However, every search for three-coloured commanders and above also includes every two-colour commander that could be found therein. A search for Temur commanders with ci:gurm turns up all the green-blue-red commanders, but it also turns up all green-red, green-blue, and red-blue commanders, meaning I have to mentally sift those out each time I want to explore commander options. The exclusive (!) filter of ci!gurm has no noticeable difference.
+How can I perform an exclusive color identity match for commanders of three colours or more, in order to get a commander who has those exact colours, without also getting commanders that match only a subset of those colours?
+
+A:
+
+When you search ci:gur on magiccards.info, you are looking for cards that match that color identity, i.e. that are legal in a deck with whose commander has a GUR color identity, including artifacts. When you append the m, it appears to search for cards that have more than one of those colors in their color identity.
+So, in that context, when you are looking for a GUR commander, you are really looking for a card that matches that color identity, but does not match any subset of that color identity.. You can express that using the negation syntax to filter out those sub-combinations, like -ci:ru. The final search is t:creature t:legendary ci:gur -ci:gu -ci:ur -ci:gr. This results in a total of six creatures that have that exact color identity.
+
+I created a Chrome extension to help construct that search automatically. I also recently discovered EDHREC, a site with similar search functionality.
+

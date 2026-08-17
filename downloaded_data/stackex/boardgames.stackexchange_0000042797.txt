@@ -1,0 +1,33 @@
+Q:
+
+Why can't Haphazard Bombardment randomly select a permanent with Indestructible?
+
+While reading this question, I came across a ruling for Haphazard Bombardment that dosen't quite make sense to me.
+Haphazard Bombardment states:
+
+When Haphazard Bombardment enters the battlefield, choose four nonenchantment permanents you don't control and put an aim counter on each of them.
+  At the beginning of your end step, if two or more permanents you don't control have an aim counter on them, destroy one of those permanents at random.
+
+While the ruling states:
+
+If one or more of the permanents with aim counters on them have indestructible, select the permanent destroyed at random from among the permanents with aim counters that don’t have indestructible. 
+
+It seems odd to me that indestructible permanents are just not eligible for random selection. For example, assume my opponent controlled 3 Darksteel citadels and 1 Storm Crow all with aim counters. I would expect that Bombardment would select randomly from all 4, so there is a 25% chance the crow would die and if a Darksteel Citadel was selected nothing would happen. However the ruling seems like the Crow is guaranteed to be destroyed.
+What is the Comprehensive Rule that supports the ruling on Haphazard Bombardment?
+
+A:
+
+I think this surprise comes about because of a slight misinterpretation of the ability.
+I think it's being read like it says this instead:
+
+At the beginning of your end step, if two or more permanents you don't control have an aim counter on them, destroy one of those permanents at random. choose one of them at random. Destroy it.
+
+This would mean we can choose a Darksteel Citadel, then fail to destroy it.
+However, it doesn't say that. It's telling us to destroy one at random. That means we need to destroy something, and we do as much as possible there.
+Comprehensive rule 608.2d comes into play here, or if not this rule, then the principle it's outlining:
+
+608.2d If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can’t choose an option that’s illegal or impossible, with the exception that having a library with no cards in it doesn’t make drawing a card an impossible action (see rule 120.3).
+
+We need to randomly destroy something. Something has to be destroyed, because that's our instruction. We cannot destroy something that's impossible to destroy, so indestructible permanents are excluded from the pool of random options. Our random choice must be between only those things that can be destroyed.
+This is what makes the Storm Crow guaranteed to be destroyed in your scenario.
+

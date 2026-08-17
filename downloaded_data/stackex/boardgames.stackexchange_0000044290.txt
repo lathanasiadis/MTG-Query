@@ -1,0 +1,38 @@
+Q:
+
+A complicated interaction with Sakashima's Student
+
+I want to be able to do the following chain of events, but am not sure if it's possible. Please help!
+Setup. At start of turn I have Etrata, The Silencer on the battlefield with Grappling Hook equipped and a Strionic Resonator ready to fire. Yuriko, the Tiger's Shadow is in the Command Zone. I move to combat and declare Etrata attacking an opponent with 3 creatures on the board.
+
+The damage goes through as First Strike damage and the Etrata trigger goes on the stack.
+In response, I activate Sakashima's Student (SS), returning Etrata to hand as part of the activation cost.
+With SS Ability on the Stack, I cast Flash.
+Flash resolves, and I put Etrata back on the battlefield, paying the extra UB.
+SS ability resolves, and he enters the battlefield as a copy of Etrata.
+The Etrata trigger resolves and exiles one of OP's creatures, but because the Etrata on the battlefield is not the same creature, it remains on the battlefield.
+Normal combat damage resolves. SS puts another Etrata trigger on the stack.
+In response, I activate Yuriko, returning SS to my hand, AND I activate Strionic Resonator, targeting the Etrata ability.
+These all resolve, I exile two more creatures and my opponent loses the game. SS is in my hand, and Etrata is back on the battlefield, ready to go again.
+
+Right, so, apart from the implausible set-up, I'm concerned about that Step 5 assumes that I resolve SS's copy ability only as the SS Activated ability resolves, rather than when it goes on the stack. If I'm wrong, then my dream dies.
+
+A:
+
+After Step 5, you would have to sacrifice Sakashima's Student or Etrata, The Silencer.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+(Emphasis mine)
+
+But let's say the legend rule didn't apply.
+Your plan would work. The following choices are made when activating an ability:
+
+Choice of mode[CR 601.2b]
+Choice of targets[CR 601.2c]
+Choice of how to divide/distribute an effect among one or more targets[CR 601.2d]
+Choices that affect the cost to activate or how it's paid
+
+All other choices, such as choice of creature to copy as Sakashima's Student is placed on the battlefield, are made on resolution.
+

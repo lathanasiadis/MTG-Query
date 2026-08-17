@@ -1,0 +1,29 @@
+Q:
+
+Could I still play cards from the activated ability of Golos while the Epic effect is active?
+
+Spells cast with the keyword Epic, like Eternal Dominion prevent the player from casting other spells for the rest of the game. However, Golos, Tireless Pilgrim says: 
+
+Exile the top three cards of your library. You may play them this turn without paying their mana costs.
+
+Would I be able to use Golos's activated ability and cast cards after using Eternal Dominion?
+
+A:
+
+Yes, you would be able to activate Golos's activated ability.
+No, you couldn't cast cards exiled by Golos's activated ability (but you could play lands exiled by the ability).
+
+Golos's ability instructs you to play a card.  To play a card means to play that card as a land or to cast that card as a spell.[CR 701.13b]
+Epic creates a continuous effect that says you can't cast spells for the remainder of the game.[CR 702.49a]
+For non-lands, we have a conflict resolved by the second Golden Rule:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+This means the restriction from Epic's continuous effect trumps all instructions to cast spells, including the permission granted by Priority (the normal way of casting spells) and effects from abilities such as Golos's.
+If Golos's ability exiles a land, you may play it as a land (subject to the usual timing restrictions and the limit on the number of lands per turn).
+If Golos's ability exiles a non-land, you may not play it, as that would involve casting it.
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+701.13b To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.
+702.49a Epic represents two spell abilities, one of which creates a delayed triggered ability. “Epic” means “For the rest of the game, you can’t cast spells,” and “At the beginning of each of your upkeeps for the rest of the game, copy this spell except for its epic ability. If the spell has any targets, you may choose new targets for the copy.” See rule 706.10.
+

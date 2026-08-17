@@ -1,0 +1,18 @@
+Q:
+
+Deathtouch vs an indestructible creature, which then loses indestructible
+
+I think I know how this works, but would like to confirm. Suppose my Hill Giant is equipped with Darksteel Plate, and then is dealt damage by a Deadly Recluse. That's one point of deathtouch damage. Without the equipment, that would destroy Hill Giant; with the equipment, it doesn't.
+If the Darksteel Plate is unequipped that same turn, will Hill Giant be destroyed?
+I believe the answer is No, because nothing in the rules says that "deathtouch-ness" is remembered. All that's left is that there's a Hill Giant with one point of damage marked on it, ergo it survives.
+
+A:
+
+No, the creature will not die.
+The rules for determining whether creatures die due to damage are part of state-based action, which are checked every time a player would gain priority:
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+704.5h If a creature has toughness greater than 0, and it’s been dealt damage by a source with deathtouch since the last time state-based actions were checked, that creature is destroyed. Regeneration can replace this event.
+
+As you can see, deathtouch damage is only handled once, the first time state-based actions are checked after the damage is dealt. So, in your situation, the creature takes the 1 deathtouch damage. Then, immediately after that, state-based actions are checked, 704.5h applies, and it tries to destroy the creature, but the creature is indestructible, so nothing happens. Later, after you remove the equipment, state-based actions will be checked again, but the creature hasn't taken damage from a source with deathtouch since the last time state-based actions were checked, so the rule doesn't apply and nothing happens.
+

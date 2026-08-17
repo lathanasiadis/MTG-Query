@@ -1,0 +1,15 @@
+Q:
+
+How do cards with multiple Xs in their mana cost work with cards that reduce their costs?
+
+For example, if I have Astral Cornucopia in play along with Jhoira's Familiar, what happens? Can I cast it for X = 1 without paying any mana? 
+I know that there is a question here regarding to X spells with cost reducers, but the question does not cover spells with multiple Xs, which is why I am asking this. 
+
+A:
+
+Casting Astral Cornucopia with X=1 and Jhoira's Familiar in play will cost {2}.
+The number of Xs in a casting cost doesn't matter for cost reduction effects. If you choose X=1, the mana cost of Astral Cornucopia will simply be {1}{1}{1}, or {3}, the sum of mana symbols. Jhoira's Familiar will reduce the mana cost by {1}, resulting in a total cost of {2}.
+
+202.1a The mana cost of an object represents what a player must spend from their mana pool to cast that card. Unless an object’s mana cost includes Phyrexian mana symbols (see rule 107.4f), paying that mana cost requires matching the type of any colored or colorless mana symbols as well as paying the generic mana indicated in the cost.
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. [..] The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions.[..]
+

@@ -1,0 +1,23 @@
+Q:
+
+Are counters the same as a creature's power/toughness?
+
+I put 4 +1/+1 counters on a 1/1 creature, so now it is a 5/5. My opponent casts a spell that says to remove all +1/+1 counters from target creature. Is my creature now a 1/1? Or are all creatures 0/0 with +1 counters on them?  If they are 0/0s, then since all counters would be removed, is my card dead?
+Related, can I use Sage of Hours, again and again, or would it be dead after the first time I use it due to removing all counters?
+
+A:
+
+Counters are a specific object in the game, usually represented by a physical token (glass beads, tiny dice, pennies if you're desperate, &c.) so you can keep track of them.
++1/+1 counters are a specific kind of counter with a baked-in ability: modifying the power and toughness of a creature they are attached to.
+Only things specified as "counters" in the game rules or card text are counters.
+All of these things are not counters and do not involve counters:
+
+Your creature's base power and toughness, and effects that set them to specific values.
+A creature's power and toughness that gets set by the card text while the value in the corner just says "*/*."
+A card that modifies a creature's power and toughness, such as "target creature gets +3/+3 until end of turn" or "all white creatures get +1/+1."
+
+The only times you're likely to be interacting with counters in Magic without a card being super explicit are planeswalker loyalty and a handful of specialized set mechanics:
+
+Infect and Wither turn damage into -1/-1 counters.
+Suspend and cumulative upkeep both use counters to keep track of their "ticks."
+

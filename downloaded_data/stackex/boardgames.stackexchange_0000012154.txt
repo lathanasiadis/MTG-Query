@@ -1,0 +1,14 @@
+Q:
+
+Can a 0/0 creature with +1/+1 counters on it (like a Hydra) be regenerated?
+
+Since I fairly new to the Regeneration deal I have a question about regenerating Hydra creatures with +1/+1 counters on them. My friend seems to think that if he Doom Blades, Supreme Verdicts, or any destroy creatures/target creature on my side of the field, that I can't use the regeneraton effect from Golgari Charm on my Primordial Hydra or Savageborn Hydra. He thinks that they become 0/0's and the counters thus go away so regenerating a Hydra with no +1/+1 counters on it since I cant recast it means my Hydras are dead. Is this correct?
+
+A:
+
+Those two spells Destroy. Regeneration replaces destruction, which means the destruction doesn't happen, which means it doesn't cause anything to go to the graveyard. If you cast the regeneration mode of Golgari Charm in response to Doom Blade or Supreme Verdict, your Hydras will be safe. They will not lose counters, enchantments, or equipment; they don't gain summoning sickness; spells targeting them don't lose sight of them; LTB and ETB abilities don't trigger; etc.
+
+614.8. Regeneration is a destruction-replacement effect. The word “instead” doesn’t appear on the card but is implicit in the definition of regeneration. “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.” Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.12.
+
+Regeneration will not save the Hydras from being sent to the graveyard as a result of having non-positive toughness, but nothing in the scenario you gave reduces their toughness (by removing +1/+1 counters or otherwise).
+

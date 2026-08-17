@@ -1,0 +1,29 @@
+Q:
+
+Can I have priority passed back to me during spell resolution, so that I can do more with my own spell?
+
+So, this is a basic question, but I want to make sure I'm getting this right.
+Suppose I have a Lightning Bolt and a Twincast, and I want to bolt my opponent twice.
+I know that to do so I can do the following:
+
+Cast lightning bolt.
+Hold priority.
+Copy it choosing a new target.
+
+Now, what I want to know is if I can cast lightning bolt, pass priority, and then, after checking if my opponent has a response for it, copy it. Like:
+
+Cast lightning bolt
+Pass priority.
+Oponnent passes priority back without putting anything else on the stack.
+Copy lightning bolt.
+
+Is the forth move illegal? My spell resolves right after my opponent passes priority, without I having a second chance to put more stuff on the stack? 
+
+A:
+
+If you wait for your opponent to respond and your opponent has no response, your lightning bolt resolves before you can twincast it.
+
+608.1. Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, “Effects.”)
+
+You'll only get a chance to copy the bolt if they respond, or if you cast both spells before passing priority the first time.
+

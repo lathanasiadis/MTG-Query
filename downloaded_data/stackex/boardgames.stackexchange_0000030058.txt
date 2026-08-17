@@ -1,0 +1,42 @@
+Q:
+
+When casting a spell, how can a mana ability be paid with another mana ability?
+
+A situation was presented with Skyshroud Elf and Ashnod's Altar: apparently, you could generate WW or RR by:
+
+Activate the Elf's filter ability ({1}: Add {R} or {W})
+Activate the Elf's filter ability
+Activate Altar to generate {2}
+Resolve filter ability 1 (or 2?)
+Resolve other filter ability
+
+But, mana abilities don't use the stack, and once activated they resolve immediately. So, how can you "respond" to a mana ability in this way?
+
+605.3b An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated
+
+Credit to Pucatrade for the situation
+
+A:
+
+It used to be possible to do this by activating the Elf's filter ability during the process of activating the same ability, taking advantage of the fact that one of the steps of  casting a spell or activating an ability is rule 601.2g:
+
+If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+But the rule 605.3c introduced in Eldritch Mood explicitly forbids the specific sequence in the question:
+
+Once a player begins to activate a mana ability, that ability can’t be activated again until it has resolved.
+
+However, it is still possible to do essentially the same thing in a variant scenario where a single creature has two separate instances of the Skyshroud Elf's ability. For example, if you control Ashnod's Altar and Necrotic Ooze, and your graveyard has two copies of Skyshroud Elf in it, then you can accomplish the same thing by doing this:
+
+Activate the Ooze's first filter ability. When you get to step 601.2g of the activation process, do the following:
+
+Activate the Ooze's second filter ability. When you get to step 601.2g of this ability's activation process, do the following:
+
+Activate Ashnod's Altar's ability by sacrificing the Ooze. Now you have {C}{C} in your mana pool.
+
+Pay for the second filter ability with {C} and let the ability resolve, adding {W} or {R} to your mana pool. Now you have {C} and {W} or {R} in your mana pool.
+
+Pay for the original filter ability with {C} and let the ability resolve to add another {W} or {R} to your mana pool.
+
+By doing this, you end up with two mana in any combination of {W} and {R} to your mana pool.
+

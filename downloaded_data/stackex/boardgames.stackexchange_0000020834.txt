@@ -1,0 +1,19 @@
+Q:
+
+When a Creature dies, does the Enchantment Creature attached to that Creature go in the graveyard?
+
+Or can you place that Enchantment Creature as a Creature on the battlefield after the Creature it was attached to dies?
+
+A:
+
+Depends on the situation. Normally, when a creature dies (goes to the graveyard) or gets exiled, all attached enchantments are moved to the graveyard as well.
+
+704.5n If an Aura is attached to an illegal object or player, or is not attached to an object or player, 
+  that Aura is put into its owner’s graveyard.
+
+Unless you have a bestow enchantment:
+
+702.102e If an Aura with bestow is attached to an illegal object or player, it becomes unattached. This is an exception to rule 704.5n.
+
+Of course, that has also has its exceptions, for example when a player casts End Hostilities, then all creatures, and its attached permanents are destroyed.
+

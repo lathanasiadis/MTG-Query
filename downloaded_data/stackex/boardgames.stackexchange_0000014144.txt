@@ -1,0 +1,24 @@
+Q:
+
+Can I use Trait Doctoring to to make a Circle of Protection monocolor or multicolor?
+
+Can Trait Doctoring be used to change a Circle of Protection (whatever color) into protection from mono or multicolor? Trait Doctoring reads
+
+Change the text of target permanent by replacing all instances of one color word with another or one basic land type with another until end of turn.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+
+Do monocolor and multicolor count as "color words"? I sort of assumed so but I'm not really sure.
+
+A:
+
+No, it cannot.
+As per the ruling on the card:
+
+The type-changing effect can change part of a word such as “nonblack” or “swampwalk” if the part of the word is being used to refer to a color or basic land type.
+
+Referring to color in general does not refer to a color.
+As per the comp rules:
+
+105.1. There are five colors in the Magic game: white, blue, black, red, and green.
+105.4. If a player is asked to choose a color, he or she must choose one of the five colors. "Multicolored" is not a color. Neither is "colorless."
+

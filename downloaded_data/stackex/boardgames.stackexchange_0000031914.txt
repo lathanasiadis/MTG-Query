@@ -1,0 +1,29 @@
+Q:
+
+Are there times it's actually advantageous to wait to pay mana abilities until casting a spell?
+
+In Magic, you have two ways to pay for a spell (or ability):
+
+Collect the mana first, then cast the spell and spend the mana to pay for it.
+Cast the spell, play some mana abilities as part of the casting, spend the mana to finish the casting.
+
+I can name some situations when the first approach is more advantageous.
+For one, you can collect mana from other sources, like spells.
+As spells aren't mana abilities you can't use those in the second approach.
+Are there some situations where the second approach is more advantageous mechanically? What kinds of situations are those?
+Let's assume no mistakes are made, so no need to rollback an illegal casting.
+
+A:
+
+I can think of one that I used to use back in the Mirrodin days using Mycosynth Golem and Krark-Clan Ironworks. The short version is that in the case where you cast the spell before paying its cost, you can save yourself from sacrificing more artifacts than necessary. 
+As an example, you have five artifacts on the battlefield, so your affinity is five. You also have two available land that produce two mana, and an Ironworks. Here are the two ways you could play it:
+
+You pay the costs first. You tap your 2 land, so now you need 9 more. In order to get this to work, you have to sacrifice 4 artifacts to generate an additional 8 mana. This leaves you with an affinity of 1, which gives you enough to pay for the Golem.
+You cast the Golem first. The Golem goes on the stack with an affinity of five, reducing the cost to six mana. You then pay the six mana by (1) tapping your two land and (2) sacrificing two artifacts to the Ironworks for four mana.
+
+In most cases, the second option is better (unless you are wanting to sacrifice more artifacts for some reason). This is a case where casting your spell before paying costs is beneficial.
+
+In a more general sense, the cases where you'd want to cast the spell before paying costs are ones where you want to lock in a casting cost that has the potential to change as you're paying for it. The example above illustrates this principle, and rule 601.2h in JonTheMon's answer has an equally important example.
+This is going to be a little verbose, but the standard is probably something like:
+"If you are going to be paying a reduced cost for your spell because of effects of cards on the battlefield, but in paying the cost for your spell you will be removing those cost-reducing cards from the battlefield, you should put the spell on the stack first and then pay costs."
+

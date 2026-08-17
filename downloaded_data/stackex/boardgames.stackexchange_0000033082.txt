@@ -1,0 +1,18 @@
+Q:
+
+Can I suspend Ith, High Arcanist as my commander directly from the command zone?
+
+When Ith, High Arcanist is in command zone, can I use its suspend ability?
+Does the suspend activity cost increase the second time or is the additional cost is only applied to casting cost?
+
+A:
+
+No, you cannot.
+Suspend means:
+
+702.61. Suspend
+702.61a Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
+
+You can only use Suspend from your hand. Since the Command zone is a zone different from your hand, you cannot use Suspend.
+This is also summarised in the reminder text for Ith's Suspend ability, which can be read on Gatherer.
+

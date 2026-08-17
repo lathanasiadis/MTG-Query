@@ -1,0 +1,21 @@
+Q:
+
+Does trample damage hurt players even if the creature dies?
+
+I'm playing myself with two Avacyn Restored decks from a 6-booster sealed prerelease tournament, and wonder whether a 6/4 creature with trample blocked by a 4/1 creature would still allow damage through.
+
+A:
+
+Short Answer
+Yes, that's what trample does - any damage beyond lethal can be assigned to the player or planeswalker the trampling creature is attacking.
+
+Long Answer
+Combat damage is all dealt simultaneously (in two steps, the first of which is exclusive to creatures which have First Strike or Double Strike) - assuming the attacker and blocker both do not have First strike or Double strike, the four damage from the blocking 4/1 is dealt to the 6/4 trampler at the same time that the 6/4 with Trample deals one to the blocker and five to that creature's controller (assuming there are no other blocking creatures).
+Thus, if you are at five or less life, and have a 4/1 without First Strike or Double Strike blocking a 6/4 with Trample, lethal damage will be assigned to you (and dealt, unless it is prevented somehow).
+If your 4/1 blocker does have First Strike or Double Strike (and the 6/4 Trample does not), your blocker's combat damage will be dealt in a combat damage step earlier than the 6/4, and if the 6/4 is dealt lethal damage (which it would be, assuming no combat tricks), the 6/4 would be destroyed and would not be present for the second combat damage step, so you would avoid damage altogether.
+See the following from the 5/1 comprehensive rules:
+
+703.4k Immediately after combat damage has been assigned during the combat damage step, all combat damage is dealt simultaneously. See rule 510.2.
+510.2. Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt. This is a change from previous rules.
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+

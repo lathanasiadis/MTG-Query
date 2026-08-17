@@ -1,0 +1,27 @@
+Q:
+
+Can Simulacrum save me from dying?
+
+My opponent casts an Instant that does enough damage to kill me. (Hurricane, in this case, but any Instant would do.)
+Priority passes to me.
+I cast Simulacrum, to have the damage dealt to one of my creatures instead, giving me back the life lost...
+But wait. If I cast Simulacrum before my opponents spell resolves, it lands on top of the stack... and resolves first, doesn't it?
+If I wait for my opponent's spell to resolve, I am at 0 life... and have lost the game before I can cast Simulacrum?
+Or have I gotten the stack / priority rules wrong?
+(Please excuse me if the question is stupid, but it has been a loong time since I played, it seems much has changed, and anyway all the rules I had available back then was that miniature leaflet that was sold with Revised starter packs...)
+
+A:
+
+Your instinct is correct, you can not use Simulacrum to save yourself.
+If you cast Simulacrum as a response to Hurricane, while Hurricane is on the stack, then when Simulacrum resolves (before Hurricane does), it will give you 0 life, because you have taken 0 damage this turn. Assuming of course that you had not been dealt other damage previously this same turn.
+If you wait until after Hurricane resolves, then you will lose the game the next time a player would receive priority, when state-based actions are checked.
+
+116.5. Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, “State-Based Actions”), then repeats this process until no state-based actions are performed.
+
+For Simulacrum to save you, it would have to instead be a spell that creates a replacement effect for damage that will be dealt later, such as Captain's Maneuver or Withstand
+It is worth noting that the Oracle wording of Simulacrum is all that matters; not the wording printed on the card. So the correct wording is:
+
+You gain life equal to the damage dealt to you this turn. Simulacrum deals damage to target creature you control equal to the damage dealt to you this turn.
+
+This removes the confusing bit about damage being "instead retroactively applied to one of your creatures in play", which would incorrectly imply that you never actually receive that damage. The card as printed wouldn't work within the MTG rules, because the damage was already done; the game can't look to the future to know if that card will be cast later this turn before moving on.
+

@@ -1,0 +1,25 @@
+Q:
+
+How on earth do I crew a non-vehicle?
+
+The Kaladesh update bulletin includes the following line:
+
+208.5
+Also on the subject of power and toughness, we have a new rule that if a creature has no power or toughness, that value is 0. This can happen if you manage to get a crew ability to animate a non-Vehicle artifact.
+
+The newly defined rule itself says:
+
+208.5 If a creature somehow has no value for its power, its power is 0. The same is true for toughness.
+
+The update bulletin doesn't mention what cards could possibly enable this to happen though, and I can't for the life of me figure out how this gets set up. Is it some combo involving Necrotic Ooze or something?
+How can I crew a non-vehicle to arrive at this situation?
+
+A:
+
+The simplest method of accomplishing this probably involves using a Mizzium Transreliquat. Say you control a Mizzium Transreliquat, a Sol Ring, a Smuggler's Copter, and a Grizzly Bears. Then you can get the situation the bulletin is referring to by doing the following: 
+
+Activate and resolve the Mizzium Transreliquat's second ability targeting the Copter.
+Activate the copy's Crew ability. 
+While that is on the stack, activate and resolve the Mizzium Transreliquat ability again targeting Sol Ring.
+Let the Crew ability resolve, animating a copy of a Sol Ring.
+

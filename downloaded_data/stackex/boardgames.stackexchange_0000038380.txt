@@ -1,0 +1,26 @@
+Q:
+
+How does "it's still a land" affect a permanent that would not otherwise be lands?
+
+The situation: I have a creature, and my opponent casts an Imprisoned in the Moon on it, which has this ability:
+
+Enchanted permanent is a colorless land with "{T}: Add Colorless to your mana pool" and loses all other card types and abilities.
+
+Then I cast a card with Awaken (perhaps Coastal Discovery) and choose to Awaken that land. The Awaken ability has this text:
+
+If this spell’s awaken cost was paid, put N +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It’s still a land.
+
+After that, I remove the Imprisoned in the Moon. At this point, there is just one relevant continuous effect applied to the creature:
+
+It is a 0/0 Elemental creature with haste. It's still a land.
+
+So, is the creature also a land, or is it just a creature? In other words, does the "it's still a land" clause actually change the permanent's type, or does it just mean that it retains any existing types
+
+A:
+
+You have a non-land Elemental creature.
+"It's still a land" does not give the land type. Instead, it prevents the land type (and any other type it might have) from being removed by Awaken because changing an object's type normally removes all of the object's other types.
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. [...]
+205.1b Some effects change an object’s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object’s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase “in addition to its types” or that state that something is “still a [type, supertype, or subtype].” [...]
+

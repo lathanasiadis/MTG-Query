@@ -1,0 +1,13 @@
+Q:
+
+Can I cast both parts of Commit//Memory from the graveyard with Torrential Gearhulk?
+
+I cast Torrential Gearhulk, can I cast Memory from my graveyard with gearhulk's triggered ability?
+As I understand and with some basic rules I know, I can't, because Memory is a sorcery and gearhulk says I can cast an instant. But I read that split cards count as 1 card with converted mana cost equal to total of converted mana costs of each of the card's parts. That means this card is an instant and sorcery at the same time as long as it remains in the graveyard at least and I can cast it with gearhulk and choose both parts to be cast, I found it too good to be true for standard and I wanted to know if this is right. (Please explain)
+
+A:
+
+You can use Torrential Gearhulk to cast either Commit or Memory, but not both.
+As you mentioned, in zones other than the stack (including the graveyard), a split card has the combination of the characteristics of the two halves [CR 708.4]. In this case, that does mean that the card is considered to be both an Instant and a Sorcery. Since it is an instant card, it is a valid target of Torrential Gearhulk's ability.
+Then, Torrential Gearhulk instructs you to cast the spell. The first thing you do when casting a split card is choosing which half you are casting [CR 708.3]. In this case, Memory has a restriction (Aftermath) that says that you can only cast it from your graveyard. You are casting the card from your graveyard, so that's no problem. Commit doesn't have any restrictions, so you can cast that too. The Gearhulk's ability doesn't care if you cast the instant half or the sorcery half. It instructed you to cast an instant card, and that's what you did.
+

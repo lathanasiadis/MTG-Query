@@ -1,0 +1,27 @@
+Q:
+
+Layers: Lose abilities vs creatures have ability
+
+My opponent had a Archetype of Finality and a Borderland Minotaur.
+I attacked with my Ancient Crab and casted Turn to Frog on her Borderland Minotaur once she blocked.
+Am I correct that both the 
+
+Creatures you control have deathtouch.
+
+and the
+
+...target creature loses all abilities...
+
+happen on layer 6 (Ability Adding or Removing Effects) and with the timestamps in mind, the Borderland Minotaur first gained deathtouch and then lost it?
+Thanks and "Ribbit"!
+
+A:
+
+Yes, these both happen on layer 6: ability-adding and ability-removing effects. When one effect is adding one or more abilities, and a second effect is trying to remove them, then the one that "wins" is the one generated last in timestamp order. The Borderland Minotaur won't have deathtouch in that scenario: it gains it, then loses it.
+Rule 613.8 actually provides a direct example about this, using Flying rather than Deathtouch:
+
+613.8. One continuous effect can override another. Sometimes the results of one effect determine whether another effect applies or what another effect does.
+Example: Two effects are affecting the same creature: one from an Aura that says “Enchanted creature gains flying” and one from an Aura that says “Enchanted creature loses flying.” Neither of these depends on the other, since nothing changes what they affect or what they’re doing to it. Applying them in timestamp order means the one that was generated last “wins.” The same process would be followed, and the same result reached, if either of the effects had a duration (such as “Target creature loses flying until end of turn”) or came from a non-Aura source (such as “All creatures lose flying”).
+
+The example uses auras, but the very last sentence in this example says you'd also do the exact same thing if the effects came from "a non-Aura source", such as your Archetype of Finality or Turn to Frog.
+

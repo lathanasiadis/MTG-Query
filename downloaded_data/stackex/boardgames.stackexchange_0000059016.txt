@@ -1,0 +1,23 @@
+Q:
+
+Does ETB trigger after legendary rule resolution?
+
+My friend is building a commander deck and wants to confirm if his latest combo is correct.
+Currently, there is a Reflections of Littjara on the battlefield, and the dragon creature type has been named. If I cast Miirym, Sentinel Wyrm, the following events occur:
+
+The Reflections of Littjara trigger, creating a legendary copy of Miirym on the stack.
+The legendary copy of Miirym enters the battlefield.
+The real Miirym enters the battlefield. I must sacrifice one Miirym since both are legendary.
+
+My question is: Does the Miirym token still trigger from the enter-the-battlefield ability of the real Miirym? If it does, does this mean a non-legendary token of Miirym is created and enters the battlefield?
+
+A:
+
+Yes, the ability triggers and you create a non-legendary copy of Miirym.
+Focusing just on the resolution of the original Miirym spell, the sequence of events goes like this:
+
+The original Miirym spell resolves. Miirym enters the battlefield, and the ability on the existing token copy of Miirym triggers.
+State-based actions are checked, and you must choose to put one of the two Miiryms into your graveyard.
+The triggered ability is put on the stack.
+After all players pass priority, the triggered ability resolves, creating a non-legendary copy of Miirym.
+

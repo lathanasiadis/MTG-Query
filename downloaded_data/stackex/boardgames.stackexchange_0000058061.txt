@@ -1,0 +1,25 @@
+Q:
+
+Why would two Vorinclex, Monstrous Raiders cause sagas to enter with 0 counters?
+
+I played a match on MTG Arena where, to my surprise, effects got resolved in my favor. I had a Vorinclex, Monstrous Raider on the battlefield and my opponent cast Verdant Rejuvenation. They pulled a bunch of sagas and their own Vorinclex, Monstrous Raider. At the moment my expectation was each Vorinclex would cancel out and the sagas would come with 1 counter, but they came up with 0.
+My understanding is that their Monstrous Raider and sagas entering the battlefield together shouldn't be an issue. Previously on the same match my own Verdant Rejuvenation pulled a Lotus Cobra and other creatures while I had Ashaya, Soul of the Wild, causing the Cobra's landfall to trigger for all creatures put together into play.
+Now checking the rulings for Vorinclex I can see:
+
+If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+
+But Arena doesn't prompt for the order to apply replacement effects, as they don't use the stack [Edit: incorrect, there's an option to order these effects]. Could this be a bug/limitation where Arena decided to apply my Vorinclex first, reducing saga counters to 0, followed my opponent's Vorinclex?
+
+A:
+
+The opponent's Vorinclex cannot affect their sagas because they are entering the battlefield at the same time.
+First, the effect that causes a saga to enter with a lore counter is rule 715.3a:
+
+As a Saga without the read ahead ability enters the battlefield, its controller puts a lore counter on it. (See rule 702.155, “Read Ahead.”)
+
+This is an enters-the-battlefield replacement effect, so it is governed by rule 614.12:
+
+Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+Verdant Rejuvenation puts the Sagas and Vorinclex on the battlefield at the same time, so that player's Vorinclex's ability does not already exist at the time that you are applying the Sagas' replacement effects. However, the other player's Vorinclex is already on the battlefield, so its effect does apply.
+

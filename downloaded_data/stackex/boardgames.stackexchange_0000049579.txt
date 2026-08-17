@@ -1,0 +1,23 @@
+Q:
+
+Putting creatures into play in alternative ways to summoning them
+
+Cards like Quicksilver Amulet or Sneak Attack allow me to put creatures into play.
+I wonder if the following statements are correct:
+
+Cards put into play this way cannot be countered in an ordinary way; such as with cards capable of countering summoning spells, such as Remove the Soul, or with a generic counter such as Cancel when summoning a creature by paying the mana cost, as usually happens.
+It is possible to counter the respective activated abilities of the two cards above - for example, in the case of Quicksilver Amulet, with Rust; or in the case of Sneak Attack, with Trickbind.
+Countering the activated ability in such a way will prevent the “putting into play” of creatures, even when is explicitly reported on their card text the phrase "[this creature] can't be countered", like Kavu Chameleon, or Emrakul, the Aeons Torn.
+If Emrakul is put into play with the ability of Quicksilver Amulet or Sneak Attack, the text of the card  that reads "When you cast this spell, take an extra turn after this one" will not apply, so the player who puts Emrakul into the game will not be able to have an extra turn, since he has not materially "cast" it.
+
+A:
+
+Cards like Quicksilver Amulet and Sneak Attack provide an alternative way to put creature cards into play, instead of casting them as normal. This has the following differences to casting them as normal:
+
+Cards put into play this way are never on the stack; only the ability that puts them there is
+The creature card will never be considered cast, and never be considered a spell
+The controller of the ability doesn't have to announce the creature card until the ability resolves (at which point it can't be countered anymore). They don't even have to put a creature card on the battlefield at all if the ability resolves.
+
+At the time you activate the ability of one of those cards, no creature card is involved at all. If a player chooses to Stifle the ability, it will be countered. Emrakul, the Aeons Torn's ability does not apply, because not only is it not a spell - it isn't involved in the situation in any shape or form until the ability resolves and the controller chooses a creature card to put into play.
+Likewise, a triggered ability that triggers when a creature is cast only triggers when that creature is put on the stack as a spell (note how this is made abundantly clear by both of Emrakul's abilities referring specifically to spell). Using one of the cards in question, this never happens, so the controller will never get the benefits of a cast trigger by simply putting the creature into play.
+

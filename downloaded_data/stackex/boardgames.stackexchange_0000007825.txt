@@ -1,0 +1,31 @@
+Q:
+
+How can I store all of the cards for my MtG Cube?
+
+I've created my first cube during the last week. It's been fun and I'm eager to try it out. There's just one thing... How do I store it? The goal size is about 540 cards without basic lands. I guess I need about 200 basics too. For now I'll keep all cards except the basics in sleeves permanently but I might sleeve up the lands too.
+Have you found any better boxes than those that comes with booster packs or shoe boxes (too big)? Do you keep all basic lands sleeved?
+
+A:
+
+Probably, the best way to store a cube is in a properly sized corrugated trading card box. These boxes are fairly cheap, and with your local friendly game store's 100% markup, they shouldn't run you more than a couple dollars.
+
+I wouldn't use booster pack boxes or shoe boxes. Booster boxes are too flimsy, because the are designed for display purposes. You might spill your cards everywhere. Shoeboxes do not have trading card dimensions (Each MtG card is approximately 63 x 88 mm in size), so it will be more difficult to keep the cards in order as you will have several stacks.
+I would sleeve all your cards, including the basic lands. You will eventually need to play with the basic lands after the cube draft, so you will save everyone some time by having all the basic lands sleeved identically to the cube draft cards. As far as sizing your corrugated trading card box, that just comes down to some simple math:
+(Note: I am using 288 microns for MtG card thickness, from mtgsalvation thread. The Wikipedia page says 305 microns, but the information isn't cited either. The difference is only 0.5" for 740 cards)
+|                |Thickness|      | Total | Total  | Total  |
+|Card/Sleeve Type|(microns)|#Cards| (cm)  | (inch) |Sleeved |
++----------------+---------+------+-------+--------+--------+
+|Magic Card      |     288 |  740 | 21.29 |  8.384 |  8.38" |
+|Unnamed (thick) |     110 |  740 |  8.14 |  3.205 | 14.8"  | 
+|Unnamed (thick) |     110 |  540 |  5.94 |  2.339 |        |
+|Dragon Shield   |     100 |  740 |  7.4  |  2.913 | 14.2"  |
+|Dragon Shield   |     100 |  540 |  5.4  |  2.126 |        |
+|Mayday Premium  |      90 |  740 |  6.66 |  2.622 | 13.6"  |
+|Mayday Premium  |      90 |  540 |  4.86 |  1.913 |        |
+|"Penny" (thin)  |      40 |  740 |  2.96 |  1.165 | 10.7"  |
+|"Penny" (thin)  |      40 |  540 |  2.16 |  0.850 |        |
++----------------+---------+------+-------+--------+--------+
+
+If you don't sleeve the cards at all, you will need a corrugated box with 8.38 inches interior space. Depending upon what thickness sleeves you are using, your cube will fit somewhere between 11"-15" (sleeve thickness doubled, since there are 2 sides). You can get a box that fits your cube snugly, or a slightly longer box so it is easier to remove cards. You can always use deckboxes to pad the extra space, or split the cube from the basic lands.
+I did some testing with some penny sleeves I had, to verify some of the above numbers. 100 penny sleeves were about 1/2", so sleeving 740 should be about 3.75", which is quite a bit higher than the 2.33" estimate (after doubling thickness). The largest corrugated boxes sold have just over a 14" interior length, so you might have to store your basic lands in a different box than your cube.
+

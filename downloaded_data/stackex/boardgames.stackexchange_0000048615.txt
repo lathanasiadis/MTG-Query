@@ -1,0 +1,24 @@
+Q:
+
+How will Gadwick remember the actual amount of X mana spent?
+
+The text for Gadwick the Wizened (from Throne of Eldraine) says:
+
+Gadwick, the Wizened XUUU
+Legendary Creature - Human Wizard
+When Gadwick, the Wizened enters the battlefield, draw X cards.
+Whenever you cast a blue spell, tap target nonland permanent an opponent controls.
+
+My understanding (largely based on others comments) was that the card won't remember the cost of X when it enters the battlefield?
+So how will Gadwick know what the X was, when it was cast?
+
+A:
+
+Under current rules, the card would not work as intended with the current wording.
+As the card Venarian Gold shows, it is, in principle, possible to refer to a self-chosen value of X for an enters-the-battlefield ability. However, as you might tell, it's quite an awkward wording and, if it got a functional reprint, would probably be handled more elegantly with a replacement effect ("As Venarian Gold enters the battlefield, [..]").
+In any case, Gadwick, the Wizened's wording is different, makes no reference to "X as you cast [it]", and would not work under current rules. 107.3 and its subsections do not provide a definition of the value of a self-chosen X on an object outside the stack, because no currently released card would need it.
+We have to expect a rules update for Gadwick, and, if they even remember the card, a change in Venarian Gold's oracle text.
+Update from Eli Shiffrin, the Magic rules manager:
+
+Now Gadwick, the Wizened gets a new 107.3k rule to clarify that its triggered ability looks at the value X that comes from the spell it was, not the permanent it is.
+

@@ -1,0 +1,17 @@
+Q:
+
+Card that deals damage and adds a +1/+1 counter
+
+Simple question: Is there a permanent that has "Pay 1 Mana: Target creature takes 1 damage and gains a +1/+1 counter" or "Tap: Target creature takes 1 damage and gains a +1/+1 counter"?
+
+A:
+
+No, there isn't such a card.
+Gatherer is the official source for Magic card wordings, and has a powerful search engine behind it. 
+The text of the card you're looking for would certainly contain the wording "(deal/deals) 1 damage to (target creature/any target)", and also the term "put a +1/+1 counter".
+So we can search for any card that at the same time contains the terms "1 damage to", "put", and "+1/+1", resulting in this search
+As you can see, none of the currently 10 results fitting that pattern match your exact requirements. 
+Also note that  under most circumstances, dealing 1 damage and putting a +1/+1 counter on the same creature in the same effect would cancel each other out, as far as survivability of that creature is concerned. It's unlikely that such a card will ever be made, because the +1/+1 counter is supposed to be the reward for surviving the initial damage, which has to come in a separate effect. 
+That "+1/+1 counter for surviving damage" mechanic isn't all that rare. You might be looking for cards such as in this search. Those are the cards that put +1/+1 counters on themselves or other creatures whenever those creatures are dealt damage. Then all you need is a source of ping damage, which is plentiful on permanents, at least for {t} cost. A repeatable ping damage ability, i.e. one with a mana cost instead of tap or other cost, will usually cost at least {2} per damage, because {1} per damage would be too strong. 
+In any case, you will probably never find both ping damage and putting a +1/+1 counter effects in the same ability of any card.
+

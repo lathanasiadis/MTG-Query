@@ -1,0 +1,23 @@
+Q:
+
+What happens if I take damage with Worship out while at negative life?
+
+Let's say I'm at -10 life but Phyrexian Unlife is keeping me alive. I have a random creature in play as well as Worship when opponent hits me for 5 damage. Does my life total go back up to 1? -10 life is less than 1, so presumably Worship's effect would occur, but if I go from -10 to 1 life, my life total wouldn't be "reduced".
+What about Phyrexian Unlife's effect - do I gain 5 poison counters? What if instead of Phyrexian Unlife it is some other effect like Platinum Angel keeping me alive?
+Text of relevant cards:
+
+Worship: If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.
+
+Phyrexian Unlife: You don't lose the game for having 0 or less life. As long as you have 0 or less life, all damage is dealt to you as though its source had infect. (Damage is dealt to you in the form of poison counters.)
+
+Platinum Angel: You can't lose the game and your opponents can't win the game.
+
+A:
+
+You will get the 5 poison counters if you have Phyrexian Unlife, and lose 5 life if you have Platinum Angel.
+The card Serra the Benevolent has an ultimate ability that creates an emblem with Worship's ability. It has a ruling that says this:
+
+If you have less than 1 life and somehow haven’t lost the game, damage dealt to you reduces your life total further below 0 (as normal).
+
+So, Worship has no effect if you have less than 1 life, so damage will be dealt to you as normal and Phyrexian Unlife will modify it as normal.
+

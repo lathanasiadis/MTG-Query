@@ -1,0 +1,10 @@
+Q:
+
+Tarfire vs the tarmogoyf
+
+Can a Tarfire kill a Tarmogoyf when both players' graveyards are empty?
+
+A:
+
+No. State based actions are checked after a spell is completely resolved. By that time, Tarfire is already in the graveyard. Tarfire counts as both a Tribal and an Instant, and so Tarmagoyf is a 2/3.
+

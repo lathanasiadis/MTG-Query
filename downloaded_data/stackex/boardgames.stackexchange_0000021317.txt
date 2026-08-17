@@ -1,0 +1,21 @@
+Q:
+
+Can multiple spells be activated with the same mana?
+
+So first off I am fairly new to MTG and I was playing with my friend today and he corrected me on my move making. The way I thought it worked is that, for example, if I have a creature that requires 1 Mountain to attack it can attack after I tap the Mountain and the creature. However my friend said that the same land can be used multiple times in a turn, so I could use 2 other creatures on the battlefield that only required 1 Mountain to attack. Is this correct?
+
+A:
+
+There are a few basic concepts you need to understand to understand the answer to this question. For more information, I would suggest reading through the Basic Rulebook:
+Mana
+Mana is a resource that is separate from cards and lands, and you have to represent it separately or remember how much you have. When you tap a basic land for mana, it adds one mana of the corresponding color to your mana pool (for example, tapping a Mountain adds one red mana to your mana pool). Some spells or abilities also explicitly say that you add mana to your mana pool, such as Llanowar Elves' ability. Your mana pool empties at the end of each step or phase.
+Tapping
+Every permanent (land, creature, etc) on the battlefield is either tapped or untapped. Abilities that make you tap the permanent, like a land's ability that gives you mana, can only be activated if the permanent is untapped. You untap all of your permanents at the beginning of your turn, and you generally don't do so otherwise. This means that, unless you do something special, you can't use a single land to generate mana more than once in a turn.
+Spells
+All cards that represent spells have a mana cost in the upper right corner (except some Future Sight cards, which were printed with the mana cost in the upper left). This indicates how much mana you need to spend to play the spell. When you spend that mana, it is removed from your mana pool. For example, if you want to cast Cancel, you need to have 2 blue mana and one mana of any color in your mana pool to cast it, and that mana is removed from your mana pool when you do so.
+So, to answer part of your question, if you tap a land for mana, you can only use that mana to pay for one spell.
+Combat
+When you start combat, the player who is taking the turn decides which of their creatures is attacking. In general, this requires that you tap those creatures (and that they are not already tapped), but it does not require any mana payment. For example, if you control an untapped Akroan Crusader, you can declare it as an attacker, and all you have to do is tap it.
+Once you are done declaring attackers, your opponent declares blockers. This means that they decide which of their untapped creatures should block which of your attacking creatures.
+Once that's done, combat damage is dealt, which generally means that blocked attackers and their blockers deal damage to each other, and unblocked attackers deal damage to the player they are attacking.
+

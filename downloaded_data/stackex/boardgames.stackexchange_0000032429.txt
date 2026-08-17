@@ -1,0 +1,33 @@
+Q:
+
+2 Hg Team damage vs player damage
+
+So trying to read the 2HG format rules, and i'm not sure i understood how does it works. 
+Any team has a shared life pool starting from 30. Any damage to a player is taken from the shared hp, so when it reach 0 the team lose the game. 
+But the damage is dealt to a single player. So there could be a case where the team lose the game even if the shared health pool is not zero (excluding special cards). 
+For example:
+if Team A cast a card that says i.e. "Deal 10 damage to target player", and now the team B has 20 life points. Team A deals 10 damages to player 1 in Team B, and he can't block this action (neither is teammate), it means that since the single player life is the (total life)/2 = 10 Player 1 of Team B reach 0 and then the team lose the game. 
+Correct?
+
+A:
+
+Dealing 10 damage to a single player will not kill a team that has 20 life. This is where you are going wrong:
+
+the single player life is the (total life)/2
+
+This might have been true years ago (more on that later), but by current rules, individual players in two-headed giant do not have life totals. You cannot divide the total life in half and assign that to each player. The shared life total is the only life total that a team has.
+
+Correct: The team has 30 life. 
+Incorrect: Each individual player has 30 ÷ 2 life.
+
+On the other hand, if the opposing team had 20 life, and you somehow dealt 10 damage to each opponent (e.g., with Fall of the Titans), then you would kill the opposing team.
+Another user discovered that, prior to April 23, 2010, a rule for life totals in two-headed giant stated:
+
+If an effect needs to know the value of an individual player's life total, that effect uses the team's life total divided by two, rounded up, instead.
+
+With the release of Rise of the Eldrazi, the rule changed:
+
+If a cost or effect needs to know the value of an individual player's life total, that cost or effect uses the team's life total instead.
+
+This could explain part of your confusion. I omitted rule numbers intentionally, because they don't line up exactly with the current rules.
+

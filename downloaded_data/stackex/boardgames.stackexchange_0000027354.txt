@@ -1,0 +1,16 @@
+Q:
+
+Interaction of Pyxis of Pandemonium with Altar of the Brood
+
+I play Pyxis of Pandemonium in a mill deck. I also run Undead Alchemist and Altar of the Brood. I understand that when Pyxis's 7-cost ability resolves, all relevant permanents enter at the same time, so does that mean the mill that would happen would only be a result of any Altars already on the field?
+In addition, what of the zombies resulting from that mill? Would they be a separate resolution following the Pyxis ability or would they resolve during the Pyxis? Also would they then include any Altars and Pyxis that entered the battlefield by the ability of Pyxis?
+
+A:
+
+If Altar of the Brood enters the battlefield at the same time as other permanents, it would trigger for each of those permanents.
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, “When [this object] enters the battlefield, . . . ” or “Whenever a [type] enters the battlefield, . . .” Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+
+That means all of your Altars (both you already have on the battlefield and those entering it due to Pyxis of Pandemonium will trigger.
+Basically what would happen: Pyxis's ability resolves, and a lot of permanents (possibly including other Altars) will enter the battlefield. There will now be a lot of triggers from all the Altars you have on the stack. They will start resolving one by one, sometimes triggering Undead Alchemist's ability (which then goes on stack and resolves). The zombies entering will also trigger all of the Altars and will be put on stack.
+

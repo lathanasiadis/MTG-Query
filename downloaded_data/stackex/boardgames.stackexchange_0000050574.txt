@@ -1,0 +1,21 @@
+Q:
+
+Is it possible for a board wipe to happen after first strike damage but before regular damage?
+
+What happens if someone attacks with a bunch of 5/5 or smaller creatures and you block with Child of Alara and then cast Flaming Sword on one of the 5/5 making it a 6/5 first strike that would kill your Child of Alara on purpose during the first strike step of combat damage.
+Would it die and wipe the board before the second step of combat? Or would regular combat damage still occur since the combat damage step had been entered?
+
+A:
+
+Yes, players get priority between first strike and regular damage steps; so they can cast spells, and state-based actions will be checked, and triggered abilities will resolve.
+First strike and double strike create an additional combat damage step; pretty much just like the normal one. And players get priority after damage is done during the combat damage step. So in your example, you would be able to prevent any regular combat damage from being done by destroying creatures after first strike damage was done. 
+
+Combat Damage Step
+
+[…]
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+
+And 
+
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step.
+

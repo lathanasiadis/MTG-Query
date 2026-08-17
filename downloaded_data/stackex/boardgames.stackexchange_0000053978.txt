@@ -1,0 +1,15 @@
+Q:
+
+Soul-Scar Mage and Nin, the Pain Artist with lifelink
+
+I control a Nin, the Pain Artist (without summoning sickness) equipped with a Basilisk Collar (or anything else which gives her lifelink) and a Soul-Scar Mage.
+When I activate Nin's ability and deal e.g. 3 damage to an opponents creature, will I gain life, or will the Soul-Scar Mage with his replacement effect "put that many -1/-1 counters on that creature instead" prevent me from gaining life.
+Also, will the replacement effect prevent the opponent from drawing cards? (I suspect not, since the card draw isn't tied to the damage)
+
+A:
+
+Your assumptions/guesses are all correct.
+A replacement event completely replaces the thing it replaces with something different.
+In this case, Soul-Scar Mage replaces the damage produced by Nin with -1/-1 counters.  Because Nin is no longer damaging something, lifelink from the Basilisk Collar doesn't happen.
+The opponent still draws X cards, because the X is tied to the mana spent to activate the ability, not to the amount of damage dealt to the creature.
+

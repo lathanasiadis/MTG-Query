@@ -1,0 +1,25 @@
+Q:
+
+When does Mardu Hordechief's raid ability trigger?
+
+I'm new to MTG and I'm quite confused about when exactly raid is triggered.
+For instance, say I have Mardu Hordechief (which creates 1/1 tokens) and I tapped, let's say, 2 creatures to attack.
+What exactly is his ability going to happen?
+Is the raid ability triggered while/after the combat phase or even right after the declare attackers step?
+
+A:
+
+I think what's tripping you up is that there are two conditional statements involved — one is the trigger and the other is a condition that limits when the ability can work.
+
+Raid — When Mardu Hordechief enters the battlefield, if you attacked with a creature this turn, put a 1/1 white Warrior creature token onto the battlefield.
+
+The Raid ability is triggered "When Mardu Hordechief enters the battlefield." That's the only time you'll actually do any of the other stuff in that sentence.
+The action, however, is conditional — you only do it "if you attacked with a creature this turn." 
+Intervening "if" clauses are checked both when the ability triggers and when it's placed on the stack[CR 603.4], so it goes like this:
+
+Attack with some creatures.
+Cast Mardu Hordechief on your second main phase.
+When the spell resolves, it puts Hordechief onto the battlefield. This triggers its ability, but only because you attacked this turn. (If you hadn't attacked this turn, it wouldn't trigger at all.)
+Its triggered ability goes on the stack.
+As the triggered ability is about to resolve, you check the intervening "if" condition again. For this particular ability, this check can't fail, so it goes on to resolve, and you get a token. (If the check were to fail, the triggered ability would be removed the stack without resolving.)
+

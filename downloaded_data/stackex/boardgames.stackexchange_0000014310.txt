@@ -1,0 +1,19 @@
+Q:
+
+Do type-changing static abilities allow triggering?
+
+If I have March of the Machines and Soul Warden on the battlefield, what happens when I cast a non-creature artifact like Azorius Signet? When exactly does the card type change?
+
+A:
+
+Soul Warden's ability will trigger.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. [...]
+
+That means it's the types the Signet has on the battlefield that are checked by Soul Warden's triggered ability.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+That means there isn't a moment that a non-creature artifact on the battlefield is not affected by March of the Machine.
+As such, the Signet is seen as a creature by Soul Warden's triggered ability, and it will trigger.
+

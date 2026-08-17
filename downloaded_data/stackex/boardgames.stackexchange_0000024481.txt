@@ -1,0 +1,21 @@
+Q:
+
+Can damage be removed from creatures after it's already been dealt?
+
+When a creature takes damage from any source, that damage is tracked. If there is enough damage to overcome their toughness, they die. Are there ways to remove damage from creatures after they've been dealt damage?
+
+A:
+
+The only ways damage marked on a creature is removed are:
+
+The cleanup step at the end of the turn
+When a creature regenerates instead of being destroyed
+When a creature enchanted with Totem Armor would be destroyed
+When Pyramids has prevented a land (which had been/is a creature with damage marked on it) from being destroyed
+
+Note that the last three replace destruction of the creature with removing all damage, but it doesn't need to be the damage that causes the destruction.
+
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.12, “Regenerate”) and during the cleanup step (see rule 514.2).
+
+702.88a Totem armor is a static ability that appears on some Auras. “Totem armor” means “If enchanted permanent would be destroyed, instead remove all damage marked on it and destroy this Aura.”
+

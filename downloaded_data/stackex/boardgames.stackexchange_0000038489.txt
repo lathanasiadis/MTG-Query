@@ -1,0 +1,28 @@
+Q:
+
+Why does Bonded Horncrest have to attack with another creature?
+
+Bonded Horncrest has the ability:
+
+Bonded Horncrest can't attack or block alone.
+
+However, if Bonded Horncrest must attack, the ruling is: 
+
+If an effect says that Bonded Horncrest attacks or blocks if able and you control another creature able to attack or block, you must attack or block with Bonded Horncrest and that creature.
+
+Why must you attack with both creatures if only Bonded Horncrest must attack?  Isn't attacking with another creature an optional "cost" that you don't have to pay (like having to pay {1} to attack)? 
+
+A:
+
+The ruling is correct, you have to attack with that creature if you can make it happen.
+
+508.1c The active player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a creature can’t attack, or that it can’t attack unless some condition is met). If any restrictions are being disobeyed, the declaration of attackers is illegal.
+
+Note that an ability like "x:(this) loses defender" such as on Gargoyle Sentinel is an ability that indirectly lifts the restriction, but that ability is not part of the restriction because it doesn't follow the wording as described in 508.1c, and therefore you wouldn't have to pay the cost of that ability.
+
+508.1d The active player checks each creature he or she controls to see whether it’s affected by any requirements (effects that say a creature must attack, or that it must attack if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of attackers is illegal. If a creature can’t attack unless a player pays a cost, that player is not required to pay that cost, even if attacking with that creature would increase the number of requirements being obeyed.
+
+Bonded Horncrest being unable to attack or block alone is a restriction. Declaring another creature as an attacker or blocker is not a cost, as in cost:ability, but simply fulfilling the condition to meet the restriction.
+Bounded Horncrest being forced to attack is a requirement.
+Therefore, if you do not enable Horncrest to attack through declaring another creature, you disobey one requirement, but you could obey it by meeting the condition of the restriction. Therefore, you disobey more requirements than you had to, and therefore not attacking with Horncrest is illegal.
+

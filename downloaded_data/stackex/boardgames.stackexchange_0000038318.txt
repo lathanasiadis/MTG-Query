@@ -1,0 +1,18 @@
+Q:
+
+Reanimating a creature with undying
+
+A creature with undying has already come back to the battlefield due to its ability (and gained the +1/+1) dies again. Raise Dead is cast and once more returns that creature to the hand, which is then summoned again. Is its undying "reset", or does he still have that +1/+1?
+
+A:
+
+It will not have a +1/+1 counter.
+
+We never actually move an object from one zone to another. Instead, we create a new object in the new zone and the old one ceases to exist.[CR 400.7] Any counters on the old object ceases to exist along with it.[CR 121.2]
+That means the card in the graveyard (a new object) doesn't have the original +1/+1 counter. If you use Raise Dead to return that card to your hand, the card in your hand (yet another object) won't have the original +1/+1 counter. And finally, if you cast that card from your hand, the new creature (a fourth object) won't have the original +1/+1 counter.
+But does it gain a new +1/+1 counter from undying when you recast the creature card after getting it back from the graveyard using Raise Dead? No. Undying is a triggered ability that triggers when a permanent with Undying is placed into a graveyard.[CR 702.92a] It is not triggered when a card with Undying is cast from your hand, so it doesn't add any counters in that situation.
+
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+702.92a Undying is a triggered ability. “Undying” means “When this permanent is put into a graveyard from the battlefield, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.”
+

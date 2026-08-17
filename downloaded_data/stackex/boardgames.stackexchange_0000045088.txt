@@ -1,0 +1,22 @@
+Q:
+
+When does Myr Superion check the source?
+
+Myr Superion is a 2 mana 5/6 that comes with the following casting restriction:
+
+Spend only mana produced by creatures to cast Myr Superion.
+
+Under most circumstances this wouldn't be ambiguous, but I'm not sure how it interacts with type-changing effects. Specifically, I want to know whether Myr Superion could be cast with mana produced in the following ways:
+
+Blinkmoth Nexus is tapped for mana, then animated using some other mana.
+Palladium Myr is tapped for mana, then stops being a creature e.g. due to Song of the Dryads.
+Deathrite Shaman is tapped to activate its first ability, which goes on the stack because it is not a mana ability, and then stops being a creature before that ability resolves.
+
+I wasn't able to find any lands which could produce mana using an ability that is not a mana ability, but I suspect I will be able to deduce that hypothetical outcome based on the others listed.
+In other words, when casting Myr Superion does a mana source need to be a creature when the ability was activated, when the ability resolved, or when the Superion is cast?
+
+A:
+
+The ability checks what produced the mana. This means that, to be used to cast Myr Superion, the source of the ability that produced the mana must have been a creature at the time the mana was produced (i.e. when the ability resolved).
+As @Natedogg2 of #magicjudges-rules said, "Producing the mana, then making the source into a creature does not count."
+

@@ -1,0 +1,24 @@
+Q:
+
+If an effect would prevent a spell from doing damage, does it continue to prevent that damage after the spell changes zones?
+
+Anthony casts Searing Blood, targeting Nathan's Elvish Mystic.
+Nathan casts and resolves Dromoka's Command, choosing to 1) prevent all damage that would be dealt by Searing Blood this turn and 2) put a +1/+1 counter on Elvish Mystic.
+Searing Blood resolves, deals no damage, and goes to the graveyard.
+Anthony casts and resolves Lightning Bolt to kill Elvish Mystic.
+Searing Blood triggers from the graveyard, because Elvish Mystic died. Does the prevention effect created by Dromoka's command still apply to it after it changes zones? In other words, will Searing Blood deal 3 damage to Nathan?
+
+A:
+
+The damage is prevented.
+An reference by an object to its own name is a reference to itself. So "Searing Blood deals 3 damage" has the object on the stack deal three damage. That's the very same object that was targeted by Dromoka's Command.
+The object no longer exists when you are instructed to have it deal 3 damage, but that's fine. It can still deal damage. Last Known Information about the object is used if required.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: [none of which are pertinent]
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+This scenario occurs more often for creatures with abilities. Take a Prodigal Sorcerer that was killed before its ability resolved, for example. It's the object on the battlefield that's doing the damage, even though it no longer exists. It's the color of the object on the battlefield that's consulted if the target has any Protection from Red, not the color of the object in the graveyard.
+

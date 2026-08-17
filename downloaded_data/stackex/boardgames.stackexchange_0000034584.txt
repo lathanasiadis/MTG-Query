@@ -1,0 +1,21 @@
+Q:
+
+When exactly does an attacking creature become tapped?
+
+I have a creature on the board, which is eligible to attack, however my opponent has enchanted it with Brink of Disaster. Now as I attack with the creature, does it first become tapped (and will therefore be destroyed) or does it first deal damage?
+And in case it becomes tapped before dealing damage, does it become tapped before the opponent declares blockers or after?
+When exactly during the action of attacking does the attacking creature become tapped?
+
+A:
+
+The attacker becomes tapped during the Declare Attackers step.  The steps of combat are:
+
+Beginning of Combat
+Declare Attackers
+Declare Blockers
+Damage Resolution
+End of Combat
+
+So, since the attacker becomes tapped during step 2, it is destroyed before step 4 where it would normally deal damage. 
+For a full breakdown of a turn, see this post
+

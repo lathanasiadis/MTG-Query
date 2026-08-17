@@ -1,0 +1,23 @@
+Q:
+
+Moment of selecting a target from an ability of a planeswalker
+
+I have a Nissa, Vital Force at 3 loyalty in play and I know she will die next turn so I use her -3:
+
+Return target permanent card from your graveyard to your hand.
+
+Can I return my Nissa, Vital Force from my graveyard with this ability or do I have to choose a target before the game checks if she has 0 loyalty and puts her in the graveyard?
+
+A:
+
+Nissa will not be put into the graveyard until after you are done activating her ability (including choosing a target) so she will not be a legal target for her ability.
+The process of activating an ability involves (among several other things) choosing targets and paying costs; these happen before the ability can go on the stack. Planeswalkers are put into the graveyard as a state-based action, these are checked every time a player would gain priority. Players don't gain priority during the process of activating an ability so there is no way for Nissa to be in the graveyard when you choose targets for her ability.
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an object’s controller (or its owner, if it doesn’t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. [...]
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+601.2i Once the steps described in 601.2a–h are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+116.2d State-based actions happen automatically when certain conditions are met. See rule 704. They’re dealt with before a player would receive priority. See rule 116.5.
+704.5i If a planeswalker has loyalty 0, it’s put into its owner’s graveyard.
+

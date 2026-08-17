@@ -1,0 +1,16 @@
+Q:
+
+Does Rooftop Storm work with Arcane adaptation?
+
+If I had Arcane Adaptation and Rooftop Storm in play, with the chosen creature type as zombie, would I be able to cast a creature such as Nemesis Of Reason for 0 mana? Or would that not work because Nemesis Of Reason would not yet be in play, therefore not yet a zombie? 
+
+A:
+
+Yes, you can cast any creature spell for {0} with that combo.
+As Arcane Adaptation states, every one of your creature permanents (on the battlefield), creature spells (on the stack), and creature cards (anywhere else) are the chosen type, Zombie in your case.
+The process for casting spells is, in summary:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.  [..]
+
+So to cast a creature spell, you put the card on the stack (where it's a Zombie spell because of Arcana Adaptation), then you determine and pay its costs. When it comes to determining the total cost of the spell, you can choose the {0} alternative cost granted by Rooftop Storm.
+

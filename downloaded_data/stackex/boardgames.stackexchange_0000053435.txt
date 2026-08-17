@@ -1,0 +1,13 @@
+Q:
+
+MTG reacting instant speed on creature entering game
+
+When I play MTG, sometimes I can't kill creature which entered the battlefield under opponent's control right away. To give example Lurrus of the Dream-Den entered the battlefield but I could not kill him instant speed even when I had both mana and spell. But at other occasions (if I remember correctly) I could kill a creature which entered the game before it could activate its ability (not ability activated "When entered" but something like use mana to deal damage so similar to Lurrus).
+Should not I be able to react instant speed on Lurrus and since his ability is casting from graveyard which is not instant speed he should not even be able to react with it on my instant removal?
+
+A:
+
+This has to do with priority. When anything goes on the stack (a spell being cast, a trigger from anything etc), players get "priority" (a word to describe the chance to do something) in APNAP order (active player, non-active player).
+When a creature enters the battlefield and has a triggered ability that triggers when it enters the battlefield, that trigger goes on the stack and then all players get priority before it resolves. When a creature does not have such an ability, then the active players gets priority until they either pass actively (such as "moving to end step") or cast/activate something else.
+To go into your example, they have a moment with Lurrus on the battlefield where they have priority (i.e. you cannot cast/activate something) and they can for example cast a creature from their graveyard. Only when they do this, you get priority and can then kill Lurrus in response.
+

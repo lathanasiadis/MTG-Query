@@ -1,0 +1,16 @@
+Q:
+
+Does Vorinclex help its controller or its owner?
+
+I play a Vorinclex, Voice of Hunger commander deck casually with friends. If one of my opponents plays Mind Control (or something similar) and takes control of Vorinclex, do the triggered abilities now benefit my opponent and hurt me? That is, does it help its controller or the owner?
+Also, since my opponent tapped lands to play Mind Control while Vorinclex was still mine, I think the lands he tapped to cast Mind Control stays tapped next turn. Is my thinking here correct?
+
+A:
+
+All instances of the word "you" on an ability refer the controller of the source of that ability. 
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+If an opponent gains control of Vorinclax, then that opponent gets extra mana from tapping lands, and yours do not untap during your untap step. In other words, Vorinclax controlled by an opponent hurts you and helps your opponent.
+When your opponent taps lands to pay for Mind Control, you control Vorinclax. Those lands will not untap during your opponent's next untap step.
+

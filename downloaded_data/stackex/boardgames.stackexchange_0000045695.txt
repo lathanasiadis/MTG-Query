@@ -1,0 +1,29 @@
+Q:
+
+Can I equip Skullclamp on a creature I am sacrificing?
+
+I have a "self-sacrificing" creature, such as Diligent Farmhand or Dawntreader Elk, and Skullclamp on the field.  Can I pay to sacrifice the creature and then in response equip Skullclamp, Or vice versa? I know in some cases the card may be gone but the trigger is still on the stack. 
+
+A:
+
+It is possible to get the benefit of the creature's ability and the two-card draw from Skullclamp, but you have to do things in the right order and have a creature that can withstand a +1/-1.
+There are a couple of rules concepts that are relevant here:
+
+For the cards mentioned, sacrificing the creature is part of the cost.  You can tell because it appears before the colon (:)602.1a.  Paying a cost does not use the stack, so you can't "respond" to it.  As soon as you sacrifice the creature to pay the cost, it goes to the graveyard701.16a.
+Creatures that have 0 toughness are put into the graveyard as a state-based action704.5f.  This condition is checked any time spell or ability resolves.
+
+With this in mind, there are a couple of possible scenarios:
+
+If you activate the creature's ability first, the creature is put in the graveyard as part of the cost.  This means you can't attempt to equip Skullclamp* while the creature's ability is on the stack - the creature is already gone.
+If you Equip Skullclamp first, you have two options for timing your use of the creature's ability:
+
+If you activate the creature's ability while Skullclamp's Equip is still on the stack, the creature is sacrificed before Skullclamp is equipped, so you won't get the two-card bonus.  (The Equip ability no longer has a valid target, so it fizzles.)
+If you wait until after the Equip finishes, the result depends on how strong your creature is:
+
+If the creature only has 1 toughness (like Diligent Farmhand), Skullclamp decreases its toughness to 0 and it will be put in the graveyard as a state-based action.  There is no opportunity to activate the creature's ability.
+If the creature has more than 1 toughness, it will survive being Equipped with Skullclamp.  Its ability can then be activated, and you will get the two-card bonus when it is sacrificed.
+
+So it is possible to pull off this combo with Dawntreader Elk, but not possible with Diligent Farmhand.**
+*It's not generally possible to use the Equip ability like this anyway.  The Equip ability can only be used when you could cast a Sorcery.  There are ways around that, but they won't change this outcome.
+**Unless you have some other way to boost its toughness or otherwise prevent Skullclamp from killing it.  There are always loopholes in Magic.
+

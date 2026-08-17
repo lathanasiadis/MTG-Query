@@ -1,0 +1,19 @@
+Q:
+
+Does a player have the right to play two instants back-to-back uninterrupted?
+
+Suppose it is my main phase, the stack is empty, I have 2 playable instant cards in my hand and my opponent has one. I cast my first instant card and it goes on the stack.
+According to this flowchart I found online, I would retain priority and have the right to cast my second instant. However, from my experience playing on Magic the Gathering Arena, whenever I cast a spell, my opponent is instead the one who has the right to cast their next instant -- I'm unable to cast two instants in a row without the possibility of being interrupted.
+Which of the two behaviours is correct? After casting an instant, who has the right to cast the next instant?
+
+A:
+
+The player with priority retains it until they pass it - they can add as many spells or abilities to the stack as they wish. After casting one instant, a player may retain priority and cast their second instant before any other player can put a spell on the stack.
+From the rules:
+
+117.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority
+afterward.
+
+As pointed out in the comments, it is typically assumed that a player is passing priority after casting a spell unless they explicitly state otherwise, so you would need to take a positive action to retain priority in a tournament, even though you'd technically keep it by default. This is an often-used tournament shortcut, where casting a spell is usually treated as casting and passing priority, so you'd need to explicity state that you don't want to take the shortcut of passing priority and instead want to keep it, and do so at the time of casting.
+Most computer versions of Magic mimic this, as it's not too common for a player to retain priority, and it would add extra time to the game as each player would explicitly have to pass priority after casting every spell. I believe some versions have a setting where this can be changed to retain priority by default, but the default is usually to pass priority after casting a spell.
+

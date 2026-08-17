@@ -1,0 +1,19 @@
+Q:
+
+Can a countered spell be targeted?
+
+Let's assume that Alice and Bob are playing.
+Alice casts Serra Avatar. Bob casts an Essence Backlash targeting the Avatar.
+Alice, realizing that that would kill her, casts an Autumn's Veil.
+Bob casts an overloaded Counterflux.
+Can the Essence Backlash still target the Serra Avatar even if  it is already countered?
+
+A:
+
+It will still be targeting the Avatar but since it is no longer a legal target, due to being in the graveyard and not on the stack, the Backlash will "fizzle" (be countered due to lacking a legal target). This means that it will not deal damage to the Avatar's controller.
+
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. ... The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal.
+
+Note that if the Counterflux hadn't been overloaded and just targeted the Veil the Avatar would still be on the stack to get countered and Alice would then lose.
+

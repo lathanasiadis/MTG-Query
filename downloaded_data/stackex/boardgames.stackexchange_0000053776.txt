@@ -1,0 +1,34 @@
+Q:
+
+Do cards like Cranial Extraction, Slaughter Games, and Memoricide get around protection?
+
+Let's just use Memoricide as an example since all 3 cards have the same effect.
+The card's oracle text reads:
+
+Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library.
+
+Perhaps it's worth noting that the oracle text is slightly different from the printed card text, which reads "name a nonland card" rather than "choose a nonland card name". I know protection prevents a card from being targeted, but from the text of the card it seems like the target of the spell is the opposing player, not the named card. My question is: Does naming a card count as targeting it? I guess intuitively it should, but I know MTG rulings aren't always intuitive. The main reason I'm asking this question is because I'm wondering if I can throw one of these cards in my deck to deal with my opponent's Emrakul, the Aeons torn. Thanks!
+
+A:
+
+Yes, those cards "get around" protection.
+Protection only helps with a specific set of things. Specifically, cards with protection (from x) cannot be:
+
+Damaged by sources with the specified quality. (All such damage is prevented.)
+Enchanted, equipped, or fortified by permanents with the specified quality.
+Blocked by creatures with the specified quality.
+Targeted by spells with the specified quality, or by abilities from sources of that quality.
+
+("DEBT" as a helpful reminder).
+In addition to the fact that Memoricide does not do any of the above 4 things, protection also won't do anything because protection is a static ability, which only permanents can have. Cards in the graveyard, hand, or library cannot actually have protection.
+
+702.16. Protection
+
+702.16a Protection is a static ability, written “Protection from [quality].”
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 113.6.
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+(None of the exceptions involve protection).
+

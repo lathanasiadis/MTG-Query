@@ -1,0 +1,21 @@
+Q:
+
+When I gain control of a creature, do I also gain control of any auras or equipment attached to it?
+
+What would happen if I Portent of Betrayal'd a creature that had been enchanted by a bestow creature and cast a spell to give it protection from the enchantment's color on it to remove the bestowed creature?
+For instance:
+They have just bestowed a Nighthowler on a Asphodel Wanderer and passes the turn. I use Portent of Betrayal to take control of the Asphodel Wanderer, attack and in the second main I cast Gods Willing to give the Asphodel Wanderer protection from black. Nighthowler detaches and where does it go, my control, opponents control or graveyard?
+As an additional question, in the same vein:
+What if I destroyed the creature while it was on my side? So change the gods willing to a hero's downfall in the example.
+Relevent (under state-based actions):
+
+704.5n If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner's graveyard.
+
+A:
+
+Your opponent controls the Nighthowler.
+Control of an enchantment and control of the object it enchants are independent.
+Changing control of a permanent doesn't automatically change control of any Auras or Equipment attached to that permanent. Your opponent still controls the Nighthowler, even while you control the creature it enchants. And your opponent will retain control of the Nighthowler if it becomes detached from the creature you've stolen for any reason (e.g. that creature leaves the battlefield or Nighthowler can't enchant it anymore because it gains protection1), because none of the game actions described are changing control of the Nighthowler.
+
+1 - The rules for bestow+protection are a bit poorly worded, but Rules Manager Matt Tabak has confirmed that this is the correct interpretation.
+

@@ -1,0 +1,17 @@
+Q:
+
+Gyome, Master Chef, Idol of Oblivion, and End Step Timing
+
+Gyome, Master Chef creates food tokens during your end step based on the number of creatues you had enter the battlefield during your turn.
+Idol of Oblivion has the ability to tap it and draw a card. This ability can only be activated if you have created a token that turn.
+It is my turn, I have both Gyome and the idol in play. I have not created a token yet this turn, but I have had multiple creatures enter the battlefield. I move to my end step, Gyome's ability triggers and resolves with nothing us being put on to the stack. The stack is now empty and I have now created a token this turn. At this point, can I now activate the idol to draw and card before the turn ends?
+
+A:
+
+Yes, you can always do that sort of thing.
+The rules for this are very general. Priority is the system for determining who is allowed to act at any given time, and rule 117.4 says
+
+If all players pass in succession (that is, if all players pass without taking any actions in between passing), the spell or ability on top of the stack resolves or, if the stack is empty, the phase or step ends.
+
+Practically speaking, for the purpose of this scenario, this means that if there is ever a spell or ability on the stack, you have an opportunity to act both while it is on the stack, and after it resolves but before moving on to the next step/turn.
+

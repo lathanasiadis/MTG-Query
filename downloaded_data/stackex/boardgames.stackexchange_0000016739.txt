@@ -1,0 +1,58 @@
+Q:
+
+Does double strike work whilst blocking?
+
+I'm attacking with a 1/1 Satyr Grovedancer. My opponent blocks with a 1/2 Two-Headed Cerberus with double strike. Does double strike still apply when the creature is blocking? I understand my Satyr will die either way but say it were the case with a 4/4 creature, what would happen?
+
+A:
+
+Yes, double strike and first strike work while blocking.
+Effectively, there is a "first strike combat damage step" in which one set of double strike damage is dealt, and then a normal combat damage step, where all other combat damage is dealt.
+So whether attacking or blocking, that phase always occurs, and damage is dealt simultaneously within it.
+So in the case of your Grovedancer:
+
+First strike damage step
+  
+Two-Headed Puppy deals 1 damage to the Grovedancer
+Grovedancer dies
+
+Normal combat step
+  
+Grovedancer already dead, can't hit back
+
+In the case where you attacked with a 2/1 Golden Hind
+
+First strike damage step
+  
+Two-Headed Puppy deals 1 damage to the Hind
+Hind dies
+
+Normal combat step
+  
+Hind already dead, can't hit back
+
+In the case where you attacked with a 2/2 Travelling Philosopher
+
+First strike damage step
+  
+Two-Headed Puppy deals 1 damage to the Philosopher
+
+Normal combat step
+  
+Philosopher deals 2 damage to the Puppy, Puppy deals another 1 damage to the Philosopher
+Philosopher and Puppy both die
+
+In the case where you attacked with a 4/4 Rumbling Baloth
+
+First strike damage step
+  
+Two-Headed Puppy deals 1 damage to the Baloth
+
+Normal combat step
+  
+Baloth deals 4 damage to the Puppy (Yipe!), Puppy deals another 1 damage to the Baloth
+Puppy Dies, Baloth has taken 2 damage, so will now die to a Shock if it gets hit before end of turn, otherwise it'll heal up during
+  cleanup
+
+Hope that helps
+

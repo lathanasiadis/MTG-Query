@@ -1,0 +1,23 @@
+Q:
+
+How does the double strike mechanic interact with other mechanics like lifelink or trample?
+
+I understand that the double strike mechanic allows a creature to attack in both a first strike combat damage step and a normal combat damage step.
+It's clear that when a creature with no other abilities aside from double strike is blocked that even if the defender has lethal damage marked in the first strike step that the additional damage does not carry forward to the player.
+How does this view of double strike change with relation to trample and lifelink?
+I believe the correct interpretations are (not accounting for other effects or abilities) that 2 times the attacker's power is marked as damage on the defender.  For trample this amount is reduced by the defender's toughness and additional damage carries forward as normal.  Similarly for lifelink the active player gains life equal to 2 times the attacker's power.
+Thus a 10/10 trampling double striking life linker blocked by a 1/1 creature would deal 19 points of trample damage and the active player would gain 20 life.
+Is this interpretation correct?
+
+A:
+
+I think the answer to this is actually not as complicated as first appears.  (I'm assuming you  aren't confused about what happens when a trampling, lifelink creature without double strike gets blocked.)  It all hinges off the following simple (ish) rule for resolving trample:
+
+702.18c If an attacking creature with trample is blocked, but there are no creatures blocking it when damage is assigned, all its damage
+  is assigned to the player or planeswalker it's attacking.
+
+Recall that a double striker deals damage in both the first strike combat damage step, and the normal combat damage step.  Now, it may very well be that the blocking creature was dealt lethal damage in the first strike combat damage (and some trample damage may additionally have carried over to the defending player).  In this case,  the blocker is in the graveyard by the time of the normal combat damage step, but, crucially, this doesn't mean that this damage step doesn't happen.
+If the double striker didn't have trample, then the normal combat damage step would be basically irrelevant: the double striker still counts as having been blocked, and blocked creatures deal no damage to the defending player. ETA: Additionally, the dead blocker is no longer in combat to take more damage (which may be important if the attacking creature had lifelink). However, tramplers can deal damage to defending players; in fact, any amount of damage that isn't "soaked up" by a defending creature.  Which in this case is all the damage dealt in the normal combat damage step, as the defending creature isn't around to soak up anything.  As suggested by Rule 702.18c.
+The lifelink is a bit of a side issue, I feel: it doesn't change anything in regards to the double strike or trample.   It just gives an equal amount of life to the creature's controller to the damage that creature deals, in either combat damage step, and whether that damage is to a blocking creature or a defending player!
+So, yes, your interpretation is ultimately correct, I'd say!
+

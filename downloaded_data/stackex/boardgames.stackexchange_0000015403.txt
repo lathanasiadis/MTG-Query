@@ -1,0 +1,16 @@
+Q:
+
+Survival of the Fittest activations and priority
+
+Can someone please explain the ability of Survival of the Fittest and the stack?
+Let say I have Survival of the Fittest out, and I have 1 creature in my hand, and I have priority.  Assuming I have unlimited mana, can I keep discarding a creature card and search for a creature card without an opponent casting any instant spell?
+In other words, I will discard a creature card and have not pass priority, can an opponent cast instants like disenchant on the survival to stop me to continue searching?  If an opponent can cast disenchant before priority was pass, would I still need another creature card in my hand to be able to discard and search again?
+I am unclear of how this would work.
+
+A:
+
+NB: Survival of the Fittest has an activated ability, not a triggered ability.  Triggered abilities always use the words "When", "Whenever", or "At".
+You must discard a creature card (and pay green) as an activation cost in order to put the ability on the stack.  It now goes on the stack and your opponent gets priority before it resolves.  So they could destroy Survival of The Fittest before you get to search and add a card to your hand.
+You still get to do your search and add the card, but obviously you cannot now use the ability again.
+You can discard as many cards to it as you already have in your hand while retaining priority and not allowing your opponent to respond.  However, they will have a chance to respond before you're allowed to tutor up the new ones.
+

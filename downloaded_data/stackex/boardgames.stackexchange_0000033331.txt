@@ -1,0 +1,17 @@
+Q:
+
+Does the spell cast with Yahenni's Expertise resolve before state-based effects are checked?
+
+The recently revealed card Yahenni's Expertise states:
+
+All creatures get -3/-3 until end of turn.
+You may cast a card with converted mana cost 3 or less from your hand.
+
+The situation is this:
+There is one 2/2 creature on the battlefield. I cast Yahenni's Expertise, then chose to cast Living End with the second effect. Will the 2/2 creature die from the Expertise before the Living End resolves? (and thus be brought back to play by Living End). Or will it die after the Living End finished resolving?
+
+A:
+
+Your 2/2 will be returned by Living End. 
+The "cast a 3cmc or less card for free" is part of the resolution of Expertise, not a trigger like other cards/abilities (like Cascade).  Even though you cast it as part of the resolution, the free card does not immediately resolve, instead it is put on the stack. At that point SBA are checked and then it can be responded to.
+

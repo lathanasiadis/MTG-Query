@@ -1,0 +1,25 @@
+Q:
+
+What happens when I copy a spell with cascade?
+
+Yidris, Maelstrom Wielder states that when he deals combat damage to a player, spells you cast from your hand gain cascade.
+Let's say that a hit with Yidris connects on a player and I cast a spell from my hand. Let's also say, for instance, that I have a creature with Dual Casting attached to it. If I copy the spell that I cast from my hand which now has cascade, does the copy also have cascade? I would think so, but I don't know where to look this up.
+
+A:
+
+The copy of the spell does not have cascade, and even if it did, the cascade ability wouldn't trigger.
+Copying objects in general is described in rule 706.2:
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+The cascade ability is not printed on the card or part of a copy effect. It is also not a choice made while casting the spell. It is granted by a continuous effect created by Yidris's ability. That effect is not copied, so the copy of the spell will not have cascade.
+In addition, the rule for specifically copying a spell is 706.10:
+
+To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. [...]
+
+And the definition of Cascade is in rule 702.84a:
+
+Cascade is a triggered ability that functions only while the spell with cascade is on the stack. “Cascade” means “When you cast this spell, exile cards from the top of your library until you exile a nonland card whose converted mana cost is less than this spell’s converted mana cost. You may cast that card without paying its mana cost. Then put all cards exiled this way that weren’t cast on the bottom of your library in a random order.”
+
+Since the copy of the spell is not cast, cascade never triggers for a copy.
+

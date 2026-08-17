@@ -1,0 +1,18 @@
+Q:
+
+MTG Graveyard casting with 'X' costs
+
+I play a Goblin Dark-Dwellers and its ability targets a Tempt with Vengeance. From what I read I would assume it would be legal and I may cast it from the graveyard, but I may choose X to be 2 as its cast since I choose the value of X when I cast it. Or would it rather see the card when it is in the graveyard as a 0 and force me to play it out with X being 0?
+My friends tell me that it would be a 0 but I insist that when it allows me to cast I may choose for it to be 0, 1 or 2 (as long as the CMC is less than 3 overall). Is this wrong of me to believe or is it correct?
+
+A:
+
+X will be zero
+
+When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
+
+You are casting it from your graveyard, but you don't pay its mana cost. In that case, zero must be chosen for X.
+from Goblin Dark-Dwellers on Gatherer
+
+1/22/2016: If the instant or sorcery card has {X} in its mana cost, you must choose 0 as its value.
+

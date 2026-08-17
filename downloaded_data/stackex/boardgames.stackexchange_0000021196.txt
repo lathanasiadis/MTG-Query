@@ -1,0 +1,28 @@
+Q:
+
+How to store and organize cards for Magic the Gathering?
+
+I know there exist people who collect more than play, but I want to know how people organize cards who frequently build new decks and therefore want to be able to find cards quickly.
+After a few months of playing my family is already spending a considerable amount of timing organizing cards so we can quickly find cards.
+In our specific case: We store cards (not in our 12-13 decks) in a shoe box, sorted into about 25 sections: Red creatures, Red Sorceries, Red Instants, Red Enchantment Creatures, and so on, with a few extra sections for creature collections like slivers, beasts, or minotaurs. Sections are divided by color-labeled index cards cut to poke up a bit. Within larger sections we sort by mana cost with identical cards clustered.
+While this is working for our 2000-3000 card collection, I'm not sure it will scale.
+What solutions have evolved to meet the needs of magic players at various numbers of cards? A good answer will divide into sections of < 1000 cards, 1000-5000 cards, 5000-10000 cards, etc. or whatever numbers are appropriate for common card storage techniques.
+
+A:
+
+For more than 10k cards, a Card Catalog:
+
+You can find them on CraigsList, eBay, antique stores ($$$) and occasional garage sales. 
+In my catalog I have one drawer per block. Separated in the drawer by set. In each set they are sorted with Rares & mythics in the front, as I have a lot less of those. I buy sets of commons & uncommons for each set from eBay, so those follow the rares, sorted by color then alpha, which ends up being in collector number order. Some more valuable/more frequently used cards get their own drawer.
+For 2k-10k cards I'd stick with 1600, 4000 or 5000 count boxes, depending on which you can comfortably lift & fit on your shelves. You should label the boxes with sticky notes, not by writing on the boxes, as your collection will grow. Initially you should find a divider to use in each row that will hold up the cards, like this. Better dividers exist that clamp on to the cardboard, but I cannot find a link to them right now (they may be discontinued).
+ At this size I would sort by set first, since some of your cards will probably have rotated out of standard.
+For less than 2k cards I would use binders & deckboxes. There are some fancy ones that have 4 cards to a row instead of the traditional 3 here. They are not cheap, but the reviews are decent. Otherwise I would buy a few Magic Card Binders and Ultra-Pro pages. (buy them a box at a time to save $).
+I would probably sort them by color then card type, as you are likely to want to look them up that way (unless you build your decks in a computer, see below).
+Buy these supplies at your Local Game Store if you can!
+For any size collection, if you think it's eventually going to grow large, 
+track it in software!
+Currently I use MTG Studio ($20), which is a very full-featured windows desktop application. Upsides: it's very easy to do a bulk-add of cards, like 4x of a set, it's very fast to search for cads (just start typing the name). Downsides: doesn't get updates for new sets very quickly and uses non-standard set names, lacking most foreign cards. I am thinking of switching to Deckbox.org- Downsides: no easy way to add 4x of a given sets commons/uncommons in one action, requires internet access. Upsides: online access, facilitate very easy online trading, if that interests you. 
+There is an open source tool that I am considering moving to, Magic Assistant, which gets its updates straight from gatherer.
+The goal is for it to be easy for you to find cards in the future, and to file new ones. If either are difficult then you need to change something. You may need to change your approach over time- I moved mine from alpha by block to alpha by set when I computerized my tracking. 
+I have an inbox that all cards go into before they get filed. They sit there until I put them in the computer system. Then they go to a 'to be filed' drawer. Once that drawer reaches a critical mass, I sort it by block & set, then put away each set.
+

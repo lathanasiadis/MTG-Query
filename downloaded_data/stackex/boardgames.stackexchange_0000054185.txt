@@ -1,0 +1,24 @@
+Q:
+
+MTG protection from color in multiple card multicolored scenario
+
+I just played a game of MTG Arena where Questing Beast attacked while I declared my Linden, the Steadfast Queen as a blocker. I sacrificed my Alseid of Life's Bounty and gave Linden, the Steadfast Queen protection from green. My opponent played Embercleave and assigned it to Questing Beast. If I correctly saw the situation, only the Embercleave damage was applied on the Linden, the Steadfast Queen which is exactly what I though would happen but after both "First strike damage" and "Damage" were applied, Linden, the Steadfast Queen perished and I can't make a sense of it why.
+
+A:
+
+The primary issue here is that Questing Beast has an ability that overrides protection, so it deals damage even though your creature has protection from green. That ability is
+
+Combat damage that would be dealt by creatures you control can't be prevented.
+
+The relevant part of the protection rule is 702.16e:
+
+Any damage that would be dealt by sources that have the stated quality to a permanent or player with protection is prevented.
+
+You can see that they use the same wording: protection causes damage to be prevented, and Questing Beast's ability says that the damage can't be prevented. When there is a conflict like that, it is resolved by rule 101.2:
+
+When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+When you saw that "only the Embercleave damage was applied", that is not actually what happened. Embercleave itself does not deal any damage, it just increases Questing Beast's power and toughness, so Questing Beast itself deals more damage. The reason Questing Beast only deals one damage to your creature is because of the interaction between deathtouch, which Questing Beast has inherently, and trample, which Embercleave grants to it.
+A creature dies if it is dealt damage by a source with deathtouch, even if it is less damage than the creature's toughness. And trample allows you to assign any damage in excess of what is needed to kill the blocking creature, to the defending player. In combination, since any one damage dealt by the creature is lethal, the rest of the damage can be assigned to the defending player.
+In this specific scenario, the attacking player assigned 1 of Questing Beast's first strike damage to Linden, and the other 4 to you. After that damage was dealt, Linden died because of deathtouch. Then in the regular damage step, there was no longer a blocking creature, so the attacking player could assign all 5 of the damage to you.
+

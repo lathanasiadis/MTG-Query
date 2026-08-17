@@ -1,0 +1,24 @@
+Q:
+
+Order of triggered abilties
+
+I control an Illusory Gains. My opponent casts Torch Slinger. Does my opponent get to do his kicker and damage my creature, or do I gain control of the card prior to the kicker ability and I do the kicker, or is the kicker canceled out.
+
+A:
+
+Your opponent will get to choose the target of the damage.
+Generally, players put triggered abilities on the stack in APNAP order:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+The "APNAP" rule means "active player, non-active player":
+
+If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+
+So in your case, your opponent is the active player and casts a creature with kicker. When the creature enters the battlefield, your enchantment and the kicker ability trigger at the same time. You control the enchantment trigger and your opponent controls the kicker ability. Your opponent chooses the target for the damage and puts the ability on the stack, then you put the enchantment trigger on the stack.
+The enchantment trigger resolves first and you gain control of the new creature. However, that does not change the controller of the kicker ability:
+
+603.3a A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+So even if your opponent loses control of the creature whose ability triggered, he will still control the kicker ability on the stack.
+

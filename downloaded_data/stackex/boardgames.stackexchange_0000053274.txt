@@ -1,0 +1,38 @@
+Q:
+
+Mirrodin Besieged: do I win despite failing to draw a card?
+
+Suppose I control Mirrodin Besieged, having selected Phyrexian:
+
+Phyrexian — At the beginning of your end step, draw a card, then discard a card. Then if there are fifteen or more artifact cards in your graveyard, target opponent loses the game.
+
+As I enter my end step, my library is empty, and I have fifteen artifact cards in my graveyard.
+Who wins?
+
+A:
+
+In a game where you have only one opponent remaining, you would win the game before you can lose it. With more than one opponent remaining, both you and the targeted opponent would lose.
+Losing due to trying to draw from an empty library is a state-based action:
+
+704.5. The state-based actions are as follows:
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+
+However, state-based actions are not checked during the resolution of spells or abilities:
+
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+
+So if you try to draw from an empty library during Mirrodin Besieged ability's resolution, you won't lose the game until it has actually finished resolving and the active player would gain priority, because that's when state-based actions are checked:
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [..]
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+As soon as a player loses, they leave the game, and if you have no opponents remaining, you immediately win.
+
+104.1. A game ends immediately when a player wins, when the game is a draw, or when the game is restarted.
+
+104.2a A player still in the game wins the game if that player’s opponents have all left the game. This happens immediately and overrides all effects that would preclude that player from winning the game.
+
+So in essence, Mirroding Besieged starts resolving. You carry out as many instructions as you can, and the last instruction is that a target opponent loses the game. In a game where the targeted opponent is the only opponent remaining (or in a 2-Headed Giant game), that opponent losing would be the immediate end of the game, and you would be the winner. In game with more than one opponent remaining (except 2HG), the targeted opponent would lose, you would lose immediately afterwards when SBAs are checked, and the game would continue for the other players.
+

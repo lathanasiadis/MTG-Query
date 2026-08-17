@@ -1,0 +1,14 @@
+Q:
+
+Does it really matter if dice are randomized?
+
+I was playing MTG with some friends the other day, when a guy walks up and challenges me to a game. He insisted that he would not roll my spin-down die to determine who goes first. When I pointed out that it doesn't matter, because probabilistically, each side should have a 1/20 chance of showing regardless of the order of the sides, he assured me that there exists a "technique" by which someone could throw an ordered dice such that he has a higher chance to win a dice roll.
+Paranoia aside, does anyone know if such a technique exists? Is there any documentation on such a technique?
+
+A:
+
+As I noted in a comment, there are techniques I've seen people use with spindown dice - most notably a sort of 'skitter along the table' throw where the die is primarily slid rather than tumbled - that can be used to great effect in rolling high numbers.  There's enough imprecision that shots can't really be called precisely, but for spindown dice where all of the faces around a high-numbered face are also high-numbered, they lead to significantly biased rolls.
+You might ask why it matters, since both players are rolling the same die and both have access to the same technique - but the point is that there's an ethical asymmetry; one player is (presumably) trying to roll the die in a 'fair' fashion with an unbiased roll, either out of a sense of internal fairness or because they have no reason to suspect the other player is cheating them.  Meanwhile the shark is (also presumably) well aware of the skew in the game and willing to use that skew to their advantage.
+For what it's worth, I don't believe most people rolling spindown dice do it with any intention to cheat; the life counter is just what they have handy, and so it's a natural choice.  But there are people who will use it for that purpose, and so anyone who isn't willing to is at a slight overall disadvantage.  Most of the time, at an FNM or in a casual game like the one you describe, it just doesn't matter; who cares if you're an underdog in a die roll that has a maybe 5% affect on the outcome of a game that's just for fun?  But there are certainly circumstances where it does matter, and some people just get in the habit of caring about every little thing so that they build the mental rigor for when it does matter.
+As for myself, I usually don't care, though at something like a PTQ I'll insist on a more effective means of randomization.  My preferred choice is either to flip a coin with a call in the air (which is about as close to 'I cut, you choose' as a randomization method gets) or to toss about 5d6; they're quick enough to count, and hard enough to really skew that I can trust in the results.
+

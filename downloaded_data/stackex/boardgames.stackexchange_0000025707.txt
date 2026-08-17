@@ -1,0 +1,20 @@
+Q:
+
+Casting a creature and hexproofing
+
+If I play Krenko, Mob Boss and retain priority and cast Swiftfoot Boots on Krenko Mob Boss and at the same time my opponent casts Unsummon on Krenko Mob Boss, will my creature be safe or will he be removed from the battlefield?
+
+A:
+
+If I play Krenko Mob Boss and retain priority [...]
+
+First, let's clear up this confusion. If you cast Krenko and retain priority, then Krenko has not resolved. You need to wait until after Krenko resolves, at which point you will have priority because you are the active player.
+Now, after Krenko resolves, you decide to equip Swiftfoot Boots to Krenko. Equip is an activated ability. That means it will not resolve until all players pass in succession.
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+608.1. Each time all players pass in succession, the spell or ability on top of the stack resolves. [...]
+
+Your opponent may choose not to pass, and cast Unsummon instead. If they do that, then Krenko will be returned to your hand. Then, the equip ability will attempt to resolve, but will fail because Krenko is gone. Here's a little diagram to illustrate the process:
+
+activate ability -> stuff happens -> ability resolves if target is still legal
+

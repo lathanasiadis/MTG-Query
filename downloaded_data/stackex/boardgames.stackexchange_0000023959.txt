@@ -1,0 +1,19 @@
+Q:
+
+Can white tokens be used to pay for white mana in a convoke cost?
+
+Can white tokens be used to pay for white mana in a convoke cost?
+I know that tokens with summoning sickness can tap for convoke, but I was wondering if these tokens are considered "white". For example, if I want to cast Ephemeral Shields and I have two untapped white soldier tokens, can I tap both tokens to cover the colorless and the white in the mana cost?
+
+A:
+
+Yes, you can use white tokens to pay for white mana costs with Convoke. The rule for Convoke says
+
+Convoke is a static ability that functions while the spell with convoke is on the stack. "Convoke" means "For each colored mana in this spell’s total cost, you may tap an untapped creature of that color you control rather than pay that mana. For each generic mana in this spell’s total cost, you may tap an untapped creature you control rather than pay that mana." The convoke ability isn’t an additional or alternative cost and applies only after the total cost of the spell with convoke is determined.
+
+And a relevant rule regarding tokens says
+
+110.5b The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token's "text." The characteristic values defined this way are functionally equivalent to the characteristic values that are printed on a card; for example, they define the token's copiable values. A token doesn't have any characteristics not defined by the spell or ability that created it.
+
+So, when a spell or ability creates a White Soldier creature token, it is functionally equivalent to a creature card that is White and a Soldier. This functional equivalence extends to paying for white convoke costs.
+

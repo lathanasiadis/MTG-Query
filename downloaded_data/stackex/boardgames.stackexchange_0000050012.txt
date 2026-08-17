@@ -1,0 +1,11 @@
+Q:
+
+Open the Graves and blocking segment
+
+Let's assume the following situation: On the battlefield on my side lying these permanents: Open the Graves, Thallid Soothsayer and another non-token creature. My opponent is attacking me with two creatures.
+Am I supposed to do this: With my non-token creature I block one of the creatures of my opponent. Then I sacrifice my creature with Thallid Soothsayer so I get a token Zombie creature. Can I now block the other creature of the opponent with the token Zombie creature?
+
+A:
+
+Unfortunately that plan does not work. The "Declare Blockers" step only happens once during combat, and all your blockers must be declared at the same time at the beginning of that step. So if you declare one blocker and then move on to the part of the step where you can activate the sacrifice ability, it is too late to go back and declare another blocker afterward.
+

@@ -1,0 +1,24 @@
+Q:
+
+Death and revival of land-creatures
+
+I have a question regarding MTG rules and how can be applied. In this case, it's about lands that can become creatures. I was checking this one-mana EDH deck, and I saw that the Commander has this ability:
+
+Horde of Notions {W}{U}{B}{R}{G} 
+Legendary Creature — Elemental (5/5)
+Vigilance, trample, haste
+{W}{U}{B}{R}{G}: You may play target Elemental card from your
+  graveyard without paying its mana cost.
+Even the oldest treefolk was but an acorn when Lorwyn’s first
+mysteries were born.
+
+I was wondering: if the land was killed and sent to the graveyard while being a creature by any X reason (say "Lightning bolt"), is it possible to retrieve it back using this ability? For example, Celestial Colonnade can turn into an Elemental until end of turn.
+
+A:
+
+No, Horde of Notions cannot do anything with a land card that died as a creature. The key rule is rule 400.7:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+If a land card like Celestial Colonnade dies as a creature, the effect that made it a creature doesn't continue to apply to the card in the graveyard. While it's in the graveyard, it's just a land card.
+

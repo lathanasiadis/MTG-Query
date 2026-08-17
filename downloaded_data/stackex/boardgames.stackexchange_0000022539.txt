@@ -1,0 +1,14 @@
+Q:
+
+Spell targets player in multiplayer game, and that player leaves. Does it still resolve?
+
+Let's say I have infinite mana, Soulfire Grand Master and Crater's Claws. I play a multiplayer game with 5 other players. I use Soulfire Grand Master last ability with infinite damage crater claws on first opponent. He doesn't wait until the spell resolve, and leave the game.
+Will the spell resolve, so I can take it back to my hand and kill 4 other opponents?
+
+A:
+
+No, the spell will be countered by the game rules.
+If all targets of a targeted spell or ability become illegal before resolution, the spell/ability will be countered and nothing that would happen on resolution will happen.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability’s effect for which it is an illegal target can’t perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. If the spell or ability creates a continuous effect that affects game rules (see rule 613.10), that effect doesn’t apply to illegal targets. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+

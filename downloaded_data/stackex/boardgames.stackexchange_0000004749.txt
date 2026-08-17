@@ -1,0 +1,65 @@
+Q:
+
+In MTG, what happens when a player loses in multiplayer?
+
+In Magic: The Gathering, the rules for a player losing in a multiplayer game are quite complex, so I'd like to try to understand them by example. I would be happy to ask each of these situations as a separate question if that is preferred, but they all seem related, and I would love to have one place to look up all of these answers.
+Let's say I'm playing with two friends, Bob and Chloe, in a simple free for all. Unfortunately, I lose. When I lose, suppose the following:
+
+I controlled an Oblivion Ring which has exiled Bob's Runeclaw Bear, does he get his bear back?
+I have a Shock on the stack targeting Chloe, does Chloe take the 2 damage still?
+Earlier in the turn I cast Healing Salve to prevent damage to one of Bob's Runeclaw Bears. If it later takes 3 damage, will that damage be prevented?
+Something I controlled gave Bob a 1/1 soldier token. What happens to the token?
+Something Chloe controlled gave me a 1/1 soldier token. What happens to the token?
+I had a Mind Control enchanting one of Bob's army of Runeclaw Bears. What happens to the bear?
+I had also played Act of Treason on Bob's final Runeclaw Bears. What happens to the last bear?
+Chloe had Cloned my Raging Goblin. What happens to the Clone?
+Are there any other situations specifically addressed by the rules?
+
+A:
+
+First, the source: section 8 of the Comprehensive Rules covers multiplayer games, and rule 800.4a deals with the consequences of one player being eliminated:
+
+800.4a. When a player leaves the game, all objects (see rule 109) owned by that player leave the game, any effects which give that player control of any objects or players end, and all spells and abilities controlled by that player on the stack cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game.
+
+This is clarified by several other rules, among them
+
+800.4c If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack. 
+
+Applying this to your examples:
+
+I controlled an Oblivion Ring which has exiled Bob's Runeclaw Bear, does he get his bear back?
+
+Rule 800.4a provides for the Ring to leave the game when you lose. Ordinarily that would result in a triggered ability that returns the Bear to the battlefield, but rule 800.4c overrides that. So no, Bob does not get his bear back. Note that if the card is Banishing Light, the Oblivion Ring equivalent with "until" rather than a separate triggered ability for removing, Bob would get the Bear back, as there's no "returning" trigger to interact with 800.4 (see the final gatherer ruling)
+
+I have a Shock on the stack targeting Chloe, does Chloe take to 2 damage?
+
+No, because the Shock leaves the game when you lose according to 800.4a.
+
+Earlier in the turn I cast Healing Salve to prevent damage to one of Bob's Runeclaw Bears. If it later takes 3 damage, will that damage be prevented?
+
+This one is a little tricky, but as far as I can tell, there is nothing in rule 800.4 that says your effects are terminated when you leave the game. (Note that an "effect" is something separate from a spell or ability) So I believe that yes, the damage would be prevented. Prevention effects are described in rule 615.
+
+Something I controlled gave Bob a 1/1 soldier token. What happens to the token?
+
+Rule 110.5a states that "a token is both owned and controlled by the player under whose control it entered the battlefield." So this token is Bob's and has no connection to you; thus nothing happens to it.
+
+Something Chloe controlled gave me a 1/1 soldier token. What happens to the token?
+
+This token, on the other hand, is owned by you, so rule 800.4a specifies that it leaves the game.
+
+I had a Mind Control enchanting one of Bob's army of Runeclaw Bears. What happens to the bear?
+
+Bob gets the bear back because your Mind Control leaves the game. (I realize I'm pretty much bolding random words now)
+
+I had also played Act of Treason on Bob's final Runeclaw Bears. What happens to the last bear?
+
+Bob gets the bear back again, but this time because rule 800.4a explicitly causes control-changing effects to end.
+
+Chloe had Cloned my Raging Goblin. What happens to the Clone?
+
+I can't find an explicit reference for this one (yet) but I believe the Clone continues to exist as a copy of Raging Goblin, independent of the original. Clone says it "enters the battlefield as" a copy of the Goblin, but once it has entered the battlefield, the copying is complete and Clone doesn't maintain any connection to the Goblin.
+
+Are there any other situations specifically addressed by the rules?
+
+Of course ;-) Rule 800.4 alone has 9 subsections; I'd recommend that you take a look at them.
+

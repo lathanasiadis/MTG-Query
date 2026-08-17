@@ -1,0 +1,33 @@
+Q:
+
+Can I tap equipped artifacts for Improvise?
+
+The reminder text for the Improvise keyword states:
+
+Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.
+
+Can I tap an Artifact that is equipped to a Creature? And does the equipped Artifact retain its effect applied to the Creature it is equipped on?
+
+A:
+
+Yes you may use Equipped Artifacts to pay costs of spells with Improvise.
+The Improvise is defined in the comprehensive rules under 702.125 as follows:
+
+702.125a: Improvise is a static ability that functions while the spell with improvise is on the stack. “Improvise” means “For each generic mana in this spell’s total cost, you may tap an untapped artifact you control rather than pay that mana.”
+
+Whereas equipment is defined under 301.5 as:
+
+301.5: Some artifacts have the subtype “Equipment.” An Equipment can be attached to a creature. It can’t legally be attached to an object that isn’t a creature.
+
+All the Improvise mechanic cares about is that the object you are tapping is an Artifact, and your equipment fulfills that condition. Tapping the equipment isn't one of the conditions outlined in 301.5 for unattaching equipment, so it will remain attached (and continue applying its effects to the attached creature). For completeness sake common conditions that will cause the equipment to unattach are:
+
+The Equipment becomes a creature
+The Equipment loses the subtype "Equipment"
+The Creature it is attached to stops being a creature
+The Creature it is attached to gains protection from the equipment
+The Creature it is attached to leaves the battlefield
+The Equipment is attached to a different permanent
+An Effect specifies that the Equipment should be unattached
+
+One thing to keep in mind is though is when some people attack with a creature, they will tap the attached cards along with the creature they are attacking with. This isn't actually correct, but rarely makes a difference in the game. So just know that if you attacked with equipped creature you may still use the Equipment to pay costs of Spells with Improvise.
+

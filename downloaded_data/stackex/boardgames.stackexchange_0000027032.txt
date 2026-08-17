@@ -1,0 +1,20 @@
+Q:
+
+Clever Impersonator copying Liliana Heretical Healer
+
+I'm copying my opponent's non-transformed Liliana, Heretical Healer with Clever Impersonator. Then one of my other creatures dies. Does my Clever Impersonator come back as Liliana non-transformed again or does it come back as Clever Impersonator with a possible new choice? If it comes back as Liliana do I get a zombie? It says "If you do, put a 2/2..." is it saying if I do return her, or if I do return her transformed?
+
+A:
+
+You will get the 2/2 Zombie token and a fresh Clever Impersonator.
+The copied Liliana's ability triggers on the other creature's death, the copied Liliana gets exiled and returns to the battlefield. However, the Impersonator only copied the front side of Liliana, the Impersonator itself can not and will not be transformed:
+
+701.25a Only permanents represented by double-faced cards can transform. (See rule 711, “Double-Faced Cards.”) If a spell or ability instructs a player to transform any permanent that isn’t represented by a double-faced card, nothing happens.
+
+In this case, the "If you do..." part of Liliana's ability is sufficiently satisfied as long as the card is exiled due to the effect, so a 2/2 zombie will be created. (see this post)
+Upon leaving the battlefield, the Impersonator also forgot all memory of its previous existence:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule:
+
+The exceptions don't apply here. You exile the Liliana, but return the Impersonator. Therefore, after the exile it enters the battlefield as a fresh Impersonator, ready to copy another permanent.
+

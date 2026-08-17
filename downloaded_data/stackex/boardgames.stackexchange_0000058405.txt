@@ -1,0 +1,16 @@
+Q:
+
+How does Kaya's Ghostform work with undying?
+
+If I have Geralf's Messenger enchanted with Kaya's Ghostform, if he dies does he re-enter the battlefield with his +1/+1 counter or no?
+I tried googling "how does kaya's ghostform work with undying" but didn't get any seemingly related results.
+Also not sure if I did my links correctly, please help a newbie.
+
+A:
+
+It can, but you have to be specific in what you want.
+When Geralf's Messenger dies, assuming it didn't already have a +1/+1 counter on it, both its undying trigger and the trigger from Kaya's Ghostform go on the stack. What happens next depends on how you, as the controller of the multiple triggers, order them.
+If you order them so that the undying trigger goes on the stack first, then the Kaya's Ghostform trigger, the Kaya's Ghostform trigger will resolve first. It returns Geralf's Messenger to the battlefield, without any +1/+1 counters because Kaya's Ghostform returns the enchanted creature as-is. Then the undying trigger resolves, but it can't find the creature it's looking for in your graveyard, so it doesn't do anything.
+On the other hand, if you order them so that Kaya's Ghostform goes on the stack first, then the undying trigger, the undying trigger will resolve first. The undying trigger will reanimate Geralf's Messenger with a +1/+1 counter on it. Then the Kaya's Ghostform trigger resolves, but it can't find the creature it's looking for in your graveyard, so it doesn't do anything.
+In other words: if the creature with undying already had a +1/+1 counter on it, you don't have to do anything. If it didn't, say that you order the triggers so that undying resolves first.
+

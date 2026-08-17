@@ -1,0 +1,15 @@
+Q:
+
+What's the timing on Warrior en-Kor's damage redirection?
+
+Say I have Warrior en-Kor out and use its ability to redirect the next 5 damage it would get. I leave it as-is, and then in combat resolution a creature would deal 6 damage to it, leaving all but 1 damage redirected. Would I be assuming correctly that I cannot redirect that 1 damage later?
+
+A:
+
+You cannot redirect damage after it has been dealt. The only card that ever did this was Simulacrum which now lets you gain the life lost from damage dealt to you back and then simulacrum deals damage to a target instead.
+Redirection creates a replacement effect, all of the en-Kor creatures had this effect. It's been reworded to no longer talk about redirection, which is considered obsolete, the new en-Kor ability is written this way:
+
+The next 1 damage that would be dealt to ~ this turn is dealt to target creature you control instead.
+
+The new wording makes it much more clear that you have to activate the ability before the damage is dealt, since it refers to the "next" damage. So timing is the last time you have priority when the spell that would do the damage is on the top of the stack (other than Sudden Shock and Molten Disaster, which you would need the redirection active before it is cast due to split second) or when you have priority after blockers are declared but before damage is assigned (no priority to activate between assigning and dealing damage).
+

@@ -1,0 +1,12 @@
+Q:
+
+How do creature that exile themselves interact with Whip of Erebos?
+
+I've recently been told that a revived Obzedat, Ghost Council can escape Whip of Erebos's exile effect because you can exile it while the whip's effect's is on the stack, but wouldn't that trick (or the activate ability on Aetherling that can theoretically be used in the same way) merely run afoul of the whip's continuous effect that applies to the revived creatures?
+
+If [the returned creature] would leave the battlefield, exile it instead of putting it anywhere else.
+
+A:
+
+The reason you can dodge the whip with an ability like that is the "instead of putting it anywhere else" clause in the whip's rule.  That ability only applies if the card is going somewhere besides exile, it is fine with allowing the Ghost Council to be exiled by their own ability.  So the Ghost Council is considered to have been exiled by its own ability, not by the whip, and its own ability will return it.
+

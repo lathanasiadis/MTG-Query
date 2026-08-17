@@ -1,0 +1,13 @@
+Q:
+
+How does trample work against infect?
+
+My opponent attacks me with say, a 6/6 trample generic Wyrm of some sort, and I block with a Whispering Specter, a 1/1 infect with flying. When damage is dealt the Specter will deal it in the form of a -1/-1 counter from its infect ability. Well, the Wyrm would normally deal me 5 leftover trample damage, so is this damage lowered by -1 from the counter given by the Specter?
+
+A:
+
+No, you would suffer up to 5 damage if the opponent choose to assign the trample damage to you.
+When two creatures deal combat to each other, it's simultaneous. So, for example, a non-trampling 6/6 would deal 6 damage to your 1/1, causing 6 damage to become "marked" on it, while, concurrently, your 1/1 would deal 1 point of infect damage to the 6/6, causing a -1/-1 counter to be put on it. The counters are the damage.
+Trample doesn't add an extra step to damage resolution, it just changes how damage is assigned. So, a trampling 6/6 allows its controller to assign 1 damage to your 1/1 (since that's enough to kill it) and as much of the remaining damage as he wants to you. You, your blocker, and the attacking creature all take damage simultaneously.
+If you blocked the 6/6 trampler with a 1/1 creature that had both infect and first strike, then its infect damage would be applied first, giving the 6/6 a -1/-1 counter, and then you'd only take a maximum of 4 trample damage.
+

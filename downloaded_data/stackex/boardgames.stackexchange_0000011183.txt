@@ -1,0 +1,28 @@
+Q:
+
+What is the meaning of OMP, GWP, OGP?
+
+I am using mtgarena for my tournament organization.
+What do OMP, GWP and OGP mean? Does anyone know what they stand for?
+Example:
+Player  Points  OMP     GWP      OGP
+1           9   33.33   100      31.11
+2           6   66.67   60       69.44
+3           6   44.44   75       42.22
+4           6   22.22   66.67    22.22
+5           3   72.22   20       80.56
+6           3   50      20       53.33
+7           3   33.33   0        36.11
+
+A:
+
+These are percentages, used by the DCI as tie-breakers. From Section C4 of the Tournament Organizer's Handbook:
+
+OMP - Opponents’ Match-Win Percentage. A player’s match-win percentage is that player’s accumulated match points divided by X
+times the number of rounds in which he or she competed, or 0.33, whichever is greater.
+GWP - Game-Win Percentage. Similar to the match-win percentage, a player’s game-win percentage is the total number of
+game points he or she earned divided by X times the number of games played.
+OGP - Opponents’ Game-Win Percentage. Similar to opponents’ match-win percentage, a player’s opponents’ game-win percentage is
+simply the average game-win percentage of all of that player’s opponents. And, as with opponents’ match-win percentage, each opponent has a minimum game-win percentage of
+0.33.
+

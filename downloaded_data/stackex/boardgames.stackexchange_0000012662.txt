@@ -1,0 +1,21 @@
+Q:
+
+Can a Dimir Keyrune receive a Cipher, and does the encoded spell stay?
+
+ 
+Here's the scenario (I hope I get this right by the rules): last turn, I summoned my Dimir Keyrune onto the battlefield. This turn, if I transform it into that "2/2 blue and black Horror artifact creature", I'll be able to attack with it. It will be unblockable, making it a good candidate for a Cipher spell. The transience of it being a creature, however, is a problem.
+
+Whilst it's temporarily a creature, can I cast Paranoid Delusions and then encode it onto the Dimir Keyrune using Cipher?
+When the Dimir Keyrune stops being a creature, what happens to the Paranoid Delusions encoded on it? Does Dimir Keyrune remain encoded? This would mean, I think, that in the future, transforming it back into a creature would mean I could attack with it and potentially cast Paranoid Delusions.
+
+A:
+
+Yes, you can encode it on an animated Keyrune; and yes, it remains encoded even if the Keyrune stops being a creature.
+
+A creature is a creature. It doesn't matter how it became a creature. It's even less relevant that it might stop being a creature. (Any creature could stop being creature.)
+Enchantments, Equipments and Fortifications fall off because State-Based Actions (SBA) specifically ensure they are attached to a valid object. There is no such SBA for Cipher cards. As long as the Keyrune remains on the battlefield, Paranoid Delusions will remain encoded on it. Of course, you'll have to reanimate the Keyrune to take advantage of the encoded card.
+
+There's a reminder rule that covers this:
+
+702.98c The card with cipher remains encoded on the chosen creature as long as the card with cipher remains exiled and the creature remains on the battlefield. The card remains encoded on that object even if it changes controller or stops being a creature, as long as it remains on the battlefield.
+

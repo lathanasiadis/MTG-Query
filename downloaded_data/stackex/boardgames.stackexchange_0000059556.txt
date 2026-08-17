@@ -1,0 +1,27 @@
+Q:
+
+Can I lose the game by flickering Platinum Angel
+
+Suppose that I have 10 poison counters but can't lose because I have Platinum Angel in play.
+If I cast Cloudshift on Platinum Angel, do I lose the game, or does it return to play before state based effects are checked?
+
+A:
+
+You do not lose the game.
+You can only lose due to poison counters (or 0 health) when state-based actions are checked. This only happens when a player is about to get priority; not in the middle of resolving a spell’s effects.
+
+104.3. There are several ways to lose the game.
+
+104.3d If a player has ten or more poison counters, that player loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+117.3a The active player receives priority at the beginning of most steps and phases, after any turn-based actions (such as drawing a card during the draw step; see rule 703) have been dealt with and abilities that trigger at the beginning of that phase or step have been put on the stack. No player receives priority during the untap step. Players usually don’t get priority during the cleanup step (see rule 514.3).
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+Note that this is different from effects that’s say “you lose” or “you win”. Those happen immediately as part of resolving the effect. So if a card said
+
+Exile target creature you control, then you lose the game, then return that card to the battlefield under your control.
+
+then you would lose, because you don’t control Platinum Angel while resolving that instruction.
+

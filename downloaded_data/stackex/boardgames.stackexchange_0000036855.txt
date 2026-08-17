@@ -1,0 +1,20 @@
+Q:
+
+Is there a functional reason for Ghostfire not having the Devoid keyword?
+
+Ghostfire is a card that has a colored mana cost, and then is changed by its rules text to become colorless. This is largely what Devoid has been used for in editions printed after Ghostfire has first seen the light of day.
+
+702.113a Devoid is a characteristic-defining ability. “Devoid” means “This object is colorless.” This ability functions everywhere, even outside the game. (...)
+
+Ghostfire is very similar to Reality Hemorrhage, with the only difference being that you pay one more colorless mana for one more damage, and the difference inquired about here.
+The only apparent difference is that Devoid is a keyword ability, but since it only creates a CDA (characteristic-defining ability) with exactly the same text that can be found on Ghostfire, it doesn't seem to make a difference.
+Is there any ever-so-slight functional difference at all between these phrasings?
+Of course, reasons other than functional ones could be, for example, that only Eldrazi-related cards would actually receive the Devoid keyword, or that Wizards maybe wants to errata as little as possible, but that's not what this question is primarily about. However if you do find citation for that, please post it as a comment, or addendum to an answer.
+
+A:
+
+Yes, there is a practical difference between Ghostfire and Reality Hemorrhage as far as the color-setting ability goes.
+The colored mana produced by Corrupted Crossroads could not be used to cast Ghostfire.
+Other examples of cards affecting other cards with specific keyword abilities include at least the cards found by this search, except Humility. Note that this was a very basic search, and there are many more such cards that affect specific keyword abilities, such as Adarkar Windform.
+It seems unlikely that Ghostfire, a card released in 2007 as part of the out-of-order Future Sight edition and the only card made colorless by a CDA before the Battle for Zendikar block, was intentionally left un-errata'd to nerf its interaction with Corrupted Crossroads. Avoiding unnecessary erratas seems to be the most likely explanation why it was not updated.
+

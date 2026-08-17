@@ -1,0 +1,20 @@
+Q:
+
+What happens when you have multiple copies of Nine Lives on the board?
+
+I couldn't find any prior rulings to this question.
+So what happens if you have multiple copies of Nine Lives on the board and receive damage from any source.
+Do both copies trigger each time you get damage so that both copies would have nine counters at the same time making them redundant or do they alternate giving you functionally 17 lives (8+8+1 lethal)?
+
+A:
+
+Nine Lives second ability is a prevention effect not a triggered ability:
+
+CR 615.1a Effects that use the word “prevent” are prevention effects. [...]
+
+When there are two Nine Lives on the battlefield, the interactions are resolved according to:
+
+CR 616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller [...] or the affected player chooses one to apply [...]
+
+In this case you would choose on which copy of Nine Lives to put the counter, effectively giving you 17 lives.
+

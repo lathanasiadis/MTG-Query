@@ -1,0 +1,30 @@
+Q:
+
+Creatures with "Whenever you cast a colorless spell, untap ~"
+
+Are there any other creatures that have an ability that's the same as Nettle Drone's second ability, "Whenever you cast a colorless spell, untap [card name]"?
+I'm not sure how exactly to search for it. Any insight?
+The things I tried on Gatherer brought back a lot of false positives.
+
+A:
+
+One option is to use Scryfall, which uses "~" in card text search to mean the name of the card that the text is on. So, for example, you can search
+
+o:"Whenever you cast a colorless spell, untap ~"
+
+This gives exactly one result: Nettle Drone.
+In addition, Scryfall has a regular expression search that supports the same meaning of "~". So if you do the following card text search, you end up at Nettle Drone:
+
+re:"Whenever you cast a colorless spell, untap ~"
+
+For a slightly broader set of results, you can search for
+
+re:"Whenever * (cast|casts) (a|an)* spell,* untap ~"
+
+This finds every ability of the form "Whenever [a player] cast(s) a(n) [characteristic] spell, untap [this permanent]". It finds a total of 9 cards, two of which untap when you cast any colorless spell: Dwarven Patrol and Nettle Drone.
+You can also use this less-accurate regex:
+
+re:"Whenever * (cast|casts) (a|an)* spell,* untap"
+
+This captures more cards outside our intentions but with a similar effect (e.g. Paradox Engine, Jeskai Ascendancy). More importantly, it includes cards like Blistercoil Weird which say "untap it" (in reference to themselves) following some other effect that's also occurring.
+

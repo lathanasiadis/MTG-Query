@@ -1,0 +1,11 @@
+Q:
+
+I was the first to lose in a commander game, does Vorinclex ability still happen?
+
+It's a 3-man commander game and I have out Vorinclex, Voice of Hunger, and my opponent had two flyers which dealt me enough damage to the point I was down to 2 life, and then he cast an Ugin, the Spirit Dragon and dealt me the remaining damage while tapping out. Since I was still in the game when he tapped his mana (and Vorinclex was still alive), would his mana stay tapped on his next untap step, or since I left the game entirely would he be able to untap it. This question is relevant for the other two players. 
+
+A:
+
+The lands would not untap during their controller's untap step. This is a continuous effect on the land created by the resolution of an effect, and the rules relating to what effects end when a player leaves the game, notably 800.4j, imply that continuous effects created as part of the resolution of a spell or ability continue to apply, even if that player is no longer in the game. There's no rule stating that continuous effects with any timing other than "until your next [turn/phase]" should end, therefore if they're on legal permanents they would continue.
+For future reference, however, if the effect where to kill you while the Vorinclex triggers were still on the stack, e.g. from a Lightning Bolt, the Vorinclex triggers would be exiled as you left the game from having 0 life, so they would NOT affect the lands.
+

@@ -1,0 +1,44 @@
+Q:
+
+What happens when additional costs can't ultimately be paid, but the spell is on the stack?
+
+I have a question that bothers me after reading a part of the big book of rules :).
+It's about the rule 717, illegal actions.
+
+717.1. If a player realizes that he or she can’t legally take an action after starting to do so, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. The player may also reverse any legal mana abilities activated while making the illegal play, unless mana from them or from any triggered mana abilities they triggered was spent on another mana ability that wasn’t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, or caused a library to be shuffled.
+
+For example, player A plays a Goblin Grenade.
+
+As an additional cost to cast Goblin Grenade, sacrifice a Goblin.
+Goblin Grenade deals 5 damage to target creature or player.
+
+It goes on the stack. Player B gains priority and casts a Terror on the only goblin of Player A.
+
+Destroy target nonartifact, nonblack creature. It can't be regenerated.
+The terror goes on the stack. Then both players agree to resolve the stack. The terror kills the last goblin standing and then the Goblin Grenade can't be cast because of the additional cost which can't be paid. So in my opinion that leaves two possibilities:
+
+The Goblin Grenade returns to the zone it was previously from (the hand of Player A)
+The Goblin Grenade becomes illegal and gets countered, so it goes to the graveyard
+
+Based on rule 717 I think it goes back to the hand but I'm not quite sure. :)
+
+A:
+
+When the opponents gets a chance to cast Terror, the Goblin has already been sacrificed as part of the cost to cast Goblin Grenade. It's not available to be targetted by Terror.
+
+Additional costs are part of the total cost to cast a spell or activate an ability. To paraphrase 601.2e,
+
+total cost = mana cost or alternative cost + cost increases and additional costs - cost reductions
+
+The total cost to cast a spell is payed as part of casting the spell. To paraphrase 601.2's subsections, to cast a spell is to
+
+(601.2a) Place the card on the stack.
+(601.2b-d) Make some choices including targets.
+(601.2e) Determine the total cost to cast the spell.
+(601.2f) Activate mana abilities.
+(601.2g) Pay the total cost to cast the spell.
+
+All of this, including sacrificing a Goblin, happens when you cast Goblin Grenade. When the opponents gets a chance to cast Terror, the Goblin has already been sacrificed.
+The illegal action in your scenario is the casting of Goblin Grenade for the wrong cost. In a casual setting, you should rewind the casting of Terror, finish paying the cost of Goblin Grenade (i.e. Sacrifice a Goblin), then proceed from there.
+Things are different at Pro and Competitive Rule Enforcement Levels (REL). For starters, there would be two errors. You failed to pay the appropriate cost (Game Play Error — Game Rule Violation) , and your opponent allowed the game to proceed in a bad state (Game Play Error — Failure to Maintain Game State). The consequences are detailed in the Infraction Procedure Guide (IPG) rather than CR 717.1.
+

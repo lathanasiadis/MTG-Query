@@ -1,0 +1,21 @@
+Q:
+
+When do I need to choose a target for "Enters the battlefield" triggers?
+
+Consider the following game state.
+
+I have a Sky Skiff in play.  It is not currently a creature.
+I cast Herald of the Fair
+It has an ETB trigger that targets a creature.
+
+Can I tap the Herald of the Fair to Crew the Sky Skiff to make it a creature so that I can target it with the ETB trigger?  Or do I have to choose the target as soon as the trigger goes on the stack and have no time to respond to the trigger to make the Sky Skiff a valid target?
+
+A:
+
+You have to choose targets as the ability goes on the stack:
+
+114.1. Some spells and abilities require their controller to choose one or more targets for them. ... These targets are
+  declared as part of the process of putting the spell or ability on the stack.
+
+Only spells and abilities use the stack - there is no point at which the stack contains the trigger event "Herald just entered the battlefield". Instead, when a triggered ability's trigger condition is met, the ability itself is put on the stack (and any targets must be chosen) the next time a player would receive priority. Thus you do not get priority between the time Herald enters the battlefield and the time the ETB ability goes on the stack, so you cannot have Herald crew Sky Skiff in time to make Sky Skiff a legal target.
+

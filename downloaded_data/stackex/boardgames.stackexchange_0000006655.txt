@@ -1,0 +1,23 @@
+Q:
+
+Do face-down creatures have "the same name" as each other?
+
+My opponent has three face-down morphs on the battlefield.
+I play Sever the Bloodline targeting one of them.
+Do we exile all three because they all have the "same name"? Or do we exile just one because "no name" indicates a lack of a characteristic altogether?
+
+A:
+
+They don't have names:
+
+702.35a Morph is a static ability that functions in any zone from which you could play the card it’s on, and the morph effect works any time the card is face down. “Morph [cost]” means “You may cast this card as a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and no mana cost by paying {3} rather than paying its mana cost.” (See rule 707, “Face-Down Spells and Permanents.”)
+
+If they don't have names, they can't have the same name, so only the morph targeted by Sever the Bloodline will be exiled.
+For an official source, see the fourth ruling in Maelstrom Pulse:
+
+A face-down creature has no name, so it doesn't have the same name as anything else.
+
+Bonus: Why "no mana cost" gives us a converted mana cost of 0 instead of no converted mana cost?: That's because there is a specific rule about this:
+
+202.3a The converted mana cost of an object with no mana cost is 0.
+

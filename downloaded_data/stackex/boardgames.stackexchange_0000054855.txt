@@ -1,0 +1,17 @@
+Q:
+
+How likely is Yusri to get me an omniscience effect, if I have Krark's Thumb out?
+
+The new card Yusri, Fortune's Flame has the clause, that if you win 5 flips off it's attack trigger ability, you can cast any card in your hand, for free!.
+
+Whenever Yusri, Fortune’s Flame attacks, choose a number between 1 and 5. Flip that many coins. For each flip you win, draw a card. For each flip you lose, Yursi deals 2 damage to you. If you won five flips this way, you may cast spells from your hand this turn without paying their mana costs.
+
+emphasis mine
+Normally this gives you a 1/32 chance (1 in 2 to the power of 5), but what happens if you have Krark's Thumb out?
+
+A:
+
+The probability to win all 5 coin flips with Krark's Thumb is 0.75^5, or 23.7%, up from 3.1% without Krark's Thumb.
+Normally, you would have a 50% chance to win a single coin flip. Since multiple coin flips are independent of each other, you can just multiply their probabilities, so you get a (0.5)^5 = 0.031 (3.1%) probability to have 5 coin flips go your way.
+Each Krark's Thumb essentially halves the probability of losing a coin flip. For one Thumb, It goes from 50% to 25%, so the chance to win goes to 1 - 0.25 = 0.75. The probability to win 5 such coin flips is (0.75)^5 = 0.237, or 23.7%
+

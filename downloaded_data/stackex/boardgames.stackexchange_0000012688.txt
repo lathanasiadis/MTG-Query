@@ -1,0 +1,12 @@
+Q:
+
+Does "+X +X until end of turn." effects remain on creatures in the graveyard and/or exiled until end of turn?
+
+If I use Culling the Weak to sacrifice 4 creatures for 16 black mana, then use 15 of that mana on Whispering Shade to make it stronger, can I then sacrifice them to get 5 mana for Living Death to bring all my creatures back with Whispering Shade  being a 16/16?
+
+A:
+
+First of all, with a single Culling the Weak, you can only sacrifice a single creature, not as many as you like. If you could use it multiple times, it would explicitly say so in the text. (Be sure to check the text in the Oracle rather than the text on the physical card.) You can use Living Shade's ability as often as you like, but there is a difference between a one-shot spell effect and an activated ability.
+Secondly, once you cast CtW, you cannot cast another spell (Living Death) and then continue sacrificing to CtW, because CtW has resolved, is in the graveyard, and its effect is over.
+Thirdly, if you activate Living Shade's ability to make it stronger, then sacrifice it, then bring it back into play from the graveyard, it will be a completely new Living Shade with no "memory" of its previous existence, and thus will be 1/1.
+

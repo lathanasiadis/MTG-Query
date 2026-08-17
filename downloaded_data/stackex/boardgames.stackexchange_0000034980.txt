@@ -1,0 +1,22 @@
+Q:
+
+Does Prowler's helm effect makes an unblockable creature blockable by walls?
+
+Full question in title. Do equipment effects always override creature effects even tho the creature effects are superior?
+
+A:
+
+You seem to be asking about a creature with
+
+[This creature] can't be blocked.
+
+equipped with a Prowler's Helm that has
+
+Equipped creature can't be blocked except by Walls.
+
+Each of these abilities creates a blocking restriction, and all blocking restrictions must be obeyed.
+
+509.1b The defending player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal. [...]
+
+So that means it's can't be blocked by any creature, and it can't be blocked by non-Wall creatures. The result is that it can't be blocked by any creature.
+

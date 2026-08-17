@@ -1,0 +1,15 @@
+Q:
+
+Do I or my planeswalker need to take damage for Blood Reckoning to trigger?
+
+If I have Blood Reckoning on the battlefield and an opponent targets me or my planeswalker with his creatures, but I block the full attack with my creatures, does this still activate? Or do I or my planeswalker need to take damage from the creatures for this card to take effect?
+Also, if my opponent attacks with multiple creatures does this card activate per creature?
+
+A:
+
+Short answer: all your opponent has to do is declare attackers. As soon as they do that, they lose the life. Blocking and dealing damage come later. And yes, it triggers separately for each creature your opponent attacks with.
+Longer answer: You're confusing terminology a bit here. "Target" has a specific meaning (spells and abilities can have targets), and attacking with creatures doesn't target. "Attack", as in "Whenever a creature attacks you" also has a specific meaning - it means in the declare attackers step, that creature is declared as an attacker*. Blood Reckoning's triggered ability sees that happen, triggers, goes on the stack, then resolves, causing your opponent to lose life. All of this happens before going on to the next step, declaring blockers.
+For reference, the steps of the combat phase are beginning of combat, declare attackers, declare blockers, assign damage, and end of combat. (Often nothing happens in the beginning and end steps.) The sequence of combat steps is summarized in the basic rulebook, and there's a great detailed walkthrough of combat (and all the details you could want to know about assigning damage) about halfway through this article. (The article's actually about rule changes from Magic 2010, so there's a bit of "this is the new way", but it's a good walkthrough nonetheless.)
+As for the per-attacker triggering, there's not much to say - triggered abilities just trigger for every bit of the game that matches their trigger condition. Blood Reckoning cares about "a creature is declared as an attacker" so if there are five of those, there are five triggers. Note though that this is helpfully mentioned in the rulings at the bottom of the card's Gatherer page!
+* As pointed out in the comments, "a creature is declared as an attacker" is different from "a creature on the battlefield is attacking". There are cards like Geist of Saint Traft which put a token creature onto the battlefield already attacking. That creature was never declared as an attacker, so it doesn't trigger abilities like Blood Reckoning's.
+

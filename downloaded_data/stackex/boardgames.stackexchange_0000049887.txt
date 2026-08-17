@@ -1,0 +1,22 @@
+Q:
+
+How does Haktos the Unscarred's protection ability work if no number was chosen?
+
+Haktos the Unscarred has an unusual pair of abilties:
+
+As Haktos enters the battlefield, choose 2, 3, or 4 at random.
+Haktos has protection from each converted mana cost other than the chosen number.
+
+It is possible for a creature to have the protection ability without ever choosing a number. For example, Lazav, the Multifarious could become a copy of a Haktos in the graveyard, or Mirage Mirror could become a copy of a Haktos on the battlefield. In a situation like that, what will the ability do?
+
+A:
+
+If no number was chosen, the ability does nothing.
+This is a result of rule 706.7a:
+
+If an ability causes a player to “choose a [value]” and a second, linked ability refers to that choice, the second ability is the only ability that can refer to that choice. An object doesn’t “remember” that choice and use it for other abilities it may copy later. If an object copies an ability that refers to a choice, but either (a) doesn’t copy that ability’s linked ability or (b) does copy the linked ability but no choice is made for it, then the choice is considered to be “undefined.” If an ability refers to an undefined choice, that part of the ability won’t do anything.
+
+This is also stated in one of the card's Gatherer rulings:
+
+If Haktos somehow has no choice made for its ability, its last ability grants it no protection abilities.
+

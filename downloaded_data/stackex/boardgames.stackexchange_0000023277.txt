@@ -1,0 +1,20 @@
+Q:
+
+Resolving an ambiguous game state caused by mixing restricted mana
+
+Anthony activates Mishra's Workshop to add {3} to his mana pool. He casts Bronze Sable, leaving him with {1} in his mana pool. This mana comes with a restriction that it may only be used to cast artifacts.
+Next, Anthony activates Xenagos, the Reveler to add {G}{G} to his mana pool. He casts Elsewhere Flask. This leaves him with one mana in his pool. Elsewhere Flash resolves, and Anthony draws a card.
+We arrive at an ambiguous game state. Anthony failed to specify exactly which mana in his pool he was using to cast Elsewhere Flask. Does he have {1} in his pool with a restriction, or {G} in his pool with no restriction? Does the game back up to before it became ambiguous? Does Anthony get to choose? Are any penalties awarded?
+Assume that this scenario occurred at Regular AND Competitive REL. Describe the outcome of both if they happen to be different.
+
+A:
+
+We will start with the relevant rule:
+
+106.4a If a player passes priority (see rule 116) while there is mana in his or her mana pool, that player announces what mana is there. If any mana remains in a player’s mana pool after he or she spends mana to pay a cost, that player announces what mana is still there.
+
+Anthony would get a Warning for Game Play Error - Game Rule Violation for failing to follow the above rule.  (I can't think of a card that having the {1} would be advantageous over the {G}, but board state is irrelevant for this kind of infraction.)
+The fix for this type of violation is to attempt to fix the problem by performing the required action if possible, if that isn't back up the game if possible, and if that isn't possible leaving the game state alone. In this case if caught soon enough the problem can be fixed by Anthony deciding what kind of mana he has, otherwise just leave the game where it is.
+If Anthony's opponent did not catch the error soon after it was committed they would receive a Warning for Game Play Error - Failure to Maintain Game State.
+At a Regular REL both of the Warning should be downgraded to Cautions, since the point at Regular REL is to educate and not punish for most infractions.
+

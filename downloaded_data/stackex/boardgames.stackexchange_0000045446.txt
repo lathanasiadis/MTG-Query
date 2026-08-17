@@ -1,0 +1,18 @@
+Q:
+
+The spell temper (old card) effect in combat damage resolution
+
+Temper prevents the next 'X' damage and puts 'X' +1/+1 counters on a creature.  Do those counters increase the damage done by this creature in the combat resolution step?
+Also how does it interact with an 'Nomads en-Kor' style damage redirection or a Boros Reckoner?
+
+A:
+
+Okay there's two questions here so lets take them one at a time. First though being combat damage only matters for the timing of the damage in the first question, Temper works the same way regardless of how the damage is dealt.
+1) Temper will NOT change the damage done by that creature in the same damage step, damage is already assigned in full, and would have been dealt at the same time it was to take the damage being prevented. Making a creature more powerful after damage is assigned doesn't change that. If however the damage prevented was from a first strike source, and your creature does not have first strike, or has double strike, the second damage step will have those counters and will do that extra damage. This is seen more recently with the effect of Drana, Liberator of Malakir every time she hits all attacking creatures get a +1/+1 counter, and she has first strike.
+2) If Temper was placed on Boros Reckoner, his effect will not be triggered, he was dealt no damage so his effect does nothing. The en-Kor redirection effects could go either way, assuming one player controls both the effects that player chooses which one applies first and which tries to apply second. The one that would apply second fails to happen, because damage is no longer going to be dealt to that creature. This is covered in the Comprehensive rules:
+
+616.1 If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object's controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+If Temper is cast on the creature that damage is being redirected to, both effects will apply, the damage will be redirected and then prevented.
+It's worth noting that Temper still prevents X damage during that turn, unlike some other sources it does not care from where or when the damage is dealt, beyond that it is all in that one turn. So if you redirect all damage from a group of en-Kor creatures being hit by something like pyroclasm it will prevent all of up to X of that damage, and if anything is left be able to prevent still more later in the turn.
+

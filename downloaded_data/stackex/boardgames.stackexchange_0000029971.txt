@@ -1,0 +1,23 @@
+Q:
+
+Scion of the Ur-Dragon and Torrent of Souls
+
+When Scion of the Ur-Dragon enters the battlefield it attracts a lot of hate. So my plan is to reanimate it using Torrent of Souls to hit a surprise 16 damage attack using Scion's ability to copy Atarka, World Render. To do this I need to copy Atarka first and then attack. I want to know if Scion will lose the haste obtained from Torrent of Souls when it copy Atarka. Are there other sources of haste that disappear when Scions copy a dragon?
+
+A:
+
+Determining how continuous effects interact is done using a system of layers (see also: How do Layers work?) 
+
+Copy
+Control
+Text
+Type
+Color
+Add/Remove
+Power
+
+In this case, Torrent and Scion both create continuous effects that affect the P/T and abilities. Layers gives us the order in which to apply them, even if the effects were created in a different order.
+Scion's copy ability applies in layer 1. So, there, it becomes a copy of Atarka.
+Torrent's haste and +2/+0 are applied in layers 6 and 7. So, "Atarka" gains haste and +2/+0.  
+When "Atarka" attacks, it gains another ability in layer 6. It doesn't conflict with anything, so it's just added. So, you'd have an 8/4 Flying Haste Double-Strike after declare attackers. 
+

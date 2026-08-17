@@ -1,0 +1,28 @@
+Q:
+
+Can an Aura be attached to itself?
+
+Let's say I have an Indestructibility attached to a land I control.
+
+Enchanted permanent has indestructible.
+
+I try to use the second ability of Simic Guildmage to attatch the Indestructibility to itself.
+
+Attach target Aura enchanting a permanent to another permanent with the same controller.
+
+What happens?
+
+A:
+
+You cannot do as you described, there is a ruling on Simic Guildmage (emphasis mine):
+
+For the second ability, only the Aura is targeted. When the ability resolves, you choose a permanent to move the Aura onto. It can’t be the permanent the Aura is already attached to, it must be controlled by the player who controls the permanent the Aura is attached to, and it must be able to be enchanted by the Aura. (It doesn’t matter who controls the Aura or who controls Simic Guildmage.) If no such permanent exists, the Aura doesn’t move.
+
+Since you cannot attach an Aura to itself due to rule 303.4d you cannot choose to attach Indestructibility to itself:
+
+303.4d An Aura can’t enchant itself. If this occurs somehow, the Aura is put into its owner’s graveyard. An Aura that’s also a creature can’t enchant anything. If this occurs somehow, the Aura becomes unattached, then is put into its owner’s graveyard.
+
+Even if you could make that choice, the Aura would not move due to rule 303.4j:
+
+303.4j If an effect attempts to attach an Aura on the battlefield to an object or player it can’t legally enchant, the Aura doesn’t move.
+

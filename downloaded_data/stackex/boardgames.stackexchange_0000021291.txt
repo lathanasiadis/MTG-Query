@@ -1,0 +1,16 @@
+Q:
+
+Who determines the target creature or player when a card says "deals 1 damage to target creature or player"?
+
+Vigilante Justice says "Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to target creature or player." Do I decide if the damage goes to the creature or player or does my opponent?
+
+A:
+
+Whoever controls Vigilante Justice chooses the targets. The ability is a triggered ability, and the rules for triggered abilities say
+
+603.3a A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+601.2c The player [who controls the ability] announces his or her choice of an appropriate player, object, or zone for each target the spell requires.
+
+The "source" of the ability is the object that has the ability, which in this case is Vigilante Justice, so Vigilante Justice's controller controls the ability. When the ability triggers, as part of the process of putting it on the stack, that player chooses the targets.
+

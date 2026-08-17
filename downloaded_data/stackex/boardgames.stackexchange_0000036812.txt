@@ -1,0 +1,20 @@
+Q:
+
+"Beginning of end step" question
+
+Situation: I have a Crested Sunmare and a Soul Warden on the battlefield, 
+
+I play Lone Rider and gain 1 life through Soul Warden. 
+I play another creature and gain another 1 life through Soul Warden. 
+Now the end step occurs. Because I gained life, I get a 5/5 token through "Crested Sunmare".
+That token allows me to get another 1 life through Sould Warden. 
+
+Does that mean that I now gained three life and can transform "Lone Rider", or did the 1 last required life come "too late" for Lone Rider to transform since we are already in the end step?
+OR can I choose which ability is checked first, Sunmare's or the Rider's?
+
+A:
+
+Lone Rider will not transform this turn.
+If several abilities go on the stack at the same time (such as at the beginning of end step), their respective controlling players, in turn order, decide the order in which they resolve. 
+However, this does not matter for your actual question, because the beginning of end step happens only once each turn. All applicable abilities check whether their conditions are fulfilled at that time, and if they aren't, they won't trigger this turn. At the beginning of the end step, you did not gain the necessary 3 life for Lone Rider to transform, so it won't happen, even if you gain life during the end step because of Soul Warden triggering off the Crested Sunmare horse token.
+

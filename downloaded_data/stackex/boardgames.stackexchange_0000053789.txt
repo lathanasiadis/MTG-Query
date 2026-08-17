@@ -1,0 +1,19 @@
+Q:
+
+What happens if a creature has 'cant be blocked' and 'must be blocked'
+
+Lets say i have a creature that says it can't be blocked, like a Slither Blade, and then you cast Bloodscent targeting it. Would one override the other or would it be unblockable?
+
+A:
+
+Note that Bloodscent says “all creature able to”; not just “all creatures.” If a creature can’t be blocked then another creature is not “able to” block it; just like if that other creature were tapped or said “this creature cannot block”. So “can’t block” wins and the block doesn’t happen.
+
+509.1c The defending player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal.
+
+Note that missing blocking requirements is only illegal if those requirements could be met without disobeying restrictions. So you are free to ignore requirements if obeying them would cause you to disobey restrictions.
+There is no such loophole for disobeying restrictions:
+
+509.1b The defending player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+
+So you must always obey restrictions, while you only need to obey requirements when they don’t cause you to disobey restrictions.
+

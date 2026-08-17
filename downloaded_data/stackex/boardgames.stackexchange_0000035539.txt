@@ -1,0 +1,15 @@
+Q:
+
+When my opponent plays several spells at once, can I counter them all together?
+
+My opponent has all these zero cost equipments and laid them all down at once and played some of his creatures spells without passing priority to me to see if I had a response. At the end of his whole thing I played a counter spell to counter all of it since he laid it all down at once. So was it all countered or not? 
+
+A:
+
+No, it doesn't work like that, not unless you're doing something very unusual (which I'm not even sure is actually possible).
+For starters, your opponent can't actually cast multiple spells at once. When they put all their cards down on the table as you described, they're proposing a shortcut where they cast all the spells, one by one, and you decline to respond to any of them (i.e. you decline to counter them or whatever). You do not have to accept this shortcut. In other words, your opponent cannot deny you the opportunity to respond to their spells.1 If you do want to respond, you can tell your opponent something like "wait, back up, I have responses" and then they have to take the cards back into their hand and cast the spells one at a time, passing priority to you after each one1, and you tell them when they cast each of those spells whether or not you want to play something in response.
+The other issue is that, even if your opponent did have multiple spells on the stack at once (as in the situation described in the footnote2), Counterspell and similar cards only counter a single spell. Just because there are a whole bunch of spells to choose from doesn't mean that you can actually apply Counterspell's effect to all of them at once. There are a few cards that can counter multiple spells, like Counterflux (when overloaded) or Summary Dismissal (which technically exiles rather than countering), but they can only do this because they say so on the card. Note the difference in wording compared to a standard Counterspell.
+
+1 Except when split second is involved, but that's very exotic these days.
+2 If you were asking about instants or cards with flash, then things would be a little but more complicated. Your opponent could cast a spell, then immediately cast an instant or flash card without passing priority, and then could cast another instant or flash card without passing priority, and so on for as many as they want to cast. But that only applies to instants and cards with flash, not to typical artifacts and creatures (which don't have flash), as it seems you're asking about here. And even in this case, none of these spells could resolve without you having a chance to respond to them first. Your opponent can never take that away from you.1
+

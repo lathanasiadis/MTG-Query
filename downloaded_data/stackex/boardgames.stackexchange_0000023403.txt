@@ -1,0 +1,23 @@
+Q:
+
+Can crackleburr respond to himself?
+
+Let's say my opponent has a Crackleburr, two red and blue useless tokens, and an infinite amount of red and blue mana. Crackleburr's card text is this:
+
+{U/R}{U/R}{T}, Tap two untapped red creatures you control: Crackleburr deals >3 damage to target creature or player.
+
+{U/R}{U/R}{Q}, Untap two tapped blue creatures you control: Return target creature to its owner's hand.
+
+Now let's say that my opponent, on his turn, activates Crackleburr's first ability to kill a creature of mine. I respond with Path to Exile on Crackleburr. Can Crackleburr respond to that Path to Exile by activating his second ability? Then, assuming it can, can Crackleburr respond to his second activation by activating his first ability again? So, with infinite mana, can Crackleburr continually respond to itself?
+
+A:
+
+A player could, in fact, repeatedly activate Crackeburr if the player had the mana to do so, as long as the player had two other creatures available that were both red and blue, because the tapping and untapping are costs and not effects.
+Each time the player would have to pick targets for the effects - and could keep picking the same targets over and over again if desired. The effects with targets would go on the stack, so that you would have a stack consisting of the three-damage effect at the bottom, then the return-to-hand, then three-damage, then return-to-hand, etc. Instances of either effect would fizzle if they targeted creatures that were already returned to hand or destroyed via damage. (Bear in mind that damage doesn't use the stack, so as soon as a Crackleburr invocation is resolved because the stack unwound to that point, then if the creature has lethal damage, it will be destroyed.)
+Presumably your opponent used Crackleburr's untap ability specifically to bounce itself. This would work, and yes, your opponent could tap it a third time to do three damage if there were mana and untapped creatures available. At that point these things happen in order as the stack unwinds:
+
+Crackleburr does three damage to the second target
+Crackleburr returns itself to its owner's hand
+Path to Exile tries to exile Crackleburr but fails because the target is no longer on the battlefield
+Crackleburr does three damage to the first target
+

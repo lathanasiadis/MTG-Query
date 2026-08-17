@@ -1,0 +1,19 @@
+Q:
+
+If there are two Lighthouse Chronologist with three players, will one player be pereptually skipped?
+
+If you would play a game with 3 people (let's call them A, B, and C) and A and B have a Lighthouse chronologist, will this make A get a turn after B, and make B get a turn after A without C getting a turn in between?
+So the turns would go:
+A end turn: B gets an extra turn from his Lighthouse Chronologist
+B end turn: A gets an extra turn from his Lighthouse Chronologist
+Repeat.
+Is this correct and will this put C out of play (assuming he has no mana or instants)?
+
+A:
+
+This is correct. Here's a ruling on it from Gatherer (Emphasis mine):
+
+In a multiplayer game, if multiple players each control a level 7 Lighthouse Chronologist, extra turns may sometimes be created faster than they can be taken. Keep track of them carefully. If multiple Chronologist's abilities trigger during the same turn, the player whose turn would show up sooner in the natural turn order will get the first extra turn. For example, say Players B and C each control a level 7 Lighthouse Chronologist. Player A takes a turn. The game will proceed like this (with extra turns in brackets): Player A's current turn, [Player B's turn], [Player C's turn], [Player B's turn], [Player C's turn], and so on. Because Players B and C will each add another extra turn after the other player's extra turn, Player A will not take another turn as long as both level 7 Lighthouse Chronologists remain on the battlefield.
+
+Wow, sucks to be player A.
+

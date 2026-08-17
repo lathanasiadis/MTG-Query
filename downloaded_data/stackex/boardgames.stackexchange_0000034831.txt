@@ -1,0 +1,22 @@
+Q:
+
+Laboratory maniac and not being able to win the game
+
+I have a Laboratory Maniac and my opponent has a Platinum Angel and I have 0 cards in my library.
+I can't win because of the Platinum Angel, but does this mean that I lose because the ability from Laboratory Maniac will be prevented or will only the part be prevented that wins me the game?
+
+A:
+
+You neither lose nor win the game, and the game continues.
+What would normally make you lose the game when drawing from an empty library is a state-based action.
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, he or she loses the game.
+
+Laboratory Maniac's ability creates a replacement effect. Replacement effects replace the original event - in this case the card draw itself - with something else. Since you never draw a card from an empty library with this card under your control, the state-based action will never apply.
+With a Platinum Angel under your opponent's control, its continuous effect simply prevents you from winning the game. It does not, however, interact with Laboratory Maniac's ability in any other way, meaning its replacement effect will still replace the event of you drawing a card.
+In the end, all effects combined could be summarized to something like this:
+
+If you would draw a card from a library with no cards in it, instead nothing happens.
+
+The game will go on normally until either your opponent wins, you lose the game in another way, or either creature is destroyed/stripped of it's ability - in the last case, the next time you would draw a card, you either lose or win the game (depending on the remaining creature).
+

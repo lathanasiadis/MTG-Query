@@ -1,0 +1,21 @@
+Q:
+
+When does removing Goblin Warchief affect its cost reduction ability?
+
+If I cast Goblin Warchief, giving my Goblins a cost reduction of 1 mana, and my opponent responds with an instant removal spell, can I play more creatures with the reduced cost?
+I suspect the answer to be no, because the removal spell will go on the stack and will resolve before I can continue playing my creatures, and thus the Warchief will already be in the graveyard.
+In contrast, the Storm deck can continue to play instant spells when Baral, Chief of Compliance is targeted, because being instants, they can be cast when the stack is not empty.
+
+A:
+
+Your understanding is correct.
+You can cast one Goblin with the reduced cost, but only if you do so before you know your opponent is going to remove your Goblin Warchief, and only if there is nothing that triggers upon Warchief entering the battlefield.
+After a spell resolves, the active player (you since it is your turn) gets priority. This means that you can cast another Goblin at the reduced cost before your opponent has any chance to respond.
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+If you do cast a Goblin at the reduced cost, your opponent could respond to that while the new Goblin is on the stack by targeting your Warchief for removal. This would prevent you from being able to cast any further creatures at reduced cost.
+If you pass priority, this is when your opponent can cast an instant-speed removal spell. Once this happens, you will not be able to cast more creatures at the reduced cost (unless you have some ability that allows you to cast creatures at instant speed). By the time you would be able to cast a creature again (when the stack is empty), your Warchief will be gone.
+Also, if there is an enter-the-battlefield trigger that happens when Warchief enters, your opponent could respond while that trigger is on the stack; thus destroying Warchief at instant speed before you get a chance to cast another creature.
+If you have a way to cast creatures at instant speed (such as Leyline of Anticipation, you can do so while the removal spell is still on the stack. You would get the reduced cost because the removal spell has not resolved yet, so Warchief would still be around.
+

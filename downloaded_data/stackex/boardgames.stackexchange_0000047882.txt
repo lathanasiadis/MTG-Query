@@ -1,0 +1,24 @@
+Q:
+
+What happens to excess combat damage?
+
+If I attack a target player with a 4/4 flyer and a 2/2 flyer, and the target player uses a single 1/1 flyer to block the 4/4 flyer (and doesn't block the 2/2 flyer), do they only take 2 damage (i.e., only the damage from the 2/2 flyer)?.
+I thought that the leftover damage from the 4/4 flyer would also continue through to the player.
+To use another example: if I was attacked by a 10/10 non-trample creature and block with a 5/5, my creature would die and I would take the left over 5 damage. Which is right?
+
+A:
+
+The excess damage is dealt to the blocker.
+Yes, it's possible to assign more damage to a creature than is necessary to kill it. This matters, for example, for Lifelink.
+
+A creature without trample must assign all of its damage to its blockers.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocked creature to divide its combat damage. However, it can’t assign combat damage to a creature that’s blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. An amount of damage that’s greater than a creature’s lethal damage may be assigned to it.
+
+Trample specifically modifies that rule so that damage beyond lethal damage can be assigned to the defending player/planeswalker.
+
+702.19a Trample is a static ability that modifies the rules for assigning an attacking creature’s combat damage. The ability has no effect when a creature with trample is blocking or is dealing noncombat damage. (See rule 510, “Combat Damage Step.”)
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. The attacking creature’s controller need not assign lethal damage to all those blocking creatures but in that case can’t assign any damage to the player or planeswalker it’s attacking.
+
+Trample would be useless if the way you were playing was correct.
+

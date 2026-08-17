@@ -1,0 +1,14 @@
+Q:
+
+Scarab God VS Meren of Clan Nel Toth
+
+After my opponent chose a target creature card for Meren of Clan Nel Toth, am I able to activate The Scarab God's abilty to prevent the chosen card to return to my opponent's hand/the battlefield?
+I'm assuming I can, but just want to be sure.
+
+A:
+
+Yes. Meren's ability targets the card it returns (by explicitly using the word "target"), meaning that it is chosen as the triggered ability is put on the stack. While it is on the stack, you are allowed to activate Scarab God's ability and target the same card. This will put the Scarab God's ability on top of Meren's ability on the stack.
+Assuming no other interference, the Scarab God's ability will resolve first, exiling the creature card. Then, when Meren's ability resolves, it will be unable to find its target and the ability will therefore be removed from the stack without resolving (I have personally always used the word "fizzle" for this non-resolution, but I don't know how prevalent it is, and it's not part of the official rules).
+
+Note that if Meren's ability hadn't said "target", all you would be able to do would be to blindly exile creature cards you think your opponent wants to revive in the hopes of ruining their immediate plans, but that wouldn't stop your opponent from reviving something. The only way you could stop that would be to exile all creature cards in your opponent's graveyard, provided you have the mana.
+

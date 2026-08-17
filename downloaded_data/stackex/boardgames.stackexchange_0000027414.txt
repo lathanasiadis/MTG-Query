@@ -1,0 +1,20 @@
+Q:
+
+Can Supply-Line Cranes supply themselves?
+
+When Supply-Line Cranes enter the battlefield, put a +1/+1 counter on target creature.
+Can the cranes target themselves?
+
+A:
+
+Yes. It is a valid target because it is on the battlefield when the trigger happens. What happens, in order:
+
+Supply-Line Cranes enters the battlefield.
+The game checks for any triggers that happen as a result of this event.
+Supply-Line Cranes' trigger is found, and it triggers.
+You put the trigger on the stack, and must choose a target at that time.
+Supply-Line Cranes is a creature (and it's on the battlefield) at this time, so it is a valid target for you to choose.
+When the trigger resolves, Supply-Line Cranes is still a valid target, so it resolves, putting the counter on Supply-Line Cranes.
+
+The other answers are correct, but fail to mention that you must choose the target when the triggered ability goes on the stack, so it matters that it's a valid target when it triggers, not so much that it's a valid target when it resolves. (If it stopped being a valid target before it resolved, because it were destroyed with an instant or something, then the ability would be countered and go away. But it would still have been a valid/legal target in the first place).
+

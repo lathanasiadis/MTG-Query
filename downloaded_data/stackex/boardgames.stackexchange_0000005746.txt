@@ -1,0 +1,21 @@
+Q:
+
+Interactions of multiple Parallel Lives
+
+If I have two Parallel Lives, and I have a Doomed Traveler that just died, how many Spirit tokens would I put into play?
+
+A:
+
+Four.
+For each instance of Parallel Lives (or Doubling Season) in play, double each instance of a token that would enter play.
+Parallel Lives' effect is a replacement effect. It replaces "Put X creature tokens into play under your control" with "Put 2X creature tokens into play under your control."
+Thus, two Parallel Lives' would quadruple tokens, three would be eight times, and four would be sixteen.  Effectively, for each token placement, replace every token with two tokens for each instance of Parallel Lives.
+Appropriate comp rules:
+
+614.5. A replacement effect doesn't invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace it.
+Example: A player controls two permanents, each with an ability that reads "If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead." A creature that normally deals 2 damage will deal 8 damage -- not just 4, and not an infinite amount.
+
+EDIT: Relevant Oracle text mentioned by @AlexP:
+
+9/22/2011 - If you control two Parallel Lives, then the number of tokens created is four times the original number. If you control three, then the number of tokens created is eight times the original number, and so on.
+

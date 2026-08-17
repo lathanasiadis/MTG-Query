@@ -1,0 +1,19 @@
+Q:
+
+Do I get to keep the 2nd Kalonian Twingrove when I got it via a Mimic Vat?
+
+Say I have this situation: I have a Mimic Vat out. An opponent's non-token Kalonian Twingrove dies during my turn and I choose to imprint it and put it as a copy token on my side of the battlefield.
+
+Does the "When Kalonian Twingrove enters the battlefield..." trigger for me and thus I get 2 of them?
+
+If 1. is true, do I only have to exile the first Kalonian Twingrove token by Mimic Vat on the next end step and get to keep the cloned token from it's "...enters the battlefield..." trigger?
+
+A:
+
+The rulings on Mimic Vat say: 
+
+Any enters-the-battlefield abilities of the exiled card will trigger when the token is put onto the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the exiled card will also work.
+
+This means that you will get one token copy of a Kalonian Twingrove, and one Treefolk Warrior token. The Treefolk Warrior token won't be exiled, as it wasn't created by the Mimic Vat.
+This is assuming you have any forests in play. If you do not, then both tokens will immediately die for having 0 toughness and vanish!
+

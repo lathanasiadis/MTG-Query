@@ -1,0 +1,24 @@
+Q:
+
+How do Mana Flare and Mana Reflection interact?
+
+I've been thinking about integrating Mana Flare and Mana Reflection into a deck.
+As far as I can tell, by reading the Layer's rules (rule 613).  They resolve in timestamp order.
+That is, if Mana Flare is played first, and Mana Reflection is played second, each mountain I tap would give me {R}{R}{R}{R}.
+However, if Mana Relfection is played first, and Mana Flare is played second, each mountain would  give me {R}{R}{R}.
+Is this interpretation correct?  I'm still new to this layer stuff.
+
+A:
+
+Layers don't apply here. There aren't any continuous effects interacting.
+Mana Flare is a triggered ability (it says "whenever"). It would normally use the stack, but since it's a mana ability, it simply resolves immediately after the event that triggered it. Mana Reflection is a replacement effect (it says "instead"). It just happens as you tap the permanent.
+So if you tap a Mountain, Mana Reflection causes it to produce RR instead of R. Mana Flare also triggers, and when it resolves, you add an additional R to your mana pool, for a total of RRR.
+
+Even if they were both replacement effects, or both triggered, layers still wouldn't come into play. You'd get to pick the order, presumably choosing to maximize the generated mana.
+If two replacement effects apply to the same event, the affected player picks what order to apply them in. (If the event affects an object, that's the controller of the affected object, or its owner if it has no controller.)
+If two triggered abilities you control trigger at the same time, you choose the order to put them on the stack. If they're controlled by different players, the active player puts their triggers on the stack first. (If they're mana abilities like this, you still get to pick the order, even though they don't use the stack.)
+In both cases, if they're both affecting you tapping a permanent for mana, you get to pick what order they happen in.
+
+Layers are used for determining interactions of continuous effects, which are effects that are simply stated as a fact, something like "Enchanted creature gets +1/+1" or "Target permanent becomes blue". Fortunately, the most common time they matter is with power/toughness effects, and the vast majority of those are simply setting base power/toughness before applying things that change it.
+You can get a pretty good idea of the kinds of things where layers matter by simply reading what the layers are: copy, control-changing, text-changing, type-changing, color-changing, ability-adding/removing, and power/toughness. If the effect isn't in in one of those categories, it's a good bet you don't need layers. (Timestamp order is only used within layers as a last resort.)
+

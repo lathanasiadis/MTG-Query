@@ -1,0 +1,11 @@
+Q:
+
+Can i search a copy of a card in the battlefield in my library?
+
+If i use a Cackling Counterpart to create a token of a creature, can i use cards targeting that token (like Pack Hunt) to search my library for that same creature cards?
+
+A:
+
+When you create a copy of something you copy pretty much everything about it including its name [706.2.]. And Pack Hunt only needs a creature to target, it doesn't care if the creature is a token or a real card all it care about is that it is a creature. So Pack Hunt will happily find more of whatever creature you happened to copy.
+If the created token isn't a copy, the effect that created the token gave it a name. This name is either specified explicitly by the instruction that created the token, or it defaults to the creature's type(s). This name will usually not be the name of the cards in your library, so you will generally not be able to find any matching cards. There are a few cards like Llanowar Mentor that makes tokens named Llanowar Elves so if you had a token made by the Mentor you could find cards named Llanowar Elves. There is also an odd case with Splintering Wind which makes tokens named Splinter, which would allow you to find the card Splinter even though it isn't a creature card.
+

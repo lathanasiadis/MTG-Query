@@ -1,0 +1,14 @@
+Q:
+
+Is Myrkul’s effect a replacement effect?
+
+I was wondering if this was a replacement effect? For instance if I play Solemn Simulacrum [fetch my land] sacrifice it while Myrkul, Lord of Bones is on the field. It goes to graveyard. Myrkul’s effect triggers to exile it.
+Do I still get to draw my card from the death trigger of Solemn since it still died? Normally a replacement effect says “instead of” which is why I’m unsure.
+
+A:
+
+No, Myrkul, Lord of Bones's second ability is a triggered ability, not a replacement ability. When Solemn Simulacrum dies, it triggers both its own ability and Myrkul's ability at the same time. You get to choose the order that they go on the stack, but it doesn’t matter in this case, you will both draw a card and exile Simulacrum.
+Note that the ability starts with “when”. All abilities that start with “when” are triggered abilities.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+

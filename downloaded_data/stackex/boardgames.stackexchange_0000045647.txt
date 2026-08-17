@@ -1,0 +1,13 @@
+Q:
+
+How do multiple land creature affects work?
+
+If I already have a card effect turning my lands into creatures, for example: Life and Limb, then I deal combat damage with Liege of the Tangle, and I make all of my lands 8/8's with its ability, which effect takes priority? Do I choose?
+
+A:
+
+The power and toughness are set by the most recently created effect.
+Permanent modification is covered by the layer system.  Inside a single layer effects are applied in timestamp order, and newer effects will overwrite old ones if they are mutually contradictory. 
+Thus, if Life and Limb is played after you trigger Liege's ability they will be 1/1s, but if Liege deals combat damage after Life and Limb is added then any land that you add a counter to will become an 8/8.
+Oddly enough,  this means that you can put awakening counters on saprolings that have been landed by L&L, and they will become 8/8s, and stay that way even if L&L and Liege leave the battlefield. 
+

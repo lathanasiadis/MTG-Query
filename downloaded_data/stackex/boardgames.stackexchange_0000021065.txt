@@ -1,0 +1,24 @@
+Q:
+
+Snakeform and buff ineractions
+
+This came up in a game.  I controlled Prossh who has an ability that gives him +1/+0 whenever I sacrifice a creature.  After I sacrified 6 creatures to Prossh's ability (+6/+0), my opponent cast Snakeform which turns it into a 1/1 with no abilities for the turn.  My question is, what is Prossh now?  Would it have been different if I used Prossh's ability in response to the Snakeform cast?
+
+A:
+
+Your Prossh will be a 7/1 green snake creature. The different effects are applied in the layer system order. First layer 7b is applied:
+
+Any Power/Toughness setting effects
+
+Then layer 7c is applied:
+
+This covers all effects that modify Power/Toughness so long as they don’t set P/T to a specific value
+
+So first the effect changing your Prossh into a 1/1 is applied, then the +6/+0 is applied. Because the effects take place in 2 separate layers (even though they are both sublayers of layer 7), timestamp order is irrelevant.
+Note that if you used Prossh's ability in response to Snakeform (while Snakeform is on the stack), then this is no different at all than the other way; in either case Prossh's ability has resolved before Snakeform has resolved. And you cannot use Prossh's ability after Snakeform resolves, because at that point Prossh no longer has any abilities.
+More details on the layer system can be found here.
+The comprehensive rules detailing this:
+
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c Layer 7c: Effects that modify power and/or toughness (but don't set power and/or toughness to a specific number or value) are applied.
+

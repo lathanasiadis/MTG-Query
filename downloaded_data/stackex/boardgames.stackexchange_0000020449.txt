@@ -1,0 +1,15 @@
+Q:
+
+Checking a +1/+1 counter requirement
+
+Abzan Battle Priest has an ability that reads
+
+Each creature you control with a +1/+1 counter on it has lifelink.
+
+Does it grant lifelink to creatures with two +1/+1 counters?
+
+A:
+
+A creature with two +1/+1 counters has a +1/+1 counter, so Abzan Battle Priest's static ability will grant that creature lifelink.
+Note that being granted +1/+1 and having a +1/+1 counter are very different. If you control Dauntless River Marshal, Abzan Battle Priest and an Island, the Marshal won't be granted Lifelink.
+

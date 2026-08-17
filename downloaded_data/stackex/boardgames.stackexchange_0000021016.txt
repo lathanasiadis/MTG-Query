@@ -1,0 +1,24 @@
+Q:
+
+Can I activate a Legendary creature's abilities before the Legend rule kicks in?
+
+Say I have a Krenko, Mob Boss on the field. I use Krenko's ability to create X tokens. Then, I play a Progenitor Mimic choosing Krenko. When the Legend Rule takes effect, I sacrifice the original Krenko. Since the Mimic comes in untapped, on my opponent's turn I tap it for the X tokens. My opponent takes and ends his turn.
+Now it comes back to my turn. The Mimic untaps, and then copies itself during upkeep. Would I be able to tap the token copy after it's created for its X tokens, and then use the mimic later in the round for another X? Would the Legend Rule take effect before that could happen? Would I be able to tap the copy in response to the Legend Rule effect, placing the tap on top of the stack?
+
+A:
+
+No, you cannot.
+Let's go through this step by step:
+
+I use his ability to create the X tokens. Then, I play a Progenitor Mimic targeting Krenko. When the Legend Rule takes effect, I sacrifice the original Krenko.
+
+So far, so good. A minor detail is that the mimic doesn't actually target, but that's beside your main question. You currently have an untapped Krenko with a duplication clause.
+
+Since the Mimic comes in untapped, on my opponent's turn I tap it for the X tokens. My opponent takes and ends his turn.
+
+This doesn't work out so well. Yes, the Mimic came in untapped, but it has summoning sickness until your next turn. You'll need to give it haste somehow if you want this batch of tokens.
+
+Now it comes back to my turn. The Mimic untaps, and then copies itself during upkeep. Would I be able to tap the token copy after it's created for its X tokens, and then use the mimic later in the round for another X? Would the Legend Rule take effect before that could happen? Would I be able to tap the copy in response to the Legend Rule effect, placing the tap on top of the stack?
+
+As soon as the Mimic's ability resolves, you have two Krenkos on the field, and lose one to the Legend Rule. This is a State Based Action, does not use the stack, and cannot be responded to. You could tap the Mimic in response to the ability triggering, then keep the token, but the token has summoning sickness, so you can't get an additional activation that way.
+

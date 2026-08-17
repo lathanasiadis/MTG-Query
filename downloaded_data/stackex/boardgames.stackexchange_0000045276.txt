@@ -1,0 +1,25 @@
+Q:
+
+Can a player sacrifice a creature after declaring that creature as blocker while taking lethal damage?
+
+I'm asking specifically about the lovely Magus of the Balance if that'll help.
+So for example, If I were to attack with a theoretical 20/20 Savageborn Hydra, and then my opponent declares block with Magus, would my opponent still be able to sacrifice the Magus after declaring block?
+
+A:
+
+Yes, that's possible. Declaring blockers is one of the steps of combat, and after declaring blockers the Hydra becomes blocked:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. [...] A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+After that, there is time for the players to play spells or abilities:
+
+509.4. Fourth, the active player gets priority. (See rule 116, "Timing and Priority.")
+
+Combat damage is only dealt in the next step:
+
+Combat Damage Step
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. ...
+
+so it's possible to sacrifice the Magus before it's killed by the Hydra, and the Hydra won't deal combat damage to your opponent (unless it somehow gained Trample) since it's still blocked.
+

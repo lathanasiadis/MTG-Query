@@ -1,0 +1,32 @@
+Q:
+
+What are the correct official abbreviations for Commander's Anthology & Arsenal?
+
+In Magic: the Gathering both Commander's Anthlogy and Commander's Arsenal are listed as having CMA as three letter abbreviation:
+
+COMMANDER'S ARSENAL,
+
+Commander Anthology.
+
+In the Wikipedia article List of Magic: The Gathering sets they are listed as CM1 and CMA. The same goes for MTG Wiki.
+Shall I consider CM1 (Arsenal) and CMA (Anthology) as the correct official ones?
+
+A:
+
+The comment to your question is exactly right in that you're not going to get a more official set name than the official set name. I'd say it's not intentional that those sets have the same name, but that's hard to say for certain.
+However, in order to differentiate between sets, even WotC will have to choose different set abbreviations internally, and looking through the Gatherer source code, specifically the set icon URL, you can find within the parameters that WotC has indeed chosen CM1 as the abbreviation.
+In the interest of completeness, here's a table of all Commander-related sets to date, and their codes:
+SET NAME                   ABBREVIATION     GATHERER ABBREVIATION (if different)
+---------------------------------------------------------------------------------
+Commander                  CMD
+Commander's Arsenal        CMA              CM1
+Commander 2013 Edition     C13
+Commander 2014             C14
+Commander 2015             C15
+Commander 2016             C16
+Commander Anthology        CMA
+
+In other words, CM1 seems to be used by WotC at least internally, and either way it seems less ambiguous to rely on that as the abbreviation for Commander's Arsenal than CMA
+The Gamepedia MTG Wiki, which list CM1 as the official abbreviation, also link to that URL as proof.
+My guess is that they have always used CM1 as the abbreviation for Commander's Arsenal, and that it's simply a mistake in the blog post you linked. With little relevance to MTG in general (containing only reprints, and being relatively rare), I can see why it never got addressed or changed again.
+

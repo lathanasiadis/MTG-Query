@@ -1,0 +1,26 @@
+Q:
+
+Is it possible to have an Aura that's also a land?
+
+As part of asking this question, I tried to prove the first of the two scenarios was possible by inventing a combination of cards that could turn a land into an Aura. To my surprise, I was unable to do so.
+This convoluted scenario was the closest I could come:
+You control a Havengul Lich. Activate its ability twice and cast Dominating Licid and The Reality Chip from your graveyard. Now cast, in the following order:
+
+Mycosynth Lattice (everything is an artifact)
+Bludgeon Brawl (everything is an Equipment)
+March of the Machines (everything is a creature)
+Ashaya, Soul of the Wild (everything is a Forest land)
+
+Then activate the ability Havengul Lich gained from Dominating Licid to turn it into an Aura and attach it to a creature. Per rule 702.151b:
+
+Attaching an Equipment with reconfigure to another creature causes the Equipment to stop being a creature until it becomes unattached from that creature.
+
+But this almost certainly doesn't work, because either the continuous effects still apply and turn Havengul Lich into a creature (which will cause it to be unattached and put into its owner's graveyard), or the reconfigure rule will overwrite Ashaya's effect so that it isn't a land.
+Anyway, is there a different combination of cards that can create an Aura land?
+
+A:
+
+Yes it is!
+Thanks to @murgatroid99 for mentioning Cloudform in a now-deleted answer.
+I control Vedalken Orrery. I cast a Cloudform and it resolves. With its ETB ability on the stack, I first cast Song of the Dryads targeting it and allow Song to resolve, holding priority. Then I cast Enchanted Evening and let it resolve. The result is that Cloudform is an "Enchantment Land — Forest". Then its ETB ability resolves, and it becomes an "Enchantment Land — Forest Aura". We manifest the top card of our library and attach Cloudform to it.
+

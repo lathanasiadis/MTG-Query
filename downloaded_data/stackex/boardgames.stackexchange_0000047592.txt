@@ -1,0 +1,38 @@
+Q:
+
+Will generated tokens be progressively stronger when using Cathar's Crusade and Sorin, Grim Nemesis?
+
+I played a game yesterday where I had Cathars' Crusade and Sorin, Grim Nemesis on the battlefield. I managed to activate Sorin's -9 action: 
+
+Put a number of 1/1 black Vampire Knight creature tokens with lifelink onto the battlefield equal to the highest life total among all players.
+
+One of my opponents had 35 life at that point, so I got 35 tokens.
+Cathar's Crusade says:
+
+Whenever a creature enters the battlefield under your control, put a +1/+1 counter on each creature you control. 
+
+How will this play out? As far as I can tell, this will result in one of the following scenarios, ranging from the least to the most powerful:
+
+I put 35 tokens on the battlefield at the same time. This will trigger the effect once, giving all of them one counter.
+I put the first token on the battlefield, it gets one counter. I put the second token on the battlefield. It gets one counter, and the first token will get one counter for a total of two. Continuing this pattern will end with a battlefield with 35 tokens with an increasing number of counters (ranging from 1 counter on the last token to 35 counters on the first token)
+I put 35 tokens on the battlefield at the same time. This will trigger the effect 35 times, giving all the tokens 35 counters.
+
+We went with option 2, but I had some other bolster cards on the board (Captivating Vampire, Legion Lieutenant and Door of Destinies with three counters) so I would have easily won even if we had chosen option 1, but I'm still curious which option is the correct one.
+
+A:
+
+All 35 tokens enter the battlefield at the same time. All creatures you control, including the 35 tokens you just created, will get 35 +1/+1 counters.
+As Sorin's ability resolves, you carry out its instructions; in this case, create 35 1/1 creature tokens.
+Cathars' Crusade will be triggered 35 times:
+
+603.2c An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.
+
+If it were to trigger only once, its trigger condition would have to be worded differently, for example as "Whenever one or more creatures enter the battlefield, [..]". As it is, it triggers once for every single creature entering the battlefield.
+All abilities that do trigger during the resolution of a spell or ability wait until that spell or ability is fully resolved before they enter the stack:
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+116.3. Which player has priority is determined by the following rules:
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+The abilities created by Cathars' Crusade work on all creatures on the battlefield at the time they resolve, not when it is triggered or when it enters the stack. Assuming that no player takes further action, the 35 Cathars' Crusade triggers will resolve and give every creature you control, including the tokens, 35 +1/+1 counters each.
+

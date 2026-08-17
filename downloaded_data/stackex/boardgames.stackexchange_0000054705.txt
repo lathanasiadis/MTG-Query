@@ -1,0 +1,30 @@
+Q:
+
+MTG: Modal cards and graveyard targeted effects
+
+In regards to modal double-faced cards there are many effects which allow you to "Cheat" in one side or another.
+
+If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+
+However does this effect apply to targeting abilities? If one has a Birgi their graveyard (Birgi, God of Storytelling / Harnfel, Horn of Bounty). Her flip-side is an artifact. Would one be able to Sacrifice an artifact (a Myr token lets say), with something like Goblin Welder or Daretti, Scrap Savant 's -2 to reanimate either side of Birgi?
+
+A:
+
+No, if you reanimate a double-faced card (modal or transforming), or otherwise do something that isn't casting it, you can generally only operate on the front face.
+The most important rule here is 711.4a:
+
+While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+
+If you are trying to target a double-faced card in the graveyard, you can only target the front face, because that face is the only one it is considered to have there.
+The other important rule covering reanimation is 711.10:
+
+A double-faced card put onto the battlefield from a zone other than the stack enters the battlefield with its front face up by default.
+
+The Daybound ability modifies this. A card with Daybound instead enters the battlefield with its front face or back face up depending on whether it is night or day, as specified in rule 702.145b:
+
+Daybound is found on the front faces of some transforming double-faced cards and represents three static abilities. “Daybound” means “If it is night, this permanent enters the battlefield transformed,” “As it becomes night, if this permanent is front face up, transform it,” and “This permanent can’t be transformed except by its daybound ability.” See rule 724, “Day and Night.”
+
+Casting is different because modal double-faced cards have a special rule that allows you to cast either face, in 711.7:
+
+If a transforming double-faced card is cast as a spell, it’s put on the stack with its front face up. A player casting a modal double-faced card as a spell chooses which face they are casting before putting it onto the stack. See rule 601, “Casting Spells.”
+

@@ -1,0 +1,23 @@
+Q:
+
+Equipment cards and the timing of their activated ability
+
+702.6a: Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+
+This seems to imply that activation of an ability on Equipment is generally considered to only happen when you could cast a sorcery.  I have seen equipment cards state that.  I have seen them say any time and there are rulings that any cards activated ability can happen any time you could cast an instant unless noted otherwise.  So what actually applys.  Does 702.6a mean that it is only when you cast a sorcery.  Or is it only when the card itself stipulates it as a socery
+
+A:
+
+The following is the definition of the equip keyword ability:
+
+702.6a Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+
+(Emphasis mine)
+The restriction only applies to the equip ability itself; it doesn't say or imply anything about other abilities on the permanent with equip.
+It doesn't even apply to other abilities that attach equipment. For example, Healer's Headdress's second ability ("{W}{W}: Attach Healer’s Headdress to target creature you control.") can be activated anytime you have priority. This is why the second ability is more expensive than the equip ability it also has.
+As for the meaning of the "any time you could cast a sorcery" restriction, it's explained by the following rule:
+
+307.5. If a spell, ability, or effect states that a player can do something only “any time they could cast a sorcery,” it means only that the player must have priority, it must be during the main phase of their turn, and the stack must be empty. The player doesn’t need to have a sorcery they could cast. Effects that would preclude that player from casting a spell or casting a sorcery don’t affect the player’s capability to perform that action (unless the action is actually casting a spell or casting a sorcery).
+
+(Emphasis mine)
+

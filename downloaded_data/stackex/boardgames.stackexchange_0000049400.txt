@@ -1,0 +1,14 @@
+Q:
+
+Possible way to counter or sidestep split-second spells (like Trickbind) in a particular situation
+
+I have on the battlefield Will-o'-the-Wisp, and my opponent (it is his turn now) is going to attack in his combat step with his flying Air Elemental.  I have to face this 4/4 creature and, in normal situations, I should not feel afraid of it. But I know – or I imagine that – my opponent has in his hand a Trickbind. The question is: may I sidestep this split second spell, by activating the regeneration ability of Will-o'-the-Wisp two times, in order to make sure it will survive the combat phase? In other words, I activate regeneration (B) one time, and then, retaining priority, I activate regeneration one more time (B again), sending to the stack two activations of the same ability.
+
+A:
+
+Yes, that would work. After activating the regeneration ability, you get priority:
+
+117.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+
+so you can activate it again. Trickbind does not counter any (other) abilities of the permanent already on the stack.
+

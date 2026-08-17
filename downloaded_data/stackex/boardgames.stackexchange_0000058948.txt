@@ -1,0 +1,16 @@
+Q:
+
+If Orcish Bowmasters are destroyed by a Lethal Scheme, does it trigger off the connives?
+
+Suppose Alice controls Orcish Bowmasters. Bob, Alice's opponent, casts Lethal Scheme by tapping four or creatures for its convoke. Lethal Scheme resolves.
+During its resolution, Lethal Scheme destroys Orcish Bowmasters and also causes Bob to draw and then discard a card, four times, inside of the same resolution.
+My understanding is that for death triggers, a dying creature can still "see" other creatures that die at the same time as it did. For example, if Bob had cast an Invoke Despair and Alice had sacrificed Abzan Ascendancy alongside any nontoken creature, the Ascendancy would still see that creature dying and create a token, even though it was also sacrificed.
+Does Orcish Bowmasters similarly still "see" the cards that are drawn as part of the effect that killed it and trigger its own ability 4 times on the way out?
+
+A:
+
+No, Orcish Bowmasters' ability will not trigger.
+Lethal Scheme instructs its controller to take two actions in sequence. First, the target is destroyed, then the creatures that convoked the spell connive. So, by the time the controller takes the connive actions, Orcish Bowmasters is no longer on the battlefield to see the draw events happen, so its ability will not trigger.
+
+Invoke Despair works similarly. It instructs the player to sacrifice a creature, then an enchantment, then a planeswalker. So, if they sacrifice a creature and an enchantment, the enchantment will see the creature die, as mentioned, but the creature will not see the enchantment die.
+

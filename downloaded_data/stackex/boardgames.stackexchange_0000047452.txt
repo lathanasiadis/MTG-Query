@@ -1,0 +1,26 @@
+Q:
+
+Paying more mana for a Flashed creature
+
+Flash says
+
+You may put a creature card from your hand onto the battlefield. If you do, sacrifice it unless you pay its mana cost reduced by up to 2.
+
+(emphasis mine)
+Does this "up to" clause mean that I can choose to Flash something and pay its full mana cost, or that it's only reduced by one?
+
+A:
+
+The use of "up to" means that the discount is optional.  You can chose to have Flash's ability use a generic mana cost reduction of 0, 1, or 2.
+
+Rules justification
+The phrase "up to" is consistently used in Magic to mean you get to chose a number between 0 and the full value.  You can choose to have Abandon Reason target 0, 1, or 2 creatures.
+See the ruling on Training Grounds (which has a similar cost reduction) for one defense of this:
+
+You may choose not to apply Training Ground’s cost reduction effect. You may also choose to apply only part of it (causing an activated ability of a creature you control to cost just {1} less to activate). 
+
+As further defense, the use of "up to" is not necessary to support cards that have less than 2 generic mana in their cost.  Magic in general does not need specific wording to prevent numbers from going negative (see 107.1b Most of the time, the Magic game uses only positive numbers and zero.).  For example, Arcane Melee and Power Artifact do not include the phrase "up to", and yet each reduces costs just fine.
+
+Where this matters
+Where the optionality of cost reduction usually matters is with cards like Prossh, Skyraider of Kher or Jeleva, Nephalia's Scourge.  However, this isn't relevant here because Flash is not casting the creatures, and therefore not reducing the mana spent to casting them.  Mana burn was one of the main reasons this would matter; good thing Wizards got rid of that rule :)  For examples of when this would matter, see here: When would it be advantageous not apply Training Ground's cost reduction?
+

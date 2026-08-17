@@ -1,0 +1,19 @@
+Q:
+
+Do I have to block a menace creature with a creature that "must block if able"?
+
+Let's say I have two creatures, while opponent has one. Opponent plays Monstrous Step on his Menace creature, forcing one of my creatures to block, and attacks. Can I decline to block? 
+The two ways of interpreting the answer is, only one creature is forced to block "if able", but it can't block the menace creature, so I don't have to block. Alternatively, I do have a legal block (both creatures on his creature), so Monstrous Step actually forces both creatures to block in this situation.
+
+A:
+
+The rulings below Monstrous Step say
+
+If a creature is required to block a creature with menace, another creature must also block that creature if able. If none can, the creature that’s required to block can block another creature or not block at all.
+
+so your second interpretation is correct.
+A similar situation is described in the comprehensive rules:
+
+509.1c The defending player checks each creature they control to see whether it’s affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can’t block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed. If a requirement that says a creature blocks if able during a certain turn refers to a turn with multiple combat phases, the creature blocks if able during each declare blockers step in that turn.
+Example: A player controls one creature that “blocks if able” and another creature with no abilities. If a creature with menace attacks that player, the player must block with both creatures. Having only the first creature block violates the restriction created by menace (the attacking creature can’t be blocked except by two or more creatures). Having only the second creature block violates both the menace restriction and the first creature’s blocking requirement. Having neither creature block fulfills the restriction but not the requirement.
+

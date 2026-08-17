@@ -1,0 +1,16 @@
+Q:
+
+How does Orcish Captain work with multiple activations?
+
+I am thinking about adding the card Orcish Captain to my Okaun and Zndrsplt deck. I was wondering, if I activated Orcish Captain say, 7 times at once, and he dies at the first flip. Do the other 6 still happen so I can get Okaun/Zndrsplt triggers?
+
+A:
+
+No, this doesn't work.
+You can place as many instances of the ability on the stack as you can afford, before any of them resolve, by responding to each one with another one. But you need to choose targets for each one as you place it on the stack. Assuming that Orcish Captain is the only Orc creature you have, then that will be the target for all of the instances of the ability.
+The first time you lose a flip, Orcish Captain will die before the next ability resolves. After that, the ability will fail to resolve due to having no legal targets, so you won't do the coin flip.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word "target," are now illegal, the spell or ability doesn't resolve. It's removed from the stack and, if it's a spell, put into its owner's graveyard. 
+
+So you will only get to flip coins until you lose a coin flip, similar to what your Okaun and Zndrsplt do. You can still add this into the deck, but you would be better off paying just {1}, letting it resolve, then repeating if you won the coin flip.
+

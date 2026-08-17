@@ -1,0 +1,35 @@
+Q:
+
+How does Underrealm Lich interact with Sylvan Library during your draw step?
+
+In the new Guilds of Ravnica set Underrealm Lich is a creature that changes how you draw cards.
+
+If you would draw a card, instead look at the top three cards of your library, then put one into your hand and the rest into your graveyard.
+
+I am wondering how this card interacts with how Sylvan Library modifies your draw step.
+
+At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.
+
+For example, during my draw step:  
+
+I look at the top three cards of my library, put one in my hand and the rest in my graveyard.
+I look at the top three cards of my library, put one in my hand and the rest in my graveyard.
+I look at the top three cards of my library, put one in my hand and the rest in my graveyard.
+I then do not put any of those cards on top of my library.
+
+In this situation where I have not returned any cards to my library, How much Life will I have to pay? Also do I even have the option to return cards to the top of my library?
+
+A:
+
+This answer assumes you have invoked the "may" clause of the Sylvan library.  If you haven't, then there's no question.
+Since you have replaced your draws, with "look at top three cards ..." you are in fact not drawing cards.
+After you replace all your draws, you move to the next step of Sylvan library.  "Choose two cards in your hand drawn this turn."  You don't have any cards in hand drawn this turn, so you can't choose any.  [i.e. you can't put any back on top of your library.]  So, the life loss portion doesn't apply.
+Final state:  3 cards added to hand, 6 cards put in graveyard, and no life lost.
+All the above, is essentially a walk through of 
+
+120.6c Some effects perform additional actions on a card after it’s drawn. If the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect or any subsequent replacement effects.
+
+Keep in mind the "do as much as you can rule." of which, 120.6c is essentially an instantiation of in this case.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+

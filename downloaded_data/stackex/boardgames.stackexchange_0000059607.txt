@@ -1,0 +1,27 @@
+Q:
+
+Anowon, the Ruin Thief and Dauthi Voidwalker interaction
+
+If I have Anowon, the Ruin Thief and Dauthi Voidwalker both on my battlefield and I deal combat damage to an opponent with a Rogue, Anowon will trigger and my opponent mills X cards. However, due to Dauthi Voidwalker, my opponent will put the cards into exile instead.
+Do I draw a card if an opponent mills/exiles a creature card this way, due to the Anowon trigger?
+Relevant text from cards:
+Anowon:
+
+Whenever one or more Rogues you control deal combat damage to a player, that player mills a card for each 1 damage dealt to them. If the player mills at least one creature card this way, you draw a card.
+
+Dauthi:
+
+If a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it.
+
+Possibly relevant rule:
+
+701.13c An effect that refers to a milled card can find that card in the zone it moved to from the library, as long as that zone is a public zone.
+
+So I think that I will draw a card from Anowon. Is this correct?
+
+A:
+
+You are correct, 701.13c makes this work.
+While the rules unfortunately don’t seem to specifically define what “a milled card” actually is, 701.13c refers to milled cards as including cards that did not go to the graveyard, so the definition cannot be “a card that was moved from the top of the library to the graveyard per a mill effect”. It must mean effectively “a card that was moved from the top of a library as per a mill instruction”.
+I found a similar question about 2 different cards hinging on the same interaction, with the same answer given: https://www.reddit.com/r/mtg/s/pGnFgvfwdY
+

@@ -1,0 +1,60 @@
+Q:
+
+Have I missed a trigger if I announce it but then forget to resolve it?
+
+Nathan controls a Seeker of the Way and a Favored Hoplite with two +1/+1 counters.
+
+Alice casts Languish.
+Nathan casts Gods Willing,
+targeting Favored Hoplite. He announces that Heroic and Prowess have triggered.
+Alice acknowledges.
+Nathan resolves God's Willing. He scries 1.
+Alice resolves Languish.
+Nathan puts Seeker of the Way into the graveyard.
+
+Nathan waits for a few seconds and then asks if it is his turn. Alice states that Favored Hoplite is dead. Nathan says that he forgot to put a +1/+1 counter on it from Heroic. Alice claims that the trigger was missed.
+The Tournament Rules (TR) define a missed trigger as:
+
+Triggered abilities are considered to be forgotten by their controller once they have taken an action past the point where the triggered ability would have an observable impact on the game.
+
+By the TR definition, the trigger was missed, because Nathan has taken an action beyond the point where the trigger would have an observable impact on the game.
+The Infraction Procedure Guide (IPG) defines a missed trigger as:
+
+A triggered ability triggers, but the player controlling the ability doesn’t demonstrate awareness of the trigger’s existence the first time that it would affect the game in a visible fashion.
+
+By the IPG definition, the trigger was not missed, because Nathan demonstrated awareness of the trigger's existence long before it would affect the game in a visible fashion.
+I must be misinterpreting one of the two documents. Was the trigger missed or not? Please answer for both Regular and Competitive REL, and make it clear if they differ.
+
+A:
+
+The trigger is considered missed. 
+Because demonstrating awareness doesn't mean stating that it triggered, it means acknowledging it at a specific point in time generally when the visible game state changes. According to the IPG the point that needs to be acknowledged in order for the trigger to be not missed is:
+
+A triggered ability that causes a change in the visible game state (including life totals) or requires a
+  choice upon resolution: The controller must take the appropriate physical action or make it clear what the
+  action taken or choice made is before taking any game actions (such as casting a sorcery spell or explicitly
+  moving to the next step or phase) that can be taken only after the triggered ability should have resolved.
+  Note that casting an instant spell or activating an ability doesn’t mean a triggered ability has been forgotten,
+  as it could still be on the stack.
+
+The Judging at Regular REL has a similar definition:
+
+These abilities are considered missed if the player did not acknowledge the ability in any way at the point
+  that it required choices or had a visible in-game effect.
+
+Since Nathan did not make the visible change to the game state of adding the counter he did miss the trigger.
+At Competitive REL the appropriate remedy is:
+
+If the triggered ability isn’t covered by the previous two paragraphs, the opponent chooses whether the triggered
+  ability is added to the stack. If it is, it’s inserted at the appropriate place on the stack if possible or on the bottom of
+  the stack.
+
+And at Regular REL the remedy is:
+
+If the ability includes the word “may,” assume the
+  player chose not to perform it. Otherwise, use your judgement to decide if putting the trigger on the stack
+  now would be too disruptive - don’t add it to the stack if significant decisions have been made based on the
+  effect not happening!
+
+So at Competitive REL Alice will probably choose not to allow the trigger to go on the stack. At Regular REL since nothing has really changed it would not be unreasonable to put the trigger on the stack, but it depends on if the judge thinks too much has changed since the trigger should have occured.
+

@@ -1,0 +1,17 @@
+Q:
+
+Does the game end immediately when one player reaches 0 life?
+
+Player A is at 6life, Player B at 20 life. Player A resolves a Scapeshift and sacrifices 9 lands for 3 Valakut, the Molten Pinnacles and 6 Mountains. This will trigger 18 times 3 damage (I think). In answer to that, Player B resolve Divine Deflection where X=6 targeting Player A. Is this game a draw, player A or player B wins?
+
+A:
+
+Player A loses.
+
+Eighteen instances of Valakut's triggered ability will go on the stack.
+Divine Deflection is cast and eventually resolves.
+Trigger #18 resolves. It deals no damage and Divine Deflection deals three damage to Player A.
+Trigger #17 resolves. It deals no damage and Divine Deflection deals three damage to Player A.
+Player A loses the game for having non-positive life.
+Player B wins the game for being the only player left.
+

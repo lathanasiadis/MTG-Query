@@ -1,0 +1,22 @@
+Q:
+
+Sacrifice creature question (Magic the gathering)
+
+Let's say my opponent plays Diabolic Edict and I have to choose to sacrifice a creature.
+I have Insolent Neonate on the board, so can I choose to sacrifice it, and then play it's ability at the same time? 
+I know that if the opponents card had him choose a target, and that target had an sacrifice ability, I could use it and it would resolve first. But since here I have to choose the target myself, how does the stack work here? 
+The spell is already on the stack once my opponent plays it, so does me choosing a target to sacrifice resolve the spell, meaning I can't play any abilities in between, or does it stay on the stack still and let me play abilities in between?
+Edit: Similarly, if an opponent would play an ability that said f.ex: "Opponent discards 2 cards from his hand" and I had a card in my hand that said something like "Discard this card, draw a card" and a card in play that said "Discard a card, this creature gains +1-+1". Could I choose to discard the draw card to trigger the effect and another card to trigger the creature effect at the same time the opponents spell resolves?
+
+A:
+
+You can't sacrifice the creature to pay for the ability and then because of D.Edict. If you are left with no creatures on board though, that means you can't sacrifice any. It's the only way that play would work out, if Insolent N. was the last creature you controlled.
+It goes like this:
+
+Player 1 puts Diabolic Edict on stack and pays for it.
+Player 2 can respond with an instant or ability, chooses to sacrifice  Insolent Neonate to draw a card it goes on the stack. The ability "price" is payed at this moment (discard and sacrifice)
+Stack is resolved, "draw card" ability resolves first, as the stack is FILO (First In, Last Out, that means the first thing on the stack, is the last to be resolved, and the last thing is the first to be resolved)
+Target player sacrifices a creature is resolved in 2nd. Player 2 is target player, and he needs to choose the creature when the ability is resolved. If there are no other creatures to sacrifice, player 2 sacrifices none.
+
+EDIT: Likewise the discards are 2 separate things. The discard in your cards is a "cost", and you have to pay it. The discard on your enemy card, is an action you have to do, so you'd just end up discarding twice. Again this would only be useful if you were left with no cards in hand (so he couldn't force you to discard).
+

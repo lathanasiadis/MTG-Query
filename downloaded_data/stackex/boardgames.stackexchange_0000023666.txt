@@ -1,0 +1,20 @@
+Q:
+
+Kolaghan, The Storm's Fury dragon attacking ability
+
+Does Kolaghan, The Storm's Fury's ability trigger for every dragon attacking or any dragons attacking? For reference it says "Whenever a dragon you control attacks, creatures you control gain +1/+0 until end of turn". If I attack with two dragons, do my creatures get +2/+0?
+
+A:
+
+Kolaghan's ability triggers for each Dragon attacking, so if you attack with two Dragons, your creatures get +2/+0 until end of turn.
+Rule 603.2c says
+
+An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.
+
+Attacking with two Dragons is two instances of "attack with a Dragon," so after they are both declared as attackers, the ability triggers once for each.
+There is no ruling on Kolaghan specifying this, but Beastmaster Ascension has the same wording, and a ruling that says
+
+If you attack with multiple creatures, Beastmaster Ascension's first ability triggers multiple times.
+
+This contrasts with abilities like the one on Lightmine Field, which triggers when "one or more creatures attack." Lightmine Field's ability would only trigger once when two Dragons attack, because that is a single instance of "one or more creatures" attacking.
+

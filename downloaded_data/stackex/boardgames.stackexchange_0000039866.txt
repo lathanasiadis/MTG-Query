@@ -1,0 +1,16 @@
+Q:
+
+Can devotion of just one colour satisfy a multicolored devotion condition?
+
+If I play Athreos, God of Passage, but I only have 7 to devotion to black, does this devotion count to devotion to white and black? 
+Or do I need at least 1 to devotion to white to have devotion to white and black?
+
+A:
+
+Devotion to either color is fine. You don't need to have devotion to both. "Devotion to A and B" just counts all mana symbols of color A and/or B in permanents you control. (Notably hybrid symbols are just counted once.)
+See a Gatherer ruling found on Athreos and all the other two-color gods, emphasis added:
+
+Your devotion to two colors is equal to the number of mana symbols that are the first color, the second color, or both colors among the mana costs of permanents you control. Specifically, a hybrid mana symbol counts only once toward your devotion to its two colors. For example, if the only nonland permanents you control are Pharika, God of Affliction and Golgari Guildmage (whose mana cost is {B/G}{B/G}), your devotion to black and green is four.
+
+You do however have some devotion to white, from Athreos himself. As long as he's out he's giving you +1 white devotion and +1 black devotion; a god's own mana cost counts towards its own devotion. This also means Athreos actually only needs 5 white and black devotion from sources other than himself. 
+

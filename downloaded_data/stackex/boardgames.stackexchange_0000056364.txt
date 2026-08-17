@@ -1,0 +1,33 @@
+Q:
+
+Are there any artifacts that tap for white, blue or black mana?
+
+I'm looking for artifacts similar to the crystals from the Ikoria set (e.g. Indatha Crystal) or the banners (e.g. Abzan Banner), but instead that produce white, blue or black mana.
+I'm not opposed to lands either like Arcane Sanctum but I'm more interested in finding artifacts for my Alela, Artful Provocateur Commander deck.
+
+A:
+
+Scryfall offers a produces: operator that returns cards that produce the mana you ask for. It takes into account statements like “add N mana of any color” as well as treasure production and the ability to produce additional mana (like Heartbeat of Spring).
+
+If you give produces: a set of mana types out of WUBRGC—the five colors plus colorless—it returns cards that produce at least those types of mana, possibly including others.
+If you give it a number, it returns cards that produce exactly that number of types of mana. produces:6 is the maximum, which is all the cards that produce WUBRG and also colorless.
+produces:any finds cards that produce any type of mana at all. (It's equivalent to produces>=1.)
+
+These would be your primary options when searching for Esper mana generators the way you are:
+
+Most helpful: produces:w or produces:u or produces:b will find cards that individually produce at least any of those colors, possibly including other colors and/or colorless.
+produces:wub will find cards that individually produce at least white, blue, and black—a card that produces just one or two of these won't match. You can also do produces:esper for this result.
+produces:any commander:wub will find Esper cards that produce at least one type of mana, no matter what it is, but it will also match cards that only produce colorless mana.
+
+You've requested artifacts that tap for mana, but there are artifacts like Altar of Shadows and Caged Sun that produce mana without requiring being tapped for it. Since Alela doesn't interact specifically with tapping/untapping artifacts, it seems these may work well for you too.
+I suggest one of these searches:
+
+If you want artifacts that produce at least one of those colors: (produces:w or produces:u or produces:b) format:commander type:artifact commander:wub
+If you want only those artifacts capable of producing all of those colors, like Obelisk of Esper: produces:wub format:commander type:artifact commander:wub
+
+Technical notes on the produces: operator
+The produces: operator can also take different comparators: produces>, >=, =, <=, or <.
+When you're supplying a set of colors, produces: is equal to produces>= (at least equal to this set).
+When you're supplying a number, produces: is equal to produces= (exactly this number).
+This is fairly typical of Scryfall operators that take numbers and/or mana: if you see : followed by digits or a number of sets of mana, usually that operator will take some set of >=< too. The : case will default to the behaviour that's the most common or intuitive search for that operator.
+

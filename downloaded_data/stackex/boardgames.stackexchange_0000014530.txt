@@ -1,0 +1,27 @@
+Q:
+
+How does Spirit of the Labyrinth interact with Chains of Mephistopheles?
+
+If I have Spirit of the Labyrinth and Chains of Mephistopheles in play.  And then on my opponent's main phase (after they have drawn a card) I play Blue Sun Zenith for 8 mana and target my opponent.
+What will happen?  My guess is that they will have to discard 5 cards.  But I am not sure, so I am asking...
+
+A:
+
+From the gatherer rulings on Spirit of the Labyrinth:
+
+You can draw a maximum of one card on each player’s turn. Subsequent card draws are ignored.
+If a replacement effect would try to replace a card that you can’t draw, that effect can’t apply.
+
+Spirit of the Labyrinth completely shuts off Chains of Mephistopheles. So in your specific scenario, Blue Sun's Zenith is shuffled into your library and nothing else happens.
+
+BrianS pointed out a big hole in my original explanation below. Given the exact situation in the OP, the above is correct. It works differently if it's your turn or before your opponent's draw step.
+If your opponent has cards in hand, the first attempted draw gets replaced by Chains. In that situation, your opponent will draw one card, then discard a card. At that point, the opponent will have drawn a card that turn and Spirit of the Labyrinth will do nothing. From Chains' gatherer page:
+
+If a spell or ability would cause a player to draw multiple cards, this is treated as a number of individual "draw one card" actions. Apply the effect of Chains of Mephistopheles to each one.
+
+If the opponent has no hand and has drawn no cards this turn, then Chains can have the full effect. This is because while the opponent has multiple draws replaced, they never actually draw any cards:
+
+Here's what happens when Chains of Mephistopheles replaces a player's draw: -- If that player has at least one card in his or her hand, he or she discards a card and then draws a card. -- If that player's hand is empty, he or she puts the top card of his or her library into his or her graveyard. The player doesn't draw a card at all.
+
+So, the lesson here is that if you have both Chains and Spirit in play at the same time, you should try to catch your opponent with an empty hand.
+

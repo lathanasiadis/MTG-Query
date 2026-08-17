@@ -1,0 +1,30 @@
+Q:
+
+If a creature has both hexproof and shroud, is it functionally the same as just having Shroud?
+
+If a creature has both hexproof and shroud, is it functionally the same as just having Shroud? What happens when a creature has both shroud and hexproof?
+
+A:
+
+Having Shroud and Hexproof is currently the equivalent of having just shroud.
+This is because Shroud is a more restrictive form of Hexproof:
+
+702.11a Hexproof is a static ability.
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+702.18a Shroud is a static ability. “Shroud” means “This permanent or player can’t be the target of spells or abilities.”
+
+"Spells and abilities your opponents control" (the restriction of Hexproof) are also "spells and abilities" (the restriction of Shroud).  Thus, there are only two cases to consider:
+
+A spell or ability controlled by your opponent: blocked by both shroud and hexproof.
+
+A spell or ability controlled by a player that is not your opponent (such as yourself or your teammate): blocked by shroud.
+
+In both of these cases, Hexproof only does things Shroud is already doing.  It is the equivalent of adding Fear ("can't be blocked except by black or artifact creatures") to Covert Operative ("can't be blocked").  Covert Operative already can't be blocked at baseline; adding additional reasons it can't be blocked does nothing extra.
+The exception would be if an ability existed that interacted with Shroud (or permanents with Shroud) but not Hexproof (or permanents with Hexproof).  If Arcane Lighthouse only removed Shroud, there would be a difference.  To my knowledge, there are not currently any such abilities.  There currently exist abilities that interact with just Hexproof and not Shroud, such as Glaring Spotlight, but these don't matter for this discussion because Hexproof is the less restrictive of the two abilities.
+While not strictly necessary to answer this question, one of the philosophically relevant core rules of Magic is that "can't" abilities take precedence:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+In this case, the effect directing something something to happen is the spell or ability that would have you chose targets, and the effect preventing it from happening is Shroud and/or Hexproof (rule 101.2 is necessary for Shroud and Hexproof to work as abilities without causing endless rules headache).  Given Shroud has a more general "can't" than Hexproof, Hexproof is essentially redundant.
+

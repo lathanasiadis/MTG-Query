@@ -1,0 +1,21 @@
+Q:
+
+How does Perplexing Chimera work with Strionic Resonator?
+
+I have a Perplexing Chimera and a Strionic Resonator on the battlefield. My opponent casts Shock. I choose to use my Strionic Resonator's activated ability to copy my Perplexing Chimera's triggered ability. What would happen?
+
+A:
+
+According to the rulings on the gatherer page you linked for Strionic Resonator,
+
+The source of the copy is the same as the source of the original ability.
+
+This means that you will have two triggered abilities on the stack, each of which has the effect
+
+you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell.
+
+This means that, up to twice, you can exchange control of the Shock on the stack and your Perplexing Chimera, and you can choose new targets for the Shock each time. If you do it both times, then you will retain control of your Perplexing Chimera and you will have chosen the target for Shock, though your opponent will still control it.
+For reference, the Comprehensive Rules section about copying objects specifically says in rule 706.10b
+
+A copy of an ability has the same source as the original ability. If the ability refers to its source by name, the copy refers to that same object and not to any other object with the same name. The copy is considered to be the same ability by effects that count how many times that ability has resolved during the turn.
+

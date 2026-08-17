@@ -1,0 +1,25 @@
+Q:
+
+MTG: Yorion, Sky Nomad played into Yorion, Sky Nomad
+
+I've been playing MTG Arena and played a game where my opponent played Yorion, Sky Nomad when another copy was already in game. If I'm correct, he chose to keep the copy which was already in the play to stay and blinked everything and the new copy.
+How is this possible if the trigger is related to the copy entering the board and states that only other permanents can be blinked? Am I mistaken and did he exile the old copy? Also shouldn't blinking the old copy possibly result into infinite blinking as the copies would take turns entering the battlefield?
+I'm generally very confused with this play and found nothing which would help me to understand in the rulings.
+
+A:
+
+You're probably mistaken as to exactly what happened; with one Yorion (Y1) on the battlefield, the standard play here is
+
+Play the second Yorion (Y2).
+State based actions are checked, and their controller chooses one of the Yorions to remain. They choose Y1, and the legend rule moves Y2 to the graveyard.1
+Y2 still entered the battlefield, so its trigger goes on the stack, and at some point resolves. This trigger can flicker Y1 as this is a trigger from Y2, and Y1 is a different permanent from Y2.
+The controller of the Yorions chooses to flicker Y1 (and probably a bunch of other permanents as well).
+At the beginning of their end step, another Yorion (Y3)2 and some other permanents enter the battlefield.
+The ETB trigger for Y3 is put on the stack. This trigger cannot flicker Y3, so no infinite loop can occur, but it can flicker all the other permanents, including the ones which have just entered the battlefield. This trigger resolves, and Y3 stays on the battlefield for the opponent's turn.
+At the beginning of the opponent's end step, all the permanents flickered with Y3's trigger enter the battlefield.
+
+To create an infinite flicker loop with Yorion, you need a second, differently named permanent; Charming Prince is probably the most common card in standard for this as of December 2020.
+Notes:
+1. The legend rule doesn't exile - it instead just moves all but one copy of the legendary permanent to the graveyard.
+2. While this Yorion is represented by the same card as Y1, it is a different object. This probably doesn't matter very much here.
+

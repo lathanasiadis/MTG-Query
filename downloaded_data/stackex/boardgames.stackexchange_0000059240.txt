@@ -1,0 +1,12 @@
+Q:
+
+How does Lavinia, Azorius Renegade interact with K'rrik, Son of Yawgmoth?
+
+So my question is how would Lavinia, Azorius Renegade interact with K'rrik, Son of Yawgmoth if someone used K'rrik's abilities to just pay the life to cast a spell instead of paying mana? e.g. casting Dauthi Voidwalker while Lavinia is out.
+
+A:
+
+If only life was paid to cast a spell, Lavinia will counter it.
+Magic is a literal game. What is written on the card is exactly what the card does. If you cast a spell whose mana cost contains only {B} using K'rrik's ability ("For each {B} in a cost, you may pay 2 life rather than pay that mana"), and choose to pay life rather than mana for every one of those {B} symbols, then you didn't spend any mana to cast it. That means Lavinia will trigger and counter the spell.
+That said, K'rrik's ability applies to each {B} symbol individually. So in your example of casting Dauthi Voidwalker, if you have even one black mana to spare, you can pay {B} and 2 life and Lavinia won't notice.
+

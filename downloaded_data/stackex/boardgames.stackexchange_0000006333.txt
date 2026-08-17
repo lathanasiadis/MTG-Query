@@ -1,0 +1,33 @@
+Q:
+
+Is it valid to exploit infinite loopholes in Magic: The Gathering?
+
+Today at work, I played my first game in almost 10 years using a deck from another player. He was playing a deck made of creatures that facilitate life points regain. At one point, using 3 different cards, he was able to exploit a loophole that would allow him to get zillions of life points.
+I remember that around the time of 3rd edition loopholes were limited to the "only once" rule, because it wouldn't make sense to abuse a loophole. MTG is so large, it's impossible not to find a loophole between cards, and there are tons of them.
+So the big question, does that "only once" rule for loopholes still stand?
+
+A:
+
+I am not aware such a rule ever existed - infinity combos have been around from the very beginning of MTG.
+What you are probably referring to is this: if there is a (potential) infinite loop that does not change the game state, then this loop may only be performed once, if the involved players have a choice about it. Since your opponent clearly changed the game state (after each loop, he has more life than before), he may perform the loop as often as he wants. See the rule and an example below.
+Under the current rules, all this is covered in this section:
+
+Taking Shortcuts
+
+721.1. When playing a game, players typically make use of mutually understood shortcuts rather than explicitly identifying each game choice (either taking an action or passing priority) a player makes.
+721.1a The rules for taking shortcuts are largely informal. As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable.
+721.1b Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a “loop”). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken.
+721.1c Tournaments use a modified version of the rules governing shortcuts and loops. These rules are covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). Whenever the Tournament Rules contradict these rules during a tournament, the Tournament Rules take precedence.
+721.2. Taking a shortcut follows the following procedure.
+721.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+721.2b Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where they will make a game choice that’s different than what’s been proposed. (The player doesn’t need to specify at this time what the new choice will be.) This place becomes the new ending point of the proposed sequence.
+721.2c Once the last player has either accepted or shortened the shortcut proposal, the shortcut is taken. The game advances to the last proposed ending point, with all game choices contained in the shortcut proposal having been taken. If the shortcut was shortened from the original proposal, the player who now has priority must make a different game choice than what was originally proposed for that player.
+721.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+  721.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+721.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+  Example: A player controls Seal of Cleansing, an enchantment that reads, “Sacrifice Seal of Cleansing: Destroy target artifact or enchantment.” A mandatory loop that involves an artifact begins. The player is not forced to sacrifice Seal of Cleansing to destroy the artifact and end the loop.
+721.6. If a loop contains an effect that says “[A] unless [B],” where [A] and [B] are each actions, no player can be forced to perform [B] to break the loop. If no player chooses to perform [B], the loop will continue as though [A] were mandatory.
+
+As a general answer to your "loopholes" remark:
+I would take a radical stance and say "There are no loopholes in M:TG". Players are not required to guess the intention of the game designers, they are only required to follow the rules of the game. If the rules allow something like the "white Ball Lightning", something which was clearly not the intention in the design of Waylay, then there's nothing a judge could do about it. If the game designers consider something a loop hole, then the only things they can do is to give the card an erratum, restrict its tournament legality, or change the rules. Until either happens, players have free reign, and it's purely a question of sportsmanship and/or house rules.
+

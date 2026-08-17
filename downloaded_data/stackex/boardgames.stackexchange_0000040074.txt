@@ -1,0 +1,67 @@
+Q:
+
+Question regarding when a player gains Ascend
+
+Opponent has 9 permanents in play and it's opponents turn.
+Opponent plays Storm Fleet Swashbuckler (has Ascend: "If you control ten or more permanents, you get the city's blessing for the rest of the game.").
+I want to respond with Moment of Craving (Target creature gets -2/-2 until end of turn. You gain 2 life).
+Questions (both options assume opponent has no further response):
+
+Can I target Storm Fleet Swashbuckler with Moment of Craving (thus killing it)?
+
+If I can, does the opponent get Ascend?
+
+If, while Storm Fleet Swashbuckler is on the stack, I target another creature that has 2 or less toughness with Moment of Craving (which would kill it), does my opponent gain Ascend after everything resolves? 
+
+I'm new to magic, but my interpretation tells me that I could theoretically do either option 1 or 2 and my opponent would not gain Ascend.  Is this right?
+
+A:
+
+You can respond to spells with Ascend on the stack, but once a permanent with Ascend is on the battlefield, its controller will immediately gain the city's blessing, as a continuous effect that doesn't use the stack, the moment the condition (controlling ten permanents) applies.
+This is a bit confusing if you just go by what's on the cards, but it's spelled out in several secondary sources.
+The detailed rules
+Your intuition is good, but it's a little off this time — mostly because the actual mechanics don't quite match the reminder text.
+If you look at the rulings text for Storm Fleet Swashbuckler, you'll see:
+
+1/19/2018 Ascend on a permanent isn’t a triggered ability and doesn’t use the stack. Players can respond to a spell that will give you your tenth permanent, but they can’t respond to getting the city’s blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can’t respond before you get the city’s blessing.
+
+To understand why, take a look at the way the MTG comprehensive rules define Ascend:
+
+702.130a Ascend on an instant or sorcery spell represents a spell ability. It means “If you control ten or more permanents and you don’t have the city’s blessing, you get the city’s blessing for the rest of the game.”
+702.130b Ascend on a permanent represents a static ability. It means “Any time you control ten or more permanents and you don’t have the city’s blessing, you get the city’s blessing for the rest of the game.”
+
+So, based on the wording in the comp rules, it's a continuous effect and not a triggered ability. And that "if" in the card's reminder text is just misleading, pretty much.
+The Rivals of Ixalan set FAQ spells out exactly what this means for play:
+
+If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+
+Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+
+If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+
+If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterward (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+
+Your example
+To understand what happens, let's start with what happens if you do nothing:
+
+Alex's main phase. Alex has nine permanents in play (assume one is a small creature, like a Swab Goblin). Alex casts Storm Fleet Swashbuckler.
+Priority passes to Jens. Jens passes.
+Once priority passes back to Alex and nothing is above Storm Fleet Swashbuckler on the stack, it will resolve.
+Alex will gain the city's blessing as soon as Storm Fleet Swashbuckler resolves, before any triggers from that event are put on the stack.
+
+Here's how you can use Moment of Craving to block Ascend by removing another creature:
+
+Alex's main phase. Alex has nine permanents in play (assume one is a small creature, like a Swab Goblin). Alex casts Storm Fleet Swashbuckler.
+Priority passes to Jens. Jens casts Moment of Craving targeting the Swab Goblin.
+Alex passes, Moment of Craving resolves.
+Jens passes, Storm Fleet Swashbuckler resolves. Alex now has only nine permanents, so Ascend does nothing until Alex somehow gains a tenth permanent.
+
+Using Moment of Craving to kill the Swashbuckler will not stop Ascend:
+
+Alex's main phase. Alex has nine permanents in play (assume one is a small creature, like a Swab Goblin). Alex casts Storm Fleet Swashbuckler.
+Priority passes to Jens. Jens passes.
+Once priority passes back to Alex and nothing is above Storm Fleet Swashbuckler on the stack, it will resolve.
+Alex will gain the city's blessing as soon as Storm Fleet Swashbuckler resolves, even before any triggers from that event are put on the stack.
+After Alex passes priority, Jens casts Moment of Craving targeting the Swashbuckler.
+The Swashbuckler dies, but Alex retains the city's blessing.
+

@@ -1,0 +1,15 @@
+Q:
+
+Do creature tokens get removed along with the permanent that created them?
+
+I have this card called Militia's Pride which lets me summon 1/1 creature token onto the battlefield. My question is: if Militia's Pride is sent to the graveyard, do my 1/1 tokens stay or are they removed from the battlefield as well?
+
+A:
+
+The tokens will stay.
+A token is simply a new object. Unless explicitly stated otherwise, it does not matter what spell or effect created it, and there is no connection. Consider also that, strictly speaking, the Militia's Pride did not create the token, but its triggered ability did.
+
+110.1. A permanent is a card or token on the battlefield. A permanent remains on the battlefield indefinitely. [..]
+
+Of course that doesn't mean that permanents are indestructible or anything like that. It only says that permanents don't leave the battlefield on their own. It means that an effect or rule is required to make a token die (in fact, it takes an effect or a rule for anything to happen in the game), so since Militia's Pride does not say anything about what happens to the tokens it created when the Pride dies, nothing will happen to those tokens. There is also no rule to that effect.
+

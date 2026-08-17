@@ -1,0 +1,27 @@
+Q:
+
+What's the use of blinking a creature out (such as with Essence Flux)?
+
+Essence Flux says:
+
+Exile target creature you control, then return that card to the battlefield under its owner's control. If it's a Spirit, put a +1/+1 counter on it.
+
+So, say I have a 1/1 Sanctuary Cat cast onto the battlefield. According to above, I would exile it, then return it right back? Is that right? I don't see what purpose this serves unless it was a spirit. Could you clarify if I have this right and what the benefit is?
+
+A:
+
+There are many uses for so-called "flicker" effects like from Essence Flux.
+The namesake Flicker was the first card to exile and immediately return the target. This is where the mechanic got its unofficial name.
+The creature that returns is a whole new object without any relation to its previous existence. That means that, for example:
+
+The creature will trigger all applicable "enters the battlefield" and "leaves the battlefield" abilities.
+If the creature you blink is being targeted by a spell or ability, then it will lose track of the creature and not affect it, or will fizzle if that creature was the only target.
+Auras and equipments attached to the creature will fall off of it, and counters get removed.
+It will return untapped.
+All temporary effects, such as from Giant Growth or Death Wind, will be removed.
+The new creature has no damage marked on it, so it's like an improved regeneration effect.
+If you blink the creature during combat, it will be removed from combat and will neither deal nor take any damage, but (if it was already assigned as a blocker), the creature blocked by it will still be blocked.
+
+Other blink cards such as Flicker can also target enemy creatures (though not at instant speed), which can be a very valuable play at the right time.
+In short, blink effects are a powerful trick that can throw a wrench in your opponent's plans at a crucial moment. The +1/+1 counter for spirits is more of a bonus in most cases, but of course it allows you to get even more utility out of this spell.
+

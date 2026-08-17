@@ -1,0 +1,14 @@
+Q:
+
+Why doesn't the enemy's afterlife resolve first?
+
+When my Dreadhorde Butcher destroys a Tithe Taker in combat and dies 
+ as a result of the combat during my turn, doesn't Rule 405.3 say that the afterlife should resolve first, since the Dreadhorde Butcher's effect should be lowest on the stack? I put Rule 405.3 below for reference.
+
+405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4).
+
+A:
+
+Yes, on your turn your opponent's Afterlife triggered ability gets put on top of the stack, so it resolves first, and then your Dreadhorde Butcher's triggered ability resolves.
+However, that isn't enough to kill the newly created spirit token with the Butcher's ability. You choose targets for abilities when you put them on the stack, so the Butcher's ability needs to target a player or a creature or planeswalker already on the battlefield at that time. This happens before the Afterlife ability resolves or is even put on the stack, so the spirit token won't be available to target.
+

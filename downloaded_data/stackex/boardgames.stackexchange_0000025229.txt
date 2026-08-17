@@ -1,0 +1,19 @@
+Q:
+
+If someone blocks an infect creature, do the -1/-1 counters stay on the creature?
+
+The Infect ability is worded as follows: Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
+I'm just wondering if these -1/-1 counters stay on the creature who blocked the creature with infect or do the -1/-1 counters go away at my end step? 
+Thanks!
+
+A:
+
+They stay on the creature. The rules for Infect say:
+
+702.89c Damage dealt to a creature by a source with infect isn’t marked on that creature. Rather, it causes that many -1/-1 counters to be put on that creature. See rule 119.3.
+
+There is nothing in the rules that removes them, therefore they stay on the damaged creature.
+From the Gatherer rulings on Vector Asp:
+
+The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+

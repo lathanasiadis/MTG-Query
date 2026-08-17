@@ -1,0 +1,19 @@
+Q:
+
+Does Mirrorwing Dragon's ability trigger when redirects are involved?
+
+My opponent casts Murder targeting my Storm Crow. In response, I cast Bolt Bend, changing the target to his Mirrorwing Dragon. Does this copy the spell for his other creatures?
+
+A:
+
+No, it doesn't.
+Mirrorwing Dragon says
+
+Whenever a player casts an instant or sorcery spell that targets only Mirrorwing Dragon
+
+(emphasis mine)
+By the time you successfully redirect the Murder with Bolt Blend, it's already cast, so it's too late for Mirrorwing Dragon's ability to trigger.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal ; the game returns to the moment before the casting of that spell was proposed (see rule 721, “Handling Illegal Actions”).
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+

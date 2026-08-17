@@ -1,0 +1,18 @@
+Q:
+
+Can You Scavenge Creatures with Negative Power?
+
+Varolz, the Scar-Striped gives all creatures in your graveyard Scavenge equal to its mana cost.
+Scourge of the Skyclaves's power and toughness are equal to 20 - the highest life total among players.
+Creatures like Scourge of the Skyclaves have their power and toughness apply in all zones, including the graveyard.
+My question is, if I Scavenge Scourge of the Skyclaves when the highest life total is >20, would I put -1/-1 counters on target creature instead of +1/+1 counters?
+
+A:
+
+You can activate the scavenge ability, but on resolution it will not put any counters on the creature.
+Rule 107.1b says
+
+Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or the power and/or toughness of a creature or creature card.
+
+In this case, the "calculation" is just plugging in the creature card's power, and the result is the number of +1/+1 counters to put on the target creature. If the power is negative, zero is used instead of the result, and no counters are added.
+

@@ -1,0 +1,26 @@
+Q:
+
+Clarification of creature's subtype for card effects
+
+The wife and I are new players to this particular card game, though not card games in general. We have only dueled twice with MtG so far. We had something come up we were curious about. She used the card Sharpened Pitchfork which has in its effect:
+
+As long as equipped creature is a Human, it gets +1/+1.
+
+Which she used on her Moorland Inquisitor whose creature subtype is Human Soldier.
+Now common sense and reality say, yes this effect should work since he is a human. However, in many card games the writing has to match perfectly, and technically this does not. He is a 'Human Soldier', and it calls for a 'Human'. So in this example, do you use the common sense, he is a human, or does it not count?
+I had the same thing happen in our first duel, but with the card Ghoulraiser who has the ability:
+
+When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand.
+
+And the creature in question for this one was Makeshift Mauler whose creature subtype is 'Zombie Horror'
+Not considering the random part, would this work or not with the same thought based on common sense, or technical writing?
+We're using the Blessed vs Cursed duel decks if anybody wants/needs to see the cards in question. Thank you for your help on what I am sure is an obvious question, but I tend to overthink things so I have to check small stuff like this.
+
+A:
+
+In Magic each subtype is its own separate thing. So when the Inquisitor says "Human Soldier" it means "this creature is a Human and this creature is a Soldier". Similarly Avacynian Priest couldn't tap the Inquisitor even though it has the Soldier subtype because it is still a Human.
+Ghoulraiser would work the same way, the Mauler is a Zombie (regardless of any other subtypes it may have) so it is an option to be returned to your hand.
+
+205.3b Subtypes of each card type except plane are always single words and are listed after a long dash. Each word after the dash is a separate subtype; such objects may have multiple types. Subtypes of planes are also listed after a long dash, but may be multiple words; all words after the dash are, collectively, a single subtype.
+Example: [...] “Creature — Goblin Wizard” means the card is a creature with the subtypes Goblin and Wizard.
+

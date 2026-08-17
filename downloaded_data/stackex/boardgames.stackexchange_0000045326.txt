@@ -1,0 +1,27 @@
+Q:
+
+Planeswalkers and Summoning Sickness
+
+When I play a planeswalker, I know there is no summoning sickness. So, does that mean that I can increment or decrement its loyalty counter and use its abilities right after I play it since there is no summoning sickness?
+
+A:
+
+A planeswalker can use it's loyalty abilities the turn it enters the battlefield.  The rules on "summoning sickness" only apply to creatures:
+
+302.6. A creature's activated ability with the tap symbol or the untap symbol in its activation cost can't be activated unless the creature
+  has been under its controller's control continuously since their most
+  recent turn began. A creature can't attack unless it has been under
+  its controller's control continuously since their most recent turn
+  began. This rule is informally called the "summoning sickness" rule.
+
+The only restrictions on loyalty abilities are that they are sorcery speed and you haven't used a loyalty ability on that planeswalker already this turn:
+
+306.5d Each planeswalker has a number of loyalty abilities, which are activated abilities with loyalty symbols in their costs. Loyalty
+  abilities follow special rules: A player may activate a loyalty
+  ability of a permanent they control any time they have priority and
+  the stack is empty during a main phase of their turn, but only if none
+  of that permanent's loyalty abilities have been activated that turn.
+  See rule 606, "Loyalty Abilities."
+
+Note, however, that if a planeswalker becomes a creature the turn it entered the battlefield (such as from abilities on Gideon Jura, Gideon, Ally of Zendikar, Gideon, Champion of Justice, etc. or from some combination like Mycosynth Lattice + March of the Machines), it then becomes subject to summoning sickness, as it is now a creature that you did not control continuously since the start of your most recent turn.  For example, this means you cannot attack with an animated Gideon planeswalker that you cast this turn.
+

@@ -1,0 +1,28 @@
+Q:
+
+A question about Mana Abilities and Activated abilities, then a question about a combo
+
+So I just want to make sure I understand the following two things about Activated Abilities and Mana Abilities correctly.
+
+An Activated Ability is any ability a card has that is written as "[Cost]: [Effect]".
+Mana Abilities are special types of Activated Abilities that don't use the stack and can't be reacted to and spells like "Quash" and "Stifle" can't be used to counter these effects either.
+
+So if I am correct on my understanding of the two points above, then am I correct in thinking that if you combo Karn, the Great Creator (KTGC) and Mycosynth Lattice (ML) then you would effectively prevent your opponents from being able to tap for mana as the passive of KTGC states that "Activated abilities of artifacts your opponents control can't be activated." and the first ability of ML states "All Permanents are artifacts in addition to their other types." or am misunderstanding something here?
+
+A:
+
+Yes, this is all essentially correct.
+First, the format of activated abilities is defined in rule 602.1:
+
+Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+Then rule 501 and its subrules describe what counts as mana abilites:
+
+605.1. Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules. Only abilities that meet either of the following two sets of criteria are mana abilities, regardless of what other effects they may generate or what timing restrictions (such as “Activate this ability only any time you could cast an instant”) they may have.
+  
+  
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn’t require a target (see rule 115.6), it could add mana to a player’s mana pool when it resolves, and it’s not a loyalty ability. (See rule 606, “Loyalty Abilities.”)
+605.1b A triggered ability is a mana ability if it meets all of the following criteria: it doesn’t require a target (see rule 115.6), it triggers from the resolution of an activated mana ability (see rule 605.1a) or from mana being added to a player’s mana pool, and it could add mana to a player’s mana pool when it resolves.
+
+Mana abilities can be either activated abilities or triggered abilities that trigger from the activation of activated mana abilities. The activated mana abilities are like other activated abilities in most ways, and there is no reason that Karn's ability would not affect them. So you are correct,  Karn, the Great Creator and Mycosynth Lattice together prevent your opponents from activating any mana abilities.
+

@@ -1,0 +1,19 @@
+Q:
+
+Choosing new targets for a spell with a variable number of targets
+
+Rolling Thunder can have any number of targets. I play the Rolling Thunder choosing three target creatures. I copy the Rolling Thunder with Reverberate and can choose new targets for the copy.
+Can I choose a different number of targets, or am I only changing the choice of target for each of the three already chosen targets?
+
+A:
+
+You cannot choose a different number of targets. The rules make it clear that when you copy a spell, you copy the targets of the spell. Reverberate allows you to change the targets, because it specifically says so, but the normal rules for copying a spell just copy the targets as they were. Any unchanged targets remain targeting their original objects.
+
+706.10. To copy a spell or activated ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. ...
+
+706.10c Some effects copy a spell or ability and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy’s targets will be, the copy is put onto the stack with those targets.
+
+Reverberate errata:
+
+8/15/2010 The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+

@@ -1,0 +1,33 @@
+Q:
+
+Will infinite loops still force a draw if I have a way to end them?
+
+The comprehensive rules of MTG state:
+
+104.4b If a game that’s not using the limited range of influence option (including a two-player game) somehow enters a “loop” of mandatory actions, repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don’t result in a draw
+
+So, if I have a Sporemound and a Life and Limb, that creates an infinite combo. A land enters the field, which creates a 1/1 Saproling, which is also a land, which creates a 1/1 Saproling, etc. This cannot end, and according to the rules the game now ends in a draw.
+However, I have an unsummon, or destroy enchantment, or some other way to remove one of the cards creating this loop. Does this make the game not end in a draw? Can I allow the loop to continue through a million cycles, then destroy my enchantment to break the loop? Or does the game end anyway?
+EDIT:
+Thanks for all the answers. So, if I have a way to bounce or destroy one of the pieces of an infinite loop, I can allow the loop to resolve as many times as I want, and the game isn't a draw. However, the rules for shortcuts (719) also say:
+
+719.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+Does this mean I draw anyway?
+I hope you guys don't mind, but I have a few more questions about loops:
+When is the game considered a draw, as in how many times does a loop have to resolve to trigger the draw state? If I have an infinite loop that damages a player, but no way to remove a piece of the loop, is the game still a draw? 
+For example, I have a Sanguine Bond and an Exquisite Blood. It will kill all of my opponents, but it is only mandatory actions and I have no way to stop it. The rules also don't say anything about the game state changing.
+Thanks again for all the help. 
+
+A:
+
+You have 2 options:
+(1) Propose a shortcut where you pass priority on the triggers, allowing Saprolings to be made. If your opponent agrees, you can specify the number of iterations, and then use something like naturalize to destroy one of the enchantments, ending the loop.
+(2) You can let the loop proceed indefinitely, resulting in a draw. This is allowed by rule 719.5
+
+719.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+To answer your new questions:
+Rule 719.4 applies in the situation where no one can interact with the loop, and all actions are mandatory (e.g., you can't set up a mandatory loop with 3x Fiend Hunter because the triggered ability is optional)
+The interaction between Sanguine Bond and Exquisite Blood will cause a player to lose the game. This is because state-based actions are responsible for making a person lose when his or her life is 0 or less. State-based actions are checked before any player gets priority and before any triggered abilities are put on the stack, which means that they occur before effects like Sanguine Bond and Exquisite Blood can continue to loop.
+

@@ -1,0 +1,17 @@
+Q:
+
+Unearth and Return-to-Hand costs
+
+I have Sedris, the Traitor King on the battlefield and a Grinning Ignus in my graveyard. I use the unearth ability Sedris grants to unearth my Grinning Ignus. Can I activate the Grinning Ignus's ability, even though if I try to pay the cost the Ignus will get exiled instead of going to my hand?
+Can I do the same with an Ovinomancer, provided I activate its ability in response to its enters-the-battlefield trigger?
+More generally, is there a rule that governs what happens when a replacement effect modifies the payment of a cost?
+
+A:
+
+It appears that you can activate Grinning Ignus's ability:
+
+117.11. The actions performed when paying a cost may be modified by effects. Even if they are, meaning the actions that are performed don’t match the actions that are called for, the cost has still been paid.
+Example: A player controls Psychic Vortex, an enchantment with a cumulative upkeep cost of "Draw a card," and Obstinate Familiar, a creature that says "If you would draw a card, you may skip that draw instead." The player may decide to pay Psychic Vortex’s cumulative upkeep cost and then draw no cards instead of drawing the appropriate amount. The cumulative upkeep cost has still been paid.
+
+I'm not clear on what situation you're describing with Ovinomancer; assuming Sedris isn't involved, you can always activate its ability and return it to your hand before its ETB ability resolves (assuming you give it haste), and when the ETB ability resolves, you have the choice of either doing nothing or unsummoning three basic lands.  This is not a replacement effect.
+

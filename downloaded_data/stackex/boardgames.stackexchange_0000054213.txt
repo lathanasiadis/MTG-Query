@@ -1,0 +1,20 @@
+Q:
+
+Does Weathered Runestone make Emergent Ultimatum ineffective?
+
+Does Weathered Runestone make Emergent Ultimatum ineffective? In other words, does having Weathered Runestone on the battlefield prevent cards fetched with the ultimatum being cast?
+ 
+
+A:
+
+No, Weathered Runestone does not interact with Emergent Ultimatum. The Ultimatum allows its controller to cast the searched cards from exile, not from a library or graveyard.
+As Weathered Runestone says, it prevents casting spells from graveyards or libraries. This applies to e.g. Skyclave Shade and Vivien, Monsters' Advocate. Its first ability also applies to, for example, Genesis Ultimatum and Eerie Ultimatum.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [..]
+
+However, Emergent Ultimatum puts the searched cards into exile first, which is a different zone.
+
+400.1. A zone is a place where objects can be during a game. There are normally seven zones: library, hand, battlefield, graveyard, stack, exile, and command.
+
+The controller of Emergent Ultimatum then casts those cards from exile, which Weathered Runestone does not prevent.
+

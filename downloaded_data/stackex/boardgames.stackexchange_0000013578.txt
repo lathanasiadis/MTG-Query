@@ -1,0 +1,22 @@
+Q:
+
+Can Jelava cast a creature if it has Flash?
+
+If I cast Jeleva, Nephalia's Scourge and exile a creature with flash, could I cast that creature when she attacks and triggers her ability?
+
+Flash is defined as follows, which makes it sound like the answer is "yes":
+
+702.8a Flash is a static ability that functions in any zone from which you could play the card it’s on. “Flash” means “You may play this card any time you could cast an instant.”
+
+But the following rule for activated abilities makes it uncertain:
+
+602.5e Activated abilities that read “Activate this ability only any time you could cast an instant” mean the player must follow the timing rules for casting an instant spell, though the ability isn’t actually an instant. The player doesn’t actually need to have an instant card that he or she could cast.
+
+A:
+
+No, you cannot.  Being able to be cast when an instant could be cast does not make something an instant.  The closest the rules actually come to addressing this point appears to be (emphasis added):
+
+304.5. If text states that a player may do something "any time he or she could cast an instant," it means only that the player must have priority. The player doesn't need to have an instant he or she could actually cast. Effects that would prevent that player from casting a spell or casting an instant don't affect the player's capability to perform that action (unless the action is actually casting a spell or casting an instant).
+
+Thus, "having flash" does not imply "being an instant."
+

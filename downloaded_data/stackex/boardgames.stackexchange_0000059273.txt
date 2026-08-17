@@ -1,0 +1,10 @@
+Q:
+
+How does Gift of Immortality work with sacrificing its creature before a boardwipe?
+
+What happens when you sacrifice a creature enchanted with Gift of Immortality in response to a boardwipe?
+
+A:
+
+If you sacrifice the enchanted creature in response to the board wipe (before it resolves), the creature dies and returns to the battlefield under its owner's control, while Gift of Immortality itself goes to the graveyard. The board wipe then resolves, killing the creature again, but this time without the enchantment, so the creature just goes to the graveyard as usual. When the end step arrives, Gift of Immortality tries to return to the battlefield attached to the creature, but since the creature is no longer on the battlefield, Gift of Immortality remains in the graveyard.
+

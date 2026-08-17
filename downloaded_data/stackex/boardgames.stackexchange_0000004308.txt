@@ -1,0 +1,38 @@
+Q:
+
+In MTG what happens to equipment after playing "Temporary Insanity"
+
+A friend of mine and I were playing the Knights vs Dragons duel deck.  He had a Kinsbaile Cavalier
+ upon which he equipped the Loxodon Warhammer.  On my next turn, I proceeded to play Temporary Insanity to attack him with his knight.  I then followed that up by summoning a Voracious Dragon and using its ability to devour the Kinsbaile Cavalier.
+I was hoping for a couple of rule clarifications, to ensure that the sequence we did was valid.
+
+By playing "Temporary Insanity", I gain control of his creature and any equipment or creature enchantments applied to it.
+If my friend wanted, he could pay the 3 colorless equipment cost, to equip the hammer on another one of his creatures (even before the creature returned to his side of the field.)
+Since the knight is on my side of the field (if only for a turn), I am able to devour it.
+After devouring the knight, the Warhammer returns to my friend's side of the field.
+
+A:
+
+Just to enhance @thesunneversets's answer, here are the answers from the Comprehensive Rules:
+Answer 1:  No, you only gain control of the creature, not the equipment.  From 301.5d:
+
+An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with “gains” or “has”), the equipped creature’s controller is the only one who can activate that ability.
+
+Answer 2: Not in this case.  While he has control of the equipment, you can only equip as a sorcery, and you can't play sorceries on someone else's turn.  Again from 301.5d:
+
+An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with “gains” or “has”), the equipped creature’s controller is the only one who can activate that ability.
+
+And then from 702.6a:
+
+Equip is an activated ability of Equipment cards. “Equip [cost]” means “[Cost]: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery.”
+
+Answer 3:  This is valid.  Devour has you sacrifice creatures, and you can only sacrifice creatures you control.  The creature you devour would go back to its owner's graveyard (in this case, your opponent's graveyard).
+
+702.80a: Devour is a static ability. “Devour N” means “As this object enters the battlefield, you may sacrifice any number of creatures. This permanent enters the battlefield with N +1/+1 counters on it for each creature sacrificed this way.”
+701.13a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+
+Question 4:  Yes, the Equipment would return to your friend's side of the table:
+
+701.3d To “unattach” an Equipment from a creature means to move it away from that creature so the Equipment is on the battlefield but is not equipping anything. It should no longer be physically touching any creature. If an Aura, Equipment, or Fortification that was attached to something ceases to be attached to it, that counts as “becoming unattached”; this includes if that object and/or that Aura, Equipment, or Fortification leaves the battlefield.
+403.1. Most of the area between the players represents the battlefield. The battlefield starts out empty. Permanents a player controls are normally kept in front of him or her on the battlefield, though there are some cases (such as an Aura attached to another player’s permanent) when a permanent one player controls is kept closer to a different player.
+

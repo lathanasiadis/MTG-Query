@@ -1,0 +1,21 @@
+Q:
+
+Can you counter a spell with indestructible?
+
+Can you counter an indestructible enchantment spell? For example, I cast Kruphix, God of Horizons. Can you counter the spell with a spell like Dissipate while it's on the stack?
+
+A:
+
+Yes, you can.
+The entirety of the rules for indestructible is that a creature with indestructible cannot be destroyed:
+
+702.12a Indestructible is a static ability.
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage.
+
+To destroy a permanent is not related to countering a spell in any way.
+To get even more technical, the spell does not have indestructible until after it resolves and becomes a permanent:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+(None of the listed exceptions apply here).
+

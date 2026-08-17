@@ -1,0 +1,26 @@
+Q:
+
+Should a judge assume that any triggers not mentioned have been missed when providing a ruling?
+
+Alice and Nathan are playing a friendly game of magic in a tournament run at Competitive REL. They run into a situation that they don't quite understand, and so they call for a judge. Jason arrives, hears the situation, and now needs to hand down his ruling.
+Jason notices that a trigger was missed that would affect his ruling if it were noticed. Should Jason simply assume that the trigger was missed while making his ruling?
+Actual Example
+Alive controls a Bloodfire Expert. Nathan taps three Mountains and casts Lightning Strike (which only costs {1}{R}). Alice casts Stubborn Denial, thinking that Nathan has no mana to pay. Nathan pays for it, and Alice calls for a judge because Nathan forgot to announce that he had remaining mana in his pool.
+Jason arrives, and notices that Alice did not mention the Prowess trigger on Bloodfire Expert. If she had remembered the trigger, Stubborn Denial would simply counter the Lightning Bolt because Alice would meet the conditions for Ferocious. What questions should Jason ask, and how should Jason rule?
+
+A:
+
+Jason should feel free to ask questions that may reveal that a trigger was missed, or even to ask directly whether an ability triggered.
+One kind of "free information" as defined in in section 4.1 of the tournament rules is
+
+Details of current game actions and past game actions that still affect the game state.
+
+This includes abilities that created continuous effects that still affect the game state, like the Prowess ability in the example would have if it triggered. That section of the rules then makes the following statements about judges and free information:
+
+Players must answer all questions asked of them by a judge completely and honestly, regardless of the type of information requested. Players may request to do so away from the match.
+
+Judges are encouraged to help players in determining free information
+
+If anything, the last sentence seems to encourage Jason to ask whether a triggered ability triggered, if it affects his ruling.
+Of course, if Jason's questions do remind the player of a triggered ability that they had in fact forgotten, Jason may have to make another ruling about whether the trigger actually counts as missed. But neither the possibility of giving that reminder nor the possibility of having to make that ruling should deter Jason from asking any questions that are relevant to the ruling.
+

@@ -1,0 +1,24 @@
+Q:
+
+Can an Instant spell be played during upkeep to interrupt a triggered ability?
+
+BACKGROUND:
+I played a Saga Rite of Belzenlok.  When the saga fully resolves you end up with four 0/1 Cleric creature tokens and a 6/6 black Demon creature with flying and trample.  At the beginning of my next upkeep I have to sacrifice a creature or the Demon token creature deals 6 damage to me. “At the beginning of your upkeep, sacrifice another creature.  If you can’t, this creature deals 6 damage to you.”
+At the beginning of my up keep I specified that I was sacrificing one of the 0/1 Cleric token creatures.  My opponent played an instant spell (Shock) killing the 0/1 Cleric token.  He then claimed that I revived 6 damage from the token Demon since I did not sacrifice a creature.
+QUESTION:
+Can an Instant spell be played during upkeep to interrupt a triggered ability?
+If so, in the situation described above, do I receive the 6 damage as my opponent claims?
+
+A:
+
+The sacrifice ability of the Demon token is not targeted, so you don't target the creature as the ability goes on the stack. You only choose the creature at resolution, during which no player can play other spells or abilities.
+As you already quoted, the sacrifice ability reads:
+
+At the beginning of your upkeep, sacrifice another creature. If you can’t, this creature deals 6 damage to you.
+
+That means the beginning of the upkeep step is the trigger that puts the ability on the stack. Since it doesn't include the word "target", you don't get to choose anything at that point. Your opponent is then free to respond to the ability and kill any creature before it resolves. When the ability does get to resolve though, no player gains priority during the resolution, and you choose one of the remaining creatures to sacrifice, if any remain.
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase "target [something]," where the "something" is a phrase that describes an object and/or player. The target(s) are chosen as the spell is cast; see rule 601.2c.
+116.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+116.2e Resolving spells and abilities may instruct players to make choices or take actions, or may allow players to activate mana abilities. Even if a player is doing so, no player has priority while a spell or ability is resolving.
+

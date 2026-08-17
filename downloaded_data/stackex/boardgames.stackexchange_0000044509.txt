@@ -1,0 +1,42 @@
+Q:
+
+Activate Aura of Dominion's ability on a creature Island
+
+My Island becomes a creature which then I enchant with Aura of Dominion:
+
+Can I pay the ability's cost of the Aura of Dominion with only the creature Island, because of some mana ability speed rules while declaring and paying costs?
+We know that the deck KCI abuses this kind of trick to sack two artifacts simultaneously while declaring the payment:
+
+Scrap Trawler and Myr Retriever can sacrifice to return each other.
+
+So wouldn't it be possible to simultaneously:
+
+Declare the Island tapped for the part Tap an untapped creature you control
+Pay the mana cost (1) with that same Island
+
+A:
+
+No, you can't untap an enchanted land creature with Aura of Dominion using only that enchanted land creature.
+The process of casting a spell and activating an ability work basically the same way:
+
+602.2a The player announces that they are activating the ability. [..]
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. [..]
+
+The relevant parts of the process of casting a spell are:
+
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. [..]
+
+Tapping an untapped creature is an additional cost.
+
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+If you wish to pay the {1} cost with the enchanted Island, then now is your last chance to produce it. However, once you do that, the Island is tapped.
+
+601.2h The player pays the total cost in any order. [..]
+
+Now you have to spend the 1 mana and tap an untapped creature. If you already tapped the Island for the mana it can produce, you can't tap that Island again for Aura of Dominion's additional cost.
+
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time.  [..]
+
+Note that the loops in the KCI deck work because the various "return to battlefield" abilities are triggered, i.e. they happen after the spell casting (or ability activating) process is finished, see 601.2i. That is a fundamental difference to the process you are asking about, because no triggered abilities are involved in that.
+

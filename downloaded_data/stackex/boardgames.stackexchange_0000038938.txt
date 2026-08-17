@@ -1,0 +1,16 @@
+Q:
+
+Do I have to spend 4 mana on Nissa, Steward of Elements to put 1 counter on her?
+
+Do I have to cast Nissa, Steward of Elements for 4 mana in order to put 1 loyalty counter on her?
+
+A:
+
+No, only three mana ({1}{G}{U}) is required for that.
+First of all, note that X is not derived from the cost, the cost is derived from the X you choose. (This matters if there are cost increases or cost reductions in play.)
+If you choose X=0, Nissa costs {G}{U} to cast[1], and she enters the battlefield without any loyalty counters (and dies immediately after).
+If you choose X=1, Nissa costs {1}{G}{U} to cast[1], and she enters the battlefield with one loyalty counter.
+If you choose X=2, Nissa costs {2}{G}{U} to cast[1], and she enters the battlefield with two loyalty counters. This is the highest X you can choose if you have four mana.
+
+Subject to cost increases and reductions, as usual.
+

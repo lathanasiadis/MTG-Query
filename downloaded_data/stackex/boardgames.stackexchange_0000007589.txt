@@ -1,0 +1,42 @@
+Q:
+
+Land ratio vs mana curve
+
+When choosing cards for a deck, one of the most important things to consider is the number of land you put in. The biggest issue is mana curve, of course. What shortcuts are best for determining the proper amount of land with a given mana curve?
+
+A:
+
+Basically, you're trying to find an optimal balance between "I need mana to play my spells in a timely fashion" and "I want to draw active cards all the time (which usually means spells)."
+For me, it boils down to a question of which lands drops do you need to make "on time".
+Because players start with an opening hand of several cards but subsequently draw one card per turn (typically), your access to mana isn't linear. On turn 1, you've already seen about 7 cards (and you can mulligan bad hands); making your first land drop is pretty easy even with only a dozen lands in your deck. By turn 4, you've seen only three more cards, so making your fourth land drop (which implies that you also made your first, second, and third ones on time, by the way) reliably now demands that something like 40+% of your deck be land.
+It gets even worse for decks trying to stick a six-drop on turn 6: on the face of it, it seems like you'd want over 50% of a deck to be lands! "Real" decks don't do that, though. Instead, decks that top out with some lethal six-drop either play ramp spells or other tricks to get there earlier, or they don't actually fret about resolving one on turn 6 (control decks with cards like Aetherling and Consecrated Sphinx, for instance, are more concerned with getting the mana for timely board control spells, like Supreme Verdict, than actually casting their finisher ASAP).
+One important subtlety here is that which cards you need to cast "on time" actually varies depending on your matchup. For example, you might have a combo deck that can reliably "go off" with just two lands, but needs additional mana in order to play counterspells, targeted discard, or redundant combo pieces to overcome disruption. Likewise, in a control mirror, making your land drops is very important, because you need to play a threat and then back it up with your other spells.
+
+As far as general rules of thumb:
+
+Based on the logic above and general consensus among MTG players, a "midrange" deck that relies on its three- and four- drops for heavy lifting should run about 24-25 lands (i.e. 40% lands). 16-17 lands is the equivalent in (40-card) Limited, and is very common. Most of the intro decks WotC prints come with 24 lands.
+
+Low-curve aggressive decks can get away with 20-22 lands. Some can function well on as few as 18-20. The idea here is that, unlike the "typical" deck above, you're only trying to hit your two-drops reliably, and being "mana-flooded" will usually cause a game loss as your deck runs out of steam.
+
+Ramp decks tend to be over 50% mana sources or land-fetching cards, but only 24-26 lands, or even less in environments with super-strong mana acceleration. You can usually cut a land for every two non-land mana sources like Birds of Paradise or Azorius Signet that you play. (Why every two? Because you still need some land to cast your non-land mana sources, and because non-land mana sources are actually pretty pointless unless you're also making your land drops. Also, mana dorks are fragile!) Make sure your accelerators are low enough on your curve that they actually accelerate you, also — for example, Pristine Talisman can help set up Elesh Norn and Gideon Jura, but it's pointless to put one in a deck that's all about Hero of Bladehold or Runechanter's Pike.
+
+Control decks generally run 24-28 lands, with card-draw and card-filtering to help them hit land drops. Low-cost card-draw or card-filtering cards, like Preordain, are kinda like mana dorks for land-count purposes — you'll see more cards, so you can afford to put fewer lands in the deck.
+
+Look at mana requirements other than casting spells, as well. For instance, a deck with Ulvenwald Tracker benefits from being able to cast big dudes and have them fight your opponent's creatures on the same turn, so it might want more lands than a deck with an equivalent casting-cost curve but no mana-intensive activated abilities.
+
+Decks for formats with super-efficient spells, like Legacy and Vintage, tend to run fewer lands than the numbers given above. You could reasonably see a 16-land aggro deck or a 23-land control deck in Legacy, for example.
+
+When available, lands that do stuff other than just tap for mana are a great way to get more "action" in your deck without going land-light. Examples range from Karakas in Legacy, to manlands (like Mutavault) everywhere they're legal, to Teetering Peaks in budget red decks. I've won several games thanks to the relatively minor secondary ability of Minamo, School at Water's Edge.
+
+Once your deck starts doing things with land cards other than tapping them for 1 mana each, the shorthand doesn't work. Two diametrically opposed examples here: Loam Assault is a deck that curves out at 3, but it plays around 28 lands because the goal is to hit the right mana to cast Seismic Assault, and then pitch your remaining lands to it (recycling with Life from the Loam); Green Tron decks play cards like Karn Liberated and Emrakul, the Aeons Torn but only run about 18-20 lands because they can make 7 mana off of three lands and are absolutely overloaded on land search and cantrips.
+
+Though the option is rarely exercised, don't forget that you can side lands in and out. Usually this is done when there are important utility lands that a deck might want to play. If you have the lands in your sideboard already, you can use them to alter your land count in order to match which spells are most time-critical for a specific matchup.
+For example, during the Innistrad and Return to Ravnica Standard seasons, some control decks would keep an extra Nephalia Drownyard or two in their sideboard. Drownyard was widely regarded as "the most powerful card in the control mirror, but playing too many lands put you at risk of mana flood against faster decks; having a lot of lands wasn't nearly as bad against other control decks because you got a huge advantage out of being able to play around Mana Leak, win a counter war, pay for a massive draw spell, or activate more Drownyards than your opponent.
+
+If your deck is truly weird, you'll need to throw all conventions out the window and figure it out from scratch. For examples of these, look up Dredge (note the variety of land counts within one archetype, based on cardpool differences!), Belcher, and Legacy Lands.
+
+Most of the suggestions above apply to non-60-card decks as well. Thus, a typical Limited deck will have 17-18 lands and a typical EDH deck will have 38-40, for instance. Additionally,
+
+In Limited, if you don't have enough playables, it's okay to just go heavy on basic lands — at least you'll avoid mana screw. I usually end up playing 17-18 lands even in low-curve aggressive decks because I'll only have about 22-23 cards I'll actively want to run (sorry, Diregraf Escort!).
+In EDH, decks of all colors have ample access to "mana rocks" (e.g., most notably, Sol Ring), and even aggressive decks tend to play cards that cost 6 mana or more. In some ways, nearly every deck is a little bit of a ramp deck.
+

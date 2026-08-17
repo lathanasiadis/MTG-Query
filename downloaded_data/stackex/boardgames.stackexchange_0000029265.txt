@@ -1,0 +1,79 @@
+Q:
+
+M:tG infinite loops: which actions are optional vs. mandatory? Is there inaction?
+
+I'm confused about how to interpret the rules regarding infinity. In particular, the rules speak of mandatory actions, from which I infer that there are also non-mandatory actions. How do I tell which are which? Are there such things as non-actions? If so, how do I tell them apart from actions?
+I would like to understand the terms, concepts and ways of applying the rules. For that purpose, here are some concrete scenarios:
+Scenario 1: Each player controls Platinum Angel enchanted with a Pacifism and has the remaining 58 cards exiled (no hand, no library, nothing else in play or graveyard). My intuition suggests this is a draw.
+I think the complete game state graph is a simple cycle whose length is the number turns per round (here equal to the number of players, two) times the number of times players pass priority in a do-nothing turn (the number of players times the number of steps in which players have priority, which is always the same).
+Since no player can do anything other than pass priority, the way I can get to a draw by reading the rules is if this is a sequence of only mandatory actions.  An open question: is this an empty sequence of actions, meaning passing priority is a non-action, or is it a sequence of some positive number of mandatory actions, all of them being passing priority?
+Scenario 2: Like scenario 1, but player 1 also has Mox Diamond in hand. Player 2 knows this, thanks to e.g. a Gitaxian Probe.
+I think the state graph is two parallel cycles, with an edge from one to the other---but not in the other direction---whenever player 1 could cast Mox Diamond, which would go to his graveyard since he doesn't have a land to discard. The game is initially somewhere in that loop which can reach the other.
+No state in the state graph is won or lost for either player, so I think the game should be a draw. The only way to get there, AFAICT, is if the current "loop" is one of only mandatory actions. But passing when you could play Mox Diamond could not be mandatory in the sense of you not being allowed to play Mox Diamond---could it?! But neither could playing Mox Diamond be mandatory, since you're allowed to not play the cards you have in hand. Hence I believe that passing priority is a non-action, and scenario 1 consists of an empty sequence of mandatory actions.
+Scenario 3: Like scenario 1, but replace both copies of Pacifism with Cloak of Mists and give each player an Energy Field.
+The same empty loop of mandatory actions from scenario 1 still exists. A player could also choose to attack (not mandatory). This would tap their Platinum Angel, but not change any life total, thanks to Energy Field.  The non-trivial part of the state space is the tapped/untapped state of each Platinum Angel, with a lot of passing of priority to flip back and forth between those four state( group)s.
+Does rule 716.3 take effect here?
+
+716.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+Example: In a two-player game, the active player controls a creature with the ability "{0}: [This creature] gains flying," the nonactive player controls a permanent with the ability "{0}: Target creature loses flying," and nothing in the game cares how many times an ability has been activated. Say the active player activates his creature's ability, it resolves, then the nonactive player activates her permanent's ability targeting that creature, and it resolves. This returns the game to a game state it was at before. The active player must make a different game choice (in other words, anything other than activating that creature's ability again). The creature doesn't have flying. Note that the nonactive player could have prevented the fragmented loop simply by not activating her permanent's ability, in which case the creature would have had flying. The nonactive player always has the final choice and is therefore able to determine whether the creature has flying.
+
+If so, what are its implications? Here is one interpretation of the rule: if a player could make a choice that would bring the game into a state in which it has been before, that player may not make that choice. But since the state space is finite in this scenario, sooner or later there will be a game state in which a player is not allowed to do anything: they are neither allowed to pass priority, nor not pass priority, all (other?) actions having been forbidden by my interpretation of this rule. The game can not continue from such a state, but neither is the outcome well-defined.  Hence I think my interpretation is wrong. But I don't know how else to interpret it.
+Does it only apply to loops that do not cross turn boundaries?  If so, how is this situation resolved?  Does the loop of mandatory actions rule apply, making the game a draw?
+Does Energy Field matter? Does Cloak of Mists? There are ten combinations: three quantities of each permanent, 0 or 1 or 2, and in case of 1 and 1, whether they are controlled by the same player or not. (Maybe times two, depending on whose turn it is when we enter this scenario for the first time.)
+Scenario 4: players control only Platinum Angel.  Both players have one million life.
+Same questions as scenario 3. Is a player ever forced to block (and lose)?  Assume it is the untap step of player 1's turn and both angels are untapped.  Do the life totals matter? Does it change if they're 1? If they're -1? If one is positive and one negative?
+Scenario 5: like scenario 4, but player 1 also controls a Swamp and has a Mox Diamond in hand, known via Gitaxian Probe.
+Same questions as the previous scenario.
+Scenario 6: like scenario 5, but player 1 has a Vendetta in hand instead of Mox Diamond.
+Same questions as the previous scenario. In particular: is it a drawn game immediately, even though player 1 could force a win if play continued? That would seem bizarre.
+Do the answers in scenario 5 and 6 depend on the card in hand being known?  If so, how?
+Exactly at what scenario does it stop being a draw and become won for either player?
+Scenario 7 ("Here be dragons"): both players have Worldgorger Dragon in their graveyard. Player 1 has an Animate Dead on the stack, targeting his own Worldgorger Dragon. All 117 other cards are exiled.
+Whenever Animate Dead re-enters play, player 1 must choose a target for it. He will only have two valid targets ever. Is targeting his own dragon a mandatory action? Is targeting the other player's dragon a mandatory action? Are two mutually exclusive actions mandatory, and what does that mean? Is neither action mandatory, making the drawn-game-on-mandatory-loop rule not apply? If it is only the choosing of a target that is mandatory, but not a particular target, would the game also be drawn with a Birds of Paradise in some graveyard (since the loop of always choosing dragon still exists)?
+
+A:
+
+The loop rules in the Comprehensive Rules do not cover these situations. However, a recently added section of the Magic Tournament Rules does address the scenarios in this question. Of course, the Magic Tournament Rules are not binding on casual "kitchen table" games, but it is reasonable to interpret them as a statement on how the game is intended to be played.
+Section 4.4 of the Magic Tournament Rules addresses loops, and contains the following relevant excerpts. Remember that the Magic Tournament Rules are written in plain English, and should not be treated as formal logic.
+
+A loop is a form of tournament shortcut that involves detailing a sequence of actions to be repeated and then performing a number of iterations of that sequence. The loop actions must be identical in each iteration and cannot include conditional actions ("If this, then that".)
+If no players are involved in maintaining the loop, each player in turn order chooses a number of iterations to perform before they will take an action to break the loop or that they wish to take no action. If all players choose
+  to take no action, the game is a draw. Otherwise, the game advances through the lowest number of iterations chosen and the player who chose that number takes an action to break the loop.
+If one player is involved in maintaining the loop, they choose a number of iterations. The other players, in turn order, agree to that number or announce a lower number after which they intend to intervene. The game advances through the lowest number of iterations chosen and the player who chose that number receives priority.
+If two or more players are involved in maintaining a loop within a turn, each player in turn order chooses a number of iterations to perform. The game advances through the lowest number of iterations chosen and the player who chose that number receives priority.
+Loops may span multiple turns if a game state is not meaningfully changing. Note that drawing cards other than the ones being used to sustain the loop is a meaningful change. If two or more players are involved in maintaining a loop across turns, each player chooses a number of iterations to perform, or announces their intent to continue indefinitely. If all players choose to continue indefinitely, the game is a draw. Otherwise, the game advances through the lowest number of iterations chosen and the player who chose that number receives priority at the point they stop taking an action to sustain the loop.
+The judge is the final arbiter of what constitutes a loop. A player may not 'opt-out' of shortcutting a loop, nor may they make irrelevant changes between iterations in an attempt to make it appear as though there is no loop. Once a
+  loop has been shortcut, it may not be restarted until the game has changed in a relevant way. Proposing loops as an effort to use up time on the clock is Stalling.
+
+Based on these rules, we would treat the scenarios in question as follows:
+
+This is a loop that spans multiple turns, in which neither player is involved in maintaining the loop. Both players can only choose to take no action, so the game is a draw.
+This is the same as the first scenario, except that player 1 may choose to take an action. If player 1 chooses to take the only available action of playing Mox Diamond, the loop resumes but neither player has any more meaningful actions to take. Either way, the result is the same: eventually both players choose to take no action, so the game is a draw.
+In this scenario, both players can choose to attack or not, but neither Platinum Angel can die. A reasonable judge would rule that changes to life total are not meaningful changes to game state if neither player can possibly lose the game. Since neither player can take an action that meaningfully affects the game state, they can only choose to take no action, and the game is a draw.
+This scenario is a multi-turn loop that both players are involved in maintaining. A single loop iteration here is any number of turn cycles with a fixed choice of whether each player attacks in their respective turns (I exclude blocks because a block would necessarily break such a loop). Each player in turn order chooses how many iterations to play out, or to play out indefinitely. If they choose to break the loop, they must take a different action. This may create a different multi-turn loop with similar parameters.
+A reasonable judge here would rule that decreasing a player's life total below 0 in this scenario does not constitute a meaningful change to the game state because it does not affect whether that player would lose if they stopped controlling a Platinum Angel. Therefore, we would eventually reach a state in which either both players choose to continue indefinitely, or neither player can take an action that meaningfully affects the game state (because both life totals are at 0 or less), or the loop is broken (because the Platinum Angels are dead and at least one player has a life total of 0 or less).
+While it is in principle possible for a player to create a long sequence of slightly varying loops in this scenario, the last quoted paragraph indicates that doing so violates other tournament rules.
+The Mox Diamond is irrelevant, so this scenario plays out exactly like scenario 4.
+This scenario plays out like scenario 4, except that player 1 has an additional action that they can choose to take. They are not required to take that action, but if they do they can easily win. If they don't, then it plays out exactly the same as in scenario 4.
+With just the Worldgorger Dragons, we have a sequence of unconditional triggers that cannot be broken or changed except in inconsequential details (which Dragon is reanimated). So this is an actual mandatory loop and the game is a tie. If there is also a Birds of Paradise in one graveyard, the player with the triggers can make a different choice and break the loop, so the loop is fragmented and the player must eventually break the loop.
+
+A previous version pointed out the following problems with trying to use the Comprehensive Rules to address the scenarios in question, and described some guidelines that can be inferred from the rules.
+Rule 716.3 says
+
+Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+
+But the rules do not rigorously or exhaustively define "action" or "choice". They do not even specify what counts as the "same" game state.
+Rule 716.4 says
+
+If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+But the rules do not define "mandatory".
+Rule 716.5 says
+
+No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop..
+
+One point of particular note here is that these rules explicitly mention objects involved in the loops and actions called for by those objects. They make absolutely no mention of actions or choices called for by turn-based actions, which implies that these rules are not intended to cover loops that cross phase boundaries. But we can distill a couple of guidelines from the intentions of those rules:
+
+Based on 716.4, we can say that if no player can ever do anything to end the game, then they should agree to a draw.
+Based on 716.5, we can say that no player is required to cast spells or activate abilities to change the outcome of the game, even if that outcome is a draw based on the previous guideline.
+

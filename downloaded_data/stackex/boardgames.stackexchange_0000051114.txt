@@ -1,0 +1,42 @@
+Q:
+
+How do mutate and ownership rules interact?
+
+Assume this state: I have Anax, Hardened in the Forge, which I own, on the battlefield. I've attacked with Robber of the Rich and exiled Chittering Harvester. Chittering Harvester has the "standard" mutate text on it:
+
+If you cast this spell for its mutate cost, put it over or under target non-Human creature you own
+
+To select a valid target I'm looking at the rules. Rule 109.5 says:
+
+The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller).
+
+Rule 601.2a says:
+
+To propose the casting of a spell, a player first moves that card (...) from where it is to the stack. It becomes the topmost object on the stack. (...), and that player becomes its controller.
+
+According to these you on the Chittering Harvester should refer to me and I should be able to target Anax.
+On the other hand rule 702.139a forbids this:
+
+(...) targets a non-Human creature with the same owner as this spell
+
+And based on 112.2, Chittering Harvester's owner is my opponent:
+
+A spell’s owner is the same as the owner of the card that represents it.
+
+According to the above two rules you on the Chittering Harvester should refer to my opponent and I can't target Anax.
+So do rules 109.5 and 601.2a contradict rules 112.2 and 702.139a?
+
+A:
+
+Reminder text is not rules text. The reminder text for mutate is shortened for readability, since owner and controller of a mutate spell are usually the same. Only the Comprehensive Rules are ultimately relevant.
+On reminder text:
+
+Reminder Text
+Parenthetical text in italics in the text box of a card that summarizes a rule that applies to that card, but is not actually rules text and has no effect on play. See rule 207.2.
+
+The rules for mutate say:
+
+702.139a Mutate appears on some creature cards. It represents a static ability that functions while the spell with mutate is on the stack. “Mutate [cost]” means “You may pay [cost] rather than pay this spell’s mana cost. If you do, it becomes a mutating creature spell and targets a non-Human creature with the same owner as this spell.” Casting a spell using its mutate ability follows the rules for paying alternative costs (see 601.2b and 601.2f–h).
+
+The reminder text on mutate cards is shortened from its actual rules text. This has been done to improve readability and to fit the lengthy text on the card. However, when it comes to special cases, it's important to remember that it has no relevance for the actual rules.
+

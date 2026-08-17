@@ -1,0 +1,18 @@
+Q:
+
+Does Mirrorworks still create a copy when the original has left the battlefield?
+
+I have a Mirrorworks in play, play an artifact and my opponent destroys the new artifact before the trigger resolves. Can Mirrorworks still create a copy of it even though the original isn't on the battlefield anymore?
+Can copies of cards that aren't in the battlefield be created?
+
+A:
+
+Yes, you will still get to copy the artifact.
+This is covered in the special rulings on Mirrorworks Gatherer page:
+
+If the artifact that caused Mirrorworks’s ability to trigger has already left the battlefield by the time the ability resolves, you can still pay 2. If you do, you’ll still put a token onto the battlefield. That token has the copiable values of the characteristics of that nontoken artifact as it last existed on the battlefield.
+
+This is because of the following rule:
+
+608.2g 608.2g If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 112.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+

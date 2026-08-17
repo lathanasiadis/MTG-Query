@@ -1,0 +1,45 @@
+Q:
+
+If a Planeswalker transforms into a creature during the main phase, but it is suddenly killed, is it still able to attack?
+
+A player summons Sarkhan, the Dragonspeaker. After entering the battlefield, keeping priority, the player activates the first loyalty ability, to immediately transform Sarkhan into a creature.
+At this point the priority passes to the opponent, who responds to Sarkhan's activated ability by casting a Lightning Bolt on the Planeswalker, and then, keeping priority, he also cast a Clockspinning choosing one of Sarkhan's loyalty counters as his target , and announcing he wants to remove one of them, since Sarkhan is not yet a creature and therefore can lose its loyalty counters.
+The priority is still to the opponent, who, having noticed how the number of Sarkhan's loyalty counters has,in the meantime,increased by one unit (since his controller paid the cost of his loyalty ability, or +1), he realizes that Sarkhan should still survive by still having (in theory):
+ 4 + 1 - 3 - 1 = 1 loyalty counter still on it.
+So, keeping priority, the opponent pays 3 colorless mana to use the Clockspinning's buyback ability, and taking it back in his hand.   
+(However, as I was pointed out by expert players - see comments below the question, for more details -  the just defined passage is not entirely correct: unlike as just explained, it is necessary to pay the Clockspinning mana cost and its buyback cost at the same time, so that it is possible to take this card back into your hand immediately after its resolution. In any case, as regards the explanation of the situation from which the question asked emerges, nothing changes.)   
+Then, keeping priority, he cast Clockspinning again, targeting Sarkhan's loyalty counter once again.   
+At this point,the question starts -
+
+the two players say they don't want to cast more spells, and the stack resolves: 2 clockspinnings, lightning bolt, Sarkahn's first loyalty ability, thus bringing the number of Sarkhan's loyalty counters to 0.
+In the end, of course, Sarkhan's ability must also be resolved, which therefore still allows them to transform into a creature, which can also attack immediately, because he has Haste among his abilities.
+At this point, since Sarkhan is now a creature, the active player goes to the attack phase and says he wants to attack with the just obtained legendary 4/4 red Dragon with haste.
+
+Since the number of Sarkhan's loyalty counters is now 0, and since the active player has just completed the main phase (there is a phase shift in between main and combat phases), I'd like to know if Sarkhan:
+1) has still time to join to the attack phase, because the transformation has resolved; or,
+2) ends up in his owner's graveyard before the attack begins,because Sarkhan's loyalty counters are equal to 0,and therefore the Dragon simply does not exist anymore,and unable to participate to the combat phase.
+
+A:
+
+There's a few small issues here:
+
+Buyback needs to be used while the spell is cast - it's an additional cost so the opponent will pay  for the first casting of clockspinning all at once, not  to cast and then decide to pay  for buyback.
+Buyback happens when the spell resolves - the card does not immediately return to hand, but goes to hand instead of grave when it resolves. This means Clockspinning will need to resolve before the opponent can re-cast it. At no point will both copies of clockspinning be on the stack together.
+
+These don't change what happens in the end in this case, but there are cases where it will matter, for instance you don't get the chance to decide to buy back or not after you see if the opponent is countering.
+For your actual question, Sarkhan's ability will resolve, but it will do nothing. The order of events and the actions of the Active Player (player) and Non-active Player (opponent) are this:
+
+Active Player casts Sarkhan, both players pass priority, he resolves and his +1 is activated, putting it on the stack and leaving Sarkhan with 5 loyalty.
+Active Player passes priority, Non-Active Player casts lightning bolt, targeting Sarkhan.
+Non-Active Player keeps priority, Non-Active Player casts clockspinning with buyback, targeting Sarkhan.
+Both players pass priority, Clockspinning resolves and removes a counter then returns to Non-Active Player's hand due to the buyback replacement effect.
+Active Player passes priority, Non-Active Player casts clockspinning without buyback, targeting Sarkhan.
+Both players pass priority, Clockspinning resolves and removes a counter then is put into Non-Active Player's graveyard.
+Both players pass priority, Lightning bolt resolves, doing 3 damage to Sarkhan, removing the last 3 loyalty counters.
+Sarkhan is put into the graveyard under rule 704.5i for having no loyalty counters. This is a state based action and cannot be interrupted.
+Both players pass priority, Sarkhan's ability resolves and tries to turn the planeswalker into a creature, however the object that used the ability no longer exists (the card is not in the same zone) so it fails to do anything.
+
+Note how both players pass priority every time something resolves - the whole stack doesn't resolve when both players choose not to use their priority to cast a spell or activate an ability, only the top of the stack resolves and after that each player gets priority again.
+
+As an interesting aside - Sarkhan is unusual among planeswalkers that animate in that he becomes only a creature, not a creature in addition to being a planeswalker. This means he cannot lose loyalty from damage as a creature, however clockspinning can still remove loyalty counters from him. If the last counter was removed from Sarkhan by clockspinning when he was already a creature, he would be able to attack and still on the field until the end of the turn, where he stops being a creature, becomes a planeswalker again and 704.5i puts him into the graveyard. Most of the planeswalkers that turn into creatures (mostly every copy of Gideon) stay planeswalkers while they are creatures, so removing counters from them with clockspinning after animation would still apply 704.5i would kill those immediately.
+

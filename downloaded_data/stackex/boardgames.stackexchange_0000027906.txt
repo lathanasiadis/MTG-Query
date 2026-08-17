@@ -1,0 +1,26 @@
+Q:
+
+What does "removed from the game" mean?
+
+I've seen some cards that say "remove from the game". For example, an old version of Swords to Plowshares says:
+
+remove target creature from the game.
+
+What does that mean? Is it different from "exile?
+
+A:
+
+"Remove from the game" means "exile", and all cards that say it have been given errata to say exile.
+For example, Swords to Plowshares in newer printings reads "Exile target creature." And no matter what, the Oracle text for cards (the card text shown on Gatherer) will always have the correct wording with "exile", even if the card has never been physically reprinted to fix it.
+There's a historical reference in the comp rules:
+
+406.7. Previously, the exile zone was called the "removed-from-the-game zone." Cards that were printed with text that "removes [an object] from the game" exiles that object. The same is true for cards printed with text that "sets [an object] aside." Cards that were printed with that text have received errata in the Oracle card reference.
+
+Specifically, this change was made in the Magic 2010 rules update. One of the big reasons for the change (besides "exile" just being shorter) was to try to clarify that they're not 100% for sure forever removed from the game, since that's not really true in general:
+
+The Reality: "Removed from the game" is increasingly a misnomer as we design more cards that use the removed-from-the-game zone as a temporary holding cell for cards that are very much still in the game. Like the "in-play zone," the name "removed-from-the-game zone" does a poor job of maintaining the game's fantasy metaphor.
+
+The Fix: The phrase "remove from the game" is being changed to "exile," which is shorter, more flavorful, and not at all misleading about actually being in the game. The zone is now called the "exile zone" and cards in it will be referred to as "exiled cards."
+
+Note that some cards do still refer to "outside the game" (e.g. Burning Wish). This has absolutely nothing to do with exile, which is a zone that is part of the game. "Outside the game" in tournaments means sideboards, i.e. actually totally outside the game, wasn't in your deck in the first place. In casual play it could mean your collection or something more restricted, depending on who you play with. Either way, they don't work with exiled cards. They used to back when it was called "remove from the game", but it was changed in the same rules update.
+

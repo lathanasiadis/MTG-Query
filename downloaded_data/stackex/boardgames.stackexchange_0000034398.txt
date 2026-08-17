@@ -1,0 +1,22 @@
+Q:
+
+does gaining control of an aura gaining control of a permanent give me the permanent?
+
+If my opponent steals a creature from me with Control Magic, I could steal it back by casting another Control Magic on it and (I think due to timing?) I would control the creature. 
+If instead I cast Steal Enchantment on the Control Magic, does the "You" become "me," and would I now control the creature?
+
+A:
+
+Yes, if you take control of your opponent's Control Magic, you also take control of the creature it enchants.
+The "you" on objects always refers to the controller of that object. If you take control of that object, you become the new "you". In the case of Control Magic, that also means that you take control of the enchanted creature.
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+If you cast your own Control Magic after the opponent played his, you would also take control of the creature. However, it's not due to timing, which governs who can take action and when, but because of the more recent timestamp of your Control Magic vs. your opponent's Control Magic timestamp, meaning the latest timestamp "wins":
+
+Interaction of Continuous Effects
+
+613.1b Layer 2: Control-changing effects are applied.
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
+613.6. Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+

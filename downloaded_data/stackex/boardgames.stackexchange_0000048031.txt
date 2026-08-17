@@ -1,0 +1,14 @@
+Q:
+
+Can I return a card from the graveyard that is active?
+
+Say that I have a Salvager of Ruin and Deliver Unto Evil and then I activated Deliver Unto Evil then use Salvager of Ruin to return it before it fully activates and if yes can I use this to return a card activating that exiles it at the end of the activation?
+
+A:
+
+No, that doesn't work for no less than three reasons:
+
+First of all, Deliver Unto Evil is a sorcery, while Salvager of Ruin's ability refers to permanents.
+Secondly, Deliver Unto Evil resolves while it is on the stack, and is only put into a graveyard after it full resolves. But before that happens, it exiles itself, so it never reaches your graveyard.
+Thirdly, you can't activate abilities while a spell is resolving (mana abilities are an exception in certain cases).
+

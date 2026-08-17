@@ -1,0 +1,33 @@
+Q:
+
+Does "sacrifice those creatures" happen all at once?
+
+Do the sacrifice triggers of Wake the Dead happen at the same time, or do I get to stack them?
+As an example, say I cast Wake the Dead targeting Liliana, Heretical Healer and another creature. Assuming no other creature dies until it's time to sacrifice the two, can I "save" Liliana into her Planeswalker form by sacrificing the other creature first?
+
+A:
+
+The sacrifices happen all at once. You cannot sacrifice them sequentially and use the death of the other creatures to flip Liliana.  But it works a little differently than you think.
+First, the sacrificing happens all at once (similarly to how board wipe cards like Wrath of God destroy all creatures at once).  However, rule 603.6d applies here.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous
+  effects that exist at that time are used to determine what the trigger
+  conditions are and what the objects involved in the event look like.
+  However, some triggered abilities must be treated specially.
+  Leaves-the-battlefield abilities, abilities that trigger when a
+  permanent phases out, abilities that trigger when an object that all
+  players can see is put into a hand or library, abilities that trigger
+  specifically when an object becomes unattached, abilities that trigger
+  when a player loses control of an object, and abilities that trigger
+  when a player planeswalks away from a plane will trigger based on
+  their existence, and the appearance of objects, prior to the event
+  rather than afterward. The game has to "look back in time" to
+  determine if these abilities trigger.
+
+This means that Liliana's ability will trigger and go on the stack!  However, when the triggered ability resolves and tries to exile Liliana, she no longer exists on the battlefield and does nothing.
+For reference see these other questions:
+
+What happens when a creature with “Whenever a creature dies” dies simultaneously with multiple other creatures?
+Does the 2nd ability of Teysa, Orzhov Scion trigger with mass destruction?
+When a permanent has a “When a creature dies” ability, and gets destroyed at the same time as creatures, does that ability trigger?
+

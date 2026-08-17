@@ -1,0 +1,33 @@
+Q:
+
+Creatures with Tribute and targeting
+
+Nessian Demolok, one of the latest creatures revealed in the Born of the Gods spoilers, reads:
+
+Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+When Nessian Demolock enters the battlefield, if tribute wasn't paid, destroy target noncreature permanent.
+
+My interpretation of this (and I presume this will be covered in the FAQ, but I figure it's good to get it 'on the record' here...) is that this would be covered by section 614 of the comprehensive rules, particularly sections 614.1c:
+
+614.1c Effects that read "[This permanent] enters the battlefield with . . . ," "As [this permanent] enters the battlefield . . . ," or
+"[This permanent] enters the battlefield as . . . " are replacement
+effects.
+
+and 614.12a:
+
+614.12a If a replacement effect that modifies how a permanent enters the battlefield requires a choice, that choice is made before the
+permanent enters the battlefield.
+
+And that as a result, the choice whether to pay tribute or not is effectively made just before the creature enters the battlefield, and so in particular the choice of whether or not to pay tribute will be made before targets are chosen for the 'destroy target noncreature permanent' ability (which goes on the stack the next time a player gains priority).  Does this look correct?
+
+A:
+
+Yes, this would be similar to Clone effects. Let's say you Clone a Nekrataal:
+
+You cast Clone
+Clone resolves
+As Clone comes into play, you choose Nekrataal
+Clone's triggered ability triggers and you choose a target for it
+
+None of the logic changes when it's your opponent making the decision.
+

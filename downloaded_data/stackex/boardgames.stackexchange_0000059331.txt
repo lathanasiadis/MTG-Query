@@ -1,0 +1,22 @@
+Q:
+
+Can the Treasure token from Collectors Vault be used to pay for Madness cost?
+
+If I tap Collector's Vault and discard a Fiery Temper, can I use the mana from the treasure token that Collector's Vault produces, to pay for the madness cost of Fiery Temper?
+
+A:
+
+Yes, you can do this.
+The ability of Madness that lets you actually cast it is a triggered ability. It will only go on the stack the next time a player would gain priority, which is after the Collector’s Vault finishes resolving.
+So first you fully resolve Collector’s Vault, though you exile Fiery Temper instead of discarding it. Then the Madness trigger is put on the stack. Then that trigger resolves, and when it does you can pay the mana to cast Fiery Temper.
+Now if “discard a card” were part of the activation cost rather than part of the effect, (Peace of Mind), then you wouldn’t be able to do this.  You would have to deal with the madness trigger before the activated ability resolved.
+
+702.35. Madness
+
+702.35a Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player’s hand. The second is a triggered ability that functions when the first ability is applied. “Madness [cost]” means “If a player would discard this card, that player discards it, but exiles it instead of putting it into their graveyard” and “When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn’t, they put this card into their graveyard.”
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.”
+
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+

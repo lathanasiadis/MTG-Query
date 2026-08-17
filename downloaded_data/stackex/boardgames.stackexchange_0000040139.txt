@@ -1,0 +1,24 @@
+Q:
+
+Can resolution of an ability be used to trigger another ability?
+
+Part of rule 117.10 says:
+
+the resolution of a spell or ability doesn’t pay another spell or ability’s cost, even if part of its effect is doing the same thing the other cost asks for.
+
+I am wondering if this means that the resolution of an ability can't be used to trigger another ability?
+
+A:
+
+Yes, it can.
+A simple example would be a "Tim" that taps for damage, like Prodigal Pyromancer. Combine that with any "Enrage" ability, like Bellowing Aegisaur. If Prodigal Pyromancer's ability targets Bellowing Aegisaur, then when it resolves, it will trigger Bellowing Aegisaur's ability.
+Here's rule 117.10:
+
+Each payment of a cost applies to only one spell, ability, or effect. For example, a player can’t sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn’t pay another spell or ability’s cost, even if part of its effect is doing the same thing the other cost asks for. 
+
+What 117.10 is saying is that if an ability requires a cost such as "Sacrifice an artifact" (Throne of Geth), then sacrificing an artifact as the result of the effect of another spell or ability (Storm Fleet Arsonist) doesn't pay for that cost.
+Or similarly, if you have an ability that requires you to pay life to activate it, losing life from another ability doesn't count as paying that cost.
+Note that 117.10 is under the section on "costs", so it is really talking about activated abilities, not triggered abilities. Activated abilities occur due to a player choosing to pay a cost to activate them. Triggered abilities happen whenever something happens.
+This is the difference between "Sacrifice a creature: gain 1 life" and "Whenever you sacrifice a creature, gain 1 life". The latter will trigger as a result of another ability making you sacrifice a creature, but the former will not.
+See this often-duplicated question for a similar common confusion.
+

@@ -1,0 +1,28 @@
+Q:
+
+Scion of the Ur-Dragon multiple transformation
+
+Consider this situation: I use the ability of Scion of the Ur-Dragon and put it in the stack. My opponent play Rending Volley in response targeting Scion of the Ur-Dragon. In response I use it's ability again and put it in the top of the stack. First the dragon's ability resolves and I can choose any dragon that is not blue or white to avoid the volley(lets say Shivan Dragon). Then the volley resolves and it does not do anything because it has an invalid target. What happens next? The last ability in the stack says that Scion of the Ur-Dragon turn into a copy of a dragon, but it's name has changed to Shivan Dragon. Can I transform it again anyways with the last ability in the stack (if my first intention was to transform it in Oros, the Avenger for example?
+
+A:
+
+It works. The following will explain the mechanics that you're asking about, passing over the parts you've identified.
+Scion of the Ur-Dragon, after the second activation of it's ability resolves, will be a copy of Shivan Dragon. Now, the First ability will try to resolve, and looks for the Scion of Ur-Dragon, finding it as Shivan Dragon.
+This is because of rules 109.1, 109.3, 201.4, and 201.5.
+
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+Your Scion of the Ur-Dragon, now a Shivan Dragon, is an object.
+
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. Objects can have some or all of these  characteristics. Any other information about an object isn’t a characteristic. For example, characteristics don’t include whether a permanent is tapped, a spell’s target, an object’s owner or controller, what an Aura enchants, and so on.
+
+Of the multiple Characteristics the object has, we care about its name: Scion of the Ur-Dragon.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+Specifically, we care about its name at the time the abilities of interest are activated, because that ability refers to it by name.
+
+201.5. If an ability of an object uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn’t the appropriate characteristic at the time.
+
+When the ability is activated and placed on the stack, though it said Scion of the Ur-Dragon at the time, it is referring to that card. Even after the effect of the second ability activation copies the Characteristics of Shivan Dragon, the ability on the stack still point at that card.
+

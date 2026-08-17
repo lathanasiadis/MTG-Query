@@ -1,0 +1,20 @@
+Q:
+
+Enduring Angel - when does the "you lose the game" part apply?
+
+Why does the Enduring Angel from Innistrad: Midnight Hunt has the following text:
+
+Then if Enduring Angel didn't transform this way, you lose the game
+
+When does it apply?
+
+A:
+
+Clones (like Clone) and tokens copies (created by effects like Cackling Counterpart) don't have a backside and can't transform for that reason. If you had a copy or clone of Enduring Angel and you tried to transform it you'd lose the game.
+Also, if it were under the effect of a card which stops it from transforming (like Bound by Moonsilver) you would also lose the game.
+Ruling:
+701.28c: If a spell or ability instructs a player to transform a permanent that isn’t represented by a transforming double-faced card, nothing happens.
+UPDATE (13-09-2023):
+Since the release of March of  the Machine tokens can transform (this was done to make the incubator tokens work). So, cards that create token copies (like from Cackling Counterpart) will be able to transform. This has also changed the ruling to:
+701.28c: If a spell or ability instructs a player to transform a permanent that isn’t represented by a transforming token or a transforming double-faced card, nothing happens.
+

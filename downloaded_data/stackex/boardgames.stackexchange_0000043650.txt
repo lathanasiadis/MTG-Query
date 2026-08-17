@@ -1,0 +1,16 @@
+Q:
+
+Creating a copy of a creature with "entering the battlefield" abilities
+
+The other day, while playing, my friend triggered Glimmervoid Basin, which gives each player a token which is a copy of a targeted creature (except the creature's owner). He chose to copy the Noggle Hedge-Mage, which has two enters-the-battlefield abilities. The question is: when these copies are generated, do they trigger the enter-the-battlefield abilities? Do token-copies "enter the battlefield?"
+
+A:
+
+Yes, the enter-the-battlefield ability will trigger.
+
+701.6a To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.
+
+When a token is created, it enters the battlefield. In the case of Glimmervoid Basin, the token's characteristics are defined by the creature it is copying, which includes any abilities it has.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics [...] The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

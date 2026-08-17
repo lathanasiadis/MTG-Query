@@ -1,0 +1,28 @@
+Q:
+
+Can I destroy a Whirler Virtuoso in time to stop it making a thopter?
+
+My opponent plays a Whirler Virtuoso. Can I Lightning Strike it before its ETB effect to stop my opponent from making a thopter?
+
+A:
+
+You can destroy Whirler Virtuoso and prevent them from making a thopter if they don't already have 3 energy to use.
+I'm going to assume you already understand how the stack and priority work. If not, I suggest you read this explanation of those features which helped me understand them when I started.
+Usually usage of Whirler Virtuoso would look like this:
+
+Whirler Virtuoso enters the battlefield.
+Its ETB ability goes on the stack.
+Its ETB ability resolves.
+Its ability is activated to produce a thopter.
+That ability resolves and they get a thopter.
+
+The time you need to cast a Lightning Strike is between steps 2 and 3. That is the earliest time you can cast a Lightning Strike in response, and the last opportunity you have to stop them getting a thopter. Doing so plays out like this:
+
+Whirler Virtuoso enters the battlefield.
+WV's ETB ability goes on the stack.
+Your Lightning Strike goes on the stack.
+Your Lightning Strike resolves. (WV dies and gets removed.)
+WV's ETB ability resolves, still giving the opponent 3 energy.
+
+If they already have 3 energy from something else (maybe a previous WV you destroyed this way), they can still activate that thopter-making ability just after either step 2 or step 3, before the Lightning Strike resolves. You can't stop that first thopter, but you can stop them making a second one.
+

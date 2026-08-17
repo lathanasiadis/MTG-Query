@@ -1,0 +1,21 @@
+Q:
+
+Cloning Mutated Creatures
+
+Mutate is a new mechanic in Ikoria. A lot has been said about how it works, but cloning is something I can't find mentioned on the net. Not sure if the comp rules have been updated yet, but my impression is that as it is one creature, a clone would get all of the mutated abilities. Is this correct?
+
+A:
+
+Cloning a mutated creature copies all the existing mutations
+This interaction has been put together by a modification of the first layer of continuous effect interactions and two new rules.
+
+613.1a Layer 1: Rules and effects that modify copiable values are applied.
+
+Previously, this layer applied 'copy effects'.  Now it's been generalized to apply 'copiable values', of which includes the newly created category of "merged permanents"
+
+721.2a A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)
+
+And mutate, the effect causing the permanents to merge, modifies the characteristics to include the rules text of the other objects.
+
+702.139e A mutated permanent has all abilities of each card and token that represents it. Its other characteristics are derived from the topmost card or token.
+

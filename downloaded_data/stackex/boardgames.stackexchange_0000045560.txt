@@ -1,0 +1,19 @@
+Q:
+
+Can creatures abilities target that creature itself?
+
+Can Spikeshot Goblin have itself as a target with its ability: "Tap: Spikeshot Goblin deals damage equal to its power to target creature or player"?
+Yes or No?
+I'm unsure as I read some things like "Rule 114.5. A spell or ability on the stack is an illegal target for itself." But I don't know if that Goblin's ability is on the stack or if it is an ability meant by that rule. Also for me an ability is another thing as a creature - so "itself" would mean the ability is targeting the ability, not "the ability is targeting the Goblin which has that ability".
+That's why I ask for a simple answer as Yes or No to the Spikeshot Goblin example above.
+
+A:
+
+Can Spikeshot Goblin have itself as a target with its ability: "Tap: Spikeshot Goblin deals damage equal to its power to target creature or player"?
+
+Yes. Spikeshot Goblin is a creature, and unless it somehow gains protection from red, shroud, etc. it's a valid target for its own ability.
+
+114.5. A spell or ability on the stack is an illegal target for itself.
+
+This only means the ability can't target itself, i.e. the ability itself. This is only relevant in rare cases; one example (for spells) would be that you can't change the target of a Counterspell on the stack to itself. (If you want to counter a Counterspell with e.g. Misdirection, you have to retarget Counterspell to Misdirection; when Counterspell tries to resolve, it will then fizzle because the Misdirection is no longer a valid target, and the original target of Counterspell will not be countered.)
+

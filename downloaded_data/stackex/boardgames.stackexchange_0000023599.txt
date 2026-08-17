@@ -1,0 +1,13 @@
+Q:
+
+Is a Regenerated Creature Removed from Combat?
+
+Say my opponent attacks me with a creature.  I use a burn spell to deal lethal damage, then he regenerates it.  Is it removed from combat at that point or does it still deal damage?
+
+A:
+
+Yes, when a creature is regenerated, it is removed from combat.
+The exact wording of the rule (701.12a) is
+
+If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.”
+

@@ -1,0 +1,50 @@
+Q:
+
+What happens to a reconfigured Artifact Creature when the equipped creature dies?
+
+I have a Creature and an Artifact Creature with reconfigure on the board.
+During a main phase I pay the reconfigure cost of the Artifact Creature to equip it to the Creature.
+Later I block with the equipped Creature and it dies to combat damage.
+Me and my friends disagree on what happens to the Artifact Creature, equipped to the Creature.
+
+Following some research, I can't find an answer to this but I have found the following (I'm new to MTG, so I may have misunderstood);
+
+"Equip as sourcery" is a mechanic that limits the play speed of reconfigure, it doesn't change the card type.
+An Artifact Creature is both an Artifact and a Creature so rules for both apply
+The combat damage that killed the equipped Creature was done soley to that Creature
+Nothing was played that specifically targeted Artifacts
+
+What I believe happens;
+
+Artifact Creature took no combat damage
+No Artifact removal was played
+Equipped Creature dies
+Artifact Creature returns to battlefield, as per behaviour of Artifacts.
+
+My friends argue that when it's equipped it's more like an enchantment due to "equip only as a sourcery", as part of the reconfigure explanation on the card, so it dies with it.
+What actually happens?
+
+A:
+
+You are correct, your reconfigure equipment survives combat. It turns back into a creature as soon as it becomes unattached, i.e. when the creature it had equipped dies.
+When you equip your creature with an equipment through reconfigure, the equipment stops being a creature for as long as it keeps equipping, but turns back when it becomes unattached:
+
+702.151b Attaching an Equipment with reconfigure to another creature causes the Equipment to stop being a creature until it becomes unattached from that creature.
+
+Only creatures can be in combat, and only creatures in combat can take combat damage. Your equipment was not a creature when combat damage was assigned, and even though the creature it had equipped was in combat, the equipment itself was not. Your equipment cannot possibly take combat damage from the current combat.
+When the equipped creature dies, the equipment becomes unattached and immediately turns back into its creature form, but that doesn't matter for the current combat.
+Note on this remark:
+
+Artifact Creature returns to battlefield, as per behaviour of Artifacts.
+
+Neither attaching nor unattaching an equipment removes it from the battlefield, so that doesn't cause it to return there either.
+
+My friends argue that when it's equipped it's more like an enchantment due to "equip only as a sourcery", as part of the reconfigure explanation on the card, so it dies with it.
+
+Your friends are in the wrong here. "Equip as a sorcery" only refers to the timing of when you can activate the ability, i.e. at the same time you could cast a sorcery. The "sorcery speed" (as it's commonly called) of the reconfigure ability has nothing to do with what happens on unattachment, and even if it did, the regular equip ability of other equipments is also sorcery speed, so it still wouldn't make a difference.
+Equipments are like aura enchantments only in that both can attach to something, and they unattach when the thing they're attached to dies or otherwise becomes illegal. However, one key difference between auras and equipments is precisely that equipments do NOT die when they become unattached:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+704.5n If an Equipment or Fortification is attached to an illegal permanent or to a player, it becomes unattached from that permanent or player. It remains on the battlefield.
+

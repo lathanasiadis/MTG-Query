@@ -1,0 +1,26 @@
+Q:
+
+What happens if a creature's ETB would bounce Thalia, Heretic Cathar?
+
+So during a game I had this scenario: 
+On my battlefield I have Thalia, Heretic Cathar, whose ability says
+
+Creatures and nonbasic lands your opponent control enters the battlefield tapped. 
+
+Now the opponent played a creature that said
+
+Whenever [this creature] enters the battlefield, return target creature an opponent controls to its owner's hand.
+
+Now the question is, even if my Thalia is returning to my hand, I think that her ability still triggers or am I wrong? Would that creature be tapped?
+In theory, since Thalia says that the creatures enter the battlefield tapped, this should resolve before the opponent's ability that says whenever the creature enters the battlefield, so according to the wording the opponent creature is already tapped before the ability resolves. 
+Is that correct?
+
+A:
+
+Yes, this is correct. Thalia's ability is a so-called replacement effect
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen-they aren't locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like "shields" around whatever they're affecting.
+614.1d Continuous effects that read "[This permanent] enters the battlefield . . ." or "[Objects] enter the battlefield . . ." are replacement effects.
+
+which doesn't go on the stack. Only when the new creature actually enters the battlefield (tapped), its enter the battlefield ability will trigger.
+

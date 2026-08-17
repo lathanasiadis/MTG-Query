@@ -1,0 +1,28 @@
+Q:
+
+In multiplayer, what happens if a player you're attacking dies before combat damage is dealt?
+
+I can't work this one out. For example:
+I declare a creature attacking one of my opponents (who's on 5 life). Before he/she declares blockers another player casts Beacon of Destruction (or similar), reducing his/her life to 0. They would then leave the game, correct?
+What happens to my attacking creature, does it still attack the player who is no longer there,  or is it no longer attacking?
+In a similar situation, if my opponent has a planeswalker and I attack it, if that planeswalker is destroyed or exiled before it gets to combat damage what happens with the attacking creatures?
+My guess is the damage is still dealt to the player/planeswalker no longer there and therefore doesn't do anything except tap the creature, but I'm not sure about this.
+
+A:
+
+Players leave the game as a state based effect, the next time any player would receive priority if their life total is zero or less.
+
+104.3b If a player’s life total is 0 or less, he or she loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+In the above example, after you declared your creatures as attackers (and made all necessary costs associated with declaring them as attackers...usually this is is just tapping the creatures), there is a chance for all players to cast instants or use activated abilities, and one of the other players cast BoD. Everyone once again has a chance to react to BoD, but if no one does, BoD resolves, and then the active player (you) receive priority. At this point, the opponent leaves the game.
+Your attacking creature remains an attacking creature until the end of your combat phase.
+In a non MP game, there would be no difference. Attacking creatures remain attacking creatures until the end of the combat phase.
+
+508.1j Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+
+Damage is never dealt to nonexistent players/creatures/planeswalkers.
+
+800.4d If combat damage would be assigned to a player who has left the game, that damage simply isn’t assigned.
+510.1b An unblocked creature assigns its combat damage to the player or planeswalker it’s attacking. If it isn’t currently attacking anything (if, for example, it was attacking a planeswalker that has left the battlefield), it assigns no combat damage.
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+

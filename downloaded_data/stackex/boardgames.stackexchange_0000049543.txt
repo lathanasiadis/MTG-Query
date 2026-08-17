@@ -1,0 +1,15 @@
+Q:
+
+Cauldron of Souls and Hydra Interaction
+
+To keep it short I'm making a Hydra Tribal edh deck and was thinking about including Cauldron of Souls. I am not sure how it interacts with hydra creatures where you have to pay X for them. If I have a Hydra with base 0/0 and 5 +1/+1 counters on it that dies and is brought back with Cauldron of Souls, is it now a 4/4 or does it instantly die as it is brought back as a 0/0?
+
+A:
+
+Cauldron of Souls is not really a good card in a Hydra deck. 
+
+107.3f If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.
+
+That means that if the Hydra enters the battlefield in another way (e.g. from the graveyard through an animate effect, Flicker, or persist), it has no knowledge about the X you spend when you originally cast it (which may be turns ago, or have not even happened at all). Instead, X=0, the Hydra re-enters the battlefield with 0 +1/+1 counters and it instantly dies (unless it has a base toughness higher than 1 - it needs to survive the -1/-1 persist counter as well).
+Otherwise, it would be a little overpowered, since +1/+1 and -1/-1 counters cancel each other out, and you would be able to repeatedly bring it back. (Though for 5 mana + the cost of the Hydra, you might expect such a powerful effect.)
+

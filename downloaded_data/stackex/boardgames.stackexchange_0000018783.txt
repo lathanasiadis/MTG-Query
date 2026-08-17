@@ -1,0 +1,49 @@
+Q:
+
+If a single effect would destroy a permanent multiple times, can regeneration replace it?
+
+Nancy controls a Runeclaw Bear enchanted by Hyena Umbra. Hyena Umbra has a regeneration shield, granted by Reknit. Anthony casts Planar Cleansing. This causes two replacement effects to apply. According to rule 616, Nancy gets to choose the order in which they apply.
+
+616.1. If two or more replacement effects are attempting to modify the way an event affects an object, the affected object's controller chooses one to apply [...]
+
+616.1d Once the chosen effect has been applied, this process is repeated [...]
+
+If Nancy chooses to apply Totem Armor first, and then Regeneration Shield, does Hyena Umbra survive?
+
+A:
+
+I copied the answer from here, where a similar question was answered by Daniel Kitachewsky. Daniel is a high-level Judge from France, and the goto-guy when judges don't know the answer.
+
+Planar Cleansing resolves and destroys all creatures, artifacts and enchantments.
+  I have a Runeclaw Bears enchanted with Boar Umbra.
+The replacement effect of the totem armor saves the Bears, but if I have a way to regenerate the totem armor, will I have to regenerate it once or twice?
+
+If there are two regeneration shields, the Bear Umbra is regenerated no matter what.
+If there's only one regeneration shield on it, it gets more complicated:
+- If the same player controls Runeclaw Bear and Bear Umbra, that player may choose whether the Bear Umbra is destroyed or not.
+- If the active player controls Runeclaw Bear and the nonactive player controls Bear Umbra, the Bear Umbra is regenerated.
+- If the active player controls Bear Umbra and the nonactive player controls Runeclaw Bear, the Bear Umbra is destroyed.
+Now for more detail:
+What happens is that we have an event that's trying to move objects from one zone to another, and some replacement effects trying to change that event. Moreover, when two effects try to do mutually exclusive things to an object, such as destroying it twice, only one of these effects continues to exists, before being modified by further replacement effects.
+A. In the scenario where one player controls both Runeclaw Bear and Bear Umbra, the event looks like this:
+A1. Destroy Runeclaw Bear, destroy Bear Umbra
+Two things try to replace this, regenerating the Bear Umbra and replacing destroying Runeclaw Bear by destroying Bear Umbra. The controller chooses which replacement effect to apply first; we'll see later if the other effect is still applicable.
+
+If the controller chooses to apply regeneration first, we get
+A2a. Destroy Runeclaw Bear, tap Bear Umbra
+replaced thanks to totem armor by
+A3a. Destroy Bear Umbra, tap Bear Umbra
+ultimately destroying Bear Umbra.
+If the controller chooses to apply totem armor first, we get
+A2b. Destroy Bear Umbra, destroy Bear Umbra
+modified into
+A3b. Destroy Bear Umbra
+because destroying an object twice is impossible, then replaced by
+A4b. Tap Bear Umbra
+And it's not destroyed!
+B. If Runeclaw Bear and Bear Umbra are controlled by different players, we fall into one of the scenarios above, but we don't choose which one.
+The active player applies the replacement effect trying to replace the event that affects the object he contols first, then the nonactive player gets to have his replacement effects.
+So:
+If the active player controls Runeclaw Bear and the nonactive player controls Bear Umbra, we first apply totem armor, then remove one of the "destroy Bear Umbra" effects, then regenerate it.
+If the active player controls Bear Umbra and the nonactive player controls Runeclaw Bear, we first regenerate Bear Umbra, then apply totem armor, thus destroying Bear Umbra.
+

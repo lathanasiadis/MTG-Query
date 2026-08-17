@@ -1,0 +1,43 @@
+Q:
+
+How fast can you win against a passive opponent in the Innistrad block format?
+
+There have been legacy decks in the past that were able to win a game in the first round, without even giving your opponent a chance to act. I wonder how many rounds minimum it would take to win a game in the Innistrad block format. In this format there are only cards allowed from Innistrad, Dark Ascension and Avacyn Restored.
+The assumptions are:
+
+Your opponent is totally passive and does not play more than a single land each turn until he loses.
+You start with the perfect hand and each card you draw is the perfect card.
+The deck must be legal.
+
+Please show the winning sequence with your answer.
+
+A:
+
+A solution for turn 2 on the draw. I can't seem to hit turn 2 on the play, but I -think- it's possible.
+Edit: This looks kinda ugly, so here's a link to a picture: https://i.stack.imgur.com/aw30D.png
+                                                                           Mana Pool           Cards in Hand
+Turn one                                                                    0                   8
+Plains                                                                      W                   7
+Doomed Traveler                                                             0                   6
+
+Turn two                                                                    W                   7
+Mountain                                                                    WR                  6
+Infernal Plunge, sacrificing Doomed Traveler                                WRRR                5
+Infernal Plunge, sacrificing Spirit, hold priority                          WRR                 4
+Increasing Vengeance, targeting Infernal Plunge                             WRRR                3
+Increasing Vengeance, targeting Infernal Plunge                             WRRRR               2
+Increasing Vengeance, targeting Infernal Plunge                             WRRRRR              1
+Resolve Infernal Plunge                                                     WRRRRRRRR           1
+Desperate Ravings, discarding Past in Flames                                WRRRRRR             1
+Doomed Traveler                                                             RRRRRR              0
+Flashback Past in Flames                                                    R                   0
+Flashback Infernal Plunge, sacrificing Doomed Traveler                      RRR                 0
+Flashback Infernal Plunge, sacrificing Spirit, hold priority                RR                  0
+Flashback Increasing Vengeance, targeting Infernal Plunge                   RRRRRR              0
+Flashback Increasing Vengeance, targeting Infernal Plunge                   RRRRRRRRRR          0
+Resolve Infernal Plunge                                                     RRRRRRRRRRRRR       0
+Flashback Desperate Ravings, discarding any card                            RRRRRRRRRRR         1
+Devil's Play for X=8, hold priority                                         RR                  0
+Flashback Increasing Vengeance, targeting Devil's Play, dealing 16 damage   0                   0
+Resolve Devil's Play, dealing 8 damage                                      0                   0
+

@@ -1,0 +1,15 @@
+Q:
+
+What happens if Combat Celebrant is killed during combat?
+
+What happens if Combat Celebrant attacks and is killed by blockers? Would the second combat phase still happen?
+
+A:
+
+Yes, the second combat phase will still happen.
+Abilities are completely separate from the source of the ability.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+In this case, Combat Celebrant has a triggered ability that causes the additional combat step. Once that ability triggers (upon exerting it), that ability is completely separate from the Celebrant itself.
+

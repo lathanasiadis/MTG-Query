@@ -1,0 +1,18 @@
+Q:
+
+Dictate of Erebos and Undercity Informer stack question
+
+Situation: My opponent has Dictate of Erebos out ("Whenever a creature you control dies, each opponent sacrifices a creature.").  He then attacks me with one of his creatures; I defend, killing his creature, but then I have to sacrifice a creature in response due to the enchantment.  I name Undercity Informer as the creature I will sacrifice.  In response to having to sacrifice him, I use his ability, pay 1, and sacrifice target creature (I chose Undercity Informer), and target opponent reveals cards from his/her library till they reveal a land and put all cards revealed into the graveyard.
+Does this then mean I have escaped the cost of Dictate of Erebos as when the stack now unfolds Undercity Informer is sacrificed and his ability works and the creature to be sacrificed has already been sacrificed, so therefore cannot be sacrificed?
+Or do I then pick a new creature to sacrifice?
+
+A:
+
+You must pick another.
+
+The Dictate's ability does not target, so the creature to sacrifice is chosen on resolution.
+If you self-sacrifice the Informer in response to Dictate's ability, then it won't exist when the Dictate's ability resolves, so it won't be a valid pick for the Dictate's ability. You'll have to sacrifice a creature among the other ones you have (if any) when the Dictate's ability resolves.
+If you wait for the Dictate's ability to resolve before doing anything, the Informer will no longer exist for you to activate its ability.
+
+If the Dictate's ability targeted, the choice of creature to sacrifice would be made when the ability is placed on the stack, meaning you get a chance to respond after the choice is made. If the creature no longer exists when the ability is about to resolve (e.g. because you self-sacrificed it), the ability fizzles and you wouldn't have to sacrifice anything more.
+

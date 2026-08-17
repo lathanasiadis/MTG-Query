@@ -1,0 +1,18 @@
+Q:
+
+Commandeering a spell with rebound?
+
+My opponent and I each have 5 1/1 soldier tokens on the battlefield.
+My opponent casts Nomads' Assembly, I cast Commandeer targeting the Nomads' Assembly and gain control of that spell.  No other spells are cast, nor any other shenanigans are performed during the rest of the turn.
+Once the spell resolves, I have 10 1/1 soldier tokens on the battlefield, and the spell is exiled.  Do I still control this exiled spell?  Or does my opponent now control this exiled spell?  I think rule 400.7 is the proper rule, but I'm not seeing this interaction explained.
+Specifically, my opponent owns the Nomads' Assembly while it is in exile, but do I control it?  Or does he control it as the card moves into exile?  When does the spell return to play?  And who gets to double their number of tokens? 
+
+A:
+
+The real outcome is that Rebound doesn't do anything: it doesn't get exiled, and nobody gets to cast it again.
+The definition of Rebound in rule 702.87a says
+
+Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. “Rebound” means “If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.”
+
+In your scenario, your opponent cast the spell, but you control it as it resolves. This means that you didn't cast it from your hand, so the condition isn't met and Rebound doesn't do anything.
+

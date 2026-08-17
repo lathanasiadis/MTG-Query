@@ -1,0 +1,29 @@
+Q:
+
+Does having one or two tap effects change anything for MtG dual lands?
+
+On MtG Arena, there is a notable difference between the shocklands and the other dual lands: the shocklands have two separate tap effects for the two colours:
+
+while the other dual lands (e.g. the guildgates, but also the check lands, gain lands etc) have one tap effect which can produce both colours:
+
+Does this difference have any practical impact - i.e. is there any way the game could be different if the shocklands had just one tap effect?
+(I acknowledge that Gatherer is the source of truth and that Breeding Pool and the other shocklands have just one tap effect there, but this does seem to be more than just a visual issue in Arena; the Arena client downloads the card database to the local disk, and with a bit of digging you can find that the shocklands do have two separate tap effects in the database. Feel free to consider the question as "Would this have any practical effect if the shocklands did have two tap effects?" if you'd prefer)
+
+A:
+
+Lands having one combined or several separate mana abilities has no direct gameplay effect, but is due to templating reasons. Lands with basic land types get their mana abilities inherently from the rules, rather than from the textbox, and other lands can get more compact, more readable explicit abilities. In Arena, lands with basic land types are handled subtly differently because of the advantages of a digital adaptation.
+In terms of interaction with other cards, there is interaction due to the number or ordering of abilities on an object. The game rules also make no mention of a hypothetical ordering of abilities on objects, so there is no relevant distinction between a first, second, third etc. ability.
+Whenever cards such as Humility and Experiment Kraj interact with abilities that fulfill certain criteria, it's always all of those abilities, so their number and/or ordering does not matter either.
+However, there are practical reasons why e.g. Breeding Pool has 2 mana abilities, and Simic Guildgate has one.
+First of all, the card Breeding Pool technically does not have any mana abilities, contrary to what you suggest. The text printed on paper Breeding Pool and what you see in Gatherer would imply one combined mana ability, but it is only reminder text that has no relevance to gameplay.
+
+Reminder Text: Parenthetical text in italics in the text box of a card that summarizes a rule that applies to that card, but is not actually rules text and has no effect on play. See rule 207.2.
+
+In-game, it has two mana abilities, which are granted (through the rules) only to the object the card represents:
+
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring to one of these subtypes. An object with the land card type and a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, “Mana Abilities.”
+
+Second, the two mana abilities printed on MTGA Breeding Pool are two explicit mana abilities, as can be seen from their non-italics font. It appears that they are explicit abilities, not inherent as in paper Magic, to simplify the rules implementation and type-changing effects in Arena. In other words, Arena does not implement the rule 305.6, but simulates it through templating and modification of effects that change land types. This is possible because in paper Magic, the text is (mostly) the rule, but in a digital game, you can have an arbitrarily large disconnect between card text and effect, because the computer does all the bookkeeping in the background.
+In summary:
+Whatever the source (rule or explicit), Breeding Pool needs 2 mana abilities because other cards can take away one basic land type (and thus mana ability) while leaving the other intact - 305.6 simplifies the templating necessary to add and especially take away mana abilities based on the basic land types a land gains or loses. Arena does not have to implement 305.6 because a computer can hide the bookkeeping from the player while showing readable text. Guildgates cannot lose a basic land type, so there are no templating problems in the first place, so it can have a single, compact ability for readability.
+

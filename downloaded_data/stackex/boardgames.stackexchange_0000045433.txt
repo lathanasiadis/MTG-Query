@@ -1,0 +1,13 @@
+Q:
+
+Can I deal indefinite amounts of damage to an indestructible creature?
+
+If I have an indestructible creature, can I deal an infinite amount of instances of damage since lethal damage isn't checked or since the effective "health" of the creature is at or below 0 would you not be able to target it anymore? Per se a creature with Enrage that was given indestructible could be dealt any number of instances of damage to constantly trigger?
+
+A:
+
+Yes, you can keep dealing an indestructible creature damage.
+Magic doesn't have any concept of “health”, although digital games might misrepresent this by appearing to reduce the toughness of a creature that's been dealt damage (no such thing actually happens in the game rules). The only relevant factors are that creatures have toughness and can have damage marked on them, and while creatures normally die when the damage equals or exceeds the toughenss, that doesn't happen for indestructible creatures. Since the indestructible creature is still there it can and will be able to still keep taking damage from effects.
+This behaviour is seen in combos such as a Stuffy Doll enchanted with Pariah: any damage dealt to you is instead dealt to Stuffy Doll which then deals an equal amount of damage to your opponent. Stuffy Doll could take dozens of points of damage, or frankly millions, even though its toughness is only 1.
+Yes, you could make an Enrage creature indestructible, ping it indefinitely, and indefinitely trigger its Enrage ability.
+

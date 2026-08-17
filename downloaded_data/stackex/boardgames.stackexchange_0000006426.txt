@@ -1,0 +1,55 @@
+Q:
+
+Does "prevent all damage to target creature" save the other creatures in a gang block?
+
+In The Great Designer Search 2, one of the participants designed this card:
+
+CW15 - Improvised Shield
+1W
+Instant
+Prevent all damage that would be dealt to target creature this turn.
+Draw a card.
+
+MTG designer Ken Nagle said this in his review:
+
+KEN: Nice enough. This kind of effect got better when we changed the
+  combat rules in Magic 2010. You can gangblock and the creature with
+  the Improvised Shield will protect everyone else.
+
+Is this correct? Which rules (in the comp rules) make it work out this way?
+For an example, say I attack with a 7/7 creature, and you block with a 3/3, 2/2, and 2/1. I arrange damage to the blockers in the same order. After blockers are declared, you cast "Improvised Shield" (or Indestructible Aura, if you want a real-card example) on the 3/3. What will happen during the combat damage step?
+If one of the blockers has or acquires a relevant protection ability, does the same thing happen?
+
+A:
+
+No; you must assign lethal damage in blocking order, but this doesn't take into account effects that prevent, redirect, or alter damage when it's actually dealt.
+From the Comprehensive rules:
+
+509.1. First, the defending player declares blockers. This turn-based action doesn't use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 717, "Handling Illegal Actions").
+509.2. Second, for each attacking creature that's become blocked, the active player announces that creature's damage assignment order, which consists of the creatures blocking it in an order of that player's choice. (During the combat damage step, an attacking creature can't assign combat damage to a creature that's blocking it unless each creature ahead of that blocking creature in its order is assigned lethal damage.) This turn-based action doesn't use the stack.
+
+bunch of other stuff happens.
+
+509.5. Fifth, the active player gets priority. Players may cast spells and activate abilities.
+
+Therefore, yes, there is an opportunity to play prevention spells after blockers are assigned and assignment order has been decided.
+So, the Oracle text for Indestructible Aura reads: Prevent all damage that would be dealt to target creature this turn. Let's use that on the first creature in the assignment order. Sounds like a plan.
+As per 615.6
+
+615.6. If damage that would be dealt is prevented, it never happens. A modified event may occur instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the impossible instruction is simply ignored.
+
+As per 509.2, the rest of the creatures in the assignment order can't be assigned damage unless the creature ahead of it has been assigned lethal damage. You might think "hey, all that damage is prevented, and therefore it never happened."
+But — wait a sec! We skipped the damage assignment part of the rules. This is the long and confusing but most important rule in this situation. Emphasis mine.
+
+510.1c A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If exactly one creature is blocking it, it assigns all its combat damage to that creature. If two or more creatures are blocking it, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocked creature to divide its combat damage. However, it can't assign combat damage to a creature that's blocking it unless, when combat damage assignments are complete, each creature that precedes that blocking creature in its order is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that's being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that's actually dealt. An amount of damage that's greater than a creature's lethal damage may be assigned to it.
+Example: The damage assignment order of an attacking Vastwood Gorger (a 5/6 creature) is Pride Guardian (a 0/3 creature) then Llanowar Elves (a 1/1 creature). Vastwood Gorger can assign 3 damage to the Guardian and 2 damage to the Elves, 4 damage to the Guardian and 1 damage to the Elves, or 5 damage to the Guardian.
+Example: The damage assignment order of an attacking Vastwood Gorger (a 5/6 creature) is Pride Guardian (a 0/3 creature) then Llanowar Elves (a 1/1 creature). During the declare blockers step, the defending player casts Giant Growth targeting Pride Guardian, which gives it +3/+3 until end of turn. Vastwood Gorger must assign its 5 damage to the Guardian.
+Example: The damage assignment order of an attacking Vastwood Gorger (a 5/6 creature) is Pride Guardian (a 0/3 creature) then Llanowar Elves (a 1/1 creature). During the declare blockers step, the defending player casts Mending Hands targeting Pride Guardian, which prevents the next 4 damage that would be dealt to it. Vastwood Gorger can assign 3 damage to the Guardian and 2 damage to the Elves, 4 damage to the Guardian and 1 damage to the Elves, or 5 damage to the Guardian.
+Example: The damage assignment order of an attacking Enormous Baloth (a 7/7 creature) is Trained Armodon (a 3/3 creature) that already has 2 damage marked on it, then Foriysian Brigade (a 2/4 creature that can block an additional creature), then Silverback Ape (a 5/5 creature). The damage assignment order of an attacking Durkwood Boars (a 4/4 creature) is the same Foriysian Brigade, then Goblin Piker (a 2/1 creature). Among other possibilities, the active player may have the Baloth assign 1 damage to the Armodon, 1 damage to the Brigade, and 5 damage to the Ape, and have the Boars assign 3 damage to the Brigade and 1 damage to the Piker.
+
+You prevent all damage to that target creature but the rest of the damage assigned to other creatures isn't prevented. In the middle of rule 510.1c it says that the attacker does not have to take into account any abilities that change the amount of damage actually dealt. If the attacker chooses, he could assign all the damage to the first creature and it all would be prevented, but he doesn't have to take the prevention effect into account so that would under most circumstances be sub-optimal.
+In your example, the attacker doesn't have to assign more than three damage to your first creature. Three damage is lethal damage. Among other options, his best choice would be to assign 3 damage to the first creature, 2 to the second, and two to the third, killing the 2/2 and 2/1 blockers.
+PS. If this is an accurate quote, Ken got it wrong in 2010. Here's the rule change announcement in 2009. From that post:
+
+So ... what is "lethal damage"? For the purposes of damage assignment, "lethal damage" is the amount of damage necessary for a creature to be destroyed, ignoring all abilities and damage prevention effects. In other words, it's that creature's toughness minus any damage that's already been dealt to it or that is simultaneously being assigned to it. It doesn't matter whether that creature has protection, is indestructible, will prevent the next 8 damage that would be dealt to it, etc.
+

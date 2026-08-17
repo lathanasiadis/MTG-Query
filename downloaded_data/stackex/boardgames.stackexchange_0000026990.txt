@@ -1,0 +1,31 @@
+Q:
+
+Does Void Winnower prevent my opponent from casting X spells with even base converted mana cost?
+
+The part of Void Winnower's text that is relevant is
+
+Your opponents can't cast spells with even converted mana costs. (Zero is even)
+
+I know that when checking the converted mana cost of a card with {X} in the cost, the X is considered to be 0 unless the card is a spell on the stack. So Black Sun's Zenith normally has a converted mana cost of 2. Does this mean that Void Winnower completely prevents me from casting Black Sun's Zenith, or that I can cast it if I choose an odd X?
+
+A:
+
+Void Winnower does not prevent you from casting a spell with {X} in the cost as long as you choose an X that results in the CMC of the spell being odd.
+Rule 202.3b says
+
+When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+
+In addition, the steps for casting a spell contain the following:
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. [...]
+
+601.2b [...] If the spell has a variable cost that will be paid as it’s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. [...]
+
+601.2e Based on the previous announcements, the game checks to see if the proposed spell can legally be cast based on applicable timing rules (including ones based on the card’s type) and other effects that may allow a spell to be cast or prohibit a spell from being cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 717, “Handling Illegal Actions”).
+
+So, you put the spell on the stack, then you choose X. At this point, the {X} in the cost is equal to the chosen X because of 107.3a. So, when you check whether the spell is legal in the later step, the CMC depends on X, so Void Winnower only prevents it from being cast if the total CMC including X is even.
+
+Void Winnower's Gatherer page now has a ruling that says
+
+For spells with {X} in their mana costs, use the value chosen for X to determine if the spell’s converted mana cost is even or not. For example, your opponent could cast Endless One (with mana cost {X}) with X equal to 5, but not with X equal to 6.
+

@@ -1,0 +1,30 @@
+Q:
+
+Flickering a Commander
+
+What happens when a Commander is hit with an effect such as Flicker or Otherworldly Journey, and that Commander's owner chooses to send the Commander to the Command zone instead of exile?
+Will the Commander come back to the battlefield at the end of the turn, or will it stay in the Command zone and have to be re-cast again? Does the answer change depending on whether the exiling card would bring the creature back immediately (Cloudshift), at a specific later time (Vanish into Memory), or an unspecified point in the future (Oblivion Ring)?
+
+A:
+
+In the Commander/EDH format, when a player's Commander/General would be either sent to Exile or to the Graveyard, that player may choose to instead send the Commander to the Command zone, as a replacement effect.
+When a replacement effect takes place, the original event never happened. When a player returns their Commander to the Command zone instead of exiling it, you can pretend the exiling spell says something to the effect of "return target creature to the Command zone," instead of "exile target creature."
+As to the question, the answer is: "it depends." What it depends on is not, in fact, the timing of the return to the battlefield, but the specific wording of the return. In particular, you must distinguish between referring to a card in the Exile zone ("the exiled card") and the card representing the object that left the battlefield ("that card," "it," etc.)
+
+Flicker: "return it to the battlefield"
+Momentary Blink: "return it to the battlefield"
+Otherworldly Journey: "return that card to the battlefield"
+Cloudshift: "return that card to the battlefield"
+Oblivion Ring: "return the exiled card to the battlefield"
+Voyager Staff: "return the exiled card to the battlefield"
+
+If the "flicker" effect looks at "the exiled card," it will only look to the Exile zone to find the card to bring back. Otherwise, the flicker will look to the first public zone that the object moved to (ie, the zone which the flicker effect moved the object to, as modified by any replacement effects), and because returning your commander to the Command zone is a replacement effect and the Command zone is a public zone, the flicker effect will track your Commander there. (Note: If your Commander changes zones before the flicker effect brings it back, the flicker will lose track and won't return your Commander to the battlefield. This is because by changing zones it has become a new object.)
+It is thus advantageous to return your Commander to the Command zone when it's exiled by "that card"-type flickers, as it will still return to the battlefield later... and if an opponent casts Stifle (or similar) on the return trigger or uses something like Time Stop to end the turn in response to the trigger, your Commander will merely be stuck in the Command zone (from whence you may re-cast it, paying the Commander tax), rather than stuck in Exile (from whence there are 3 cards in the game that could retrieve it).
+
+Notes:
+
+Natedogg rules on Cloudshift (Natedogg is a Net Rep for Wizards of the Coast)
+Sheldon rules on Mistmeadow Witch (Sheldon is one of the creators of the Commander/EDH format, and for many years was a Level 5 judge)
+Natedogg retracts a ruling against Glimmerpoint Stag
+Natedogg spells out the ruling explicitly
+

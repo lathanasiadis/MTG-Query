@@ -1,0 +1,23 @@
+Q:
+
+Appetite for the Unnatural and Clone Legion vs. hexproof creatures
+
+Clone Legion
+
+For each creature target player controls, create a token that's a copy of that creature.
+
+Appetite for the Unnatural
+
+Destroy target artifact or enchantment. You gain 2 life.
+
+Will this effect an enchantment on a creature which has hexproof?
+
+A:
+
+From the Comprehensive Rules:
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+Appetite for the Unnatural targets the enchantment, not the creature itself, so it will resolve and destroy the enchantment (unless the enchantment itself somehow has hexproof too).
+Clone Legion targets a player, not creatures, so unless that player has hexproof, it will make a copy of all their creatures, including the ones with hexproof. Any enchantments on those creatures won't be copied.
+

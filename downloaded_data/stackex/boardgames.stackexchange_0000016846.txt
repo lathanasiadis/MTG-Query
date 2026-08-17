@@ -1,0 +1,20 @@
+Q:
+
+Abilities that need a name and unnamed tokens
+
+I am fairly sure on this one, but I wanted to ask to be really sure.
+Say I have Secrets of Paradise and a deck with a lot of Rousing of Souls.  
+Am I right in thinking that because the tokens made by Rousing of Souls are just "1/1/ white Spirit" tokens (no name), there is no way for them to gain the tapping for mana ability that Secrets of Paradise can grant?
+
+A:
+
+Actually, the tokens made by Rousing of Souls will have the name "Spirit" by 110.5c:
+
+110.5c. A spell or ability that creates a creature token sets both its name and its creature type. If the spell or ability doesn't specify the name of the creature token, its name is the same as its creature type(s). A "Goblin Scout creature token," for example, is named "Goblin Scout" and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn't change its creature type, and vice versa.
+
+However, as there is no card named "Spirit", you cannot name it for Secrets of Paradise (per 201.3).
+
+201.3. If an effect instructs a player to name a card, the player must choose the name of a card that exists in the Oracle card reference (see rule 108.1) and is legal in the format of the game the player is playing. (See rule 100.6.) If the player wants to name a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) If the player wants to name a flip card's alternative name, the player may do so. (See rule 709.) If the player wants to name the back face of a double-faced card, the player may do so. (See rule 711.) A player may not choose the name of a token unless it's also the name of a card.
+
+Note that situations have occurred in the past, where "token names" have later been elevated to "card name" status. For example, in Future Sight, the white spellshaper, Goldmeadow Lookout made tokens named "Goldmeadow Harrier". At the time, you could not name "Goldmeadow Harrier" if an effect asked you to name a card. Sometime later, in Lorwyn block, Goldmeadow Harrier was actually printed as a creature card, which then did allow you name it if an effect asked you to name a card.
+

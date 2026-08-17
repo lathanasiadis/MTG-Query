@@ -1,0 +1,16 @@
+Q:
+
+Does Phantom Flock still prevent damage if it has no counters left?
+
+Was having an argument with a friend, and couldn't really resolve the issue via google.  Let's say, Phantom Flock ("If damage would be dealt to Phantom Flock, prevent that damage. Remove a +1/+1 counter from Phantom Flock.") is on the field, along with Aven Brigadier out, giving Phantom flock +2/+2. So the Phantom Flock is a 5/5, with 3 +1/+1 counters, and the buff from the Aven Brigadier.  Let's assuming then that I deal damage three times to the Phantom Flock, making it a 2/2.  If I then deal two more damage to it, does it die, or is the damage still prevented, removing an "invisible" +1/+1 counter from it?
+
+A:
+
+The damage is still prevented.
+The Gatherer rulings even mention this:
+
+The damage prevention ability works even if it has no counters, as long as some effect keeps its toughness above zero.
+
+This happens because whenever you can't do everything a card says to do, you do as much as you can. (As the rules, say, "609.3. If an effect attempts to do something impossible, it does only as much as possible.") The card says to prevent the damage, so it's prevented. It also says to remove a +1/+1 counter, and there's not, so you don't remove one. Oh well. This is the same reason that if something says sacrifice three creatures, and you only have one, you still sacrifice that one.
+If instead the card said "If damage would be dealt to Phantom Flock, remove a +1/+1 counter from Phantom Flock. If you do, prevent that damage." you would be able to kill it with damage once the counters were gone.
+

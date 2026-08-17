@@ -1,0 +1,17 @@
+Q:
+
+Does Adarkar Valkyrie's ability target cards in graveyard?
+
+Adarkar Valkyrie's third ability targets a creature and creates a delayed triggered ability that returns that creature to the battlefield when it dies this turn. It clearly targets the creature on the battlefield to create the delayed trigger. 
+Does that triggered ability also target the card that goes to the graveyard?
+For example, does Ground Seal prevent the trigger from resolving?
+
+A:
+
+Adarkar Valkyrie's ability does not target anything in the graveyard.
+As mentioned in the question, the activated ability clearly targets a creature on the battlefield using the phrase "target creature". That creates a triggered ability that effectively says
+
+When (that creature) dies, return that card to the battlefield under your control.
+
+The creature that the trigger condition checks is fixed as the activated ability resolves. It is not a target that you choose while putting the triggered ability on the stack.
+

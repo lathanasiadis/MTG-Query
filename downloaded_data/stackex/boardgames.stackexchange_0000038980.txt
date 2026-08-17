@@ -1,0 +1,22 @@
+Q:
+
+Can I Negate an instant cast via Torrential Gearhulk?
+
+My opponent plays Torrential Gearhulk and chooses Vraska's Contempt. Can I use Negate to counter Vraska's Contempt?
+
+A:
+
+Yes.
+Torrential Gearhulk's ability says the following (emphasis mine):
+
+When Torrential Gearhulk enters the battlefield, you may cast target
+  instant card from your graveyard without paying its mana cost.
+
+From the comprehensive rules, casting a card means (in part) "to take it from the zone it's in [and] put it on the stack".701.4  After your opponent selects the card Vraska's Contempt, it is put on the stack as a spell.
+Negate reads:
+
+Counter target noncreature spell.
+
+Again, from the comprehensive rules, countering a spell means "to cancel it, removing it from the stack."701.5
+Since Vraska's Contempt is on the stack, is a noncreature spell, and nothing else prohibits it, you are allowed to counter it using Negate.
+

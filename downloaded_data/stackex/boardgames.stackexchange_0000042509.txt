@@ -1,0 +1,22 @@
+Q:
+
+Can you sacrifice Corpse Hauler to its own ability and return it to the battlefield?
+
+The cost for Corpse Hauler's ability is to sacrifice it and pay 3 mana and then you can return target creature card from graveyard. Does that mean you can sacrifice the Corpse Hauler and then return it?
+
+A:
+
+No, because Corpse Hauler won't be in your graveyard yet at the time you need to choose the creature you return.
+The process of activating this particular ability goes like this*:
+
+Announce you're activating the ability and put that ability on the stack.
+Choose the ability's target.
+Determine the cost, then pay it.
+
+The problem here is that in step 2 we have to choose a creature already in the graveyard, but we don't actually put Corpse Hauler in the graveyard until step 3.
+It also says “another target creature”, where “another” means the target must be something other than this object. That doesn't change anything (since you couldn't target Corpse Hauler even if didn't say this), but helps make things clearer that the target must be something else.**
+However if you have two Corpse Haulers—one in the graveyard and one on the battlefield—they could loop each other back and forth.
+
+* Rules section 602 tell us how to activate abilities, and specifically 602.2b tells us to follow steps 601.2b–i which are the rules for casting spells in rules section 601.
+** Thanks GendoIkari.
+

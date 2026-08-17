@@ -1,0 +1,38 @@
+Q:
+
+Is Lone Rider's ability checked every turn or just the turn it was summoned?
+
+The text of the card Lone Rider says:
+
+At the beginning of the end step, if you gained 3 or more life this turn, transform Lone Rider.
+
+Does "this turn" mean only the turn the card is cast, or at the beginning of the end step of every turn?
+I am reading the card as referring to "this turn" being the turn in which this card is cast, but a friend of mine is reading "this turn" as following "the beginning of the end step" of ALL turns. The card itself I think lends itself to being probably only meaning "the turn this card is cast", because it would be I think very overpowered if "the beginning of the end step" means "at the beginning of the end step of all turns".
+So my question has two parts, lastly but perhaps more importantly, in the case of ambiguous MtG card text, what's the proper way to interpret the text?
+
+A:
+
+It does in fact trigger every turn (both yours and your opponent's!) in which you gain 3 or more life.
+From the Comprehensive Rules:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[Trigger
+  condition], [effect],” and begin with the word “when,” “whenever,” or “at.” They can also be
+  expressed as “[When/Whenever/At] [trigger event], [effect].”
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability
+  automatically triggers.
+
+So in this case, the ability triggers every time it's "the beginning of the end step", not just the turn the card was played. (Actually there's one more technicality here:
+
+603.4. A triggered ability may read “When/Whenever/At [trigger event], if [condition], [effect].” When
+  the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers
+  only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it
+  resolves...
+
+So if you haven't gained 3 life by the beginning of a given end step, the ability does not trigger at all during that end step.)
+
+MtG has been around for a long time and by now is shockingly good at having one definitive meaning for the text, so in general if there's something you don't understand, your answer probably exists in at least one of these places:
+
+The Gatherer page for the card in question - the "Rulings" section may have your answer (not this time though).
+The Basic Rules.
+The Comprehensive Rules. It'll definitely have your answer, but the answer may be hard to find because there's so much there.
+

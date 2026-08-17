@@ -1,0 +1,28 @@
+Q:
+
+How does Blood Scrivener work if I "draw 2 cards"?
+
+Blood Scrivener reads:
+
+If you would draw a card while you have no cards in hand, instead draw two cards and lose 1 life.
+
+If I cast Divination as my last card, how many total cards do I draw?
+
+A:
+
+You draw three cards and lose one life.
+
+"Draw two cards" means "Draw one card. Draw one card."[CR 120.2]
+For the first draw, Blood Scrivener's replacement effect would kick in[1]. You draw two cards and lose one life instead.
+For the second draw, Blood Scrivener's replacement effect would not kick in because you have two cards in your hand[2].
+
+Referenced Rules
+
+120.2. Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+Notes
+
+Divination was the last card in your hand, and it moved from there to the stack when you started casting it.
+
+Assuming you had at least one card left in your library. If you didn't, you'd lose another life. This isn't likely to matter, as you would normally lose immediately after the spell finishes resolving anyway.
+

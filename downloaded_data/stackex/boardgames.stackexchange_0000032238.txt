@@ -1,0 +1,40 @@
+Q:
+
+Divination and Psychosis Crawler
+
+Imagine the following scenario:  My last opponent is at one life. I have a Psychosis Crawler in play with the ability:
+
+Whenever you draw a card, each opponent loses 1 life.
+
+I have 1 card left in my library and cast Divination, which says:
+
+Draw two cards.
+
+Cards are drawn one at a time. So after the first draw, Psychosis Crawler triggers and my opponent loses his/her last point of life.
+Now, I am not sure what happens next. Both rules for losing the game apply:
+
+104.3b If a player’s life total is 0 or less, he or she loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+104.3c If a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+Is this a draw?
+
+A:
+
+You'll lose here. You're trying to draw too many cards before your opponent loses any life. (Your statement "after the first draw ... the opponent loses their last point of life" is where you went astray.)
+Psychosis Crawler does trigger off your card draw, but you lose the game when state-based actions are checked, before the trigger resolves:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no statebased actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+Your opponent doesn't lose life until the triggers resolve, so you draw your two cards before your opponent loses any life.
+To be specific, what happens is:
+
+You draw your first card. (Psychosis Crawler triggers, but the ability isn't on the stack yet.)
+You try to draw your second card, but can't, and now you're going to lose the game the next time state-based actions are checked.
+State-based actions are checked, and you lose the game. (Your opponent hasn't lost any life yet.)
+
+For you both to lose the game, resulting in a draw, the card draw and loss of life would have to be part of the resolution of the spell. For example, Urza's Guilt:
+
+Each player draws two cards, then discards three cards, then loses 4 life.
+
+could cause you to draw too many cards, and your opponent to fall to zero life, then you'd both lose at the same time after the spell resolves (when state-based actions are checked), and the game would be a draw.
+

@@ -1,0 +1,16 @@
+Q:
+
+Awaken targeting rules
+
+If my opponent plays Ruinous Path and pays the Awaken cost, then I make the creature it targets invalid (e.g. bounce, protection, destroying it myself, ...) is that enough to counter the spell due to targeting rules:
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal... The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. ...
+
+Are there 1 or 2 targets here? Does the land count as an additional target - so it still resolves because there is at least one valid target? Or is there only one target (the creature), as the other instance of the word "target" only appears in the reminder text not as actual rules text.
+
+A:
+
+You've mostly answered the question yourself, including the ruling quotations. Yes, paying Awaken cost will add a new target (a land), so if you make a first target illegal, it won't counter the spell to the full extent. And vise versa, as even mentioned in the linked article:
+
+Also, if a spell with awaken normally doesn't require a target, and you choose to cast it for its awaken cost, you will add a target to the spell by doing so. If that target land becomes illegal before the spell tries to resolve, the spell will be countered. You won't get any of its effects, including the first effect that didn't require a target. This won't come up a lot, but it's definitely something to be aware of.
+

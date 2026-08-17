@@ -1,0 +1,13 @@
+Q:
+
+Copying object and continuous type-changing effects
+
+Have a question about how cards like Mirage Mirror interact with continuous type-changing effects like that of ex. Enraging Licid. Want to make sure I understand layers correctly.
+Let's say I activate Mirage Mirror two times, first targeting whatever (ex Sol Ring), then targeting Enraging Licid so that it resolves to first become the Licid. Then, before having it become a Sol Ring I activate the Licids ability to have it become an Aura. Once it becomes a Sol Ring, am I correct in it still being an Aura due to the copying effect happening in Layer 1 and the type changing happening in Layer 4?
+Assuming I'm correct about the above. If I have ex. Copy Enchantment enter as a copy of this Aura-Sol Ring, will it then just be a regular Sol Ring since the type-changing is not a copyable trait?
+
+A:
+
+Yes, this is all correct. Copy effects happen in layer 1, and they only copy the base card and the results of effects that happen in layer 1. So a copy of the copy would only see the results of the latest copy effect.
+The licid effect happens in layer 4, to become an Aura enchantment, and layer 6, to remove the activated ability and gain "enchant creature". The licid effect is the result of the resolution of the activated ability, so once that ability resolves, the effect exists independently and isn't removed by anything else that modifies the object, including a new copy effect that turns it into a Sol Ring. Note that with the current Oracle text, the ability "Enchanted creature has haste" is part of the licid's base characteristics, so it would be replaced by a new copy effect.
+

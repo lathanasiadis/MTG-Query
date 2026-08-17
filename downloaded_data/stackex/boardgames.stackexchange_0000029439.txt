@@ -1,0 +1,15 @@
+Q:
+
+Does a Sorcery with Support trigger Zada, Hedron Grinder's ability?
+
+If a sorcery (like Press into Service for example) has the support ability, would casting it and supporting only Zada, Hedron Grinder activate his ability? Is the "targets only Zada" requirement met by the support? Or would the card have to specifically say "target creature"?
+
+A:
+
+Support has this definition:
+
+“Support N” on a permanent means “Put a +1/+1 counter on each of up to N other target creatures.” “Support N” on an instant or sorcery spell means “Put a +1/+1 counter on each of up to N target creatures.”
+
+So, "Support 2" on Press into Service is the same as if the card actually had "Put a +1/+1 counter on each of up to 2 target creatures" printed on it. This means that yes, if you cast a spell with Support N, and the only target is Zada, Hedron Grinder, then the ability triggers and the spell is copied.
+However, note that this is impossible with Nissa's Judgement (and Press into Service if you want to actually take control of an opponent's creature), because they require you to choose another target besides the ones you support.
+

@@ -1,0 +1,17 @@
+Q:
+
+How does Maddening Hex behave in 1 vs 1?
+
+Maddening Hex contains the following action:
+
+Then attach Maddening Hex to another one of your opponents chosen at random.
+
+When there's only one opponent, what happens to Maddening Hex?
+
+A:
+
+Maddening Hex stays attached to your opponent.
+Since you don't have another opponent, the instruction is impossible and it simply won't be executed.
+
+101.3. Any part of an instruction that’s impossible to perform is ignored. (In many cases the card will specify consequences for this; if it doesn’t, there’s no effect.)
+

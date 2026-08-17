@@ -1,0 +1,21 @@
+Q:
+
+Does Psychosis Crawler die in the middle of Days Undoing?
+
+Okay, so I have a commander deck that allows me to draw my entire library and I stumbled upon a strange situation.
+This is the chain of events I want to happen:
+
+Tap Niv-Mizzet, the Firemind with Curiosity attached to form an
+infinite draw combo.
+Cast Psychosis Crawler
+Cast Day's Undoing to return my hand and graveyard to my library and draw 7, reactivating the combo with Niv-Mizzet, the Firemind and Curiosity
+
+My question is, during the resolution of Day's Undoing, Psychosis Crawler's power and toughness will be reduced to 0 before I draw my 7 cards (as far as I'm aware?). Does this mean he will die before I activate the draw combo again to win?
+
+A:
+
+Psychosis Crawler won't die during the resolution of Day's Undoing.  Toughness check is done as a state-based action.  State-based actions are checked after each spell/trigger is done resolving.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any ...
+704.4. Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
+

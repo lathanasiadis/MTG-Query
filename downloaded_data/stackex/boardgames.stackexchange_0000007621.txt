@@ -1,0 +1,32 @@
+Q:
+
+How does this interaction between Black Sun's Zenith and Geralf's Messenger resolve?
+
+My opponent has a Geralf's Messenger in play with a single +1/+1 counter on it. He also has a Diregraf Captain in play. Due to the combined effects, the Messenger is a 5/4.
+When I cast a Black Sun's Zenith with X declared as 3, what happens to the Messenger?
+From a first glance, the messenger would die while it still had a +1/+1 counter on it. Is this correct?
+
+A:
+
+In this particular instance, the Messenger comes back.
+For the general reasoning, take a look at this answer: "Why doesn't Undying trigger if a creature with +1/+1 counters dies from -1/-1 counters?"
+The important thing in this specific scenario is that the game checks state-based actions in multiple "waves":
+
+704.3. ... If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that
+  are waiting to be put on the stack are put on the stack, then the
+  check is repeated. Once no more state-based actions have been
+  performed as the result of a check and no triggered abilities are
+  waiting to be put on the stack, the appropriate player gets priority.
+
+What happens when you BSZ for 3 with a Diregraf Captain and a 5/4 Geralf's Messenger in play?
+When BSZ resolves, you put three -1/-1 counters on both creatures. Then, after it has resolved, you check state-based actions:
+
+Diregraf Captain is at -1/-1, so it would die. Geralf's Messenger is at 2/1 (3/2, +1/+1 from its +1/+1 counter, -3/-3 from the -1/-1 counters, +1/+1 from Diregraf Captain), so it stays on the battlefield.
+Simultaneously, +1/+1 and -1/-1 counters cancel, leaving the Geralf's Messenger with zero +1/+1 counters and two -1/-1 counters.
+
+So, now you put Diregraf Captain in the graveyard. Then, before anyone gets priority or any triggers are checked (e.g. Blood Artist's), check SBAs again:
+
+Now Geralf's Messenger is a 1/0 (3/2, -2/-2 from counters), so it dies.
+
+When the Messenger dies, its unambiguously last state on the battlefield was having no +1/+1 counters. So, its undying ability triggers. You'll check SBAs again to make sure there are no new ones, then put the trigger on the stack, and then the active players gets priority  (with the undying ability still on the stack).
+

@@ -1,0 +1,29 @@
+Q:
+
+Destroying a Planewalker before its ability is used
+
+Say my opponent plays a planeswalker during their first main phase.  I have a Hero's Downfall or some other effect that will kill it after it is already in play, but before they use any of its abilities.  I could respond to them using a +1 ability, but I want to kill it before that effect goes on the stack.
+In most casual situations, it would basically come down to whether I say "Hero's Downfall" first, or they say "+1" first.  But I can't imagine that's how it's supposed to work.  Is there a time between when the planeswalker hits the battlefield and when they activate its abilities that they must let me respond? It seems to me that situations like this arise frequently, and they are resolved simply by who speaks up first, which is horrible for such a rules-oriented game.
+
+A:
+
+MTG is a turn-based game. There is never a time when it matters who said what first.[CR 117.1]
+After a spell resolves, the Active Player regains priority.[CR 117.3b] They can then activate one of their Planeswalker's abilities before anyone else can do anything. If you play a Planeswalker and it's not countered, you're practically guaranteed to get a free use of its loyalty ability if you use it immediately after the Planeswalker resolves.[1] The Planeswalker is effectively a very expensive Sorcery if your opponent proceeds to destroy it in response to its ability.[2]
+If you pass priority[3], then you could lose your chance to use the Planeswalker's loyalty ability because you allow your opponent to cast Hero's Downfall. If you cast another spell or activate another ability, or if an ability triggers in response to the Planeswalker entering the battlefield, then you could lose your chance to use the Planeswalker's loyalty ability because your opponent could cast Hero's Downfall in response this new spell or ability.
+However, if your opponent said they're casting Hero's Downfall before one of these things happen, they're playing out of turn[4].
+
+Notes:
+
+This doesn't apply if it's put into play, or if you somehow play it outside of your main phase or when the stack isn't empty. It also assumes that nothing triggers on it entering the battlefield.
+
+Compare Ajani Goldmane's +1 (2 life for 4) with Sacred Nectar (4 life for 2), although his -1 is better than common Marshaling Cry's for only one extra mana.
+
+For example, by declaring attackers. If you do so, your opponent can say "hold on" or similar (to "shorten your shortcut"), and cast Hero's Downfall.
+
+At which point, you say "hold on" or similar, and activate the ability.
+
+Rules:
+
+117.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+

@@ -1,0 +1,18 @@
+Q:
+
+Mercurial Pretender and Typhoid Rats interaction
+
+Player A has Mercurial Pretender on the board (copied a 4/4 creature)
+Player B attacks with Typhoid Rats
+Player A blocks Typhoid Rats with Mercurial Pretender
+Player A then pays 4 mana to "Return this creature to his owner's hand"
+Player A returns Mercurial Pretender to his hand, then says Typhoid Rats dies and goes to graveyard.
+Player B thinks that player A cannot both successfully block and return Mercurial Pretender to his hand, considering Typhoid Rats Deathtouch ability.
+Who is right?
+
+A:
+
+As noted by Hackworth, Player B is correct under the current rules that the Pretender can't kill the Rats if it is returned to hand. However, it did still block them successfully and the rats won't deal combat damage to Player A or anything else this combat.
+One possible source of confusion in the situation is that it used to work the way Player A thinks. You could "put damage on the stack" then play abilities in the combat damage step in response, before the damage resolved. 
+This was removed with the 2010 major rules update (the one that also changed Lifelink and Deathtouch). Now, player B is correct, because there is no place to respond between assigning and resolving damage.
+

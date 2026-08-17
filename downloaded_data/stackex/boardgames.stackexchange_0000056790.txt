@@ -1,0 +1,21 @@
+Q:
+
+How do Cenn Tactician and Lifelink creatures interact?
+
+I'm playing Magic the Gathering, running a Heliod Deck and have a question regarding interaction with Cenn's Tactician:
+
+Each creature you control with a +1/+1 counter on it can block an additional creature each combat.
+
+Say I'm being attacked by someone with two 1/1s, and I have 3 Heliod-buffed 2/2s with Lifelink, and Cenn is out, allowing the 2/2s to block an additional creature. Could I theoretically use each 2/2 to block separate 1/1's, overlapping and gaining 12 life?
+
+A:
+
+No, each creature can only deal damage equal to its power in a combat phase, no matter how many creatures it is blocking. So each of your three 2/2s will deal 2 damage, gaining you 6 life, not 12.
+
+Combat Damage Step
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all.
+510.1d A blocking creature assigns combat damage to the creatures it’s blocking. If it isn’t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If it’s blocking exactly one creature, it assigns all its combat damage to that creature. If it’s blocking two or more creatures, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocking creature to divide its combat damage. However, it can’t assign combat damage to a creature that it’s blocking unless, when combat damage assignments are complete, each creature that precedes that blocked creature is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that’s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that’s actually dealt. An amount of damage that’s greater than a creature’s lethal damage may be assigned to it.
+

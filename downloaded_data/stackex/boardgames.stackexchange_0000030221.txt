@@ -1,0 +1,16 @@
+Q:
+
+If I untap all my attackers, do they stay attacking?
+
+I have declared attackers and tapped them as stated in the rules. After the defending player has declared blockers, I cast Tenacity ("Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.") Can I now Untap them while they remain being attackers? Or do they stop being attackers? While the mechanics of this spell are clear when cast as a defending player before declaring blockers, the attacking side confuses me. I have been unable to find an answer over the internet.
+
+A:
+
+This is answered in the magic comprehensive rules, rule 506.4, in particular 506.4b:
+
+506.4 A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, or if it's an attacking or blocking creature that regenerates (see rule 701.12) or stops being a creature. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that's removed from combat stops being attacked.
+...
+506.4b Tapping or untapping a creature that's already been declared as an attacker or blocker doesn't remove it from combat and doesn't prevent its combat damage.
+
+So the attacking creature is not removed from combat when it is untapped.
+

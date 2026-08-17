@@ -1,0 +1,26 @@
+Q:
+
+Is there a way to block during your turn?
+
+I'm wondering if there's a way to get Snarespinner to reduce the cost of Molten Monstrosity by {3}. We can assume opponent has a flying creature. The idea is that with [mystery card/ability], I can get Snarespinner to block opponent's flying creature, and then cast Molten Monstrosity for {3} discount. I'm only interested in solutions where I cast Molten Monstrosity on my turn, at sorcery speed during one of my main phases.
+Relevant text of cards:
+
+Whenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn.
+
+and
+
+[Molten Monstrosity] costs {X} less to cast, where X is the greatest power among creatures you control.
+
+A:
+
+I don't think so. Comprehensive Rule (CR) 506.2 sets the defending player to be the non-active player:
+
+506.2. [...] During the combat phase of a two-player game, the nonactive player is the defending player.
+
+and CR 509.1 allows only the defending player to declares blockers:
+
+509.1. First, the defending player declares blockers.
+
+Therefore you cannot declare a creature as a blocker during your turn.
+(References are to the 2023-04-14 Comprehensive Rules).
+

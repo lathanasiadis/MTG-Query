@@ -1,0 +1,32 @@
+Q:
+
+What happens when multiple Canker Abominations enter the battlefield simultaneously?
+
+Alice and Nicholas each control five Elvish Mystics. Each graveyard has a Canker Abomination and nothing else. Alice casts and resolves Exhume.
+How many Canker Abominations remain on the battlefield after state-based actions are checked?
+More generally, what happens when multiple permanents with "as [this object] enters the battlefield" effects enter at the same time, specifically when the act of entering would change the board state in a way the effect cares about?
+
+A:
+
+After Exhume resolves, there are two Canker Abominations on the battlefield, each with 5 -1/-1 counters. Rule 101.4 says
+
+If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player's left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the "Active Player, Nonactive Player (APNAP) order" rule.
+
+Canker Abomination's ability says
+
+As Canker Abomination enters the battlefield, choose an opponent. Canker Abomination enters the battlefield with a -1/-1 counter on it for each creature that player controls.
+
+This is a replacement effect, as described in 614.1c. Clone, another creature with an enters-the-battlefield replacement effect, has a ruling on Gatherer that says
+
+If Clone somehow enters the battlefield at the same time as another creature, Clone can't become a copy of that creature. You may only choose a creature that's already on the battlefield.
+
+This means that when multiple permanents enter the battlefield simultaneously, they do not see each other when applying replacement effects.
+Therefore, the spell resolves like this:
+
+Exhume starts to resolve. Each player must choose a permanent in their graveyard to put on the battlefield.
+Alice chooses her Canker Abomination.
+Nicholas chooses his Canker Abomination.
+Alice chooses Nicholas for her Canker Abomination's ability. It will enter with 5 -1/-1 counters.
+Nicholas chooses Alice for his Canker Abomination's ability. It will enter with 5 -1/-1 counters.
+Both Canker Abominations enter simultaneously, each with 5 -1/-1 counters.
+

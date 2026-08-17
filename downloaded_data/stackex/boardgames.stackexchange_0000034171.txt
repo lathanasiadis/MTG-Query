@@ -1,0 +1,24 @@
+Q:
+
+Can I make a card that places a +1/+1 counter on an enchantment that isn't a creature?
+
+Say I want to create a card that places +1/+1 counters on non-creatures: 
+Egzampla 1R
+Creatures - Human Wizard
+1/1
+When Egzampla enters the battlefield, place +1/+1 counter on target enchantment.
+
+Is such an effect legal (so to speak), and is it considered good or bad practice from design standpoint?
+
+A:
+
+There is nothing in the rules that disallows counters from being on particular permanents. This means that +1/+1 or -1/-1 counters (or as in your title, 0/-1 counters) can be on artifacts, lands, planeswalkers or enchantments. Additionally, there is no rule that stops those counters from being placed, although the number of scenarios where that will happen are pretty few and far between.
+Example of a non-creature permanent with a +1/+1 counter on it: I crew my Heart of Kiran, then cast Oath of Ajani, putting a +1/+1 counter on each of my creatures. At the end of the turn, Heart of Kiran will no longer be a creature, but it will still have a +1/+1 counter on it. The introduction of vehicles to the game makes this a fairly common occurrence now, but even before it would happen often with lands, artifacts, or enchantments that had a way to become a creature temporarily.
+Example of a spell that puts +1/+1 counters on a non-creature permanent: Earthen Arms. The obvious intention is that you either put the counters on a creature, or cast the spell with awaken and get the extra counters on the land you "wake up". There is nothing stopping you from using this spell to slap +1/+1 counters on a non-awoken land, or enchantment, or planeswalker, or anything else however.
+Example of a non-creature that has a +1/+1 counter on it, and isn't meant to become a creature by itself: Llanowar Reborn gets a +1/+1 counter as it enters the battlefield, but isn't a creature, and doesn't have an ability on it that allows it to become a creature.
+Note that the same thing works in reverse: counters that normally belong to some other permanent, or permanent type, can end up on a creature that doesn't "know" how to use them, given the right circumstances.
+Example of counter weirdness, a non-planeswalker permanent with a loyalty counter on it: I activate Gideon, Ally of Zendikar's +1 loyalty ability, turning him into a creature until end of turn. I then activate Experiment Kraj's ability targeting Gideon to put a +1/+1 counter on him, giving Kraj all of his activated abilities. I can now activate Gideon's +1 loyalty ability on Experiment Kraj to give it a loyalty counter (and turn it into a 5/5 human soldier ally creature with indestructible, and prevent all damage that would be dealt to it this turn). When Gideon stops being a creature, Kraj will no longer have his loyalty abilities, but will still have the loyalty counter, with no real way to use it (at least, until it somehow gains loyalty abilities again).
+ADDENDUM: Good or bad practice? As you can see, there are a few official cards that can put counters on non-creatures, and that have no intention of turning those non-creatures into creatures.
+However, doing ANYTHING on a card without a reason is usually poor design by default, so I can't tell you whether or not your card is poor design without knowing the context. In a vacuum I can say that I think it's awful design, because it is a line of text that does nothing (if you wanted it to only be able to put counters on Enchantment Creatures, you would just have it say "target Enchantment Creature" after all). If it existed in a set where enchantments were prone to becoming creatures, it makes a little more sense, but I would still feel iffy about that as a design paradigm overall; there's a term, "parasitic mechanic", which refers to mechanics that only work within a single set. Placing counters on enchantment permanents is a VERY parasitic mechanic so you'd need a very good justification to convince me that it's good design.
+That said, quality of design is at least a little bit subjective, so there's no true yes-or-no answer to whether or not it's a good or bad idea.
+

@@ -1,0 +1,36 @@
+Q:
+
+When can an Ætherling use its blinking ability?
+
+If an Ætherling blocks something that could kill it, can it then use its blinking ability before it takes damage? I can't stop it with anything as it blocks and leaves with no damage.
+
+U: Exile Ætherling. Return it to the battlefield under its owner's control at the beginning of the next end step.
+  U: Ætherling can't be blocked this turn.
+  1: Ætherling gets +1/-1 until end of turn.
+  1: Ætherling gets -1/+1 until end of turn.
+
+A:
+
+As long as it is on the battlefield, Ætherling can use any of his abilities at any time when you have priority, unless another effect prohibits it.
+
+116.1b A player may activate an activated ability any time he or she has priority
+
+I suggest you read the relevant comprehensive rules, here, if you want to fully understand priority, but I'll provide two examples to make it easy.
+
+Your opponent has priority. He casts Doom Blade on your Ætherling.
+You get priority. You respond by using Ætherling's first ability.
+Your opponent gets priority. He does nothing.
+You get priority. You do nothing. Ætherling's ability resolves and he goes into exile.
+Your opponent gets priority. He does nothing.
+You get priority. You do nothing. Doom Blade goes to resolve and is countered by game rules for not having a legal target.
+
+As you may have noticed, every time both you and your opponent "do nothing", the top of the stack resolves. Let's looks at another example, in which you actually lose your Ætherling.
+
+There is a Pithing Needle in play with Ætherling as the named card.
+Your opponent has priority. He casts Doom Blade on your Ætherling.
+You get priority. You want to activate Ætherling's first ability, but you can't because of Pithing Needle, so you do nothing.
+Your opponent get's priority. He does nothing. Doom Blade resolves, and Ætherling is destroyed.
+
+In order to avoid games that take hours, players generally do not step through these phases. You are allowed to take shortcuts as long as your opponent agrees, but you are never obligated to do so. You may always ask your opponent to step through the official phases, and you should when it matters.
+Finally, it is worth mentioning that the Ætherling that comes back to the field is not the same Ætherling that went into exile. It may be represented by the same card, but anytime an object changes zones, it becomes a new object. Ætherling will lose all memory of who it was in a previous visit to the battlefield.
+

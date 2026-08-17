@@ -1,0 +1,17 @@
+Q:
+
+Is Prismite considered colorless or all colors for the purpose of Brawl/Commander decks?
+
+Me and the person I'm playing with were making Brawl decks. And we got into an argument about if Prismite was colorless or all colors. So which is it?
+
+A:
+
+It's colorless:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+Prismite's ability says: "{2}: Add one mana of any color." and not "{2}: Add {W}, {U}, {B}, {R} or {G}." No mana symbols appear in the rules text, so it's colorless.
+Note that Brawl uses the same definition of 'color identity' as Commander:
+
+903.11a Brawl is an option for a different style of Commander game. Brawl games use the normal rules for the Commander variant with the following modifications.
+

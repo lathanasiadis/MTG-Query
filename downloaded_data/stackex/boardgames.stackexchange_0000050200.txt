@@ -1,0 +1,25 @@
+Q:
+
+Casting creatures as spells - searching for the rules
+
+I need to find the ruling where it says, when I want to put a creature from my hand onto the battlefield, that I have to cast it and that it's a spell on the stack.
+
+302.1. A player who has priority may cast a creature card from their hand during a main phase of their turn when the stack is empty. Casting a creature as a spell uses the stack. (See rule 601, “Casting Spells.”)
+
+So now I have to find the rule where it says how to cast a creature as a spell:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal ; the game returns to the moment before the casting of that spell was proposed (see rule 725, “Handling Illegal Actions”).
+
+Problem here is that a guy just didn't want to accept that a creature is a spell before it enters the battlefield if cast from the hand, he meant that you don't have to cast the spell, just pay mana and there it goes onto the field.
+Background: Forgotten Ancient triggers whenever a player casts a spell. He didn't accept that creatures trigger here.
+Are there some more definite rules? Or a line where it says to play cards that you have to cast them, if nothing else stands on the card.
+
+A:
+
+We have
+
+701.13b To play a card means to play that card as a land or to cast that card as a spell, whichever is 
+  appropriate.
+
+There is no room in this rule for a way to "play a creature" other than casting it as a spell. Only lands go directly from hand to battlefield. Unless he has a card with an effect along the lines of "put a creature card from your hand onto the battlefield", as those creatures aren't spells.
+

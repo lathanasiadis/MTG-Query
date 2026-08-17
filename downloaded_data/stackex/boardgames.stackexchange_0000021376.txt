@@ -1,0 +1,19 @@
+Q:
+
+Thrashing Wumpus and Keen Sense
+
+If I control a Thrashing Wumpus, with Keen Sense on it and I spend 3 black mana to activate the ability of the Thrashing Wumpus, I get to draw 3 cards right? (If I have only one opponent that is) It doesn't matter if I tap all the mana in the same phase of my turn does it? The 3 black mana spend is still considered 3 individual activations of the Thrashing Wumpus' ability right?
+
+A:
+
+Yes, Keen Sense will trigger three times. Thrashing Wumpus' ability only costs one black mana to activate, so if you've spent three black mana, you've activated it three times. There's nothing weird in the rules about combining identical spells/abilities. When you activate an ability, you simply pay the cost (one black mana in this case) and put it on the stack.
+You can choose to let the first activation resolve before activating it a second (and third) time, drawing your card before deciding whether you want to activate it again. Most likely this is the way you want to do it, in case you draw something you'd rather spend your mana on.
+But even if you use the ability three times consecutively (without letting the previous ones resolve first), they still all go on the stack separately. If you then let everything resolve, the stack would evolve like this:
+
+{deal 1 damage} {deal 1 damage} {deal 1 damage}
+{deal 1 damage} {deal 1 damage} {draw a card}
+{deal 1 damage} {deal 1 damage}
+{deal 1 damage} {draw a card}
+{deal 1 damage}
+{draw a card}
+

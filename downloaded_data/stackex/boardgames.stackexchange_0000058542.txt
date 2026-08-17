@@ -1,0 +1,31 @@
+Q:
+
+Does High Ground let creatures that are not able to block, like Skrelv, Defector Mite, block?
+
+I am thinking of including High Ground in my mono-white deck. The deck has a lot of creatures and tokens that cannot block, like Skrelv, Defector Mite and the tokens created by White Sun's Twilight.
+Because of the way these cards are worded:
+Skrelv, Defector Mite:
+
+Skrelv, Defector Mite cannot block
+
+White Sun's Twilight:
+
+Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and "This creature can't block."
+
+I would assume that this means that High Ground will allow the creatures to block a second creature, but since Skrelv and the tokens cannot block, they still could not block any creatures. Is this correct?
+Second, are there any white or colorless cards that can grant the ability to block to cards like Skrelv and these tokens?
+
+A:
+
+I would assume that this means that High Ground will allow the creatures to block a second creature, but since Skrelv and the tokens cannot block, they still could not block any creatures. Is this correct?
+
+Yes:
+
+509.1b The defending player checks each creature they control to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+
+Skrelv says "Skrelv, Defector Mite cannot block", not "Skrelv, Defector Mite can block only 0 creatures." so it's definitely a restriction.
+
+Second, are there any White or Colorless cards that can grant the ability to block to cards like Skrelv and these tokens?
+
+Humility - the property that creatures can't block is an ability (cf. rule 113.2a), but that card has some serious side effects ...
+

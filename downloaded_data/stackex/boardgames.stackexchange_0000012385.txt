@@ -1,0 +1,29 @@
+Q:
+
+Is a 'Can't be countered' ability the same as 'protection From' or 'Can't be targeted?'
+
+Abrupt Decay, Loxodon Smiter and other Return to Ravnica cards have an ability that reads '{card name} can't be counterd by spells or abilites'. Does this mean it is not a legal target for a counter spell?
+this rule:
+
+112.6f An object's ability that states it can't be countered or can't be countered by spells and abilities functions on the stack.
+
+Simply states those abilities function on the stack, it makes no mention of giving the spell with the ability protection from spells.
+So can they be targeted by counter spells?
+
+A:
+
+"Can't be countered" spells are still legal targets for counter-spells.  They just won't actually get countered
+and this was already answered earlier today with the gatherer Rulings from Render Silent
+
+4/15/2013     A spell that “can’t be countered” is a legal target
+  for Render Silent. The spell won’t be countered when Render Silent
+  resolves, but that spell’s controller won’t be able to cast spells for
+  the rest of the turn.
+
+and here's another ruling which will help illustrate the difference between illegal targets of a spell and can't be countered
+
+4/15/2013     If the spell is an illegal target when Render Silent tries
+  to resolve (because it’s been countered by another spell, for
+  example), Render Silent will be countered and none of its effects will
+  happen. 
+

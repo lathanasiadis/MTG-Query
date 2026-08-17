@@ -1,0 +1,20 @@
+Q:
+
+What happens when two cards both modify what I'm allowed to do?
+
+Suppose my opponent has Teferi, Time Raveler in play, and I have a Leyline of Anticipation. The former says I can only cast spells any time I could cast a sorcery, and the latter says I can cast spells any time I could cast an instant.
+In this case, looking it up on Oracle gave me a direct answer in the past rulings: Teferi's ability overrides the Leyline's.
+But is this just an arbitrary decision? When cases like this come up, how can I decide which effect wins out without searching for specific rulings on each combination? As a general rule, when something like this happens in play, how should I figure out the result?
+
+A:
+
+But is this just an arbitrary decision?
+
+No, it's not.
+That specific interaction is governed by one of Magic's "Golden Rules", specifically CR 101.2, which states:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+  Example: If one effect reads “You may play an additional land this turn” and another reads “You can’t play lands this turn,” the effect that precludes you from playing lands wins.
+
+This is valid for any interaction of this kind. Therefore, the answer to your question is that the effect preventing you from taking an action has precedence over the effect allowing you to take that action.
+

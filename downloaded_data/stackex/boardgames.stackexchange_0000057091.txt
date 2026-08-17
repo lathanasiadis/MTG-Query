@@ -1,0 +1,18 @@
+Q:
+
+Daemogoth Titan as only creature
+
+Quick question about Daemogoth Titan rulings. The text say:
+
+Whenever Daemogoth Titan attacks or blocks, sacrifice a creature.
+
+Does this mean "whenever it attacks or blocks successfully" or rather "in order to declare it as attacker/blocker, you need to sacrifice a creature"?
+When does the sacrifice take place exactly and what happens if it's my only creature in play?
+
+A:
+
+Daemogoth Titan's ability is an triggered ability
+You can tell because it begins with the words  "when" or "whenever".
+Attaching or blocking with the Titan causes its ability to trigger. This trigger goes on the stack, and when it resolves you must sacrifice a creature.
+If you have no creatures to sacrifice the ability will do nothing. However, Daemogoth Titan is a creature itself, so unless the Titan left play between when it attacked and when its ability resolved, there will always be at least one creature available to sacrifice - the Titan itself.  While this would generally defeat the purpose of attacking, any creature the Titan blocked would remain blocked, so there is some utility there. Also, other abilities that trigger off attacking or blocking will still trigger even if the Titan is sacrificed to its own ability.
+

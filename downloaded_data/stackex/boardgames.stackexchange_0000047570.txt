@@ -1,0 +1,20 @@
+Q:
+
+Teferi's Time Twist and Gideon's Sacrifice
+
+I recently had a match with a friend. This was the situation: On my board, I had a 4/4 Zombie token produced with Amass and a Vampire Opportunist. My opponent had Neheb, Dreadhorde Champion on the board.
+In this situation I was unsure, if I could do this. I would attack my opponent with my 4/4 Zombie token. In the case he would block with his Neheb, Dreadhorde Champion I would cast Gideon's Sacrifice and redirect all damage to my Vampire Opportunist. In response of casting Gideon's Sacrifice I would cast Teferi's Time Twist and target my Vampire Opportunist.
+After resolving Teferi's Time Twist, my Vampire Opportunist isn't on the board anymore, so the damage dealt to my Zombie token is redirecting to nowhere, so my Zombie token would survive and his Neheb, Dreadhorde Champion would die. In my end step then, Vampire Opportunist would return with an additional +1/+1 counter.
+Are my thoughts right? Or do I miss something here?
+
+A:
+
+That is incorrect and if you look at the rulings on the card in gatherer you will see that they have a ruling for this case that states that the damage will not be redirected.
+
+If the chosen creature or planeswalker isn’t on the battlefield or isn’t a creature or planeswalker at the time damage would be dealt, the damage won’t be redirected.
+
+In the sequence of events both the zombie token and the Neheb, Dreadhorde Champion will die from damage in combat unless something else is done to save one of them.
+This is based on 614.9 of the comprehensive rules
+
+614.9: Some effects replace damage dealt to one creature, planeswalker, or player with the same damage dealt to another creature, planeswalker, or player; such effects are called redirection effects. If either creature or planeswalker is no longer on the battlefield when the damage would be redirected, or is no longer a creature or planeswalker when the damage would be redirected, the effect does nothing. If damage would be redirected to or from a player who has left the game, the effect does nothing.
+

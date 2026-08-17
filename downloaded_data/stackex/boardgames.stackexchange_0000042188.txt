@@ -1,0 +1,16 @@
+Q:
+
+Can a creature be destroyed just before Shalai gives it hexproof?
+
+At the start of the turn (it is B’s turn):
+Player A has a 2/2 Walking Ballista on the battlefield.
+Player B has a 1/1 creature on the battlefield.
+Player B casts Shalai, Voice of plenty, which gives hexproof to B’s creatures.
+Can player A, in response to B’s casting Shalai, then activate ballista’s remove a counter ability to deal lethal damage to B’s 1/1 creature?
+
+A:
+
+Yes, you can destroy the creature before it gains Hexproof.
+Shalai's ability is a static ability which does not take effect until after casting Shalai resolves (i.e. the spell leaves the stack and Shalai enters the battlefield).604.2  While Shalai is still on the stack, the static ability is not "active" and has no effect.
+Before Shalai resolves, Player A is given priority and can then use Walking Ballista's ability, which is also placed on the stack.  This ability will resolve before Shalai, killing the 1/1 creature before Shalai can give it Hexproof.
+

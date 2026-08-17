@@ -1,0 +1,20 @@
+Q:
+
+Does Teferi's Protection protect against Infect?
+
+Teferi's Protection has the clause
+
+your life total can't change
+
+If I get hit with a creature with Infect, what happens?
+
+A:
+
+Teferi's Protection does work against Infect. You missed a relevant part of the spell's text (emphasis mine):
+
+Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out.
+
+This means all damage to you is prevented (rule 702.16e), which also means the infect creature never applies poison counters to you.
+
+Technically, you can still gain poison counters (even through the protection) with cards that don't target players or deal damage such as Ichor Rats or Proliferate effects, or if the infect damage can't be prevented due to another effect (like Stomp or Questing Beast).
+

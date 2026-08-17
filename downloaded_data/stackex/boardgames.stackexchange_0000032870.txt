@@ -1,0 +1,58 @@
+Q:
+
+When does paying activated ability costs occur in mtg?
+
+I was playing a game of Commander with my friends a while ago and I had a Seal of Doom in play alongside a Starfield of Nyx and enough enchantments to make all my enchantments creatures. My opponent throws a creature removal spell at my Seal of Doom. In response I use Seal of Doom's activated ability and sacrifice it in order to destroy a creature. My opponent then responds by playing Snakeform on it. 
+My friend says that i can't activate its ability since it's no longer Seal of Doom and the ability reads "Sacrifice Seal of Doom: Destroy target creature". But isn't the cost payed once the ability goes on the stack and therefore isn't Seal of Doom already in the graveyard before his instant spell resolves? Or am I wrong and can you counter an activated ability this way?
+
+A:
+
+Costs are payed as part of the process of activating an ability. Once you start activating an ability, nobody has an opportunity to respond until after modes, costs, and targets are chosen, and costs are payed. So, the situation you describe should have played out like this:
+
+Your opponent casts a creature removal spell targeting Seal of Doom.
+In response, you activate Seal of Doom's ability. At this time, you sacrifice Seal of Doom.
+Your opponent has an opportunity to respond while Seal of Doom's ability is on the stack, but they can't target it with Snakeform because it is no longer on the battlefield.
+Seal of Doom's ability resolves.
+
+The rules for activating activated abilities use the rules for casting spells, and these are the relevant steps:
+
+602.2a The player announces that he or she is activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+
+[...]
+
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+601.2i Once the steps described in 601.2a–h are completed, the [ability becomes activated]. [...] If the [ability]’s controller had priority before casting it, he or she gets priority.
+
+Keep in mind that the original creature removal spell never does anything to Seal of Doom. Seal of Doom is sacrificed and the ability resolves all before that spell ever resolves. So even if that first creature removal spell had been another Snakeform, it wouldn't have mattered.
+
+A Variation on the Ability
+I would also like to clarify that even if the ability worked more like how your opponent thought it worked, they still wouldn't be able to stop it with Snakeform. Consider the hypothetical card Seal of Delayed Doom with the following ability:
+
+{0}: Sacrifice Seal of Delayed Doom. If you do, destroy target creature.
+
+The difference here is that the "Sacrifice Seal of Delayed Doom" clause is part of the effect instead of the cost, so you wouldn't do it until the ability resolves. If you had that instead, your situation would instead play out like this:
+
+Your opponent casts a creature removal spell targeting Seal of Delayed Doom.
+In response, you activate Seal of Delayed Doom's ability.
+In response, your opponent casts Snakeform targeting Seal of Delayed Doom.
+Snakeform resolves, and Seal of Delayed Doom becomes a 1/1 Green Snake with no abilities. But importantly, it's still the same Seal of Delayed Doom object, just with modified types, abilities, and color.
+Seal of Delayed Doom's ability resolves. At this point, it instructs you to sacrifice Seal of Delayed Doom, which refers specifically to the object that created the ability. So even though it's a Green Snake and doesn't have the ability, the Seal of Delayed Doom is still on the battlefield and you can (and must) still sacrifice it. You do so, and the targeted creature is destroyed.
+
+This is specified by rule 201.4:
+
+Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+Split Second
+There is one way that the opponent could have destroyed Seal of Doom without allowing you to sacrifice it in response: the ability Split Second prevents players from responding to it's on with other spells or activated abilities that aren't mana abilities. If the opponent cast any of the following spells as or instead of the first creature removal spell, then you would not be able to activate Seal of Doom in response or after the removal spell resolves:
+
+Krosan Grip
+Molten Disaster (kicked, with X at least 2)
+Sudden Death
+Sudden Shock
+Sudden Spoiling (would need to follow up with another removal spell)
+Take Possession (would need to sacrifice the Seal of Doom while you control it)
+Wipe Away
+Word of Seizing (would need to sacrifice the Seal of Doom while you control it)
+

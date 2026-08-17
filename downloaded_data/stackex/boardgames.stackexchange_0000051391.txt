@@ -1,0 +1,20 @@
+Q:
+
+Why is the ruling on Torbran the way it is?
+
+Someone today asked me about an interaction between Torbran, Thane of Red Fell and the newly previewed card Fiery Emancipation.
+I checked rule 616 and which states the "affected object's controller [or] affected player" decides the order in which to apply the replacement effects.  My interpretation of this is that the spell or permanent who's damage is being increased/tripled is the affected object and that they would chose the order to apply.
+Then I was shown the ruling on Torbran which reads:
+
+If another effect modifies how much damage your red source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Torbran’s effect no longer applies.
+
+What am I missing in my interpretation of the rules? I've been looking at it for awhile and I just don't understand how they came to this conclusion.
+
+A:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+Affected here means the 'target' of the event, not the 'source'. This is confirmed by the example on 616.1e:
+
+Example: Two permanents are on the battlefield. One is an enchantment that reads “If a card would be put into a graveyard from anywhere, instead exile it,” and the other is a creature that reads “If [this creature] would die, instead shuffle it into its owner’s library.” If the creature is destroyed, its controller decides which replacement to apply first; the other does nothing.
+

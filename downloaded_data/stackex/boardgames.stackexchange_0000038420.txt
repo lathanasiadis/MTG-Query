@@ -1,0 +1,50 @@
+Q:
+
+How does this interaction between Rustmouth Ogre and Padeem, Consul of Innovation resolve?
+
+This tricky interaction came up in the comments of the question When do artifacts lose hexproof when Padeem, Consul of Innovation dies? about the specific timing of when an artifact will lose hexproof when Padeem, Consul of Innovation dies. It was related to the original question but different enough that I was recommended to ask it as a new question.
+The situation involves two players, Aaron (Active Player) and Nick (Non-Active Player), and the following board state:
+Aaron's Board:
+
+Rustmouth Ogre (Whenever Rustmouth Ogre deals combat damage to a player, you may destroy target artifact that player controls.)
+Silverback Ape (5/5 creature)
+
+Nick's Board:
+
+Padeem, Consul of Innovation (gives all of Nick's artifacts hexproof)
+Ornithopter (0/2 artifact creature)
+
+During combat Aaron swings at Nick with his entire board, blocks are as follows:
+ - Silverback Ape is blocked by Padeem (Padeem dies)
+ - Rustmouth Ogre is unblocked (its ability triggers)
+My question is, can Aaron use Rustmouth Ogre's ability to destroy Nick's Ornathopter?
+
+A:
+
+In this situation, Rustmouth Ogre's ability can target and destroy the Ornithopter.
+First of all, triggered abilities trigger immediately when their trigger event occurs, but don't get put on the stack until the next time a player would gain priority. The rules that describe this are in the triggered abilities section of the rules:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. [...]
+
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. [...]
+
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+
+As you can see, even though the ability triggers immediately, its targets aren't chosen until the ability is put on the stack. This is important because the State-based actions rules include this rule:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+In short, the highlighted section of that rule means that triggered abilities are put on the stack after state-based actions have been completely evaluated. The state-based action that is relevant to this question is
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+So, in the situation described, the sequence of events plays out like this:
+
+Combat damage is dealt. Rustmouth Ogre's ability triggers.
+State-based actions are checked. Padeem dies.
+Rustmouth Ogre's triggered ability is put on the stack. Its targets are chosen at this time, and Ornithopter is a legal target because Padeem is no longer on the battlefield.
+Aaron gets priority for the first time after combat damage.
+After Aaron and Nick both pass priority, Rustmouth Ogre's ability resolves and the Ornithopter is destroyed.
+

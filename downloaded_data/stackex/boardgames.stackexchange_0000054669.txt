@@ -1,0 +1,15 @@
+Q:
+
+MtG Arena - Dina and lifelink
+
+On the board I had Dina, Soul Steeper and another creature with lifelink. My opponent had huge advantage on the board, but was at 1 life. He attacked with everything. I expected to lose dozens of lives, but trigger Dina by blocking one guy with lifelink creature, and cause opponent to go to 0, resulting in draw. Instead, I had just lost outright.
+Why?
+
+A:
+
+I believe your confusion is around triggered abilities and the stack.
+In your scenario all combat damage is assigned and resolved, and state based actions are handled first.  (i.e. life totals are checked).
+If you survive, then all triggers are placed on the stack.
+But you didn't survive combat, so Dina's triggered ability did not get on the stack.
+Bottom line, you have to survive combat damage in order for Dina's triggered ability to get placed on the stack.
+

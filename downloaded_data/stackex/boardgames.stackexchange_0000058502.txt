@@ -1,0 +1,34 @@
+Q:
+
+Jhoira, Ageless Innovator and Prototype Artifacts
+
+So I read about her and I read about prototype artifacts and new rulings about them. Yet not sure if this will work
+You have Jhoira, Ageless Innovator on the battlefield, say with 4 counters on her. You tap to make her have 6.
+Card in hand are Skitterbeam Battalion and Hulking Metamorph.
+Can you cast either one of these cards for free with Jhoira?
+The reason I ask is that the Prototype value of both the cards are less then or equal to 6, and they are artifacts...
+This is what I got from wizards
+
+10/14/2022    - Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+
+10/14/2022    - The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped from your graveyard.
+
+10/14/2022    - Casting a prototyped spell isn’t the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast the spell normally, or as a prototyped spell.
+
+10/14/2022    - When casting a prototyped spell, use only its prototype characteristics to determine whether it’s legal to cast it.
+
+With that said — MTGA - WON'T allow you to cast either cards in hand with Jhoira… and I believe you should be able to...
+
+A:
+
+Jhoira's ability refers to the mana value of cards, whereas Prototype - while allowing to cast the card for a different amount of mana - does not in any way interact with the mana value of the card until it is cast:
+
+702.160a (...) A player who casts a spell with prototype can choose to cast that card "protoyped." If they do, the alternative set of its power, toughness, and mana cost characteristics are used. (...)
+
+719.4. In every zone except the stack or the battlefield, and while on the stack or the battlefield when not cast as a prototyped spell, a prototype card has only its normal characteristics.
+
+The mana value of each of the creatures you mentioned is greater than 6, so not being able to put them onto the battlefield with Jhoira's ability is a correct implementation of the rules.
+
+In case that the confusion stems from what exactly "casting" means - casting a spell is putting it from your hand onto the stack, which allows you to - among other things - choose to cast a creature as a Prototype if it has that characteristic.
+Jhoira however puts an artifact on the battlefield as part of her activated ability. This means that the creature is never being cast (it's not even on the stack at any point - only Jhoira's ability is). Instead, when Jhoira's ability resolves, you choose a creature that fits the requirements from among the cards in your hands, and put it on the battlefield directly. Since the creature isn't being cast, you cannot choose to have it enter as a Prototype, nor do the Prototype costs ever apply to the process, as explained above.
+

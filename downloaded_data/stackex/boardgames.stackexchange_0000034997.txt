@@ -1,0 +1,21 @@
+Q:
+
+If I summon a world breaker can I exile a card my opponent owns?
+
+I summon World Breaker and want to destroy my opponent's land.
+But my opponent thinks I should exile one of my own lands, as cost to summon a World Breaker.
+Whose lands am I allowed or required to exile in this case?
+
+A:
+
+Worldbreaker's cast trigger says:
+
+When you cast World Breaker, exile target artifact, enchantment, or land.
+
+So, when you cast World Breaker, you pick a target.  It doesn't have to be one of your artifacts, enchantments or lands.  
+However, for the return ability:
+
+{2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand.
+
+Using that ability would require you to sacrifice one of your own lands (which means putting that land into the graveyard; it won't get exiled).  You can't sacrifice something you don't control (although if you somehow came to control an opponent's land, you could sacrifice it even though you don't own it).
+

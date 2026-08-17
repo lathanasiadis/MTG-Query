@@ -1,0 +1,13 @@
+Q:
+
+Spells are not exiled by Jace, Telepath Unbound's second ability in MTG Duels
+
+I used Jace, Telepath Unbound's second ability, which is casting a spell from the graveyard. It says the spell will be exiled.
+However, it didn't. For example, Adverse Conditions was in the graveyard when I activated the Jace's second ability. And Adverse Conditions was cast, but didn't get exiled and instead went into the graveyard again.
+Why so?
+
+A:
+
+Should it have been exiled? Yup.  You cast it from your graveyard, it went on the stack, resolved then returned to your graveyard.  Going to your graveyard should have been replaced with exiling the card.
+Why didn't it?  No idea.  It's probably a bug.  With a game and rules as complex as Magic's, it wouldn't surprise me that something doesn't work like it is supposed to.
+

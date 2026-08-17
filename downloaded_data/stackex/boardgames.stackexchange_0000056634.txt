@@ -1,0 +1,26 @@
+Q:
+
+What happens if Mirrorhall Mimic copies a transforming creature?
+
+Mirrorhall Mimic is a transforming double-faced card added in the new set that copies a creature as it enters the battlefield.
+Unlike previous clones, that weren't physically on double-faced cards, if this copies a transforming creature (e.g. a werewolf), it's able to transform because it actually is a transforming DFC.
+Rule 712.5 seems to be relevant here:
+
+712.5. Only permanents represented by transforming double-faced cards can transform. (See rule 701.28, “Transform.”) If a spell or ability instructs a player to transform any permanent that isn’t represented by a transforming double-faced card, nothing happens.
+
+And the following example given leads me to believe a certain outcome applies:
+
+Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a transforming double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a transforming double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.
+
+I think the first of these possible scenarios has to be correct:
+
+The physical Mirrorhall Mimic card will transform whenever relevant, but the replacement copy effect still applies, and so it retains the properties of whatever it copied.
+The Mirrorhall Mimic will transform and have the properties of its back face, but becomes an aura and so is put into the graveyard as a state-based action.
+The Mirrorhall Mimic can't transform as it doesn't have the matching back face for what it's copying (I don't believe the rules support this.
+
+Is this right?
+
+A:
+
+#1 is almost correct, except for one small detail: you wrote "the replacement copy effect still applies"; the replacement effect was only applied once, and the thing that still applies is a continuous effect.
+

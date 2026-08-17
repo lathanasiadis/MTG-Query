@@ -1,0 +1,16 @@
+Q:
+
+What happens if I blink a transformed double-faced planeswalker?
+
+If I blink Garruk, the Veil-Cursed with something like Skybind, does he come back and instantly die?
+
+A:
+
+When you blink Garruk, the Veil-Cursed, it will return as Garruk Relentless as if you had just cast it.
+When a permanent such as a planeswalker leaves the battlefield, it becomes a new object with no relation to its former existence. When it returns, it will enter the battlefield as if you had cast it from your hand, non-transformed and with full loyalty.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+209.1. Each planeswalker card has a loyalty number printed in its lower right corner. This indicates its loyalty while it’s not on the battlefield, and it also indicates that the planeswalker enters the battlefield with that many loyalty counters on it.
+711.8. A double-faced card enters the battlefield with its front face up by default. [..]
+

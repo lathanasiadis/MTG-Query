@@ -1,0 +1,33 @@
+Q:
+
+Why can't an overloaded Counterflux beat Pyromancer Ascension?
+
+ 
+In his write-up of Pro Tour BTG in Valencia, pro player Gaudenis Vidugiris described this game, the last one he played to get to the top 16 (emphasis added):
+
+Round 14 I battled against RWU Twin. Both games I got active Ascensions reasonably quickly and killed him.  Though in the second game he had a Grafdigger's Cage on turn one which slowed me down enough that I couldn’t kill him for a while and even gave him a draw phase where a Splinter Twin would have been lethal.  I actually got two active [Pyromancer Ascensions] rather quickly, but couldn't find a blue card to copy for a turn or two.  Eventually, I found one which dug me into an Echoing Truth and after I explained to my opponent why his overloaded Counterflux couldn't counter all of the Echoing Truth copies he conceded.
+
+What's the rules trick here? How come an overloaded Counterflux can't counter several copies of Echoing Truth?
+
+A:
+
+Counterflux works against a singleton Pyromancer Ascension. With multiple active Ascensions, the copied spells don't go on the stack all at once, so Counterflux can't hit all of them.
+I found the answer in the comments section of that article:
+
+Play echoing truth target something, both ascensions trigger.
+First ascension trigger resolves, puts an echoing truth copy on top of the stack, so this copy will resolve before the other ascension trigger resolves.
+
+So to show the stack, since it's hard to think about from the wording:
+First, cast Echoing Truth. Both Pyromancer Ascensions trigger.
+Stack:
+PA#1 trigger
+PA#2 trigger
+Echoing Truth
+
+PA#1 trigger resolves. Stack is now:
+Echoing Truth Copy
+PA#2 trigger
+Echoing Truth
+
+If you cast Counterflux with overload now, it will counter the two spells, but NOT the trigger, because it doesn't counter abilities. So after it resolves, the PA#2 trigger will resolve and create another copy of Echoing Truth. And if you wait until PA#2 trigger resolves, the first Echoing Truth copy has already resolved. No matter what you do, one Echoing Truth will get through.
+

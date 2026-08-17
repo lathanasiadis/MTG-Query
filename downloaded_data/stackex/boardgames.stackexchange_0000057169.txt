@@ -1,0 +1,32 @@
+Q:
+
+Can a Phantasmal Image copy a legendary creature?
+
+The text of Phantasmal Image says:
+
+You may have this creature enter the battlefield as a copy of any creature on the battlefield, except it's an illusion in addition to its other types.
+
+Is it therefore possible to clone a legendary creature with Phantasmal Image? I think there may be three possible outcomes:
+A. The copy made by Phantasmal Image is kicked out of the game, as it is a copy of a current legendary creature and would therefore have the same name.
+B. The copy made by Phantasmal Image stays, as it has the Illusion creature type in addition to other types and therefore is not an exact copy of the original.
+C. The copy made by Phantasmal Image stays, as it continues to be considered a Phantasmal Image rather than the original.
+How do the rules of Magic the Gathering rule on this? In addition, if the Phantasmal Image remains, what would happen if a second Phantasmal Image made of the same initial creature was created?
+
+A:
+
+D. If Phantasmal Image is copying a creature you control, you choose whether the original or the Image stays on the battlefield, the other is sent to the graveyard.
+The 'legend rule' is a state-based action, as described in rule 704.5:
+
+704.5. The state-based actions are as follows:
+...
+[other state-based actions]
+...
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+Copy rules are determined by rule 707:
+
+707.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics ... . The copiable values are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+While Phantasmal Image is not an 'exact' copy of the legendary creature, it does have the same name.  Therefore, the legend rule applies.  This means that all but one of the legendary creatures under your control with that name will die, but you get to choose which one survives.  And if the legendary creature you copied was under an opponent's control, nothing happens.
+As a historical note, the way the legend rule works has changed several times.  It used to apply to all legendary permanents, not just ones you control, and at one point only the oldest version survived, and then later all copies would be sent to the graveyard. This made cards like Clone or Phantasmal Image very popular in Commander (then EDH), as you could use them to get rid of your opponent's commander, even if it was indestructible or had shroud or hexproof.
+

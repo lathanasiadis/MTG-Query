@@ -1,0 +1,26 @@
+Q:
+
+Which, and how many, dual lands?
+
+Pretty new to playing magic, even newer to building my own decks. When playing multicolored, which and how many dual lands should be played? Also, if putting let's say 4 dual lands into a deck. Do I then take out 4 lands of the one color it produces and 4 of the other (or do I then have to little lands in my deck)?
+
+A:
+
+It's not obvious, but the answer to this question is the same as that in How should I determine how many lands of each different color to put in my deck? The point is that you need 1) enough colored sources to cast your spells reliably and 2) few enough lands in your deck to prevent mana flood. You need to balance that, and dual lands helps by being two colored sources in one land.
+This is abstract, so we'll use an example. Suppose you want to build a deck that includes both Rekindling Phoenix and Nullhide Ferox. The former is a 2RR card, and the latter is 2GG. You can see from Frank Karsten's seminal article (linked in my answer above) that to cast these two spells on curve, you need 16 red sources and 16 green sources. In other words, if you have only basic lands, you'll need to run 32 lands to cast both these spells on time.
+Now you can see from the second question linked above that 32 lands is way too many. In fact most decks won't run more than 27 lands, and the average is about 24. This means You cannot run both Rekindling Phoenix and Nullhide Ferox with only basic lands. You will either flood, or you will not be able to cast either spell on time.
+Dual lands help because they are both red and green sources. Let's say in addition to basic lands you also have all of Taiga, Stomping Ground, Rootbound Crag, Fire-Lit Thicket and Copperline Gorge. Now, by running four copies of all five of these lands, you suddenly have 20 red sources and 20 green sources in only 20 lands! That means you can even afford to fill your remaining land slots with utility lands (such as Sea Gate Wreckage) and you won't color screw.
+To your specific questions: 
+If you add four duals, do you get to take out 8 lands? If not, which do you take out? 
+There's no answer to this question without knowing the rest of your deck. You analyze this question the same way you analyze the above. Which spells in your deck are the hardest to cast? Let's say you're playing Rekindling Phoenix, in which case as per above you need 16 red sources. How many does your deck currently have? How many will it have after you add the four dual lands? If you currently have 23 red sources, then you can remove 4 of those red sources for the four duals and you'll be fine. If you only have 15 red sources even after adding the four duals, then you can't cut red sources - you need to remove something else. Remember to analyze how many lands in total your deck wants after you've sorted out the colored sources as well.
+As you can see, figuring out mana bases is not trivial. As you gain experience you'll be able to recognize some rules of the thumb (e.g. it's often possible for experienced players to guess how many total lands they need without playing any games), but actual fine-tuning will still involve doing the calculations.
+Finally: total land count isn't something you can usually tweak with dual lands. You still need to draw those duals to have mana, and the odds of drawing lands depends on how many lands you have.
+Which dual lands to run?
+There's again no answer to this because it's going to depend heavily on what you're doing and you're going to play against. Most duals have a drawback such as coming into play tapped, can your deck afford them? Here're some more things to think about:
+
+If you have access to no-drawback duals such as Taiga then you're pretty much in the clear to run all the duals you want, but since Taiga is only legal in Legacy & Vintage, that means you'll have to play against decks with Wasteland. Wasteland destroys nonbasics but not basic lands. That's why it's common for many Legacy & Vintage decks to run a few basic lands (so they can fetch - using fetchlands such as Scalding Tarn - for them against decks running Wasteland.)
+In Modern, you might want some basic lands again, this time to deal with Blood Moon, Field of Ruin, or to have a search target if opponent plays Assassin's Trophy or Path to Exile.
+In Standard, if you're playing the Scapeshift/Field of the Dead combo deck, then you need many different lands (i.e. duals) to trigger Field of the Dead's condition.
+
+Absent considerations such as these then you're free to run all the duals you want. In Standard right now, it's perfectly acceptable to run 24 dual lands plus a few more basics if needed. You'll need to check how good these dual lands are. For example if you're playing B/W vampires, which is an aggressive deck with 1-drops, then lands that come into play tapped all the time might be too big a cost, while if you're playing something like Esper control (which doesn't usually play 1-mana cards) then they're great especially if they also have upside (e.g. Temple of Silence offers a Scry 1). 
+

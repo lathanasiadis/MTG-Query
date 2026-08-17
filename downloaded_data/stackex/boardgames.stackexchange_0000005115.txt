@@ -1,0 +1,40 @@
+Q:
+
+Is it impossible to pay off-color mana costs in EDH?
+
+In Commander, there is a rule that states:
+
+During the game, if mana would be added to your mana pool that isn't a color in your commander's color identity, that much colorless mana is added to your mana pool instead.
+
+With that in mind, is it impossible for me to pay mana costs that are not in my commander's color identity?
+For example, if my commander has a Red/Blue color identity, and I take control of an opponent's creature that has an activated ability with a Black mana-cost, is it impossible for me to pay the cost needed to activate that ability?
+
+A:
+
+Commander used to have special rules about color identity and mana generation. As of January 18, 2016, these rules have been removed. Tapping lands for mana works just like regular Magic.
+Note that the restriction on mana production and color identity in deckbuilding still applies. So your red/blue deck still can't include a Crumbling Necropolis.
+You can, however, use all these exceptions to pay off-color costs:
+Mana generators without mana symbols
+Note that the deckbuilding restriction only applies to mana symbols, not "any method of generating other colors of mana."
+The most common example is that cards that say "any color" aren't considered to have mana symbols in the card text. They may safely be included in non-five-color decks.
+Borrowing your opponents' stuff
+Say you're playing Ashling (red), and I'm playing Sen Triplets (white/blue/black). If I steal one of your Mountains (e.g. by playing it from your hand with my commander's special ability), I can tap it for red mana.
+Changing mana's function without changing its literal color
+Cards like Mycosynth Lattice allow you to spend mana "as if it were any color of mana" without actually changing the colors of that mana.
+There's a really technical caveat to that, though...
+I'm pretty sure that, even with Mycosynth Lattice in play, there are still corner cases where mana colors matter: for instance, Mycosynth Lattice will allow me to spend 5 blue to cast Torrent of Souls, but the spell still checks the color of mana spent on it (which, in this case, causes it to have no effect). This is based on the rulings text of Celestial Dawn:
+
+You may use a different color mana than the color required for spells
+and abilities that require a specific color. If you do, and the spell
+or ability checks the actual color of the mana, it can tell the
+difference.
+
+Alternatives to mana
+Some rules allow you to "pay for" mana costs without using mana at all. You can use it to pay off-color costs. For example:
+
+Convoke cards, like Chord of Calling.
+
+Phyrexian mana, like Phyrexian Metamorph.
+
+(Note that color identity still applies: you can't put Chord of Calling in your Sen Triplets deck. But, if you've got some green creatures, you can cast someone else's.)
+

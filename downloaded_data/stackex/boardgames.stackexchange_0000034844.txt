@@ -1,0 +1,42 @@
+Q:
+
+If I can't "win the game" in multiplayer, do my opponents still lose?
+
+Let's say I'm playing a multiplayer game, and I'm drawing from an empty deck with Laboratory Maniac out while an opponent has Platinum Angel.
+
+104.3h In a multiplayer game, an effect that states that a player wins the game instead causes all of that player’s opponents to lose the game.
+
+Is 104.3h a replacement effect created by the game rules, or does it modify the effect "win the game" on the card?
+A different angle: Platinum Angel says "your opponents can't win the game". Does this refer to the game action "win the game", which instead causes your opponents to lose, or to actually winning the game? (or both?)
+If 104.3h is a replacement effect, and "can't win" precludes following the "win the game" instruction, then nothing would happen. The event for 104.3h to replace didn't occur. I think this is the more likely outcome.
+Otherwise, if we can follow the Maniac's instruction, then each opponent loses the game, except Platinum Angel's controller, because they can't.
+Paraphrased from a comment for clarity: This question might boil down to "can game rules be replacement effects?" I haven't seen why not. The question I have regarding PA's effect is does it stop just the game event of "you win", or does it stop everything that, due to language, looks like "you win"? i.e. if 104.3h changes the game to mean the game action "you win" has nothing to do with winning, it might slip through, but if 104.3h is a replacement effect then it never sees LM's ability to replace it.
+Further development: @ikegami commented: The confusion stems from the fact that 104.3h effectively turns "win (the game)" into a keyword action with a different effect than "actually winning the game". So which one does PA prevent now, the pseudo-keyword, or "actually winning the game"? or both?
+
+A:
+
+No player will lose the game, and the game continues normally
+
+104.3h In a multiplayer game, an effect that states that a player wins the game instead causes all of that player’s opponents to lose the game. (...)
+
+This multiplayer rule that modifies how winning and losing works normally makes Laboratory Maniac's ability work different in multiplayer games. While in a two-player game, a player would win with Laboratory Maniac and drawing from an empty library, that rule makes each opponent of that player lose instead.
+Now, if one of those players controls a Platinum Angel which has a continuous effect stating that they can't lose the game and opponents can't win the game, it will prevent any opponent of that player from winning the game.
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+
+Platinum Angel will effectively prevent Laboratory Maniac's ability from going through with the event of winning the game, meaning the rule 104.3h never applies to this situation.
+This course of events is backed by Matt Tabak's response to a question asked by Samthere:
+
+In a multiplayer game, if P1 tries to win via Laboratory Maniac but P2 controls Platinum Angel, what happens? Nothing, or do P3, P4, etc, lose the game?
+Nothing. LM’s replacement effect does apply, and then P1 winning the game just doesn’t happen.
+
+This is actually independent from whether rule 104.3h is actually a replacement effect or not, and whether this has been discussed at large in answers, comments and in chat to the point where everyone seems to be agreing to disagree.
+Until further enlightenment in this regard, let's cover both cases, and why they're largely identical...
+
+If the rule was considered to be a replacement effect, since the event of winning the game wouldn't actually happen (with Platinum Angel preventing it), the following rule prevents the entirety of the respective replacement effect (in this case, rule 104.3h) from taking place:
+
+614.7. If a replacement effect would replace an event, but that event never happens, the replacement effect simply doesn't do anything.
+
+For a concrete example, Leovold, Emissary of Trest can prevent people from drawing cards, and has a ruling which notes that "Replacement effects can’t be used to replace draws that Leovold disallows." Replacement effects replace the event as they happen; if the event is prevented from happening, there's nothing for them to replace. Therefore, similarly, replacement effects can't replace winning the game if you're prevented from winning the game.
+If it wasn't considered a replacement effect, the game would just as well never reach the event of that player winning the game, seeing as there's "you win the game" simply clashing with "you can't win the game", which is settled by rule 101.2. Again, rule 104.3h would never be applied, as the event of a player winning the game is never reached.
+

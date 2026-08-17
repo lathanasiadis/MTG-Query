@@ -1,0 +1,16 @@
+Q:
+
+Can a commander sent to the graveyard be brought back by a sorcery or instant card or ability without costing mana?
+
+Can a commander sent to the graveyard be brought back by a sorcery or instant card or ability without costing mana?
+I know I can put it in the command-zone. But does that mean I can get it back out of the "graveyard" with an ability?
+
+A:
+
+The command zone and graveyard are different zones of the game. A spell or ability which targets a card in a graveyard can't target your Commander if your commander is in the command zone.
+If you commander dies, you as its owner may choose whether to send it to the command zone or leave it in the graveyard:
+
+903.9a If a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. This is a state-based action. See rule 704.
+
+If you choose to leave it in the graveyard, it would be a legal target for a spell such as Reanimate. You wouldn't need to pay the 'commander tax' in addition, as you're not casting your commander from the command zone.
+

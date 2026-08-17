@@ -1,0 +1,11 @@
+Q:
+
+Does doubling counters trigger Hardened Scales?
+
+I have a Hardened Scales and Setessan Oathsworn with no counters on the battlefield. I cast Solidarity of Heroes on the Oathsworn, it gets three counters from it's heroic trigger which happens while the Solidarity is still on the stack. When the Solidarity resolves will it have 6 counters total or 7? Does doubling counters translate to "add as many counters as it has" or is it some special rule that changes the count without "adding" (thus not triggering the Scales).
+
+A:
+
+When the card says to "double the number of +1/+1 counters" on a creature, it means that you should place on to that creature as many +1/+1 counters as are currently on it. This means that Hardened Scales applies, so Setessan Oathsworn will end up with 7 +1/+1 counters on it.
+Unfortunately, I can't find a rules reference to back this up, but the basic idea is that after Solidarity of Heroes resolves, there are more counters on the creature than before it resolved, and the only way that could have happened (from the point of view of the game rules) is if you put counters on it. There is no other applicable action that has that result.
+

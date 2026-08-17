@@ -1,0 +1,22 @@
+Q:
+
+"Put into graveyard" versus "exile graveyard"
+
+Does the ability "Exile all cards from target player's graveyard" counter "When ~ is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library"?
+For example: if Emrakul, the Aeons Torn is put into the graveyard, will activating Tormod's Crypt counter its effect? 
+
+A:
+
+Kind of.
+When Emrakul hits the graveyard, his ability 
+
+When Emrakul is put into a graveyard from anywhere, its owner shuffles
+  his or her graveyard into his or her library.
+
+goes onto the stack. Then priority will first go to the active player and then to the other. After receiving priority, Tormod's Crypt can be activated.
+
+Exile all cards from target player's graveyard.
+
+All cards go into the exile zone.
+After that, Emrakul's trigger resolves, and its controller will shuffle his or her empty graveyard into his or her library.
+

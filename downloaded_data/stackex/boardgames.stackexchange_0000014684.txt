@@ -1,0 +1,23 @@
+Q:
+
+Can I use a "Counter Target Spell" on Enchantments?
+
+Can I use a Counter Target Spell on enchantments? Enchantments are considered spells right?
+Thanks. 
+
+A:
+
+Spells are anything that you cast from your hand and add to the stack. Lands and abilities are not spells.
+
+A spell is a card on the stack. As the first step of being cast (see
+  rule 601, "Casting Spells"), the card becomes a spell and is moved to
+  the top of the stack from the zone it was in, which is usually its
+  owner's hand. (See rule 405, "Stack.") A spell remains on the stack as
+  a spell until it resolves (see rule 608, "Resolving Spells and
+  Abilities"), is countered (see rule 701.5), or otherwise leaves the
+  stack. For more information, see section 6, "Spells, Abilities, and
+  Effects."
+
+So you can counter an enchantment as long as it is on the stack (not resolved).
+Lands are not spells and are not put on the stack, so they cannot be countered. Abilities however are put on the stack, but they can only be countered by spells which say they can counter abilities.
+

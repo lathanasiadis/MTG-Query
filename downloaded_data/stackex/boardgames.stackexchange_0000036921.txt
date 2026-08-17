@@ -1,0 +1,22 @@
+Q:
+
+How do "twice that many" & "that many plus one" replacement effects interact?
+
+Let's say I use Abzan Advantage to put a single +1/+1 counter on my Charging Badger.
+
+Winding Constrictor and Hardened Scales both increase the number of counters by one.
+Corpsejack Menace and Primal Vigor would double the number of counters.
+
+Let's say I have at least one from each category out: Winding Constrictor and Corpsejack Menace for example. In what order should I apply their effects? Do I apply them in timestamp order, or should I be specifically doing either the doubling or adding one first, or can I choose?
+This matters since it would always be preferable to perform all the adding before all the doubling: if I add one then double I get 4 counters; if I double then add one I just get 3 counters.
+
+A:
+
+When multiple replacement effects affect an event, the player affected by that event controls the order of in which the replacement effects are applied.
+
+615.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+615.1d Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+In your example, when faced with "Put 1 +1/+1 counters on that creature" you can choose to apply Winding Constrictor's replacement effect. Since "Put 2 +1/+1 counters on that creature" can still be affected by Corpsejack Menace, it's further modified for a net result of "Put 4 +1/+1 counters on that creature".
+

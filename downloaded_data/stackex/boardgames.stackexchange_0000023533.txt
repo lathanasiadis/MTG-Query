@@ -1,0 +1,16 @@
+Q:
+
+Aura Trample removed by High Priest of Penance
+
+I've been searching high and low for this: say a High Priest of Penance (with an indestructible aura) blocks a creature with Rancor, i.e. trample. Can I stop the trample effect by destroying either the creature or the enchantment, before trample happens? Since it first assigns damage to the priest who then can destroy a permanent...?
+
+702.19b The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it.
+
+A:
+
+You can't stop your opponent from trampling over your High Priest this way. Although you are correct that trample damage is not assigned simultaneously between creatures and players, it is dealt simultaneously.
+
+510.2 Second, all combat damage that's been assigned is dealt simultaneously.
+
+So both you and your High Priest are dealt damage at the same time. At that point, you may use your Priest's ability, but destroying the attacking creature or aura will have no effect on what already happened.
+

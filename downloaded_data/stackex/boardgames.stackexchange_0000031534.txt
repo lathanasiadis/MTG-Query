@@ -1,0 +1,53 @@
+Q:
+
+Two Experiment Kraj are on the battlefield, what are their abilities?
+
+Through the use of e.g. Sakashima the Impostor, Mirror Gallery, or Helm of the Host, there are two Experiment Kraj on the battlefield, each with a +1/+1 counter on it. How many additional copies of their activated abilities does each Experiment Kraj have: one, infinite or some other number?
+Apart from curiosity about the rules interaction, it actually matters for abilities that can only be activated a limited number of times per turn.
+
+A:
+
+In addition to their own abilities, the first Experiment Kraj will have 1 set of copies of applicable abilities, while the second Kraj will have 2 sets. Ultimately, the total number of copied abilities will grow exponentially.
+The rules to look at are found in
+
+Interaction of Continuous Effects
+
+An object's characteristics are determined through a system of layers. Ability-modifying effects are handled in layer 6. This is where the continuous effect of Experiment Kraj's static ability is applied:
+
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+
+When 2 Kraj are on the battlefield and they try to add each other's activated abilities, their effects are dependent on each other:
+
+613.7. Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+613.7a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3);
+
+True because they are the same ability.
+
+(b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to;
+
+True because applying one ability influences what the other would do.
+
+(c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. [..]
+
+True, because both add abilities to the creature it's on. Abilities (card text) are a characteristic.
+
+613.7b An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they’re applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
+
+The 2 abilities would form a loop, because each depends on the other. Therefore, they are instead applied once, in timestamp order.
+Therefore, the Kraj with the lower timestamp would be applied first. It gains all abilities of other creatures with a +1/+1 counter on it. Next, the other Kraj is handled. It also gets all activated abilities of other creatures with a +1/+1 counter on it, including the already handled first Kraj.
+Example: There are 2 Experiment Kraj and an Avizoa on the battlefield. All creatures have a +1/+1 counter on them.
+After continuous effects are handled, the first Kraj will have its own activated +1/+1 counter ability, the other Kraj's counter ability, and the Avizoa's "{0}: +2/+2, use once per turn" ability.
+The second Kraj will have its own counter ability, the two counter abilities from the first Kraj, and two of the Avizoa abilities (one from the first Kraj, the other from the Avizoa)
+Each Experiment Kraj on the battlefield will have the sum of copies of all other Krajs, some of which will already have been handled by the continuous effect rules. At 2 Krajs, the total is (2+3) = 5. At 3 Krajs, the first will have 3, the second 5, the third 9. At 4 Krajs, the last Kraj to be handled already has 25 total. Here are some diagrams for visualization:
+
+This shows the total number of abilities each Kraj has with 1, 2, 3 Krajs etc. on the field.
+
+The triangle completed upwards.
+
+A little more info.
+Mathematically speaking, if there are n Krajs on the battlefield, the m-th Kraj to be handled will have a total of
+
+1 + (n-1) * 2(m-1)
+
+sets of copies.
+

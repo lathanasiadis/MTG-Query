@@ -1,0 +1,16 @@
+Q:
+
+End-of-the-turn casting in Magic Arena
+
+I'm playing Magic Arena after quite a long time away from Magic. I still remember how to play but there's something that's keeping me confused about the priority system. 
+When I'm passing the turn, eventually the opponent plays an instant speed spell before his turn, and the game does not allow me to respond to it. I didn't remember this rule but still OK (although that make instants and permanent spells with flash much more powerful than I thought they were).
+But in my last game I just played an enchantment with flash at the end of my opponent's turn, hoping that my opponent could not answer to it with a counter spell, but they were able to respond and indeed countered it.
+I searched for rules of end-of-turn casting and I think that it's just a glitch of the game (it's still on beta and there's some of them), but I'm not sure. Any help will be appreciated.
+
+A:
+
+You can activate full control mode.
+MTG arena has policies in place to speed up the gameplay considerably. This auto pass of priority is an attempt to remove the slow gameplay that has plagued MTGO.
+You can deactivate this feature temporarily by pressing CTRL, you can turn it off permanently by pressing CTRL + SHIFT. Take note that when I say permanently, I mean for that game only; it will revert back to the default of setting when you start a new game.
+Read more here.
+

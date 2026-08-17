@@ -1,0 +1,17 @@
+Q:
+
+Does a buff remain in combat when the buffing creature dies to first strike damage?
+
+I've had a predicament recently: my good friend was playing an Ixalan vampire deck and he played a Legion Lieutenant, a 2/2 that gives your other vampires +1/+1. The following turn, he attacks with the Legion Lieutenant and a Forerunner of the Legion, a 2/2 vampire. It has +1/+1 thanks to the Legion Lieutenant, making it a 3/3.
+I block the Legion Lieutenant with a 2/2 with first strike, so my creature will deal damage first, and when the normal damage is dealt the Forerunner of the Legion no longer has the buff and is now a 2/2 again. I would therefore only take 2 damage.
+However, he believes that the buff lasts until the end of the combat phase. Am I in the wrong?
+
+A:
+
+No, you're right.
+
+510.4. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike.
+
+After damage has been dealt, the active player gets priority (510.3) and state-based actions are checked; the Legion Lieutenant dies and its effect will stop (this is different from effects which say something like 'target creature will get +1/+1 until end of turn'). The Forerunner of the Legion is a 2/2 again.
+Only then, a second combat damage step will be started, and damage done by the Forerunner of the Legion is calculated, which will only be 2 damage.
+

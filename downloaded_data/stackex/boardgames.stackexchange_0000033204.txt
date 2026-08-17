@@ -1,0 +1,12 @@
+Q:
+
+Can I cast instants in response to my opponent declaring blockers?
+
+When my opponent declares blockers, I want to be able to kill a blocking creature (with something like Hero's Downfall) while still doing combat damage to my opponent.
+Is this possible?
+
+A:
+
+To answer the question in your title, yes, each player receives priority and can cast instants after blockers are declared. However, to answer the (unwritten) question in the body of your text, the attacking creature will still be considered blocked, even if the defender is killed or otherwise removed from combat. A blocked creature will deal no damage to the defending player unless it has trample (or some other card-specific ability).
+It sounds like you want to kill an opponent's creature before blockers are declared. Your last chance to do this is when you receive priority after attackers are declared. If you kill potential blockers at this point, they won't be around to be declared blockers, meaning the damage will get through to the opponent.
+

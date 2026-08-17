@@ -1,0 +1,12 @@
+Q:
+
+What happens when you stack "unblockable" and "unblockable except by"?
+
+During a recent game meetup I used Teleportal to give all my creatures unblockable. Another player responded by targeting one of my creatures with Shriek of Dread to give it "can't be blocked except by artifact creatures and/or black creatures." 
+We decided (reluctantly in my case) that this might override the unblockable. Our reasoning was that because the revised wording of unblockable is so similar (can't be blocked) the exception would apply to both instances of it.
+Are we right? 
+
+A:
+
+No, it's still just unblockable. There are two restrictions. One will prevent it from being blocked by most things, while leaving artifact creatures and black creatures unrestricted. One won't let it be blocked at all. If nothing blocks it, both restrictions are satisfied, so that's allowed. If a black creature blocked it, one restriction would be violated, so that's not allowed.
+

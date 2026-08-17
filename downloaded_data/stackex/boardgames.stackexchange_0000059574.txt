@@ -1,0 +1,23 @@
+Q:
+
+Can a creature with Ninjutsu attack a different target as the creature it replaces?
+
+Consider the following situation:
+
+It is player A's turn.
+Player A has 3 1/1 creatures.
+Player B has 1 1/1 blocker and a planeswalker at 2 loyalty.
+Player A has all of their creatures attack the planeswalker.
+Player B can't save their planeswalker, so they don't take the trade, leaving all three creatures unblocked.
+Player A ninjutsu's a ninja from their hand, replacing one of the unblocked attackers.
+
+Can the ninja attack player B's face, or must it attack the same planeswalker as the original creature?
+Relatedly, in a commander game, can an unblocked attacker against Player B be ninjutsu'd to create an unblocked attacker against Player C?
+
+A:
+
+No, the creature with Ninjutsu is attacking the same thing as the creature it replaced.
+In the Ninjutsu rules, rule 702.49c says
+
+A ninjutsu ability may be activated only while a creature on the battlefield is unblocked (see rule 509.1h). The creature with ninjutsu is put onto the battlefield unblocked. It will be attacking the same player, planeswalker, or battle as the creature that was returned to its owner’s hand.
+

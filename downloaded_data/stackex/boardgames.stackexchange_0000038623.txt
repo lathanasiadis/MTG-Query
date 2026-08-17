@@ -1,0 +1,21 @@
+Q:
+
+What happens with two Sword of the Meek?
+
+What happens when two Sword of the Meek are in the graveyard while a 1/1 creature enters play? Do they both get attached to the creature?
+
+A:
+
+Yes, you get to attach both Swords of the Meek.
+When the state of the game changes (in this case, because a 1/1 comes enters the battlefield), all objects check if their triggers are 'tripped'. In this case, both the Swords notice the 1/1 entering play, and both will give you the choice to attach them.
+The rules for this are in section 603. Handling Triggered Abilities. Specifically:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+You control 2 sources that have this.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+The 1/1 satisfies both the Sword's trigger condition.
+There are no limitations on how many triggers a state-change can activate.
+

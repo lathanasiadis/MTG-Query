@@ -1,0 +1,27 @@
+Q:
+
+Can Sakashima change its name to Lazav?
+
+Sakashima the Impostor has the following text (and more, but this is the relevant part):
+
+You may have Sakashima, the Impostor enter the battlefield as a copy of any creature on the battlefield, except its name is Sakashima, the Impostor
+
+Lazav, the Multifarious has somewhat similar text (also shortened to the relevant part):
+
+{X}: Lazav, the Multifarious becomes a copy of target creature card in your graveyard with converted mana cost X, except its name is Lazav, the Multifarious
+
+Between these two cards, it's possible to have Sakashima enter the battlefield as a copy of Lazav, and then use Lazav's ability. In most situations, text on a card which refers to that card by name is treated as "this card", so even though the creature in that circumstance is named "Sakashima the Impostor", activating its ability which says "Lazav, the Multifarious becomes a copy" will cause Sakashima to become a copy. However, I don't know whether the same applies to the part of the ability which affects the resulting name as well.
+There are various other cards which would have similar effects when combined with Lazav, such as taking the ability directly with something like Necrotic Ooze that I assume would work the same way, but if not then feel free to limit consideration to just Sakashima.
+In short, if a creature not already named Lazav, the Multifarious has and activates the ability of Lazav, the Multifarious, does its name change?
+
+A:
+
+Yes, if a creature that is not named Lazav, the Multifarious activates the ability from Lazav, its name will become Lazav, the Multifarious.
+Rule 707.9b says this:
+
+Some copy effects modify a characteristic as part of the copying process. The final set of values for that characteristic becomes part of the copiable values of the copy.
+
+In this case, Lazav's ability modifies the name as part of the copying process, setting it to "Lazav, the Multifarious", so the creature will have that name after the ability resolves no matter what name it had before.
+With Sakashima in particular, after the ability from Lazav resolves, you will have two copy effects: one copying Lazav, the Multifarious, with the modifications made by Sakashima's ability, and one copying the target of the activated ability, with the modifications made by Lazav's ability. The second one has a later timestamp, so it overwrites the first one, and the resulting object just has the characteristics set by that second copy effect, including Lazav's name.
+This would work differently if the ability said that it "doesn't copy" the creature's name, the way Vesuvan Doppelganger doesn't copy the creature's color.
+

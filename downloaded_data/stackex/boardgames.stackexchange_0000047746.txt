@@ -1,0 +1,18 @@
+Q:
+
+Evolutionary Leap Stack Ordering
+
+Using Evolutionary Leap to sacrifice a creature such as Pulmonic Sliver (or another sliver w/ Pulmonic on board), in which order does the stack happen?
+You would place the sacrificed sliver on top, or do the triggers miss the sliver in question sending it to the graveyard?
+Evolutionary Leap
+
+G, Sac a creature: Reveal cards from the top of your library until you reveal a creature, put that in your hand.
+
+Pulmonic Sliver
+
+If this permanent would be put into the graveyard you may place it on top of your library instead.
+
+A:
+
+Pulmonic Sliver's ability is a replacement effect and doesn't use the stack. That means that when you pay the activation cost for Evolutionary Leap, you may choose to put Pulmonic Sliver on top of your library, and as soon as Evolutionary Leap's ability resolves, it will find that Sliver. Most of the times, that is not what you want, but fortunately Pulmonic Sliver's ability is optional.
+

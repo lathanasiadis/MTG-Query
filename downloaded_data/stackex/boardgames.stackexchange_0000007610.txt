@@ -1,0 +1,25 @@
+Q:
+
+Does casting a card and paying for it work like this?
+
+Let's say that I have two cards in my hand, Lion's Eye Diamond and Shock.  According to the rules, the steps to casting a spell are as follows:
+
+Announcing the spell (put the spell on the stack)
+Determine Modes
+Choose targets
+Announce Divisions
+Determine Total Cost
+Activate Mana Abilities
+Pay costs
+The spell is now considered cast
+
+So, by reading this, does this mean that I can cast the artifact, then once it resolves cast the Shock by putting it on the Stack, going through the steps, then sacraficing the artifact for it's mana ability (and discarding my hand, which is 0) and paying for the shock with the mana the artifact produced?
+
+A:
+
+Due to the Oracle revision to this card, what your are describing will not work. The current errata states that you can only use Lion's Eye Diamond's ability as an instant. The only abilities you can activate while a spell is being placed on the stack ("Pay Costs") are mana abilities such as tapping lands.
+If Lion's Eye Diamond was not changed to specifically state that its ability is played as an instant, what you are describing would work.
+Relevant Oracle text:
+
+Sacrifice Lion's Eye Diamond, Discard your hand: Add three mana of any one color to your mana pool. Activate this ability only any time you could cast an instant.
+

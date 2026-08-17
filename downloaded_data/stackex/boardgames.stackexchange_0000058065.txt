@@ -1,0 +1,15 @@
+Q:
+
+Is Satsuki, the Living Lore a slight nonbo with the Read Ahead mechanic?
+
+Satsuki, the Living Lore allows you to add lore counters to sagas, triggering them faster.
+
+702.155a Read ahead is a keyword found on some Saga cards and represents two static abilities. The first ability is “As this Saga enters the battlefield, choose a number from one to this Saga’s final chapter number. This Saga enters the battlefield with the chosen number of lore counters on it.” The second ability is “Chapter abilities of this Saga can’t trigger the turn it entered the battlefield unless it has exactly the number of lore counters on it specified in the chapter symbol of that ability.”
+
+Doesn't the second static ability interfere with Satsuki's activated ability on sagas that entered the battlefield this turn?
+
+A:
+
+Satsuki interacts with Sagas with Read Ahead the same as it interacts with Sagas without Read Ahead.
+Say you play a Saga with Read Ahead and you choose to put two counters on it. It enters and the chapter I ability does not trigger because of that second static ability, but the chapter II ability does trigger. Then after that resolves, you activate Satsuki's ability, putting a third counter on that Saga. The chapter III ability does trigger, because the Saga has exactly three lore counters on it, so it satisfies the conditions of that static ability.
+

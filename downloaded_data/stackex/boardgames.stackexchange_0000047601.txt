@@ -1,0 +1,39 @@
+Q:
+
+What does it mean to "control target player"?
+
+I'm looking for a nice Sorin card, for in my commander deck. I found Sorin Markov, which states:
+
+-7: You control target player during that player's next turn.
+
+What does this mean? Do I command the player to take certain actions which they can't refuse, such as forcefully attacking another opponent and/or themselves? Or do I actually play their hand, library and board as if it was my own (during that one turn)? Something else perhaps? 
+
+A:
+
+If you control another player, you essentially are that player for purposes of gameplay. You make all gameplay decisions for that player and can see all in-game cards that the controlled player could see. Basically, imagine playing against yourself with your opponent's deck for the duration of the control change.
+Because of effects that allow a player to control another player, the game rules make a distinction between the physical person playing the game and its invisible, in-game avatar called "player". 
+The distinction is that the in-game player can only make decisions called for by the game rules or game objects. Conceding the game, actions called for or forbidden by the Tournament Rules, and anything unrelated to the game concern only the physical player, and are therefore out of the scope of "controlling a player" effects.
+While you control an opponent, there are still 2 players in the game, and each player individually has to adhere to the game rules. For example, that means every player has to pay costs for their own spells and abilities with their own resources; if player A controls e.g. Ashnod's Altar, A can't sacrifice player B's creatures for its ability just because A currently controls B; creatures controlled by B still can't attack B, and so on.
+The correct answer to this question must quote the rather lengthy section 715 of the Comprehensive Rules in its entirety:
+
+Controlling Another Player
+
+715.1. Some cards allow a player to control another player during that player’s next turn. This effect applies to the next turn that the affected player actually takes. The affected player is controlled during the entire turn; the effect doesn’t end until the beginning of the next turn.
+715.1a Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
+715.1b If a turn is skipped, any pending player-controlling effects wait until the player who would be affected actually takes a turn.
+715.2. One card (Word of Command) allows a player to control another player for a limited duration.
+715.3. Only control of the player changes. All objects are controlled by their normal controllers. A player who’s being controlled during their turn is still the active player.
+715.4. If information about an object in the game would be visible to the player being controlled, it’s visible to both that player and the controller of the player. If information about cards outside the game would be visible to the player being controlled, it’s visible only to that player, not the controller of the player.
+  Example: The controller of a player can see that player’s hand and the face of any face-down creatures they control.
+715.5. While controlling another player, a player makes all choices and decisions the controlled player is allowed to make or is told to make by the rules or by any objects. This includes choices and decisions about what to play, and choices and decisions called for by spells and abilities.
+  Example: The controller of another player decides which spells that player casts and what those spells target, and makes any required decisions when those spells resolve.
+  Example: The controller of another player decides which of that player’s creatures attack, which player or planeswalker each one attacks, what the damage assignment order of the creatures that block them is (if any of the attacking creatures are blocked by multiple creatures), and how those attacking creatures assign their combat damage.
+715.5a The controller of another player can use only that player’s resources (cards, mana, and so on) to pay costs for that player.
+  Example: If the controller of a player decides that the controlled player will cast a spell with an additional cost of discarding cards, the cards are discarded from the controlled player’s hand.
+715.5b The controller of another player can’t make choices or decisions for that player that aren’t called for by the rules or by any objects. The controller also can’t make any choices or decisions for the player that would be called for by the tournament rules.
+  Example: The player who’s being controlled still decides if they will leave to visit the restroom, trade a card to someone else, agree to an intentional draw, or call a judge about an error or infraction.
+715.6. The controller of another player can’t make that player concede. A player may concede the game at any time, even if they are controlled by another player. See rule 104.3a.
+715.7. The effect that gives control of a player to another player may restrict the actions the controlled player is allowed to take or specify actions that the controlled player must take.
+715.8. A player who controls another player also continues to make their own choices and decisions.
+715.9. A player may gain control of themselves. That player will make their own decisions and choices as normal.
+

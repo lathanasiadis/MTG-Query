@@ -1,0 +1,22 @@
+Q:
+
+Does setting a new type clear the rules text for non-lands?
+
+In CR 305.7:
+
+If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn’t remove any abilities that were granted to the land by other effects. Setting a land’s subtype doesn’t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
+
+is the phrase "It loses all abilities generated from its rules text" unique for land changers like Blood Moon or Spreading Seas, or is it derived from another rule?
+In other words: is there a rule about setting types, from which we could derive, that if a "All creatures are elves" card existed, then it would turn all creatures into vanilla elves?
+
+A:
+
+That rule you quoted right there is the one that makes lands lose all other abilities in that situation. There is no more general rule that applies to subtypes of other types, so your not-so-hypothetical "All creatures are [specific creature type]" would not remove any abilities (see Conspiracy). You wouldn't have to search the whole Comprehensive Rulebook to be sure that such a rule does not exist. The rule you quote is in the Type section, Land subsection of the rules. Logically, if such a general rule existed, it would be in the General subsection of the Type section. That list is pretty short, and it's clear that that rule is not there.
+In fact, it wouldn't even make sense for that rule to be derived from a more general rule like the one you propose. The rule you quote specifically applies to setting a land's subtype to a basic land type (Plains, Island, Swamp, Mountain, Forest), so setting a land's subtype to another land type like "Gate" or "Locus" or "Urza's" doesn't do anything to the abilities.
+More broadly, rules in the Comprehensive Rulebook are generally not "derived" from other rules. You can find some duplication in there, with specific rules listed under multiple numbers, but other than that each rule is there for a reason and does something that none of the others do.
+Functionally, the rule you quote acts as a dual to rule 305.6:
+
+The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring to one of these subtypes. A land with a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, “Mana Abilities.”
+
+With rule 305.6, adding the type "Mountain" to a land makes it act like the card Mountain in addition to whatever else it does. With rule 305.7, setting a land's subtype to "Mountain" makes it act like only the card Mountain.
+

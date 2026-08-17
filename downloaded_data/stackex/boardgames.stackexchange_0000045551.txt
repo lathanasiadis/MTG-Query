@@ -1,0 +1,10 @@
+Q:
+
+Who chooses what order to apply damage prevention and redirection effects in a fight?
+
+If Swans of Bryn Argoll is involved in a fight and an opponent activates an ability to redirect damage assigned to the Swans of Bryn Argoll.  Which effect takes precedence?  My assumption is that the controller would chose which damage prevention mechanism to use.
+
+A:
+
+When multiple damage redirection and prevention effects, or other replacement effects, are applied to the same object for the same event, the controller of the object decides the order in which they are applied. In this case, the controller of the Swans of Bryn Argoll decides whether the damage is redirected or the damage source's controller draws the cards. The exact process for applying these effects is described in the rules section titled Interaction of Replacement and/or Prevention Effects.
+

@@ -1,0 +1,29 @@
+Q:
+
+How do Nexus of Fate decks win?
+
+How do Nexus of Fate decks like Simic Nexus win? I see plenty of them but I see absolutely no creatures or win conditions in the main board. The entire deck is based off getting lands to Nexus of Fate. It seems like the way these decks work are based off getting your opponent to concede, is this correct?
+
+A:
+
+There're a variety of ways. The deck you linked wins with Commence the Endgame. What happens is, when Nexus goes off, it takes all the remaining turns. That means it can do this:
+
+Play Tamiyo, Collector of Tales.
+Cast Commence the Endgame.
+Tick down Tamiyo to rebuy Commence the Endgame.
+Cast Commence the Endgame.
+Tick up Tamiyo (you can do this since you have infinite turns)
+Repeat steps 3-5 until you have an arbitrarily large attacker.
+Attack for however many attack steps it takes to kill the opponent.
+
+If the Nexus deck is in danger of running out of cards in the library, the play pattern above changes. First, maneuver until the only four cards left in the library are Nexus of Fate (easily achieved by drawing every other card and looping Nexus). Only go to step 2 once this is achieved. After that, in step 5, tick up Tamiyo naming a card not in the deck. This reveals all the Nexus, which shuffle back in. The Nexus player still has a library with only four Nexus of Fate, but Tamiyo now has an extra loyalty. He can repeat this until Tamiyo can tick down, etc. 
+Right now, the other popular win condition is Callous Dismissal, which operates in the same fashion. You cast Callous Dismissal, rebuy it with Tamiyo, and cast it as many times as is necessary to bounce the opponent's entire board before killing them with the army token. Also note that if the Nexus deck has Frilled Mystic, that's also sufficient: it can play Frilled Mystic, cast and recast Blink of an Eye (a Nexus staple) to bounce the opponent's board, and then win with the 3/2.
+Much rarer, but still around, is the Bant Nexus deck which wins with Teferi, Hero of Dominaria. In this scenario, you:
+
+Play Teferi.
+Tick it up until it's got 9 loyalty.
+Ultimate.
+Keep ticking up until you've exiled all your opponent's permanents.
+Then use Teferi's -3 on itself. This ensures you'll never deck out.
+Since opponent has no lands, opponent cannot cast spells, and therefore you win eventually by milling.
+

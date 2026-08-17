@@ -1,0 +1,15 @@
+Q:
+
+Playing around a flag bearer
+
+I'm playing a mono-Green infect Pauper deck that relies heavily on instant-speed pump spells in order to win. My opponent ruins my day pretty badly by playing a Standard Bearer:
+Fortunately, my deck also has Vines of Vastwood and Ranger's Guile.
+It occurs to me that I might be able to play one of these spells on the Standard Bearer, rendering it an illegal target for that turn, then play my other spells on my own creatures as intended. But will this actually work? I'm not sure about the subtleties of interpreting these effects when the target creature and the spell have different controllers, and I didn't get a chance to try it before the match ended.
+
+A:
+
+Unfortunately, neither of these spells will help you in this situation.
+Vines of Vastwood, sadly, doesn't actually grant hexproof.  It appears to, as it has the same wording (and the latest Oracle text keeps this wording), but it doesn't actually give hexproof to the creature. This is an important distinction, because even if you play it on an opponent's creature, it doesn't prevent your spells or abilities, only those of your opponents, as worded.
+(It really should be reworded to hexproof, but it hasn't been.)
+Ranger's Guile is no use for a simpler reason: you can't cast it on the Standard Bearer, because it can only target a creature you control. Even the Standard Bearer's ability doesn't redirect Ranger's Guile; as the bearer isn't a legal target for the Guile, the ability never triggers.
+

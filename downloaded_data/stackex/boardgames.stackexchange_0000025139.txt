@@ -1,0 +1,26 @@
+Q:
+
+How can creatures with indestructible end up in the graveyard?
+
+How does a creature with indestructible end up in the graveyard?
+I have been trying to figure this out for a little while.
+
+A:
+
+Indestructible prevents the permanent from being destroyed.  This usually is caused by damage exceeding a creature's toughness, or an effect that explicitly says that it will destroy a permanent.
+The main ways that a creature with indestructible will die (being put to the graveyard from the battlefield) will be:
+
+Having its toughness reduced to zero via -X/-X effects. (Tragic Slip, Black Sun's Zenith or -1/-1 counters, including damage from a source with infect)
+Being sacrificed. (Innocent Blood)
+Losing indestructible and being destroyed (Hour of Devastation, Turn to Frog + destruction effect)
+
+Other ways to deal with indestructible permanents that do not cause them to "die" include:
+
+Exiling. (Swords to Plowshares)
+Bounce. (Unsummon)
+Interacting with them on the stack. (Counterspell)
+Discard. (Thoughtseize)
+Removal from the deck. (Memoricide)
+Taking control of them. (In Bolas's Clutches)
+Move them to their owner's library. (Condemn)
+

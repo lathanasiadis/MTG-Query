@@ -1,0 +1,15 @@
+Q:
+
+Will Kresh the Bloodbraided survive damage through his ability in a boardwide damage scenario?
+
+Kresh the Bloodbraided is on the battlefield with another creature, let's say a 1/1.
+Kresh has the following ability:
+
+Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.
+
+The opponent deals 5 damage to both of them, which should kill them both. Will Kresh's ability trigger to make him a 6/6 and save him from being killed by the 5 damage?
+
+A:
+
+If Kresh is a 5/5 when the damage is dealt,  he will die when the damage resolves because he will have 5 damage marked on him the next time state-based actions are checked, causing him to go to the graveyard. The check will occur before the triggered ability resolves, so he'll never have the chance to add the +1/+1 counter.
+

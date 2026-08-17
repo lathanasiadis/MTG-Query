@@ -1,0 +1,24 @@
+Q:
+
+What happens when Progenitor Mimic copies a legendary creature?
+
+In a recent multiplayer game I played Progenitor Mimic to copy an opponent's Niv-Mizzet, Parun. 
+
+You may have Progenitor Mimic enter the battlefield as a copy of any creature on the battlefield, except it has "At the beginning of your upkeep, if this creature isn't a token, create a token that's a copy of this creature". 
+
+The table explained to me that because Niv-Mizzit is a legendary creature, Progenitor Mimic couldn't continue copying the creature. So the next turns only one Niv-Mizzet copy remained in play under my control. And we left it at that. 
+Now post-game I'm wondering, which permanent was actually on my battlefield? Did the original copy of Niv-Mizzit with Progenitor Mimic remain (destroying the token copy each turn), or did the token copy remain because the original copy got destroyed when the token copy came into play with the same name?
+I'm still pretty new to the game, so it would be great if anyone could tell me what happens exactly when you play Progenitor Mimic to copy a legendary creature. Please include the turn of playing it, and the next one (or more turns, if anything changes). 
+
+Related:
+
+Does Progenitor Mimic create copies of itself even when it isn't a creature?
+Progenitor Mimic copying a creature with counters
+
+A:
+
+If a Progenitor Mimic copies a legendary creature, then each time its triggered ability resolves and you get a token copy of the creature, you have to choose to keep either the token or the Progenitor Mimic copy, and you put the other into your graveyard. This happens as a state-based action, which means that it happens immediately after the ability resolves, before any player gets priority to take any other actions.
+This is covered by rule 704.5j in the state-based action section of the comprehensive rulebook:
+
+If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+

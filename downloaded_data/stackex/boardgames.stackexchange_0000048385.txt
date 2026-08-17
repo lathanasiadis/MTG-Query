@@ -1,0 +1,11 @@
+Q:
+
+How can I reorder triggered abilities in Arena?
+
+Suppose I have Goreclaw, Terror of Qal Sisma and Bishop of Binding in play. When my creatures attack, I want the Bishop's ability to resolve first (targetting himself), so that he's big enough to get Goreclaw's bonus.
+How do I make that happen in Arena? The Oracle rulings on Goreclaw seem to say it's possible ("If another creature has an ability that changes its power when it attacks […] you may have that ability resolve before Goreclaw’s last ability."), but I haven't figured out how to actually accomplish it.
+
+A:
+
+You can enable or disable automatic ordering of triggered abilities and other decisions in the Options -> Gameplay menu, available through the gear symbol in game and out of game.
+

@@ -1,0 +1,21 @@
+Q:
+
+Are tokens copying Essence of the Wild still tokens?
+
+Some of my friends and I got into an argument about Essence of the Wild.
+With Essence on the battlefield, I played Fungal Sprouting and put 6 1/1 green saproling creature tokens on to battlefield. These saprolings obviously became Essence of the Wild as they entered the battlefield.
+When I played Rootborn Defenses, I tried to copy what I assumed was a creature token version of Essence of the Wild (created as described above). This is where the argument occurred. The claim was that I could NOT populate my Essence of the Wild (one of those created with Fungal Sprouting), as the creatures were no longer considered tokens because the card they copy is not a token.
+Are they still considered tokens and can I populate them?
+
+A:
+
+A token cannot become a card through copying. It's not one of the things copied [CR 706.2].
+A token cannot become a card by any means. A card refers to a physical MTG card [CR 108.2]. The rules cannot create physical objects, and thus, they cannot create cards or change something into a card.
+They are still tokens, and thus, you can have populate copy them.
+
+108.2. When a rule or text on a card refers to a “card,” it means only a Magic card. Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. Tokens aren’t considered cards—even a card that represents a token isn’t considered a card for rules purposes.
+
+ 
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, expansion symbol, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

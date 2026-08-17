@@ -1,0 +1,25 @@
+Q:
+
+Can I Ghost Quarter to fetch basic land, while tapping my Gemstone Mine for mana using its last counter?
+
+My Gemstone Mine has 1 counter left. I tap it, remove 1 counter to produce B. Is the sacrifice effect a triggered ability -- meaning I have time to Ghost Quarter it and fetch a basic land?
+
+A:
+
+You cannot do this.
+Gemstone Mine's ability is a mana ability, which means that it does not use the stack. So it cannot be responded to; by the time you could do anything after activating it, Gemstone Mine would already be in the graveyard, and could not be targeted by Ghost Quarter.
+
+605.1. Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules. Only abilities that meet either of the following two sets of criteria are mana abilities, regardless of what other effects they may generate or what timing restrictions (such as “Activate this ability only any time you could cast an instant”) they may have.
+
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn’t have a target, it could add mana to a player’s mana pool when it resolves, and it’s not a loyalty ability. (See rule 606, “Loyalty Abilities.”)
+
+605.3b An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated.
+
+Note that also you cannot accomplish this by switching the order. If you activate Ghost Quarter's ability first, and then respond to it by using Gemstone Mine, then when Ghost Quarter tries to resolve, it will not resolve because all of its targets are now illegal.
+
+608. Resolving Spells and Abilities
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard.
+
+If Gemstone Mine's ability were a normal activated ability, instead of a mana ability, (if it didn't produce mana, or if it targeted something), then you would be able to do this, because you could activate Gemstone Mine's ability, then respond to it with Ghost Quarter while the ability was still on the stack.
+

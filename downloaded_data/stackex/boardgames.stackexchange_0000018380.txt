@@ -1,0 +1,33 @@
+Q:
+
+Enchant artifact used to enchant Artifact creature
+
+I'm somewhat new to Magic the Gathering and my friend is slightly more experienced than me, so I gave him this one, but am questioning it:
+He has a card called Ensoul Artifact which says
+
+Enchant artifact
+
+Enchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.
+
+He always puts this card on an Artifact creature with a gazillion power/toughness, to make it a gazillion +5 power and toughness.  Is this possible?  Isn't there a difference between Artifact and Artifact creature?
+Also, what does "In addition to its other types" mean?  I always assumed that my friend is wrong, and you can only place it on an Artifact which gives it 5/5 in addition to whatever else the Artifact does.
+
+A:
+
+Isn't there a difference between Artifact and Artifact creature?
+
+An artifact creature card on the battlefield is an artifact. It's also a creature, but that's not relevant here. As long as it's an artifact, Ensoul can enchant and affect it.
+
+He always puts this card on an Artifact creature with a gazillion power/toughness, to make it a gazillion +5 power and toughness. Is this possible?
+
+It doesn't grant +5/+5. It sets (replaces) the base power and toughness. That could effectively result in an increase of 5 in both stats, but not necessarily.
+Say you have an Ornithopter (0/2) with a +1/+1 counter on it, and the Ornithopter is equipped with Bladed Bracers (+1/+1 to the equipped creature). It's 2/4. Ensoul Artifact would change its base P/T from 0/2 to 5/5, making it a 7/7. The toughness only went up by 3.
+On the other hand, Arcbound Bruiser has a base P/T of 0/0, and enters the battlefield with three +1/+1 counters, so it's normally a 3/3. If it were Ensouled, it would becomes 8/8.
+
+Also, what does "In addition to its other types" mean?
+
+When an effect sets a card's type, it loses its other types unless that wording is used[CR 205.1a-b][1].
+With that wording, a non-creature artifact becomes an artifact creature when Ensouled. Without that wording, it would become a non-artifact creature.
+
+There's one exception: effects that set the type to "artifact creature" (very specifically) also don't cause other types to be lost. This doesn't apply to Ensoul Artifact, since the type is being set to "creature" not "artifact creature" (though the presence of the "in addition" wording makes the difference rather minor), but it's important to note for similar cards such as Animate Artifact.
+

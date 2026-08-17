@@ -1,0 +1,48 @@
+Q:
+
+Why didn't Crawling Barrens grow larger when mutated with my Gemrazer?
+
+My turn on M:tG Arena. I've got my Crawling Barrens as a 12/12 creature due to twelve 1/1 counters. Then I mutated a Gemrazer over it (aka "above"). The Crawling Barrens stayed 12/12. After my turn end, the Crawling Barrens+Gemrazer stayed on the table as a creature but became 16/16.
+Why this happened? Why mutated Crawling Barrens did not become 16/16 immediately after mutation?
+Text of relevant cards:
+
+Gemrazer: Mutate 1GG (If you cast this spell for its mutate cost, put
+it over or under target non-Human creature you own. They mutate into
+the creature on top plus all abilities from under it.). Reach.
+Trample. Whenever this creature mutates, destroy target artifact or
+enchantment an opponent controls.
+
+Crawling Barrens: 4: Put two +1/+1 counters on Crawling Barrens. Then
+you may have it become a 0/0 Elemental creature until end of turn.
+It's still a land.
+
+A:
+
+Mutation isn't a power/toughness setting effect
+A creature's power and toughness are governed by the layer system, which is fairly complicated but usually fairly intuitive. This happens to be one of the few times when it isn't.
+Crawling Barrens has a power/toughness setting effect.  That comes in at layer 7b.  When multiple power/toughness setting effects apply to the same creature then they are applied in timestamp order.  That means that the last one played will set the power.
+But Gemrazer does not have a power/toughness setting effect.  Mutate comes in at Layer 1, effects that modify copiable values.  And that's at the bottom of the layers system, and is overwritten by the Barren's p/t setting effect, even though it was played later.  So Barrens/Gemrazer stays as a 12/12 until the p/t setting effect wears off at end of turn.
+(Incidentally, the +1/+1 counters are applied in layer 7c)
+Relevant Rules:
+
+613. Interaction of Continuous Effects
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+
+613.1a Layer 1: Rules and effects that modify copiable values are applied.
+613.1b Layer 2: Control-changing effects are applied.
+613.1c Layer 3: Text-changing effects are applied. See rule 612, “Text-Changing Effects.”
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.1e Layer 5: Color-changing effects are applied.
+613.1f Layer 6: Ability-adding effects, keyword counters, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+
+613.2. Within layer 1, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.8.)
+613.2a Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, “Copying Objects”) and changes to an object’s base characteristics determined by merging an object with a permanent (see rule 721, “Merging with Permanents”). “As . . . enters the battlefield” and “as . . . is turned face up” abilities generate copiable effects if they set power and toughness, even if they also define other characteristics.
+...
+613.4. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.7.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.8.)
+
+613.4a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.4b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.4c Layer 7c: Effects and counters that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+613.4d Layer 7d: Effects that switch a creature’s power and toughness are applied. Such effects take the value of power and apply it to the creature’s toughness, and take the value of toughness and apply it to the creature’s power.
+

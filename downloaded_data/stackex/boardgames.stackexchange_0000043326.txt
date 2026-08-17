@@ -1,0 +1,26 @@
+Q:
+
+Which is faster: Enter the Battlefield Effects or Activated Abilities?
+
+What happens if I play a creature that destroys all other creatures when it enters the battlefield and in response, an opponent activates a creature ability that sacrifices his creatures to destroy target creature? Is his effect fast enough to destroy my creature, or does my creature destroy all his creatures first?
+
+A:
+
+Your opponent can destroy your creature first; but his creatures will still be destroyed as well.
+There is no notion of "faster" in MTG. Some people might say an instant is "faster" than a sorcery, but that is only because you have more opportunities to cast instants than you do sorceries. All abilities and spells have pretty much the same rules regarding how "fast" they are. (Mana abilities and certain game actions like playing a land are an exception).
+When your creature enters the battlefield, its ability is triggered. The trigger goes on the stack the next time a player would get priority, which makes the stack look like this:
+
+Destroy all other creatures
+
+Then each player gets priority, and your opponent has a chance to activate his ability. If he does so, the stack now looks like this:
+
+Destroy target creature
+Destroy all other creatures
+
+If no one does anything else, the top item on the stack resolves. Your creature is destroyed. Then if no one does anything else, the next item on the stack resolves. All other creatures are destroyed.
+It doesn't matter that your creature dies first; its enter the battlefield ability still happens:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+Recommend reading through this question and this question if you want more details.
+

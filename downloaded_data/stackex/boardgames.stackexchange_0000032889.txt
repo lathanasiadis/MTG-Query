@@ -1,0 +1,23 @@
+Q:
+
+Does Bound by Moonsilver prevent crewing?
+
+Does Bound By Moonsilver prevent a creature enchanted by it from crewing a vehicle? My opponent crewed a vehicle with a Pyrohound I had enchanted with Bound By Moonsilver and we weren't sure if this was actually possible.
+
+A:
+
+Bound by Moonsilver does not prevent crewing. Bound by Moonsilver has the ability
+
+Enchanted creature can't attack, block, or transform.
+
+Crewing a vehicle is none of those things, so Bound by Moonsilver does not affect it.
+Here are the rules for Crew:
+
+702.121a Crew is an activated ability of Vehicle cards. “Crew N” means “Tap any number of untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn.”
+
+702.121b A creature “crews a Vehicle” when it’s tapped to pay the cost to activate a Vehicle’s crew ability.
+
+702.121c If an effect states that a creature “can’t crew Vehicles,” that creature can’t be tapped to pay the crew cost of a Vehicle.
+
+So, the only way to stop a creature from crewing a vehicle is either with an effect that specifically says so, like Revoke Privileges as doppelgreener mentioned, or by keeping it tapped with an effect like on Malfunction.
+

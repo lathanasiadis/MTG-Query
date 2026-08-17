@@ -1,0 +1,25 @@
+Q:
+
+Activating an ability that affects blocking after Declare Blockers step
+
+My opponent had on the battlefield a Swarm Guildmage and three other creatures. My opponent then enters Combat and declares his three other creatures as attacking.
+After this happens I then declare two of my creatures as blockers, each blocking one of his creatures, to which then he responds by activating Swarm Guildmage's ability that grants each of his creatures Menace. His argument is then that, because now his creatures have Menace, my blocks are illegal and I have to re-assign blockers.
+My assumption is that once blockers are declared then no matter what happens afterwards during combat the blockers initially declared would remain legal.
+Is this true, or is it that my opponent was correct and my blockers suddenly became illegal after the activation? If so, are there any other scenarios in which a blocker can be made illegal after being declared as a blocker?
+
+A:
+
+Your friend is wrong.  His creatures are blocked.
+Blocking goes through a series of steps outlined in rule 509.  The first step is declaring blockers (509.1).  To sum up, you declare which creatures are blocking, what they are blocking, check any restrictions and pay any costs.  At the end of all that we get to 509.1h:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures
+  declared as blockers for it becomes an unblocked creature. This
+  remains unchanged until the creature is removed from combat, an effect
+  says that it becomes blocked or unblocked, or the combat phase ends,
+  whichever comes first. A creature remains blocked even if all the
+  creatures blocking it are removed from combat.
+
+That's it.  Your opponents creatures are blocked.  The only chance he has to activate abilities or cast spells are once he receives priority which comes much later (outlined in 509.4).  Once 509.1h happens, restrictions (like menace or flying or whatnot) are never checked again.  And since nothing in Swarm Guildmage's effect instructs you to make a creature unblocked, those creatures are still considered blocked.
+
+If your opponent wanted to use Swarm Guildmage's ability to give his creatures menace and have that effect blocker legality, the last chance he has to do so is after attackers are declared and each player gets priority but before the declare blockers step starts.
+

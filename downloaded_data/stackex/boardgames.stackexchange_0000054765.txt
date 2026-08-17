@@ -1,0 +1,17 @@
+Q:
+
+Activating Charnel Troll's ability during upkeep
+
+In MTG Arena, I'm having some trouble with Charnel Troll. You are supposed to be able to activate it's ability to discard a creature in response to its triggered ability that makes you exile a creature from your graveyard. But MTG arena doesn't seem to be letting me do so. If I have a creature card in my graveyard it automatically makes me select one and I can't seem to find a way to activate its ability. If I don't have any creatures in my graveyard, Charnel Troll is immediately sacrificed and nobody ever seems to get priority to respond to the ability. What is going on here?
+
+A:
+
+Sometimes the client predicts actions that you may be able to take.  Sometimes it does not.  This is one of those instances.
+To guarantee that the client will operate properly in a case like this, you have two options.
+
+Enter a stop. i.e. you click on the upkeep step, and force the client to let you take an action.
+Enter "Hold Full Control" mode, (Default is by Left Shift+Ctrl).
+
+I play tested both scenarios you described above, and putting in the stop or entering Hold Full Control mode allows one to play out the scenario you describe.  i.e. you can respond to the trigger, discard a creature card, get it into your graveyard, and then exile the card for the upkeep trigger.
+One might reasonably assume that "full control" mode would work in this scenario.  My play testing indicates it does not.  You have to put in the stops to get the desired behavior.  The reason for this, is that "full control" mode turns off as you transition between turn phases (possibly even turn steps).  You can't turn on full control in time.  This is the point of stops.  To force the game to stop in a phase and to give you priority.
+

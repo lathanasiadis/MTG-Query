@@ -1,0 +1,24 @@
+Q:
+
+Change in "can't be countered" wording
+
+Wizard's somewhat recently changed the wording of uncounterable spells to be:
+
+"This spell can’t be countered."
+
+The old wording was:
+
+"[Card name] can't be countered."
+
+For example, Emrakul, the Aeons Torn has changed between Modern Masters 2015 and Ultimate Masters.
+This change seems to have happened as part of the April 2018 rules change where spells and abilities with invalid targets changed from being countered by game rules to just fizzling.  As a result of this, they needed to change the wording on cards that said "[Card name] can't be countered by spells or abilities."  But this doesn't explain the change from "[Card name]" to "This spell", nor does it explain why they needed to issue errata for cards that didn't have the "by spells or abilities" component.
+So why did they make this change?
+Also, the Gatherer Oracle for Nezahal, Primal Tide appears not to have been changed.  Is this an error?
+
+A:
+
+The reason for this change was to "clarify that a card's ability is used at the time you cast it", according to Aaron Forsythe.
+This change was not only limited to "can't be countered", but to all abilities that matter when the card was being cast (when it is a spell). See Talara's Battalion, which went from "Cast Talara's Battalion only if you've cast another green spell this turn." to "Cast this spell only if you've cast another green spell this turn."
+You can read about it here. 
+I can't give a definitive answer about Nezahal, Primal Tide. But we know from past history that sometimes in large Oracle updates, certain cards have been missed, and they get updated in future updates. You can find an example of that in this article, where it explains that Decree of Annihilation should have been updated previously, but was missed and was updated later.
+

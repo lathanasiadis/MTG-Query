@@ -1,0 +1,20 @@
+Q:
+
+Will Splinter Twin and Combat Celebrant provide an indeterminant number of combat phases?
+
+If Combat Celebrant is enchanted with Splinter Twin, and tapped during the Beginning of Combat portion of the Combat Phase to produce a token that is a Copy of Combat Celebrant, could this result in an indeterminant number of combat phases?
+Chain of events:  
+
+Beginning of Combat: Tap enchanted Combat Celebrant to generate the token copy.  
+Declare Attackers: Declare the Token Copy and any number of other creatures attacking. Exert the Token Copy, untapping all other creatures including the original Combat Celebrant.  
+Declare Blockers: Opponents involvement.  
+Combat Damage: no surprises.  
+Additional Combat Phase Happens: Return to Beginning of Combat above, repeating the cycle.
+
+A:
+
+Yes, you can have an infinite amount of combat phases with Combat Celebrant and Splinter Twin.
+As long as you are exerting a new splinter twin copied Combat Celebrant each time, your enchanted Combat Celebrant will be untapped and able to create a new token. This is covered in the gatherer rulings on Combat Celebrant:
+
+If you exert multiple Combat Celebrants in one combat phase, you’ll have that many additional combat phases, but all of your creatures are untapped only during the current combat phase. You’ll need to exert the Combat Celebrants one at a time, in multiple combat phases, to untap your attacking creatures and attack with them in each combat step.
+

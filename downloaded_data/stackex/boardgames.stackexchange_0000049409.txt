@@ -1,0 +1,23 @@
+Q:
+
+Commander Damage Stacking & Player Control
+
+In Commander/EDH, as far as I understand if a commander does 21 damage to an opponent they lose. I understand separate commanders must be tracked separately in multiplayer.
+How does this count if for instance you attack and hit Opponent A, with an 11/11 Commander. Then Opponent B gains control of that same commander (Donate, Confiscate, etc) and on his combat attacks and hits. Is the damage totalled and Opp A loses, or is it tracked separately again? If it’s the latter does commander damage from two different commanders but controlled by the same player stack?
+Please include if there are “Mind Control” effects that would yield difference results to this questions.
+
+A:
+
+They would not track separately; the player will lose.
+
+903.10a A player that’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
+
+And
+
+903.3. Each deck has a legendary creature card designated as its commander. This designation is not a characteristic of the object represented by the card; rather, it is an attribute of the card itself. The card retains this designation even when it changes zones.
+
+Basically, no matter who controls a commander, it is still the commander of the deck it started in; it is the same actual commander. While you can take control of a player's commander, there is no way to change it into your commander.
+In regards to your question about 1 player controlling 2 separate commanders, this can easily happen with the Partner ability, that allows you to have 2 Commanders. In this case, damage from each commander is tracked separately; you need 21 damage from the same commander to lose the game.
+
+702.123d Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast. When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders separately. See rule 903.11a.
+

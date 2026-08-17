@@ -1,0 +1,14 @@
+Q:
+
+Can I choose "Artifact Creature" as a creature type as Adaptive Automaton enters the battlefield?
+
+I want to use the card Adaptive Automaton in my white artifacts deck. Most of the creatures in the deck are artifact creatures. Now, I am not sure if "artifact creature" is a correct creature type. Let's take Palladium Myr for example. It is of creature type "Myr" and also an "artifact creature". Are both attributes real creature types?
+In case I cannot choose "artifact creature", those automatons will find a new home in my Elves deck, but I would prefer to have them in my white artifacts deck.
+
+A:
+
+No, you can't, because "artifact" is not a creature type, it's a card type.
+The information on the type line is divided into two portions, the type(s) and the subtype(s). Each word before the dash represents a type of the card, and each word after the dash (if any) represents a subtype. For example, Palladium Myr's type line says "Artifact Creature - Myr" so "artifact" and "creature" are its types and "Myr" is its subtype.
+When a card says "creature type," it effectively means "subtype of a card which has 'Creature' or 'Tribal' as a type." In other words, the creature type is always a subtype, something that must appear after the dash.
+Also, the complete list of possible creature types is given in the comprehensive rules, rule 204.3k as of this writing. When a card like Adaptive Automaton asks you to choose a creature type, you're only allowed to choose one of the words from that list (according to rule 204.3d).
+

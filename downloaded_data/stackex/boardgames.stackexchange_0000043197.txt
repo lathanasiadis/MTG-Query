@@ -1,0 +1,27 @@
+Q:
+
+How does stealing a creature's text box work with copies?
+
+Phoebe, Head of S.N.E.A.K. has an ability which says:
+
+{2}{U}{B}: Phoebe permanently steals target creature’s text box. (That creature loses all rules text, flavor text, and watermarks. This creature gains them.)
+
+What happens when this is used on a Clone (or another creature) that is copying something, such as a Charging Badger? Does she gain the Badger's or the Clone's text box? (Does she gain both?)
+
+A:
+
+Phoebe will steal the (cloned) Badger's text box.
+Clone states:
+
+You may have Clone enter the battlefield as a copy of any creature on the battlefield.
+
+According to rule 706.2, one of the "Copiable values" is, in fact, Rules Text.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+So, that means that Clone's text box will be the same as whatever creature it's copying1 (in fact, Clone will be the creature it's copying), which in turn will be stolen by Phoebe's ability.
+If the copy has added abilitites (such as Dack's Duplicate), Phoebe will steal those abilities as well, so for the Duplicate, Phoebe would also gain Haste and Dethrone.
+
+1: Except for flavour text and watermark, naturally2
+2: Unless it's a silver-bordered game, in which case it will include those after all. Kudos to @murgatroid99 for pointing that out.
+

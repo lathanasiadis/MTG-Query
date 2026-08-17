@@ -1,0 +1,23 @@
+Q:
+
+Narset, Parter of Veils interaction with Matter Reshaper
+
+If I have Narset, Parter of Veils on the battlefield and I block Matter Reshaper with Snapcaster Mage when it attacks, both creatures die. But does the opponent get to reveal a card and put it on the battlefield or their hand. I presume they can because the card text on Matter Reshaper says reveal a card not draw a card. Is this correct? Thanks in advance
+
+A:
+
+You're correct.
+
+Narset, Parter of Veils prevents opponents from drawing more than one card per turn. However, as you pointed out, Matter Reshaper doesn't draw you a card, but instead reveals the top card of your library and puts it either on the battlefield, or into your hand. Because of that, Narset won't interact at all with Matter Reshaper's trigger.
+For reference, the CR 121, which is the ruling for card drawing, reads:
+
+121.1. A player draws a card by putting the top card of their library into their hand. This is done as a turn-based action during each player’s draw step. It may also be done as part of a cost or effect of a spell or ability.
+
+While the Glossary complements that rule, stating (emphasis mine):
+
+Draw
+
+To put the top card of a player’s library into their hand as a turn-based action or as the result of an effect that uses the word “draw.” See rule 121, “Drawing a Card.”
+
+Since Matter Reshaper doesn't use the word "draw" at any point, by default, it doesn't allow you to draw a card.
+

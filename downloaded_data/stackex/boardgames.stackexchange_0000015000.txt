@@ -1,0 +1,18 @@
+Q:
+
+How does targeting limitation work for Wild Ricochet?
+
+I use Wild Ricochet on an opponent's spell that says "target creature you control" (A not overloaded Dynacharge for example).
+What are valid targets for the spell and the copy? If I can only choose their creatures could I choose to redirect it nowhere as a roundabout counter or do I have to pick valid targets?
+
+A:
+
+The original instance of Dynacharge is controlled by your opponent, so the only valid targets are creatures that that player controls. You must target a creature they control; you cannot choose an invalid target or target nothing.
+You control the copy of Dynacharge, so you may choose one of your creatures as a target for the copy. If there are no valid targets or if you choose not to change the target, the copy will be countered as it would resolve for having an illegal target. Rule 706.2 says:
+
+When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on).
+
+And rule 706.10c says:
+
+Some effects copy a spell or ability and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy’s targets will be, the copy is put onto the stack with those targets.
+

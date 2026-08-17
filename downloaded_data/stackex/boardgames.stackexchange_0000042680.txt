@@ -1,0 +1,16 @@
+Q:
+
+Can a card copying a double-sided planeswalker transform?
+
+If I have a Dack's Duplicate  copying Jace, Vryn's Prodigy, can it transform into Jace, Telepath Unbound?
+I imagine it would not — it would be similar to the rules for tokens right, it doesn't have the face to flip to, and in this case I would assume duplicate would just be exiled forever if it tried right?
+
+A:
+
+You are correct about the outcome, but it is a different set of rules that deals with what happens here.
+In the case of a Jace token, it can’t transform because tokens cannot exist outside of the battlefield, and can’t ever come back to the battlefield after leaving. With a non-token copy, we have this rule:
+
+711.8a If a player is instructed to put a card that isn’t a double-faced card onto the battlefield transformed, that card stays in its current zone.
+
+So the Duplicate will remain in exile. 
+

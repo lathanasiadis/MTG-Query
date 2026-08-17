@@ -1,0 +1,18 @@
+Q:
+
+Can a replacement effect on a permanent apply as it enters play?
+
+Question in the title, but here's a specific example:
+Let's say I cast Semester's End with Lae'zel, Vlaakith's Champion and some other creatures/planeswalkers on the field. Will all the other creatures/planeswalkers re-enter the field with one additional counter each or will LVC's replacement effect kick in as it enters and the other perms enter with two additional?
+
+A:
+
+If Lae'zel is among the permanents exiled, they will all re-enter with one additional counter.
+Lae'zel's effect doesn't work on other permanents because it doesn't exist yet when those creatures enter the battlefield:
+
+614.4. Replacement effects must exist before the appropriate event occurs—they can’t “go back in time” and change something that’s already happened.
+
+Although some permanents have replacement effects that work on their own entering the battlefield, Lae'zel's effect isn't one of them:
+
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it).
+

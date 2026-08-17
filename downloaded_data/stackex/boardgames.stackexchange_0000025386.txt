@@ -1,0 +1,12 @@
+Q:
+
+Can Panic Spellbomb be returned to the library in response to its ability?
+
+When activating the ability on Panic Spellbomb (tap, Sacrifice Panic Spellbomb: Target creature can't block this turn.), can the opponent then use an Instant such as Banishing Stroke to put Panic Spellbomb on the bottom of it's owner's library? Both are happening at instant speed, so do they stack like typical instants?
+
+A:
+
+Your opponent can't do that. Sacrificing the Spellbomb is part of the cost, and you pay costs as part of activating the ability and putting it on the stack, and only once you're done with all that does anyone get priority. So by the time your opponent gets the chance to do anything, it's already in your graveyard. (This is just like how your opponent couldn't do something in response to you paying mana for a spell or ability.)
+If the Spellbomb weren't being sacrificed, your opponent could cast Banishing Stroke on it, but it wouldn't really accomplish anything. Once an ability is activated, it exists on the stack independently of its source. (Yes, activated abilities use the stack.) You'd activate the ability, and your opponent could cast Banishing Stroke in response. The Banishing Stroke would then be on top of the stack, and resolve first. It'd put the Spellbomb on the bottom of your library, then the Spellbomb's ability would resolve as usual.
+Side note: all spells and activated abilities use the stack, regardless of whether they're instants (or at "instant speed"). The important thing about instants and activated abilities is that they can be cast/activated any time you have priority, e.g. while something's already on the stack. That is, the bottom thing on the stack definitely doesn't have to be at "instant speed", just the things added on top of it (usually) - and the stack resolves top-down the same way no matter what's on it.
+

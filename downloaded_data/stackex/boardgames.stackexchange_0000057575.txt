@@ -1,0 +1,19 @@
+Q:
+
+MTG: Transform cards & Reanimator effects
+
+I'm building a Shirei, Shizo's Caretaker deck, and I want to include Ecstatic Awakener in it. Would an Awoken Demon (the other side of Ecstatic Awakener) hit the graveyard as Ecstatic Awakener, causing it to reanimate from Shirei's ability?
+
+A:
+
+No, if Awoken Demon dies, it will not trigger Shirei, Shizo's Caretaker.
+Even though a double-faced card such as Ecstatic Awakener only counts as its front face in the graveyard...
+
+711.4a While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+
+...if its back face dies, it dies as the back face, and Shirei looks at the 4/4 back face to determine whether or not it triggers. Awoken Demon is no longer on the battlefield, but its last known information is used. Shirei sees a 4/4 die, not a 1/1, and does not trigger.
+
+608.2h If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, [..] the effect uses the object’s last known information. See rule 113.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+Essentially, death triggers don't look at the card as it exists in the graveyard, but as it existed on the battlefield at the moment of death.
+

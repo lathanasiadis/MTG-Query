@@ -1,0 +1,15 @@
+Q:
+
+How does Amass interact with Essence of the Wild?
+
+If I have an Essence of the Wild, and I play anything that will Amass, what happens? Do I make one Essence of the Wild token, or does Amass keep triggering after failing to find an army, giving me infinite tokens? I assume the first answer is correct, but I'm not quite sure.
+
+A:
+
+You just get one Essence of the Wild token, and you don't put any counters on it. If you already control an Army creature, you instead create no tokens and put the counters on that Army.
+Amass is a keyword action, meaning that it's a kind of instruction that will appear on spells or in the effects of abilities. So there's no way for it to "keep triggering". You just follow the instruction. Amass is defined in rule 704.43a
+
+To amass N means “If you don’t control an Army creature, create a 0/0 black Zombie Army creature token. Choose an Army creature you control. Put N +1/+1 counters on that creature.”
+
+Following those instructions, you don't control an Army creature, so you create the token it specifies, but Essence of the Wild makes it enter the battlefield as an Essence of the Wild token instead. Then you still don't control an Army creature, so you can't choose one and the last instruction doesn't do anything. Then you're done with the Amass effect, and you continue resolving the rest of the spell or ability.
+

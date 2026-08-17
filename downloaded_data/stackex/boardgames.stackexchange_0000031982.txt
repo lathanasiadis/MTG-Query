@@ -1,0 +1,28 @@
+Q:
+
+Sequence of turns after two Emrakul, the Promised End
+
+Player A and Player B both have an Emrakul, the Promised End and Player A casts his Emrakul and on Player B's turn, that he now controls, casts Player B's Emrakul. Does Player B get to control Player A's turn or not as the card states "When you cast Emrakul, you gain control of target opponent during that player's next turn". Who is you in this case? And what would the sequence of the following turns be?
+
+A:
+
+Player B will control Player A's turn.
+The sequence is:
+
+Turn 1 (A): A casts Emrakul, the Promised End.
+
+Turn 2 (B): A controls B and casts B's Emrakul, the Promised End
+
+Turn 3 (B extra): B can do whatever he wants.
+
+Turn 4 (A): B controls A's turn.
+
+Turn 5 (A extra): A can do whatever he wants.
+
+Turn 6 (B): The game progresses as normal.
+
+Player A is not Player B. Player A and B are always opponents of each other, no matter who controls whose turn. If A makes the decision for B to cast Emrakul, the Promised End, it's as if B had cast it himself for the purposes of "you" or "your opponent" in the card text of cards. Controlling another player only means that you make the game decisions for that player and use his or her resources:
+
+712.3. Only control of the player changes. All objects are controlled by their normal controllers. A player who’s being controlled during his or her turn is still the active player.
+712.5. While controlling another player, a player makes all choices and decisions the controlled player is allowed to make or is told to make by the rules or by any objects. This includes choices and decisions about what to play, and choices and decisions called for by spells and abilities.
+

@@ -1,0 +1,21 @@
+Q:
+
+What is the Card type of "Emblem Sorin, Lord of Innistrad"?
+
+What is the Card type of "Emblem Sorin, Lord of Innistrad"?
+mtgmint lists it as Creature but I am not 100% certain.
+
+A:
+
+It's not a real card. It's basically a token.
+As a game object, it's an "emblem".
+The relevant comp rules:
+
+113.1. Some effects put emblems into the command zone. An emblem is a marker used to represent an object that has one or more abilities, but
+  no other characteristics.
+113.3. An emblem has no characteristics other than the abilities defined by the effect that created it. In particular, an emblem has no
+  name, no types, no mana cost, no color, and no expansion symbol.
+113.5. An emblem is neither a card nor a permanent. Emblem isn't a card type.
+
+Sorin, Lord of Innistrad has an ability that creates these things (yes, multiples will stack). Dark Ascension booster packs contain an emblem token thingy to help you keep track of it. You aren't obligated to use the emblem card, just like you aren't obligated to use the official token cards to represent tokens.
+

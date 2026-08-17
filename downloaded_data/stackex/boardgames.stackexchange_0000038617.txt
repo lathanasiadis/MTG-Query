@@ -1,0 +1,26 @@
+Q:
+
+Can I use Improvise to pay for activated abilities?
+
+The card Inspiring Statuary states:
+
+Nonartifact spells you cast have improvise. 
+
+From the Comprehensive Rules (Ixalan (September 29, 2017))
+
+702.125a Improvise is a static ability that functions while the spell with improvise is on the stack. “Improvise” means “For each generic
+  mana in this spell’s total cost, you may tap an untapped artifact you
+  control rather than pay that mana.”
+
+From the Comprehensive Rules I understand that I can tap artifact to pay {1} of the spells cost. However does the same apply for activated abilities with {X} mana cost on permanents on the field. Example: Mirage Mirror
+
+{2}: Mirage Mirror becomes a copy of target artifact, creature,
+  enchantment, or land until end of turn.
+
+A:
+
+No. Improvise only works for casting spells. Activating abilities, while similar is not casting a spell, thus it cannot be paid for with Improvise.
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”)
+112.1b An ability can be an activated or triggered ability on the stack. This kind of ability is an object.
+

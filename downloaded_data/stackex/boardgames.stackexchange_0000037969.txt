@@ -1,0 +1,36 @@
+Q:
+
+Why do effects that exile a card from the graveyard use the characteristics the card had in the graveyard?
+
+Dread Defiler has the ability
+
+{3}{C}, Exile a creature card from your graveyard: Target opponent loses life equal to the exiled card's power.
+
+with the ruling
+
+Use the card’s power as it last existed in your graveyard to determine how much life is lost.
+
+The cards Varolz, the Scar-Striped and Soul Separator also exile cards from the graveyard and check their characteristics, and they have similar rulings indicating that they check the characteristics the card had in the graveyard, not in exile.
+These rulings surprise me. I would expect them to check the characteristics of the card as it currently exists in exile, based on the highlighted section of rule 608.2g:
+
+If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself, the effect uses the current information of that object if it’s in the public zone it was expected to be in; if it’s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object’s last known information. See rule 112.7a. If an ability states that an object does something, it’s the object as it exists—or as it most recently existed—that does it, not the ability.
+
+Deicide, for example, works the way I would expect. It has the text
+
+Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them, then that player shuffles his or her library.
+
+but its corresponding ruling is different:
+
+Deicide looks at the card in exile, not the permanent that was exiled, to determine if it is a God. For each of the Gods in the Theros block, it won’t matter what your devotion to its color(s) was. The card is a God card when not on the battlefield.
+
+So, why do cards like Dread Defiler, Soul Separator, and Varolz look at the characteristics the cards had in the graveyard, not the characteristics they have in exile?
+
+A:
+
+There is a flaw in the basic premise of the question that these are conflicting rulings on comparable cards.
+Deicide has an effect that moves an object to another zone and then further examines that card.  This is what 'the expected zone' clause in 608.g covers.  There is consistency in the rulings when an effect moves a card between public zones and then checks types using the present tense, it looks in the new zone.  (See Defy Death). As opposed to an effect that moves a card between public zones and checks its type in the past tense (lots, Death's Caress). It seems that does not have particularly clear basis in comp rules without rulings clarifying the intended interpretation.
+Dread Defiler has an effect that looks for characteristics of an object.  Paying the cost for the ability that generated the effect moved that object, but the effect did not move the object.
+So the two rulings are not in conflict.
+Soul Separator is not doing a conditional check, so, assuming the ruling on it is correctly worded, that seems to be our plausible explanation.  If it said "if that card is Power 5 or greater" we'd be in a pickle for which zone to check in I think...
+I agree it is entirely possible for a rational person to have come to different conclusions from reading the comp rules and cards in isolation.  Sometimes a card like Deicide with odd nonstandard templating just needs the guy who wrote it to explain what they intended.  (The use of 'God card' rather than simply 'God' combined with two public zones makes it close to unique.  Almost everything that checks the type/subtype of a "card" rather than a game object and involves a zone change also involves a hidden zone)
+

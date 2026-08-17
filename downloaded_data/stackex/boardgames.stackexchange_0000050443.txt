@@ -1,0 +1,30 @@
+Q:
+
+Rishkar's Expertise and Jace, Wielder of Mysteries
+
+I have 30 cards in my library. I control a Toothy, Imaginary Friend with 100 +1/+1 counters on it.
+I cast Rishkar's Expertise (RE) to draw my entire library, and I cast Jace, Wielder of Mysteries from my hand using the second ability of RE. What happens at this point?
+My guess:
+I would lose the game as I draw a card from my empty library at the moment a player receives priority.
+
+While RE is resolving no one receives priority until RE is resolved completely.
+BUT Jace will be cast from RE and will go on the stack
+Then RE finishes resolving and I lose because players will receive priority and I tried to draw from an empty library
+Therefore my spells get exiled from the stack after leaving play and Jace will never be seen
+
+Questions:
+
+Is my guess correct?
+What would be an alternative to win with this scenario (Mana would not be enough for casting both...I think there is no way I would be screwed anyway)
+
+A:
+
+As soon as Rishkar's Expertise has finished resolving, you would lose for trying to draw from an empty library.
+Resolving a spell or ability requires every player, in turn-order, to pass priority. Whenever a spell or ability finishes resolving, the active player gets priority. Whenever a player would get priority, state-based actions are checked first. The conditions for losing the game are some of these state-based actions to be checked, so you would lose before Jace has a chance to resolve. With the cards in your scenario, if you can't get Jace out before RE resolves, there is no way of preventing that loss, except not casting RE of course.
+Note: Even if Jace was put directly on the battlefield with RE instead of being allowed to cast it, you would still lose. Jace's passive doesn't replace the losing event itself. It replaces the draw from an empty library that would cause the losing event and which would have already happened earlier during RE's resolution.
+
+608.1. Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, “Effects.”)
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+

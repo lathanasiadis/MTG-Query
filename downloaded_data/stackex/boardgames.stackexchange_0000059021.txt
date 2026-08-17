@@ -1,0 +1,26 @@
+Q:
+
+Why/when can you back out from casting a spell with Assist?
+
+It's been previously established that if you begin to cast a spell whose cost you are able to produce enough mana to pay for, you must do so:
+
+[...] you are committed to completely cast a spell you've decided to cast. (source)
+
+No, you cannot choose to stop casting a spell once you have announced that you want to cast it. (source)
+
+In contrast, the assist keyword ability has had this said about it:
+
+If they don't want to pay, you can either foot the entire bill yourself, or choose to back up and not cast the spell at all. (source)
+
+This appears to rely on the player's ability to back out from casting a spell even though they would have been able to cover its cost. Nothing in the rules for assist seems to grant the player this ability, so where does it come from?
+Follow up question: When casting an assist spell, are you able to back out only if the other player paid exactly zero mana, or can you also back out if they didn't pay as much as you would have liked (even if you could have paid the rest of the cost)?
+
+A:
+
+Assist is described in rule 702.132a:
+
+Assist is a static ability that modifies the rules of paying for the spell with assist (see rules 601.2g-h). If the total cost to cast a spell with assist includes a generic mana component, before you activate mana abilities while casting it, you may choose another player. That player has a chance to activate mana abilities. Once that player chooses not to activate any more mana abilities, you have a chance to activate mana abilities. Before you begin to pay the total cost of the spell, the player you chose may pay for any amount of the generic mana in the spell’s total cost.
+
+Assist creates probably the only situation in the game where you don't know how much it is going to cost you to cast a spell until you get to the point of paying that cost. So it makes sense in that particular case that you can decide whether you want to pay that cost at the point where you find out what it is.
+The rules don't specify the exact criteria for when you can decide to back out, but the way I see it, the point is to allow you to back out if the cost is greater than expected. So, if the other player pays the maximum they can pay, there is no justification for backing out. On the other side, if the other player pays too little, and you can't afford the rest, you have to back out. In between, it's ambiguous.
+

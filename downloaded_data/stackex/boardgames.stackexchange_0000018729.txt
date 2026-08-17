@@ -1,0 +1,16 @@
+Q:
+
+When a creature is summoned but still on the stack is it considered a permanent?
+
+Suppose I cast a creature spell, let's say Elvish Mystic. It enters the stack, then in response another player casts Counterspell targeting it. Could I, in response to that, cast Avoid fate or is the Elvish Mystic not considered a permanent until the spell resolves and thus Avoid Fate has no effect?
+
+A:
+
+It's not a permanent while it's on the stack.
+
+110.1. A permanent is a card or token on the battlefield.
+111.1. A spell is a card on the stack.
+
+Before it resolves, it's a spell (on the stack). After it resolves, it's a permanent (on the battlefield).
+So no, you cannot cast Avoid Fate targeting a Counterspell that's targeting your Elvish Mystic on the stack. (It's not that Avoid Fate has no effect; you can't cast it in the first place.)
+

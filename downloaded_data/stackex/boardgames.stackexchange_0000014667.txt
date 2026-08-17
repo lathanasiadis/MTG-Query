@@ -1,0 +1,41 @@
+Q:
+
+MTG Best commander deck money can buy
+
+The background to this is that in our group we have one player that drafts every week, goes to all the events and spends several hundred pounds on Magic each month. When we play casually he cannot understand my point that he is simply buying the win. 
+What I'm trying to do is build the best Commander deck possible using proxies to show that if I spend enough money on a deck I will win every game.
+With this being the current ban list and every other card available, what is the best commander deck I can make? 
+EDIT 
+To define best im looking for somthing fast so it cant be focused on by the groop, hard to counter or stop once i have the combo cards, diverse so that the combo can be activated with multiple cards so the groop does not see it coming in folowing games. 
+
+A:
+
+Five-Color Hermit Druid is regularly considered the fastest style of combo deck in the format. (Occasionally, it's built as BGx, usually BUG, rather than WUBRG.) Combo decks in general are absolutely the strongest archetype in the (multiplayer) format.
+The core build of the deck is:
+
+ZERO basic lands (this alone makes the deck rather expensive to build)
+Hermit Druid (this makes green necessary)
+Tutors to find Hermit Druid (this makes black necessary)
+Fast mana to cast tutors and get Hermit Druid into play as fast as possible
+One or both of:
+Protection for Hermit Druid, so that it can survive a turn cycle and lose summoning sickness without getting killed off
+Haste for Hermit Druid
+
+With zero basic lands, a single activation of Hermit Druid will put your entire deck in your graveyard. From there, you have many choices of a game-winning combo to pick from (which makes WUBRG popular, as you have the pick of the litter when it comes to the combos). Dread Return is a common enabler, as something like Narcomoeba and Reassembling Skeleton can get you up to the requisite 3 creatures for the flashback cost, and then reanimate something such as Necrotic Ooze to begin comboing off.
+While fast, Hermit Druid combo is very much a one-trick pony. Once the other players in your meta have seen it once or twice, they will either refuse to play against it, or else they'll work to negate its biggest weakness -- the reliance on a single specific card which isn't your general.
+
+With regard to the question's edit:
+
+Fast: The only deck I have personally witnessed which might be faster than Hermit Druid was a deck created by MTGS user Gaka with Griselbrand as the general. Gaka specifically created the deck to show that Griselbrand was broken, and the card is now banned (you might even say... "Griselbanned").
+Can't be focused on: There is no such deck. If you build a powerful deck, your friends will either refuse to play against it, or focus on it. There is no way to consistently combo out on T1-2, but there are a number of cheap hate cards your friends could start playing (for example, Extract and friends).
+
+Worse, the faster the deck is, the more focused it, by necessity, will be. This makes it more vulnerable to targeted hate.
+
+Hard to stop: In Hermit Druid, "the combo cards" is really just Hermit Druid and a green mana source. Once Hermit Druid activates, you have access to your entire library via your graveyard. There do exist answers to the situation (Counterspell answers Dread Return, which is answered by Boseiju, Who Shelters All, which is answered by Strip Mine, which is answered by Crucible of Worlds... and so on), but having enough answers is difficult when the Hermit Druid player has full access to his entire library.
+
+Note that, like a 60-card Dredge deck, Hermit Druid needs to be aware of existing graveyard hate. A Tormod Crypt on the battlefield means activating Hermit Druid is probably a bad idea, unless you've got Laboratory Maniac in your hand and the mana to cast it, and protect it until you can draw another card.
+
+Diverse: The actual win condition used in a Hermit Druid deck varies widely. Necrotic Ooze is popular because you only need to reanimate a single target to get all kinds of activated abilities (of which there are many different ways to win the game), but it's not the only option. Laboratory Maniac is another common choice, because your library is empty, and a single instance of "draw a card" suddenly wins you the game. Loops like Saffi Eriksdotter+Karmic Guide+a sacrifice outlet also work, leading to an unbounded loop of creatures entering the battlefield (triggering things like Warstorm Surge), creatures dying (fueling things like Bitter Ordeal), and uses of the sacrifice outlet (anything from Blasting Station to Altar of Dementia).
+
+Five-Color Hermit Druid is usually helmed by either Scion of the Ur-Dragon or Sliver Queen, as both of those generals can themselves be part of a game-winning combo in the event that your opponents stop you from using Hermit Druid. Scion of the Ur-Dragon can kill with general damage in one shot in several ways (although that only works on a single opponent at a time), as well as any combos relating to the individual dragons in the deck (such as Niv-Mizzet, the Firemind+Curiosity, although that requires the ability to recycle your graveyard with something such as Feldon Cane or Elixir of Immortality) and Sliver Queen can generate an unlimited number of sliver tokens given unlimited mana -- and if those tokens are causing you to get the mana in the first place, all the better (see, for example, Mana Echoes).
+

@@ -1,0 +1,19 @@
+Q:
+
+Does Stony Silence stop me from tapping artifacts for Improvise?
+
+Does the card stony silence stop me from tapping artifacts to help pay for the improvise costs of spells?
+
+A:
+
+No, you can still use Improvise normally.
+Stony Silence only prevents the activation of "Activated abilities". There are many types of abilities (triggered, activated, static, etc). Improvise is a "Static ability":
+
+702.125a Improvise is a static ability that functions while the spell with improvise is on the stack.
+
+You can tell that it's not an activated ability because there is no colon in the text.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+It is a somewhat common mistake to think that tapping and activating are related. Many activated abilities happen to have tapping the card the ability is on as part of the cost, but that doesn't mean that anything that requires you to tap something is an activated ability; or that an activated ability needs to have tapping as part of the cost.
+

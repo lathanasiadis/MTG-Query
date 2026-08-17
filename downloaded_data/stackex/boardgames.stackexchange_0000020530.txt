@@ -1,0 +1,23 @@
+Q:
+
+Does exiling a morph card face down for the turn bring it back face up?
+
+For example, if I play Akroma, Angel of Fury down for its morph cost, then a Momentary Blink on the face down creature, does it come back into play face up?
+
+A:
+
+If you exile a face-down creature, it will enter the exile zone face up, and if it returns to the battlefield, it will enter the battlefield face up.
+The first important thing to consider is that face-down is a status. Rule 110.6d says
+
+Only permanents have status. Cards not on the battlefield do not. Although an exiled card may be face down, this has no correlation to the face-down status of a permanent. Similarly, cards not on the battlefield are neither tapped nor untapped, regardless of their physical state.
+
+In addition, rule 707.9 says
+
+If a face-down permanent moves from the battlefield to any other zone, its owner must reveal it to all players as he or she moves it. If a face-down spell moves from the stack to any zone other than the battlefield, its owner must reveal it to all players as he or she moves it. At the end of each game, all face-down permanents and spells must be revealed to all players.
+
+And finally, rule 400.7 says
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+If we put all of these together, they mean that when the face-down Akroma is exiled, it's owner reveals it. It then moves to exile in a state as described by the card that exiles it. Momentary Blink doesn't say to exile it face down, so it's exiled face up. Once it is in exile, it is just an Akroma, Angel of Fury card, with no memory of its existence on the battlefield. Then it enters the battlefield as a creature with no memory of its previous existence on the battlefield or in exile. The effect that puts it on the battlefield doesn't say that it enters face down, so it enters face up.
+

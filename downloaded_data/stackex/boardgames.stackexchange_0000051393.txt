@@ -1,0 +1,16 @@
+Q:
+
+When can an object have an owner and no controller?
+
+Rule 616.1 has an interesting line about an object having no controller but having an owner.  Under what conditions is this possible?
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+A:
+
+Only objects on the battlefield or on the stack have controllers - everything else is only owned
+
+108.4. A card doesn’t have a controller unless that card represents a permanent or spell; in those cases, its controller is determined by the rules for permanents or spells. See rules 110.2 and 112.2.
+
+But there are many cards that can affect cards in hand, library, graveyard, and exile - for those cards, choices are made by the owner because nobody controls them.
+

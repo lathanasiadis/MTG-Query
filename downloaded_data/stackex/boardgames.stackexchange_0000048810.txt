@@ -1,0 +1,18 @@
+Q:
+
+Do "if you would gain life, gain that much life +1" abilities trigger once per turn, or once for every instance of you gaining life
+
+For example, I have a Black/White deck built around life gain. If I have 2 creatures that cause me to gain 1 life with every creature summon and 1 creature with "if you would gain life, gain that much life +1"...
+When I play a creature would I gain +1 (summon) +1 (summon) and then +1 (additional) totalling 3
+Or would I gain +1 (summon) +1 (additional) and then +1 (summon) +1 (additional) totalling 4
+I guess the question is does it trigger for every instance of me gaining life, or just the fact I have done that turn.
+
+A:
+
+A creature like that is Angel of Vitality; its ability applies for every instance of gaining life, not just once per turn.
+
+The middle ability of Angel of Vitality applies just once to each life-gaining event, whether it’s 1 life from Impassioned Orator or 4 life from Dawning Angel. If you gain an amount of life “for each” of something or “equal to the number” of something, that life is gained as one event and the ability of Angel of Vitality applies only once.
+
+(emphasis mine)
+So in your scenario you would gain 4 life, since the 2 creatures' abilities trigger separately and are considered two separate life-gaining events, even if they're triggered by the same event.
+

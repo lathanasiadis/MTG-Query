@@ -1,0 +1,16 @@
+Q:
+
+Can I use cards like Gilded Lotus and Spectral Searchlight in a colorless EDH deck?
+
+With cards that let me add mana of any color, can they be used in a colorless commander deck? Some examples being Spectral Searchlight and Gilded Lotus in a Kozilek, the Great Distortion deck. 
+I am asking because I think I remember seeing something saying I can not, but I do not remember if I am remembering correctly.
+
+A:
+
+Yes, you can do that.
+When you activate the abilities of cards like Spectral Searchlight or Gilded Lotus, someone chooses a color on resolution. That color is not determined in the text itself by mana symbols, which, in addition to a card's mana cost, is the most common way of establishing a card's color identity. The other ways also don't apply:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+Therefore, you can use such colorless artifacts that produce a chosen color in any commander deck, including colorless ones.
+

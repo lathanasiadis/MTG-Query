@@ -1,0 +1,12 @@
+Q:
+
+Are there examples where Arena has implemented the rules incorrectly?
+
+I've seen numerous off hand comments claiming that Arena doesn't implement the rules of Magic the Gathering correctly.  (Here's a single example on a comment to my answer: Does a phased-out Ring-bearer stop being the Ring-bearer when the Ring tempts you?)
+Every rules discussion I follow on Stack Exchange that seems counter intuitive or wrong to me, I test on Arena, and it has always been implemented correctly.
+I am aware that there have been some blatently bad bugs, aside from those, are there examples where the rules were implemented incorrectly?
+
+A:
+
+There have been instances in the past when cards were implemented incorrectly. For example, there was a bug in March where, as a result of code changes to make Gutter Grime work, equipment that granted abilities to the creature that referenced the equipment by name could affect every permanent you control (source). For example, activating the ability granted by Citizen's Crowbar would sacrifice all of your permanents to destroy one permanent, and activating the ability granted by Ninja's Kunai would sacrifice all of your permanents and deal 3 damage times the number of permanents sacrificed to the target.
+

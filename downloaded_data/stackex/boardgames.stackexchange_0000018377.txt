@@ -1,0 +1,27 @@
+Q:
+
+Can I activate a tap ability multiple times, though on different turns?
+
+I have a card named Alloy Myr. It's an artifact creature with the ability
+
+{T}: Add one mana of any color to your mana pool.
+
+Can this ability be used multiple times, but in different turns of course?
+
+A:
+
+Yes, you can use that ability once a turn (usually), but not the turn it entered the battlefield. The ability you describe is an activated ability, where the cost is tapping the creature and the effect is adding one mana to your mana pool. You can only pay the cost (by tapping) when a creature is untapped, so you can't use the ability multiple times in a row.
+To tap a permanent, you turn it sideways. At the beginning of each of your turns, you untap all of your permanents, so generally you can use abilities that require you to tap the permanent once per turn. There are also effects that can untap permanents (e.g. Twiddle), so if you use one of those you can activate the ability again.
+Creatures have summoning sickness. This means that you cannot tap the creature to pay an activated ability's cost or attack with it unless you controlled it since the beginning of your turn. So you can't use this particular creature's ability until the turn after you play it.
+To summarize:
+
+You can use a 'tap' ability on a permanent as long as:
+
+The permanent is on the battlefield and currently untapped, AND
+
+The permanent is not being prevented from tapping, either by summoning sickness or by another ability (e.g. 'cannot use activated abilities')
+
+All permanents untap automatically during your untap step (at the start of your turn) unless something has prevented them from doing so
+
+If a permanent has Haste, it ignores summoning sickness, and therefore can be tapped on the turn it enters the battlefield (unless otherwise prevented from doing so as per above)
+

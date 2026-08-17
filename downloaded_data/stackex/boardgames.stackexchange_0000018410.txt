@@ -1,0 +1,22 @@
+Q:
+
+Do +1/+1 counters accumulate?
+
+This might be quite basic. I am just a beginner and searched through the web and the rule book and couldn't find the answer.
+For instance, Ajani's Pridemate lets you,
+
+Whenever you gain life, you may put a +1/+1 counter on Ajani's
+  Pridemate. (For example, if an effect causes you to gain 3 life, you
+  may put one +1/+1 counter on this creature.)
+
+Then does that counter(s) last across turns and accumulate making Ajani's Pridemate much stronger creature as the game progresses until it dies? Say, you have a staff that lets you
+
+Whenever you cast a black spell or a Swamp enters the battlefield under your control,
+  you gain 1 life.
+
+Every turn you put down a Swamp you gain 1 life and hence Ajani's Pridemate gets another +1/+1 counter. It can even become like 2/2 + 1000*(+1/+1 counter) making it 1002/1002. Am I right?
+
+A:
+
+Yes it can. Every instance if lifegain grants another +1/+1 counter. So if you play 10 Swamps, you have 10 instances of lifegain, which grants 10 +1/+1 counters. If you have a creature with lifelink which deals damage, you gain life, so Ajani's Pridemate gets a +1/+1 counter. There is no limit to the amount of +1/+1 counters it can get.
+

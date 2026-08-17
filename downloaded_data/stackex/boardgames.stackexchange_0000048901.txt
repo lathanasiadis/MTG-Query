@@ -1,0 +1,20 @@
+Q:
+
+Does a Wolf enters the battlefield and fight target creature with or without buff?
+
+I have a Wolf on the battlefield which gives other Wolfes +1/+1 . And I cast a Wicked Wolf. Does it enter and fight target creature already with this buff or without it? And do I get a priority after this triggered ability is put on the stack, and for instance am I able to use Wicked's Wolf activated ability? 
+
+A:
+
+Wicked Wolf enters the battlefield as a 4/4
+You get priority after Wicked Wolf's ability is put on the stack, and you can use this to activate Wicked Wolf's second ability
+The Wolf 'Lord's ability is a static ability. (Lord is an informal term that refers to creatures that give other creatures of a certain type a stat bonus and/or additional keywords.)
+From the comprehensive rules:
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 113.6.
+
+It is simply true that Wicked Wolf has +1/+1 as long as your wolf 'lord' is on the battlefield. This isn't an ability that needs to go on the stack to resolve. It will have this buff when it eventually fights up to one creature from it's first ability. (Assuming the Wolf Lord is still on the field at that time.)
+The second question is asking about an entirely different case. If you are the active player (you usually will be if you are playing a creature), you receive priority first when responding to an ability. Wicked Wolf's enter-the-battlefield triggered ability is placed on the stack, and the active player (probably you) gets priority. At this point, Wicked Wolf is on the field, so it's second ability can be activated if you so choose. If you do so, Wicked Wolf's second ability will be placed above the first ability on the stack, and you will again receive priority. If you pass priority at this point, your opponents will have a chance to respond to Wicked Wolf's second ability before it resolves, giving him a +1/+1 counter, indestructible, and tapping him.
+Then, there will be another round of players (starting with you) receiving priority, before Wicked Wolf's first ability resolves, causing it to fight up to one creature.
+

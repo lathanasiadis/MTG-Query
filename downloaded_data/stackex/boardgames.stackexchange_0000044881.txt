@@ -1,0 +1,10 @@
+Q:
+
+Lazav, Dimir mastermind, copying Growth-Chamber Guardian, and wearing spy kit
+
+Question: So, a Lazav, Dimir Mastermind watches a Growth-Chamber Guardian die and decides to copy it.  Then a Spy Kit is equipped to him.  When a +1/+1 counter is placed on lazav, does it change both names in the text? I know copy effects with self referential names use the new cardname, but does it let me tutor for any creature too?
+
+A:
+
+No, the "Search for a card named Growth-Chamber Guardian" is not self-referential, you are not searching for the card itself, but that ability is naming the legal targets for your search. Just because the targets have the same name as the original card does not make it self-referential, in fact if it were you would only be able to find the copy of Lazav already in play.
+

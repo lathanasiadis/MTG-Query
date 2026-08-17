@@ -1,0 +1,20 @@
+Q:
+
+Can an imprinted spell be kicked when it is cast?
+
+Can an imprinted spell be kicked when it is cast ?
+For example : Isochron Scepter and Orim's Chant
+Can I pay the kicker cost each time I activate Isochron Scepter?
+
+A:
+
+Yes you can pay for Kicker when you can a spell off of the Scepter. The Scepter gives your spell an Alternative Cost, and Kicker is an Additional Cost. These work together to make the full cost of the spell. So you pay {2} to activate the Scepter and then when you cast the Chant you can pay an additional {W} if you want to kick it.
+
+117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell’s text, or applied to it from another effect, that its controller may pay rather than paying the spell’s mana cost. Alternative costs are usually phrased, “You may [action] rather than pay [this object’s] mana cost,” or “You may cast [this object] without paying its mana cost.”
+117.9d If an alternative cost is being paid to cast a spell, any additional costs, cost increases, and cost reductions that affect that spell are applied to that alternative cost. (See rule 601.2f.)
+702.32a Kicker is a static ability that functions while the spell with kicker is on the stack. “Kicker [cost]” means “You may pay an additional [cost] as you cast this spell.”
+
+Also from the rulings on Gatherer:
+
+You don't pay the spell's mana cost. If the spell has X in its mana cost, X is 0. You do pay any additional costs for that spell. You can't use any alternative costs.
+

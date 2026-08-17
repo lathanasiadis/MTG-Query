@@ -1,0 +1,40 @@
+Q:
+
+Does Cremate counter Flashback, Scavenge, and their ilk?
+
+I'm looking at the card Cremate:
+
+Cremate - {B}
+
+Instant - common RTR
+
+Exile target card from a graveyard.
+
+Draw a card.
+
+Now, can I use this to respond to a flashback or scavenge?
+According to the comp rules, the first thing you do when casting a spell (in the case of flashback) is:
+
+601.2a The player announces that he or she is casting the spell. That card (or that copy of a card) moves from where it is to the stack.
+
+Because it moves on to the stack, is it still in the graveyard for me to exile? And even if it was, would the effect be countered?
+But if you can't use it to counter flashback and such, it seems to detract from its usefulness at instant speed.
+
+A:
+
+Whenever one has a question involving keyword abilities, one should start by finding out what abilities they represent.
+
+702.33a Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player’s graveyard and another that functions while the card is on the stack. “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.
+
+One can't cast Cremate in response to Flashback since Flashback doesn't go on the stack. It's a static ability that allows you to cast the card from somewhere it couldn't normally be cast.
+If one casts Cremate in response to someone casting a card from a graveyard, Cremate won't be able to target the card just cast. By the time the card in the graveyard is cast, it's no longer in the graveyard; it's on the stack, where it's not a valid target for Cremate.
+
+702.96a Scavenge is an activated ability that functions only while the card with scavenge is in a graveyard. “Scavenge [cost]” means “[Cost], Exile this card from your graveyard: Put a number of +1/+1 counters equal to the power of the card you exiled on target creature. Activate this ability only any time you could cast a sorcery.”
+
+If one casts Cremate in response to someone activating Scavenge, Cremate won't be able to target the card with Scavenge. Part of the cost of activating Scavenge involves exiling the card. By the time the ability is activated, the card is no longer in the graveyard; it's in exile where it's not a valid target for Cremate.
+
+But if you can't use it to counter flashback and such, it seems to detract from its usefulness at instant speed.
+
+Yes, but keep in mind that Scavenge and Sorceries with Flashback (as opposed to Instants with Flashback) can only be used "any time you could cast a sorcery” (in your main phase when the stack is empty). If you initiate the Cremate, if it's outside of his turn, or if it's outside of his main phases, he can't Scavenge or cast the Sorcery. Scavange and Flashback is often quite expensive, so cost could also affect when one can take advantage of it. End of Combat Damage step would be a good time to cast it.
+Yes, it could take a bit of planning to use Cremate, but that's not too much to ask from a one mana cantrip.
+

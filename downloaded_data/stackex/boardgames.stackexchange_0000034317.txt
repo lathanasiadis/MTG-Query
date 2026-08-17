@@ -1,0 +1,25 @@
+Q:
+
+What happens when a non-creature receives "+1/+1 until end of turn" effects, then later becomes a creature?
+
+A recent question, Can Disallow prevent me from crewing a vehicle?, brought up the following scenario: Veteran Motorist is tapped to crew a vehicle, but the crew ability is countered by Disallow. The vehicle remains a non-creature with no power or toughness (301.7b). However, Veteran Motorist will try to give it +1/+1:
+
+Whenever Veteran Motorist crews a Vehicle, that Vehicle gets +1/+1 until end of turn.
+
+This ability does get triggered, even if the ability was countered, because Veteran Motorist was tapped to pay a crew cost:
+
+702.121b A creature “crews a Vehicle” when it’s tapped to pay the cost to activate a Vehicle’s crew ability.
+
+What happens to this "+1/+1 until end of turn" effect? If I successfully make this vehicle a creature later this same turn, will it have a +1/+1 boost, or will that have disappeared somehow and not apply?
+Let's suppose I have another untapped creature around and I'm going to use it to crew the vehicle, or I have Ensoul Artifact or Tezzeret's Touch or Tezzeret the Schemer's emblem ability available to use.
+
+A:
+
+Thinking about it in a regular usage scenario, doesn't the vehicle get the +1/+1 effect before becoming a creature? 
+When you tap the Veteran to crew, isn't the stack:
+
+Vehicle gets +1/+1
+Vehicle becomes a creature.
+
+So, the vehicle gets +1/+1 before becoming a creature, but the effect applies after becoming a creature. In fact, there's never a point in time where it is a creature without the +1/+1. 
+

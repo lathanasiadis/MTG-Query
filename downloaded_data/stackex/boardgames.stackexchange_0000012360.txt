@@ -1,0 +1,13 @@
+Q:
+
+What happens if a transform trigger is copied?
+
+Similarly to my previous question, what happens when a miracle trigger is copied?, Strionic Resonator, a new card printed in Magic 2014 could also be used to copy a transform trigger such as on Huntmaster of the fells.
+What happens when this trigger is copied?
+
+A:
+
+If multiple transform abilities are on the stack for the same object, it will simply transform back and forth on each resolved trigger.
+This one is pretty straightforward. It's the same object, and a transform simply flips the switch, no matter which side is currently on top, because Transform is not specific to either side.
+The only ruling on Bloodline Keeper fully applies here.
+

@@ -1,0 +1,22 @@
+Q:
+
+Why did deathtouch not work against a double strike or first strike creature?
+
+I am new to mtg, but I come across a lot of technical things that don’t make sense to me. One major thing that has infuriated me is why deathtouch doesn’t work when I block with it. I had Orzhov Enforcer and blocked with it against a Fencing Ace with a +1/+1 counter on it. It didn’t die though. My creature defended and dealt -1 damage which should’ve killed it, but didn’t. Why did this happen more than once with me. 
+There is another case where I dealt 2 damage with two 1/1’s against Tajic, Legion’s Edge and it did not die. The card says it prevents damage to other creatures you control not the card itself. So, why did it not die that time either?
+In both encounters, the opponent did not have any enchantment, artifact, instant, whatever to prevent any damage or keep these two creatures alive. So, what is the deal? What am I missing?
+
+A:
+
+Fencing Ace has double strike. Tajic can be given first strike. That means they deal combat damage first, before your Orzhov Enforcer can, so the Enforcer's deathtouch did not matter.
+Normally, when combat happens there is a single damage step after attackers and blockers have been declared. In a damage step, all combat damage is dealt simultaneously.
+However, if one or more creatures have double strike and/or first strike, there is another damage step in which only creatures with first strike and/or double strike deal damage:
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.8). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).
+
+If a creature dies in that step, it won't be around for the next damage step to deal damage:
+
+702.7b If at least one attacking or blocking creature has first strike or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+Also note that Tajic only prevents noncombat damage, i.e. only damage that was not dealt during a combat damage step, though it didn't matter either way for your question.
+

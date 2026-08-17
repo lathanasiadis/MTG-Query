@@ -1,0 +1,14 @@
+Q:
+
+If I flash in Teferi, Time Raveler, can its passive ability counter a spell on the stack?
+
+If I play Teferi, Time Raveler at instant speed, by way of, for example, Raff Capashen, Ship's Mage, will Teferi's passive ability counter a spell being played by an opponent at a time when they can not cast sorceries?
+The ability in question reads
+Each opponent can cast spells only any time they could cast a sorcery.
+So if, for example, my opponent casts Vraska's Contempt on Raff during my end phase, and I respond by flashing in Teferi, does the Vraska's Contempt resolve?
+My suspicion is that the opponent's spell will, in fact, resolve, because it has already been cast (i.e. is already on the stack) when Teferi resolves and hits the board.  Is this correct?
+
+A:
+
+Your suspicion is correct, Teferi prevents opponent's cards from being cast outside the main phases, but if the opponent's spell is already on the stack, then it has already been cast, and as such Teferi's passive will not have any effect on it. They could not, however, respond to the stack again after Teferi resolves. 
+

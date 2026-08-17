@@ -1,0 +1,30 @@
+Q:
+
+Magic the gathering number of cards in a hand
+
+In the quick reference paper they say: 
+
+Shuffle your deck, then draw a hand of seven cards. The player who takes the first turn won’t draw a card that turn.
+
+That means, both players will draw 7 cards, first player will start with 7, second player will draw a card, that is 8.
+In the rules, they say :
+
+402.2. Each player has a maximum hand size, which is normally seven cards. A player may have any number of cards in his or her hand, but as part of his or her cleanup step, the player must discard excess cards down to the maximum hand size.  
+
+So, if the first player plays one card, what is the number of cards in the hand, will he draw 1 card next turn to get to maximum hand size (7) or will he draw 2 cards, to get to maximum hand size (7) plus one?
+Because second player began the game with maximum hand size cards (7) plus 1 (the card he drew on his first turn).
+So, will the player who goes first always draw cards to have 7 cards in a hand, and the player who goes second will keep the advantage of having 8 cards in his draw step until the end of the game?
+Or, will the maximum cards at the clean up step be 7 in the hand, but the number of cards in hand during the player's turn (except first turn for the player going first) is 8. That is to say both players have 7 cards at the start of their draw step and draw one card to have 8? It is little bit chaotic.
+
+A:
+
+You always draw 1 card in your draw step (unless some effect says otherwise), regardless of the number of cards in your hand.
+There are card games where you draw up to some number of cards in your hand, but Magic isn't one of them.
+Rules: 
+
+Draw Step
+
+504.1. First, the active player draws a card. This turn-based action doesn’t use the stack.
+
+The player who plays first doesn't get a draw step in the first turn only (rule 103.7a), after that there is no difference between the player who started first and the other. The maximum hand size for both at the end of the turn is 7.
+

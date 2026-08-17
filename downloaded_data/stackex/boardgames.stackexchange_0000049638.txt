@@ -1,0 +1,13 @@
+Q:
+
+damage triggering a simultaneous modifier of damage
+
+Earl of Squirrel and Griffin Protector both deal combat damage to player. As Earl of Squirrel creates squirrels will it trigger the effect on a Griffin Protector before the Griffin deals damage to the player? Or will the griffon only receive it's bonus after it has delivered it's damage to the player...
+
+A:
+
+The Griffin Protector will not get the bonus power and toughness from its ability until after it deals its damage.
+All combat damage is dealt simultaneously (ignoring First Strike and Double Strike). So, in this situation, first the Earl of Squirrel and the Griffin Protector both simultaneously deal their combat damage, and the Earl of Squirrel immediately creates 4 squirrel tokens. This triggers Griffin Protector's triggered ability 4 times, and after this process is done, those 4 abilities go on the stack. Finally, assuming nobody responds, each of those abilities resolves and the Griffin Protector gets +1/+1 from each, for a total of +4/+4. As you can see, it gets these buffs significantly after it deals its damage, so the buffs don't apply to the damage it deals.
+
+One simple way to change that is to give the Earl of Squirrel the ability first strike. If a creature has first strike, it deals its combat damage in a separate combat damage step before the regular one. In that case, the whole process I just described happens in the first combat damage step, except that only Earl of Squirrel deals its combat damage. Then, in the second combat damage step, after Griffin Protector gets those buffs, it will deal its combat damage.
+

@@ -1,0 +1,49 @@
+Q:
+
+Is it worth it to buy booster boxes or singles to collect 4 regular and 4 foil Cards
+
+Suppose I wanted to buy 4 of each card in both foil and regular quality near the time when a set comes out. Which would be more cost efficient? Buying booster boxes or pre-ordering singles? Or maybe a combination or the two?
+How would you go about collecting playsets of foil and regular cards?
+
+A:
+
+The answer to this will vary depending on the size of the set. I will use Khans of Tarkir as an example, which has 101/80/53/15 commons/uncommons/rares/mythics.
+According to this answer,
+
+1 in 6 packs contains a foil
+foil mythics are several times more rare than foil rares. I interpret this to mean that distribution is equal to the total number of unique cards of each rarity, e.g. for Khans you'd expect 101 out of every 249 foils to be common, and 15 out of every 249 foils to be mythic.
+
+The question of "how long does it take to randomly collect one of each item in a collection, with replacement?" is called the Coupon collector's problem. 
+On average,
+
+You need to get 524 commons before you have one of each. There are 10 commons per pack, so you will need to open 52.4 packs.
+You need to get 397 uncommons before you have one of each. There are 3 uncommons per pack, so you will need to open 132.3 packs.
+You need to get 241 rares before you have one of each. There is one rare per pack, except in the 1/8 chance of getting a mythic, so you will need to open 275 packs.
+You need to get 49 mythics before you have one of each. There is one mythic per eight packs, so you will need to open 392 packs.
+
+ 
+
+You need to open an average of 14.7 packs to get one foil common, so you need to open 7702 packs to get one of each.
+You need to open an average of 18.7 packs to get one foil uncommon, so you need to open 7423.7 packs to get one of each.
+You need to open an average of 28.2 packs to get one foil rare, so you need to open 6796.2 packs to get one of each.
+You need to open an average of 99.6 packs to get one foil mythic, so you need to open 4980 packs to get one of each.
+
+The question of "how long does it take to randomly collect N of each item in a collection, with replacement?" is called the Double Dixie Cup Problem. User PM 2Ring located and implemented the formula for me; in general, collecting four sets of something takes about twice as many trials as collecting one set of something.
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+|rarity  |qty|trials    |trials    |regulars|foils   |packs needed for|packs needed for|packs needed for|packs needed for|
+|        |   |(copies=1)|(copies=4)|per pack|per pack|a set of        |a set of        |a set of        |a set of        |
+|        |   |          |          |        |        |1 regular       |4 regular       |1 foil          |4 foil          |
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+|common  |101|525       |1091      |10      |101/1494|52              |109             |7765            |16138           |
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+|uncommon|80 |397       |839       |3       |40/747  |132             |279             |7413            |15668           |
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+|rare    |53 |241       |527       |7/8     |53/1494 |275             |602             |6793            |14855           |
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+|mythic  |15 |50        |122       |1/8     |5/498   |400             |976             |4980            |12151           |
++--------+---+----------+----------+--------+--------+----------------+----------------+----------------+----------------+
+
+to get four of every regular and foil card in Khans, you would need to buy 16,138 packs, with an MSRP of $64,390.62 plus tax.
+For comparison, you can currently get a full set of Khans of Tarkir (non-foil) for $200 from SCG. SCG doesn't have the foil set, but you can find it for around $490. 4 x $200 + 4 x $490 = $2760.
+$64,390.62 is a lot more expensive than just buying singles for $2760, so singles are the way to go.
+

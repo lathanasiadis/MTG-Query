@@ -1,0 +1,27 @@
+Q:
+
+Resolution of two buffs that affect attacking creatures
+
+I have a creature, Wild Beastmaster, that increases all other creatures I control whenever it attacks (I assume that means the attack triggers this). However, since a card like Trumpet Blast only affects attackers that are already declared (as per the rulings at the bottom of that page), it only works if attackers have already been declared. Would the Trumpet Blast be able to effectively be doubled through the Wild Beastmaster, or would the specification of "attacking creatures" mean that it cannot be used before the Wild Beastmaster's effect is applied?
+
+A:
+
+Yes, you can make these work well together.
+The ruling on Wild Beastmaster actually answers your question:
+
+The value of X is determined when the triggered ability resolves. ...
+
+So you can have this sequence of events:
+
+Declare attackers including Wild Beastmaster (and maybe other creatures).
+Wild Beastmaster's ability triggers and goes on the stack.
+While it's still on the stack, you cast Trumpet Blast.
+Trumpet Blast resolves, granting Wild Beastmaster (and others) +2/+0.
+Wild Beastmaster's ability resolves, checking Wild Beastmaster's power. It's now 3 (with the +2/+0 from Trumpet Blast), so X is 3, and it grants +3/+3 to your other creatures!
+
+I think the relevant comp rule is 107.3c (emphasis mine):
+
+107.3c If a spell or activated ability has an {X}, [-X], or X in its cost and/or its text, and the value of X is defined by the text of that spell or ability, then that's the value of X while that spell or ability is on the stack. The controller of that spell or ability doesn't get to choose the value. Note that the value of X may change while that spell or ability is on the stack.
+
+Wild Beastmaster's ability does define the value of X to be its power, so that's the value of X the entire time it's on the stack, and it can change while it's on the stack - for example, when Trumpet Blast changes its power.
+

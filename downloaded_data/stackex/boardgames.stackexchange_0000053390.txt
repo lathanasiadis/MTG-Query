@@ -1,0 +1,22 @@
+Q:
+
+How does Proliferate interact with Exalted and other temporary +1/+1 buffs?
+
+I understood Proliferate to be an ability that allows you to, given any number of permanents and players of your choosing, add another counter of each existing counter type that is already on there. Like adding another poison counter to a player that already has one, or buffing a creature with a +1/+1 counter even more, or giving an opponent's creature with at least one -1/-1 counter another one.
+There are some edge cases I'm unsure of:
+
+What if an attacker is exalted (+1/+1 until end of turn) and they proliferate during their attack? Do they get an additional +1/+1? Does it affect combat in the current turn? If they get an additional +1/+1, does it wear off at the end of the turn like the exalted buff?
+Similar situation with Hand of the Praetors: could you proliferate the +1/+1 buff it gives other creatures?
+
+A:
+
+The word 'counter' has a very specific meaning in Magic:
+
+A marker placed on an object or player that modifies its characteristics or interacts with a rule or ability. See rule 122, “Counters.”
+
+so only spells and abilities explicitly mentioning counters interact with proliferate. The 'exalted' ability doesn't mention it:
+
+702.82a Exalted is a triggered ability. “Exalted” means “Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.”
+
+and neither does Hand of the Praetors. So they don't profit from proliferate.
+

@@ -1,0 +1,18 @@
+Q:
+
+Wort, Boggart Auntie and Goblins with Echo
+
+So, I've got an EDH deck featuring Wort, Boggart Auntie as my General. I really want to exploit her ability for all it's worth, so I've been looking for different goblins that have "Enters the Battlefield" effects and/or sacrifice effects. I can across two with Echo that seem like they'd work really well: Mogg War Marshal and Stingscourger.
+Let's say that I cast Mogg War Marshal last turn and that I have Wort in play. During my upkeep, can I decline Mogg War Marshal's Echo cost, sending it to the graveyard and then retrieve it with Wort?
+
+A:
+
+If a triggered ability has a target, you have to choose the target when it goes on the stack.  The target has to be valid both when the ability triggers, and when it resolves.  From the rulebook:
+
+114.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the
+  “something” is a phrase that describes an object, player, or zone. The
+  target(s) are chosen as the ability is put on the stack; see rule
+  603.3d.
+
+You get to choose the order in which the triggers go on the stack.  But in this case, that won't help you.  Wort's trigger always happens before Marshall's trigger resolves.  So when Wort's trigger goes on the stack, the Marshall is not yet in the graveyard.  So it is not a valid target for Wort's ability.
+

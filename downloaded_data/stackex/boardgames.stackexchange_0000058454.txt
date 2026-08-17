@@ -1,0 +1,17 @@
+Q:
+
+Resolving Geier Reach Sanitarium with Notion Thief in Play
+
+In a game of commander, if I have both Geier Reach Sanitarium and Notion Thief in play then activate Geier Reach's ability, my assumption is that the simplified explanation of the outcome would be: "I draw 4 cards, discard 1, and each of my opponents discard a card", but I want to understand the order of actions better.
+The key thing I want to understand is, can I draw all 4 cards and then discard a card, or do I need to draw a card discard a card, then draw the additional three cards.
+I know that as a replacement affect, Notion Thief's ability does not use the stack, but what is the order in which Geier Reach's ability resolves? If it requires priority order, I assume that if I am the active player I would have to draw 1, discard 1, then draw 3, but if I wait until the turn of the opponent who immediately follows me in turn order, can I draw 4 then discard 1? Or does the fact that I am activating the ability mean priority order always starts with me?
+
+A:
+
+You draw all 4 cards and then discard 1.
+Look at the following card-specific ruling on Geier Reach Sanitarium:
+
+When you activate Geier Reach Sanitarium's last ability, first each player draws a card. Then the player whose turn it is selects a card from their hand and sets it aside without revealing it; proceeding in turn order, each other player does the same. Then the cards that were set aside are discarded at once.
+
+This is then modified by Notion Thief's replacement effect to mean, effectively: first, you draw all the cards.  Then, you discard, followed by each player in turn order.
+

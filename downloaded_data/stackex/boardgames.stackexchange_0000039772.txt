@@ -1,0 +1,20 @@
+Q:
+
+If a creature enters as a copy, does it have summoning sickness?
+
+If I play the Phantasmal Image as a copy of any other creature (that has no summoning sickness), will it have the summoning sickness or not?
+Phantasmal Image
+
+You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it's an Illusion in addition to its other types and it gains "When this creature becomes the target of a spell or ability, sacrifice it."
+
+I know that copies does not copy the "summoning sickness" status, but what if it enters the battlefield and is not being copies inside it?
+
+A:
+
+Summoning sickness is not a copiable value. In fact it's not even a value at all, it's just an informal way to refer to the following rule:
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since his or her most recent turn began. A creature can’t attack unless it has been under its controller’s control continuously since his or her most recent turn began.  This rule is informally called the “summoning sickness” rule.
+
+So, “summoning sickness” is a game rule process. (We informally say summoning sickness is something a creature has, but that's informal.)
+When any new non-Hasty creature enters the battlefield during your turn, since you haven't controlled it since the beginning of your turn, you can't attack with it or tap it for {T} costs. This applies for any creatures, including those that happen to be copying another.
+

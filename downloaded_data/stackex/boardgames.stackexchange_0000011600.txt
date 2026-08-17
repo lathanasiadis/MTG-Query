@@ -1,0 +1,43 @@
+Q:
+
+What are the differences between combat damage, direct damage, and loss of life?
+
+From reading the rules it would appear there are two kinds of damage and then straight loss of life:
+
+118.3 If an effect causes a player to gain or lose life, that player's life total is adjusted accordingly.
+
+From reading that I would guess that effects like Extort are not sources of damage. You simply lose the life. 
+
+119.2a Damage may be dealt as a result of combat. Each attacking and blocking creature deals combat damage equal to its power during the combat damage step.
+
+So damage from creatures during combat is combat damage.
+
+119.2b Damage may be dealt as an effect of a spell or ability. The spell or ability will specify which object deals that damage.
+
+And that is direct damage from an object.
+So the arguments are these:
+Does loss of life as outlined by rule 118.3 (at top) count as being dealt damage? Do triggered abilities that redirect or reduce damage effect loss of life?
+My second related question: You put Arcane teachings on a Blinding Angel and tap her to deal one damage to your opponent. Am I right in saying that because the damage was direct damage (not dealt during combat) then the triggered ability of preventing the combat phase of the damaged player is not triggered?
+
+A:
+
+This is cleared up in rule 118.2:
+
+Damage dealt to a player normally causes that player to lose that much life. See rule 119.3.
+
+So you actually have it backwards. Damage to a player is loss of life, not the other way around. When a player is "dealt damage," they lose that much life. (See below for more on "normally.") This is emphasized in rule 119.1a:
+
+Damage can't be dealt to an object that's neither a creature nor a planeswalker.
+
+Spells that specifically say "lose life" cannot be reduced by spells that redirect damage. Damage is caused as "a result of combat" (119.2a) or "as an effect of a spell or ability" (119.2b). Spells that cause loss of life do not cause damage. Instead, they go around damage and just cause the loss of life. There are two ways to cause damage (quoted above as combat damage and damage from spells), and when these objects would inflict damage on a player, that player loses that much life. 
+If a player takes damage, they lose that much life; if a player loses life, they lose that much life. Additionally, if a creature takes damage, it takes that much damage; creatures do not lose life. Think of life as the currency of players, which damage can impact in a negative way.
+This distinction between damage and loss of life is important. They are intentionally kept separate for cards like Griselbrand. The designers wouldn't want you to be able to prevent the loss of life caused by his ability by casting a simple damage reduction spell, like Reflect Damage, so loss of life is kept as a separate concept.
+If a triggered ability says "whenever a player is dealt damage," it would not trigger when that player is affected by a spell that causes loss of life.
+In regards to the Blinding Angel example, you are correct. Blinding Angel did not deal combat damage so its ability would not trigger.
+
+The word "normally" in rule 118.2 refers to one way in which damage is modified, laid out specifically in 119.3b. This rules lays out an important exception to loss of life:
+
+Damage dealt to a player by a source with infect causes that player to get that many poison counters.
+
+This is an exception; players lose life when they are dealt damage 99.9% of the time.
+

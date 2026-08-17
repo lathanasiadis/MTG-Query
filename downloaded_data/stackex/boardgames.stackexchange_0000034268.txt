@@ -1,0 +1,109 @@
+Q:
+
+Does my counter to a spell have to be relevant?
+
+If my opponent plays a creature, can I respond to that creature because technically it is a spell being cast?
+If so, am I allowed to respond to the casting of a creature spell with a flame lash dealing damage to the player or must it concern the spell it is responding to?
+
+A:
+
+If my opponent plays a creature, can I respond to that creature because technically it is a spell being cast?
+
+Yes, you can. At the moment your opponent casts it (which means they reveal the card, pay the associated costs, and maybe even verbally declare that they are casting it), it becomes a spell, specifically a creature spell. It does not become a creature permanent, a.k.a. a creature, until the spell resolves. Before that happens, you get a chance to do things in response.
+
+If so, am I allowed to respond to the casting of a creature spell with a flame lash dealing damage to the player or must it concern the spell it is responding to?
+
+Yes, you can cast Flame Lash targeting the player at this point. There is no rule that says the thing you cast must be related to the creature spell being cast; it can be anything you can play at that time, which generally means any instant or card with flash.
+
+In detail, if we take the example of your opponent casting an Aether Herder with no other creatures in play, the process goes like this:
+
+It is your opponent's main phase.
+
+Stack:
+(empty)
+Battlefield:
+(no creatures)
+
+Your opponent reveals an Aether Herder card from their hand and moves it to the stack (i.e. on to the table), pays the cost {3}{G}, and (maybe) says "Cast Aether Herder" or something like that.
+
+Stack: 
+
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+Your opponent may cast or activate something else: any instant, or any card with flash, or any ability whose activation is not restricted by the text "Activate this ability only any time you could cast a sorcery" or the liky. Let's say they don't. (It would be very rare for them to do this.)
+
+Stack: 
+
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+You may cast or activate something (instant, flash card, ability). Let's say you cast Flame Lash. You reveal the Flame Lash card from your hand and move it to the stack, choose what to target (your opponent), pay the cost {3}{R}, and (maybe) say "Flame Lash you". (Note: you cannot target the Aether Herder. Flame Lash cannot target spells. It can only target creatures - that is, creature permanents on the battlefield - and players, as it says on the card.)
+
+Stack: 
+
+Flame Lash (spell)
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+You may cast or activate something else. Let's say you don't. (Again, it would be very rare for you to do this.)
+
+Stack: 
+
+Flame Lash (spell)
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+Your opponent may cast or activate something. Let's say they don't.
+
+Stack: 
+
+Flame Lash (spell)
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+Since all players have passed priority consecutively, the top item on the stack resolves. This is the Flame Lash. It deals 4 damage to your opponent. (Then, if they are at 0 life or less, they lose.)
+
+Stack: 
+
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+Your opponent, as the active player, may cast or activate something. Let's say they don't.
+
+Stack: 
+
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+You may cast or activate something. Let's say you don't.
+
+Stack: 
+
+Aether Herder (spell)
+
+Battlefield:
+(no creatures)
+
+Since all players have passed priority consecutively, the top item on the stack resolves. This is the Aether Herder. It stops being a spell and becomes a permanent. Your opponent moves the card from the stack to the battlefield.
+
+Stack:
+(empty)
+Battlefield: 
+
+Aether Herder (permanent)
+

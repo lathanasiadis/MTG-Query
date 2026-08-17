@@ -1,0 +1,18 @@
+Q:
+
+Question about damage triggers while going below 0 life
+
+My relevant board state is Blood Hound and Shalai and Hallar. 
+An opponent attacks with unblockable creatures, for say 20 damage, which is more damage than I have life. 
+Do I get to add the counters to Blood Hound and then deal damage to an opponent with Shalai and Hallar before I count as being dead and leaving the game?
+
+A:
+
+No. Losing the game by having 0 or less life is a state-based action which does not use the stack (CR 704.5):
+
+704.5 The state-based actions are as follows:
+704.5a If a player has 0 or less life, that player loses the game.
+
+In a two-player game, you've just lost. In a multiplayer game, CR 800.4 specifies what happens when a player leaves the game. The rule itself is rather long to cover all the possibilities, but the summary is that everything that player owns vanishes from the game with no effect, including any triggers etc which are on the stack.
+(Rule references are to the 2023-06-16 Comprehensive Rules)
+

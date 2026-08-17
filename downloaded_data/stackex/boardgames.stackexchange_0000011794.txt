@@ -1,0 +1,22 @@
+Q:
+
+How does Valakut trigger with a card like Harrow or Scapeshift putting multiple mountains into play?
+
+Valakut, The Molten Pinnacle has an effect that triggers when mountains enter the battlefield.
+
+When a mountain enters the battlefield, if you control 5 or more other mountains, Valakut deals 3 damage to target creature or player.
+
+If a player has for example 4 mountains and 3 forests in play, and casts a spell such as Harrow, sacrificing a forest to fetch 2 mountains, bringing the total count up to 6, does Valakut trigger?
+How does this work with a card like Scapeshift, which would allow you to sacrifice all of your lands and fetch a valakut and 6 mountains?
+
+A:
+
+Valakut, The molten Pinaccle's trigger uses an "intervening if" clause to control the trigger. this means that the condition of triggering is checked both when the trigger condition is met (when a mountain is played, check if there are 5 other mountains) and when the trigger resolves (if there are still 5 other mountains when the trigger resolves, nothing happens)
+If at either point there are not 5 other mountains in play, then the trigger does nothing. this gives opponents an opportunity to destroy some of your mountains to prevent the trigger from dealing them any damage.
+With regard to the actual question, in the situation where multiple lands are put onto the battlefield at once - 2 by harrow, and as many as are sacrificed in scapeshift - the situation is always resolved in the same way.
+All the mountains finish entering the battlefield before any of the mountains have an opportunity to "trigger" valakut's ability. When the mountain enters the battlefield as part of a spell, valakut "remembers" to trigger its ability the next time a player would get priority, after state based actions are checked. by this point, all of the other mountains (and all of the other triggers) are also on the battlefield and queued up ready to trigger.
+This means that when you put any number of mountains onto the battlefield at once through a spell or ability, as long as there are 5 other mountains on the battlefield when you are finished, all mountains put onto the battlefield that way will trigger valakut's ability and deal 3 damage.
+in the specific examples,
+Harrow will put 2 mountains onto the battlefield as it resolves, when the valakut triggers are checked each mountain's trigger acknowledges there are 5 other mountains and is put onto the stack (and targets for each are chosen). When they come to resolve, providing there are still 5 other mountains left on the battlefield, they will deal damage to the chosen targets totalling 6 damage in 2 triggers. 
+Scapeshift sacrificing 7 lands to find 1 Valakut and 6 mountains - in this situation all 6 mountains and Valakut enter at the same time, but the resolution is still the same, each mountain waits to trigger Valakut the next time a player would get priority, sees 5 other mountains on the battlefield at that point, and thus 6 triggers are put onto the stack. These 6 triggers then resolve, and providing there are still 5 other mountains, they all resolve and deal damage to their targets, totalling 18 damage in 6 triggers.
+

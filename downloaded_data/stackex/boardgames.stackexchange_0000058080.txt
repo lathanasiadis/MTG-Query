@@ -1,0 +1,38 @@
+Q:
+
+Why don't cards that exile themselves go to the graveyard?
+
+Calamity's Wake is a card from the Brothers' War set that has the text “Exile Calamity's Wake.” at the end of it.
+The clear intention of this card is that after it is cast, it goes to exile instead of the graveyard. However, I'm curious about the wording because it isn't worded as a replacement effect, which means there doesn't seem to be anything stopping this card from going to the graveyard as part of resolution.
+The relevant comprehensive rules are:
+
+608.2k If an instant spell, sorcery spell, or ability that can legally resolve leaves the stack once it starts to resolve, it will continue
+to resolve fully.
+608.2m As the final part of an instant or sorcery spell’s resolution, the spell is put into its owner’s graveyard. As the final part of an
+ability’s resolution, the ability is removed from the stack and ceases
+to exist.
+
+These two rules together suggest to me that Calamity's Wake exiles itself, continues resolving, then moves to the final steps of resolution which according to 608.2m moves the spell to the owner's graveyard. Nothing about 608.2m looks like it requires the spell to currently be on the stack to happen.
+Is there any other comprehensive rule that clears up how a spell exiling itself is supposed to behave? I know how it's clearly meant to work, but I'm just looking for the justification from the comprehensive rules.
+
+A:
+
+This is a consequence of CR 400.7
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+and the "Golden Rule" 101.3:
+
+Any part of an instruction that’s impossible to perform is ignored. (In many cases the card will specify consequences for this; if it doesn’t, there’s no effect.)
+
+As you note, 608.2k means that we do the following things in order:
+
+"Exile all graveyards": no problem here.
+"Players can't cast noncreature spells this turn": no problem here.
+"Exile Calamity's Wake": this moves the spell from the stack to the exile zone. As per 400.7, the object in exile is unrelated to the object on the stack so any effects which would have applied to the spell do not apply to this object.
+
+If there were further text on Calamity's Wake, we would continue to follow those instructions as per 608.2k. There isn't, so we don't need to worry about that here.
+We now come to 608.2m; this instructs us to put the spell into the owner's graveyard. We can't do this, because the spell doesn't exist any more, so we apply the golden rule. The card (or rules in this case) don't specify a consequence for this so there is no effect.
+The spell has now finished resolving, and there is an object in exile called "Calamity's Wake". The game continues as usual by checking state-based actions.
+(All rules quotes from the 2022-10-07 Comprehensive Rules)
+

@@ -1,0 +1,16 @@
+Q:
+
+Can I give my creature Persist and Sacrifice it to Greater Good to save it from destruction by Beast Within?
+
+I have Child of Alara and my opponent targets it with Beast Within. I then cast Cauldron Haze to give persist to the Child of Alara and sacrifice it to Greater Good. Does my creature come back with the -1/-1 counter or is it dead?
+
+A:
+
+It's up to you. Since both of the leave the battlefield effects on Child of Alara are yours, you choose the order they go on the stack. This gives you two options:
+
+Persist on the stack first - Persist goes on the stack, and then the destroy all nonland permanents goes on the stack. Destroy comes off the stack first and resolves, destroying all nonland permanents, Then persist resolves, returning Child of Alara to the battlefield with a -1/-1 counter.
+Destroy on the stack first - Destroy all nonland permanents goes on the stack, and then persist goes on the stack. Persist resolves first returning Child of Alara to the battlefield with a -1/-1 counter. Then destroy resolves, destroying all nonland permanents including Child of Alara. A new destroy trigger goes on the stack and will resolve.
+
+Usually option 1 would be the better option, as it leaves you with a creature, but if your opponent has a lot of persist themselves, or effects that make tokens when their creatures or other permanents die, you may want to use option 2, so that Child destroys all nonland permanents, including itself, making it destroy all nonland permanents again when it dies the second time.
+Beast Within is put into the grave yard doing nothing no matter which choice you make, since it no longer has a legal target.
+

@@ -1,0 +1,16 @@
+Q:
+
+Can Esika, God of the Tree ever cheat the back side of a double-sided card into play?
+
+Suppose I have played The Prismatic Bridge (the back face of Esika, God of the Tree), an enchantment which has "At the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order."
+Now suppose that the card revealed this way is Valki, God of Lies - which is a double-faced card with Tibalt, Cosmic Imposter on the back.  Can I put Tibalt, Cosmic Imposter into play instead of Valki?
+
+A:
+
+No - The Prismatic Bridge specifically tells you to put the card onto the battlefield, double faced cards being put onto the battlefield without being played (lands) or cast (spells) are put into play front face up unless otherwise specified (put into play transformed, or daybound/nightbound). This is covered by rule 712.10:
+
+712.10 A double-faced card put onto the battlefield from a zone other than the stack enters the battlefield with its front face up by default.
+
+712.10a If a spell or ability puts a transforming double-faced card onto the battlefield “transformed,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a transforming double-faced card onto the battlefield transformed, that card stays in its current zone.
+712.10b If a player is instructed to put a modal double-faced card onto the battlefield and its front face isn’t a permanent card, the card stays in its current zone.
+

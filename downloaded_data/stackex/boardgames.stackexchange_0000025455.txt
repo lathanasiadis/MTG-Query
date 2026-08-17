@@ -1,0 +1,21 @@
+Q:
+
+What does it mean that only permanents are legal targets for spells or abilities?
+
+I just noticed rule 114.2 in the comprehensive rules:
+
+114.2 Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can't exist on the battlefield, such as a spell or ability, or (c) targets a zone.
+
+Is it not true that every spell or ability that targets also says in the text of the spell or ability what things it must target? Is there a situation in which something is not a legal target, but would be if rule 114.2 didn't exist? It seems to be like that rule could just as easily say "only creature cards in graveyards are legal targets for spells and abilities, unless a spell or ability specifies that it can target an object in another zone."
+In other words, legal targets are always defined on the spell or ability itself, so what does this rule mean? How are permanents any more "targetable" than anything else?
+
+A:
+
+Consider a creature like Nectar Faerie. It says
+
+{B}, {T}: Target Faerie or Elf gains lifelink until end of turn.
+
+Now we know that spells can have lifelink, as per Soulfire Grand Master.
+And we also know that there could be Faerie Tribal spells, such as Faerie Trickery.
+This rule exists to clarify things like... "You could not use Nectar Faerie to give Faerie Trickery lifelink because it doesn't specifically say you can".
+

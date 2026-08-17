@@ -1,0 +1,18 @@
+Q:
+
+Do effects that remove abilities also remove counters?
+
+I have a creature in play that has several +1/+1 counters on it. My opponent plays a card that has "remove all abilities from target creature".
+Does this also remove the counters? What's the rule that clarifies this? 
+
+A:
+
+Abilities and counters are different things. Effects that remove abilities do not remove counters, and effects that remove counters do not remove abilities.
+Abilities are defined in rule 112:
+
+112.1a An ability is a characteristic an object has that lets it affect the game. An object’s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that do so use the words “has,” “have,” “gains,” or “gain.”) Abilities generate effects. (See rule 609, “Effects.”)
+
+and counters are defined in rule 121:
+
+121.1. A counter is a marker placed on an object or player that modifies its characteristics and/or interacts with a rule, ability, or effect. Counters are not objects and have no characteristics. Notably, a counter is not a token, and a token is not a counter. Counters with the same name or description are interchangeable.
+

@@ -1,0 +1,17 @@
+Q:
+
+In Commander, if a player causes all of my cards to become a color other than the colors of my commander, do I lose the game?
+
+There are some cards in MTG, such as Painter's Servant, which allow you to change color identities of permanents. If I were use this card while the commander isn't in play, all the cards in play would become the color I chose. If I chose a color outside my opponent's commander's color identity, then all the cards they had in play would become illegal. Would that cause them to lose the game?
+
+A:
+
+The color identity rule in Commander is a deck construction rule. This means that it limits the set of cards that can be used to create the deck. Once a deck is created, it is either legal or illegal based on deck construction rules, and that does not change after a game begins.
+In addition, the color identity rules specifically say the following:
+
+903.4. The Commander variant uses color identity to determine what cards can be in a deck with a certain commander. The color identity of a card is the color or colors of any mana symbols in that card’s mana cost or rules text, plus any colors defined by its characteristic-defining abilities (see rule 604.3) or color indicator (see rule 204).
+
+903.4a Color identity is established before the game begins.
+
+There are currently no cards that can change the listed attributes that determine color identity, not even Painter's Servant. And even if they could, color identity does not change during the game.
+

@@ -1,0 +1,39 @@
+Q:
+
+How do Phenomenon cards work in the Eternities Map variant?
+
+In the Eternities Map variant of Planechase, players lay out Plane cards in a grid and get to choose a direction when they planeswalk:
+
+Players see not only the current plane, but also adjacent planes they can go to.
+Planechase 2012 introduces the new Phenomenon cards as part of the planar deck -- for example, Interplanar Tunnel and Spatial Merging.
+How do Phenomenon cards work with the Eternities Map? Specifically,
+
+Can you use them at all?
+Are Phenomena resolved immediately when you reveal them from the deck, or do they go on the field and sit there (like adjacent Planes would) until a player visits one?
+What happens to a Phenomenon card after it resolves?
+How should triggers be stacked when resolving Phenomena?
+Do any of the Phenomena require functional errata to work in this format?
+
+I would like to see authoritative official rules, but house rules (with design justification) are also acceptable.
+
+A:
+
+In the absence of any official article, here are my current house rules:
+
+Include phenomenon cards in the planar deck, as normal. As a rule of
+thumb, the deck should include at least 25 actual planes.
+Players "encounter" phenomenon cards when they are revealed from the planar deck -- put their triggers on top of the stack immediately.
+In most cases, this means that the phenomenon will be adjacent to
+the current plane. After resolving a phenomenon, place it on the
+bottom of the planar deck and continue revealing plane cards until all
+spaces are filled as normal.
+Spatial Merging gets errata to read "Place both of them in the
+same slot on the planar map" instead of "Simultaneous planeswalk to
+both of them."
+
+My main guiding principle for these house rules was that phenomena are random, one-time events, so it was aesthetically unappealing to have them sitting in a spot, waiting to be triggered. Because they activate when revealed from the deck, moving to a known square can still have additional unforeseen consequences (e.g. Morphic Tide or Chaotic AEther). I like that phenomena only occur when exploring the edges of the map: they are surprises that afflict planeswalkers venturing out into unknown reaches.
+Overriding the unique "encounter" keyword allows all current phenomenon cards work as written, with the exception of Spatial Merging (and their reminder text). I consider this an elegant solution.
+Phenomena are placed at the bottom of the deck (rather than shuffled) because I found that more natural and expedient. They can still recur unexpectedly because the deck will be shuffled whenever out-of-reach planes are removed from the map. You could also shuffle them in immediately if you wanted to; which approach you prefer doesn't really matter.
+Note that, with too few actual plane cards in the deck, the game could get into a degenerate loop when you continuously reveal phenomenon cards -- hence the warning about minimum deck size. Right now, we play with a deck of around 35-40 cards total, 5 of which are phenomena, and this has worked well.
+There are some niggles here with trigger ordering that I haven't investigated fully, but so far my informal play procedures have been sufficient for a few quick playtest games.
+

@@ -1,0 +1,34 @@
+Q:
+
+Trigger order Elesh Norn and Coercive Recruiter
+
+There was card played that moved all creatures from the graveyard back to the battlefield under their owners control.
+In my graveyard was Elesh Norn, Grand Cenobite and the opponent had Coercive Recruiter and a bunch of 2/2 creatures.
+When Coercive Recruiter enters the battlefield it takes control of Elesh Norn till end of turn.
+My question is, will the opponents creature get -2/-2 before he takes control over Elesh Norn
+
+A:
+
+Yes, opposing creatures will get -2/-2 before your opponent gains control of Elesh Norn.
+Elesh Norn's ability is a static ability that applies continuously.
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+Coercive Recruiter's ability is a triggered ability. Therefore, its effects do not happen until the trigger resolves.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]"
+
+603.3. Once an ability has triggered, its controller puts it on the stack [...]. It remains on the stack until it's countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+With that in mind, here is how your specific situation unfolds:
+
+All creatures return to the battlefield from the graveyard under their owner's control.
+
+At this point, you control Elesh Norn and all of your opponent's creatures have -2/-2.
+
+Any creatures with zero or less toughness die.
+Your opponent chooses Elesh Norn as the target for Coercive Recruiter's ability, and then places the trigger on the stack.
+Coercive Recruiter's triggered ability resolves.
+
+At this point, your opponent controls Elesh Norn.
+

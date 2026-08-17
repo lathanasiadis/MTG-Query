@@ -1,0 +1,28 @@
+Q:
+
+Fiery Temper and Electrostatic Pummeler on the Stack
+
+So I've been trying to play these two scenarios in my head, but I'm a little confused. 
+1). A person casts an Electrostatic Pummeler, and while it is on the stack, I cast a Fiery Temper. The person in response plays a Blossoming Defense. Would this player be able to do that since EP is still technically on the stack? 
+2). A person casts an EP, and while it is on the stack, I cast a Fiery Temper. The person originally had 3 energy counters. Once the person allows the stack to resolve, would they get another 3 energy counter, and be able to pay them to make EP a 4/4, allowing EP to survive? 
+I'm new to magic, so I don't understand these things fully yet. 
+
+A:
+
+You generally cannot cast a spell that requires a creature as a target while that creature is still on the stack, because by that time it's still a spell.
+While a creature card is on the stack, it's not a creature, but a creature spell. On the stack, only spells/abilities can exist, and spells/abilities can only exist on the stack. 
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) A spell remains on the stack as a spell until it resolves (see rule 608, “Resolving Spells and Abilities”), is countered (see rule 701.5), or otherwise leaves the stack. [..]”
+
+When a spell or ability says, for example, "creature" without further specifying the type of object, it means "creature permanent":
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+A creature, on the other hand, is a certain type of permanent, and permanents can only exist on the battlefield; everything on the battlefield is a permanent.
+
+403.3. Permanents exist only on the battlefield. Every object on the battlefield is a permanent. [..]
+
+Since both Fiery Temper and Blossoming Defense require a "creature" (= "creature permanent") as a target, not a creature spell, neither of you can cast Fiery Temper or Blossoming Defense on the Electrostatic Pummeler while it's on the stack. The creature spell has to resolve first, which results in the Pummeler entering the battlefield as a creature permanent. 
+Once the Pummeler is on the battlefield and both of you can start casting spells on it, the usual "last in, first out" stack resolution procedure commences. 
+Note that whenever a spell or ability resolves, either player may play new spells or abilities, even if the stack hasn't fully resolved yet. So if the enemy Electrostatic Pummeler is on the battlefield and you cast Fiery Temper on it, your opponent can respond with Blossoming Defense, let the BD resolve, then activate the EP's ability to make it a 6/6 before your Fiery Temper resolves, thereby saving the EP.
+

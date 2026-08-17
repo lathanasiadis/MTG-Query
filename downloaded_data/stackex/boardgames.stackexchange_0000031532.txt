@@ -1,0 +1,27 @@
+Q:
+
+Hideaway Lands and Additional Costs
+
+If I were to use say Spinerock Knoll's or Mosswort Bridge's Hideaway ability to cast Tooth and Nail, am I able to then pay the entwine cost to have both effects?
+Im not sure whether the card being exiled effects whether I can use the entwine cost or not.
+I am also not sure if casting without paying the manna cost stops me from being able to use the entwine cost...
+My gut feeling is that additional costs are separate from Manna costs so I would be able to do this? Am I right?
+
+A:
+
+Yes, you may choose modes and pay additional costs for a spell if you cast it through a Hideaway land.
+Tooth and Nail is a modal spell; if you choose both modes, you incur an additional cost. You may choose modes if and when you cast a spell. As long as you do cast the spell (as opposed to copying it, or putting it on the stack in some other way), it does not matter where you cast it from or whether its mana costs have been altered in any way. Choosing to Entwine simply increases the cost of the spell from (in your case) {0} to {2}, after you paid {G} for the land's ability.
+The Hideaway lands' activated ability reads:
+
+You may play the exiled card without paying its mana cost if [..]
+
+It allows you to play the exiled card (which means cast if that card is a spell) for no mana cost (the cost printed in the upper right of the card), if a certain condition is met. If you do, you proceed to cast the exiled card just like you would from your hand.
+
+Casting Spells
+
+601.1a Some effects still refer to “playing” a card. “Playing a card” means playing that card as a land or casting that card as a spell, whichever is appropriate.
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [..]
+601.2b If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it’s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). [..]
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. [..]
+702.41a Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. “Entwine [cost]” means “You may choose all modes of this spell instead of just one. If you do, you pay an additional [cost].” Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2f–h.
+

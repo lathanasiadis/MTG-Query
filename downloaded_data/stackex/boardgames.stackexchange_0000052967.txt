@@ -1,0 +1,12 @@
+Q:
+
+Will an 8/8 with trample die if it's blocked by 4 2/2 creatures?
+
+When attacking with a creature that has trample, can it die if the blockers' power succeeds or equals the attacking creatures' toughness?
+Example: A 8/8 with trample attacks. 4 creatures, all 2/2, block. So all 4 creatures blocking and the attacking 8/8 with trample would die correct?
+
+A:
+
+Yes, it will die. In general, trample only affects what happens with excess damage from the attacking side, i.e. when the attacking creature's power is higher than the total toughness of the blockers. The other way around (blockers' total power vs. attacker's toughness) is not affected.
+The blocking creatures will die too, except when the attacking player makes the (usually inferior) decision to distribute more than the necessary 2 damage to some of the creatures, e.g. 4 to the first and 2 to two others.
+

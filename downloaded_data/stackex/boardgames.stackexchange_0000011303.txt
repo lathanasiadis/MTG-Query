@@ -1,0 +1,26 @@
+Q:
+
+Do I still get to draw cards if I can't sacrifice Soul Ransom when its ability resolves?
+
+Soul Ransom has an interesting ability:
+
+Discard two cards: Soul Ransom's controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
+
+I'm aware that the normal procedure for resolving abilities is "do as much as you can." The use of "then" in the card text is confusing me a bit, though.
+If Soul Ransom is already in the graveyard when its ability resolves, because the affected creature has been killed by some other means, do I still get to draw two cards?
+Scenarios where this matters:
+
+I Soul Ransom a Thragtusk. At the end of my turn, my opponent discards two cards to activate Soul Ransom's ability. I have a Devour Flesh in hand, so it'd be real nice to give myself some life and a Beast token instead of just returning the Thragtusk. If I Devour-Flesh the Thragtusk in response, Soul Ransom will end up in my graveyard by the time its ability resolves. Will I still get to draw cards?
+
+I'm playing a control mirror and my opponent Soul-Ransoms my Angel of Serenity. He only has 10 cards left in his library. Can I Sphinx's Revelation for 12, then put Soul Ransom's ability onto the stack multiple times to force him to draw himself to death? (Even though only the top-most instance will cause Soul Ransom to be sacrificed.)
+
+A:
+
+Yes to all three questions.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+If the draw was contingent on the sacrifice, the sacrifice would be made part of the cost, or the effect would be "Soul Ransom's controller sacrifices it. If he does, he draws two cards". See Garruk, the Veil-Cursed's second ability for an example of this.
+

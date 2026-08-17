@@ -1,0 +1,23 @@
+Q:
+
+Stonehewer Giant questions
+
+Obviously an interesting card. A few rules I'm trying to clarify here, all regarding fetching an equipment as an instant for some other attacking creature.
+Note Stonehewer Giant is not attacking here.  
+1) After declare blockers step (say defending player said no block), and before damage, can you use the Stonehewer Giant's ability to go fetch a Worldslayer to blow everything up, without a chance for defending player to announce blocks?
+2) After declare blockers step, say defending player has announced blocking with a black creature, can you then to use the ability of Stonehewer to go fetch, Sword of Feast and Famine (give protection from black), and completely void the blocker?
+and 3) After you announce attacks, and they announce a blocker, can you then use Stonehewer to go fetch Argentum Armor and have its ability trigger? Basically after the blocker is announced, and if I then attach Argentum Armor to the attacking creature as an instant, does the ability trigger (Whenever equipped creature attacks, destroy target permanent.)?
+
+A:
+
+Yes, you can do that. Since you're activating the ability when you receive priority back from the declare blockers step, your creature hasn't been blocked and cannot be blocked after that.
+If your intention is to have your creature deal its damage to the defending player, then no, you cannot do that. When a creature is blocked, it has been blocked regardless of whether you give it any kind of evasion ability or protection. What will happen in this case is that your creature will deal its damage to the blocking creature, and the (black and/or green) blocker will deal no damage to your creature since it has protection from black and green. This falls under rule 509.1b (emphasis mine):
+
+509.1b The defending player checks each creature he or she controls to see whether it’s affected by any restrictions (effects that say a creature can’t block, or that it can’t block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+  A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn’t affect that block. Different evasion abilities are 
+  cumulative.
+
+No. You can fetch and equip Argentum Armor with Stonehewer Giant's ability, but the equipment will not trigger, since it's been equipped after the attackers have been declared. This falls under CR508.2a (emphasis mine):
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+

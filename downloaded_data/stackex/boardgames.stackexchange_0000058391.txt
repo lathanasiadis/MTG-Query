@@ -1,0 +1,43 @@
+Q:
+
+What happens to a card exiled with Jacob Hauken, Inspector that is returned to hand?
+
+I'm a little confused on a potential play:
+
+Activate Jacob Hauken, Inspector's ability, without paying the cost to transform:
+
+{T}: Draw a card, then exile a card from your hand face down. You may look at that card for as long as it remains exiled. You may pay 4{U}{U}. If you do, transform Jacob Hauken, Inspector.
+
+Choose to exile a card from your hand with flashback, for example Croaking Counterpart.
+Activate the third ability of Rootcoil Creeper:
+
+{G}{U}, {T}, Exile Rootcoil Creeper: Return target card with flashback you own from exile to your hand.
+
+Target the Croaking Counterpart that was exiled with Jacob Hauken, returning that card to hand.
+
+On a later turn, activate Jacob Hauken's ability again. Exile any card and pay the cost is paid to transform into Hauken's Insight. This has the ability:
+
+Once during each of your turns, you may play a land or cast a spell from among the cards exiled with this permanent without paying its mana cost.
+
+Does the previously "exiled" Croaking Counterpart in hand have a cost to cast, assuming it's the first card cast from those that were exiled as the card effect doesn't state it still needs to be in exile?
+In addition to this, once the card is cast/played (from hand/exile ...) could I cast it again in another turn for free (if I were able to bounce/put into grave or again into exile)?
+I expect the card state is reset when moving to and from exile? If so, cards that are exiled with counters on them like Evelyn, the Covetous what happens to those counters once cast?
+
+A:
+
+Abilities that refer to exiled cards like that only affect cards that are currently in exile that were put there by one of that permanent's other abilities.
+First, I want to note that the scenario in question does not exactly work as described. Jacob Hauken's ability exiles cards face down, which means that Rootcoil Creeper cannot see that they have flashback and cannot interact with them. However, if we replace Jacob Hauken, Inspector with Kaho, Minamo Historian and Croaking Counterpart with Cackling Counterpart, Rootcoil Creeper can move the Cackling Counterpart to the hand as expected. For the rest of the answer, I will work with those cards.
+
+With that out of the way, rule 400.7 says:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+That rule has exceptions, but none apply here. When Rootcoil Creeper moves the Cackling Counterpart into your hand, it is a completely different object that no longer is associated with Kaho in any way. You can't cast it using Kaho ability, and that doesn't change if you cast it and it moves back into exile.
+In addition, the abilities on Kaho, Minamo Historian are linked abilities, covered by rule 607.2a:
+
+If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+Regarding your question about Evelyn, the Covetous, rule 122.2 says this:
+
+Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+

@@ -1,0 +1,18 @@
+Q:
+
+Whan Happens if I Copy Etrata, the Silencer?
+
+What happens if I try to copy Etrata, the Silencer with Quasiduplicate (via Qicken, Leyline of Anticipation, etc.) in response to her triggered ability? Since I create a copy of a Legendary creature, according to the rule, I have to sacrifice one. So my question is: what happens if I choose the one which is going to be reshuffled in the deck? Does the copy remain and the effect of the exiled monster etc. + the reshuffle take place?
+
+A:
+
+No, you don't get to shuffle Etrata into your library if you sacrifice her.
+First of all, Quasiduplicate is a sorcery. That means you can't play it while Etrata's ability is on the stack. You can play sorceries only when you have priority, during your main phase, and when the stack is empty.
+
+307.1. A player who has priority may cast a sorcery card from their hand during a main phase of their turn when the stack is empty.
+
+Second, if you somehow manage to play Quasiduplicate at instant speed in response to Etrata's trigger, it would resolve first and, as you already noted, you would have to choose which Etrata to keep. If you keep the copy, the original that triggered its ability goes to the graveyard. When the triggered ability resolves, it tries to shuffle Etrata into your library, but the card in the graveyard is a new object - Etrata's ability "loses track" of its source when it changes zones. It will still exile the targeted creature with a hit counter on it, but Etrata will not be shuffled back.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+

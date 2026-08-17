@@ -1,0 +1,21 @@
+Q:
+
+Sower of Discord, Gideon's Sacrifice and Stuffy Doll
+
+In a 3-player game, P1 (20 life) has Sower of Discord down, with P2 (12 Life) and P3 (12 Life) the named players. P2 has Stuffy Doll on the board, naming P3. 
+P1 attempts to deal 3 damage to P2 (say with a Lightning Bolt), but P2 in response casts Gideon's Sacrifice, choosing Stuffy Doll as the creature to take the damage.
+Is this an infinite loop or does it ever terminate?
+
+A:
+
+Player 2 and player 3 will each lose 3 life.
+
+Lightning bolt tries to deal 3 damage to player 2 and gets redirected to Stuffy Doll.
+Lightning bolt resolves dealing 3 damage to Stuffy Doll.
+Stuffy Doll's trigger goes on the stack to deal 3 damage to player 3.
+Trigger resolves, player 3 takes 3 damage and loses 3 life (now down to 9 life).
+Sower's ability sees the damage and it's trigger goes on the stack to make player 2 lose 3 life (note that it is loss of life, not damage).
+Gideon's Sacrifice will not do anything to Sower's trigger (Gideon's Sacrifice looks for damage, not loss of life).  Therefore, the trigger will resolve and player 2 will lose 3 life.
+
+There is no infinite loop here because the loss of life that comes from Sower can't be redirected with Gideon's Sacrifice.  (Remember, damage causes loss of life, but loss of life does not count as damage.)
+

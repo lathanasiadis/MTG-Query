@@ -1,0 +1,19 @@
+Q:
+
+Is morphing a creature effectively a cost?
+
+I'm teaching some of my friends magic, and morph seems to be a bit of an outlier mechanic. It's one of the few things that a player has a choice to do but 'doesn't use the stack'. It can make it a bit hard to describe to my new players that are just learning how the stack/abilities resolving work.
+Is it fair to describe morph as a cost (paid in addition to the actual morph cost), which does nothing? Effectively, rewording it as 
+
+[Cost], turn this creature face up: Do nothing.
+
+Of course, once a creature is turned face up there are effects, such as a change in the creature's power and toughness, and (usually) triggered abilities, but those are only a consequence of an action happening, not a new action paid for by the morph cost.
+In my understanding, treating morph as a cost in this way is entirely keeping with the rules. As normal costs, it can only be done when you have priority. Similarly, it can't be responded to. (A creature sacrificed as a cost, as an analogy, cannot be responded to either.)
+My question is: is this a fair way of explaining the special case of Morph as a mechanic to newer players, or is there some rule or corner case that I'm missing?
+
+A:
+
+Turning a creature face up by paying its Morph cost is a Special Action, like playing a land.
+Taking a special action is similar to paying a cost to cast a spell or activate an ability, in that both take effect immediately without waiting for anything on the stack to resolve, but there are also differences. Players can explicitly take special actions whenever they have priority, but costs can only be paid as part of taking some other action. So, any attempt to represent it as a cost would make it part of another action that does nothing except provide an opportunity to pay that cost, which is essentially backwards.
+If Morph was represented as a cost to activate a nothing ability as described in the question, that action could not be taken while you cannot activate non-mana abilites because of cards like Overwhelming Splendor or abilities like Split second.
+

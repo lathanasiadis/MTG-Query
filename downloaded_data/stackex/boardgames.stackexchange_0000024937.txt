@@ -1,0 +1,20 @@
+Q:
+
+Can I play countered sorcery speed spells with Guile?
+
+During an opponent's turn, I had Guile and used Rethink to counter a permanent spell (in my case, it was a Deathbringer Thoctar).
+Guile's second ability states "if a spell or ability you control would counter a spell, instead exile that spell and you may play that card without paying its mana cost" which makes no mention of timing.
+There's no ruling posted on The Gatherer, but some forum posts around the web suggest I can play it out of turn. Can anyone provide rule snippets or examples from sanctioned tournaments to provide a definitive answer?
+
+A:
+
+There actually is a Gatherer ruling related to the timing. I bolded the relevant sentences.
+
+Guile's second ability replaces "counter [a certain spell]" with "exile [a certain spell] and you may cast it without paying its mana cost." You have the option to cast it immediately upon its exile. If you choose not to, it remains exiled and you don't get another chance to cast it. If the spell or ability that tried to counter the spell has additional effects, it then continues to resolve.
+
+This means you cast the spell during the resolution of whatever counter spell you cast. Since normally you can't cast spells during the resolution of a spell this means you have to ignore normal timing restrictions (like only being able to cast it during your main phase when the stack is empty), it how ever doesn't ignore restrictions like Savage Beating's
+
+Cast Savage Beating only during your turn and only during combat.
+
+In order to cast it at some other time the ability would need to explicitly give you that ability, like Outpost Siege which gives you the ability to play it until the end of turn, or Kheru Spellsnatcher which gives you the ability to play the card as long as it is exiled (and the Spellsnatcher is on the battlefield)
+

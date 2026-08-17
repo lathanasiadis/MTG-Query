@@ -1,0 +1,25 @@
+Q:
+
+Can Sacred Ground mitigate Annihilator?
+
+My understanding is that being attacked by a creature with Annihilator N, which would force me to choose and sacrifice N permanents while have a Sacred Ground on the battlefield means that if I sacrificed lands on resolution those lands would come back onto the battlefield since an opponent controlled the Annihilator ability. (Possibly even providing me with a benefit, due to ETB effects or sacrificing tapped Basic lands to get them back untapped.)
+However, I understand that any intervening ability or effects including state based effects would interfere with the Sacred Ground's ability. For instance a Stalking Stones that's turned itself into an Artifact Creature should come back from an opponent's Shatter, but not a Lightning Bolt since the state based action of having enough damage to kill it puts it in the graveyard, not the Lightning Bolt itself.
+Are there any intervening effects involved in making a choice of sacrifices, or other effects I've missed, that prevent Sacred Ground from bringing back a land sacrificed to an opponent's creature's Annihilator ability?
+Or are there any issues in my interpretation of the abilities in question?
+If I gave the opponent's creature the Annihilator ability through Eldrazi Conscription (or copy effects or other contrivance...) does anything change? (Not that I plan to do anything of the sort, just to be comprehensive in my understanding.)
+
+A:
+
+Yes, this works as you describe.
+Although Sacred Ground has no rulings in Gatherer; we can look at a similarly-worded card, such as Nephalia Academy.
+
+If a spell or ability an opponent controls causes you to discard a card, you may reveal that card and put it on top of your library instead of putting it anywhere else.
+
+This has the following ruling:
+
+If a spell or ability an opponent controls causes you to make a choice and you choose to discard a card, Nephalia Academy’s ability will apply.
+
+This should make it clear that even when you have a choice to make; if you choose the thing that the ability cares about, it counts as your opponent's spell or ability "causing" it to happen.
+In the case of Annihilator; your opponent controls the Annihilator triggered ability which is what causes you to sacrifice a permanent.
+This would be no different if you controlled an Eldrazi Conscription enchanting an opponent's creature; because your opponent's creature is still the object with the Annihilator ability. It would be different if Eldrazi Conscription said "whenever enchanted creature attacks; defending player must sacrifice 2 permanents". If that were the wording; then you would be the controller of the ability, not your opponent.
+

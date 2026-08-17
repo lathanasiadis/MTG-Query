@@ -1,0 +1,19 @@
+Q:
+
+What happens when Merfolk Trickster's ability targets Tempest Djinn
+
+Is the text on Tempest Djinn: "Tempest Djinn gets +1/+0 for each basic Island you control." considered an "ability"? Does that mean if Merfolk Trickster's triggered ability targets Tempest Djinn it becomes a 0/4 vanilla creature?
+
+A:
+
+Yes, it's a so-called 'static ability':
+
+604.1. Static abilities do something all the time rather than being activated or triggered. They are written as statements, and they’re simply true.
+
+The ruling under the card in Gatherer confirms that:
+
+Tempest Djinn’s ability that modifies its power applies only while it’s on the battlefield. In all other zones, it’s a 0/4 creature card.
+
+(emphasis mine)
+so it's affected by Merfolk Trickster.
+

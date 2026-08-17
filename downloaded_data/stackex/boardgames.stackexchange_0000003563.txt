@@ -1,0 +1,34 @@
+Q:
+
+MTG: Activated abilities and change of control on the stack.
+
+Let's say I play an activated ability of one of my creatures; for example, this one:
+
+My opponent responds to this with an instant that takes control of this creature:
+
+Question: Will the effect of the activated ability be countered? The stack now looks like this:
+
+Vedalken Anatomist puts -1/-1 on target creature
+Opponent gains control of Vedalken Anatomist
+
+The change of control will happen first. Does this mean that the -1/-1 counter will not be received by the target creature? If yes, then what happens to the mana spent (and the lands tapped) to pay the cost of using the ability?
+
+A:
+
+The most relevant rules are:
+
+112.3b Activated abilities have a cost and an effect. They are written as "[Cost]: [Effect.] [Activation instructions (if any).]" A player may activate such an ability whenever he or she has priority. Doing so puts it on the stack, where it remains until it's countered, it resolves, or it otherwise leaves the stack. See rule 602, "Activating Activated Abilities."
+
+Therefore, once you put the Activated Ability on the stack, it stays there unless it is countered or something specifically removes the ability from the stack.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Sorcerer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it's expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+This rule specifically confirms that after the Activated Ability is on the stack, its source is irrelevant. Any removal of the source or changing of controllers won't affect the Ability.
+So in this particular case, Act of Aggression can't do anything to stop the Veldalken Anatomist unless it say, targets the opponent's Azorious Guildmage (also Veldaken! oh the poetic justice!) and, after it resolves, its controller has the mana to put that creature's ability counter on the stack. ;-)
+EDIT
+Oh, one more thing:
+
+701.5b The player who cast a countered spell or activated a countered ability doesn't get a "refund" of any costs that were paid.
+
+Even if the ability is countered, no refunds.
+

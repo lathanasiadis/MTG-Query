@@ -1,0 +1,18 @@
+Q:
+
+Can Crypt Rats be used from Graveyard
+
+Can Crypt Rats be activated while in the graveyard?  There is no tap, which is why it seems possible.
+If not, then why can cards like Rot Farm Skeleton have activated abilities that are usable only while they are in the graveyard, yet do not explicitly say that "use this ability only when XXX is in your graveyard"?
+
+A:
+
+You can only activate Crypt Rats on the battlefield. You can activate Rot Farm Skeleton from your graveyard because its ability specifies "from your graveyard."
+As a rule of thumb, you can only activate an ability from the battlefield unless its text would only make sense in another zone.
+From the comp rules:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:[...]
+112.6b An ability that states which zones it functions in functions only from those zones.[...]
+112.6k An ability whose cost or effect specifies that it moves the object it’s on out of a particular zone functions only in that zone, unless that ability’s trigger condition, or a previous part of that ability’s cost or effect, specifies that the object is put into that zone.
+Example: Reassembling Skeleton says “{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.” A player may activate this ability only if Reassembling Skeleton is in his or her graveyard.
+

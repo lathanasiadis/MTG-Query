@@ -1,0 +1,23 @@
+Q:
+
+Can I copy Ulamog, the Ceaseless Hunger's ability twice with Strionic Resonator and Rings of Brighthearth?
+
+Just made a colorless EDH deck and I am wondering if this would work
+Ulamog, the Ceaseless Hunger attacks, triggers the exile 20, then activate the copy triggered ability with Strionic Resonator, then activate the copy activated ability with Rings of Brighthearth
+Now they exile 60?
+
+A:
+
+Yes, this will work as described. You can use those abilities together to exile a total of 60 cards in one combat.
+The exact sequence of steps plays out like this:
+
+You declare Ulamog as an attacker, and its ability triggers.
+While that ability is still on the stack, you activate Strionic Resonator's ability targeting Ulamog's ability.
+Activating Strionic Resonator's ability triggers Rings of Brighthearth's ability.
+Rings of Brighthearth's ability resolves. You choose to pay the cost to copy Strionic Resonator's ability, and you don't change the target.
+The copy of Strionic Resonator's ability resolves, creating a copy of Ulamog's ability.
+The first copy of Ulamog's ability resolves, and the defending player exiles 20 cards from the top of their library.
+The original Strionic Resonator ability resolves, creating another copy of Ulamog's ability.
+The second copy of Ulamog's ability resolves, and the defending player exiles another 20 cards from the top of their library.
+The original Ulamog's ability resolves, and the defending player exiles  another 20 cards from the top of their library.
+

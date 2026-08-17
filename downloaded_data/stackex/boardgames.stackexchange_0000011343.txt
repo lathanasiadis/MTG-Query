@@ -1,0 +1,29 @@
+Q:
+
+Looking for the "magic'al" formula
+
+Im a big fan of the Magic the Gathering trading card game.
+And with all these new cards coming in, I was wondering how the cards were balanced, and manacost calculated.
+Im thinking there must be a list of abilities, with matching mana modifiers, and some formula in which to calculate them. I hardly feel that they just guess or take it on the feels when coming up with the cards cost and ability limitations.
+But is such a formula public ? I have been looking around but with not much luck.
+The reason im asking is that I would like to know the correct mana cost, if I were to make some custom cards myself.
+
+A:
+
+I hardly feel that they just guess or take it on the feels when coming up with the cards cost and ability limitations.
+
+Actually, they kinda do.
+Mana cost depends on several factors:
+
+How common the card's ability is in the color. Flight for example, is generally least expensive in Blue, White is slightly more expensive, and red/black slightly more, and green even more and quite rare.
+The rarity of the card. What makes Mythic Rare cards better isn't just how uncommon the abilities are, but how undercosted the abilities are. See Huntmaster of the Fell and Geist of Saint Traft. An uncommon flyer might be slightly undercosted compared to a common flyer.
+The current metagame. Back in the day, Counterspell was a mere two blue mana. Lightning Bolt did 3 damage for 1 red mana. Control decks ran rampant, creatures like Hill Giant were expensive for what you got. Over time, Wizards wanted the Combat Phase to matter more often, so hard counters began to get more expensive, and creature costing got cheaper.
+The set balance. If Wizards want to deemphasize removal in limited in a set, they might make it more expensive.
+
+and most of all
+
+Playtesting. Wizards does a lot of playtesting to determine which costs are appropriate in the environment.
+
+I don't think there's any way to come up with a strict formula and the parameters change over time. Used to be you could only get a 2/2 vanilla creature with a converted mana cost of 2 (with one mana being generic) in green. (Hello Grizzly Bears) Then white got a Glory Seeker. Recently Black has joined the club with Walking Corpse and Gutter Skulk. Red and Blue still require two colored mana in the cost or drawbacks to get 2/2 for CMC 2.
+So yeah they do just cost what "feels right" then adjust after playtesting. Sometimes they get it wrong, in my opinion, compare Snapcaster Mage with Archaeomancer — absurd extra value at half the cost, even at rare. How Merfolk of the Depths ended up with a CMC of 6 for 4/2 Flash is equally baffling. Twice as big as a Shambleshark at three times the price??
+

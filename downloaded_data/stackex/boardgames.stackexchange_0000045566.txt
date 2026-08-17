@@ -1,0 +1,23 @@
+Q:
+
+Do I have to take mana from my deck or hand when tapping a dual land?
+
+I have a land card, for example Stone Quarry which reads "{T}: Add {R} or {W}." Do I take the mana from my library or my hand?
+
+A:
+
+You are confusing Lands with Mana, a common beginners' mistake.
+Mana is a resource that you use to cast spells; it is not represented by cards; you can not physically see it. When you tap a land, such as a Mountain, you add a red mana to your mana pool, which means you now have 1 red mana to spend.
+When you tap a Stone Quarry, you choose to either add a red mana to your mana pool, or to add a white mana to your mana pool. Either way you end up with 1 mana in your mana pool. You do not get any land cards from your library or your hand. 
+Note that tapping a Stone Quarry is very similar to tapping a Mountain. When you tap a Mountain, you are activating an ability that says ""{T}:Add {R}." This ability is just not printed on the card for basic lands; it is instead within the rulebook for all basic lands.
+An effect that has you put a land card from your hand or library onto the battlefield would specifically say so:
+Arid Mesa's ability says:
+
+Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle your library.
+
+and Terrain Generator's ability says
+
+You may put a basic land card from your hand onto the battlefield tapped.
+
+Note that Arid Mesa can't even produce mana, even though it is a land. Lands commonly produce mana, but not all of them do.
+

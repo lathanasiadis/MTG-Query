@@ -1,0 +1,47 @@
+Q:
+
+Can I cast Bloodrush from my hand?
+
+Bloodrush is confusing my friends and I. Suppose I have a Ghor-Clan Rampager in my hand:
+
+Can I cast Bloodrush from my hand (discarding Ghor-Clan Rampager straight from there), without first having summoned Ghor-Clan Rampager to the battlefield? If so:
+
+Can it be cast from the had as an instant?
+Why is this the case? Can activated abilities really be used from the hand, or is there just something special about Bloodrush?
+
+We're having genuine trouble understanding definitively whether it can be used from the hand or not. I'd imagine that as an activated ability, the creature has to actually be summoned first, but then there's this quote from the Gatecrash mechanics feature on Wizards:
+
+The warriors of the scattered Gruul Clans spend a lot of time fighting for territory, for loot, or simply for enjoyment. A creature with a bloodrush ability is so eager to get into the fight, it might not even wait for you to cast it.
+
+It's hard to know whether this is flavoursome description for which our interpretation has gone awry, or an author writing about how a creature with Bloodrush actually doesn't have to be on the battlefield before you use its ability. Plus this answer about Bloodlust quotes rule 602.2a which talks about using abilities from hidden zones, but that might not be the hand. We're trying to stick to the Basic Rules though and not overcomplicate things, and I can't find what those have to say about this.
+
+A:
+
+Bloodrush is an activated ability that you can activate from your hand and only from your hand. You cannot use bloodrush if the card is already on the battlefield.
+Most ability in Magic are only used from the battlefield, but abilities with costs that only apply in other zones, like "Discard this card," "Reveal this card from your hand," or "Exile this card from your graveyard," can only be activated from those other zones instead.
+
+For an in-depth explanation, let's look at the text of Ghor-Clan Rampager:
+
+Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.
+
+First off, note how Bloodrush is italicized on the card. That means it's reminder text, not rules text. Specifically, it's an "ability word" (207.2c in the comp rules). I'm only pointing this out because it means that, unlike trample or deathtouch, the word itself doesn't imply any extra rules. Everything about bloodrush is printed right on the card.
+The ":" indicates that it's an activated ability — pay a cost, get an effect. However, how do you discard a creature that's on the battlefield?
+
+701.7a To discard a card, move it from its owner’s hand to that player’s graveyard.
+
+So, the answer is, you don't. You can only discard the card while it's in your hand. Which means...
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack.
+  Abilities of all other objects usually function only while that object is on the battlefield. The
+  exceptions are as follows:
+...
+112.6i An object’s activated ability that has a cost that can’t be paid while the object is on the
+  battlefield functions from any zone in which its cost can be paid.
+
+So, because the ability says "discard Ghor-Clan Rampager" as a cost, you can activate it from your hand, even though most abilities are only used from the battlefield.
+
+Some other things to note about bloodrush, based on the text:
+
+Using bloodrush is activating an ability, not casting a spell. It still goes on the stack but it doesn't trigger "When a spell is cast" triggers and can't be countered by cards that say "Counter target spell."
+You can't activate the ability at all without an appropriate target (an attacking creature, in this case).
+

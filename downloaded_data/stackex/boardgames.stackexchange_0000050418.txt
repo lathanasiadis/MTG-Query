@@ -1,0 +1,25 @@
+Q:
+
+What does "starting life total" mean, and why do cards say that instead of saying a number?
+
+At the end of Happily Ever After, it refers to your “starting life total” (emphasis added):
+
+At the beginning of your upkeep, if there are five colors among permanents you control, there are six or more card types among permanents you control and/or cards in your graveyard, and your life total is greater than or equal to your starting life total, you win the game.
+
+When referring to the “starting life total”, why doesn't it say “20 life” instead? Are there ways to change the starting life total?
+Or, more likely, does the card say this in order to adapt it to different game formats? Would the “starting life total” be 30 in Two-Headed Giant, and 40 in Commander, and so on?
+
+A:
+
+The starting life total depends on the format. In the Vanguard format, each player can even have different starting life totals. Happily Ever After refers to the actual starting life total used in each game.
+As you correctly noted, different formats can have different starting life totals. To keep Happily Ever After balanced for all possible formats, its template uses the generic "starting life total" instead of the 20 that the most common formats use.
+Most formats have a defined starting life total. The Vanguard format has "20 plus the used Vanguard card starting life total modifier".
+Except for the already mentioned, oversized Vanguard cards that are clearly recognizable as such and that are only legal in the Vanguard format, there are no cards in the game that can change a player's starting life total.
+
+103.3. Each player begins the game with a starting life total of 20. Some variant games have different starting life totals.
+103.3a In a Two-Headed Giant game, each team’s starting life total is 30.
+103.3b In a Vanguard game, each player’s starting life total is 20 plus or minus the life modifier of their vanguard card.
+103.3c In a Commander game, each player’s starting life total is 40.
+103.3d In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30.
+103.3e In an Archenemy game, the archenemy’s starting life total is 40.
+

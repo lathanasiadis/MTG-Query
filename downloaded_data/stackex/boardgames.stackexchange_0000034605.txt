@@ -1,0 +1,46 @@
+Q:
+
+Calculate Mind Funeral efficiency
+
+I was wondering about the formula on how to calculate the average number of cards milled by Mind Funeral.
+
+Target opponent reveals cards from the top of his or her library until
+  four land cards are revealed. That player puts all cards revealed this
+  way into his or her graveyard.
+
+Just to have an example scenario, let's assume it's an EDH/Commander deck (99 cards total) with 40 lands in it. With no mana ramp or extra draws, let's assume we had the first turn and can cast Mind Funeral on turn 3. Target opponent should have 90 cards left in his library at that point.
+
+A:
+
+This situation can be approximated by the following model: you have an infinite sequence of lands and non-lands, where the probability P that each is a non-land is equal to the fraction of the deck that is non-lands. So, in a 60 card deck with 36 non-land cards, we say P=3/5.
+Now, starting at any point in the sequence, the probability that we see exactly N non-land cards followed by a land is simply P^N * (1-P). From there, to get the expected number of non-lands followed by a land, we calculate
+Sum {for all N} of N * P ^ N * (1 - P)
+
+The 1 - P factor is independent of N, so that's the same as
+(1 - P) * Sum {for all N} of N * P ^ N
+
+This is then equal to (see Wolfram|Alpha)
+(1 - P) * P / (1 - P) ^ 2 = P / (1 - P)
+
+So, the expected number of cards that we mill when we mill until we see one land is 1 + P / (1 - P) (adding 1 to also count the land)
+Then we simply multiply that by the number of lands that we mill until.
+If we apply this to Mind Funeral targeted at a 60 card deck with 24 lands, or at a 100 card deck with 40 lands, in either case about 3/5 of the deck is non-land, so the expected number of total cards milled is
+4 * (1 + (3/5) / (2/5)) = 4 * (1 + 3/2) = 10
+
+We expect to see 10 cards milled from a deck that is about three fifths non-land.
+
+There is a little simplification we can apply to the formula above, based on information we can infer from the initial definitions. Specifically, P is the fraction of the deck that is non-lands, or in other words non-lands/(total cards). And 1-P is the faction of the deck that is lands, so that's lands/(total cards). Then
+1 + P / (1 - P) 
+= 1 + (non-lands/total) / (lands / total) 
+= 1 + non-lands / lands 
+= (lands / lands) + (non-lands / lands)
+= (lands + non-lands) / lands
+
+And of course the number of lands plus the number of non-lands is just the total size of the deck. So, the overall formula for the expected number of cards that you mill is
+(lands to mill) * (library size) / (lands in library)
+
+or, perhaps more clearly
+(library size) * (lands to mill) / (lands in library)
+
+In other words, the fraction of the library we expect to mill is approximately equal to the fraction of the remaining lands that will be milled.
+

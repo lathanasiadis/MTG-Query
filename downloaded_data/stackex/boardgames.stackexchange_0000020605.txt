@@ -1,0 +1,16 @@
+Q:
+
+Can Fog Bank be killed by combat damage?
+
+Let's say I have a 4/4 Serra Angel and my opponent has defender 0/2 Fog Bank, which has Defender, flying, prevent all combat damage that would be dealt to and dealt by Fog Bank. Since my Serra Angel has enough power to defeat Fog Bank, would it kill it? Or would I follow the card text and let it remove all combat damage dealt by it? If so, how could I kill Fog Bank?
+I think it's an easy answer, but I just wanted to make sure about the rules of combat when it comes to Fog Bank.
+
+A:
+
+Fog Bank would not be destroyed. This is because of the way "prevent" works. When something is prevented, that thing never happens:
+
+615.6. If damage that would be dealt is prevented, it never happens.
+
+It sounds like from your wording that you think that to prevent damage means to remove that damage from the creature after it is dealt, but this is not the case. Fog Bank will not take any combat damage; the damage simply doesn't happen to it.
+You can kill Fog Bank with non-combat damage, such as shock.
+

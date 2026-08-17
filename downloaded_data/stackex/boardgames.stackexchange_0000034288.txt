@@ -1,0 +1,15 @@
+Q:
+
+Does a tapped or removed attacking creature still deal its damage?
+
+If an attacking creature gets tapped, removed from the game, returned to hand, put in the library or destroyed during combat, does its damage still get through to the blocking creature or player?  
+
+A:
+
+Well you're asking 5 different questions really, but they're closely related.
+Tapped - There is no effect other than the creature is tapped. No change to combat.
+This is assuming that the creature was already declared as an attacker before you tapped it. Before the "declare attackers" step, there is a "beginning of combat" step, in which you could use a spell or ability to tap your opponent's creature. If you do this, then that creature won't be able to be declared as an attacker. But once your opponent does declare him as an attacker, you won't be able to tap it to do anything (normally it would just be tapped as part of being declared as an attacker anyway).
+Removed from the game, returned to hand, put in the library, or destroyed - The creature is removed from combat and will not deal any combat damage.
+The rules you need to know here are related to the steps of the combat phase. This is detailed here. Basically, during the declare blockers step, after blockers have been declared, each player has a chance to cast instants and activate abilities. Once players have done all they want, it moves to the assign damage step.
+If you use an instant to destroy or otherwise remove an attacking creature during the declare blockers step, then it will not be around to assign any combat damage during the assign combat damage step.
+

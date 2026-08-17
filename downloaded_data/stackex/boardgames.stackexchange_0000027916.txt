@@ -1,0 +1,29 @@
+Q:
+
+What triggers/resolves first, an effect from a creature dying or an effect from a creature going into the graveyard?
+
+I'm trying to use Verdant Succession with only one copy of Worldspine Wurm in my deck. 
+Worldspine Wurm automatically goes back in the library when it is put into the graveyard. Verdant Succession lets me look for a copy of a creature in my library and put it into play when a creature dies. So, does Worldspine Wurm end up back in my library in time for me to search for it, or no?
+Also, how would this be different with a creature that says if it would be put into a graveyard, it gets put back into my library instead, like Darksteel Colossus, instead of just saying when like Worldspine Wurm?
+
+A:
+
+You choose the order in which the abilities resolve, so you will be able to search for the Worldspine Wurm with Verdant Succession.
+Rule 700.4 defines "dies":
+
+The term dies means “is put into a graveyard from the battlefield.”
+
+This means that Worlspine Wurm's ability triggers "when Worldspine Wurm is put into a graveyard from anywhere" and Verdant Succession's ability triggers "whenever a green nontoken creature [is put into a graveyard from the battlefield]". So, of course, if a Worldspine Wurm is put into a graveyard from the battlefield, both of those conditions are met, so both aiblities trigger simultaneously. Then rule 603.3b says
+
+If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+So, if you choose to put the Worldspine Wurm's ability on the stack on top of the Verdant Succession's ability, the Wurm's ability will resolve first and it will move to the library, then the Verdant Succession's ability will resolve and you will be able to search for it.
+
+If the Worldspine Wurm's ability was instead worded like the ability on Darksteel Colossus, then it would be a replacement effect (the key word indicating that is "instead"). In that case, it would go to the library instead of the graveyard, so, as the definition above implies, it never "dies" and Verdant Succession's ability never triggers.
+
+I would like to note that if the Verdant Succession and Worldspine Wurm are controlled by different players, the outcome of the Worldspine Wurm dying will depend on whose turn it is instead of any choices a player might make. Rule 603.3b says that triggered abilities controlled by different players are put on the stack in APNAP order, which is defined in rule 101.4:
+
+If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+
+This means that the abilities are put on the stack in turn order starting with the active player, so they resolve in reverse turn order. If that resolution order happens to make the Worldspine Wurm's ability resolve first, you can find it when searching.
+

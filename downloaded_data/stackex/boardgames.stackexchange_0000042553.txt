@@ -1,0 +1,11 @@
+Q:
+
+What happens if someone Doomblades a creature in response to you trying to give it Indestructible?
+
+I got a bit confused about what would happen in this situation since the stack resolves in reverse order. So, the situation: I have a creature, and then I cast Adamant Will on it causing it to be indestructible, my opponent then casts Doom Blade- that would usually kill the creature. But the stack is in reverse so would doom blade kill the creature BEFORE it got indestructible?
+
+A:
+
+Your creature will be destroyed
+As you correctly noted, the stack resolves in reverse order of casting, and if your opponent casts Doom Blade while Adamant Will is still on the stack, Doom Blade will indeed resolve first and destroy the creature. When Adamant Will would resolve, it will go to the graveyard without resolving  because it has no more legal targets.
+

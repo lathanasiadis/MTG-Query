@@ -1,0 +1,22 @@
+Q:
+
+Does Gix's command work like I 'want' it to work?
+
+Do the options in Gix's Command happen individually from each other? Or at the same time? I am particularly interested in the interactions of choice 2 with either 1 or 3.
+For example, if both my opponent and me have a pair of 2/2s and I cast Gix's Command choosing options 1 and 2, do I get to put +1/+1 counters on a creature before it is destroyed?
+Similarly, if I choose options 2 and 3, do I get to return my creatures to my hand? (I notice that the card does not target and I assume this is why)
+
+A:
+
+Each option will happen one at a time, in the order it appears on the card. So if you choose 1 and 2, then 1 will happen followed by 2. If you choose 2 and 3, then 2 will happen followed by 3.
+So:
+
+Yes, you will get the counters and your 2/2 (now a 4/4) will not be destroyed.
+Yes, your creatures will be in your graveyard and can be returned.
+
+Resolving Spells and Abilities
+
+608.2. If the object that’s resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps.
+
+608.2c The controller of the spell or ability follows its instructions in the order written.
+

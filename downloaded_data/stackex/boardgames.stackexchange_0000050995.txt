@@ -1,0 +1,34 @@
+Q:
+
+Kess, Dissident Mage and adventure cards
+
+I have a question about Kess, Dissident Mage and interaction with adventures cards like Brazen Borrower.
+Example:
+When I have my Brazen Borrower in Graveyard and Kess on the battlefield, can I cast Brazen Borrower for its alternate cost?
+Instant - Adventure
+Return target nonland permanent an opponent controls to its owner's hand. 
+
+If yes where does my Brazen Borrower go? To exile as an adventure (and I can recast it for its creature cost) or to exile by Kess rule?
+I tried to search that on internet but there is nothing that explain why it is possible.
+Thank you in advance.
+
+A:
+
+Yes, you can cast an Adventure as an instant with Kess. For those details, see this question. Because that's a duplicate, I'll just focus on the second part.
+You will get to choose the order to reply the replacement effects, so as long as you choose to apply the effect from the Adventure first, the card will end up exiled as an Adventure, and you can cast it later as a creature.
+We can see that both effects are replacement effects:
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+And the rules for choosing which one comes first:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+Once the first one of the replacement effects is considered; the other one will not do anything:
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+You are correct that if Kess, Dissident Mage's replacement effect causes the card to go to Exile, then you will not be able to cast it as a creature later; because the ability to do that is part of the replacement effect on the Adventure itself:
+
+715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may cast it. It can’t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.
+

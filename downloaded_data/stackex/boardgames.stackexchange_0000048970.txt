@@ -1,0 +1,16 @@
+Q:
+
+Buffs During Combat
+
+If an opponent plays a card like Elvish Archdruid that gives other elf creatures they controls +1/+1 and they declare the Elvish Archdruid and another Elf creature as attackers, when I go to block them, if I block the Elvish Archdruid first and it dies, does the other Elf creature keep its buff when I go to block it on the same Combat Phase?
+
+A:
+
+You do not block any creature "first". You assign all of your blockers simultaneously, and all the damage is assigned simultaneously. So when the other Elf is blocked, it still has its +1/+1. However, damage stays for the rest of the turn, so the other Elf would eventually die. The order of events would be:
+
+You declare blockers against the Elvish Archdruid and the other Elf.
+The Elvish Archdruid and the other Elf both receive damage. At this point, the other Elf still has the +1/+1, so it survives, while the Archdruid dies.
+The next time state-based actions are checked, the other Elf will no longer have its +1/+1, but it will still have its damage, so it will die.
+
+For most purposes, the set of deaths will be the same result as if you had been able to block Archdruid "first", but there are some differences. For one, while the other Elf gets the same damage, and the same final toughness, in both scenarios, if you were able to kill the Archdruid before the Elf's combat resolves (which could be done with First Strike), then the other Elf would have its power reduced during its damage assignment, so while its fate would be the same, the creatures blocking it would take one less damage. And one might be able to come up with a scenario where both dying from the initial SBA after damage assignment would differ from the Elf dying from a later SBA.
+

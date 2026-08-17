@@ -1,0 +1,40 @@
+Q:
+
+Does Chance for Glory make your creature indestructible indefinitely if you skip the extra turn?
+
+If I cast Chance for Glory, and skip the extra turn using Sundial of the Infinite, do my creatures retain their Indestructible?
+
+A:
+
+Your creatures will stay indestructible and you will not lose the game if you are able to prevent the end step of the extra turn from happening.
+The effect of Chance for Glory has three parts:
+The first part of the effect gives the creatures you control (on the battlefield) the Indestructible ability. This is a permanent change to those objects.
+The second part of the effect creates a new Turn after the current turn that the controller of this Effect will take.
+The third part of the effect creates a delayed trigger. The trigger refers to the turn that was just created.
+
+603.7b A delayed triggered ability will trigger only once—the next time its trigger event occurs— unless it has a stated duration, such
+as "this turn."
+
+If that extra turn never happens or never gets to the end step then the trigger does not fire and the effect does not happen.
+http://gatherer.wizards.com/pages/Card/Details.aspx?multiverseid=452909
+
+10/5/2018 Creatures you control gain indestructible indefinitely. If
+you find a way to not lose the game during your next turn, they’ll
+continue to be indestructible for as long as they remain on the
+battlefield.
+
+http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=228118
+
+9/22/2011 If Sundial of the Infinite’s ability is activated before the
+end step, any “at the beginning of the end step”-triggered abilities
+won’t get the chance to trigger that turn because the end step is
+skipped. Those abilities will trigger at the beginning of the end step
+of the next turn. The same is true of abilities that trigger at the
+beginning of other phases or steps (except upkeep).
+
+Ending the Turn
+
+713.1c The current phase and/or step ends. The game skips straight to the cleanup step. Skip any phases or steps between this phase or step
+and the cleanup step.
+713.3. Even though the turn ends, “at the beginning of the end step” triggered abilities don’t trigger because the end step is skipped.
+

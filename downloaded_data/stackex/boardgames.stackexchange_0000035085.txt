@@ -1,0 +1,16 @@
+Q:
+
+What exactly does it mean to "cast" a spell?
+
+For example, Door of Destinies reads "Whenever you cast a spell of the chosen type-" what triggers this effect? 
+If I have Door of Destinies out and play Akroan Crusader, I know that would count, as would playing a equip card on it, also activating Akroan's ability.
+But say that equipment card has " {R}: equipped creature gains +1/+1 until end of turn" does that activate Akroan's ability? Also, does the activation of his spell (and equip spell) trigger door of Destinies?
+
+A:
+
+Casting a spell means taking it from where it is, which is usually the hand (but abilities like Flashback or cards like Isochron Scepter can change that), and put it on the stack so that it can resolve and have some effect. This process also involves (among other things) choosing modes for a modal spell, choosing targets for spells that target, and paying the cost of the spell (after taking into account and alternative or additional costs).
+For you example, as Door of Destinies enters the battlefield you choose a creature type (I will assume that Human was picked, though it would also work if Soldier were chosen). Then when you cast the Akroan Crusader since it is a Human it will trigger the Door's ability.
+In order to equip a card onto a creature you must activate its equip ability, this is not a spell — it is an ability and will not trigger the Crusader's ability. Similarly the "{R}: equipped create gets +/1+1 until end of turn" is also an ability and also will not trigger the Crusaders ability.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3), ignoring any effect that would prohibit that spell from being cast based on information determined during that spell’s proposal. (Such effects are considered during the check detailed in rule 601.2e.) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 720, “Handling Illegal Actions”).
+

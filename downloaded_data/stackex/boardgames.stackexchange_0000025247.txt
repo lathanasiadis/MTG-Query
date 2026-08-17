@@ -1,0 +1,17 @@
+Q:
+
+Blocker with First Strike and Blocker with Double Strike
+
+I'm playing Magic Duels: Origins and I blocked a 2/2 with a 1/1 double strike and a 1/1 first strike. My interpretation is that that equals 2 damage during the first strike phase and 1 damage during the combat phase from my creatures, and 2 damage during the combat phase from his. However, this resulted in all three creatures being destroyed. Is there an interaction between first strike and double strike I'm unaware of, or is the game coded wrong?
+
+A:
+
+This sounds like it is a bug. Since the way the Combat Damage Step works is
+
+Each player decides how their creatures will deal damage
+If any creatures have First Strike or Double Strike they deal their damage
+State Based Actions are checked, anything that triggers off of damage happens, players get priority
+Any creatures with Double Strike or that didn't deal damage in the first Combat Damage Step deal their damage
+
+So what should have happened is what you were expecting, your creatures deal 1 damage each in the first Combat Damage Step, then when SBAs are checked it should have died due to having damage marked on it equal to its toughness.
+

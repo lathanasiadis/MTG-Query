@@ -1,0 +1,27 @@
+Q:
+
+Goryo’s Vengeance and Ephemerate exile ruling
+
+If I return a creature from my graveyard to the battlefield with Goryo's Vengeance, then resolve Ephemerate targeting that creature before the end step exile trigger of Goryo’s Vengeance, will the creature still be exiled at the beginning of the next end step?
+Goryo’s Vengeance has the ruling:
+
+2018-12-07: If the returned creature leaves the battlefield before the end step, it will remain in its current zone. It won’t be exiled.
+
+Does this apply to this scenario? If so, will the creature remain on the battlefield given it left the battlefield and returned due to Ephemerate?
+
+A:
+
+It does apply in this case, but not the way you think
+Goryo's Vengeance creates a delayed trigger, which will trigger at the beginning of the next end step, and is connected to the object represented by the creature card brought back with the spell. Unlike most other temporary reanimating effects (such as unearth) Goryo's only creates this delayed trigger and does not also have a replacement effect to watch for the card moving off the battlefield.* This lack of a replacement effect is why that ruling you quoted in the question exists, as an implementation of comprehensive rules rule 400.7:
+
+400.7 An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+None of these nine exceptions apply in the case of Goryo's. The exceptions to the rule are mostly due to effects that move the object, like both parts of Ephemerate, first tracking the card it exiles to bring it back, and second tracking the rebound effect so it can cast the spell again from exile. Ephemerate works because of the 400.7 exception 400.7h:
+
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+
+The confusion here comes from how the ruling was worded, and the interaction between effects. The ruling it meant to remind people that if the creature leaves the battlefield for any reason other than the delayed trigger of Goryo's, the delayed trigger on Goryo's won't do anything, and the creature will stay wherever that other ability put it. Because it was put into exile by Ephemerate, the rest of Ephemerate's ability still applies, pulling it back out of exile, as a new object with no connection to the delayed trigger that Goryo's had put on it.
+At the end of turn (assuming nothing else happens to the creature) it will stay on the battlefield and not be exiled by Goryo's.
+
+*These replacement effects wouldn't prevent Ephemerate from bringing back the creature - they replace a creature being put into exile with the creature being put into exile, so when Ephermerate looks for the object in exile, it still finds it there.
+

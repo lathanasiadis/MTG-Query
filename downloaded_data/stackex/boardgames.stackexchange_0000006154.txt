@@ -1,0 +1,43 @@
+Q:
+
+Why does the efficiency of creatures in MTG favor low and high cost creatures, leaving those in the middle much weaker?
+
+Here's a stereotypical description of creatures of a certain mana cost where each creature's primary utility is in its power/toughness level and not in its effect. The mana cost is the number furthest to the left:
+
+1/1, some minor benefit 
+2/2, some minor benefit 
+2/3 or 3/2, maybe 3/3
+3/3, maybe 4/3 or 3/4 with some minor disadvantage
+4/4
+5/4 or 4/5
+5/7, 
+8/8 with an amazing ability
+10/9 with a ridiculously awesome ability
+
+Does anyone else see how the 1-3 and the 7-9 cost creatures tend to be amazing in terms of their mana cost? The (power+toughness) to CMC is definitely greater almost all the time.
+Is it intentional that the middle-cost creatures are much less efficient, and this is why there tend to be weenie decks based on weak creatures and control decks based on strong creatures, but very few decks based on middle-cost creatures? What is the overall purpose of the 4-6 cost creatures being comparatively much weaker? How should my decks and strategy take advantage of this?
+NOTE: There are links for each of those CMC's for what I thought was a stereotypical creature. All creatures chosen are colorless and either common or uncommon. I understand my list may be biased, and feel free to prove that this efficiency curve doesn't exist, because that is pretty central to the above questions. :D
+
+A:
+
+Eldrazi and colorless artifact creatures serve different roles
+I address this first because I think it's the source of some selection bias.
+Many sets include fairly weak (colorless) artifact creatures for Limited purposes, as last resorts. The idea is that these are less valuable than similarly-costed beaters in your colors, but serve as a fall-back for a player who doesn't have any better options. For instance, Serra Angel is a 4/4 uncommon for 5 in the same set as Stone Golem — but she's got flying and vigilance.
+Rise of the Eldrazi, in contrast, used big colorless beaters as a reward for playing the defensive/rampy "battlecruiser" decks the set was supposed to support. In order to allow you to do that more often than once every couple dozen drafts (when you manage to get one of the Eldrazi mythics), there were big Eldrazi at common and uncommon rarities as well. These weren't auto-win creatures but the designers tried to make them at least a little bit appealing. Note how the set's removal is rigged in the giant Eldrazi creature's favor to make playing them worthwhile: Vendetta, Smother, Oust, All Is Dust, Consume the Meek.
+Compare Artisan of Kozilek to uncommon cards like Carnage Wurm, Serra Angel, and Skaab Goliath. It's certainly better, but it also costs more. And how much more specifically is deceptive...
+Opportunity cost doesn't scale linearly with mana cost
+Assume you're playing a 24-land, 60-card deck. You keep a starting hand with 2 lands. You can count on being able to pay for a 1-drop on turn 1, and a 2-drop on turn 2. You have a decent chance of playing a 3-drop on turn 3: around 65% if you're on the play and around 80% if you're on the draw.
+Now, how likely are you to be able to play a 6-drop on turn 6? Well, if you started with 2 lands in hand, that's 4 you need to draw by turn 6. I forget the exact math but you're looking at something like 30% to make it.
+As a rule of thumb, in a deck with 40% lands, once you've exhausted your initial lands in hand, you'll only get a new land to play every two-and-a-half draws. That's why decks that want to play 4-drops and 6-drops in a timely manner run ramp cards, lots of lands, and draw-fixing card (e.g. Ponder).
+Pretend you and an opponent both have 5 lands by turn 7. She plays Serra Angel. You have Artisan of Kozilek in hand. You "only" need 4 more mana to cast it. In an Eldrazi-focused deck with 60% mana sources, that's still an average of six draws, not four. So it had better be good enough to be worth several turns of waiting for topdecks while Serra Angel bashes your face from the air and holds your weenies at bay with her vigilance.
+Limited needs "below-curve" mid-sized commons
+Finally, though, there are quite a few below-curve mid-range commons like Siege Mastodon and Amphin Cutthroat. The reasons these exist all revolve around Limited:
+
+They have to establish a baseline that makes uncommons worthwhile (once more, consider Serra Angel).
+It's easier to make a playable "below curve" 5-drop (for instance, a 4/3 vanilla Zombie Giant) than it is to make a playable "below curve" 1-drop.
+In a removal-light environment, even a slight power/toughness advantage can turn a creature into a powerful blocker or an offensive two-for-one. Bonebreaker Giant might suck in terms of value-for-mana, but he can still trade with two Elite Vanguards.
+
+All of the above would apply to really really big common creatures, too. Most sets just don't have any at common, though (M12, for example: 5/6 Vastwood Gorger in common; de-facto 9/9 Carnarge Wurm at uncommon).
+
+Why are set design decision at low rarities so focused on designing for Limited? In addition to being a popular format, Limited also most closely matches the experience of new or "very casual" players — folks playing Magic with only intro decks or a couple boosters' worth of cards (i.e. a limited card pool, in its own way). Cards for competitive Constructed and "dedicated casual" players generally occupy higher rarities (though you'll see competitive staples and budget options at common and uncommon as well), since the company assumes they'll buy lots of boosters, trade for cards they want, and purchase sought-after singles on the secondary market.
+

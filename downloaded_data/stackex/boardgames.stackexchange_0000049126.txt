@@ -1,0 +1,12 @@
+Q:
+
+When a trigger requires you to sacrifice something, can you sacrifice said something using something else?
+
+Let's say Glacial Chasm enters the battlefield under my control. The card states that when it comes into play I must sacrifice a land. Can I in response to its ETB ability sacrifice a land using say Zuran Orb? When Glacial Chasm entered, a land was sacrificed. Is this allowed, and more to the point: is Glacial Chasm's ETB requirement met in this scenario?
+
+A:
+
+Most instances* of "enter the battlefield" denote triggered abilities, so they go on the stack and you can respond on them before they resolve, e.g. by activating another ability which can be played at instant speed, such as Zuran Orb's.
+However, the land you sacrifice for Zuran Orb (even if it's Glacial Chasm itself) does not count for Glacial Chasm's enter the battlefield ability. So you'll have to sacrifice another land (unless you don't have any).
+*: some cards have "As [card name] enters the battlefield"; those are replacement effects and don't go on the stack. Those never involve sacrifices, though.
+

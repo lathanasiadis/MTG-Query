@@ -1,0 +1,20 @@
+Q:
+
+Does the Strive mechanic give the opportunity to cast the spell multiple times, or just have multiple targets?
+
+I'm wondering if the strive mechanic counts as one spell that can be cast multiple times by paying the extra cost, or is it just one spell that can affect multiple targets if you pay the mana?
+I'm wondering if the prowess ability of the Jeskai would stack with one spell cast with the stride mechanic and subsequently paying the extra mana. Would that trigger prowess a second, or third time?
+
+A:
+
+It's just one spell with (potentially) multiple targets. It doesn't count as being cast multiple times, and it will only trigger Prowess once.
+Taking Aerial Formation for an example, the text says:
+
+Strive — Aerial Formation costs {2}{U} more to cast for each target beyond the first.
+
+Any number of target creatures each get +1/+1 and gain flying until end of turn.
+
+This is known as an additional cost. As its name might suggest, it just increases the mana cost of the spell—it won't count as casting it more than once. Incidentally, it's handled by competitive rule 601.2b, the same rule that handles the {X} in mana costs. It's the same kind of thing: another flexible mechanism where you pay more to improve the spell.
+Suppose you want to target three creatures: you announce you intend to pay that cost twice, so you add 4UU to the mana cost of the spell (normally just U), making the spell cost 4UUU total. Then you pick your three targets, pay the cost, and put the spell on the stack. Now the spell's cast, and Prowess is triggered once.
+Other abilities which add additional costs to spells are Kicker (Citanul Woodreaders) and Buyback (Capsize). Then there's Multikicker (Bloodhusk Ritualist) which, like Strive, can be paid any number of times.
+

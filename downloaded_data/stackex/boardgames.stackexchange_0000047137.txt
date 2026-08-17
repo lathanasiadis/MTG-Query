@@ -1,0 +1,29 @@
+Q:
+
+Can I activate Multani, Yavimaya's Avatar's ability in response to itself?
+
+I recently played a game of EDH that I think I won, but my opponent was convinced I didn’t. He had a board state that would win if he untapped. I played a Seismic Assault. 
+Seismic Assault has an activated ability:
+
+Discard a land card: Seismic Assault deals two damage to any target. 
+
+I had a Multani, Yavimaya's Avatar in my graveyard. Multani has an activated ability:
+
+1G, Return two lands you control to their owner’s hands: return Multani, Yavamaya’s Avatar from the graveyard to your hand. 
+
+I have Chromatic Lantern in play (all my lands tap for any color). I had enough untapped lands that, if I could bounce them to hand, I could discard them with Seismic Assault for enough damage to kill my opponent. 
+I contended that, in response to activating Multani’s ability, I could activate Multani’s ability again, and again, and again, bouncing all my lands to hand. My opponent argued that, since activating the ability required Multani being in the graveyard, and activating it caused Multani to leave the graveyard, I shouldn’t be able to do this. Obviously, it’s a really weird way to use her ability, but I should be able to activate the ability in response to itself as many times as I can pay for it, right? Then most of them will fizzle?
+
+A:
+
+You can activate Mutani's ability in response to itself.
+Your opponent was wrong in stating that activating it caused Multani to leave the graveyard. Activated abilities have a cost and an effect, separated by a colon.
+
+602.1. Activated abilities have a cost and an effect. They are written as "[Cost]: [Effect.] (...)"
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect.
+
+Returning Multani to your hand is part of the effect, so it will only happen on resolution. Because you can respond to your own abilities by retaining priority, until that ability resolves, you may activate the same ability again as many times as you're able to pay the cost (returning two lands to your hand).
+
+116.1b A player may activate an activated ability any time they have priority.
+116.3c If a player has priority when they cast a spell, activate an ability, or take a special action, that player receives priority afterward.
+

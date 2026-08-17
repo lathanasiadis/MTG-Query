@@ -1,0 +1,31 @@
+Q:
+
+What happens if Merfolk Trickster taps Emmara?
+
+Emmara, Soul of the Accord
+
+Whenever Emmara, Soul of the Accord becomes tapped, create a 1/1 white Soldier creature token with lifelink.
+
+Merfolk Trickster
+
+When Merfolk Trickster enters the battlefield, tap target creature an opponent controls. It loses all abilities until end of turn.
+
+What happens if the trickster targets Emmara?
+She gets tapped and then loses all her abilities - but does it count as simultaneous so her ability sees the tapping and creates the soldier?
+
+A:
+
+You will still get the token.
+Merfolk Trickster's ability does 2 different things, one after the other. Emmara's ability will trigger when the first one happens (tap target creature). 
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+So at that moment, the ability has triggered (but it is not on the stack yet). Then, immediately after, Emmara loses all abilities.
+Next time a player gets priority, the triggered ability goes on the stack:
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+This ability is not tied to Emmara at all; so it doesn't matter that Emmara doesn't have the ability anymore:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability.
+

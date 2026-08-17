@@ -1,0 +1,32 @@
+Q:
+
+What happens when a vehicle dies with Hofri Ghostforge in play? (STX Spoilers)
+
+What happens when a vehicle dies with the Hofri Ghostforge in play (from the upcoming Strixhaven set)?
+
+Whenever another nontoken creature you control dies, exile it. If you do, create a token that’s a copy of that creature, except it’s a Spirit in addition to its other types
+
+What will the type of the token be? Artifact Creature-Spirit, Tribal Artifact - Spirit, Artifact - Spirit or Artifact?
+
+A:
+
+The token will be an Artifact - Vehicle. It will not be a Spirit, even if it becomes a creature later.
+This is primarily a consequence of rule 205.3d:
+
+An object can’t gain a subtype that doesn’t correspond to one of that object’s types.
+
+The subtype Spirit only corresponds to the types Creature and Tribal, and the permanent has neither of those types, so it cannot gain the Spirit type either.
+The card Glasspool Mimic has a similar ability that copies a creature and adds creature subtypes:
+
+You may have Glasspool Mimic enter the battlefield as a copy of a creature you control, except it’s a Shapeshifter Rogue in addition to its other types.
+
+That card also has a couple of rulings that explain how that is handled with non-creature cards:
+
+Glasspool Mimic copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below), except that it’s also a Shapeshifter Rogue. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. Most notably, if it copies a creature that’s not normally a creature, it won’t be a creature.
+
+If Glasspool Mimic isn’t a creature, most likely because it copied a creature that was only temporarily a creature, it won’t be a Shapeshifter Rogue, even if it becomes a creature later.
+
+Like on Glasspool Mimic, Hofri's ability says "in addition to its other types", so it will still have the Artifact and Vehicle types.
+
+If, instead of a Vehicle, the artifact in question was an animated Tribal Artifact such as Thornbite Staff, the token copy would have the Spirit type because the Sprit subtype corresponds to the Tribal type.
+

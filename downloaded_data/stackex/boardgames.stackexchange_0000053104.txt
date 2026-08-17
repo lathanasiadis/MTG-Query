@@ -1,0 +1,14 @@
+Q:
+
+Does recasting Omnath, Locus of creation, reset it's "Landfall Counter?"
+
+I have Omnath, Locus of Creation out. I play 3 lands, triggering his landfall ability 3 times. I gain 4 life, add some mana, deal some damage. I decide I want to gain some more life, get some more mana, and deal some more damage. So I return Omnath to my hand, then recast him. My understanding is that if I now play another land, Omnath's landfall will trigger and I will gain 4 life, because this Omnath has no memories of his previous triggers. Is this correct? Does bouncing or flickering Omnath reset his landfall ability?
+
+A:
+
+Yes. Comprehensive rules 400.7:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Followed by some exceptions, none of which apply here. As it's moved from the battlefield to your hand and then back to the battlefield again, it's a new object, so the next land entering the battlefield is the first one it's seen and you gain 4 life.
+

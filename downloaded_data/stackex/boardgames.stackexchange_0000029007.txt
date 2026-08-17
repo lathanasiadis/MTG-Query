@@ -1,0 +1,39 @@
+Q:
+
+Thorncaster Sliver and Venom Sliver vs. Priority or Lack Thereof
+
+I have been gone from MtG for some time now and recently played a couple games with some of my old friends. Midgame the same thing happened that always happens when I play with that group. A fight.
+Long story short, it happened like this:
+My opponent had a Thorncaster Sliver, Venom Sliver as well as several other slivers out; while I currently had a Master Transmuter, several artifact creatures out and a Ethersworn Shieldmage in my hand.
+My opponent declared their attack step and then proceeded to deal damage to my Master Transmuter. In response I played my Ethersworn Shieldmage, he then dealt damage to that with another creature and then damaged my Master Transmuter again with another one of his attacking slivers. I tried explaining to him that although I messed up and played my response a little too early, he could not damage something and kill it before I responded to the damage.
+Eventually after fighting for a couple minutes, I just gave in and had him kill all my creatures, and gave him the game.
+He has been hounding me now for weeks about the actions and still telling me I am wrong. Looking for some answers to prove my point to him, I decided to research a previous inquiry here:
+Do Thorncaster Sliver's triggered abilities go on the stack?
+However it did not provide all of the information I needed.
+Now here is the real question (again been away from MtG for a while, so I might be wrong), am I right or wrong in the following train of thought. Using the previous thread as an example, however inserting our previously stated creatures into the equation.
+
+As in the example let's say he attacks with 5 slivers, one being a Thorncaster Sliver and a Venom Sliver.
+Using the previous thread as an example he moves straight to step 3, while skipping over step 2. Basically trying to resolve damage before he declared all of it. I tried to tell him that all of his creatures attack at the same time, thus he would have to declare the damage at the same time BEFORE he can pass me priority (during the game I kind messed this up by playing my Shieldmage when he first applied the damage and waited for my response). Is this correct?
+That being said the damage that he declares cannot be resolved UNTIL I have priority, correct? Meaning that he would have to pass me priority after he declares all of who he wants to damage, but before it is applied or that (if in the case he does not pass priority) the damage carries over until the declare blockers step (CR 112.3c) when I would have priority, correct?
+As I said during the game I kind messed things up by playing my Shieldmage when he first applied the damage and waited for my response; however his ability still goes onto the stack and he cannot damage it or other creatures until he resolves, correct? Meaning that any creature damaged before he comes into play would be destroyed via Venom Sliver's Deathtouch ability, however after he comes into play all creatures I had in play would not receive damaged. So technically it doesn't matter when I play him because once he resolves it nullifies anything before he was on the stack and after (especially if I played him during the example thread's step 2, like I was trying to do), because the damage would have to resolve and he can't be dealt damage before he comes into play.
+
+That being said, am I right or wrong in this? I'm trying to understand "Priority" and how it would relate to the above scenario. I believe that I'm right, but I could be just as wrong in this...
+
+A:
+
+The simple answer is that your opponent cannot use any of the abilities from Thorncaster Sliver to deal damage to Ethersworn Shieldmage, and Ethersworn Shieldmage can protect all of your artifact creatures from all of the damage.
+This is the exact sequence of events for how your example should play out:
+
+Your opponent declares 5 Slivers as attackers, with both Thorncaster Sliver and Venom Sliver on the battlefield.
+For each attacking Sliver, your opponent puts their triggered ability from Thorncaster Sliver on the stack. This is part 508.2 of the Declare Attackers step. At this time, your opponent declares which creature each ability is targeting (see rule 603.3d and rule 601.2c).
+Your opponent gains priority (rule 508.3). From how you described your example, they choose to do nothing and pass priority.
+You gain priority. At this time, you cast Ethersworn Shieldmage.
+You gain priority again, but you have nothing else to do here so you pass priority.
+Your opponent gains priority. They have an opportunity to act here, but they can't do anything with the abilities from Thorncaster Sliver, because those are already on the stack. Once you do nothing and pass priority, Ethersworn Shieldmage resolves and enters the battlefield. At this time, the Shieldmage's ability triggers, and goes on the stack.
+Your opponent has another chance to act, but they still can't do anything with the abilities from Thorncaster Sliver. They pass priority, and so do you.
+Ethersworn Shieldmage's ability resolves. For the rest of the turn, any damage that would be dealt to any artifact creature is prevented.
+The abilities from Thorncaster Sliver resolve. All of the damage that they would do to artifact creatures is prevented.
+
+Your opponent did one major thing incorrectly: they tried to deal damage to the Master Transmuter in response to you casting Ethersworn Shieldmage. You didn't have an opportunity to cast Ethersworn Shieldmage until after all of those abilities were on the stack, so there is nothing they could have done to make one of those ablities resolve before Ethersworn Shieldmage.
+However, since you revealed the Ethersworn Shieldmage out of turn, it would have been reasonable for your opponent to choose non-artifact creatures as the targets for any abilities that they had not yet declared targets for.
+

@@ -1,0 +1,19 @@
+Q:
+
+Copying and stealing an EDH Commander?
+
+Suppose my opponent is tapped out while playing Sliver Overlord as his commander, which has the ability:
+
+{3}: Gain control of target Sliver. (This effect lasts indefinitely.)
+
+On my turn, I play a Rite of Replication, targeting his Sliver Overlord. I now have a copy of it in play. 
+May I then use the {3} ability to steal his Overlord, and then due to the Legendary rule, sacrifice the copy and retain control of his commander?
+
+A:
+
+That is correct. The Sliver Overlord is a Sliver so it is a legal target for the token's ability. Once you have control of it the Legend Rule kicks in. The "Legend Rule" says:
+
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners' graveyards. This is called the "legend rule".
+
+So it is perfectly legal to choose the token copy of the Overlord to put into the Graveyard, and then you can proceed to kill them with their own commander. Note that you aren't 'sacrificing' the token, it is just being put into the Graveyard by state based effects. It will still 'die' and trigger anything that cares about creatures dying, but it won't trigger anything that cares about sacrificing creatures.
+

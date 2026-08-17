@@ -1,0 +1,36 @@
+Q:
+
+How to define “Design Space”?
+
+Mark Rosewater, Head Designer for Magic the Gathering, frequently writes about “Design Space” by which he means something like the amount of scope for detailed creative output which is enabled by some strategic idea.
+For him the context is (to put it over-crudely) “how many new cards can we design based off a certain new mechanism?”
+So for example a mechanism like "flying" has been around for 30 years and harmonizes and extends just about any other mechanism. A mechanism like "infect" while a very interesting mechanism can only be given to a very few cards.
+A typical context is: here
+
+The Convoke keyword, which lets you tap creatures to pay mana costs,
+returns in the form of a blue-red draft archetype. According to
+Rosewater, neither MTG color has had much to do with Convoke in the
+past, so “there was some new design space to explore”.
+
+I think it’s a useful concept for creative endeavours in general outside this card game. However I haven’t been able to find a good or even the original definition of this idea.
+It's sort of in the nature of a question like this that I have to give half an answer in order to communicate what I am asking for. Nevertheless it is such an important creative concept that there must be a better exposition of what it is and what it means in practice.
+I've also "Questioned Mark" in Tumblr, to ask the man himself.
+The motivation for my question is that there is another area of human endeavour for which I think this idea would be helpful, but I would like to have a coherent picture to take to the practitioners.
+So: what is “Design Space”?
+
+A:
+
+I don't think it makes sense to talk about “Design Space” absent any context. I think it does however, make sense to talk about a design space, or perhaps multiple design spaces, within a given (perhaps implicit) context.
+A design space is the set of all possible designs, usually implicitly subject to some set of constraints.
+It can make sense to talk about a design space for a game as a whole given some constraints, e.g. a card game as opposed to another type of game, or a game with a given theme, or a game with a certain set of fixed mechanics.
+It can also make sense to talk about the design space for a particular game component, keeping all the other aspects of the given game fixed. Note that this can be formally described as still talking about the game as a whole, but with a large amount of constraints on every other game component.
+Often these constraints will not all be formally described, and instead be unspoken limitations on what the game designer(s) think "makes sense" or "fits with the rest of the game". Because the possible spaces of even apparently simple game designs are very large, having heuristics like this to constrain the amount of possibilities to consider is very useful.
+Why is it called a space?
+The reason it makes sense to call it a design space, instead of a design set, is because the different designs can be arranged into a space such that certain designs are "nearby" other designs.
+For a given design space, with a given set of enumerated parameters, (note not every design space will have an easily enumerated set of these!) we can formally describe the space as a set of dimensions, one for each parameter. Then each design is a point consisting of a valid value for each parameter.
+During design one can think about changing the design as moving through the design space. A small change in a single one of the parameters is a small movement in a particular direction. A large change in a parameter and/or changes to multiple parameters leads to a large movement.
+Explicit example
+To use Magic the Gathering as an example, we could describe a simplified design space for flying creatures with no additional abilities with 3 dimensions: Power, Toughness, and Mana cost. (We'll ignore things like creature type, legendaryness etc,. which could arguably be considered extra abilities, to keep things simple.)
+Each possible card is a triple of (power, toughness, mana cost). For example, one possible card would be (1, 2, 1U): A 1/2 flyer for 1U.
+Formally, absent a specific constraint the design space would include things that would not make sense to print on a Magic card. For example (100, 100, 0) or (0, 0, 100). When Mark Rosewater talks about the design space for a mechanic like Convoke, it is implicit that the cards under consideration would be those that at least seem viable to print.
+

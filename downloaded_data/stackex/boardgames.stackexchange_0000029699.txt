@@ -1,0 +1,29 @@
+Q:
+
+Can an ability track a card across multiple zones?
+
+Here is the situation:
+
+I use Jace, Telepath Unbound's -3 ability, targeting Walk the Aeons.
+
+−3: You may cast target instant or sorcery card from your graveyard this turn. If that card would be put into your graveyard this turn, exile it instead.
+
+I cast Walk the Aeons with Buyback.
+Walk the Aeons resolves and returns to my hand.
+I cast Walk the Aeons again, without buyback.
+
+Where does Walk the Aeons go when it resolves for the second time that turn? Can Jace's ability track Walk the Aeons across multiple zones?
+
+A:
+
+Objects that move from one zone to another become a completely new object.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are eight exceptions to this rule:
+
+Rule 400.7h is an exception to 400.7. This is the rule that allows Jace's -3 ability to keep track of cards that you cast from the graveyard.
+
+400.7h If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+
+As soon as the card moves to any other zone, rule 400.7h no longer applies, and Jace's ability loses track of it. If you cast Walk the Aeons after that, it will go to the graveyard like normal.
+As another user pointed out, this is also the most logical outcome. The game has no way to tell in all situations if the second Walk the Aeons is the same physical card as the first one.
+

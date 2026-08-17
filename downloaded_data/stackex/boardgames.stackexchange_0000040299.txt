@@ -1,0 +1,27 @@
+Q:
+
+How does Blood Sun interact with Cavern of Souls?
+
+How does Blood Sun interact with Cavern of Souls? Does the interaction depend on the order in which the cards are played? If I use the cavern's second mana ability and I never chose a creature type, what happens? Does the Cavern produce mana that can't be spent on anything?
+
+A:
+
+If Blood Sun was on the battlefield already when Cavern of Souls entered, then the third ability will produce mana that can't be spent on anything. Otherwise, the third ability will function as normal.
+As of the 2017 Ixalan rules update*, Blood Sun's ability will stop Cavern of Souls' first ability from working as it enters the battlefield:
+
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+If you never choose a creature type, then this affects Cavern of Souls third ability because it is linked to the first ability:
+
+Linked Abilities
+
+607.1. An object may have two abilities printed on it such that one of them causes actions to be taken or objects or players to be affected and the other one directly refers to those actions, objects, or players. If so, these two abilities are linked: the second refers only to actions that were taken or objects or players that were affected by the first, and not by any other ability.
+
+607.2. There are different kinds of linked abilities.
+
+607.2d If an object has an ability printed on it that causes a player to “choose a [value]” and an ability printed on it that refers to “the chosen [value],” “the last chosen [value],” or similar, those abilities are linked. The second ability refers only to a choice made as a result of the first ability.
+
+When you produce mana with the third ability, the list of things it can be spent on is {creature spells of the chosen type}. That list happens to be empty, as you never chose a type, so there's nothing you can spend it on.
+However, if Blood Sun only entered the battlefield after Cavern of Souls had; then it would not affect the third ability. Even though the Enters the Battlefield ability would be gone now, the creature type was already chosen; that choice is still "a choice made as a result of the first ability".
+*Previous to the rules update, Blood Sun's ability wouldn't have effected Cavern of Souls until after it entered the battlefield, when the choice would have already been made.
+

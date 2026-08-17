@@ -1,0 +1,17 @@
+Q:
+
+Do negative counters trigger Protean Hydra?
+
+Damage to Protean Hydra is prevented by removing +1/+1 counters from it. The card states:
+
+Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step.
+
+So if a -1/-1 counter is placed on it, it cancels out one +1/+1 counter. Is the counter still considered to be 'removed' or does it just disappear?
+Main Question: If Protean Hydra has a -1/-1 counter placed on it (say for example by Contagion Clasp), will it receive 2 +1/+1 counters?
+
+A:
+
+Yes, it is removed and you get the EOT trigger. Per Gatherer:
+
+If a -1/-1 counter is put on Protean Hydra while it has +1/+1 counters on it, that -1/-1 counter and a +1/+1 counter will be removed from it as a state-based action. This will cause Protean Hydra's last ability to trigger.
+

@@ -1,0 +1,48 @@
+Q:
+
+What happens if you activate a loyalty ability from a creature instead of a planeswalker?
+
+An answer on another question tells of a way to give loyalty abilities to creatures:
+
+Basically you start by playing the Mycosynth
+  Lattice
+  which turns all your permanents into artifacts, this includes
+  Planeswalker.
+Then you play March Of the
+  Machines
+  turning your Planeswalker into an artifact creature with power and
+  toughness equal to it's casting cost.
+Then you use the ability of an Experimental
+  Kraj
+  to put a +1/+1 counter on the Planeswalker artifact creature.
+Now since the Planeswalker artifact Creature has a +1/+1 on it, the
+  Experimental Kraj can use all of the Activated Abilities of the
+  Planeswalker without any of the restrictions of a Planeswalker.
+
+Since creatures don't have loyalty to add to or deduct from, what happens if you were to use a loyalty ability from a creature, rather than a Planeswalker?
+More specifically:
+
+In the case of using a (+) loyalty ability from a creature, what happens?
+In the case of using a (-) loyalty ability from a creature, what happens?
+
+A:
+
+Loyalty is not the same thing that loyalty counters.  Non-planeswalker creatures don't have loyalty, but the can have loyalty counters. So, if a (+) loyalty ability is played, then we add that many loyalty counters to the creature. If a (-) loyalty ability is played, then we remove that many loyalty counters from the creature.
+Remember that we can only play activated abilities if we can pay the cost, and loyalty abilities are activated abilities, so we can't play a (-) ability if we don't have enough counters.
+
+306.5. Loyalty is a characteristic only planeswalkers have.
+306.5a The loyalty of a planeswalker not on the battlefield is equal to the number printed in its lower right corner.
+306.5b A planeswalker is treated as if its text box included, “This permanent enters the battlefield with a number of loyalty counters on
+  it equal to its printed loyalty number.” This ability creates a
+  replacement effect (see rule 614.1c).
+306.5c The loyalty of a planeswalker on the battlefield is equal to the number of loyalty counters on it.
+306.5d Each planeswalker has a number of loyalty abilities, which are activated abilities with loyalty symbols in their costs. Loyalty
+  abilities follow special rules: A player may activate a loyalty
+  ability of a permanent he or she controls any time he or she has
+  priority and the stack is empty during a main phase of his or her
+  turn, but only if none of that permanent’s loyalty abilities have been
+  activated that turn. See rule 606, “Loyalty Abilities.”
+
+As we can see, the loyalty of a planeswalker on the battlefield is linked to the number of loyalty counters on it. But nothing stops a non-planeswalker permanent from having loyalty counters or loyalty abilities.
+However, as rule 306.5d indicates, all permanents with loyalty abilities, not just planeswalkers, may only use their loyalty abilities at sorcery speed and once per turn.
+

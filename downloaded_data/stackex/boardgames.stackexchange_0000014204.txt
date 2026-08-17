@@ -1,0 +1,17 @@
+Q:
+
+When is a Spell considered to be "Cast"?
+
+Is a spell "Cast" when it is first declared and put on the stack?  Or when it resolves?
+I used to think it was when it resolves.  But I think I am wrong.
+For example, if my opponent puts a creature spell on the stack, then I put the spell Silence on the stack, it sounds like all spells on the stack will still resolve.  (I get that any other spells can also go on the stack and resolve until Silence resolves.)
+So I guess that spells that use the word "Cast" mean when they are first put on the stack?
+
+A:
+
+Neither. A spell is cast after its costs are payed, before anyone has a chance to respond to it, before it resolves. From the rules:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. 
+
+So yes, if you cast Silence, it will be too late to stop any spells that are already on the stack. This is also important for effects that say "whenever you cast a spell", for example.
+

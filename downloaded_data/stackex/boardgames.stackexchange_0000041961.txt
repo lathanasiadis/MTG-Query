@@ -1,0 +1,27 @@
+Q:
+
+Stopping a CounterSpell with Aurelia's Fury it's possible?
+
+I know you can stop a Counterspell with another Counterspell 
+
+But Aurelia's Fury is different, it causes the damaged player to be unable to cast non-creature spells this turn.
+Lets say for example if I cast any spell and my opponent uses a Counterspell, effectively countering my spell but in response (when he passes priority back to me) I use Aurelia's Fury and manage to deal damage to him. I passed priority back to him but he has nothing else in response so the stack resolves.
+So the stack would look something like this:
+Aurelia's Fury
+Counterspell
+My Spell
+As Aurelia's Fury resolves, does this mean his counterspell counts like it was never cast? Meaning my spell was never countered?
+
+A:
+
+First of all, your spell hasn't been countered yet because Counterspell hasn't resolved yet. The most recently cast spell on the stack resolves first.
+Secondly, countering a spell doesn't retroactively prevent it from being cast. It simply moves it from the stack to its owner's graveyard, which prevents it from resolving.
+Thirdly, while Counterspell hasn't resolved yet, it has already been cast.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. [...]
+
+To respond to a spell means to cast a spell or activate an ability after a spell has been cast but before it resolves.
+Aurelia's Fury prevents a player from casting noncreature spells. It has no effect on spells, especially those that have already been cast (e.g. the Counterspell on the stack).
+Instead of casting Aurelia's Fury, say you had cast Counterspell targeting the earlier Counterspell. This would have worked because the newest spell on the stack (i.e. your Counterspell) resolves first (i.e. before your opponent's Counterspell), countering the opponent's Counterspell (preventing it from resolving and having an effect).
+Instead of casting Aurelia's Fury, say you had cast Autumn's Veil. Autumn's Veil prevents spells from being countered. This would have worked because the newest spell on the stack (i.e. Autumn's Veil) resolves first (i.e. before the Counterspell), preventing the Counterspell from affecting your spell.
+

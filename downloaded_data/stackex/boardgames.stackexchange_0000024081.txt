@@ -1,0 +1,28 @@
+Q:
+
+Can I steal an opponent's aura by changing the target while it is on the stack?
+
+My opponent casts Eldrazi Conscription on a creature they control. Before Eldrazi Conscription resolves, can I redirect it onto my creature using Shunt, for example?
+
+A:
+
+Yes.
+
+114.1b Aura spells are always targeted. These are the only permanent spells with targets. An Aura’s target is specified by its enchant
+keyword ability (see rule 702.5, “Enchant”). The target(s) are chosen
+as the spell is cast; see rule 601.2c. An Aura permanent doesn’t
+target anything; only the spell is targeted. (An activated or
+triggered ability of an Aura permanent can also be targeted.)
+
+608.3a If the object that’s resolving is an Aura spell, its resolution involves two steps. First, it checks whether the target specified by
+its enchant ability is still legal, as described in rule 608.2b. (See
+rule 702.5, “Enchant.”) If so, the spell card becomes a permanent and
+is put onto the battlefield under the control of the spell’s
+controller attached to the object it was targeting.
+
+As long as you have a creature to change the target of the aura to, you can have it attach to your creature instead of the one your opponent intended, since changing the target of the aura spell changes what it enters the battlefield attached to.  However, there is a catch. The aura will be attached to your creature but you will not be its controller. Your opponent still controls the spell so they will still control the aura permanent, as mentioned above in 608.3a and reaffirmed by the following:
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same.
+
+This doesn't make a difference for Eldrazi Conscription, since Eldrazi Conscription modifies the creature directly.  But in the case of Armadillo Cloak, you opponent would still control the triggered life gain ability and consequently would be the one to gain life for the damage dealt by your creature.
+

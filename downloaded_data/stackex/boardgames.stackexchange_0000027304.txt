@@ -1,0 +1,50 @@
+Q:
+
+How does Life and Limb interact with Conspiracy
+
+I control a Sporesower Thallid, Retreat to Emeria and a Kalastria Healer. Then I play Conspiracy and I choose Ally as Creature type. Then I play Life and Limb.
+Now my questions are:
+
+Will future Saproling tokens, made by the Sporesower Thallid, trigger both the Retreats Landfall ability, and the Healers triggered ability, when allies enters the battlefield?
+
+Will future played forests do the same?
+
+What will happen to forests already in play under my control?
+
+A:
+
+Conspiracy and Life and Limb both apply in Layer 4.
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+
+When two effects apply in the same layer, they are normally applied in timestamp order (the order in which you played them). However, when a dependency exists between two effects, we ignore the timestamp system and instead follow a dependency system.
+
+613.7a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+Life and Limb depends on Conspiracy. Life and Limb applies to Saprolings, but Conspiracy changes your Saprolings into Allies. Therefore, Conspiracy changes what Life and Limb applies to.
+Conspiracy depends on Life and Limb. Conspiracy applies to Saprolings, but Life and Limb turns your Forests into Saprolings. Therefore, Life and Limb changes what Conspiracy applies to.
+We have a dependency loop, so we revert back to just applying the effects in timestamp order.
+
+613.7b An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they’re applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
+
+You played Conspiracy first, so by combination of the rules above:
+
+Apply Conspiracy's effect first. All of your creatures become Allies.
+Apply Life and Limb's effect second. All of your Forests become Saprolings in addition to their other types.
+
+The result is that all of your creatures are now allies, except for your Forests which are now Forest Saprolings (but not Allies).
+
+Phew! That was a mouthful. Now I can answer your questions:
+
+Will future Saproling tokens, made by the Sporesower Thallid, trigger both the Retreats Landfall ability, and the Healers triggered ability, when allies enters the battlefield?
+
+Saprolings will enter as Allies. They will trigger Kalastria Healer's ability, but not Landfall.
+
+Will future played forests do the same?
+
+Forests will enter as Forest Saprolings. They will trigger landfall, but not Healer's ability.
+
+What will happen to forests already in play under my control?
+
+They will be Forest Saprolings, but not Allies.
+

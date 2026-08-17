@@ -1,0 +1,31 @@
+Q:
+
+Why can cards like Frost Breath tap creatures that are already tapped, but Teferi, Hero of Dominaria can’t untap lands that are already untapped?
+
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+Because of this rule, I would expect Frost Breath to not work on creatures that are tapped. Why is it possible to tap a tapped creature, but it’s impossible to untap an untapped land with e.g. Teferi, Hero of Dominaria? This seems to be a contradiction to me. Can someone explain why it’s not? Thanks!
+
+A:
+
+The main difference between those cards is that Frost Breath targets the permanents and Teferi's ability does not.
+Frost Breath's text says
+
+Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
+
+The targets are chosen when you cast the spell, and since it just says "target creature", you can choose any creature, even a tapped one. Once the spell resolves, it tries to tap those specific creatures. If it can't, it just moves on to the next instruction.
+Teferi's ability, on the other hand, does not target. It just says
+
+Draw a card. At the beginning of the next end step, untap two lands.
+
+This effect just tries to untap any two lands, so you have to choose lands that can actually be untapped. This effect still follows the quoted rule 609.3; if there is only one tapped land on the battlefield when the ability resolves, you untap just that land.
+You have to choose tapped lands because rule 701.20b says
+
+To untap a permanent, rotate it back to the upright position from a sideways position. Only tapped permanents can be untapped.
+
+and in part of the description of the process of resolving a spell or ability, rule 608.2d says
+
+If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can’t choose an option that’s illegal or impossible [...]
+
+It is impossible to untap a permanent that is already untapped, so you can't choose to do so.
+

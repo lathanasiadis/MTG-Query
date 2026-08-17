@@ -1,0 +1,24 @@
+Q:
+
+Can you block with a creature then return it to your hand before it takes damage?
+
+Someone said they can block with a Dryad Arbor then return it to their hand with a Quirion Ranger before the Arbor takes damage.  That sounds wrong to me.
+
+A:
+
+Yes, you can return a blocking creature to your hand before it takes damage. What happens is:
+
+You block with Dryad Arbor
+You and your opponent both get a chance to cast instants and activate abilities
+Damage is dealt
+
+Note that if the blocked creature has tramble, it will still assign all of its damage directly to the player
+
+Rules 509.1 through 509.7 cover what happens during the declare blockers step, which occurs before damage is dealt. The two rules that are relevant to your question:
+
+509.1. First, the defending player declares blockers.
+  ...
+  509.5. Fifth, the active player gets priority. Players may cast spells and activate abilities
+
+Here is a diagram that illustrates the turn structure. It shows all the opportunities that you get to cast or activate things.
+

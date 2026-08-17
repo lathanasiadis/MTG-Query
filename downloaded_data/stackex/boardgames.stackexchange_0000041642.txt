@@ -1,0 +1,23 @@
+Q:
+
+Are you able to take control of another player's Commander?
+
+Recently, I was told by someone in my playgroup that you cannot take control of a player's commander at any point. If an effect would cause you to control another player's commander, either the effect fizzles or the commander goes to the command zone, I forget which he said.
+The thing is, I searched mtgcommander.net, and another website that pointed to mtgcommander.net as the source of the official rules of EDH, and I can't find that particular rule anywhere. 
+Can someone please clarify? At any time are you allowed to control another player's commander?
+It would seem that this question is answered indirectly here and here, but I wanted a more definitive answer to the question.
+
+A:
+
+Yes, you can take control of someone else's commander. The rule about returning the commander to the Command Zone reads (emphasis mine):
+
+903.9. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+Since stealing a creature with, say, Threads of Disloyalty or Act of Aggression doesn't put it into any of the zones described in the rule quoted above (in fact, as ikegami pointed out, it doesn't change the object's zone at all), then the rule doesn't apply.
+Also, the rule about commander damage reads (emphasis mine):
+
+704.5u In a Commander game, a player that’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. See rule 903, “Commander.”
+
+The clearly says that the damage must be dealt by the same commander, not necessarily yours, so yes, you win the game if you deal 21 damage with a stolen commander.
+And to clarify something, mtgcommander.net is the source of what is commonly known as "the French list" for EDH, which is mainly a different banlist, specifically for 1 vs 1 play. As far as I'm aware, the actual rules are the same for Wizards and mtgcommander.net, though I'm not 100% sure about that.
+

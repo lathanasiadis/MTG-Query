@@ -1,0 +1,48 @@
+Q:
+
+How does Octopus Umbra interact with effects that change the base power and toughness of, and counters on, a creature?
+
+Context
+My friend plays a Commander deck, lead by Tuvasa the Sunlit:
+
+Tuvasa the Sunlit gets +1/+1 for each enchantment you control.
+
+She's in play and has +2/+2 — not counters — from the two enchantments on his battlefield. Then he plays Octopus Umbra, which reads:
+
+Enchanted creature has base power and toughness 8/8 [...]
+
+and continues in the rulings with:
+
+Octopus Umbra overwrites all previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply to a creature after Octopus Umbra becomes attached to it will overwrite this effect.
+  (2018-07-13)
+Any power- or toughness-modifying effects (those that give +N/+N, for example) and counters will apply to the creature’s new base power and toughness, even if they started to apply before Octopus Umbra became attached.
+  (2018-07-13)
+
+A judge explained to him that, when playing the umbra,  every effect prior to playing the umbra disappears, and the new base power and toughness becomes 8/8. He explained that it has to do with the order of layers, which is still new and relatively confusing to myself and our table. 
+Now after reading the rulings, I'm confused about the "everything gets removed" part. How about Tuvasa's "passive" ability, which increases her P/T due to the amount of controlled enchantments? Isn't that checked constantly, making Tuvasa a 8/8 with +3/+3 from the enchantments?
+Did we misunderstand the judge? Or is there something else we're missing? Any clarification would be much appreciated. 
+Question, in short
+
+In this scenario, what is Tuvasa's power and toughness when playing the umbra? Please take in consideration the example where the umbra itself will be the third enchantment on his battlefield. 
+Do counters stay on the permanent when enchanting it with Octopus Umbra? Say Tuvasa also had a +1/+1 counter before the umbra came into play. My guess is that the counter stays, since they are placed on top of the base P/T, but I can't find the rules which support or contradict this. 
+
+A:
+
+The judge's ruling was correct. The various modifiers to power and toughness are applied in layers, and the 8/8 base P/T are in a different layer than the +1/+1 for each enchantment. With the three enchantments in your scenario (Octopus Umbra plus two others), Tuvasa the Sunlit will be 11/11 overall.
+There are many continuous effects that can modify objects. They are applied in layers. Effects that modify power and/or toughness are applied in layer 7, and layer 7 has another 5 sub-layers. They are applied in the following order:
+
+613.3a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+
+Example: "This creature's power is equal to the number of knights you control".
+
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+
+7b is where the 8/8 modifier from Octopus Umbra is applied. It overwrites its original 1/1.
+
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+
+7c is where the +1/+1 per enchantment from Tuvasa the Sunlit is applied.
+
+613.3d Layer 7d: Power and/or toughness changes from counters are applied. See rule 122, “Counters.”
+613.3e Layer 7e: Effects that switch a creature’s power and toughness are applied. Such effects take the value of power and apply it to the creature’s toughness, and take the value of toughness and apply it to the creature’s power.
+

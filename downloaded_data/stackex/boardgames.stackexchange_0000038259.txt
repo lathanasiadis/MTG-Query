@@ -1,0 +1,42 @@
+Q:
+
+How does Arcbond interact with Saving Grace?
+
+This is a damage-dealing and timing-related question about casting Saving Grace (SG) and Arcbond  on a creature, and I or a creature I control being then dealt damage.
+Arcbond:
+
+Choose target creature. Whenever that creature is dealt damage this turn, it deals that much damage to each other creature and each player.
+
+Saving Grace:
+
+Flash 
+Enchant creature you control
+When Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.
+Enchanted creature gets +0/+3.
+
+Say I have a 3/3 and four 2/2 and an opponent casts shock (2 damage) on one of my 2/2's. As a response, I cast Saving Grace (with flash) and Arcbond on my 3/3.
+The damage is redirected to my 3/3 by SG, and my 3/3 takes 2 damage.
+This triggers Arcbond's effect, and all my 2/2s and myself are dealt 2 damage.
+Which triggers SG, and all this damage (2*5=10 damage total) is redirected to my 3/3 (3/6 because of Saving grace, but this is irrelevant), my 3/3 has taken damage, so Arcbond triggers, and so on...
+Here are the questions:
+
+Do both trigger separately for redirected damage from each of my 2/2 and myself, thus dealing a total of 3*2=6 damage to everyone else (the toughness of my 3/3+0/3 being consumed), or do they "group" all the damage and deal 12 damage to everyone else (2 for the first redirected shock damage, and 10 for the total Arcbond redirected damage)
+Is the damage from Arcbond dealt to everyone before, or after the "damage counters" are put on my 3/3, meaning will this combo stop when lethal damage has been redirected to my 3/3, or will it accumulate to infinity, never letting the damage event occur because it constantly reacts to the damage being "called"? (thus technically ending the game on a draw)
+
+Or does something completely different happen?
+I have gone to the comprehensive rules, but it's still not clear to me...
+
+A:
+
+The result of this combo will be three damage events: the original shock, plus the two Arcbond triggers. The first deals 2 damage to the 3/3, the second deals 2 damage to your opponent and each creature you don't control and 10 damage to the 3/3, and the third deals 10 damage to each creature and player. After that point the 3/3 will be dead, so there will be no more Arcbond triggers.
+The reason it works that way is because Arcbond's effect is a triggered ability, which means that each time it triggers, there is time in between for other events to occur, and Saving Grace's effect creates a replacement effect, which modifies the damage events in place.
+The exact sequence of events is as follows:
+
+Your opponent casts Shock targeting your 2/2 creature.
+In response, you cast Arcbond targeting that creature. Arcbond resolves, and creates a delayed triggered ability that will apply for the rest of the turn.
+Still in response to shock, you also cast Saving Grace. Saving Grace resolves, and its triggered ability triggers. The creature is now a 3/6. That triggered ability also resolves, and creates a replacement effect that will redirect damage for the rest of the turn.
+Shock resolves and would deal 2 damage to the 2/2, but Saving Grace's replacement effect modifies it. Instead it deals 2 damage to the 3/6. Arcbond's delayed triggered ability triggers.
+Arcbond's triggered ability resolves. This would deal 2 damage to each other creature and each player, but Saving Grace's replacement effect modifies it. Instead, it deals 2 damage to your opponent and each creature you don't control, and 10 damage to the original creature. Arcbond's delayed triggered ability triggers again.
+At this point, the creature has taken 12 damage and it has only 6 toughness, so it dies as a state-based action. The Saving Grace is also put into your graveyard as a state-based action.
+Arcbond's ability resolves again, and deals 10 damage to each creature and each player.
+

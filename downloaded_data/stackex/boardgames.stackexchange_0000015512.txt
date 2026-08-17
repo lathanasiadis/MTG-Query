@@ -1,0 +1,19 @@
+Q:
+
+Who is "You" when the creature controller is not the owner?
+
+Assume I have both a Firedrinker Satyr and a Daring Thief out in play. My Daring Thief untaps and I swap ownership of the Firedrinker with another creature of theirs. If I then proceed to Lightning Strike the Firedrinker Satyr (which is now on their side) - who receives that damage that the Satyr deals?
+The key line that is confusing me is:
+
+Whenever Firedrinker Satyr is dealt damage, it deals that much damage to you.
+
+The main question appears to be whether "you" woud refer to the owner or the controller. My assumption is that it is the controller, as the owner is rarely needed or used - but that's not based on much but experience.
+
+A:
+
+"You" always refers to the controller of the ability, which is the controller of the creature at the time the ability triggers. So in this case, the player who controls Firedrinker Satyr at the time the damage is dealt to it - your opponent - will have the Satyr deal damage to them.
+
+109.5. The words "you" and "your" on an object refer to the object's controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it's on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
+
+from the comprehensive rules (or HTML version).
+

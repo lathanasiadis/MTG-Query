@@ -1,0 +1,16 @@
+Q:
+
+Can I cast other spells before a miracle?
+
+I'm playing a red storm deck and I topdeck a Reforge the Soul. I only have 2 lands in play but have several rituals (Pyretic Ritual, etc.) in my hand that I might want to cast to increase my storm count, since they will just be discarded anyway. Can I cast the rituals before I cast Reforge the Soul if I were to miracle it or must I pay the miracle cost and thus not be able to pay for the rituals?
+
+A:
+
+You can cast your rituals before casting the miracle, though since it's your draw step, you'll have to spend any leftover floating mana during your draw step, i.e. on instants or activated abilities.
+The full definition of Miracle is:
+
+702.93a Miracle is a static ability linked to a triggered ability (see rule 603.10). “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”
+
+The static ability is the reveal-as-you-draw part: you make that decision as you draw the card, before the game progresses any further. If you do choose to reveal it, the rest of the ability triggers and goes on the stack. All that's really happened so far is the reveal.
+That triggered ability (the "when..." in the definition) is where everything else happens. You cast the miracle card for its miracle cost when that ability resolves. So before that happens, you can respond to it with whatever you'd like, including your rituals, and you'll still get to cast it at the end. (As long as you're able to, anyway - for example if you discard it, you can't cast it anymore!) Once you're done with your rituals, you let the triggered ability resolve, and only then do you pay the miracle cost and cast it.
+

@@ -1,0 +1,19 @@
+Q:
+
+Can creatures with summoning sickness be tapped for convoke?
+
+Can creatures or creature tokens be tapped for mana the turn they entered the battlefield when casting a spell with convoke or do they need haste?
+For example, can I cast Raise the Alarm for 2 soldier tokens, then on that same turn tap the soldiers to help pay for a Stoke the Flames.
+
+A:
+
+Yes, they can. You are probably thinking of the "summoning sickness rule", which does not apply here:
+
+302.6. A creature‘s activated ability with the tap symbol or the untap symbol in its activation cost can‘t
+  be activated unless the creature has been under its controller‘s control continuously since his or her
+  most recent turn began. A creature can‘t attack unless it has been under its controller‘s control
+  continuously since his or her most recent turn began. This rule is informally called the "summoning
+  sicknes" rule.
+
+So this rule doesn't prevenet creatures for being tapped for any reason other than paying the activation cost of that creature or attacking with that creature.
+

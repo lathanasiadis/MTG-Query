@@ -1,0 +1,25 @@
+Q:
+
+What happens if multiple triggers on the stack would cause both players to drop to 0 life if fully resolved?
+
+In Magic: The Gathering, if when the stack has been fully resolved both players will have dropped to 0 life, is the game considered a draw? Or alternatively, does the player who reaches 0 life first lose and the other player wins?
+Here's the situation that caused me to ask this question:
+
+I was playing a match where both my opponent and I were using Poison-Tip Archer. I had two of them on the field, my opponent had one.
+I was on 4 life, my opponent was on 7.
+I attacked with three 3/3 saproling tokens (I had a Tendershoot Dryad in play).
+All three were blocked, killing them all and one blocker.
+As the active player I ordered the stack so that the triggered abilities of my Archers resolved first. My opponent took 8 damage, but then if the stack was fully resolved I would take 4 damage, reducing us both to 0 life.
+
+As you might imagine, I think I won but my opponent thinks it was a draw. Which one of us is correct?
+
+A:
+
+In the situation you describe, both you and your opponent were incorrect. You would have died first because your opponent's triggered abilities would have resolved first. You do not get to arrange all triggered abilities, only the ones you control. Nobody has control over which player's abilities as a whole go on the stack first, because that is defined by the rules.
+You misunderstood the rules for multiple ability triggers at the same time:
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
+
+In other words, triggered abilities that trigger at the same time go on the stack in blocks, where each block consists of all triggered abilities a certain player controls. These blocks go on the stack in APNAP order, and only the order of abilities within each block can be determined by its respective controller.
+It was your turn, so you were the active player. Your and your opponent's Poison Tip Archer triggered at the same time. According to 603.3b, you are the first to put your 8 triggers on the stack in any order you choose, followed by the opponent's 4 in the order the opponent chooses. Therefore, your opponent's triggers resolve first. You lose 1 life for each trigger, and when you are at zero life, before the next ability can resolve, you would lose the game.
+

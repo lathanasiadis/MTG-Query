@@ -1,0 +1,19 @@
+Q:
+
+When Turn to Frog changes a creature's base power/toughness to 1/1 do any affects that change creature's power and toughness still apply?
+
+Turn to Frog changes a creature's base power and toughness to 1/1. Does that mean if target creature has a +1/+1 counter when Turn to Frog is cast, it becomes 2/2? If it has -1/-1 counter on it, would Turn to Frog effectively destroy it? 
+Does the same apply to enchantments or equipment that affect the creature's power/toughness?
+
+A:
+
+Yes, power/toughness modifications, including counters, apply on top of the base power/toughness exactly as you described in the question. Turn to Frog originally just said "becomes a 1/1", but along with many other cards, got the "base power and toughness" wording to help clarify this.
+There's actually a specific order for applying those modifications as part of the layer system, but generally you don't need to know any details, just start with the base and add the rest. In case it does come up, here are the rules:
+
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+613.3a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+613.3d Layer 7d: Power and/or toughness changes from counters are applied. See rule 121, “Counters.”
+613.3e Layer 7e: Effects that switch a creature’s power and toughness are applied. Such effects take the value of power and apply it to the creature’s toughness, and take the value of toughness and apply it to the creature’s power.
+

@@ -1,0 +1,16 @@
+Q:
+
+land that temporarily became a land creature and the graveyard
+
+I'm casting Wrenn and Realmbreaker. I'm using her +1 to make a land a creature until my next turn. My opponent during his turn casts Invoke Despair and so I have to sacrifice my land creature (as its my only one). I'd like to rescue it though, so in response I'm casting Not Dead After All. As a consequence of the land creature going to the graveyard, does it lose its (temporary) creature type, and therefore does not come back to the battlefield?
+
+A:
+
+The land card is not a creature card in the graveyard, but that doesn't matter for Not Dead After All: the card still returns to the battlefield, but it can't get a Wicked Role because it is not a creature after it comes back.
+The spell Not Dead After All affects "target creature", so the permanent needs to be a creature at that time to get the ability, but the ability it grants doesn't actually care. It says "this creature", but that is just another way of saying "this permanent". After that, the ability doesn't check in any way that the card still has the creature type once it moves to the graveyard, so that doesn't make a difference in how the rest of the effect is handled.
+The Wicked Role is defined in rule 111.10q:
+
+A Wicked Role token is a colorless Aura Role enchantment token named Wicked with enchant creature, “Enchanted creature gets +1/+1,” and “When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.”
+
+Since it has "enchant creature", it cannot legally be attached to the land that returns, so that part of the effect just doesn't happen.
+

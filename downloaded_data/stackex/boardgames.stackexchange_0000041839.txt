@@ -1,0 +1,18 @@
+Q:
+
+Is a spell or ability, targeted against a permanent with protection from that spell or ability's color, an illegal play?
+
+Example.
+My opponent has an Auriok Champion in play.
+Even though this creature has protection from red, can I still attempt to cast, say, Lightning Bolt on it? Or is that an illegal play? If I can attempt to cast it, does it simply just fizzle? Would it count as a spell cast in the case of something like Aetherflux Reservoir?
+
+A:
+
+It is illegal to cast it at all.
+Among other things*, protection prevents things from being targeted by certain things:
+
+702.16b A permanent or player with protection can’t be targeted by spells with the stated quality and can’t be targeted by abilities from a source with the stated quality.
+
+See this question for details on what would happen if you started to cast Lightning Bolt, but there was no legal target on the board. In summary, the game would rewind to the point before you started to cast it; it will never have been considered cast.
+*Those other things being damaged by, enchanted or equipped by, and blocked by.
+

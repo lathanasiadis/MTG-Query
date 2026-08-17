@@ -1,0 +1,21 @@
+Q:
+
+Mimic Vat and Misthollow Griffin
+
+Given that Misthollow Griffin can be cast from exile, if you somehow use Mimic Vat to imprint the Misthollow Griffin and then cast Misthollow Griffin and remove it from exile, can you still make Misthollow Griffin tokens via Mimic Vat?
+
+A:
+
+No. The exiled card has ceased to be in exile, so the activated ability will be unable to find it when it resolves. Misthollow Griffin isn't even required for this question, sinceMimic Vat itself is constantly exiling creatures, and then returning those cards to their owners graveyard. You can no longer make copies of cards that were returned to their owners graveyards, neither can you copy Misthollow Griffin if it changes zones.
+Mimic Vat contains linked abilities. The first triggered ability exiles cards when they die (technically, these do not have to be creature cards, they only need to be creatures when they die). The second activated ability returns a token copy of the card to the battlefield until the beginning of the next end step. There are some unusual corner cases where it is important to know which ability was responsible for exiling a particular card, if some card gains multiple exile abilities, since only the abilities that are linked are able to refer to the cards exiled in that way. (Note: The CR give an interesting example with Quicksilver Elemental, Arc-Slogger, and Sisters of Stone Death that I won't review here)
+
+607.2a If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+406.5. An object may have one ability printed on it that causes one or more cards to be exiled, and another ability that refers either to “the exiled cards” or to cards “exiled with [this object].” These abilities are linked: the second refers only to cards that have been exiled due to the first. See rule 607, “Linked Abilities.”
+
+So, what happens if the card is no longer in exile (or is exiled again by some other effect)? It becomes a new object, with no relation to it's precious existence. What this means is that Mimic Vat cannot find the card that was exiled, and therefore cannot copy it.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: ... (seven exceptions removed for brevity, none apply)
+
+406.6. If an object in the exile zone becomes exiled, it doesn’t change zones, but it becomes a new object that has just been exiled.
+

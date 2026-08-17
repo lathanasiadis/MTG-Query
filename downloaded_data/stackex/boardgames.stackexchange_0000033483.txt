@@ -1,0 +1,17 @@
+Q:
+
+If I can cast "target instant card" from my graveyard can I cast a card that has Flash?
+
+Let's say I have a creature with Flash (You may play this card any time you could cast an instant) in the graveyard, and I cast something like Goblin Dark-Dwellers, or Torrential Gearhulk, which allow me to cast an instant from the graveyard without paying costs, is the creature with Flash a legal target?
+
+A:
+
+A creature with Flash is not a legal target for an effect that targets an Instant
+Phrases like "any time you could cast a Sorcery" or "any time you could cast an Instant" are just shortcuts for timing rules, meaning when you're allowed to cast a card or activate an ability.
+
+304.5. If text states that a player may do something “any time he or she could cast an instant,” it means only that the player must have priority. (...)
+
+Both the cards you mentioned have you target an Instant card in your graveyard, meaning the targetted card needs to be an Instant itself.
+It's possible that cards get types that aren't originally printed on the them (most commonly for animated Lands or Artifacts), but that's not what Flash does.
+In general, no Magic card or effect grants the Instant or Sorcery types.
+

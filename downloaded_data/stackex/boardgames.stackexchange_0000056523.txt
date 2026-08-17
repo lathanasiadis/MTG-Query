@@ -1,0 +1,18 @@
+Q:
+
+Does a non-creature card entering the battlefield as a creature trigger ETB abilities for creatures?
+
+I have Lethal Vapors and Starfield of Nyx on the battlefield, along with three other enchantments, so that Starfield's static ability is on.
+When I cast another enchantment spell, it is a creature when it enters the battlefield. Does this creature trigger Vapors' triggered ability or not?
+Would the answer be the same if there weren't any Vapors on the battlefield, and then I cast Lethal Vapors? Would its ability trigger for its own ETB?
+
+A:
+
+Yes, enchantments enter as creatures with Starfield of Nyx active, triggering Lethal Vapors, and Lethal Vapors would die to its own trigger.
+When Starfield of Nyx's second ability is active, enchantments enter the battlefield as if they were also creatures due to Starfield, because they are creatures, and thus trigger all applicable abilities that care about creatures entering the battlefield.
+Since Lethal Vapors applies to all creatures, it also applies to itself, so it would trigger its own ability when it enters the battlefield. This also occurs if Lethal Vapors happens to be the enchantment that activates Starfield of Nyx, i.e. the fifth one you control. If it wouldn't apply to itself, it would have to say "another creature" instead of "a creature".
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don’t apply before the permanent is on the battlefield, however (see rule 603.6d).
+
+Example: If an effect reads “All lands are creatures” and a land card is played, the effect makes the land card into a creature the moment it enters the battlefield, so it would trigger abilities that trigger when a creature enters the battlefield. Conversely, if an effect reads “All creatures lose all abilities” and a creature card with an enters-the-battlefield triggered ability enters the battlefield, that effect will cause it to lose its abilities the moment it enters the battlefield, so the enters-the-battlefield ability won’t trigger.
+

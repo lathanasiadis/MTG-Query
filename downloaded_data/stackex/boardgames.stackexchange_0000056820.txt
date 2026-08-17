@@ -1,0 +1,13 @@
+Q:
+
+Vizier of the Menagerie and cost reducing
+
+If I have a cost reduction on generic mana, can Vizier of the Menagerie help reduce non generic mana costs?
+For example, I have Animar, Soul of Elements in play with 2 +1/+1 counters on it, can Vizier help to cast the coloured part of a creature spell, for example could I play Strangleroot Geist for free?
+
+A:
+
+No.
+Vizier of the Menagerie does not modify the cost; it allows mana to be treated as other types of mana for the purpose of paying the cost. The cost of Strangleroot Geist is still {G}{G}, which is not reduced by Animar, Soul of Elements.
+For comparison, Kentaro, the Smiling Cat does give an alternative cost, and that cost could be reduced by Animar, Soul of Elements all the way to {0}.
+

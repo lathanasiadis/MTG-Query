@@ -1,0 +1,67 @@
+Q:
+
+How do cards like Brainstorm affect the probability of drawing an out?
+
+I posted this on a Magic forum and got zero responses.
+I'm playing a High Tide combo deck. Let's say I am Brainstorming with 50 cards in my deck, 23 of which are outs that make me win. I think the calculation for this is: (27/50)*(26/49)*(25/48), so my failure rate is just about 15%.
+However, drawing Ponder, Brainstorm, or Preordain off of my first Brainstorm might enable me to dig for an out. I only have enough mana to cast one more cantrip and one out, I have 3 Brainstorms, 4 Ponders, and 3 Preordains left in my deck. I came up with this: ((27/50)*(26/49)*(25/48))*((47/50*46/49*45/48)). (I think) This would be my percent chance of not hitting one of my 23 outs and not hitting a brainstorm, around 12.3%.
+Of course just drawing Brainstorm isn't good enough, I need the third card from the top of my deck to be one of my 23 outs (the top 2 are cards I replaced from brainstorm). It is here that I'm stuck, I don't know how to figure that out, or how to figure it out for Preordain or Ponder. It's been a while since I've taken stats, I don't even know if that 12.3 is correct.
+Thanks!
+
+A:
+
+The final answer will be obtained using
+P(winner) = P(winner on brain storm) + ( P(cantrip but no winners on brainstorm) * P(winner on cantrip) )
+
+There 23 wins to be found in 50, so there are 50-23 = 27 non-win to be found in 50.
+P(no winners on brain storm) = (27/50)(26/49)(25/48) = 15%
+P(winner on brain storm) = 1 - P(no winners on brain storm) = 1 - 15% = 85%
+
+Sometimes, we'll draw both a win and cantrip using brainstorm.
+There are 23 wins and 10 cantrips = 33 wins and cantrips to be found in 50, so there are 50-33 = 17 that are neither to be found in 50.
+P(neither winners nor cantrips on brainstorm) = (17/50)(16/49)(15/48) = 3.5%
+P(winner and/or cantrip on brainstorm) = 1 - P(neither winners nor cantrips on brainstorm) = 1 - 3.5% = 96.5%
+P(cantrip but no winners on brainstorm) = P(winner and/or cantrip on brainstorm) - P(winner on brainstorm) = 96.5% - 85% = 11.5%
+
+We cast the cantrip when none of the 23 winners were in the first 3. That means we're looking at the first of 47 cards. There are 23 wins to be found in 47.
+[Note: I forgot to factor in the the possibility to shuffle with Ponder.]
+P(winner on cantrip) = 23/47 = 49%
+
+P(winner)
+= P(winner on brain storm) + ( P(cantrip but no winners on brainstorm) * P(winner on cantrip) )
+= 85% + ( 11.5% * 49% )
+= 91%
+(90.68%, to be more precise)
+[Experimentation shows that factoring in the the possibility to shuffle with Ponder raises the odds to around 93%.]
+
+Let's verify by experiment.
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use List::Util qw( shuffle );
+
+my @deck = ( ('W') x 23, ('C') x 10, ('O') x (50-23-10) );
+
+my $trials = 10_000;
+my $wins = 0;
+
+for (1..$trials) {
+   @deck = shuffle(@deck);
+
+   ++$wins
+      if $deck[0] eq 'W'
+      || $deck[1] eq 'W'
+      || $deck[2] eq 'W'
+      || $deck[3] eq 'W' && ($deck[0] eq 'C' || $deck[1] eq 'C' || $deck[2] eq 'C');
+}
+
+printf("%.0f%%\n", $wins/$trials*100);
+
+ 
+$ for i in 1 2 3 ; do p ; done
+91%
+91%
+90%
+

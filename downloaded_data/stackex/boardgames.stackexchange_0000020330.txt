@@ -1,0 +1,18 @@
+Q:
+
+What happens when a double-sided card is returned to the battlefield or a copy of it appears?
+
+Say I cast Oblivion Ring on Garruk, the Veil-Cursed (i.e. a transformed Garruk Relentless). What happens when my Oblivion Ring gets destroyed?
+My interpretation was that Garruk returns in his Veil-Cursed form, but dies with zero loyalty counters, since there is no reference to how many counters he has upon return.
+Also, am I correct assuming that Clever Impersonator is everything but clever when trying to impersonate Garruk, the Veil-Cursed (i.e. he dies due to zero loyalty counters)?
+
+A:
+
+It will come back as the Garruk Relentless with 3 loyalty counters since it enters the battlefield as a new object. See comprehensive rules 110.6 and 110.6b
+
+110.6. A permanent's status is its physical state. There are four status categories, each of which has two possible values:
+  tapped/untapped, flipped/unflipped, face up/face down, and phased
+  in/phased out. Each permanent always has one of these values for each
+  of these categories.
+110.6b Permanents enter the battlefield untapped, unflipped, face up, and phased in unless a spell or ability says otherwise.
+

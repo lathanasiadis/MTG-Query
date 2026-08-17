@@ -1,0 +1,33 @@
+Q:
+
+Can a creature target itself with an effect that sacrifices itself?
+
+The card Vampire Hexmage lets you sacrifice it to remove all counters from target permanent. Can it target itself with this effect? 
+I know a creature can target itself unless it says otherwise (like the examples from this question and answer), but I do not know how a card that sacrifices itself would work.
+
+A:
+
+Yes, you can
+The rules for activating an ability are as follows (slightly abridged for clarity)
+
+602.2. ... Activating an ability follows the steps listed below, in order. ...
+602.2a The player announces that they are activating the ability. ...
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+  ...
+
+Well, that's not precisely helpful.  What are is the procedure for casting a spell?
+
+601.2b If the spell is modal, the player announces the mode choice (see rule 700.2)... [This section is pretty long, but basically states that any choices that are to be made such as modes, split cards, or variable costs are chosen here.  This does not include targets, however!  That comes next]
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires... [This section is even longer than the last, and explains how targeting works.  But it isn't really relevant here]
+601.2d If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
+601.2e The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 721, “Handling Illegal Actions”).
+601.2f The player determines the total cost of the spell. ... 
+601.2g If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+601.2h The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+  ...[Example]
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, they get priority.
+
+The key ideas here are that targets are chosen and spell (ability) legality are both checked before costs are paid.
+That means that when you chose the target for Vampire Hexmage, you haven't sacrificed Vampire Hexmage yet.  And when you check to make sure that you can cast the ability, you still haven't sacrificed Vampire Hexmage.  Once you've paid the cost and sacrificed the Hexmage the ability will go on the stack, and it won't check for the presence of targets again until it resolves (at which point it will fizzle due to lack of target)
+If you play Arena you can see this order of operations in action with the card Final Payment.  When you play Final Payment, you will first be asked which additional cost you wish to pay, then you will be asked to chose a target, and finally you will be asked which creature or enchantment you wish to sacrifice (assuming you chose that option).  This has tripped me up several times actually, as I tend to think about it in the opposite order, leading me to select my chosen sacrifice as the target, only to realize my mistake when I can't chose an opponent's creature as the sacrifice.  Fortunately, Arena lets you undo spells you are in the process of choosing options for.
+

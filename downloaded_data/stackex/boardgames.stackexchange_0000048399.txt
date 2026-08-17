@@ -1,0 +1,31 @@
+Q:
+
+Multiple delayed triggers from Massacre Girl interaction
+
+Recently on my usual EDH playgroup, we had an interaction of which we couldn't tell the outcome for sure.
+I had a Massacre Girl out on the battlefield, enchanted with Kaya's Ghostform. I then cast an Altar's Reap, sacrificing Massacre Girl as the additional cost. After resolving the relevant triggered abilities, I had now a Massacre Girl on the battlefield and a delayed trigger that's been created by Massacre Girl's ability.
+My turn then proceeds uneventfully until my end step, during which I use the ability from my Conjurer's Closet to 'blink' my Massacre Girl.
+Assuming a creature died from the Massacre Girl's latest ETB trigger, both delayed triggers will trigger at the same time: the one created now, and the one created earlier this turn.
+Both triggers read:
+
+Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn.
+
+My question then is: Will the delayed trigger created earlier in the turn also give -1/-1 to my current Massacre Girl, since it's considered a new object? And which are the relevant rulings for this interaction?
+
+A:
+
+Whenever a creature dies after the second Massacre Girl's ability resolved, the second MG will get -1/-1, while all other creatures get -2/-2.
+As you noted, the two Massacre Girls are different objects even though they were represented by the same card.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+The triggered ability of MG creates two one-shot effects. The first of those effects gives every other creature -1/-1 until EOT. The second creates a delayed triggered ability that exists independently of the MG that created it and triggers whenever a creature, including the MG, dies.
+
+603.7. An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain “when,” “whenever,” or “at,” although that word won’t usually begin the ability.
+
+The DTA created by both MGs only refer to the MG that created them, respectively.
+
+201.4. Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+When the second MG returns from exile through Conjurer's Closet, it creates another DTA that is identical to the first except it refers to the second MG. Both DTAs are active because the turn hasn't ended yet. So when a creature dies after the creation of the second DTA, both DTAs will trigger and do what they say, namely give -1/-1 to every other creature. The first MG is no longer exists so it can't get -1/-1, but the second MG exists and will get -1/-1 from the first DTA. All other creatures get two instances of -1/-1 until EOT.
+

@@ -1,0 +1,50 @@
+Q:
+
+What is the most effective creature that can be resurrected from the graveyard in MTG?
+
+I am currently designing a legacy deck around the new graveyard focused cards from Innistrad. My goal is to get cards in my own graveyard quickly and utilize those as best as I can. Innistrad offers a lot of different mechanics for that, but I am also looking for some really nasty creatures that I can resurrect early on with the good old Exhume or Victimize.
+What are good creatures for that? I consider the following attributes important:
+
+Must be able to enter the graveyard (no Ulamog, the Infinite Gyre or similar creatures)
+Must be hard to remove (I tried Ulamog's Crusher in the past, but a simple creature destroyer stops him instantly; creatures like Wurmcoil Engine worked way better for me; being hexproof or being indestructible would also be nice to keep my monster save from immediate destruction)
+Must be able to end the game quickly or give me a solid advantage once it is out on the field, because the investment to pull this combo off successfully is rather huge (Sheoldred, Whispering One would complement my deck really well for example, but is too easy to remove with an appropriate creature destroyer)
+
+I guess there is no perfect creature for what I am looking for, otherwise this mechanic would be overpowered. With a good starting hand (entomb + exhume + 2 swamps) I am able to bring any creature into play in round 2. Nevertheless I am looking for the best choice of creature for this task. What should I use?
+
+A:
+
+Griselbrand
+
+Griselbrand is the best reanimation target because he is Yawgmoth's Bargain: whatever else you need, he will find it for you.
+In Legacy, which is the competitive format where you actually get to play Entomb and Exhume, Griselbrand is absolutely amazing because he can do practically everything, thanks to his ability to just draw a big chunk of your deck. In particular:
+
+Griselbrand easily finds you free counterspells like Force of Will and Daze, which you can use to protect him or stop your opponent's gameplan.
+Griselbrand easily sets up subsequent reanimation combos, allowing you to deploy a more specific card to soft-lock your opponent (and gets you the FoW to keep it in place, too).
+Griselbrand himself usually swings life totals quickly enough to stabilize against aggressive decks.
+
+If you've built your deck and sideboard correctly, resolving him is absolutely backbreaking to your opponent.
+Ironically, Griselbrand almost singlehandedly drove Reanimator out of the metagame in Legacy, by making Sneak and Show so consistent that there's not much reason to go through your graveyard — but, whenever graveyard hate diminishes, top players often pick up the Exhume-based combo again in order to be faster than the Sneak and Show deck.
+The Toolbox
+That said, no one big fatty is going to be able to beat every deck (Emrakul, the Aeons Torn killing all your permanents comes close, though). Thus, Reanimator decks generally try to have a "toolbox" of different creatures to deal with different opponents. For example, a card like Elesh Norn can totally shut down aggro but is near-useless against a deck that's going to combo-kill you with sorceries next turn.
+In addition to your opponents' decks, you have to think about the speed of your combo. A reanimator deck that reliably goes off on turn 2 can run different creatures from a reanimator deck that usually hits its combo on turn 5, or a combo-control deck that sandbags its combo until it has had a chance to wrath the board and run out the opponent's hand. A turn-2 Empyrial Archangel might buy you three turns of safety against an aggro deck that's just starting to develop its board position, whereas one you've reanimated on turn 5 could die the very next time your opponent attacks.
+In Legacy, I think the general trend is something like this:
+
+Griselbrand (formerly Jin-Gitaxias) in multiples. This is the engine of your deck. See all that stuff I said above. Jin is trickier to play than Griselbrand, since you only get your cards when you end the turn -- so you've gotta have FoW in hand, wait for your opponent to tap out, or run Jin into Swords to Plowshares and hope your opponent doesn't have it. This makes him much more fragile than Griselbrand; however, the payoff with him is potentially even bigger: if you can get him to stick until your opponent's cleanup step, you'll force your opponent to discard his entire hand.
+Some combination of Elesh Norn, Blazing Archon, Empyrial Archangel, and Sphinx of the Steel Wind, tuned to the creature decks you expect to face. Norn board-wipes weenie decks and greatly depowers any creature deck; Sphinx trumps any creatures-and-burn deck that doesn't have Swords to Plowshares for it; Empyrial Archangel is a strong card against aggro-control decks that can remove the other fatties but don't have enough bursty damage to kill her with one attack; Blazing Archon is vulnerable to removal but can protect you from arbitrarily-large creatures, including Eldrazi.
+Possibly an Iona, Shield of Emeria somewhere in your 75. She's one of the best soft-lock cards, even against heavily multi-colored decks.
+Possibly an Ashen Rider or Tidespout Tyrant as multifunction removal. Eternal Magic is full of game-breaking artifacts, enchantments, planeswalkers, and lands, but too diverse to justify maindecking narrow answer cards. These guys can help you deal with a variety of troublesome permanents without diluting your deck.
+Possibly an Inkwell Leviathan somewhere in your 75, mainly to put a clock on control decks. You don't really, really need this since you can use Force to give your Griselbrand virtual shroud.
+
+At least one of these should be a non-Legendary creature, to give you a threat your opponent can't get rid of with Karakas.
+Before Griselbrand, there used to be room for one oddball choice, like Sheoldred for long-game advantage or a Platinum Angel to stop combo decks that don't interact with the battlefield, somewhere in your 75. These seem like a "last 5%" kind of thing: they might be clutch in a certain really specific matchup, but you won't play them in most matches.
+Even though we're talking about a combo that can easily go off on turn 2, the key thing to remember is that most of these decks are effectively control decks. Thoughtseize, Duress, Force of Will, and Daze (and Mental Misstep, when it was available) are just as critical as the combo cards and the reanimation targets. Show and Tell in the sideboard is also standard, for dodging dedicated hate.
+Some example decklists I'm using as a basis:
+
+Reid Duke's winning Griselbrand list from a June 2012 SGC Open
+Josh Weinundy's winning list from an October 2011 SGC Open
+Christopher Walton's top-8 list from the same even
+A decklist from the Mental Misstep era
+Andreas Müller's GP-winning list from 2010, predating New Phyrexia
+Owen Turtenwald's 10-th place list at GP Atlanta, with discussion
+Robert Cucunato's 1st-place list from an October 2013 SGC Open
+

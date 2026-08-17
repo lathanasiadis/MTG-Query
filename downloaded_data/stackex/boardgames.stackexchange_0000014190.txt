@@ -1,0 +1,21 @@
+Q:
+
+Does Homing Sliver give other Slivers slivercycling even before it's been cast?
+
+Homing Sliver gives each sliver card in each player's hand slivercycling 3. My question is... does it do that even if Homing Sliver hasn't been cast? Or do slivers in peoples hands only gain that ability after homing sliver is on the battlefield?
+
+A:
+
+Homing Sliver only affects other Sliver cards when it is in play. The ability that says
+
+Each Sliver card in each player's hand has slivercycling {3}
+
+is a static ability. Rule 604.2 says
+
+These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+
+This ability does not match any of the exceptions mentioned in rule 112.6, so it is only active as long as the Homing Sliver is on the battlefield.
+Note that as long as Homing Sliver is on the battlefield, every Sliver card in each player's hand has the activated ability slivercycling, which does work from the hand because it matches rule 112.6i:
+
+An object's activated ability that has a cost that can't be paid while the object is on the battlefield functions from any zone in which its cost can be paid.
+

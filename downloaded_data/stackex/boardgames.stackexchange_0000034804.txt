@@ -1,0 +1,14 @@
+Q:
+
+Can I target a Shrouded creature's ability?
+
+A friend of mine tells me that an activated ability of a creature (for example, Goblin Fireslinger) can't be targeted (for example, by Reroute) if it's given shroud (for example, by Lightning Greaves). 
+Since a card like Reroute says "Change the target of target activated ability with a single target" and doesn't target the permanent itself, shouldn't this ability be a legal target?
+If there is some ruling source about this, I'm willing to look on it.
+
+A:
+
+Yes, the ability is a legal target.
+Shroud applies to the creature. It says you can't choose the creature for a target.
+Reroute doesn't choose the creature for the target. It chooses an ability. Those abilities are not connected to the creature (once they go on the stack, they're wholly separate objects) and they do not inherit any of the creature's abilities.
+

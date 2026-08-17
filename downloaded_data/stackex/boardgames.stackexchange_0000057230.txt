@@ -1,0 +1,18 @@
+Q:
+
+How long does Gnarled Sage's +0/+2 stick around for?
+
+Gnarled Sage gets +0/+2 when you've drawn 2 or more cards this turn. It doesn't say “until end of turn” though, so will the +0/+2 stay or not after the end of the turn?
+
+A:
+
+It lasts until the end of the turn and doesn't stay longer.
+Gnarled Sage's ability is a static ability:
+
+As long as you've drawn two or more cards this turn, Gnarled Sage gets +0/+2 and has vigilance.
+
+It's simply checking if this condition is true. If it is true, the other thing is also true. We calculate this moment to moment whenever we need to know it.
+As long as this is a turn you've drawn two or more cards on, it gets +0/+2 and vigilance. As long as this condition is not true—such as at the beginning of a new turn—it does not get these features.
+This is not a triggered ability (“when you draw a second card each turn, CARDNAME gets +0/+2 ...”). That would apply a continuous effect, and the continuous effect would need to have an expiration.
+But we're not doing that: we're just evaluating a condition in a static ability to see what's currently true (+0/+2 or not).
+

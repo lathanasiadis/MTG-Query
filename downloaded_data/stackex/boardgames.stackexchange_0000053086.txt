@@ -1,0 +1,38 @@
+Q:
+
+Rule 506.4a vs 509.3a (removing attackers/blockers during combat)
+
+I'm returning to Magic after a long hiatus, so my apologies if this question is obvious. I'm trying to understand why both of these rules exist:
+
+506.4a: Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don't remove the creature from combat.
+
+And:
+
+509.3a: During the declare blockers step, if an attacking creature is removed from combat or a spell or ability causes it to stop being blocked by a blocking creature, the attacking creature is removed from all relevant damage assignment orders. The relative order among the remaining attacking creatures is unchanged.
+
+Given what 506.4a says, when would 509.3a ever apply? Browsing other related questions suggests that when a card specifically uses the phrase "remove from combat", 506.4a doesn't apply (because cards overrule the rules), is that the only time you would fall back to 509.3a, or are there other examples too?
+Edit for anyone reading this later who is still confused:
+The accepted answer does give examples of cases when a creature is removed from combat, however murgatroid99 helpfully points out that 506.4a is much more precise than I initially thought - it only applies to cards that say something like "prevent this creature from attacking/blocking this turn", not literally any effect that could prevent a creature from attacking/blocking.
+
+A:
+
+Yes, there are cards that remove creatures from combat like:
+
+But there is also regeneration ability, which removes the regenerated creature from combat.
+Rule 701.12a
+
+If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, “Regenerate [permanent]” means “The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.”
+
+From question:
+Is a Regenerated Creature Removed from Combat?
+There may be other examples as well, but this one comes to mind.
+
+The rule 506.4a is written that way, because for example if a card prevents something from attacking, it doesn't have an effect on a creature that is already attacking. The rule 509.3a applies in all these situations where a creature is removed from combat.
+The rule 506.4 also states other situations where a creature can or cannot be removed from combat:
+
+506.4 A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, or if it’s an attacking or blocking creature that regenerates (see rule 701.13) or stops being a creature. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that’s removed from combat stops being attacked.
+506.4a Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don’t remove the creature from combat.
+506.4b Tapping or untapping a creature that’s already been declared as an attacker or blocker doesn’t remove it from combat and doesn’t prevent  its combat damage.
+506.4c If a creature is attacking a planeswalker, removing that planeswalker from combat doesn’t remove that creature from combat. It continues to be an attacking creature, although it is attacking neither a player nor a planeswalker. It may be blocked. If it is unblocked, it will deal no combat damage.
+506.4d A permanent that’s both a blocking creature and a planeswalker that’s being attacked is removed from combat if it stops being both a creature and a planeswalker. If it stops being one of those card types but continues to be the other, it continues to be either a blocking creature or a planeswalker that’s being attacked, whichever is appropriate.
+

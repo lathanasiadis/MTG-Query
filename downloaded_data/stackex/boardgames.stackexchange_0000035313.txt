@@ -1,0 +1,32 @@
+Q:
+
+MTG Gatherer Regular Expressions whitespace
+
+How do I represent white space in a phrase on gatherer's advanced search? I read the help, and I've used regexes before, but I can't get this to work for me.
+
+AND
+  lifelink
+NOT
+  m/until\send\sof\turn/
+NOT
+  creature
+
+Should give 
+
+AND
+  lifelink
+NOT
+  until end of turn
+NOT
+  creature
+
+I'm looking for cards that give lifelink as a persistent effect like enchantments or equipment.
+What am i doing wrong with the regex? Why does it still show card with end of turn in the text body?
+Edit: gatherer specifically instructs to use regex...
+http://gatherer.wizards.com/Pages/Help.aspx#regex
+
+A:
+
+It looks like the Gatherer search simply does not understand negated regular expressions. I tried, and it gives the exact same results with NOT <regular expression> as with AND <regular expression>.
+Fortunately, your search does not require the use of regular expressions at all. You can find what you're looking for just by using NOT "until end of turn" instead.
+

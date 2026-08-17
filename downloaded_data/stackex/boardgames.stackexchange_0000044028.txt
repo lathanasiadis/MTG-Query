@@ -1,0 +1,30 @@
+Q:
+
+Is it possible to download full tournament data including every card in each deck and wins losses?
+
+Does Wizards make this information available? This would open some some really cool machine learning problem such as:
+
+to try and predict which decks do better against which decks
+automatic deck classification into archetypes
+
+For example, for Pro Tour Ravnica, I've found the full match lists at: https://magic.wizards.com/en/events/coverage/ptgrn/tournament-results but I'd need to scrape it from the web.
+The decks however, I can only see:
+
+top 8 full lists e.g.: https://magic.wizards.com/en/events/coverage/ptgrn/top-8-decklists-2018-11-10
+archetype percentages, e.g. https://magic.wizards.com/en/events/coverage/ptgrn/3-0-drafts-day-1-2018-11-09
+
+For Magic Online, it would be even more awesome if we could have full play by play data of tournaments: Is there a standard file format for Magic the Gathering games? to decide e.g. how much a turn one Black Lotus increases your win rate. Of course, this gets close to privacy problems, so likely not possible.
+https://www.mtggoldfish.com/articles/wizards-data-insanity from 2017 mentions that Wizards has controlled this kind of data more and more so I'm not very hopeful.
+
+A:
+
+I went and checked all the published data on wizards website and confirmed what you saw with your example and the following is all that is published.
+
+top 8 full lists e.g.:
+https://magic.wizards.com/en/events/coverage/ptgrn/top-8-decklists-2018-11-10
+archetype percentages, e.g.
+https://magic.wizards.com/en/events/coverage/ptgrn/3-0-drafts-day-1-2018-11-09
+
+now this doesn't prevent you from ocring the frame by frame of the live matches to get all played cards [ with something like Googles vision api ] and then making your data set for which cards played in a match most often caused the deck to win. Unfortunately this is the only current way , I could find, to get win data for all decks in the tournament outside of the top 8
+In response to your second question there is no established format by wizards for this information as they don't publish a public api for there data.
+

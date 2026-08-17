@@ -1,0 +1,25 @@
+Q:
+
+What does the game consider being the same instance of a card?
+
+I control one Synod Sanctum, exile some permanents with it, and then my opponent destroys it without me being able to use its returning ability.
+If I later on draw another Synod Sanctum, can I return to the battlefield the cards exiled by the first one?
+The wording is:
+
+Return all cards exiled with Synod Sanctum to the battlefield under your control.
+
+What if I get the same Synod Sanctum back with Trash for Treasure? It's the same physical card back on the battlefield. Does the game consider it's the same instance or a different one?
+
+A:
+
+You can not return the exiled cards once the Synod Sanctum that exiled them has left the battlefield.
+When a card refers to itself by name it is referring only to that object, and not other objects with the same name. As stated in the Comprehensive Rules:
+
+201.4.: Text that refers to the object it’s on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
+
+When a permanent leaves the battlefield it ceases to be the same object and the game "forgets" the linked cards. There are a couple exceptions (400.7a-f) but Synod Sanctum is not one of them.
+
+400.7.: An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Keep in mind this means that if the Synod Sanctum changes zones for any reason (it gets returned to your hand or even flickered with a Ghostly Flicker type effect) it will be treated as a new object and your exiled cards will no longer be reachable.
+

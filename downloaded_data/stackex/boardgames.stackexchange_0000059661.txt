@@ -1,0 +1,32 @@
+Q:
+
+Path of Mettle and Aragorn, Hornburg Hero
+
+I was wondering, if Path of Mettle transformed into the "Tower-side" if I controlled Aragorn, Hornburg Hero and attacked with at least two creatures.
+Walking this through step by step is like:
+
+in the declare attackers step I declare at least two creatures to attack an opponent
+Once I'm done declaring attackers, those gain First Strike and Renown as a state based action, since Aragorn has a static ability, and no triggered ability (e.g. "whenever a creature you control attacks, it gains")
+After statebased actions are checked, the active player gains priority and triggered abilities are put on the stack. Since I control two attacking creatures with First Strike, the transform-trigger of Path of Mettle is placed on the stack
+
+Does this play out as described, or did I go wrong?
+
+A:
+
+Yes, Path of Mettle will transform. It's pretty tricky though.
+
+508.1. First, the active player declares attackers.
+
+508.1a The active player chooses which creatures that they control, if any, will attack.
+508.1k Each chosen creature still controlled by the active player becomes an attacking creature.
+
+In your case, "becomes an attacking creature" may as well read "gains first strike" due to the continuous ability.
+
+508.1m Any abilities that trigger on attackers being declared trigger.
+
+The entire process is referred to as "declaring an attacker". That means that this rule:
+
+508.2a Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature’s characteristics change to match the ability’s trigger condition.
+
+refers to the point when you have completed all of 508.1. I believe if that rule said "only at the point the creature is chosen as an attacker" instead, then the ruling would be the opposite; because it would mean that the creature would have to fulfil the condition when you get to 508.1a, instead of just when you get to the end of 508.1.
+

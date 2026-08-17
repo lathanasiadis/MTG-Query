@@ -1,0 +1,26 @@
+Q:
+
+Does a discarded then cast card with madness count as discarded?
+
+Play goes like this:
+I have Faith of the Devoted and Anje Falkenrath on the field.
+
+I discard an Anje's Ravager via Anje Falkenrath's tap ability.
+For this creature I pay its madness cost and place it on the field.
+
+Does Faith of the Devoted's ability trigger?
+What confuses me is what this page on the Discard keyword says:
+
+Discard is an evergreen keyword action which takes cards from a player's hand and puts them in their graveyard.
+
+But the fact is that a creature with madness never hits the graveyard! Instead, it goes to exile, then to the battlefield.
+So I'm not completely sure whether the discard ability on Faith of the Devoted should trigger on that.
+
+A:
+
+Yes, that still counts as discarding a card. The Madness ability is defined in 702.34a:
+
+Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player’s hand. The second is a triggered ability that functions when the first ability is applied. “Madness [cost]” means “If a player would discard this card, that player discards it, but exiles it instead of putting it into their graveyard” and “When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn’t, they put this card into their graveyard.”
+
+The card is still discarded, and the Madness ability changes where it goes.
+

@@ -1,0 +1,31 @@
+Q:
+
+How does Hour of Devastation's Neheb the Eternal work with extra combat & main phases?
+
+Earlier today @Wizards_MagicEU revealed Neheb, the Eternal. This is a creature card which reads:
+
+At the beginning of your postcombat main phase, add {R} to your mana pool for each 1 life your opponents have lost this turn.
+
+Cards like World at War, Waves of Aggression and Relentless Assault create additional combat phases and main phases which make the turn structure look more like this (assuming you cast just one of them):
+
+Main phase
+Combat phase
+Main phase
+Combat phase
+Main phase
+
+Let's assume in every Combat phase, I make my opponents lose some life.
+How does Neheb, the Eternal's ability function in this structure? When does he trigger and how much mana does he add each time? I think he'd trigger in every main phase but the first and add a cumulative amount of mana each time; is that accurate?
+
+A:
+
+Any Main Phase that follows a Combat phase is a "Postcombat Main Phase".
+
+505.1a Only the first main phase of the turn is a precombat main phase. All other main phases are postcombat main phases. This includes
+  the second main phase of a turn in which the combat phase has been
+  skipped. It is also true of a turn in which an effect has caused an
+  additional combat phase and an additional main phase to be created.
+
+So Nehab, The Eternal will trigger for each Main Phase that is not the First Main Phase.
+It's also worth noting that the mana added is based on cumulative life lost by opponents during this turn. Any life lost prior to this triggered ability's resolution adds {R} to the mana added to your mana pool.
+

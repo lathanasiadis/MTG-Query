@@ -1,0 +1,19 @@
+Q:
+
+What does protection from [quality] do?
+
+Example 1) Let's say I have some random creature with protection from white, and my opponent plays Day of Judgment, a white card with the effect "Destroy all creatures." Can my creature with protection from white be destroyed by a white card that isn't actually targeting it specifically?
+Example 2) I was playing a match with a friend where I had Elite Inquisitor on the field against his 3 zombies. Is he able to declare his zombies as blockers even though Elite Inquisitor has "protection" from zombies?  If he can declare them as blockers, does protection mean that no damage is dealt by the zombies to  Elite Inquisitor?
+
+A:
+
+Yes, Day of Judgement will destroy a creature with Protection from White. 
+(from AlexP) No, Elite Inquisitor cannot be blocked by Zombies. Elite Inquisitor can, block Zombies normally. If a Zombie would assign combat damage to him, it is prevented and he takes no damage instead.
+Protection from {quality}, grants four different things that can be easily remembered from the acronym, DEBT. 
+Creatures with Protection from {quality} cannot be:
+
+D amaged, by sources with that quality (the damage is prevented).
+E nchanted / E quipped / Fortified, by cards with that quality.
+B locked, by creatures with that quality.
+T argeted, by spells or abilities from sources with that quality.
+

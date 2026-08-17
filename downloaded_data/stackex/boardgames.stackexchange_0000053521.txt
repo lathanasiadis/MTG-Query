@@ -1,0 +1,21 @@
+Q:
+
+Is Ashaya still a land while enchanted with Kenrith's Transformation?
+
+Ashaya, Soul of the Wild has a static ability that turns all of your creatures into Forest lands.  Kenrith's Transformation turns enchanted creature into a 3/3 Elk creature with no abilities.
+My Ashaya has been enchanted with Kenrith's Transformation.
+Because type setting is in Layer 4 and ability removal is in Layer 6, Ashaya still turns all my creatures into forests despite losing their abilities.  However, Ashaya itself is being affected by two type-changing abilities - their own which turns them into a land, and Kenrith's which turns them into an Elk creature.
+I would expect that the end result is that Ashaya's type line would read: "Legendary Creature - Elk".  But in the Arena game I just played, Ashaya's type line read "Legendary Creature Land - Elk Forest"
+Which is correct?
+
+A:
+
+You are right, Ashaya should not have the Land type in this situation.
+When to effects are in the same layer, as the type changing effects are here, there are two ways that the order can be determined: dependencies, or timestamps if there are no dependencies.
+The criteria for a dependency are defined in rule 613.8a:
+
+An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect; (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+This pair of abilities fails test b: Ashaya's effect only applies to creature permanents, and Kenrith's Transformation doesn't change whether Ashaya is a creature, so Ashaya's effect does not depend on Kenrith's Transformation's. On the other side, Kenrith's Transformation's effect is applied unconditionally to the creature it is attached to, so Kenrith's Transformation's effect does not depend on Ashaya's.
+Since there is no dependency, timestamp order is used instead. Ashaya must have entered the battlefield before Kenrith's Transformation became attached to it, so Ashaya has the earlier timestamp. This means that Ashaya's ability is applied first, adding the Land type, then Kenrith's Transformation is applied, removing the Land type. The result is that Ashaya does not have the Land type.
+

@@ -1,0 +1,28 @@
+Q:
+
+Pyxis of Pandemonium and 'enters the battlefield' abilities
+
+My question about Pyxis of Pandemonium is:
+When all of the cards are finally turned face up, what determines the order in which their "when X enters the battlefield..." effects resolve?
+
+A:
+
+First the active player (the player whose turn it is, regardless of who activated the Pyxis) puts all of the triggered abilities they control on the stack, then each other person in priority order does the same. When all players are done putting their triggered abilities on the stack, the active player gets priority. When each player has multiple "enters the battlefield" triggers, they get to choose the order as their set of triggers goes on the stack.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered
+  abilities he or she controls on the stack in any order he or she
+  chooses. (See rule 101.4.) Then the game once again checks for and
+  resolves state
+  - based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats
+  until no new state
+  - based actions are performed and no abilities trigger. Then the appropriate player gets priority
+
+Information about APNAP (emphasis mine):
+
+101.4. If multiple players would make choice s and/or take actions at the same time, the active player (the player whose turn it is) makes
+  any choices required, then the next player in turn order (usually the
+  player seated to the active player’s left) makes any choices required,
+  followed by the remaining nonactive players in turn order. Then the
+  actions happen simultaneously. This rule is often referred to as the
+  “Active Player, Nonactive Player (APNAP) order” rule.
+

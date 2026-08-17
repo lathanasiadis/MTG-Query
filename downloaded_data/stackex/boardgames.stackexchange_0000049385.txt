@@ -1,0 +1,15 @@
+Q:
+
+Hardened Scales + Champion of Lambholt + Token Generator
+
+Champion of Lambholt: Gets a +1/+1 counter whenever a creature enters the battlefield.
+Hardened Scales: Whenever 1 or more counters are put on a creature, put one more of those counters on that creature.
+Gather the Townsfolk: Put two 1/1 human tokens on the battlefield.
+
+If I play Gather the Townsfolk, does Champion get 3 counters or 4?
+
+A:
+
+Four.
+When the two tokens enter the battlefield, Champion of Lambholt's triggered ability triggers twice. It will be placed on the stack twice. When the topmost instance resolves, it would add a +1/+1 counter to Champion of Lambholt. Instead, it adds one extra, so two. When the other instance resolves, it will also add two, so a total of 4 +1/+1 counters are added to Champion of Lambholt.
+

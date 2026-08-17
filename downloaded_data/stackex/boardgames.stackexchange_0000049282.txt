@@ -1,0 +1,27 @@
+Q:
+
+Can Veil of Summer force an opponent to target their own creatures with Swift End when Lucky Clover is on the battlefield?
+
+Let's say my opponent has Lucky Clover in play. This card has the text:
+
+Whenever you cast an Adventure instant or sorcery spell, copy it. You may choose new targets for the copy.
+
+Opponent targets my creature with Swift End (which is the adventure side of Murderous Rider). Here's my picture of what happens:
+
+Opponent casts Swift End having chosen a target.
+Lucky Clover triggers.
+In response to the Lucky Clover trigger, I cast Veil of Summer.
+Veil resolves, which draws me a card and turns all my permanents hexproof.
+Lucky Clover trigger finishes resolving. Now there's another Swift End on the stack, and opponent has to choose their own creature/planeswalker, since all my permanents are hexproof.
+Opponent's creature dies, opponent takes 2 damage (from Swift End's effect), the original Swift End is countered, and the Murderous Rider ends up in the graveyard.
+
+Is this correct? I vaguely remember this not working out when I tried it on Arena, but I don't remember the precise sequence. If this is correct, it's possible I mistakenly let the Lucky Clover trigger resolve first, after which I won't be able to force my opponent to kill their own creature anymore.
+
+A:
+
+Lucky Clover's trigger is not optional, your opponent has to copy Swift End. But they don't have to choose new targets, even if the original target has become invalid by the time they copy it.
+
+115.7d If an effect allows a player to “choose new targets” for a spell or ability, the player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal and must not cause any unchanged targets to become illegal.
+
+If they don't choose new targets, the copy will not resolve (because its only target is illegal) and they won't lose 2 life from it.
+

@@ -1,0 +1,21 @@
+Q:
+
+Do creatures with enchantments on them keep the enchantments if they return to the battlefield from the graveyard?
+
+Do creatures with enchantments on them keep the enchantments if they return to the battlefield from the graveyard?
+If a creature is sent to the graveyard from the battlefield, and has an enchantment aura on it when it does, if I were to play a card that allowed me to return a creature from the graveyard to the battlefield, would it return with the enchantments that it had on it when it went to the graveyard?
+
+A:
+
+No, nothing like that happens. Once the creature is in the graveyard, it's no longer associated with the aura in any way.
+When the creature dies, the aura is sent to the graveyard as a state-based action (i.e. the next time a player would gain priority):
+
+704.5n If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+And the creature card and enchantment card in the graveyard don't know they were ever associated:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are eight exceptions to this rule:
+[...exceptions that don't apply here...]
+
+So if you return the creature to the battlefield, it's yet again an entirely new creature, nothing to do with the aura that was once attached to that creature card.
+

@@ -1,0 +1,22 @@
+Q:
+
+Will this bounce work?
+
+Here is my problem:
+I made a really awesome Animar EDH deck and one of my infinite combos involves Animar, Soul of elements with 4 +1/+1 counters on it. This will allow me to summon Pierce Strider for free. I would then use Cloudstone Curio's ability in order to bounce back pierce strider back into my hand and virtually allow me to cause 4 points of damage to my opponent infinitely!
+Can this combo actually WORK!? It says on cloudstone curio that
+
+"Whenever a nonartifact permanent enters the battlefield under
+your control, you may return another permanent you control that shares
+a permanent type with it to its owner's hand"
+
+and pierce strider is an artifact but is also a creature. So will this work?
+
+A:
+
+Your combo will not work for two reasons.
+Cloudstone Curio never triggers.
+Cloudstone Curio triggers when a nonartifact permanent enters the battlefield. Pierce Strider is an artifact, and so it will not cause Cloudstone Curio to trigger.
+You must choose another permanent.
+Cloudstone Curio says you may return another permanent. "Another" in this case means "not the thing that caused the trigger".
+

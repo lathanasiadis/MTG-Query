@@ -1,0 +1,26 @@
+Q:
+
+Can I use a card with "Add one mana of any color to your mana pool" in any Elder Dragon Highlander (EDH) deck?
+
+I recently tried Elder Dragon Highlander/Commander, and found it to be a ton of fun.  I've started customizing one of the pre-cons I got, but I'm a little confused by some of the deck-building requirements.
+According to the deck-building rules:
+
+A card's color identity is its color plus the color of any mana symbols in the card's rules text. A card's color identity is established before the game begins, and cannot be changed by game effects.
+Cards in a deck may not have any colors in their identity which are not shared with the commander of the deck. (The identity of each card in the deck must be a subset of the General's) 
+
+If I'm using Animar, Soul of the Elements as my general, my deck's identity is Red, Blue and Green.  I couldn't use Crumbling Necropolis in my deck, because it has a black mana symbol in the rules text.
+My question is:  can I add a card to my deck that has the phrase "Add one mana of any color to your mana pool" (such as Mox Opal or Ancient Ziggurat)?  Even though those cards could conceivably add black mana to my mana pool, they don't have a black or white (or any for that matter) mana symbol in their rules text, so they would be valid for inclusion in any deck?
+
+A:
+
+The text file found on the page you linked to with Commander info has a better description of the rules that clears this up. The important parts:
+
+A card can't be included in your deck if any mana symbol in its mana
+  cost or rules text is a color not in your commander's color identity.
+  A card also can't be included in your deck if it has a
+  characteristic-defining ability defining it to be a color not in your
+  commander's color identity.
+
+The cards don't have mana symbols, so you are good on that front. Yes, you could include those cards.
+As of a January 18, 2016 change to rule 4, you can now use those cards to add any colour of mana to your mana pool, including Black & White mana if you're using Animar, Soul of Elements who has neither in its identity. Historically, if you tried to add a colour of mana to your pool that wasn't in your commander's identity, it would just add colourless mana instead.
+

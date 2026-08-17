@@ -1,0 +1,12 @@
+Q:
+
+Does Rally the Righteous affect heroic?
+
+I found Rally the Righteous, and I'm wondering: are the creatures (after the first) being targeted to untap and does that affect heroic creatures?
+And if I untap a multicoloured creature, like Anax and Cymede, does it effect red and white creatures or only red white creatures?
+
+A:
+
+Rally the Righteous only targets one creature, and so it'll only trigger heroic on that specific creature. It says "untap target creature" — that's the one that gets targeted. It then further says "and each other creature that shares a color with it" — but it doesn't say "target" in that phrase anywhere, so you're not targeting any of those other creatures. (If it was targeting, it'd say something ike "each other target creature".)
+If you target a multicolored creature, like the spell says, it'll affect any creature that shares any color with the one you untap. If you untap a red/white creature, you'll untap red creatures, white creatures, red/white creatures, red/blue, white/black, etc etc — because all of those have a color of at least red or white.
+

@@ -1,0 +1,24 @@
+Q:
+
+What is "finding a card" while searching your library?
+
+Is there a specific order/action when searching your library?
+Opposition Agent says:
+
+Flash
+You control your opponents while they're searching their libraries.
+While an opponent is searching their library, they exile each card
+they find. You may play those cards for as long as they remain exiled,
+and you may spend mana as though it were mana of any color to cast
+them.
+
+Are they exiling only the card they are searching for or 1 card at a time till they find it?
+
+A:
+
+"Find" has a specific rules meaning in Magic, per comp rule 701.19a (emphasis mine):
+
+701.19a To search for a card in a zone, look at all cards in that zone (even if it’s a hidden zone) and find a card that matches the given description.
+
+A player only "finds" the specified number and description of cards, not the rest of the cards that they happen to encounter during the search process. Only the cards that are chosen (because you control the player, you make that choice) are exiled, and they must be cards that could normally be chosen for that particular effect.
+

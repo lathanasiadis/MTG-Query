@@ -1,0 +1,18 @@
+Q:
+
+Narset, Parter of Veils interaction with Aria of Flame
+
+If I have Narset, Parter of Veils on the battlefield on one loyalty counter and my opponent has an Aria of Flame on the battlefield, what happens if the opponent plays Faithless Looting? I know the opponent can destroy the Narset but can they draw cards with the Faithless Looting I understand it depends on if the trigger from Aria goes on the stack first or second. My guess is that they can draw cards as the trigger from Aria goes on the stack second and thus would resolve first, destroying Narset, then Faithless L resolves, allowing them to draw cards. Is this correct? Thanks in advance.
+
+A:
+
+You have it correct, they will be allowed to draw cards.
+The specific order is:
+
+Opponent casts Faithless Looting... that casting process looks completely normal and doesn't interact with Narset at all.
+Aria of Flame's ability triggers, going on the stack on top of Faithless Looting
+Aria of Flame's ability resolves, dealing damage to Narset
+Narset goes to the graveyard due to having 0 loyalty counters
+Faithless Looting resolves
+Faithless Looting acts completely normally, because Narset is not around.
+

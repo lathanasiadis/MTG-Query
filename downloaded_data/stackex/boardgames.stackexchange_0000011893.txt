@@ -1,0 +1,15 @@
+Q:
+
+Will Counterbalance counter storm copies?
+
+Counterbalance allows you to reveal the top card of your library whenever a spell is played, and counter it if the revealed card has the same mana cost.
+If an opponent has cast several spells to ramp up to casting Tendrils of Agony, and I have Helm of Obedience on top of my library, do I get to counter all of the storm copies?
+
+A:
+
+No, Counterbalance only counters the original Storm spell.
+
+706.10. To copy a spell or activated ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. [...]
+
+Since the copies are not cast, Counterbalance never triggers for them.
+

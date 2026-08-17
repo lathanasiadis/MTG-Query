@@ -1,0 +1,18 @@
+Q:
+
+Instants - are the creatures blocked or not?
+
+Player A attacks with two creatures. Player B plays the instant card Give No Ground on a creature and blocks two attacking creatures. Player A then plays the instant Disperse.
+Are those two creatures blocked or not?
+
+A:
+
+It depends on when player A casts disperse.  
+If player B said "I cast Give No Ground and block the two creatures",  player A could say either 
+
+"In response to the cast"
+"after it resolves but before blockers"
+
+and cast Disperse and both creatures would be unblocked. 
+Otherwise, if B actually gets to declare blockers, the creatures will remain blocked. 
+

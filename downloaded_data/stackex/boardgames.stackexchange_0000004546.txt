@@ -1,0 +1,27 @@
+Q:
+
+How does regeneration work in Magic the Gathering?
+
+How does regeneration work?
+I know that if my creature is destroyed then I can spend X mana then tap my creature and move it out of combat. Is it attackable in any way after that? With spells or instants?
+If someone for example casts Shock on my Manor Skeleton, can I say in response “Ok, I will spend 2 mana to regenerate it”? Or does Shock immediately resolve to destroy the creature (assuming it has no regeneration shield on it)?
+
+A:
+
+A creature is destroyed when a resolved spell or effect says so (destruction by effect), or when the total damage it received this turn from anywhere is equal to or greater than its current toughness (destruction by game rules).
+At any time you can regenerate a creature with an appropriate spell or effect. The only condition is that the regeneration has to happen before the destruction effect. You can regenerate a creature as often as you like, anytime. For each time you regenerate it, the creature gets a "regeneration shield" that lasts until the turn ends or until it is used up by a destruction effect, whatever happens first. If a destruction event would happen and the creature has a "regeneration shield" active, the following things happen:
+
+One of those shields is removed
+All damage received by the creature this turn is removed
+If a destruction effect caused the event to trigger, it resolves but has no effect
+The creature gets tapped (Note that this is an effect of regeneration. The creature does not have to be untapped to regenerate it)
+The creature gets removed from combat, if it was regenerated during combat
+
+Note that certain spells or effects state something like "Destroy target creature. It can't be regenerated.". In that case, you can still respond with a regeneration shield, but the regeneration effect is ignored and the creature still gets destroyed.
+
+Is it attackable in any way after that? With spells or instants?
+
+"Attack" has a defined meaning in M:TG: You attack with creatures only, during a combat phase. The only valid targets for an attack are opposing players and Planeswalkers.
+The correct term to use for spells and effects is "target", if it is a targeted spell or effect.
+And yes, regeneration provides no further protection from multiple damage sources or spells/effects. You can, as stated above, provide multiple regeneration shields, so as long as you can pay the costs, you can regenerate as often as you want.
+

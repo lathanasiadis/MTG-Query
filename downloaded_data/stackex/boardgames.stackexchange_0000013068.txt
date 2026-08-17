@@ -1,0 +1,18 @@
+Q:
+
+How to resolve illegal targeting that was allowed?
+
+I was recently playing Theros, and the set being new, was not familiar with the cards I was playing. Here is the situation that arose:
+I had a Stormbreath Dragon out beating face, when my opponent played Chained to the Rocks, targeting my dragon. I, at the time, have forgotten that my dragon has protection from white (and so can't be targeted by Chained to the Rocks), and allow it to be exiled. A couple turns later, I remember about the protection from white.
+What is the correct way to resolve this situation? Would the resolution be different if my dragon had not been exiled and instead enchanted by a card such as Pacifism?
+(Note: this took place in a limited pre-release tournament, not in a casual game)
+
+A:
+
+The correct answer (since this appeared in a tournament setting) is to call a judge as soon as you notice. 
+The judge is likely to act according to section 2.5 Game Play Error
+— Game Rule Violation of this pdf: http://www.wizards.com/contentresources/wizards/wpn/main/documents/magic_the_gathering_infraction_procedure_guide_pdf2.pdf
+If the error is discovered in a reasonable time frame one possibility outlined is a rollback of the game state. 
+If the error is not discovered in a reasonable time frame (likely you scenario as a couple turns have passed) the judge can leave the game in its current state after resolving state based actions.
+From my interpretation of the pdf, your dragon remains exiled in the Chained to the Rocks example, but in the pacifism example the pacifism would be removed.
+

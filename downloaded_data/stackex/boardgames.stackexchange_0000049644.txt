@@ -1,0 +1,45 @@
+Q:
+
+Q:Who is to activate Singing Bell Strike's ability? Who controls this Aura?
+
+Singing Bell Strike is, in my opinion, a really peculiar Aura, from the point of view of ruling's exceptions.  
+While the controller of the Aura remains the one who cast it, it is also true that the ability granted to the enchanted creature can be activated by the creature's controller only.  
+What happens, then, if after casting Singing Bell on an opponent's creature, I cast River's Rebuke, choosing the opponent controlling a creature enchanted by Singing Bell
+
+Singing Bell Strike returns to its owner's hand
+Singing Bell Strike goes to the graveyard
+
+Although i think the correct answer is 2,I question it just the same because it is not easy to entangle like others. This question is different from others, in the way that a beginner may do not understand that paying the activation cost of an Aura placed on an opponent's creature does not mean that the Aura's controller is the opponent itself.
+ There is a point in the rule 303.4e :
+-"Only the Aura’s controller can activate its abilities" -
+that can be read in ways that lead to bad interpretations of this situation, and this in my opinion should be clarified.
+
+A:
+
+Your opponent controls their creature, you control your Aura. If you cast River's Rebuke, their creature will leave the play field, and your Aura will go to the graveyard as a state-based effect:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+In most respects, Singing Bell Strike isn't that much different than, say, Pacifism. If you played the Aura, you control it, no matter who controls the enchanted creature:
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn’t change control of the Aura, and vice versa.
+
+The rule then goes on to distinguish between two types of abilities:
+
+Only the Aura’s controller can activate its abilities. However, if the Aura grants an ability to the enchanted object (with “gains” or “has”), the enchanted object’s controller is the only one who can activate that ability.
+
+So activated abilities on the Aura itself (like the activated abilities on Keldon Mantle) can only be activated by the Aura's controller.
+Other Auras, however, give an activated ability to the enchanted creature. If you want, think of this as adding text to the rules box of the creature:
+
+Singing Bell Strike gives 6: Untap this creature to the enchanted creature
+Burning Anger gives [T] This creature deals damage equal to its power to any target. to the enchanted creature
+
+Check out the difference in wording between Dragon Breath vs Dragon Mantle:
+ 
+If you play either on your own creature, then their "pump" +1/+0 abilities work (pretty much) the same. But if you play them on your opponent's creature (or, more likely, if you play it on your own creature, then your opponent gains control of your creature with the enchantment already attached), they work differently. For Dragon Breath, only the controller of the Aura can pay to pump up the creature. For Dragon Mantle, only the controller of the creature can pay to pump it up.
+I even found a single card with an example of each. Check out Ocular Halo:
+
+If your Ocular Halo ends up on your opponent's creature, then only they can tap the creature to draw a card, and only you can give it vigilance.
+To emphasize something I alluded to above: it's unlikely you would want to play some of these Auras on your opponent's creatures (because you don't want to help them), this situation can also arise when you've already enchanted your own creature, and your opponent takes control of the creature (with Control Magic or something similar). Even though they've taken control of the creature, they have not taken control of the Aura attached to it, so this distinction is important.
+So per your original question, this ability discussion doesn't change the controller of the Aura or the creature, so if all your opponent's permanents leave play, your aura will be left enchanting nothing, and will go to the graveyard.
+

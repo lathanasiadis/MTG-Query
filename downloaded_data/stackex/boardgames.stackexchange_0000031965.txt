@@ -1,0 +1,24 @@
+Q:
+
+MTG question about stack/effect resolving
+
+Lets say my opponent have Zada, Hedron Grinder in play. Then proceeds to use instant spell that target Zada to trigger its effect. Then i play Stasis Snare in response to his instant spell. Does Zada, Hedron Grinder still resolves even if my Stasis Snare resolves first by exiling Zada? If its effect still resolves, how do you prevent Zada from using its ability if i have the instant removal (stasis snare, lightning axe, grasp of darkness etc...) in my hand that can be played in response ?
+
+A:
+
+What happens:
+
+Your opponent casts The Instant targetting Zada. The Instant goes to the stack.
+Zada's ability triggers and goes to the stack.
+You cast Stasis Snare. Stasis Snare goes to the stack.
+(I assume at this point you're both passing priorities until the whole stack resolves)
+Stasis Snare resolves and enters the battlefield. It's ability triggers and goes to the stack.
+Stasis Snare's ability resolves and exiles Zada.
+Zada's ability resolves and creates copies of The Instant on the stack.
+The copies of The Instant resolve, one by one.
+The (original) Instant looks around to see if it's targets are still legal. They're not as Zada is not on the battlefield. The (original) Instant is countered by the game rules (and is put into the graveyard without resolving, as usual with countered spells).
+
+As for the second question:
+Once Zada's on the battlefield, removal won't allow you to counter it's ability.
+Some other effects might, like "counter all spells" which will also counter the created copies.
+

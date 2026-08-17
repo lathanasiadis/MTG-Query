@@ -1,0 +1,27 @@
+Q:
+
+How do Aether Rift and Library of Leng interact?
+
+Let me give you a run down of the board state.
+I had an Elderscale Wurm enchanted with Canopy Cover on the battlefield. Damage could not reduce my life total below 7.
+My opponent had Forgestoker Dragon on the battlefield and a lot of other, smaller creatures. He could pay to kill any other creature that came out on the battlefield, but had no effects in his deck to deal with Elderscale Wurm nor Canopy Cover.
+Similarly I had no way to deal with his dragon, and if I attacked with my Elderscale Wurm it would die, and I would lose to his horde.
+But, I had one more card in my library than he did, so we assumed I would eventually win until we looked at the other two cards my opponent had on the battlefield- Aether Rift and Library of Leng.
+Aether Rift says:
+
+Enchantment
+At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life.
+
+Library of Leng says:
+
+Artifact
+You have no maximum hand size. If an effect causes you to discard a card, discard it, but you may put it on top of your library instead of into your graveyard.
+
+My opponent only had creatures in his hand. He wanted to use the interaction between these two cards to randomly discard a card, not pay 5 life,(I could not pay the 5 life cost because it would bring me below 7 life, negating Elderscale Wurm's effect) and have it go back to the top of his library, so that he would have 1 more card than I did, thus I would mill out before he did.
+Is that how this interaction works?
+
+A:
+
+He would be able to put a card on top of his library in order to not lose, but not quite the way you are thinking it works.
+What happens is a the beginning of your opponent's upkeep Aether Rift's ability goes on the stack, and when it resolves they discard a card at random. when the card gets discarded Library of Leng's replacement effect occurs allowing your opponent to put the card on top of their library. If they chose to put the card on top of their library the rest of Aether Rift's ability doesn't apply since as far as the game knows a creature card was never discarded (a card was discarded if anything else cares about that, but nothing is known about that card, including its type [CR 701.7c]). Your opponent will then draw the card they just "discarded" at the beginning of their draw step. They can keep repeating this process until you run out of cards in your library.
+

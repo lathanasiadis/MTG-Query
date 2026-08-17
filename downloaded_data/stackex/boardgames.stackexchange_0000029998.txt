@@ -1,0 +1,27 @@
+Q:
+
+Anger of the Gods and totem armor
+
+When my friend has totem armor on a creature and I use Anger of the Gods, what happens? They are both replacement effects but which is applied first?
+
+A:
+
+The creature will not die or be exiled, and instead the aura with Totem Armor will be destroyed.
+Anger of the Gods says
+
+Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
+
+And Totem Armor is an ability defined in rule 702.88a:
+
+Totem armor is a static ability that appears on some Auras. “Totem armor” means “If enchanted permanent would be destroyed, instead remove all damage marked on it and destroy this Aura.”
+
+Importantly, Anger of the Gods replaces a creature dying, and Totem Armor replaces a creature being destroyed. These are very similar, but not the same. Dying is defined in rule 700.4:
+
+The term dies means “is put into a graveyard from the battlefield.”
+
+And Destroy is a keyword action defined in rule 701.6a:
+
+To destroy a permanent, move it from the battlefield to its owner’s graveyard.
+
+In other words, destruction is an action that causes a permanent to go to the graveyard, and dying is the event of a permanent moving to the graveyard. By my reading, this means that destruction causes dying, so destruction happens first Therefore, the Totem Armor replacement would apply first and save the creature, and we never get to the point where the creature would die and the Anger of the Gods replacement would apply.
+

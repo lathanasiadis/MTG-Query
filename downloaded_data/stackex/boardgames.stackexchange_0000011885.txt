@@ -1,0 +1,31 @@
+Q:
+
+Does Thrumming Stone ripple after ripple
+
+The card Thrumming Stone says:
+
+Spells you cast have ripple 4. (Whenever you cast a spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as the spell without paying their mana costs. Put the rest on the bottom of your library.)
+
+Does this mean then when I cast a spell (e.g. Relentless Rats):
+I look at the top 4 cards which contains a Relentless rat,
+I cast this card and then ripple again?
+And if I find two rats in one ripple does this mean I can look at my next 8 cards?
+
+A:
+
+It does work like that.  That's part of the point of Ripple... if your deck is built correctly, you can just keep on Rippling all the way through it.
+This ruling on Thrumming Stone in Gatherer may be instructive:
+
+If you cast a spell that already has ripple (such as Surging Flame,
+  which has ripple 4) while Thrumming Stone is on the battlefield, both
+  ripple abilities will trigger separately. Assuming you choose to do
+  all "you may" actions, when the first instance of ripple resolves, you
+  reveal the top four cards of your library, cast all Surging Flames,
+  and put the rest of the cards on the bottom of your library. Any new
+  Surging Flames are on the stack on top of the other instance of
+  ripple, so they'll resolve next. Each of them also has two instances
+  of ripple, which trigger separately, and the process continues until
+  the ripple abilities don't reveal any Surging Flames.
+
+As you can see, each new copy of Surging Flames has not one but two instances of Ripple (one granted by Thrumming Stone) which resolve.  Ripple keeps on going until there's nothing with Ripple left to cast.
+

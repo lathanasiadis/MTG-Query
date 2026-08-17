@@ -1,0 +1,35 @@
+Q:
+
+Can I cast spells right before the end of my opponent's second main phase?
+
+It is a known strategy in MTG to wait until the last moment to use some instants, and it's common to see the following:
+
+My opponent: "Ok, I'm done, your turn."
+Me: "Wait. On your end step, I cast X."
+
+But in some rare situations, I might want to play something right before my opponent's end step begins (perhaps because there is some effect that triggers at the beginning of the end step, and I want to play something before that triggers - see the first item in this blog post for a real example).
+Main question: Can I do the following?
+
+My opponent: "Ok, I'm done, your turn."
+Me: "Wait. On your second main phase, I cast X."
+
+Or must I guess that he is about to end his second main phase and play it in response to some sorcery or something else that he is doing in his second main phase?
+Also, it is not unusual for a player to complete their combat phase and immediately say "Ok, your turn", effectively skipping their second main phase entirely. In this case, can I still do something in his second main phase?
+Note: from the blog post linked above, apparently the answer is yes, but that wasn't stated explicitly and does not seem obvious to me. I know a bit about priority but I'm not sure if players must pass priority around to end their second main phases, for example.
+Bonus question: I'm pretty sure that, if what I'm asking is possible, most likely my opponent will still be able to continue his second main phase, possibly casting sorcery-speed things, right? Or is there a clever way to do this "right before the second main phase ends" in a way that it ends immediately after, without giving him a chance to cast other sorceries? (I doubt that though, just asking for the sake of completeness)
+
+A:
+
+Yes, you will always have a chance to play you spells and abilities at the end of each step and phase where players get priority, including the post-combat main phase. If you do, you can't prevent your opponent from continuing his main phase after your spell.
+A step or phase when players get priority ends if and only if the stack is empty and every player in turn order has passed priority. Since you want to play your spell during your opponent's turn, he will have to pass first, which gives you priority and the opportunity to cast your spell.
+If your opponent passes priority and you cast a spell or activate an ability, when you are done doing that, priority will pass back to your opponent, allowing him to continue his main phase with everything that involved, including casting sorceries. That's because not every player has passed priority in succession.
+
+500.1. A turn consists of five phases, in this order: beginning, precombat main, combat, postcombat main, and ending. Each of these phases takes place every turn, even if nothing happens during the phase. The beginning, combat, and ending phases are further broken down into steps, which proceed in order.
+500.2. A phase or step in which players receive priority ends when the stack is empty and all players pass in succession. Simply having the stack become empty doesn’t cause such a phase or step to end; all players have to pass in succession with the stack empty. Because of this, each player gets a chance to add new things to the stack before that phase or step ends.
+
+Also note that if your opponent says "your turn" or something similar, what he's really doing is proposing a shortcut to the end of his turn, i.e. that both players pass priority and do nothing until the beginning of your turn. You are not obliged to accept that shortcut, and regardless of agreed-upon shortcuts, all steps and phases happen every turn, even if nothing happens during them.
+
+500.1. A turn consists of five phases, in this order: beginning, precombat main, combat, postcombat main, and ending. Each of these phases takes place every turn, even if nothing happens during the phase. [..]
+720.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. [..]
+720.2b Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where they will make a game choice that’s different than what’s been proposed. [..]
+

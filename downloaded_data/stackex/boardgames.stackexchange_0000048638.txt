@@ -1,0 +1,27 @@
+Q:
+
+Can Feather bring back a spell with Jump-Start?
+
+Jump-Start is a keyword ability that allows a card to be cast from the graveyard, and then exiled afterwards. (For example, Maximize Velocity.) According to the Comprehensive Rules, the exact wording of the cast-then-exile effect is "[i]f this spell was cast using its jump-start ability, exile this card instead of putting it anywhere else any time it would leave the stack."
+If I cast a spell using Jump-Start while Feather, the Redeemed is in play, can I use Feather's ability to bring the card back into my hand (at the next end step) after casting it?
+On the one hand, both Feather's effect and Jump-Start's effect are replacements that apply when the spell leaves the stack, which makes me think I can choose which applies.
+On the other hand, Jump-Start's replacement exiles it instead of putting it anywhere else, not just the graveyard—so could it then replace Feather's replacement, exiling it anyway?
+
+A:
+
+Yes, Feather's ability can return jump-started spells to your hand.
+Feather's effect is a replacement effect. When an eligible spell would be put into your graveyard as part of its resolution, you may exile it instead and return it to your hand at the end of turn. 
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+
+The exile part of jump-start spells is also a replacement effect that affects where the card goes after resolving:
+
+702.132a Jump-start appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player’s graveyard and another that functions while the card is on the stack. “Jump-start” means “You may cast this card from your graveyard by discarding a card as an additional cost to cast it” and “If this spell was cast using its jump-start ability, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its jump-start ability follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+Your example of Chemister's Insight is a bad one, because it wouldn't be eligible for Feather anyway, since it doesn't target a creature. Maximize Velocity would be an appropriate example.
+As you can see from cards with Jump-Start, they fit the definition of replacement effects, and the following rule applies:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+Therefore, you can choose to exile a jump-started with Feather so it returns, or exile it through Jump-Start so it won't return.
+

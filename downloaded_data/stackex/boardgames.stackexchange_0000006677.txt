@@ -1,0 +1,38 @@
+Q:
+
+Would Brink of Disaster destroy an already tapped permanent?
+
+I'm aware this is very much like this question, but that question's answer does not answer my question.
+Brink of Disaster reads:
+
+Enchant creature or land.
+  When enchanted permanent becomes tapped, destroy it.
+
+What happens if the enchanted creature is already tapped when Brink of Disaster is played? Is it immediately destroyed?
+Also, what if the enchanted creature was an untapped Steel Overseer? If I tap the Steel Overseer to put a +1+1 counter on my artifact creatures, does the ability work before the Overseer is destroyed?
+
+A:
+
+It's all in the rulings:
+
+3/1/2010  Brink of Disaster may target and may enchant a permanent
+  that's already tapped. It won't do anything until the enchanted
+  permanent changes from being untapped to being tapped.
+3/1/2010  When the enchanted permanent becomes tapped, Brink of
+  Disaster's ability triggers. That permanent will be destroyed when the
+  ability resolves, even if Brink of Disaster has left the battlefield
+  or is somehow enchanting a different permanent by then.
+3/1/2010  If the enchanted permanent is tapped as a cost to activate a
+  mana ability, the mana ability resolves immediately, then Brink of
+  Disaster's ability goes on the stack.
+3/1/2010  If the enchanted permanent is tapped as a cost to activate
+  an ability that's not a mana ability, Brink of Disaster's ability will
+  go on the stack on top of that activated ability. Brink of Disaster's
+  ability resolves first (destroying that permanent), then the
+  permanent's activated ability resolves.
+
+These rulings are all clarifications that follow from the card's own rules text:
+
+"When X, do Y" is a triggered ability, meaning that the action will go on the stack after the triggering event occurs. If you tapped something to use its non-mana activated ability (like Steel Overseer's), then the effect is still on the stack when Brink's trigger goes on the stack -- on top of it.
+The trigger text is "becomes tapped". It doesn't care about the current state of the permanent, only when a specific action occurs.
+

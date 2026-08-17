@@ -1,0 +1,25 @@
+Q:
+
+Will an ability on the stack resolve if its source is removed?
+
+Player A casts and resolves Nekrataal. Nekrataal's enters-the-battlefield ability triggers and A and targets Player B's Suntail Hawk.
+In response, Player B casts Swords to Plowshares, targeting Nekrataal.
+The stack looks like this (top first):
+
+Swords to Plowshares, targeting Nekrataal.
+Nekrataal's triggered ability, targeting Suntail Hawk.
+
+Does the Suntail Hawk die?
+My thinking is mixed. If I remove the source of the triggered ability, what happens?
+
+The ability doesn't happen. Either the ability is removed from the stack when its source is removed, or the ability is removed when it tries to resolve and sees that the source isn't there.
+The triggered ability is simply an object on the stack, and it doesn't matter what happens to the Nekrataal that created it.
+
+Any help would be appreciated.
+
+A:
+
+Your Hawk will die. Once a triggered ability has triggered, it is independent from its source:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. Note that some abilities cause a source to do something (for example, “Prodigal Pyromancer deals 1 damage to target creature or player”) rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it’s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists. 
+

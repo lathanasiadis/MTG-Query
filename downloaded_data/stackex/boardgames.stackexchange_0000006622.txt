@@ -1,0 +1,13 @@
+Q:
+
+MtG: making makeshift cards for home play
+
+A friend and I got into Magic and get together to play a few games once a week. Each of us has ~110 cards, the bulk of them being a Magic 2012 intro pack, the rest boosters.
+We thought we'd mix things up a bit with booster draft or sealed deck, but since our budgets are way too limited to make a cube or buy boosters every week, I thought we could improvise. The current entirely theoretical setup is to use a simulation website for those formats every time we play, then using a home-written program assign a number to each card that is chosen for a deck. The tokens representing the cards chosen with the draft simulator could be simple sheets with numbers 1 through 100 written to them (or as many as needed), inserted into card sleeves with a colored back.
+Is there a better way to approach this, in particular the token creation?
+
+A:
+
+A sensible method is to get hold of some commons - I know "your budgets are limited", but if there's a game store that does drafting near you, quite often people just leave their commons lying around on the tables for anyone who wants them, they're that desperate to get rid of them; and even if not, there are other ways to buy them in bulk for cheap - put stickers over the text box, and use cards with like casting costs as proxies.  So if you want to represent e.g. a Primeval Titan (casting cost 4GG) you would use a Craw Wurm or Yavimaya Wurm instead.
+Otherwise it seems like you'll end up doing WAY too much cross-referencing - what was a #73 again?  The casting cost should be a useful cue for remembering which card you have in your hand, and you can write any extra information you need on the sticker of course...
+

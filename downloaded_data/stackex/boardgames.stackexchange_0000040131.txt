@@ -1,0 +1,30 @@
+Q:
+
+Can a single event trigger more than one triggered ability?
+
+Heart-Piercer Manticore has an ability that reads “When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature’s power to target creature or player.”
+If you cast two of these creature spells and then sacrificed one creature would that trigger the abilities for both creatures as they enter the battlefield?
+Second example is two permanents say the same thing; “Whenever an opponent loses life, you gain that much life.”  So would the event the opponent loses life trigger both permanents so you would gain two life , or would the event only trigger one meaning you would only gain one life?
+
+A:
+
+Yes, a single event can trigger more than one trigger, but you are misunderstanding how Heart-Piecer Manticore works.
+Your second example is a good example of this. If you have 2 Soul Wardens on the battlefield, then each one will trigger when a creature enters the battlefield, and you will gain 2 life. Or if you control 2 Bloodbriars and find a way to sacrifice a permanent, both of them will trigger and they will each get the counter. Note that while both trigger at the same time, the 2 abilities are placed on the stack separately and resolve one  at a time. 
+However, your first example is a different thing. The "when you do" in Heart-Piercer Manticore's ability is not simply “when you sacrifice a creature”, but rather it is part of the “when Heart-Piercer Manticore” enters the battlefield.” ability. When that trigger resolves, you can choose to sacrifice another creature to create another trigger to deal damage; but you are only in the middle of resolving one "enters the battlefield" trigger. 
+You can only cast creatures one at a time, and you cannot sacrifice the same creature twice.
+The sequence of events would be this:
+
+Cast Heart-Piecer Manticore.
+It resolves and enters the battlefield.
+Its ability triggers and goes on the stack. 
+Its ability resolves, and you sacrifice a creature to trigger the when you do trigger. (Or chose not to, and the ability does nothing).
+The when you do trigger resolves and you deal damage.
+Cast another Heart-Piecer Manticore. 
+It resolves and enters the battlefield.
+Its ability triggers and goes on the stack. 
+Its ability resolves, and you sacrifice a creature to trigger the when you do trigger. (Or chose not to, and the ability does nothing). The creature you sacrificed the first time is already dead, so you need to choose a different one this time. You could choose that first Manticore if you wanted. 
+The when you do trigger resolves and you deal damage.
+
+So by the time you are casting a second Manticore, it is far too late to deal with the first one's triggered ability. That will have already finished, and you will have either sacrificed a creature for damage or not. If you want to do it again, you have to sacrifice another creature. 
+Note that even if you used some other ability to place both Manticores on the battlefield at the same time, that wouldn’t matter. Each one would trigger at the same time, and you would choose the order to put the triggers on the stack. They would still then resolve one at a time, and you would have to choose to sacrifice a creature for the ability one at a time.
+

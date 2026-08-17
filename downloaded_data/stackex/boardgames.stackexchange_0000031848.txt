@@ -1,0 +1,22 @@
+Q:
+
+Infectious Curse vs. Tree of Perdition and Triskaidekaphobia
+
+This is mainly a question about APNAP order, so my opponent taps their Tree of Perdition at the beginning of their upkeep  in response to Triskaidekaphobia's triggered ability. So my question is as the non-active player can I cause Infectious Curse to activate between the tree and 13 phobia going off.
+
+A:
+
+Sounds like you already know how to figure out the answer. APNAP means active player, then non-active player. The active player's triggers go on the stack first, so they resolve last.
+I'm guessing your opponent is the one with the Triskaidekaphobia, since they're playing Tree of Perdition. If that's the case, and your opponent is playing well, then:
+
+Triskaidekaphobia's triggered ability (controlled by the active player) goes on the stack.
+Infectious Curse's ability (controlled by you, the non-active player) goes on the stack.
+Infectious Curse's ability resolves, you gain 1 life, and your opponent loses 1 life.
+Your opponent activates Tree of Perdition's ability.
+Tree of Perdition's ability resolves, and your life total is now 13.
+Triskaidekaphobia's ability resolves, and you lose.
+
+If you control the Triskaidekaphobia, both triggers are yours, and you get to choose what order they go on the stack. But still, however you stack it, your opponent can wait until Triskaidekaphobia's triggered ability is on the top of the stack, activate Tree of Perdition, and you'll lose.
+The only way you can save yourself from that is if you have an activated ability that you can choose when to activate. Infectious Curse doesn't help here, because it's a triggered ability.
+If your opponent is playing badly, sure, they might activate Tree of Perdition before Infectious Curse's ability resolves, and end up with you at 14 instead of 13 when Triskaidekaphobia's ability resolves. But that's not really something you can count on!
+

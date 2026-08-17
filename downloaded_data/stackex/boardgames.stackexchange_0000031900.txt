@@ -1,0 +1,30 @@
+Q:
+
+What exactly is the "game state"?
+
+The Tournament Rules define free information to include:
+
+Details of current game actions and past game actions that still affect the game state. 
+
+The rule refers to the "game state". What exactly is the that? What does it mean for something to "still affect the game state"?
+For example, I shuffled Golgari Grave Troll from my graveyard into my library with Elixir of Immortality. I am playing a dredge deck, so I could have dredged the troll. My opponent says "Ten turns ago, there was a Golgari Grave Troll in your graveyard. What happened to it?" Is my opponent asking for free information, derived information, or private information?
+Note: some of the rules for missed triggers in the Infraction Procedure Guide also depend on the "game state".
+
+A:
+
+My interpretation is based on the following premises:
+
+The combination of Free Information and official game information that a judge will provide upon request (Gatherer, Comprehensive Rules, etc.) is sufficient to determine Derived Information.
+The combination of Free and Derived Information is sufficient to determine whether any single action is allowed, and what would deterministically happen when that action is taken.
+
+All of the other free information is clearly and strictly defined, so we can fill in the blanks to determine what current and previous game actions need to be free information for those things to be true. For example:
+
+Any actions that created continuous effects that modify characteristics of existing objects affect derived information, so that information must be free.
+The number of lands you have played this turn determines whether you can legally play a land, so that information must be free.
+The number of spells players have cast this turn determines what happens when you cast a spell with Storm, so that information must be free.
+The names of spells that have been cast this turn determines what can possibly happen if Twinning Glass is activated, so that information must be free.
+The number of permanents that have entered the graveyard this turn determines what happens if Bitter Ordeal is cast, so that information must be free.
+
+For obvious reasons, it is hard to give an exhaustive list, but I believe this process can be used to determine whether any particular information is free. Also note that there is no mention of actions in the derived information section, so any action information that is not free is private.
+In the case of the Troll example in the question, there are no cards or rules that care at all about zone changes to non-public zones from more than a turn ago, so the information is private.
+

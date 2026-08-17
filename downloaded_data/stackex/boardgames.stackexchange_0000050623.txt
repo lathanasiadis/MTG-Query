@@ -1,0 +1,23 @@
+Q:
+
+Marauding Raptor and Polyraptor - what happens when a loop has no exit?
+
+Marauding Raptor has:
+
+Whenever another creature enters the battlefield under your control, Marauding Raptor deals 2 damage to it.  If a Dinosaur is dealt damage this way, Marauding Raptor gets +2/+0 until end of turn.
+
+Polyraptor has:
+
+Enrage - Whenever Polyraptor is dealt damage, create a token that's a copy of Polyraptor.
+
+When my opponent had Marauding Raptor in play, and played a Polyraptor, the Marauding Raptor deals two damage to the original, then when a token copy was made the Marauding Raptor dealt to that, which makes another copy, which is also dealt damage, etc...
+My question is, does this mean the game breaks and is over, or does the arbitrary loop stop of its own accord at some point?
+(Neither of us were able to destroy or exile a Polyraptor token in response to the damage, to stop the loop.)
+
+A:
+
+The game will end in a draw
+If the loop cannot be ended by either player, instead the game ends in a draw.
+
+721.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+

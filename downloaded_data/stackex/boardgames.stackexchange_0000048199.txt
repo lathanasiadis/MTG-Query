@@ -1,0 +1,18 @@
+Q:
+
+What happen if I gain the control of aura that enchants an opponent's creature? Would the aura stay attached?
+
+Imagine I'm playing vs Boggles Auras. Her Boggle has a Rancor and a Daybreak Coronet.
+I cast Archmage's Charm on the Rancor.
+Does the Rancor stay enchanting the Boggle?
+
+A:
+
+Yes, most of the times it doesn't matter who controls the aura and who controls the creature. There are a handful of exceptions, e.g. Cartouche of Knowledge which can only enchant a creature you control; if you'd steal one of them it would stop enchanting a legal target and be put into its owner's graveyard.
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+Note that stealing an Aura isn't really useful if the Aura grants a bonus/ability to the creature (which is most of the time); it might be useful if the Aura has an ability itself.
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn’t change control of the Aura, and vice versa. Only the Aura’s controller can activate its abilities. However, if the Aura grants an ability to the enchanted object (with “gains” or “has”), the enchanted object’s controller is the only one who can activate that ability.
+

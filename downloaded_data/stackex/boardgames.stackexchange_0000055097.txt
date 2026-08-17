@@ -1,0 +1,17 @@
+Q:
+
+How does Slivdrazi Monstrosity affect Eldrazi that already have Annihilator?
+
+Slivdrazi Monstrosity is a card that makes all Eldrazi also Slivers, and gives all Slivers Devoid and Annihilator 1.
+How would the effect Eldrazi creatures that already have Annihilator? Would this be redundant, having no effect? Would it create two separate Annihilator triggers for them? Would it just increase their Annihilator count by one?
+
+A:
+
+Instances of Annihilator are independent of each other. Each instance triggers separately.
+
+702.86a Annihilator is a triggered ability. “Annihilator N” means “Whenever this creature attacks, defending player sacrifices N permanents.”
+
+702.86b If a creature has multiple instances of annihilator, each triggers separately.
+
+Note that multiple instances don't simply add up. They trigger and resolve separately. That usually doesn't matter, but it does give players an opportunity to cast spells and activate abilities between those instances, if desired. Also there are ways to counter triggered abilities, so one of these counters would not be enough to counter multiple instances of Annihilator on the stack.
+

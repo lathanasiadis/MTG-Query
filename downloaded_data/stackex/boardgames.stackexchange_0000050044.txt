@@ -1,0 +1,18 @@
+Q:
+
+Can a player choose to not pay {0}?
+
+I cast a spell, and then my opponent casts Thassa's Intervention targeting my spell, choosing 0 for X. 
+Can I choose to have my spell countered? Or have I automatically paid {0}. It seems that read literally; the spell will not be countered because I actually have paid {0}; but can I choose either option?
+
+A:
+
+Yes, you can choose not to pay {0}.
+Rule 118.5 says
+
+Some costs are represented by {0}, or are reduced to {0}. The action necessary for a player to pay such a cost is the player’s acknowledgment that they are paying it. Even though such a cost requires no resources, it’s not automatically paid.
+
+In a tournament, {0} costs are paid by default, but you can explicitly declare that you are not paying them. Specifically, one of the tournament shortcuts listed in section 4.2 of the tournament rules says:
+
+A player is assumed to have paid any cost of 0 unless they announce otherwise.
+

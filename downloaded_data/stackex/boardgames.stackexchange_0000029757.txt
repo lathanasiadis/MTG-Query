@@ -1,0 +1,14 @@
+Q:
+
+Are 1/1 creatures sent to the graveyard from one damage before Rite of Passage's ability activates?
+
+Rite of Passage gives creatures I control a +1/+1 counter whenever they are dealt damage.
+If a 1/1 creature was dealt one damage, would it be sent to the graveyard first or would the creature be saved by getting a +1/+1 counter? Is the same true for being dealt one damage by combat?
+My opponent and I had 1/1 spirit tokens and I also had rite of passage under my control and whenever I blocked his spirits with mine, he insisted that they have been dealt damage, therefore their toughness is brought to zero and they die before receiving a counter, but I argued that rite of passage's ability triggers instantaneously and they become 2/2 with a given counter, then he said "if that were true, that would be op". Which version is correct?
+
+A:
+
+You opponent was correct and the creature will die.
+In Magic the Gathering there is virtually nothing that "triggers instantaneously". With the exception of abilities that only create mana all abilities go on the stack. There are a few special actions that a player can perform that do not use the stack as well, but these are not considered "abilities" by the games rules. Also if there is an effect that says to do something "instead of" something else then the new action will occur when the original would and not go on the stack.
+None of these exceptions are relevant here so when combat damage happens the the trigger will go on the stack, then state based actions will be checked and the creature will die before the ability resolves or any player gains priority. Even if you had a special action you could perform that would save the creature it will be dead before you have a chance to do it.
+

@@ -1,0 +1,24 @@
+Q:
+
+Can I get infinite turns with this combination?
+
+I have a Wormfang Manta on battlefield and a Worldgorger Dragon in graveyard. Would targeting the Worldgorger Dragon with Animate Dead create infinite turns, or would the two triggers cancel out?
+
+A:
+
+No, you will not gain infinite turns with this combo.
+To break down the interaction:
+
+You control a Wormfang Manta (and have already skipped one turn).
+You cast Animate Dead targeting your Worldgorger Dragon, animate dead resolves and your Worldgrorger's ETB triggers.
+Worldgorger's ETB exiles all your permanents, including Animate Dead and Wormfang Manta. Wormfang's and Animate Dead's leave the battlefield effects trigger (you can choose the order they go on the stack, I will choose Wormfang on top of Animate Dead). 
+Wormfang's LTB resolves, you gain an extra turn after this one. You now have +1 turn after this one.
+Animate Dead's LTB resolves, you sacrifice Worldgorger Dragon. Worldgorger's LTB triggers. 
+Wormfang Manta and Animate Dead enter the battlefield (you choose the order they go on the stack, I will choose Wormfang on top of Animate Dead). You target Worldgorger with Animate Dead.
+Wormfang Manta's ETB resolves you skip your next turn. The next time you were to take a turn, you will now skip it instead. 
+Animate Dead resolves, you bring Worldgorger back and start the whole thing over again.
+
+So you can continuously flicker the Worldgorger with animate dead. Each time Wormfang Manta leaves the battlefield you will get an extra turn, but each time it enters the battlefield you will need to skip your next turn. So effectively you are back where you started again.
+
+If you are looking for some infinite turns with Wormfang Manta, perhaps try something with Torpor Orb and something to flicker your Wormfang like Eldrazi Displacer?
+

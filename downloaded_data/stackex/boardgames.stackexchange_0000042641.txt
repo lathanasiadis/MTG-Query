@@ -1,0 +1,32 @@
+Q:
+
+How does Spine of Ish Sah interact with It That Betrays?
+
+...or anything else which tries to take over spines after destroying them.  
+So assume player A has an It That Betrays on the board, and player B has a Spine of Ish Sah on their side of the board. Now player A goes to combat, has their creature attack player B, the annihilator ability triggers, and player B sacrifices his Spine and something else.
+From the rules:  
+
+701.16a To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard.  
+
+So for my first question: Is the action of sacrifice the movement from the battlefield to the graveyard including the arrival in the graveyard, or, stated in a different way, does the sacrificed permanent enter the graveyard before being taken over by the second ability of It That Betrays?
+
+Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.
+
+Assuming it does (if it doesn't then ignore this second question), then how do the triggers stack? Or better said: Does the Spine go to its owners hand, or to the board of player A?  
+
+A:
+
+This is a situation for Active Player / Non-Active Player (APNAP) ordering:
+
+405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.
+
+The attacking player is the active player, and the defending player is the non-active player. So:
+
+The defending player sacrifices two permanents (including the Spine of Ish Sah) to the Annihilator 2 trigger.
+Two instances of It That Betrays' triggered ability go on the stack first (one for the Spine, one for whatever other permanent was sacrificed), in an order chosen by the active player.
+Spine of Ish Sah's triggered ability goes on the stack.
+Assuming nothing else happens, Spine of Ish Sah's triggered ability resolves first, returning it to its owner's hand.
+It That Betrays' triggered abilities resolve, but Spine of Ish Sah isn't in the graveyard anymore, so it won't be put onto the battlefield. The other trigger for the other sacrificed permanent can still put it onto the battlefield, though.
+
+This does mean that if the Spine were somehow sacrificed during player B's turn, the order of the triggers will be reversed, and it'll end up on the battlefield under player A's control.
+

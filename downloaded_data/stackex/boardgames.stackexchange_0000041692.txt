@@ -1,0 +1,29 @@
+Q:
+
+Can any spell be played as a face-down 2/2 creature for 3 colourless mana?
+
+According to rule 707.1:
+
+707.1. Some cards allow spells and permanents to be face down.
+
+Does this mean the fact that some cards allow this behaviour that any spell can be played in this way?
+This theory is further reinforced by rule 707.7
+
+707.7... Spells normally can’t be turned face up.
+
+In addition, all morph spells I've seen have the same cost (3 waste) and they all come into play as 2/2 colourless creatures.
+Finally, rule 707.11 starts:
+
+707.11. If a face-down permanent would have an “As [this permanent] is turned face up . . .” ability...
+
+Which suggests face-down permanents may not have such abilities...?
+My thoughts are that this ability would help in cases where a player is struggling with mana flood, such that they have no other spells to cast, but could (for example) play a basic land face-down for 3 waste as a 2/2 colourless creature in a pinch.
+There are other games that permit this kind of play.
+However, I feel I am probably incorrect in my theory and perhaps the bit I'm misreading is rule 707.1, in so far as the "spells and permanents" mentioned are specifically those from cards that allow this ability.
+
+A:
+
+No, you cannot generally cast any card as a face down spell. Rule 707.1 is saying that there are some cards with abilities that specifically allow you to cast face down spells or otherwise get face down cards on the battlefield. The Morph ability itself is what allows you to cast the card as a face down spell, and that only applies to the card it's printed on, not any other card. The keyword action Manifest on cards like Ethereal Ambush puts cards on the battlefield face down and the ability on the card Ixidron turns cards on the battlefield face down.
+Rule 707.7 simply means that the rules themselves do not provide any way to turn face down spells face up while they are on the stack. There are also currently no cards that do that, but the wording of that rule leaves that possibility open for the future.
+Rule 707.11 is just describing how to handle "As [this permanent] is turned face up..." abilities. Many morph creatures have those kinds of abilities, but many don't have them. Cards without Morph or Megamorph don't have abilities like that.
+

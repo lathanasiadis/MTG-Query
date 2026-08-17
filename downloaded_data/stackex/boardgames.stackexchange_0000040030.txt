@@ -1,0 +1,30 @@
+Q:
+
+How does priority of triggered abilities and state based actions work together?
+
+So, my opponent and I have 5 life each.
+My opponent is attacking with two 5/5 random creatures, and I'm blocking one with Spitemare.
+What would happen next?
+Will the Spitemare's ability trigger? Letting me redirect that damage to my opponent and winning
+Or will I die before the ability is triggered? Losing the game beforehand? 
+
+A:
+
+The ability triggers, but you lose and the ability is never put on the stack. What happens as the damage is dealt is this:
+
+Five points of combat damage are dealt to each of you and your Spritemare, and three damage to one of the 5/5's, reducing your life total to 0, and giving one creature lethal damage
+
+The spritemare's ability triggers, but is not put on stack yet (cf. comprehensive rulebook, 603.2 "[...] The ability doesn’t do anything at this point." and 603.3 "[...] its controller puts it on the stack as an object that’s not a card the next time a player would receive priority", emphasis mine)
+
+Your opponent is about to get priority. Rule 116.5 says what happens in which order:
+
+116.5. Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, "State-Based Actions"), then repeats this process until no state-based actions are performed. Then triggered abilities are put on the stack (see rule 603, "Handling Triggered Abilities"). These steps repeat in order until no further state-based actions are performed and no abilities trigger. Then the player who would have received priority does so.
+
+State-based actions are checked first. You lose the game for having $0$ or less life, and simultaneously the spritemare is put into your graveyard for having taken lethal damage. If there are no other players, the game ends immediately (cf. 104.1). If there are more players left, this is what happens.
+
+You take all cards you own and leave the game. Effects that give you control over permanents and players end. If there are still objects under your control, they are exiled. (Here I am a bit uncertain, as according to the examples in the comprehensive rules a creature that got under your control with Bribery is exiled, while a creature you've taken over with Act of Treason is just returned to its owner's control. Memnarch seems to have a middle ground and I can't tell which way that will go.) Every spell and effect you own on the stack ceases to exist (there can't really be any in this specific case, considering that the last thing that happened in the game was that combat damage was dealt, and that can't happen if you had anything on the stack).
+
+State-based actions are checked again (maybe you had an aura that was keeping someone else's creature from dying, for instance) until nothing more happens. Then all triggers controlled by players still in the game are put on the stack. Then state-based actions are checked again, then new triggers are put on stack again, and so on until nothing new happens.
+
+Your opponent gains priority and may play an instant or a card with flash, or an activated ability. In other words, play resumes as normal, with all the triggered abilities going off the stack one by one, and letting players respond between each one. Since we are in the End of Combat step, even if there are no triggers, the active player can't play sorceries, creatures etc. until all players have passed priority and the game continues to the second main phase.
+

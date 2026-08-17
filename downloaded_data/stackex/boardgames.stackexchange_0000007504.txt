@@ -1,0 +1,43 @@
+Q:
+
+Does 'fight' involve combat?
+
+The text for Ulvenwald Tracker says:
+
+{1}{G}, {T} : Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+
+Does this have anything to do with combat? Or is it just direct damage between two creatures? For example, can one of the creatures have defender? Or what if one of them is tapped?
+I've been assuming it is more like the damage dealt by a Prodigal Pyromancer.
+Also: are the two creatures then “tapped” until their next untap step? ie: could you use Ulenvald Tracker to make two creatures fight in your pre-combat step, then enter the combat phase with a creature who just “fought” untapped? Could you make two creatures fight who are both tapped?
+
+A:
+
+The entirety of the ability is summarized in the italicized text: each creature deals damage equal to its power to the other. There are no special restrictions on "fight" beyond the normal rules for targeting and abilities on the stack (Ulvenwald Tracker can't make your Ravager of the Fells fight an opponent's Geist of Saint Traft, for instance, because the Tracker can't target a hexproof creature).
+If one of those creatures isn't around when the ability resolves, no fighting will occur.
+Here are the full comp rules for 'fight':
+
+701.10. Fight
+701.10a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of
+those creatures deals damage equal to its power to the other creature.
+701.10b If a creature instructed to fight is no longer on the battlefield or is no longer a creature, no damage is dealt. If a
+creature is an illegal target for a resolving spell or ability that
+instructs it to fight, no damage is dealt.
+701.10c If a creature fights itself, it deals damage equal to its power to itself twice.
+701.10d The damage dealt when a creature fights isn't combat damage.
+
+Here's some minutiae about how this relates to other rules:
+
+Abilities that only affect the assignment of combat damage, like
+first strike and trample, don't do anything.
+Lifelink, deathtouch, and infect/wither do still apply, since they modify all
+damage that a permanent deals.
+Damage can still be prevented or
+redirected normally, just like damage from a Lightning Bolt.
+In the case of protection, a creature with protection from the source
+setting up the fight can't be targeted by it; a creature with
+protection from the other creature but not the fight effect (e.g. if
+you use Ulvenwald Tracker to make a red creature fight a creature
+with protection from red) can still be made to fight, but protection
+will prevent the damage it receives.
+Note how the rules I quoted don't say anything about tapped or untapped creatures. Tapped creatures can fight just fine. Fighting will not cause an untapped creature to become tapped.
+

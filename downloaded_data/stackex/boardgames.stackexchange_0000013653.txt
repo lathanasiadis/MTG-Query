@@ -1,0 +1,26 @@
+Q:
+
+Angel's Grace and Phyrexian Unlife
+
+I am at -10 life from Ad Nauseam but I don't lose due to Phyrexian Unlife. If my opponent attacks me with all their creatures (for infect-> poison counters) and I use Angel's Grace what happens to my life total? I know it doesn't go back to 1 but do I get poison counters or just one poison or does nothing happens?
+Similarly,
+If my health is already below zero and I don't have Phyrexian Unlife if my opponent keeps attacking on the turn I'm still using Angel Grace what happens?
+thanks
+
+A:
+
+In the first scenario,
+Your opponent's creatures deal damage to you in the form of poison counters.[CR 702.89b] This damage does not reduce your life total, so it's not affected by Angel's Grace. Even if you now have ten or more poison counters, you do not lose at this time because of Angel's Grace.
+Eventually, your turn ends and the continuous effect Angel's Grace's created to keep you alive ends. Specifically, this happens in the Cleanup Step[CR 514.2]. At this point, state-based actions are checked and you lose if you have ten or more poison counters.[CR 514.3, 704.5c]
+
+702.89b Damage dealt to a player by a source with infect doesn’t cause that player to lose life. Rather, it causes the player to get that many poison counters.
+
+In the second scenario,
+Everyone's life totals are checked whenever someone is about to get priority (when someone gets to cast a spell or activate an ability except when instructed by an effect)[CR 116.5].
+If your health is below zero, and you don't have Phyrexian Unlife to keep you alive, then you've already lost. As soon as Ad Nauseam finished resolving, before anyone could have done anything else and before the attackers could deal their damage, state-based actions were performed[CR 601.2h] and you lost the game for having having non-positive life.[CR 704.5a]
+
+601.2h Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+116.5. Each time a player would get priority, the game first performs all applicable state-based actions as a single event [...]
+
+Do note that Angel's Grace cannot raise your life total. As stated in a ruling, "If your life total goes below 1, being dealt damage will not increase it back up to 1."
+

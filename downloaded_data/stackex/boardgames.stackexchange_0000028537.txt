@@ -1,0 +1,25 @@
+Q:
+
+Milling cards with discard an draw abilities
+
+I have a Blue Black Mill deck with Sphinx's Tutelage and Day's Undoing (Whispering Madness works in the same way). If I had all four Tutelages on the field, and cast Days Undoing / Whispering Madness, how would the card draws work afterwards?
+I am under the impression that either way this would give me the game, but would the opponent draw first, then me so that I could start milling them or do I draw first, start milling them, then they draw seven?
+
+A:
+
+Here is what happens when the active player casts Day's Undoing:
+
+The active player shuffles his or her hand and graveyard into his or her library and then draws seven cards.
+Sphinx's Tutelage triggers seven times, but those triggers do not go on the stack just yet.
+The nonactive player shuffles his or her library hand and graveyard into his or her library and then draws seven cards.
+The turn ends.
+
+"The turn ends" means something special in Magic. Specifically, rule 713.1a says that any triggered abilities that are waiting to be put on the stack cease to exist.
+
+713.1. Three cards (Time Stop, Sundial of the Infinite, and Day’s Undoing) end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, “Resolving Spells and Abilities”).
+713.1a If there are any triggered abilities that triggered before this process began but haven’t been put onto the stack yet, those abilities cease to exist. They won’t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 713.2).
+
+And here is the rule that says explains why the active player draws first.
+
+120.2a If an effect instructs more than one player to draw cards, the active player performs all of his or her draws first, then each other player in turn order does the same.
+

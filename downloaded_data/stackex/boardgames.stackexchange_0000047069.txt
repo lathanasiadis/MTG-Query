@@ -1,0 +1,22 @@
+Q:
+
+Would a 1/1 token with persist dying trigger on death effects a second time?
+
+If I had a 1/1 token with persist, would it come back as a 0/0 and die a second time? Would it still trigger on death effects?
+
+A:
+
+Presumably you are doing this with Cauldron of Souls.
+Persist doesn't do anything on tokens because they stop existing when they leave the battlefield and can't change zones once not on the battlefield.  See the card ruling on the Cauldron:
+
+If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+
+The relevant rule behind this is:
+
+110.5g A token that has left the battlefield can't move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+
+However, if you gave a non-token 1/1 persist (such as Raging Goblin), then it is as you suggest.  The creature would return to the battlefield, and then promptly be put back in the graveyard the next time state-based actions are checked (whenever a player would gain priority) due to having 0 toughness:
+
+704.5. The state-based actions are as follows:
+704.5f If a creature has toughness 0 or less, it's put into its owner's graveyard. Regeneration can't replace this event.
+

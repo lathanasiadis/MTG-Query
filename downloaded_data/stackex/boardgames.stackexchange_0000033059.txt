@@ -1,0 +1,107 @@
+Q:
+
+When does the activated ability resolve?
+
+I cast a Fiery Temper targeting Electrostatic Pummeler. My opponent then pays 6 Enery Counters so that Pummeler can be a 4/4 but I responded with triggering Dynavolt Tower dealing another 3 damage to Pummeler but he pays another 3 energy so that his Pummeler can be an 8/8. Is this correct? I think the way it works is that Pummeler will be 2/2 when my Dynavolt triggers and that will kill it. Or does Pummeler become an 8/8 and will only take 6 damage?
+I think stack is like this
+Fiery Temper -> Eloctrostatic Pummeler -> Pummeler Pays 6 Enery -> Dynavolt Tower -> Pummeler Pays 3 Energy
+
+A:
+
+There's a little ambiguity around the part where your opponent payed 6 energy to activate Electrostatic Pummeler's ability twice, but if we follow the tournament rules, the Pummeler survives this whole ordeal.
+Assuming that you started out with enough energy to activate Dynavolt Tower, the situation plays out like this:
+
+You cast Fiery Temper. This is the stack:
+
+Fiery Temper
+
+Your opponent declares that they pay 6 energy to activate Electrostatic Pummeler's ability twice. If we follow the tournament rules, then this is a shortcut for "Activate the ability, then let it resolve, then activate it again". This means that if you're responding to this, you have two choices. You can either respond to the first activation, or to the second.
+
+If you respond to the first activation, you are interrupting the shortcut, so they have only activate the ability once. The Pummeler is a 1/1, your opponent still has 6+ energy, and this is the stack:
+
+Pummeler's ability
+Fiery Temper
+
+Then the rest plays out like this:
+
+You pay 5 energy to activate Dynavolt Tower. This is the stack:
+
+Dynavolt activated ability
+Pummeler's ability
+Fiery Temper
+
+Your opponent activates Pummeler's ability twice with the 6 energy they still have. At this point, you have no responses, so both resolve, and the Pummeler ends up as a 4/4. This is still the stack:
+
+Dynavolt activated ability
+Pummeler's ability
+Fiery Temper
+
+Dynavolt Tower's ability resolves. The Pummeler is now a 4/4 with 3 damage marked. This is the stack:
+
+Pummeler's ability
+Fiery Temper
+
+The Pummeler's ability resolves. The Pummeler is now an 8/8 with 3 damage marked. This is the stack:
+
+Fiery Temper
+
+Fiery Temper resolves. The Pummeler is now an 8/8 with 6 damage marked. It survives.
+
+If instead you respond to the second activation, you are accepting the shortcut, and one of the abilities has resolved. The Pummeler is a 2/2, your opponent has 3 energy, and this is the stack:
+
+Pummeler's ability
+Fiery Temper
+
+Then the rest plays out like this:
+
+You pay 5 energy to activate Dynavolt Tower. This is the stack:
+
+Dynavolt activated ability
+Pummeler's ability
+Fiery Temper
+
+Your opponent activates Pummeler's ability once with the 3 energy they still have. At this point, you have no responses, so it resolves, and the Pummeler ends up as a 4/4. This is still the stack:
+
+Dynavolt activated ability
+Pummeler's ability
+Fiery Temper
+
+Dynavolt Tower's ability resolves. The Pummeler is now a 4/4 with 3 damage marked. This is the stack:
+
+Pummeler's ability
+Fiery Temper
+
+The Pummeler's ability resolves. The Pummeler is now an 8/8 with 3 damage marked. This is the stack:
+
+Fiery Temper
+
+Fiery Temper resolves. The Pummeler is now an 8/8 with 6 damage marked. It survives.
+
+If you started this situation with less than 5 energy, the situation is actually a lot simpler (assuming your opponent made correct plays). In this case, it plays out like this:
+
+You cast Fiery Temper. This is the stack:
+
+Dynavolt Tower's triggered ability
+Fiery Temper
+
+Your opponent responds declaring that they pay 6 energy to activate Electrostatic Pummeler's ability twice. This time, you don't have enough energy to activate Dynavolt Tower's activated ability, so both Pummeler activations resolve. The Pummeler is now a 4/4. This is still the stack:
+
+Dynavolt Tower's triggered ability
+Fiery Temper
+
+Dynavolt Tower's triggered ability resolves. You gain 2 energy. This is the stack:
+
+Fiery Temper
+
+You activate Dynavolt Tower's activated ability. This is the stack:
+
+Dynavolt Tower's activated ability
+Fiery Temper
+
+Your opponent activates Pummeler's ability again. You have no responses, so you let it resolve. Pummeler is now an 8/8. This is still the stack:
+
+Dynavolt Tower's activated ability
+Fiery Temper
+
+Neither players have any more responses, so we let both the ability and the Fiery Temper resolve. Each deals 3 damage to the Pummeler, so the result is that the Pummeler is a 8/8 with 6 damage marked. Again, it survives.
+

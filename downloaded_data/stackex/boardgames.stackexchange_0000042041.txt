@@ -1,0 +1,32 @@
+Q:
+
+Ninjutsu ability and the stack
+
+There are some cards that have a ninjutsu ability, which means that you can target an unblocked creature and replace it with your creature (this can be done only after the declare blockers step).
+Lets say that my opponents has an unblocked creature, and after I decide not to block it, he places a ninjutsu creature on the stack after paying its cost. Then, in response to that, I cast a lightning bolt to that creature (the one that is about to be replaced). When the lightning bolt resolves, the creature that dies and the ninjutsu creature has an illegal target.
+My question is, should the ninjutsu creature go to the graveyard, or should it return to its owner hands?
+Ninjutsu is defined as follows (as noted in this Wiki article):
+
+702.48. Ninjutsu
+702.48a Ninjutsu is an activated ability that functions only while the card with ninjutsu is in a player’s hand. “Ninjutsu [cost]” means “[Cost], Reveal this card from your hand, Return an unblocked attacking creature you control to its owner’s hand: Put this card onto the battlefield from your hand tapped and attacking.”
+702.48b The card with ninjutsu remains revealed from the time the ability is announced until the ability leaves the stack.
+702.48c A ninjutsu ability may be activated only while a creature on the battlefield is unblocked (see rule 509.1h). The creature with ninjutsu is put onto the battlefield unblocked. It will be attacking the same player or planeswalker as the creature that was returned to its owner’s hand.
+
+An example of a ninjutsu creature: Ninja of the Deep Hours
+
+A:
+
+The scenario you describe cannot happen. Once you have finished activating the Ninjutsu ability, the chosen creature has already returned to your hand without other players being able to interfere with that.
+The reason for that is that returning the attacking creature is a cost of the ability. By the time anyone can react to the Ninjutsu going on the stack , the creature is already in your hand.
+Furthermore, Ninjutsu does not target the creature you return to your hand, so it can't become illegal. Targets are reserved for effects, not for costs.
+For clarity: the wording for activated abilities is always "cost : effect"
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. [..]
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires.[..]
+601.2f The player determines the total cost of the spell.
+601.2h The player pays the total cost in any order. [..]
+601.2i Once the steps described in 601.2a–h are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Note especially the last sentence of 601.2i. Only after a spell or ability is finished casting/activating (in particular after all costs have been paid) does any player get priority, i.e. the ability to cast other spells/abilites.
+

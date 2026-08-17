@@ -1,0 +1,18 @@
+Q:
+
+In reference to Ashenmoor Liege
+
+What abilities target Ashenmoor Liege that triggers 'Whenever Ashenmoor Liege becomes the target of a spell or ability an opponent controls, that player loses 4 life.'  Would deathtouch qualify?
+
+A:
+
+Deathtouch does not qualify because it doesn't target. Note Ashenmoor Liege says "... becomes the target of a spell or ability an opponent controls". Spells and abilities that target will use the word 'target' (Auras also count as targeted spells). For example, the text of Seal Away says (emphasis mine):
+
+When Seal Away enters the battlefield, exile target tapped creature an opponent controls until Seal Away leaves the battlefield.
+
+So casting Seal Away on Ashenmoor Liege triggers the ability. Deathtouch's text, however, says:
+
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+
+Hence it doesn't target, and it doesn't trigger the ability.
+

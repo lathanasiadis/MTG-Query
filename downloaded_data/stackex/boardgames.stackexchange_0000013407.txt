@@ -1,0 +1,12 @@
+Q:
+
+Magic card database for websites
+
+How is it that websites like SCG or CFB created their card database inventory. How would i be able to do this myself now? I want to create a similar website where a user can search and find any card with images. Obviously entering manually into a sql server is not feasible. Any help on easiest way to get this done?
+
+A:
+
+There's a program called Gatherer Extractor which can extract all info and images from Gatherer. You can export it to an XML file which you can import easily into (eg) a MySQL database.
+You can check the sets which you want to download, and the info you want.
+Link: http://forums.mtgsalvation.com/showthread.php?t=303454
+

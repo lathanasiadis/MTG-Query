@@ -1,0 +1,20 @@
+Q:
+
+Does Progenitor Mimic create copies of itself even when it isn't a creature?
+
+ 
+Progenitor Mimic can be cast as a copy of cards like Mutavault and Simic Keyrune whilst they're in their creature state. When it does so, it can become something other than a creature: a land, an artifact, etc.
+However, its copy ability states:
+
+At the beginning of your upkeep, if this creature isn't a token, put a token onto the battlefield that's a copy of this creature.
+
+Suppose my Progenitor Mimic becomes a Mutavault^. At the beginning of my upkeep, it will be only a land. Will Progenitor Mimic create a new Mutavault token, or is this prevented by the fact it isn't a creature?
+^ For those who may not know, it will copy exactly what's printed on the Mutavault card and be a fresh Mutavault, not a 2/2 creature, because of how copy works. You can check the 4/15/2013 rulings on Progenitor Mimic.
+
+A:
+
+Yes, it does. When a card says "this creature", is still refers to itself even if it is no longer a creature, so the ability still triggers and resolves.
+According to rule 201.5,
+
+If an ability of an object uses a phrase such as "this [something]" to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn't the appropriate characteristic at the time.
+

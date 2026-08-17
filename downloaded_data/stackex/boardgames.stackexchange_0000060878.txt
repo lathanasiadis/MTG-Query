@@ -1,0 +1,22 @@
+Q:
+
+Removing Copied Mutate Targets
+
+When using mutate, I'm aware that removing a Mutate Target results in the Mutate-Spell to enter as a creature. I've reviewed what happens when you use Cloning Effects. However I'm still a little hazy on what happens when you combine those two senarios.
+Combine these effects with Ivy, Gleeful Spellthief.
+You have Ivy, Spellthief and Arbor Elf on the field. You attempt to mutate Archipelagore onto the Arbor Elf, Ivy triggers and you get a second copy. In response your opponent removes Ivy from the field.
+
+What happens to the Copy-ipelagore?
+Does this answer change for whatever reason if the opponent removes both Ivy and the Elf before either Archipelagore can resolve?
+
+A:
+
+The copy enters the battlefield as a token copy of the creature as an independent object. If the original loses its target, or anything else changes with the original, that has no effect on the copy.
+The copy becomes a token as a consequence of two rules, rule 702.104b and rule 707.10f
+
+702.140b As a mutating creature spell begins resolving, if its target is illegal, it ceases to be a mutating creature spell and continues resolving as a creature spell and will be put onto the battlefield under the control of the spell’s controller.
+707.10f Some effects copy a permanent spell. As that copy resolves, it ceases being a copy of a spell and becomes a token permanent. (See rule 608.3f.)
+
+As the copy of the Archipelagore starts to resolve, the target (Ivy) is illegal because it is no longer on the battlefield. So the Archipelagore copy stops being a mutating creature spell, and instead is just a regular creature spell. Then since is a copy of a creature spell, it enters the battlefield as a token copy of the creature.
+As a more general rule, copies of spells (or anything else) exist independent of the original once they are created. Removing the Arbor Elf doesn't affect the copy, because that's not the copy's target.
+

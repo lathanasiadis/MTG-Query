@@ -1,0 +1,32 @@
+Q:
+
+Does a card with "put into play" trigger an "enters the battlefield" effect?
+
+Say I have a card which says:
+
+when a horse enters the battlefield give it +1/+1
+
+and a card that says:
+
+put two horse tokens into play
+
+Do my horse tokens get +1/+1 even though it says they are put "into play" and not "enters the battlefield?
+
+A:
+
+Short answer: yes.
+
+Long answer:
+Your confusion stems from a change in terminology that took place in July 2009:
+
+The in-play zone is now the battlefield.
+This was the single biggest Oracle change. A lot of cards—no, seriously, a lot of cards—do something when they enter the battlefield, or do something when they leave the battlefield, or enter the battlefield with counters on them, or put a token onto the battlefield, or so on. It stands to reason; the battlefield is the primary game zone. A total of 2,417 cards now say "battlefield" in their Oracle wordings.
+There are a number of variations in the wordings. "Put [something] into play" became "Put [something] onto the battlefield." "When [something] comes into play" became "When [something] enters the battlefield." "From play" and "in play" became "from the battlefield" and "on the battlefield," respectively. There are others, but you get the idea.
+
+Oracle is a database of all tournament-legal cards, which includes the up-to-date wordings that take rule changes into account.  If you had looked up your token-creating card on Gatherer after this change, you would have found that the Oracle wording of the card said something like "Put two horse tokens onto the battlefield."
+Note that the wording used for this changed again in 2016. The release notes for Kaladesh explain the new terminology:
+
+Starting with Kaladesh, you're going to see a new rules term on cards: create. This new bit of templating is a new way to say "put a token onto the battlefield." This isn't a functional change in any way. The tokens still enter the battlefield like they always did.
+
+As with the previous update in 2009, older cards once again received Oracle text updates to reflect the new wording. You can see the difference on cards like Advent of the Wurm.
+

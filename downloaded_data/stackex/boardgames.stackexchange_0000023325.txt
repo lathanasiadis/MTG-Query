@@ -1,0 +1,37 @@
+Q:
+
+How can I reduce the planar die "whiff factor" with house rules?
+
+I like to play Planechase sometimes. Mostly this variant, which gives players some additional choices when planswalking.
+However, the most annoying part of Planechase is that the planar die has such a high "whiff factor" (incidence of null results). A particular thing I dislike is the handling time when a player has nothing else to do or desperately wants to planeswalk — rolling the die, tapping some mana, rolling the die again, &c.
+Criteria for a house rule that meets my needs:
+
+reduced incidence of totally null results
+reduced handling time (compared to multiple rerolls)
+whatever you change, the vast majority of the existing planes should still be playable as-is
+it's okay to replace the planar die with some other game piece (including a custom die)
+
+A:
+
+This is inspired by the action-choosing mechanism from Speculation.
+Start of game setup:
+
+Get six objects that can represent planeswalk/chaos/nothing: colored marbles, Scrabble tiles, popsicle sticks with symbols drawn on them, etc.
+Place the objects in an opaque bag.
+
+When the player wants to "roll":
+
+The player pays the cost for rolling and chooses an item from the bag without looking.
+If a Nothing item is removed, set it aside on the table.
+If a Planeswalk or Chaos item is removed, perform that action and return all the items to the bag.
+
+This reduces the likelihood of whiffing over time.
+
+Normal 4/6 chance on the first roll.
+3/5 chance after the first whiff.
+2/4 chance after the second whiff.
+1/3 chance after the third whiff.
+No chance of whiffing after four whiffs.
+
+This seems to well satisfy criteria 1, 3, and 4. Admittedly, it's not much faster than regular rolling, if you discount the fact that on average you'll get a favorable result faster than if you had used a die.
+

@@ -1,0 +1,27 @@
+Q:
+
+What happens to other land types (e.g. Legendary/Artifact) when some effects change the basic land types?
+
+Taking up a topic already addressed, for example, with the question:
+What happens when two global enchantments affect the same type of permanent (e.g.lands),
+with this question I would like to add a little and simple clarification to this kind of situations.
+If a Legendary Land - such as Hammerheim -  or an Artifact Land - as  Vault of Whispers - is enchanted by cards like Evil Presence or Phantasmal Terrain, it becomes a basic land.
+But what happens to its other types? 
+In other words the land, now transformed by one of the two enchant land above, as well as being now a basic land:
+
+still maintains his original other type, that is, it is still legendary or still an artifact (as in the second example); or   
+no longer maintains any other types, but it is only a non-basic land.
+
+A:
+
+It might be a bit confusing, but 'legendary' and 'artifact' are not land subtypes, like Swamp and Mountain are. 'Legendary' is a supertype, and 'artifact' is a type.
+
+305.7. If an effect sets a land’s subtype to one or more of the basic land types, the land no longer has its old land type.
+
+Evil Presence and Phantasmal Terrain do not remove 'legendary' and 'artifact', they influence the subtype. Hammerheim and Vault of Whispers don't have a subtype, but they will lose their abilities:
+
+The enchanted land loses its existing land types and any abilities printed on it. It now has the land type Swamp and has the ability “Tap: Add Black.” Evil Presence doesn’t change the enchanted land’s name or whether it’s legendary, basic, or snow.
+
+(from the rulings below Evil Presence)
+So a Hammerheim enchanted with an Evil Presence will still be legendary but only able to tap for black mana; a Vault of Whispers enchanted with Phantasmal Terrain set to 'Mountain' will still be an artifact land but only be able to tap for red mana.
+

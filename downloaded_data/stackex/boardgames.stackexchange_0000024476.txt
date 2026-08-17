@@ -1,0 +1,18 @@
+Q:
+
+Poison Counters and Damage Redirection
+
+Last week we had a bit of a situation in our commander game and we would like to clarify this for future reference.
+Our Situation
+One of the players attacked with Bruna, Light of Alabaster who gained infect thanks to Corrupted Conscience and had a power over 20. The attacked player responded with Shining Shoal with the X being 10.
+Now for the Question
+These two players are the last remaining players on the game, as player 1 and 2 have already lost. Does the game end in a draw? Did the Bruna, Light of Alabaster's player win the game? Or does he lose because he obtained 10 poison counters due to Shining Shoal?
+
+A:
+
+Assuming nobody has any poison counters before Bruna attacks, Bruna's controller will lose the game assuming that her power is at least 10, but less than 20 when she deals damage, and it will be a draw if her power is 20 or greater, if her power is less than 10 her controller will have poison counters equal to her power.
+This occurs because Shining Shoal replaces the first X damage dealt by the chosen sources (in this case 10) and redirects it to the chosen target (presumably Bruna's controller). The redirection doesn't change the source of the damage so it will still have infect, thus it will still deal damage in the form of poison counters.
+So if Bruna's power is less than 10 all of the damage will be redirected to Bruna's controller; nobody will win or lose. If her power is at least 10, but less than 20, ten damage will be redirected to her controller and you would take the remainder; her controller would lose. If her power is 20 or greater 10 of the damage would be redirected to her controller and the remainder of the damage would be dealt to you, since you both have 10 or more poison counters you would both lose the game a the same time which ends up being a draw.
+
+702.89b Damage dealt to a player by a source with infect doesn’t cause that player to lose life. Rather, it causes the player to get that many poison counters. See rule 119.3.
+

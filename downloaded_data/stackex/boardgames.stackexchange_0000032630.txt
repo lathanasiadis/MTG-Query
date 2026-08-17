@@ -1,0 +1,23 @@
+Q:
+
+What is the colored part of a mana cost called?
+
+Suppose I wanted to author a homebrew spell that would require paying just the colored portion of another card's mana cost as an additional cost. Is there a "proper" way to format that with the rules as written?
+For example, imagine a creature with the following ability:
+
+{T}, Reveal a creature card from your hand and pay the colored part of its mana cost: Put the revealed card into play under your control.
+
+Using this ability should give me a Terastodon for {G}{G}, or a Blightsteel Colossus for free.
+I know there are cards that refer to the number of colored mana symbols of permanents (devotion), but I don't know any that refer to them while they are cards or spells.
+
+A:
+
+The rules don't directly define a term for this part of the cost, but they do use a relevant term in one of the rules describing cost reductions, 117.7a:
+
+Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can’t affect the colored or colorless mana components of that cost.
+
+So, "colored mana component of the cost" is a reasonable term to use for the colored part of the mana cost.
+You could also get a functionally equivalent effect by borrowing the wording of the Emerge ability:
+
+{T}, Reveal a creature card from your hand and pay its mana cost reduced by its converted mana cost: ...
+

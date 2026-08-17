@@ -1,0 +1,15 @@
+Q:
+
+Is exchanging life the same as losing life?
+
+So say I'm playing a Rakdos, Lord of Riots deck and I tap Tree of Perdition exchanging a life total of 40 from one of my opponents with Tree of Perdition's toughness of 13. Do the opponents count as having lost 27 life, or was it different because it was just exchanged? Could I cast a 27/27 Endless One, just to name one example, or was there no actual loss of life?
+
+A:
+
+The relevant rules governing exchanges of life totals are these:
+
+701.9c. When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them. A player who can't gain life can't be given a higher life total this way, and a player who can't lose life can't be given a lower life total this way (see rules 118.7-8).
+701.9g. A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. A player who can't gain life can't be given a higher life total this way, and a player who can't lose life can't be given a lower life total this way (see rules 118.7-8). If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
+
+In both cases, an exchange does cause a gain or loss of life. So yes, in the situation you describe, your opponent has lost 27 life and Rakdos's abilities will recognize that.
+

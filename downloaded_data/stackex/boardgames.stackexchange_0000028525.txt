@@ -1,0 +1,28 @@
+Q:
+
+Kindle the carnage, repercussion and safe passage
+
+Let's say I have Repercussion on the table and I cast Kindle the Carnage. Can an opponent prevent the damage done by repercussion after Kindle the Carnage has resolved? A mate and I are in a debate about this as in my opinion Repercussion goes off instantly and in his opinion Safe Passage or any other damage preventing card has priority.
+
+A:
+
+Repercussion's ability is a triggered abillity, so it goes on the stack just like spells and activated abilities. And just like with those, it can be responded to before it resolves, so the opponent will be able to prevent the damage with Safe Passage.
+To be specific, the events occur as follows:
+
+You cast Kindle the Carnage.
+Both you and your opponent have a chance to respond to Kindle the Carnage. Either of you could play instants or activate abilities.
+Kindle the Carnage resolves and deals damage to every creature (probably). Repercussion's ability triggers once for each creature that was dealt damage. Those abilities go on the stack in any order you choose.
+Both you and your opponent have another chance to respond to the triggered abilities on the stack.
+One of the triggered abilities resolves, and deals damage to the controller of the corresponding creature.
+Repeat steps 4 and 5 until the stack is empty.
+
+If the opponent casts Safe Passage in step 4, as you describe, they will take no further damage from Repercussion. If, instead, they cast Safe Passage during step 2, then their creatures will take no damage when Kindle the Carnage resolves, and they will take no damage from Repercussion.
+So, if as you describe, the oppponent casts Safe Passage in step 4, it plays out like this (assuming nobody else responds with other spells):
+
+You cast Kindle the Carnage.
+Kindle the Carnage is the top item on the stack, so it resolves and deals damage to every creature (probably). Repercussion's ability triggers once for each creature that was dealt damage. Those abilities go on the stack in any order you choose.
+Your opponent responds by casting Safe Passage.
+Safe Passage is now the top item on the stack, so it resolves. Further damage to your opponent and their creatures this turn is prevented.
+One of the triggered abilities is on top of the stack, so it resolves. If it would deal damage to your opponent, instead that damage is prevented because of Safe Passage's effect.
+Step 5 repeats until the stack is empty.
+

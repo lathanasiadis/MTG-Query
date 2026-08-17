@@ -1,0 +1,46 @@
+Q:
+
+Do I get to fetch a basic land when putting my commander in the command zone for Path to Exile?
+
+Someone told me this a couple of day ago, and I want a second ruling. I was told if your commander gets Path to Exile'd and you choose to put it in the command zone, you don't to search your deck for the basic land, just like with Swords to Plowshares you don't gain life, due to the way the card is written.
+
+A:
+
+This concerns the following rule:
+
+CR 903.9. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+If the Commander's owner chooses to apply the replacement effect, you perform the following instructions when resolving Path to Exile:
+
+Exile target creature.Move target creature to the command zone. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.
+
+There's nothing preventing the rest of the ability from resolving, so you do get to search your library for a land.
+Similarly, you perform the following instructions when resolving Swords to Plowshares:
+
+Exile target creature.Move target creature to the command zone. Its controller gains life equal to its power.
+
+So, you do gain life.
+
+Let's consider a different scenario. Say there's a creature on the battlefield with the following ability:
+
+Whenever a creature dies, ...
+
+Then, let's say you cast the following spell targeting a Commander:
+
+Destroy target creature. Draw a card.
+
+If the Commander's owner doesn't replace the effect,
+You perform the following instructions when resolving the spell:
+
+Destroy target creature (by moving it to the graveyard). Draw a card.
+
+The triggered ability will obviously trigger.
+If the Commander's owner chooses to apply the replacement effect,
+You perform the following instructions when resolving the spell:
+
+Destroy target creature (by moving it to the graveyardcommand zone). Draw a card.
+
+Since the creature never died (never went to the graveyard from the battelfield), the triggered ability won't trigger.
+
+Either way, you draw a card.
+

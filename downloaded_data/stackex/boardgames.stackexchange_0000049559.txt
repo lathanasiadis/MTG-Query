@@ -1,0 +1,31 @@
+Q:
+
+Does Ashiok, Nightmare Muse's ult allow affected adventure cards to be cast as adventures?
+
+This is a spoiler for Ashiok, Nightmare Muse, a planeswalker in the upcoming expansion. Their ult reads:
+
+You may cast up to three face-up cards your opponents own from exile without paying their mana costs.
+
+Certainly, this applies to adventure cards the opponent has exiled by playing them as adventures. 
+The question is, may the controller of Ashiok cast those adventure cards as adventures, or does the restriction to the non-adventure part from exile apply to all players?
+The rules on adventure cards say:
+
+715.3d Instead of putting a spell that was cast as an Adventure into its owner’s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may cast it. It can’t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.
+
+The first half of the third sentence says 
+
+It can’t be cast as an Adventure this way
+
+Does "this way" refer to "anyone casting it from exile", or does it refer to "that player [the player who put it into exile by casting as adventure] casting it from exile"? I am not sure because the second half of the sentence says 
+
+other effects that allow a player to cast it may allow a player to cast it as an Adventure.
+
+which refers to "a player" rather than "that player".
+So does that "other effect" specifically have to allow casting the card as an adventure, i.e. Ashiok would only allow the non-adventure part to be cast?
+
+A:
+
+That ability on Ashiok allows you to cast the Adventure part of the card from exile.
+When a card that is cast as an Adventure resolves and is exiled, it creates a continuous effect that allows you to cast the creature part, and only the creature part, from exile. This is what it means when it says that "it can't be cast as an Adventure this way". 
+Ashiok ability creates a separate effect that allows you to cast that same card. That effect has no restrictions on what types of spells it can cast, so it can cast either the Adventure part or the creature part of that card from exile.
+

@@ -1,0 +1,22 @@
+Q:
+
+If Blightsteel Colossus loses its abilities through an effect like Lignify, can it be put into my graveyard?
+
+If I cast Lignify on my opponent's Blightsteel Colossus and then deal 5 damage to it with one of my creatures, does it go to the graveyard since it has no abilities? Or is this ability regained once it is removed from the field since Lignify is destroyed at the same time?
+
+A:
+
+The Colossus would be put into the graveyard because it doesn't have its "shuffle into its owner's library" ability when replacement effects would be checked.
+At the moment that your Lignified Colossus dies, it's still a 0/4 with no abilities.
+From the comp rules for replacement effects:
+
+614.4. Replacement effects must exist before the appropriate event occurs—they can’t “go back in    time” and change something that’s
+already happened. Spells or abilities that generate these effects
+are often cast or activated in response to whatever would produce the
+event and thus resolve before    that event would occur.
+Example: A player can activate an ability to regenerate a creature in response to a spell
+that would destroy it. Once the spell resolves, though, it’s too late to regenerate the
+creature.
+
+It regains its shuffle ability once it hits your graveyard (since Lignify is gone). But the time for checking replacement effects has already passed. It stays in your graveyard.
+

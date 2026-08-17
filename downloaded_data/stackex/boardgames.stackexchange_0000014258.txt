@@ -1,0 +1,53 @@
+Q:
+
+How do Chromatic Sphere, Archmage Ascension, and Panglacial Wurm interact?
+
+If I have an Archmage Ascension in play with six quest counters and a Panglacial Wurm in my library, and I activate Chromatic Sphere's ability as part of the process of playing another spell, as in rule 601.2f, when do I attempt to start drawing the card? In particular, once the replacement ability takes effect and I instead search my library, can I start casting the Panglacial Wurm while I am still casting the other spell?
+
+A:
+
+can I start casting the Panglacial Wurm while I am still casting the other spell?
+
+Yes. It doesn't matter at all that you are casting another spell[1][2].
+If the game instructs you to cast (or gives you to option to cast) a spell, you must (or can) cast the spell. (And that's the only time you can cast a spell.) Most of the time, the instruction is in the rules, but it's on a card in this case.
+You might say "But I'm casting a creature when the stack isn't empty, and it might not even be my turn." Doesn't matter. Pangalcial Wurm doesn't say "Cast Panglacial Wurm if it's you main phase and the stack is empty" like priority effectively does[3].
+
+You cast the other spell (TOS):
+
+You place TOS on the stack.
+You makes some choices.
+You determine TOS's cost.
+You activate mana abilities:
+
+You activate Chromatic Sphere's ability.
+Chromatic Sphere's resolves immediately:
+
+You add one mana of of the color of your choice to your mana pool.
+You search your library for a card to place in your hand:
+
+You cast Panglacial Wurm:
+
+You place it on the stack.
+You determine the cost to cast it.
+You activate mana abilities.
+You pay the cost to cast it.
+
+You place the card in your hand.
+You shuffle your library
+
+You pay TOS's cost.
+
+[People get to play spells and activate abilities here if they want.]
+Panglacial Wurm resolves:
+
+You place Panglacial Wurm on the battlefield.
+
+[People get to play spells and activate abilities here if they want.]
+TOS resolves
+
+Notes:
+
+Chromatic Sphere's ability is a mana ability, and it's possible to activate mana abilities while casting a spell. Casting a spell (or activating an ability) is to put it on the stack, make some choices (including targets), determine its cost, activate mana abilities, and pay its cost. 
+The stack isn't empty whether you use Chromatic Sphere's ability while casting another spell or not.
+Priority could be defined as "Whenever you gain priority, Choose one — Cast a non-instant spell if it's you main phase and the stack is empty; ...; or pass priority unless all players have passed priority in succession." 
+

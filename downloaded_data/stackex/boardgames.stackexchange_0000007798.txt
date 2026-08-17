@@ -1,0 +1,46 @@
+Q:
+
+What cards can be used to cheat Eldrazi creatures onto the table?
+
+I'm constructing an Eldrazi based deck and I'm thinking about possible ways of getting one onto the table. What I already considered:
+
+Summoning Trap
+Polymorph
+
+Do you know any other cards like these?
+Edit:
+I'm talking about the "big three" Legendary Eldrazi -- Emrakul, the Aeons Torn, Ulamog, the Infinite Gyre, and Kozilek, Butcher of Truth.
+
+A:
+
+I'm assuming you mean the "big three" Legendary Eldrazi -- Emrakul, the Aeons Torn, Ulamog, the Infinite Gyre, and Kozilek, Butcher of Truth. If you want any Eldrazi, like a Pathrazer of Ulamog, you can always use reanimation spells. These three, however, have the persnickety clause:
+
+When {card name} is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
+
+Thus, you have to use instant-speed reanimation, cheat on costs, or hardcast them normally using obscene mana acceleration (which is basically "cheating them out" for most intents and purposes).
+The proven competitive decks that do this are:
+
+Legacy "Sneak and Show," using Show and Tell and Sneak Attack.
+Modern "Tron" decks, using the power of the UrzaTron (Urza's Mine, Urza's Tower, and Urza's Power-Plant, which produce 7 mana from three lands) to hardcast Eldrazi. Basically you use lots of cards like Sylvan Scrying, Expedition Map, or Gifts Ungiven to set up the Tron, and then go crazy with Eldrazi, Karn Liberated, and Wurmcoil Engine. Some of these decks also run Through the Breach as a backup plan.
+Before banning, Modern had "Twelvepost," which used Cloudpost, Glimmerpost, Vesuva, like a faster and more consistent Tron.
+Before banning, Modern also had "Hypergenesis," using cascade tricks to set up a super-fast Hypergenesis.
+Legacy "Elves" is an occasionally-successful but easy-to-hate deck that chains a ton of mana dorks, usually with Glimpse of Nature, to hardcast Emrakul.
+Vintage has "Oath," which uses Oath of Druids (banned in Legacy) to cheat out Eldrazi.
+You can take inspiration from a variety of other decks that access huge amounts of mana, such as "High Tide," "Amulet of Vigor," "Enchantress" (via Serra's Sanctum, mainly), and "MUD" (via Metalworker and Cloudpost). Many of these don't actually need a card like Emrakul to win but sometimes play it anyway because it goes "over the top" of many other strategies.
+
+Other approaches I've seen used (ranked in approximate order of jankiness):
+
+Windbrisk Heights and a lot of weenies.
+Summoning Trap (works well as Plan B in the Windbrisk Heights deck).
+Polymorph and a bunch of token-generating cards like Lingering Souls (which make creatures on the battlefield but aren't creature cards themselves).
+Instant-speed reanimation with Goryo's Vengeance or Shallow Grave. The classic reanimator spells like Exhume or Unburial Rites don't work because the big three shuffle themselves back into your library, but you can still use Goryo's Vengeance in response to the trigger.
+Fist of Suns in a five-color deck, to make them all cost WUBRG.
+Elvish Piper or Quicksilver Amulet.
+
+If you're looking for a top-tier tournament deck, I recommend:
+
+Sneak and Show for Legacy: it was totally the top deck for a while. Main down side is that it was totally the top deck for a while, of course, so many players know how to play against it.
+G/R Tron for Modern. Faster and more consistent than the other Tron decks, and pretty cheap to put together, especially if you already own the Eldrazi. The main down side is that it is pretty weak against some of the other combo decks (like Storm) and hyper-aggressive decks.
+
+If you're looking for a deck to play at "casual" tables, my recommendation is a Windbrisk Heights + Summoning Trap deck. It's still very powerful but not as obviously "unfair" as the tournament combo decks — some players vehemently dislike seeing turn-3 Karn every other game — and the aggressive/midrange creatures give you a decent fallback plan even if the whole table is dedicated to hating out your combo.
+

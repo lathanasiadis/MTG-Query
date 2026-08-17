@@ -1,0 +1,36 @@
+Q:
+
+Does Minas Tirith work with Doors of Durin?
+
+Minas Tirith lets you draw a card (as an activated ability, NOT a trigger) if you attacked with two or more creatures this turn:
+
+1White, Tap: Draw a card. Activate only if you attacked with two or
+more creatures this turn.
+
+Doors of Durin can put a creature into play attacking.
+If Doors of Durin adds a second attacker, will that count for Minas Tirith, or does "attacked with" count only declared attackers?
+To the close voters: This is about a player, not a creature or its triggers.
+
+A:
+
+No. According to the Comprehensive Rules:
+
+508.6 A player is “attacking [a player]” if the first player controls a creature that is attacking the second player. A player has “attacked
+[a player]” if the first player declared one or more creatures as
+attackers attacking the second player.
+
+So two creatures would be attacking for example a player (instead of a Planeswalker or Battle), but you only would have attacked with one creature.
+A separate question about triggers is also explained here:
+
+508.4 If a creature is put onto the battlefield attacking, its controller chooses which defending player or which planeswalker a
+defending player controls it’s attacking as it enters the battlefield
+(unless the effect that put it onto the battlefield specifies what
+it’s attacking). Similarly, if an effect states that a creature is
+attacking, its controller chooses which defending player or which
+planeswalker a defending player controls it’s attacking it becomes
+attacking (unless the effect has already specified). Such creatures
+are “attacking” but, for the purposes of trigger events and effects,
+they never “attacked.”
+
+So "Whenever CARDNAME attacks" triggers don't, "CARDNAME attacked" doesn't, and the full rule is: "you attacked with this instance of CARDNAME".
+

@@ -1,0 +1,17 @@
+Q:
+
+Can negative toughness effects kill a creature?
+
+There are some spells and abilities that subtract from a creature's power/toughness: for example, part of Ulcerate says "Target creature gets -3/-3 until end of turn."
+If the target creature is only a 2/2, is that target destroyed (goes to graveyard) from the -3 toughness given to it? If not what happens, does it stick around with negative toughness?
+
+A:
+
+A creature with 0 or less toughness will be sent to the graveyard immediately, so yes, getting -3/-3 can kill a creature.
+Note that this is not technically being "destroyed", it is a different way of sending the creature to the graveyard. This matters for things like regeneration.
+From the basic MTG rules:
+
+Your creatures go to your graveyard if the damage they’re dealt 
+  in a single turn is equal to or greater than their toughness, 
+  or if their toughness is reduced to 0 or less.
+

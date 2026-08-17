@@ -1,0 +1,18 @@
+Q:
+
+MTG - Does Jhoira grant suspend indefinitely?
+
+When playing Jhoira of the Ghitu and using her ability, it says if the card doesn’t have suspend, it gains suspend.
+Once it’s cast and hits the battlefield, and an opponent exiles it, would I be able to use something like Jhoira’s Timebug to put a time counter on it, since it “gained” the suspend ability back when I activated Jhoira’s ability?  Does that ability remain on the card through zone changes?
+
+A:
+
+No. When the card moves onto the stack and again onto the battlefield, it becomes a new object that does not retain anything from the card that was in exile, including abilities granted to it:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. This rule has the following exceptions.
+
+Some of the exceptions involve the card moving to the stack, but not retaining abilities as it moves to the battlefield.
+Note also that even if it did have suspend, Jhoira’s Timebug wouldn’t help, because it only works if the target already has a time counter, and also a card with suspend is not “suspended” unless it has a time counter.
+
+702.62b A card is “suspended” if it’s in the exile zone, has suspend, and has a time counter on it.
+

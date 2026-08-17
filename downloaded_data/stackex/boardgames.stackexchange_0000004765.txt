@@ -1,0 +1,15 @@
+Q:
+
+Can Clockspinning from Time Spiral be used to remove infect or poison counters?
+
+I believe the answer is that Leeches is the only appropriate card for removing poison counters from players, based on this question, but I'll ask anyway since I have observed this card posted elsewhere as an answer to poison counters.
+Can cards which remove counters, such as Clockspinning, be used to remove poison counters or is Leeches the only appropriate response?  What about the same question but targeting the -1/-1 counters on creatures?
+
+A:
+
+The Magic comprehensive rules state that:
+
+110.1. A permanent is a card or token on the battlefield. A permanent remains on the battlefield indefinitely. A card or token becomes a permanent as it enters the battlefield and it stops being a permanent as it's moved to another zone by an effect or rule.
+
+As a player is neither a card nor a token, and a player is certainly not on the battlefield, Clockspinning can not target a player and thus can not be used to remove poison counters. It can, of course, be used to remove -1/-1 counters on creatures that was caused by infect damage.
+

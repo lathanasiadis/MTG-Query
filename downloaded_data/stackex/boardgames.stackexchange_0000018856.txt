@@ -1,0 +1,29 @@
+Q:
+
+Polymorphous Rush targeting Young Pyromancer and X Tokens
+
+If I cast Polymorphous Rush targeting X tokens, turning them all into copies of a Young Pyromancer, do I get an elemental token from each copy, similar to Scapeshift with Valakut on the battlefield?
+
+A:
+
+Young Pyromancer's trigger happens when you first cast a spell, which in this case is before Polymorphous Rush will resolve and create more copies. At the time that Polymorphous Rush was cast, there was only 1 Young Pyromancer around, so that it the only trigger that there is.
+The stack would look like this:
+A: (Cast Polymorphous Rush)
+Stack:
+-Polymorphous Rush
+
+B: (Young Pyromancer triggers from spell being cast)
+Stack:
+-Young Pyromancer's triggered ability
+-Polymorphous Rush
+
+C: (Players pass priority; Young Pyromancer's triggered ability resolves; red elemental token enters battlefield)
+Stack:
+-Polymorphous Rush
+
+D: (Players pass priority; Polymorphous Rush resolves; targeted creatures become copy of Young Pyromancer):
+Stack:
+-(Empty)
+
+As you see, when the other Pyromancers are all created, there is no spell being cast at that point; Polymorphous Rush was already cast. You would need to cast another spell after this in order to trigger all the new Young Pyromancers.
+

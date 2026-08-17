@@ -1,0 +1,34 @@
+Q:
+
+How does Cairn Wanderer work outside the battlefield?
+
+I'm a little unclear on how the wording of Cairn Wanderer applies when it is not on the battlefield (e.g. when it's in exile or in the graveyard itself).
+The wording is:
+
+As long as a creature card with flying is in a graveyard, Cairn Wanderer has flying. The same is true for fear, first strike, double strike, deathtouch, haste, landwalk, lifelink, protection, reach, trample, shroud, and vigilance.
+
+So if there is a Vampire Nighthawk in the graveyard, and Cairn Wanderer is in any zone other than the battlefield, will it have Flying, Deathtouch and Lifelink?
+
+A:
+
+Cairn Wanderer's ability functions only on the battlefield. In any other zone it has none of those keyword abilities at all.
+Here's how we find out
+It's a static ability, so from CR 604: Handling Static Abilities we see:
+
+604.2 Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 113.6.
+
+This points us to rule 113.6, which is the rule that tells us when abilities can actually function.
+
+113.6 Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+So Cairn Wanderer's ability functions only on the battlefield, unless it meets one of those (many) exceptions.
+The closest we might get is a characteristic-defining ability:
+
+113.6a Characteristic-defining abilities function everywhere, even outside the game. (See rule 604.3.)
+
+This points us to rule 604.3 which defines characteristic-defining abilities. It helps us identify them with some criteria, all of which must be met:
+
+604.3a A static ability is a characteristic-defining ability if it meets the following criteria: (1) It defines an object’s colors, subtypes, power, or toughness. [and some other criteria which don't matter at this stage]
+
+Since it doesn't do those things, and instead defines abilities, it's not a characteristic-defining ability. It doesn't meet any of the other exceptions from 113.6 either. Therefore, this static ability functions only on the battlefield.
+

@@ -1,0 +1,16 @@
+Q:
+
+Eye of the Storm and Kicker Costs
+
+If Rite of Replication is exiled with Eye of the Storm, can people pay the kicker cost to still get 5 tokens?
+
+A:
+
+Yes, you can pay the kicker costs for the each copy if you want the extra tokens.
+Some cards copy spells on the stack directly. You cannot choose to pay kicker for those spells, the choice and additional costs are copied from the original.
+In this case, however, the whole card is copied, and you may cast it as a new spell without paying its mana cost. In that case, you are free to decide whether or not to pay the kicker costs, which are additional costs and have nothing to do with the spell's mana costs:
+
+702.32a Kicker is a static ability that functions while the spell with kicker is on the stack. “Kicker [cost]” means “You may pay an additional [cost] as you cast this spell.” Paying a spell’s kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+
+Note that you may also pay the kicker costs for the original Rite, but that would be a waste of mana, because the original is exiled and does not resolve. Neither paying nor not paying the kicker on the original Rite has any effect on the copies.
+

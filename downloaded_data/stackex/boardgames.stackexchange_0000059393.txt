@@ -1,0 +1,11 @@
+Q:
+
+Can I choose 0 targets for Terror of the Peaks?
+
+My Terror of the Peaks triggers when my creatures entered the battlefield. My opponent responds to the trigger with Teferi's Protection and phases out along with his board. Can I submit 0 targets or, must I choose one of own creatures/myself?
+
+A:
+
+If they cast Teferi's Protection in response to the triggered ability, then you have already chosen the target of that ability. Teferi's Protection can make the chosen target invalid, and the result is that the ability deals no damage.
+However, if they instead cast Teferi's Protection in response to the creature spell, then Terror of the Peaks' ability will not trigger until after they have phased their permanents out and gained protection from everything. In that case, by the time you choose targets for the triggered ability, the only valid targets are you and your permanents, and you must choose one of them.
+

@@ -1,0 +1,49 @@
+Q:
+
+Do I know which card an opponent revealed?
+
+When an opponent reveals a card in their hand, are players supposed to know when that card changes zones?
+My instinct says no because
+
+400.5. The order of objects in a library, in a graveyard, or on the stack can’t be changed except when effects or rules allow it. The same is true for objects arranged in face-down piles in other zones. Other objects in other zones can be arranged however their owners wish, although who controls those objects, whether they’re tapped or flipped, and what other objects are attached to them must remain clear to all players.
+
+However, rearranging objects doesn't necessarily mean making your opponent lose track of them. In MTG Arena, a card revealed is shown face up in your opponent's hand at all times. Thus, you know if the card leaves their hand. A good practical example of this mattering might be:
+Your opponent returns shock from their graveyard to their hand. Later, they draw one or more cards, then cast shock. They either A) cast the shock that was revealed, or B) drew another shock and cast it.
+A savvy player will probably cast the one that was revealed, but some players may accidentally cast the recently drawn one instead. In MTG Arena, I would know if this is the case, because there would be a shock on the stack, and a shock card revealed in their hand.
+In normal Magic, is there supposed to be a way of remembering which one the revealed card is? Or is this a place where the gameplay of MTG Arena differs from regular MTG?
+
+A:
+
+You only know a revealed card for the duration that it remains revealed.
+The example of Shock moving from the graveyard to the hand is a bit nuanced (since the card isn't technically revealed, mechanically), so I'm going to start with a more direct representation of the question and move from there. Let's say you cast a card like Thoughtseize which causes your opponent to reveal their hand. In MTG Arena, this is represented by the game revealing all of those cards to you from that point onward. However, that's not quite feasible in paper Magic - in the vast majority of cases, you'll pick a card for your opponent to discard, and then they'll go back to holding their hand towards themselves. That is, even though the information was revealed to you, by default you don't continue to be able to see those cards. It would be impractical for the opponent to hold newly drawn cards in their hand and simultaneously have those previously revealed cards lying on the table, for example. The information is known, but it's up to you to remember what that information was.
+When I was playing Standard regularly (circa Theros) and my opponents cast Thoughtseize targeting me, I would show my opponent my hand, and they would use a notepad to write down the cards that they saw. Later, as I played those cards, they would scratch off the name of the card that I played if it was in that list. This, I believe, is what the functionality of MTG Arena seeks to emulate. Knowing that information was revealed to you, but misremembering it, feels bad. Arena can leverage its nature as a computer game to assist you with that, by making sure that you don't forget what cards were revealed. (There are other aspects it helps you with, too -- in real life, the cards you can cast don't glow.)
+Rule-wise, of particular interest are the rules for revealing cards:
+
+701.15a To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed
+  for as long as necessary to complete the parts of the effect that card
+  is relevant to. If the cost to cast a spell or
+  activate an ability includes revealing a card, the card remains
+  revealed from the time the spell or ability is announced until the
+  time it leaves the stack. If revealing a card causes a
+  triggered ability to trigger, the card remains revealed until that
+  triggered ability leaves the stack. If that ability isn’t put onto the
+  stack the next time a player would receive priority, the card ceases
+  to be revealed.
+701.15b Revealing a card doesn’t cause it to leave the zone it’s in.
+701.15c If cards in a player’s library are shuffled or otherwise reordered, any revealed cards that are reordered stop being revealed
+  and become new objects.
+
+The phrasing of 701.15a makes it pretty clear that a revealed card is only revealed for a short amount of time, and then ceases to be a revealed card. You know what the card is because it was revealed, and can do whatever you want with that information (such as write it down), but it doesn't stay revealed after that. By extension, cards moving from a public zone to a hidden zone (rule 400.2) work very much the same way. Everyone is allowed to know what that card is as it moves into the zone, but after that, it becomes hidden.
+Some relevant excerpts from Rule 400 regarding public and hidden zones:
+
+400.2 Public zones are zones in which all players can see the cards’ faces, except for those cards that some rule or effect specifically
+  allow to be face down. Graveyard, battlefield, stack, exile, ante, and
+  command are public zones. Hidden zones are zones in which not all
+  players can be expected to see the cards’ faces. Library and hand are
+  hidden zones, even if all the cards in one such zone happen to be
+  revealed.
+[...]
+400.7 An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+To use your example, let's say your opponent uses Call to Mind to return Shock from their graveyard to their hand. During the announcement of the spell (rule 601.2c), they would choose the target for it - Shock. Because the card is targeted, everyone inside and outside the game knows which spell is going back to their hand. As soon as Call to Mind resolves, the Shock is moved to their hand, where it becomes hidden along with all the other cards they hold. You know what card it is, but it is now part of a hidden zone, and there are no other effects requiring the card to remain revealed. You don't get to see it once it's back in their hand.
+

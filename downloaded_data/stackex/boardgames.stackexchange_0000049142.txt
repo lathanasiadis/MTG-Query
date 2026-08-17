@@ -1,0 +1,37 @@
+Q:
+
+Can Zombify target a creature card that isn't in the graveyard?
+
+Zombify (and many similar cards like it) says: 
+
+Return target creature card from your graveyard to the battlefield.
+
+As far as I can tell from the wording, the actual targeting requirement is "creature card". Does this mean that you can cast Zombify, targeting a creature card that isn't in your graveyard? Of course if you can, then when it resolves it would do nothing, because it is impossible to return a card from the graveyard if it isn't in the graveyard [101.3]. But there are plenty of reasons you might want to cast a spell that has no effect.
+Or is the targeting requirement is actually meant to be "target creature card from your graveyard"? This doesn't sound right to me; because if so, it should be "in your graveyard" instead of "from your graveyard" (as is used on other cards like Animate Dead.
+Related; if the targeting requirement is in fact "target creature card", then what actually makes a creature card in your graveyard a legal target? Rule 115.2 says:
+
+Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, or (b) targets an object that can’t exist on the battlefield, such as a spell or ability. See also rule 115.4.
+
+Does Zombify actually "specify that it can target an object in another zone"? It doesn't in the targeting requirements itself.
+I can't find anything within the rules for targeting (115) or the rules for casting a spell (601.2c) that say that the ability a spell would have when resolving can or will affect the choice of legal targets. From a logical gameplay point of view, we can know that the card only makes sense if it allows you to target cards in your graveyard; but do the rules ever make it so that you have to look at the effect of a spell to know the set of legal targets?
+The rules for abilities have a related rule about when abilities apply; but they don't deal with targets:
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+The list of exceptions explain why Reassembling Skeleton's activated ability can be activated while it is in the graveyard. Is there a rule similar to this, but dealing with what objects are legal targets?
+
+A:
+
+I think that the reading of 115.2 you mentioned above is just too narrow.  Reposting it again:
+
+115.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object
+  in another zone or a player, or (b) targets an object that can’t exist
+  on the battlefield, such as a spell or ability. See also rule 115.4.
+
+115.2 specifies that only permanents are legal targets for spells or abilities unless another zone is specified (or implied by the object type).  This implies one of two things is true:
+
+It can only target creature cards that are currently permanents on the battlefield, and the card doesn't actually function at all.
+"target [object] from [zone]" as a wording template does include a zone as part of the targeting requirements.
+
+Because of how 115.2 is worded, there is not another option where it can target a creature card anywhere.  Either it can only target permanents, or its zone is specified (or implied by the type of object as in (b)).  Since the card does currently function, we have to assume that this is considered adequate language for specifying a zone as a part of targeting requirements.
+

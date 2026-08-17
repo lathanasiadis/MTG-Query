@@ -1,0 +1,22 @@
+Q:
+
+If I turn a token creature into an enchantment aura, can I choose to attach it to something or does it just go to the graveyard?
+
+I'm thinking of using Replication Technique to make a token copy of an aura in conjunction with something like Brudiclad, Telchor Engineer to create a bucket load of copies of of that same aura through the liberal abuse of token generation.
+Since these auras aren't actually entering the battlefield would I be able to attach them to anything?
+
+A:
+
+You can copy auras through Replication Technique, have them enchant something, and copy them through Brudiclad. However, the tokens turned into auras by Brudiclad will die immediately.
+Replication Technique creates a token aura. An aura that enters the battlefield through any means other than resolving an aura spell enters the battlefield attached to a legal target of your choice:
+
+303.4f If an Aura is entering the battlefield under a player’s control by any means other than by resolving as an Aura spell, and the effect putting it onto the battlefield doesn’t specify the object or player the Aura will enchant, that player chooses what it will enchant as the Aura enters the battlefield. The player must choose a legal object or player according to the Aura’s enchant ability and any other applicable effects.
+
+However, if you change an existing permanent's subtype to aura through Brudiclad, that permanent did not enter the battlefield at that time. The aura will not attach to anything and go to their owner's graveyard as a state-based action:
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+The state-based action referred to in 303.4c is:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+

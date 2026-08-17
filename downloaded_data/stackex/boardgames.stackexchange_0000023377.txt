@@ -1,0 +1,11 @@
+Q:
+
+When does "at the beginning of the next end step" trigger?
+
+When casting a creature for its the Dash cost, will the creature return on the same turn's end step or the next turn's end step?
+
+A:
+
+The phrase "at the beginning of the next end step" means "the next time an end step begins." So, after you play a creature with Dash, when an end step starts, the creature returns to your hand. Usually, this means that it returns to your hand at the beginning of the end step on the turn when you played it. However, if you somehow play it during an end step, it won't return until the following turn's end step because that is the next time that an end step begins after you play the creature.
+Note that it doesn't say "your next end step," so if you play it during your own end step, it returns to your hand at the end of your opponent's end step.
+

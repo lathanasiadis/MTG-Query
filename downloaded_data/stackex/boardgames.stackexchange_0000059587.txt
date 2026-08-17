@@ -1,0 +1,25 @@
+Q:
+
+Does blinking Pantlaza, Sun-Favored reset the once per turn?
+
+I know that usually a blink will reset a once per turn effect, but Pantlaza, Sun-Favored is worded a little different than I'm used to.
+Here's the scenario: I cast Pantlaza, Sun-Favored , and resolve the discover into an Ephemerate. I cast the Ephemerate targeting Pantlaza, Sun-Favored. Do I get to discover again?
+One of the things that makes me question this is
+
+603.2i A triggered ability may have an instruction followed by “Do this only once each turn.” This ability triggers only if its source’s controller has not yet taken the indicated action that turn.
+
+Even if the "source" becomes a new object, the "indicated action" has already been done this turn so maybe it wouldn't trigger? Although, that would also break clones, and I'm pretty sure clones should trigger.
+
+A:
+
+Yes, blinking Pantlaza allows the ability to trigger again.
+The card Riveteers Ascendancy has this ability
+
+Whenever you sacrifice a creature, you may return target creature card with lesser mana value from your graveyard to the battlefield tapped. Do this only once each turn.
+
+and this ruling:
+
+“Do this only once each turn” refers only to the ability it is attached to, not other instances of the same ability. In other words, if you control multiple copies of Riveteers Ascendancy, you will be able to do this once for each of them.
+
+When you exile a permanent and then return it to the battlefield, it is a completely separate object, so its ability is a separate instance of the same ability. That means that the "Do this only once each turn" clause refers to the new instance separately, and the ability of the newly entering permanent can trigger again.
+

@@ -1,0 +1,67 @@
+Q:
+
+Will I die if I lose enough life to kill me from an effect that also heals me?
+
+What happens if I dip below 1 life from an effect that will also heal me after the damage is dealt?
+For example:
+
+If I bolt myself while I'm at 3 or less with a Soulfire Grand Master on the board?
+
+Will I die while at 3 or less if I -2 Ajani Vengeant, targeting myself?
+
+Will I die if a creature with my Armadillo Cloak on it damages me?
+
+Will I die if I target myself with enough damage to 'kill' me with a Corrupt?
+
+and so on and so forth.
+You get the idea.
+I'm pretty sure there's a relatively simple answer that I just don't know about.
+
+A:
+
+TL;DR: You survive if the damage and the life gain happen during the resolution of a single spell or ability. If the damage happens in one ability, and the life gain happens in a later one, you lose in between.
+In all of your situations except for the third (the one with Armadillo Cloak), you will survive. This is because in all of those cases, in every way that matters, the damage and life gain happens at the same time. In the Armadillo Cloak situation, you take the damage, then Armadillo Cloak triggers, then you die before you get the life.
+First, a subtle point that is relevant here is that having 0 life does not immediately cause you to lose. The way it works is that there is something called State-based actions, which are checked whenever any player has priority (basically, whenever a player has an opportunity to cast spells or activate abilities). This happens all the time, but the important point for this question is that it does not happen in the middle of resolving a spell or ability. One of those State-based actions is to check each player's life total; if they are at 0 life, they lose.
+I'll go through each case in more detail:
+Soulfire Grand Master
+Soulfire Grand Master's relevant ability says
+
+Instant and sorcery spells you control have lifelink.
+
+and the rules for lifelink say
+
+Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes).
+
+So, when your Lightning Bolt (with lifelink) resolves, it deals you 3 damage (which causes you to lose 3 life) and it also causes you to gain 3 life. When the spell resolves and state-based actions are checked, you are still at 3 life, so you survive.
+Ajani Vengeant
+The relevant ability here says
+
+Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
+
+This is the same situation as before. When the ability resolves, it deals you 3 damage (which causes you to lose 3 life), and also causes you to gain 3 life. Again, by the time it resolves and state-based actions are checked, you have 3 life, so you survive.
+Armadillo Cloak
+This is the interesting situation because it is different from the others. Its relevant ability is
+
+Whenever enchanted creature deals damage, you gain that much life.
+
+This is different because it is a triggered ability. Rule 603, in part, says
+
+603.1 Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+603.2 Whenever a game event or game state matches a triggered ability's trigger event, that ability automatically triggers. The ability doesn't do anything at this point.
+603.3 Once an ability has triggered, its controller puts it on the stack as an object that's not a card the next time a player would receive priority. See rule 116, "Timing and Priority." The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it's countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+
+The condition on Armadillo Cloak's ability is that the creature deals damage. The effect is that you gain that much life. So, when you get attacked by an opponent's creature enchanted with your Armadillo Cloak, it plays out like this:
+
+The creature deals combat damage to you. Armadillo Cloak's ability triggers (from the second rule).
+State-based actions are checked. You die because you have 0 life.
+If you were still alive, Armadillo Cloak's ability would be put on the stack.
+If you were still alive, Armadillo Cloak's ability would resolve, and you would gain the life.
+
+As you can see, you are dead well before Armadillo Cloak would be able to help you. (Note: the ordering between 2 and 3 is specified in rule 704.3)
+Corrupt
+Corrupt's text says
+
+Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.
+
+You would survive this for the same reason you survive the first two: both the damage and the life gain happen before state-based actions are checked.
+

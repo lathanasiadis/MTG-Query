@@ -1,0 +1,26 @@
+Q:
+
+How does the wording "for each" work?
+
+Some cards in magic has something happen for each {something}. For instance: Alive // Well makes you gain 2 life for each creature you control. Tapping Selvala adds one green mana to your mana pool, and you gain 1 life for each non-land card revealed.
+How is this life gained: all at once or "one bit" at a time? Say I tap Selvala and 1 land, and 2 non-lands are revealed: do I gain 2 life, or do I gain 1 life two times? Would Ajani's Pridemate have one or two +1/+1 counters placed on it if I had it in play at that point?
+
+A:
+
+How is this life gained: all at once or "one bit" at a time?
+
+Count the verbs. There is only one instruction to gain life, so all the life is gained simultaneously.
+
+608.2e Some spells and abilities have multiple steps or actions, denoted by separate sentences or clauses, that involve multiple players. In these cases, the choices for the first action are made in APNAP order, and then the first action is processed simultaneously. Then the choices for the second action are made in APNAP order, and then that action is processed simultaneously, and so on. See rule 101.4.
+
+Life Burst has two instructions to gain life (two verbs), so there would be two life gain events.
+
+Would Ajani's Pridemate have one or two +1/+1 counters placed on it if I had it in play at that point?
+
+Since all life is gained simultaneously and it all came from the same source, there is only one life gain event, so it would only trigger once.
+Note that if you simultaneously gained life from multiple sources, that would count as multiple life gains events, and the ability would trigger multiple times.
+
+118.9. Some triggered abilities are written, "Whenever [a player] gains life, . . . ." Such abilities are treated as though they are written, "Whenever a source causes [a player] to gain life, . . . ." If a player gains 0 life, no life gain event has occurred, and these abilities won’t trigger.
+
+That applies very narrowly to life gain. It doesn't apply to taking damage. For example, if Boros Reckoner is simultaneously dealt damage from two sources, its ability will only trigger once. It would need the wording of Nested Ghoul's ability to be triggered twice.
+

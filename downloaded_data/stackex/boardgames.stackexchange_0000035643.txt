@@ -1,0 +1,33 @@
+Q:
+
+Spell with no chosen targets
+
+Bit of a strange one - sorry. My question is: is the following correct?
+Sacred Excavation is a sorcery which says:
+
+Return up to two target cards with cycling from your graveyard to your hand.
+
+If I cast it choosing no targets, to return no target cards to my hand, then Rule 608.2b states:
+
+… The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal.
+
+It's vacuously true that every target of my spell is illegal: there are no targets, so every target is the King of France, and every target is legal, and every target is illegal. So Sacred Excavation is countered.
+The effect is the same as if it had resolved, except in some very niche edge cases - "when something is countered" effects would trigger, and anything spliced onto that spell would not happen, for instance.
+
+A:
+
+It does not work like that. The spell will not be countered. It will resolve and it will do nothing.
+This is explicitly stated in Oracle rulings on cards where the difference matters more: spells that affect "up to [some number] of target..." and also have another effect. Adverse Conditions, for example, has the following ruling:
+
+You can cast Adverse Conditions with no targets. When it resolves, you’ll get an Eldrazi Scion. However, if you cast Adverse Conditions with any targets and all of those targets are illegal as it tries to resolve, it will be countered and none of its effects will happen. You won’t get the Eldrazi Scion in that case.
+
+Note that the beginning of the rule quoted in the question, 608.2b, says
+
+If the spell or ability specifies targets, it checks whether the targets are still legal...
+
+and rule 114.5 says
+
+Spells and abilities that can have zero or more targets are targeted only if one or more targets have been chosen for them.
+
+I think that saying that a spell "specifies targets" is the same as saying that it "is targeted", and I would conclude that the procedure in rule 608.2b is intended to be performed only on spells for which one or more targets have been chosen.
+

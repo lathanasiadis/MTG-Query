@@ -1,0 +1,41 @@
+Q:
+
+Spell proposal and hidden information
+
+Forgive me if this has been asked elsewhere - if it has, my google-fu has failed me.
+CR 601. Casting Spells handles the process of moving a card from the player's hand, a hidden zone, to the stack, a public zone. Specifically, the process is:
+
+601.2a-d: propose the casting of the spell by moving it to the stack and announcing modes, targets, etc.
+601.2e: game checks the legality of the proposition, reversing if the spell is illegal to cast.
+602.f-h: Costs are paid. This includes an opportunity for the player to activate mana abilities to pay associated mana costs.
+
+Case 1 - Mistimed casting of Emry, Lurker of the Loch
+Consider the case of a player attempting to cast Emry, Lurker of the Loch in a mistimed manner. Player has 2 colorless lands and a Chromatic Star. What the player wants to do is propose the casting of the spell, let 601.2a-d check the legality of the spell, let 601.2f apply cost reduction, then crack the Star to cover the colored mana of the spell.
+What the player actually does is crack the Star for {U}, then propose the casting of Emry. The spell cannot legally be cast because the play is unable to produce enough mana to cast the spell, and the game reverts to the state immediately before the proposal.
+Case 2 - Cast Down on an illegal target
+Consider too the (simpler) case of a player attempting to cast Cast Down on a Smuggler's Copter) that the player did not realized was uncrewed and thus not a creature.
+My instinct is that because step 1 in this whole process is to move the card to the stack, the card is revealed to all players regardless of whether or not it is actually legal to cast. Is that correct?
+(I'm aware that there are probably tournament rules prohibiting a player from doing this intentionally - players are responsible for maintaining the game state after all. I'm interested in how the rules engine outlined in CR handles this)
+
+A:
+
+A strict reading of these rules actually gives two different answers for the two cases.
+Case 1: A spell you can't afford
+Rule 601.2 says, in part
+
+A player must be legally allowed to cast the spell to begin this process (see rule 601.3).
+
+So, the answer to the question "what if I start casting a spell that I definitely can't finish casting?", according to the Comprehensive Rules, is "you're not allowed to do that".
+Now, in a slightly different scenario it is possible to start casting a spell without knowing whether you can afford it. For example, you may control Selvala, Explorer Returned, and if you wait to activate it until step 601.2g, you can discover at that time that you don't have enough mana to finish casting the spell. In that case, this part of 601.2 applies:
+
+If a player is unable to comply with the requirements of a step listed below while performing that step, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed.
+
+In that case, the game acknowledges that it is possible to reach that state, and the result is that the game is rewound. In reality, the player did still take those steps, including putting the card on the stack and letting everyone see it.
+Case 2: An invalid target
+Rule 601.2c says, in part
+
+The player announces their choice of an appropriate object or player for each target the spell requires.
+
+So, if you try to cast a spell and cannot chose valid targets for it, the situation is the same as the first one: according to the rules, you were never supposed to try to do that in the first place.
+However, if you do have other valid targets, then by a strict reading of the rules you must choose them. There is nothing in the rules that allows a player to rewind if the target they intended to choose when they started casting the spell isn't a valid target.
+

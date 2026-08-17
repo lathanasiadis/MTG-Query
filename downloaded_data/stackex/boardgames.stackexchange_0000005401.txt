@@ -1,0 +1,50 @@
+Q:
+
+When is "end of turn" in Magic?
+
+I've been casually playing Magic with a friend, about twice a month, for the last 3 months, and the phrase "until end of turn" has always puzzled me, particularly on effects that give +1/+1 (for example, shades). Whose end of turn is meant by the ability? 
+For example, imagine I used a shade's ability to boost it from 2/2 to 4/4 during my attack phase, and it were blocked, taking 2 damage. Will its toughness drop down to 2, and its health respectively to 0, the moment the enemy turn begins, or will it remain at 4 toughness and 2 health until the end of my enemy's turn and thus undergo regeneration? What if the same situation occurred, except the ability used was not the shade's ability, but Giant Growth?
+
+A:
+
+In modern-day Magic rules, every player's turn has a phase called the "end phase".
+The last step of the end phase is to remove all "until end of turn" effects and all damage simultaneously. So your Shade will heal up and shrink down at the same time, allowing it to stay alive.
+Here's the definition from the comp rules (with a summary below):
+
+512. Ending Phase
+512.1. The ending phase consists of two steps: end and cleanup.
+513. End Step
+513.1. First, all abilities that trigger “at the beginning of the end step” or “at the beginning of the next
+         end step” go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+513.1a Previously, abilities that trigger at the beginning of the end step were printed with the trigger
+             condition “at end of turn.” Cards that were printed with that text have received errata in the
+             Oracle card reference to say “at the beginning of the end step” or “at the beginning of the next
+             end step.”
+513.2. Second, the active player gets priority. Players may cast spells and activate abilities.
+513.3. If a permanent with an ability that triggers “at the beginning of the end step” enters the
+         battlefield during this step, that ability won’t trigger until the next turn’s end step. Likewise, if a
+         delayed triggered ability that triggers “at the beginning of the next end step” is created during this
+         step, that ability won’t trigger until the next turn’s end step. In other words, the step doesn’t “back
+         up” so those abilities can go on the stack. This rule applies only to triggered abilities; it doesn’t
+         apply to continuous effects whose durations say “until end of turn” or “this turn.” (See rule 514,
+         “Cleanup Step.”)
+514. Cleanup Step
+514.1. First, if the active player’s hand contains more cards than his or her maximum hand size    (normally seven), he or she discards
+  enough cards to reduce his or her hand size to that number.    This
+  turn-based action doesn’t use the stack.
+514.2. Second, the following actions happen simultaneously: all damage marked on permanents    (including phased-out permanents) is removed
+  and all “until end of turn” and “this turn” effects end.    This
+  turn-based action doesn’t use the stack.
+514.3. Normally, no player receives priority during the cleanup step, so no spells can be cast and no    abilities can be activated.
+  However, this rule is subject to the following exception:
+514.3a At this point, the game checks to see if any state-based actions would be performed and/or
+         any triggered abilities are waiting to be put onto the stack (including those that trigger “at the
+         beginning of the next cleanup step”). If so, those state-based actions are performed, then those
+         triggered abilities are put on the stack, then the active player gets priority. Players may cast
+         spells and activate abilities. Once the stack is empty and all players pass in succession, another
+         cleanup step begins.
+
+So, when neither you or your opponent(s) have any more actions to take during your post-combat main phase, the game goes to the end phase. First you deal with any "at the beginning of the end step" triggers, and players get a last chance to cast Instants and activate abilities -- so this gives your opponent one last chance to, say, Lightning Bolt the Shade, although if you have mana open you will be able to pump it up or Giant Growth it in response, as usual.
+Then, you go to cleanup, which is like the real end of your turn. First, if it's your turn that's ending, you discard any cards above your maximum hand size (normally 7); note that you'll never need to discard at the end of someone else's turn. Then all damage is erased and all "until end of turn" effects expire simultaneously. In your example, this means the Shade would go from being a pumped-up 4/4 creature with 2 damage marked on it to its normal 2/2 self with 0 damage marked on it. There is never a time when your creature's "until end of turn" effects will expire with damage still on the creature.
+(If you played a special card that says "end the turn", like Sundial of the Infinite, then "at the beginning of the end step" triggers won't take effect at all this turn, but you still do the cleanup stuff like discarding down to 7 and removing damage and "until end of turn" effects.)
+

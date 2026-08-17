@@ -1,0 +1,14 @@
+Q:
+
+What happens to a spell that is cast with flashback when it gets countered by a Remand?
+
+I know if a spell that has been cast with flashback is countered with a regular counter it is still exiled, but what about cards that return the card to the hand like Venser or Remand or even a counter that returns the card to the top of the library like  Memory Lapse?
+Where does the flash-backed spell go then?
+
+A:
+
+A spell that was cast using Flashback will always be exiled, no matter how it left the stack
+
+702.33. Flashback
+702.33a Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player’s graveyard and another that functions while the card is on the stack. “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.” Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.
+

@@ -1,0 +1,19 @@
+Q:
+
+Multiple blockers with first strike
+
+Scenario:
+Player A attacks with a 6/6 creature.
+Player B assigns TWO blockers to block the 6/6 creature, each is 3/3 with first strike.
+Which of these happens?
+
+B's first strike blockers deal their damage first, destroying A's larger creature before it deals any damage
+Each blocker must take its turn blocking. So the first 3/3 blocker does first strike damage, then dies. Then the second blocker does first strike damage, and lives. 
+
+A:
+
+1. The 6/6 will die, and the 3/3s won't take any damage.
+
+In the first strike Combat Damage Step, both 3/3 deal three damage to the attacker. It is destroyed shortly after for having marked damage matching its toughness. The 6/6 won't be around in the normal damage Combat Damage Step to deal damage to the 3/3s, so they'll survive intact.
+If the attacker was a 7/7, it would survive the first strike Combat Damage Step and a second Combat Damage Step would get created for the remaining creatures (the 7/7) to deal their damage (destroying the blockers).
+

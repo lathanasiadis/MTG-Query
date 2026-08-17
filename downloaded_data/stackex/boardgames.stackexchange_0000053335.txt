@@ -1,0 +1,28 @@
+Q:
+
+Moss-Pit Skeleton and Skyclave Shadowcat - sacrificing as cost of a triggered ability and triggering another ability when the first one resolves
+
+Suppose Alice has Moss-Pit Skeleton and Skyclave Shadowcat in game and Bob has a Kazandu Stomper (or some other strong creature, it does not matter).
+It is Bob's turn and he attacks with his Kazandu Stomper. In return Alice blocks with Moss-Pit Skeleton. After blocking and before damage is dealt she wants to sacrifice Moss-Pit Skeleton to Skyclave Shadowcat (knowing that Kazandu Stomper stays blocked but no damage is dealt and Kazandu Stomper isn't damaged nor killed, that does not matter here). Her plan is the following (and here is my question, i want to get sure whether i understood everything correctly):
+
+Skyclave Shadowcat's first ability is activated, mana is paid and Moss-Pit Skeleton is sacrificed as additional cost of this ability.
+Moss-Pit Skeleton is placed in her graveyard because of the cost of Skyclave Shadowcat's first ability.
+Skyclave Shadowcat's second ability is triggered, as Moss-Pit Skeleton had +1/+1 counters on it and Alice therefore draws a card.
+Skyclave Shadowcat's first ability resolves and it gets a +1/+1 counter.
+A +1/+1 counter is put on one of Alice's creatures and Moss-Pit Skeleton is in her graveyard, therefore Moss-Pit Skeleton's last ability triggers and Alice can put it on top of her library.
+
+I am especially unsure about the last point. In short: Is it possible in this case to sacrifice Moss-Pit Skeleton as part of the activated ability cost of Skyclave Shadowcat and directly afterwards put Moss-Pit Skeleton on top of the library when the activated ability of Skyclave Shadowcat resolves? Or is there some waiting mechanism that places Moss-Pit Skeleton only in the graveyard after the ability of Skyclave Shadowcat is finished?
+In even shorter: Is Alice in this case allowed to put Moss-Pit Skeleton on top of her library?
+
+A:
+
+Moss-Pit Skeleton can go back to your library after the ability resolves.
+You are correct in saying that the ability on Skyclave Shadowcat includes sacrificing a creature as part of the cost.  The Skeleton would go to your graveyard and then the ability to put a +1/+1 counter on Shadowcat will go on the stacke.  At this point, both players would have to pass priority in order for the ability to resolve.  Note that the +1/+1 counter has not gone on Shadowcat yet but the Skeleton has already entered the graveyard.
+Once the ability resolves, Skeleton is in your graveyard and therefore it's ability would trigger, allowing you to put it on top of your library.
+
+Just to point out in your example, however.  Your statement
+
+After blocking and before damage is dealt she wants to sacrifice Moss-Pit Skeleton to Skyclave Shadowcat (knowing that Kazandu Stomper stays blocked but no damage is dealt and Kazandu Stomper isn't damaged nor killed, that does not matter here)
+
+If you replace Kazandu Stomper with a generic 6/5 creature, this statement would be correct.  However, Kazandu Stomper has Trample.  This changes how combat damage is dealt, and therefore Kazandu Stomper would still do 6 damage to you if it was attacking.
+

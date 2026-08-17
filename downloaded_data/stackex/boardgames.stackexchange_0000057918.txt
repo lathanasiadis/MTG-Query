@@ -1,0 +1,17 @@
+Q:
+
+Why does magic rule 116.2e exist?
+
+116.2e One card (Circling Vultures) has the ability “You may discard Circling Vultures any time you could cast an instant.” Doing so is a
+special action. A player can take such an action any time they have
+priority.
+
+Why does Circling Vultures have its own special game Special Action rule for it's ability. As far as I know, no other creature in magic with a hand ability does this. What is the motivation? I looked at the original printed text, and to me it didn't seem to require special rules text to function.
+
+A:
+
+It requires a special action because it can't be made an activated ability without violating Wizards errata/templating policy.
+Circling Vultures is the only card you can discard without a direct benefit. The problem with making Circling Vulture's ability an activated ability like all the other cards you can discard on their own is that it would have either no cost or no effect, breaking the "cost:effect" pattern required for activated abilities. Making the ability a special action simulates the "paying costs" part of activating an ability (to get rid of the card as the first step), without getting an actual effect, because discarding it was the whole effect.
+You could word it like "{0}:Discard Circling Vultures", but then you run into other problems: One, the ability would then use the stack because it's not a mana ability like e.g. Elvish Spirit Guide, and the card was intended to be discarded immediately. This collides with the current compatibility errata policy of sticking as close as possible to the original intent of cards. The other problem is making sure you discard the exact card you revealed and not some other Circling Vultures, which might matter for some reason.
+You could also word it "Discard Circling Vultures: Nothing happens", but that kind of effect would also be fundamentally different from anything else ever printed. At that point, making it a special action is a better fit for templating policy.
+

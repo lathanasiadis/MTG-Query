@@ -1,0 +1,14 @@
+Q:
+
+Does Harmonic Sliver have to destroy a permanent?
+
+If I am the only player with any permanents then does Harmonic Sliver mean I must destroy one of my permanents? Can it destroy itself?
+Harmonic Sliver says
+
+All Slivers have "When this permanent enters the battlefield, destroy target artifact or enchantment."
+
+A:
+
+The Sliver's ability says "destroy target artifact or enchantment," not just "destroy target permanent." So it can only destroy something which is an artifact or enchantment. In particular, the Sliver cannot destroy itself unless it there is some ability in effect that makes it an artifact or enchantment.
+Also note that the ability does not say "may" (as in "you may destroy target artifact or enchantment"). So you are required to destroy an artifact or enchantment if there is one on the battlefield. This makes no distinction as to who controls the artifact or enchantment; if you're the only player who controls any artifacts or enchantments, then you must choose one of your own to be the target of the ability. If there are no artifacts or enchantments in play when the sliver enters the battlefield, then the ability is removed from the stack (and nothing is destroyed).
+

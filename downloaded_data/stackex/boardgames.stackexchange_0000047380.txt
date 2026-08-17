@@ -1,0 +1,15 @@
+Q:
+
+Are there any Magic cards capable of generating loops alone?
+
+My first reaction to this question was "of course not, there is no card which is able to generate such loops by itself". Such a card would be just too easy to abuse; generally speaking, one needs two cards to work together to generate a loop of actions (which can be executed an arbitrary number of times (see rule 720 for more details). Many of these combos require a third card to actually profit from the loop.
+But is this actually true? Or are/were* there any Magic cards capable of generating such loops alone? I don't expect the loops to win the game by themselves, of course.
+*: cards may have later received errata to prevent loops; I'd be interested in those cases as well.
+
+A:
+
+Basalt Monolith can tap and untap itself infinitely without any other cards. You do need another card to get any payoff from doing that.
+A number of cards have abilities that cost {0} and without specifically prohibiting you from activating them repeatedly. Like with Basalt Monolith, they generally don't have any inherent benefit from activating them repeatedly. The main payoff for that is Crackdown Construct.
+Skyshroud Elf can tap for mana, and has an ability to pay {1} to get {R} or {W}. This can be activated indefinitely, but it's even harder to find a payoff for a loop like that.
+Lich's Mirror can do this, sort of. You need other cards to set up the game state necessary, but once you have it Lich's Mirror starts and sustains the loop by itself. Specifically, if a player controls but does not own Lich's Mirror, and then gets 10 poison counters somehow, Lich's Mirror will replace the state-based action with its own effect but it will not go anywhere because it is not a permanent that the ability's controller owns. Then the player still has 10 poison counters so the same state-based action will apply again, and Lich's Mirror's effect will replace it again, forever. This is a mandatory infinite loop and results in a draw.
+

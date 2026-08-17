@@ -1,0 +1,18 @@
+Q:
+
+Does a creature have its abilities while being on the stack?
+
+I have a question. When creature is on the stack, does it have its abilities? For example Syr Eleonora, the Discerning, has an ability that says that spells which target her cost 2 more mana. But when she is on the stack and I would like to counter her, does she have her abilities? And generally, do creatures have their abilities while being on the stack? 
+
+A:
+
+Syr Eleonora's ability is a static ability, and the general rule with these is that they only apply on the battlefield:
+
+113.3d Static abilities are written as statements. They’re simply true. Static abilities create continuous effects which are active while the permanent with the ability is on the battlefield and has the ability, or while the object with the ability is in the appropriate zone. See rule 604, “Handling Static Abilities.”
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield.
+
+13 exceptions to 113.6 are listed but this situation isn't one of them, so a Counterspell on Syr Eleonara costs {UU}, not {2UU}.
+An example of a creature with a static ability which does function on the stack (and not on the battlefield) is Akroma, Angel of Fury. It's printed as "Akroma, Angel of Fury can't be countered." but the updated Oracle text is more clear: "This spell can't be countered." It's a static ability of the creature spell, not the creature itself. This is an example of exception
+
+113.6f An object’s ability that states it can’t be countered functions on the stack.
+

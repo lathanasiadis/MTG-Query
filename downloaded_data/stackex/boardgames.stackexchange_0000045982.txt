@@ -1,0 +1,30 @@
+Q:
+
+Feather, the Redeemed and Dire Fleet Daredevil
+
+It has already been clarified by WotC that Flashback and Aftermath will work with Feather, the Redeemed. Specifically, because you control both replacement effects, you choose which one resolves, allowing you to cast a Flashback card that targets your creature from the graveyard then exile it, and return it to your hand at the end of turn.
+My question is about what this means for Dire Fleet Daredevil? Does the fact that it would not go to Your graveyard mean that Feather's replacement effect would not apply? Although the wording specifies "your graveyard" the language is not as clear as usual ("exile that card instead of putting it into your graveyard", rather than "if that card would go to your graveyard, exile it"), so it leaves open the possibility of putting a card you don't own in your hand...
+
+A:
+
+Feather's replacement effect does not apply to a card exiled and cast with Dire Fleet Daredevil.
+Dire Fleet Daredevil specifically takes a card from an opponent's graveyard, so you do not own any card cast this way. Then the final step of resolving spells and abilities, rule 608.2k, says
+
+As the final part of an instant or sorcery spell's resolution, the spell is put into its owner's graveyard. As the final part of an ability's resolution, the ability is removed from the stack and ceases to exist.
+
+Since your opponent owns the card, it would be put into that players graveyard, not yours, in this step.
+The exact wording of Feather's ability is as follows:
+
+Whenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.
+
+Since the card would not be put into your graveyard at all, Feather's replacement effect does not apply and the card is exiled by Dire Fleet Daredevil's replacement effect.
+This is confirmed in an official ruling on Feather's Gatherer page:
+
+If you cast an instant or sorcery spell that you don’t own, it won’t try to be put into your graveyard, so you won’t exile it with Feather’s effect or return it to your hand.
+
+If Feather's ability instead replaced the spell moving to any graveyard, it still wouldn't put the card into your hand. Rule 400.3 says
+
+If an object would go to any library, graveyard, or hand other than its owner's, it goes to its owner's corresponding zone.
+
+So, in that situation Feather's replacement effect would end up putting the card back into your opponents hand. This is almost always undesirable, so it's very likely that Feather's ability was purposely written to avoid that.
+

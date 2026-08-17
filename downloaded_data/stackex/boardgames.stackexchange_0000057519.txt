@@ -1,0 +1,74 @@
+Q:
+
+Alaundo the Seer removing multiple last time counters at the same time
+
+Suppose that I have 2 or more spells in exile with exactly 1 time counter on each of them.  I activate Alaundo the Seer's ability to "remove a time counter from each other card you own in exile".  When the last time counter is removed from each of these cards I may cast them. How exactly does this ability and the spells I can cast from it enter the stack?
+With normal suspend cards, as I understand it, the time counters are removed one by one during upkeep while nothing else is on the stack.  This makes it easy to see that as I remove each counter (and I can do it in the order of my choice) I get a chance to cast that spell without paying its mana cost.  Each spell individually could be countered and/or be the start of its own stack.
+The wording on Alaundo implies, however, that the time counters are removed at the same time. Also my ability to cast the spell is explicitly "When the last time counter is removed". The more I think about that, the more that seems to complicate things.  I see four possibilities:
+
+I can cast one, wait until it is resolved, and then cast the other.
+My casting the first spell prevents me from casting the second because the timing has passed.  There is no way to cast both.
+I declare I'm casting both at the same time and they both end up on the same stack. Of course, I would get to declare which order they resolve in.
+Activating his ability is the bottom of the stack and until that is fully resolved I can cast all of those relevant spells in any order I wish regardless of type.
+
+One reason I really want to understand what is happening here (and I think the details matter) is that I want to have spells that trigger off his ability that untap him and allow him to activate again. I think this could make some very crazy stacks very quickly (especially if he can activate again while his first activation is still on the stack).
+
+A:
+
+Your first possibility is the most correct. Each card has its own triggered ability that allows you to cast the spell as it resolves. All of those abilities trigger as the counters are removed, they are put on the stack after Alaundo's ability resolves, and they resolve one at a time.
+The ability Alaundo grants to the cards it exiles is a triggered ability, so each instance goes on the stack separately. Specifically, your example plays out as follows:
+
+You activate Alaundo's ability.
+
+Stack (top to bottom): Alaundo's ability
+
+Alaundo's ability resolves. You draw a card, and choose a card to exile, and then remove counters from other cards in exile. The abilities of the two cards that now have 0 counters trigger. After this, Alaundo's ability has finished resolving, and is no longer on the stack.
+
+Stack: empty
+
+You put the two abilities on the stack, in an order that you choose. For simplicity, I will refer to the card with the ability on top of the stack as card 1, and the other as card 2.
+
+Stack: card 1's triggered ability, card 2's triggered ability
+
+Card 1's triggered ability resolves. You cast card 1.
+
+Stack: card 1, card 2's triggered ability
+
+Card 1 resolves.
+
+Stack: card 2's triggered ability
+
+Card 2's triggered ability resolves. You cast card 2.
+
+Stack: card 2
+
+Card 2 resolves.
+
+Stack: empty
+
+I also want to address some things you said about Suspend.
+
+With normal suspend cards, as I understand it, the time counters are removed one by one during upkeep while nothing else is on the stack. This makes it easy to see that as I remove each counter (and I can do it in the order of my choice) I get a chance to cast that spell without paying its mana cost.
+
+It's not the case that "nothing else is on the stack", because the abilities that remove the counters are triggered abilities and use the stack themselves. The specific functionality of the Suspend ability is defined in rule 702.62a (I have highlighted the two relevant abilities):
+
+Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
+
+Both of those abilities are triggered abilities, as stated in rule 603.1. Triggered abilities use the stack, just like spells and activated abilities. So, a similar situation where you start your turn with two suspended cards with one time counter each would play out as follows:
+
+The upkeep begins and each of the two cards' counter removal abilities triggers and is put on the stack. You choose the order they have on the stack.
+Card 1's counter removal ability resolves, the counter is removed from card 1, and card 1's casting ability triggers
+Card 1's casting ability is put on the stack.
+Card 1's casting ability resolves. You cast card 1, putting it on the stack.
+Card 1 resolves.
+Card 2's counter removal ability resolves, the counter is removed from card 2, and card 2's casting ability triggers
+Card 2's casting ability is put on the stack.
+Card 2's casting ability resolves. You cast card 2, putting it on the stack.
+Card 2 resolves.
+
+You also said
+
+Each spell individually could be countered and/or be the start of its own stack.
+
+There is no "its own stack". There is only one stack, and all spells, activated abilities, and triggered abilities use it.
+

@@ -1,0 +1,18 @@
+Q:
+
+Do we still track damage on indestructible creatures?
+
+So if lethal damage can't kill an indestructible creature, what do we do about the damage itself? Is it acknowledged? Say you have an effect that doesnt let a creature block if it has taken damage this turn, can that creature with indestructible block?
+
+A:
+
+Creatures with indestructible can take damage like normal, and will still be counted as having that damage for anything that cares about that.
+The full definition of Indestructible is:
+
+702.12. Indestructible
+
+702.12a Indestructible is a static ability.
+702.12b A permanent with indestructible can't be destroyed. Such permanents aren't destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+It does not prevent damage, so it takes damage like normal.
+

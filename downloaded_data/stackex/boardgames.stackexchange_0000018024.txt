@@ -1,0 +1,21 @@
+Q:
+
+In multiplayer, does Dictate of Erebos still take effect if the combat that kills its owner's creature defeats the owner?
+
+I was playing a 4 way standard multiplayer match. One player had 3/3 on the field, and Dictate of Erebos which says:
+
+Whenever a creature you control dies, each opponent sacrifices a creature.
+
+I attacked him with two creatures. He blocked one with the 3/3, which died, and my remaining creature still dealt enough damage to his life to kill him.
+The question we have is whether or not the player dies and thus is removed from the game before Dictate of Erebos's ability triggers.
+
+A:
+
+The player loses as soon as state-based actions are checked after dealing combat damage (essentially, "immediately" after damage is dealt) and leaves the game at the same time.  By rule 116.5, state-based actions are applied before triggered abilities are put on the stack, and rule 800.4d prevents triggered abilities controlled by players who have left the game from going on the stack, and so the ability will never even get a chance to resolve and no one will have to sacrifice a creature.  (Even if the triggered ability did go on the stack first, it would then cease to exist due to its controller leaving the game, as specified in 800.4a.)
+
+104.3b If a player’s life total is 0 or less, he or she loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+104.5. If a player loses the game, he or she leaves the game. If the game is a draw for a player, he or she leaves the game. The multiplayer rules handle what happens when a player leaves the game; see rule 800.4.
+116.5. Each time a player would get priority, the game first performs all applicable state-based actions as a single event (see rule 704, "State-Based Actions"), then repeats this process until no state-based actions are performed. Then triggered abilities are put on the stack (see rule 603, "Handling Triggered Abilities"). These steps repeat in order until no further state-based actions are performed and no abilities trigger. Then the player who would have received priority does so.
+800.4a When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who’s still in the game.
+800.4d If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack.
+

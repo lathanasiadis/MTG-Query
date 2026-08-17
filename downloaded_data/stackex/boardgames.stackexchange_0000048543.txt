@@ -1,0 +1,17 @@
+Q:
+
+Why do some artifacts require tapping and sacrificing as an activation cost?
+
+With the new Food token mechanic being introduced in Throne of Eldraine, you have to both tap and sacrifice a food token to activate its ability. I noticed that the same is true for Treasure tokens, as well as Etherium Cell tokens created by Tezzeret the Schemer. Even Black Lotus and Lotus Petal require tapping.
+In contrast, Clue tokens do not require tapping.
+Under normal circumstances, these tokens would never be tapped except when activating their ability to sacrifice them, which means that requiring them to be tapped as part of the cost doesn't make any difference.
+Obviously requiring them to be tapped weakens them when combined with certain other mechanics. There are a handful of cards that have a cost such as "tap an untapped artifact you control", but not many. And then there's the Improvise keyword which allows you to tap artifacts to pay for spells; but that keyword is only used on one older set and one newer Commander set. Or March of the Machines.
+So, are there particular interactions that Wizards was wanting to avoid by requiring Food and other similar tokens to be tapped as part of activating?
+Is it possibly a holdover from the early days of Magic, when cards like Black Lotus were "Mono Artifacts"; which was updated to include "tap" in the cost later? This explains why Black Lotus has tap in the cost at least, although a similar question could arise as to why Black Lotus was made a Mono Artifact instead of Poly Artifact in the first place; when either one would have acted mechanically the same in that case?
+
+A:
+
+Both forms of these kinds of abilites, with and without the tap requirement, have appeared on a significant number of cards, both recent and old. For example, compare Fountain of Renewal from M19 with Explosive Apparatus, also from M19. This implies that this is not a standard template, but rather a choice they make on a case-by-case basis.
+The primary other interactions that make it relevant whether or not the artifact taps are other abilities that tap artifacts as a cost (such as Ghirapur Aether Grid), spells with Improvise, effects that make the artifact also a creature (making summoning sickness apply and allowing the artifact to attack), and effects that tap permanents. The design team probably considers these interactions when making that choice.
+Cards that have been revealed so far in Thrones of Eldraine that have these kinds of interactions include Animating Faerie, Shimmer Dragon, and Workshop Elders. Of particular note, the same animation effect appears on both Animating Faerie and Workshop Elders, and may be a minor theme in the set. These cards probably affected the design of Food tokens, and of the card Witching Well, which sacrifices but does not tap in the cost of its activated ability.
+

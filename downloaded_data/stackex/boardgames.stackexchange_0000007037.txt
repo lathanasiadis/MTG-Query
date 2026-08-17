@@ -1,0 +1,18 @@
+Q:
+
+Can a creature be tapped to prevent its activated ability?
+
+Possible Duplicate:
+How do twitch effects work with the stack vs activated tap abilities? 
+
+If I have a creature with a tap to activate ability, can my opponent use an ability to tap it in response to my tapping it to prevent it from being activated?
+
+A:
+
+No, this is not possible, for one of two reasons depending on the game state:
+
+If you have priority, then you may choose to activate your creature's ability. If you do so, then everything involved in the activation of the ability (including the tapping of your creature to pay the ability's cost) happens immediately. Your opponent does not have any opportunity to interrupt this. Only after you are done activating your creature's ability does your opponent has a chance to play his tapping ability, but by that point your creature is already tapped, and tapping it won't have any effect.
+If you do not have priority, then your opponent may choose to activate his tapping ability to tap your creature. However, in this case, the tapping is part of the effect of the ability, not the cost, so your creature does not become tapped right away. Your opponent's ability gets activated, goes on the stack, and then sits there for a while. You may choose to play abilities of your own in the meantime ("in response"), so for example you could use your own creature's ability before your opponent's ability resolves.
+
+The process of activating an ability is described in rule 602.2, and the timing rules are described in rule 116. You may want to review those (although they're too long to quote here).
+

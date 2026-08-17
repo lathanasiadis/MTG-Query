@@ -1,0 +1,12 @@
+Q:
+
+Bestow and Intimidate - what color do I need?
+
+What color do I need to block a bestowed creature which got intimidate? Example: I cast a black bestow aura which grants intimidate on a blue creature. Do I need a blue creature to block it?
+
+A:
+
+Yes, only blue (or artifact) creatures can block it.
+Cavern Lampad unfortunately doesn't include reminder text for Intimidate, but if it did, it would say "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.". It's granting the ability to your blue creature, so it's that creature's color that matters. Yes, Cavern Lampad does also itself have intimidate, but that's irrelevant; you're attacking with the enchanted creature, not the Lampad.
+Sometimes Auras do actually have abilities, as opposed to granting abilities to the creatures they enchant. For example, Crown of Flames has the firebreathing ability ({R}: Enchanted creature gets +1/+0 until end of turn), while Dragon Mantle gives that ability to the creature it enchants ("Enchanted creature has {R}: This creature gets +1/+0 until end of turn."). But in the case of intimidate, it has to be like this, with the creature, not the aura, having the ability. You're attacking with the creature, not the aura, so for intimidate to do anything, the creature has to have it!
+

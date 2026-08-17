@@ -1,0 +1,13 @@
+Q:
+
+How does Decree of Silence interact with multiple spells cast?
+
+With a Decree of Silence in play with two depletion counters on it, what would happen if my opponent were to cast Titan Strength and then Giant Growth?
+
+A:
+
+If your opponent cast Giant Growth without waiting for Titan Strength to be countered, both will be countered.
+Whenever your opponent casts a spell, Decree of Silence will trigger and its ability will become the topmost object on the stack. When that ability resolves, the first spell will be countered, Decree gets its third counter and will be sacrificed. Therefore, if your opponent casts Titan Strength and just waits for the stack to resolve, Decree will be gone and he will be able to play Giant Growth without it being countered.
+If, however, your opponent casts another spell before that ability resolves, Decree is still on the battlefield and will trigger again, putting another instance of its ability on the stack.
+Now the stack starts resolving. The second spell gets countered and a counter is put on the Decree. It will be sacrificed immediately afterwards. Now the first instance of the Decree's ability resolves. It does not put a counter on Decree because it's already in the graveyard, but it will do as much as possible, i.e. it will counter the first spell.
+

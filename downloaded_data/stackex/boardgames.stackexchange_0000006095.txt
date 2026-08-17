@@ -1,0 +1,21 @@
+Q:
+
+Can Meddling Mage Be Used as a Counter?
+
+If a player activated an Æther Vial with two counters on it to drop in a Meddling Mage and named a spell already on the stack, would the named spell resolve?
+
+A:
+
+The spell on the stack will resolve successfully, even if you name it with Meddling Mage.
+The rulings for Meddling Mage say the following:
+
+2/1/2006 If you somehow manage to cast this while other spells are on the stack, those spells won't be countered.
+5/1/2009 Spells with the chosen name that somehow happen to already be on the stack when Meddling Mage enters the battlefield are not affected by Meddling Mage's ability.
+
+To clarify the old "played" phrasing (which some people confuse with resolve), the Oracle text actually says:
+
+The named card can't be cast.
+
+Since the named spell has already been cast, the existing spell on the stack will still be on the stack after Meddling Mage has entered, and will still resolve.
+If you did have a creature that was able to counter or exile a spell on the stack (as opposed to the "named card can't be cast" effect) like Spellstutter Sprite, you could put that into play with Æther Vial and have it work they way you're intending.
+

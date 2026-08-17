@@ -1,0 +1,14 @@
+Q:
+
+Can you cast Dispossess on an opponent's land (e.g., Mountain) if that opponent controls Mycosynth Lattice?
+
+If an opponent has a Mycosynth Lattice in play and is playing Izzet (for example), would you be able to cast Dispossess and choose 'Mountain' if the opponent has at least one in play (This mountain would then be an artifact because of Mycosynth and would satisfy the 'choose an artifact card' requirement) and then subsequently exile all the opponent's remaining copies of 'Mountain' from his deck?
+
+A:
+
+No, you cannot use Dispossess to name cards that do not have "Artifact" in its printed type line. When choosing a card name you pick cards based on the oracle text of the physical card, regardless of what other effects on the battlefield. Mycosynth Lattice is simply irrelevant to Dispossess.
+Oddly enough, the relevant rule even lists Dispossess as an example:
+
+201.3a If a player is instructed to choose a card name with certain characteristics, the player must choose the name of a card whose Oracle text matches those characteristics. (See rule 108.1.)
+Example: Dispossess reads, in part, “Choose an artifact card name.” The player can choose the name of any artifact card, even one that’s not legal in the format of the current game. The player can’t choose Island, even if an Island on the battlefield has been turned into artifact by some effect.
+

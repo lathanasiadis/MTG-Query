@@ -1,0 +1,18 @@
+Q:
+
+Can I use Word of Seizing on a planeswalker?
+
+Word of Seizing says: 
+
+Untap target permanent and gain control 
+     of it until end of turn. It gains haste until
+     end of turn.
+
+Can I take control of any permanent? Specifically a planeswalker?
+I remember somewhere the rules said that if a portion of an effect is not legal or possible, it gets skipped and the rest of the ability resolves (barring any specific portions of effects that say explicitly otherwise)
+
+A:
+
+Yes, you can target any permanent including a planeswalker. You're right that impossible parts of an effect are ignored - in the case of this spell an example is that you can still target a permanent that's already untapped. Untapping something that's already untapped is impossible, so you just don't and move on with the rest of the effect. 
+However, the part about gaining haste isn't actually an example of an illegal or impossible effect: the planeswalker, or whatever else you steal, will get haste. Most of the time this will be irrelevant (haste doesn't do anything on a non-creature), but if the permanent later becomes a creature it will matter. So if you steal my Gideon, Ally of Zendikar and then use its +1 to turn it into a creature, you'll be glad this spell gave it haste, because otherwise you couldn't attack with it.
+

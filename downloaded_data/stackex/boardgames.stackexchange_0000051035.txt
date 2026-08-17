@@ -1,0 +1,23 @@
+Q:
+
+How do Butcher of Malakir and Extractor Demon interact with Barter in Blood?
+
+Suppose my opponent has a Butcher of Malakir and an Extractor Demon on the field, and they have no other creatures, and I have a Nuisance Engine and let's say, oh, eight 0/1 colorless Pest artifact creature tokens on the field, and then I cast Barter in Blood, which says that "each player sacrifices two creatures".
+Nuisance engine is tapped and has no passive abilities, so it's irrelevant here, except that it created the Pests.  Butcher of Malakir says that "Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature," and Extractor Demon says "Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard."  Extractor Demon also has an Unearth ability, but I think that's also irrelevant here.
+Now, I've read the card texts, I've read the rulings, but there's a lot going on here, so I just wanted to make sure I got this right.  When I cast Barter in Blood, it is not countered and is allowed to resolve, I choose two of my Pests to sacrifice, and my opponent chooses to sacrifice Butcher of Malakir and Extractor Demon.  So then all the creatures are sacrificed, and Butcher of Malakir's ability goes on the stack twice, because Butcher and Extractor Demon died, and Extractor Demon's ability goes on the stack three times (with my opponent targeting my library), because Butcher and two of my Pests left the battlefield, and these all go on the stack simultaneously, so my opponent chooses to put both of the Butcher abilities on the stack first, then all of the Extractor Demon abilities.  The Extractor Demon abilities all resolve, one after another, and result in a total of six cards being milled from my library, and then Butcher's abilities resolve, and I have to sacrifice a Pest, twice.  And since Butcher of Malakir is no longer on the field, there are no more active effects, or passive abilities, or whatever they're called, and that's the end of that.
+tl;dr: So if I got this right, my opponent sacrifices both of his creatures, I wind up sacrificing a total of four Pests over the course of this mess, and losing six cards off the top of my library, and have four Pests remaining, as well as my tapped Nuisance Engine.  Did I get this right?  This was a lot to process.
+
+A:
+
+You are basically correct.
+You are correct that you will have to sacrifice 4 total creatures and lose 6 cards from your library. However, you say "these all go on the stack simultaneously" which might be wrong depending on what you meant. 2 things cannot ever go on the stack "simultaneously", but there are 5 total triggered abilities that all need to be placed on the stack, and your opponent, who controls all 5, gets to chose the order.
+In this case, it makes no difference what order your opponent chooses; they could put both Butcher of Malakir's abilities first, then the 3 Extractor Demon's abilities. Or 1 Extractor, then 2 Butchers, then the other 2 Extractors, etc.
+This all works this way because when triggered abilities trigger, they don't immediately do anything, but they wait until the next time state based actions are checked, right before a player gets priority.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose.
+
+So you will sacrifice 2 creatures at the same time when Barter in Blood resolves, then a third when Malakir's first trigger resolves, then a fourth when Malakir's second trigger resolves.
+

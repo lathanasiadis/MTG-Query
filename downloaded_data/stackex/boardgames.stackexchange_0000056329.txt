@@ -1,0 +1,19 @@
+Q:
+
+Assigning Double Strike Damage with "Block Additional Creature"
+
+A bit of a semi-complicated hypothetical scenario question.
+Player A 3/3 creature with "Lifelink", "Double Strike", and "Can block an additional creature each combat".
+Player B attacks with two 1/1 creatures.
+3/3 can block both creatures, obviously.
+Is it possible for Player A to assign all the First Strike damage to one creature and the normal combat damage to the second creature to heal a total of 6 life from Lifelink?
+
+A:
+
+Yes, you can do that.
+When a creature blocks or is blocked by more than one creature, that creature's controller (you, in this case) chooses the order in which those creatures will be dealt damage during the declare blockers step (see rule 509.2 for more details). Then during the combat damage step, assign the creature's damage to those creatures in that order, and the rule is that you must assign at least lethal damage to each creature before assigning any to the next one. But you are allowed to assign more than lethal combat damage to a creature, that's just a minimum.
+So, in the first strike combat damage step, you can assign 3 damage to the first creature, and then it dies, and then in the regular combat damage step you can assign another 3 damage to the second creature.
+In the Combat damage step rules, rule 510.1c ends with this sentence
+
+An amount of damage that’s greater than a creature’s lethal damage may be assigned to it.
+

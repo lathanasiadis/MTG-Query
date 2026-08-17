@@ -1,0 +1,17 @@
+Q:
+
+Can Wheel of Sun and Moon go into graveyard from play?
+
+If Wheel of Sun and Moon is destroyed – for instance by a disenchant – does it go into the graveyard, or at the bottom of your library?
+
+A:
+
+First of all, you'd often put Wheel of Sun and Moon on your opponent, in which case there's nothing to worry about. It's only affecting cards that'd be put into their graveyard, and when it's destroyed it goes to yours.
+A more likely similar example is Rest in Peace, which says "If a card or token would be put into a graveyard from anywhere, exile it instead." The Gatherer rulings mention exactly this scenario:
+
+If Rest in Peace is destroyed by a spell, Rest in Peace will be exiled and then the spell will be put into its owner's graveyard.
+
+That said, Wheel of Sun and Moon behaves in the same way.  If for some reason you use it on yourself, and then destroy it, it will go to the bottom of your library.
+Wheel of Sun and Moon creates a replacement effect, which applies as long as it's on the battlefield. When it would be destroyed (i.e. moved to the graveyard) it is still on the battlefield, so the replacement effect changes that to putting it on the bottom of your library.
+It's only once it's left the battlefield that the replacement effect goes away, but by that time the effect has already been applied. Note that this means that, if you destroyed it with Disenchant, the Disenchant will go to your graveyard, because when you finish resolving the spell and move it from the stack to your graveyard, Wheel of Sun and Moon is now gone.
+

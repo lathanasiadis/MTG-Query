@@ -1,0 +1,18 @@
+Q:
+
+Radiate and shelter
+
+Suppose an opponent casts Shelter targeting one of their creatures and I Radiate it. What happens? Does it fizzle because my copies can't target their creatures? Do I get copies for my own creatures?
+
+A:
+
+Your Radiate will resolve normally, but you will not create any copies of Shelter.
+
+706.10d Some effects copy a spell or ability for each player or object it “could target.” The copies are put onto the stack with those targets in the order of their controller’s choice. If the spell or ability has more than one target, each of its targets must be the same player or object. If that player or object isn’t a legal target for each instance of the word “target,” a copy isn’t created for that player or object.
+
+The list of objects the Shelter "could target" is each other creature that opponent controls, not each creature that you control. While I couldn't find this specified in the comprehensive rules, there is a ruling on Ink-Treader Nephilim that makes it clear:
+
+2/1/2006   Even though you control the copies, the ability cares about who cast the original spell when determining which other creatures that spell could target. If the original spell has a targeting restriction that refers to “an opponent,” the copies will see that from the perspective of the original spell’s controller. For example, if your opponent casts a spell that says “Destroy target creature an opponent controls” targeting your Ink-Treader Nephilim, its ability will create a copy for each other creature the original spell could target: the rest of your creatures. However, since you control the copies, all the copies won’t resolve for having illegal targets.
+
+Interestingly enough, this ruling says that the copies won't resolve for having illegal targets, while 706.10d seems to make it clear that the copies won't ever be created. I would suggest that this is a minor mistake in the ruling; 706.10d did not actually exist at the time that this ruling was written, so it is out of date. But either way, the important part is that the list of objects it "could target" is based on the original spell, not based on your copies.
+

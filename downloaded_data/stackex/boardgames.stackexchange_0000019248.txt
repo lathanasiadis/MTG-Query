@@ -1,0 +1,21 @@
+Q:
+
+How much mana does Radiant Fountain provide when tapped?
+
+Radiant Fountain reads "{T}: Add {1} to your mana pool." Does this card alone produce a total of {1} or {2}?
+Basic Land cards produce mana when tapped. So, either
+
+All land cards produce mana when tapped, and Radiant Fountain adds another due to the {T} description, resulting in {2}.
+The {T} description is the only result, there is no implicit mana from a land card, resulting in {1}.
+
+A:
+
+{1}.
+You will only get one colorless mana added to your mana pool when you tap Radiant Fountain. Lands do NOT have an automatic built-in ability, only lands with one of the basic land subtypes do. Radiant Fountain does not have one of these subtypes (Mountain, Forest, Plains, Island, or Swamp).
+Even if it did have one of these subtypes, you would still not be able to tap it for 2 mana. Say you have a Radiant Fountain and a Urborg, Tomb of Yawgmoth in play. Radiant Fountain now has 2 abilities:
+
+{T}: Add {1} to your mana pool
+{T}: Add {B} to your mana pool
+
+In this case, you have these 2 separate Tap abilities, but you can not tap once to get both mana. You would have to choose which ability you wanted to activate by tapping the card, and you would get just 1 mana whichever one you chose.
+

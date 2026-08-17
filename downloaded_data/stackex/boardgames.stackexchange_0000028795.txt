@@ -1,0 +1,19 @@
+Q:
+
+Scion of the Ur-Dragon and Leyline of the Void
+
+Does Leyline of the Void prevent the Scion of the Ur-Dragon's transformation by exiling the dragons?
+
+A:
+
+Even with Leyline of the Void in play, Scion of the Ur-Dragon's ability still works.
+The relevant part of the ability is
+
+Search your library for a Dragon permanent card and put it into your graveyard. If you do...
+
+This is actually a cost, as defined in rule 117.12:
+
+Some spells, activated abilities, and triggered abilities read, “[Do something]. If [a player] [does or doesn’t], [effect].” or “[A player] may [do something]. If [that player] [does or doesn’t], [effect].” The action [do something] is a cost, paid when the spell or ability resolves. The “If [a player] [does or doesn’t]” clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
+
+As you can see, the last part of the rule says that the effect happens as long as you choose to pay the cost, even if the outcome is different. In this case, as long as you find a Dragon permanent card and choose to put it in your graveyard, even if it doesn't actually end up in the graveyard, Scion of the Ur-Dragon still becomes a copy of it.
+

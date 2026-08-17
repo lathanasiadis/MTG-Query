@@ -1,0 +1,21 @@
+Q:
+
+In Magic: The Gathering, how does Ugin, the Ineffable's static ability interact with colorless spells that have X in their cost?
+
+If I have Ugin, the Ineffable in play and I want to cast Ugin's Conjurant, how does Ugin, the Ineffable's static ability interact with paying the cost?
+Can I announce I want to cast Ugin's Conjurant for 5 and then only pay 3 mana because Ugin, the Ineffable's static abilit reads "Colorless spells you cast cost 2 less to cast"?
+
+A:
+
+Yes, you can choose 5 for X then only pay 3 mana with Ugin, the Ineffable out.
+This is because the process of casting a spell works like this:
+
+Make choices your spell offers you, including choosing modes and the value you'll pay for X in the casting cost where applicable.
+Choose targets.
+Determine the total cost of the spell, which is its cost plus any cost increases and minus any cost reductions.
+Pay that cost.
+
+(There's some other details I've glossed over, but those are the most commonly encountered parts.)
+This means in step 1, you're choosing 5 as the value for {X}. Then in step 3, you determine the cost: that's {5} reduced by {2} to get a total cost of {3}.
+This also means if you chose 2 as the value for X, you may cast Ugin's Conjurant for {0}.
+

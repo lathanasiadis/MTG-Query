@@ -1,0 +1,18 @@
+Q:
+
+What happens if I sacrifice the land chosen by Glacial Chasm?
+
+When Glacial Chasm enters the battlefield, you have to sacrifice a land. Is it possible to sacrifice, let's say a fetch land, after the glacial chasm targets it for the enter the battlefield trigger?
+I was sure the land you were supposed to sacrifice to glacial chasm trigger had to be sacrificed by glacial chasm, and could not be sacrificed in response. Would not the target of glacial chasm now be illegal?
+
+A:
+
+No.
+The important thing here is that Glacial Chasm's enter the battlefield ability does not target. Just because a spell or ability has you chose something doesn't mean that the spell or ability targets that thing.
+
+114.1a An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object, player, or zone. The target(s) are chosen as the spell is cast; see rule 601.2c.
+
+If a spell targets, it will have the word "target" in the rules text. The exceptions being that aura spells are always targeted, and some keyword abilities, such as equip, have the word target in the rules of the keyword rather than printed on the card.
+So in this case, because the ability does not target, you do not choose the land you will sacrifice until the ability resolves. So if you sacrificed a fetch land in response to Glacial Chasm's enter the battlefield trigger, you will still have to chose a land to sacrifice when that trigger resolves, and by that time your fetch land will no longer be available to choose.
+If the ability said "sacrifice target land" instead of "sacrifice a land", then you could do what you want, because targets are chosen when the ability is placed on the stack, not when it resolves. However, the phrase "sacrifice target ____" does not appear on any MTG cards currently. It would be a strange thing to have, because "sacrifice" already requires you to choose a permanent you control.
+

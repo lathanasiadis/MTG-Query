@@ -1,0 +1,23 @@
+Q:
+
+Oko, Thief of Crown's +1 vs. Deputy of Detention
+
+Let's say my opponent plays Deputy of Detention and exiles my creature. I play Oko, Thief of Crowns and +1 on Deputy. Do I get my original creature back? If the answer is "no", do I get my original creature back if I later kill the 3/3 green Elk "Deputy of Detention"?
+I'm guessing the answer is "no" in either case, because in the first case Deputy hasn't left the battlefield, and in the second when Deputy leaves the battlefield it's already lost all abilities, so the creature remains permanently exiled. 
+
+A:
+
+You will get your creature back when the Deputy leaves the battlefield - even if they have no abilities at the time.
+Deputy of Detention's ability creates a delayed trigger at the time the ability takes effect (that is, when the creature is exiled).  Removing the Deputy's abilities at a later time doesn't affect the trigger, because the trigger, once created, is independent of the Deputy (even though it is still 'watching' it).
+
+603.7a Delayed triggered abilities are created during the resolution of spells or abilities, as the result of a replacement effect being applied, or as a result of a static ability that allows a player to take an action. A delayed triggered ability won’t trigger until it has actually been created, even if its trigger event occurred just beforehand. Other events that happen earlier may make the trigger event impossible.
+  Example: Part of an effect reads “When this creature leaves the battlefield,” but the creature in question leaves the battlefield before the spell or ability creating the effect resolves. In this case, the delayed ability never triggers.
+  Example: If an effect reads “When this creature becomes untapped” and the named creature becomes untapped before the effect resolves, the ability waits for the next time that creature untaps.
+603.7b A delayed triggered ability will trigger only once—the next time its trigger event occurs—unless it has a stated duration, such as “this turn.” If its trigger event occurs more than once simultaneously and the ability doesn’t have a stated duration, the controller of the delayed triggered ability chooses which event causes the ability to trigger.
+603.7c A delayed triggered ability that refers to a particular object still affects it even if the object changes characteristics. However, if that object is no longer in the zone it’s expected to be in at the time the delayed triggered ability resolves, the ability won’t affect it. (Note that if that object left that zone and then returned, it’s a new object and thus won’t be affected. See rule 400.7.)
+  Example: An ability that reads “Exile this creature at the beginning of the next end step” will exile the permanent even if it’s no longer a creature during the next end step. However, it won’t do anything if the permanent left the battlefield before then.
+
+Back in the olden days, cards like this were templated differently, and it was possible to lose a creature forever.  Cards like Oblivion Ring had two triggered abilities - an enters the battlefield ability and a leaves the battlefield ability.  By removing the card's abilities you could remove the card from play without the leaves the battlefield ability triggering, and render a creature permanently exiled.  
+Another fairly common trick was to bounce the exiling permanent back to its owner's hand while the first ability was still on the stack.  The second trigger would resolve while there was nothing in exile to return, and then the first ability would resolve, exiling the card permanently.  This doesn't work with the modern template, because the ability will see that the delayed trigger condition has been fulfilled and won't try and exile the target in the first place.
+The template changed with the 2014 Core Set, when Banisher Priest was printed with a modern delayed trigger.
+

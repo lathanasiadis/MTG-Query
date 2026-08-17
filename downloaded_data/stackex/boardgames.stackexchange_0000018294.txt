@@ -1,0 +1,22 @@
+Q:
+
+Will clone effects copy extra abilities applied to a creature? If not, why does Twinflame work?
+
+Let's say my opponent has out Akroma's Memorial, Asceticism, Darksteel Forge, or something similar that uses the word "have" to give abilities. If I use a Clone effect to copy a creature my opponent controls that has any of these extra abilities, will my clone also have Indestructble, Hexproof, or similar?
+If not, why does the Clone of a token produced with Twinflame have haste?
+
+A:
+
+No, they will not. You only get to copy what is actually printed on the card; not any information that has changed the properties of that object.
+See this ruling on Clone:
+
+Clone copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+
+The actual rule that explains this:
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by “as . . . enters the battlefield” and "as . . . is turned face up" abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Copying tokens works a little differently, just because there is no literal "card text" to copy. Instead, a token's copiable values are determined by the effect that created the token.
+
+110.5b The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token's "text." The characteristic values defined this way are functionally equivalent to the characteristic values that are printed on a card; for example, they define the token's copiable values. A token doesn't have any characteristics not defined by the spell or ability that created it.
+

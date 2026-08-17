@@ -1,0 +1,32 @@
+Q:
+
+When a creature is exiled with Nightmare Shepherd, does Teysa Karlov create two copies of the creature when dying?
+
+Example
+I have Teysa Karlov and Nightmare Shepherd in play. They mention, respectively:
+
+If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that’s a copy of that creature, except it’s 1/1 and it’s a Nightmare in addition to its other types.
+
+Then, I sacrifice my Doomed Dissenter:
+
+When Doomed Dissenter dies, create a 2/2 black Zombie creature token.
+
+Confusion
+I'm still not sure about replacement effects and whether or not the Doomed Dissenter in this case actually dies, when I choose to let it go into exile to copy it as a token. Because the demon's ability doesn't mention "instead", I think the human still "hits" the graveyard before going into exile. This would mean Teysa does trigger twice, creating two 2/2 Zombies. Does the Nightmare Shepherd also create two copies of the Doomed Dissenter? 
+This case confuses me, since I can only exile the creature once? But the death trigger still happens twice instead of once? Any clarification would be much appreciated. 
+
+A:
+
+You get two 2/2 zombie tokens and up to one 1/1 Doomed Dissenter token.
+Both Doomed Dissenter's ability and Nightmare Shepherd's ability trigger twice on Doomed Dissenter's death (i.e. it moved from the battlefield to the graveyard).
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+These abilities are now on the stack. Dissenter's own ability will resolve, no matter what happens to the Doomed Dissenter card in the graveyard, and you will eventually get 2 zombie tokens.
+When it comes to resolving Nightmare Shepherd's ability, assuming you choose to exile the Dissenter card with the first instance, you get a 1/1 Dissenter token. The second Shepherd ability will no longer have a Dissenter card to exile, so that instance does nothing. If you don't choose to exile the Dissenter with the first ability, you can still do so with the second.
+There are no replacement effects involved with these cards. None of the abilities have the words "instead" or any other term required for identifying as a replacement effect.
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+

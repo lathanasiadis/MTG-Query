@@ -1,0 +1,19 @@
+Q:
+
+Redirecting damage to my own planeswalker
+
+Here's the situation. My opponent is at three life, has three creatures and a Nahiri, the Harbinger with three loyalty. I cast Rakdos Charm, choosing the "Each creature deals 1 damage to its controller." mode. My opponent controls the sources of damage, so are they able to redirect some of the damage to Nahiri in order to not lose?
+I ask this because I was playing magic online a few days ago and a similar situation came up. I was surprised I didn't get the option to redirect damage to Nahiri myself until I read Rakdos Charm more carefully, but then I realised my opponent didn't get the prompt either. I'm wondering if the client handled this incorrectly, or there's some rule that caused this to happen.
+
+A:
+
+No.
+As of the Dominaria rules update in 2018, the planeswalker redirection rule is completely gone, so Rakdos charm cannot deal damage to a planeswalker at all.
+
+306.7. Previously, planeswalkers were subject to a redirection effect that allowed a player to have noncombat damage that would be dealt to an opponent be dealt to a planeswalker under that opponent’s control instead. This rule has been removed and certain cards have received errata in the Oracle card reference to deal damage directly to planeswalkers.
+
+Keeping the original answer below for historical reference:
+Damage can only be redirected if the source of the damage is controlled by your opponent, and even then it's the opponent that can choose to redirect it, not you.
+
+306.7. If noncombat damage would be dealt to a player by a source controlled by an opponent, that opponent may have that source deal that damage to a planeswalker the first player controls instead. This is a redirection effect (see rule 614.9) and is subject to the normal rules for ordering replacement effects (see rule 616). The opponent chooses whether to redirect the damage as the redirection effect is applied.
+

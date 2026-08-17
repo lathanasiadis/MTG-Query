@@ -1,0 +1,35 @@
+Q:
+
+When do artifacts lose hexproof when Padeem, Consul of Innovation dies?
+
+There was an interesting board state that came up the other night while my friends were playing Commander, involving a sliver deck and Padeem, Consul of Innovation. The board state involved two players, who I will call Aaron (Active player) and Nick (Non-Active player), a simplified version of the board was as follows:
+Aaron's Board
+
+Brood Sliver (Whenever a Sliver deals combat damage to a player, its controller may create a 1/1 colorless Sliver creature token)
+Harmonic Sliver (All Slivers have "When this permanent enters the battlefield, destroy target artifact or enchantment.")
+Silverback Ape (it's a 5/5, that's it.)
+
+Nick's Board
+
+Padeem, Consul of Innovation (gives artifacts hexproof)
+Ornithopter (0/2 Artifact creature)
+
+During combat Aaron attacked Nick with his entire board, and Nick assigned blocks as follows:
+
+Harmonic Sliver is blocked by Ornithopter (No effects)
+Silverback Ape is blocked by Padeem (Padeem dies)
+Brood Sliver is unblocked (Brood Sliver's ability triggers)
+
+My question is, when the 1/1 Sliver token created by Brood Sliver enters the battlefield, will Aaron be able to destroy Nick's Ornithopter? Or will the Ornithopter still have hexproof, even though Padeem is killed by Silverback Ape?
+That is to say, do Nick's artifacts lose hexproof before or after Aaron is able to target them with the ETB of the created Sliver token?
+
+A:
+
+tl;dr: Padeem dies from lethal damage before triggered abilities do anything, so the artifacts will not be protected by Hexproof.
+When combat damage is assigned, Brood Sliver's ability triggers. However:
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack [...] the next time a player would receive priority.
+
+State-based actions, such as Padeem dying from lethal damage, occur right before any player gets priority (see 704.3). Thus Padeem is off the board, and its static effect is gone, before Brood Sliver's ability is even put onto the stack, and long before it actually resolves (which is when the artifact-destruction ability would trigger).
+

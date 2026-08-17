@@ -1,0 +1,25 @@
+Q:
+
+Can I cast a spell after the stack has resolved on my opponent's turn in MTG?
+
+In a game, my opponent played Burn the Accursed to kill one of my creatures also deal 2 damage to me. I also have a 1/1 Scavenger Folk in play and the ability to create enough mana to cast Simulacrum, an instant which states
+
+You gain life equal to the damage dealt to you this turn. Simulacrum deals damage to target creature you control equal to the damage dealt to you this turn.
+
+The goal would be to take the two damage from me and place it upon the Scavenger Folk I control.
+If I play this card in response to Burn the Accursed, the Simulacrum would go on top of the stack and then when the stack resolves in Last In First oOut order this seemingly wouldn't do anything as if Simulacrum is on the top because no damage has been dealt to me yet. Would I be able to let the stack resolve and THEN play my Simulacrum to move the damage to my creature, or is Simulacrum really only effective for damage dealt by creatures?
+
+A:
+
+Rule 117. Timing and Priority covers who can cast spells and when. 117.1a allows you to cast an instant spell any time you have priority, and 117.3d means you will receive priority on your opponents turn any time they could take an action, but do not.
+When Simulacrum resolves you gain life equal to all damage done to you that turn, which (as you've surmised) won't regain you the 2 life from lost from Burn the Accursed if played in response to Burn the Accursed.
+However, if you survive the 2 damage done by Burn the Accursed, you will gain priority before the turn moves onto the next step/phase and can cast Simulacrum to gain back the life you lost.
+Generally the optimum time to play a card like Simulacrum is during the end step, as long as you will survive to that point.
+
+Rules
+
+117. Timing and Priority
+117.1a A player may cast an instant spell any time he or she has priority. A player may cast a noninstant spell during his or her main phase any time he or she has priority and the stack is empty
+...
+117.3d If a player has priority and chooses not to take any actions, that player passes. If any mana is in that player’s mana pool, they announce what mana is there. Then the next player in turn order receives priority.
+

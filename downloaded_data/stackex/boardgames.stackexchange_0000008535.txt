@@ -1,0 +1,23 @@
+Q:
+
+When does a token have the same name as another token?
+
+I'm playing a Selesnya tokens deck, and my opponent casts Detention Sphere, which exiles all creatures with the "same name", on one of my tokens. Does he get to exile
+
+All of my tokens?
+All of the tokens of the same creature type/power/toughness? (E.g. all 1/1 Birds.)
+Just that one token?
+
+A:
+
+None of the above. It will exile all permanents with the same name as targeted permanent. This may or may not be all your tokens. This may or may not be all your only token. Type, power and toughness are irrelevant.
+
+Some abilities explicitly give names to the tokens they create. For example, Tolsimir Wolfblood creates a token of creature type "Wolf" named "Voja".
+If you use Detention Sphere to exile a permanent named "Voja", it will exile all permanents named "Voja", and only those. (It doesn't matter if they are tokens or not. It will not exile permanents named "Wolf". It will not exile permanents of creature type "Wolf" unless their name is "Voja". It will not exile tokens unless their name is "Voja".)
+Some don't. If the ability did not explicitly give a name to the token, its name is the same as its type. For example, Eyes in the Skies creates a token of creature type "Bird" named "Bird".
+If you use Detention Sphere to exile a permanent named "Bird", it will exile all permanents named "Bird", and only those. (It doesn't matter if they are tokens or not. It will not exile permanents named "Saproling". It will not exile permanents of creature type "Bird" unless their name is "Bird". It will not exile tokens unless their name is "Bird".)
+
+Relevant rules:
+
+110.5c A spell or ability that creates a creature token sets both its name and its creature type. If the spell or ability doesn’t specify the name of the creature token, its name is the same as its creature type(s). A “Goblin Scout creature token,” for example, is named “Goblin Scout” and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn’t change its creature type, and vice versa.
+

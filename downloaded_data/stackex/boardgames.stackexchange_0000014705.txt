@@ -1,0 +1,27 @@
+Q:
+
+Regenerate: Tap before regeneration?
+
+I have a creature with the regenerate ability. If I activate this ability I generate some sort of a regenerate shield according to the following rule:
+
+701.12a: The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it’s an attacking or blocking creature, remove it from combat.
+
+Now, do I have to tap the create after I activated the ability? Or is the creature tapped after the creature would be destroyed and the regenerate shield "wears off"?
+How does regeneration work in Magic the Gathering? according to this, I guess the creature get tapped when regenerate shield "wears off". (I'm sorry, I don't know a better word for the shield to take effect...)
+
+A:
+
+The creature is tapped when it would be destroyed (this turn). The most common example of this is:
+
+You attack with your creature (whom has a regenerate ability)
+The enemy blocks with a creature with the same or more power than your creature's toughness
+You recognize that your creature will die if it is not regenerated, so you activate the regenerate ability BEFORE that lethal damage is dealt, creating the "Regeneration Shield" that will last until the creature is destroyed, or the turn ends.
+Combat damage is exchanged. Your creature now has more marked damage than its toughness.
+Immediately after, state based actions are checked and performed. Creatures with more marked damage than their toughness are destroyed. Since your creature has an active regenerate shield, when your creature would be destroyed, the replacement effect from regeneration kicks in. Instead, you tap it (if it is not already tapped), remove it from combat (if it is in combat) and remove all marked damage from it.
+
+There are 3 elements of regeneration:
+
+Tapping the regenerated creature - this tends to be relevant only to creatures with Vigilance
+Removing the creature from combat - If a regeneration shield is being used during combat but before combat damage, such as to prevent a Doom Blade killing the creature, the creature is removed from combat and will no longer deal or receive combat damage.
+Removing all marked damage from the creature - When a creature gets damaged, that damage is "remembered", but only until the end of that turn. If at any point during a turn the damage exceeds a creature's toughness, that creature gets destroyed the next time state based actions are checked.
+

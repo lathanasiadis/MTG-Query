@@ -1,0 +1,24 @@
+Q:
+
+What happens to counters on a creature when the equipment that put them there is exiled?
+
+A green creature is equipped with Ring of Kalonia. A +1/+1 counter is put on at the owner's upkeep(BTW, I believe a new counter isn't added every upkeep step). The creature gains trample.
+What happens when the Ring is exiled? I believe the trample ability is removed. But what happens to the +1/+1 counter?
+
+A:
+
+A new counter is added on every one of the upkeep steps of the player who controls the equipment. After five of these upkeeps, the creature will have five +1/+1 counters.
+The counters (plural) stay there.
+
+You seem to be confusing a counter-placing effect with something like what Bladed Bracers says:
+
+Equipped creature gets +1/+1.
+
+Whereas Ring of Kalonia says:
+
+At the beginning of your upkeep, put a +1/+1 counter on equipped creature if it's green.
+
+Ring of Kalonia's ability is a triggered ability which adds a new +1/+1 counter to the creature every time it resolves, and it triggers at the beginning of every upkeep of the equipment's controller. This adds up. These counters are independent of the equipment, and stay there when it goes away - whether it gets unequipped, exiled, or anything else.
+Bladed Bracers' ability on the other hand is a static ability, which says the creature "gets +1/+1". This doesn't apply counters, it just modifies the equipped creature. It doesn't increase, and there's no delay - it just starts applying instantly. When the Bracers go away, so does the +1/+1.
+The ability on the Bracers I've quoted is the same kind of thing as Ring of Kalonia's "Equipped creature has trample", which is also a static ability, and as you're aware, goes away when the equipment does.
+

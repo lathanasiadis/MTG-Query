@@ -1,0 +1,19 @@
+Q:
+
+What happens to enchantments that are attached to creatures when the creatures are returned to your hand?
+
+What happens to enchantments that are attached to creatures when the creatures are returned to your hand?
+
+A:
+
+They go to the graveyard, just as they do if the creature leaves play in any other way. From the basic rulebook:
+
+Some enchantments are Auras. An Aura enters the battlefield attached to a permanent and affects that permanent while it’s on the battlefield. If the enchanted permanent leaves the battlefield, the Aura is put into its owner’s graveyard.
+
+So: creature goes away, aura dies, nice and simple, whether the creature was destroyed, exiled, bounced back to its owner's hand, or stuck back in its owner's library.
+Or if you prefer the detail of the comprehensive rules:
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+The main exception is that if the enchantment happens to be an enchantment creature with bestow (for example, if you've attached a Baleful Eidolon to your creature), it instead stops being an Aura and becomes a creature.
+

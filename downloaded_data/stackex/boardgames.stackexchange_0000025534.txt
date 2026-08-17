@@ -1,0 +1,27 @@
+Q:
+
+When you use 'Rebound' does the card go to the graveyard?
+
+Someone suggested I read the basic guide of mtg because I'm new to the game, so I was reading it and on page 7 (Game Zones) where it talks about Exile it says:
+
+If a spell or ability exiles a card, that card is put in a game area that's set apart from the rest of the game. The card will remain there forever, unless whatever put it there is able to bring it back. Exiled cards are normally face up. This zone is shared by both players.
+
+So if you played a card like Staggershock and next turn you use rebound, spell happens, does it remain in exile or go to the graveyard?
+(Also, not a question but a side note, all players share the same exile? Thats interesting I didn't know that till just now.)
+
+A:
+
+does it remain in exile or go to the graveyard?
+
+Neither. It's moved to the stack when you cast it. From there, it will go to the graveyard on resolution (or upon being countered) as normal.
+
+If you exercise the option to Rebound a previously-exiled Staggershock, you cast Staggershock. The first step of casting a spell is to move the card from the zone in which it's located (usually your hand, but exile in this case) to the stack.
+
+601.2a The player announces that he or she is casting the spell. That card (or that copy of a card) moves from where it is to the stack. [...]
+
+At that point, it leaves exile. This is that to which "unless whatever put it there is able to bring it back" refers.
+When the spell resolves, it will then go from the stack to the graveyard as normal since it was cast from exile rather than your hand.
+
+702.87a Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. “Rebound” means “If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.”
+608.2k As the final part of an instant or sorcery spell’s resolution, the spell is put into its owner’s graveyard. [...]
+

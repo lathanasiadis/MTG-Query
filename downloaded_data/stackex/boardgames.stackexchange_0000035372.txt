@@ -1,0 +1,19 @@
+Q:
+
+Can Rhonas the Indomitable attack if I pump Voltaic Brawler?
+
+I have a Voltaic Brawler (3/2) on board and also a Rhonas the Indomitable.
+I am going to pump the brawler up with an energy counter to make the brawler a (4/3) and attack with the brawler.  Will Rhonas also be able to attack now?
+
+A:
+
+You can't get Rhonas attacking that way, unfortunately. This is because of how we handle declaring attackers:
+
+We enter the Declare Attackers step.
+You choose attackers. They're declared attackers simultaneously. (At this point, Voltaic Brawler can attack, but Rhonas cannot.)
+The active player receives priority, and in the process of them receiving it, triggered abilities go on the stack, including Voltaic Brawler's.
+You get the opportunity to choose to pump Voltaic Brawler with +1/+1.
+
+At this point, declaring attackers is done. You can't declare new ones. It's too late.
+This would be different if you used Rhonas's activated ability before combat to get a 5/2 Voltaic Brawler before declaring attackers. (That's exactly what it's there for: to benefit your strategy and help Rhonas attack. Every Amonkhet god has an activated ability that moves you closer to them being able to attack and block.)
+

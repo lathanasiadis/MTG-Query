@@ -1,0 +1,19 @@
+Q:
+
+When there are multiple "enters the battlefield" effects but "lasts until end of turn" is said once, do they all last until end of turn?
+
+For example, Cavalry Drillmaster has two enters the battlefield effects separated with an and:
+
+When Cavalry Drillmaster enters the battlefield, target creature gets +2/+0 and gains first strike until end of turn.
+
+Do both effects last until the end of the turn or just first strike? Where is this defined in the rules?
+
+A:
+
+They all last until the end of the turn, not just first strike. Since it's hard to keep track of these abilities for a longer period, permanent boosts (or curses) almost always use 'counters', like a +1/+1 counter, which stay on the card as a visible representation. (There are a handful of exceptions like Figure of Destiny.)
+So if the +2/+0 boost would be permanent, it would have read something like this:
+
+When Cavalry Drillmaster enters the battlefield, choose target creature. Put a +2/+0 on that creature. That creature gains first strike until end of turn.
+
+Note that the effect has now been split in two sentences, to indicate the difference in duration.
+

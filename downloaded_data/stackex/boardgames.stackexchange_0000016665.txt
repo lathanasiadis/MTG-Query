@@ -1,0 +1,22 @@
+Q:
+
+Improve the Power of creatures in the graveyard?
+
+So I have a deck that relies a lot on the Scavenge1 mechanic, and I was wondering if there was a good, effective way to improve the Power of creatures in the graveyard, so that I get more +1/+1 counters when I Scavenge it.
+I already have Corpsejack Menace for +1/+1 multiplication, but it struck me as a neat idea to be able to pump up the Power of, e.g., Slitherhead to get more “free” +1/+1 counters. I’m playing Standard (as of writing, Return to Ravnica, M14, and Theros), but I’d be happy to hear about cards in other formats that work. I’d appreciate markings of the legal formats for any card suggestions, since I’m kind of new to Magic and am not familiar with older blocks.
+1 Creature ability: pay a cost and exile the creature from the graveyard, add a number of +1/+1 counters equal to the creature’s Power to another creature.
+
+A:
+
+I split your question into three, because I thought it was less ambiguous that way.
+Is there a way to put a creature with improved power into the graveyard?
+Only one that we know of. Someone mentioned Skullbriar, the Walking Grave in the comments. Skullbriar takes his counters with him to the graveyard, where they continue to modify his power and toughness.
+Is there a way to improve the power of a creature in the graveyard?
+This is the question you actually asked.
+The only way I can think of to actually change the power of a creature that is in the graveyard is to play with creatures like Spellheart Chimera, whose power and toughness are calculated. These are static abilities that function in any zone, including the graveyard.
+If you had Spellheart in your graveyard and then you played Grisly Salvage and flipped over 5 instants, Spellheart would suddenly have 5 (plus one from the Grisly Salvage itself) more power than he had before, thereby improving his power.
+Is there a way to put high power creatures in the graveyard?
+Yes. You can discard a creature card like Bearer of the Heavens by having too many cards, or by being forced to discard it with something like Thoughtseize (which can target yourself). You can also mill with a card like Grisly Salvage, mentioned earlier.
+
+The answer I think you were hoping for was a card like "Target creature in your graveyard gets +3/+3 until end of turn" (a buff) or "becomes a 10/10 until end of turn" (a static ability) or even something that affects the power of all creatures in your graveyard. No card like that exists. I doubt one ever will, because the "status" of cards in your graveyard would become unmanageable. Cards like Spellheart Chimera are exceptional in that their status is printed directly on the card, making it impossible to forget.
+

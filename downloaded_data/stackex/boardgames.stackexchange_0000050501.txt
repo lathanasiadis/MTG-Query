@@ -1,0 +1,26 @@
+Q:
+
+Can Haphazard Bombardment destroy something with two aim counters?
+
+Haphazard Bombardment says:
+
+When Haphazard Bombardment enters the battlefield, choose four nonenchantment permanents you don't control and put an aim counter on each of them.
+At the beginning of your end step, if two or more permanents you don't control have an aim counter on them, destroy one of those permanents at random.
+
+Note the last line says "have an aim counter". It doesn't say "have at least one aim counter".
+Does this mean that if a target somehow gains two aim counters (e.g. via proliferate, or because the creature gained more aim counters from Hankyu), it cannot be destroyed by Haphazard Bombardment?
+
+A:
+
+Permanents with multiple aim counters can be destroyed by Haphazard Bombardment.
+In standard English, "has an aim counter" means "has at least one aim counter", not "has exactly one aim counter". If someone asks "do you have a dollar?", you don't say "no" because your wallet is full of them.
+I can't find any rulings that address this directly, but Gladehart Cavalry has this ability:
+
+Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.
+
+and a corresponding ruling that says
+
+You gain 2 life per creature, not per +1/+1 counter.
+
+which is only meaningful if creatures with multiple counters can trigger it.
+

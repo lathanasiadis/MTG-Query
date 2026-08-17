@@ -1,0 +1,22 @@
+Q:
+
+Do basic land types affect a card's color identity?
+
+A card's color identity, as I understand it, is defined by all mana symbols in its cost and rules text. This means that the color identity of Temple of Silence is black and white, since it has "{T}: add {W} or {B}" in its rules text.
+But what about Godless Shrine or Indatha Triome? These lands can also be tapped for various colors of mana, but those colors don't appear in the rules text: the ability comes from the card's subtypes, which don't contain any mana symbols. The mana symbols do appear on the card, but only in reminder text, which as far as I know has no effect on the rules.
+So, what is the color identity of a land that taps for colored mana (because of its subtypes), but contains no mana symbols in its rules text? For a specific example, if my commander is Elenda, the Dusk Rose, can I include an Indatha Triome in my deck?
+
+A:
+
+No, you may not include lands with basic land types that produce mana outside your commander's color identity.
+Land with basic land types have innate mana abilities. While this makes them a special case among all cards, these abilities are not reminder text and do have an effect on gameplay.
+
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words “basic land type,” it’s referring to one of these subtypes. An object with the land card type and a basic land type has the intrinsic ability “{T}: Add [mana symbol],” even if the text box doesn’t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, “Mana Abilities.”
+
+That seems to indicate that cards like the Triome (land with basic land types, no other abilities with colored mana symbols) have a colorless identity and thus could be included in any commander deck, because the innate ability is granted to objects, rather than cards. 
+However, for such cards, there is a special rule that looks at the color of mana they could produce.
+
+903.5d A card with a basic land type may be included in a Commander deck only if each color of mana it could produce is included in the commander’s color identity.
+
+So no, you could not include Indatha Triome in your Elenda Dusk Rose commander deck, because it produces {G}.
+

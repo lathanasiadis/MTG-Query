@@ -1,0 +1,16 @@
+Q:
+
+How long does a creature returned by the Whip of Erebos remain on the battlefield?
+
+Whip of Erebos says 
+
+Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate this ability only any time you could cast a sorcery.
+
+Does that mean that the creature will remain on the battlefield for the rest of the current turn and pretty much all of the next turn, too, save for the end of that turn? eg. could I attack with the resurrected creature twice?
+And what happens if I bounce it back to my hand? I assume it doesn't go to the graveyard from my hand?
+
+A:
+
+The creature will remain on the battlefield for the remainder of the turn that it came into play. The last phase of each turn is the ending phase, and the first step of that phase is the end step. When that step starts, the triggered ability "Exile it at the beginning of the next end step" will trigger and you will exile the creature.
+The next part of the ability says "If it would leave the battlefield, exile it instead of putting it anywhere else." This means that if it would go to your hand from the battlefield (you "bounce" it), it is exiled instead.
+

@@ -1,0 +1,18 @@
+Q:
+
+Double faced cards multiple transform triggers
+
+Wizards recently changed the ruling for double faced cards: 
+
+if a DFC has an activated or triggered ability that transforms it, that permanent transforms only if it hasn't since that ability was put on the stack.
+
+Ok, so that means that you can't flip-flop a DFC card around with the ability on one side. Does that mean you can't activate/trigger the ability more than once, for other effects? (e.g. Elusive Tormentor's "{1}, Discard a card: Transform" and I want multiple Madness triggers)
+
+A:
+
+Several points for the first question:
+
+Elusive Tormentor's ability is not triggered, it is activated. 
+Discarding the card is not part of its effect, but part of the cost, and there is no limit to how often you activate that ability. 
+Even if it was part of the effect, you could still activate the ability several times and discard several cards, because the discard and the flip would be separate effects. If one effect of a spell or ability gets prevented or replaced somehow, the other effects are not affected.
+

@@ -1,0 +1,14 @@
+Q:
+
+Sakashima's Student and Stinkdrinker Bandit
+
+I play a rogue tribal deck that features Stinkdrinker Bandit. I plan on putting Sakashima's Student in.
+When an unblocked Rogue I control attacks, I'd switch it with Sakashima's Student and have it copy a StrinkDrinker Bandit on the board. Say, I also have other attackers that are unblocked. Does Sakashima's Student's copied ability of Stinkdrinker Bandit apply to the other unblocked attackers as well as itself?
+
+A:
+
+No, the Ninjutsu'd Stinkdrinker Bandit's ability will not trigger.
+Stinkdrinker Bandit's ability is a triggered ability. When the defending player has decided on his blockers, it triggers for every Rogue that is now unblocked. It will not trigger again during the current combat phase.
+If you want to Ninjutsu your Stinkdrinker Bandit with Sakashima's Student, you can only do so after blockers have already been declared because of Ninjutsu's  timing restrictions: An unblocked creature is any attacking creature that, after the blockers have been declared, has not been assigned a blocker. By that time, it's too late for the copied Stinkdrinker Bandit to trigger his ability.
+For your combo to work, Stinkdrinker Bandit's ability would have to be a static ability and read something like "Attacking and unblocked Rogues you control get +2/+1". In that case, it wouldn't matter when the Stinkdrinker Bandit would enter the battlefield, as long as it's before the end of combat.
+

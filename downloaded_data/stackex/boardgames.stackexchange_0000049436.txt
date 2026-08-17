@@ -1,0 +1,16 @@
+Q:
+
+Can I cast Kheru Spellsnatcher's spell after it leaves the battlefield?
+
+Kheru Spellsnatcher's morph ability is a good one. Suppose I've turned it face up and exiled a spell with its triggered ability, then Kheru Spellsnatcher dies. May I play the exiled spell still even if Kheru Spellsnatcher isn't around anymore?
+
+A:
+
+Yes, you may cast the exiled card whether you control Kheru Spellsnatcher or not.
+Kheru Spellsnatcher's ability creates a continuous effect (with unlimited duration) that modifies the rules of the game. Specifically, it allows you to cast the exiled card from exile.
+
+611.1. A continuous effect modifies characteristics of objects, modifies control of objects, or affects players or the rules of the game, for a fixed or indefinite period.
+
+The effect does not specify whether or not Kheru has to be on the battlefield, and indeed does not reference Kheru at all. Therefore it does not matter what happens to the Kheru that exiled the card. All that matters is that the card remains exiled.
+There are similar effects that require the originator of the effect to remain on the battlefield or some other condition, but they either specify so, such as Awakener Druid, or the ability that allows you to cast those cards are a separate ability, such as that of Nightveil Specter that naturally disappears when the Nightveil Specter does.
+

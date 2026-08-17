@@ -1,0 +1,22 @@
+Q:
+
+Interaction with printed stats and token/equipment with stat reduction
+
+I just debuted playing magic 2 weeks ago, and I have a question. Let's say a creature has 4 +1/+1 token on it and has base stats of 2/2. If I play Breya, Etherium Shaper's ability to inflict -4/-4 to that creature, does it affect the creature with all his power (6/6 bringing it down to 2/2) or does it affect the printed value of 2/2, killing it since it goes to 0 toughness?
+
+A:
+
+It becomes 2/2.
+
+The ability in question is
+
+Target creature gets -4/-4 until end of turn.
+
+To determine a creature's power and toughness:
+
+Start with the printed value (or the value with which a token was created).
+Apply power- and toughness-setting effects (e.g Turn to Frog) in the order they were created.
+Apply power- and toughness-modifying effects (e.g the ability and the counters mentioned above).
+
+The result is the power and toughness of the creature.
+

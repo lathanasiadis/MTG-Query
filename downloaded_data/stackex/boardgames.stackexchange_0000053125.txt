@@ -1,0 +1,19 @@
+Q:
+
+Can I sequence Twilight Drover triggers to get around an overloaded Cyclonic Rift?
+
+If I have Twilight Drover and a bunch of tokens, along with infinite/sufficient mana, can I work around Cyclonic Rift?
+
+The overloaded Cyclonic Rift resolves.
+I stack the leaves the battlefield triggers of Twilight Drover such that of n of my tokens, n-1 resolve putting a bunch of counters on Twilight Drover.
+In response to the last token's trigger, I then activate the activated ability of Twilight Drover, to make 2(n-1) spirit tokens.
+
+By step 3, the Cyclonic Rift has resolved, so I don't lose the new tokens?
+Is this the correct sequencing?
+
+A:
+
+No, this does not work
+The key problem with your plan is that Cyclonic Rift will bounce the Twilight Drover as well as the tokens, at the same time before you're allowed to respond.  Meaning that even though the counter generating triggers go onto the stack and resolve they won't actually do anything (the Drover is gone), and for the same reason you won't be able to activate the drover's ability.
+As a general rule, it's impossible to activate the ability of a creature on the battlefield to produce a token that will survive the same wrath that kills the creature with the token producing ability. Either you activate it before the wrath resolves (possibly in response) and the new token dies too, or the wrath resolves first and you then can't activate the ability because the creature with the ability is gone.
+

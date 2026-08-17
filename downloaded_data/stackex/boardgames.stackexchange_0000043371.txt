@@ -1,0 +1,21 @@
+Q:
+
+Adaptive automaton effects
+
+I know that when a card like Elvish Archdruid leaves the battlefield the +1/+1 effect is lost. Is this also true for Adaptive Automaton? Or does the  power/toughness remain on the chosen creature type?
+
+A:
+
+As with Elvish Archdruid, the effect only exists when Adaptive Automaton is on the battlefield.
+Elvish Archdruid and Adaptive Automaton both have a static ability that creates a continuous effect that alter the power and toughness of some creatures, and static abilities only work as long as long as their source is on the battlefield.[1]
+
+604.2. Static abilities create continuous effects, some of which are prevention effects or replacement effects. These effects are active as long as the permanent with the ability remains on the battlefield and has the ability, or as long as the object with the ability remains in the appropriate zone, as described in rule 112.6.
+
+The wording of Adaptive Automaton's ability and Elvish Archdruid's are both of the form "[Creatures that match some criteria] get +1/+1." If you explained why you think these practically identical abilities might work differently, we could better explain why they don't.
+
+Some static abilities work in zones other than the battlefield, as explained by 112.6. This is not one of those cases. These static abilities can be summarized as follows:
+
+Abilities of sorcery and instant objects (which usually work on the stack)
+Characteristic-defining abilities (which work in all zones)
+Abilities that only make sense if they work in other zones (which work in those zones)
+

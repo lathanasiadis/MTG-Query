@@ -1,0 +1,12 @@
+Q:
+
+How does the following interaction with Swords to Plowshares and Death's Shadow work?
+
+Death's Shadow is a 13/13 that gets -X/-X where X is your life total.
+If one I control is exiled by Swords to Plowshares, then last known information is used to tell us how much life should be gained, but this happens before the life gain from the Swords, right?  I would not necessarily gain 13 life, but rather the current size of Death's Shadow?  
+
+A:
+
+Yes, this is exactly what happens, so barring any other side effects*, you'll always end up with 13 life.
+*: e.g. a card which doubles any life gained, like Boon Reflection (thanks @MichaelSnook)
+

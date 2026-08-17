@@ -1,0 +1,14 @@
+Q:
+
+What happens when multiple "when this creature dies" triggers happen at the same time?
+
+In Magic the Gathering, If I have Gate to the Afterlife and Shadows of the Past on the battlefield and one of my creatures die which ability activates first?  Would I have to scry first or would I have to heal/draw/discard first?
+
+A:
+
+Both capacities will trigger in the same time. You choose the one to apply first. (you put them on the stack in the order that you want)
+
+603.3b If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities they control on the stack in any order they choose.
+
+APNAP order is Active player/non active player order. This means that effects from the active player, the one who's turn it is, get put on the stack first, in the order they choose, then the next player in turn order and so on. The last thing put on the stack is the first to resolve, so the person who's turn is farthest away will have their triggers resolve first.
+

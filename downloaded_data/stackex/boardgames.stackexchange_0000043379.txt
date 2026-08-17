@@ -1,0 +1,21 @@
+Q:
+
+What happens if you have a Uba Mask and a Thought Reflection in play?
+
+What happens if you have a Uba Mask and a Thought Reflection in play, do both effects still apply will I just be exiling two cards on each draw step?
+
+A:
+
+The rules for interaction of replacement effects specify that
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below.
+
+then
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+Both cards create replacement effects so when they affect you, you choose the order (also the steps 616.1a-616.1c are not relevant here). If you apply the Mask effect first, the Reflection effect has nothing to apply to - you exile one card. If you apply the Reflection effect first the Mask effect will replace both draws with exiles.
+This is also mentioned in a ruling on Thought Reflection:
+
+If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them.
+

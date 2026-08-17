@@ -1,0 +1,12 @@
+Q:
+
+MTG planeswalker-flicker ruling
+
+Lets say I have a Kiora, Master of the Depths in play that has 2 loyalty because I used her -2. I also have a Felidar Guardian in play and a Restoration Angel in hand.
+Now here is the question: Can I minus Kiora (potentially killing her), flash in a Restoration Angel targeting Felidar Guardian causing its enter the battlefield trigger to go on the stack and blink Kiora with Felidar saving her and getting value off of the minus ability, or is she just dead because she has no loyalty? I'm assuming the latter because I'm thinking it would be similar to -1-1 counters because taking away loyalty is the cost of the ability. (If anything I'm just making sure)
+
+A:
+
+You're correct in assuming that that trick won't work.  The entire process of paying the loyalty cost and then having the Planeswalker die due to state-based actions doesn't use the stack, so there's no opportunity for a spell or ability (which would use the stack) to preempt it. Between the time you pay the -2 cost (bringing her to 0 loyalty) and the next time you'd be able to use a spell or ability, she's been moved to the graveyard.
+If you want to preempt a state-based action, your only option is a replacement effect, but you'd be hard-pressed to find a replacement effect that would save a Planeswalker at 0 loyalty.
+

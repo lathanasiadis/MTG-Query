@@ -1,0 +1,16 @@
+Q:
+
+What happens if I cast Green Sun's Zenith while Grafdigger's Cage is on the battlefield?
+
+Grafdigger's Cage doesn't prevent me from casting Green Sun's Zenith from my hand, but what happens if I do?
+
+A:
+
+Two important comp. rules here:
+
+101.2. When a rule or effect allows or directs something to happen, and another effect states that it can't happen, the "can't" effect takes precedence.
+609.3. If an effect attempts to do something impossible, it does only as much as possible.
+
+So you'll search your library for a green creature cost with converted mana cost X or less, do absolutely nothing with it (since you cannot, due to Grafdigger's Cage) and leave it in your library, then shuffle your library, then shuffle Green Sun's Zenith into it's owner's library.
+This allows you to shuffle Green Sun's Zenith into your library for G, which might be handy/relevant in some obscure case (possibly against mill decks?).
+

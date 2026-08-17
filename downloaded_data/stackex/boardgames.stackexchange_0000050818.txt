@@ -1,0 +1,22 @@
+Q:
+
+Hexproof counter on noncreature permanents
+
+I was wondering if a hexproof counter (from cards from Ikoria) on a noncreature permanent would give it hexproof. I would think it works like that, but when I read the mechanics article, I saw:
+
+Note that if these counters end up on a noncreature permanent, it won't necessarily apply right away, but it will if the permanent becomes a creature. (The exceptions here are deathtouch and lifelink, which work even if they end up on a noncreature permanent, provided that noncreature permanent can deal damage somehow.)
+
+Here hexproof isn't mentioned as a keyword counter that would do something on a noncreature permanent.
+For example, I have an Ozolith and a Crystalline Giant on the battlefield. The giant has a hexproof counter on it and dies, moving all counters to the Ozolith. Can my opponent target my Ozolith (after the counter has been moved on it)?
+
+A:
+
+We will have to wait for the Ikoria rules update, but as of now, Hexproof is an ability that works on any type of permanent, and noncreature permanents with a hexproof counter should also have functional hexproof.
+Under the current rules, Hexproof works on any permanent:
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+See also this Gatherer search.
+I suspect hexproof will also be one of the exceptions mentioned in the Ikoria new mechanics article, and was simply missed. The fact that, according to that article, lifelink and deathtouch are going to be functional on noncreature permanents is a strong hint that the same will be true for hexproof or any other ability that works on noncreature permanents.
+For clarity: Assuming the rules for ability counters are as straightforward as they could be, they will simply grant their abilities to any permanent they're on, whether or not that ability is currently relevant. Nothing in the rules stops a permanent from gaining or having abilities that don't apply in its current state. For a canonical example, Vehicles are not creatures as long as they are not crewed, but they still have abilities like flying and trample. I expect the same for ability counters that end up on Ozolith or any other noncreature permanents.
+

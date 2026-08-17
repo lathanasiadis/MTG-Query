@@ -1,0 +1,15 @@
+Q:
+
+Does a multicolored green/blue spell count for abilities triggering on casting a blue spell?
+
+I have a short question that relates to some effects that tell about spells' colours. When I have for instance, Gadwick, The Wizened who has a triggered ability thas says "Whenever you cast a blue spell, tap target creature" and I cast spell that is green and blue, will it trigger? 
+
+A:
+
+Yes, it will trigger.
+
+105.2. An object can be one or more of the five colors, or it can be no color at all. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+202.2c An object with two or more different colored mana symbols in its mana cost is each of the colors of those mana symbols. Most multicolored cards are printed with a gold frame, but this is not a requirement for a card to be multicolored.
+
+So a green/blue spell is both a "blue spell" and a "green spell".
+

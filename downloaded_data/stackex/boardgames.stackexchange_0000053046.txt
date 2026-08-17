@@ -1,0 +1,39 @@
+Q:
+
+Sequence of fast and triggered effects - Enchantment Alteration, Abduction
+
+This is a multi-part question because I have no idea how to predict the interplay of effects of two cards:
+
+Abduction
+Enchantment Alteration
+
+Probably I'm missing some basic timing rules information.
+(Also, if the answer would be different prior to 9th Edition or so, I'd like to know both answers as pretty much all of my cards are that old so I tend to prefer the older rules for casual games.)
+Several situations I'm wondering about:
+Let's say I've played Abduction on one of my opponent's creatures (doesn't matter what for this question, call it creature A).  Then, when the creature is about to be destroyed in combat with creature B (either as an attacker or a blocker, if it makes a difference I'd like to know both), I play Enchantment Alteration and move my Abduction to creature C.
+What happens to creature A?  Since it's no longer enchanted, I think it wouldn't be put back into play under owner's control, right?  But would it be taken out of combat since I don't control it?  Would creature B be saved from being killed?  (Let's say creatures A and B are both 2/2s.)
+Also, would creature C be untapped by moving Abduction onto it?
+What if I moved Adbuction onto creature B instead?  (From one creature in the combat to the other?)  Or from a noncombatant to an enemy combatant?
+Overall I just need to understand how transition of control affects combat, and also in particular whether moving Adbuction off a creature right before it dies prevents the "put into play under owner's control" effect of Adbuction.
+
+A:
+
+If you move Abduction off of a creature that is in combat and would die from combat damage, one of two things will happen:
+
+If you control the originally enchanted creature anyway, that creature still dies in combat, and Abduction's last ability does not trigger.
+
+If the creature instead returns to an opponent's control, it leaves combat and does not die.
+
+If the enchantment moves onto a creature you don't control that is in combat, that creature will also be removed from combat.
+
+In this scenario, the last opportunity you have to cast Enchantment Alteration before the creature dies is during the declare blockers step. Once it resolves, if the creature it moved from and/or the creature it moved to change control as a result, they leave combat. This is a result of rule 506.4:
+
+A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it’s a planeswalker that’s being attacked and stops being a planeswalker, or if it’s an attacking or blocking creature that regenerates (see rule 701.15) or stops being a creature. A creature that’s removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that’s removed from combat stops being attacked.
+
+Then combat damage is evaluated, and state-based actions are checked, which may result in some creatures dying. If the creature now enchanted by Abduction dies this way, it will be returned by Abduction's last ability. The creature previously enchanted by Abduction is completely unaffected by Abduction's abilities. All that matters for Abduction's last ability is whether the enchantment is attached as the creature dies.
+Abduction's first ability says
+
+When Abduction enters the battlefield, untap enchanted creature.
+
+Attaching Abduction to a different creature does not cause it to leave or enter the battlefield, so Enchantment Alteration does not trigger that ability.
+

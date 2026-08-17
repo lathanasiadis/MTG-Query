@@ -1,0 +1,30 @@
+Q:
+
+What counters can be attached to a player?
+
+Steady Progress allows you to choose any player, and put another counter on them, of a type that already is on them.
+I am only aware of poison counters on players.  Are there others?
+
+A:
+
+At present, there are four types of counters that can be placed on players.
+
+Poison (Originally seen in Legends, prevalent in Scars of Mirrodin block)
+Experience (Commander 2015)
+Energy (written as {E}) (Kaladesh)
+Tickets (written as {TK}) (Unfinity)
+
+We can search through Scryfall for cards that give players counters to determine that those are the only ones. As we can see with cards like Caress of Phyrexia and Aether Hub, cards that explicitly put specific kinds of counters on players use the wording
+
+[Player] get(s) [amount] [counter description]
+
+Since Scryfall supports regular expression search, we can turn that into a regular expression to search for cards with that wording. For now, let's see what we get if we pretend that counters are the only things players can get. We can search for that with the following regular expression:
+
+re:"(player|opponent|you) (get|gets)\b"
+
+This mostly finds relevant cards, but it also finds some irrelevant cards, including planeswalkers that grant emblems and Paradox Haze. So, we can also exclude cards that give players emblems or additional votes or steps, or make players get you something:
+
+o:/(player|opponent|you) (get|gets)\b(?! (+|-|you|an emblem|an additional|a boon))/ -is:funny
+
+This is the same search before, but it looks at the next word to exclude sentences like "target opponent gets you [something]", "you get an emblem", "that player gets an additional [something]", "creatures attacking you get -1/-0", and "you get a boon...". It also removes joke cards. This results in 83 cards, all of which put some sort of counter on a player. A visual inspection shows that they all add poison, experience, energy, or ticket counters.
+

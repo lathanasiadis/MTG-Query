@@ -1,0 +1,26 @@
+Q:
+
+Can creatures with Undying or Persist escape from Grave Betrayal?
+
+Can creatures with Undying or Persist escape from Grave Betrayal?
+
+702.78a Persist is a triggered ability. "Persist" means "When this permanent is put into a graveyard from the battlefield, if it had no
+-1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it."
+702.92a Undying is a triggered ability. "Undying" means "When this permanent is put into a graveyard from the battlefield, if it had no
++1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it."
+
+A:
+
+Yes. According to Gatherer, Grave Betrayal creates a delayed trigger that looks for the original corpse:
+
+Each creature you don’t control that dies causes a delayed triggered
+  ability to trigger at the beginning of the next end step. If there are
+  multiple such abilities, you can put them on the stack in any order.
+  The creatures will return to the battlefield one at a time as each
+  ability resolves. The last ability you put on the stack will be the
+  first one to resolve.
+If the creature card leaves the graveyard before the delayed triggered
+  ability resolves, it won’t return to the battlefield. This is also
+  true if the card leaves the graveyard and returns to the graveyard
+  before that ability resolves.
+

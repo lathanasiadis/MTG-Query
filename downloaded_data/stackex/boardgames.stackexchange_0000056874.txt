@@ -1,0 +1,26 @@
+Q:
+
+When I play Lord of Tresserhorn, can I sacrifice Doomed Dissenter and its Zombie token?
+
+Let's say I have a Doomed Dissenter on the battlefield.
+
+When Doomed Dissenter dies, create a 2/2 black Zombie creature token.
+
+Then I play Lord of Tresserhorn.
+
+When Lord of Tresserhorn enters the battlefield, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards.
+
+For the two creatures I must sacrifice, can I choose Doomed Dissenter, and then the Zombie token it creates? Do I need to choose two creatures that are on the battlefield before either one dies?
+
+A:
+
+No, you cannot.
+The token is not created immediately; the triggered ability has to go on the stack and then resolve first. And it isn’t even placed on the stack until after you finish resolving the Tresserhorn enter-the-battlefield ability.
+
+Handling Triggered Abilities
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+So the 2/2 black Zombie creature token is not created until well after both the creatures have been sacrificed for Lord of Tresserhorn.
+

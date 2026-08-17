@@ -1,0 +1,22 @@
+Q:
+
+Ugin's Conjurant vs. un-preventable damage
+
+If I had Ugin's Conjurant with 10 +1/+1 counters on it (and no other effects modifying its toughness,) and my opponent cast a Banefire for 5 damage on it, would +1/+1 counters get removed from the Conjurant, as well as the damage being dealt, killing the Conjurant?
+Relevant text on Banefire:
+
+Banefire deals X damage to any target.
+  If X is 5 or more, this spell can't be countered and the damage can't be prevented.
+
+and on Ugin's Conjurant:
+
+If damage would be dealt to Ugin's Conjurant while it has a +1/+1 counter on it, prevent that damage and remove that many +1/+1 counters from Ugin's Conjurant.
+
+A:
+
+If Ugin's Conjurant takes damage that cannot be prevented, it will both take the damage and lose that many +1/+1 counters. This is covered by rule 615.12:
+
+Some effects state that damage “can’t be prevented.” If unpreventable damage would be dealt, any applicable prevention effects are still applied to it. Those effects won’t prevent any damage, but any additional effects they have will take place. Existing damage prevention shields won’t be reduced by damage that can’t be prevented.
+
+So, if the Ugin's Conjurant has 10 +1/+1 counters on it and it is hit with a Banefire for 5 damage, it will end up as a 5/5 with 5 damage marked and it will die.
+

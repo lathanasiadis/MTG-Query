@@ -1,0 +1,32 @@
+Q:
+
+What happens when I reanimate a creature with protection from black with Animate Dead?
+
+What happens when I reanimate a creature with Animate Dead which has protection from black? Will the creature keep being in play without the enchantment or die? Or can the creature be a legal target even in the graveyard?
+
+A:
+
+You can cast Animate Dead on a creature card with protection from black because protection doesn't work in the graveyard. The creature will return to the battlefield and protection starts working again, so Animate Dead will go to the graveyard immediately. As a consequence of that, you have to sacrifice the creature, but the creature will stay on the battlefield long enough to interact with it through instant-speed spells and abilities.
+Animate Dead starts out as an aura that can "Enchant creature card in a graveyard". While a card is in the graveyard, it has all its abilities including protection, but they don't work unless otherwise stated:
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows: [none apply]
+
+Therefore you can target and enchant that creature card with Animate Dead. While resolving, its effect will try to attach it to the creature, but that creature, in contrast to the creature card in the graveyard, has a functional protection from black, so it will not attach:
+
+702.16c A permanent or player with protection can’t be enchanted by Auras that have the stated quality. Such Auras attached to the permanent or player with protection will be put into their owners’ graveyards as a state-based action. (See rule 704, “State-Based Actions.”)
+701.3a [..] An Aura, Equipment, or Fortification can’t be attached to an object it couldn’t enchant, equip, or fortify, respectively.
+
+Animate Dead has finished resolving. The active player gains priority:
+
+116.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+When a player gains priority, state-based actions are checked first:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [..]
+
+Animate Dead is not attached to an object, so it goes to the graveyard:
+
+704.5m If an Aura is attached to an illegal object or player, or is not attached to an object or player, that Aura is put into its owner’s graveyard.
+
+Therefore, before the active player gains priority, Animate Dead will leave the battlefield and its sacrifice ability triggers. It is a normal triggered ability that uses the stack, so the creature remains on the battlefield without Animate Dead attached to it until that ability resolves. Players can respond to that ability with instant-speed spells and abilities, for example by bouncing the creature or using its activated (non-tap) abilities.
+

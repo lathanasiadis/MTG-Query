@@ -1,0 +1,94 @@
+Q:
+
+How do I tune my magic arena (MTGA) deck for 3 lands in my opening hand, under the new mulligan rule and selection algorithm?
+
+Is it 22 lands? Did I understand the algorithm correctly and did I draw the correct conclusions, or am I getting it wrong?
+From what I have read, the arena algorithm takes 2 virtual copies of your deck, shuffles and draws a hand from each. It then picks the hand (and deck) with the ratio that is closest to the ratio in your deck.  (maybe i already got that wrong?).
+21-land-deck with ratio = 0.350 (21 / 60)
+1-land-hand -> ratio = 0.143 -> distance to deck ratio = 0.21 
+2-land-hand -> ratio = 0.286 -> distance to deck ratio = 0.06 -> 2-land-hand gets picked :(
+3-land-hand -> ratio = 0.429 -> distance to deck ratio = 0.08
+
+22-land-deck with ratio = 0.367 (22 / 60)
+2-land-hand -> ratio = 0.286 -> distance to deck ratio = 0.08
+3-land-hand -> ratio = 0.429 -> distance to deck ratio = 0.06 -> 3-land-hand gets picked :)
+4-land-hand -> ratio = 0.571 -> distance to deck ratio = 0.20
+
+So as I understand it, in a 21-land-deck, if one of the 2 opening hands contains 2 lands, it will always get picked if the other hand has a different number of lands.
+And in a 22-land-deck, it's always the 3-land-hand that wins.
+So it's 22 lands?
+Resources:
+
+https://www.channelfireball.com/articles/arenas-new-opening-hand-rule-has-radical-implications-for-how-we-play-the-game/
+
+Update 2019-09-04:
+I must say I changed back to 24 lands recently, because I was getting 2-land opening hands in what felt like more than 50% of the time, when it should have been closer to 30%. But I didn't actually record any numbers, so it might just be my perception.
+
+A:
+
+From the page you reference:
+
+It also means that 21 and 22 lands become very different amounts, since 21 or fewer land decks will favor 2-land hands, and 22+ land decks will favor 3-land hands.
+
+So the cutoff is indeed 22 lands.
+
+For a single draw, the distribution is (note that the figures in your reference are incorrectly rounded):
+total     0       1       2       3       4       5       6       7
+lands   lands    land   lands   lands   lands   lands   lands   lands
+  18     7.0%   24.4%   33.7%   23.6%    9.1%    1.9%    0.2%    0.0%
+  19     5.8%   22.1%   33.2%   25.4%   10.7%    2.5%    0.3%    0.0%
+  20     4.8%   19.9%   32.4%   27.0%   12.4%    3.1%    0.4%    0.0%
+  21     4.0%   17.7%   31.3%   28.3%   14.2%    3.9%    0.5%    0.0%
+  22     3.3%   15.7%   30.0%   29.4%   16.0%    4.8%    0.7%    0.0%
+  23     2.7%   13.8%   28.6%   30.3%   17.8%    5.8%    1.0%    0.1%
+  24     2.2%   12.1%   26.9%   30.9%   19.6%    6.9%    1.3%    0.1%
+  25     1.7%   10.5%   25.2%   31.2%   21.4%    8.2%    1.6%    0.1%
+
+For the new Arena style it is instead (note that I think the figure in the reference article for drawing 2-4 lands from 20 is completely wrong):
+total     0       1       2       3       4       5       6       7
+lands   lands    land   lands   lands   lands   lands   lands   lands
+  18     0.8%   14.9%   56.0%   25.8%    2.5%    0.0%    0.0%    0.0%
+  19     0.7%   13.4%   55.4%   27.5%    3.0%    0.1%    0.0%    0.0%
+  20     0.6%   12.2%   54.3%   29.2%    3.6%    0.1%    0.0%    0.0%
+  21     0.5%   11.2%   52.8%   30.9%    4.4%    0.2%    0.0%    0.0%
+  22     0.2%    5.3%   33.4%   50.2%   10.4%    0.6%    0.0%    0.0%
+  23     0.1%    4.5%   31.7%   51.4%   11.5%    0.8%    0.0%    0.0%
+  24     0.1%    4.0%   30.0%   52.2%   12.7%    1.0%    0.0%    0.0%
+  25     0.1%    3.6%   28.3%   52.6%   14.1%    1.2%    0.0%    0.0%
+
+Here is Python 3 code to generate the tables. Run it online.
+def binom(n, k):
+    nCk = 1
+    for i in range(k):
+        nCk = nCk * (n - i) // (i + 1)
+    return nCk
+
+def hand_probability(deck_size, total_lands, hand_size, hand_lands):
+    return binom(total_lands, hand_lands) * binom(deck_size - total_lands, hand_size - hand_lands) / binom(deck_size, hand_size)
+
+if __name__ == "__main__":
+    header_format = "{:^8}" * 9
+    print("Normal")
+    print(header_format.format("total", *list(range(8))))
+    print(header_format.format("lands", "lands", "land", *["lands"] * 6))
+
+    row_format = "{:^8}" + "{:^8.1%}" * 8
+    for lands in range(18, 26):
+        row = [hand_probability(60, lands, 7, k) for k in range(8)]
+        print(row_format.format(lands, *row))
+
+    print("")
+
+    print("Arena")
+    print(header_format.format("total", *list(range(8))))
+    print(header_format.format("lands", "lands", "land", *["lands"] * 6))
+
+    row_format = "{:^8}" + "{:^8.1%}" * 8
+    for lands in range(18, 26):
+        probs = [0] * 8
+        for i in range(8):
+            for j in range(8):
+                winner = i if abs(i / 7 - lands / 60) <= abs(j / 7 - lands / 60) else j
+                probs[winner] += hand_probability(60, lands, 7, i) * hand_probability(60, lands, 7, j)
+        print(row_format.format(lands, *probs))
+

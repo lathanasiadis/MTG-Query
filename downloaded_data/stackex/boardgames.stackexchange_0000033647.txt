@@ -1,0 +1,13 @@
+Q:
+
+Turn Aside and Noxious Gearhulk
+
+When Noxious Gearhulk is played can it be countered by Turn Aside? 
+I've noticed that some cards say "counter target spell or creature" but turn aside only says "counter target spell ..."
+
+A:
+
+No, Turn aside cannot counter Noxious Gearhulk.
+There seems to be some confusion here. When a player plays a creature spell such as the Gearhulk, it is indeed a spell while it is on the stack and does fulfill one of the conditions of Turn Aside's possible targets. However, a creature spell (generally, all permanent spells except Auras) never targets anything, and is therefore never a valid target for Turn Aside. A creature spell is simply on the stack, and when it resolves, it puts the creature it represents onto the battlefield.
+Only the Gearhulk's enters-the-battlefield ability can target something. It goes on the stack when the Gearhulk has resolved and entered the battlefield. However, an ability is not the same as a spell, Turn Aside can counter only spells, so Turn Aside cannot counter that ability either.
+

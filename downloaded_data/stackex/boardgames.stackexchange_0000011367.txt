@@ -1,0 +1,12 @@
+Q:
+
+Can an indestructible creature die by a combination of damage and -X/-X effects?
+
+Say I have a 5/5 indestructible creature. An opponent plays a 3 damage spell on this creature. After that spell resolves, the opponent then plays a spell which gives the creature -2/-2 until end of turn. Does the creature die?
+
+A:
+
+No, he would be a 3/3 marked with 3 damage. This 3 damage would be 'lethal', but since he is indestructible, he is immune to such deaths. 
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+

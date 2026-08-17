@@ -1,0 +1,22 @@
+Q:
+
+Does Kira negate exploit?
+
+I am making a Kira, Great Glass-Spinner EDH deck and had a quick question. If I run a creature with an exploit ability (for example: Profaner of the Dead) where I have to sacrifice a creature to pull off the exploit, does the exploit get countered by Kira, or does it not matter because exploit says "sacrifice a creature" not "sacrifice target creature"?
+If Kira does counter the exploit when I go to sacrifice the creature, does the exploit trigger still go off because I elected to sacrifice the creature but it didn't get sacrificed, or does it not work because the exploit was countered in the first place?
+For those who would like context:
+Kira's ability: Creatures you control have "Whenever this creature becomes the target of a spell or ability for the first time each turn, counter that spell or ability."
+Exploit: When this creature enters the battlefield, you may sacrifice a creature.
+
+A:
+
+Kira, Great Glass-Spinner cannot prevent Exploit from sacrificing a creature.
+Targeting something is not a figure of speech, it has a specific rules meaning. Only spells and abilities that contain the word "target" at least once in their text (and aura spells) count as targeting something in the mechanical sense. These are called targeted spells/abilities.
+Kira can only counter targeted spells and abilities. Since Exploit does not require you to target the creature to sacrifice, it is not a targeted ability and cannot be countered by Kira on those grounds.
+
+115.1d A triggered ability is targeted if it identifies something it will affect by using the phrase “target [something],” where the “something” is a phrase that describes an object and/or player.
+
+Also note that even if you choose to sacrifice a creature but can prevent the sacrifice from happening somehow, you still won't get the beneficial effect of that exploit. You only get that if you actually did sacrifice a creature.
+
+702.110b A creature with exploit “exploits a creature” when the controller of the exploit ability sacrifices a creature as that ability resolves.
+

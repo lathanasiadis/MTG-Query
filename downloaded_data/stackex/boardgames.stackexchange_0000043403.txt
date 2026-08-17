@@ -1,0 +1,14 @@
+Q:
+
+Scrap Trawler triggers
+
+If I control a Scrap Trawler, a Krark-Clan Ironworks, and a Chromatic Sphere, with a Mox Opal in the graveyard. When I sacrifice the sphere to Ironworks, do I have to return the opal to my hand or can I decline to choose a target?
+
+A:
+
+You have to choose and return a valid target if there is one.
+You have to follow instructions of all spells and abilities that resolve. Scrap Trawler's ability requires you to target a valid card in your graveyard if possible, and you have to return that card to your hand if it's still a legal target by the time the ability resolves.
+In the general case, we have to differentiate between choosing targets and performing actions on them. 
+If the ability simply says "target [object or player with a certain quality]", then you have to choose a valid target to satisfy that instruction, for each instance of the word "target". Some abilities say "any number of targets", or "up to N targets". In those cases, you don't have to choose any objects or players. This matters for abilities that trigger when a player or object becomes the target of a spell or ability.
+The action to be performed on the chosen targets, if any, can be preceeded by the word "may", such as "you may return that card to your hand". In that case, you choose whether or not to perform that action on the chosen targets on resolution of that spell or ability.
+

@@ -1,0 +1,23 @@
+Q:
+
+Does Nyxbloom Ancient replace the entire mana ability or just the part that produces mana?
+
+Nyxbloom Ancient has the following replacement effect:
+
+If you tap a permanent for mana, it produces three times as much of that mana instead.
+
+I'm wondering whether the replacement effect ("instead") applies to the entire mana ability or just to the part that produces the mana. For example consider Empowered Autogenerator:
+
+{T}: Put a charge counter on Empowered Autogenerator. Add X mana of any one color, where X is the number of charge counters on Empowered Autogenerator.
+
+With Nyxbloom Ancient on the battlefield, do I get to place the charge counter on Empowered Autogenerator?
+
+A:
+
+Nyxbloom Ancient only modifies the mana produced. Empowered Autogenerator still gets a counter.
+Rule 106.12b says
+
+A replacement effect that applies if a permanent “is tapped for mana” or tapped for mana of a specific type and/or amount modifies the mana production event while such an ability is resolving and producing mana or the specified type and/or amount of mana.
+
+Empowered Autogenerator's activated ability has two separate instructions: first you add a counter, then you add mana. Only the second part is the mana production event, so only that part gets modified by Nyxbloom Ancient's ability.
+

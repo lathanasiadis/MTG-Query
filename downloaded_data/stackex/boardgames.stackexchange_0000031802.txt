@@ -1,0 +1,21 @@
+Q:
+
+Eye of the Storm - can I still counter spells?
+
+Eye of the Storm exiles an instant or sorcery card 'when played', and adds it to its effect. When is it considered 'played', when the costs are paid, or when it resolves?
+More specifically, if my opponent plays Shock, and it moves to the  stack, can I still gett a Counterspell in to remove it from the stack and keep it from triggering Eye?
+
+A:
+
+Yes, countering a spell will prevent Eye of the Storm from "absorbing" it, but it won't stop the spell's owner from casting copies of the cards previously exiled by EotS.
+
+"Play" was replaced with clearer terminology 7 years ago. The current text of the card (as you can see at the link you posted) is the following:
+
+Whenever a player casts an instant or sorcery card, exile it. Then that player copies each instant or sorcery card exiled with Eye of the Storm. For each copy, the player may cast the copy without paying its mana cost.
+
+So Eye of the Storm's ability triggers before you have to a chance to counter the spell. But you get priority before it resolves, meaning you get to cast instants and such while Eye of the Storm's ability is still on the stack. 
+Countering Shock will move it to the graveyard, causing the object on the stack to cease to exist. When Eye of the Storm eventually resolves, it will be unable to locate the card to exile it[CR 400.7]. Since EotS wasn't able to exile the card, it doesn't count as an "instant or sorcery card exiled with Eye of the Storm".
+Note that even though EotS's ability can't find Shock, the ability wasn't countered (since it doesn't target), so  it still finishes resolving (by doing as much as it can). Thus, the player who cast Shock will still get to cast copies of earlier spells exiled by EotS (which includes Counterspell in the presented scenario).
+
+CR 400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: [None of which matter here]
+

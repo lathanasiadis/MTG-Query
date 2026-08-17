@@ -1,0 +1,18 @@
+Q:
+
+Hexproof and "Cannot be countered"
+
+If I play a creature with "cannot be countered" and it has hexproof would either of them make it completely immune during the cast, because as I read something like Mindbreak trap can remove something with "cannot be countered" because it never resolved, but would there be a way around something like that. I thought hexproof but am not sure
+
+A:
+
+No, to both ideas.
+
+The fact that a creature has hexproof has no bearing on the spell the creates the creature; see "Can I give a creature spell hexproof to prevent it from being countered?".
+A spell which "cannot be countered" stops only effects which say "counter target spell", for example Counterspell. It does not stop:
+
+The spell being exiled, for example with Mindbreak Trap
+The spell being returned to hand, for example with Unsubstantiate
+The spell being put into its owner's library, for example with Aether Gust
+The turn ending while the spell is still on the stack, for example with Discontinuity
+

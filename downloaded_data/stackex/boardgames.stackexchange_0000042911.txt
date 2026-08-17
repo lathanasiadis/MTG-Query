@@ -1,0 +1,26 @@
+Q:
+
+What happens when I equip Helm of the Host on Gideon?
+
+Say I activate Gideon of the Trials' second ability, and have him become a creature. I then equip him with a Helm of the Host and enter combat. What do I get?
+Do I get a 4/4 indestructible token, that's only a creature? One which reverts to being a planeswalker at the end of turn? Or do I get a new planeswalker immediately?
+If the copy is a planeswalker, does it gain haste, even though it's not a creature? I assume it wouldn't change anything either way since I wouldn't be able to trigger the copy's second ability during combat, but I'm just curious, though if I manage to get a second combat phase it could be useful.
+
+A:
+
+You will get a non-legendary, non-creature planeswalker. You cannot immediately attack with it, but you get to keep all of them.
+If you copy an object, only certain values will be copied, among them its original characteristics and existing copy effects. Other effects, including type-changing effects as is the case here, will not be copied.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+
+Your token planeswalker will have haste, but you only get the token at the beginning of combat, which is no longer your main phase and thus too late to make him a creature through his zero ability. You will have to wait until the next combat phase to attack with the newly created copy. If you somehow get another combat phase during the same turn, you can first activate the copy to make it a creature and, thanks to haste, attack with it.
+Due to the recent removal of the planeswalker uniqueness rule, you will also not have to choose which of the planeswalkers to keep. Previously, you could only have 1 planeswalker of each planeswalker type at a time, whereas now planeswalkers are legendary and follow the regular legend rule. Since Helm of the Hosts creates non-legendary copies, the legend rule does not apply.
+
+704.5j If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+Planeswalker Uniqueness Rule (Obsolete)
+Older versions of the rules stated that a player who controlled two or more planeswalkers with the same planeswalker type would put all but one of those planeswalkers into their owners’ graveyards. This rule was called the “planeswalker uniqueness rule” and no longer exists.
+
+Finally, when Gideon stops being a creature at the end of turn, Helm of the Hosts will become unattached from him:
+
+704.5n If an Equipment or Fortification is attached to an illegal permanent, it becomes unattached from that permanent. It remains on the battlefield.
+

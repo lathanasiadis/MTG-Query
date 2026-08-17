@@ -1,0 +1,11 @@
+Q:
+
+Order of events with Stitcher's Apprentice
+
+My girlfriend has Stitcher's Apprentice, and she thinks that you can activate its ability, use the homunculus to block, and then sac the homunculus.  Is this possible, or does the sacrifice have to happen before the homunculus can be declared as a blocker?
+
+A:
+
+When an ability resolves, all parts of it are resolved in the listed order. You can't interpose any other actions (including playing another ability, but also including ending a step). So, you must sac a creature immediately after the homunculus comes into play (before any ETB triggers even go off).
+What you can do is chump block with a creature you already have on the field (including the Apprentice itself), then activate the Apprentice's ability between the declare-blockers step and the combat-damage step, sacrificing your chump. Even if you end up saccing the Apprentice to its own ability, you're still trading up to a 2/2 and getting a body in your graveyard, which is useful in an Innistrad blue deck looking for corpses to enable cards like Skaab Goliath and Stitched Drake.
+

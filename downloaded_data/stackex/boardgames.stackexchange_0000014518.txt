@@ -1,0 +1,28 @@
+Q:
+
+How does Phyrexian Dreadnought and Volrath's Shapeshifter interact?
+
+If I have a Phyrexian Dreadnought on top of my graveyard, and I put a Volrath Shapeshifter onto the battlefield, will I have to sacrifice other creatures with the total power of 12 or not?
+The same question goes for using the shapeshifters activated ability to discard a Phyrexian dreadnaught from my hand.
+
+A:
+
+If I have a Phyrexian Dreadnought on top of my graveyard, and I put a Volrath Shapeshifter onto the battlefield, will I have to sacrifice other creatures with the total power of 12 or not?
+
+Yes.
+It's the VS's appearance on the battlefield that will determine if the ability triggers.
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like.  [...]
+
+Static abilities are always operational when the object with the ability is in the appropriate zone, so there is not a moment the VS is on the battlefield that it's not a PD, so its triggered ability will trigger.
+
+The same question goes for using the shapeshifters activated ability to discard a Phyrexian dreadnaught from my hand.
+
+No.
+An object enters the battlefield when it is placed in the battlefield from another zone.
+
+Enters the Battlefield: A nontoken permanent “enters the battlefield” when it’s moved onto the battlefield from another zone. A token “enters the battlefield” when it’s created. See rules 403.3, 603.6a, 603.6e, and 614.12.
+
+The object in this case, the VS-become-PD, has not changed zones. All that happened is that its characteristics (name, type, text, etc) changed. As such, it has not entered the battlefield.
+If changing characteristics was considered entering the battlefield, then using Giant Growth on a Phyrexian Dreadnought would trigger its ability, and I'm sure you realize it doesn't.
+

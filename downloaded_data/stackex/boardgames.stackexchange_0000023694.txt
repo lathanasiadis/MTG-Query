@@ -1,0 +1,16 @@
+Q:
+
+Do enchantments played by my opponent on creatures I control count towards my devotion?
+
+If my opponent enchants my Spellheart Chimera with Encrust, will Encrust be counted towards my devotion or his?
+This is for devotion towards my god, Keranos, God of Storms.
+
+A:
+
+Let's have a look at what devotion is:
+
+Devotion
+A numerical value a player has, equal to the number of mana symbols of a certain color among the mana costs of permanents that player controls.
+
+The fact that Encrust is attached to your Chimera does not make you its controller. Your opponent still controls the enchantment, so Encrust will count towards your opponent's devotion to blue. You can take control of enemy's Enchantments with something like Confiscate.
+

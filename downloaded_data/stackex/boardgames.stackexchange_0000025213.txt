@@ -1,0 +1,30 @@
+Q:
+
+Double Strike with Lifelink that destroys its blocker in the first strike phase
+
+Say I have a 5/5 creature with double strike and lifelink. I attack with the 5/5 and my opponent blocks with a 1/1. The creature is killed by the damage in the first strike phase and I gain 5 life. Do I gain an additional 5 life in the normal damage phase?
+
+A:
+
+As Ikegami mentioned in a comment, the answer is no. Double strike (as well as first strike) adds an additional combat damage step where creatures with double (or first) strike deal their damage. Creatures that die as a result of this damage will be removed from combat before the second combat damage step happens. So the order of things is:
+
+Declare attacker: 5/5 double strike lifelink creature.
+Declare blocker: 1/1
+'First strike' combat damage step: attacker deals 5 damage to blocker, blocker dies and is moved to its controller's graveyard. Attacker's controller gains 5 life in this step.
+'Regular' combat damage step: the attacker has no blocker (it died the previous step) so it doesn't deal combat damage. Any other attacking and blocking creatures deal combat damage as usual. This includes any creatures that survived the first strike damage step but did not deal damage in it.
+
+If the 5/5 double strike is blocked by any creature with toughness 6 or greater, both these creatures will deal combat damage in the regular combat damage step.
+The relevant rules are the following:
+
+702.4. Double Strike
+702.4a Double strike is a static ability that modifies the rules for the combat damage step. (See rule 510, “Combat Damage Step.”)
+702.4b If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+702.4c Removing double strike from a creature during the first combat damage step will stop it from assigning combat damage in the second combat damage step.
+702.4d Giving double strike to a creature with first strike after it has already dealt combat damage in the first combat damage step will allow the creature to assign combat damage in the second combat damage step.
+702.4e Multiple instances of double strike on the same creature are redundant.
+
+and:
+
+Blocked Creature: An attacking creature that another creature blocks or that an effect causes to become blocked. It remains a blocked creature until it's removed from combat, an effect says that it becomes unblocked, or the combat phase ends, whichever comes first. See rule 509, "Declare Blockers Step."
+510.1c. A blocked creature assigns its combat damage to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it assigns no combat damage.
+

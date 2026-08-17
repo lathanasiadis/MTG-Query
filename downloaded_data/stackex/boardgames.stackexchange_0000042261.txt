@@ -1,0 +1,26 @@
+Q:
+
+Do the rules 720.3 and 720.5 contradict each other?
+
+Considering the problems in answering this question, I feel like there is a contradiction between rules 720.3 and 720.5:
+
+720.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+720.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+Assume the same scenario as in the original question, Lethal Vapors and Solemnity are on the battlefield, and an undying or persist creature enters the battlefield. Assume further that the active player has only 2 possible game choices, those choices being "passing priority" and "activate Lethal Vapor's active ability".
+Note that "passing priority" is a game choice:
+
+720.1. When playing a game, players typically make use of mutually understood shortcuts rather than explicitly identifying each game choice (either taking an action or passing priority) a player makes.
+
+Now, if all players keep passing when they receive priority between Lethal Vapor triggers, the game enters a loop and a draw. However, 720.3 clearly says that in this case, the active player must make a different choice, i.e. other than passing priority. The only remaining choice is activating Lethal Vapor's ability. That, however, might violate 720.5, because the game rules force the active player to end the loop.
+So my question is, is there a possible contradiction between 720.3 and 720.5?
+Related question, in case Lethal Vapor counts as an object involved in the loop: Assume there is a Pithing Needle naming Lethal Vapors, and the active player also controls Seal of Cleansing. The only legal game choice remaining would be to activate Seal of Cleansing. Does the player have to do that, and if not, is the game a draw?
+
+A:
+
+There's no contradiction.
+720.5 is an explanation of how to follow 720.3 in some cases. For example, if Lethal Vapors said "destroy it or sacrifice another permanent", then the creature's owner would have to sacrifice something else to end the loop. That's the kind of choice that is called for by 720.5.
+In your example, neither player can be forced to activate Lethal Vapors. This is according to 720.5. The activated ability on Lethal Vapors is not called for by any object involved in the loop.
+Either player however, would be able to choose to activate Lethal Vapors to end the sequence. Thus you have a situation which is legally allowed to end in a draw if both players agree, but either player could skip their next turn to keep the game going.
+The key here is that 720.5 doesn't try to include "abilities of anything involved in the loop" in the scope. It just means when the mechanism of the loop inherently includes a way out - a player can't endlessly choose the other option to force a draw.
+

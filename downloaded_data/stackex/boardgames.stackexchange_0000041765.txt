@@ -1,0 +1,28 @@
+Q:
+
+Zurgo + Assault suit questions
+
+Can people help me clarify the following situation:  let's say I have Zurgo Helmsmasher, already equit with Assault Suit + some other equipment + some enchantment.  It is player A's upkeep, and I give Zurgo to A.   
+1) is it correct that Zurgo is now still indestructible (since the Your turn refers to the current controller player A) ?
+2) is it correct that Zurgo cannot attack me? Here it seems like the "Your or a planeswalker you control" on Assault suit text still refer to myself? How is that different from question 1)
+3) While player A has control of the Zurgo, does he "control" the other equipment and that enchantment? eg can he sacrifice that enchantment if he gets an outlet? can he re-equipment assault suit or Zurgo's other equipment to his own creatures? Does Zurgo's CMC counts towards player A's devotion?
+4) If player A attach some other equipment or some enchantment he has to Zurgo, is it allowed?  Are they all coming back at the end of player A's turn to me?
+Thank you.  
+
+A:
+
+As long as you control a creature, you fully control it, no matter how you got control of it. For all gameplay purposes except ownership, it's "your" creature. When a creature's controller changes, the controller of equipments and enchantments attached to that creature does NOT change.
+As you correctly pointed out, "You" in an object's card text always refers to the current controller of that object. Your questions of devotion is answered with this:
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, [..]
+
+An enchantment retains its controller even if the enchanted creature's controller changes:
+
+303.4e An Aura’s controller is separate from the enchanted object’s controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn’t change control of the Aura, and vice versa. [..]
+
+An equipment retains its controller even if the equipped creature's controller changes, and only the equipment's controller can use its activated abilities, such as the "Equip" ability:
+
+301.5d An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. [..]
+
+Equipments and enchantments do not become unattached if the creature changes controllers, unless that would make the creature an illegal target (e.g. Bloodfire Infusion, which "falls off" if you stop controlling the enchanted creature). They continue to function normally as long as they are attached. The equipment's controller may choose to equip to a different creature when he is allowed to by the normal rules. If player A equips some other equipment to Zurgo, the same rules apply, the equipment will stay attached and function, no matter who controls Zurgo.
+

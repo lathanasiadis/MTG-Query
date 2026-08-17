@@ -1,0 +1,13 @@
+Q:
+
+Can I use Helm of the Hosts to copy artifacts enchanted by Ensoul Artifact?
+
+If I used Ensoul Artifact to enchant an Artifact, forcing it to also be creature, can I use Helm of the Host to have multiples of that artifact?
+
+A:
+
+Yes, you can copy the animated artifact, but it will not necessarily be a creature token. It will be a token copy of the original artifact. The effect of Ensoul Artifact will not be copied.
+For example, if the artifact with Ensoul Artifact on it was Damping Sphere, then the copy you create will simply be the original, non-creature version of Damping Sphere. If the original was a Guardians of Koilos, the copy will be a 4/4 as the original, not 5/5.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by “as . . . enters the battlefield” and “as . . . is turned face up” abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+

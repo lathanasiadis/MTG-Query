@@ -1,0 +1,22 @@
+Q:
+
+How fast effects work when played at end of turn
+
+So i just played a game with my buddy and he used a fast effect when i said i end my turn. The effect said until end of turn a creature gains shroud and you draw a card. I thought it meant until end of his turn but he said no it was until the end of my turn because it was at the end of my turn when cards effect was played . 
+How does this actually work.
+
+A:
+
+The end phase has two parts: the beginning of the end step, and the cleanup step. 
+At the beginning of the end step, any ability that reads "at the beginning of the end step" or "at the beginning of the next end step" will trigger.  This only happens once each turn, and players will get priority (meaning that they can cast spells (if the are instants or have flash) and activate abilities) afterwards.
+Then the cleanup step happens, and all "until end of turn" effects end (among other things, such as discarding down to your hands limit). If this causes a change in board state (such as a creature dying), then players will get priority again, but there will also be another cleanup step. This can repeat several times, but it always ends in a cleanup step. cleanup will always be the last thing that happens in a turn
+Since the effect that you describe is an "until end of turn effect", it is removed during cleanup, and will never persist between turns.
+
+Incidentally, the difference between the Beginning of the End Step and the Cleanup Step led to the existence of the strangest keyword ability to ever exist in Magic: Substance.  
+Substance was never printed on a card, didn't do anything, and doesn't exist any more.
+So what was it?
+Back in Ye Olden Times, there was no "beginning of the end step", and triggers that happened at "end of turn" happened after cleanup.  When they introduced the modern turn structure with the Sixth Edition Rules, these two swapped, and it became possible to cast spells after end of turn triggers happened.
+This mostly didn't effect things much, but there was a small set of cards that would generate a game object (like a token, counter, or card) at instant speed and then remove it at end of turn using an "end of turn" trigger.  With the turn order swap, it was now possible to cast them at the end of one turn and have their effect persist until the next turn, which had not been intended effect of the cards.  Also, toughness pumping cards (such as Armor of Thorns) would get removed before the damage that they were protecting against was erased, possibly causing the creature it was enchanting to die unexpectedly.
+In order to retain the original functionality, these cards were errataed to grant their objects "substance" until end of turn, and then attached the "remove from play" trigger to the loss of substance instead of until end of turn.  This meant that they would get removed from play during the cleanup step instead of the beginning of the end step, guaranteeing that they wouldn't last from one turn to the next.
+Eventually, however, it occurred to someone that they could just have these abilities trigger during the cleanup step instead of the beginning of the end step, and substance was removed altogether.  
+

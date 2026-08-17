@@ -1,0 +1,17 @@
+Q:
+
+Do I lose control of a creature if the aura which granted me control of it is destroyed?
+
+I gain control over a creature with e.g. Hypnotic Siren.
+Do I lose control over that creature if the enchantment is destroyed?
+
+A:
+
+Hypnotic Siren says "You control enchanted creature." This is a continuous effect that's present as long as Hypnotic Siren is on the battlefield enchanting a creature. Once it's gone, that effect goes away and you'll lose control of the creature, giving it back to whoever had it before. (In common situations, anyway - see this question for details.)
+Since you used Hypnotic Siren as just one example, though, I should mention that not everything works that way.
+If a card simply reads "Gain control of X" and doesn't mention a duration (e.g. "until end of turn"), that effect lasts indefinitely. For example, Beguiler of Wills reads:
+
+{T}: Gain control of target creature with power less than or equal to the number of creatures you control.
+
+That effect lasts indefinitely; you'll get to keep the creature for the rest of the game, unless someone else has a way to gain control of it.
+

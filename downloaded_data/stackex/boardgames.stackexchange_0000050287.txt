@@ -1,0 +1,37 @@
+Q:
+
+In what order are continuous effects applied across multiple objects?
+
+In the Magic Comprehensive Rules, rule 613.1 says
+
+The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order...
+
+This whole rules section clearly explains how multiple continuous effects are applied to a single object. But what if I have multiple objects with static abilities that would affect each other? In what order would those be applied, and why does it work that way?
+This matters most in cases where an effect would remove an ability that would create another effect.
+
+A:
+
+Each effect in the order described in that section is applied to all relevant permanents; the application of effects in this order can affect the existence and application of later effects in the same order on other objects.
+The rules do not explicitly state that this is how this process works, but the rules section as a whole describes the order in which to evaluate effects, but it does not say anything about evaluating objects in any specific order. The simplest way to apply those rules is to apply each continuous effect to all objects at the same time, and put only the effects themselves in any kind of order
+
+We can consider some proposed alternative interpretations and see that they either require assumptions that are not stated or implied by the rules, or are not self-consistent.
+Alternative 1: Objects are evaluated one at a time, in timestamp order
+This is the simplest way to put objects in some order that is related to something defined in the rules.
+Timestamps are defined in rule 613.6, which says this:
+
+Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.
+
+Rule 613.6c does specify the order of object timestamps, but 613.6 only describes how to use timestamps to order effects within a layer. There is no rule stating that objects as a whole should be ordered by timestamp.
+Alternative 2: Objects are evaluated one at a time, in dependency and timestamp order
+This is a more complex order than the previous alternative, but it more closely corresponds to how a player would intuitively expect some interactions to work. For example, this question is written with the expectation that Ichthyomorphosis would remove Dryad of the Ilysian Grove's ability before that ability would affect any lands.
+Dependencies are defined in rule 613.7:
+
+Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+
+613.7a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+Dependencies are only defined as a relationship between two effects. Extending that to objects as a whole and evaluating objects in that order are both assumptions that are not directly stated in the rules.
+Alternative 3: Each object is evaluated in a context in which all other objects have been fully evaluated
+This is another way that players might intuitively expect this to work. Each ability either exists or doesn't based on the object's fully evaluated characteristics, and for each object those characteristics are evaluated in a context where every other object has already been evaluated.
+This is a nice idea, and it doesn't clearly depend on any specific ordering that would need to be specified in the rules, but unfortunately it leads to unresolvable paradoxes. If two objects each have abilities that would remove the other's abilities, either neither one ends up with abilities, in which case neither should have removed the other's abilities, or both have abilities, in which case both should have removed the other's abilities, or one has abilities and the other doesn't, in which case there's no established way to determine which one should have abilities.
+

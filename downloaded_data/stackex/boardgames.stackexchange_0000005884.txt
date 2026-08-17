@@ -1,0 +1,53 @@
+Q:
+
+Can an Adaptive Automaton trigger Champion of the Parish's ability?
+
+If I have a Champion of the Parish in play and play an Adaptive Automaton, choosing human, does the Champion's ability activate?
+I believe it does since
+
+the declaration of human occurs "as the AA enters the battlefield", not "once the ..."
+the declaration takes place immediately and is not stack based (per gatherer ruling)
+Champion's affect reads "whenever a Human enters the battlefield"
+
+Thus the AA is a human when it enters the battlefield.
+Can anyone clarify this more conclusively?
+
+A:
+
+Adaptive Automaton will enter the battlefield already possessing the chosen creature type, which will trigger Champion of the Parish.
+Automaton's first ability is a "replacement effect". Relevant rules are under the heading "Replacement Effects". Relevant excerpts:
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615),
+     replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such
+     effects watch for a particular event that would happen and completely or partially replace that event
+     with a different event. They act like “shields” around whatever they’re affecting.
+[...]
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent]
+     enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . ” are replacement
+     effects.
+[...]
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn
+     trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in
+     which case the impossible instruction is simply ignored.
+
+For more information about how this interacts with Champion of the Parish, let's look at "Handling Triggered Abilities" -- specifically:
+
+603.6. Trigger events that involve objects changing zones are called “zone-change triggers.” Many
+     abilities with zone-change triggers attempt to do something to that object after it changes zones. During resolution, these abilities look for the object in the zone that it moved to. [...]
+[...]
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the
+     permanent is on the battlefield (and not before then). The permanent is never on the battlefield
+     with its unmodified characteristics. Continuous effects don’t apply before the permanent is on
+     the battlefield, however (see rule 603.6e).
+Example: If an effect reads “All lands are creatures” and a land card is played, the
+  effect makes the land card into a creature the moment it enters the battlefield, so it
+  would trigger abilities that trigger when a creature enters the battlefield. Conversely, if
+  an effect reads “All creatures lose all abilities” and a creature card with an enters-the-
+  battlefield triggered ability enters the battlefield, that effect will cause it to lose its
+  abilities the moment it enters the battlefield, so the enters-the-battlefield ability won’t
+  trigger.
+
+So, in essence, "As Adaptive Automaton enters the battlefield, choose a creature type"  replaces the normal "~ enters the battlefield" action that you perform when summoning a creature with a subtly different action: "~ enters the battlefield and its controller chooses a creature type".
+"Adaptive Automaton is the chosen type in addition to its other types" is a static ability just like shroud or flying, so your Automaton is an "Artifact Creature - Human Construct" (or "Construct Human", I suppose, the rules aren't picky) when it enters the battlefield, and this is the type that all triggered abilities (like Champion's) will see.
+If you'd like to see an official example of Adaptive Automaton interacting with a Human-enters-the-battlefield ability, look at the Rulings section for Dearly Departed.
+

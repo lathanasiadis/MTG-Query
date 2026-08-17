@@ -1,0 +1,37 @@
+Q:
+
+What happens when a creature with "Whenever a creature dies" dies simultaneously with multiple other creatures?
+
+Marchesa, the Black Rose has the following ability:
+
+Whenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.
+
+I had a number of creatures on the battlefield, including Marchesa herself, with one or more +1/+1 counters on them when Supreme Verdict was played, destroying each creature on the board.
+When Marchesa and several other creatures would be killed simultaneously,
+
+Does Marchesa's ability trigger for herself?
+
+Does Marchesa's ability trigger for the other creatures under my control with +1/+1 counters?
+
+In attempting to resolve the issue, we tried to look things up, leading to this forum post, which cites Rule 603.6d (now 603.6c) as proving that Marchesa's ability should trigger both for herself and for each other creature with +1/+1 counters.
+Unfortunately, none of us could actually understand Rule 603.6d, aside from this example:
+
+Two creatures are on the battlefield along with an artifact that has the ability Whenever a creature dies, you gain 1 life. Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifacts ability triggers twice, even though the artifact goes to its owners graveyard at the same time as the creatures.
+
+The example certainly seems analogous to me, but without understanding the actual rule, rather than just the example, we weren't too sure.
+A complete answer has to not only answer the question, but back up that answer with citation and explanation of the official rules on the matter.
+
+A:
+
+Yes, Marchesa's ability will save herself if she dies with a +1/+1 counter, along with other creatures who died at the same time as her that had a +1/+1 counter. You are correct that rule 603.6d is the reason for this.
+Basically, 603.6d says the in normal circumstances, whenever something changes, all objects that now exist are checked to see if any of them trigger. BUT, it says that leaves-the-battlefield triggers work differently. With leaves-the-battlefield triggers, the game must look at what the gamestate was like just before the event took place to see if the event caused any triggers to go off.
+In this case, after all creatures die, the game checks to see what things were like just before they died. And now that the game is looking back in time, to just before the event happened, it sees Marchesa as an object that has a triggered ability that should trigger as a result of this event; in fact one that should trigger multiple times, once for each creature with a +1/+1 counter that died.
+Hope this clears it up!
+603.6c is how you know that "dies" triggers count as "leaves-the-battlefield" abilities:
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but arent limited to, "When [this object] leaves the battlefield, . . ." or "Whenever [something] is put into a graveyard from the battlefield, . . . ." An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone "from anywhere" is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
+
+(Note that "dies" means "Whenever [something] is put into a graveyard from the battlefield".)
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger. 
+

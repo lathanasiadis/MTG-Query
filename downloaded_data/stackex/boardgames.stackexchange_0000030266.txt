@@ -1,0 +1,15 @@
+Q:
+
+What happens when a fortified land stops being a land?
+
+Darksteel Garrison is like an equipment but for land - it can fortify a land, giving it an extra ability. The Westvale Abbey is a land but once it transforms, it's no longer a land.
+What happens when a land such as Westvale Abbey equipped with a Darksteel Garrison transforms?
+
+A:
+
+When the fortified land stops being a land, the fortification unattaches.
+From Magic Comprehensive Rules (emphases mine):
+
+301.5c An Equipment that’s also a creature can’t equip a creature. An Equipment that loses the subtype “Equipment” can’t equip a creature. An Equipment can’t equip itself. An Equipment that equips an illegal or nonexistent permanent becomes unattached from that permanent but remains on the battlefield. (This is a state-based action. See rule 704.) An Equipment can’t equip more than one creature. If a spell or ability would cause an Equipment to equip more than one creature, the Equipment’s controller chooses which creature it equips.
+301.6. Some artifacts have the subtype “Fortification.” A Fortification can be attached to a land. It can’t legally be attached to an object that isn’t a land. Fortification’s analog to the equip keyword ability is the fortify keyword ability. Rules 301.5a–e apply to Fortifications in relation to lands just as they apply to Equipment in relation to creatures, with one clarification relating to rule 301.5c: a Fortification that’s also a creature (not a land) can’t fortify a land. (See rule 702.66, “Fortify.”)
+

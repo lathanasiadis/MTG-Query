@@ -1,0 +1,16 @@
+Q:
+
+Is the cast keyword triggered from the graveyard?
+
+If Conduit of Ruin or any other card states that when it is cast, does this mean that it can trigger when it returns from the battlefield? Such as Conduit of ruin is in the graveyard, I return it to the battlefield from the graveyard. Does the first ability trigger and allow me to search my library for an eldrazi card 7 or more to place on top of my library?
+
+A:
+
+No, "casting" a spell has a more specific meaning
+What does casting mean?
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.  [..]
+
+Normally, you are only allowed to cast spells from your hand, unless a card says otherwise. There are cards that allow casting spells from somewhere other than the hand, such as Bring to Light (casting from exile), Descendants' Path (casting from library), or Karador, Ghost Chieftain (casting from graveyard). The Commander game variant allows you to cast your commander from the Command zone.
+Casting a spell or ability with a reanimation effect such as the namesake Reanimate never counts as casting the reanimated creature itself. It is simply an effect of that spell or ability.
+

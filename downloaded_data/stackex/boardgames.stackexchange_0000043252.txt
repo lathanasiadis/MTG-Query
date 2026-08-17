@@ -1,0 +1,21 @@
+Q:
+
+Can I play a card for its miracle cost in this situation?
+
+A friend and I were discussing this situation:
+Player A attacks with all creatures, opponent (player B) have no blockers and gonna be lethal. Before damage step, player B plays Opt, resolves, and draw a Terminus. He reveals it, so miracle triggers go to stack. In response, before the miracle triggers resolve, player A activates an Aether Vial with two counters, resolves, and put a Kitesail Freebooter in the battlefield. Kitesail Freebooter triggered ability triggers, and player B decides that it resolves, so player A removes the Terminus from his hand. Now, while the miracle trigger is still on the stack, player B casts Path to Exile, exiling the Kitesail Freebooter. Terminus returns to his hand. 
+The question here is: when the miracle-triggered ability resolves, will player B be able to cast Terminus for its miracle cost, or is it considered another different card, like when you blink a permanent to save it from being a target?
+(NOTE: We know already that player B could respond to the Kitesail Freebooter with the Path to Exile, so player A sees the hand and discards nothing, as the Kitesail Freebooter is not on the battlefield, but this is not the question we have).
+
+A:
+
+No, Terminus could not be played here
+As you already suspect, that the Terminus is a new object at the end of the sequence of plays you describe. It's still in playerB's hand where the miracle trigger would expect it, but it's a new object regardless, because it changed zones.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. [..]
+
+The complete rules for miracle also mention what happens when the Terminus in this case leaves the hand:
+
+702.93a Miracle is a static ability linked to a triggered ability (see rule 603.11). “Miracle [cost]” means “You may reveal this card from your hand as you draw it if it’s the first card you’ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.”
+702.93b If a player chooses to reveal a card using its miracle ability, they play with that card revealed until that card leaves their hand, that ability resolves, or that ability otherwise leaves the stack.
+

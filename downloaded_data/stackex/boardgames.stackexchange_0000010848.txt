@@ -1,0 +1,23 @@
+Q:
+
+Attacking with Zero Creatures
+
+Two questions about attacking:
+1) If I have creatures in play, can I declare an attack and then declare zero of the creatures as attackers?
+2) If I have no creatures in play, can I declare an attack?
+I'm not sure why you would want to, in either case, but it seems like a weird rules case.
+
+A:
+
+Every turn has a combat phase (unless some card like Fatespinner tells you to skip it). The game proceeds to the combat phase after you're done with the first main phase.
+The combat phase consists of five steps:
+
+Beginning of combat — this phase is mostly for abilities that trigger at the beginning of combat; in multiplayer, you also choose which players will be "defending," though you don't have to assign any attackers at this point (then priority passes between players)
+Declare attackers — you choose attackers at the beginning of this phase (then priority passes between players)
+Declare blockers — you choose blockers at the beginning of this phase (then priority passes between players)
+Combat damage — damage is dealt at the beginning of this phase (then priority passes between players)
+End of combat — this phase is for resolving "at end of combat" triggers (then priority passes between players, and we move on to the next phase)
+
+You choose your attackers during the "declare attackers" step. If you select zero attackers, the game skips the "declare blockers" and "combat damage" steps.
+So, you will always get a combat phase, even if you have creatures but choose not to attack, or have no creatures. Any combat in which you don't attack won't include the "declare blockers" or "combat damage" steps, though.
+

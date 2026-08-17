@@ -1,0 +1,43 @@
+Q:
+
+Does Deflecting Palm cause Furnace of Rath to activate twice?
+
+My opponent is at 12 life. There is a Furnace of Rath in play. He casts Lightning Bolt to my face and I play Deflecting Palm in response, aiming it back at his face.
+Does my opponent take 12 damage and lose?
+
+A:
+
+Your opponent will lose, providing you choose the correct order of replacement and prevention effects.
+
+Your opponent casts Lightning Bolt.
+You respond with Deflecting Palm and let it resolve.
+You now have 2 replacement / prevention effects attempting to modify Lightning Bolt.
+By rule 616.1
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the
+  affected object’s controller (or its owner if it has no controller) or
+  the affected player chooses one to apply, following the steps listed
+  below. If two or more players have to make these choices at the same
+  time, choices are made in APNAP order (see rule 101.4).
+
+Since you are the affected player, you choose the order of replacement.
+
+Option 1 - Apply Furnace's Effect First
+
+This doubles the damage of Lightning Bolt from 3 to 6.
+As per 616.1e, you now repeat the process with any applicable replacement effects
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects
+  that would now be applicable) until there are no more left to apply.
+
+The only applicable effect left is Deflecting Palm.
+Now your opponent is affected by Deflecting Palm dealing 6 damage to him / her, so they would make any applicable choices for replacement effects.
+The only replacement effect here is Furnace of Rath again, which doubles the damage from 6 to 12.
+
+Option 2 - Apply Deflecting Palm First
+
+Lightning Bolt's 3 damage is prevented.  Deflecting Palm now deals 3 damage to your opponent.  Note that at this point, Furnace of Rath's replacement effect no longer is applicable to the Lightning Bolt event, so we don't worry about it anymore.
+Like above, Furnace of Rath's effect applies to Deflecting Palm's damage, doubling it to 6.
+
+So if you do it right, your opponent loses.
+

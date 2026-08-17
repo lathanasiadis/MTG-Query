@@ -1,0 +1,21 @@
+Q:
+
+Would a Dragon Creature Token activate Sarkhan's Unsealing?
+
+For example, you have a token created by Skyline Despot or Lathliss, Dragon Queen, or Utvara Hellkite. Does it activate Sarkhan's Unsealing? I guess the real question is do dragon creature tokens count as dragons?
+
+A:
+
+Relevant text on Sarkhan's Unsealing:
+
+Whenever you cast a creature spell with power 4, 5, or 6, Sarkhan's Unsealing deals 4 damage to any target.
+Whenever you cast a creature spell with power 7 or greater, Sarkhan's Unsealing deals 4 damage to each opponent and each creature and planeswalker they control.
+
+Which means:
+
+Sarkhan's Unsealing doesn't look for dragons. Any creature spell with power 4, 5 or 6 works.
+Sarkhan's Unsealing requires you to cast the spell. Tokens aren't usually cast. For example Skyline Despot says "create a 5/5 red Dragon creature token with flying". That creates the token, but doesn't cast it; that creature token cannot be countered by a Counterspell effect.
+
+So no: these dragon creature tokens entering the battlefield do not trigger Sarkhan's Unsealing.
+You ask another question, "do dragon creature tokens count as dragons?" This is a different question and has nothing to do with Sarkhan's Unsealing. The answer here is yes, and something with e.g. Protection from Dragons will be unblockable (and take no damage if blocking) from these tokens. That's because the dragon tokens are dragons. For example the text on Skyline Despot says "a 5/5 red Dragon creature token" - which means the token is red, is 5/5, and is a dragon; all effects that affect dragons will also affect them.
+

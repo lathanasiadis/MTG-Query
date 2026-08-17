@@ -1,0 +1,24 @@
+Q:
+
+What happens if multiple players win the game simultaneously from Laboratory Maniac?
+
+My opponent and I both control a Laboratory Maniac and have no cards in our library. I control an Alms Collector. An effect causes my opponent to draw two cards. Alms Collector changes that to each of us drawing a card. Laboratory Maniac replaces that with each of us winning the game. What happens?
+The comprehensive rules cover all remaining players losing simultaneously:
+
+104.4a If all the players remaining in a game lose simultaneously, the game is a draw.
+
+But not all remaining players winning.
+
+A:
+
+Laboratory Maniac has a ruling for this; the active player wins the game:
+
+If two or more players each control a Laboratory Maniac and each player is instructed to draw a number of cards, first the player whose turn it is draws that many cards. If this causes that player to win the game instead, the game is immediately over. If the game isn't over yet, repeat this process for each other player in turn order.
+
+This is because of this rule:
+
+121.2c If more than one player is instructed to draw cards, the active player performs all of their draws first, then each other player in turn order does the same.
+
+That answers the situation in question. As for the question as worded in the title, my best guess is that there is no way possible for multiple players to win simultaneously. A card would need to be printed with text such as “each player wins the game”, or perhaps “if you would lose the game, you win the game instead”. And if that happened, the rules appear to not cover that situation as written.
+Note that the difference between winning and losing, in terms of how the rules work, is that most of the ways that you lose the game are caused by state-based actions, which apply to all players simultaneously. However, there is no state-based action that causes players to win.
+

@@ -1,0 +1,19 @@
+Q:
+
+Who gets the copies from Eye of the Storm when control of a spell is switched before exiling the spell?
+
+Say we have 3 players, A, B, and C, in that turn order. Player A plays an instant or sorcery spell, player B has an Eye of the Storm, and player C has an Perplexing Chimera. So said spell goes on the stack, the Eye of the Storm trigger goes on the stack, and the Perplexing Chimera trigger goes on the stack. Player C decides to switch control of the spell and Perplexing Chimera between them and player A, so the spell is in control of player C. Now Eye of the Storm exiles the spell, and  
+
+Then that player copies each instant or sorcery card exiled with Eye of the Storm. For each copy, the player may cast the copy without paying its mana cost.  
+
+Now is 'that player' player A, the one who casted and owns the spell/card, or player C, who took control of said spell?
+
+A:
+
+The player who cast original the spell controls the copies of the exiled spells.
+The full text of Eye of the Storm's ability says
+
+Whenever a player casts an instant or sorcery card, exile it. Then that player copies each instant or sorcery card exiled with Eye of the Storm. For each copy, the player may cast the copy without paying its mana cost.
+
+There is only one possible antecedent for the phrase "that player" in that ability.
+

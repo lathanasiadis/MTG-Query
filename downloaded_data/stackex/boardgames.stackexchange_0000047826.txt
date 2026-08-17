@@ -1,0 +1,20 @@
+Q:
+
+Aura vs enchantment
+
+Are Auras also an enchantment.  When reading a card's text can you substitute Aura for enchantment.  For example Aura Barbs uses both words and is confusing as to what exactly it means.
+
+A:
+
+Aura and Enchantment are not synonyms. If you look at any Aura card, such as Rancor, you will see that the type line says "Enchantment - Aura", which means the type is Enchantment, and the subtype is Aura.
+This means that Auras are always Enchantments, while Enchantments are not always Auras.
+While posting the complete rules regarding Auras would be a bit much, here's the leading paragraph to give you an idea:
+
+303.4. Some enchantments have the subtype "Aura." An Aura enters the battlefield attached to an object or player. What an Aura can be attached to is defined by its enchant keyword ability (...). Other effects can limit what a permanent can be enchanted by.
+
+Loosely phrased, an enchantment is a permanent that exists on its own, while an Aura is a permanent that will be attached (and only remains on the battlefield while attached) to another permanent. This "attachment" is what the phrase "enchanting a permanent" refers to.
+
+Aura Barbs's first effect says ""Each Enchantment deals 2 Damage to its controller". This will count all Enchantments (including Auras) that each player controls, respectively.
+The second effect says "Each Aura attached to a creature deals 2 damage to the creature it's attached to". This only counts Enchantments with the Aura subtype, as only those can enchant a creature in the first place.
+Note that the printed text of this card and the oracle text are different, likely to prevent misunderstandings such as this one.
+

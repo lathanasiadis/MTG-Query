@@ -1,0 +1,22 @@
+Q:
+
+Can you cast a spell while casting a spell?
+
+Suppose I start casting a simple spell, such as Sol Ring. I follow the steps in rule 601, up to 601.2g, which is where I get a chance to activate mana abilities. I tap Selvala, Explorer Returned, which makes me draw as part of her mana ability. My Archmage Ascension replaces the draw with a library search. While searching my library, I decide to cast Panglacial Wurm.
+I imagine this means I go through the Wurm’s casting procedure, from 601.2a to 601.2i, putting it on the stack above Sol Ring, then finish applying Archmage Ascension (putting a card in my hand and shuffling), then resume the casting of Sol Ring at 601.2h (paying costs). Is this correct?
+What happens if the casting of Sol Ring becomes illegal while casting the wurm? For example, I tap another Selvala for mana, replace the draw with Words of Wilding (which I had activated before starting to cast the Sol Ring), replace the token creation with Esix, Fractal Bloom, creating a copy of an opponent’s Nullhide Ferox.
+
+A:
+
+Yes, you can do this. You laid out the steps pretty clearly, and at no time did you take an action that would be illegal. Panglacial Wurm specifically allows you to cast it at an abnormal time, while you don’t have priority.
+If the spell becomes illegal, then the casting of that spell is reverse and Sol Ring would return to the zone it came from. Other mana abilities you activated could be reversed and the payments cancelled; however the activating of Selvala and the casting of Panglacial Wurm would not be reversed. You would end up with Panglacial Wurm still on the stack.
+
+726.1. If a player takes an illegal action or starts to take an action but can’t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. Each player may also reverse any legal mana abilities that player activated while making the illegal play, unless mana from those abilities or from any triggered mana abilities they caused to trigger was spent on another mana ability that wasn’t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, caused a library to be shuffled, or caused cards from a library to be revealed.
+
+Note that you are not reversing the entire game back to before the illegal action (casting the spell). Rather you are only reversing the casting of the spell (and any mana payments except Selvala).
+See also this ruling on Selvala:
+
+If you activate Selvala’s ability while casting a spell, and you discover you can’t produce enough mana to pay that spell’s costs, the spell is reversed. The spell returns to whatever zone you were casting it from. You may reverse other mana abilities you activated while casting the spell, but Selvala’s ability can’t be reversed. Whatever mana that ability produced will be in your mana pool and each player will have drawn a card.
+
+Note that you don’t need such a complicated chain of events to make Sol Ring illegal, Selvala can do that all by herself by failing to produce enough mana.
+

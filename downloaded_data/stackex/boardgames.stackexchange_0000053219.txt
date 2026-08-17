@@ -1,0 +1,26 @@
+Q:
+
+MTG Commander Clarification on Triggered Abilities
+
+I’m playing a 4 person game, and I’m in position #1.   I cast: “Jolrael, Mwonvuli Recluse” with the activated ability that states:  “whenever you draw your second card each turn, create a 2/2 green Cat creature token.
+I do nothing else and pass my turn.
+Player #2, 3, or 4 plays “Burning Inquiry” during their main phase which states: “each player draws 3 cards, then discards 3 cards at random”.
+Does my Jolrael “cat token” effect trigger if “Burning Inquiry” resolves?
+Or must the second drawn card occur before my End Step?
+
+A:
+
+Yes, you get to create a Cat token.
+Note that the ability is a triggered ability, not an activated ability. This is an important distinction.
+
+Handling Triggered Abilities
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority.
+
+So with a triggered ability; any time the condition is met; the ability will trigger. It doesn't matter how long ago you cast Jolrael, or how many times it has triggered before. It only matters that Jolrael is on the battlefield under your control at the time that you are drawing your second card on a turn.
+The trigger condition refers to "each turn", which means that it can be on any turn, not only on your own turn. If players 2, 3, and 4 each cast a Burning Inquiry on their turn; then you would end up creating 3 Cat tokens, one on each of their turns.
+

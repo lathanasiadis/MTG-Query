@@ -1,0 +1,19 @@
+Q:
+
+Does Aura of Silence's ability stack?
+
+If I play two or more Aura of Silence or have them active at the same time, do my opponent's spells cost an additional 4, 6, or more mana?
+
+A:
+
+Yes, your opponents' spells cost 2 more for each Aura of Silence you have on the battlefield.
+
+While I haven't found a ruling for this situation specifically, your question can be broken down into two components: how multiple static abilities coexist, and how multiple cost-changing abilities interact.
+The first question is pretty straightforward: all continous effects are applied independently of one another, even if two of them happen to do the same thing.  For instance, if you had two Glorious Anthem on the battlefield, all creatures you control would get +1/+1 from each enchantment, for a total of +2/+2.
+The second question is covered by rule 601.2f (excerpt, emphasis mine):
+
+The player determines the total cost of the spell.... The total cost is the mana cost or alternative cost, plus all additional costs and cost increases, and minus all cost reductions.
+
+So it is definitely possible for multiple abilities to increase the cost of spell.
+Combining the two leads to the logical conclusion that any number of Auras on the battlefield will each increase the spell cost by 2 mana.
+

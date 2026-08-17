@@ -1,0 +1,19 @@
+Q:
+
+How is mana value calculated for a melded card?
+
+How is mana value/CMC calculated for melded cards like Mishra, Lost to Phyrexia; Urza, Planeswalker; and Titania, Gaea Incarnate cards?
+Both Google and Scryfall calculate the mana values as such, but there is no mana in the top right corner:
+
+Mishra, Lost to Phyrexia CMC=7
+Urza, Planeswalker CMC=8
+Titania, Gaea Incarnate CMC=3
+
+A:
+
+The mana value (formerly known as "converted mana cost") of a melded permanent is defined as part of Rule 713, Meld Cards:
+
+713.4b While the two cards of a meld pair are on the battlefield as a melded permanent, ... its mana value is the sum of the mana values of its front faces.
+
+Therefore the mana value of Mishra, Lost to Phyrexia is the sum of mana values of Mishra, Claimed by Gix (4) and Phyrexian Dragon Engine (3).
+

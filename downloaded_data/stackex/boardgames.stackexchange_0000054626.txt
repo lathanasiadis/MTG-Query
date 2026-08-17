@@ -1,0 +1,19 @@
+Q:
+
+Killian, Ink Duelist; Target "Creature"
+
+Something I wondered about Killian, Ink Duelist was how this card's cost-reduction ability interacted with spells that interact with creature cards or spells and not creature permanents.
+Spells like Empyrial Armor and Crib Swap can both target a creature permanent on the battlefield which allows these spells to cost less to cast if Killian is on the battlefield under your control while casting and targeting a creature with those spells.
+However, something like Animate Dead targets a "creature card in a graveyard," so is it implied that with Killian on the battlefield under your control, Animate Dead costs less to cast because it targets a "creature" anyway?
+How would Killian interact with Venser, Shaper Savant regarding  returning a target spell to its owner's hand if the spell targeted is a creature spell?
+Does a spell targeting a creature not have to be a permanent on the battlefield for the spell to cost less with Killian out?
+
+A:
+
+Killian's ability only affects spells targeting creature permanents.
+Rule 109.2 says
+
+If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+Killian's ability refers to "creatures", which is a card type, without using any of the specified words, so it means creature permanents.
+

@@ -1,0 +1,22 @@
+Q:
+
+Why doesn't Relentless Assault work if it is not cast during a main phase?
+
+Inspired by this question; the gatherer rulings for Relentless Assault say that if it is not a main phase when it resolves, then there will not be additional attack and main phases. Is there a rule that explains this interaction?
+I think I can understand why it works this way thinking about it logically, (it refers to "this main phase", and since it is not the main phase, "this main phase" simply isn't a thing that exists, therefore there is nothing after "this main phase"). But usually MTG comprehensive rules are more specific.
+The only rule I found dealing with this in general is 500.8:
+
+500.8. Some effects can add phases to a turn. They do this by adding the phases directly after the specified phase. If multiple extra phases are created after the same phase, the most recently created phase will occur first.
+
+This doesn't mention what to do if the specified phase doesn't exist.
+To clarify, I'm well aware that you cannot normally cast Relentless Assault unless it is your main phase, because it is a sorcery. But there are plenty of effects that would allow you to cast it during combat.
+
+A:
+
+Reconsider rule 500.8, specifically 
+
+They do this by adding the phases directly after the specified phase.  
+
+Relentless Assault adds an additional combat phase after this main phase. 
+As the spell resolves, it will untap creatures that have attacked during this turn. Then it will attempt to add an additional combat phase, followed by another main phase, after this main phase. If the game isn't in a main phase, it is impossible to complete the additions.
+

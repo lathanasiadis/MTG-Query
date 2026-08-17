@@ -1,0 +1,24 @@
+Q:
+
+Which Order Cards Resolve from Stack - MTG
+
+A buddy of mine and I had a small debate on the soon mentioned situation and I'm curious if I may have screwed him over on a misunderstanding of how the stack works. Consider the following situation:
+I attack with a X/X creature that my opponent can't block. After attackers/blockers have been declared, my opponent casts Silverstrike and then I respond something like Titanic Growth (as an example), and it contains the key phrase "...until end of turn"
+Is this a legal response? My line of thought is that my instant will resolve at "end of turn" which will allow his to resolve then killing my creature. Or is it that what I did made no difference and it resolves right away allowing his instant to resolve still killing mine before I can attack?
+
+A:
+
+This is what happens:
+
+Your opponent casts Silverstrike targeting your creature.  
+You cast Titanic Growth.  
+Titanic Growth resolves, giving your creature +4/+4 until end of turn.  
+Silverstrike resolves and destroys your creature.  
+Damage happens but there are no creatures to deal damage anymore.
+
+"Until end of turn" just means that the effect of the spell, in this case +4/+4, remains until the end of the turn.  
+
+405.5. When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.  
+
+In this rule you can see that the next step, combat damage, will only happen after the full stack is resolved, including the Silverstrike.
+

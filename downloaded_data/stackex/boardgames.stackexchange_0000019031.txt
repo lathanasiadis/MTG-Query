@@ -1,0 +1,18 @@
+Q:
+
+Are there cards which work differently on Ink-Treader Nephilim depending on who controls it?
+
+Are there any cards I could play on Ink-Treader Nephilim that would act differently based on who had control of the creature, for that matter, are there any cards in the game that do this at all?
+
+A:
+
+Some cards target a creature and affect that creature's controller, so it some sense they behave differently depending on who controls the target creature. Here is a magiccards.info query for such cards. Of course, since Ink-Treader Nephilim makes those spells target every creature anyway, it doesn't really matter who controls it.
+Since Ink-Treader Nephilim's controller controls the spell copies, cards that depend on your board state will have different behavior depending on who controls the Nephilim. For example, if you cast Aspect of Hydra targeting your own Nephilim, every creature will get +X/+X, where X is your devotion to green. If you cast it targeting your opponent's Nephilim, then the Nephilim will get +X/+X where X is your devotion to green and every other creature will get +X/+X where X is your opponent's devotion to green.
+Similarly, for any spell that affects "you" as part of the spell, the original will affect the player who cast it and each copy will affect the player that controls Ink-Treader Nephilim. Awe Strike is an example of such a card: whoever controls the copies gains the life.
+In addition, since Ink-Treader Nephilim's ability puts all of the spell copies on the stack at once, its controller chooses the order in which they go on the stack. If a spell hurts the creature's controller for example (e.g. Chandra's Outrage), then the Nephilim's controller can put the copies targeting their opponents' creatures on top of the stack and possibly kill their opponents before the copies targeting their own creatures resolve.
+Similarly, if the spell's effect can depend on the number of copies that have already resolved, the Nephilim's controller can arrange them on the stack to maximize their own benefit. For example, Flesh Allergy says
+
+Destroy target creature. Its controller loses life equal to the number of creatures that died this turn.
+
+This means that the creature's controller loses an additional life for each copy that already resolved. The Nephilim's controller can manipulate the order of the copies to change both how much life each player loses and in what order. In the best case, they can make their opponent lose the game before all of the copies resolve.
+

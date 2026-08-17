@@ -1,0 +1,12 @@
+Q:
+
+Can you spend extra mana on a spell that is not part of the casting cost?
+
+Suppose I have a Hall of the Bandit Lord and a Plains out and I have a Sacred Cat in hand. Is it possible to tap both lands while casting to give it haste, or can the hall only be used on creatures with a colorless mana cost (assuming no cost changing effects are active).
+Likewise, is it possible to ignore cost reduction? For example, if I had a Vizier of Remedies with Oketra's Monument out, would it be possible to still pay the colorless mana to give it haste?
+
+A:
+
+You cannot overpay costs any more than you can underpay them. It's true that underpaying feels like "taking" an advantage (and thus unfair) while overpaying feels like "giving up" an advantage (and thus potentially fair), but the rules do not discriminate between the two: the way you pay a cost is by paying that cost, no more and no less. Similarly, you can't ignore cost reductions or other positive-seeming effects (like something that tells you to draw a card) any more than you can ignore cost increases or other negative-seeming effects (like something that damages you). Since almost nothing in Magic is good in every situation or bad in every situation, this is the really the most sensible, simple and consistent way the rules could be written.
+[However there is one place that they do try to distinguish usually-good effects: if in competitive play you fail to notice that a bad triggered ability has triggered, it will probably get applied once it's noticed, but if you fail to notice a usually-good trigger (one of the ones on their list of "lapsing" effects), it will not be applied later. Purposefully "forgetting" any kind of trigger is still cheating though - the rules do not distinguish between lapsing and non-lapsing triggers.]
+

@@ -1,0 +1,17 @@
+Q:
+
+How much worse is Rare Re-drafting for the weakest player than opening a random pack?
+
+One way of awarding prizes in Magic Tournaments is to "rare re-draft", where you take all the higher value cards that have been opened while drafting (6-8 players, 3 packs per player, approx 1 rare per pack, so 24 rares/mythic rares (+ foils)), and the winner gets first choice of card, the player who came second gets the next choice and so on.
+If I've done the maths correctly, this is appallingly bad value for weaker players, not just in terms of how it benefits stronger players, but just compared to keeping the rares they open while drafting.
+Is this accurate, or have I got my maths wrong?
+
+A:
+
+Expected value is obviously lower, but in an 8 player draft the last place player still gets the 8th most valuable card.  Imagine that the value distribution is something like this
+10 most valuable cards - $50 each
+14 other cards - $1 each
+The total value of the cards is $514, so you could say that the EV of each card is $21, and the total EV without re-drafting is $63.  With re-drafting, the value is exactly $52.
+But now think about standard deviation.  Without re-drafting, there is a significant chance the player ends up with a value of $3.  With it, they will get $52 regardless of their performance. 
+The moral of the story is that if there are enough expensive cards available that even the last player gets one, re-drafting gives them a consistent value, while otherwise there is a chance that they end up with practically nothing (or possibly a jackpot).
+

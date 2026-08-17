@@ -1,0 +1,27 @@
+Q:
+
+Does Sosuke, Son of Seshiro's deathtouch-like ability combo with Matsu-Tribe Sniper?
+
+Let's say I have a Sosuke, Son of Seshiro and a Matsu-Tribe Sniper on my field.
+Sosuke's ability is: 
+
+Whenever a Warrior you control deals combat damage to a creature, destroy that creature at end of combat.
+
+and Matsu-Tribe Sniper's (which is a "Snake warrior archer") effect is: 
+
+{T}: Matsu-Tribe Sniper deals 1 damage to target creature with flying.
+
+(only listing the relevant effect for this question)
+If I tap Matsu-Tribe Sniper to deal 1 damage to let's say Courier Griffin, which  is a 2/3 flying creature, would that destroy Courier Griffin because a warrior dealt damage? Or does that not count as combat damage? I'm pretty sure this isn't how that works but I would like a second opinion.
+
+A:
+
+The damaged creature will not be destroyed.
+"Combat damage" is a specific subcategory of damage. The only way to deal Combat damage is during the combat damage step in the combat phase of a turn. From the Glossary in the comprehensive rules:
+
+Combat Damage
+
+Damage dealt during the combat damage step by attacking creatures and blocking creatures as a consequence of combat. See rule 510, “Combat Damage Step.”
+
+Any other damage dealt, such as from the activated ability of Matsu-Tribe Sniper, is just damage; it is not "combat damage". Even if it took place during the combat step; it wasn't damage that was dealt as a result of attacking or blocking.
+

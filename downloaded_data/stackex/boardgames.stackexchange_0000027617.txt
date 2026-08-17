@@ -1,0 +1,14 @@
+Q:
+
+When are players obligated to tell their opponent that the storm count is wrong?
+
+Nathan and Alice are playing a Modern tournament at Competitive REL. Alice is playing Storm, and keeping track of the storm count using a spindown. "Storm count" is shorthand for "the number of spells cast this turn".
+Alice casts Pyretic Ritual and copies it with Pyromancer Ascension. She announces that the storm count has increased by two, and adjusts her spindown accordingly. This is incorrect. Spell copies created by Pyromancer Ascension do not contribute towards the storm count.
+When is Nathan obligated to inform Alice that the storm count is wrong? Must he inform her immediately, or can he wait until she casts a spell with storm (e.g., Grapeshot) before explaining the storm count is actually less?
+
+A:
+
+Nathan is not obligated to inform Alice that the storm count is wrong until Grapeshot's triggered ability resolves. In the section of the rules regarding player communication, there is no rule that says that players are at any time obligated to volunteer information spontaneously.
+However, the rules also say "Players may not represent derived or free information incorrectly" and "Players must answer completely and honestly any specific questions pertaining to free information." According to this forum post Rainbolt found, storm count is free information. So if Alice asks what the storm count is, Nathan must give the correct answer.
+Once Grapeshot's triggered ability resolves, the two players must agree on what spells are on the stack, which means that Nathan must then inform Alice of the actual number of copies of Grapeshot created. That is because, if Alice put the wrong number of copies on the stack, that would be a Game Play Error, which means that if Nathan lets her do it, that would be a Failure to Maintain Game State.
+

@@ -1,0 +1,20 @@
+Q:
+
+Does a creature's enters the battlefield ability trigger if the creature is exiled in response?
+
+I was playing commander and played Cultivator Colossus which says:
+
+Cultivator Colossus's power and toughness are each equal to the number of lands you control.
+When Cultivator Colossus enters the battlefield, you may put a land card from your hand onto the battlefield tapped. If you do, draw a card and repeat this process.
+
+And as a response Vanishing Verse was played and that cards says:
+
+Exile target monocolored permanent.
+
+The issue is that we don't know if the ability that says "when creature enters the battlefield" activates or not. Any help on this issue would be great.
+
+A:
+
+If you cast cultivator colossus, and your opponent wants to use vanishing verse, they have to let the cultivator colossus resolve (and thus enter the battlefield) in order to stop being a "spell" and start being a "permanent".
+Then we get into what Accumulation said; the ability is triggered, so if Cultivator Colossus is gone, the effect is already on the stack and isn't affected by its source being removed from the battlefield.
+

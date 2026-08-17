@@ -1,0 +1,17 @@
+Q:
+
+What qualifies as a "monocolored creature"?
+
+I'm a little confused about what a "monocolored creature" is.
+Defiler of Souls is definitely not, having a mana cost of 3BBR - Black and red is definitely not monocolored.
+Birds of Paradise definitely is monocolored, having a mana cost of G.
+Soulfire Grand Master has a mana cost of 1W - this is where my uncertainty lies. Is this a monocolored creature because of the single (W), or does the (1) disqualify that?
+
+A:
+
+Soulfire Grand Master is monocolored. Monocolored cards have exactly one color of mana in their cost. Colorless does not count as a color. So, a cost of 1 white and 1 colorless mana contains only one color - white. Of course, anything that specifically alters a card's color overrides this general rule.
+
+105.2. An object can be one or more of the five colors, or it can be no color at all. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame. An object’s color or colors may also be defined by a color indicator or a characteristic-defining ability.
+105.2a A monocolored object is exactly one of the five colors.
+105.4. ... “Multicolored” is not a color. Neither is “colorless.”
+

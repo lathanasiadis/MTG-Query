@@ -1,0 +1,14 @@
+Q:
+
+Do abilities that trigger when a card is turned face up trigger when that card is in exile?
+
+If I have a card with an ability that triggers when it is turned face up, such as Coral Trickster, does it still trigger when turned face up in exile, for example  when imprinted on a dying Clone Shell?
+
+A:
+
+No, the turned face up ability does not trigger when the card is in the exile zone. Rule 112.6 says
+
+Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield.
+
+This ability does not match any of the exceptions, so it does not function when the creature is not on the battlefield.
+

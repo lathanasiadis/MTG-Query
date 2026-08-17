@@ -1,0 +1,17 @@
+Q:
+
+Wake the Reflections and Young Pyromancer
+
+I think i got this right, but I'd like to make a sanity check.
+If you cast Wake the Reflections with Young Pyromancer in play, the pyromancer's trigger will resolve first, so that you will get a token to populate even if you originally had none, right?
+
+A:
+
+You are absolutely correct. When a "Whenever you cast" trigger is triggered, the ability will go on the stack above the spell that caused it, meaning it will be resolved first.
+Here's the sequence of play.
+
+I cast Wake the Reflections. Populate does not require selecting a target, so I don't have to make any choices about it when the spell goes on the stack.
+Young Pyromancer's ability triggers ("Whenever you cast") and goes on the stack. This puts it above Wake the Reflections on the stack.
+(Both players pass, so the top of the stack resolves.) We resolve Young Pyromancer's ability, creating an Elemental token.
+(Both players pass, so the top of the stack resolves.) We resolve Wake the Reflections. I make a new token of any type I already have, including the 1/1 red Elemental I got a second ago.
+

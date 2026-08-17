@@ -1,0 +1,43 @@
+Q:
+
+Is it possible to respond to a "part" of a triggered ability? (with multiple sentences)
+
+Here is the scenario that came up multiple times when playing Brudiclad, Telchor Engineer, which says:
+
+At the beginning of combat on your turn, create a 2/1 blue Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token.
+
+I move to combat, Brudiclad's ability triggers
+Nobody responds to the trigger
+The 2/1 myr token is created
+I choose to make all my tokens copies of another token I have, like a Darksteel Juggernaut
+Another player "responds" to that with Path to Exile, targeting the Juggernaut
+Juggernaut is exiled, Brudiclad's ability loses target and nothing is copied
+
+Is that a legal response? Couldn't find a good ruling explanation about responding to multiple sentences in a triggered ability.
+
+A:
+
+No, this is not legal, but it isn't because it is a multi-part ability with separate sentences.
+The key is that choosing the token you want everything to become a copy of is something you do when the ability resolves, not something you do when you put it on the stack.
+When you cast a spell, or in this case when you put a triggered ability on the stack, you choose things such as any targets it requires, and what mode you are using if it is a modal spell. But other choices such as "choose a token you control" are not made at this time.
+When the player is choosing the token they control, the ability is already resolving, and no player gets priority to do anything until after the entire ability has resolves.
+Contrast to this alternate wording for Brudiclad:
+
+At the beginning of combat on your turn, create a 2/1 blue Myr artifact creature token. Then each other token you control becomes a copy of target token you control.
+
+If Brudiclad were worded like this, then you would choose your token to copy when you put the ability on the stack, because it uses the word "target". In that case, your choice could be responded to.
+
+Resolving Spells and Abilities
+
+608.2d If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect.
+
+Casting Spells
+
+601.2b If the spell is modal, the player announces the mode choice
+601.2c The player announces their choice of an appropriate object or player for each target the spell requires
+
+This applies to triggered abilities the same as spells:
+
+603.3c If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack.
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d.
+

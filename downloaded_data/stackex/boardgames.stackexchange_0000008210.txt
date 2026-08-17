@@ -1,0 +1,21 @@
+Q:
+
+Can Kaalia of the Vast put Slumbering Dragon into play tapped and attacking?
+
+I was looking at Slumbering dragon on Gatherer and ran across this quote in the discussion forum:
+
+Finally a dragon that doesn't mesh well with Kaalia of the Vast
+
+As I pondered this possibility, it occured to me that assumption might be wrong. Kaalia of the Vast puts a Dragon creature card from your hand onto the battlefield tapped and attacking.
+My understanding of the rules of magic is that ability text on a creature card only applies once the card is on the battlefield, unless it specifically references another zone (exile, graveyard, in your hand). So by the time Kaalia puts it on the battlefield, the Slumbering Dragon is already tapped and attacking an Opponent, unfettered by its restriction that it cannot attack.
+Or am I wrong? What if there was a dragon/angel/demon card with Defender? Could that also be tapped and attacking?
+I'm going to do a bit more research on this myself, but if anyone has a solid comprehensive rules reference, that would be great!
+
+A:
+
+After a bit of research, it seems my intuition is confirmed. I could quote 112.3d 506.4a, and 508.2a of the Comprehensive Rules, but the most explicit confirmation comes from the Tiller Nephilim rulings on Gatherer:
+
+The creature you put onto the battlefield from your graveyard is attacking, even if the attack couldn't legally be declared (for example, if that creature has defender or an effect says that no more than one creature can attack).
+
+Putting an attacking creature onto the battlefield doesn't trigger "When this creature attacks" abilities. It also won't check attacking restrictions, costs, or requirements.
+

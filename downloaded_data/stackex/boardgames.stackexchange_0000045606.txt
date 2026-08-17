@@ -1,0 +1,35 @@
+Q:
+
+Can I activate mana abilities before the Legend Rule kicks in?
+
+I have kind of an obscure edge case that has been bothering me, as I am not sure how the rules work.  
+I have Teysa Karlov in my hand. On the battlefield:
+
+Teysa Karlov, which doubles death triggers
+Vindictive Vampire, which has “Whenever another creature you control dies, Vindictive Vampire deals 1 damage to each opponent and you gain 1 life.”
+Skirk Prospector, a goblin with a mana ability reading “Sacrifice a Goblin: Add {R}.”
+
+I know that if I play Teysa Karlov one of them will die due to state-based actions, and that Vindictive Vampire will trigger three times. However, will I be able to use Skirk Prospector's mana ability to sacrifice it while both Teysas are still on the board? This would allow me to trigger Vindictive Vampire three more times.
+Am I able to sacrifice Skirk Prospector after casting a second Teysa Karlov, but before one of the Teysas dies, to take advantage of multiple death triggers? 
+
+A:
+
+No, you have no opportunity to take any actions, including activating mana abilities, after the Teysa Karlov spell resolves and before one of the Teysas dies due to the legend rule state-based action.
+State-based action happen immediately after the spell resolves, before any player gains priority. 
+Mana abilities can be activated when you have priority, like other activated abilites. There are also rules that allow you to activate mana abilities at specific times. In the steps for casting a spell or activating an ability, rule 601.2g says
+
+If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, "Mana Abilities"). Mana abilities must be activated before costs are paid.
+
+And in the steps for resolving a spell or ability, rule 608.2f says
+
+If an effect gives a player the option to pay mana, they may activate mana abilities before taking that action. [...]
+
+In the scenario you describe, events happen in the following order:
+
+The Teysa Karlov spell resolves. This just involves Teysa Karlov entering the battlefield.
+State-based actions are checked. At this time, you choose one of the Teysa Karlov creatures and put it into your graveyard.
+You put the Vindictive Vampire triggered abilities on the stack.
+You gain priority.
+
+There is nothing at all in between the Teysa entering and one of them dying, and there are definitely none of the situations that allow you to activate mana abilites.
+

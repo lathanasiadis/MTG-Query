@@ -1,0 +1,18 @@
+Q:
+
+What happens to a Curse when the Enchanted Player dies?
+
+This question is regarding the 'Curse' Auras from Innistrad block, such as Curse of Exhaustion. When the player enchanted by the Curse dies, what happens to the Curse. Does it remain in play with no actual target or effect?
+
+A:
+
+The Aura is put into your graveyard due to 303.4b.
+
+303.4b If an Aura is enchanting an illegal object or player, the object it was attached to no longer exists, or the player it was
+attached to has left the game, the Aura is put into its owner’s
+graveyard.
+
+Also, if you had two Curse of Exhaustion in play enchanting two players that somehow died simultaneously, both Auras would be put into the graveyard simultaneously, due to this rule:
+
+704.3. Whenever a player would get priority [...], the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. [...]
+

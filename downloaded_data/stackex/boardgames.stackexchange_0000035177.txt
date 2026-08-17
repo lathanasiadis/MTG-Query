@@ -1,0 +1,12 @@
+Q:
+
+Dragons servant and Shivan dragon
+
+Dragonlord's Servant reduces the cost to cast dragon spells by 1 and for 1 you can put a +1+0 on Shivan Dragon. Dose this make Shivan Dragon's power infinite???? (Also the spell for Shivan Dragon does not cause it to tap)
+
+A:
+
+Shivan Dragon itself is a spell (while it's on the stack, anyway), but the text on it that allows it to get more powerful is not a spell - it's an "activated ability". Any effect that makes spells cost less will not make the ability cost less.
+Also, even if Dragonlord's Servant did make abilities cost 1 less to cast, it only reduces costs by 1 generic mana, so any cost (like that of Shivan Dragon's ability) that includes only specific types of mana would not be reduced at all.
+Finally, if you do ever find a sequence of actions you can execute over and over indefinitely (such as a free activated ability), the rules do require you to stop after some finite number of times. For example, you could say "I activate the dragon's ability one billion times," but you can not say "I activate the ability an infinite number of times."
+

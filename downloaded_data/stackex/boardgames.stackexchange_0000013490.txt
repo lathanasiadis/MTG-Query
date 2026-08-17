@@ -1,0 +1,25 @@
+Q:
+
+If creatures enter the battlefield attacking, do they have to attack Gideon Jura?
+
+If my opponent activates Gideon Jura's first ability targeting me, and I attack with a Kessig Cagebreakers, do the tokens have to attack Gideon?
+
+A:
+
+No, the tokens are not forced to attack Gideon the turn they are put on the battlefield. They can attack the defending player or another planeswalker.
+Gideon's first ability is a requirement placed on the turn-based action of declaring attackers. That action is the first thing the attacking player do in the declare attackers step.
+The tokens created by Cagebreakers are not declared as attackers when the restriction is being applied, therefore they are not affected by it.
+See this ruling for Cagebreakers:
+
+Although the tokens are attacking, they were never declared as
+  attacking creatures (for purposes of abilities that trigger whenever a
+  creature attacks, for example).
+
+And this ruling for Gideon Jura:
+
+The first ability only affects the declaration of attackers. If a
+  creature is put onto the battlefield attacking (thanks to Hero of
+  Bladehold, Preeminent Captain, or the Ninjutsu ability, for example),
+  that creature's controller may choose the defending player or
+  planeswalker that it will be attacking in the normal way.
+

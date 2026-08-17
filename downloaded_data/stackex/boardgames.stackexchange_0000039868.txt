@@ -1,0 +1,17 @@
+Q:
+
+Can I sacrifice a sacrificed permanent?
+
+If I cast Perilous Research and I choose to sacrifice my Chromatic Star, can I sacrifice Chromatic Star and get one mana and also draw two cards?
+
+A:
+
+No.
+Either:
+
+You sacrifice Chromatic Star before Perilous Research resolves, in which case it's not there and you have to choose something else.
+You sacrifice Chromatic Star as part of Perilous Research, in which case it's gone before you have the opportunity to activate its own ability.
+
+However, you'll still draw the card from Chromatic Star's graveyard triggered ability, as it doesn't care how it got there.
+This is because, in general, you can only activate abilities at certain times (when you have priority). When a spell is resolving, nobody gets priority until it's finished, so you can't activate the Chromatic Star during the decision to sacrifice it. That is, when a spell resolves, it has to finish completely before anyone can do other things.
+

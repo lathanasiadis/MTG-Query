@@ -1,0 +1,16 @@
+Q:
+
+Can Gideon, Champion of Justice be exiled the moment he becomes a creature with his 0 ability?
+
+Here is Gideon, Champion of Justice. After using his +0 ability to become a creature, can he be removed with something like Final Reward?
+
+A:
+
+Yes, while Gideon is a creature, you can target him with anything that targets creatures.
+After Gideon's second ability has been activated; he is both a planeswalker and a creature. This means that he can be targeted by anything that targets either one of those.
+
+300.2. Some objects have more than one card type (for example, an artifact creature). Such objects combine the aspects of each of those card types, and are subject to spells and abilities that affect either or all of those card types.
+
+At the time that you cast Final Reward, all that matters is that he is a creature, and so he is a legal target. When Final Reward resolves, he is also still a creature and still a legal target, so he will be exiled. There's nothing in the game that cares at that time that his being a creature is only temporary.
+At the end of the turn, nothing will happen because the "until end of turn" was on a creature/planeswalker that no longer exists.
+

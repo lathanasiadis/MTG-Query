@@ -1,0 +1,26 @@
+Q:
+
+Does first strike damage occur before normal damage?
+
+When I attack with a first strike creature, does it deal combat damage before normal combat damage is dealt?
+Specifically, if I attack with Drana, Liberator of Malakir (has first strike and "Whenever Drana, Liberator of Malakir deals combat damage to a player, put a +1/+1 counter on each attacking creature you control.") and 5 other creatures with no counters on them, do I deal damage equal to the creatures' total power or damage equal to the creatures' total power + 5?
+
+A:
+
+Yup, that's one of the reasons Drana's powerful - she can pump up your other attackers in time to help them deal more damage. The point of first strike is that it happens first!
+Here's how combat plays out, assuming you attack with Drana, your opponent doesn't block her, and nothing weird happens:
+
+First Combat Damage Step
+
+Drana and all other creatures with First Strike or Double Strike deal damage. Drana will deal 2 damage to your opponent, unless you've pumped her up somehow.
+Drana's ability triggers, then presumably resolves, placing a +1/+1 counter on each of your attacking creatures, including Drana.
+
+Second ("regular") Combat Damage Step
+
+All of your creatures without First Strike (including those with Double Strike) deal damage equal to their power, including the +1 from the counters they just got.
+
+There are rulings on the Gatherer page for Drana to this effect:
+
+Drana’s last ability triggers after combat damage has been dealt, so only attacking creatures that survive the combat damage step in which Drana deals combat damage will have +1/+1 counters put on them.
+The +1/+1 counter won’t change how much damage Drana or any other attacking creature with first strike or double strike deals during that combat damage step. However, the +1/+1 counters that are put on attacking creatures without first strike will affect the damage those creatures deal during the regular combat damage step.
+

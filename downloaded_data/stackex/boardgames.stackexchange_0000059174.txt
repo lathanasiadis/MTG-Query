@@ -1,0 +1,15 @@
+Q:
+
+Transformers and double strike
+
+If I was attacking with a Transformers card that, on combat damage to a player transforms but said creature has double strike, will the creature deal first strike damage, convert and then deal regular damage with its converted side?
+
+A:
+
+Yes, the creature would Convert (or Transform) before dealing the double-strike damage in the regular damage step.
+From a ruling on Blitzwing, Cruel Tormentor:
+
+After Blitzwing, Adaptive Assailant converts into Blitzwing, Cruel Tormentor, it's still an attacking creature in combat. It will still have any gained abilities, including the ability it gained at the beginning of combat. Notably, if it has somehow gained double strike, it will convert before dealing combat damage in the regular combat damage step.
+
+This is because first strike damage and regular damage are separate combat damage steps, with triggered abilities being resolved between them.
+

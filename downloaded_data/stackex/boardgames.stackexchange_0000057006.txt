@@ -1,0 +1,46 @@
+Q:
+
+Terror of the peaks with double myriad triggers in EDH
+
+I'm currently brewing an EDH Wulfgar of Icewind Dale Deck.
+I want to include both Terror of the Peaks and Blade of Selves.
+Now let's assume the following board state:
+I have my Wulfgar of Icewind Dale and Terror of the Peaks equipped with Blade of Selves in play.
+I have three opponents and attack one of them with my Terror of the Peaks.
+My assumption on how this works out is the following:
+
+Terror of the Peaks attacks and two triggers from Blade of Selves go onto the stack.
+The first trigger resolves which will give me 2 tokens of Terror of the Peaks.
+The two tokens enter the battlefield at the same time and I can distribute four times five damage.
+Another two tokens enter the battlefield at the same time and I can distribute eight times five damage.
+
+My Explanation to #3:
+I have one Terror of the Peaks in play. The original card sees 2 tokens enter the battlefield triggering each time (=2). Then the two tokens see each other entering the battlefield, adding another 2 triggers to the stack (=4)
+My Explanation to #4:
+I have three Terror of the Peaks in play. They each see 2 tokens enter the battlefield (3x2=6). Those tokens see each other enter the battlefield as well, resulting in another 2 triggers. (6+2=8)
+What Boggles (sorry) my mind is that each time I go through this process in my mind, I come to a different result. So please clarify if my assumptions are correct.
+
+A:
+
+Your order of events is effectively correct.  If two or more permanents enter the battlefield at the same time, they "see" each other entering the battlefield and therefore can activate ETB triggers off each other.  You would get 12 separate triggers of (5 Damage to Any Target) in this scenario.
+
+So let's look at your order of events again.
+Step 1. Terror of the Peaks attacks with a Blade of Selves equipped.
+Step 2. The Myriad effect triggers from TOP attacking.
+Step 3. Wulfgar of Icewind Dale's replacement effect adds an additional Myriad trigger.
+Step 4. (Assuming everyone passes in response) The extra trigger resolves.  Two copies of TOP enter the battlefield.
+Step 5. Your original TOP sees two creatures entering the battlefield and triggers twice.  Each token copy of TOP sees the other token copy entering the battlefield and triggers once.  Four (5 damage to any target) triggers are now on the stack.  Note that the tokens seeing each other enter is explicitly laid out in 603.6a
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are written, "When [this object] enters the battlefield, ..." or "Whenever a [type] enters the battlefield, ..." Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters-the-battlefield triggers that match the event.
+
+See "Do creatures that enter the battlefield at the same time see each other enter?" for more information.
+Step 6. The four triggered abilities resolve, and you do 4x5 damage.
+Step 7. Once these triggers resolve, the original Myriad trigger resolves.  Two more copies of TOP enter the battlefield.
+Step 8. Your three TOP that are on the battlefield (The original TOP and the two copies from the first resolved Myriad trigger) see these two new copies and trigger twice.  The two new copies enter the battlefield and see each other enter, triggering once each, for a total of 8 (5 damage to any target) triggers.
+Step 9. Finally, those 8 damage triggers also resolve and, assuming everyone passes, you move to declare blockers.  A grand total of 12 instances of (5 Damage to Any Target) triggers have now gone off.
+
+As for potential different solutions you might get, I'll explain why they aren't the answer.
+
+2 triggers + 6 triggers - this answer would assume that creatures entering the battlefield at the same time wouldn't trigger each other.  603.6a quoted above directly contradicts this.
+16 triggers - this is the answer if all 4 copies enter the battlefield at the same time (4 + 3x4), say if you replaced Wulfgar with  Doubling Season or Anointed Procession.  However, unlike these effects, the effect from Wulfgar does not directly double the number of tokens created by the trigger.  It creates a copy of the trigger itself.  These triggers resolve separately from each other, which means that when TOP 4 and 5 enter the battlefield TOP 2 and 3 are already on the battlefield, and TOP 4 and 5 do not see TOP 2 and 3 enter the battlefield.
+

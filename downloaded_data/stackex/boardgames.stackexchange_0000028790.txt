@@ -1,0 +1,14 @@
+Q:
+
+"At the beginning of the end step" versus "Until end of turn"
+
+If Deceiver of Form is used to copy my Biovisionary, does his "at the beginning of the end step" ability resolve before Deceiver of Form's "until end of turn" ability expires, thus making Deceiver of Form a fairly easy way to "win the game"?
+
+A:
+
+Yes.  "At the beginning of the end step" abilities trigger at, well, the beginning of the end step, while "until end of turn effects" expire at the beginning of the cleanup step, which is after the end step.  Thus, Biovisionary's ability will trigger and resolve while all your creatures are still Biovisionaries.
+Comprehensive Rules references:
+
+512.1. The ending phase consists of two steps: end and cleanup. [This appears to be the closest thing to an explicit statement that end precedes cleanup.]
+514.2. Second, the following actions happen simultaneously [during the cleanup step]: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+

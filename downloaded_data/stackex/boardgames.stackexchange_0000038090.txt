@@ -1,0 +1,16 @@
+Q:
+
+How do multiple power increases and reductions affect this creature?
+
+So, I have on my board Chief of the Edge and Herald of Dromoka. My opponent plays Dovin Baan and uses his first ability on Herald of Dromoka.
+What is the attack of the Herald now? Does it first go to 0 and then have +1 from the Chief or does it first gain the buff and then go to 0 from Dovin Baan?
+
+A:
+
+Herald of Dromoka winds up with a power of 0 because it is affected by -3 and +1 power simultaneously, which is a -2 modifier no matter which way it occurs.
+The first thing to help clarify this is that power can be in negative numbers. See Char-Rumbler for one of the only examples of cards with negative power. (It's got a ruling saying: "Yes, Char-Rumbler’s printed power is -1. While its power is -1 or 0, it simply deals no combat damage.")
+Since power doesn't bottom out at 0 and can just keep going down into negative numbers, there's no actual difference either way you order it:
+
+If Dovin Baan applies first, the Herald's power is reduced to -1 then increased to 0.
+If Chief of the Edge applies first, the power is increased to 3 then reduced to 0.
+

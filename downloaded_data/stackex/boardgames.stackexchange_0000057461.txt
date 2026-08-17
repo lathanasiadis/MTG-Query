@@ -1,0 +1,21 @@
+Q:
+
+Who decides the trigger if control of the permanent changes before the trigger resolves?
+
+For example, suppose I have an Aether Vial. It's my upkeep and the Vial triggers. In response to the trigger, opponent plays Archmage's Charm, choosing the third mode to gain control of my Aether Vial. After the Charm resolves, who decides if the Vial gets a charge counter?
+Relevant text of Aether Vial:
+
+At the beginning of your upkeep, you may put a charge counter on Aether Vial.
+
+A:
+
+The player who controlled the permanent from which the ability triggered is that ability's controller on the stack. That would be you.
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+This is consistent with the general rules for abilities:
+
+113.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won’t affect the ability. [..]
+
+If a change of control after activation/triggering mattered, then destruction of the source of the ability would also change its controller, presumably to no controller, and "you" in the ability's text would not refer to anyone.
+

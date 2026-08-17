@@ -1,0 +1,17 @@
+Q:
+
+Can I attack a player directly if they still have a flying defender?
+
+I have a 4/2 Spiked Baloth (with trample) and my opponent has an untapped 1/1 Bird with flying. He has only 2 lives and I want to finish him off. Can I attack directly even though my attacker doesn't have reach or flying (and his creature does)?
+
+A:
+
+Yes, you can attack your opponent with your Spiked Baloth, and you will win if you do so. (Trample is relevant; it's the reason you win in this scenario.)
+However, your question seems to indicate that you don't understand exactly how combat works. Combat goes in step:
+
+In the Declare Attackers Step, you say what creatures are attacking which players. You can only attack players, and it doesn't matter what creatures they have to block. In your particular case, you would declare the Spiked Baloth as an attacker attacking your opponent.
+In the Declare Blockers Step, your opponent says which of their creatures are blocking which of your creatures. This is where the flying becomes important. When they're blocking, the fact that the bird has flying just means that it can block your creature even if your creature has flying. In this particular situation, your opponent would declare that their bird is blocking your Baloth.
+In the Combat Damage Step, all of the combat damage is dealt at the same time. Since your Baloth has trample, it only has to deal as much damage as the bird's toughness (1) to the bird, and it can deal the rest (3) to your opponent. The bird just deals 1 damage to your Baloth. Then your opponent would lose because they have -1 life.
+
+In addition, flying and reach only affect what attackers a creature can block. They don't affect damage, or what creatures can attack.
+

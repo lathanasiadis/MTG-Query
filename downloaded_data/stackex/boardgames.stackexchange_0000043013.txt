@@ -1,0 +1,30 @@
+Q:
+
+Does a Xantcha I cast trigger a Warstorm Surge I control?
+
+Xantcha, Sleeper Agent has the ability:
+
+As Xantcha, Sleeper Agent enters the battlefield, an opponent of your
+  choice gains control of it.
+
+Warstorm Surge has the ability:
+
+Whenever a creature enters the battlefield under your control, it
+  deals damage equal to its power to any target.
+
+If I cast a Xantcha, my opponent will ultimately gain control of it. But is it ever on the battlefield under my control, such that it will trigger my Warstorm Surge?
+
+A:
+
+No, it enters the battlefield under the opponent's control and is not even momentarily under your control. If you both had Warstorm Surges, it would trigger theirs and not yours.
+"As (this card) enters the battlefield" is a replacement effect that altogether changes how it would enter the battlefield. In this case, it replaces the card entering under your control with entering under theirs. This is like how a Mistcutter Hydra does not enter the battlefield as a 0/0, then gain +1/+1 counters (it would die) — it enters with those counters and, from the rules' perspective, had them all along for as long as it was on the battlefield.
+We can check this in the rules for replacement effects:
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+
+It would trigger your Warstorm Surge (and not an opponent's) if it instead said:
+
+When Xantcha, Sleeper Agent enters the battlefield, an opponent of your choice gains control of it.
+
+... because that is a triggered ability that would have to go on the stack and resolve first, after Xantcha enters under your control.
+

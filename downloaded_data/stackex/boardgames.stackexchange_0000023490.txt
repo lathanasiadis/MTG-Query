@@ -1,0 +1,14 @@
+Q:
+
+Phyrexian Unlife and Necropotence
+
+So I have a 5 color deck and  I was wondering how Necropotence and Phyrexian Unlife interact in certain circumstances. I understand that once my life becomes 0 or less I cannot pay life to draw cards, but if I were to have 1 life left, would I only be able to pay one life or would I be able to pay  more than that and draw more cards dropping my life total into the negatives, like an attack when you have 1 life left for 5 damage would leave you with -4 life and 0 poison counters. The way I currently see it is I would only be able to pay 1 life exile a card then my life total is 0 and I can no longer exile anymore cards. Normally in this deck I'd be using Necropotence with Venser's Journal and Elixir of Immortality,but I was wondering if Necropotence might benefit from Phyrexian Unlife as well.
+Also somewhat of an aside to this question but I also use Death's Shadow in this deck, am I correct in assuming that if my life total is -4 death's shadow would get +4/+4 making it a 17/17.
+
+A:
+
+I you are at 1 life you can only activate Necropotence once, this is because paying the life is a cost and that happens when you activate the ability, before anyone gets priority again [601.2]. So by the time you have the ability to activate it a second time you are already at 0 life, and thus unable to pay more.
+As for Death's Shadow it does indeed get +X/+X when you are at negative life totals. From the Gatherer rulings:
+
+If your life total is less than 0 and an effect (such as the one from an opponent's Abyssal Persecutor) is keeping you from losing the game, Death's Shadow's ability will actually increase its power and toughness. For example, if your life total is -2, Death's Shadow gets +2/+2.
+

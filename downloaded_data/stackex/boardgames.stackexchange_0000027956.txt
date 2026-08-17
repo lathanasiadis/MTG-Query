@@ -1,0 +1,17 @@
+Q:
+
+Does a -1/-1 effect from a static ability cause a creature to die before it can do anything, upon entering the battlefield?
+
+My friend has played Engineered Plague, naming Elf. Is the Elvish Hexhunter of any use here? Imagine it has haste via Concordant Crossroads.
+
+A:
+
+Your elf can't do anything. It becomes a 0/0 just after it enters the battlefield, and pretty much immediately goes to the graveyard. There's no opportunity to activate the ability before it dies. This has to do with state-based actions, and the fact that they're checked before you get priority:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for
+state-based actions, then performs all applicable state-based actions
+simultaneously as a single event.
+704.5f If a creature has toughness 0 or less, it’s put into its owner’s graveyard. Regeneration can’t replace this event.
+
+Triggered abilities, such as that of Elvish Visionary, will still trigger. You will place the ability onto the stack as soon as you get priority, which in this case is after the creature is already dead.
+

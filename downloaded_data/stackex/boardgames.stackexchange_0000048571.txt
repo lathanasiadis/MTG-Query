@@ -1,0 +1,28 @@
+Q:
+
+Does the mana ability restriction of Pithing Needle refer to the cost or the effect of an activated ability?
+
+Pithing Needle affects cards with activated abilities, unless they are mana abilities. An activated ability comes in the form:  
+[Cost]:[Effect]  
+"A mana ability is an activated ability that creates mana." In other words, it seems like it refers to the [Effect] component of the activated ability. I'm assuming that naming a Black Lotus or Mox would not prevent their mana-generating abilities from being activated.
+If Pithing Needle names a card X that has:  
+R, tap: Deal 1 damage to target player.  
+It seems like Pithing Needle would prevent X from having its damage dealing ability activated, even though it requires one red mana to activate. Is this correct?
+
+A:
+
+You are correct.  Pithing Needle cannot stop Black Lotus, but it would stop your second example.
+
+605.1a An activated ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 114.6), it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
+605.1b A triggered ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 114.6), it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.
+
+Mana abilities are specially designated because they need to not use the stack.  If generating mana used the stack, then it could be responded to.  Opponents would be able to take advantage of their chance to respond to mana abilities to use spells and abilities before the player with priority had a chance to use theirs, thus making "priority" as a concept insignificant.
+In extreme cases, you could end up with extremely complicated stacks as players tapped their lands in response to each other in a fight to get their effects out first.
+This is an undesirable play state, so Magic avoids it by keeping mana abilities off the stack.  Since mana abilities almost always do nothing but produce mana, removing opponents' ability to respond to them doesn't hugely detriment someone trying to react to changes in the game state.
+As a side bonus, allowing mana abilities to be activated during the casting of a spell or ability means that the common idiom of declaring what you want to cast before deciding how you are going to pay for it is in fact a legal move, which is nice.
+As a general rule, WotC considers disruptions to a player's mana base to be unfun.  That's why targeted discard almost always has a "nonland" rider to the effects, and modern land destruction rarely dips below 4-5 mana in cost.  If Pithing Needle could name lands, it had the potential to severely injure an opponent's mana production. (If they were playing a monocolor deck with only basic lands, it could potentially render the deck unplayable on the first turn.)  They could have chosen to have Pithing Needle name a "non-land" card, but instead chose to guard all mana abilities from it.  This has benefits of not shutting down mana production from non-land sources like Llanowar Elves, and allowing Pithing Needle to shut down non-mana abilities of lands like Faerie Conclave.  I don't know which, if any, was the driving force of the choice.
+
+As a side note, the existence of mana abilities is almost certainly the reason that Priest of Forgotten Gods targets any number of players, rather than just affecting all opponents, like many cards do.  If it didn't target players it would qualify as a mana ability, and as a primarily offensive ability WotC wanted people to be able to respond to it.
+On the other hand, Selvala, Explorer Returned does have a mana ability even with the side effects.  This has some interesting consequences as described in the Gatherer Rulings, namely that normally if you discover that a spell is uncastable in the middle of casting it (because you don't have enough mana, for example) everything you've done in the process of casting the spell is reversed, but Selvala's ability can't be reversed because its side effects have already changed the game.
+Also, you can force players to draw cards without using the stack.  This is rarely relevant, but I'm sure it could be at some point.
+

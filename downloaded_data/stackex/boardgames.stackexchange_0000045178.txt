@@ -1,0 +1,23 @@
+Q:
+
+Blocking creatures with menace and an equipment giving 'can only be blocked by one creature'
+
+I ran into an interesting interaction tonight when I played Magic. So here's the setting: 
+
+I have a Pyreheart Wolf out and the equipment known as Vorrac Battlehorns. 
+Pyreheart Wolf's ability says: when this creature attacks, your creatures have to be blocked by two or more creatures this turn, the ability that we now know as menace. 
+Vorrack Battlehorns ability is: equipped creature has trample and can only be blocked by one creature.
+
+I also have one other creature out. 
+I have the equipment equipped to said other creature. I go to attack phase. I attack with both my creatures.
+My question: does the Pyreheart Wolf's ability trigger first or does the equipment's ability trigger first?
+
+A:
+
+Both abilities are active (and Vorrac Battlehorns' ability doesn't 'trigger', it is always in effect).
+
+509.1b The defending player checks each creature they control to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
+
+Your opponent won't be able to block the creature with the Vorrac Battlehorns, since it can't be blocked by more than one creature (due to the equipment) and it can't be blocked by less than two creatures (due to the Wolf). Both are restrictions and the rules above state they must be obeyed. Note that they are free to block the Wolf or not, but need at least two creatures to do so.
+Incidentally, this means a Pyreheart Wolf equipped with Vorrac Battlehorns is unblockable.
+

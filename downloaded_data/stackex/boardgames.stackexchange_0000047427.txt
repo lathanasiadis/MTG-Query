@@ -1,0 +1,41 @@
+Q:
+
+Ral, Storm Conduit and 2x Expansion // Explosion
+
+Imagine I have Ral, Storm Conduit on the field.
+Then I cast a Shock, followed by Expansion copying the Shock. In response I cast another Expansion targeting the first Expansion. Will this create an endless loop of spells/copies causing Ral's first ability to trigger infinitely?
+
+A:
+
+Yes, you can use this combo an arbitrary number of times, as long as you choose the first Expansion on the stack as the target of your copied Expansions.
+Just to clarify: after casting (but not resolving) the first Expansion (card A), the stack looks like this:
+Expansion (A), targeting Shock
+Shock
+-----
+
+(the target for Shock or for Shock's copy isn't really relevant for the combo)
+You cast your second Expansion (card B), targeting the Expansion:
+Expansion (B1), targeting Expansion (A) and choosing Expansion (A) as the new target for the copy
+Expansion (A), targeting Shock
+Shock
+-----
+
+Now Expansion B1 resolves and creates a copy (let's call it B2); note that the card itself is moved to the graveyard:
+Expansion (B2), targeting Expansion (A) and choosing Expansion (A) as the new target for the copy
+Expansion (A), targeting Shock
+Shock
+-----
+
+You can repeat this process: when Expansion Bn resolves, it will create a copy Bn+1
+Expansion (B(n+1)), targeting Expansion (A) and choosing Expansion (A) as the new target for the copy
+Expansion (A), targeting Shock
+Shock
+-----
+
+To exit the loop after n iterations, you only need not to choose new targets for Bn+1 copying A (which is targeting the Shock):
+
+706.10c Some effects copy a spell or ability and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy’s targets will be, the copy is put onto the stack with those targets.
+
+So even if the opponent managed to counter the Shock somewhere during the loop, which removes it from the stack, Bn+1 can still end up targeting it, and by rule 608.2b it won't resolve. If the Shock is still there, Expansion Bn+1 will 'become' a copy of Shock and resolve. Then, it's Expansion A's turn to resolve (or not to resolve, if the original Shock isn't there anymore), and finally the original Shock.
+You see, copying spells this way is dangerous for your opponent the sanity of Stack Exchange users. Thanks @murgatroid99 and @Taemyr for helping out.
+

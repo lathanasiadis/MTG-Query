@@ -1,0 +1,13 @@
+Q:
+
+How do dual lands and their mana work?
+
+Certain lands, such as Coastal Tower, state that they can add two types of land, but when does that happen? When I cast it, it enters the battlefield as just one land, right? So does it add the additional land when tapped?
+
+A:
+
+Lands and mana are not the same thing. Lands (generally) have abilities that let them tap to produce mana. For example, a basic Island can tap to produce one blue mana, and a basic Plains can tap to produce one white mana. (On modern printings, this is implicit, but on old ones it was actually written out on the card.) The land itself is just an object on the battlefield; it's the mana it produces that you spend to cast spells.
+Similarly, some nonbasic lands have abilities that let them produce more than one kind of mana. Your Coastal Tower can tap to produce mana just like a Plains or Island could, except you get to choose: you can produce a blue mana or a white mana. It's sort of like being able to play an Island and a Plains in one card, with the downside that it enters tapped and is not actually an Island or a Plains.
+For example, if you want to cast a New Prahv Guildmage, which costs a white mana and a blue mana, and have an Island and a Coastal Tower on the battlefield, you can tap the Island for a blue mana and the Coastal Tower for a white mana. Or if instead you had a Plains and a Coastal Tower, you could tap the Plains for a white mana and the Coastal Tower for a blue mana.
+A final note, you don't cast lands. They're not spells. You simply play them.
+

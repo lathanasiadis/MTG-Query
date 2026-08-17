@@ -1,0 +1,26 @@
+Q:
+
+What happens if a player enchanted by cruel reality has Tamiyo, Collector of Tales on the board?
+
+A player has Tamiyo, Collector of Tales on the battlefield, and is also the target of opponent's Cruel Reality.
+The player with Tamiyo can not sacrifice her, but does he lose 5 life when Cruel Reality triggers?
+
+A:
+
+The player will lose 5 life.
+As Tamiyo states, effects controlled by an opponent (such as Cruel Reality) cannot make you sacrifice permanents. Cruel Reality also specifies what happens if a player can't sacrifice a permanent when the ability resolves. It doesn't matter for what reason the player can't sacrifice a permanent, whether they have no permanent left to sacrifice, or another effect prevents the sacrifice.
+With different wordings of Cruel Reality, the Tamiyo player could get around both the sacrifice and the life loss. Cruel reality could read:
+
+At the beginning of enchanted player's upkeep, that player chooses one:
+
+Sacrifice a permanent
+
+lose 5 life.
+
+The player could choose to sacrifice a permanent, but can't because of Tamiyo.
+It could also read:
+
+At the beginning of enchanted player's upkeep, if that player controls a permanent, that player sacrifices a permanent. Otherwise that player loses 5 life.
+
+In that case, Cruel Reality would also try to make the Tamiyo player sacrifice a permanent and not cause 5 life loss.
+

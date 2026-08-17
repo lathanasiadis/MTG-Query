@@ -1,0 +1,27 @@
+Q:
+
+Can I target my own planeswalker with Angrath?
+
+Angrath, Minotaur Pirate's oracle text for its +2 ability is different from its card text to differentiate 'opponent' versus 'opponent or planeswalker an opponent controls'.
+Can Angrath target a planeswalker its controller controls with its +2?
+I assume so, but the ruling on gatherer leaves me confused:
+
+Angrath’s first and last abilities target only the player. Creatures with hexproof that player controls will be affected.
+
+A:
+
+Yes, Angrath can target a planeswalker.  As you've stated the Oracle text for it's ability reads:
+
++2: Angrath, Minotaur Pirate deals 1 damage to target opponent or planeswalker and each creature that player or that planeswalker's
+  controller controls.
+
+Since it specifically says you can target a planeswalker, you can do so.  The Oracle text changed with the Dominaria rules changes to remove the planeswalker damage redirect rule.  Basically, you used to be able to target a player and redirect the damage to their planeswalker.  Now Wizard's is explicit about when you can damage planeswalkers.
+The ruling you see on the gatherer page is likely a leftover from before the Dominaria rules change (when you would have just targeted the player rather than the planeswalker).  The ruling appears to be trying to clarify that even if your opponent's creatures have hexproof they will still get damaged (since the creature itself is not the target of the ability hexproof doesn't apply).  It should probably be cleaned up to state that the ability targets only the player or planeswalker.
+
+Edit to address the explicit question in the post.
+You can target your own planeswalker if you would like.  The Dominaria rules update states:
+
+Abilities that damage "target opponent" have been changed to "target
+  opponent or planeswalker" with the same exception listed above. These
+  spells and abilities can target a planeswalker you control.
+

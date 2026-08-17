@@ -1,0 +1,21 @@
+Q:
+
+How do Solemnity and Delaying Shield interact?
+
+Delaying Shield turns damage into counters.  Solemnity prevents it from gaining counters.  What happens when you take damage?
+
+You don't take damage.  Counters would be added to Delaying Shield, but are not because of Solemnity.
+You take damage as normal.  Delaying Shield's inability to gain counters prevents its ability from working.
+
+A:
+
+It's 1.; you don't take damage and this is a nice combo. The Gatherer rulings under Solemnity say:
+
+If a replacement effect allows a player to modify or replace an event by putting counters on an artifact, creature, enchantment, or land, that player may apply that replacement effect. Counters won’t be put on the object, but if the original event is entirely replaced (such as by applying Soul-Scar Mage’s replacement effect), the original event won’t happen.
+
+Delaying Shield's effect is a replacement effect, see the Gatherer ruling below it:
+
+Note that the damage is replaced and is not “prevented”. This means it can replace damage that “can’t be prevented”.
+
+so it's covered by this Solemnity rule.
+

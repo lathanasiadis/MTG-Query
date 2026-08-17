@@ -1,0 +1,14 @@
+Q:
+
+Do multiple Archetypes work together?
+
+What if I had three different archetypes on the field: Archetype of Imagination (gives flying), Archetype of Endurance (gives hexproof), and Archetype of Finality (gives deathtouch)? Would all three of their effects work on my creatures at once or not at all because of the Archetype of Endurance?
+
+A:
+
+Yes, they'll work together. The definition of hexproof is:
+
+702.11b "Hexproof" on a permanent means "This permanent can’t be the target of spells or abilities your opponents control."
+
+The Archetypes' abilities don't target, and they're not controlled by your opponent, so hexproof definitely does not prevent them from applying.
+

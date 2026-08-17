@@ -1,0 +1,14 @@
+Q:
+
+How are spells and abilities with the keyword "you" affected after they are suddenly under an opponent's control while on the stack? Who's "YOU"?
+
+Suppose I want to dump a loss from Pact of the Titan on my opponent.
+So I play Pact of the Titan. I then play Sudden Substitution.
+I envision this will allow me to take one of my opponent's creatures, give them a 4/4 red Giant creature, and require them to play red mana on their turn if they don't want to lose the game.
+Am I understanding rule 109.5 correctly in hoping that transferring the control of the spell on the stack to my opponent, will make them the "you" on the card, instead of me, the one who originally cast it?
+
+A:
+
+This will do what you want. "You" refers to the controller of the spell or ability as it resolves.
+It is important here that Pact of the Titan's triggered ability is created as the spell resolves, so it applies to whoever controlled the spell as it resolved. This is different from a card like Supernatural Rescue, which has a "When you cast that spell" triggered ability. By the time you could play Sudden Substitution, the ability has already triggered and is controlled by the player who cast that spell, and that wouldn't change if the spell's controller changes.
+

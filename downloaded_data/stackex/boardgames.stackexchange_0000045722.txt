@@ -1,0 +1,21 @@
+Q:
+
+Planeswalker Ability and Death Timing
+
+A planeswalker with 7 loyalty counters has:
+
+a –7 loyalty ability that creates a 5/5 dinosaur token
+a passive ability that makes all summoned dinosaurs enter the battlefield with a +1/+1 counter.
+
+Would the dinosaur summoned be a 6/6 or a 5/5?
+My guess would be 5/5 as the planeswalker dies first, then the ability resolves.
+
+A:
+
+The dinosaur enters the battlefield as a 5/5 because, as you say, the planeswalker will be dead before the ability resolves. This is the exact sequence of events:
+
+You activate the planeswalker's ability, putting the ability on the stack and removing 7 loyalty counters to pay the ability's cost.
+The planeswalker dies as a state-based action because it has no loyalty counters.
+All players gain priority, and pass it or respond to the ability.
+The ability resolves and the dinosaur enters the battlefield.
+

@@ -1,0 +1,25 @@
+Q:
+
+What mana fixing should I use in Khans of Tarkir Sealed Format?
+
+Some Khans of Tarkir terminology:
+
+Banners are a cycle of mana rocks that can be sacrificed to draw a card (e.g., Abzan Banner).
+Wedge lands enter tapped and produce one of three colors (e.g., Mystic Monastery).
+Life lands enter tapped, gain 1 life when played, and produce one of two colors (e.g., Dismal Backwater).
+
+How do you know how many banners to play in your deck?
+I've been practicing with this sealed pool generator, and on average, I get 1 Wedge Land and 2-3 Life Lands. Is that enough mana fixing? Would you guys advise throwing in 1-2 (maybe not 3) banners? Going to the basics of deck building for sealed pool, it's supposed to be 17 lands, 17 creatures, and 6 other spells. If you throw in 2 banners to fix your mana, it would only leave you with 4 other spells.
+Am I doing it wrong? Are banners supposed to be counted towards the total land count?
+
+A:
+
+Mana fixers can virtually never be counted as full lands because you need mana to cast them.
+Let's take the case of the banners specifically. If you swap out a land for a banner, the main difference is the banner:
+
+Costs 3 mana to cast
+Can be sacrificed for a card draw
+
+(1) makes them a higher mana screw risk than a land (how happy are you if you mulligan into 2 land+banner instead of 3 land?), while (2) makes them a reduced mana flood risk than a land (sac them if you have nothing better to do with your mana).
+They should almost certainly be counted as full spells for purposes of mana ratios, especially if you're also playing lands that come into play tapped.
+

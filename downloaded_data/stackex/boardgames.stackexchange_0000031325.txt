@@ -1,0 +1,16 @@
+Q:
+
+When do spells go to the graveyard?
+
+Suppose I have a Jace, Vryn's Prodigy with 3 cards in my graveyard. My opponent casts Lightning Bolt on Jace. Can I attempt to Path to Exile my Jace, and then in response to my own Path, use Jace's ability to loot so I have the 3 cards, Path and the newly discarded card in the graveyard, so that Jace flips, and Bolt and Path are both countered because they lost their target?
+
+A:
+
+No, you can't do that.
+Spells don't go to the graveyard until they're done resolving:
+
+608.2k As the final part of an instant or sorcery spell’s resolution, the spell is put into its owner’s graveyard. As the final part of an ability’s resolution, the ability is removed from the stack and ceases to exist.
+
+Of course in your situation, you're hoping for Path to Exile to be in the graveyard before it even starts to resolve. If you do something "in response" to casting Path to Exile, that means Path to Exile is still on the stack. The stack is its own game zone; spells that are there can't be in the graveyard (or any other zone).
+So this definitely doesn't work. You'll loot with Jace, have four cards in the graveyard (so he won't transform), then Path to Exile will exile him (now you have 5 cards in your graveyard, but too late), then your opponent's Lightning Bolt will have no target and be countered.
+

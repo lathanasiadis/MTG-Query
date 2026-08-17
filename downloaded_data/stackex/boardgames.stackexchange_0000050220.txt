@@ -1,0 +1,21 @@
+Q:
+
+Dryad of the Ilysian Grove and Imprisoned in the moon
+
+Following on from this conversation, what happens if we replace Icthyomorphosis with Imprisoned in the Moon in that scenario?
+I think:
+
+All Lands become all basic land types
+Dryad of the Ilysian Grove becomes a land and loses all other types.
+Dryad gains all basic land types to its own ability, then loses them again from Imprisoned in the Moon, due to timestamp order.
+Layer 6 removes all abilities from Dryad, including any mana abilities it may have inherited from becoming all basic land types (although, as it had already resolved as non-basic in layer 4, I'm not sure that's even relevant, as it wouldn't have received those mana abilities until layer 6 anyway), and adds "t: add colourless"
+
+A:
+
+Your description has the correct result. This looks like the interaction with Magus of the Moon.
+The steps are different though.
+ 1. In the layer 4, Dryad becomes a land. Then its ability gives it all basic lands types (and the associated mana abilities). Dryad's ability is applicated second because it depends on Imprisoned's one.
+ 2. In the layer 6, Dryad loses its printed abilities and its additional mana abilities but gains "{T}: Add colourless".
+No timestamp order is involved.
+As a bonus, if you care about land types, Dryad still has all of them.
+

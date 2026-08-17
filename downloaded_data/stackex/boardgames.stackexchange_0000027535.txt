@@ -1,0 +1,34 @@
+Q:
+
+Does discarding your commander to the command zone trigger discard effects?
+
+NOTE: This question was asked before the commander rules update that removed the replacement effect. Discarded or killed commanders now go to graveyard first as normal then move to the command zone from the graveyard as a state based action
+
+There is a rule in commander that lets you put your commander in the command zone instead of other zones:
+
+If a Commander would be put into a library, hand, graveyard or exile from anywhere, its owner may choose to move it to the command zone instead.
+
+There are additional clarifications:
+
+This is a replacement effect. It applies last and may apply multiple times to an event.
+The creature never goes to the original destination zone and will not trigger abilities that trigger based on going there (e.g. "dies" triggers).
+
+So, if I have to discard my hand, and my commander is in it, and I choose to put him in the command zone, does that trigger Liliana's Caress or similar cards?
+
+A:
+
+Yes, it does count as being discarded.
+Discard is a Keyword Action that means:
+
+701.7a To discard a card, move it from its owner’s hand to that player’s graveyard.
+
+The Commander replacement effect changes this to be:
+
+To discard a card, move it from its owner’s hand to that player’s command zone.
+
+Discard is a keyword action that tells you to move a card from one zone to another like destroy, sacrifice, or exile. The action doesn't care if parts of it were replaced with other actions, it still happened. Similarly if you have a Dragon Appeasement and sacrifice your commander you will get to draw a card.
+Also since the actually being put into the graveyard is being replaced discarding your commander and putting it in the command zone will not trigger any "when this card enters the graveyard from anywhere" triggers like Ulamog, the Infinite Gyre, similar to how a sacrificed commander will not trigger any "dies" triggers.
+Leyline of the Void sets up a similar type of replacement effect, it exiles cards instead of putting them in the graveyard, and it has this ruling:
+
+If your opponent discards a card while you control Leyline of the Void, abilities that function when that card is discarded (such as Liliana's Caress's ability, or a madness ability of the discarded card) still work, even though that card never reaches that player's graveyard. In addition, spells or abilities that check the characteristics of the discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
+

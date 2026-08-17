@@ -1,0 +1,20 @@
+Q:
+
+Do instants active before combat damage is dealt?
+
+I activated Ætherize do I still receive the combat damage from the monsters
+
+A:
+
+There are a few times during the combat step when you can cast instants between the declaration of attackers and when combat damage is dealt.
+The Steps in the Combat Phase are
+
+Beginning of Combat
+Declare Attackers 
+Declare Blockers
+Combat Damage
+End of Combat
+
+During each of these you will have a chance to cast instants (and activate abilities), so you could cast it anytime in the Declare Attackers Step or the Declare Blockers Step. Dealing combat damage is the very first thing that happens in the Combat Damage Step so if you wait that long, you won't have a chance to cast anything before that happens.
+Also a note on terminology, you don't activate Aetherize, you cast it. Abilities like Azure Mage's get activated.
+

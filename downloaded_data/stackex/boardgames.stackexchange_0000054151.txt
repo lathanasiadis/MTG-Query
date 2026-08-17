@@ -1,0 +1,21 @@
+Q:
+
+Do Lands count as permanents? Did I find a bug in Magic Arena?
+
+I played a match with Chromatic Orrery on the battlefield.
+I had no creatures, no enchantments or anything else on the field but around 10 Lands of 7 different types. 7 mixed and 2 single colors and one radiant fountain
+I activated the ability of Chromatic Orrery "Draw a card for each color among permanents you control"
+Nothing happened.
+Are Lands colorless, not permanent or is this a bug?
+
+A:
+
+Lands are colorless permanents, so they will not cause you to draw any cards with Chromatic Orrery.
+This is a result of rule 202.2:
+
+202.2. An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
+
+202.2b Objects with no colored mana symbols in their mana costs are colorless.
+
+Lands have no mana cost, so they have no colored symbols in their mana cost, so they are colorless.
+

@@ -1,0 +1,20 @@
+Q:
+
+Can attacking players use activated abilities after blockers have been declared?
+
+Yesterday I was playing a game of Commander with a friend and we ended up in this situation. He attacks with his commander, Yasova Dragonclaw which has an equipment that doubles her power/toughness to 8/4 and gives her trample. I declare blockers with my commander, Anafenza, the Foremost, which is a 4/4. After moving her to the command zone, he then activates Bow of Nylea and states Yasova is a 9/5 and tells me to take another damage point. 
+So my question is this, if I have already declared blockers and it has resolved, can he activate an ability to pump up his attacking creature? Or would that have to be done as he declares attackers?
+
+A:
+
+Combat Phase
+
+506.1. The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.8). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).
+
+Declare Blockers Step
+
+509.4. Fourth, the active player gets priority. (See rule 116, “Timing and Priority.”)
+
+So there is room (for either player) to cast spells or activate abilities after blockers have been declared and before combat damage is being assigned.
+But what you describe, "moving her to the command zone" looks like combat damage has already been assigned and dealt. Your opponent can still pump up their creature (in the general case; it looks like it should've already died, as @Arthur noted in the comments), but it won't affect the combat damage already dealt.
+

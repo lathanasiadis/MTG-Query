@@ -1,0 +1,17 @@
+Q:
+
+Missed State-Triggered Abilities
+
+Player A controls Emperor Crocodile and some other creatures.  The other creatures leave the battlefield, and only Emperor Crocodile remains.  The state-triggered ability is not noticed, and some further actions are taken, say Player A plays another creature and then a draw spell which draws into Tale's End.
+After this, it is noticed that Emperor Crocodile's triggered ability was missed.  It is decided post-investigation that the infraction will be Missed Trigger (not Cheating), and Player B decides to put Emperor Crocodile's triggered ability onto the stack.  Player A responds with Tale's End, countering it.
+Can Player B then acknowledge another instance of Emperor Crocodile's missed triggered ability, and put it onto the stack?  The reasoning is that the state-triggered ability would have triggered an infinite number of times between the time the last other creature left the battlefield and the time the new creature was played, or at the least, it would have triggered in between every other game action.  If not, could Player B have acknowledged multiple instances of the missed triggered ability during the initial judge call, and put all of them onto the stack?
+
+A:
+
+This situation is so narrow and unusual that it is not addressed by the Infraction Procedure Guide, and the handling would be up to the judge's discretion.
+State-triggered abilities are unusual, and detrimental state-triggered abilities are even rarer, and the IPG does not specifically address them at all. In addition, countering a state-triggered ability never makes sense in normal play except for very rare cases where the spell or ability also has another relevant effect.
+A judge could reasonably rule that by the letter of the IPG, only one instance of the ability is put on the stack, but a judge could also reasonably rule that the ability would have triggered again, so another instance goes on the stack. Personally, I would expect the latter, because in this situation Player A is clearly taking advantage of the details of a remedy to their own error to gain an advantage in a way that would not be possible in normal play.
+Note that no matter what the final outcome is, Player A should be penalized for the initial error here, as specified in this passage from the IPG:
+
+If the triggered ability is usually considered detrimental for the controlling player and they own the card responsible for the existence of the trigger, the penalty is a Warning.
+

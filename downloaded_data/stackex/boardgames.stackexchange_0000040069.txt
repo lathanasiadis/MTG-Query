@@ -1,0 +1,29 @@
+Q:
+
+Omen Machine and no library
+
+So Omen Machine is on the field and an opponent just used Jace, the Mind Sculptor's ultimate to exile my library and I have no cards in hand, so no library left.  When it is my turn, do I lose?  Opponent think so, but since I am not drawing due to Omen Machine, I believe I survive and the exile command fizzles.  We couldn't find any specific rules to address the situation so called a draw (I still think I'm right though).  
+Anyone able to clarify this ruling?
+
+A:
+
+You would not lose the game from being unable to draw a card.
+This is because the rule that causes you to lose the game states (empahasis mine):
+
+104.3c: If a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+and Omen Machine says (emphasis mine):
+
+Players can't draw cards.
+  At the beginning of each player's draw step, that player exiles the top card of his or her library. If it's a land card, the player puts it onto the battlefield. Otherwise, the player casts it without paying its mana cost if able.
+
+So what happens is:
+
+Omen Machine attempts to exile the top card of your library.
+You don't have a top card to your library, so the following steps don't do anything.
+You continue onto your First Main as normal, having not drawn a card and not exiled a card. 
+
+This is further supported in the Gatherer Rulings of a similar card, Maralen of the Mornsong which states:
+
+While Maralen is on the battlefield, no player can lose the game due to being instructed to draw a card with an empty library.
+

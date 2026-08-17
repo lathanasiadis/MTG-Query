@@ -1,0 +1,15 @@
+Q:
+
+Glaring Spotlight anti-hexproof work on enchantments
+
+Does the Glaring Spotlight's anti-hexproof work on enchantments? So if a creature is not hexproof but has an enchantment such as Alpha Authority, does it still cancel the hexproof?
+
+A:
+
+Glaring Spotlight affects hexproof from all sources, regardless of their type or the timestamp order of their effects.
+In many cases in Magic, when two continuous effects do opposite things, we must look at their "timestamps" to figure out the final result.
+Glaring Spotlight, however, doesn't remove hexproof from anything; what it does do is change the rules for hexproof. This modification applies to all instances of hexproof on creatures your opponents control, including hexproof granted by enchantments and artifacts.
+From the Oracle rulings for Glaring Spotlight:
+
+Creatures your opponents control don’t actually lose hexproof, although you will ignore hexproof for purposes of choosing targets of spells and abilities you control.
+

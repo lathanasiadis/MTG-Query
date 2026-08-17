@@ -1,0 +1,24 @@
+Q:
+
+Enchantment Legal only because of it's Effect. Remains on target?
+
+This happened this weekend, and we were unsure how to resolve it.
+Opponent casts Progenitus.
+On my turn, I cast Polymorphist Jest.
+Then I cast, Darksteel Mutation targeting the Progenitus.
+Normally, I could not target the Progenitus because it has Protection from Everything, but since it lost all abilities and became a frog, it was a valid target (We thought so anyway). It was at the end of this turn that we were unsure. Polymorphist's Jest effect ended, but the Darksteel Mutation was still enchanting the creature. This is what we thought:
+
+Progentius has Protection from Everything and the Enchantment "falls off" as it is no longer a valid target.
+The Insect has no abilities apart from Indestructible, and the Enchantment stays.
+Something Else???
+
+I'm really hoping this is #2 since this combo would allow for targeting of things with shroud and hexproof, etc. on the turn I cast Polymorphist's Jest.
+
+A:
+
+Choice number 2 is the correct one: the Progenitus is an Insect with no abilities except Indestructible and the Aura stays attached to it. Rule 613.1 says
+
+The values of an object's characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers
+
+The key point is that determining the values of an objects characteristics involves applying all applicable continuous effects. Also, since we start with "the actual object", any effect that causes Progenitus to lose the ability is applied after its own ability, it ends up without the ability no matter what the relative timestamps are. So, as long as the Aura is attached, whenever state-based actions are checked, the Progenitus doesn't have Protection, so the Aura stays on.
+

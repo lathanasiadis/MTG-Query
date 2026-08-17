@@ -1,0 +1,25 @@
+Q:
+
+Will a spell like Fiery Cannonade kill Wayfaring Temple if Temple had more toughness than the damage before casting?
+
+Wayfaring Temple says:
+
+Wayfaring Temple’s power and toughness are each equal to the number of creatures you control.
+Whenever Wayfaring Temple deals combat damage to a player, populate. (Create a token that’s a copy of a creature token you control.)
+
+My opponent had Wayfaring Temple out and it was a 4/4. I played Fiery Cannonade which deals 2 damage to each non-pirate creature, and it killed off 2 of the creatures making Wayfaring Temple lose two power and toughness making it back to a 2/2. Would Wayfaring Temple die from the two damage is was already dealt or does it revert back to a 2/2?  Help please.
+
+A:
+
+The Wayfaring Temple will die.
+When Fiery Cannonade resolves, it deals 2 damage to each non-pirate creature, which in this case is 2 damage to Wayfaring Temple, 2 damage to creature A, 2 damage to creature B, and 2 damage to creature C. When state-based actions are checked, creatures A and B die because they have as much damage as toughness. Because state-based actions caused something to happen, they are checked again. This time, Wayfaring Temple is a 2/2 with 2 damage, so it dies as well.
+
+State-Based Actions
+  
+  
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+Damage only wears off at the end of the turn; so if it survived, it would have 0 damage at the start of the next turn. But it still has that 2 damage for the rest of the current turn.
+

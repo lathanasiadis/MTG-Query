@@ -1,0 +1,38 @@
+Q:
+
+How should the "and/or" text of a card be interpreted?
+
+How should the "and/or" text of a card be interpreted? For example on a card like Nahiri's Wrath the text reads:
+
+Nahiri's Wrath deals damage equal to the total converted mana cost of the discarded cards to each of up to X target creatures and/or planeswalkers.
+
+For the remainder of this question, let's fix X at 2 to keep things simple.
+Should the "and/or" be interpreted such that the effect is applied to a combination of targets the player chooses. That is to say for Nahiri's Wrath the player could perform one of the following options:
+
+Nahiri's Wrath deals damage to each of two target creatures.
+Nahiri's Wrath deals damage to each of two target planeswalkers.
+Nahiri's Wrath deals damage to each of one target creature and one target planeswalker.
+
+Or should the card's effect be expanded and applied to both sides of the "and/or". With this interpretation the player would have to the following two options when playing Nahiri's Wrath:
+
+Nahiri's Wrath deals damage to each of X target creatures and Nahiri's Wrath deals damage to each of X target planeswalkers
+Nahiri's Wrath deals damage to each of X target creatures or Nahiri's Wrath deals damage to each of X target planeswalkers
+
+The confusion stems from comments on the Pinnacle of Rage's discussion page (which was formerly formerly worded using the same phrasing) where some commenters have said things like:
+
+So this lets you do a total of 12 damage? 3 each to 2 target creatures AND 3 each to 2 target players, one of which could be a planeswalker? That's how the "and/or" works, right? You can choose. Otherwise it would just be "or"...
+
+A:
+
+You must choose X different[1] targets, and the targets can be creatures and/or planeswalkers. With X=2,
+
+You can target two different creatures,
+You can target two different planeswalkers, or
+You can target a creature and a different permanent that's a planeswalker.
+
+This is confirmed by a ruling for Pinnacle of Rage: "You must choose two legal targets to cast Pinnacle of Rage." (The ruling dates back to when Pinnacle of Rage still used the same wording about which you are asking.)
+
+Notes:
+
+114.3. The same target can’t be chosen multiple times for any one instance of the word “target” on a spell or ability. [...]
+

@@ -1,0 +1,23 @@
+Q:
+
+Exactly when does an attacking creature stop being an attacking creature?
+
+I've been looking at the rules for the combat phase and its steps, but I can't find this. It's clear when a creature becomes an attacking creature (when it's declared as attacking, created as attacking, or an effect otherwise says it is), but when does it stop?
+I'd expect it to be either the beginning of the "end of combat step" or the end of the combat phase, but the distinction is important.
+The situation that made me question this was, if you were playing as Oracle (Vanguard), could you use its ability to untap a creature after combat damage during the "end of combat step"? That would allow you to then use tap abilities (e.g. Llanowar Elves) or keep them as a blocker, effectively giving your creatures vigilance. This also goes for cards such as Maze of Ith, or even Kill Shot if you really wanted to kill a creature after letting it deal damage.
+
+A:
+
+Creatures are attacking until the end of the combat phase, so they're still attacking during the end of combat step.
+This is indeed spelled out in the rules:
+
+508.1k Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it’s removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
+
+(Rule 506.4 spells out ways a creature can be removed from combat.)
+There's actually even a ruling on Maze of Ith about this:
+
+You can activate Maze of Ith’s ability targeting an attacking creature you control during the combat damage step or the end of combat step. It’ll be untapped and the damage it had already dealt won’t be undone.
+
+Note also that, as that ruling implies, combat damage is dealt at the beginning of the combat damage step, so you can also do things during the combat damage step after damage, no need to wait til the end of combat step.
+There's also a rather famous card whose main function relies on creatures still being attacking during the end of combat step: Desert. 
+

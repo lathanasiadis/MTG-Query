@@ -1,0 +1,35 @@
+Q:
+
+What is the process for determining if an infinite loop will be a draw?
+
+Related to this question, and inspired by this question, I realized that I don't know what the game play will actually look like when an infinite loop arises.
+Imagine that Lethal Vapors and Solemnity are on the battlefield. Alice casts a creature with undying or persist, and it resolves. This should cause an infinite loop of triggers, because the creature will be destroyed when it enters the battlefield, and it will return to the battlefield when it dies.
+Now, either player can easily stop the infinite loop, because Lethal Vapors has an ability that will end the loop, which can be activated by either player. But let's say both players think that the loss of turn that comes from activating that ability will be enough to cause them to lose the game. So what specifically happens now?
+I would imagine that in a casual setting, both players would simply discuss "ok, this is an infinite loop. I'm not doing anything to stop it; are you doing anything to stop it? No? Ok, draw then".
+But in a more formal setting (either a tournament, or a casual game where both players really want to follow every CR to the letter), whose responsibility is it to take what action and when? Alice has priority, so she passes it. Bob then passes priority, and Lethal Vapors' trigger resolves. Then Alice has priority, so she passes it. Bob then passes priority, so the undying trigger resolves. Is one of them responsible for using their priority to suggest a draw?
+Are the rules for shortcuts relevant here? Although it seems like a shortcut isn't really involved, the rules for dealing with infinite loops are under the rules for taking shortcuts (section 720).
+The only relevant rules I can see are these 3:
+
+720.1b Occasionally the game gets into a state in which a set of actions could be repeated indefinitely (thus creating a “loop”). In that case, the shortcut rules can be used to determine how many times those actions are repeated without having to actually perform them, and how the loop is broken.
+720.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+720.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+So it says "the game is a draw", but when specifically does the game become a draw? Does one player have an obligation to propose a shortcut here? I don't actually see a legal shortcut that would work to cause a draw, however, as shortcuts for loops generally involve naming a finite number of times that you want the action to happen.
+
+A:
+
+What you are describing is a loop of mandatory actions. Unless someone breaks it, the game ends in a draw.
+
+720.4. If a loop contains only mandatory actions, the game is a draw. (See rules 104.4b and 104.4f.)
+
+That said, noone is forced to break it even if they could.
+
+720.5. No player can be forced to perform an action that would end a loop other than actions called for by objects involved in the loop.
+
+You seem to be asking how to get the game declared a draw. 104.4i allows the players to mutually agree to a draw.
+
+104.4i In a tournament, all players in the game may agree to an intentional draw. See rule 100.6.
+
+If the other player refuses to accept, you can't just keep passing, because that would be Slow Play.
+That leaves the option of creating a shortcut. The active player should propose passing until the loop is broken (or until they get priority in the next phase/step for a loop that doesn't span phases/steps). If the opponent accepts the shortcut, the game is officially a draw because neither player ever gets priority again.
+

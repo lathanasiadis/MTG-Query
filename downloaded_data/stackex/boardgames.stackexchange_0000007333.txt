@@ -1,0 +1,18 @@
+Q:
+
+How much damage do my other Goblins deal if my Goblin Chieftain dies during the first strike step?
+
+I was playing against my son tonight and an issue came up that we disagreed on. We looked in the rules, but that just made things murkier for us.
+I attacked with Goblin Chieftain (2/2), Goblin Fireslinger (1/1) and Blisterstick Shaman (2/1). My Goblin Chieftain gave +1/+1 to the other two creatures.
+My son chose to defend with Elite Inquisitor (2/2 with First Strike) and block the Chieftain.
+So, the question is, do my two remaining creatures deal 3 damage to him or 5?
+My son argues that since the Chieftain died, the other two creatures no longer have the +1/+1 effect. I thought that damage in battle was resolved before that would happen.
+
+A:
+
+First of all, Goblin Chieftain does not give any kind of counters.  It just modifies the P/T of goblins while it is on the battlefield.
+Secondly, First Strike creates two combat damage steps.  One in which only Elite Inquisitor (and any other potential First Striker) deals it's combat damage.  In your scenario, this will kill the Goblin Chieftain.  In the second combat damage step, non-First Strike creatures deal their damage.  Since the Chieftain is no longer there, they do not get the +1/+1.
+You will deal 3 damage.
+
+702.4b/702.7b If at least one attacking or blocking creature has first strike or double strike as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+

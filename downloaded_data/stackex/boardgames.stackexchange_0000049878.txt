@@ -1,0 +1,23 @@
+Q:
+
+Tiana, Ship's Caretaker and Kaya's Ghostform
+
+Tiana, Ship's Caretaker is a somewhat unique effect that lets all auras and equipment that go to your graveyard return to your hand.
+Kaya's Ghostform will bring a creature or planeswalker back from the graveyard or exile to the battlefield.
+So what exactly happens when Kaya's Ghostform is enchanting Tiana, and Tiana dies?
+I think the most likely scenario is this:
+
+Tiana dies.
+Ghostform trigger goes on the stack, and Ghostform goes to the graveyard as a state-based action.
+Because Tiana was not on the battlefield when Ghostform entered the graveyard, it is NOT returned to hand.
+Tiana is returned to the battlefield.
+
+Obviously, I'd prefer it if I get both back, so I'm hoping someone here can prove me wrong.
+
+A:
+
+Gatherer for Tiana says "If an Aura you control is put into a graveyard immediately after Tiana leaves the battlefield, most likely because Tiana left the battlefield but the Aura was put into the graveyard as a state-based action after it found itself not attached to anything, Tiana’s last ability won’t trigger."
+Your reading is correct, and step 3 is the crucial bit of info. When Tiana herself dies, the game checks for state based actions when the next player gets priority. The game would see a Ghostform attached to nothing, then it would move to the graveyard. At this point Tiana is no longer on the battlefield, so her last ability will not trigger according to the Gatherer ruling. 
+Additionally, please note that the Tiana returning due to Ghostform is a new object according to the game. The new Tiana has no memory of the the old Tiana or its auras. To conceptualize this, if you play Languish and then Grizzly Bear on your turn, your Grizzly Bear lives. Languish only affects the creatures already on the battlefield when it is played. By the same logic, Tiana only sees the auras and equipment that go to the graveyard when it's actually on the battlefield. 
+You would get both back if both Tiana and its enchanted Ghostform were destroyed simultaneously, such as by Planar Cleansing. Spells with multiple targets such such as Causalities of War also produce the same effect as Planar Cleansing. In both of those cases, Tiana is on the battlefield when the aura is destroyed, so her last ability will trigger. You get a Ghostform trigger immediately and Tiana sets up a delayed trigger for your end step. Both happen simultaneously, yet the triggers themselves are independent. Ghostform returns Tiana to the battlefield immediately, while Tiana's delayed trigger goes on the stack during your end step and returns Ghostform to your hand. Gatherer confirms this ruling.
+

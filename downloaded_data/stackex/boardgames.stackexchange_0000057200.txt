@@ -1,0 +1,31 @@
+Q:
+
+MTG stolen Rousing Refrain, who controls the suspend?
+
+Someone had an effect that exiled my top card face down and later let them cast it. The card they stole was Rousing Refrain. When they cast it and the card exiles itself with time counters on it, who controls the exiled (and now suspended) card? The owner or the caster?
+
+A:
+
+When the last time counter is removed, the owner casts the spell.
+First, rule 702.62a describes the procedure for casting a spell from exile using suspend:
+
+Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player’s hand. The second and third are triggered abilities that function in the exile zone. “Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it. This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, play it without paying its mana cost if able. If you can’t, it remains exiled. If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
+
+The highlighted ability refers to "you", which is covered in rule 109.5:
+
+The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+And rule 109.4 says
+
+Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren’t controlled by any player. See rule 108.4. There are six exceptions to this rule:
+109.4a The controller of a mana ability is determined as though it were on the stack. See rule 605, “Mana Abilities.”
+
+And finally, rules 108.3, 108.4 and 108.4a say
+
+108.3. The owner of a card in the game is the player who started the game with it in their deck. If a card is brought into the game from outside the game rather than starting in a player’s deck, its owner is the player who brought it into the game. If a card starts the game in the command zone, its owner is the player who put it into the command zone to start the game. Legal ownership of a card in the game is irrelevant to the game rules except for the rules for ante. (See rule 407.)
+108.4. A card doesn’t have a controller unless that card represents a permanent or spell; in those cases, its controller is determined by the rules for permanents or spells. See rules 110.2 and 112.2.
+
+108.4a If anything asks for the controller of a card that doesn’t have one (because it’s not a permanent or spell), use its owner instead.
+
+Putting all of those together, rule 108.3 says that you own the card because it started the game in your deck. Once the card is exiled rule 109.4 says that it has no controller, just an owner. So, the third suspend ability triggers and resolves. It instructs "you" to cast the spell, and rule 109.5 says that "you" refers to the controller of the object (the card) as the ability triggered. But since the card was in exile, rule 108.4a says to use the owner when asked for the controller, so the instruction is for the owner to cast the spell.
+

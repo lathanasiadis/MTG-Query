@@ -1,0 +1,15 @@
+Q:
+
+What if Magic gives the second player a Lotus Petal, similar to what Hearthstone does?
+
+In Magic, the player who goes first doesn't get to draw a card on the first turn, i.e. the player who goes second plays each turn with an extra card. This typically isn't enough compensation since the player that goes first wins slightly more than 50% of time (53% of the time according to this limited study). In Eldraine Standard, some decks win up to 18% more often on the play, according to this article.
+In addition to this mechanic, Hearthstone also allows the second player to start with a "Coin", which is effectively Lotus Petal. Can Magic adopt this mechanic as well?
+Obviously Magic is more complicated than Hearthstone and Lotus Petal introduces new risks, e.g. Lotus Petal is a permanent (e.g. counts for City's Blessing), an artifact (e.g. counts for Improvise), can be sacrificed (e.g. counts for Revolt), and so on. However, I can't think of any way this lets the second player do really degenerate things like win on turn 1. Instead, this would let the second player counter the first player's turn 1 win attempts by e.g. casting Spell Pierce. Conversely the first player is already able to interact with the second player with cards like Thoughtseize before the second player ever reaches a main phase.
+Is there any dangerous combo that could be enabled by letting the second player start with a Lotus Petal in play? If so, what combo could it be?
+
+A:
+
+There are already decks that win on turn one, giving one extra mana on that turn enables these decks to be more reliable.
+One example of a deck that wins turn one, and already wants to be on the draw, is Flash Hulk. While Flash has been banned in legacy and restricted in vintage, the combo only needs two mana, one of it blue, to win turn 1. This two mana is usually accomplished with Gemstone Caverns, Elvish Spirit Guide or Simian Spirit Guide and the land drop for the turn, usually an Island. Adding one free mana would mean you no longer need one of those three cards, just Flash and Protean Hulk and your land for turn in the opening hand.
+Flash is used to put Protean Hulk into play, which must be sacrificed since you can't pay the 4 generic mana required by Flash (creature's CMC-2), triggering Protean Hulk's death effect. That effect could search for many things, 4 Disciple of the Vault and X cost artifact creatures like Phyrexian Marauder and Shifting Wall, using the 0 toughness artifact creatures dying to trigger the Disciples, or 4 Virulent Sliver and a Heart Sliver to swing 5 poisonous 4 hasted creatures turn 1, doing double the lethal poison count.
+

@@ -1,0 +1,13 @@
+Q:
+
+Checking target legality (esp for removal)
+
+When an opponent targets a creature and I give it hexproof in response (e.g. with Dive Down) it becomes an illegal target for the spell or ability.
+This is because target legality for the spell is checked once when putting it on the stack (usually when casting or activating it) and once when it would resolve. Correct?
+Then why does the same not work for a spell that cares about power or toughness (e.g. Smite the Monstrous). Why can I not change the power in response to Smite the Monstrous being cast (with some sort of buff effect, e.g. Giant Growth) and make it an illegal target?
+Am I wrong in some assumption?
+
+A:
+
+You can change the power of the creature targeted by Smite the Monstrous to make it an illegal target. However, a buff effect like Giant Growth won't help there because Smite the Monstrous targets a creature with "power 4 or greater"; if a creature is already a valid target when the spell was cast, increasing its power with Giant Growth won't change that. You would need to decrease its power to less than 4 to make the target illegal. Befuddle, for example, would do it if the creature starts out with power 7 or less.
+

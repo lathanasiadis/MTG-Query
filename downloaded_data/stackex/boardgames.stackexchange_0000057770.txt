@@ -1,0 +1,23 @@
+Q:
+
+What would be the ramifications of a card that had every name?
+
+Cards exist that have every creature type (Changeling, This card has every creature type). What would be the fun and interesting ramifications of a card which had every card name?
+A quick search on MTG WTF suggests that it'd be vulnerable to set-based destruction (Apocalypse Chime, City in a Bottle), and be searchable by Planeswalker-fetchers like Ajani's Aid, but would there be any particularly abusable strategies?
+(Nothing rides on this, it is purely hypothetical.)
+
+A:
+
+For the most part, a card's name doesn't do a lot. It is primarily used for one card to refer to another specific card, and as a proxy for determining whether two cards are the same, in that they have the same Oracle entry.
+Spy Kit already enables many of the relevant interactions, by giving a single creature the name of every nonlegendary creature card. This includes the following:
+
+If an effect instructs a player to choose a name, that effect always affects this creature. For example, Pithing Needle always affects this creature.
+If an effect refers to objects with the same name as a specific object, it refers to every other object if the specific object is this creature, and it always refers to this creature if the specific object is any other creature. For example, if an opponent plays Banishment targeting any permanent, it also exiles this creature, and if they play Banishment targeting this creature, it also exiles every other nonland permanent their opponents control.
+
+However, if the creature has those names inherently and has noncreature names, then you can also find it when instructed to search for cards with any specific name. For example, Squadron Hawk's ability would let you search for this creature, as would Renowned Weaponsmith's.
+This card would not generally have any meaningful interaction with legendary creatures if it is not itself legendary. Rule 704.5j says
+
+If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+If the creature is legendary, it would conflict with every other legendary permanent. If you ever control it along with another legendary permanent, you would need to put one into your graveyard.
+

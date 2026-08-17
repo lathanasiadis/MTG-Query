@@ -1,0 +1,19 @@
+Q:
+
+Tool to search for cards with similar functionality
+
+I'm looking for a tool/website that would aid in deck building, specifically by providing alternatives to a specific card, say Fog. It should respond with traditional data plus suggestions of similar cards like Haze of Pollen or Commencement of Festivities.
+I've looked on Google's Play Store, and also tried many of the leading websites (TappedOut, ChannelFireball, etc.) While TCGPlayer and Amazon will recommend cards based on other buyers purchases, those suggestions may not be similar in nature to the first card.
+Gatherer does have comments on many cards, but it's too time consuming to scroll page after page.
+
+A:
+
+MythicSpoiler provides something they call "Thesaurus" (usually used for finding word synonyms).
+Although not the site's primary functionality, you can search for specific cards and it will yield you similar cards in nature and functionality, and excluding any other factors, which has its own pitfalls - for example, it wouldn't give you just any other green card, but it might give you a non-green alternative with the same function. The range is limited to three cards at a time, though.
+Searching for Fog, for example, you will get suggestions for Druid's Deliverance, Moment's Peace, and Moonmist.
+This is an exclusively manual process, as stated by its creator. You can choose to partake in this process by submitting your own card suggestions.
+
+There are attempts to solve this issue procedurally as well, such as this attempt to solve it via NLP (Natural Language Processing). They link to a GitHub repository, but unfortunately there seems to be no existing implementation to try it out yourself quickly.
+
+That said, for the multitude of cards available as alternatives to Fog, you're better off doing a specific Gatherer search (or search the database tool of your choice in a similar manner), for example for all green spells with the phrase "Prevent all combat damage that would be dealt this turn". This is the only process I can think of that will guarantee that you're not missing the card you're looking for, as long as you choose your search parameters sensibly - for example, the above search won't yield Terrifying Presence as a result.
+

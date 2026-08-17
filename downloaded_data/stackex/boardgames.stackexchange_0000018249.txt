@@ -1,0 +1,23 @@
+Q:
+
+If you block an attack, can the blocker be killed with an instant before you can sacrifice it?
+
+Let's say I control a Brindle Boar. If I block an attacking Nessian Courser with it and then activate the ability of Brindle Boar, can my opponent interrupt it with say, a Shock to kill it before I can sacrifice it? And in this case, would the full damage go through to me?
+
+A:
+
+TL;DR
+No, your opponent does not have an opportunity to react to you paying the cost to activate the boar's ability, and the creature you blocked remains blocked.
+It does not quite work the way you think. To use the Boar's ability you had to pay its cost. Its cost was to sacrifice it. So the boar is gone before any other spell put on the stack would resolve.
+The creature the boar blocked remains blocked, and no damage would go to you. Also your opponent would not be able to target the boar because it would not exist at that time.
+
+The relevant rules here start with 509.1h:
+
+509.1h An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature;...A creature remains blocked even if all the creatures blocking it are removed from combat.
+
+Looking at the rules for casting a spell, you will see in 601.2g that all costs must be paid before the spell is 'cast'. In the case of the boar's ability:
+
+Sacrifice Brindle Boar: You gain 4 life
+
+which follows the universal {cost}:{effect} template of MTG; sacrificing the boar is the cost. Before the ability can go on the stack and priority can pass so your opponent could cast a bolt, the boar must be sacrificed.
+

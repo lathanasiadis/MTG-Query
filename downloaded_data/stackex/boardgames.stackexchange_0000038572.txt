@@ -1,0 +1,30 @@
+Q:
+
+Can I activate Vehicle abilities without Crewing them first?
+
+Cultivator's Caravan is a vehicle with:
+
+{T}: Add one mana of any color to your mana pool.
+Crew 3.
+
+Can I tap Cultivator's Caravan for mana of any color without providing creatures to crew it?
+
+A:
+
+Yes, that works perfectly fine.
+What the Crew ability of a Vehicle does is turning the artifact into an artifact creature.
+
+Crew N: Tap any number of untapped creatures you control with total power N or
+  greater: This permanent becomes an artifact creature until end of
+  turn.
+
+As you see, it doesn't say anything about the abilities of the artifact. Cultivator's Caravan is an artifact with 2 abilities.
+
+"{T}: Add one mana of any color to your mana pool"
+"Crew 3"
+
+And you can use each of those abilities like you could use the ability of a normal artifact.
+Do note however, that if you use the Crew ability to turn Cultivator's Caravan into a creature during the same turn during which you played it, then after the Crew ability resolves, the Vehicle is now affected by summoning sickness and cannot attack or activate its "{T}:"-abilities, including its "{T}: Add one mana to your mana pool". After the Vehicle ceases to be a creature at end of turn, you may use the ability again even if the Vehicle hasn't been under your control since your last upkeep.
+
+302.6 A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since his or her most recent turn began. ...
+

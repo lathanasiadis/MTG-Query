@@ -1,0 +1,11 @@
+Q:
+
+Tapping opponents creatures
+
+If your opponent uses the ability where you can't untap until next turn can he use another card like that and have it stack for multiple turns?
+
+A:
+
+It depends on the exact wording of the card in question (it's always helpful to give specific examples in these types of questions). If you mean a card like sleep, then no, it will not stack. Sleep makes the creatures not untap during the opponent's next untap step; even if you cast 2 of them on the same turn, they would both affect the same untap step.
+But if you mean something like yosei, the morning star, then 2 instances of his triggered ability would stack. Each one would cause your opponent to skip his next untap step; so there are 2 replacement effects trying to replace the untap step. One if them would replace the next untap step with skipping that step; the other would would then still be around, waiting to skip the untap step that would happen after that.
+

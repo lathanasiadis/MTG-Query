@@ -1,0 +1,17 @@
+Q:
+
+Can Enchantment Creature play its enchanted ability?
+
+When I play Nylea's Emissary and decide to not pay its Bestow cost, does that mean that it is a 6/6 Enchantment Creature with Trample? Does the enchanted creature spell only work if I pay the Bestow cost to enchant another creature?
+
+A:
+
+Close, but not quite. Bestow is an alternative way of casting the card, once you choose to cast it not for its Bestow cost it is a regular 3/3 Enchantment Creature with Trample (It isn't enchanting itself so it doesn't get +3/+3 from its ability). There is no way to attach it to a creature once you have cast it as a Creature.
+
+702.102. Bestow  
+702.102a Bestow represents two static abilities, one that functions while the card with bestow is on the stack and another that functions both while it’s on the stack and while it’s on the battlefield. “Bestow [cost]” means “You may cast this card by paying [cost] rather than its mana cost.” and “If you chose to pay this spell’s bestow cost, it becomes an Aura enchantment and gains enchant creature. These effects last until one of two things happens: this spell has an illegal target as it resolves or the permanent this spell becomes, becomes unattached.” Paying a card’s bestow cost follows the rules for paying alternative costs in rules 601.2b and 601.2e–g.  
+702.102b If a spell’s controller chooses to pay its bestow cost, that player chooses a legal target for that Aura spell as defined by its enchant creature ability and rule 601.2c. See also rule 303.4.  
+702.102c A spell’s controller can’t choose to pay its bestow cost unless that player can choose a legal target for that spell after it becomes an Aura spell.  
+702.102d As an Aura spell with bestow begins resolving, if its target is illegal, the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell’s controller. This is an exception to rule 608.3a.  
+702.102e If an Aura with bestow is attached to an illegal object or player, it becomes unattached. This is an exception to rule 704.5n.  
+

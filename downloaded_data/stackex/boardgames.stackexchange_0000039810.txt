@@ -1,0 +1,28 @@
+Q:
+
+Does untapping lands trigger Wake Thrasher's ability?
+
+I have a card called Wake Thrasher. It says: 
+
+Whenever a permanent you control becomes untapped, Wake Thrasher gets +1/+1 until end of turn.  
+
+Does this mean when I untap my lands at the beginning of my turn would put counters on him till the end of my turn?
+On my previous turn I summoned him with his 2 generic and 1 blue mana, coming from 3 lands. At the beginning of my next turn, since I'm untapping a total of 3 lands, will he be a 1/1 + 3 * +1/+1 so a 4/4 creature?
+
+A:
+
+Yes, Wake Thrasher would be a 4/4 at the end of your untap step and remain that way until the end of turn. However these are not counters, not all sources of +1/+1 are counters, I'd wager most aren't, this is a +1/+1 to end of turn as a result of a triggered ability's resolution. You do not put counters on and then remove them at end of turn. What happens is this:
+
+Your turn begins with the untap step, in that untap step you have three lands tapped, they all untap.
+Untapping your lands triggers Wake Thresher three times, putting his ability on the stack three times in the next step, the upkeep step, since nothing can go on stack during untap. He is still a 1/1.
+The first of Wake Thresher's abilities on the stack resolves and it gets +1/+1. It is now a 2/2.
+The second of Wake Thresher's abilities on the stack resolves and it gets +1/+1. It is now a 3/3.
+The third of Wake Thresher's abilities on the stack resolves and it gets +1/+1. It is now a 4/4.
+
+Note that these can all be responded to, if any opponent wants to kill it as a 1/1 before the untap effects resolve, they can, the abilities will be on stack and will fizzle.
+The fact that they are not counters matter for several reasons, mostly other cards and effects such as:
+
+Kulrath Knight: These are not counters, so Kulrath Knight does not prevent Wake Thrasher from attacking.
+Proliferate: Proliferate lets you copy counters on permanents or players, since these are not counters they cannot be duplicated. The same goes for effects like Gilder Bairn and Vorel of the Hull Clade
+-1/-1 counters: +1/+1 counters on a permanent and -1/-1 counters on that same permanent at the same time will cause N of both to be removed, where N is the lower number of +1/+1 and -1/-1 counters. Since these are not +1/+1 counters they do not remove -1/-1 counters, these remain at end of turn and will likely kill the Thrasher if there are no other effects.
+

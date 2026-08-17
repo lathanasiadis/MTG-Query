@@ -1,0 +1,36 @@
+Q:
+
+Do I draw a card when I resolve an enchantment with Eidolon of Blossoms, Opalescence, and Torpor Orb in play?
+
+I control the following permanents:
+Eidolon of Blossoms
+
+Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.
+
+Opalescence
+
+Each other non-Aura enchantment is a creature in addition to its other types and has base power and base toughness each equal to its converted mana cost.
+
+Torpor Orb
+
+Creatures entering the battlefield don't cause abilities to trigger.
+
+Summary:
+
+Eidolon of Blossoms triggers a card draw when an enchantment enters play.
+Opalescence makes enchantments into creatures.
+Torpor Orb prevents creatures from triggering enter-the-battlefield effects.
+
+So when I cast my next enchantment (that will be creature due to Opalescence), does it trigger the draw from Eidolon of Blossoms?
+I anticipate the answer is no, but I wanted to confirm my suspicions.
+
+A:
+
+Eidolon of Blossoms will not trigger due to rule 603.6b.
+
+603.6b Continuous effects that modify characteristics of a permanent do so the moment the permanent is on the battlefield (and not before then). The permanent is never on the battlefield with its unmodified characteristics. Continuous effects don’t apply before the permanent is on the battlefield, however (see rule 603.6d).
+Example: If an effect reads “All lands are creatures” and a land card is played, the effect makes the land card into a creature the moment it enters the battlefield, so it would trigger abilities that trigger when a creature enters the battlefield. Conversely, if an effect reads “All creatures lose all abilities” and a creature card with an enters-thebattlefield triggered ability enters the battlefield, that effect will cause it to lose its abilities the moment it enters the battlefield, so the enters-the-battlefield ability won’t trigger.
+
+Let's use Armistice as an example of a non-aura enchantment that would be affected by Opalescence.
+You cast and resolve Armistice. According to the rule, Armistice is never on the battlefield without being affected by the continuous effect from Opalescence. Therefore, the Armistice enters as a creature. Torpor Orb prevents creatures from triggering abilities, so nothing triggers.
+

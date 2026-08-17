@@ -1,0 +1,33 @@
+Q:
+
+How Does Chains of Mephistopheles Work?
+
+I need to understand the rulings on this card, as it seems to form an infinite mill and draw combo all on its own!
+I will explain:
+The rule states:
+
+If a player would draw a card except the first one he or she draws in his or her draw step each turn, that player discards a card instead. If the player discards a card this way, he or she draws a card. If the player doesn't discard a card this way, he or she puts the top card of his or her library into his or her graveyard.
+
+Now my my thinking is that the text in bold and the text in italics sets off an infinite loop if a player draws a card other than their first.
+The steps:
+
+Player A draws a second card on their turn
+COM triggers, Player A discards a card
+COMs second ruling makes Player A  draw a card, again triggering
+COMs first ruling and so on to certain death...
+
+Am I missing something with this card or is it actually as ridiculously broken as I am making out?
+Card Link: Chains of Mephistopheles
+Edit
+
+On closer inspection, it appears it would only make the person discard their hand completely if they draw a second card at all... this is really confusing me.
+My thinking on this is that Player A would have to discard a card instead of drawing it... then try and draw again and discard till his hand is gone then mill the top card. Is this how this card works?
+
+A:
+
+Chains of Mephistopheles doesn't form an infinite draw combo.
+The main principle is this: when an event happens, we check all available replacement effects, and then we apply each of them just once. When Chains of Mephistopheles replaces your draw with an instruction to discard & draw, that's not a new draw to which a replacement effect might be applied — it's just a modification to the original draw event, and Chains has already had its turn to change that event.
+All of that happens specifically because Chains is a replacement effect, since it uses the language "If (thing would happen), (other thing happens) instead." If it was a triggered ability it would definitely go infinite.
+Consider also that if this would lead to infinite draw, Anointed Procession would lead to infinite tokens, Winding Constrictor would lead to infinite counters, etc.
+So what does it do? Chains of Mephistopheles is one of those very old cards that's complex enough it needs a flowchart to really understand. Magicjudge produced one here:
+

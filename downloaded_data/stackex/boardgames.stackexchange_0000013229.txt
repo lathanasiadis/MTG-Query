@@ -1,0 +1,25 @@
+Q:
+
+If I reveal a land with Daxos of Meletis, can I play it?
+
+What happens if my Daxos of Meletis deals combat damage to a player, and the card revealed by that player is a land? Am I able to play that land or does nothing happen, because Daxos's ability is worded as "you may cast" that card and you don't cast lands.
+
+A:
+
+The land is exiled and you gain 0 life. You may not play the land, because as you point out, the card says "cast" not "play":
+
+[...] Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.
+
+[CR601]. Casting Spells
+
+601.1. Previously, the action of casting a spell, or casting a card as a spell, was referred to on cards as "playing" that spell or that card. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to "casting" that spell or that card.
+
+601.1a Some effects still refer to "playing" a card. "Playing a card" means playing that card as a land or casting that card as a spell, whichever is appropriate.
+
+Djinn of Wishes and Intet, the Dreamer allow you to play exiled lands, Daxos does not.
+The CR define what you can do in MtG, since no rule exists for Casting a Land, you cannot do it. Additionally, rules exist for cards that share the land type and an indication that lands are not spells (about the closest you will get that lands aren't spells).
+
+305.9. If an object is both a land and another card type, it can be played only as a land. It can’t be cast as a spell.
+
+505.5b During either main phase, the active player may play one land [...] Neither the land nor the action of playing the land is a spell or ability.
+

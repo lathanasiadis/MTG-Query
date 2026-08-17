@@ -1,0 +1,20 @@
+Q:
+
+Is there a specified order for abilities on cards, specifically creatures?
+
+I was reviewing the a spreadsheet I created of the RTR spoiler to prepare my strategy for this coming weekend. In doing so, I noticed that here and on previous sets if a creature has flying, it is virtually always the first ability listed on the card.
+Now, I see a strong parallel between Magic card abilities and Java class, method, and member modifiers. In the same vein that a public static int is syntactically the same as a static public int, a creature that is flying, deathtouch is the same as deathtouch, flying. But you never really see the latter, only the former.
+A search of the official rules didn't indicate anything, nor did Google.
+Is there a canonical, conventional, or official order by which I can expect cards to have their abilities listed on the card?
+Edit: I take back one comment. Faerie Invaders has Flash before Flying. Perhaps Flash is 'more important' than Flying?
+
+A:
+
+This question has come up in the distant past, so there is no telling whether the design philosophy has changed. In the June 2006 Ask Wizards column,
+
+Q: I've noticed on creatures with multiple keywords (flying, trample, etc.) that the keywords are in a certain order. For instance, Flying comes before First Strike and First Strike comes before Trample (Just look at Akroma, Angel of Wrath). My question is: Imagine that there was a creature printed with every keyword in Magic, what is the ordering of the keywords and is there any logical pattern to the ordering? --Matthew Burnaby, BC, Canada
+A: From Del Laugel, Senior Editor: The short answer is that there's no fixed order for keywords. I check Oracle for similar cards whenever an unusual combination comes up, but my top priority is getting the individual cards to read well. But what fun is a short answer?
+[Following is an example card with just about every keyword ever, Keyword Ultimus, cut from this answer for brevity]
+
+In a now-disappeared thread from the shut down wizards community forum, a user magicalblender supposedly compiled a list of evergreen keywords, and which ones always proceed the other. I cannot verify the correctness of this claim, as I haven't updated my cards.mwsbase database with the most recent cards.
+

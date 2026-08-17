@@ -1,0 +1,21 @@
+Q:
+
+How do two copies of Irencrag Feat interact?
+
+The recently released preview card for ELD, Irencrag Feat reads:
+
+Add seven {R}. You can only cast one more spell this turn. 
+
+Would this wording allow me to play another Irencrag Feat, which would in turn allow me to play one more spell this turn?
+
+A:
+
+You cannot cast another spell after casting the second Irencrag Feat
+While I don't think the Golden Rule quoted by Arcanist Lupus in his answer necessarily applies here, simple logic will get you there:
+
+You cast the first copy, which creates a condition "Condition A" that says you can only cast one more spell this turn
+Trying to cast the second copy, you need to check existing conditions, namely "Condition A". Since you haven't cast another spell this turn, you cast the second copy, which creates a condition "Condition B" that says you can only cast one more spell this turn
+Trying to cast another spell, you need to check existing conditions, namely "Condition A" and "Condition B". You haven't cast another spell since "Condition B" has been established, but you have cast another spell since "Condition A" has. This means that casting another spell would necessarily violate "Condition A", so you won't get to cast another spell this turn.
+
+Keep in mind that cards like this will usually receive rulings upon or close to their release for clarification.
+

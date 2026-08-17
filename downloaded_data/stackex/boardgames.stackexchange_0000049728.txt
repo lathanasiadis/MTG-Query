@@ -1,0 +1,16 @@
+Q:
+
+What happens when I copy a card with awaken?
+
+If I copy Part the Waterveil for which I pay 6UUU with Mirrorpool, do I get to turn one or two lands into creatures?
+
+A:
+
+The awakened version of Part the Waterveil targets a land; since Mirrorpool's ability says "You may choose new targets for the copy." you can choose either the same land or another land. As @Arthur says in the comments, it should be noted that the copy is also awakened, since that is an alternative cost:
+
+702.112a Awaken appears on some instants and sorceries. It represents two abilities: a static ability that functions while the spell with awaken is on the stack and a spell ability. “Awaken N—[cost]” means “You may pay [cost] rather than pay this spell’s mana cost as you cast this spell” and “If this spell’s awaken cost was paid, put N +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It’s still a land.” Paying a spell’s awaken cost follows the rules for paying alternative costs in rules 601.2b and 601.2f–h.
+
+and that information is copied as well:
+
+706.10. To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn’t cast and a copy of an activated ability isn’t activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs.
+

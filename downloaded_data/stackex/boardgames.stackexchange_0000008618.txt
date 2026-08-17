@@ -1,0 +1,30 @@
+Q:
+
+Will using Nephalia Smuggler save a creature targeted by a destruction spell?
+
+If an opponent targets one of my creatures with a destroy spell, and in response I tap Nephalia Smuggler to exile that creature and return it to the battlefield, does the destroy spell fizzle due to its target having vanished? Or is the target considered still valid, since it's still on the battlefield after the effect of Nephalia Smuggler has been resolved?
+
+A:
+
+Short answer:
+If the spell only has one target, it will be countered on resolution since the creature it was targeting no longer exists.
+
+First, a correction. The creature isn't still on the battlefield after the effect of Nephalia Smuggler has been resolved. The creature that's there then is a brand new creature with no relation to any creature that was previously on the battlefield. That the old and the new creature were created by the same card is irrelevant. [CR 400.7]
+The answer to your question depends on the exact wording of the "destroy spell". What happens depends on if the spell targets, and on if it still has legal targets as it would resolve. If it has targets and all of them have become illegal, the spell is countered. Otherwise, the spell continues to resolve, doing as much as it can with its remaining targets. [CR 608.2b]
+For example,
+
+If the spell is Assassin's Strike:
+Since this spell's only target no longer exists when the spell would resolve, Assassin's Strike is countered on resolution. None of its effect occurs, so you don't discard a card.
+
+If the spell is Hex:
+One of its targets no longer exists when the spell would resolve, so one of its targets is illegal. It still has five valid targets, so it isn't countered. It continues to resolve as it normally would, doing as much as possible with the remaining targets. Five creatures are destroyed, but the smuggled creature is not affected.
+
+If the spell is Day of Judgment:
+This spell has no targets, so it resolve normally. It proceeds to destroy every creature on the board, including the smuggled creature.
+
+Referenced rules:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are seven exceptions to this rule: [None of the exceptions matter here.]
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability’s effect for which it is an illegal target can’t perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+

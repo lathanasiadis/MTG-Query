@@ -1,0 +1,16 @@
+Q:
+
+Is there a way to save a X = 0 Stonecoil Serpent?
+
+If I cast Stonecoil Serpent with X = 0, it starts with 0/0, and immediately resolves so it dies?
+Is there a way to save it?
+
+A:
+
+Yes, you can save the Serpent, but it must be set up ahead of time. There are two main ways of saving it that I can think of.
+
+An anthem effect (called a static ability), like the namesake Glorious Anthem
+Another card that says it enters the battlefield with +1/+1 counters on it (called a replacement effect), like Bloodspore Thrinax
+
+Either of these will make sure the Serpent has toughness greater than 0 by the time state-based actions are checked. Note that this (in particular point 2) is in contrast to triggered abilities (like The Great Henge), which are too late to save the serpent.
+

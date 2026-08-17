@@ -1,0 +1,16 @@
+Q:
+
+Can I turn a manifested card face up during the declare blockers step?
+
+If I attack with a manifested (face down) card and my opponent declares blockers, is priority then passed to me so I can turn it face up for its mana cost, or must I turn it up after declaring attackers?
+
+A:
+
+Yes, you get priority during the Declare Blockers step. Rule 509 describes how the Declare Blockers step progresses, and rule 509.5 says
+
+Fifth, the active player gets priority. Players may cast spells and activate abilities.
+
+You can turn a manifested card face up any time you have priority, so that includes during the Declare Blockers phase. Rule 701.31b says
+
+Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what its mana cost is, pay that cost, then turn the permanent face up.
+

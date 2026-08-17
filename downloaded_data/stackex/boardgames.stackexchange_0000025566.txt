@@ -1,0 +1,30 @@
+Q:
+
+What is the timing of "you may pay" abilities?
+
+With abilities that allow a player to pay for optional effects, is that payment made as the ability resolves or as it goes onto the stack?
+If it's made as it resolves, do you have the opportunity to use mana abilities at that time to pay for it, or do you need to fill up your mana pool prior to the ability resolving?
+A good example of a card that does this is Dromar, the Banisher. This has a triggered ability with the option to pay. How about with static abilities that give the opportunity to pay, such as Archangel of Tithes? When exactly do you have the opportunity to pay that?
+
+A:
+
+112.2c Each paragraph break in a card’s text marks a separate ability.
+603.1. Triggered abilities begin with the word “when,” “whenever,” or “at.”
+
+Dromar's triggered ability is all one ability. It resolves all at once. "If you do" is not a separate trigger phrase.
+
+Dromar's ability triggers.
+Dromar's ability resolves. Follow the instructions of the ability in order:
+
+You may pay [cost]. You may also activate mana abilities at this time.
+If you do, choose a color.
+Return all creatures of that color to their owners' hands. (If you didn't choose a color because you didn't pay the cost, no creatures match.)
+
+116.1d A player may activate a mana ability whenever an effect asks for a mana payment (even in the middle of resolving an ability). No player gets priority in the middle of a resolving ability.
+
+Archangel's static ability functions when you declare attackers or blockers.  In other words, you declare and pay at the same time.
+
+You attack with X creatures and pay {X}.
+
+No player gets priority in between when you declare and when you pay. This is covered by rules 508.1 through 508.3, which are too lengthy to quote, but you can find them in the Comprehensive Rules if you want a more detailed explanation.
+

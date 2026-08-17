@@ -1,0 +1,24 @@
+Q:
+
+If a Devotion God had a tap ability, would it be able to tap on the turn it came in if you didn't have enough devotion?
+
+If a Theros God that requires a certain Devotion enters the battlefield where you do not have enough devotion to fulfill the requirement to make it a creature does it still have summoning sickness for the purpose of a tap ability?
+
+A:
+
+You would be able to tap it to activate an ability that had the tap symbol as part of its cost, yes. Summoning sickness only affects creatures, and the Theros Gods are not creatures if they are on the battlefield and your devotion is low enough. This also applies if your devotion is initially high enough to make them creatures, and then later in the turn your devotion goes down making them not creatures any more (which, incidentally, seems like the biggest opportunity to give the God a tap ability in the first place, such as mutating it with Parcelbeast or Porcuparrot).
+The rule for the tap symbol only specifies creatures as a special case, so any non-creature permanent would be unaffected by summoning sickness:
+
+107.5. The tap symbol is {T}. The tap symbol in an activation cost means “Tap this permanent.” A
+permanent that’s already tapped can’t be tapped again to pay the cost. A creature’s activated ability
+with the tap symbol in its activation cost can’t be activated unless the creature has been under its
+controller’s control continuously since their most recent turn began. See rule 302.6.
+
+where rule 302.6 basically repeats the final sentence, plus some more that is irrelevant in this situation:
+
+302.6. A creature’s activated ability with the tap symbol or the untap symbol in its activation cost can’t
+be activated unless the creature has been under its controller’s control continuously since their most
+recent turn began. A creature can’t attack unless it has been under its controller’s control
+continuously since their most recent turn began. This rule is informally called the “summoning
+sickness” rule.
+

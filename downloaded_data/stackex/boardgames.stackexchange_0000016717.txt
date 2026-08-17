@@ -1,0 +1,27 @@
+Q:
+
+Grave Betrayal vs. Blightsteel Colossus
+
+My opponent has to sacrifice a creature. He sacrifices a Blightsteel Colossus. I have Grave Betrayal on the battlefield. Will my opponent get to shuffle the colossus into his deck again, or will it return to the battlefield under my control?
+
+A:
+
+Consider this portion of the text on Blightsteel Colossus.
+
+If Blightsteel Colossus would be put into a graveyard from anywhere,
+reveal Blightsteel Colossus and shuffle it into its owner's library
+instead.
+
+This text creates a replacement effect. A replacement effect "watches"
+for an event to happen. For example, regeneration is a replacement effect that watches for the creature to be destroyed.
+The rules for replacement effects neatly state that the event being replaced never happens.
+
+614.6. If an event is replaced, it never happens.
+
+So, when Blightsteel Colossus starts to head for the graveyard, instead, he is revealed and shuffled into his owner's library. The event that got replaced never happens.
+To die in Magic has a specific meaning:
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+Blightsteel Colossus never went to the graveyard, and so Blightsteel Colossus never died. Therefore, Grave Betrayal never triggers.
+

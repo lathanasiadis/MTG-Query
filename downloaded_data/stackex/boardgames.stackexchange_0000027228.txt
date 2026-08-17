@@ -1,0 +1,43 @@
+Q:
+
+Are duel deck pairs always released with an even chance of winning?
+
+My friends and I have acquired some of the recent duel decks over time — Heroes vs Monsters, Zendikar vs Edrazi, Elspeth vs Kiora, and Speed vs Cunning.
+We've tried each of them a few times, and while I'm pretty satisfied with them, some of my friends are coming out concerned that one of the decks in the pairs we've tried might simply have a greater chance of winning than the other. For Zendikar vs Eldrazi they're thinking the Eldrazi has a moderate edge; for Heroes vs Monsters they suspect Heroes have a strong advantage.
+This might just be our limited number of games, who was inclined to play what, confirmation bias, etc. Trick Jarrett won with monsters 3-1 for instance, and I imagine duel decks are at least intended to be even. I haven't been able to cue Google to offer up an answer as to the odds of each deck of winning.
+So, I need to turn to your expertise and shed some light that might either confirm what my friends suspect or assuage their concerns.
+Are all duel deck pairings intended to have a roughly even chance of winning against each other? I'm assuming this is the case, but that's just me assuming. More importantly, do they actually tend to work out that way in practice, or are they known to sometimes come out with a strong bias toward one of the decks?
+I would prefer to see citations from credible sources about developer intentions and win rates. (Official sources like the Wizards development team are credible. If there's genuinely no citations available, I can accept that, but I'd like to be informed of that.) It's pretty reasonable to assume that something called "duel decks" would be intended to have even chances of winning, but I don't want to go by assumptions — and I want something for my friends to have confidence in. It's possible they have design time constraints that prevent them from really achieving evenness, or that the product's seen as secondary and 70/30 odds is considered good enough, etc. It's more probable they want everything to be 50/50 (or 55/45 at worst) and have plenty of resources available and devote themselves to successfully achieving that every time, but I'd like to know that.
+
+A:
+
+Wizards' intentions in designing/developing/releasing the decks is for them to be balanced, with 50/50 being the ideal, and further, for the gameplay itself to have plenty of back-and-forth. I found a handful of official articles on wizards.com supporting this; I'm sure it's difficult to be perfect at, but they clearly do a lot of playtesting aiming at that goal.
+I'm aware that Wizards' description of their playtesting is potentially biased, but they do suggest that they manage to achieve a pretty high degree of balance and it's certainly in their own interests to do so! They're also up-front about when their playtesting can't match real-world gameplay (e.g. they commonly mention not being able to fully "solve" Standard), and they don't mention that here, suggesting that they genuinely think they do a good job.
+Unfortunately I haven't found any empirical playtesting evidence from outside Wizards. The closest I've seen is forum threads where someone says "A is so much better than B" then someone else says "no way, B is way better", someone else says "they came out pretty even in my games", and no conclusion is reached. That's consistent with them actually being balanced and no one having a big enough sample size, but it's not exactly clear evidence.
+
+Some Number of Questions about Knights vs. Dragons - 2011, on Dragons vs. Knights. This is the most explicit one, indicating that they care not only about odds but about the progression of the game feeling balanced:
+
+Balance! This is Development's area of expertise and involves more than simply playing a bunch of test games and making sure the match-up is 50-50. There need to be moves and countermoves and counter-countermoves. In early testing of Phyrexia vs. The Coalition, for example, the decks just exchanged blowouts, which was "balanced" but not very fun.
+
+Playing with Jace & Vraska - 2014, on Jace vs. Vraska, by Sam Stoddard (a developer!), also confirming the strategic balance aspect:
+
+I probably played a hundred plus games of Jace vs. Chandra, and was excited about the opportunity to try to sculpt a fun and interesting matchup between two of our characters using cards from throughout the past.
+[...]
+When working on this Duel Deck, I tried to position the decks in such a way that the matchup between them was something that was strategically deep and allowed for both decks to have early and late game strategies. ... I definitely didn't want the entire game to come down to whether one deck survives until turn 7, at which time it would have a tremendous advantage. Instead, both decks can take the game over at any point.
+
+Making Enemies: Designing Decks in Pairs - 2011, from the intro; the actual article is a reprint of a 1995 Duelist article from way before duel decks:
+
+These days, Magic R&D designs and develops Duel Decks, specifically made to be balanced against each other.
+
+Pointy Ears vs. Pointy Teeth - 2007, on Elves vs. Goblins, describing the results of playtesting:
+
+Once we had our initial decklists, we put them through the playtesting grinder, fighting both sides of the matchup dozens of times, tweaking as we went, then handing them to other R&D members and watching them play. We knew we were getting close when one playtest pair assured us that the Goblins were better, while another playtest pair with the same decks assured us that the Elves were better.
+
+Duel or Die - 2012, on designing Venser vs. Koth, with a weaker statement of balance:
+
+At this stage, we do what we do best in R&D: playtest and refine. Over and over and over. We swap cards in and out. We speculatively try some cards just to see what they do (and often, what they do is come right back out of the decks). We balance the decks with one another so neither one is an auto-win.
+
+Duel Deckin' Upgrades - 2010, Jacob van Lunen (a player this time, not someone from R&D) on Elspeth vs Tezzeret, suggesting that play skill/style may well have something to do with perceptions of imbalance:
+
+A lot of players at my local shop have complained that the Elspeth deck wins almost every game they play. After having played a lot of games with both decks I was very surprised to hear this. In my experience, the decks present each other with a very even and exciting match.
+

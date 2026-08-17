@@ -1,0 +1,34 @@
+Q:
+
+Floodtide Serpent and Can't Attack Enchantments
+
+I control Krasis Incubation enchanting my Floodtide Serpent. My mana pool is empty and I have no way to gain more mana this turn. The only enchantment I control is Krasis Incubation. Floodtide Serpent does not have summoning sickness.
+Can I attack with Floodtide Serpent by returning Incubation Krasis to my hand?
+Here is what I have found so far, to help you guys answer my question.
+Rule 508 describes the declare attackers step in depth. 508.1 is broken down into a few steps. Here are the parts I found to be relevant.
+
+508.1c
+The game checks for restrictions. Floodtide Serpent has a restriction that I am disobeying. Krasis Incubation has a restriction that I am disobeying.
+508.1d
+The game checks for requirements. I have none.
+508.1g-i
+I determine my total cost for attacking. I bounce Krasis Incubation to pay this cost.
+
+If the game backs up at 508.1c, then Floodtide Serpent cannot attack. However, if this is the case, it would appear that Floodtide Serpent could never be allowed to attack, because his cost can never be paid prior to reaching 508.1g-i.
+If the answer is that he cannot attack with Krasis Incubation, then I couldn't describe any situation in which he could attack.
+
+A:
+
+In this situation, the Floodtide Serpent cannot attack.
+For this situation, the most important quote (from 508.1) is
+
+If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration.
+
+The rest of 508.1c says
+
+If any restrictions are being disobeyed, the declaration of attackers is illegal.
+
+So once you got to the point that you are disobeying the restriction from Incubation Krasis, the attack is illegal and the game returns to the moment before declaration.
+If Incubation Krasis was instead enchanting a different creature and you try to attack with, then when we get to 508.1c, it is not restricting Floodtide Serpent's ability to attack. Then when we get to 508.1g, you determine that the cost of attacking is returning one enchantment you control to its owner's hand. Then when you get to 508.1i, you pay that cost by returning Incubation Krasis to your hand. Then Floodtide Serpent becomes an attacking creature.
+Note that the text on Floodtide Serpent is not a restriction, it is a cost. The difference is that restrictions have the form "This creature can't attack" or "This creature can't attack unless [some true/false statement about game state]", while attack costs have the form "This creature can't attack unless [you do something]". It wouldn't make sense to count those costs as restrictions because then every attack with an additional cost would have already failed at 508.1c. That would make cards like Propaganda nonsensical.
+

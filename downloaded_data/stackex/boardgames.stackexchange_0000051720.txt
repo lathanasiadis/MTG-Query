@@ -1,0 +1,50 @@
+Q:
+
+Why would Kathril, Aspect Warper's ability grant multiple hexproof counters?
+
+Kathril, Aspect Warper has this ability:
+
+When Kathril, Aspect Warper enters the battlefield, put a flying counter on any creature you control if a creature card in your graveyard has flying. Repeat this process for first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. Then put a +1/+1 counter on Kathril for each counter put on a creature this way.
+
+There is a ruling in Gatherer that is confusing to me:
+
+If cards in your graveyard have multiple hexproof abilities (such as hexproof, hexproof from white, and hexproof from black), a counter of each variant kind will be put onto a creature.
+
+Why would this be true under the ability's wording and the rules?
+
+702.11d “Hexproof from [quality]” is a variant of the hexproof ability. “Hexproof from [quality]” on a permanent means “This permanent can’t be the target of [quality] spells your opponents control or abilities your opponents control from [quality] sources.” A “hexproof from [quality]” ability is a hexproof ability.
+
+So we see that "Hexproof from white" is a hexproof ability, thus is would count for Kathril's ability. I would assume that "Repeat this process for..." means that you do this action:
+
+put a flying counter on any creature you control if a creature card in your graveyard has flying
+
+but replace "flying" with the keyword that you are repeating the action for. As we go down the list, we eventually repeat the action for hexproof, so we follow this instruction:
+
+put a hexproof counter on any creature you control if a creature card in your graveyard has hexproof
+
+Due to 702.11d, if you have a creature with hexproof from white in your graveyard, that would count as having hexproof just the same as if you had a creature with normal hexproof in your graveyard. In either case, the instruction you are following then is to "put a hexproof counter on any creature you control".
+How can these set of instructions cause you to put a "hexproof from white" counter on a creature you control? There doesn't appear to be any instruction to ever put a "hexproof from white" counter on a creature you control.
+Does somehow "repeat this process for hexproof" actually mean "repeat this process for hexproof and every possible hexproof variant"?
+Same question for Odric, Lunarch Marshal:
+
+At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.
+
+Again I would think that by a literal reading of the wording, if a creature you control has "hexproof from white" then this would cause all of your creatures yo be granted normal hexproof (they gain hexproof if a creature you control has hexproof; and having hexproof from white counts). But the rulings say the same as Kathril.
+
+A:
+
+Kathril will create a separate counter for each variant of hexproof creatures in your graveyard have. In the same vein, Odric will give your creatures each variant of hexproof a creature you control have.
+The reason Kathril, Odric and cards similar to them work the way they do is because of the following rule:
+
+702.1c. An effect may state that "the same is true for" a list of keyword abilities or similar. If one of those keyword abilities has variants or variables and the effect grants that keyword or counters of that keyword to one or more objects and/or players, it grants each appropriate variant and variable of that keyword.
+
+Add to that the rule saying
+
+702.11d. "Hexproof from [quality]" is a variant of the hexproof ability [...]
+
+and we see why Kathril gives "hexproof from" counters and Odric gives "hexproof from" to creatures. If we look at the definition of landwalk,
+
+702.14a. Landwalk is a generic term that appears within an object's rules text as "[type]walk," where [type] is usually a subtype, but can be the card type land, any land type, any supertype, or any combination thereof.
+
+I think you'll agree that plainswalk, islandwalk etc. are variants of landwalk, and thus Cairn Wanderer gains all that are present (with the same reasoning used for protection).
+

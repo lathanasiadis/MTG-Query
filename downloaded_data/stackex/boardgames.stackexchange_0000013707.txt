@@ -1,0 +1,27 @@
+Q:
+
+How does Charmed Pendant interact with Reaper King?
+
+Charmed Pendant has the ability
+
+{T}, Put the top card of your library into your graveyard: For each colored mana symbol in that card's mana cost, add one mana of that color to your mana pool. Activate this ability only any time you could cast an instant.
+
+Reaper King has a mana cost made entirely of colorless hybrid symbols. If I turn over Reaper King with Charmed Pendant, can I add any mana to my mana pool? If so, do I have to add one mana of every color? Can I add any colorless mana to my mana pool instead of colored mana?
+
+A:
+
+You have to add WUBRG to your mana pool.
+From the Comprehensive Rules:
+
+107.4e Hybrid mana symbols are also colored mana symbols. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.
+
+Colorless is not a color, so you cannot add colorless mana to your pool in this case.
+
+105.4. If a player is asked to choose a color, he or she must choose one of the five colors. “Multicolored” is not a color. Neither is “colorless.”
+
+Also note the rules clarification on the card's Gatherer page: 
+
+If you flip over a hybrid card, you get one of either color mana, not both, for each mana symbol.
+
+This is just in cases where you flip other, "proper" hybrid cards with 2-colored hybrid mana symbols. In this case, you don't even have a choice as you can't pick colorless for a color.
+

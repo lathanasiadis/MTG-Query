@@ -1,0 +1,26 @@
+Q:
+
+What happens when each player has to draw a card with no cards left in their library?
+
+So I was wondering, if all players had no cards in their library and you cast a card like Skyscribing that makes everyone draw a card, does this make the game a draw  or is there a draw order and one person wins?
+I think it has the same order as resolving like Living Death but I would like to get this cleared.
+
+A:
+
+It's a draw.
+A player does not lose immediately when drawing a card from an empty library:
+
+704.5b If a player attempted to draw a card from a library with no cards in it since the last time state-based actions were checked, that player loses the game.
+
+State-based actions are not checked until after Skyscribing resolves completely:
+
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+117.2e Resolving spells and abilities may instruct players to make choices or take actions, or may allow players to activate mana abilities. Even if a player is doing so, no player has priority while a spell or ability is resolving. See rule 608, “Resolving Spells and Abilities.”
+
+State-based actions will make all players lose the game, and 104.4 applies in that situation:
+
+104.4. There are several ways for the game to be a draw.
+104.4a If all the players remaining in a game lose simultaneously, the game is a draw.
+
+So it's a draw. (Unless one of the players has an effect akin to Obstinate Familiar, in which case they win the game as the only surviving player.)
+

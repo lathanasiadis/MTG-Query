@@ -1,0 +1,20 @@
+Q:
+
+Can I copy a spell that's in my graveyard?
+
+If I cast an instant and then activate League Guildmages ability, can I use the ability again next turn if that card I cast is in the graveyard?
+
+A:
+
+No, because a card is a spell only while it's on the stack.
+League Guildmage requires you to copy a spell, which is a certain kind of object:
+
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+Spells only exist on the stack, which is the zone where spells and abilities remain until they resolve, are countered, or otherwise removed:
+
+111.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) A spell remains on the stack as a spell until it resolves (see rule 608, “Resolving Spells and Abilities”), is countered (see rule 701.5), or otherwise leaves the stack. For more information, see section 6, “Spells, Abilities, and Effects.”
+
+In zones other than the stack and the battlefield, a card is simply a card and cannot be copied by the Guildmage.
+If you find a way to cast that instant from the graveyard, for example through Jump-start, then you may copy it again, because it doesn't matter for the Guildmage from where you cast it. But you do have to cast it first.
+

@@ -1,0 +1,27 @@
+Q:
+
+What happens when a miracle trigger is copied?
+
+One of the newly spoiled cards in Magic 2014, Strionic Resonator, allows you to copy a triggered ability you control. This allows you to copy any of a number of things that previously would happen only once.
+If you used this card to copy a miracle trigger such as Terminus, what happens?
+
+A:
+
+You can choose to play the card for its Miracle cost on either the original or the copied triggered ability, or not at all, but not twice.
+From the comprehensive rules:
+
+702.93. Miracle
+
+702.93a Miracle is a static ability linked to a triggered ability (see rule 603.11). "Miracle [cost]" means "You may reveal this card from your hand as you draw it if it's the first card you've drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost."
+
+702.93b If a player chooses to reveal a card using its miracle ability, he or she plays with that card revealed until that card leaves his or her hand, that ability resolves, or that ability otherwise leaves the stack.
+
+The triggered ability that gets copied is the "you may cast it (the card) by paying [cost] rather than its mana cost" part.
+So now you have the revealed Miracle card in hand, and 2 of those triggers on the stack.
+When the first trigger resolves, you may choose to play the card for its Miracle cost.
+If you do, you cast it, and eventually the 2nd trigger gets to resolve. However, the card the trigger refers to is no longer in your hand and the trigger simply vanishes without further effect. That also applies if another effect (such as Remand) returns the card to your hand before the second trigger resolves, because it's a new object.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+If you don't cast the card on the first trigger, the card will remain in your hand, revealed, and you may choose to cast it for its Miracle cost on resolution of the 2nd trigger.
+

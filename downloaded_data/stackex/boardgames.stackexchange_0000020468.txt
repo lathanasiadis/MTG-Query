@@ -1,0 +1,70 @@
+Q:
+
+Which enchantments allow tapping a creature to inflict direct damage?
+
+What creatures across all sets and expansions have the ability to inflict direct damage, à la Prodigal Sorcerer?
+Are there any Enchant Creature spells that have target creature gain "Tap to do 1 damage to target creature or player" or something similar?
+Edit: My apologies for such an easily query-able answer. I was not aware of the existence o such comprehensive databases and easily-searchable databases like magiccards.info before posting these questions. I will surely do more research from now on. Thank you!
+
+A:
+
+There are a few Aura cards that grant creatures the ability to tap to deal damage to a target (some with more restrictions than others). To find these cards, I used the magiccards.info search o:"Enchant Creature" o:"Enchanted creature has" o:deal o:"{T}", which finds Auras that enchant creatures that mention dealing damage and have an ability with a tap cost. Those cards are:
+
+Archery Training
+
+At the beginning of your upkeep, you may put an arrow counter on Archery Training.
+
+Enchanted creature has "{T}: This creature deals X damage to target attacking or blocking creature, where X is the number of arrow counters on Archery Training."
+
+Burning Anger
+
+Enchanted creature has "{T}: This creature deals damage equal to its power to target creature or player."
+
+Fire Whip
+
+Enchant creature you control
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+
+Sacrifice Fire Whip: Fire Whip deals 1 damage to target creature or player.
+
+Hermetic Study
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+
+Hypervolt Grasp
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+
+{1}{U}: Return Hypervolt Grasp to its owner's hand.
+
+Lavamancer's Skill
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature."
+
+As long as enchanted creature is a Wizard, it has "{T}: This creature deals 2 damage to target creature."
+
+Lightning Prowess
+
+Enchanted creature has haste and "{T}: This creature deals 1 damage to target creature or player."
+
+Power of Fire
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+
+Predatory Urge
+
+Enchanted creature has "{T}: This creature deals damage equal to its power to target creature. That creature deals damage equal to its power to this creature."
+
+Psionic Gift
+
+Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+
+Quicksilver Dagger
+
+Enchanted creature has "{T}: This creature deals 1 damage to target player. You draw a card."
+
+Sinstriker's Will
+
+Enchanted creature has "{T}: This creature deals damage equal to its power to target attacking or blocking creature."
+

@@ -1,0 +1,18 @@
+Q:
+
+Can Laquatus's Creativity cause an opponent to discard their hand if you have Narset, Parter of Veils on the battlefield?
+
+Can Laquatus's Creativity cause an opponent to discard their hand if you have Narset, Parter of Veils on the battlefield?
+
+A:
+
+Yes, but not quite. That's because Narset, Parter of Veils only stops cards drawn beyond the first, and Laquatus's Creativity is a sorcery. That means that if you cast it during your turn, opponent gets to draw at least one card (they don't have a draw step during your turn), and they will end up with one card left afterwards.
+
+If opponent currently has no cards in hand, then Laquatus's Creativity does nothing.
+If opponent has one card in hand, then they draw one and discard one.
+If opponent has two cards in hand, they draw one and discard two.
+If opponent has three cards in hand, they draw one and discard three.
+
+Et cetera.
+If you manage to cast Laquatus's Creativity at instant speed, then if you cast it during your opponent's turn (after their draw step when they have already drawn a card), they will indeed have to discard everything.
+

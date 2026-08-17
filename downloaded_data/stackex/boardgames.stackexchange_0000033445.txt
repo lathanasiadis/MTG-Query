@@ -1,0 +1,24 @@
+Q:
+
+Hexproof and the stack
+
+I have a 1/1 Kitesail Scout and use a +1/+1 pump spell to make it a 2/2. My opponent casts a Fiery Temper to deal 3 damage to it. I respond with Blossoming Defense for +2/+2 and Hexproof, he responds with Murder.
+Does the Kitesail Scout die?
+I know the last in first out stack rule, but didn't my Kitesail have Hexproof, so therefore his Murder could not be cast as the Kitesail was no longer a legal target?  
+
+A:
+
+With only a few exceptions, spells only have an effect once they resolve.
+Just like you can cast Blossoming Defense in response to their Fiery Temper to save your creature before it would be killed, your opponent can respond to your Blossoming Defense by casting Murder to kill your creature before it's being protected.
+Your 2/2 Kitesail Scout will be destroyed by Murder. Blossoming Defense and Fiery Temper will be countered by the game rules for not having any legal targets when they would resolve
+
+608. Resolving Spells and Abilities
+608.2b. If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. (...) The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. (...)
+608.2c. The controller of the spell or ability follows its instructions in the order written. (...)
+
+If instead your opponent allowed Blossoming Defense to resolve and didn't cast Murder in response to it, the Kitesail Scout would indeed be an illegal target for the spell and therefore couldn't be cast.
+
+601. Casting Spells
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and (...). To cast a spell, a player follows the steps listed below, in order. (...) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 720, “Handling Illegal Actions”).
+601.2c. The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. (...) The chosen players, objects, and/or zones each become a target of that spell. (...)
+

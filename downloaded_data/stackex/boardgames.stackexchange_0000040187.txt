@@ -1,0 +1,14 @@
+Q:
+
+If a spell tells me to draw then discard a card, can I cast it before discarding it?
+
+Suppose I have only Force Away in hand, then cast it. It says "you may draw a card then discard a card". Am I able to cast the drawn card which leaves me with no cards in hand to discard, or am I not allowed to cast it? What happens?
+
+A:
+
+No, you can't cast a spell in the middle of that draw-then-discard instruction.
+Whilst a spell or ability is resolving, players can't do anything that the spell or ability doesn't tell them to do. This means you draw, then discard, then afterwards you'll get a chance to cast spells. If Force Away was the last card you had, you're back down to a hand size of 0 with no cards to cast.
+Magic's system for casting and resolving spells involves some concepts of the stack and priority, which you can read about here. Understanding that system is pivotal to understanding when you can/can't cast spells, and the post I'm linking to there is what had me understand it when I started out playing.
+This type of ability is colloquially called "looting" — it's not meant to give you more cards than you had before, it just gives you a chance to swap out a card that isn't useful right now for one that is. It also adds cards to your graveyard which can be helpful. As you might know, Force Away came from Khans of Tarkir which also featured the Delve mechanic — one extra card in your graveyard is one extra card to delve with later.
+There's an exception: cards with Madness allow you to cast them for their Madness cost as a result of discarding them. So if you happened to draw then discard Distemper of the Blood, that's an opportunity to cast it, meaning you did wind up with one extra spell to cast.
+

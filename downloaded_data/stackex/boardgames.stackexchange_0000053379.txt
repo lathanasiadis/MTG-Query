@@ -1,0 +1,20 @@
+Q:
+
+MTG Returning lands at upkeep
+
+I have a card that says:
+"At the beginning of your upkeep, sacrifice this card unless you return a land you control to its owner's hand."
+If I have two of these on the battlefield, do I return one land for each or is returning one land enough to satisfy both conditions?
+
+A:
+
+At the beginning of your upkeep:
+
+Both instances of the card will put their own triggers onto the stack.
+You can choose which order the triggers go onto the stack, not that it matters very much.
+The stack resolves in LIFO order as always.
+The first trigger resolves. You can choose whether to return a land to your hand or sacrifice the specific instance of the card that created that trigger.
+The second trigger resolves. You can choose whether to return a land to your hand or sacrifice the specific instance of the card that created that trigger. This is a separate event from the first trigger resolving, so you cannot return the same land or otherwise count that because that land is already back in your hand.
+
+tl;dr: you need to return one for each.
+

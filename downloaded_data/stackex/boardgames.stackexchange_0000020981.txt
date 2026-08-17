@@ -1,0 +1,41 @@
+Q:
+
+Counter a Counter. What happens?
+
+My friend and I were playing MTG and I cast Archetype of Imagination, except he countered it. Then I countered his counter, so does my creature stay on the battlefield or go to my graveyard?
+
+A:
+
+Your creature enters the battlefield, as though your opponent had never tried to counter it in the first place.
+If you counter your opponent's counterspell, then their counterspell never resolves, so it never does anything to your creature spell.
+Magic uses the stack to resolve spells and abilities. Whenever you cast a spell, it goes on top of the stack, and everyone gets a chance to respond. If they respond with another spell or ability, it goes on top of the stack and the process starts again. If nobody responds, then the spell or ability on top of the stack resolves, and everyone gets another chance to respond to whatever is now on top. The important thing to remember here is that spells and abilities don't actually do anything until they resolve.
+Rule 701.5 describes what countering a spell means:
+
+701.5. Counter
+
+701.5a To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+701.5b The player who cast a countered spell or activated a countered ability doesn’t get a "refund" of any costs that were paid.
+
+This means that in your scenario, the sequence of actions goes like this:
+
+You cast your Archetype of Imagination. The stack now looks like this: 
+
+Your Archetype of Imagination
+
+Your opponent responds with a counterspell targeting the Archetype. The stack now looks like this:
+
+Your opponent's Counterspell
+Your Archetype of Imagination
+
+You cast a counterspell targeting your opponent's counterspell. The stack now looks like this:
+
+Your Counterspell
+Your opponent's Counterspell
+Your Archetype of Imagination
+
+Nobody responds, so your counterspell resolves. It counters your opponent's counterspell, which goes to their graveyard without doing anything. THe stack now looks like this:
+
+Your Archetype of Imagination
+
+The Archetype resolves and enters the battlefield.
+

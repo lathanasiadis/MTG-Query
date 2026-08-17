@@ -1,0 +1,27 @@
+Q:
+
+Does Throne of the God-Pharaoh work with tapped vehicles?
+
+Does Throne of the God-Pharaoh trigger with tapped vehicles?
+At the beginning of end step, which happens first?
+
+vehicles cease to be creatures
+Throne of the God-Pharaoh triggers with tapped vehicles as they're still creatures
+
+A:
+
+The Throne will see the Vehicles as creatures and work with them just fine.
+This is because the ending phase works through the following steps:
+
+End Step — Triggered abilities that say “at the beginning of the end step” or “at the beginning of the next end step” trigger. Players get priority and can cast spells and activate abilities.
+Cleanup step — In order: the active player discards down to 7, damage is cleared off all permanents, and all “until end of turn” and “this turn” effects wear off. (Then under rare circumstances, the players might get priority and more cleanup steps might happen.)
+
+Your Throne triggers at the beginning of the end step, and your Vehicles don't stop being creatures until the cleanup step happens.
+
+Also, just so you know, Throne of the God-Pharaoh's ability will always trigger even if you have no creatures out (its rulings mention as much), and we only determine the amount of life to be lost as that triggered ability resolves.
+This means after it triggers and before it resolves, you have the opportunity to ensure you have more tapped creatures. Handily, you can also activate a crew ability for a vehicle even when it's already crewed, as confirmed by vehicle rulings:
+
+You may activate a crew ability of a Vehicle even if it’s already an artifact creature. Doing so has no effect on the Vehicle. It doesn’t change its power and toughness.
+
+So if you have a Vehicle sitting around, if you'd like to, you can crew it some more to get more tapped creatures.
+

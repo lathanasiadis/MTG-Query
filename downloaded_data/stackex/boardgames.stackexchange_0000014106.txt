@@ -1,0 +1,20 @@
+Q:
+
+How does the Hickory Woodlot card work?
+
+I'm a little unclear on the The Magic the Gathering card Hickory Woodlot
+
+Hickory Woodlot enters the battlefield tapped with two depletion
+counters on it.
+Tap, Remove a depletion counter from Hickory Woodlot:
+Add {G}{G} to your mana pool. If there are no depletion counters
+on Hickory Woodlot, sacrifice it.
+
+The card is a land, so can it be tapped without removing a depletion counter to produce mana as normal?
+Do you sacrifice it immediately after removing the counter? In other words do you have to have counters on it to use it's ability or can you use it one last time without?
+
+A:
+
+Lands can only have the abilities printed on them. Any land that has one of the basic land subtypes (Plains, Island, etc.) also has an inherent ability to tap for one mana of the appropriate color. Hickory Woodlot is a land, but it has no basic land subtype, so it has no additional abilities of that sort besides what is printed. You can only tap this card for the ability using the depletion counters, to add 2 Green mana to your mana pool.
+As to your second question, You perform all steps of an ability in order. First, you pay all costs (in this case, tapping and removing a depletion counter) and then, you perform all effects. The first effect is to generate the mana, then, there is a check against the depletion counters. This will check AFTER the counter has been removed, so you can essentially use this ability twice, and immediately after the second use, the land is sacrificed.
+

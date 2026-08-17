@@ -1,0 +1,34 @@
+Q:
+
+Life Link on an opponents creature by enchantment
+
+With cards like spirit link does the controller of the spirit link gain the life or does the controller of the creature that is dealing the damage gain the life?
+The card is worded so that it says "...whenever enchanted creature deals damage, you gain that much life." does this mean you as the controller of the creature or the controller of the enchantment?
+Life link is very clear. It says the controller of the creature, but does spirit link not give the creature life link?
+
+A:
+
+You on a card always means the cards controller, or owner if it has no controller.
+
+109.5. The words “you” and “your” on an object refer to the object’s controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it’s on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it’s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d–f.
+
+303.4e An Aura's controller is separate from the enchanted object's controller or the enchanted player; the two need not be the same. If an Aura enchants an object, changing control of the object doesn't change control of the Aura, and vice versa. Only the Aura's controller can activate its abilities. However, if the Aura grants an ability to the enchanted object (with "gains" or "has"), the enchanted object's controller is the only one who can activate that ability.
+
+Spirit Link does not grant the enchanted creature Lifelink, which is a Keyword ability.
+
+702.15a Lifelink is a static ability.
+
+702.15b Damage dealt by a source with lifelink causes that source’s controller, or its owner if it has no controller, to gain that much life (in addition to any other results that damage causes). See rule 119.3.
+
+119.3f Damage dealt by a source with lifelink causes that source’s controller to gain that much life, in addition to the damage’s other results.
+
+It has a triggered ability that triggers whenever the enchanted creature deals damage.
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as “[Trigger condition], [effect],” and include (and usually begin with) the word “when,” “whenever,” or “at.” Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it’s countered, it resolves, or it otherwise leaves the stack. See rule 603, “Handling Triggered Abilities.”
+
+This is an important distinction, because if the controller of Spirit Link has less life than the Power of the creature, it can deal sufficient damage to kill the Spirit Link's controller, causing them to lose the game as a state-based effect before Spirit Link triggered ability will gain them back the life they lost.
+
+104.3b If a player’s life total is 0 or less, he or she loses the game the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+800.4d If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack.
+

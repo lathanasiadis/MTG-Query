@@ -1,0 +1,17 @@
+Q:
+
+Why does Cascade exile?
+
+From a design point of view, I cannot figure out why Cascade should specifically exile the cards involved, then return them to the bottom of the deck instead of revealing them (like Spellshift or Reweave do)? Is there some sort of interaction I didn't notice?
+
+A:
+
+Cascade works with exile rather than revealing because of the possibility of one Cascade triggering another Cascade.
+The full meaning of Cascade is (702.84a):
+
+When you cast this spell, exile cards from the top of your library until you exile a nonland card whose converted mana cost is less than this spell's converted mana cost. You may cast that card without paying its mana cost. Then put all cards exiled this way that weren't cast on the bottom of your library in a random order.
+
+With this definition, if one Cascade spell finds another Cascade spell, the way you handle it is easy: the cards exiled by the first Cascade are still exiled, so you keep going through your library until you find another appropriate spell. It's simple and a very literal cascade through your library.
+What if you were simply revealing cards from the top of your library? Well, the "reveal" doesn't actually move the cards from your library. So if you needed to Cascade again, you have to put those cards back and then look through them again! Then, making the "put all cards revealed this way" phrasing work becomes much more complicated, because some of the cards are subject to two or more Cascade effects.
+In short, I don't believe that there's a deep gameplay reason, but it makes the Cascade mechanism (specifically, its recursive nature) and the wording simple and elegant.
+

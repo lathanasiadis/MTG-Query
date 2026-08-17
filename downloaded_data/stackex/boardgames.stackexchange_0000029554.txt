@@ -1,0 +1,22 @@
+Q:
+
+Can Astral Slide plus Viridian Shamen kill Glimmervoid living off of Blinkmoth Nexus?
+
+I'm slightly uncertain about the finer points of the rules and how they might play out in a match-up between the 2004 world championship decks of Julien Nuijten (slide) and Aeo Paquette (affinity).
+Suppose Nuijten controls an Astral Slide and a Viridian Shaman and can cycle a card whenever he wants to. Suppose that Paquette controls Glimmervoid and Blinkmoth Nexus but nothing more.  Can Nuijten force Glimmervoid to be sacrificed?
+(I'm much more interested in expanding my understanding of the rules than I am in whether the answer happens to be yes or no—the why is much more important than the what.)
+
+A:
+
+Yes, Paquette will have to activate the Blinkmoth Nexus at some point or lose the Glimmervoid. The two scenarios are:
+
+Nexus is activated during the endstep with the glimmervoid trigger on the stack. Simply slide out the nexus after it becomes a creature (but before the glimmervoid trigger,) it will be gone until the next endstep because this endstep has already begun!
+Nexus is activated before the endstep. 
+
+If its your opponents turn, slide out your Viridian Shaman, and target the nexus during the endstep, the glimmervoid will be destroyed during your next endstep*. If you slide the nexus, your oppenent would be able to reactivate it on their turn because of the APNAP** ordering of triggers, (better to destroy the artifact now.)
+If it is your turn, Simply slide out the nexus after it has become a creature but before the endstep* and the glimmer void will be destroyed before the nexus returns. Due to APNAP** your slide trigger is below their glimmervoid trigger, and they won't have the nexus back until the glimmervoid is already dead.
+
+*because of the intervening if clause, the trigger will not trigger if the clause is not satisfied at the beginning of the end step (intervening if clauses are checked twice, once to trigger, and once on resolution!)
+** APNAP is Active Player, Non-Active Player, it is how simultaneous triggers are resolved.
+N.b. it seems Paquette's best play in this, contrived, situation is to simply let the glimmervoid die, that way they can keep the nexus.
+

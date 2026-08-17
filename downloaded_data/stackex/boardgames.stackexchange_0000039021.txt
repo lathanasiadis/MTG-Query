@@ -1,0 +1,58 @@
+Q:
+
+Does River Heralds' Boon with one target count as one or two instances of adding +1/+1 counters?
+
+River Heralds' Boon says:
+
+Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.
+
+Winding Constrictor says:
+
+If one or more counters would be put on an artifact or creature you control, that many plus one of each of those kinds of counters are put on that permanent instead.
+
+If the same Merfolk is both the creature target and the Merfolk target, does Constrictor see two separate instances to replace, or one? 
+
+A:
+
+There's only one event in your scenario, so it would only get one extra +1/+1 counter.
+
+River Heralds' Boon has only one verb, so there's only one instruction, so  it places the two counters simultaneously.
+If you chose the same creature to receive both counters, there's only one event of "placing counters on an artifact or creature you control" since the counters are placed simultaneously, so three +1/+1 counters are placed instead.
+If you chose different creatures to receive the counters, there are two events of "placing counters on an artifact or creature you control", so each creature will get two +1/+1 counters.
+Finally, if there were multiple instructions to put a counter (as is the case for Lifecrafter's Gift and Common Bond), then each instruction would place an extra counter.
+
+The same answer has been given (in less detail) by a judge in the Cranial Insertion article titled  "Don't Forget the Merfolk!"
+Also of interest is the following ruling found on Winding Constrictor:
+
+If an effect includes multiple instructions to put one or more counters on an artifact or creature, such as Lifecrafter’s Gift does, Winding Constrictor’s effect applies to each of those instructions.
+
+Extra! Let's play "Count the events!"
+
+700.1 [...] The text of triggered abilities and replacement effects defines the event they’re looking for. One “happening” may be treated as a single event by one ability and as multiple events by another.
+
+Start by identifying the instructions because each instruction is performed atomically (all at once), and instructions are performed sequentially. This is done by identifying verbs.
+
+"Do X. Do Y." has two instructions.
+"Do X, then do Y." has two instructions.
+"Do X, and do Y." has two instructions.
+"Do X and Y." has one instruction.
+
+Then you match the instruction's effect against the events defined by triggered abilities and replacement effects.
+For the instruction "put two +1/+1 counters on target creature you control",
+
+2 "placing a counter on a creature you control" events
+1 "placing counters on a creature you control" event
+1 "placing counters on creatures you control" event
+
+For the instruction "put a +1/+1 counter on target creature you control and on a different target creature you control",
+
+2 "placing a counter on a creature you control" events
+2 "placing counters on a creature you control" events
+1 "placing counters on creatures you control" event
+
+For the instructions "put a +1/+1 counter on target creature you control, then put a +1/+1 counter on a target creature you control",
+
+1 "placing a counter on a creature you control" event, then another.
+1 "placing counters on a creature you control" event, then another.
+1 "placing counters on creatures you control" event, then another.
+

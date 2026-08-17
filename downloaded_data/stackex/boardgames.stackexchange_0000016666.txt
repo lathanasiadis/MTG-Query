@@ -1,0 +1,17 @@
+Q:
+
+Permanent +1/+1, and −1/−1 until end of turn
+
+As I understand things, if my Korozda Gorgon gives −1/−1 counter to a creature that has a +1/+1 counter on it, as a state-based effect the −1/−1 cancels one of the +1/+1 counters.
+What happens at the end of turn? Does the −1/−1 “go away” by the creature getting its +1/+1 back, or is that gone forever now that it’s been annihilated by the −1/−1?
+
+A:
+
+Unfortunately, you've misunderstood - there's nothing to cancel here. Korozda Gorgon doesn't hand out any counters.
+Only effects that explicitly say "counter", like "remove a +1/+1 counter from..." or "place a -1/-1 counter on..." use counters.
+An effect that grants ±X/±Y doesn't involve counters, whether it be until the end of the turn like Korozda Gorgon's "Target creature gets -1/-1 until end of turn." or Honor of the Pure's "White creatures you control get +1/+1." These effects just modify power/toughness.
+So while it's true that -1/-1 counters cancel out with +1/+1 counters as a state-based action, Korozda Gorgon never places a -1/-1 counter on anything, so there's nothing interesting going on here. The +1/+1 counter never goes away, and the creature really does just get -1/-1 until end of turn.
+
+Hypothetically, if Korozda Gorgon said "...put a -1/-1 counter on target creature. At the end of the turn, remove a -1/-1 counter from that creature." and you used it on a creature with a +1/+1 counter, then they'd cancel when the -1/-1 counter is added, and then at the end of the turn there'd be no counter to remove and nothing would happen. But it doesn't say that, and cards generally won't. Counters are used when the effect is meant to last: you put the counter on the creature and it stays there as a probably-permanent reminder of the effect. Nothing ever says "put a -1/-1 counter on target creature until end of turn"; it'll always say "target creature gets -1/-1 until end of turn" like Korozda Gorgon does.
+Thanks to Kevin in the comments, there are a couple cards that do this: Bounty of the Hunt and Shambling Swarm. They're definitely the exception though. I suspect if they were printed today they would not use counters; the text is a lot longer, the unfamiliarity makes it even harder to read, and it doesn't even cause very much functional difference. And Kevin helpfully pointed out an example: Seeds of Strength avoids using counters.
+

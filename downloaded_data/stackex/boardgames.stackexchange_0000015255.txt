@@ -1,0 +1,48 @@
+Q:
+
+Paying a Cost and Communicating
+
+I have four Burning-Tree Emissary and one Firefist Striker on the field. My opponent is in his Precombat Main Phase. We are under Competitive Rules Enforcement Level (REL). The following actions occur in order.
+
+My opponent taps three Swamp.
+My opponent announces that he is casting Bile Blight targeting a Burning-Tree Emissary, which he points at.
+Silence for three seconds.
+My opponent taps two Swamp.
+My opponents announces that he is casting Devour Flesh targeting me.
+I immediately offer to let Devour Flesh resolve (because I am super excited that I now get the opportunity to sacrifice the target of Bile Blight).
+
+Here is where the problem begins. My opponent tried to back out of his play by declaring that he had not yet paid the costs for Devour Flesh. I had assumed that the mana he produced from his swamps was going to pay for his spell, but he didn't explicitly say that.
+What verbal and nonverbal actions must one take to pay the costs for a spell? Are there any weird exceptions like "I didn't take my hand off the card" or other? How can I confirm that a cost has been paid without being ridiculously annoying and tedious?
+
+A:
+
+My opponent tried to back out of his play by declaring that he had not yet paid the costs for Devour Flesh.
+
+The rules don't allow him to back out in the scenario you described.
+
+The following are the steps to casting a spell:
+
+(601.2a) Place the card on the stack.
+(601.2b-d) Make some choices including targets.
+(601.2e) Determine the total cost to cast the spell.
+(601.2f) Activate mana abilities if desired if the cost has a mana component.
+(601.2g) Pay the total cost to cast the spell.
+
+Not only did he announce what he is casting (part of step 601.2a), he announced targets (part of 601.2c). There's no question that he started casting the spell. There's is only one condition under which the casting of the spell can be undone: The player becomes unable to comply with the instructions[CR 601.2]. For example, the casting of the spell can be undone if the caster becomes unable to pay the spell's costs.
+Let's pretend for a moment that his mana pool was empty. He cannot be forced to tap lands to produce the mana required to pay the spell[CR 117.3c]. If he chose not to tap any lands in step 601.2f, he won't be able to pay the cost when it comes time to do so in step 601.2g, which undoes the casting of the spell[CR 601.2][1].
+However, his mana pool isn't empty. He can comply with the instruction to pay the cost, so he must[2]. At no point is he unable to comply with any of the steps required to cast a spell, so nothing allows him to undo the casting of the spell.
+
+601.2. [...] If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast [...]
+
+117.3c Activating mana abilities is not mandatory, even if paying a cost is[3].
+
+601.2f If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, “Mana Abilities”). Mana abilities must be activated before costs are paid.
+
+601.2g The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can’t be paid.
+
+I don't know how tolerant judges are of this practice, but that's a separate issue.
+
+If the game instructs you to do something, you must do it if you can.
+
+In fact, you are never compelled to create a situation where you could pay a cost. 117.3c is just a specific case of a general rule, though the general rule appears to be unwritten. For example, see the last sentence of the first ruling on Avatar of Slaughter.
+

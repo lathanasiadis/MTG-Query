@@ -1,0 +1,25 @@
+Q:
+
+How to remove Broken Fall Enchantment from play
+
+I was playing Commander with a couple of buddies the other day. One of them had a 10/10 creature and Broken Fall enchantment in play to regenerate said creature. One of the other players cast a destroy target enchantment instant on Broken Fall. The player with Broken Falls responded by putting it back into his hand, activating the text for regeneration and putting that regeneration onto the 10/10 creature.
+   If that was played correctly by the Broken Fall player, how then do you ever get rid of the Broken Fall enchantment when he can just protect it by putting it back into his hand, still protecting his creature and then just replaying it again on his turn?
+
+A:
+
+You have two separate goals here:  Removing the enchantment, and removing the creature.
+Removing the creature is the easier of the two problems
+Regeneration only protects against lethal damage and 'destroy' effects.  That means that a creature with a regeneration shield can be removed by -X/-X effects, exile effects, forced sacrifice effects, Pacifism effects, and many, many more.
+Furthermore, there are some older spells, such as Terror and Wrath of God, which ignore regeneration entirely.
+Finally, regeneration only works once, so a second kill effect will work if you can play it before Broken Fall is played again.
+Removing Broken Fall permanently is harder
+When an activated ability is activated, all costs are paid and then the ability is placed on the stack.  This gives opponents a chance to respond to the ability - but the cost cannot be responded to.  This makes permanents that bounce themselves as part of a cost very difficult to deal with, as you can't target them in reaction to their activation.  (Even if you could, they could just activate it a second time, and still escape)
+The only way to target Broken Fall without it escaping back into their hand is to do so when they can't activate its ability, which is a very narrow set of circumstances:
+1) There are no legal targets on the battlefield - that is there are no creatures at all, or all the creatures present have hexproof (and are controlled by opponents) or shroud.
+2) The activated ability has been blocked (for example by Pithing Needle)
+3) Split Second is in effect and nothing can be placed on the stack.  Of course, Split Second also keeps you from playing anything, so unless the split second card you played was Krosan Grip, its not going to be very helpful.
+However, once Broken Fall has returned to the player's hand, it is a lot more vulnerable.  There it can be discarded, or countered when they try and play it again.
+There is at least one more way to deal with Broken Fall on the battlefield - create a board state where your opponent would rather let it die than save it.  This is of course very situational and tricky to do (especially as it depends on your opponent), but can be accomplished by cards such as Doom Foretold.  If your opponent has to chose between sacrificing their 10/10 or sacrificing Broken Fall, then they might decide that it is better to lose Broken Fall than to lose their creature.  Of course, the downside of this strategy is it only works if Broken Fall is the least valuable part of their board!
+
+And there is, of course, the ultimate work around: Mindslaver them, and then do whatever you want while they are enslaved!
+

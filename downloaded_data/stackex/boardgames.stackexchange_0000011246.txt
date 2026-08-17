@@ -1,0 +1,26 @@
+Q:
+
+Are creatures destroyed if their destruction happens at the same instant they lose "indestructible"?
+
+Scenario:
+
+I play Timber Protector which makes all other Treefolk indestructible (I only have Treefolk in play).
+My opponent plays a Day of Judgment.
+
+Does this only destroy the not-indestructible Timber Protector?
+or
+Does Timber Protector get destroyed, all my Treefolk lose their indestructibility,
+and then they get killed at the same time?
+
+A:
+
+The destruction only happens once, it's instantaneous, and there's only one creature vulnerable to it when it happens.
+
+610.1. A one-shot effect does something just once and doesn’t have a duration. Examples include dealing damage, destroying a permanent, putting a token onto the battlefield, and moving an object from one zone to another.
+
+Think of it a state machine. There's only two game states in the scenario.
+
+State 1:  Timber Protector and some indestructible Treefolks are on the battlefield.
+Action: Destroy all creatures.
+State 2:  Timber Protector is in the graveyard. Some Treefolks are on the battlefield.
+

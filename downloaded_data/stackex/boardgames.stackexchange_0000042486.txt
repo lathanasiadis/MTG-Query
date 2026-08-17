@@ -1,0 +1,22 @@
+Q:
+
+How does Double-Strike work, is it comparable to Windfury in Hearthstone?
+
+I am transitioning from Hearthstone to Magic. Some abilities sound the same but might not do the same thing.
+Is double-strike equal to Windfury (Hearthsone)? Or does it only double strike a creature?
+My question is: Does he only double-strike creatures? With no creatures on the battlefield from the opponent side can I double-strike him? If I kill his creature in the 1st strike is the 2nd strike directed to the opponent?
+
+A:
+
+Combat with double strike works like this:
+
+Declare attackers (i.e. the active player says what creatures they are attacking with).
+Assign blockers (i.e. the defending player says which attackers they are blocking, and for each attacker which creatures they are using to block).
+
+At this point, all attackers that have legal blockers assigned to them are considered to be blocked.  (A blocked creature cannot damage a player, unless it has trample.)
+
+Assign "first strike" damage, i.e. any creatures involved in combat that have either first strike or double strike deal their damage.
+Assign main combat damage, i.e creatures without first strike deal their damage. 
+
+So creatures with double strike actually deal their damage in two bursts. If the creature was blocked, then (in the absence of other effects), it can only deal its damage to the creatures assigned to blocking it.  This is true even if the blocking creature has already died - the attacking creature is still blocked, and will deal no more damage (Unless it has trample or a similar ability). If the creature wasn't blocked, then it deals its damage directly to the player (or planeswalker) that was being attacked.  
+

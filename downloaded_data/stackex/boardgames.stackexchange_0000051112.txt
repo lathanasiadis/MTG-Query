@@ -1,0 +1,37 @@
+Q:
+
+Standstill, Phyrexian Tyranny and both players wanting to cast instants immediately after standstill is played. Who gets damage?
+
+A question regarding Standstill; I have Phyrexian Tyranny on the table and we both have 2 life left. I play Standstill and immediately play an instant so that my fellow opponent would have to draw 3 cards, lose life and die. But, as I play Standstill my opponent also immediately plays an instant. Who draws the cards and loses?
+
+A:
+
+You would have to draw the 3 cards from Standstill and lose the game.
+Standstill has a triggered ability. It triggers whenever its trigger condition is met, i.e. whenever a player plays a spell. It can keep triggering as long as it's on the battlefield.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+After you played Standstill, you automatically received priority, i.e. the right to cast spells and activate abilities. You used that priority to cast your own instant, on which Standstill triggered. 
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. 
+
+Putting something on the stack is not the same as that thing resolving. It's only in queue to resolve at a later point.
+Since you are the active player, you receive priority after you cast your instant. So you first put your instant on the stack, followed by Standstill's ability. 
+The stack, from top to bottom, is:
+
+Standstill triggered by your instant
+Your instant
+
+You receive priority again, but pass to your opponent. Your opponent casts his own instant. Standstill can trigger again because it's still on the battlefield. The opponent puts his instant on the stack, then another Standstill trigger:
+
+Standstill triggered by opponent's instant
+Opponent's instant
+Standstill triggered by your instant
+Your instant
+
+Then you both pass priority in sequence because neither of you take any more actions. The stack starts resolving:
+
+608.1. Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, “Effects.”)
+
+The topmost item is the Standstill trigger triggered by your opponent's instant. It resolves, Standstill is sacrificed. You have to draw 3 cards, Phyrexian Tyranny triggers 3 times (the triggers become the topmost items on the stack), and you lose the game.
+

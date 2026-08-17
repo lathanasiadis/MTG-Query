@@ -1,0 +1,14 @@
+Q:
+
+Which effect triggers first in MTG: Mage Slayer or Mystifying Maze
+
+Yesterday I played a deck with the card Mage Slayer against a deck with Mystifying Maze. I equipped a creature with Mage Slayer and attacked. My opponent reacted by exiling the equipped creature with his Mystifying Maze.
+The ability of Mage Slayer triggers and resolves in the declare attackers step. Can Mystifying Maze prevent this? It can only target attacking creatures, therefor it can only be used once the attackers are declared.
+What's the correct ruling in this situation?
+
+A:
+
+Mystifying Maze can't prevent the Mage Slayer ability from resolving.
+It helps to visualise the stack.  As you declare your attack, the Mage Slayer ability triggers and is put on the stack.  In response, your opponent activates his Mystifying Maze and puts this ability on the stack.  Everyone passes, Mystifying Maze's ability at the top of the stack resolves, the creature is exiled.  Now we get to Mage Slayer's ability, still on the stack.  The creature may currently be exiled, but the ability still resolves (and uses last known information to determine the creature's power and toughness).
+There is no window to use the Mystifying Maze's ability before Mage Slayer can trigger; at any point before the trigger the creature is not yet an attacker, and is therefore an invalid target.
+

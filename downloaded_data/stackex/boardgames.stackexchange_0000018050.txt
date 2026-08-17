@@ -1,0 +1,20 @@
+Q:
+
+Can I use Plaxcaster Frogling to temporarily shut off Species Gorger's ability?
+
+I'm currently working on a deck which is built around Species Gorger and its ability to return creatures I control to my hand. In order to make my deck work as intended, I need a way to "turn off" or avoid SG's ability from time to time. I was wondering if Plaxcaster Frogling could do the job. For the record, SG's ability reads:
+
+At the beginning of your upkeep, return a creature you control to its owner's hand.
+
+Let's say I control a Species Gorger and a Plaxcaster Frogling. The Gorger has a +1/+1 counter on it. At the beginning of my upkeep, I have to return a creature I control to my hand. If I choose the Gorger to be returned, and use the Plaxcaster's activated ability to make sure the Gorger doesn't leave the battlefield:
+
+Will the Gorgers triggered ability be neutralized? or,
+Will the Gorger just look for another creature to send to my hand, since I have chosen an invalid creature to send to my hand in the first place? After all, it says return a creature you control to your hand.
+
+Since it dosn't say target creature, I'm not sure if the Plaxcaster would have to use its ability on all creatures on my battlefield, that I don't want to return to my hand, or if it is enough to "protect" the one creature that was originally chosen for the Gorger to send to my hand?
+
+A:
+
+Species Gorger's triggered ability does not target. Abilities that target use the word "target". As such, it does not interact with Plaxcaster Frogling's activated ability or any other shroud effects.
+In addition, because the triggered ability does not target, you make the choice of which creature to return while the ability is resolving (which means the choice can't be responded to in any way).
+

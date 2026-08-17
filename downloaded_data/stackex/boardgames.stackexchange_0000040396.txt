@@ -1,0 +1,15 @@
+Q:
+
+Declaring Targets with Hexproof
+
+If I cast a targeted removal spell like Path to Exile and all creatures have hexproof I actually wouldn't be able to cast it in the first place because all creatures have hexproof and therefore cannot be targets right? Or can I still target them and it just doesn't do anything.
+
+A:
+
+No you can't cast the spell if there is no valid target for it.
+
+601.2. To cast a spell is to take it from the zone it’s in (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the spell was cast illegally; the game returns to the moment before that spell started to be cast.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires.
+
+magic rules
+

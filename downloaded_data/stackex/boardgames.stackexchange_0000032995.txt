@@ -1,0 +1,16 @@
+Q:
+
+During the untap step, can I copy a vehicle with Felhide Spiritbinder's Inspired trigger?
+
+I'm looking at an interaction with the Inspired mechanic and vehicles and wanted to make sure I had this correct.
+On my previous turn, I've used a Felhide Spiritbinder to crew a Ballista Charger. During my untap step, Felhide Spiritbinder untaps, adding its Inspired trigger to the stack. With the Inspired trigger on the stack, can I crew the Ballista using the Spiritbinder, pay the Inspired ability's cost, and then create a copy of the animated Ballista?
+
+A:
+
+No, this does not work because you choose targets for an ability when it is put on the stack, and when the Spiritbinder's ability is put on the stack the Charger is not a creature.
+Also, the Spiritbinder triggers during the untap step, but the trigger isn't put on the stack until the beginning of the upkeep step since nobody gets priority during the untap step.
+
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 116, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+603.3d The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c–d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. [...]
+

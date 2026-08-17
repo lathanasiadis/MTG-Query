@@ -1,0 +1,30 @@
+Q:
+
+What state and trigger events apply when you "put creatures onto the battlefield?"
+
+For instance, the -8 ability for Liliana Vess says,
+
+Put all creature cards from all graveyards onto the battlefield under
+  your control.
+
+This sounds distinct from casting/summoning, and there's no casting cost paid, which might imply (to me) that there's no summoning sickness. But, these creatures are also technically entering the battlefield, which implies that those abilities would trigger. Is that correct?
+
+Do the creatures enter without summoning sickness?
+Do "when this card enters the battlefield" abilities activate?
+Are there other potential "casting" or "playing" abilities that could trigger?
+
+A:
+
+When/whenever this/a creature enters the battlefield [...]
+
+... triggers when it enters the battlefield. It wasn't on the battlefield, and then it was. Moving things from the graveyard to the battlefield with Liliana counts.
+
+When/whenever you cast [...]
+
+... triggers when you cast a spell. Moving things around with Liliana doesn't count as casting a spell.
+
+When/whenever you play [...]
+
+... triggers when you play. Playing means casting a spell or playing a land. Moving things around with Liliana doesn't count as playing.
+If you haven't controlled a creature since the beginning of your turn, then it has summoning sickness. If Liliana moves a creature from your graveyard to the battlefield, then it hasn't been under your control since the beginning of the turn, and so it has summoning sickness.
+

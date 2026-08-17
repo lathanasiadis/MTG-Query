@@ -1,0 +1,14 @@
+Q:
+
+Reverse the Sands and Sanguine Bond
+
+If I have Sanguine Bond on the battlefield, and I play Reverse the Sands, will the redistribution of life trigger Sanguine Bond if I choose to distribute less life to my opponent than he originally had?
+ex. I have 10 life left, my opponent has 14 life left. I play RtS and distribute life totals so I end up with 23 life and my opponent with 1 life, would that be considered a "loss of life/life gain" situation?
+
+A:
+
+Yes, Sanguine will trigger, but you can't set his life total to 1.
+Changing life totals is treated as gaining life or losing life to reach the specified life total[CR 118.5]. So that will trigger the bond in this case. (It wouldn't if you started at 14 and he started at 10.)
+However, you've misunderstood what Reverse the Sands does. The specific gatherer ruling on this for the card is "You can't split up a life total when you redistribute it". You can only make your opponent's total 10 and yours 14 , or make no changes.
+So you end up with the same life totals on different players, and then resolve any following effects. In this case he loses 4 and you gain 4, and then Sanguine triggers off your lifegain and he loses another 4. If you choose not to redistribute, Sanguine won't trigger.
+

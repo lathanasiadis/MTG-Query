@@ -1,0 +1,21 @@
+Q:
+
+How to effectively have three (3) combat phases with Aurelia, the Warleader + Legion's Initiative
+
+I am trying to figure out how to effectively have three (3) combat phases by using Aurelia, the Warleader and Legion's Initiative.
+I play Aurelia first and so the first combat phase begins. All my creatures are untapped and there is an additional combat phase after this one. Should I exile my creatures at this very moment with Legion's initiative? The additional combat phase stays like saved or something?
+
+A:
+
+Yes, there is a way to get three combat phases with Aurelia and Legion's initiative.
+
+Your first combat.
+a. Attack with Aurelia.  This trigger her attack trigger, and since it's the first time she attacked this turn, you get an extra combat step and immediately untap all your creatures.
+b. Let combat damage be dealt, and wait to active Legion's Initiative during the End of Combat Step (see rule 511).  Aurelia must survive this long in order to get 3 effective combat steps.  If you active Legion's Initiative before combat damage is dealt, you still get 3 combats, but this first one might not matter much because you aren't actually doing damage.  Still useful for other attack triggers though.  
+c. This exiles all of your creatures who survived combat until the next combat step.  After this phase ends, you'll momentarily control 0 creatures because they've been exiled by Legion's Initiative.  
+At the beginning of the next combat (your second for the turn), the creatures exiled by Legion's initiative come back and get haste.
+a. Attack with Aurelia.  Since this creature has changed zones, it is considered a new instance of Aurelia, and it has no memory of previously attacking (rule 403.4). The attack trigger will happen because this is the first time that this Aurelia has attacked.  You'll get an additional combat after this one and uptap all creatures. 
+Start your third combat.  
+
+This obviously only works if you can keep Aurelia alive to do damage during your first combat phase.  You can take advantage of similar mechanics with any other way of blinking Aurelia, for example Cloudshift as discussed in another question.  The only tricky thing about using Legion's Initiative is getting the timing right so that you get three combats where you actually do damage with your creatures.  
+

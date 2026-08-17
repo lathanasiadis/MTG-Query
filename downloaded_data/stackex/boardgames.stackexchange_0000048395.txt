@@ -1,0 +1,21 @@
+Q:
+
+Do you pay one or two mana to bounce a transformed Delver of Secrets with Repeal?
+
+Do you pay one or two mana to bounce a transformed Delver of Secrets with Repeal? In total I mean, does x have to be equal to 1 or 0?
+
+A:
+
+Two mana; for the converted mana cost (CMC) of a transformed card, you have to look at the untransformed side:
+
+711.4b While a double-faced permanent’s back face is up, it has only the characteristics of its back face. However, its converted mana cost is calculated using the mana cost of its front face. If a permanent is copying the back face of a double-faced card (even if the card representing that copy is itself a double-faced card), the converted mana cost of that permanent is 0.
+
+Since Delver of Secrets' converted mana cost is 1, X = 1 and you'll have to pay 2 mana to Repeal it.
+Insectile Aberration's side doesn't show a mana cost, and while for some cards that means they have converted mana cost 0, not so for double-faced cards
+
+202.3a The converted mana cost of an object with no mana cost is 0, unless that object is the back face of a double-faced permanent or is a melded permanent.
+
+It used to be different; before Shadows of Innistrad, this exception didn't exist and Insectile Aberration had a CMC of 0. See this link mentioned by @J.Sallé in the comments.
+
+Please note that 'flipped' is another (but similar) mechanic where a card is rotated 180 degrees but its front face stays up, e.g. Akki Lavarunner. The same idea applies there too, though (see rule 709.1c).
+

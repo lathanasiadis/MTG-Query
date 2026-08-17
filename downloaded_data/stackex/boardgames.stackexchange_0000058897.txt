@@ -1,0 +1,25 @@
+Q:
+
+Has R&D explained how super-powerful cards like Oko and Uro were printed?
+
+These past few years, there've been several ridiculously powerful cards printed in Standard that eventually got banned in Modern or even Legacy (!). Oko, Thief of Crowns and Uro, Titan of Nature's Wrath are the biggest offenders. The two cards being in the same colors led to a Pro Tour where most players maindecked four copies of Noxious Grasp. Field of the Dead and Once Upon a Time are also in the same league.
+Has R&D ever explained how these cards made it through the testing process? I know they did for Skullclamp (mentioned in this answer) and also Felidar Guardian (mentioned in this MTG Goldfish article; the link there is dead but can be found at the Wayback Machine), and I'm looking for something similar for these or other Standard-banned cards.
+
+A:
+
+Mark Rosewater, the lead designer on Magic: the Gathering recently answered a related question on his Tumblr blog about the overall design philosophy that results in overpowered cards:
+
+Question:
+
+Banning cards is necessary but it's always a sign that something went wrong. I'd like to suggest a post/article about lessons learned from bannings. For instance, what was the goal/story of Fable of the mirror break design, what/why it went wrong and what's the lesson learned.
+
+Answer:
+
+Cards being banned aren’t always a sign that things went wrong. We could make a world where cards never (or almost never) get banned by never pushing boundaries, but we don’t think that would be as fun of a game.
+I truly believe if nothing ever gets banned, we aren’t doing or job properly. We’re supposed to come up to the line, which occasionally means we step over it, as where exactly the line is changes based on so many conditions.
+
+There is a play design article that addresses what happened with Oko in particular:
+
+Alongside power level, we were working on different structures for the Food deck, moving planeswalkers around on the mana curve to react to shifting costs elsewhere in the file, and churning through a variety of designs to try and find something that had any hope of being a fun Constructed card. Earlier versions of Oko had most of their power tied up in (a much broader) stealing ability, which was even less fun for the opponent than turning them into Elk.
+Ultimately, we did not properly respect his ability to invalidate essentially all relevant permanent types, and over the course of a slew of late redesigns, we lost sight of the sheer, raw power of the card, and overshot it by no small margin.
+

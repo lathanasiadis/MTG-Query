@@ -1,0 +1,25 @@
+Q:
+
+Can Improvise pay for "twobrid" costs?
+
+A recent question had some confusion about what costs can be paid using Improvise, mainly stemming from the confusing differences in representation between "colorless" and "generic" mana. However, the Rulings of Inspiring Statuary only indicate that it cannot be used to pay for costs requiring specifically a single color of mana or specifically colorless mana.
+It seems pretty clear to me that Improvise would not be applicable to other costs requiring a specific type of mana, such as Hybrid, Phyrexian, or Snow mana, even though those symbols are not listed as "things Improvise can't pay", so the list in its ruling isn't complete. However, the "twobrid" mana costs blur the line between colored and generic costs by requiring "two generic or one specific color" of mana. To my knowledge the most famous card with this type of mana is Reaper King, though it would not be affected by Inspiring Statuary so Beseech the Queen or Spectral Procession might be more relevant.
+If I am casting Beseech the Queen while I control Inspiring Statuary, can I cast it for {2 black mana + tap 2 artifacts}? Can I cast it for {2 black mana + 1 colorless mana + tap 1 artifact} (i.e. can the twobrid be split between mana and improvise)? Or does Improvise not apply at all because the spell has no "generic" component even though some of its costs could be paid with any color of mana? The Gatherer rulings on the subject are... odd, and I'm not certain I understand them even in normal situations.
+(Note: The official term for this type of mana appears to be "monocolor hybrid", but I've heard "twobrid" a lot more)
+
+A:
+
+As part of casting a spell, you must announce the nonhybrid equivalent cost you intend to pay.[601.2b] For Beseech the Queen, this is any of the following:
+
+{6}
+{4}{B}
+{2}{B}{B}
+{B}{B}{B}
+
+Each artifact you tap covers {1} of the cost, so yes, you can pay for Beseech the Queen by paying {1}{B}{B} and tapping an artifact if you first pick {2}{B}{B}.
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a–d) and determination and payment of costs (rules 601.2f–h). To cast a spell, a player follows the steps listed below, in order. [...]
+601.2b [...] If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost they intend to pay. [...]
+702.125a Improvise is a static ability that functions while the spell with improvise is on the stack. “Improvise” means “For each generic mana in this spell’s total cost, you may tap an untapped artifact you control rather than pay that mana.”
+702.125b The improvise ability isn’t an additional or alternative cost and applies only after the total cost of the spell with improvise is determined.
+

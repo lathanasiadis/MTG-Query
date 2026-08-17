@@ -1,0 +1,13 @@
+Q:
+
+How does doubling of life work when you are at negative life?
+
+If I'm at -3 life and not dead from let's say a Platinum Angel. If I play a Beacon of Immortality, do I go to 6 life? Is it as simple as the primary school maths indicates or is there some other consideration?
+
+A:
+
+You would go to negative 6 life.
+When calculating or comparing numbers, the game uses the actual value of whatever is involved in the calculation. Usually the result of such a calculation can't be negative, but doubling a player's life is one of the few exceptions:
+
+107.1b Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or a creature’s power and/or toughness.
+

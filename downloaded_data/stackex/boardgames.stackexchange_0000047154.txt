@@ -1,0 +1,25 @@
+Q:
+
+Colorless commander using lands that chose based upon identity?
+
+TLDR
+
+Can I use lands that mention "color identity" with a colorless commander while still getting their bonus effects?
+
+I apologize if I have missed something that explains this situation, but I am unsure how the rules work around my planned commander: Kozilek, the Great Distortion.
+With this as my commander if I used a card such as Opal Palace that reads
+
+, : Add to your mana pool one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.
+
+As I understand the rules any cards in your deck must have your commander's color. Colorless is not a color. Therefore, does the colorless indicator or the Wastes indicator count as my commander's color identity?
+Would the case be similar if I used a land such as Exotic Orchard? I realize technically those are two different questions, but I think they are similar and easily answered within the same frame of reference...
+
+A:
+
+The rulings under the card in Gatherer say
+
+If your commander is a card like Kozilek, Butcher of Truth that has no colors in its color identity, Opal Palace’s last ability produces no mana.
+
+That means you can use it in your deck but it won't produce the desired effect.
+Exotic Orchard has no colors in its color identity and can be used as well, and it works just as it would in a normal 2 player game, i.e. it can be used to produce blue mana if your opponent controls an Island.
+

@@ -1,0 +1,23 @@
+Q:
+
+What happens if I flip a token face down?
+
+Lets say I have a Voidmage Apprentice and make a token copy of it. What happens if I target the token copy with Master of the Veil? Do I get a face-down token creature? Does it stay face up?
+
+A:
+
+Yes, you can turn the token face down. It becomes a colorless 2/2 creature with no name or abilities. You can then turn it face up by paying its morph cost.
+The first few rules about face-down cards say the following:
+
+707.1. Some cards allow spells and permanents to be face down.
+707.2. Face-down spells and face-down permanents have no characteristics other than those listed by the ability or rules that allowed the spell or permanent to be face down. Any listed characteristics are the copiable values of that object’s characteristics. (See rule 613, “Interaction of Continuous Effects,” and rule 706, “Copying Objects.”)
+  
+  
+707.2a If a face-up permanent is turned face down by a spell or ability that doesn’t list any characteristics for that object, it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. A permanent that enters the battlefield face down also has these characteristics unless otherwise specified by the effect that put it onto the battlefield face down or allowed it to be cast face down. These values are the copiable values of that object’s characteristics.
+
+These rules say that permanents can be turned face-down, and there are no exceptions for tokens here or anywhere else. The token will have the face-down status and the characteristics described in rule 707.2a. Then rule 702.36e from the Morph rules says this:
+
+Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn’t use the stack (see rule 116). To do this, show all players what the permanent’s morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn’t have a morph cost if it were face up, it can’t be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don’t trigger when it’s turned face up and don’t have any effect, because the permanent has already entered the battlefield.
+
+Again, this allows you to unmorph any permanent that would have a morph ability if it were face up, and there are no exceptions for tokens.
+

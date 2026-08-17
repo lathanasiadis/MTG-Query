@@ -1,0 +1,21 @@
+Q:
+
+Can I imprint my commander and move it to the command zone?
+
+I would like to know if it is possible, if the following Criteria are met, for me to imprint my commander and return it to the Command Zone:
+
+Commander is in my hand
+Soul Foundry has entered the battlefield
+I choose my commander to be imprinted
+
+When I remove my commander from the game this way, am I then able to move it to the Command Zone instead and keep it imprinted with Soul Foundry?
+
+A:
+
+No.
+Soul Foundry refers attempts to copy the exiled card. However, if you used the Commander replacement effect to put your Commander in the Command Zone instead of exile, that card doesn't exist in exile. Thus Soul Foundry doesn't see the commander card and can't copy it.
+
+As an extra note, even if you did this, the copies don't count as your commander (e.g. to deal commander damage or count for Bastion Protector, etc.); only the physical card has the property of being your commander, and this isn't copied.
+
+Commander rule 10: Being a Commander is not a characteristic [MTG CR109.3], it is a property of the card and tied directly to the physical card. As such, "Commander-ness" cannot be copied or overwritten by continuous effects. The card retains it's commanderness through any status changes, and is still a commander even when controlled by another player.
+

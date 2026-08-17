@@ -1,0 +1,30 @@
+Q:
+
+Noxious Revival and Street Wraith interaction
+
+I’m asking myself if I can get back a cycled Street Wraith using the cycle ability and a Noxious Revival.
+The idea is:
+
+Use cycle ability, pay two life and discard, the ability goes on the stack
+Play Noxious Revival targeting Wraith in the graveyard to put it on top of the deck
+Resolve Noxious Revival
+Resolve the cycle ability to draw the Wraith
+
+The discard part of cycle is part of the activation cost? So does it resolve before the ability?
+The reason to do that is to take advantage of life loss in a deck like death's shadow
+
+A:
+
+Yes, you can do this.
+Street Wraith has the ability
+
+Cycling—Pay 2 life.
+
+which (as the reminder text states) is shorthand702.28a for
+
+Pay 2 life, Discard this card: Draw a card.
+
+Since this is an activated ability, everything to the left of the colon (:) character is the cost that must be paid to use the ability.602.1a  You pay the cost (discard the card and pay 2 life) and the ability is placed on the stack.
+Once the ability hits the stack, it follows all the usual rules for resolution - including allowing players to respond by using different spells or abilities.602.2b  At this point you can use Noxious Revival; it also goes on the stack.
+Once everybody passes priority, the spells resolve in LIFO order: Noxious Revival resolves first, letting you place the Street Wraith on top of your library, followed by Street Wraith's cycling ability, which lets you draw a card.
+

@@ -1,0 +1,20 @@
+Q:
+
+Sacrificing a creature you don't own but you control
+
+I use a Thief of Sanity and exile a Kroxa, Titan of Death's Hunger from my opponent's deck. I cast Kroxa, but then of course would have to sacrifice it because it wasn't escaped. Would it go back into my opponent's graveyard or mine? Am I able to escape it without the correct mana still?
+
+A:
+
+Kroxa will be put into its owner's graveyard.
+
+400.3. If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its owner’s corresponding zone.
+
+So if you cast your opponent's Kroxa, Titan of Death's Hunger using your Thief of Sanity you will have to sacrifice it, since it wasn't cast using escape, and it will be put into your opponent's graveyard.
+
+Additionally, even if Kroxa was put into your graveyard, you would have to pay {B}{B}{R}{R} to escape it.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule:
+
+None of the exceptions are relevant in this case.  That means that as soon as you cast Kroxa using the Thief of Sanity's ability the Thief's ability loses track of Kroxa and its effect that allows you to spend mana of any type to cast the Kroxa no longer applies.
+

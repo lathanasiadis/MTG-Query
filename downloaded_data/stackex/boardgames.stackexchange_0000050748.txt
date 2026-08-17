@@ -1,0 +1,23 @@
+Q:
+
+Does Commander Tax reset?
+
+Example:
+
+I cast my commander from my command zone, paying no tax.
+Commander dies
+Goes to command zone 
+Summon from command zone, paying tax (2)
+I bounce my Commander to my hand, play him from hand
+He dies a second time.
+
+The next time I play him from the command zone is his tax (2) or (4)?
+
+A:
+
+The commander tax never resets, but it also doesn't count times when it isn't cast from the command zone; so you must pay an additional {4} in your case.
+
+903.8. A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. This additional cost is informally known as the “commander tax.”
+
+The additional 2 per time it has been cast counts every time it is cast from the command zone.
+

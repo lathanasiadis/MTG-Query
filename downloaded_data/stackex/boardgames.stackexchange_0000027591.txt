@@ -1,0 +1,12 @@
+Q:
+
+Jar of Eyeballs vs mass destruction
+
+A Pernicious Deed is destroying my token army along with my counterless Jar of Eyeballs. Can I use the jar's activated ability before it goes to the graveyard?
+
+A:
+
+Not really - X would be zero.
+If you let Pernicious Deed's ability resolve, it destroys everything simultaneously. Even if it didn't, there's no chance to cast other spells or activate other abilities while something is resolving. The Jar's first ability does still trigger and try to put counters on it, but again, that doesn't resolve until after the Deed's ability does, so by the time it resolves, the Jar is also already in the graveyard. Its ability tries to put counters on it, but it's not there, so nothing happens.
+So by the time you get a chance to do anything, your Jar is already gone. Your last chance to use it is before the Deed's ability resolves, but at that point your Jar has no eyeballs, so activating the ability won't do anything useful. You can still do it, but I don't think X=0 is what you were hoping for.
+

@@ -1,0 +1,28 @@
+Q:
+
+Changing a creature's base Power and Toughness until End of Turn
+
+I have a question regarding spells that change other creatures' base power and/or toughness (for example, 3/3). I'm asking because in a few days I will probably receive my Oko Planeswalker Deck from Throne of Eldraine edition, and I know there are some such cards in it.  
+
+When I have an instant that says target creature has base power and toughness, for instance, 3/3 and I cast it and it resolves, only base statistics change, correct? Do counters, attached enchantments or equipment, abilities, other effects stay on my creature? 
+
+A:
+
+This might get complicated, but it's covered by the layer system:
+
+613.1. The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:
+...
+613.1f Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can’t have an ability are applied.
+613.1g Layer 7: Power- and/or toughness-changing effects are applied.
+...
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+613.3a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+613.3d Layer 7d: Power and/or toughness changes from counters are applied. See rule 122, “Counters.”
+
+The effect you describe does not remove auras/equipments/counters from the creature. But it does affect what effect they have on the creature:
+For abilities, it matters how/when the creature got them. A creature which is printed with flying (a characteristic-defining ability) will lose it due to Oko, Thief of Crowns's effect; the same holds for a creature which was already equipped with Angelic Armaments. If you equip the Armaments after Oko's ability, it will have flying.
+The 3/3 effect is applied in Layer 7b (overwriting the power/toughness printed on the creature card); most effects you describe are applied in Layer 7c (but counters in Layer 7d), so they are applied later and do give bonuses (or penalties) on top of the 3/3.
+

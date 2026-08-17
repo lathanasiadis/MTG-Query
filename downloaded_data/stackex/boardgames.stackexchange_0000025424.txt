@@ -1,0 +1,20 @@
+Q:
+
+Can equipment be re-equipped to another creature?
+
+With Artifact equipment, say I've equipped it to one creature, and I want to move it to another, can it be equipped to another creature if I pay its equip cost again?
+My thought process is that they aren't like Enchantment-Aura's which target a creature specifically, more so like an item that is not bound. Am I right in thinking then that they can be equipped more than once?
+
+A:
+
+Yes, if you have an Equipment attached to one creature, you can pay its equip cost to attach it to another creature. Every Equipment has the Equip keyword ability, which is defined in rule 702.6a as
+
+Equip is an activated ability of artifact Equipment cards. “Equip [cost]” means “[Cost]: Attach this Equipment to target creature you control. Activate this ability only any time you could play a sorcery.”
+
+In addition, the Attach keyword action that the Equip ability uses is defined in rule 701.2a as
+
+To attach an Aura, Equipment, or Fortification to an object means to take it from where it currently is and put it onto that object.
+
+So, if an Equipment is already attached to a creature, when you activate its Equip ability, you move it from where it currently is (attached to the original creature) and put it onto the new creature.
+One thing to keep in mind is that the Equip ability is an ability the Equipment has, not the creature. So if, for example, a Suppression Bonds is attached to the creature, you can still re-equip an Equipment attached to that creature. However, if the Suppression Bonds were instead attached to the Equipment itself, you would not be able to activate the Equip ability.
+

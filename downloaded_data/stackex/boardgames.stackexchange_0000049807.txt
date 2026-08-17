@@ -1,0 +1,22 @@
+Q:
+
+Why is Monstrosity not a keyword ability?
+
+As pointed out recently in a comment on another question, Monstrosity is actually a keyword action, not a keyword ability. This seems strange, especially as it is the only keyword action that is not a verb.
+Every card that uses monstrosity has it in the same format: An activated ability with a mana cost; where the only effect of the ability is the monstrosity.
+Given this, it seems like it would make a lot more sense to have made monstrosity a keyword ability that has both a cost and modifier built into the definition; similar to the way Awaken, Suspend, and Reinforce work... instead of: 5RR: Monstrosity 3, 
+use Monstrosity 3 - 5RR..
+The language just seems more natural, due to the fact that "monstrosity" isn't a verb. Is it known if there had been plans to have monstrosity be used in ways other than an activated ability? Having it as an action makes sense if there were other ways of it occurring, such as through a triggered ability (Whenever [this creature] attacks with at least 3 other creatures, Monstrosity 2), etc.
+Looking for either a word from Wizards on why this choice was made; or something about the mechanic that I missed as to why it needs to be an action instead of an ability.
+
+A:
+
+It is a lot easier to print a card like Nemesis of Mortals if Monstrosity is a keyword action rather than a keyword ability. For reference, its Monstrosity ability says this:
+
+{7}{G}{G}: Monstrosity 5. This ability costs {1} less to activate for each creature card in your graveyard.
+
+Keyword abilities almost never have those kinds of riders that aren't built in to the definition of the ability.
+
+In addition, Monstrosity as an ability would have two different parameters: the number of counters to add and the cost. That is very rare in keyword abilities and the complexity that would introduce probably factors strongly into this design choice.
+Among other keyword abilities with two parameters, Awaken and Suspend are not effects that can be expressed as keyword actions, and Reinforce is specifically an action that involves discarding the card, which would be lost if it was a keyword action.
+

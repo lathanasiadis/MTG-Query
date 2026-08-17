@@ -1,0 +1,36 @@
+Q:
+
+Constricting sliver interaction with commander creatures
+
+Anyone able to determine (with citations) if the following interaction occurs with Constricting Sliver's effect:
+Sliver creatures you control have "When this creature enters the battlefield, you may exile target creature an opponent controls until this creature leaves the battlefield."
+
+Player 1 casts constricting sliver targeting enemy commander
+
+Player 2 allows this to resolve. Commander is in exile.
+
+Player 2 begins their turn, taps mana and declares casting commander.
+
+Player 1 casts counterspell and resolves.
+
+Player 2 casts board wipe and all creatures are destroyed. Constricting sliver dies
+
+exiled commander returns to the battlefield
+
+Does the commander return to the battlefield despite being moved to the command zone in an attempt to recast in step 3)? ?
+
+A:
+
+For multiple reasons, events cannot happen as described.
+Immediately after the Constricting Sliver's ability resolves in step 2, player 2 has a choice: they can leave the commander in exile, or they can move it to the command zone. If they leave it in exile, then it will return to the battlefield if the Constricting Sliver dies, but they cannot try to cast it until then, and they don't get another chance to move it. If they move it, they can cast it as usual, but the Constricting Sliver loses track of it forever, and can never return it to the battlefield. This choice is described in rule 704.6d, and the Constricting Sliver loses track of it because of rules 400.7 and 400.7j:
+
+704.6d In a Commander game, if a commander is in a graveyard or in exile and that object was put into that zone since the last time state-based actions were checked, its owner may put it into the command zone. See rule 903, “Commander.”
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. This rule has the following exceptions.
+
+400.7j If an effect causes an object to move to a public zone, other parts of that effect can find that object. If the cost of a spell or ability causes an object to move to a public zone, that spell or ability’s effects can find that object.
+
+Specifically, Constricting Sliver's effect moves the commander into exile, so it can find that card in exile, but once it leaves the exile zone, it becomes a different object that Constricting Sliver's effect can no longer find.
+Step 3 is only possible if player 2 chose to move the commander to the command zone. In that step they cast the commander, moving it from the command zone to the stack.
+In step 4, the commander spell is countered, moving it from the stack to the graveyard. After this happens, player 2 again has an opportunity to move it from the graveyard to the command zone.
+In step 5, the Constricting Sliver dies. At this point, the card it exiled has moved from exile to the command zone, and then to the stack, and then to the graveyard, and then possibly to the command zone again. Constricting Sliver has entirely lost track of it, and does not bring it back after it dies.
+

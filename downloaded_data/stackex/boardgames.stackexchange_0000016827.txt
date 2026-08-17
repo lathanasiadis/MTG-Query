@@ -1,0 +1,20 @@
+Q:
+
+Stifling a storm card
+
+Can I play Stifle on the storm trigger on cards like Grapeshot to prevent any copies from being made?
+
+A:
+
+Yes. The reminder text for Storm says "When you cast this spell..." You can know that this is a triggered ability because of the "when".
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+
+And we can check the rules about Storm itself:
+
+702.39. Storm
+
+702.39a Storm is a triggered ability that functions while the spell is on the stack. “Storm” means “When you play this spell, put a copy of it onto the stack for each other spell that was played before it this turn. If the spell has any targets, you may choose new targets for any number of the copies.”
+
+Therefore, the Storm ability triggers and goes on the stack like any other triggered ability, at which point you can respond to it with Stifle.
+

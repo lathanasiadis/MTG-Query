@@ -1,0 +1,31 @@
+Q:
+
+Do undying creatures get counters if I sacrifice them with Plaguemaw Beast?
+
+I'm building a deck with undying creatures.
+Suppose I have a card named Plaguemaw Beast, which has the ability
+
+{T}, Sacrifice a creature: Proliferate.
+
+What happens If I sacrifice a creature with undying?
+A. The creature returns and gets the 2 counters because of proliferate or
+B. The creature returns but with only 1 counter.
+
+A:
+
+You can choose to give the Undying creature a second counter.
+The order of events is as follows, omitting irrelevant/obvious steps:
+
+You announce that you want to use the creature's ability and put it on the stack.
+You pay all costs; in this case, sacrifice an Undying creature.
+Sacrificing the creature triggers its Undying ability, which is put on the stack on top of the Beast's ability.
+The Undying ability resolves and the creature returns to the battlefield.
+The Proliferate ability resolves and you may choose the returned creature to give it another +1/+1 counter. Since the Beast's ability is not targeted, you don't choose the permanents as targets, i.e. when you announce the ability, but only when it resolves.
+
+Rules reference:
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. [...] Activating an ability follows the steps listed below, in order. [...]
+602.2a The player announces that he or she is activating the ability. [...] It becomes the topmost object on the stack.
+[...]
+601.2g The player pays the total cost in any order. [...]
+

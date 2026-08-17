@@ -1,0 +1,22 @@
+Q:
+
+Looking to protect enchantment in Mono Black
+
+I recently aquired the Necron precon commander deck. Played it a couple of times, works pretty great out of the box. One of the better cards in the deck is Out of the Tombs. Really gives a great edge when your library is empty and you can just mess around with stuff in your graveyard. Of course, counterplays could be exiling the graveyard or destroying the enchantment when there are no more cards in your library, making you lose the game.
+So I'm looking for ways to protect this enchantment. Give it hexproof/shroud, indestructible, protection from X etc. will all work fine. However, I cannot seem to find cards that do this in Mono Black or Colorless. Are there such cards?
+Any help would be greatly appreciated.
+
+A:
+
+There are a few ways you can do this.
+
+Counterspells. Black/Colorless have a very small handful of these, and none is a slam dunk, but Dash Hopes, Null Brooch, or Not of This World can all be good.
+
+Discard.  Black has a lot of targeted discard (Duress or Inquisition of Kozilek are key examples) but it's almost all sorcery speed, so it doesn't protect you from enchantment destruction that they draw and play same turn.  If you want to go this route, you need to combine it with cards that will filter the deck too, like Praetor's Grasp, The Stone Brain, Surgical Extraction or Extirpate (the last two really only work outside of Commander).
+
+Indestructible/Regenerate. Renegade's Getaway is the simplest way to do this (credit to @JonTheMon), but there are more expensive or complex routes too like Soul of New Phyrexia, Liquimetal Coating + Welding Jar or Mycosynth Lattice + Darksteel Forge.
+
+Play a second copy of the enchantment.  Note: this only helps outside of commander, but the other cards that support this are ones you may want to have anyways.  In the case of Out of the Tombs in particular, you may not want to have two copies running simultaneously, so you need some way to not lose the game when your library is empty so that you can get past your draw step to play a second copy.  Also skipping draws can be helpful to not lose the game when your graveyard runs out (the lose condition printed on Out of the Tombs) .  Words of Waste is your best option here, but there is also Platinum Angel if your mana base can support it.
+
+Have a backup plan.  If your key enchantment dies, you need some way to recover.  Elixir of Immortality is your best bet for coming back from Out of the Tombs, but there are a bunch of cards that do a similar same thing.
+

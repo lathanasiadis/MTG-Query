@@ -1,0 +1,28 @@
+Q:
+
+Can triggered effects occur even though a creature has summmoning sickness?
+
+During my previous turn I had cast onto the battlefield Aven Wind Mage, which has the ability:
+
+Whenever you cast an instant or sorcery spell, Aven Wind Mage gets +1/+1 until end of turn.
+
+On their next turn, my opponent activated the ability of Siege-Gang Commander to deal two damage to my Wind Mage, attempting to destroy it:
+
+{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.
+
+I responded to this with Dramatic Reversal:
+
+Untap all nonland permanents you control.
+
+even though I knew that all my creatures were already untapped. My opponent claimed that this was illegal as Aven Wind Mage has summoning sickness and does not get to trigger its ability, keeping it alive.
+Who is correct in this situation - can I legally play Dramatic Reversal although there are no tapped creatures to untap and as a result give Aven Wind Mage the needed +1/+1 until the end of turn to keep it alive?
+
+A:
+
+You are correct - summoning sickness is not relevant here as it does not prevent a creature's triggered abilities from triggering. It would prevent you from attacking with Aven Wind Mage, or paying costs with the {T} symbol, but you weren't attempting to do those things. See that linked question for the full details.
+Another potential confusion in the play here is that it is perfectly acceptable to cast Dramatic Reversal even though it would not directly affect anything. By contrast if you had tried to cast Aerial Assault with no tapped creatures on the battlefield, this would not have be a legal play as that specifies
+
+Destroy target tapped creature.
+
+and you would not have been able to specify a valid target for the spell. The difference here is between an illegal play (one you're not allowed to do) and an ineffective play (one you're allowed to do but doesn't have any real effect).
+

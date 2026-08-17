@@ -1,0 +1,21 @@
+Q:
+
+Why can an ability resolve even if I exiled the creature it came from?
+
+I just started learning magic a week ago and I've been playing duels of the planeswalkers 2014 to kind of get a hang of things.
+I'm confused with something that has happened twice now. I'm playing against a campaign deck with a Goblin Fireslinger which has an activated ability that says:
+
+{T}: Goblin Fireslinger deals 1 damage to target player.
+
+So this gets cast while I have the instant Path to Exile in my hand, which "Exile(s) target creature." So I cast that.
+Now it is my understanding with the way the stack works that once the GF uses its ability and then I follow it up with the Exile, the exile is resolved first so the GF should be exiled before it can resolve. And that's what the game does, but it still resolves the GF's ability while that card is exiled and deals me one damage.
+I tried looking for why this could have happened, but I haven't been able to find an answer myself. I can't find anything that says an exiled spell still casts... I'm just confused about the way this works.
+
+A:
+
+Your understanding of how the stack works is correct: your path will resolve and exile the fireslinger before its ability resolves. What you're missing is rule 112.7a, which says that the fireslinger's activated ability exists independently of the fireslinger. Once you put it on the stack, the 1 damage is its own object and exists even if the fireslinger itself leaves the battlefield:
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Pyromancer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it's expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+If you want to actually counter the ability, there are very few ways to do so. Less than 20 cards in all of magic can counter activated abilities.
+

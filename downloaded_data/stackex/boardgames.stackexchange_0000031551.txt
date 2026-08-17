@@ -1,0 +1,37 @@
+Q:
+
+Does Medomai the Ageless + Supplanter of Identity give me infinite turns?
+
+A few days ago a new card named Supplanter of Identities was spoiled and I was wondering if you would target Medomai the Ageless with the effect of the supplanter you could take infinite turns (if you get through).
+A problem I could see with this theory is that Medomai might come back before the Supplanter changes back, making the legendary rule kick in, but I'm not sure if it works like that.
+So my question is if this interaction works the way I think.
+
+A:
+
+If you copy a legendary creature with Supplanter of Identity, the exiled creature will return first and the legend rule kicks in.
+In the turn structure, the last two steps are the End step and the Cleanup step. The creature exiled with Supplanter of Identity returns at the beginning of the end step, but Supplanter of Identity itself will remain a copy of that creature until the Cleanup step, causing the legend rule to apply.
+
+Ending Phase
+
+512.1. The ending phase consists of two steps: end and cleanup.
+
+End Step
+
+513.1. First, all abilities that trigger “at the beginning of the end step” or “at the beginning of the next end step” go on the stack. (See rule 603, “Handling Triggered Abilities.”)
+
+513.2. Second, the active player gets priority. Players may cast spells and activate abilities.
+
+This is where the exiled legendary returns. The return trigger resolves, players would get priority, the legend rule (a state-based action) kicks in.
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions,
+
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+Lastly, the Supplanter returns to its original, if it's still on the battlefield.
+
+Cleanup Step
+
+514.2. Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+
+Note that if there is a Mirror Gallery in play, your combo would work. Medomai's limitation of being unable to attack during extra turns only means it can't be declared as an attacker. However, it is the Supplanter that would be declared, who has no such limitation. The act of declaring it as an attacker triggers the its copy ability. Only now would it become a copy of Medomai, and it would keep attacking and creating extra turns.
+

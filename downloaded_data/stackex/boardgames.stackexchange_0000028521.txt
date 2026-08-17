@@ -1,0 +1,12 @@
+Q:
+
+Can a player with 0 life use Soul Conduit to make their opponent lose instead?
+
+If you get a player down to 0 life can he still use Soul Conduit's ability and swap life totals with another player killing that player instead?
+
+A:
+
+No, unless the player has a "Cannot lose" effect in play, like Platinum Angel.
+When a player goes to 0 life, before priority is regained (and the player able to activate Soul Conduit), state-based actions are checked and the player loses the game.
+Even if the ability were on the stack, it doesn't resolve before state-based actions, again. (e.g. 1 life, activate Conduit, use Underworld Connections)
+

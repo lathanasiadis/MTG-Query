@@ -1,0 +1,17 @@
+Q:
+
+Does Athreos work on countered or discarded creatures?
+
+So I know that if I have Athreos, God of Passage on the field and a creature spell is countered, it still counts as dying and Athreos's effect still kicks in. I was told it's because the creature (even though it never officially hit the battlefield) will still go into my graveyard. Would this also be true for discarded creatures, since they will go into the graveyard and not exile? I am using Athreos with Pack Rat and I was wondering if it would give me the ability to clone Pack Rat for basically free so long as he is on the field.
+
+A:
+
+What you were told about Athreos triggering for countered creature spells is incorrect.
+The official definition of "dies" in the comprehensive rules is:
+
+700.4. The term dies means "is put into a graveyard from the battlefield."
+
+Since a countered creature spell is never a creature on the battlefield, it didn't "die".
+Similarly, a discarded creature card would not trigger Athreos either.
+In fact, note the terminology here: "creatures" only exist on the battlefield; they are "creature spells" when on the stack, and merely "creature cards" or "creature tokens" elsewhere.
+

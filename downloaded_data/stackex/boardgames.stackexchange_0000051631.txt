@@ -1,0 +1,19 @@
+Q:
+
+Lifelink and multiple triggers
+
+I control Vito, Thorn of the Dusk Rose and two 1/1 creatures with lifelink. I attack with these two creatures, my opponent doesn't block them and they deal combat damage to him. My question is if Vito's trigger ability triggers once or twice? I know that damage is dealt simultaneously, so maybe I gain 2 life as "one piece"? Or maybe it's separated? It doesn't make any difference, because in both scenarios my opponent loses two life, but I am curios what will happen here.
+
+A:
+
+The ability triggers twice. Here's the relevant rule from the comprehensive rules, which also includes an example where it does matter whether it's once or twice:
+
+702.15e If multiple sources with lifelink deal damage at the same time, they cause separate life gain events (see rules 119.9–10).
+Example: A player controls Ajani’s Pridemate, which reads “Whenever you gain life, put a +1/+1 counter on Ajani’s Pridemate,” and two creatures with lifelink. The creatures with lifelink deal combat damage simultaneously. Ajani’s Pridemate’s ability triggers twice.
+
+The Gatherer pages of at least some of the cards where it matters also include this in their Rulings section, e.g. under Vito, Thorn of the Dusk Rose it says
+
+Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Vito’s first ability will trigger twice and you may choose a different opponent for each trigger. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+
+As indicated in that ruling, this issue can matter even for Vito if you have multiple opponents; another way it could matter is if your opponent wanted to cast Disallow to counter Vito's ability.
+

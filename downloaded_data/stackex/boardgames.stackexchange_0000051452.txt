@@ -1,0 +1,57 @@
+Q:
+
+What is the outcome if my board state is as follows, Bludgeon Brawl, Mycosynth Lattice, and any Planeswalker?
+
+If I control any planeswalker, Mycosynth Lattice
+
+All permanents are artifacts in addition to their other types.
+All cards that aren't on the battlefield, spells, and permanents are colorless.
+
+and Bludgeon Brawl
+
+Each noncreature, non-Equipment artifact is an Equipment with equip {X} and "Equipped creature gets +X/+0," where X is that artifact's converted mana cost.
+
+can someone attack the "equipment" planeswalker? Can I still use the loyalty abilities while the planeswalker is an equipment?
+
+A:
+
+The planeswalker is a colorless artifact equipment with equip {X} and "Equipped creature gets +X/+0". It is still a planeswalker with its original planeswalker subtype and it still has its loyalty abilities. Your opponent can still attack the planeswalker and you can still activate its loyalty abilities.
+Rule 306.6 says, very simply
+
+Planeswalkers can be attacked.
+
+This is unconditional. It doesn't matter what other types it has, or whether it's attached to something as an equipment. As long as it's a planeswalker, it can be attacked.
+Rules section 606 describes loyalty abilities. There isn't really anything specific to quote here, but there aren't any restrictions on what kinds of permanents can have or activate loyalty abilities. The planeswalker in question doesn't lose its loyalty abilities, so it can still activate them.
+
+To fully understand how Mycosynth Lattice and Bludgeon Brawl interact, we need to use the "layer system" described in rules section 613.
+If we split the abilities up by the layers we effect, Mycosynth Lattice's first ability says
+
+Layer 4: All permanents are artifacts in addition to their other types.
+
+and its second ability says
+
+Layer 5: All cards that aren't on the battlefield, spells, and permanents are colorless.
+
+and Bludgeon Brawl's ability says
+
+Layer 4: Each noncreature, non-Equipment artifact is an Equipment.
+Layer 6: Those artifacts have equip {X} and "Equipped creature gets +X/+0," where X is that artifact's converted mana cost.
+
+Putting those together, we can see that both Mycosynth Lattice and Bludgeon Brawl have an effect that applies on layer 4. The order in which they are applied is determined by timestamps and dependencies. The relevant rules about dependencies say this:
+
+613.8. Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
+
+613.8a An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect; (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
+
+613.8b An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they’re applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
+
+These two effects are in the same layer, Mycosynth Lattice's effect changes which permanents Bludgeon Brawl's effect affects, and neither one is a characteristic-defining ability. So, Bludgeon Brawl's effect depends on Mycosynth Lattice's effect, so Mycosynth Lattice's effect is applied first. The resulting sequence of effects is this:
+
+All permanents are artifacts in addition to their other types.
+
+Each noncreature, non-Equipment artifact is an Equipment.
+
+All cards that aren't on the battlefield, spells, and permanents are colorless.
+
+Each permanent previously affected by Bludgeon Brawl's effect has equip {X} and "Equipped creature gets +X/+0," where X is that permanent's converted mana cost.
+

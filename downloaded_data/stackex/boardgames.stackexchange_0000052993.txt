@@ -1,0 +1,16 @@
+Q:
+
+How does Wizard's Lightning stop Archfiend's Vessel?
+
+So, I'm watching this youtuber play Magic: the Gathering Arena, and he was able to stop an Archfiend's Vessel from triggering when it is pulled from the graveyard by casting a Wizard's Lightning, targeting it.  You can see the interaction starting around the 13:50 mark here:  Wizard's Lightning stops Archfiend's Vessel  For reference, Archfiend's Vessel says that when it enters the battlefield from or is cast from your graveyard, exile it.  If you do, create a 5/5 black Demon creature token with flying.  Wizard's Lightning deals 3 damage to any target.
+I'm confused about how this works, and my question is just: how?  When the Vessel enters the battlefield, its ability triggers immediately, Wizard's Lightning is played, deals 3 damage, kills the Vessel, but the Vessel's ability was already on the stack, shouldn't it have still been able to go off?  Is this a quirk or bug with Arena, or is this how the interaction is actually supposed to resolve?
+
+A:
+
+Wizard's Lightning was surely used in response to Archfiend's Vessel's triggered ability, which means the spell was cast and resolved after the ability triggered, but before the triggered ability resolved. The Archfiend's Vessel is on the battlefield as a 1/1 until its triggered ability resolves, and thus easily succumbs to Wizard's Lightning.
+The triggered ability does go on to resolve, and it does attempt to exile Archfiend's Vessel, but it fails to do so since Archfiend's Vessel doesn't exist anymore.[CR 400.7] And since Archfiend's Vessel can't be exiled, the "if you do" clause is false, and the Demon isn't created.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule: [None of them are relevant here.]
+
+A ruling on Gatherer confirms this conclusion.
+

@@ -1,0 +1,50 @@
+Q:
+
+How does combat damage work with Party Crasher if he is both Attacking and Blocking simultaneously?
+
+In the Unstable set there is a creature named Party Crasher who has the following ability:
+
+You can attack with Party Crasher once each combat during each opponent's turn.
+
+This leads to some strange interactions and combat phases. The one I am specifically interested in is, what happens when Party Crasher is both attacking in blocking in the same combat phase?
+For Example:
+
+It is your opponents turn, they control 2 Hill Giants (3/3 creature). You control a Party Crasher (3/3 creature) that has been given both vigilance and lifelink. 
+During combat your opponent attacks with one Hill Giant (A), you also attack with your Party Crasher.
+During blocks you assign your Party Crasher as blocker for Hill Giant (A), and your opponent assigns Hill Giant (B) as blocker for Party Crasher.
+
+Now what happens? Which creatures die? How much Life do you gain?
+
+A:
+
+Party Crasher simultaneously deals damage equal to its power as an attacking creature, and again as a blocking creature. At the same time, creatures that it is blocking and creatures blocking it deal damage to Party Crasher equal to their power.
+The combat damage step rules have these subrules:
+
+510.1. First, the active player announces how each attacking creature assigns its combat damage, then the defending player announces how each blocking creature assigns its combat damage. This turn-based action doesn’t use the stack. A player assigns a creature’s combat damage according to the following rules:
+
+510.1a Each attacking creature and each blocking creature assigns combat damage equal to its power. Creatures that would assign 0 or less damage this way don’t assign combat damage at all.
+
+510.2. Second, all combat damage that’s been assigned is dealt simultaneously. This turn-based action doesn’t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it’s dealt.
+
+For this card, the first rule has to be modified to account for how this card works. I would say that the first sentence should say this instead:
+
+First, each attacking player announces how each attacking creature they control assigns its combat damage, then each defending player announces how each blocking creature they control assigns its combat damage.
+
+Then, this process would play out for the given example as follows:
+
+Each attacking creature assigns combat damage equal to its power. In this case, there are two attacking creatures, each blocked by one creature, so Hill Giant A assigns 3 damage to Party Crasher, and Party Crasher assigns 3 damage to Hill Giant B.
+
+Each blocking creature assigns combat damage equal to its power. Hill Giant B assigns 3 damage to Party Crasher, and Party Crasher assigns 3 damage to Hill Giant A.
+
+All combat damage that's been assigned is dealt simultaneously. Hill Giants A and B each deal 3 damage to Party Crasher. Party Crasher deals 3 damage to each of Hill Giants A and B. Party Crasher's controller gains 6 life.
+
+State based actions are evaluated. All three creatures have been dealt lethal damage, and die.
+
+This is backed up by two questions that Mark Rosewater answered on his Tumblr blog:
+
+mroltv asked: Party Crasher: how does a creature that's both attacking and blocking assign combat damage? If it isn't blocked, does it have to deal damage to the creature it's blocking before the player? Does it get to deal damage to both?
+If it is both blocked as an attacker and blocks as a defender, all damage in combat is done at the same time (save last strike, first strike, double strike and triple strike).
+
+otterofslaughter asked: In regards to the question about Party Crasher, we know WHEN it does damage, the problem is if it's both attacking and blocking, does it deal damage to what it's attacking AND blocking or do you divide it's damage between the things it's hitting
+It does its full damage to each creature and takes full damage from each creature. It’s simultaneously fighting.
+

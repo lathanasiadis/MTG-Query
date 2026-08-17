@@ -1,0 +1,19 @@
+Q:
+
+Unbound Flourishing and Alternative costs
+
+The rulings for Unbound Flourishing state
+
+Spells with additional costs that include X won't be affected by Unbound Flourishing. X must be in the mana cost.
+
+Avacyn's Judgement has a cost of {1}{R}, but has a madness cost of {X}{R}. Am I right that if I pay the madness cost, {X} will be in the mana cost and the spell will be copied? Likewise for Flashback costs and Mutate Costs.
+
+A:
+
+Alternative costs such as Madness do not change the mana cost of a spell. The mana cost is not defined as the cost you paid to cast the spell; it is simply defined as the cost in the upper right of the card. Avacyn's Judgement still has a mana cost of {1}{R} even when cast for its Madness cost and Unbound Flourishing won't respond to it.
+From CR 202:
+
+202.1 A card’s mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner.
+
+Nothing in the rules for casting spells changes the mana cost of the spell, even when alternative costs are paid. Essentially, what you're finally pay ing when using an alternative cost is the total cost of the spell: that's defined as the mana cost or—if you elected to use one, which you did—the alternative cost, plus any cost increases/decreases.
+

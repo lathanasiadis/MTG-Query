@@ -1,0 +1,35 @@
+Q:
+
+What are the odds of drawing a given card after discarding my initial hand?
+
+Let's say that I have 4 of a card in my 60 card deck.
+What are my odds of drawing at least 1 of that card in my initial 7 card hand?
+If I discard those 7, what are the odds of drawing 1 of the 4 in another 7 card draw?  (I guess you could think of a Wheel of Fortune type situation)
+
+A:
+
+Since no one has provided the correct answer, at least not they current way you have it worded, I will take a stab at it.
+What are my odds of drawing at least 1 of that card in my initial 7 card hand?
+Answer: 1-Hypergeometric Distribution(population=60,successes in population=4,sample size=7,successes in sample=0) = 1 - .600500 = 39.95%
+Everyone got this right. I personally like corsiKa's answer, because if your aren't interested in drawing at least 1 success then it is easier to do the calculation (especially by hand) by figuring the odds of not drawing any cards and subtracting from 1.
+If I discard those 7, what are the odds of drawing 1 of the 4 in another 7 card draw? (I guess you could think of a Wheel of Fortune type situation)
+This is where everyone mucks it up. First realize that this question is fundamentally different than any of the following
+
+What are the odds of drawing at least 1 of the 4 in 14 cards? 66.54%
+What are the odds of drawing at exactly 1 of the 4 in 14 cards? 43.58%
+After discarding 7 cards that aren't successes, What are the odds of drawing exactly 1 of the 4 in 7 more cards?
+What are the odds of drawing at least 1 of the 4 in 7 cards, with two chances? (This is what I thought you saying originally. You wanted to know how unlikely you were to miss, then mulligan shuffling the cards back into the deck, and then missing again) 1 - (.6005 * .6005) = 63.94%
+etc.
+
+What you actually asked for was the bolded question above. So, what that means is that at that moment, you have removed 7 cards from the deck that weren't successes, leaving you 53 cards. The odds of drawing exactly 1 card can easily be found, HGD(53,4,7,1) = 36.29% or of getting at least 1 is (1 - HGD(53,4,7,0) = 44.27%).
+Now that you have finally clarified what it is that you want. The answer that you seek is above. It is the last answer, which is = all possibilities - (chance of missing first 7 cards * chance of missing again after replacement) = 1 - (.6005 * .6005) = 63.94%
+In general, you either multiply probabilities (when determining how likely two independent events will occur in a row), or add them together (when determining if either of two mutually exclusive events will occur). As for when to "add" these probabilities together and when to "multiply" them, it is very difficult to know when to do which.
+In your above question, you might realize that there are 4 independent mutually exclusive events for drawing 7 cards, replacing those 7 cards, shuffling and drawing 7 cards again. From the answer from the first question, you know that you have about a 40% chance of drawing at least one copy, and a 60% chance of drawing zero copies. (0.60 + 0.40 = 1 these mutually exclusive events equal 100%, so that makes sense)
+
+Miss twice in a row. (0.6 * 0.6) = 0.36
+Miss the first time, succeed the second. (0.6 * 0.4) = 0.24
+Succeed the first time, fail the second. (0.4 * 0.6) = 0.24
+Succeed twice in a row. = . (0.4 * 0.4) = 0.16
+
+Your first and second (draw 7 cards and see if you succeed) events are independent of each other, because you are replacing the cards you drew back into the deck. Neither event has any effect on the results of the other, so you can multiply the first and second events together to see how likely it is to get a particular result twice in a row. Finally, because you are interested in the chances of succeeding at least once, you can either add all the mutually exclusive results above that succeed one or more times, or just subtract 1 from the chance of missing twice. (realizing that those two values should be the same)
+

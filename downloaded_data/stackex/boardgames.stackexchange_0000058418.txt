@@ -1,0 +1,15 @@
+Q:
+
+How do Mystic Reflection and Cursed Mirror interact?
+
+I cast a Cursed Mirror. In Response, my opponent casts Mystic Reflection. I wanted for my mirror to enter as a Copy of creature A, my opponent chooses creature B for Mystic Reflection. As what does my Mirror enter the battlefield?
+
+A:
+
+The Cursed Mirror enters the battlefield as a copy of the creature targeted by Mystic Reflection.
+First, Mystic Reflection resolves before Cursed Mirror, so Mystic Reflection's replacement effect is active as Cursed Mirror resolves. Once Cursed Mirror starts to resolve, applicable replacement effects are applied. At first, Cursed Mirror is an artifact, so its own replacement effect applies but Mystic Reflection's replacement effect does not. So you apply Cursed Mirror's replacement effect, making it a copy of a creature of your choice. Then it is entering the battlefield as a creature, so Mystic Reflection's replacement effect applies, making the Cursed Mirror a copy of Mystic Reflection's target.
+
+The outcome is the same even if the permanent entering the battlefield started out as a creature, such as Clone, as stated in one of the rulings on Mystic Reflection:
+
+If a creature such as Clone is entering the battlefield under your control, there will be two copy effects to apply: the creature's own and Mystic Reflection's. No matter which order these effects are applied in, the creature will be a copy of the target creature when it enters the battlefield.
+

@@ -1,0 +1,17 @@
+Q:
+
+What happens if you clone Harvest Hand and sacrifice the clone?
+
+Harvest Hand reads
+"When Harvest Hand dies, return it to the battlefield transformed under your control."
+If a creature copying Harvest Hand died, it wouldn't be able to transform when the dies trigger resolves because it has no back side. Would it re-enter the battlefield on its front side or not at all?
+
+A:
+
+If a creature copying Harvest Hand dies, it stays in the graveyard.
+Rule 702.10a says
+
+If a spell or ability puts a transforming double-faced card onto the battlefield “transformed,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a transforming double-faced card onto the battlefield transformed, that card stays in its current zone.
+
+The ability resolves while the card that was copying the Harvest Hand is in the graveyard, so the card stays in the graveyard.
+

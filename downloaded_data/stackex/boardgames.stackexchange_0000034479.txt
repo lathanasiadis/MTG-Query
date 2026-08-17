@@ -1,0 +1,23 @@
+Q:
+
+What is the ​ "this effect" ​ that doesn't remove White Ward?
+
+White Ward is a white aura whose Oracle text is:
+
+Enchant creature
+Enchanted creature has protection from white. This effect doesn't remove white ward.
+
+Is ​"this effect" the "protection from white" ​that the enchanted creature has or the "Enchanted creature has protection from white." that White Ward has?
+This should matter if some other ability gives that creature protection from white.
+
+A:
+
+It refers just to the protection granted by White Ward, not protection granted by other effects.
+The easiest way to see this is just to look at another similar card, Spectra Ward:
+
+Enchanted creature gets +2/+2 and has protection from all colors. This effect doesn't remove Auras.
+
+That's the same language as White Ward, and it has a ruling in Gatherer:
+
+The protection granted by Spectra Ward won’t cause any Aura to be put into its owner’s graveyard, including Spectra Ward itself. However, if the enchanted creature gains protection from white in another way, Spectra Ward will be put into its owner’s graveyard as a state-based action.
+

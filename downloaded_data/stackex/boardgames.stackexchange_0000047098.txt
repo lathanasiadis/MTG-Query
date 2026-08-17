@@ -1,0 +1,20 @@
+Q:
+
+Multiplayer with Phyrexian Swarmlord
+
+Phyrexian Swarmlord's last ability is that you create infect tokens based on the number of poison counters on your opponents. Let's say I'm playing a 1v1v1 and I have him on the battlefield with opponent A having 2 poison counters and opponent B having 9, and I proliferate. If I choose player B's poison counters as part of my proliferate that player loses from having 10 poison counters, but as the game continues, would I still get 10 tokens from them where the player lost with that many counters on them? Or should I exclude them from proliferate as long as possible to continue getting 9 infect tokens because they need to be alive in the game to get the tokens? 
+
+A:
+
+You will not get to count the counters from the player who has lost.
+When a player loses the game in multiplayer, that player leaves the game, which means they are not in any way a part of the game. They are no longer an opponent, they no longer have poison counters, they do not exist at all as far as the game is concerned.
+
+800.4. Unlike two-player games, multiplayer games can continue after one or more players have left the game.
+
+And
+
+102.1. A player is one of the people in the game.
+102.3. In a multiplayer game between teams, a player's teammates are the other players on their team, and the player's opponents are all players not on their team.
+
+So a person who has left the game is not "in the game", which means they are not "a player", and "an opponent" must be "a player".
+

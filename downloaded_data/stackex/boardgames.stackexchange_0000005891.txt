@@ -1,0 +1,20 @@
+Q:
+
+How does an Oblivion Ring interact with a Commander in EDH?
+
+When a commander is exiled, it can go to the command zone if the owner chooses. What if a commander is exiled by an Oblivion Ring?
+
+I am assuming the commander can still go to the command zone. If it does, then what happens when Oblivion Ring leaves the battlefield? Does your commander return to the battlefield? Is the additional cost of casting your commander affected in any way?
+
+A:
+
+The Commander can still go to the command zone, or exile, its' owner's choice.
+
+903.12. If a commander would be put into the exile zone from anywhere, its owner may put it into the command zone instead.
+
+When Oblivion Ring leaves the battlefield, it triggers an ability that attempts to "return the exiled card to the battlefield under its owner's control." When it can't find the card in the exile zone, it fails to do anything.
+You do not get your Commander back on the battlefield (as he is currently in the Command Zone).
+The +2 additional mana cost can never loose/subtract/lower in cost, it always increases for each previous time you have cast your Commander from the Command Zone.
+
+903.10. A player may cast a commander he or she owns from the command zone. Doing so costs that player an additional {2} for each previous time he or she cast that commander from the command zone that game.
+

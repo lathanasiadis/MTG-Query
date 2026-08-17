@@ -1,0 +1,16 @@
+Q:
+
+Can Yahenni become indestructible after taking lethal damage, and does it die then?
+
+I cast Cruel Entertainment targetting both me and an opponent, who controls Yahenni, Undying Partisan and some other creatures. My own turn ends, and I take control of their turn, in which I attack with Yahenni only. It is blocked by a creature which deals lethal damage to Yahenni.  
+Now, can the activated ability of Yahenni ("Sacrifice another creature: Yahenni gains indestructible until end of turn.") still be activated after taking lethal damage, so that I can wipe the whole board of the opponent?
+If so, does the fact that Yahenni then becomes indestructible negate the fact that it has taken lethal damage in that combat phase (in which the opponent will still have Yahenni on the board)?
+
+A:
+
+There is no way to both use Yahenni to sacrifice all other creatures, and also have Yahenni die due to lethal damage.
+Once the creature has actually taken lethal damage, you cannot give it indestructible and save it. It would die the next time state-based actions are checked; and state-based actions are always checked before a player received priority.
+However, you can give it indestructible after blockers have been assigned, but before damage is dealt. You would do this in the assign blockers step of the combat phase, which happens before damage assignment. But if you do this, Yahenni will survive. Even if you could use Yahenni's ability after it has received lethal damage, it wouldn't matter, because Indestructible causes lethal damage to have no effect on a creature.
+As per  monoRed's comment, to get the result you desire, you would need to have a way to kill Yahenni outside of combat. If you (or your opponent) have any direct damage or destruction spells that are instants or abilities, you could activate Yahenni's ability repeatedly to remove all other creatures, and then while those activations are still on the stack, before they have resolved, use the other spell/ability to kill it.
+You can see the details of the combat phase steps here: Where can I find a chart or diagram explaining Magic's turn structure?.
+

@@ -1,0 +1,11 @@
+Q:
+
+What happens to cards cast from exile?
+
+There are a few cards that allow you to exile cards and then cast them later (Narset, Enlightened Master for example). After a spell cast this way resolves, does it go back into exile, or does it resolve normally including being placed in its owner's graveyard? (assuming nothing else effects where it would go after being cast)
+
+A:
+
+What happens to a spell after it's been cast is not affected by where it was cast from. It's the usual rule about cards being by default "reset" whenever they move from a zone to another.
+Unless the spell itself (e.g. Pull from the Deep, White Sun's Zenith...) or another card (such as Rest in Peace) says it doesn't go to the graveyard, that is where it will end up.
+

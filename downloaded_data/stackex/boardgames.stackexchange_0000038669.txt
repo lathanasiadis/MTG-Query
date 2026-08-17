@@ -1,0 +1,27 @@
+Q:
+
+Can I play an instant when my opponent taps their lands to cast an instant?
+
+I have a Creature spell and Duress in my hand, I cast the creature spell. My opponent starts tapping lands to cast a counter spell on the stack. Can I interrupt him and cast Duress to make him discard the instant card from his hand?
+
+A:
+
+To answer the titular question:
+No, you can not play an instant when your opponent taps mana to cast an instant.
+This when a player is allowed to preform a certain action is a fairly in depth topic, and if you want to learn more about it I would recommend the following sources:  
+
+In plain English, how does casting spells and using creature abilities work with the stack and priority? 
+Magic's Comprehensive Rules
+
+However to summarize, you can not cast an instant "in response" to your opponent tapping their lands because of two reasons:
+
+You do not receive priority (and therefore can not act) until after your opponent finishes casting a spell. This is outlined throughout 601.2 (Rules for casting a spell) with the relevant part here (Italicized text mine):
+
+601.2i: Once the steps described in 601.2a–h (Steps to casting a spell including, paying costs and choosing targets) are completed, effects that modify the characteristics of the spell as it’s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell’s controller had priority before casting it, he or she gets priority.
+
+Mana abilities (such as tapping lands) do not use the stack and can not be responded to. This is outlined here:
+
+605.3b: An activated mana ability doesn’t go on the stack, so it can’t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after it is activated. (See rule 405.6c.)
+
+To address the specific example in the body of your question, No you can not cast Duress to force your opponent to discard the counter spell before he finishes casting it. In addition to the reasons above, you can not cast Duress in response to anything as it is a sorcery. Sorceries may only be cast during one of your main phases when the stack is empty (Comprehensive Rules 307).
+

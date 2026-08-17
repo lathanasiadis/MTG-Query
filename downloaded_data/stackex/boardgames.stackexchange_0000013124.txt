@@ -1,0 +1,13 @@
+Q:
+
+Sliver abilites and when they affect the Slivers
+
+Let's say I have two Muscle Slivers, so they're both 3/3 creatures. Now if they attack at the same time, and I kill one Muscle Sliver, would the remaining Muscle Sliver continue to stay at 3/3 for the attack phase, or would it instantly become a 2/2?
+
+A:
+
+As soon as one of the Muscle Slivers leaves the battlefield, its ability disappears, leaving the other sliver smaller.
+Static abilities on permanents create continuous effects, functioning as long as the permanent is on the battlefield, no longer and no shorter. They are not activated; they simply are. That's why they're written as statements of fact: "All Sliver creatures get +1/+1."
+So for example, your opponent could block one of your 3/3 Muscle Slivers with a 3/3, and one with a 2/3. All the creatures deal damage to each other simultaneously. State-based actions are then checked, and the two 3/3s and the 2/3 have taken three damage and die. The first Muscle Sliver is now gone, so the remaining one is now a 2/2. State-based actions are checked again, and that sliver has two damage marked on it and now only has two toughness, so it dies as well.
+Remember, this doesn't affect the amount of damage dealt, since all the damage was dealt at the same time, before anything died. So when you ask "does it stay at 3/3 for the attack phase?" the answer is... yes and no. It's still a 3/3 when it deals damage, yes. But it gets smaller immediately after.
+

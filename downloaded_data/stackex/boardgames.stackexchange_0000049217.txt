@@ -1,0 +1,19 @@
+Q:
+
+Lavinia, Azorius Renegade vs Kalia of the Vast and friends
+
+If Lavinia, Azorius Renegade is on the field, and Kaalia of the Vast attacks me, when Kalia's effect puts a creature onto the battlefield from the hand, is it countered by Lavinia's second effect? What happen in case of Mayael the Anima and Golos, Tireless Pilgrim?
+
+A:
+
+Lavinia affects Golos's activated ability, but not Kaalia's ability or Mayael's.
+Both Kaalia and Mayael put creatures onto the battlefield directly. They do not have you cast anything, so Lavinia's ability is never relevant.
+Golos's activated ability, on the other hand, allows you to play cards without paying their mana costs. Rule 701.13b defines what exactly that means:
+
+To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.
+
+So, if you exile any nonland cards, you can cast them without paying their mana costs. This exactly what Lavinia is looking for, so her last ability will counter any spells cast this way.
+Of course, if you exile lands with Golos, you can still play them as lands. In this case you are not casting anything so Lavinia's ability doesn't do anything.
+
+Note that when casting spells without paying their mana costs, players can still pay any additional costs that may apply, and if they pay mana to do so Lavinia's ability will not counter the spell because some mana was spent on it.
+

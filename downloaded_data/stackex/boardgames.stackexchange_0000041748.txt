@@ -1,0 +1,32 @@
+Q:
+
+Will a Theros God with low devotion enter the battlefield as a copy of Essence of the Wild?
+
+Essence of the Wild has a rather unique ability:
+
+Creatures you control enter the battlefield as a copy of Essence of the Wild.
+
+The gods of Theros say:
+
+As long as your devotion to (color/colors) is less than (five/seven), (this God) isn’t a creature.
+
+Let's say my devotion is too low for the God to count as a creature once it's on the battlefield: I'm casting Thassa, God of the Sea with 0 blue devotion, or I'm casting Nylea, God of the Hunt whilst Essence of the Wild is my only nonland permanent (only 3 devotion, 4 once Nylea enters). Typically that God wouldn't enter the battlefield as a creature.
+However, I'm unsure how Essence of the Wild will see that God as it transitions from the stack to the battlefield, and I'm unsure how this interacts with the recent rules changes to how we evaluate entering the battlefield.
+Will the God enter the battlefield as a copy of Essence of the Wild?
+Does the answer change if the God would add enough devotion to activate itself? E.g. consider if I have two Essence of the Wilds out, and I cast Pharika, God of Affliction who would bump my devotion to green and black up to 8 and see herself activated.
+
+A:
+
+No, the God will not enter as a copy of Essence of the Wild for the first case, but it will for the second.
+According to the Gatherer rulings:
+
+9/15/2013: If a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not, for abilities that trigger whenever a creature enters the battlefield.
+
+As @murgatroid99 aptly noted, this ruling refers specifically to triggered abilities. However, it's supported by CR614.12 (specifically, the emphasized snippet):
+
+614.12. Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c–d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To 
+  determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects from the permanent’s own static abilities that would apply to it once it’s on the battlefield, and continuous effects that already exist and would apply to the permanent.
+
+Since Thassa has only one devotion at the time it enters the battlefield (which is its own 1 blue mana symbol), it's not a creature, and therefore it won't be affected by Essence of the Wild's continuous effect. The same is true for Nylea.
+Likewise, as Pharika enters the battlefield with 2 Essences of the Wild, it will already be a creature, and it will be affected as any other creature would by Essence of the Wild.
+

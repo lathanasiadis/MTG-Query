@@ -1,0 +1,22 @@
+Q:
+
+What's the strategic advantage of building around alternate win conditions?
+
+In MTG, there are several ways to win that don't involve damaging your opponent. The most prominent is milling (running an opponent out of cards to draw), but there are also special cards like Felidar Sovereign, Laboratory Maniac, Battle of Wits, and Barren Glory that introduce unique victory conditions.
+I understand why these decks can be fun: it's a novel experience to build and play a deck with an entirely different goal, and figuring out how to achieve some of those goals is a pleasing deckbuilding puzzle. What I'd like to know is something else entirely: when is prioritizing an alternate win condition actually strategically advantageous?
+Specifically, it seems like, short of all-in-one-go combo, pursuing these goals involves actively sacrificing tempo and card advantage. Take mill cards like Glimpse the Unthinkable, for example: the card mills a significant chunk of an opponent's deck, but it doesn't actually influence the board state in any way; in the vast majority of cases, making your opponent put ten cards from her library into her graveyard has no affect on her board presence or ability to make subsequent plays (in some instances, it actually helps her, too).
+
+What factors affect the viability of a deck built around an alternate win condition?
+Is it ever feasible (like, you-could-take-this-deck-to-a-tournament feasible) to build around an alternate wincon in something that's not just a pure combo deck?
+How can one offset or avoid the natural card and tempo disadvantage baked into most of these cards?
+When is it practical to include an alternate wincon as "Plan B" (or C, or D, &c.) in a deck with a damage-based Plan A?
+
+A:
+
+I think there's a very simple answer to this question, which perhaps hasn't been concisely stated yet:
+Most people's decks are tuned to beat decks trying to win in the "normal" way.  If your deck is trying to win in an unusual way, many decks will not have any good answer to that.
+Suppose you're playing a Battle of Wits deck.  A lot of decks won't be packing sufficient enchantment removal to reliably take out Battle of Wits when you cast it - because, in general, enchantment spot removal is not a high priority for winning games of magic.  Which means that, assuming you can survive long enough to find and cast your key card, you win easily.
+Or suppose you're playing a deck which has an effective way to gain infinite life.  A lot of decks will be trying to win via the standard route, of dealing 20 damage very fast.  If you can simply gain life faster than they can deal with it, their finely-tuned damage dealing deck is almost certain to have no plan B for dealing with your unusual game plan.
+Contrary to other answers to this question, I don't think "the element of surprise" is a key feature to the effectiveness of "alternate win condition" decks... at least not in the sense of your opponent going "huh? What's this deck trying to do, I don't understand...?!".  I think it's a metagame question, pure and simple.  No deck, even after sideboarding, can have effective answers to every other possible deck in the game of Magic.  As such, sensible deckbuilders will build their deck planning to win against the decks they are most expecting to face.  Your opponent may have worked out exactly what your alternate win condition is inside of the first 5 minutes of your match; but that doesn't mean they will have a good way of dealing with it in either their maindeck or their sideboard.  And you may be able to steal quite a few wins against supposedly "better" decks that way.
+Never underestimate the power of the metagame.  See for instance the recent World Championships, where Team Channel Fireball brought a Tempered Steel deck that was generally considered to be unplayable because "it rolls over and dies as soon as anyone plays Slagstorm" [or something like that, I'm relying on my memory here].  But as it happened none of the "good" decks at that tournament were packing Slagstorm, and so TCF put 4 players into the top 8 with an identical "B-list" deck.  I don't think you can say the principle of playing to win not just the game but the metagame isn't sound!
+

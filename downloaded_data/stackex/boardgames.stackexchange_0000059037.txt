@@ -1,0 +1,26 @@
+Q:
+
+Does Tabernacle at Pendrell Vale go on stack?
+
+I have Tabernacle at Pendrell Vale in play. My opponent has a Serendib Efreet and a Serra Angel in play. I cast Mana Short in his upkeep to tap all his lands and empty his manapool. He has no other mana sources.
+Do his creatures die? And if so does his serendib still do 1 damage to him?
+
+A:
+
+Your opponent will take 1 damage and all of his creatures will die
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+"At the beginning of your upkeep" is one of the signifiers of a triggered ability, so the Tabernacle does indeed grant an triggered ability to your opponent's creatures.  Here's what will happen in detail on your opponent's turn:
+
+Your opponent untaps.  Nobody gets priority, nobody takes any actions.
+Your opponent's upkeep begins.  Three triggered abilities trigger: Serendib Efreet's damage trigger, Serendib Efreet's tabernacle trigger, and Serra Angel's tabernacle trigger
+Your opponent chooses in what order these three abilities are placed on the stack*.  This is more or less irrelevant.
+Your opponent gets priority.  Since they don't plan on doing anything, they pass priority
+You get priority, and cast Mana Short
+You both pass priority, and Mana Short resolves. Your opponent loses all their mana.
+The triggered abilities resolve.  Since your opponent has no mana, both creatures are destroyed.  Your opponent takes 1 damage.
+
+The Tabernacle trigger cannot be paid for until the triggered ability resolves, so even though your opponent gets priority before Mana Short resolves, they can't use this priority to save their creatures (unless they have a spell in hand that would do so).  The Serendib Efreet trigger is independent of the creature once it's on the stack, so the destruction of the creature won't effect the damage being dealt.
+*If you controlled some of the triggers there would be less flexibility as to the order, but the tabernacle triggers are controlled by your opponent because the tabernacle grants triggered abilities to creatures rather than having a triggered ability itself.
+

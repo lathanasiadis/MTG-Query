@@ -1,0 +1,25 @@
+Q:
+
+What happens if I kill a creature enchanted with Murder Investigation by casting Flowstone Slide
+
+Murder Investigation reads:
+
+When enchanted creature dies, put X 1/1 white Soldier creature tokens onto the battlefield, where X is its power.
+
+Flowstone Slide reads:
+
+All creatures get +X/-X until end of turn.
+
+Suppose I enchant my 1/1 white Soldier creature token with Murder Investigation and then cast Flowstone Slide with X = 3.  The poor token dies for sure, but would I get 4 white Soldier creature tokens because he was a 4/-2 at the time he was destroyed, or would I get 1 white Soldier creature token because that is the power of the enchanted creature as it last existed on the battlefield?
+
+A:
+
+You'll get 4 tokens, because that's the power of the enchanted creature as it last existed on the battlefield.
+It doesn't die quite immediately upon having negative toughness; it exists on the battlefield for just a moment until state-based actions are checked. The overly detailed sequence of events is:
+
+Flowstone Slide resolves, making it a 4/-2 creature, still on the battlefield.
+As soon as it finishes resolving, state-based actions are checked, and since its toughness is 0 or less, it's put into its owner's graveyard.
+The token has now died, so Murder Investigation's ability triggers.
+State-based actions keep being checked; Murder Investigation is put into your graveyard and the token ceases to exist.
+Murder Investigation's triggered ability resolves. Since the object it refers to ("enchanted creature") is no longer on the battlefield, it uses last known information to check its power - and the last known power of the creature was 4, so X is 4 and you get 4 tokens.
+

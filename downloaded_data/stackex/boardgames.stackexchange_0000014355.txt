@@ -1,0 +1,42 @@
+Q:
+
+What happens if each player has a copy of the same Archetype?
+
+Archetype of Endurance (from Born of the Gods) is a card that says
+
+Creatures you control have hexproof
+Creatures your opponents control lose hexproof and can't have or gain hexproof.
+
+If both I and my opponent have one of these in play, then there is one effect that says that my creatures have hexproof, and one that says that they lose hexproof and can't have it. Which effect takes precedence? Does it depend on what order the two creatures came into play? Basically, which creatures, if any, have hexproof while both are in play?
+
+A:
+
+As long as both Archetypes are in play, no creatures have hexproof.
+The most important rule to take into account here is rule 112.11:
+
+Effects can stop an object from having a specified ability. These effects say that the object "can't have" that ability. If the object has that ability, it loses it. It's also impossible for an effect to add that ability to the object. If a resolving spell or ability tries to create a continuous effect that would add the specified ability to such an object, that continuous effect is not created, although that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won't apply to that object.
+
+This works with rule 101.2:
+
+When a rule or effect allows or directs something to happen, and another effect states that it can't happen, the "can't" effect takes precedence.
+
+This means that each Archetype says that its controller's opponents' creatures lose hexproof and can't gain hexproof, and that removes hexproof from those creatures and overrides any ability that would give them hexproof.
+If we want to look at exactly how these abilities interact, then we need to consider rule 613: Interaction of Continuous Effects:
+
+613.1: The values of an object's characteristics are determined by starting with the actual object... Then all applicable continuous effects are applied in a series of layers in the following order:
+613.1f: Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can't have an ability are applied.
+613.2: Within layers 1-6, apply effects from characteristic-defining abilities first, then all other effects in timestamp order.
+
+The effects created by Archetypes' abilities are not characteristic-defining abilities (according to rule 604.3), so they are applied in timestamp order (i.e. the order in which they entered the battlefield).
+If Player A is the player whose Archetype of Endurance entered first, then the effects are applied in the following order:
+
+Player A's Archetype's first ability. Creatures controlled by Player A have hexproof.
+
+Player A's Archetype's second ability. Creatures controlled by Player B all lose hexproof.
+
+Player B's Archetype's first ability. Creatures controlled by Player B would gain hexproof, but the previous ability prevents that from happening (due to the previously mentioned rule 101.2)
+
+Player B's Archetype's second ability. Creatures controlled by Player A lose hexproof.
+
+The end result is that none of the creatures on the battlefield have hexproof. Note that this process of applying effects does not happen at a particular time during the game. Rather, if at any time you want to determine whether a creature has hexproof, this process gives you the answer.
+

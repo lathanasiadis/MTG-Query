@@ -1,0 +1,40 @@
+Q:
+
+What is classified as a "spell"?
+
+I'm curious to understand the specifics behind cards like Clarion Spirit where it states:
+
+Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.
+
+Does playing that card count as the first spell? I know playing non-lands from the hand are spells, but what about things like Activated Abilities?
+For example, what is the outcome of playing the Clarion Spirit, then upgrading my Paladin Class from Level 1 to Level 2; is that enough to trigger the creation of a Spirit Token?
+This seems to indicate that a spell is something that uses the stack:
+
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect.
+
+And activated abilities use the stack:
+
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect
+
+Which is then backed up by:
+
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i.
+
+But at the same time they're in their own section of the rules.
+So what is a spell? Is an activated ability a spell?
+
+A:
+
+No, an ability is not a spell or vice versa. The fact that both use the stack is incidental.
+The defining feature of a spell is not that it's on the stack, but that it's a card on the stack.
+
+112.1. A spell is a card on the stack. As the first step of being cast (see rule 601, “Casting Spells”), the card becomes a spell and is moved to the top of the stack from the zone it was in, which is usually its owner’s hand. (See rule 405, “Stack.”) [..]
+
+Some effects let you copy a card and cast it. Those also result in a spell even though it has no card associated with the spell itself. However, these effects are rare and have specific wording that you can't confuse with a simple activated ability. Most of these cards let you copy and cast cards.
+
+112.1b Some effects allow a player to cast a copy of a card; if the player does, that copy is a spell as well. See rule 707.12.
+
+An ability (activated or otherwise) is also on the stack, but it's never a card, only an object without a card representing it. You also never cast an activated ability: there is always another object involved which has the activatable  ability on it.
+
+113.1c An ability can be an activated or triggered ability on the stack. This kind of ability is an object. (See section 6, “Spells, Abilities, and Effects.”)
+

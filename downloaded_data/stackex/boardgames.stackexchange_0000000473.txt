@@ -1,0 +1,27 @@
+Q:
+
+In Magic, when can I tap my opponent's creatures to prevent them from attacking?
+
+Whilst I haven't played Magic in a while, use of the stack was something that I always found a little confusing. When I first started out, our group could tap an opponents attacking creature after attackers had been declared and effectively take it out of combat? Is this right? Or did we have the stack order backwards?
+
+A:
+
+This is not so much about the stack, as the order of the turn:
+
+Beginning Phase
+Main Phase
+Combat Phase
+
+Beginning of Combat step
+Declare Attackers step
+Declare Blockers step
+Damage step
+End of Combat step
+
+Main Phase
+End Phase
+
+After the first main phase, there's a step where you can play abilities like tapping, but before they can attack you: Beginning of Combat step. Every turn goes in this order (with minor exceptions) But when we play, we usually don't bother talking about every phase and step, often because nothing happened in them! But they're still part of every turn, if we need to do something then.
+So there's nothing wrong with your opponent playing a spell, then moving right on to "I attack you with this guy." All you have to say is "wait, I want to do stuff at the Beginning of Combat" and back up to that point. Then you tap whoever you want to tap. Just remember, after the tapping your opponent gets to decide how they want to attack, knowing their creature is tapped!
+And after they know you can tap things, in future turns they should stop and ask you before they declare attackers. (You can ask them nicely to do this.) That way they don't give away the info of who they want to attack with!
+

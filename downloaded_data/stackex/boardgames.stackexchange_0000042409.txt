@@ -1,0 +1,27 @@
+Q:
+
+Interaction between Hexproof and "target of an opponent's choice"
+
+There exist a small number of cards which have targets chosen by an opponent. While it is old, the most straightforward one I can find is Cuombajj Witches which has the ability:
+
+{T}: Cuombajj Witches deals 1 damage to any target and 1 damage to any target of an opponent's choice.
+
+Suppose I have only one opponent, both players control a Hexproof creature, and I control a Cuombajj Witches. If I activate Cuombajj Witches' ability, I can choose to target my own Hexproof creature for one point of damage.
+However, when my opponent chooses targets, are they also allowed to choose my Hexproof creature for 1 damage? Or are they allowed to choose their own Hexproof creature, as they could for their own spells and abilities? The first seems more likely to me, but I could see it either way.
+
+A:
+
+It is the first one, they can choose to target your Hexproof creature.
+The full meaning of Hexproof is:
+
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+
+The person who activated Cuombajj Witches is controller of the ability. It doesn't matter that your opponent is making a choice.
+The process for casting a spell or activating an ability starts with defining the controller:
+
+601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. 
+
+And for Activated abilities:
+
+602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+

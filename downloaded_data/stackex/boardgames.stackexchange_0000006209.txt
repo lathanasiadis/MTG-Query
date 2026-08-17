@@ -1,0 +1,16 @@
+Q:
+
+Would spells played with Enchanted Evening in play trigger Mesa Enchantress?
+
+With Enchanted Evening, all permanents are also enchantments.  Mesa Enchantress allows you to draw when you play an enchantment.  If I have both out, and play a creature, do I get to draw a card?
+
+A:
+
+No, because Enchanted Evening does not change the card type of spells on the stack.
+The Enchantress' Oracle wording makes this clearer:
+
+Whenever you cast an enchantment spell, you may draw a card.
+
+"Casting" refers to the action of putting a spell on the stack.
+Enchanted Evening only affects permanents. It will do so from the very moment they enter the battlefield, so they enter the battlefield as enchantments. But the spell that creates the permanent (which is the game object that's represented by the card on the stack) isn't an enchantment spell.
+

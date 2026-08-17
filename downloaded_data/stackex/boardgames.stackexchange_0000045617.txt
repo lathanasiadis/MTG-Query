@@ -1,0 +1,20 @@
+Q:
+
+Angel of Condemnation - Exile creature with second ability
+
+I was looking at Angel of Condemnation's second ability and couldn't figure out what would happen if you exiled a creature an opponent controls but is owned by you?
+The first ability explicitly states that the exiled creature returns under its owner's control, but there's no such thing in the second ability.
+The Rulings don't address this specific situation, so I would assume the exiled card returns under the same player's control after the angel leaves battlefield, regardless of who owns it. Is that correct?
+
+A:
+
+Since it's not specified by the effect, the creature enters the battlefield under its owner's control.
+Generally, if the effect that does the zone-changing does not specify it, an object that changes zone has no memory or relation to its previous existence. It doesn't "remember" its previous controller when it returns to the battlefield, so it takes its owner instead.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+In your specific case of an object that is "exiled until some condition is true", the rule is explicit in the Comprehensive Rules:
+
+610.3. Some one-shot effects cause an object to change zones "until" a specified event occurs. A second one-shot effect is created immediately after the specified event. This second one-shot effect returns the object to its previous zone.
+610.3b An object returned to the battlefield this way returns under its owner's control unless otherwise specified.
+

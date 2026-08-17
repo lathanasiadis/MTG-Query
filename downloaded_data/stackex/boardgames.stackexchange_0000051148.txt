@@ -1,0 +1,33 @@
+Q:
+
+Characteristcs on the stack
+
+I've got a question regarding characteristics on the stack. I found the information that "each spell has all the characteristics associated with it". Does it mean that when card is on the stack as a spell, it has its  mana cost, name, abilities and so on? I know that for example static abilities don't work on the stack. If I get it right, cards have their abilities on the stack, but these abilities don't work. Or maybe that is wrong? 
+
+A:
+
+Spells have all their characteristics on the stack, including abilities, which allows other cards to interact with them conditionally. That doesn't mean that their abilities are functional on the stack. They usually are not, though they can be.
+Spells are objects:
+
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+Abilities are part of an object's characteristics:
+
+109.3. An object’s characteristics are name, mana cost, color, color indicator, card type, subtype, supertype, rules text, abilities, power, toughness, loyalty, hand modifier, and life modifier. [..]
+
+There are many cards interacting with spells that have certain characteristics, for example: 
+
+Negate (type), 
+Red Elemental Blast (color), 
+Disdainful Stroke (CMC), 
+Meddling Mage (name), 
+Goreclaw, Terror of Qal Sisma (power), 
+Hand of the Praetors (abilities), 
+Reki, the History of Kamigawa (supertype), 
+Bog-Strider Ash (subtype).
+
+There are four kinds of abilities: spell abilities, activated abilities, triggered abilities, and static abilities (113.3)
+In the vast majority of cases, spell abilities are abilities that take effect when the spell they're on resolves, such as Lightning Bolt, and the others only work on the battlefield.
+
+113.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+

@@ -1,0 +1,28 @@
+Q:
+
+How do Sphinx of Foresight and a discard effect on the first turn interact?
+
+My question revolves around Sphinx of Foresight and any discard effect targeting the Sphinx on Turn 1. I'll take Thoughtseize as an example.
+
+Sphinx of Foresight has the following effect:
+
+You may reveal this card from your opening hand. If you do, scry 3 at
+  the beginning of your first upkeep.
+
+Imagine the following Scenario:
+
+Player A plays first, Player B draws first.
+Player B reveals Sphinx of Foresight.
+Player A plays a Swamp and casts Thoughtseize targeting the Sphinx of Foresight.
+Player A ends his turn.
+Player B gets to his upkeep. Is he allowed to scry now?
+
+I couldn't find any remarks regarding this topic in the gatherer.
+
+A:
+
+If a player reveals Sphinx of Foresight, that player gets to scry on their first upkeep even if the Sphinx gets discarded or exiled beforehand.
+The Sphinx's ability creates a delayed triggered ability. That ability remains in the game no matter what happens to the Sphinx card. The ability only requires its controller's first upkeep to trigger, and its effect does not reference the Sphinx card as a prerequisite.
+
+603.7. An effect may create a delayed triggered ability that can do something at a later time. A delayed triggered ability will contain “when,” “whenever,” or “at,” although that word won’t usually begin the ability.
+

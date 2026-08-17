@@ -1,0 +1,16 @@
+Q:
+
+How do indestructible creatures actually work?
+
+If a First Striker does lethal damage to an indestructible creature, does this remove the creature from combat so it can not deal any damage?
+Another scenario: An indestructible creature is dealt lethal damage, has destroy cast on it, or is hit during combat by a creature with deathtouch. Would casting Lava Coil in the second main phase cause it to be exiled?
+
+A:
+
+No, indestructible is different from regeneration. An indestructible permanent simply ignores lethal damage and destruction effects and stays in combat.
+
+702.12b A permanent with indestructible can’t be destroyed. Such permanents aren’t destroyed by lethal damage, and they ignore the state-based action that checks for lethal damage (see rule 704.5g).
+
+A creature is removed from combat when it is regenerated, among others. Regeneration is superficially similar to indestructible, but still different. For example, regeneration removes all damage marked on a regenerated creature, while an indestructible creature retains all damage marked on it until it gets removed during the next cleanup step.
+Note that an indestructible creature still dies when its toughness goes to zero (such as through -X/-X effects like Grasp of Darkness), or when it is sacrificed. If someone cast Lava Coil on an indestructible creature and it would die later that turn, it would indeed be exiled, even if Lava Coil itself couldn't kill that creature.
+

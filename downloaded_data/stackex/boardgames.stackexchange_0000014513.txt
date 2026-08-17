@@ -1,0 +1,22 @@
+Q:
+
+How do two Doubling Seasons affect each other?
+
+If an effect would put one 1/1 creature token onto the battlefield, and I control two Doubling Seasons, how many tokens would be put into play? 3 or 4?
+
+A:
+
+Four tokens will enter the battlefield. This is actually spelled out in a Ruling on Doubling Season:
+
+10/1/2005: If there are two Doubling Seasons on the battlefield, then the number of tokens or counters is four times the original number. If there are three on the battlefield, then the number of tokens or counters is eight times the original number, and so on.
+
+For reference, the token ability says:
+
+If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.
+
+This is a replacement effect, so rather than merely responding to the effect that places a 1/1 creature token onto the battlefield (and adding one more), it completely replaces that effect with a new one that places twice as many tokens onto the battlefield. So it works out like this:
+
+The first Doubling Season will replace the original effect, which places 1 token, with one that places 2 tokens instead.
+The second Doubling Season will then replace that effect with one that places 4 tokens.
+When your effect finally puts tokens on the battlefield, you get 4 1/1 tokens.
+

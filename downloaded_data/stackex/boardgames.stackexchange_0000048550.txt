@@ -1,0 +1,20 @@
+Q:
+
+At what point does a land become controlled?
+
+Shrine of the Forsaken Gods has the ability:
+
+{T}: Add {C}{C}. Spend this mana only to cast colorless spells.
+  Activate this ability only if you control seven or more lands.
+
+Golgari Rot Farm has the text:  
+
+When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
+
+I have 6 lands on the board including Shrine of the Forsaken Gods.  If I play a Golgari Rot Farm, can I tap Shrine of the Forsaken Gods for {C}{C} before bouncing the land from Golgari Rot Farm?  Do I control seven lands at that point?
+
+A:
+
+Yes, you can.
+Golgari Rot Farm's ability goes on the stack as soon as it enters the battlefield, and while it is there, all players get priority to do something before it resolves and you need to bounce a land. At that moment, you control seven lands and can tap Shrine of the Forsaken Gods for two colorless mana. This will work even though you might want to use it to cast a creature (which you can't if the stack isn't empty); you can 'float' the mana, because you will lose it only at the end of the current step or phase.
+

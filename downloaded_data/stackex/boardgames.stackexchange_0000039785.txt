@@ -1,0 +1,18 @@
+Q:
+
+When a creature affected by a change-of-control effect is destroyed, where does it go?
+
+If I use Captivating Crew to gain control of opponent's creature before my combat phase and then attack with that creature, if that creature is then blocked and destroyed does it go to opponent's graveyard? Seems like it would. Just wanting to know for sure. 
+
+A:
+
+Yes, cards will always go to the owner's graveyard, not the controller's. The other answer quotes the rules dealing with specific cases of a permanent going to the graveyard, but there's another more general rule that ensures that it is impossible to lose track of which cards are actually owned by which player:
+
+400.3. If an object would go to any library, graveyard, or hand other than its owner’s, it goes to its owner’s corresponding zone.
+
+This rule is important, because "owner" is more than just an in-game term, it generally refers to the actual real-world owner of a card:
+
+108.3. The owner of a card in the game is the player who started the game with it in his or her deck. If a card is brought into the game from outside the game rather than starting in a player’s deck, its owner is the player who brought it into the game.
+
+Of course, you may be playing with a friend's deck, etc, so the in-game owner may not be the real-life owner, but this is still a necessary rule for dealing with the common situation of players playing with their own cards.
+

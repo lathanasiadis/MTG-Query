@@ -1,0 +1,30 @@
+Q:
+
+Can I make a planeswalker harder to attack by making it a creature with flying?
+
+So a weird combo popped into my head. If I use Memnarch to turn Nicol Bolas, the Arisen into an artifact, then use March of the Machines to turn him into Artifact Creature Planeswalker and tap Dragon Blood to put a +1/+1 counter on him and I have a Sapphire Drake on the field, is he still a legitimate target?
+Since, you know, you can’t attack something with flying?
+I know at the very least that only creatures with flying and reach will be able to block him. But other than that, this is rather puzzeling.
+
+A:
+
+This doesn't work. The rule “you can’t attack something with flying” doesn't exist. It doesn't exist because you don't attack creatures: you just announce creatures as attacking a player or planeswalker, and then the defending player assigns blockers.
+Flying only controls what can be declared as a blocker of that creature, and nothing else. Here's the rules on what flying means:
+
+702.9b A creature with flying can't be blocked except by creatures with flying and/or reach. A creature with flying can block a creature with or without flying.
+
+Meanwhile the procedure for attacking remains unchanged:
+
+You declare which creatures will be attacking.
+You choose which opponents or opponents' planeswalkers they will attack.
+
+No mention of flying. I can declare a creature as attacking your planeswalker if it's also a creature with flying, because I'm attacking that planeswalker under the rules for attacking planeswalkers. That it's a creature and has flying simply isn't factored into this process.
+Your intuition around flying is in a reasonable place, but flying doesn't actually do anything for you here.
+You do get to have Bolas as both a flying creature (that can attack!) and a planeswalker though, and that can be handy. However he'll be more vulnerable to removal: many more burn and removal spells can now target him. Also, any damage dealt to him, such as in combat or by burn spells, will result in him both losing loyalty counters and having damage marked on him. From the rules on Planeswalkers:
+
+306.8. Damage dealt to a planeswalker results in that many loyalty counters being removed from it.
+
+Since he's both a planeswalker and creature, and creatures may still attack him, we also run into a rare fun situation mentioned in the rulings for Gideon, Champion of Justice: he can block on his own behalf, even versus creatures declared attacking him as a planeswalker. Let's quote that ruling but swap mentions of Gideon for Bolas:
+
+[Say Nicol Bolas, the Arisen is also a creature.] You may have any of your creatures attack [Nicol Bolas] (since he’s still a planeswalker). Then [Nicol Bolas] may block (since he’s a creature). He may block any eligible attacking creature, including one that’s attacking him! During combat, he behaves as an attacked planeswalker and/or a blocking creature, as appropriate. For example, he deals combat damage to any creatures he’s blocking, but he doesn’t deal combat damage to any unblocked creatures that are attacking him.
+

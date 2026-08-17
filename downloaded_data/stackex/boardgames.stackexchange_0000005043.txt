@@ -1,0 +1,40 @@
+Q:
+
+In MTG, do Werewolves transform due to an out of range turn? Or an out of range player's spells?
+
+The werewolves of Innistrad (such as Reckless Waif) transform from the following abilities:
+
+[Human Side]
+At the beginning of each upkeep, if no spells were cast last turn, transform [this card].
+[Werewolf Side]
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform [this card].
+
+I am not sure how these behave in a multiplayer game involving Limited Range. Suppose I am playing a 4 person, attack left, Limited Range of 1 player, so there is one person in my range on my left, one in my range on my right, and one out of my range. In that game...
+Are my werewolves affected by the out of range player's spells?
+Are my werewolves affected by other player's spells on the out of range player's turn?
+Those are the important two questions, but I think this might be easier to understand/answer with examples, so I'm specifically curious what happens in the following situations:
+
+I have a human side werewolf such as Reckless Waif on the battlefield and no one plays any spells during the out of range player's turn, will the Reckless Waif transform? (On the next upkeep, of course)
+
+I have a human side werewolf such as Reckless Waif on the battlefield and the out of range player plays one or more spells on their turn, but no one else does, will the Reckless Waif transform?
+
+I have a human side werewolf such as Reckless Waif on the battlefield and the out of range player plays one or more spells during an in range turn, but no one else does, will the Reckless Waif transform?
+
+I have a werewolf side werewolf such as Merciless Predator on the battlefield and the out of range player plays two or more spells on their turn, but no one else does, will the Merciless Predator transform?
+
+I have a werewolf side werewolf such as Merciless Predator on the battlefield and a player in my range plays two or more spells during the out of range player's turn, will the Merciless Predator transform?
+
+I have a werewolf side werewolf such as Merciless Predator on the battlefield and the out of range player plays two or more spells during an in range turn, but no one else does, will the Merciless Predator transform?
+
+Are there any other common situations I missed?
+EDIT: I mistakenly called the range "Spell Range" but I really meant "Limited Range of Influence", referenced by section 801 in the comp rules. I've read the section, and I THINK I know the result, but I am still very interested in another human's interpretation of the rules, because the result seems somewhat counter-intuitive to me.
+
+A:
+
+It would seem that the trigger does not even go off unless both the player currently taking their turn and the previous turn were both inside your range of influence.
+
+801.7. A triggered ability doesn‘t trigger unless its trigger event happens entirely within the range of  influence of its source‘s
+  controller.
+
+On turns that the trigger does go off, one expects out of range spells would be completely ignored.
+

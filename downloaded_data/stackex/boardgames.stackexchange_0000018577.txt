@@ -1,0 +1,21 @@
+Q:
+
+Stealing and Phasing
+
+Say I borrowed an opponent's creature (e.g. via Threaten) and then let it phase out (e.g. via Reality Ripple). Under whose control does it phase in, and when? Under whose control does it phase in if Time and Tide is cast the same turn?
+
+A:
+
+When the creature phases in on your next untap step, your opponent will control it. It phases in on your next untap step because rule 702.25a says
+
+Phasing is a static ability that modifies the rules of the untap step. During each player’s untap step, before the active player untaps his or her permanents, all phased-in permanents with phasing that player controls “phase out.” Simultaneously, all phased-out permanents that had phased out under that player’s control “phase in.”.
+
+Since the permanent phased out under your control, it phases in on your untap step. Your opponent will control it because rule 702.25e says
+
+Continuous effects that affect a phased-out permanent may expire while that permanent is phased out. If so, they will no longer affect that permanent once it’s phased in. In particular, effects with “for as long as” durations that track that permanent (see rule 611.2b) end when that permanent phases out because they can no longer see it.
+
+The Threaten effect lasts "until end of turn", so at the end of your turn the effect ended. Therefore, when the creature phases in, the effect that made you control it expires and control reverts to the previous controller.
+If Time and Tide causes the permanent to phase in during your turn, you will still control it until your turn ends. Rule 702.25d says
+
+The phasing event doesn’t actually cause a permanent to change zones or control, even though it’s treated as though it’s not on the battlefield and not under its controller’s control while it’s phased out. Zone-change triggers don’t trigger when a permanent phases in or out. Counters remain on a permanent while it’s phased out. Effects that check a phased-in permanent’s history won’t treat the phasing event as having caused the permanent to leave or enter the battlefield or its controller’s control.
+

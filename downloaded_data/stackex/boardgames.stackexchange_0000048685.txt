@@ -1,0 +1,18 @@
+Q:
+
+Does Rayami, First of the Fallen exile itself?
+
+If Rayami, First of the Fallen dies does its ability exile itself?
+Relevant card text:
+
+If a nontoken creature would die, exile that card with a blood counter on it instead.
+
+A:
+
+Yes.
+The first paragraph creates a replacement effect. A replacement effect changes what happens as it happens, rather than reacting to it like a triggered ability does.
+When Rayami, First of the Fallen would die (would be moved to the graveyard from the battlefield), it must necessarily be on the battlefield. As such, it is subject to its own ability.
+Put differently, a game of Magic is a sequence of discrete states. This means that a creature that dies is on the battlefield one instant, and in the graveyard (or exile) the next. It's never in between. That means that Rayami must be on the battlefield when you decide to where to move it (because it couldn't possibly be in the graveyard or exile already).
+
+Of course, if Rayami is your Commander, you don't have to exile it; you could choose to move it to the Command Zone instead. In that situation, you'd have two replacement effects vying to change Rayami's destination, so you get to apply the effects in the order of your choice (though the order doesn't matter here).
+

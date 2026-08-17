@@ -1,0 +1,20 @@
+Q:
+
+"Whenever you draw a card" trigger w/ an empty library
+
+In Magic: The Gathering, let's say you have out Ormos, Archive Keeper as well as Psychosis Crawler and you're down to an empty library. Something allows you to attempt to draw a card from the empty library and you trigger Ormos's ability, but what about Psychosis Crawler? I would guess since no card is literally being drawn, Psychosis Crawler's ability wouldn't trigger, but I wonder if the act of drawing in the first place would trigger it anyways, regardless of whether a card was taken to hand from the library or not.
+
+A:
+
+Psychosis crawler would not trigger.
+This is, in part, because Psychosis Crawler has a triggered ability and Ormos, Archive Keeper's ability is a replacement effect, and one that prevents the default action of drawing a card from happening. Replacement effects like Ormos's are explained in the Comprehensive Rules:
+
+614.1a Effects that use the word "instead" are replacement effects. Most replacement effects use the word "instead" to indicate what events will be replaced with other events.
+
+Because Ormos is one of the replacement effects that completely replaces the original event, it never happens, and anything that was looking for that event doesn't trigger:
+
+614.6 If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can’t be carried out, in which case the impossible instruction is simply ignored.
+
+In addition to this, Psychosis Crawler isn't looking for an effect to tell you to draw a card, it's looking for the actual effect of drawing a card. If you had some effect that prevented a game loss for drawing from an empty library, like Platinum Angel you still have not drawn any cards, so the trigger conditions on Psychosis Crawler have not been met.
+Think of it similarly to how Teferi's Ageless Insight interacts with Psychosis Crawler but in reverse. When you draw two cards you've still got a single event making you draw those cards, that event just had a replacement effect making you draw an additional card. Psychosis Crawler will trigger twice since two cards were drawn, if replacing 1 draw with 0 cards drawn still triggered Crawler once, replacing 1 card drawn with 2 would do the same.
+

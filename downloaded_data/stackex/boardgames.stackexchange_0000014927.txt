@@ -1,0 +1,18 @@
+Q:
+
+Can you cast an instant damage spell between first strike and normal damage?
+
+We had a situation occur in a game where my opponent had a creature with first strike, and I had one that didn't.
+They attacked and I blocked, first strike creature did it's damage which didn't kill my creature, then before I was to apply damage my opponent tried to cast an instant which would have killed my creature.
+Is this legal?
+If the instant hadn't resolved I'd have killed my opponent's creature, but because we ruled that it did resolve before my creature did combat damage my creature died and her creature lived to fight another round.
+
+A:
+
+It seems that you can cast instants and trigger abilities that run at instant speed between first strike and normal damage.
+
+510.4. Fourth, the active player gets priority. Players may cast spells and activate abilities.
+510.5. If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+The 510.4 and the highlighted portion of 510.5 shows that the combat damage step begins anew, and just before this, the active player gets priority. So therefore instants can be cast.
+

@@ -1,0 +1,10 @@
+Q:
+
+When does Chief of the Edge die?
+
+Lets say my friend attacks with Chief of the Edge and two other Warrior creatures, and I declare three blockers, one on each creature. If Chief of the Edge dies due to combat damage from blockers, when do the other Warriors lose the +1/+0? Is it instantly and now his 2 other creatures are normal again?
+
+A:
+
+All combat damage happens simultaneously, and creatures who have taken lethal damage will die almost immediately after damage is assigned (before the next time any player could do anything else; when state-based actions are checked). This means that the warrior creatures will still do the 1 extra damage during the combat which causes Chief of the Edge to die, and will lose the +1/+0 immediately after that.
+

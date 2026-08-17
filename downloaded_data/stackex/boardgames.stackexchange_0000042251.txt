@@ -1,0 +1,23 @@
+Q:
+
+How does this Interaction between Lifeline and Lethal Vapors work?
+
+In Magic: The Gathering, Lethal Vapors will Destroy a creature when it enters the battlefield.  And Lifeline reads:
+
+Whenever a creature dies, if another creature is on the battlefield,
+  return the first card to the battlefield under its owner's control at
+  the beginning of the next end step.
+
+So, if a creature dies while these two cards are in play and at least one other creature is on the battlefield when that happens, what happens at the end of the current turn?
+The creature that died will return to the battlefield from the graveyard, and then be destroyed, again.  But then what?  Since it's the end of the turn, does he immediately return, triggering an infinite loop?
+
+A:
+
+No, there will not be an infinite loop. The card will not return to the battlefield until the following turn.
+Once the end step has begun, and Lifeline's delayed trigger is put on the stack, it is too late for more “beginning of the next end step” stuff to happen during that end step.
+
+513.2. If a permanent with an ability that triggers “at the beginning of the end step” enters the battlefield during this step, that ability won’t trigger until the next turn’s end step. Likewise, if a delayed triggered ability that triggers “at the beginning of the next end step” is created during this step, that ability won’t trigger until the next turn’s end step. In other words, the step doesn’t “back up” so those abilities can go on the stack. This rule applies only to triggered abilities; it doesn’t apply to continuous effects whose durations say “until end of turn” or “this turn.” (See rule 514, “Cleanup Step.”)
+
+So what will happen is that every end step, the card will return and then be destroyed right after (assuming no one responds to either ability). This will repeat every turn, but only once each turn. 
+If instead of Lifeline, you have something that brings the creatures back immediately (such as an undying creature with Solemnity on the battlefield), then it would be an infinite loop, and the game will end in a draw unless one player chooses to respond by breaking the loop (such as activating Lethal Vapr's other ability).
+

@@ -1,0 +1,20 @@
+Q:
+
+Does Rot Wolf's ability work even if he dies?
+
+Scenario 1:
+My Rot Wolf (2/2 with Infect) is attacking.  My opponent assigns his Defiant Elf (1/1 with Trample) to block.  He then plays Giant Growth on his 1/1 to become a 4/4 until end of turn.
+Now, my Rot Wolf gets dealt 4 damage and dies, I understand that, and his Elf gets 2 -1/-1 counters on it.  However, once the turn is over, Giant Growth wears off, and his Defiant Elf becomes -1/-1 and dies.  The question is, do I get to draw a card because the Elf was put into a graveyard and was dealt damage by Rot Wolf this turn? Or is it that because Rot Wolf was put into the graveyard before the Elf was, does his ability not enable me to draw?
+Scenario 2:
+My Rot Wolf attacks, he blocks with his Grizzly Bears (2/2).  Both get dealt 2 damage and die.  In this case, however, both go into the graveyard at the same time, would I get to draw a card now? or does the Rot Wolf have to survive combat for me to draw?
+
+A:
+
+Yes to your second scenario! Time to check the Comprehensive rules again. This is a long one. Emphasis mine:
+
+603.6d Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially because the object with the ability may no longer be on the battlefield, may have moved to a hand or library, or may no longer be controlled by the appropriate player. The game has to "look back in time" to determine if these abilities trigger. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward.
+  Example: Two creatures are on the battlefield along with an artifact that has the ability "Whenever a creature is put into a graveyard from the battlefield, you gain 1 life." Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifact's ability triggers twice, even though the artifact goes to its owner's graveyard at the same time as the creatures.
+
+Now we all agree that in your first example, the Rot Wolf is long dead and his ability means squat sitting in the graveyard when the Elf dies.
+But in the second example, the Bear and the Rot Wolf die at the same time, so the Rot Wolf's ability triggers even though the wolf is on the way to the graveyard.
+

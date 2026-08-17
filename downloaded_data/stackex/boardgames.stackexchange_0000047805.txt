@@ -1,0 +1,21 @@
+Q:
+
+How does Kaya's Ghostform interact with Elenda, the Dusk Rose?
+
+Let's say I have Elenda, the Dusk Rose in play, enchanted with Kaya's Ghostform. My opponent has a zombie creature token.
+I then cast Kaya's Wrath, destroying Elenda and the zombie.
+When the zombie dies, Elenda's ability goes on the stack, intending to giving her a +1/+1 counter. Since Elenda just died, normally this would do nothing (the ability can't find its target as it resolves).
+But can I, as Elenda's controller, choose to resolve Kaya's Ghostform first, returning Elenda to the battlefield, then resolve her triggered ability, giving her the +1/+1 counter? Or is the Elenda that returns "different" from the Elenda whose ability was triggered?
+
+A:
+
+You can indeed choose which ability resolves first, but it won't help you.
+
+Or is the Elenda that returns "different" from the Elenda whose ability was triggered?
+
+Yes, this is exactly what is going on. The rules state:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+There follow nine exceptions to this rule but the situation caused by Kaya's Ghostform isn't one of them.
+

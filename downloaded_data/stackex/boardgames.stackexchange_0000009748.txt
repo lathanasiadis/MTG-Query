@@ -1,0 +1,15 @@
+Q:
+
+How long can I wait before choosing to counter a spell?
+
+Today, I was playing a duel, and my friend played a Wall of Reverence, which he then ended up enchanting with an Ethereal Armor. Between those two actions he asked me if I would counter it, to which I answered that I would wait for him to play the rest of his cards so I could choose what to do. He said that I had to counter the Wall of Reverence before he played Ethereal Armor for the counter to work. Was he right about that?
+
+A:
+
+Your friend was right. 
+Casting spells and activating abilities puts them on the so-called Stack before they actually resolve and turn into creatures, enchantments, and so on. The Stack is a pretty important part of MtG. 
+You can only counter spells and abilities while they are on the stack; indeed, a spell can only be a spell on the stack, and if you read your counter spells carefully, they say exactly that: counter target spell. Therefore, if it's not on the Stack, you can't counter it, because it can't be a spell. Once a spell has resolved, it's off the Stack and it's too late to counter it. 
+Most spells, like creature, enchantment, or sorcery spells can only be played while the stack is empty, among other things. That means, if your friend first played a creature (the Wall of Reverence), and then an enchantment (Ethereal Armor) on that Wall, the Wall can no longer be on the Stack and must already be on the battlefield. Not to mention that this enchantment requires a target, which can in this case only be a creature that's already on the battlefield.
+The only situation where you can choose which spell to counter is, obviously, when multiple spells are on the Stack. The first spell can be anything, and the other spells are typically instants. 
+Note that your opponent is not required to respond to a spell, even if he could (which he could not in this case) - if he so chooses, he can just let any spell resolve, then cast the next, let it resolve, and so on, until he has played everything he wanted to. Indeed, this is a common strategy against a player like you who plays counter spells, because he forces you to decide on incomplete information. If all spells were on the Stack at the same time, you would of course have a much easier time to decide which spell to counter, if any, which is why a smart player would deny you that opportunity, and he has every right to do so.
+

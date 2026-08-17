@@ -1,0 +1,16 @@
+Q:
+
+Does untapping an attacker stop its attack?
+
+If someone declares an attacker and that creature does not have vigilance, if I untap that creature, for example with Burst of Energy, does it stop the creature from attacking?
+
+A:
+
+No, it does not.
+Once an attacker is declared, it is attacking. Tapping or untapping it after it has been declared as an attacker will have no effect on that.
+
+506.4b Tapping or untapping a creature that’s already been declared as an attacker or blocker doesn’t remove it from combat and doesn’t prevent its combat damage.
+
+While untapping does not stop an attacking creature, you can use an effect like Tumble Magnet in a player's "Beginning of Combat" step to prevent a specific creature from being tapped to attack. It is important to note, however, that you must do this BEFORE your opponent taps their creatures to attack.
+There are cards such as Gustcloak Savior which do behave in the manner described in the question. However, these cards explicitly remove the creature from combat. The untapping element is unrelated and incidental. If an effect only untaps an attacker, it is still attacking. Similarly, if an effect only removes a tapped attacker from combat, it is still tapped unless the effect explicitly untaps it.
+

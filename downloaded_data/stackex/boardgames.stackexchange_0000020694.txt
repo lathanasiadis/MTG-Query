@@ -1,0 +1,21 @@
+Q:
+
+Will an object trigger if the source is sacrificed to pay a cost?
+
+Will "When/Whenever Foo" trigger if the source is sacrificed to pay a cost for Foo?
+Examples
+If I activate Birthing Pod's ability and sacrifice Kurkesh, Onakke Ancient, will Kurkesh trigger, allowing me to copy Birthing Pod's ability?
+If I cast Life Legacy and sacrifice Basilica Screecher to pay for the cost, will Basilica Screecher trigger, allowing me to extort?
+
+A:
+
+If a creature with a triggered ability leaves the battlefield before the triggered ability's condition occurs, the ability is not triggered. Rule 603.6d says
+
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
+
+In your specific situation, rule 601.2h says
+
+Once the steps described in 601.2a–g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell's controller had priority before casting it, he or she gets priority.
+
+One of those steps is paying costs. Activated abilities follow the same steps. So in both of your examples, the creature is no longer on the battlefield by the time the spell is cast or the ability is activated.
+

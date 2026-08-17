@@ -1,0 +1,22 @@
+Q:
+
+Do I get to play a planeswalker's ability when I transform the card?
+
+Assume that I played an ability of Garruk Relentless and I successfully transformed him, do I get to play his transformed ability or do I have to wait for the next turn?
+
+A:
+
+Gatherer says that
+
+You can’t activate a loyalty ability of Garruk Relentless and later that turn after he transforms activate a loyalty ability of Garruk, the Veil-Cursed.
+
+So you can't. The actual rule in play here is 606.3:
+
+A player may activate a loyalty ability of a permanent they control any time they have priority and the stack is empty during a main phase of their turn, but only if no player has previously activated a loyalty ability of that permanent that turn.
+
+(Emphasis mine.) Transforming a permanent does not make it into a new object, by rule 711.12:
+
+When a double-faced permanent transforms, it doesn’t become a new object. Any effects that applied to that permanent will continue to apply to it after it transforms.
+
+Therefore, if you have already played one of the loyalty abilities of Garruk Relentless this turn, then after he transforms into Garruk, the Veil-Cursed he is still the same permanent so the rules forbid you from activating any of his loyalty abilities.
+

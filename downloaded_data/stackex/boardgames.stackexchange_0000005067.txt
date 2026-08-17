@@ -1,0 +1,39 @@
+Q:
+
+Can I redirect a spell to another type of target in MTG?
+
+M12 features the card Redirect, which allows you to choose new targets for a spell. Innistrad introduced the card Into the Maw of Hell, which deals 13 damage to target creature.
+Can I redirect the damage from Into the Maw of Hell to target player with the spell Redirect or must the type of target (in this case creature) stay the same?
+
+A:
+
+You can't redirect Into The Maw of Hell to a player.
+Redirect allows you to choose new legal targets for a spell.  As such, you must choose one valid target land and one valid target creature for Into The Maw of Hell to (newly) target.  If (for instance) there is only one creature in play - yours - you could Redirect Into The Maw of Hell such that it destroyed a different land, but you would still have to keep it targeting your creature, because there are no other available legal choices.
+The relevant section of the Comprehensive Rules (and the most relevant paragraph highlighted by me):
+
+114.6. Some effects allow a player to change the target(s) of a spell or ability, and other effects allow a player to choose new targets for
+  a spell or ability.
+114.6a If an effect allows a player to "change the target(s)" of a spell or ability, each target can be changed only to another legal
+  target. If a target can't be changed to another legal target, the
+  original target is unchanged, even if the original target is itself
+  illegal by then. If all the targets aren't changed to other legal
+  targets, none of them are changed.
+114.6b If an effect allows a player to "change a target" of a spell or ability, the process described in rule 114.6a is followed, except that
+  only one of those targets may be changed (rather than all of them or
+  none of them).
+114.6c If an effect allows a player to "change any targets" of a spell or ability, the process described in rule 114.6a is followed, except
+  that any number of those targets may be changed (rather than all of
+  them or none of them).
+114.6d If an effect allows a player to "choose new targets" for a spell or ability, the player may leave any number of the targets
+  unchanged, even if those targets would be illegal. If the player
+  chooses to change some or all of the targets, the new targets must be
+  legal and must not cause any unchanged targets to become illegal.
+114.6e When changing targets or choosing new targets for a spell or ability, only the final set of targets is evaluated to determine
+  whether the change is legal. Example: Arc Trail is a sorcery that
+  reads "Arc Trail deals 2 damage to target creature or player and 1
+  damage to another target creature or player." The current targets of
+  Arc Trail are Runeclaw Bear and Llanowar Elves, in that order. You
+  cast Redirect, an instant that reads "You may choose new targets for
+  target spell," targeting Arc Trail. You can change the first target to
+  Llanowar Elves and change the second target to Runeclaw Bear.
+

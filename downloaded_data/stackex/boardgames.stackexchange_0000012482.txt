@@ -1,0 +1,71 @@
+Q:
+
+If creatures targeted by Living Inferno's ability all die, what happens?
+
+If I were to target a ton of creatures with Living Inferno's ability and then all those creatures were to die (or be sacrificed, per Dismiss Into Dream) in response to Living Inferno's ability going on the stack, what would happen?
+I can see one of two things:
+
+The creatures die, then LI's ability checks for the creatures, sees that they aren't there, and then fizzles.
+When LI's ability goes on the stack it records the creatures power, thus ensuring that LI gets dealt damage when it's ability resolves.
+
+A:
+
+The ability fizzles if and only if,  all of it's targets are gone, so long at least one of it's targets is still there, It will still resolve and deal damage to that target, but if they're all gone, the ability is countered(fizzles)
+
+Creatures on the battle field can't perform actions(such as dealing damage) if they are illegal targets of the ability, and they're illegal targets of the ability if they've changed zones(such as from the battlefield to the graveyard).
+If they died while living Inferno's ability was on the stack, than those creates would not deal damage.
+
+both of these points are covered by section 608.2b of the comp rules
+
+608.2b
+If the spell or ability specifies targets, it checks whether the targets are
+still legal. A target that’s no longer in the zone it
+was in when it was targeted is illegal. Other changes to the game
+state may cause a target to no longer be legal; for example, its
+characteristics may have changed or an effect may have changed the
+text of the spell. If the source of an ability has left the zone it
+was in, its last known information is used during this process. The
+spell or ability is countered if all its targets, for every instance
+of the word “target,” are now illegal. If the spell or ability is not
+countered, it will resolve normally. However, if any of its targets
+are illegal, the part of the spell or ability’s effect for which it is
+an illegal target can’t perform any actions on that target, make
+another object or player perform any actions on that target, or make
+that target perform any actions. The effect may still determine
+information about illegal targets, though, and other parts of the
+effect for which those targets are not illegal may still affect them.
+
+Example:
+Sorin’s Thirst is a black instant that reads, “Sorin’s Thirst
+deals 2 damage to target creature and you gain 2 life.” If the
+creature isn’t a legal target during the resolution of Sorin’s Thirst
+(say, if the creature has gained protection from black or left the
+battlefield), then Sorin’s Thirst is countered. Its controller doesn’t
+gain any life.
+
+Example:
+Plague Spores reads, “Destroy target nonblack
+creature and target land. They can’t be regenerated.” Suppose the same
+animated land is chosen both as the nonblack creature and as the land,
+and the color of the creature land is changed to black before Plague
+Spores resolves. Plagues Spores isn’t countered because the black
+creature land is still a legal target for the “target land” part of
+the spell. The “destroy target nonblack creature” part of the spell
+won’t affect that permanent, but the “destroy target land” part of the
+spell will still destroy it. It can’t be regenerated.
+
+This is also supported by the Gatherer ruling for pit fight
+
+1/24/2013     If either target of Pit Fight is an illegal target when the
+ability tries to resolve, neither creature will deal or be dealt
+damage.
+
+take note that pit fight does not fizzle in this case, because it still will have 1 target.
+
+if pit fight isn't good enough for you because it uses the fight mechanic, than the ruling for Flesh/Blood also applies
+
+4/15/2013     As Blood is resolving, if only one of the targets is legal,
+Blood will still resolve but will have no effect: If the first target
+is illegal, it can’t deal damage to anything. If the second target
+creature or player is illegal, it can’t be dealt damage.
+

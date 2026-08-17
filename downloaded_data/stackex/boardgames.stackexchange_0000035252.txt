@@ -1,0 +1,32 @@
+Q:
+
+If someone casts an aura on my creature, do I still control the creature?
+
+Some spells and abilities let you gain control of a permanent. Most of the time, this means the card will move from your opponent's side to yours. But for Auras or Equipment attached to other cards, the controller changes but it doesn't move.
+
+I'm very new to MTG, and read official rules (above) - it says that if someone adds an aura on my creature, this means that I'm no longer controller of that creature.
+So, for example, someone casts Sleep Paralysis on one of my creatures. After, I want to use Fling. Can I sacrifice my creature tapped by Sleep Paralysis?
+Or, for example, I want to cast Certain Death on my creature tapped by Sleep Paralysis. Will I get 2 damage, or my opponent? I'm very confused about creature controlling.
+
+A:
+
+Some spells and abilities let you gain control of a permanent
+
+Sleep Paralysis does not change control of permanents. Lay Claim is an example of an Aura that changes control of a permanent. It has
+
+You control enchanted permanent.
+
+This ability transfers control of the enchanted permanent.
+
+Most of the time, this means the card will move from your opponent's side to yours.
+
+Say you have a creature to which you have a Bone Saw attached, and your opponent attaches Lay Claim to your creature.
+Your opponent controls the creature, so it moves to their side, and they can attack with it and use its abilities (but you can't). You can't sacrifice it to Fling (but they can), and they would lose life if it's targeted by Certain Death (and you wouldn't). It even gets the +1/+0 from Bone Saw.
+However, you still control Bone Saw. As an Aura or Equipment, it physically stays with the creature to which is attached. Only you can use its activated ability (say to equip Bone Saw to a creature you still control).
+
+But for Auras or Equipment attached to other cards, the controller changes but it doesn't move.
+
+Say you have a creature to which you have a Bone Saw attached, and your opponent attaches Lay Claim to Bone Saw (not the creature).
+You control the creature, so it stays on your side, and you can attack with it and use its abilities. You can sacrifice it to Fling, and you would lose life if it's targeted by Certain Death. It even gets the +1/+0 from Bone Saw.
+However, your opponent controls Bone Saw. As an Aura or Equipment, it physically stays with the creature to which is attached. Only they can use its activated ability (say to equip Bone Saw on one of their own creatures).
+

@@ -1,0 +1,21 @@
+Q:
+
+Jeskai cards that will let me draw off of either scrying or spell cast or creature entering the battlefield?
+
+I have just finished a rough deck using Gnostro, Voice of the Crags as the commander. The deck works by using Emissary's Ploy (choosing 1) to cast the deck's creatures(most of which are 1-drops) to bulk-cast spells, then use Gnostro to scry and put more spells on top. If an opponent is causing grief, you can stall a few turns and use the other abilities to gain life or remove the problem creature. Once you've amassed an army and drawn into Flying Crane Technique, swing and most likely win.
+One problem I knew I was going to find is running out of cards in hand, so I tossed in a dozen draw spells(winged words, drawn from dreams, preordain, etc), and a Clear the Mind/Izzet Chronarch combo so I could keep a decent hand and theoretically always have draw spells in my deck. This works okay...until you don't draw one. Another noteworthy card that helps with hand size is Dragon Mage, but he becomes useless if there's a card you need to hold on to(like Flying Crane Technique).
+I want to not have to worry about running out of spells, so I'm looking for a permanent that will let me draw when I either play a spell, play a creature, or scry. Any suggestions?
+Note- thought about it a moment, and in case it's causing confusion, it does not have to be red-white-blue, it just has to be legal in a deck with a Jeskai commander.
+
+A:
+
+There are a several cards that fit your parameters. I found them by searching on Scryfall with the search string ci:uwr is:permanent o:whenever o:draw (o:creature or o:scry). This looks for cards in the Jeskai color identity that are permanents, and have the text "whenever" and "draw" on the card to look for repeated triggered abilties that draw cards, and have the text "cast", "creature" or "scry", to look for triggered abilities with those conditions. This finds a lot of false positives, but it only finds 100 cards total, which is small enough to examine manually.
+The specific cards that match your criteria are:
+
+Customs Depot, which has the ability "Whenever you cast a creature spell, you may pay {1}. If you do, draw a card, then discard a card."
+Hazoret's Monument, which has the ability "Whenever you cast a creature spell, you may discard a card. If you do, draw a card."
+Jeskai Ascendancy, which has the ability "Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card."
+Mentor of the Meek, which has the ability "Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card."
+Whirlwind of Thought, which has the ability "Whenever you cast a noncreature spell, draw a card."
+Zephyr Scribe, which has the abilities "{U}, {T}: Draw a card, then discard a card." and "Whenever you cast a noncreature spell, untap Zephyr Scribe."
+

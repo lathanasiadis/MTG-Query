@@ -1,0 +1,20 @@
+Q:
+
+Are these the right search terms, to find all cards that have their costs reduced by Embalming Tools?
+
+I'm using Embalmer's Tools, and want to find all (monoblue) cards that have their cost reduced by it.
+I have this search term (fo:/{[cwubrg1-9]}.*: .*(this|~) .* from your graveyard/ or fo:/{[cwubrg1-9]}.*(this|~).* from your graveyard:/) and id:u and t:creature, which brings back 17 cards currently.
+Is this a complete search term?
+
+A:
+
+I have an alternate search that finds a few more cards. It looks like the main error in yours, and this is very minor, is putting a space both before and after the .* clause after (this|~) in the first regular expression. The result is that it misses the simple phrase "Return ~ from your graveyard to the battlefield" because there is no word in between the card's name and "from".
+
+(fo:/{\d+}.*:.*(this card|~).*(in|from) your graveyard/ or fo:/{\d+}.*(this card|~).*from your graveyard.*:/) and t:creature and id:u
+
+There are a couple of refinements here. First, I searched for only generic mana costs, because those are the only ones affected by Embalmer's Tools. Second, I fixed the spacing issue I mentioned. Interestingly, if I add the option of the word "in" instead of from in the first regular expression, and remove the color restriction, this would also find cards such as Carrionette, which has an activated ability with the restriction
+
+Activate this ability only if Carrionette is in your graveyard.
+
+My search does find Startled Awake as a false positive because only one of its faces is a creature, and that face is not the one with the activated ability.
+

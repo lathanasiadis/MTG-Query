@@ -1,0 +1,57 @@
+Q:
+
+Vastwood hydra + Cathars' Crusade + Mercy Killing
+
+I have a question about a combat trick involving the cards mentioned in the Title. Situation is:
+I control a 4/4 Kalonian Hydra and a 4/4 Vastwood Hydra. I also have Cathars' Crusade on the battlefield as well.
+On my turn I declare both of the Hydras as attacking creatures. As such the Kalonian Hydra doubles the number of +1/+1 counters on both Hydras, making both of them 8/8 creatures.
+My opponent decides to block my Vastwood Hydra with multible blockers, wich would do  leathal damage to it.
+So when blockers are declared, before combat damage is resolved, I cast Mercy Killing on my Vastwood Hydra. As a result 8 Elf Tokens comes into the battlefield, and triggers Cathars' Crusade (and makes all the Elf tokens 8/8 Elves, but that is not important in this situation)
+It also puts 8 +1/+1 tokens on my Kalonian Hydra, making it a 16/16 Hydra. And when the Vastwood Hydra goes to the graveyard (because I sacrificed it) I distribute all of its 8 +1/+1 counters to my Kalonian Hydra and makes it a 24/24 Hydra.
+Combat damage resovles and the kalonian Hydra kills off my opponent.
+Is this how it would work, or have I missed something?
+
+A:
+
+Vastwood Hydra is already in the graveyard at the point where you say "And when the Vastwood Hydra goes to the graveyard". But everything else is correct.
+
+You declare your attackers. [Kalonian Hydra's third ability triggers.]
+Kalonian Hydra's third ability is placed on the stack, then resolves:
+
+Add 4 +1/+1 counters to Kalonian Hydra.
+Add 4 +1/+1 counters to Vastwood Hydra.
+
+Your opponent declares his blockers.
+You cast Mercy Killing targeting the Vastwood Hydra, then it resolves:
+
+Sacrifice Vastwood Hydra. [It goes to the graveyard here. This triggers its second ability.]
+Put 8[1] 1/1 Elf Warriors on the battlefield. [Cathars' Crusade's ability triggers 8 times.]
+
+At this point, a player (you) is about to gain priority for the first time since some abilities have triggered, so triggered abilities are placed on the stack. You can place your abilities on the stack in any order you want. It doesn't really matter here.
+
+Place Vastwood Hyra's second ability on the stack.
+Place Cathars' Crusade's ability on the stack. (1)
+Place Cathars' Crusade's ability on the stack. (2)
+...
+Place Cathars' Crusade's ability on the stack. (8)
+Cathars' Crusade's ability (8) resolves.
+
+Place a 9th counter on Kalonian Hydra, and one on each of the 8 Elf Warriors.
+
+Cathars' Crusade's ability (7) resolves.
+
+Place a 10th counter on Kalonian Hydra, and a 2nd on each of the 8 Elf Warriors.
+
+...
+Cathars' Crusade's ability (1) resolves.
+
+Place a 16th counter on Kalonian Hydra, and an 8th on each of the 8 Elf Warriors.
+
+Vastwood Hyra's second ability resolves.
+
+Place 8[1] counters on Kalonian Hydra for a total of 24.
+
+Notes:
+
+Last known information (LKI) is used. When it last existed, it had 8 power and 8 +1/+1 counters.
+

@@ -1,0 +1,17 @@
+Q:
+
+Can you use an ability as you put the card on the stack?
+
+If I play Elixir Of Immortality for example, or any card with an ability, when it goes on the stack, can I activate its abilities before my opponent can respond? 
+And if so, if he counters the card after I use its ability, does the ability trigger?
+
+A:
+
+No, you can’t (normally). 
+By default, activated abilities on cards can only be activated while the card is on the battlefield. The exceptions are abilities that either specify that they work from another zone, or abilities that don’t make any sense unless activated from another zone, such as abilities that return cards from the graveyard, or have you discard or reveal a card from your hand. 
+
+112.6. Abilities of an instant or sorcery spell usually function only while that object is on the stack. Abilities of all other objects usually function only while that object is on the battlefield. The exceptions are as follows:
+
+The exceptions allow things such as Reassembling Skeleton to work. 
+Also, be careful not to say “does the ability trigger”, because Elixir of Immortality does not have a triggered ability; it has an activated ability. It will never “trigger”. 
+

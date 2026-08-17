@@ -1,0 +1,13 @@
+Q:
+
+Does an attacker take damage?
+
+If I use my creatures to attack an opponent's creatures (to try to kill a few of them) but they still have some hit points left over, do I as the attacker get the remainder of the hit points taken off?
+
+A:
+
+Short answer
+No, blocking creatures do not do any damage to the attacking player.
+Longer answer
+You seem to have a misunderstanding about how combat works in MTG.  You don't attack your opponent's creatures.  You attack the player.  If that player has creatures, they can use those creatures to block your creatures to prevent your creatures from doing damage to the player.  A blocked creature deals its damage to the creature(s) blocking it and does no damage to the player it attacked (barring abilities like Trample) and the blocking creatures deal damage to the creature they blocked.  Your opponent's blocking creatures are not attacking you, so they won't deal any damage to you, even if they have an ability like Trample (though there may be triggered abilities that trigger and deal damage to the attacking player when a creature blocks.  e.g. Assembled Alphas).
+

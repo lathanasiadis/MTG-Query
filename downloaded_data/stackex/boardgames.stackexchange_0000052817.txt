@@ -1,0 +1,25 @@
+Q:
+
+Blightsteel colossus, Helm of Obedience and Rest in Peace, can my opponent force the game to a draw?
+
+I have a Rest in Peace and Helm of Obedience on the battlefield.
+I activate the Helm for 1 mana, and my opponent starts milling her entire deck.  Assume the only relevant card in her deck is a Blightsteel Colossus.  What happens?
+My understanding is, she has two options, as there are two replacement effects in play.  She gets to chose which one.  Based upon her choice, she enters one of two scenarios:
+Option 1:  She chooses to exile the Blightsteel, and eventually mills her entire deck and loses.
+Option 2: She chooses to shuffle the Blightsteel into her deck, and continues milling.  Eventually she hits Blightsteel again, she shuffles again, continues.  Eventually, Blightsteel is the only card in her deck, and she enters an infinite loop.  In this scenario can she call the game a draw?  Or is she forced to lose?
+
+A:
+
+Even if your opponent keeps reshuffling the Blightsteel Colossus, eventually their whole deck would be exiled. When their Blightsteel Colossus is the last card in their library, but possibly earlier than that, they may not shuffle it back again and must exile it instead. When your opponent's library is empty, Helm of Obedience cannot continue its process, its resolution finishes, and the game continues to their likely loss.
+Rest in Peace prevents any card from entering a graveyard, therefore Helm of Obedience's stop condition would never occur, eventually resulting in a library that only contains the Blightsteel Colossus. If your opponent then continues to shuffle the Colossus back into their library, the game state would no longer change, and the opponent has to choose a different option, i.e. to not shuffle the Colossus, resulting in the colossus being exiled and the library to become empty.
+
+722.3. Sometimes a loop can be fragmented, meaning that each player involved in the loop performs an independent action that results in the same game state being reached multiple times. If that happens, the active player (or, if the active player is not involved in the loop, the first player in turn order who is involved) must then make a different game choice so the loop does not continue.
+
+Once your opponent's library is empty, the process of Helm of Obedience cannot be repeated, its resolution finishes, and the game continues as normal.
+Note that the Blightsteel Colossus being the last card in the library is just a special case. The general case is when your opponent shuffles the BC back into their library, and the BC happens to get shuffled to the very top so that Helm reveals it immediately again. Then the same game state has been reached twice (BC on top of X other cards), at which point we have fulfilled the conditions for a fragmented loop, and your opponent may not take the same decision as before, i.e. he has to exile the BC instead of reshuffling it.
+
+Non-deterministic loops (loops that rely on decision trees, probability or mathematical convergence) may not be shortcut. A player attempting to execute a nondeterministic loop must stop if at any point during the process a previous game state (or one identical in all relevant ways) is reached again. This happens most often in loops that involve shuffling a library. ref
+
+You have to play out the loop because you may not shortcut it. In the worst case, if the BC gets shuffled 2nd from top every time, you would have to perform ~X shuffles, where X is the number of cards remaining in the library. Therefore, if this happens in a tournament with time constraints looming, immediately call a judge to discuss the matter and how to proceed.
+If time is not a constraint, the result is always the same: Your opponent will be caught in a fragmented loop at some point and has to exile the BC (in fact, also multiple BCs and all other cards that may be shuffled back), along with the rest of their library.
+

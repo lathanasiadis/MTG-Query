@@ -1,0 +1,31 @@
+Q:
+
+When does Heroic trigger?
+
+Suppose Player 1 controls a Favored Hoplite and casts Ordeal of Heliod targeting it. In response, player 2 casts Magma Jet on the Favored Hoplite.
+Does the Heroic trigger from Ordeal of Heliod happen before Magma Jet, thus saving Favored Hoplite? Or does Magma Jet kill Favored Hoplite, with Ordeal of Heliod no longer having a valid target?
+
+A:
+
+Favored Hoplite won't be saved. Ordeal of Heliod will have no valid target, will be considered countered, and will be sent to Player 1's graveyard.
+When do Heroic abilities trigger?
+Heroic abilities always follow this format:
+
+Heroic — Whenever you cast a spell that targets {this card}, {do something special}
+
+They trigger right after a spell is cast. A spell is considered cast when you place it on the stack, having paid its costs, chosen its target, and so on. This is the point when you and other players can put other spells and abilities on the stack to respond to that spell. It's also before the spell resolves. (Tangentially: even if a spell gets countered, that doesn't change that it was considered cast at some point. It just doesn't get to resolve.)
+So you cast a spell targeting your Favored Hoplite, triggering its ability, which goes on the stack on top of the spell. The Heroic ability resolves before the spell does:
+
+Ordeal of Heliod (bottom)
+Favored Hoplite's Heroic ability
+
+However, these haven't resolved yet. At this point, before either resolves, you and the other players have an opportunity to place other spells and abilities on the stack. If you're confused about how the stack works, check this question: In plain English, how does casting spells and using creature abilities work with the stack and priority?
+What happens in this scenario?
+In this case, your opponent may immediately cast Magma Jet (since it's an Instant) before either the Heroic ability or Ordeal of Heliod have a chance to resolve. That would make the stack look like this:
+
+Ordeal of Heliod (bottom)
+Favored Hoplite's Heroic ability
+Magma Jet
+
+Magma Jet will resolve first and kill your Favored Hoplite before the Heroic ability or Ordeal of Heliod get to do anything about it. You'll need to find another way to save it. That could include casting any instant targeting Favored Hoplite, which will trigger its Heroic ability again - and that one will resolve before Magma Jet and save it.
+

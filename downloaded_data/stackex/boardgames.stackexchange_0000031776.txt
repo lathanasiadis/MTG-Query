@@ -1,0 +1,11 @@
+Q:
+
+Landfall, land creature enter effect
+
+If I have a creature like Embodiment of Fury and I play a land and use its landfall effect on the land that just entered will it trigger entry effects, for example Elemental Bond?
+Is it seen as entering as a land then turning into a creature or is it seen as entering as a creature?
+
+A:
+
+The land enters as a land, and only later turns into a creature. This is because Embodiment of Fury's effect is a triggered ability, so the ability has to go on the stack after the land enters, and only later when the ability resolves (perhaps much later, if the players feel like responding to it) does the land become a creature. If instead you controlled e.g. a static ability which said something like "All lands are also 3/3 creatures", the land would enter as a creature and trigger effects like Elemental Bond.
+

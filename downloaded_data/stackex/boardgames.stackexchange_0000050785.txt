@@ -1,0 +1,20 @@
+Q:
+
+Ikora mutate game objects
+
+If I mutate and place the mutate creature on top of a card that was tracking state will this be a new game object and forget whatever state it was tracking. For example, if I mutate and place the mutate on top of Circu Dimir Lobotomist will the card still remember what Circu removed from game or will this function like I flickered the card?
+Also if the previous example is a new game object does top or bottom affect whether it's a new game object?
+Sorry Circu is a bad example because he's human but the effect that I was looking for was on the card.
+
+A:
+
+The resulting creature is the same game object that you already had on the battlefield before; all it does is change characteristics. Similar to if someone cast a Turn to Frog on it.
+This is the case whether you put the original creature card on top or on bottom of the new mutate card.  
+From the Ikoria mechanics article:
+
+It simply makes the creature that was already on the battlefield change characteristics. If that original creature was tapped, the new merged creature is tapped. If it had any counters on it, or Auras or Equipment attached to it, it still does.
+
+Also in the overview video, it says 
+
+It’s still the same creature it was; it just changed characteristics. 
+

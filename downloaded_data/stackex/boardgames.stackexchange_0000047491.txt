@@ -1,0 +1,31 @@
+Q:
+
+How does Ixalan's Binding work against God Eternals?
+
+Ixalan's Binding has this text:
+
+When Ixalan's Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan's Binding leaves the battlefield.
+Your opponents can't cast spells with the same name as the exiled card.
+
+God Eternals, such as God-Eternal Oketra, have this line:
+
+When God-Eternal Oketra dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
+
+If I target God-Eternal Oketra with Ixalan's Binding, and the opponent chooses to put it back into his library 3rd from the top, will he be able to cast the God-Eternal without destroying Ixalan's Binding? That is, does Ixalan's Binding "remember" the name of the card that was exiled before it was put back into the deck?
+If the answer is yes, the opponent can recast the God-Eternal, does that mean that if the exiled card leaves exile for whatever reason (e.g. it was processed by Wasteland Strangler) then Ixalan's Binding second effect ceases to work?
+
+A:
+
+One of the Rulings below Ixalan's Binding says:
+
+If there is no exiled card (perhaps because the exiled permanent was a token or was a commander that moved to the command zone in the Commander variant), Ixalan’s Binding won’t stop players from casting spells.
+
+Both the effects of God-Eternals and Wasteland Strangler will stop the second effect of Ixalan's Binding. The relevant rule is:
+
+Linked Abilities
+
+607.1. An object may have two abilities printed on it such that one of them causes actions to be taken or objects or players to be affected and the other one directly refers to those actions, objects, or players. If so, these two abilities are linked: the second refers only to actions that were taken or objects or players that were affected by the first, and not by any other ability.
+607.2a If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.
+
+(emphasis mine) – basically, as soon as the card leaves the exile zone one way or the other, Ixalan's Binding stops keeping track of it. Re-exiled cards don't activate the ability again, thanks to the last sentence "that were put there as a result of an instruction to exile them in the first ability."
+

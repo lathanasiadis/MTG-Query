@@ -1,0 +1,37 @@
+Q:
+
+How do Moldgraf Monstrosity and Feldon of the Third Path interact?
+
+Say I'm discarding to hand size and I discard a Moldgraf Monstrosity. When I create a token copy of it with Feldon of the Third Path and I sacrifice it at the end of the turn, would I be able to return two creatures? I'm thinking that the token needs to go to the graveyard in order to "die" and once it does it immediately disappears?
+
+A:
+
+You would get to return two creatures from your graveyard.
+Feldon of the Third Path's ability's effect says
+
+Create a token that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step.
+
+"Sacrifice" is defined in rule 701.15a:
+
+To sacrifice a permanent, its controller moves it from the battlefield directly to its owner’s graveyard. A player can’t sacrifice something that isn’t a permanent, or something that’s a permanent he or she doesn’t control. Sacrificing a permanent doesn’t destroy it, so regeneration or other effects that replace destruction can’t affect this action.
+
+And what it means for a creature to "die" is defined in 700.4:
+
+The term dies means “is put into a graveyard from the battlefield.”
+
+Moldgraf Monstrosity's ability says
+
+When Moldgraf Monstrosity dies, exile it, then return two creature cards at random from your graveyard to the battlefield.
+
+So, sacrificing it triggers its ability. One other thing to note is that the effect has two different instructions, "exile it", and "return two creature card at random from your graveyard to the battlefield". These are two separate instructions, so if you can't complete one, you should still follow the other. This is specified in rule 101.3, which says
+
+Any part of an instruction that’s impossible to perform is ignored. (In many cases the card will specify consequences for this; if it doesn’t, there’s no effect.)
+
+Specifically, the exact order of events plays out like this:
+
+The delayed triggered ability from Feldon's activated ability goes on the stack.
+The triggered ability resolves. You sacrifice the token copy of Moldgraf Monstrosity. Moldgraf Monstrosity's ability triggers.
+State-based actions are evaluated, and the token disappears.
+The triggered ability is put on the stack.
+The triggered ability resolves, and you can't exile the token, but you still get two creatures back.
+

@@ -1,0 +1,16 @@
+Q:
+
+Can an opponent respond to me sacrificing a creature with Diamond Valley?
+
+I tap a Diamond Valley I control to sacrifice one of my creatures, and my opponent responds by removing my creature with Swords to Plowshares (or similar spell). Do I still get the increase in life from Diamond Valley?
+
+A:
+
+Your opponent cannot do this. Diamond Valley sacrifices a creature as part of its activation cost, not part of its effect. By the time your opponent has the ability to respond to Diamond Valley being activated, your creature is already in the graveyard. Swords to Plowshare would not be able to do anything there.
+Be sure to alway go by the official Oracle wording for cards, not whatever is printed (especially for older cards). Diamond Valley says:
+
+{Tap}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
+
+If instead the “sacrifice a creature” part were after the colon, then it would be part of the effect, and when it resolves you would have to sacrifice a creature. If your opponent had responded by destroying your intended creature, you’d have to sacrifice a different creature instead.
+Finally, if instead it said “sacrifice target creature” instead, then if your opponent responded by destroying the target creature, the ability would fizzle and do nothing when it resolves because its only target is no longer legal.
+

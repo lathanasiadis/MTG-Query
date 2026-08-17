@@ -1,0 +1,16 @@
+Q:
+
+Responding to planeswalker with doubling season in play
+
+If I had Doubling Season in play, then I cast any planeswalker, would my opponent be able to destroy it with Hero's Downfall or exile it with Anguished Unmaking before I am able to activate any of its loyalty abilities?
+I know the way priority typically works: you can activate the ability first, but since doubling season is a trigger, I am curious if my opponent could cast an instant while it is on the stack or if the planeswalker would be doubled as it entered, and then my opponent could not respond before I am able to activate it.
+
+A:
+
+You can activate the ability immediately, before any opponent has a chance to respond, because Doubling Season's ability is not a triggered ability.
+Doubling Season's relevant ability says this:
+
+If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.
+
+This is a replacement effect, as indicated by the word "instead". It modifies events as they happen. In this particular situation, it modifies the event of the Planeswalker entering the battlefield by making it enter with twice as many loyalty counters as usual. The rest works the same as always: it enters the battlefield and then you have priority first, with nothing on the stack, so you can immediately activate one of it's abilities.
+

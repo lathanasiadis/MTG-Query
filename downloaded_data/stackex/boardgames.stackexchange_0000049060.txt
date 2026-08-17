@@ -1,0 +1,11 @@
+Q:
+
+What happens if an attacking creature is blocked by a creature with equal power and toughness?
+
+What happens if you block an attacking creature with a creature that has equal power and toughness as the attacking creature? Do they both die or bounce off each other?
+
+A:
+
+It will depend on their actual power and toughness. If their power is higher than or equal to their toughness (two 2/1 creatures or two 1/1 creatures blocking each other) they'll both die; if the toughness is higher (two 1/2 creatures) they'll both survive.
+That's the story for vanilla creatures (i.e. without abilities); some abilities, like First strike and Deathtouch, might influence the outcome.
+

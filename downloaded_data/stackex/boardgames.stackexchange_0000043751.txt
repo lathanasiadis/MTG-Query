@@ -1,0 +1,17 @@
+Q:
+
+What happens if a double-faced card that is copying a different double-faced card that is part of a melded creature tries to meld?
+
+We already have a similar question about double faced cards transforming, however, this covers a single card transforming. Meld exiles a pair of cards and returns them "transformed" into a single card.
+Say a player controls Hanweir Battlements and also controls a Chandra, Fire of Kaladesh enchanted with Metamorphic Alteration to be a copy of Hanweir Garrison. What happens when the meld effect tries to create Hanweir, the Writhing Township but can't?
+
+A:
+
+Hanweir Battlements and Chandra are exiled permanently. The Metamorphic Alteration goes to the graveyard.
+As you already noted, only meld cards can meld. You can exile Chandra and the Battlements with Battlement's ability, but those two cards cannot return melded.
+
+701.36b Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren’t meld cards, or meld cards that don’t form a meld pair can’t be melded.
+701.36c If an effect instructs a player to meld cards that can’t be melded, they stay in their current zone.
+
+Note that 701.36b calls for meld cards, not meld objects. Being able to meld is a property of the card, not of the object represented by it.
+

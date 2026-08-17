@@ -1,0 +1,24 @@
+Q:
+
+Supernatural Stamina & Vehicles
+
+I crew a Vehicle to block. Once it's a creature, I cast Supernatural Stamina, targeting the Vehicle. Text for Supernatural Stamina:
+
+Until end of turn, target creature gets +2/+0 and gains "Whenever this creature dies, return it to the battlefield tapped under its owner's control."
+
+If my Vehicle dies, does it return to the battlefield because it met its trigger by dying, or does it remain in the graveyard because the effect checks for a creature, and it's an artifact in the graveyard? If it does return, does it return as a creature until end of turn, or as an uncrewed vehicle?
+
+A:
+
+Your vehicle will return to the battlefield, uncrewed and not a creature.
+The first part is because of rule 201.5:
+
+201.5. If an ability of an object uses a phrase such as “this [something]” to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn’t the appropriate characteristic at the time.
+
+Supernatural Stamina is using "this creature" as a flavorful alternative to "this object". :)
+Meanwhile, it returns as an ordinary uncrewed vehicle because of rule 400.7:
+
+An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are nine exceptions to this rule: [None of these exceptions apply here.]
+
+Once it returns to the battlefield, it has absolutely nothing to do with the previous crewed vehicle object that was represented by that same card. It's a brand new vehicle.
+

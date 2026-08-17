@@ -1,0 +1,22 @@
+Q:
+
+Will Recoil still have creatures controller discard card?
+
+I play recoil on a creature of my opponent. He responds by playing  a vapor snag on this target.
+Will recoil still have him discard a card or will it fizzle completely?
+
+A:
+
+Regarding resolving spells (or abilities) with targets, the rules say (emphasis mine):
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target
+that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game
+state may cause a target to no longer be legal; for example, its characteristics may have changed
+or an effect may have changed the text of the spell. If the source of an ability has left the zone it
+was in, its last known information is used during this process. If all its targets, for every instance
+of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the
+stack and, if it’s a spell, put into its owner’s graveyard. Otherwise, the spell or ability will
+resolve normally.
+
+So the Recoil doesn't resolve at all, and no discard happens. This complete failure of the spell to resolve due to missing targets is what "fizzle" means. "Fizzle completely" is superfluous. Once the time has come to resolve a spell, it either fizzles or it resolves.
+

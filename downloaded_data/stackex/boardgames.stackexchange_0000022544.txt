@@ -1,0 +1,29 @@
+Q:
+
+When must one communicate denial of a shortcut?
+
+Anthony begins his turn by drawing a card. He then immediately turns his creatures sideways and declares "I attack with Runeclaw Bear and Alpine Grizzly."
+Anthony's opponent, Nathan, has 6 life. Nathan has Crippling Chill and Kill Shot in hand, and the mana available to cast either but not both. He has not yet acknowledged Anthony's shortcut to move to combat, nor has he denied it.
+Which of the following is true?
+
+Nathan must immediately deny Anthony's shortcut.
+Nathan may deny the shortcut after pausing to think about what he wants to do.
+
+I am specifically interested in two cases: Regular REL and Competitive REL. If the answer depends on which one is in effect, please cover both. I am not interested in casual play, but you can certainly cover that if you want to.
+
+A:
+
+Regarding shortcuts, the relevant rules for this scenario are:
+
+716.1a The rules for taking shortcuts are largely unformalized. As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable.
+
+as well as
+
+716.2a At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non- repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can’t include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
+716.2b Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where he or she will make a game choice that’s different than what’s been proposed. (The player doesn’t need to specify at this time what the new choice will be.) This place becomes the new ending point of the proposed sequence.
+716.2c Once the last player has either accepted or shortened the shortcut proposal, the shortcut is taken. The game advances to the last proposed ending point, with all game choices contained in the shortcut proposal having been taken. If the shortcut was shortened from the original proposal, the player who now has priority must make a different game choice than what was originally proposed for that player.
+
+Regarding this specific question, when a player is proposing to do an action that can only be taken in a certain step that would occur after the player's last known step, it is a well-known shortcut that the player is going to change phases until the first phase where they can take that action. In this case, after drawing for Draw Phase, Anthony is proposing a shortcut to get to Combat phase, ending Draw phase and ending First Main phase without doing anything in either. This is a perfectly valid shortcut.
+Once Nathan proposes this shortcut, Nathan is then allowed to propose a shortened shortcut, where he will make a game choice that's different than what Anthony proposed. In this particular case, the most likely proposal from Nathan would be to go until the 'Beginning of Combat Step'. This is a normal decision in the course of a game, and thus Nathan can take his time to decide on this proposal, within reason of course. This is the same at both Regular REL and Competitive REL. If Nathan takes an action before proposing a shortened shortcut, such as casting a spell or activating an ability, it is assumed that he is accepting the shortcut that Anthony proposed.
+Note: Once Nathan proposes a shortened shortcut, Anthony is not then allowed to instead do something in his First Main phase; he has to go with the shortened shortcut. In this case, that would be advancing to end of his First Main phase and passing priority.
+

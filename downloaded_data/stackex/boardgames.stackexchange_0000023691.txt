@@ -1,0 +1,20 @@
+Q:
+
+If I copy a mythic rare, will both survive?
+
+I control Keranos, God of Storms. I play Fated Infatuation, which reads:
+
+Put a token onto the battlefield that's a copy of target creature you control.
+
+Can I copy Keranos as it is a mythic rare and have both survive, or would this force them both to the graveyard?
+
+A:
+
+The copy will have all Keranos's copiable values, so it will be a
+Legendary Enchantment Creature — God: Keranos, God of Storms. Due to the legend rule, you will have to choose which one stays on the battlefield, and which goes to your graveyard.
+
+706.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics ... The “copiable values” are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty)...
+704.5k If a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+
+The rules do not care about card rarity. You can have as many of the same Mythic permanents on the battlefield as you want.
+

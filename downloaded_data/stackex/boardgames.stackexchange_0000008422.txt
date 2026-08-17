@@ -1,0 +1,31 @@
+Q:
+
+What would happen if I used regeneration on a creature that was the target of Annihilating Fire?
+
+For example, what would happen if a freshly cast Lotleth Troll were to be regenerated in response to Annihilating Fire?
+My hypothesis is that it depends on whose turn it is. The regeneration being essentially a replacement effect, when two replacement effects were to be applied simultaneously, they are to be chosen in APNAP order. Is this correct?
+I haven't thought this through to the end, though, so I'm not sure what would happen in the end.
+
+A:
+
+Summary: Annihilating Fire replaces the effect of destruction, but regeneration replaces the destruction itself. Annihilating Fire would not exile.
+
+Replacement effects are not applied in APNAP order; they are applied in the order the affected object's controller or the affected player decides [CR 616.1]. But that doesn't matter here.
+The effect of the state-based action being replaced is as follows [CR 704.5g]:
+
+that creature has been dealt lethal damage and is destroyed.
+
+which is to say [CR 701.6a]
+
+that creature has been dealt lethal damage and is destroyed [move it from the battlefield to its owner’s graveyard].
+
+Say Annihilating Fire replacement effect is applied first:
+
+that creature has been dealt lethal damage and is destroyed [exile it from the battlefield].
+
+Regeneration doesn't replace death, it replaces destruction [CR 614.8], so we get:
+
+that creature has been dealt lethal damage, has all damage marked on it removed, and is tapped. If it’s an attacking or blocking creature, remove it from combat.
+
+We get the same result by applying the effects in the opposite order.
+

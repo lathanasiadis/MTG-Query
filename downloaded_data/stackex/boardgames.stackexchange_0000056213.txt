@@ -1,0 +1,13 @@
+Q:
+
+Chances of getting a card in Commander
+
+I have four different tutors in my Commander deck of 100 cards.  What are the odds that I will draw at least one of them in my first seven cards drawn for my hand?  Back in the day I knew how to do this, but haven't touched statistics in many years.
+
+A:
+
+The easy method is to multiply the probability that each of your starting 7 isn't one of the cards you want, then subtract that total from 1.
+Assuming you desire any of the tutors, or the card to be tutored, there are 94 cards that aren't what you want out of the 99 in your deck when you start drawing.
+1 - ((94/99) * (93/98) * (92/97) * (91/96) * (90/95) * (89/94) * (88/93))
+= 31%
+

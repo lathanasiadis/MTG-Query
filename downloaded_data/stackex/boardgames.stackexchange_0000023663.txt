@@ -1,0 +1,21 @@
+Q:
+
+Question about '...only as a sorcery.' abilities
+
+This is a (hopefully) quick question, there are several abilities that can be cast 'only as a sorcery', like a planeswalkers loyalty, or the Outlast ability.
+Can these be used multiple times in one turn, if not forbidden (i.e. because the card is tapped)?
+
+A:
+
+The ability text "Activate this ability only any time you could cast a sorcery" only affects when you can activate it, not how many times or anything else. Rule 602.5d says
+
+Activated abilities that read "Activate this ability only any time you could cast a sorcery" mean the player must follow the timing rules for casting a sorcery spell, though the ability isn't actually a sorcery. The player doesn't actually need to have a sorcery card that he or she could cast.
+
+The Outlast ability can be confusing because the reminder text is worded "Activate only as a sorcery," but that is just because the wording is shortened to fit in reminder text. The full wording of the Outlast rule is
+
+Outlast is an activated ability. "Outlast [cost]" means “[Cost], {T}: Put a +1/+1 counter on this creature. Activate this ability only any time you could cast a sorcery."
+
+Planeswalkers have their own rule that specifically forbids activating their abilities more than once per turn:
+
+306.5d Each planeswalker has a number of loyalty abilities, which are activated abilities with loyalty symbols in their costs. Loyalty abilities follow special rules: A player may activate a loyalty ability of a permanent he or she controls any time he or she has priority and the stack is empty during a main phase of his or her turn, but only if none of that permanent’s loyalty abilities have been activated that turn. See rule 606, "Loyalty Abilities."
+

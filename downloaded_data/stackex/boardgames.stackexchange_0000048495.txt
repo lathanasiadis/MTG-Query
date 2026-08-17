@@ -1,0 +1,33 @@
+Q:
+
+Do artifacts count as creatures when they are put into a graveyard while March of the Machines is in play?
+
+Say I have March of the Machines in play, along with Sunbeam Spellbomb and Salvaging Station. I pay {W} and sac the Spellbomb to gain 5 life. Does the Spellbomb trigger the untap-ability on Station?
+I tried to find if this was already answered and found a lot of threads dealing with entering the battlefield, but nothing about leaving it.
+
+A:
+
+TL;DR: Yes, it triggers. Sunbeam Spellbomb stops being a creature once it's in the graveyard, but for the 'leaves the battlefield' it's important how it looks like on the battlefield, not the graveyard.
+
+Salvaging Station's last ability is a so-called 'leaves the battlefield' ability, even though it's printed more like an 'enter the graveyard' ability. However, the current Oracle text of that ability reads:
+
+Whenever a creature dies, you may untap Salvaging Station.
+
+'Dies' is short for something else:
+
+700.4. The term dies means “is put into a graveyard from the battlefield.”
+
+Therefore, it's a 'leaves the battlefield' ability:
+
+603.6c Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren’t limited to, “When [this object] leaves the battlefield, . . .” or “Whenever [something] is put into a graveyard from the battlefield, . . . .” (See also rule 603.10.)
+
+Let's have a look at 603.10:
+
+603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
+
+(emphasis mine)
+
+603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
+
+The appearance of the Sunbeam Spellbomb on the battlefield was an artifact creature, so Salvaging Station's ability will trigger.
+

@@ -1,0 +1,27 @@
+Q:
+
+Hapatra, Vizier of Poisons and "enters the battlefield" triggers
+
+Hapatra, Vizier of Poisons's second ability reads:
+
+Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch.
+
+Additionally, there are some creatures that enter the battlefield with one or more -1/-1 counters. For example Carnifex Demon, which reads
+
+Carnifex Demon enters the battlefield with two -1/-1 counters on it.
+
+My question is, does the ETB involve "putting" a -1/-1 counter on that creature and, in turn, trigger Hapatra's second ability? Or does the creature enter the battlefield with the counters already on it?
+
+A:
+
+Both your questions can be answered with "yes". Carnifex Demon always has -1/-1 counters on it on the battlefield, AND Hapatra would trigger off Carnifex Demon entering the battlefield. Any object entering the battlefield with counters on it triggers abilities that listen for counters being placed on that kind of object.
+
+121.6. Some spells and abilities refer to counters being put on an object. This refers to putting counters on that object while it’s on the battlefield and also to an object that’s given counters as it enters the battlefield.
+
+When a creature "enters the battlefield with X counters on it", it's a replacement effect and the game never sees that creature on the battlefield without counters. This is in contrast to a triggered ability that can have the same result in the end but the ability goes on the stack and can be responded to, and the creature enters the battlefield without counters.
+
+614.1c Effects that read “[This permanent] enters the battlefield with . . . ,” “As [this permanent] enters the battlefield . . . ,” or “[This permanent] enters the battlefield as . . . “ are replacement effects.
+614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities.
+
+The event to be replaced is "a creature enters the battlefield", and the modified event is "a creature enters the battlefield with counters on it".
+

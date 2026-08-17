@@ -1,0 +1,21 @@
+Q:
+
+Jadzi, Oracle of Arcavios and Spells with X mana cost
+
+Let's say that I have Jadzi, Oracle of Arcavios on the battlefield.
+What happens if I cast some instant or sorcery spell, reveal the top card of my library and it happens to be Ingenious Mastery?
+According to Jadzi, I can cast a nonland card by paying 1C rather than paying its mana cost. But what does it mean to Ingenious Mastery? Will my opponents create two Treasure tokens, and do Scry 2, and how many cards will I draw, and why?
+
+A:
+
+Ingenious Mastery has a Gatherer ruling that says
+
+If you choose to pay one alternative cost, you can’t pay any other alternative costs. For example, if an effect lets you cast a “Mastery” spell “without paying its mana cost,” you can’t also choose to pay its given alternative cost.
+
+The ability of Jadzi to pay 1 to cast a spell is an alternative cost just like "without paying its mana cost" is. If you cast the Mastery that way, you won't cast the Mastery by paying the 2U alternate cost, so you do not get to draw three cards, and your opponent does not get to scry or create tokens.
+And X is necessarily set to zero, as per Jazdi's Gatherer ruling:
+
+If you cast a spell with X in its mana cost using Jadzi’s magecraft ability, you must choose 0 as the value of X.
+
+So ultimately, the Ingenious Mastery doesn't do anything as it resolves.
+

@@ -1,0 +1,21 @@
+Q:
+
+Remove bestow target, does it become a creature?
+
+If my opponent was to cast bestow onto a creature, and i then remove the creature, does the bestow get countered and go to the graveyard, or does it become a creature?
+
+A:
+
+It becomes a creature, because the rules make a special exception for bestow. Even though you've cast your creature with bestow as an aura spell, when it resolves, it can end up as an aura or a creature. From the bestow section of The Mechanics of Theros:
+
+If the target creature leaves the battlefield after you cast a card with bestow as an Aura but before the spell resolves, the Aura spell will resolve as an enchantment creature rather than being countered like a normal Aura spell. If the target creature is still on the battlefield when the Aura spell resolves, it resolves as an Aura enchanting that creature.
+
+And the specific rules for this case:
+
+702.102a ... These effects [turning it into an Aura spell] last until one of two things happens: this spell has an illegal target as it
+resolves or the permanent this spell becomes, becomes unattached. ...
+
+702.102d As an Aura spell with bestow begins resolving, if its target is illegal, the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell’s controller. This is an exception to rule 608.3a.
+
+(Rule 608.3a is the rule about how aura spells normally resolve, which would cause a normal aura spell to go to your graveyard at this point.
+

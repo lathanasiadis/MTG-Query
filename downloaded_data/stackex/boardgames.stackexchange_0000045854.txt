@@ -1,0 +1,17 @@
+Q:
+
+Controller change mechanics
+
+How do abilities work when card controller changes?
+Playing MTGA I saw these:
+Taking control of Rekindling Phoenix and having it die creates the egg for the new controller, which makes sense to me.
+But taking control of a creature with Rogue's Gloves and damaging opponent lets HIM draw a bonus card, not the creature's current controller.
+Is that a bug in MTGA or some strange rule?
+
+A:
+
+These are both correct. You see a difference because the abilities are on different permanents.
+When you take control of an opponent's creature that is equipped with Rogue's Gloves, the Rogue's Gloves stays attached to the creature but the equipment itself is still controlled by the opponent, and the triggered ability is on the equipment. So, when the creature deals combat damage to the opponent, the opponent controls the Gloves' triggered ability and they get to draw the card.
+
+301.5d An Equipment’s controller is separate from the equipped creature’s controller; the two need not be the same. Changing control of the creature doesn’t change control of the Equipment, and vice versa. Only the Equipment’s controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with “gains” or “has”), the equipped creature’s controller is the only one who can activate that ability.
+

@@ -1,0 +1,15 @@
+Q:
+
+How does Zndrsplt work with Krark's Thumb?
+
+How do cards like Zndrsplt, Eye of Wisdom (and Okaun, Eye of Chaos) work with Krark's Thumb? For example, if I win 2 coin flips, even if I only keep one, does it trigger Zyndrplt's card draw effect twice? Or does "winning" a coin flip only count once I pick one of the two to keep?
+
+A:
+
+Krark's Thumb creates a replacement effect for flipping a coin, saying "flip two coins and ignore one. (then determine whether you won, if required)" parenthetical mine
+Note that this is only part of flipping as coin as per:
+
+705.1. An effect that instructs a player to flip a coin may care whether that player wins or loses the flip. To flip a coin for such an effect, the player flips the coin and calls “heads” or “tails.” If the call matches the result, the player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
+
+From this we can determine that Krark's Thumb does not mean you instead attempt to win 2 different coin flips and pick one result to use, you instead flip two coins, call heads or tails, then ignore one of the coins before determining the result. This means you still have only one coin flip you are winning or losing, despite flipping two coins to determine it.
+

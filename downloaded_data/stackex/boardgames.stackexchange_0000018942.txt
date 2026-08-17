@@ -1,0 +1,17 @@
+Q:
+
+Is it possible to determine the exact probability of getting a card in a pack?
+
+I am building a draft cube and cannot decide how many of a certain card I should put into it. Is there anyway to know exactly how likely a specific card is so that I can attempt to duplicate the probability Wizards gave it when designing the set?
+
+A:
+
+Cards are printed on four different sheets: Basic Land, Common, Uncommon, and Rare. (Mythics are printed on the Rare sheet.)
+The number of times a card is printed on the sheet determines how rare it is relative to other cards on the same sheet. For most sets (Alliances and afterward, plus Ice Age), all cards of the same rarity level are printed the same number of times. Within each set, every card with the same rarity has the same probability distribution*.
+Older sets only had two print sheets (Common and Uncommon) and varied the number of times any given card was printed on it; this is where you get rarity codes like C5 and U2 – the card was printed 5 times on the Common sheet, or 2 times on the Uncommon sheet. "Rares" in this era didn't really exist, but all of the U1 cards are considered rare today. Because of this rarity distribution, it was actually possible for certain cards on the Common sheet to be more rare than certain cards on the Uncommon sheet, if the Common was printed very few times (eg, C1) and the Uncommon was printed many times (eg, U4).
+When designing packs*, a nonfoil Mythic rare appears in approximately 1 in 8 packs. I believe the actual ratio is something between 7 and 8 which varies by set, but 8 is a good approximation.
+Foil cards have the same rarity distributions as their nonfoil counterparts, but they are printed on foil sheets and their appearance in a pack is not dependent on sheet distribution but rather on card packing*. Approximately 1 in 6 packs contains a foil card.
+Some sets throw the above numbers slightly out of whack with special packing parameters*. Modern Masters contains a foil instead of a basic land, for example. Dragon's Maze contains a Gate, shockland, or Maze End instead of a basic land. Innistrad replaces a regular common with a dual-faced card of any rarity. The "Alara Premium Foil Booster" contains 15 foils from the block. And so on.
+
+* Note: How the sheets are divided up and packaged is not necessarily the same as how they're printed, changes on an almost set-by-set basis, and is not published information.
+

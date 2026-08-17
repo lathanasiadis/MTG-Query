@@ -1,0 +1,34 @@
+Q:
+
+What If I don't want it to layer
+
+The situation is as follows:  
+
+Aiden has a Battlegate Mimic on the battlefield.  
+I control two Wilderness Hypnotists.  
+Aiden casts a Scourge of the Nobilis, targeting the Mimic; after that resolves I activate one of his Hypnotist's abilities, targeting the Mimic. 
+Aiden attacks with the Mimic, and casts Inside Out before the damage step. 
+Once Inside Out resolves, I activate the ability of his other Hypnotist. 
+
+The mimic will be a 4/2 due to layering, but what if I wanted to have the hypnotists to trigger after Inside Out so it deals no damage to me instead?
+
+A:
+
+At the end of this sequence of events, the Mimic will be a 4/2 and you can't choose for it to resolve differently because those effects apply at different sublayers that apply to power and toughness. Those are described in the rules for the interaction of continuous effects:
+
+613.3. Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
+
+613.3a Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
+613.3b Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
+613.3c Layer 7c: Effects that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.
+613.3d Layer 7d: Power and/or toughness changes from counters are applied. See rule 121, “Counters.”
+613.3e Layer 7e: Effects that switch a creature’s power and toughness are applied. Such effects take the value of power and apply it to the creature’s toughness, and take the value of toughness and apply it to the creature’s power.
+
+The Battlegate Mimic's ability applies at layer 7b. The Wilderness Hypnotists' and Scourge of the Noblis's abilities apply at layer 7c. And Inside Out applies at layer 7e. So, in the end you have the following effects, in the order they are applied:
+
+Battlegate Mimic's ability sets its power and toughness to 4/2.
+Scourge of the Noblis's abilities gives it +2/+2 in total and two different Wilderness Hypnotists' abilities each give it -2/-0. Overall, it gets -2/+2 from effects in this layer, making it a 2/4.
+Inside Out switches its power and toughness, making it a 4/2.
+
+Technically, the effects in layer 7c are applied in the order they resolved: one Hypnotist's ability, then Scourge of the Nobilis's abilities, then the other Hypnotist's ability. But they're all simple arithmetic, which is commutative, so it doesn't matter.
+

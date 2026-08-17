@@ -1,0 +1,20 @@
+Q:
+
+Can I get my Exquisite Archangel back by bouncing it in response to the lose the game trigger and still not lose?
+
+If I cast Boomerang targeting my own Exquisite Archangel in response to the Exquisite Archangel trigger will the trigger still reset my life total or will the trigger fizzle because it can't see the Exquisite Archangel? I think it would reset my life total and I'd end up with Exquisite Archangel in my hand because Exquisite Archangel doesn't say "target", but I just want to make sure before trying it out in a game.
+Bonus question:
+Would the same be true for a blink effect such as Cloudshift?
+
+A:
+
+You cannot do what you suggest, because Exquisite Archangel doesn't have a triggered ability.
+The ability on Exquisite Archangel is a static ability that creates a replacement effect, not a triggered ability. It never goes on the stack or gives you anything to respond to. Instead, it replaces the event of losing the game with a different event instead.
+So the closest thing you can do to what you are saying is to use Boomerang or Cloudshift while an effect that would make you lose is on the stack. All that matters is if Exquisite Archangel is on the battlefield at the time that that effect resolves though. If you use Boomerang, then it wouldn't be on the battlefield when the other thing resolves and you would lose. If you use Cloudshift, then it would be on the battlefield, so it would save you from losing and be just as if you hadn't cast Cloudshift.
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+
+614.1. Some continuous effects are replacement effects. Like prevention effects (see rule 615), replacement effects apply continuously as events happen—they aren’t locked in ahead of time. Such effects watch for a particular event that would happen and completely or partially replace that event with a different event. They act like “shields” around whatever they’re affecting.
+
+614.1a Effects that use the word “instead” are replacement effects. Most replacement effects use the word “instead” to indicate what events will be replaced with other events.
+

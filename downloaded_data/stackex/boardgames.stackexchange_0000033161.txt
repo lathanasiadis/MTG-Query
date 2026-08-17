@@ -1,0 +1,15 @@
+Q:
+
+In magic, if a attacker attacks with a 2/1 and I defend with a 1/2 who dies
+
+In magic if a attacker attacks with 2/1 and I defend with 1/2 who dies.
+
+A:
+
+Both creatures will die.
+When one creature blocks one creature, each will simultaneously deal combat damage equal to its power to the other. Thus the 1/2 will receive 2 damage from the 2/1, and the 2/1 will receive 1 damage from the 1/2. Whenever a creature has total damage on it greater than or equal to its toughness, it dies immediately (technically, it dies when "state-based actions" are checked, which basically happens right before each time that any player is allowed to do anything).
+There are many effects and abilities that could change this result, including:
+
+If exactly one of the creatures has First Strike or Double Strike, it will deal damage before the one that does not, so it will survive while the other will die.
+Since players can cast instants and activate abilities between the time blockers are declared and the time combat damage is dealt, either player could make their creature survive by e.g. pumping up their creature with a Giant Growth.
+

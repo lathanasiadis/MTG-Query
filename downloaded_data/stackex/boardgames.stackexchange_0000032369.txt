@@ -1,0 +1,18 @@
+Q:
+
+Is a player forced to cast a spell which originally had an illegal target?
+
+Say a couple of turns prior, NAP played a Temporal Mastery and instead of exiling it as instructed, put it into his or her graveyard. Consider AP as a beginner to the game and does not know NAP should have exiled their Temporal Mastery. This error is not caught as it happened and turn(s) have elapsed since.
+During the current turn, AP attempts to use a Surgical Extraction targeting NAP's Temporal Mastery (which I should remind is in their graveyard). NAP now realizes their error and calls a judge.
+Is AP forced to pick a new target for their Surgical Extraction, does Surgical Extraction fizzle, or does the judge instruct NAP to exile their Temporal Mastery and AP to return Surgical Extraction to their hand? What are the violations each player has made?
+
+A:
+
+To answer your last sentence first, the particular violations each player made are straightforward according to the Magic Infraction Procedure Guide (IPG). This is the document that defines various tournament infractions, as well as the proper remedies at Competitive and Professional Rules Enforcement Levels. At Regular REL, such as Friday Night Magic, the IPG doesn't technically apply, but the fix the judge gives will likely not be significantly different.
+The player who cast the Temporal Mastery and didn't exile it committed a Game Play Error—Game Rule Violation (IPG 2.5) for not resolving his/her spell completely. The other player has committed a Game Play Error—Failure to Maintain Game State (IPG 2.6) by failing to notice this. The judge should give both players a Warning.
+Regarding the game state, there are four categories with specific fixes listed. Quoting one of them:
+
+If an object is in an incorrect zone either due to a required zone change being missed or due to being put into the wrong zone during a zone change, the identity of the object was known to all players, and it can be moved with only minor disruption to the state of the game, put the object in the correct zone.
+
+Nothing more specific is given about altering the game state, but the judge has discretion to perform a minor backup or leave the state as is. Since the Temporal Mastery should never have been a legal target, I'd guess most judges would backup the cast of the Surgical Extraction so it never happened, then perform the fix of exiling Temporal Mastery, but the exact fix is somewhat at the discretion of the judge. If he decides a backup would be too disruptive of the game state and they should play on, it's his call.
+

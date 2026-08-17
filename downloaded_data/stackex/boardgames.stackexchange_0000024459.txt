@@ -1,0 +1,13 @@
+Q:
+
+Can a creature be killed by damage from two different instants?
+
+During a game, an opponent cast two instants, one after another. One did two damage to a creature, while the second instant did two damage and if that killed my creature, did 3 damage to me. My creature was a 4/4, so obviously it did 3 damage to me according to my opponent. Is that a legal move? Assuming the first instant resolved, would that leave my creature at a 4/2? Or would the card have no effect?
+
+A:
+
+Yes, that was a legal move.
+You may cast multiple instants in the same turn. There's no limit beyond having the instants and being able to pay their cost.
+After taking the first two damage, your 4/4 would still be a 4/4. Those two numbers represent power/toughness - toughness is not health, but the amount of damage a creature can withstand in one turn.
+Your 4/4 would be a 4/4 with two damage marked against it after the first spell, then a 4/4 with four damaged marked against it after the second. Since it has taken damage at least equal to its toughness in one turn, it dies.
+

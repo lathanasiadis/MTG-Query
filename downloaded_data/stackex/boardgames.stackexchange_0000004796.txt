@@ -1,0 +1,18 @@
+Q:
+
+Removing enchantments from hexproof creatures
+
+I have some hexproof creatures in my deck and several enchantments. What I wish to know that if I put an enchantment like "Trollhide" on my hexproof creature like "Sacred Wolf" can an opponent remove it from my Sacred Wolf with an enchantment-removing spell, or my enchantment becomes hexproof too?
+
+A:
+
+The enchantment doesn't become hexproof.  It is only the creature that cannot be targeted by [an opponent's] spells and abilities.
+So supposing that you have a spell that says "destroy target enchantment".  This spell can remove an enchantment that's on a hexproof creature.
+But suppose that you had an (imaginary) spell that says "exile all Auras on target creature".  This would not have any effect on your Trollhide-toting Sacred Wolf, because it needs to target the creature, not the enchantments, and this time this is illegal.
+EDIT: Since there's a bit of a mania for quoting the Comprehensive Rules at the moment, here's the section on hexproof:
+
+702.11b "Hexproof" on a permanent means "This permanent can't be the
+  target of spells or abilities your opponents control."
+
+That's all it means.  The hexproof doesn't confer any immunity from targeting on anything other than the permanent that has hexproof.
+

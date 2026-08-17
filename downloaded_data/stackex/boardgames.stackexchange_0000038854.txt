@@ -1,0 +1,24 @@
+Q:
+
+Between prevention and replacement effects, which takes precedence?
+
+Looking at the interactions between:
+Fog versus Undead Alchemist
+Abuna's Chant versus Soul-Scar Mage 
+In each pair, the first represents an effect that prevents damage, while the second represents a replacement effect that does something instead of damage.  
+In either case, assume that the appropriate event has happened such that damage is on the verge of being done. Does the replacement effect occur, or does the continuous effect pre-empt the damage?
+
+A:
+
+Both prevention effects and replacement effects apply in the same way and at the same time, and the player who is affected or controls the object that is affected is the one who chooses the order in which to apply them. This is detailed in the rules section interaction of replacement and/or prevention effects:
+
+616.1. If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+
+[...]
+
+616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+
+So, in both of your examples, the player that would be dealt damage decides which replacement effect to apply first.
+In the Fog vs Undead Alchemist example, if a zombie controlled by Undead Alchemist's controller would deal combat damage to a player, that player chooses whether to apply the Fog effect and prevent the damage, or apply the Undead Alchemist effect first and mill cards. In either case, once one effect is applied the other one is no longer applicable.
+In the Abuna's Chant vs Soul-Scar Mage example, once damage would be dealt by a source controlled by Soul-Scar Mage's controller to the creature that is the target of Abuna's Chant, the controller of that creature chooses which effect to apply first. If they choose to apply Soul-Scar Mage's ability first, the damage is replaced with -1/-1 counters, so the effect of Abuna's Chant is no longer applicable. If they choose to apply Abuna's Chant's effect first, then any remaining damage above the 5 it prevents is then replaced with -1/-1 counters.
+

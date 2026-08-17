@@ -1,0 +1,19 @@
+Q:
+
+What happens if I tap a creature in response to Tolarian Kraken's ability?
+
+Tolarian Kraken says:
+
+Whenever you draw a card, you may pay {1}. When you do, you may tap or untap target creature.
+
+Let's say I pay {1} and target my opponent's Merfolk Looter with this ability. Merfolk Looter has a tap ability, and my opponent uses it in response to my Tolarian Kraken trigger. Does my Tolarian Kraken wind up untapping the Merfolk Looter? That is, which interpretation of the ability is correct:
+
+When you pay {1}, you have already chosen to switch the creature's state, so if it's tapped it becomes untapped and if it's untapped it becomes tapped.
+You may pay {1}, and then when this ability resolves, you can choose if you want to switch the creature between tapped & untapped.
+
+Somehow in a couple of games on Arena, my opponent's Kraken wound up untapping my creature even though it's to my benefit the creature is untapped. I'm not sure if it's because my opponent misplayed, or if #1 is the correct interpretation.
+
+A:
+
+When you draw a card, the Kraken's ability triggers. When that ability resolves, you can choose to pay {1}. If you do, the second part triggers, and you have to choose a target if you can. What to do with that target is not decided until resolution, whether you want to tap it, untap it, or just leave it be (the ability says "may").
+

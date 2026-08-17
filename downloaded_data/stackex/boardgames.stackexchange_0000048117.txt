@@ -1,0 +1,14 @@
+Q:
+
+Can I make Vitu-Ghazi Indestructible with Nissa's Emblem?
+
+If I used a Nissa, Who Shakes the World -8 Emblem in conjunction with an Awakening of Vitu-Ghazi, could I make Vitu-Ghazi indestructible in a sense that a creature is indestructible?
+
+A:
+
+Yes, after you -8 Nissa, lands you control have indestructible, including the land animated by Awakening of Vitu Ghazi. It does not matter what other types, if any, your lands have.
+Nissa's effect says that "Lands you control have indestructible". "Land" is shortcut for "land permanents". Therefore, every permanent you control that is a land has indestructible, and indestructible extends to the whole permanent, not just the land part of it. A permanent is a land if it has the land type, and that's all the Nissa effect cares about. It does not care whether or not that land is also a creature. Awakening of Vitu Ghazi states that the permanent retains its land type, so it will be affected by Nissa's -8.
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+300.2. Some objects have more than one card type (for example, an artifact creature). Such objects combine the aspects of each of those card types, and are subject to spells and abilities that affect either or all of those card types.
+

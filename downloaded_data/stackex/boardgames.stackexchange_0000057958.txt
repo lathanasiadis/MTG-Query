@@ -1,0 +1,15 @@
+Q:
+
+MTG: "Up to One Creature ..." Creature is returned to owner's hand, does it fizzle?
+
+So I know a spell will fizzle if its target is returned to hand before the spell resolves. However, if a spell specifies "Up to one" target, then will it still fizzle? Since even if the original target is returned, 0 is a valid "Up to one" resolution.
+The card in question is: Banishing Slash
+Even if the target was returned to hand, will the second part resolve and create a 2/2 token?
+
+A:
+
+No, if you choose a target and the target is no longer legal as the spell starts to resolve, it will not resolve and you will not get a token.
+This is explained in one of the card's rulings:
+
+You may cast Banishing Slash without choosing a target. If you do, and you control both an artifact and an enchantment as it resolves, you'll just create a Samurai token. However, if you do choose a target and that target is an illegal target as Banishing Slash tries to resolve, Banishing Slash won't resolve and none of its effects will happen. The illegal target won't be destroyed and you won't create a Samurai token.
+

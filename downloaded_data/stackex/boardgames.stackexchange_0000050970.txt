@@ -1,0 +1,27 @@
+Q:
+
+How does your opponent verify you have not more than 4 of a particular card in your deck?
+
+Inspired by How does your opponent verify that you're able to cast a Companion card?
+As of time of writing the top-voted answer basically says you don't verify that the opponent can cast a Companion card, until proven otherwise. So for example if opponent is playing Keruga, the Macrosage, then they can't play any 2-drops. They could conceivably draw them, but since they can't play them, there's no unfair advantage gained.
+Let's say instead I'm playing a Fires of Invention deck, which is heavily reliant on drawing the Fires of Invention. So I play eight copies of it. That's illegal, but it doubles my chances of drawing the card. How is my opponent going to verify I'm cheating now? After all, they need to see five copies of Fires of Invention before they can verify that I'm cheating, and that's not very likely in a real game. Otherwise:
+
+I can decline to play the fifth copy if I draw it (this works because I don't usually need to have more than one Fires of Invention in play at a time).
+If opponent casts Thoughtseize, I can concede before revealing my hand. Same goes for opponent casting cards like Peek, Surgical Extraction, etc.
+If opponent casts something like Glimpse the Unthinkable, I can put the cards in the graveyard one at a time, and concede if the fourth Fires of Invention is milled (thereby ensuring that the 5th-8th copies will never be milled).
+
+I'm pretty sure I'm gaining a legitimate advantage by doing this, but since one can never prove that I'm cheating, one can't call a judge either. How is the opponent supposed to verify that I'm not cheating then?
+
+A:
+
+In general, your opponent cannot conclusively verify that your deck is legal. As you mention, you can always concede to prevent them from seeing certain cards.
+However, this statement that you made in your question is incorrect:
+
+since one can never prove that I'm cheating, one can't call a judge either
+
+Players can call a judge for any number of reasons, including suspicion that their opponent is cheating. And the fact is that conceding in response to a Thoughtsieze or Surgical Extraction is very suspicious, especially if you are otherwise winning the game.
+If a judge wants to investigate a deck construction problem, they have the right to perform a deck check, and look through your whole deck and sideboard to verify that it matches your registered deck. If they do that, you can't avoid getting caught.
+In addition, in higher-level tournaments decks are randomly checked, so even if you avoid drawing suspicion you would still have to get lucky to avoid disqualification.
+
+More generally, it's pretty clear that this method of cheating has significant downsides. You have cards in your deck that are completely dead if you draw them, because you can't let your opponent see them. You have to concede if you opponent would see them in some other way, tanking your win rate. And you risk disqualification because if a judge decides to look into it, they can easily prove that you are cheating. You may not even experience a net benefit from this strategy, even without accounting for the fact that cheating is wrong.
+

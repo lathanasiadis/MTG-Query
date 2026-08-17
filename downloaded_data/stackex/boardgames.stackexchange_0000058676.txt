@@ -1,0 +1,16 @@
+Q:
+
+Does Crossway Troublemakers have to be on the battlefield during the beginning of combat to affect other vampires?
+
+My commander is Strefan, Maurer Progenitor. If I use his ability to bring Crossway Troublemakers onto the battlefield, would any declared attacking vampires I control still get the keywords? Would Crossway Vampires get the keywords, even if I didn't declare them as attackers?
+
+A:
+
+All attacking vampires, including Crossway Vampires, will get the keywords
+Crossway Troublemakers has a static ability that applies at all times it is in play, but only to creatures that are, at that moment, attacking vampires you control.  Crossway Vampires is, from the moment it enters the battlefield in your scenario, "tapped and attacking", and therefore qualifies.
+Now, if it was worded similar to Strefan's ability, as in:
+
+Whenever a vampire you control attacks, it gains deathtouch and lifelink until end of turn
+
+then it would not apply to either Strefan or Crossway Vampires this turn, as that is a triggered ability that triggers when attackers are declared, and Crossway Vampires was not on the battlefield during the declaration of attackers, and thus does not "see" the declaration in order to trigger.
+

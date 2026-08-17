@@ -1,0 +1,30 @@
+Q:
+
+Does newer card text on a Magic: The Gathering card override the old wording?
+
+While going through the Gatherer database I noticed that the Alpha version of Icy Manipulator says,
+
+{1}: You may tap any land, creature, or artifact in play on either side.
+
+whereas the Tenth Edition of the Icy Manipulator says,
+
+{1}, {T}: Tap target artifact, creature, or land.
+
+This has me wondering, does the newer Tenth Edition card text retroactively apply to the Alpha card or does the Alpha text still apply when that card is in play? In other words, if I were to play the Alpha version, would I play by its rules, or the newer rules on the Tenth Edition card?
+
+A:
+
+All versions of a card are considered to be equivalent and are played with the same text: this text is known as the Oracle wording of the card.  From the comprehensive rules:
+
+108.1. Use the Oracle(TM) card reference when determining a card's wording. A card's Oracle text can be found using the Gatherer card
+  database at http://gatherer.wizards.com.
+
+Note that a card's wording isn't always the most recent text on a card!  There are a handful of cards that have errata of one form or another - for instance, Time Vault's Oracle text has changed numerous times, and it's still different in a few small ways from the card as printed.
+As far as Icy Manipulator specifically goes, note that the wording on the Alpha (and Beta) versions isn't as different from the 10th Edition version as you might think; while neither uses the tap symbol, they both have the type 'Mono Artifact' which by the rules of the time meant that they were tapped as part of their usage (and thus could only be used once in a turn).  Again, quoting from the comprehensive rules:
+
+Mono Artifact (Obsolete) An obsolete term that appeared on the type
+  line of artifacts with activated abilities that caused the artifact to
+  become tapped as a cost. Cards printed with this text have received
+  errata in the Oracle card reference to simply say "Artifact," and
+  those abilities now include the tap symbol in their costs.
+

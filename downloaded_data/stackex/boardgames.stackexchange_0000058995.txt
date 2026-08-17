@@ -1,0 +1,19 @@
+Q:
+
+Does Shelob make Legendary Food?
+
+Shelob, Child of Ungoliant has the ability
+
+Whenever another creature dealt damage this turn by a Spider you controlled dies, create a token that's a copy of that creature, except it's a Food artifact with "2, Tap, Sacrifice this artifact: You gain 3 life," and it loses all other card types.
+
+According to the rules text, "loses all other card types" includes subtypes. However, since "Legendary" is a supertype, does that mean that the Food token does become Legendary if it comes from a Legendary creature dying?
+
+A:
+
+Yes, legendary. I base this on rule 205.4b, which
+
+205.4b An object’s supertype is independent of its card type and subtype, even though some supertypes are closely identified with specific card types. Changing an object’s card types or subtypes won’t change its supertypes. Changing an object’s supertypes won’t change its card types or subtypes. When an object gains or loses a supertype, it retains any other supertypes it had.
+Example: An ability reads, “All lands are 1/1 creatures that are still lands.” If any of the affected lands were legendary, they are still legendary.
+
+and given that a ruling on gatherer mentions "losing all other card types and subtypes", but not supertypes.
+

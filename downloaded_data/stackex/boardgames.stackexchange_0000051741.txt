@@ -1,0 +1,30 @@
+Q:
+
+Can I stop a Counterspell of Goblin Grenade by sacrificing a Goblin Gardener?
+
+I want to cast Goblin Grenade, but my opponent wants to counter it. Can I prevent them doing so like this?:
+
+I play Goblin Grenade.
+As part of the cost, I sacrifice Goblin Gardener (whose text reads: “When Goblin Gardener dies, destroy target land.”).
+I use this ability to destroy one of my opponent’s 2 Islands.
+
+Can he counter the spell, or does the destruction of the Island happen before he can play Counterspell, since it’s a direct result not of my spell itself, but of paying its cost?
+
+A:
+
+You cannot prevent the Counterspell with a Goblin Gardener.
+Here is what happens, step by step.
+
+You declare you are casting Goblin Grenade and put it on the stack.
+You choose the target for Goblin Grenade.
+You pay the cost for Goblin Grenade. At this point, you may use any mana abilities you currently have to produce the red mana you need (or in fact, any mana at all), use any red mana you produced earlier, and you sacrifice Goblin Gardener.
+Sacrificing Goblin Gardener triggers its ability, but nothing happens quite yet.
+You finish casting Goblin Grenade.
+
+Now the game checks to see if any abilities have triggered. It sees the Goblin Gardener trigger, and you put that ability onto the stack above the Goblin Grenade. You choose the target for the ability.
+Now there is both a spell and an ability on the stack. Neither resolves quite yet.
+Now you get priority, which means you can cast any instants or spells with flash, or activate any abilities that you want. If you do not wish to do so, you will pass priority to the your opponent, who could choose to do the same.
+When your opponent gets priority, they can cast Counterspell, moving it onto the stack, choosing Goblin Grenade as the target, and tapping the targeted land to use its mana ability as part of paying the cost.
+Even if they do not wish to cast Counterspell quite yet, they can also choose to activate the targeted land's mana ability, tapping it to gain the blue mana. The mana will not vanish until the phase or step ends, which will be after all spells and abilities on the stack have resolved and all players have passed priority.  If your opponent wanted to, they could tap the island, let the gardener ability resolve, and then cast Counterspell with the mana they gained. Or they could simply cast Counterspell while the Gardener ability is on the stack, and counter the Grenade before the land is destroyed.
+Either way, they can easily Counterspell the grenade if they desire.
+

@@ -1,0 +1,15 @@
+Q:
+
+MTG: How does Devour work with abilites like Dragon Tempest
+
+Suppose that I have Dragon Broodmother, two dragon tokens, and Dragon Tempest on the battlefield.  Dragon Broodmother puts a 1/1 Dragon Token with Devour 2 on the battlefield and Dragon Tempest deals damage based on the number of dragons on the battlefield whenever a dragon enters.
+My question is, if the new token summoned by Dragon Broodmother devours both dragon tokens, does Dragon Tempest's ability count the devoured dragons in addition to Dragon Broodmother and the new token?  Are the devoured dragons still on the battlfield when the triggered ability resolves?
+
+A:
+
+No, Dragon Tempest's ability does not see the devoured Dragons when the Dragon token enters the battlefield. As you can see in the reminder text on Dragon Broodmother, the Devour ability says
+
+As the token enters the battlefield, you may sacrifice any number of creatures. It enters the battlefield with twice that many +1/+1 counters on it.
+
+This means that Devour is a replacement effect (CR 614.1c), so it happens at the same time that the token enters the battlefield. By the time Dragon Tempest's ability triggers (and then resolves), the devoured dragons have already been sacrificed.
+

@@ -1,0 +1,15 @@
+Q:
+
+Temporary gain control effects, what happens if I give the permanent to another opponent before the effect ends?
+
+Let's say that I temporarily gain control of an opponents permanent through some means, and then, before the temporary effect ends, I give it to another opponent (though let's say Harmless Offering). Will the permanent still return to the original opponent (presumably the owner), or will it stay under the control of the second opponent?
+I can see this working differently in different scenarios, so let me give two examples:
+
+Gaining control of a creature through Act of Treason which creates an effect that lasts until end of turn.
+Gaining control of a creature through Control Magic, and then having Control Magic be destoryed after the creature has been given to the second opponent.
+
+A:
+
+In both cases, the opponent you gave the permanent to will keep it.
+When you take control of the permanent, you create a continuous control-changing effect that gives you control of the permanent. When you give the permanent to another player, you create another continuous control-changing effect that gives control of the permanent to that player. Once the first effect ends, either because the Act of Treason time runs out, or the Control Magic is destroyed, the second effect keeps working, so the opponent you gave the permanent to will still control it.
+

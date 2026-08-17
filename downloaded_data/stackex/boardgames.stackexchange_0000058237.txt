@@ -1,0 +1,38 @@
+Q:
+
+Do player choices use the stack?
+
+Last night I played a commander game with a new deck using Noble Heritage as a background. This caused some confusion the first time I resolved my commander, raising 3 questions:
+
+What order do we make the choices in?
+Do the choices use the stack?
+If choices don't use the stack, when do we make them and when are they final? e.g., do we make them as part of putting the Noble Heritage trigger on the stack or as part of resolving it? or at some other time?
+
+Going into the game, what I expected is that Noble Heritage puts a single triggered ability on the stack, and in order to resolve that ability, each player must make a choice. I hadn't considered the order we make the choice before it came up in the game, but on the spot I assumed we did so in priority order.
+So with this understanding, the 3rd player in priority order can wait for players 1 and 2 to make their choices before making their own choice (giving them some informational advantage). But the 3rd player couldn't add something to the stack in response to the second player's choice before choosing their own (because we are in the middle of resolving something on the stack)
+But the other players at the table were certain that the act of choosing and putting the +1/+1 counters on their creatures "used the stack". So when player 2 decides to place counters on their creature or not, that decision and the act of actually putting the counters on the creature "go on the stack" and is a separate item from the Noble heritage trigger itself. So for instance things might play out like this:
+
+Player 2 decides to "take the deal" from the Noble Heritage trigger, choosing their Grizzly Bears to receive the +1/+1 counters.
+The act of putting the +1/+1 counters on their creature goes on the stack
+Player 3 puts a Lightning Bolt on the stack targeting player 2’s Grizzly bears
+Player 3 decides to take the Noble Heritage deal, putting +1/+1 counters on one of their creatures, and the act of doing so goes on the stack above the Lightning Bolt
+The stack resolves: Player 3 puts the +1/+1 counters on their creature, the Lightning bolt kills Player 2’s Grizzly Bears, Player 2’s act of putting counters on the Grizzly bears fizzles
+
+This did not seem right to me, but all the other players were adamant about it, so I went with it, and said I would post here to get clarification for later games. But, after reflecting on this, I think I am still right that noble heritage only puts one thing on the stack and players just have to make choices as part of its resolution, but I think I was wrong about needing to make them in priority order.
+Basically, what I think now is that players must reach a consensus on what happens to resolve the Noble Heritage trigger. For instance, player 2 can announce that they will "take the deal", and player 3 can say "well if you do that, I will as well", and player 2 can actually change their mind based on player 2's decision and this kind of negotiation goes on until everyone agrees what would happen. I also think now that while this debate is happening, player 3 can put an instant on the stack if they want, but if agreement has not been reached as to what happens when the Noble Heritage trigger resolves the other players can actually react to lightning bolt going on the stack by changing their choices.
+So with my new understanding, if player 2 decides to "take the deal", and player 3 reacts by putting a lightening bolt on the stack to kill the creature player 2 would put the counters on, then player 2 can change their mind about taking the deal (so they will still be free to attack me)
+But am I right that player choices "don't use the stack"? And if that is true when actually do the choices get made? Do we have to make the choice as part of putting Noble Heritage on the stack, or as part of resolving it? For instance, can player 3 wait until the decision is final before deciding to bolt player 2's creature, or will player 2 always have room to change their decision in response to the bolt going on the stack (assuming the Noble Heritage Trigger hasn't resolved yet)
+
+A:
+
+All choices for Noble Heritage's ability are made during its resolution, and once you started resolving it, no player can respond with new spells or abilities until everyone has made their choice and the effects have happened. Choices are made in APNAP order.
+When a spell or ability resolves, the players involved simply carry out the instructions, in APNAP order if more than one player is involved. No player has priority during resolution, and carrying out the instructions of a resolving object does not itself use the stack.
+Therefore it's impossible to respond to a resolving object via an action that would require priority, such as casting a spell.
+
+101.4. If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active Player, Nonactive Player (APNAP) order” rule.
+
+117.1. Unless a spell or ability is instructing a player to take an action, which player can take actions at any given time is determined by a system of priority. The player with priority may cast spells, activate abilities, and take special actions.
+117.3b The active player receives priority after a spell or ability (other than a mana ability) resolves.
+
+So if a player wants to, as per your example, Bolt a Bear before it could receive the counters from Noble Heritage, that player can't wait to see whether its controller will put counters on it. If they want to make sure the Bear dies, they would have to Bolt it before NH starts resolving, and the Bear's controller can then make their decision with full information.
+

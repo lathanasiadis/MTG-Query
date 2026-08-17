@@ -1,0 +1,33 @@
+Q:
+
+Is there any interaction between hypothetical continuous effects?
+
+Consider a battlefield where I control a Deadfall, a Sunweb, and a Muraganda Petroglyphs. Importantly, Sunweb says
+
+Sunweb can't block creatures with power 2 or less.
+
+Deadfall says
+
+Creatures with forestwalk can be blocked as though they didn't have forestwalk.
+
+and Muraganda Petroglyphs says
+
+Creatures with no abilities get +2/+2.
+
+If my opponent attacks with a Jukai Messenger (a 1/1 Forestwalk creature), can my Sunweb block it?
+The answer seems at first to be "no", but if the Messenger didn't have forestwalk, it wouldn't have any abilities, so it would get +2/+2 due to Muraganda Petroglyphs' ability, which would make it big enough for Sunweb to block. So the question is really:
+When declaring blockers (or checking whether a declaration is legal) and Deadfall is in play and you choose to block as though the creature didn't have forestwalk, are other continuous effects also applied as though the creature didn't have forestwalk?
+
+A:
+
+The Sunweb can't block the Jukai Messenger. 
+There's a bit of confusion here about the scope of "as though". It definitely only applies to the stated situation ("...can be blocked..."), but 
+
+613.10. Some continuous effects affect game rules rather than objects. For example, effects may modify a player’s maximum hand size, or say that a creature must attack this turn if able. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 601.2e. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 613.6 and 613.7).
+
+Muraganda Petroglyph's effect is a power/toughness changing ability, so it's applied first (in layer 7). The Messenger has an ability, so it stays a 1/1.
+Deadfall's effect modifies game rules (changing the way blocking works), so it is applied last. (Ability-removing effects do get applied earlier on, but this is not an ability-removing effect - the creature never loses forestwalk.)
+So when deciding whether Sunweb can block, we have a 1/1 Messenger with forestwalk (which is non-functional, thanks to Deadfall). Sunweb therefore can't block it, since its power is 2 or less.
+
+There was also some question about the scope of "as though" in this case. One possibility is that it applies only to the blocking legality decision itself, and thus it doesn't interact with the other effects. Another is that it applies to the whole game state at the time that blocking legality is decided, in which case if it were to apply before the other effects, it would change the outcome. It's difficult to tell for sure which of these is correct; the rules don't go so far as defining "can be blocked as though". But since according to 613.10, it's applied last, we don't have to worry about any of that.
+

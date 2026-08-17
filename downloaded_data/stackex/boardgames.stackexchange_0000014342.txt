@@ -1,0 +1,22 @@
+Q:
+
+Cloning a card with Tribute
+
+Forthcoming Nessian Demolok has the following abilities.
+
+Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+
+When Nessian Demolock enters the battlefield, if tribute wasn't paid, destroy target noncreature permanent.
+
+Assuming the reminder text is complete and accurate, what happens if you cast Clone choosing a Nessian Demolok? Specifically, does your opponent get a chance to pay tribute?
+
+By the letter of the rules, choices for "As this permanent enters the battlefield" occur before the permanent the battlefield[CR 614.12a], but doesn't Clone's replacement effect happens at the point it enters the battlefield?
+
+A:
+
+Yes, your opponent gets a chance to pay the Tribute. From the Clone rulings:
+
+Any enters-the-battlefield abilities of the copied creature will trigger when Clone enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+
+This is the same behavior as when you Clone a Triskelion; the Clone will get 3 +1/+1 counters.
+

@@ -1,0 +1,17 @@
+Q:
+
+Is it possible to use ritual effects to pay for Propaganda?
+
+Is it possible to use ritualistic effects, i.e. instants that add mana to your mana pool, to pay for combat costs incurred by Ghostly Prison, Propaganda, etc.?
+For example, if I have two copies of Battle Hymn in my hand and my opponent has a Propaganda, I could generate the two mana per creature needed to attack with all of my creatures. But if I cast them during Beginning of Combat, my understanding is that the mana drains before I can pay as I declare attackers. Is this correct, or am I missing something?
+
+A:
+
+No, you cannot use rituals or other instant speed effects that gain mana to pay for Propaganda or similar effects, and your reasoning for why this would be the case is correct.
+First, as mentioned, rule 106.4 says
+
+When an effect produces mana, that mana goes into a player’s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player’s mana pool. Each player’s mana pool empties at the end of each step and phase.
+
+So, any mana you produce in the Beginning of Combat step would empty from your mana pool before you declare attacks. Then, the Declare Attackers step is actually multiple sub-steps. The first step, described in rule 508.1, is to declare your attackers. This includes activating mana abilities and paying costs for declaring attackers (508.1i,j). After that, the active player gains priority, which would be the first time they have the opportunity to cast rituals or similar spells during the declare attackers step.
+So, there is no opportunity between the mana pool emptying at the end of the Beginning of Combat step and paying to declare attackers during the Declare Attackers step to cast rituals.
+

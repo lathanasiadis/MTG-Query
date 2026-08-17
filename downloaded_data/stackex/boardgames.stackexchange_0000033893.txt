@@ -1,0 +1,21 @@
+Q:
+
+What happens if Always Watching is destroyed mid-combat?
+
+At the start of my turn, my Always Watching is on the battlefield, granting my creatures +1/+1 and vigilance.
+I attack with my Shadow Glider (a 2/2) and my Kitesail Scout (a 1/1).
+My opponent blocks my Shadow Glider with his Shadow Glider.
+At the end of the declare blockers step, when we can cast instants and before damage is dealt, my opponent casts Naturalize to destroy my Always Watching.
+My question is this: do I lose the benefits from the Always Watching,
+so both Shadow Gliders die, or does his Shadow Glider die and my Glider lives? What happens to vigilance for the Kitesail Scout?
+
+A:
+
+The ongoing effects from Always Watching end as soon as it is destroyed, so your creatures no longer have vigilance and +1/+1 by the time combat damage is dealt, and both Gliders will die.
+However, your Kitesail will remain untapped because vigilance is only important at the moment attackers are declared:
+
+702.20a Vigilance is a static ability that modifies the rules for the declare attackers step.
+702.20b Attacking doesn’t cause creatures with vigilance to tap.
+
+So your Kitesail remained untapped when it attacked because it had vigilance at that time, and the game does not rewind and tap it just because it lost vigilance later.
+

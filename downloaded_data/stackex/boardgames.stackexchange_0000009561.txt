@@ -1,0 +1,24 @@
+Q:
+
+Software to search for MTG decks based on a list of cards
+
+I haven't played MTG for a while, but I still own about 500 cards. Some of them were from pre-built decks, but now the cards are all randomized.
+I have the full inventory (quantity and name) on a text file. Although I've seen a lot of programs that allow you to build and share decks, I'm looking for something that searches for a deck based on the cards you have (or on a list you provide).
+
+Update: I may have misguided you with my explanation, so here it goes in different words. I want to know what decks are out there that I can build with the cards I have. Something like: here's the list of cards I possess; show me what decks exist that I can build with them, without needing to buy more cards.
+
+A:
+
+Inspired by this post I've managed to implement the requested feature in my program Mtgdb.Gui, it's free and opensource.
+The screenshot below shows the list of decks filtered by a condition that you own 90% or more from the Main deck.
+
+So to search the decks based on cards you have collected, you need to
+Step 0. Import the decks to Mtgdb.Gui. It can be be done as easy as drag-n-dropping a bunch of files or folders into it. See Wiki for details.  I used Forge to quickly download ~5000 decks.
+Step 1. Import your collection to Mtgdb.Gui. E.g. you can import from a plain-text file where each row is more or less like this:
+2 Accomplished Automaton
+
+You can also import your Magic The Gathering Online collection.
+Step 2a. Sort the list of decks by percent of cards from Main deck you own in descending order, by clicking the corresponding field.
+Step 2b. Alterternatively as in the screenshot above, you can filter the list of decks by using search input.
+P.S. Let me stress it, I am the author of Mtgdb.Gui. It has to be perfectly clear, because the rules of this forum, as well as common human honesty, I believe, require people to be explicit when promoting their own product.
+

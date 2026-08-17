@@ -1,0 +1,23 @@
+Q:
+
+What happens when I remove Mistbind Clique with its champion trigger still on the stack?
+
+So, this recently happened to me in playtesting:
+It's my upkeep. My opponent casts Mistbind Clique.
+I don't have a relevant counter, but I do have Path to Exile. He has multiple fairies on the field, as well as enough mana to animate his Mutavault, so I can't get a two-for-one by Pathing anything before the Clique resolves. I let the Clique resolve.
+Mistbind Clique's champion trigger goes on the stack. In response, I Path the Clique before its champion trigger resolves.
+Path resolves.
+What happens when the Clique's champion ability resolves after it's already been exiled?
+My understanding is that my opponent still gets the option to exile a faerie (which would stay exiled, since the Clique has already left the battlefield). If he does so, though, does the Clique's tap-down ability apply?
+
+When a Faerie is championed with Mistbind Clique, tap all lands target player controls.
+
+A:
+
+You are correct in thinking your opponent still gets the option to exile a faerie. However, if he/she does so, the Clique's tap-down ability does not apply.
+Mistbind Clique's ability reads "When a Faerie is championed with Mistbind Clique, tap all lands target player controls." The when there implies that it is a triggered ability:
+
+112.3c Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." Whenever the trigger event occurs, the ability is put on the stack the next time a player would receive priority and stays there until it's countered, it resolves, or it otherwise leaves the stack. See rule 603, "Handling Triggered Abilities."
+
+Since Mistbind Clique is no longer present on the battlefield when the Champion triggered ability resolves, the tapping triggered ability will not trigger.
+

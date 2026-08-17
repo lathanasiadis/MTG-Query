@@ -1,0 +1,58 @@
+Q:
+
+What exactly is affected by the new rule 614.16?
+
+In the Ixalan Comprehensive Rules Update Bulletin, one of the sections says that rule 614.16 is changing, with this explanation:
+
+This new rule hops in and bumps the existing 614.16 down. The new rule establishes that when a replacement effect watches for "an effect" creating a token or putting counters, it'll do its thing if a replacement effect or prevention effect causes these things to happen. This covers some weird cases where Doubling Season may or may not double the counters and tokens.
+
+What are those "weird cases" and how are they affected by this change? Are any other cards affected?
+
+A:
+
+Rule Change
+Doubling Season has the following abilities:
+
+If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
+If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.
+
+The cards Anointed Procession and Parallel Lives also both have that first ability.
+Under the previous rules, those abilities just care about whether the original event is an "effect", which is defined in rule 609.1:
+
+An effect is something that happens in the game as a result of a spell or ability. When a spell, activated ability, or triggered ability resolves, it may create one or more one-shot or continuous effects. Static abilities may create one or more continuous effects. Text itself is never an effect.
+
+In particular, costs and special actions are not effects and do not create effects, so Doubling Season would not apply to counters and tokens created by those events. In addition, if those counters or tokens were created by replacement effects that applied to those events, Doubling Season would still not apply, because the original event was not an effect. This part is changing; the new rule 614.16 has this text:
+
+Some replacement effects apply "if an effect would create one or more tokens" or "if an effect would put one or more counters on a permanent." These replacement effects apply if the effect of a resolving spell or ability creates a token or puts a counter on a permanent, and they also apply if another replacement or prevention effect does so, even if the original event being modified wasn't itself an effect.
+
+Interactions
+As the rule says, this rule change affects replacement effects that create tokens and replacement effects that put counters on permanents. In particular, it affects those replacement effects that can replace events that are not themselves effects.
+Counters
+Lands
+The largest category of cards this rule change affects is lands that enter the battlefield with counters. Playing a land for the turn is a special action, so it is not an effect. And the ability that causes it to enter the battlefield with a counter is a replacement effect, as defined in rule 614.1c. So, under the old rule, if you play one of these lands for your turn, the counters would not be doubled by Doubling Season, but if you put the land onto the battlefield due to some other effect, Doubling Season would apply. Under the new rule, Doubling Season's ability always applies.
+The lands affected by this are
+
+Dark Depths
+Gemstone Mine
+Depletion Lands: Hickory Woodlot, Peat Bog, Remote Farm, Sandstone Needle, and Saprazzan Skerry
+Llanowar Reborn
+Tendo Ice Bridge
+Vivid Lands: Vivid Crag, Vivid Creek, Vivid Grove, Vivid Marsh, Vivid Meadow
+
+Similarly, Dryad Arbor has the same interaction with cards that cause creatures you control to enter the battlefield with counters, such as Bloodspore Thrinax and Master Biomancer.
+Combat Damage
+Some other cards are affected because they can replace damage with adding counters. Combat damage is not an effect, so under the old rules, Doubling Season would not apply to combat damage, but it would apply to damage from other effects. Now, Doubling Season always applies to these replacement effects:
+
+Force Bubble
+Lichenthrope
+Phytohydra
+Soul-Scar Mage
+Szadek, Lord of Secrets
+
+Replacing Counters with Counters
+Finally, there is a single card that replaces adding counters to permanents with adding more of the same counters: Winding Constrictor. Under the old rules, Doubling Season would have only applied if the original counters were added by an effect. Under the new rule, Doubling Season always applies to the counters added by that replacement effect. This will most commonly come up in the case of combat damage dealt to creatures by creatures with wither or infect. The -1/-1 counters are the result of damage, not a replacement of the damage, so Doubling Season wouldn't normally apply, but it does apply to the counter Winding Constrictor adds. On top of that, you can use a card like Mycosynth Lattice or Liquimetal Coating to make planeswalkers into artifacts. Then Winding Constrictor's ability applies to counters added to pay the costs of those planeswalkers' "plus" abilities, and once Winding Constrictor's replacement effect is applied to those counters, Doubling Season will apply to the counter that Winding Constrictor added.
+Tokens
+There are only two cards that create tokens as a replacement for an event that does not create tokens: Kalitas, Traitor of Ghet and Words of Wilding.
+In the case of Kalitas, under the old rules Doubling Season's ability would apply or not depending on why the original creature died. In particular, if the creature died directly from a spell's effect, Doubling Season would have applied; some examples are Murder's "Destroy target creature" or Innocent Blood "Each player sacrifices a creature". However, Doubling Season would not have applied if a creature died while paying a cost (such as Ashnod's Altar's "Sacrifice a Creature: Add {C}{C} to your mana pool) or died of a state-based action such as having 0 toughness or taking lethal damage. Under the new rules, Doubling Season always applies to tokens created by Kalitas.
+Similarly, with Words of Wilding, under the old rules, Doubling Season would have applied if the card would be drawn due to an effect (like Divination), but not if the card would be drawn due to the turn-based action of drawing a card during your draw step. Under the new rules, Doubling Season always applies to tokens created by Words of Wilding.
+

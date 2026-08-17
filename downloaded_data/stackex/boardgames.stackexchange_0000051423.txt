@@ -1,0 +1,30 @@
+Q:
+
+What's the expected damage from playing Terror of the Peaks, when I have Mirror March out?
+
+If I play Terror of the Peaks while I control
+Mirror March, what is the expected damage? That is the average of winning 1, 2, 3, ... 'Infinity' flips? I'm sure it's a converging sum, but I'm not sure how to work it out.
+
+A:
+
+Let's go through this:
+The first Terror (the one you cast) comes out, the March triggers, but not the Terror. The March resolves, and you flip coins, getting N heads, meaning N Terrors enter the battlefield. Including the one already there, they all see all the others enter the battlefield, see rule 603.6a (emphasis mine):
+
+603.6a Enters-the-battlefield abilities trigger when a permanent enters the battlefield. These are 
+  written, “When [this object] enters the battlefield, . . . “ or “Whenever a [type] enters the 
+  battlefield, . . .” Each time an event puts one or more permanents onto the battlefield, all 
+  permanents on the battlefield (including the newcomers) are checked for any enters-the-
+  battlefield triggers that match the event.
+
+So that's one Terror that deals damage N times, and N Terrors that each deal damage (N-1) times, for a total of 5*N^2 damage.
+The probability distribution of N (assuming a fair coin) is given by
+
+P(N=n)=2^(-n)
+
+By definition of expectation, the expected damage dealt is therefore:
+
+P(N=0)*5*0^2 + P(N=1)*5*1^2 + P(N=2)*5*2^2 + ...
+
+According to WolframAlpha, this comes out to be 30.
+If you want to know how to actually get 30 from this, math.SE is probably a better place to ask for the details. I'd be happy to answer it for you over there, as would many others I'm sure (as long as you stick to our guidelines for a good question). It's a lot easier to write math there as well.
+

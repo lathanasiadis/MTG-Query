@@ -1,0 +1,23 @@
+Q:
+
+Would Averna, the Chaos Bloom allow you to get out all of your lands if you cascade and don't have a lower CMC spell in your deck?
+
+If you fail to find a lower CMC spell in your deck while cascading, would Averna, the Chaos Bloom drop all of the land in your deck into play on one turn?
+The wording on the card is:
+
+As you cascade, you may put a land card from among the exiled cards onto the battlefield tapped. (Do this after the last card is exiled but before deciding whether to cast a nonland card.)
+
+A:
+
+No.
+Cascade is defined as:
+
+702.84a Cascade is a triggered ability that functions only while the spell with cascade is on the stack. “Cascade” means “When you cast
+this spell, exile cards from the top of your library until you exile a
+nonland card whose converted mana cost is less than this spell’s
+converted mana cost. You may cast that card without paying its mana
+cost. Then put all cards exiled this way that weren’t cast on the
+bottom of your library in a random order.”
+
+So if you don't have a lower CMC spell in your deck, you will exile your entire library one card at a time.  Once all cards are exiled, you get to put a land card onto the battlefield tapped.  Then you are done.
+

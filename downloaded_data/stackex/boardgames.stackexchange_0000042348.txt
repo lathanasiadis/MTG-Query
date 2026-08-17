@@ -1,0 +1,30 @@
+Q:
+
+Tapping cards - mana pool - general questions
+
+I've been playing  for very long time right now (with long breaks though...) and I happen to find some uncertainties about mana pool/tapping etc.
+
+When you usually play with your friends do you argue about untapped lands? For example You forgot to untap them during your untap step and then you want to use them in the following main phase. Do you let it go?
+What if I have 2R&2W lands -> I am spending 2R on a spell card (draw a card) with 1R/1C cost. I happen to draw a spell card with 1R cost which I currently lack because I stupidly tapped it before. Can I just mention that in the reality I spent 1R+1W previously and now use that 1R land again?
+
+For one: I could just tap them all at the beginning as there is no long mana burn rule and no one should argue about what I just spend for what card...
+But at the same time this kind of mechanics adds some spice to the gameplay because you must think more about random things etc...
+
+A:
+
+Under normal circumstances, you cannot forget to untap lands because it's not an optional action. As for rules enforcement in your own group: that's entirely your group's call.
+Untapping lands is not optional. It's a turn-based action that happpens automatically. If you forget to do that, your group may handle that situation any way you decide to. The document Judging at Regular Rules Enforcement Level (REL)
+ can provide guidelines on how such things are handled at the lowest level of rules enforcement, for example at Friday Night Magic. For forgetting to untap things, you can just rewind the game state to that point.
+
+Turn-Based Actions
+
+703.1. Turn-based actions are game actions that happen automatically when certain steps or phases begin, or when each step and phase ends. Turn-based actions don’t use the stack.
+703.4. The turn-based actions are as follows:
+703.4b Immediately after the phasing action has been completed during the untap step, the active player determines which permanents they control will untap. Then they untap them all simultaneously. See rule 502.2.
+
+As for your second question: within the rules of the game you could not undo your choice of how to pay for costs, even if you put all your mana into your mana pool and just skip over that detail. After you have paid a mana cost, you have to announce what mana still remains in your mana pool:
+
+106.4a If any mana remains in a player’s mana pool after mana is spent to pay a cost, that player announces what mana is still there.
+
+If your group allows retroactively changing how costs have been paid, then that's entirely up to you.
+

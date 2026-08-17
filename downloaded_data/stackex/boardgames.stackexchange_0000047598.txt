@@ -1,0 +1,28 @@
+Q:
+
+Dictate of Erebos and Attrition
+
+If an opponent has Dictate of Erebos and Attrition and then activates attrition targeting one of my creatures in what order are the effects added to the stack?
+I assume Attrition is added first targeting my creature and then Dictate of Erebos is added on top. Can I sacrifice the targeted creature and then the Attrition effect is countered?
+
+A:
+
+You have it correct; Dictate of Erebos will be on top and resolve first.
+In fact, Attrition's ability is actually added to the stack before any creature has even been sacrificed.
+
+602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that’s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it’s countered, it resolves, or an effect moves it elsewhere.
+602.2b The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b–i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability’s analog to a spell’s mana cost (as referenced in rule 601.2f) is its activation cost.
+
+602.2b is where the costs are paid; where your opponent will sacrifice a creature.
+
+603.2. Whenever a game event or game state matches a triggered ability’s trigger event, that ability automatically triggers. The ability doesn’t do anything at this point.
+
+It will only be added to the stack after Attrition's ability is on the stack and paid for; before a player gets priority:
+
+704.3. Whenever a player would get priority (see rule 116, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated.
+
+So yes, you can sacrifice the targeted creature to Dictate; which will cause Attrition to do nothing when it tries to resolve.
+Note that the Attrition ability won't actually be "countered". It will simply fail to resolve and leave the stack. This is a change to the rules introduced in  2018.
+
+If all its targets, for every instance of the word “target,” are now illegal, the spell or ability doesn’t resolve. It’s removed from the stack and, if it’s a spell, put into its owner’s graveyard.
+

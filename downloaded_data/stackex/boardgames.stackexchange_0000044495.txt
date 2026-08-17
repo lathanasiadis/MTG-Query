@@ -1,0 +1,35 @@
+Q:
+
+What exactly is "each combat"?
+
+The text for Juggernaut reads, in part:
+
+Juggernaut attacks each combat if able.
+
+I'm not sure what this means. The word "combat" isn't defined as a countable noun in the Comprehensive Rules. It usually occurs in expressions as an uncountable noun, e.g. "in combat", "during combat", "removed from combat", "result of combat", "beginning of combat", "end of combat", "rules for combat", and as a modifier, e.g. "combat phase", "combat damage". Here are the only occurrences of "combat" as a countable noun that I found in the Comprehensive Rules:
+
+509.5a An ability that reads “Whenever [a creature] blocks, ...” generally triggers only once each combat for that creature, even if it blocks multiple creatures.
+509.5c An ability that reads “Whenever [a creature] becomes blocked, ...” generally triggers only once each combat for that creature, even if it’s blocked by multiple creatures.
+701.37a Certain spells and abilities can goad a creature. Until the next turn of the controller of that spell or ability, that creature attacks each combat if able and attacks a player other than that player if able.
+702.22b The rampage bonus is calculated only once per combat, when the triggered ability resolves.
+702.38a Provoke is a triggered ability. “Provoke” means “Whenever this creature attacks, you may choose to have target creature defending player controls block this creature this combat if able. If you do, untap that creature.”
+702.120a Melee is a triggered ability. “Melee” means “Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.”
+802.1. Some multiplayer games allow the active player to attack multiple other players. If this option is used, a player can also choose to attack only one player during a particular combat.
+
+Unfortunately, none of them explains what exactly "a combat" is. I see (at least) two possible interpretations. I suspect that the intended interpretation is for "a/each/per/this combat" to be short for "a/each/per/this combat phase". But another interpretation (which my nephew believes is the intended one) is for "a combat" to refer to a combat that actually occurs, as opposed to a combat phase, which is merely an opportunity for a combat to occur. In this latter interpretation, the Juggernaut would only have to attack if a combat is initiated by other creatures attacking.
+Do you see any grounds for arriving at a definitive interpretation?
+
+A:
+
+"Combat" is short-hand for "combat phase"
+You are correct that the specific word "combat" without further qualifiers is not explicitely defined in the Comprehensive Rules. However, it is shorthand for "combat phase", as can be inferred from here:
+
+500.5. When a phase or step ends, any effects scheduled to last “until end of” that phase or step expire. When a phase or step begins, any effects scheduled to last “until” that phase or step expire. Effects that last “until end of combat” expire at the end of the combat phase, not at the beginning of the end of combat step. Effects that last “until end of turn” are subject to special rules; see rule 514.2.
+
+Logically, "until end of combat" is equivalent to "until end of combat phase", therefore "combat" is equivalent to "combat phase".
+Also, combat is not initiated in any way other than advancing the turn; it eventually happens every turn, whether or not any creatures are actually going to attack.
+
+500.1. A turn consists of five phases, in this order: beginning, precombat main, combat, postcombat main, and ending. Each of these phases takes place every turn, even if nothing happens during the phase. The beginning, combat, and ending phases are further broken down into steps, which proceed in order.
+
+That means the Juggernaut has to attack if possible, whether or not other creatures also attack.
+

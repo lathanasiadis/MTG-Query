@@ -1,0 +1,11 @@
+Q:
+
+Gifts ungiven vs. hexproof
+
+What happens when my opponent cast Gifts Ungiven while I have hexproof (like from Veil of Summer)? Does it fizzle or give them all four of the cards?
+
+A:
+
+If you already have hexproof when your opponent attempts to cast Gifts Ungiven, then Gifts Ungiven cannot be cast because it cannot target an opponent; attempting to do this is an illegal action and results in the game returning to the state before your opponent attempted to cast the spell (CR 601.2c, 601.2e).
+If you acquired hexproof between the spell being cast and the spell resolving (e.g. by casting Veil of Summer in response to Gifts Ungiven going on the stack), then it will fizzle as all its targets are now invalid, or more formally not resolve and be placed into its owner's gravecard (CR 608.2b).
+

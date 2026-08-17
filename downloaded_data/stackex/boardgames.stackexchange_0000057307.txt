@@ -1,0 +1,22 @@
+Q:
+
+How does Death's Shadow interact with Trample?
+
+Inspired by Does Death's Shadow grow when blocking a creature while the player is taking damage?
+Let's say I control a Phyrexian Dreadnought - a 12/12 Trampler. My opponent is on 12 life and has a Death's Shadow, currently 1/1.
+I attack, opponent blocks. Trample says I need to assign "lethal damage" to the blocker, presumably 1 damage in this case, and then any excess damage goes to the player. But if I assign 1 damage to the Death's Shadow and 11 damage to the player, then the Death's Shadow becomes a 12/12 with 1 damage marked on it, which is not lethal. In fact, some math shows that I need to assign at least seven damage to the Death's Shadow to actually kill it, in which case opponent only takes 5 trample damage.
+Can I trample over for 11, or only for 5?
+
+A:
+
+In the Combat Damage step, you must assign lethal damage to the Death's Shadow - this is unambiguously 1 at this stage because the Shadow has 1 toughness and no damage marked on it. You can then assign the rest of the damage to the player if you wish; from 702.19b (Trample):
+
+Once all those blocking creatures are assigned lethal damage, any excess damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking.
+
+There is now nothing in either CR 510 (Combat Damage Step) or CR 702 which specifies that the damage assignment must/can be changed if the "required" lethal damage for a creature changes so combat damage is dealt as assigned. (CR 702.19d covers the case where a blocking creature is removed from combat entirely, but that's not what's happening here).
+Note that the converse can apply as well: for example, if you have Torbran, Thane of Red Fell
+
+If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
+
+in play and are attacking with a red creature with trample, you must still assign 3 damage to a 3/3 blocker even though 1 damage would be sufficient to make it die.
+

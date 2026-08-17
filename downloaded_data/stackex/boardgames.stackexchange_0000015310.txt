@@ -1,0 +1,58 @@
+Q:
+
+How can I play against enchantments while playing an all black deck?
+
+I just need to know any and all black Magic cards that destroy enchantments. I already searched Gatherer and didn't find anything.
+It's casual play with family, so any card is fair game.
+
+A:
+
+Strategies for mono-black against enchantments
+Targeted discard
+The best black cards against enchantments are targeted discard spells.
+ 
+Targeted discard lets you deal with practically any card before it hits the battlefield. Getting the most out of them may require some finesse (here is THE guide on that subject.), but these cards are powerful tools that you can use to deny your opponent access to their most critical cards.
+Targeted discard shines in a traditional duel environment (one-on-one, best-of-three play), where you can focus on taking apart a single deck's gameplan. It's much harder — though not impossible — to wield effectively in casual multiplayer.
+The "just deal with it" strategy
+Another common solution is to just play through. Pacifism on your guy? Just write him off as dead (until you need a sacrificial creature or something). Moat preventing you from attacking? Stall until you can dig out your direct damage or your big flying Demon. Nevermore preventing you from playing your commander? Rely on your other cards to kill your opponent. Did your opponent put a Furnace of Rath on the field? Start racing for damage.
+It's tough and you're often at a disadvantage, but often if you focus on what you can do instead of what you can't, you can find some tactical way to "play around" the problematic enchantment. Often the best insurance against "prison" strategies, besides raw speed, is to build in a variety of win conditions.
+Specific hosers for specific cards
+Another thing you can do if a specific card is causing you problems is find cards that don't remove it, but negate its effect. For example, Everlasting Torment can make Circle of Protection: Black sit there uselessly in play, while Spirit of the Labyrinth effectively blanks a number of "draw a lot of cards" decks. Generally these work best as sideboard cards, unless they're cards that fit into your deck's general gameplan anyway (e.g. you really want to use Everlasting Torment's -1/-1 counters as part of your own strategy).
+Cards that actually remove enchantments
+A true "all-black" deck has very few options
+Enchantment removal isn't in black's part of the "color pie." Meaning it's not something black is supposed to do.
+Which doesn't mean it's impossible to find cards that do, because cards to sometimes break the color pie — especially older cards. Let's try some Gatherer searches.
+
+Black only + "destroy" + "enchantment": Hmm... all that really gives you is Quagmire Druid, which requires green mana. Might as well play a better green card.
+
+Well, okay, but there are other ways to remove enchantments. "Exile," for instance...
+
+Black only + "exile" + "enchantment": Nope. (You get Parallax Nexus, just because of its reminder text.)
+
+Let's also try "permanent" instead of "enchantment."
+
+Black only + "destroy" + "permanent": Only the Unglued card Zzzyxas's Abyss.
+
+Black only + "exile" + "permanent": Well, Descent into Madness can exile enchantments. Eventually. But it's a build-around-me card and won't remove anything quickly.
+
+False positives from reminder text give us a few cards with phrases like "target player sacrifices a permanent." So let's chase that down...
+
+Black only + "player" + "sacrifice" + "permanent", black only + "opponent" + "sacrifice" + "permanent": Several options emerge:
+
+Curse of the Cabal, Undercity Plague, and Greater Harvester all have the potential to grind through an opponent's permanents, but the ability to sacrifice lands to protect your other stuff makes them rather ineffective solutions.
+Dystopia is a classic card that actually saw some serious play once, a long time ago. It's a reasonable answer to controlling white decks hiding behind cards like Ghostly Prison and Circle of Protection.
+Liliana of the Veil's -6 ability can take care of any permanent, including enchantments. Your opponent gets a choice, but that's where skillful play comes in — if your opponent is willing to sacrifice everything to keep some enchantment in play, then, well, maybe you should just let them.
+
+In this case, we've basically struck out. You have a few cards that you might be able to use to remove enchantments — almost as an afterthought, — but nothing nearly as direct as a simple Oblivion Ring or Naturalize. I wouldn't include any of these cards in a deck just to deal with enchantments (I'd play Liliana for, well, general awesomeness, though).
+Colorless cards for your mono-black deck
+Generally, whenever you need a mono-color deck to do something that its color can't really do, try this: use artifacts and other colorless cards to do stuff your color can't (try searches like colorless + "destroy" + "permanent").
+
+Targeted destruction: Spine of Ish Sah, Ulamog, the Infinite Gyre, Chaos Orb (weird and fun), Eye of Doom (symmetrical effect for multiplayer).
+Repeatable destruction: Karn Liberated, Steel Hellkite, Argentum Armor, Lux Cannon (slow), various Eldrazi cards with annihilator (might take a while to hit the right card). (Also Spine of Ish Sah if you have a sac outlet.)
+Wipes: Nevinyrral's Disk, Oblivion Stone, All Is Dust.
+Precise wipes: Ratchet Bomb (can be slow).
+
+Some of these are pretty mana-intensive, making them better fits for multiplayer decks than dueling decks.
+Splashing colors
+If you want more cost-effective removal, add more colors instead. Most of the gold standards for multi-faceted removal are multi-color cards featuring black as one of their colors: cards like Abrupt Decay, Vindicate, and Pernicious Deed.
+

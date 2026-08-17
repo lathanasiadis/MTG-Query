@@ -1,0 +1,44 @@
+Q:
+
+What's the probability of having a combo on the first turn in MTG?
+
+I'm creating a combo deck, and I'm interested in the probability of having a certain combo on the first turn.
+For this combo, I need 4 different cards. There are 4 copies of each of these cards in the deck. The deck has 60 cards.
+What is the probability of seeing these 4 cards in the starting hand of 7 cards?
+I read How do you calculate the likelihood of drawing certain cards in your opening hand?, but my question is a little different and I don't know how to calculate this probability.
+
+A:
+
+You can do this calculation using the multivariate hypergeometric distribution. The setup is as follows:
+The deck of 60 cards consists of: 4 cards of type A, 4 cards of type B, 4 cards of type C, 4 cards of type D, and 44 cards of type E (other).
+Your criteria are that a hand of 7 cards contains at least 1 card of type A, at least 1 card of type B, at least 1 card of type C, and at least 1 card of type D.
+For a given hand arrangement, you can calculate the probability using the formulas in the link. As an example, the probability of the hand (1 card of type A, 1 card of type B, 1 card of type C, 2 cards of type D, and 2 cards of type E) is:
+(4 choose 1) * (4 choose 1) * (4 choose 1) * (4 choose 2) * (44 choose 2) / (60 choose 7) = ~0.000941.
+Note that this probability is for this specific hand, and there are many that meet your requirements. You will want to make a table of all realizable hands and sum up the probabilities. (or alternatively a table of all hands that don't meet the criterion, and subtract the sum from 1).
+=== table of realizable hands ===
+
+1,1,1,1 of (A, B, C, D), 3 of other
+
+(4 choose 1) * (4 choose 1) * (4 choose 1) * (4 choose 1) * (44 choose 3) / (60 choose 7) = ~0.00879
+
+1,1,1,2 of (A, B, C, D), 2 of other [4 variants]
+
+4 * [(4 choose 1) * (4 choose 1) * (4 choose 1) * (4 choose 2) * (44 choose 2) / (60 choose 7)] = ~0.00376
+
+1,1,2,2 of (A, B, C, D), 1 of other [6 variants]
+
+6 * [(4 choose 1) * (4 choose 1) * (4 choose 2) * (4 choose 2) * (44 choose 1) / (60 choose 7)] = ~0.000394
+
+1,2,2,2 of (A, B, C, D), 0 of other [4 variants]
+
+4 * [(4 choose 1) * (4 choose 2) * (4 choose 2) * (4 choose 2) / (60 choose 7)] = ~0.00000895
+
+1,1,1,3 of (A, B, C, D), 1 of other [4 variants]
+
+4 * [(4 choose 1) * (4 choose 1) * (4 choose 1) * (4 choose 3) * (44 choose 1) / (60 choose 7)] = ~0.000117
+
+1,1,2,3 of (A, B, C, D), 0 of other [12 variants]
+12 * [(4 choose 1) * (4 choose 1) * (4 choose 2) * (4 choose 3) / (60 choose 7)] = ~0.0000119
+
+Total Sum of above = ~0.01307
+

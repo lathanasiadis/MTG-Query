@@ -1,0 +1,19 @@
+Q:
+
+Can I redirect a spell that targets an "opponent" back to the caster?
+
+Scenario 1:
+My opponent casts Appetite for Brains, and in response I cast Redirect. Can I target him and redirect spell back at him?
+Scenario 2:
+I have a creature enchanted with Snake Umbra. My opponent gains control over my creature through some effect. My opponent attacks me with that creature and deals damage with it. Does he get to draw a card?
+
+A:
+
+In scenario 1, your opponent is still controlling Appetite for Brains, and since they aren't their own opponent, they are not a valid target for the spell. So you can't Redirect that spell back to them.
+
+102.2. In a two-player game, a player's opponent is the other player.
+
+In scenario 2, Snake Umbra bestows an ability on the creature, which is now controlled by the opponent. You are the opponent's opponent, so they do get to draw a card.
+Note that if Snake Umbra would've read "Whenever enchanted creature deals damage to an opponent, you may draw a card.", nobody would draw a card; you control the trigger, but you're not your own opponent.
+Only if Snake Umbra would've read "Whenever enchanted creature deals damage to a player, you may draw a card.", you would have drawn a card.
+

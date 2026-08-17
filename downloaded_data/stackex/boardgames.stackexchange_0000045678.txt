@@ -1,0 +1,16 @@
+Q:
+
+Can Strionic Resonator target Ink-Treader Nephilim's ability?
+
+What is the ruling on Strionic Resonator targeting Ink-Treader Nephilim's ability? It would copy all of the spells again, correct?
+
+A:
+
+Yes, you can do this if you control the Ink-Treader Nephilim.
+Strionic Resonator's ability says this
+
+{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy.
+
+The target condition is "target triggered ability you control", so you can copy any triggered ability you control. If you control the Ink-Treader Nephilim you also control any of its triggered abilities, so you can target and then copy them with Strionic Resonator's abilities.
+When you copy something on the stack, you copy all of the parameters and references, including the reference in this case to the spell that would get copied. So, when the copy of the Ink-Treader's ability resolves, it copies the same spell that the original ability would copy.
+

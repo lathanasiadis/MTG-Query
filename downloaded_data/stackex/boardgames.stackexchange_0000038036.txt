@@ -1,0 +1,16 @@
+Q:
+
+How does Asmira, Holy Avenger respond to manifested cards?
+
+I was wondering what happens if a non-creature, manifested card (thus it's a 2/2 at the time) dies with Asmira, Holy Avenger on the field? Does Asmira get +1/+1 from that creature or not?
+
+A:
+
+Yes, you get the counter. 
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+Because Asmira, Holy Avenger says "creature" and not "creature card", it is only referring a a creature permanent on the battlefield, not anything about the card type. Because a "creature" by definition can only exist on the battlefield, Asmira can only be talking about what object was on the battlefield that went to the graveyard. The object that now exists in the graveyard is irrelevant.
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+

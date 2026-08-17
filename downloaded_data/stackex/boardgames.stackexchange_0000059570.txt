@@ -1,0 +1,15 @@
+Q:
+
+When Kardur, Doomscourge is active, do myriad-empowered creatures create tokens and deal damage to the Kardur player upon attacking?
+
+In an EDH game, when an opponent controls Kardur, Doomscourge with its enters-the-battlefield (ETB) ability activated, if I attack another opponent with my creatures that have myriad (courtesy of Legion Loyalty), does myriad generate attacking tokens for the Kardur player, and does this also result in dealing damage to them?
+
+A:
+
+Myriad doesn't care about Kardur's ability. Myriad tokens are created for every opponent even if they have Kardur's ability active.
+Kardur's ability creates requirements that force your creatures to attack, and attack another player, if able. However, if an effect (such as Myriad) creates tokens that are already attacking, those creature tokens skipped the "declare attackers" part of combat and are thus unaffected by the requirement to attack another player. Same goes for effects that put a creature card onto the battlefield tapped and attacking, such as Winota, Joiner of Forces.
+
+508.4c A creature that’s put onto the battlefield attacking or that is stated to be attacking isn’t affected by requirements or restrictions that apply to the declaration of attackers.
+
+Once a creature is attacking by whatever means, it will participate in combat and deal damage as usual.
+

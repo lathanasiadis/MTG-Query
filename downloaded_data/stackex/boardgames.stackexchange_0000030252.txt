@@ -1,0 +1,18 @@
+Q:
+
+Can a Suppression Bonds cancel out another Suppression Bonds?
+
+Can you use a Suppression Bonds on a Suppression Bonds to use a creature that was Suppression Bonded and cancel it out?
+
+A:
+
+You can enchant one copy of Suppression Bonds with another, but it won't do anything.
+The text of Suppression Bonds states "Enchant nonland permanent. Enchanted permanent can't attack or block, and its activated abilities can't be activated."
+So Suppression Bonds is a nonland permanent, meaning it's a legal target for another Suppression Bonds. However, it prevents its target from three things:
+
+Attacking
+Blocking
+Using activated abilities, which are abilities where you pay a cost to cause an effect, and are written in the form "Cost: Effect".
+
+Since Suppression Bonds isn't a creature, it won't be attacking or blocking (unless there's another effect that changes that), so nothing will happen on that front. And its ability is not an activated ability, but a continuous effect, so it is not affected by Suppression Bonds being cast on it.
+

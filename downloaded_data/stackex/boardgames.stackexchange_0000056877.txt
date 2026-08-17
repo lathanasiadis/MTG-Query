@@ -1,0 +1,28 @@
+Q:
+
+Firesong and sunspeaker triggers for multi color multi target spells
+
+If I have Firesong and Sunspeaker out and cast Deafening Clarion it would have lifelink. And therefore it is also a white sorcery that caused me to gain life.
+The question I'm posing is does it trigger "whenever a white instant or sorcery spell causes you to gain life, FS&SS deals 3 damage to target creature or player" once? Or does it trigger each time deafening clarion deals damage to a new target and thus is a separate instance of damage and lifelink?
+I.e. if their are 10 creatures do I get an additional 3 or 30 damage?
+
+A:
+
+All the damage from Deafening Clarion is a single damage event, so Firesong and Sunspeaker will only trigger once, giving you 3 extra damage.
+From a Gatherer ruling on Firesong and Sunspeaker:
+
+If a red and white spell you control deals damage to multiple things using the word “deals” only once, Firesong and Sunspeaker’s last ability triggers only once. Similarly, if a red and white spell’s effect causes it to deal damage to one thing and then deal more damage with a second instance of the word “deals,” Firesong and Sunspeaker’s last ability triggers twice, and so on.
+
+Here is one relevant rule:
+
+Life
+
+119.9. Some triggered abilities are written, “Whenever [a player] gains life, . . . .” Such abilities are treated as though they are written, “Whenever a source causes [a player] to gain life, . . . .” If a player gains 0 life, no life gain event has occurred, and these abilities won’t trigger.
+
+As far as Deafening Clarion's Lifelink is concerned, all it cares about is the total amount of damage Deafening Clarion is dealing, because that damage also causes you to gain that much life. It doesn't matter how many different creatures are receiving that damage.
+Similar questions have been asked about Cone of Flames, and judges have ruled that each instance of the word "deals" in an effect causes a separate damage event.
+https://www.mtgsalvation.com/forums/magic-fundamentals/magic-rulings/magic-rulings-archives/257199-targeting-technicalities
+https://tappedout.net/mtg-questions/deafening-clarion-firesong-and-sunspeaker-and-similiar-multi-enemytarget-effects/
+
+Assuming FS&SS were your only creature Deafening Clarion would deal 18 damage and you would therefore gain 18 life. All the damage is dealt as a single event, so you get 1 instance of lifegain from a white instant or sorcery, and get to Lightning Bolt once.
+

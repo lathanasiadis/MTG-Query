@@ -1,0 +1,18 @@
+Q:
+
+What happens with trample when a boost is cast during damage assignment?
+
+So imagine this:
+
+My 5/5 with trample attacks.
+It's blocked by a 1/1 and a 2/2.
+I assign damage as 1 to the 1/1, 2 to the 2/2, and 2 to the player.
+And then they play a card to boost their 1/1, making it a 5/5.
+
+What happens?
+
+A:
+
+They cannot boost after you have assigned your damage. The last chance that players have to activate abilities and cast instants is in the declare blockers step, after all blockers have been assigned. They could cast a boost at that point, but you would already know the actual toughness when assigning damage, and you would have to assign lethal damage to the first creature before moving on to the second.
+Note that prior to the 10th edition, released in 2006, damage DID use the stack, so after damage went on the stack, there would be a chance to respond before it resolved.
+

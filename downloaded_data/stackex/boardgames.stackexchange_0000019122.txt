@@ -1,0 +1,25 @@
+Q:
+
+Statistics on a booster pack (to make my own re-packs)
+
+I have a lot of magic cards.  For constructed play they are mostly worthless.  I would like to pack these up into re-packs that are like booster packs.
+But I am not sure what cards go into a booster pack.
+NOTE: I am not asking about Rareity distribution.  I know that each pack has:
+
+Token/Advertisement
+Foil/Land
+Rare/Mythic
+3 (ish) Uncommons
+Rest are Commons
+
+I am asking how random the other types on the cards are.  Meaning is it possible to open a booster that is all Red?  or all Creatures?  Or all Sorcery?  
+Or is there a guarantee that there will be a certain number of each color, creatures, instants, sorceries, etc.? 
+
+A:
+
+There is no hard guarantee that a booster will contain X creatures, or X sorceries, or X red cards.
+However, the contents of a booster aren't completely random either. Instead, the commons in a booster are heavily influenced by the set's common print runs.
+Print runs are easiest to explain by example, so let's look at the print runs for Born of the Gods, a small set. The commons in the set are divided into two lists, with each common showing up in only one list (but appearing twice in that list).
+A normal Born of the Gods booster contains 10 commons, made up of 4–6 commons from list A and 4–6 commons from list B. This means that certain combinations of commons are likely to occur together, and other combinations of commons can never occur together.
+Now, all of this is probably too much of a hassle to be worth simulating when building your own repacks. I would probably just add 10 random commons from your pool. But print runs are the basis of how real boosters work, both in paper and online.
+

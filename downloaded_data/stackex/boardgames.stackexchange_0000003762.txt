@@ -1,0 +1,35 @@
+Q:
+
+When a land becomes creature, can you kill it?
+
+Some lands have an ability to become a creature, but they usually say they are still a land. If a land is a 3/3 creature and a land, can you target and kill it with a Lightning Bolt to send it to the graveyard, or does it remain in play as a land?
+
+A:
+
+From the Magic Comprehensive Rules (effective as of November 11, 2016):
+
+119. Damage
+119.1. Objects can deal damage to creatures, planeswalkers, and players. This is generally detrimental to the object or player that receives that damage. An object that deals damage is the source of that damage.
+...
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.13, "Regenerate") and during the cleanup step (see rule 514.2).
+
+For absolute clarity, here is part of the rules on "State-Based Actions"
+
+704.3. Whenever a player would get priority (see rule 116, "Timing and Priority"), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step's first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+
+So the sequence goes like this.
+
+You cast Lightning Bolt (when you have priority), spell goes on the stack.
+You have priority. If you pass:
+Opponent has priority. If they pass:
+Lightning Bolt resolves. Three damage is applied to land creature.
+If it's your turn, you have priority, if it's opponent's turn he/she does. Regardless. WHOOP WHOOP game checks for state based effects first.
+State based effect: damage on land creature >= toughness. It is destroyed.
+
+You certainly can "kill" a land, but "kill" is not the proper Magic term. Over the years Magic has become very specific about the terms used to describe cards, abilities and effects just to avoid "intuitive" confusion like this (how can you kill a land???) The term your friend was looking for was:
+
+701.7. Destroy
+701.7a To destroy a permanent, move it from the battlefield to its owner's graveyard.
+
+There are plenty of magic cards which have the words destroy target land in the rules text.
+

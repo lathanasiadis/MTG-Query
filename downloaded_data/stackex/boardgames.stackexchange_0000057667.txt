@@ -1,0 +1,26 @@
+Q:
+
+Why do Sagas trigger on entering the battlefield?
+
+I've been reading what the comprehensive rules say about Sagas and I think I've noticed an error in the rules.
+
+714.2b “{rN}—[Effect]” means “When one or more lore counters are put onto this Saga, if the number of lore counters on it was less than N and became at least N, [effect].”
+
+That means Sagas have an inherent intervening "if" clause. If that clause isn't true at the time of the listed event (namely, a lore counter being put on the Saga), it won't trigger at all.
+
+714.3a As a Saga enters the battlefield, its controller puts a lore counter on it.
+
+This is where I see a problem. The "as" wording means that there is a replacement effect applied before the Saga enters. This is supported by 614.12:
+
+614.12 Some replacement effects modify how a permanent enters the battlefield. ... To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield...
+
+If a Saga enters the battlefield with a lore counter on it, then there was never a point when the permanent it became had zero lore counters on it. Because of that, the "if the number of lore counters on it was less than N" of the rules is not satisfied (N=1) and the first chapter ability should not trigger.
+Am I off base here?
+
+A:
+
+Sagas work correctly as per the rules. When a permanent enters the battlefield with counters on it, they count as having been placed on that permanent.
+You are correct in that a Saga enters the battlefield with a counter on it because of a replacement effect and not a separate trigger. However, this counter still counts as having been placed on that Saga and thus causes its first effect.
+
+122.6. Some spells and abilities refer to counters being put on an object. This refers to putting counters on that object while it’s on the battlefield and also to an object that’s given counters as it enters the battlefield.
+

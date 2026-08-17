@@ -1,0 +1,29 @@
+Q:
+
+MTG - Priority and timing between instants and instants -
+
+Well, returning back to the creature 2/3 just summoned, what happens if I have priority and cast an instant that gives +1/+1 to that creature, and then, giving priority to the opponent, he/she casts Lightning Bolt in order to kill the creature counting on that it resolves before my instant (giving +1/+1 to the 2/3 creature)?
+In other words, here's the order of the spells:
+
+Summoning of a 2/3 creature
+Priority is mine, and I cast an instant (giving +1/+1 to the 2/3 creature just summoned)
+I give priority to my opponent, and he casts a lightning bolt with the 2/3 creature as a target.
+
+What happens? Does the Lightning Bolt kill the creature, or not? The stack is now:
+
+Lightning Bolt on the top
+My +1/+1 instant on the bottom
+
+A:
+
+It will kill the creature. After the Lightning Bolt resolves, state based actions will be checked:
+
+704.1. State-based actions are game actions that happen automatically whenever certain conditions (listed below) are met. State-based actions don’t use the stack.
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event.
+
+One of those checks will destroy the 2/3 creature:
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.
+
+This happens before the +1/+1 instant can come to the rescue.
+

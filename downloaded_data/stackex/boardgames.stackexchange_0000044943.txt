@@ -1,0 +1,17 @@
+Q:
+
+How does "casting without paying mana cost" work with additional costs?
+
+Cards with cascade like Maelstrom Wanderer say "...You may cast it without paying it's mana cost." Does this include mana costs added from sources like Sphere of Resistance, or would it always be cast for free, regardless of additional costs? 
+
+A:
+
+You must pay additional costs separately, so you would still have to pay {1} for Sphere of Resistance.
+Casting without paying is an alternate cost:
+
+117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell's text, or applied to it from another effect, that its controller may pay rather than paying the spell's mana cost. Alternative costs are usually phrased, "You may [action] rather than pay [this object's] mana cost," or "You may cast [this object] without paying its mana cost." Note that some alternative costs are listed in keywords; see rule 702.
+
+Additional costs are added separately from alternate costs:
+
+117.9d If an alternative cost is being paid to cast a spell, any additional costs, cost increases, and cost reductions that affect that spell are applied to that alternative cost. (See rule 601.2f.)
+

@@ -1,0 +1,34 @@
+Q:
+
+Do creatures with Defender ability die?
+
+If Angelic Wall (0/4) blocks a creature with a power of 5, would Angelic Wall die? My brother is playing Magic 2013 on his iPad, and basically when his creatures with Defender (the ability) blocks a stronger creature, the defenders never die.
+I keep telling him they do die in the actual card game but every reference I find just says they do not attack but not whether or not they die. His reasoning is that they just absorb damage to lessen the affect of trample, for example.
+
+A:
+
+The short: Yes any creature that suffers leathal damage 'dies' including those with Defender.
+A wall as they were previously known, is a creature with defender.
+If it takes 5 damage it is destroyed.(Dies)
+Rule 119 all parts but this one in particular:
+
+119.5. Damage dealt to a creature or planeswalker doesn't destroy it. Likewise, the source of that damage doesn't destroy it. Rather,
+  state-based actions may destroy a creature or planeswalker, or
+  otherwise put it into its owner's graveyard, due to the results of the
+  damage dealt to that permanent. See rule 704.
+
+And the state based action is what sends the creature to the grave yard:
+
+704.5g If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that
+  creature has been dealt lethal damage and is destroyed. Regeneration
+  can replace this event.
+
+And Defender:
+
+702.3. Defender
+702.3a Defender is a static ability.
+702.3b A creature with defender can't attack.
+702.3c Multiple instances of defender on the same creature are redundant.
+
+So a 'Defender' is simply a creature with an ability. Any creature that has damage marked on it that is greater than it's toughness, is destroyed as a state based action.
+

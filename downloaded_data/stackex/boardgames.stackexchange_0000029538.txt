@@ -1,0 +1,17 @@
+Q:
+
+Would a Cloudshift targeting Zada, Hedron Grinder also target tokens?
+
+Zada, Hedron Grinder copies instants and sorceries that target him only for all the rest of my creature that the intant or sorcery could target. If I cast Cloudshift, targeting Zada, would it create copies that target the token creatures I control?
+
+A:
+
+Yes, if you cast Cloudshift targeting your Zada, Hedron Grinder, Zada will make a copy of Cloudshift targeting each other creature you control, including tokens. Cloudshift says
+
+Exile target creature you control, then return that card to the battlefield under your control.
+
+So, any creature you control is a valid target.
+Note that when the copies resolve, any creature tokens you control will be exiled and they will not return, because of rule 110.5g:
+
+A token that has left the battlefield can’t move to another zone or come back onto the battlefield. If such a token would change zones, it remains in its current zone instead. It ceases to exist the next time state-based actions are checked; see rule 704.
+

@@ -1,0 +1,68 @@
+Q:
+
+Why would you want to play with a deck that had 3 or more colors in it in Magic? (limited and constructed)
+
+Background: I'm currently writing a strategy guide for magic as my pet project, and I'm trying to explain decks with multiple colors. Here's what I have so far:
+
+Dual color decks are useful because they allow you to take advantage
+of the best of 2 different colors instead of just 1. This allows you
+to minimize the weaknesses a mono-colored deck might normally have.
+For example, red decks usually have trouble dealing with
+enchantments, blue decks tend to have pretty bad creatures, green
+decks tend to be fairly bad with removal spells, etc. When
+combined with another color, most of these disadvantages are
+drastically reduced as you can use cards from each color to compensate for the
+other's weaknesses.
+Some decks also have more than 2 colors, although they are much less
+common. With 3 colors your deck will have plenty of options to reduce
+the shortcomings of any individual color as odds are there's a card in
+at least one of the other colors you're playing that will fill that
+gap nicely. The downside of a tri-color deck is that it's substantially
+more difficult to get the mana you need to play the cards in your
+hand. This means you'll need to devote more of your deck to cards that
+can generate mana of multiple colors, which detracts from your overall
+focus of getting cards out onto the field that actually win the game
+for you. Tricolor decks often include green because it is the best color for generating
+mana in its own and other colors, making it great support for the rest
+of the deck. These decks often rely on tricolor spells for finishers as they are
+often extremely powerful to make up for the difficulty of casting them,
+to the point where some can almost win the game on their own.
+Decks with more than 3 colors are extremely rare as there is usually
+relatively little advantage a 4th color will add that couldn't be
+covered by the others, and it is VERY difficult to create a
+successful 4 color mana-base that will let you play all of the cards
+you need to in a timely fashion.
+
+When I read this, it sounds like I'm saying "Tri-color decks are bad because they're so hard to get to work correctly and people only play them because of powerful gold cards." However, I'm pretty sure this isn't true and is stemming from my own lack of experience with tri-color decks.
+Question: Why would you want to play a tri-color deck? What advantages does adding the third color often add that makes the deck better than if it only had 2? What should I add to this section of my strategy guide to make it a little more complete/useful?
+
+A:
+
+Your mana base is the chief constraint, but it's not always as restrictive as you think.
+This really depends on the format and your budget, but, sometimes, it's really not "substantially more difficult to get the mana you need to play the cards in your hand" with a three-color deck.
+In something like 20 playtest games with Domain Zoo, which is (albeit nominally) a five-color deck, I never once got color-screwed. The fetches+shocks mana base was just that good. Why did the deck play a fourth color? Because Dark Confidant, by itself, was worth it. Why did the deck play "Islands"? To get 1 point of extra damage out of Tribal Flames.
+How far you can push the color distribution in your deck depends on the particular mana base available to you, and the overall "speed" of the metagame (which determines whether you can afford to devote your early turns to playing tapped lands like Zagoth Triome or color-fixing spells like Farseek).
+In Scars + Innistrad Standard, the distribution of multi-colored lands (one cycle of allied-color "fast" duals in Scars, one cycle of allied-color "buddy" duals in M12, one cycle of enemy-color "buddy" duals in Innistrad; Evolving Wilds as the only fetchland) makes a friendly-color three-color mana base comparable to an enemy-color two-color deck's. The reason most tournament decks are playing two allied colors instead is that this lets them cut colored-mana lands to run more utility lands like Nephalia Drownyard, Moorland Haunt, and Kessig Wolf Run + Inkmoth Nexus, which are some of the best ways to add depth and resilience to your deck.
+Indeed, it's when you need your lands to do something special that you're most constrained on colors. Some examples:
+
+Valakut, the Molten Pinnacle requires lots of Mountains to operate. Valakut, the deck, consequently, had a pretty awful mana base for a two-color deck, because most of the cards were green but the deck needed to max out on plain old basic Mountains to do get its combo.
+A deck with Dungrove Elder will want copious Forests regardless of its color distribution. If you pick him in M12 draft but can't force mono-green, it still behooves you to play as many Forests as reasonable if you want to make use of the Elder.
+Vedalken Shackles is, sometimes, considered reason enough to go mono-blue all by itself.
+Tron devotes half its lands to the (colorless) Urza's lands, leaving it with very starved for colored mana. Balancing two colors and a ton of colorless lands is actually much harder than getting a working three-color mana base, because there's not a lot of flexibility in how you can pay for your spells.
+Metagame-hater decks playing lots of non-basic-land hate (e.g. Back to Basics, Ruination) can find it limiting their own mana base.
+
+The main benefit is, as you said, access to stronger and more varied cards.
+Some prominent historical examples of very different applications:
+
+Weissman's original archetypal control deck was a five-color deck. The majority of the cards were blue, but it used the other colors to cast "silver bullet" cards like Moat, meant to nullify entire strategies.
+Many of the Alara-era Cruel Control decks you're probably thinking of when you talk about tri-color finisher cards were actually four- or five- color decks, in order to run cards like Wall of Denial, Oblivion Ring, Celestial Purge, and Cloudthresher -- not quite silver bullets, just efficient answers to the metagame.
+In the Mirage era, World Championship winner Jakub Slemr played a black weenie aggro deck that used City of Brass and Gemstone Mine to play all the different-colored "ETB" creatures, which were some of the best weenies in the format. Of course, this also enabled him to stuff his sideboard with lethal hosers from all colors.
+
+For a more recent (2012) example, consider control in Scars + Innistrad Standard. These days, blue-based control decks usually use other colors to supplement their counterspells with strong finishers and removal. Assume you're choosing between U/W, U/B, or W/U/B ("Esper").
+
+Black offers a variety of instant-speed spot removal for creatures (Doom Blade, Go for the Throat, Dismember, Tragic Slip, Virulent Wound) but only rather slow sweepers (Black Sun's Zenith, Life's Finale).
+White has superior sweepers (especially Day of Judgment, but also Elesh Norn, Grand Cenobite) and can answer any type of permanent (Oblivion Ring, Revoke Existence, Celestial Purge), but really can't match the efficiency of black's creature removal.
+Three-color "Esper" control gives you the best of both worlds, and the ability to play a couple of good white-black effects (Sorin, Lord of Innistrad, Unburial Rites, Lingering Souls, Vault of the Archangel), but greatly curtails your ability to play utility lands -- in particular, Ghost Quarter, which is a critical answer to a class of cards you otherwise can't deal with directly.
+
+In the Modern format, where players have access to Path to Exile, the strategic calculus changes: white is just as good, if not better, for powerful spot removal, while black's advantage is powerful targeted discard (Thoughtseize, Inquisition of Kozilek). At the tournament level, it only takes a few strong cards to effectively shift the color pie.
+

@@ -1,0 +1,31 @@
+Q:
+
+What happens when two global enchantments affect the same type of permanent (e.g.lands)
+
+At some point in the game, a player puts Blanket of Night on the battlefield.
+Then,some turns later,another player puts Blood Moon into play.
+If a non-basic land capable of producing mana comes into play, will it be able to produce either red mana or black mana, or just red mana?
+And what if the opposite happens?
+In other words, if Blood Moon and then Blanket of Night come into play, what types of mana will be able to produce a non-basic land instead?
+
+A:
+
+Non-basic lands will be only mountains. Basic lands are their original type and also swamps.
+Lands are basic if and only if they have the "Basic" type. All other lands are non-basic. Therefore, Blanket of Night does not turn lands into non-basic lands, because it only adds the "swamp" subtype and the "T: Add B" mana ability to lands.
+
+205.4c Any land with the supertype “basic” is a basic land. Any land that doesn’t have this supertype is a nonbasic land, even if it has a basic land type.
+
+If a land was basic before, it still is - for example a Forest with types "Basic Land - Forest" is now a "Basic Land - Forest Swamp", with the ability to produce 1 green or 1 black mana.
+If a land was a non-basic land, it still is. Blanket again adds the swamp type. For example Gemstone Mine will be a "Land - Swamp", and it will gain the "T: Add B" ability in addition to its printed abilities.
+Blood Moon then replaces all of that land's types with "Mountain" and all its abilities with "T: Add R", including the swamp gained by Blanket, so the resulting lands will have the types "Land - Mountain" and the only ability "T: Add R".
+Note that for non-basic lands, the order in which you play the Blanket and Blood Moon matters, because of the layer system.
+
+Interaction of Continuous Effects
+
+613.1d Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.
+613.2. Within layers 1–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6).
+
+Timestamp order is, generally, the order in which an object or effect entered the game.
+If you cast the enchantments in the order you described, Blanket first then Blood Moon, the result will be as described above.
+In the reverse order, Blood Moon first turns all non-basic lands into non-basic mountains, then Blanket adds the swamp type and ability to those lands. These lands will then have the types "Land - Mountain Swamp" with respective mana abilities instead of just "Land - Mountain".
+

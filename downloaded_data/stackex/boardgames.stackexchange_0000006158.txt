@@ -1,0 +1,28 @@
+Q:
+
+Creature Ability List
+
+Sudden Spoiling reads 
+
+Creatures target player controls become 0/2 and lose all abilities until end of turn.
+
+Can someone help me find a list of abilities that they lose?
+
+A:
+
+From the comp rules glossary:
+
+Text on an object that explains what that object does or can do.
+An activated or triggered ability on the stack. This kind of ability is an object.
+
+Every item of rules text in the text box (the box in the lower half of the card) is an ability. Doesn't matter whether it's keywords or full statements; static, triggered, or activated. In addition, lands with a basic land type have an implied ability: "T: Add 1 [color] mana to your mana pool."
+In handwavy terms, "lose all abilities" means "pretend there's nothing printed in the card's textbox".
+More precisely, you apply effects that add or take away abilities in "timestamp" order. So, for example:
+
+I have a Stampeding Rhino. It has one ability: trample.
+I enchant my Rhino with Trollhide. This gives my Rhino a second ability: "1G: Regenerate this creature" (the ability is printed on the Trollhide card, but it as an ability that the card gave to the Rhino).
+My opponent plays Turn to Frog on my Rhino, which includes the text "loses all abilities". My Rhino now has no abilities, until end of turn. Both the Rhino's built-in trample and its enchantment-granted regeneration are removed.
+After my Rhino is turned into a Frog, I activate Alabaster Mage to give it lifelink until end of turn. Now my Frog has one ability: lifelink.
+
+(Power/toughness-modifying effects are actually a bit trickier, since they are applied in layers. So the Frog is 3/3, not 1/1. That's a different question.)
+

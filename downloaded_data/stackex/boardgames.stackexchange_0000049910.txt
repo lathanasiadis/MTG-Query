@@ -1,0 +1,20 @@
+Q:
+
+What effects can modify mana abilities and be affected by Mana Relfection and Nyxbloom Ancient?
+
+Considering the following: 
+
+Mana abilities come in two forms, Activated and Triggered
+Nyxbloom Ancient/Mana Reflection only works with Activated abilities of a permanent being tapped
+Triggered abilities like Utopia Sprawl and Nikya of the Old Ways don't work with this ability. 
+Abilities that tap other permanents like Urza, Lord High Artificer or Heritage Druid are mana abilities that tap permanents but do not get multiplied with Nyxbloom Ancient*
+Effects like Liliana of the Dark Realms making swamps tap for BBBB get multiplied by Nyxbloom Ancient add another mana ability but do not modify the abilities the land has. 
+
+Similar to the way Winding Constrictor does X counters + 1, versus Doubling Season X * 2, are there any effects that modify the amount of mana produced by a source, aside from the mentioned Nyxbloom Ancient and Mana Relfection? 
+Based off this question.
+
+A:
+
+Mana Reflection and Nyxbloom Ancient are the only cards that increase the amount of mana produced by other mana abilities. Some cards decrease the amount of mana produced.
+In order for one card to modify the result of an ability on another card, it would need to use a replacement effect, which would contain the word "instead". So, we can look for cards with this effect by searching for cards with the words "mana", "produce", and "instead". Of the cards we find there, only Mana Reflection and Nyxbloom Ancient increase the amount of mana produced, and Contamination and Damping Sphere decrease the amount of mana produced, and change its type.
+

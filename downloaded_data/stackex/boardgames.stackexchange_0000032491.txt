@@ -1,0 +1,23 @@
+Q:
+
+If something is exiled and checked for simultaneously, does the check yield "true"?
+
+I have on my board 3 copies of Biovisionary, which have
+
+At the beginning of the end step, if you control four or more creatures named Biovisionary, you win the game.
+
+Then, I cast Splinter Twin enchanting a Biovisionary. That card states:
+
+Enchanted creature has "Tap: Create a token that's a copy of this creature. That token has haste. Exile it at the beginning of the next end step." `
+
+I tap the enchanted Biovisionary to clone it and end my turn. Now what?
+
+A:
+
+Whenever you control sources that would put spells or abilities on the stack simultaneously, you control in which order they are placed on the stack. So at the beginning of your end step, you can place these abilities on the stack in such an order that the "You win" effect happens before the "Exile token" effect. From the comprehensive rules:
+
+405.3. If an effect puts two or more objects on the stack at the same time, those controlled by the activeplayer are put on lowest, followed by each other player’s objects in APNAP order (see rule 101.4).
+  If a player controls more than one of these objects, that player chooses their relative order on the stack.
+
+(emphasis added to highlight the relevant part)
+

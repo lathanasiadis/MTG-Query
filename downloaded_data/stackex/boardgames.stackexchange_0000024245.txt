@@ -1,0 +1,33 @@
+Q:
+
+What zone is a spell or ability in when it is resolving?
+
+When I cast a spell or activate an ability, or a triggered ability triggers, it goes on the stack, and then some time later, it resolves. Is it still on the stack while it is resolving? If not, is it some other zone or somewhere else entirely? If it's a spell, when does it go to the graveyard?
+
+A:
+
+A spell or ability stays on the stack starting from when you started casting or activating it until it fails to resolve, it has finished resolving, or it instructs you to move it to a different zone.
+Rule 601 covers the step for casting a spell, and the very first step (601.2a) says
+
+The player announces that he or she is casting the spell. That card (or that copy of a card) moves from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
+
+There are similar steps for Activating an Activated Ability and Handling a Triggered Ability. The process of dealing with the stack continues with rule 608.1, which says
+
+Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, "Effects.")
+
+Note that there is no instruction for the spell or ability to leave the stack when it starts resolving. Then the relevant parts of the instructions for resolving the ability say
+
+608.2. If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and 608.2b are followed first. The steps described in rules 608.2c–j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
+
+608.2a If a triggered ability has an intervening "if" clause, it checks whether the clause's condition is true. If it isn't, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. [...] The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal. If the spell or ability is not countered, it will resolve normally.
+608.2j If an instant spell, sorcery spell, or ability that can legally resolve leaves the stack once it starts to resolve, it will continue to resolve fully.
+608.2k As the final part of an instant or sorcery spell's resolution, the spell is put into its owner's graveyard. As the final part of an ability's resolution, the ability is removed from the stack and ceases to exist.
+
+For reference regarding rule 608.2b quoted above, rule 701.5a describes what "counter" means, and says
+
+To counter a spell or ability means to cancel it, removing it from the stack. It doesn’t resolve and none of its effects occur. A countered spell is put into its owner’s graveyard.
+
+As you can see, every instance of a rule instructing that a spell or ability be removed from the stack either comes when it is done resolving or is accompanied by an instruction that it does not resolve.
+In all cases, abilities that are removed from the stack simply cease to exist, and spells that are removed from the stack go to the graveyard.
+

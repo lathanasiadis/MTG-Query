@@ -1,0 +1,13 @@
+Q:
+
+What happens at the end of a players turn to a buffed creature that took more than its unbuffed base health?
+
+Let's say I have Blood Bairn and 3, 1/1 token creatures. An opponent attacks me with a 6/6 creature. If I use Blood Bairn's ability and sack all 3, 1/1 creatures and then block with Blood Bairn, after combat, the opponent creature should die and Blood Bairn survives. My question is this: at the end of his turn as Blood Bairn returns to a 2/2 creature, does it die because it took 6 damage from the previous combat? 
+
+A:
+
+Your Blood Bairn will survive.
+This is because "Until end of turn" buffs and Damage are removed at the same time during the Cleanup-step.
+
+514.2. Second, the following actions happen simultaneously: all damage marked on permanents (including phased-out permanents) is removed and all “until end of turn” and “this turn” effects end. This turn-based action doesn’t use the stack.
+

@@ -1,0 +1,14 @@
+Q:
+
+What happens if one of a spell's targets goes away before the spell resolves?
+
+During the prerelease my opponent casts Rites of Reaping to give his creature +3/+3 and my creature -3/-3. In response I sacrifice my creature with the Golgari Guildmage.
+From my understanding the card is similar to Switcheroo where if the second target is no longer existing the spell will fizzle.
+
+A:
+
+Rites of Reaping will not fizzle, because some of its targets are still valid. The spell will only be countered if all of its targets are illegal. Instead, the spell does as much as possible, which is to give +3/+3 to his creature. This is defined by 608.2b.
+Your probably came to the wrong conclusion because your understanding of what happens with Switcheroo is incorrect. It won't be countered (fizzle) if only one of the targeted creatures disappears. However, it won't have any effect either. An exchange requires something to be received and something to be given, so it cannot happen if one of the two targets is illegal.
+
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target that’s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word “target,” are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability’s effect for which it is an illegal target can’t perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+

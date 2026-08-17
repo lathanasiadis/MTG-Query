@@ -1,0 +1,34 @@
+Q:
+
+What happens if I give double strike to a creature right after the combat damage is dealt?
+
+The rules sais
+
+702.4b If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+So the scenario is the next:
+If I attack with a normal creature, let's say is a 1/2, and it's blocked by another 1/2, the combat runs normal, attackers -> blockers -> combat damage. 
+Right after the damage is done, I play a Boros Charm just after the damage is dealt, giving my 1/2 double strike until the end of turn...
+
+Will it create a second combat damage step? 
+If so, will all the creatures do damage again? (because as said in the rule The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began) 
+Or no other creature do damage because they are not the remaining creatures?
+
+A:
+
+No, this won't create a second combat step. We only check for double strike (and first strike) at the start of the combat damage step, and not at any other time during. This means the rules have already determined there won't be another combat damage step. Here's what they saw:
+
+Do any creatures have first strike or double strike? No.
+Let's do regular damage then move on to end of combat.
+End of combat.
+
+So once combat damage has already started, it's too late to give anything double strike. You'll need to give your creatures double strike during the Declare Blockers step, before moving on to combat damage, so that the rules will see something has that ability and create that extra combat damage step at the start.
+
+The relevant rule from the comprehensive rules for the combat damage step, emphasis added:
+
+510.4 If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
+
+Side note (thanks to @Malco): In a different scenario, you could give double strike to a creature that already had first strike, once you get priority just after first strike damage has been dealt. This creature has already ensured that a first strike combat damage step exists, and giving it double strike allows the creature to deal damage in the regular combat damage step as well. This works since this is one of the points we do check for double strike in the middle of the step. From the end of the quote above, emphasis added:
+
+[If we created a first strike combat damage step, then] the only creatures that assign combat damage in [the regular combat damage step] are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike.
+

@@ -1,0 +1,26 @@
+Q:
+
+Does Pillar of Flame exile creatures with undying?
+
+Let's say Pillar of Flame is used on a creature with undying, such as Butcher Ghoul, when it doesn't have any counters on it. If Pillar of Flame deals enough damage to kill it, and therefore exile it, will the creature get exiled? Or will it come back with a counter on it?
+I've been playing it so that it does get exiled and doesn't return with a counter on it. Am I right in doing this?
+
+A:
+
+Yes. Pillar of Flame stops undying creatures.
+To explain why, let's take a look at the specific wording of the cards.
+The Undying ability (e.g. on Butcher Ghoul) says:
+
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+
+This is a triggered ability. It goes on the stack after the specified event (in this case, the creature going to the graveyard) occurs.
+Pillar of Flame says:
+
+If a creature dealt damage this way would die this turn, exile it instead.
+
+This is what's called a replacement effect. A replacement effect happens in place of some other event.
+So, the creature never dies — when a situation would normally cause it to die, you exile it instead. This means "When this creature dies" never triggers at all. (Because of how the Pillar of Flame card is worded, this happens even if it is killed by something else, like combat damage or getting -1/-1 from Golgari Charm or whatever.)
+(Note, however, that Pillar of Flame doesn't defeat regeneration. The creature never "would die" because regeneration replaces the event that would send it to the graveyard in the first place.)
+
+Pillar of Flame was designed specifically to remove undying creatures in this way, both to balance Constructed games and to evoke the flavor of holy power driving back the darkness in Avacyn Restored.
+

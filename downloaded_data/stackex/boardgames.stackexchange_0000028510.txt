@@ -1,0 +1,20 @@
+Q:
+
+vedalken orrery, aura of silence in reponse to opponents enchantment
+
+If I have a Vedalken Orrery in play, and my opponent attempts to cast an enchantment, can I flash in Aura of Silence in response and force them to either pay 2 more mana or have their spell fizzle?
+
+A:
+
+No, it generally doesn't work like that.
+If your opponent has priority (i.e. the right to cast spells, activate abilities, and take special actions), and all other required conditions are also met, he can start casting his enchantment. In that case, you can still respond with Aura of Silence, but it will not have any effect on that particular enchantment. The Aura already has to be on the battlefield to have an effect on spells, because once a spell is on the stack, its costs can no longer change in any way:
+
+601.4. Casting a spell that alters costs won’t affect spells and abilities that are already on the stack.
+
+So in the classic case with no rules-lawyering going on, you are out of luck.
+That being said, in a tournament setting with strict rules enforcement, you might be able to use the shortcut rules and your opponent's sloppiness in your favor.
+Shortcuts are being used in almost every turn of every match of Magic ever, and that is no exaggeration. The simple act of untapping, drawing a card, and saying "Go" to end your turn is actually a large shortcut you propose to skip over all the usually required steps and phases of a turn, and usually your opponent will accept that proposal. However, he is not required to and can demand to go back to your draw step and propose a different shortcut, which you in turn have to accept and so on.
+So what does this mean for your question?
+Let's say your opponent starts his turn, untaps, draws a card, then immediately starts casting his enchantment. What he actually did was he silently proposed for both of you to pass priority and continue into the first main phase, and assumed you would accept. However, it is your right to demand that both of you play out all the necessary steps, and after your opponent has drawn a card and passed priority to you, you get the opportunity to cast and resolve your Aura of Silence. Your opponent has to wait until the main phase, so if he still wants to play his enchantment, he would have to pay 2 more.
+You get another opportunity to do the same thing at the end of combat. At various points during that phase, and notably at the end of combat step, players can cast instant-speed spells and activate abilities. So when creatures did attack and combat is over, and your opponent wants to cast an enchantment spell, it's clear that he has skipped to the second main phase, and you can then deny that shortcut and play your own spell at the end of combat step.
+

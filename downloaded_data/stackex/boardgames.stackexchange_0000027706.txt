@@ -1,0 +1,19 @@
+Q:
+
+Does a card moving from Exile to Exile count as being moved?
+
+I know the Commander replacement effect allows you to move your Commander to the Command Zone if it would be exiled or put into its owner's hand, graveyard or library from anywhere.
+My question is if you flicker (exile and return) your commander with the likes of Venser, the Sojourner (without sending it to the command zone then so it returns at the end step) and your opponent casts a spell to Exile anything that would enter (e.g. Hallowed Moonlight), does that count as your Commander moving from Exile to Exile, thus allowing you to apply the replacement effect, or would your Commander be stuck in exile?
+Edit: Figured it out and answered below.
+
+A:
+
+Hallowed Moonlight instructs you to exile. This is what the replacement effect in question replaces.
+
+903.11. If a commander would be exiled from anywhere or put into its owner’s hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
+
+As such, you may indeed return the Commander to the Command zone, even if the instruction would otherwise have done nothing at all.
+As confirmation, 406.7 does presume than an exiled object can be exiled.
+
+406.7. If an object in the exile zone becomes exiled, it doesn’t change zones, but it becomes a new object that has just been exiled.
+

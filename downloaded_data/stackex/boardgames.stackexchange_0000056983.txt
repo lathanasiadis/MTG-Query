@@ -1,0 +1,18 @@
+Q:
+
+What happens when both players control a Liesa, Forgotten Archangel?
+
+Liesa, Forgotten Archangel has a couple of abilities that respond to creatures dying:
+
+Whenever another nontoken creature you control dies, return that card to its owner's hand at the beginning of the next end step.
+If a creature an opponent controls would die, exile it instead.
+
+If I control a Liesa and so does my opponent (perhaps they Clone mine), what happens to creatures that either player own when they die?
+
+A:
+
+If two players control a Liesa, all creatures that would die will be exiled.
+Liesa's last two abilities are different kinds of abilities. The first one is a triggered ability, as indicated by the word "Whenever". When the triggering event happens, the ability is put on the stack, then as it resolves, the effect happens.
+The second ability is a replacement effect, indicated by the word "instead". These modify events as they happen, replacing them with a different event.
+In this particular case, any creature that would die is instead exiled, which means that it never actually dies, so the triggered ability doesn't trigger at all.
+

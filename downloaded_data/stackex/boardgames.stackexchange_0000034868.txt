@@ -1,0 +1,43 @@
+Q:
+
+In a multiplayer game, if a player is controlling another player's turn, may they reveal that player's hand?
+
+With cards like Mindslaver and Emrakul, the Promised End, a player can take control of another player's turn. The controlling player can make most decisions for the controlled player, but they may not, for example, concede the game for that player, or look at their sideboard. Mindslaver's Gatherer rulings even provide a very general explanation:
+
+You can’t make any decisions that aren’t called for or allowed by the game rules, or by any cards, permanents, spells, abilities, and so on.
+
+Now, since when controlling a player, you also gain access to their hidden information, such as their hand cards. In a two-player game, this usually means that until the end of the turn, one player has access to all hidden information in the game, since they see both their own as well as their opponent's information - in a multiplayer game, however, there will be other players not permitted to see this information.
+All the Comprehensive Rules have to say about it seems to be:
+
+402.3. A player may (...) look at [his or her hand] as much as he or she wishes. A player can’t look at the cards in another player’s hand but may count those cards at any time.
+
+The Tournament Rules elaborate on a player being allowed to reveal hidden information available to them:
+
+3.12 Hidden Information
+(...) players may choose to reveal their hands or any other hidden information available to them, unless specifically prohibited by the rules. (...)
+
+This is a dilemma, because even if the above-quoted Gatherer ruling prevented the controlling player to decide that the the controlled player reveals their hand, the controlling player themself has access to this hidden information, so they could always state exactly what was in that player's hand. The point of bluffing aside, this effectively is the same difference.
+Now, the entire hidden information rule is part of the tournament rules, and while it's sensible to assume a player may just as well reveal their hand in a casual game, I do wonder if it's a difference in this example.
+Questions
+
+Is a player allowed to decide that the player they control reveals their hand?
+In case they aren't, are they allowed to share the knowledge they themselves gained, therefore achieving about the same?
+May the controlled player still decide to reveal their hidden information?
+
+All of those questions would be interesting to hear about whether it makes a difference if played in a casual environment vs. in a sanctioned event, or in other words, whether the applicability of the Tournament Rules changes things (knowing that there aren't any actual multiplayer formats with more than two teams.
+Concerns
+These aren't really part of the question, but may help understand why I think it's a relevant question.
+If the answer to either 1 or 2 is yes, that would make an effect like this surprisingly strong in multiplayer games, seeing as you're not only getting the already strong effect of taking over someone's turn, but you're also gaining a lot of diplomatic power from revealing certain cards, or not doing so.
+Furthermore, if the answer to 1 is no, but to 2 is yes, this means a player may rightfully state that they're not allowed to reveal the cards, but could state what they can do. Since it's not forbidden to misrepresent hidden information, they could effectively bluff that any given card is in that player's hand.
+Both of these points aren't game-breaking on their own, but are promoting to decide games not by skill or the contained amount of randomness in Magic, but instead by skill of diplomacy, deceit or other traits that aren't suited for tournament matches, and could spoil casual or social matches just as well.
+
+A:
+
+The controlling player cannot reveal the controlled player's hand. Rule 718.5b says
+
+The controller of another player can’t make choices or decisions for that player that aren’t called for by the rules or by any objects. The controller also can’t make any choices or decisions for the player that would be called for by the tournament rules.
+
+Revealing your own hand in accordance with tournament rule 3.12 is a decision that would be called for by the tournament rules, so the controlling player is not allowed to make that decision. By that same logic, the controlled player would be allowed to make that decision.
+
+I don't have a solid ruling for this part, but my interpretation is that the controlling player can verbally name the cards in the controlled player's hand. Revealing your hand is a game action that involves game objects, so it is covered by the game rules. However, there are very few rules about players' verbal communication, and there are none that govern statements that players make about hidden information. In other words, there is no rule against naming those cards, and there is no rule against lying about them.
+

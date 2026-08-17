@@ -1,0 +1,24 @@
+Q:
+
+Why can a manifested creature be turned face up if it loses all it's abilities but a morphed card can't?
+
+This question is dedicated to a better understanding of a card: Wildcall.  The Gather entry has the following ruling.
+
+"Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card."
+
+I would like to know its exact meaning, and possible use. Thank you!
+
+A:
+
+Rule 702.36e describes how to turn a creature face up using a morph ability:
+
+Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn’t use the stack (see rule 116). To do this, show all players what the permanent’s morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn’t have a morph cost if it were face up, it can’t be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don’t trigger when it’s turned face up and don’t have any effect, because the permanent has already entered the battlefield.
+
+Rule 701.33b describes how to turn a manifested creature face up:
+
+Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn’t use the stack (see rule 116.2b). To do this, show all players that the card representing that permanent is a creature card and what that card’s mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn’t a creature card or it doesn’t have a mana cost, it can’t be turned face up this way.)
+
+As you can see in the highlighted sections, a creature with Morph still needs to have the Morph ability to be turned face up that way, but the Manifest rules don't check whether the creature has any abilities. So, if the creature loses its abilities, it can't be turned face up using the Morph ability, but it can be turned face up using the Manifest effect. This is the difference that ruling is pointing to.
+The reason for this difference is that Morph is an ability that the card has, and Manifest is something that is done to the card. So, turning a Morph creature face up uses the ability, but turning a Manifested creature face up uses an effect that was previously applied to the creature.
+Face down Morph creatures are affected this way by effects that remove abilities because those effects are continuous effects, and if you turn a face down creature face up it is still the same permanent. As a result, a creature affected by an effect that removes abilities wouldn't have the Morph ability if it were turned face up, so it can't be turned face up using the Morph rule.
+

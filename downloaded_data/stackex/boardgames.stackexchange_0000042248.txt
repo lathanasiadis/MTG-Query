@@ -1,0 +1,17 @@
+Q:
+
+Can you do a field of ruin and kefnet the mindfull combo
+
+Can I use a land with a sacrifice ability, like Field of Ruin, where you have to sacrifice the card for the ability to activate, then whilst the ability is on the stack, use Kefnet the Mindful's ability which returns a land I control to my hand? Since abilities will trigger even if their permanents are removed from the battlefield, would it still activate the ability because I remember reading a rule that said that a card's ability or function will activate as most as possible (if that makes sense).
+
+A:
+
+No, you can't do this.
+The reason is that sacrificing Field of Ruin is part of the cost of its ability; not part of the effect. The cost is paid when you activate the ability, as part of the process of activating the ability. So by the time you can respond to the ability while it is on the stack, Field of Ruin is already in the graveyard; no longer on the battlefield, which means that you no longer control it.
+From the comprehensive rules:
+
+602.1a The activation cost is everything before the colon (:). An ability’s activation cost must be paid by the player who is activating it.
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect.
+
+The rule that you are thinking of is that an ability can still resolve even if the source of the ability has left the battlefield. So if someone destroys Kefnet in response to you activating his activated ability; it won't stop you from drawing a card and being allowed to return a land you control to your hand. Be careful not to casually use the phrase "abilities will trigger", because a triggered ability is a specific type of ability; activated abilities never "trigger".
+

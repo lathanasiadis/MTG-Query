@@ -1,0 +1,13 @@
+Q:
+
+Pump spell sequence in MTG
+
+If I attack with my Voltaic Brawler (3/2), then cast Built to Smash (+3/+3), Uncaged Fury (+1/+1 with double strike) and another Built to Smash (+3/+3) in that order, do I hit for 17 or 20?
+Thanks in advance... basically a stack sequence question.
+
+A:
+
+You will hit for 20. I think you have a fundamental misunderstanding of double strike.
+Double strike doesn't affect the actual power/toughness of the creature. It doesn't double the creature's power, it causes it to hit twice. You turn it into a 6/5 with the first Built to Smash, then a 7/6 with double strike with the Uncaged Fury, then a 10/9 with the second Built To Smash, then you pass priority and move to combat damage. It hits for 10, then you move to the second combat damage step because it has double strike, and it hits for 10 a second time.
+It is possible to hit for 17, but you'd have to wait for the first combat damage step to occur before casting the second Built to Smash. In that case, it would only be a 7/6 the first time it hit, then you would make it into the 10/9 in time for second combat damage. Why would you do that? There's no obvious reason.
+

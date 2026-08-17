@@ -1,0 +1,13 @@
+Q:
+
+How can Gaea's Blessing be exiled by Ashiok, Dream Renderer?
+
+My opponent activated Ashiok, Dream Render's loyalty ability. Gaea's Blessing was among the four cards milled. I would expect that Gaea's Blessing would trigger and resolve on top of the stack, thus saving my graveyard, but its trigger did not even appear and my graveyard was exiled. What precisely happens here?
+
+A:
+
+Abilities that trigger in the middle of another spell or ability resolving don't resolve or even go on the stack until the original spell or ability has finished resolving. Ashiok's ability moves cards from a player's library to their graveyard, then exiles the opponents' graveyards. That's all one ability; Gaea's Blessing's triggered ability has to wait for it to finish before being put on the stack and eventually resolving.
+The most relevant rule is 603.3:
+
+Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” [...]
+

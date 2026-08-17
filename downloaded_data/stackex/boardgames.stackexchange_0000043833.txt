@@ -1,0 +1,16 @@
+Q:
+
+Can you force your opponent to cast one of your own spells, using only the cards in your library?
+
+Is there an effect that would allow you to force an opponent to cast a spell you own, without relying on cards from their library? A similar effect exists with Word of Command which forces them to cast a spell they own.
+One way I can think of is using Sorin Markov's ultimate and make them Spelljack one of your spells, but it requires the use of one of your opponent's cards.
+
+A:
+
+The only way I know to force an opponent to cast one of your spells without controlling their turn is Hive Mind, which reads
+
+Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for their copy.
+
+They don't technically cast the spell, but they get a copy of it (and they don't get an option as to whether or not they get a copy - while they can control the targets, they can't choose to not play it like they could with Eye of the Storm.  It won't increase their storm count, but they'll get the effect of the spell.
+There's even a combo deck based around playing Hive Mind and then playing Pacts that your opponents aren't able to pay for, forcing them to lose the game.
+

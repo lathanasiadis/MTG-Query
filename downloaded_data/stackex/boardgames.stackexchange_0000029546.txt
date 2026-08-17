@@ -1,0 +1,26 @@
+Q:
+
+What happens to Auras and/or Counters on a creature that is targeted by a Cloudshift?
+
+If I cast Cloudshift on a creature with  counters, does it retain its counters or does it loose its counters? What about Auras? Would a creature that was Cloudshifted keep its auras?
+
+A:
+
+If an object changes zones, counters and auras on it fall off.
+A creature is a permanent, and a permanent is an object:
+
+110.1. A permanent is a card or token on the battlefield. [..]
+109.1. An object is an ability on the stack, a card, a copy of a card, a token, a spell, a permanent, or an emblem.
+
+When an object changes zones, it becomes a new object:
+
+400.7. An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence.
+
+Auras fall off the next time state-based actions are checked:
+
+303.4c If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner’s graveyard. (This is a state-based action. See rule 704.)
+
+Counters cease to exist:
+
+121.2. Counters on an object are not retained if that object moves from one zone to another. The counters are not “removed”; they simply cease to exist. See rule 400.7.
+

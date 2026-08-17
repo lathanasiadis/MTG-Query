@@ -1,0 +1,16 @@
+Q:
+
+Does an activated ability that creates a permanent get affected by Damping Engine?
+
+Damping Engine is in play. If a person has more permanents in play than the player with the lowest amount, but does not have the most permanents themselves, pays to activate an ability which creates a creature token, would this be prevented by the effect of Damping Engine?
+
+A:
+
+Damping Engine deals only with the ability to cast things, not the creation of things.
+So firstly, Damping Engine does not stop you from using any abilities that produce permanents (e.g. Krenko, Mob Boss) even if you have the most permanents. 
+Secondly, the ability only applies while you have the most and it only applies to playing lands and casting artifacts, creatures, or enchantments. Spells that make tokens (e.g. Entreat the Angels) are completely unaffected by the ability. If you're tied with another player for most permanents, you'll still be able to cast a creature/artifact/enchantment because you do not have more than everyone else.
+Finally, and this is an odd one. The ability to sac creatures to end the effect is only usable by the player with the most permanents and can only be used once per turn. 
+From the gatherer:
+
+A player can only sacrifice a permanent to end this effect if they have more permanents than any other player, and they haven't already sacrificed a permanent to end the effect this turn. The ability to sacrifice a creature is granted by the same effect that is being ended.
+

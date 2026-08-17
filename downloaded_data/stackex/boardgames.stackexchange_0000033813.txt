@@ -1,0 +1,14 @@
+Q:
+
+Does copying a clue count as investigating?
+
+Question regarding investigation. If I create a copy of a clue token (e.g. with Saheeli Rai), does that count as investigating for Erdwal Illuminator? 
+701.34a "Investigate" means "Put a colorless Clue artifact token onto the battlefield. It has ‘2, Sacrifice this artifact: Draw a card.'"
+So to turn it around: if I put a colorless clue artifact token on the battlefield have I not "investigated"?
+
+A:
+
+No, you have not. Just because an effect might be the same as that of a keyword (or for investigate keyword action) that does not mean you have done that keyword (action).
+One similar example I can think of is Darksteel Pendant. When it was printed Scry did not exist (it would come out in the next set), so its activated ability reads 'Look at the top card of your library. You may put that card on the bottom of your library.'. Now this text is exactly the same as Scry 1, however since it did not actually have Scry it didn't trigger abilities like Flamespeaker Adept's that look for 'Whenever you scry'. 
+Note that since Magic Origins scry has become an evergreen keyword action and Darksteel Pendant has been updated to have Scry 1, so it does trigger Flamespeaker Adept's ability now. However at the time of the Adept's printing the Pendant did not trigger the Adept.
+

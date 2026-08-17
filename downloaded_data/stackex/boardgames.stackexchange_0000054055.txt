@@ -1,0 +1,25 @@
+Q:
+
+Can Jinxed Idol be activated many times in a turn?
+
+Irecently played a game with my group and I used Jinxed Idol at the beginning of my end step so I sacrificed a small 1/1 token to pass to 1 of my 3 opponents (next in turn after me) but then a game of hot potato began.
+Me sacrificing token and passing it to next person in turn.
+Them “I sacrifice this to pass to another person”
+2nd person does same thing to third person,
+3rd P does same to me, so I sacrificed another token and pass it to next person, they then sacked another creature and this is how it went until one person (not the person who’s turn it was at the end of my turn) controlled the idol but no creatures left to sac.
+So is this allowed or have we been too ambitious with the wording as it doesn’t specify when you can do it but it’s not an instant either.
+Also can I in response to my own sacking of a creature sacrifice another creature using jinxed idol and repeat process until I sacrifice as many as I want? Then let it resolve and pass to opponent?
+
+A:
+
+You played correctly.
+Jinxed Idol has an activated ability (in addition to the triggered ability that causes its controller damage). Activated abilities can be activated by a player who has priority, and unless there is a restriction written into the ability itself, there is not a limit to how many times it can be activated on a single turn. As long as you can pay the cost, you can activate the ability.
+
+602.1. Activated abilities have a cost and an effect. They are written as “[Cost]: [Effect.] [Activation instructions (if any).]”
+
+117.1b A player may activate an activated ability any time they have priority.
+
+Once an opponent gains control of Jinxed Idol, they can now use the activated ability the next time they have priority.
+While the activated ability is on the stack, you could activate it again in response, but unless you get some benefit from sacrificing creatures, this wouldn't help you. The second activation would go on top of the stack, and after everyone passes priority, it would resolve, giving control of Jinxed Idol to your opponent. Then, if everyone passes priority again, the other activation would resolve, which would also give control of Jinxed Idol to your opponent. But because your opponent already controls it at that point, there would be no effect from trying to give control of it to your opponent again.
+Technically, your opponent could activate Jinxed Idol after your second activation resolves but before your first activation resolves... in which case you would gain control of Jinxed Idol back temporarily, before your original activation resolves and control goes back to your opponent. But unless your opponent actually wants Jinxed Idol; they can just wait until all your activations have resolved, and then activate it themselves to get rid of it.
+

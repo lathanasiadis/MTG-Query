@@ -1,0 +1,24 @@
+Q:
+
+What happens when I Radiate a Time Stretch with Timesifter in play?
+
+The question is based on the following situation:
+In a five person game, there has a been a Timesifter in play and the turn order has already been varied for a few turns. A player plays a Time Stretch and I target the card with a Radiate. What happens next, and subsequently, what happens when the person with Timesifter is eliminated from the game?
+As an immediate result, I assume that the person who was targeted with the original Time Stretch takes the next turn, which results in a trigger of the Timesifter, sending us back into a whirlwind of turn order that is dictated by the artifact. I'm relatively certain this is correct, although an affirmation would be nice. But, when the person with the Timesifter dies, where does the turn order go? Are the extra turns from Time Stretch still stacked? Does the original target of the spell take their second turn, followed by everyone else taking two extra turns in normal turn order?
+
+A:
+
+There are several different things going on here, so it's important to understand the key details.  Those boil down to:
+1) Nothing in your scenario changes the turn order.  This is essential, because it's the first guide to understand what's going on.  While Time Sifter looks like it effectively changes the turn order, instead it specifically generates extra turns itself.
+2) This is relevant because the game maintains what amounts to a stack (not to be confused with the actual stack in the game, for resolving spells) of extra turns; any effect that says '~player~ takes an extra turn after this one' adds an extra turn for ~player~ onto that stack.  This is spelled out in rule 500.7:
+
+500.7. Some effects can give a player extra turns. They do this by adding the turns directly after the current turn. If a player gets
+  multiple extra turns or if multiple players get extra turns during a
+  single turn, the extra turns are added one at a time. The most
+  recently created turn will be taken first.
+
+Let's look at how this works on its own: suppose you're playing a four-player game, players A, B, C, and D (in that order); the turn order would then normally be A B C D A B C D etc.  Now, suppose player A plays a Time Sifter.  At the start of player B's upkeep, the structure of the upcoming turns looks like (using [] to denote the current turn: [B] C D ...  Technically, the game doesn't actually know that C will be taking a turn after B; instead, it knows that the 'present' turn is controlled by B.  I'll denote this by starring that turn: [B*] C D A ...  Now, Time Sifter's effect resolves; we'll say that D wins.  An extra turn for D (we'll label extra turns with a ' symbol, so D') - is 'inserted' after the current turn: [B*] D' C D A ...  Now, B finishes their turn and it goes on to D's extra turn: B* [D'] C D A ...  Assume that now C 'wins' the Time Sifter fight.  Then the turn structure becomes B* [D'] C' C D A ...; D's extra turn finishes, the turn passes to C's extra turn, and the game all the while is remembering that B took the last 'non-extra' turn and that C is next in turn order: B* [C'] C D A ...  Things go on like this until Time Sifter is removed.
+3) Now, the next piece of the puzzle: Radiate's interaction with Time Stretch.  I'll assume that during one of player A's 'extra' turns (so that the current structure is B* [A'] C D A ...) they cast Time Stretch (targeting themselves!), and that player B Radiates it.  As other answers have noted, when Radiate resolves copies of Time Stretch will be generated for players B, C, and D; these copies resolve before the original Time Stretch does.  I'll presume that player B stacks them with his copy on the bottom, D above, and C's copy on top, so that the resolution will be CDBA; this means that after all the copies and the original Stretch resolve, the 'turn stack' looks like: B* [A'] A' A' B' B' D' D' C' C' C D A ...
+4) From here, Time Sifter will work as normal.  This means that (once A's turn ends) A will start to take the first of their extra turns, putting the Sifter on the stack: B* [A'] A' B' B' D' D' C' C' C D A ...  Now, suppose D wins.  Then a new extra turn for D will be added, but all of the other extra turns are still there: B* [A'] D' A' B' B' D' D' C' C' C D A ... and once the turn passes from A to D, it'll look like B* [D'] A' B' B' D' D' C' C' C D A ... - but all of those extra turns are still hanging out, waiting for Time Sifter to go away somehow so that they can be had.
+I hope this helps somewhat - it's obviously a remarkably complex situation, but once you understand what each effect is actually doing it all flows relatively straightforwardly.
+

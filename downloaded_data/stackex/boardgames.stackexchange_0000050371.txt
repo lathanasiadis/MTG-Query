@@ -1,0 +1,16 @@
+Q:
+
+Is there a way to make Splice effects cheaper?
+
+Is there a way to make the Splice costs cheaper? For example, if I am splicing Splicer's Skill onto a spell, is there a way I can reduce the cost that I must pay? 
+
+A:
+
+Because using Splice creates an additional cost, anything that reduces the normal cost of casting a spell can be used reduce the total cost.
+For example, if you have 3 Goblin Electromancers in play, instant and sorcery spells cost you {3} less to play. You could play a Shock and reveal Splicer's Skill for the Splice ability. Your total cost would normally be {3}{R}{W}, but it would be reduced to {R}{W} by the Goblin Electromancers; you would not have to pay the other {3}.
+
+702.46a Splice is a static ability that functions while a card is in your hand. “Splice onto [quality] [cost]” means “You may reveal this card from your hand as you cast a [quality] spell. If you do, that spell gains the text of this card’s rules text and you pay [cost] as an additional cost to cast that spell.” Paying a card’s splice cost follows the rules for paying additional costs in rules 601.2b and 601.2f–h.
+601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions.
+
+Note that only cost reduction will help; if you have something such as Fires of Invention or anything that allows you to pay an alternative cost (not having to pay mana at all is an alternative cost); you will still have to pay the normal Splice cost, because additional costs are calculated after alternative costs.
+

@@ -1,0 +1,25 @@
+Q:
+
+Magic The Gathering - Damnable Pact timing with Psychosis Crawler - what triggers when?
+
+In a 4 player commander game, everyone has 7 life except for Player A who has 9 life.  They have a Psychosis Crawler on the battlefield.  Player B casts Damnable Pact on player A, where X is 9. Player A must draw 9 cards and lose 9 life.
+How does Damnable Pact resolve?  Specifically, when does player A draw cards, and when do they lose the life?  Do they win the game?
+
+A:
+
+Player A loses the game immediately after Damnable Pact finishes resolving.
+Damnable Pact is a single spell, so it all resolves together. The first thing that happens here is that player A draws 9 cards and loses 9 life. For each card they draw, Psychosis Crawler's second ability triggers, but it doesn't do anything yet. Once Damnable Pact finishes resolving, state-based actions are evaluated, and player A loses because they have 0 life, and the triggered abilities never even go on the stack because their controller is out of the game.
+If player A did not lose at that point, the triggered abilities would then be put on the stack. Then those triggered abilities would resolve as normal, and each one would cause each other player to lose 1 life.
+The key rules for this are a few in the triggered abilities section, and in the state-based actions section, and one in the multiplayer section:
+
+603.1. Triggered abilities have a trigger condition and an effect. They are written as “[When/Whenever/At] [trigger condition or event], [effect]. [Instructions (if any).]”
+603.3. Once an ability has triggered, its controller puts it on the stack as an object that’s not a card the next time a player would receive priority. See rule 117, “Timing and Priority.” The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it’s countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
+704.3. Whenever a player would get priority (see rule 117, “Timing and Priority”), the game checks for any of the listed conditions for state-based actions, then performs all applicable state-based actions simultaneously as a single event. If any state-based actions are performed as a result of a check, the check is repeated; otherwise all triggered abilities that are waiting to be put on the stack are put on the stack, then the check is repeated. Once no more state-based actions have been performed as the result of a check and no triggered abilities are waiting to be put on the stack, the appropriate player gets priority. This process also occurs during the cleanup step (see rule 514), except that if no state-based actions are performed as the result of the step’s first check and no triggered abilities are waiting to be put on the stack, then no player gets priority and the step ends.
+704.5. The state-based actions are as follows:
+
+704.5a If a player has 0 or less life, that player loses the game.
+
+[...]
+
+800.4d If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack.
+

@@ -1,0 +1,32 @@
+Q:
+
+When Oko turns food into an Elk, is the creature still food?
+
+When Oko, Thief of Crowns turns a Food token into a 3/3 elk, is the resulting creature still Food?
+
+A:
+
+No, it stops being a food token and loses its self-sacrifice ability. You can't sacrifice it to its own ability any more, or use it for other abilities referring to food tokens.
+We can expect a change to 205.3g that includes "food" as an artifact subtype:
+
+205.3g Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).
+
+When an effect calls to do something with treasure tokens, it refers to an artifact permanent with the treasure subtype. Expect the same for food tokens:
+
+109.2. If a spell or ability uses a description of an object that includes a card type or subtype, but doesn’t include the word “card,” “spell,” “source,” or “scheme,” it means a permanent of that card type or subtype on the battlefield.
+
+When you create a Food token, it's a token with type "artifact", subtype "food", and name "food".
+
+110.5c A spell or ability that creates a token sets both its name and its subtype. If the spell or ability doesn’t specify the name of the token, its name is the same as its subtype(s). A “Goblin Scout creature token,” for example, is named “Goblin Scout” and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn’t change its subtype, and vice versa.
+
+Oko's +1 ability changes, among others, an artifact's type and subtype. Only the name remains unchanged. A food token affected by its ability becomes a green 3/3 creature token without abilities, with the name "Food", and with the only subtype "Elk". It loses the "Artifact" type, the "Food" subtype, and its self-sacrifice ability. 
+The Food token loses its "Food" subtype for two reasons. One, because Oko's ability directly overwrites the subtype without retaining the old value:
+
+205.1b Some effects change an object’s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object’s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase “in addition to its types” or that state that something is “still a [type, supertype, or subtype].” Some effects state that an object becomes an “artifact creature”; these effects also allow the object to retain all of its prior card types and subtypes.
+
+And two, since the token loses the Artifact type, it also automatically loses its specific subtypes:
+
+205.1a Some effects set an object’s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an object’s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an object’s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the object’s card type is removed. Removing an object’s subtype doesn’t affect its card types at all.
+
+Whenever an ability or effect refers to an object by name, it will always explicitely say so ("card/object named", or "card(s) with the same name" and so on). Otherwise, it will always refer to the appropriate category of characteristic, such as color, type, or subtype. Therefore, if something refers to a "Food" token, it looks for the subtype "Food", which an artifact affected by Oko's +1 no longer has.
+

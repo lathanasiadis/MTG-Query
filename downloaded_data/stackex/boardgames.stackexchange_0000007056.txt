@@ -1,0 +1,28 @@
+Q:
+
+Has the significance of the term 'cast' changed?
+
+Spellshock currently has the following wording in the Gatherer:
+
+Whenever a player casts a spell, Spellshock deals 2 damage to that player.
+
+However, the original wording shown in the card image is this:
+
+Whenever any player successfully casts a spell, Spellshock deals 2 damage to him or her.
+
+To me, the word "successfully" implies casting a spell which is not countered, though I'm not aware that the word "successfully" is ever defined in the rules. Otherwise, the word "successfully" means nothing at all, since it's pretty hard to fail at casting (as opposed to resolving) a spell. In more modern parlance, we might phrase the original ability this way:
+
+Whenever a spell resolves and is not countered, Spellshock deals 2 damage to that spell's controller.
+
+Is this the original intent of the card? If so, when and why was the wording changed?
+
+A:
+
+TL;DR Yes, cards with "successfully cast" have undergone a functional rule change.
+The change you're talking about is actually a fairly old rules change - the removal of the phrase (and function) "successfully cast" was with the Sixth Edition rules changes. Previous to the Classic rules (the Sixth Edition rules changes), the Interrupt spell type still existed, and counterspells were of that type. You'd use an Interrupt to counter a spell, and it would fail being "successfully cast." See the Sixth Edition rules change letter for some specifics:
+
+Classic rules do away with interrupts. All interrupts are now instants, which means you can counter a spell any time before it resolves. (Abilities that trigger on a spell being "successfully cast" now trigger on a spell being "played.")
+
+As a result, all previous triggers based on spells being successfully cast now trigger on spells being "played," which was changed to "cast" during the M12 rules changes. This has caused a functional rules change - a spell which is cast and countered will still trigger an ability on these older "successfully cast" cards. 
+The choice was either describing these triggers as "when a spell is cast and resolves" (which is a bit complex), or widening the trigger window for these cards. Your phrasing of the original intent is close, but not quite right. For the original trigger to happen, the spell would have had to be cast and resolve. With your phrasing, copies of a spell (created with Fork, Isochron Scepter, etc.) resolve and may not be countered, but are never cast. 
+

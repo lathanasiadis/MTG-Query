@@ -1,0 +1,13 @@
+Q:
+
+Does Sheltering Word remove an existing enchantment?
+
+If a creature has an enchantment, like Defang, and I cast Sheltering Word on that creature, would the other enchantment be removed? Or does it need to be cast in response to the enchantment being played?
+
+A:
+
+No, Auras do not target the creature they are attached to once they are in play.  Auras only target a creature while they are a spell on the stack. Yes casting Sheltering Word in response to Defang would make your creature untargetable, and therefore Defang would be countered on resolution.
+
+114.1b Aura spells are always targeted. These are the only permanent spells with targets. An Aura’s target is specified by its enchant keyword ability (see rule 702.5, “Enchant”). The target(s) are chosen as the spell is cast; see rule 601.2c. An Aura permanent doesn’t target anything; only the spell is targeted. (An activated or triggered ability of an Aura permanent can also be targeted.)
+702.11b “Hexproof” on a permanent means “This permanent can’t be the target of spells or abilities your opponents control.”
+

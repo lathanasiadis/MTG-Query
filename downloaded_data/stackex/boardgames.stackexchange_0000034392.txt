@@ -1,0 +1,17 @@
+Q:
+
+Do +1/+1 counters count for Fighting?
+
+I have a 3/2 with six +1/+1 counters on it, making it a 9/8. My friend used Prey Upon targeting it with his own 5/5. He said the +1/+1 counters didn't count while fighting, and that it was just considered a 3/2. Is that true?
+
+A:
+
+No, your friend is wrong. The creatures simply deal damage equal to their power:
+
+701.11a A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
+
+A 9/8 has a power of 9, and it doesn't matter what its base power was. The whole point of power/toughness-changing effects (like +1/+1 counters) is that they change the power/toughness of the creature.
+So your friend's 5/5 will die, and your 9/8 will survive.
+
+Terminology: we say your creature has base power/toughness of 3/2, but its power/toughness is 9/8. Pretty much nothing in the game cares what base power/toughness is; the only time it's mentioned is when it's being set, like on Turn to Frog. Everything normal in the game just looks at the actual power/toughness.
+

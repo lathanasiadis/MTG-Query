@@ -1,0 +1,17 @@
+Q:
+
+Do effects that say "from your graveyard to the battlefield" count if the card is cast?
+
+As an example, Flayer of the Hatebound has, "Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to any target."
+I recently heard that when you specifically cast a creature from the graveyard it goes from graveyard > stack > battlefield and would not trigger Flayer of the Hatebound.
+Is this true?
+It seems like a very specific and niche ruling.
+
+A:
+
+It is true that abilities like the one you mention will not trigger if a creature is cast from the graveyard. In fact, that is stated in one of Flayer of the Hatebound's Gatherer rulings:
+
+If you cast a creature card from your graveyard, that card will be put on the stack before entering the battlefield. Flayer of the Hatebound won't trigger.
+
+This is a simple consequence of the facts of the situation. Flayer of the Hatebound's ability specifically triggers when a creature "enters the battlefield from your graveyard". If you cast a creature from your graveyard, it enters the stack from your graveyard and then it enters the battlefield from the stack. Neither of those match the trigger condition so the ability does not trigger.
+

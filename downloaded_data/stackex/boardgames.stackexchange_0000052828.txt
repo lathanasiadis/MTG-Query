@@ -1,0 +1,13 @@
+Q:
+
+How does Liliana's Standard Bearer work if Kaervek the Spiteful is on the battlefield?
+
+Let's say one creature has died this turn. I have Kaervek, the Spiteful on the battlefield, and then I flash in Liliana's Standard Bearer. This card has an enters-the-battlefield trigger which says "draw X cards where X is the number of creatures that died this turn".
+Obviously the Standard Bearer is going to die immediately to Kaervek's static ability. When the enters-the-battlefield trigger resolves, does it count the Standard Bearer as a creature that died this turn?
+
+A:
+
+Yes, you will draw a card for the Standard Bearer as well. This is explained in the rulings under the card in Gatherer:
+
+The value of X is determined only as the triggered ability resolves. If Liliana’s Standard Bearer dies while that ability’s on the stack, it will count itself.
+

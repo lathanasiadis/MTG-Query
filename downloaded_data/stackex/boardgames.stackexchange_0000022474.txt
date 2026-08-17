@@ -1,0 +1,24 @@
+Q:
+
+How many rules does Magic have?
+
+More specifically, how many subrules exist in the September 25, 2014 revision of the Comprehensive Rules, located here?
+
+1 Game Concepts
+
+Not a rule. This is a header.
+
+100 General
+
+Also not a rule. This is a subheader.
+Just to clarify, CR 100.1 and CR 100.1a are two different subrules. Please explain how you arrived at your number. If your solution can be generalized to cover more than one revision, please note that.
+
+A:
+
+There are 2008 subrules in the September 26, 2014 revision of the Comprehensive Rules. I found this by running the following command on Linux:
+curl --silent http://media.wizards.com/2014/downloads/MagicCompRules_20140926.txt | \
+  grep -c '^\s*[0-9]\{3\}\.[0-9]\+[a-z]*'
+
+This downloads the text version of the Comprehensive Rules and then finds every line that starts with 3 digits, a period, more digits, and possibly a letter (which is the pattern that represents a subrule).
+The number of subrules in any other revision can be found by running the same command and replacing the URL with the URL of that revision's TXT rules page.
+

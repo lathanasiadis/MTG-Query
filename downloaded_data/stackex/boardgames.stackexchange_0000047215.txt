@@ -1,0 +1,20 @@
+Q:
+
+Removal of cloudform
+
+If Cloudform is in play and is attached to a face-down (manifested) creature card, what happens to the face-down creature card if just the Cloudform enchantment itself is destroyed by another spell?  
+Does the face-down manifested creature remain in play, and can it still flipped up by paying its casting cost, or is the face-down card destroyed along with the enchantment?,
+
+A:
+
+The manifested card remains as a 2/2 creature without abilities.
+The manifest event is independent of Cloudform being attached to it.
+
+701.33. Manifest
+701.33a To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it's turned face up.
+
+Cloudform simply gives the manifested card flying and hexproof, and destroying the aura simply makes the creature lose those abilities. It will remain a 2/2 creature, however.
+Turning the manifested card face up is also independent of Cloudform:
+
+701.33b Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what that card's mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn't a creature card or it doesn't have a mana cost, it can't be turned face up this way.)
+

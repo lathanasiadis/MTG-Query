@@ -1,0 +1,19 @@
+Q:
+
+Does your Death's Shadow become bigger if you are at negative life?
+
+Is your Death's Shadow a 16/16 if you are at minus 3 life and not dead due to something like a Platinum Angel.
+
+A:
+
+No.
+From the Gatherer rulings:
+
+If your life total is negative, X is considered to be 0. (This is a change from previous rulings.)
+
+The actual comprehensive rule that supports this is:
+
+107.1b Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect sets a player’s life total to a specific value, doubles a player’s life total, or sets a creature’s power or toughness to a specific value.
+
+So in other words, you can actually have negative life, and your life is treated as being negative, but not for the purposes of calculating an effect such as Death's Shadow.
+

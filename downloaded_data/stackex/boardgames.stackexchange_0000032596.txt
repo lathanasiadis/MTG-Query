@@ -1,0 +1,20 @@
+Q:
+
+Does Persist, Modular, and Hardened Scales give me an infinite loop?
+
+First off, let me preface with that I do know that +1 and -1 counters cancel out.
+Now, the cards for this play are:
+
+1 : Arcbound Worker(or any modular 1 critter)
+  1+: Hardened Scales
+  1 : Cauldron of Souls.
+
+To set the field, all are in play, and Arcbound worker has 2 +1/+1 counters on it. (Achieved when it was brought into play, triggering Hardened Scales)
+The question is, if I give the Worker persist, have it swing, and try to bring it back from the grave, does it come back with a -1/-1 counter and a +1/+1 counter, and an additional +1/+1 counter thus resulting in a possible loop? Or do the counters cancel out before I can say Scales triggers?
+
+A:
+
+The Arcbound Worker will return with 2 +1/+1 counters and one -1/-1 counter on it, resulting in one +1/+1 counter after state-based actions.
+Hardened Scales' ability is not a triggered ability. It is a static ability with a replacement effect, so while it is in play, the Worker will always enter the battlefield with two +1/+1 counters on it; the game will never see the Worker with a single +1/+1 counter on it before state-based actions or other effects are processed.
+Therefore, when the Persisted Worker returns to play with Hardened Scales on the battlefield, the Worker will have 2 +1/+1 counters (from Modular and Hardened Scales) and a -1/-1 from Persist. State-based actions cause the -1/-1 and a +1/+1 counter to cancel out, resulting in a Worker with one +1/+1 counter on it before a player gets priority.
+

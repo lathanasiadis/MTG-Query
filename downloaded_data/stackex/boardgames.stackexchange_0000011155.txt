@@ -1,0 +1,25 @@
+Q:
+
+Can one creature block multiple attacks?
+
+I'm not much of a Magic player myself, although I do know a bit about the game. Recently, I got into an argument about whether one creature can block multiple creatures' attacks.
+It looks like rule 509.1a specifies that each blocking creature blocks one attacking creature:
+
+509.1a The defending player chooses which creatures that he or she controls, if any, will block. The chosen creatures must be untapped.
+  For each of the chosen creatures, the defending player chooses one
+  creature for it to block that's attacking him, her, or a planeswalker
+  he or she controls.
+
+But the point of the argument was, can "one" creature be chosen multiple times? Because it seemed like multiple blocking creatures could block one attack, but not the other way around.
+
+A:
+
+No, one creature cannot be chosen to block multiple attackers (unless otherwise specified on the card, like Avatar of Hope). Each blocking creature may be assigned to one attacking creature. The rule, as you've pointed out, states (emphasis mine):
+
+509.1a The defending player chooses which creatures that he or she controls, if any, will block. The
+  chosen creatures must be untapped. For each of the chosen creatures, the defending player
+  chooses one creature for it to block that’s attacking him, her, or a planeswalker he or she
+  controls.
+
+The rule starts out by saying that the defender chooses all creatures that will block. Declaring all blockers at the same time is important. The defending player then assigns each blocker to one creature to block. Since all blockers are declared at the same time, it cannot be assigned to block one creature multiple times; each blocker is assigned to one attacker when blockers are declared.
+

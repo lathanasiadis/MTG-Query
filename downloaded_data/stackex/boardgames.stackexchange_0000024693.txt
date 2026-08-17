@@ -1,0 +1,23 @@
+Q:
+
+Does killing a creature mana source that's being tapped for mana to pay for a spell counter that spell?
+
+If an opponent is using an Avacyn Pilgrim (and three forests) to cast a Cudgel Troll, and I Lightning Bolt the monk, does that counter the Troll being cast?
+Would the same be true for a Loxodon Smiter?
+
+A:
+
+Once your opponent is casting a spell, that's the only thing that's going on. (There are plenty of steps to the process, including activating mana abilities and paying costs, but it's all things that are part of casting the spell.) You have no chance to interrupt with a spell of your own. And if you cast Lightning Bolt on their Avacyn's Pilgrim at some point when you get priority before they're doing anything, they can always tap it in response for mana. So you can't stop them from getting mana, and it doesn't matter what they intend to do with that mana.
+The only way you can reasonably do something like this to stop them from casting a spell is to kill the Pilgrim before they are actually able to cast that spell. For example, if you think they might want to cast a non-instant spell, you could kill the Pilgrim before they reach their main phase, perhaps on your own turn or during their upkeep, when they can't cast it. But this doesn't counter a spell, it just hopefully keeps your opponent from having an opportunity to cast it.
+As Dragon has pointed out, mana abilities resolve immediately, without using the stack, so even if your opponent for some reason wanted to give priority to you after activating the ability, rather than just using the mana, they'd still have the mana floating in their mana pool.
+
+Now, while Avacyn's Pilgrim's ability is a mana ability and thus can't be stopped from resolving, there are ways to produce mana besides mana abilities, and those can potentially be stopped. For an ability to be a mana ability, it has to meet a few criteria:
+
+it does not have a target
+it could produce mana
+it's not a loyalty ability.
+
+So for example, Xenagos, the Reveler's +1 loyalty ability is not a mana ability: it can produce mana, but it's a loyalty ability. It uses the stack, and you'll get a chance to respond. You could kill one of your opponent's creatures in order to reduce the amount of mana it produces. However, killing Xenagos wouldn't do anything about it; the ability exists independently and will still resolve and produce mana.
+Similarly, Deathrite Shaman's first ability is not a mana ability: it can produce mana, but it has a target (a land card in a graveyard). If in response you exile that land card, the ability no longer has a legal target and it will be countered by the rules of the game, leaving your opponent without the mana. However, like with Xenagos, killing the Shaman won't stop the ability.
+But of course, most things that produce mana are mana abilities, so there's no way to stop them.
+

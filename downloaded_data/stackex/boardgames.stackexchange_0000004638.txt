@@ -1,0 +1,18 @@
+Q:
+
+Does Wrath of God really destroy creatures with shroud?
+
+I heard - (from an official MtG judge) - that Wrath of God ("Destroy all creatures") destroys creatures with the Shroud ability, because it doesn't target a single creature, it targets all creatures. 
+Is this really true? In my opinion it is very illogical.
+
+A:
+
+Yes, Wrath of God will kill all creatures with shroud.  It will also kill all creatures that have protection from white.  It won't kill creatures that are indestructible.
+To understand why this is, you have to look at the definitions of the terms.
+Shroud means: "this creature can't be the target of spells or abilities".
+Protection means (among other things): "this creature can't be the target of spells or abilities of the colour in question".
+Wrath of God just says "Destroy all creatures".  No mention of targets at all.  And I think this is where your confusion is arising.  Wrath of God doesn't "target all creatures and destroy them".  It doesn't target anything.  It just destroys them, whether they're slippery customers or not.  Boom!
+Indestructible creatures survive a Wrath because their ability ("cannot be destroyed") specifically interacts with the word "destroy" on the card Wrath of God.  Creatures with Shroud only interact with, and care about, the word "target" on a card.  If you can't find "target" written anywhere on the card, then Shroud won't have any effect on what that card can do.  
+As an interesting side point, take a look at a card like Copy Enchantment.  This puts into play a copy of an enchantment already on the battlefield.  But note that nowhere on the card does it say "target".  This means that if you copy an Aura on the battlefield, you can put that copy onto a creature with Shroud... even if the original Aura would have been unable to enchant that creature when it was cast!  Sometimes Magic does some pretty counter-intuitive things, but it's very internally consistent.
+Hope that's clarified things more than it's confused them, for you!
+

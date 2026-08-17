@@ -1,0 +1,16 @@
+Q:
+
+Removal in response to the Helm of the Host's triggered ability
+
+What happens if my enemy removes a creature equipped with Helm of the Host in response to the helm's triggered ability? Does the rule 112.7a apply? (the copy is generated normally). I am confused because the creature is not the source of the triggered ability.
+
+112.7a Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Sorcerer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it's expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
+
+A:
+
+I found this on Gatherer:
+
+If the equipped creature leaves the battlefield before the triggered ability of Helm of the Host resolves, or if there is no equipped creature, no token is created. However, if Helm of the Host leaves the battlefield while its triggered ability is on the stack, a token will be created of the creature it last equipped. If that creature has also left the battlefield, its last known information is used to determine what the token looks like.
+
+So, in this case, no token will be created.
+
