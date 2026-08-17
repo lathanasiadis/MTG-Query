@@ -1,6 +1,6 @@
 # MTG Query
 
-AI tools that helps you with *Magic: The Gathering*.
+AI tools that help you with *Magic: The Gathering*.
 Currently consisting of `rulequery.py`, a RAG application that answers rule questions.
 
 ## Features
@@ -9,10 +9,25 @@ Currently consisting of `rulequery.py`, a RAG application that answers rule ques
 The full info (oracle text, mana cost, etc) of every detected card will be appended to your prompt.
 
 - **Split cards:** No need to mention their full name (X // Y). Just X or Y suffices.
-Works for every card type with two separate cards on it (adventures, omens, prepared spells, etc)
+Works for every card type with two separate cards on it (DFCs, adventures, omens, prepared spells, etc)
 
 - **Legendary cards:** You can skip their epithet if it is not needed for disambiguation.
 For example, you can refer to *Isshin, Two Heavens as One* as *Isshin*.
+This also works with cards that follow the same template (Name, epithet).
+For example, you can use *Evendo* to refer to *Evendo, Waking Heaven*.
+
+- **Card disambiguation:** If there are multiple results for a card name you mention, you will be asked to choose between them.
+For example, if you mention "Urza" in your prompt, the program will ask for the correct one:
+```
+Multiple results detected for a given card. Which one of these is right? Reply with the line number.
+1. Urza, Prince of Kroog
+2. Urza, Planeswalker
+3. Urza, Powerstone Prodigy
+4. Urza, Chief Artificer
+5. Urza, Lord Protector
+6. Urza, Lord High Artificer
+>>> 
+```
 
 - **Cited sources:** Before answering your question, a retrieval system finds the most relevant rules and Q&As from stack exchange.
 These are fed to the model as sources, so you can inspect them to validate the model's answer.

@@ -38,11 +38,24 @@ if __name__ == "__main__":
     # Add detected card info to prompt
     cards_detected = State.automaton.detect(prompt)
     if len(cards_detected) != 0:
-        # TODO: handle card disambiguation
-        cards = [find_card(c) for c in cards_detected]
-        cards = list(filter(lambda x: x is not None, cards))
-        cards = [str(c.for_rules_prompt()) for c in cards]
+        unique_cards = [card for card in cards_detected if type(card) == str]
+        multiple_cards = [card for card in cards_detected if type(card) == list]
+        for cards in multiple_cards:
+            print("Multiple results detected for a given card. Which one of these is right? Reply with the line number.")
+            for i, card in enumerate(cards):
+                print(f"{i+1}. {card}")
+            while True:
+                num = input(">>> ")
+                if num.isnumeric():
+                    num = int(num)
+                    if num > 0 and num <= len(cards):
+                        unique_cards.append(cards[num-1])
+                        break
+                print("Wrong line number detected!")
 
+        cards = [find_card(c) for c in unique_cards]
+        cards = [str(c.for_rules_prompt()) for c in cards if c is not None]
+        
         prompt += f"\nRelated Cards:\n{"\n".join(cards)}"
 
     response = queries_agent.invoke(
@@ -80,9 +93,6 @@ if __name__ == "__main__":
     )
 
     print(answer["messages"][-1].content)
-
-    # for chunk in answer_model.stream(Prompts.rules.format(question=prompt, rel_docs=selected)):
-    #     print(chunk.text, end="", flush=True)
 
     print("\nSources used:\n")
     for doc in selected_titles:
