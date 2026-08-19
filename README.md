@@ -56,7 +56,7 @@ and models are doing behind the scenes by following the instructions in `example
 
 ### Streamlit (`app.py`)
 
-![screenshots/streamlit.png]
+![](screenshots/streamlit.png)
 
 ### CLI (`rulequery.py`)
 
