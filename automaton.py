@@ -1,7 +1,10 @@
 from collections import defaultdict
 from functools import reduce
+
 import ahocorasick
+
 from card import Card, load_cards
+
 
 class Automaton:
     def __init__(self, cards: list[Card]):
@@ -57,7 +60,7 @@ class Automaton:
             self._automaton.add_word(key, (key, val))
         self._automaton.make_automaton()
 
-    def detect(self, haystack) -> list[str | list[str]]:
+    def detect(self, haystack: str) -> list[str | list[str]]:
         found = defaultdict(list)
         key_to_orig = {}
         for end_idx, (key, orig) in self._automaton.iter(haystack.lower()):
@@ -75,7 +78,7 @@ class Automaton:
         # For example, for the haystack "Glory Seeker", we want to return ["Glory Seeker"],
         # not ["Glory Seeker", "Glory", "Seeker"] ! (real cards btw)
         results = []
-        for k,v in found.items():
+        for k, v in found.items():
             # returned results that are superstrings of the result we're examining
             candidate_keys = list(filter(lambda x: k in x and k != x, found.keys()))
             # no superstrings? add to final results
@@ -84,9 +87,9 @@ class Automaton:
                 continue
 
             # for every occurence of the needle
-            for start_idx, end_idx in v: 
+            for start_idx, end_idx in v:
                 # for every superstring found of the needle
-                for candidate_k in candidate_keys: 
+                for candidate_k in candidate_keys:
                     # A needle occurence must not overlap with any superstring needle occurence
                     # in order to be appear on its own.
                     found_overlap = False
@@ -100,7 +103,7 @@ class Automaton:
         return results
 
 
-def test_automaton(automaton, haystack, expected_needles):
+def test_automaton(automaton: Automaton, haystack: str, expected_needles: list[str]):
     results = automaton.detect(haystack)
     if set(results) != set(expected_needles):
         print(f"[TEST FAILED] Haystack: {haystack}")
@@ -118,11 +121,9 @@ if __name__ == "__main__":
     # Split card name expansion
     test_automaton(automaton, "Fire", ["Fire // Ice"])
     # substring filtering (needle contained in a word -- we don't want to match "Ith")
-    test_automaton(automaton, "with", []) 
+    test_automaton(automaton, "with", [])
     test_automaton(automaton, "ithw", [])
     # Substring filtering (needle contained in another needle)
     test_automaton(automaton, "Glory Seeker Glory Seeker Glory Seeker", ["Glory Seeker"])
     # add some extra "Glory"
     test_automaton(automaton, "Glory Glory Seeker Glory Glory Seeker Glory Seeker", ["Glory", "Glory Seeker"])
-
-
