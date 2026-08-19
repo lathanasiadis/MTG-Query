@@ -38,7 +38,7 @@ class Card:
 
     def for_rules_prompt(self):
         data = asdict(self)
-        
+
         prompt_fields = [
             "name",
             "mana_cost",
@@ -71,4 +71,3 @@ def load_cards() -> list[Card]:
 
 if __name__ == "__main__":
     cards = load_cards()
-

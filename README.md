@@ -3,6 +3,8 @@
 AI tools that help you with *Magic: The Gathering*.
 Currently consisting of `rulequery.py`, a RAG application that answers rule questions.
 
+A graphical version is also available, built with `steamlit`: `app.py`.
+
 ## Features
 
 - **Card detection:** You can mention card names in your query.
@@ -51,6 +53,12 @@ and models are doing behind the scenes by following the instructions in `example
 (This is optional.)
 
 ## Example
+
+### Streamlit (`app.py`)
+
+![screenshots/streamlit.png]
+
+### CLI (`rulequery.py`)
 
 ```
 >>> Enter your rules question: Avery controls a tapped Skyshroud Elf and Ashnod's Altar. Can they cast Ragost, Deft Gastronaut?
