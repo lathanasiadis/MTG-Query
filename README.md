@@ -1,9 +1,9 @@
 # MTG Query
 
 AI tools that help you with *Magic: The Gathering*.
-Currently consisting of `rulequery.py`, a RAG application that answers rule questions.
+Currently consisting of `src/mtgquery/rulequery.py`, a RAG application that answers rule questions.
 
-A graphical version is also available, built with `steamlit`: `app.py`.
+A graphical version is also available, built with `steamlit`: `src/mtgquery/app.py`.
 
 ## Features
 
@@ -42,10 +42,10 @@ You need to rename `example.env` to `.env` and fill in your API key.
 
 - Dependencies are managed with `uv`. After installing it, run `uv sync` to download the dependencies and create the virtual environment.
 
-- run `uv run parse_rules.py` to split MTG's comprehensive rulebook (located in `downloaded_data/magic_cr.txt`) into chapter-sized chunks.
+- run `uv run src/mtgquery/scripts/parse_rules.py` to split MTG's comprehensive rulebook (located in `data/magic_cr.txt`) into chapter-sized chunks.
 
 - You will need to create the embeddings for the MTG rulebook and the stackexchange Q&As.
-Run `uv run embed.py` which will create a Chroma vector store in `.chroma_db`.
+Run `uv run src/mtgquery/scripts/embed.py` which will create a Chroma vector store in `.chroma_db`.
 The stack exchange data has been downloaded using [stackexchange-dataset](https://github.com/EleutherAI/stackexchange-dataset/tree/master) frm EleutherAI and adding a filter for MTG tags.
 
 - Lastly, you can set up LangSmith tracing if you're curious on what the agent
