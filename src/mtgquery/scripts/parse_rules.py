@@ -1,7 +1,7 @@
 import os
 import unicodedata
 
-from constants import files
+from mtgquery.constants import files
 
 if __name__ == "__main__":
     with open(files.COMP_RULES, "r") as f:

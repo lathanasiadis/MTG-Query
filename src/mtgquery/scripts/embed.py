@@ -1,22 +1,21 @@
-import os
 from pathlib import Path
 
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 
-from constants import files, chroma_colls
-from data import State
+from mtgquery.constants import chroma_colls, files
+from mtgquery.state import State
 
 
-def load_documents(dir_path: str | Path) -> list[Document]:
-    docs = []
-    for (root, dirs, files) in os.walk(dir_path):
-        for file in files:
-            file_path = os.path.join(root, file)
+def load_documents(dir_path: Path) -> list[Document]:
+    docs: list[Document] = []
+    for (root, _, dir_files) in dir_path.walk():
+        for file in dir_files:
+            file_path = Path(root).absolute().joinpath(file)
             with open(file_path, "r") as f:
                 docs.append(Document(
                     page_content = f.read(),
-                    metadata = {"source": file_path}
+                    metadata = {"source": str(file_path)}
                 ))
     return docs
 

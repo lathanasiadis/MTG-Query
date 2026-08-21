@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_deepseek import ChatDeepSeek
 
-from constants import prompts
-from data import State, load_tool_dependencies
-from TokenUsage import TokenUsage
-from tools import find_card, retrieve
+from mtgquery.constants import prompts
+from mtgquery.state import State, load_tool_dependencies
+from mtgquery.TokenUsage import TokenUsage
+from mtgquery.tools import find_card, retrieve
 
 
 @dataclass

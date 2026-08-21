@@ -5,10 +5,10 @@ import chromadb
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-from automaton import Automaton
-from card import Card, load_cards
-from constants import chroma_colls, files
-from TagTree import TagTree
+from mtgquery.automaton import Automaton
+from mtgquery.card import Card, load_cards
+from mtgquery.constants import chroma_colls, files
+from mtgquery.TagTree import TagTree
 
 
 @dataclass
@@ -69,4 +69,14 @@ def load_tool_dependencies():
     _ = State.qa_store
 
 if __name__ == "__main__":
-    load_tool_dependencies()
+    print("Accessing cards...")
+    _ = State.cards
+    print("Acessing the automaton...")
+    _ = State.automaton
+    print("Acessing TagTree...")
+    _ = State.tag_tree
+    print("Acessing emb_model...")
+    _ = State.emb_model
+    print("Acessing vector stores...")
+    _ = State.rules_store
+    _ = State.qa_store

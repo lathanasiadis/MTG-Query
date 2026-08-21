@@ -1,9 +1,7 @@
-from __future__ import annotations
-
 from typing import Literal
 
-from card import Card
-from data import State
+from mtgquery.card import Card
+from mtgquery.state import State
 
 
 def find_card(name: str) -> Card | None:

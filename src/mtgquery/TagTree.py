@@ -1,5 +1,5 @@
-from constants import files, tags
-from utils import flatten_list, load_json_file
+from mtgquery.constants import files, tags
+from mtgquery.utils import flatten_list, load_json_file
 
 
 def get_example_cards(tag, id_to_card, N=5):

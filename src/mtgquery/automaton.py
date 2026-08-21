@@ -3,7 +3,7 @@ from functools import reduce
 
 import ahocorasick
 
-from card import Card, load_cards
+from mtgquery.card import Card, load_cards
 
 
 class Automaton:

@@ -1,8 +1,8 @@
 from dataclasses import asdict, dataclass, field
 from typing import Literal
 
-from constants import files
-from utils import load_json_file
+from mtgquery.constants import files
+from mtgquery.utils import load_json_file
 
 
 @dataclass

@@ -1,10 +1,9 @@
 from pathlib import Path
-from typing import Final
 
 _constants_dir = Path(__file__).parent.resolve()
-_app_dir = _constants_dir.parent.resolve()
+_app_dir = _constants_dir.parent.resolve().parent.resolve().parent.resolve()
 
-DATA_DIR_NAME: Final = "downloaded_data"
+DATA_DIR_NAME = "data"
 DATA_DIR = _app_dir.joinpath(DATA_DIR_NAME)
 
 ORACLE_CARDS_ALL = DATA_DIR.joinpath("oracle-cards-all.json")

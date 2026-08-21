@@ -2,8 +2,8 @@ import datetime
 import os
 from typing import Any
 
-from constants import files, links
-from utils import get_and_decompress, save_json_file
+from mtgquery.constants import files, links
+from mtgquery.utils import get_and_decompress, save_json_file
 
 
 def filter_non_cards(oracle_cards):
