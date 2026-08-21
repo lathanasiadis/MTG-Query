@@ -1,12 +1,15 @@
 from dataclasses import dataclass
 from functools import cached_property
+
 import chromadb
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-from TagTree import TagTree
-from constants import Constants as C
-from card import Card, load_cards
+from langchain_huggingface import HuggingFaceEmbeddings
+
 from automaton import Automaton
+from card import Card, load_cards
+from constants import chroma_colls, files
+from TagTree import TagTree
+
 
 @dataclass
 class _State:
@@ -20,7 +23,7 @@ class _State:
 
     @cached_property
     def tag_tree(self) -> TagTree:
-        return TagTree(C.ORACLE["TAGS"])
+        return TagTree(files.ORACLE_TAGS)
 
     @cached_property
     def emb_model(self):
@@ -32,13 +35,13 @@ class _State:
     # Vector Stores
     @cached_property
     def _chroma_client(self):
-        return chromadb.PersistentClient(path=C.CHROMA_DB)
+        return chromadb.PersistentClient(path=files.CHROMA_DB)
 
     @cached_property
     def rules_store(self):
         return Chroma(
             client=self._chroma_client,
-            collection_name=C.CHROMA_COLLECTIONS["RULES"],
+            collection_name=chroma_colls.RULES,
             embedding_function=self.emb_model
         )
 
@@ -46,13 +49,13 @@ class _State:
     def qa_store(self):
         return Chroma(
             client=self._chroma_client,
-            collection_name=C.CHROMA_COLLECTIONS["STACKEX"],
+            collection_name=chroma_colls.STACKEX,
             embedding_function=self.emb_model
         )
 
 
-
 State = _State()
+
 
 def load_tool_dependencies():
     """
@@ -64,3 +67,6 @@ def load_tool_dependencies():
     # vector stores will also load chroma db and emb model
     _ = State.rules_store
     _ = State.qa_store
+
+if __name__ == "__main__":
+    load_tool_dependencies()

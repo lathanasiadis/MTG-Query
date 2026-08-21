@@ -1,5 +1,6 @@
-from constants import Constants as C
+from constants import files, tags
 from utils import flatten_list, load_json_file
+
 
 def get_example_cards(tag, id_to_card, N=5):
     examples = ""
@@ -60,17 +61,17 @@ class TreeNode:
 
     def describe(self, example_cards=True):
         text = f"Tag:\n{self.get_label()}\n"
-        
+
         if self.parents != []:
             text += "\nHierarchy:\n"
             for item in self.get_ancestries():
                 text += item + "\n"
-        
+
         if self.tag["aliases"] != []:
             text += "\nAliases:\n"
             for al in self.tag["aliases"]:
                 text += al + "\n"
-        
+
         if self.tag["description"] is not None:
             text += f"\nDescription:\n{self.tag['description']}\n"
 
@@ -79,16 +80,15 @@ class TreeNode:
 
         if example_cards and self.example_cards != "":
             text += f"\nExample cards:\n{self.example_cards}"
-            
+
         return text
 
 class TagTree:
-    def __init__(self, otags_file, filter_tags=True, llm_descriptions=None, kaggle=False):
+    def __init__(self, otags_file, filter_tags=True, llm_descriptions=None):
         otags = load_json_file(otags_file)
 
         if filter_tags:
-            removed_tags = C.KAGGLE["REMOVED_TAGS"] if kaggle else C.FILES["REMOVED_TAGS"]  
-            with open(removed_tags, "r") as f:
+            with open(files.REMOVED_TAGS, "r") as f:
                 removed_tags = f.read().split("\n")
 
             otags = filter(lambda tag: tag["label"] not in removed_tags, otags)
@@ -96,12 +96,11 @@ class TagTree:
             # hotfix:
             otags = list(filter(lambda tag: not tag["label"].startswith("cycle"), otags))
 
-        ocards = load_json_file(C.KAGGLE["CARDS"]) if kaggle else load_json_file(C.ORACLE["CARDS"])
-        id_to_card = {card["oracle_id"]: card for card in ocards}
+        id_to_card = {card["oracle_id"]: card for card in load_json_file(files.ORACLE_CARDS)}
 
         self.root_nodes = []
         self.nodes = []
-        
+
         self.name_to_id = {t["label"]: t["id"] for t in otags}
 
         # First pass: create a TreeNode for every tag
@@ -132,7 +131,7 @@ class TagTree:
                 lambda x: x is not None,
                 (self.node_from_id(parent_id) for parent_id in tag_node.tag["parent_ids"])
                 ))
-            
+
             if tag["parent_ids"] == []:
                 self.root_nodes.append(tag_node)
             self.nodes.append(tag_node)
@@ -148,9 +147,9 @@ if __name__ == "__main__":
     """
     When TagTree is ran as a standalone program, it produces the list of tags thats should be ignored
     """
-    tree = TagTree(C.ORACLE["TAGS"], filter_tags=False)
-    with open(C.FILES["REMOVED_TAGS"], "w") as f:
-        for tag in C.TAGS_TO_REMOVE:
+    tree = TagTree(files.ORACLE_TAGS, filter_tags=False)
+    with open(files.REMOVED_TAGS, "w") as f:
+        for tag in tags.TO_REMOVE:
             tag_node = tree.node_from_label(tag)
             assert tag_node is not None, "Tag to remove does not exist"
             f.write(tag + "\n")

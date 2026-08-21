@@ -1,8 +1,9 @@
-from dataclasses import dataclass, field, asdict
-from typing import Optional, Literal
+from dataclasses import asdict, dataclass, field
+from typing import Literal
 
+from constants import files
 from utils import load_json_file
-from constants import Constants as C
+
 
 @dataclass
 class CardFace:
@@ -10,9 +11,9 @@ class CardFace:
     mana_cost: str
     type_line : str
     oracle_text: str
-    power: Optional[str] = None
-    toughness: Optional[str] = None
-    color: Optional[list[Literal["W", "U", "B", "R", "G"]]] = None
+    power: str | None = None
+    toughness: str | None = None
+    color: list[Literal["W", "U", "B", "R", "G"]] | None = None
 
 
 @dataclass
@@ -28,13 +29,13 @@ class Card:
     price: float
     edhrec_rank: int
     card_faces: list[CardFace] = field(default_factory=list)
-    colors: Optional[list[Literal["W", "U", "B", "R", "G"]]] = None
-    oracle_text: Optional[str] = None
-    mana_cost: Optional[str] = None
-    power: Optional[str] = None
-    toughness: Optional[str] = None
-    loyalty: Optional[str] = None
-    produced_mana: Optional[list[Literal["W", "U", "B", "R", "G"]]] = None
+    colors: list[Literal["W", "U", "B", "R", "G"]] | None = None
+    oracle_text: str | None = None
+    mana_cost: str | None = None
+    power: str | None = None
+    toughness: str | None = None
+    loyalty: str | None = None
+    produced_mana: list[Literal["W", "U", "B", "R", "G"]] | None = None
 
     def for_rules_prompt(self):
         data = asdict(self)
@@ -58,7 +59,7 @@ class Card:
 
 
 def load_cards() -> list[Card]:
-    cards = load_json_file(C.FILES["CARDS"])
+    cards = load_json_file(files.CARDS)
     ret = []
     for card in cards:
         if card.get("card_faces") is not None:
@@ -71,3 +72,4 @@ def load_cards() -> list[Card]:
 
 if __name__ == "__main__":
     cards = load_cards()
+    print(len(cards))

@@ -1,8 +1,10 @@
 import datetime
 import os
+from typing import Any
 
-from constants import Constants as C
+from constants import files, links
 from utils import get_and_decompress, save_json_file
+
 
 def filter_non_cards(oracle_cards):
     # Ignore MTG Arena cards
@@ -42,7 +44,7 @@ def filter_non_cards(oracle_cards):
     return list(filtered)
 
 
-def add_if_exists(original: dict, filtered: dict, field: str, default=None):
+def add_if_exists(original: dict[str, Any], filtered: dict[str, Any], field: str, default=None):
     """
     If field exists in the original dict, add its value to the filtered dict.
     If field does not exist and default is set, add the default value to the filtered dict.
@@ -57,7 +59,7 @@ def add_if_exists(original: dict, filtered: dict, field: str, default=None):
 def clean_card_db(original_db):
     clean_db = []
     for card in original_db:
-        
+
         # Attributes present in every card
         d = {
             "name": card["name"],
@@ -69,7 +71,7 @@ def clean_card_db(original_db):
             "oracle_tags": card["oracle_tags"],
             "type_line": card["type_line"]
         }
-    
+
         # Add price attribute. Prefer EUR values over USD
         if card["prices"]["eur"] is not None:
             d["price"] = float(card["prices"]["eur"])
@@ -81,7 +83,7 @@ def clean_card_db(original_db):
             d["price"] = float(card["prices"]["usd_foil"])
         else:
             d["price"] = 0.0
-        
+
         # Attributes that may not exist depending
         # (e.g only creatures have power/toughness)
         for field in [
@@ -94,10 +96,10 @@ def clean_card_db(original_db):
             "produced_mana",
         ]:
             add_if_exists(card, d, field)
-    
+
         # EDHREC Rank can be used to sort results, so I want the field to always be present
         add_if_exists(card, d, "edhrec_rank", 99999)
-    
+
         # Add card faces
         card_faces = card.get("card_faces")
         if card_faces is not None:
@@ -112,14 +114,14 @@ def clean_card_db(original_db):
                 add_if_exists(cf, cur_face, "power")
                 add_if_exists(cf, cur_face, "toughness")
                 add_if_exists(cf, cur_face, "color")
-    
+
                 d["card_faces"].append(cur_face)
-        
+
         clean_db.append(d)
     return clean_db
 
 
-def clean_tags_dict(d: dict) -> dict:
+def clean_tags_dict(d: dict[str, Any]) -> dict[str, Any]:
     """
     Given the 'oracle-tag': 'description' dictionary, remove three types of keys:
     a) tags not needed for the physical game (seek, conjure)
@@ -136,20 +138,13 @@ def clean_tags_dict(d: dict) -> dict:
                                     and "tutor" not in x, d)}
 
 
-def get_prefix_tags(d: dict, prefix: str) -> dict:
-    """
-    Given a dictionary, return a dictionary with only the keys that contain prefix
-    """
-    return {k: d[k] for k in filter(lambda x: prefix in x, d)}
-
-
 def create_links_dict(cards):
     """
     Create a dictionary that maps card names to scryfall links
     cards should not include tokens that have the same name as cards
     (e.g Ajani's Pridemate) because they can overwrite the link entry
     for the actual card
-    
+
     Double-faced and split cards are added 3 times in the dict:
     one with their full name (X // Y) and one with X and Y both,
     allowing for easy searching.
@@ -163,14 +158,14 @@ def create_links_dict(cards):
         card_links[parts[0]] = card_links[card_name]
         card_links[parts[1]] = card_links[card_name]
 
-    save_json_file(card_links, C.FILES["LINKS"])
+    save_json_file(card_links, files.LINKS)
 
 
 def fetch_data(check_for_new=True):
     if check_for_new:
-        os.makedirs(C.DATA_DIR, exist_ok=True)
+        os.makedirs(files.DATA_DIR, exist_ok=True)
         try:
-            with open(C.FILES["DL_TIMESTAMP"], "r") as f:
+            with open(files.TIMESTAMP, "r") as f:
                 timestamp = f.read().strip()
                 last_dl_date = datetime.datetime.strptime(timestamp, "%Y%m%d%H%M%S")
                 now = datetime.datetime.today()
@@ -183,10 +178,10 @@ def fetch_data(check_for_new=True):
 
     if must_download:
         print("Downloading new card data... ")
-        cards = get_and_decompress(C.LINKS["CARDS"])
-        save_json_file(cards, C.ORACLE["CARDS_ALL"])
+        cards = get_and_decompress(links.ORACLE_CARDS)
+        save_json_file(cards, files.ORACLE_CARDS_ALL)
         cards = filter_non_cards(cards)
-        save_json_file(cards, C.ORACLE["CARDS"])
+        save_json_file(cards, files.ORACLE_CARDS)
         create_links_dict(cards)
 
         # Add empty list attribute for oracle tags; will fill later
@@ -195,12 +190,12 @@ def fetch_data(check_for_new=True):
 
         card_is_funny = {card["oracle_id"]: card["set_type"] == "funny" for card in cards}
 
-        tags = get_and_decompress(C.LINKS["TAGS"])
+        tags = get_and_decompress(links.ORACLE_TAGS)
         for tag in tags:
             # Remove un-set cards from taggings
             # (don't want them to show up in example cards for each tag later on)
             tag["taggings"] = list(filter(lambda t: not card_is_funny.get(t["oracle_id"]), tag["taggings"]))
-        save_json_file(tags, C.ORACLE["TAGS"])
+        save_json_file(tags, files.ORACLE_TAGS)
 
         # Add every card's tags to its dict
         id_to_card = {card["oracle_id"]: card for card in cards}
@@ -214,9 +209,9 @@ def fetch_data(check_for_new=True):
 
         # Remove k-v pairs I don't need from the card db and save it
         clean_db = clean_card_db(cards)
-        save_json_file(clean_db, C.FILES["CARDS"])
-        
-        with open(C.FILES["DL_TIMESTAMP"], "w") as f:
+        save_json_file(clean_db, files.CARDS)
+
+        with open(files.TIMESTAMP, "w") as f:
             cur_date = datetime.datetime.today().strftime("%Y%m%d%H%M%S")
             f.write(cur_date)
 

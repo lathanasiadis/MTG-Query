@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_deepseek import ChatDeepSeek
 
-from constants import Prompts
+from constants import prompts
 from rulequery import Queries
 from TokenUsage import TokenUsage
 from tools import find_card, retrieve
@@ -17,12 +17,12 @@ if "stage" not in st.session_state:
     st.session_state.app = State
     st.session_state.queries_agent = create_agent(
         "deepseek-chat",
-        system_prompt = Prompts.retrieval,
+        system_prompt = prompts.RETRIEVAL,
         response_format = Queries
     )
     st.session_state.answer_agent = create_agent(
         "deepseek-v4-flash",
-        system_prompt = Prompts.rules
+        system_prompt = prompts.ANSWER
     )
     st.session_state.clf_model = ChatDeepSeek(model="deepseek-chat")
     st.session_state.token_usage = TokenUsage()
@@ -70,7 +70,7 @@ if submitted:
         with open(r, "r") as f:
             text = "Document " + r + " :\n" + f.read() + "\n"
         response = clf_model.invoke([
-            ("system", Prompts.selection),
+            ("system", prompts.SELECTION),
             ("human", f"{prompt}\n\n{text}")
         ])
         token_usage.add(response.usage_metadata)

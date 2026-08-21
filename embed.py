@@ -1,11 +1,14 @@
 import os
-from langchain_core.documents import Document
-from langchain_chroma import Chroma
+from pathlib import Path
 
-from constants import Constants as C
+from langchain_chroma import Chroma
+from langchain_core.documents import Document
+
+from constants import files, chroma_colls
 from data import State
 
-def load_documents(dir_path: str) -> list[Document]:
+
+def load_documents(dir_path: str | Path) -> list[Document]:
     docs = []
     for (root, dirs, files) in os.walk(dir_path):
         for file in files:
@@ -19,19 +22,19 @@ def load_documents(dir_path: str) -> list[Document]:
 
 if __name__ == "__main__":
     print("Loading rules...")
-    rule_docs = load_documents(C.RULES_DIR)
+    rule_docs = load_documents(files.RULES_DIR)
     print("Loading stack exchange QAs...")
-    qa_docs = load_documents(C.STACKEX_DIR)
+    qa_docs = load_documents(files.STACKEX_DIR)
 
     rules_store = Chroma(
-        collection_name=C.CHROMA_COLLECTIONS["RULES"],
+        collection_name=chroma_colls.RULES,
         embedding_function=State.emb_model,
-        persist_directory=C.CHROMA_DB,
+        persist_directory=files.CHROMA_DB,
     )
     qa_store = Chroma(
-        collection_name=C.CHROMA_COLLECTIONS["STACKEX"],
+        collection_name=chroma_colls.STACKEX,
         embedding_function=State.emb_model,
-        persist_directory=C.CHROMA_DB
+        persist_directory=files.CHROMA_DB
     )
 
     print("Adding rules to the vector store...")

@@ -1,8 +1,12 @@
-import requests
 import gzip
 import json
+from pathlib import Path
+from typing import Any
 
-def get_and_decompress(link):
+import requests
+
+
+def get_and_decompress(link: str):
     headers = {"User-Agent": "MTG Query 0.1"}
 
     # Fetch download link, then download the actual data
@@ -16,17 +20,17 @@ def get_and_decompress(link):
     return [json.loads(line) for line in content.split("\n")[:-1]]
 
 
-def load_json_file(filename):
+def load_json_file(filename: str | Path):
     with open(filename, "r") as f:
         return json.load(f)
 
 
-def save_json_file(obj, filename):
+def save_json_file(obj, filename: str | Path):
     with open(filename, "w") as f:
         json.dump(obj, f)
 
 
-def flatten_list(x):
+def flatten_list(x: list[Any]):
     found_list = True
     while found_list:
         found_list = False

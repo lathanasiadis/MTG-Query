@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_deepseek import ChatDeepSeek
 
-from constants import Prompts
+from constants import prompts
 from data import State, load_tool_dependencies
 from TokenUsage import TokenUsage
 from tools import find_card, retrieve
@@ -30,13 +30,13 @@ if __name__ == "__main__":
 
     queries_agent = create_agent(
         model="deepseek-chat",
-        system_prompt=Prompts.retrieval,
+        system_prompt=prompts.RETRIEVAL,
         response_format=Queries
     )
 
     answer_agent = create_agent(
         model="deepseek-v4-flash",
-        system_prompt=Prompts.rules,
+        system_prompt=prompts.ANSWER,
     )
 
     prompt = "Question:\n" + input(">>> Enter your rules question: ") + "\n"
@@ -85,7 +85,7 @@ if __name__ == "__main__":
         with open(r, "r") as f:
             text = "Document " + r + " :\n" + f.read() + "\n"
         response = model.invoke([
-            ("system", Prompts.selection),
+            ("system", prompts.SELECTION),
             ("human", f"{prompt}\n\n{text}")
         ])
         token_usage.add(response.usage_metadata)
@@ -107,6 +107,6 @@ if __name__ == "__main__":
     for doc in selected_titles:
         print(f"- {doc}")
 
-    print("")
+    print()
     token_usage.add(answer["messages"][-1].usage_metadata)
     token_usage.calculate()

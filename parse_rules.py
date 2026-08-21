@@ -1,10 +1,10 @@
-import unicodedata
 import os
+import unicodedata
 
-from constants import Constants as C
+from constants import files
 
 if __name__ == "__main__":
-    with open(C.COMP_RULES, "r") as f:
+    with open(files.COMP_RULES, "r") as f:
         lines = unicodedata.normalize("NFKD", f.read()).split("\n")
 
     lines = list(filter(lambda line: line != " ", lines))
@@ -16,8 +16,8 @@ if __name__ == "__main__":
 
     # These rules consist of over 90 and 200 sub-rules respectively, one each for each action and ability
     # Each one will be split to a separate file, since the context of the nearby actions/abilities does not matter
-    kw_actions_dir = C.RULES_DIR + "/7. Additional Rules/701. Keyword Actions"
-    kw_abiities_dir = C.RULES_DIR + "/7. Additional Rules/702. Keyword Abilities"
+    kw_actions_dir = files.RULES_DIR.joinpath("7. Additional Rules/701. Keyword Actions")
+    kw_abiities_dir = files.RULES_DIR.joinpath("7. Additional Rules/702. Keyword Abilities")
 
     os.makedirs(kw_actions_dir, exist_ok=True)
     os.makedirs(kw_abiities_dir, exist_ok=True)
@@ -29,7 +29,7 @@ if __name__ == "__main__":
         words = line.split(" ")
 
         if len(words[0]) == 2:
-            cur_dir = C.RULES_DIR + "/" + line
+            cur_dir = files.RULES_DIR.joinpath(line)
             os.makedirs(cur_dir, exist_ok=True)
             continue
 
@@ -51,12 +51,12 @@ if __name__ == "__main__":
 
             # keyword actions and abilities: header rule parsed here
             if in_kw_actions:
-                cur_file = open(kw_actions_dir + "/" + line + ".txt", "w")
+                cur_file = open(kw_actions_dir.joinpath(line + ".txt"), "w")
             elif in_kw_abilities:
-                cur_file = open(kw_abiities_dir + "/" + line + ".txt", "w")
+                cur_file = open(kw_abiities_dir.joinpath(line + ".txt"), "w")
             else:
                 assert cur_dir is not None, "assumption about CR structure has been broken"
-                cur_file = open(cur_dir + "/" + line + ".txt", "w")
+                cur_file = open(cur_dir.joinpath(line + ".txt"), "w")
 
         assert cur_file != None, "assumption about CR structure has been broken"
 
@@ -64,14 +64,13 @@ if __name__ == "__main__":
         if in_kw_actions and (len(words[0]) > 6 or not words[0].startswith("701.1")):
             if words[0][-1] == ".":
                 cur_file.close()
-                cur_file = open(kw_actions_dir + "/" + line + ".txt", "w")
+                cur_file = open(kw_actions_dir.joinpath(line + ".txt"), "w")
         if in_kw_abilities and (len(words[0]) > 6 or not words[0].startswith("702.1")):
             if words[0][-1] == ".":
                 cur_file.close()
-                cur_file = open(kw_abiities_dir + "/" + line + ".txt", "w")
+                cur_file = open(kw_abiities_dir.joinpath(line + ".txt"), "w")
 
         cur_file.write(line + "\n")
 
     assert cur_file != None, "assumption about CR structure has been broken"
     cur_file.close()
-    
