@@ -24,6 +24,7 @@ dependencies = [
 dev = [
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.3",
+    "pandas-stubs>=3.0.5.260730",
 ]
 
 [build-system]

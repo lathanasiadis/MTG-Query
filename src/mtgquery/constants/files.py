@@ -21,5 +21,8 @@ COMP_RULES = DATA_DIR.joinpath("magic_cr.txt")
 RULES_DIR = DATA_DIR.joinpath("rules")
 STACKEX_DIR = DATA_DIR.joinpath("stackex")
 
+RETRIEVAL_DATASET = DATA_DIR.joinpath("rulesguru_data.csv")
+RESULTS_DIR = _app_dir.joinpath("results")
+
 REMOVED_TAGS = DATA_DIR.joinpath(".removed-tags.txt")
 TAG_LLM_DESCS = DATA_DIR.joinpath("llm-descriptions.json")

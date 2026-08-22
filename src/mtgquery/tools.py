@@ -18,4 +18,4 @@ def retrieve(query: str, corpus: Literal["rules", "qa"], k: int = 3):
     query = "Represent this sentence for searching relevant passages: " + query
     store = State.rules_store if corpus == "rules" else State.qa_store
     results = store.similarity_search(query, k=k)
-    return [res.metadata["source"] for res in results]
+    return results
