@@ -74,8 +74,11 @@ def _append_cards(question: str, k: int = 5):
     detected_cards = State.automaton.detect(question)
     if len(detected_cards) > 0:
         detected_cards = [find_card(c) for c in detected_cards]
-        question += "\n".join(str(detected_cards))
+        # TODO card disambiguation
+        detected_cards = [x for x in detected_cards if x is not None]
+        detected_cards = [str(c.for_rules_prompt()) for c in detected_cards]
 
+        question += "\n".join(detected_cards)
     return _question_only(question, k)
 
 
